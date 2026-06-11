@@ -135,3 +135,17 @@ body.locked #map-bg { display: none; }
 /* Innehåll döljs under reveal */
 body.revealing .content-overlay { opacity: 0; transition: opacity 0.6s; pointer-events: none; }
 body:not(.revealing) .content-overlay { opacity: 1; transition: opacity 1.2s; }
+
+/* Beige tint över kartan när hero visas — ger bättre kontrast mot texten.
+   Fadear in synkat med .content-overlay. */
+#hero-tint {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: #e8d8b4;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 1.2s;
+}
+body:not(.revealing) #hero-tint { opacity: 0.1; }
+body.revealing #hero-tint { opacity: 0; transition: opacity 0.6s; }
