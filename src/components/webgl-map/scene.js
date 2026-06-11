@@ -169,24 +169,6 @@ export async function buildScene() {
   for (let i = 0; i <= N; i++) driveWaypoints.push(sampleDriveAt((i / N) * totalDriveLen))
   const camDrivePoly = catmullRomPolyline(driveWaypoints, 80)  // 320 punkter total, glatt nog
 
-  // sampleRoad-positionerade sprites: wagon (på vägen), tree3 (vid sidan),
-  // village1 (på vägen). Matchar map.js raderna 233-235 exakt.
-  const addRoadSprite = (key, t, perpOffset, size, opts) => {
-    const [x, y] = sampleRoad(drivingPoly, t, perpOffset)
-    const s = new Sprite(textures[key])
-    s.anchor.set(opts?.anchorX ?? 0.5, opts?.anchorY ?? 0.5)
-    s.width = size
-    s.height = size
-    s._baseScale = { x: s.scale.x, y: s.scale.y }
-    s.x = x; s.y = y
-    s.label = key
-    decor.addChild(s)
-    sprites[key] = s
-    return s
-  }
-  addRoadSprite('wagon',    0.08,   0, DECOR_SIZE.wagon)
-  addRoadSprite('tree3',    0.20, -40, DECOR_SIZE.tree)
-  addRoadSprite('village1', 0.38,  35, DECOR_SIZE.village)
   const routesLayer = new Container()
   routesLayer.label = 'routes'
   routesLayer.addChild(routes.drive.g)
@@ -263,6 +245,26 @@ export async function buildScene() {
   }
   addCity('stockholm',  [points.stockholm.lon, points.stockholm.lat], DECOR_SIZE.stockholm,  'Stockholm', 28)
   addCity('sodertalje', [17.6253, 59.1958],                            DECOR_SIZE.sodertalje, 'Södertälje')
+
+  // sampleRoad-positionerade sprites: wagon (på vägen, t=0.08), tree3 (offset
+  // -40 från vägen, t=0.20), village1 (offset +35, t=0.38). Matchar map.js
+  // raderna 233-235 exakt. Får sin position från den projicerade OSRM-polyline.
+  const addRoadSprite = (key, t, perpOffset, size) => {
+    const [x, y] = sampleRoad(drivingPoly, t, perpOffset)
+    const s = new Sprite(textures[key])
+    s.anchor.set(0.5, 0.5)
+    s.width = size
+    s.height = size
+    s._baseScale = { x: s.scale.x, y: s.scale.y }
+    s.x = x; s.y = y
+    s.label = key
+    decor.addChild(s)
+    sprites[key] = s
+    return s
+  }
+  addRoadSprite('wagon',    0.08,   0, DECOR_SIZE.wagon)
+  addRoadSprite('tree3',    0.20, -40, DECOR_SIZE.tree)
+  addRoadSprite('village1', 0.38,  35, DECOR_SIZE.village1)
 
   // sampleRoad-positioner — kräver att drivingPoly redan är beräknad
   // (gjord nedan i routes-blocket), så vi placerar dessa sprites där.
