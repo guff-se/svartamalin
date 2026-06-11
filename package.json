@@ -14,7 +14,8 @@
     "optimize-card-overlays": "node scripts/optimize-card-overlays.js",
     "detect-card-frame-layouts": "node scripts/detect-card-frame-layouts.js",
     "generate-portraits": "node scripts/generate-portraits.js",
-    "generate-portraits-experiment": "node scripts/generate-portraits-experiment.js"
+    "generate-portraits-experiment": "node scripts/generate-portraits-experiment.js",
+    "generate-ovanan-map": "node scripts/generate-ovanan-map.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",

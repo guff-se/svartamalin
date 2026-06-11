@@ -2,7 +2,6 @@ import { supabase } from '../lib/supabase.js'
 import { escapeHtml } from '../lib/escape.js'
 
 export const PRACTICAL_LABELS = {
-  location: 'Plats',
   dates: 'Datum',
   transport_intro: 'Transport',
   boat_friday: 'Båt fredag',
@@ -12,10 +11,9 @@ export const PRACTICAL_LABELS = {
   teams_intro: 'Lagsystem',
 }
 
-export const RSVP_PRACTICAL_KEYS = ['dates', 'location', 'boat_friday']
+export const RSVP_PRACTICAL_KEYS = ['dates', 'boat_friday']
 
 const ORDER = [
-  'location',
   'dates',
   'transport_intro',
   'boat_friday',

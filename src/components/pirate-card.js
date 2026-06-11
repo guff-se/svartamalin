@@ -29,8 +29,12 @@ export function overlayForId(id) {
 /**
  * @param {{ photoSrc?: string, pirateName: string, placeholder?: boolean, overlaySrc?: string }} opts
  */
+/** Names longer than typical cartouche width (e.g. "Kapten Nilsson (piraten)"). */
+const LONG_PIRATE_NAME_LEN = 20
+
 export function pirateCardHtml({ photoSrc, pirateName, placeholder = false, overlaySrc = DEFAULT_OVERLAY }) {
   const name = escapeHtml(pirateName)
+  const longName = pirateName.length > LONG_PIRATE_NAME_LEN
   const frameId = frameIdFromOverlay(overlaySrc)
   const photoMark = photoSrc && !placeholder
     ? `<img class="pirate-card__photo-img" src="${escapeAttr(photoSrc)}" alt="" decoding="async" />`
@@ -44,7 +48,7 @@ export function pirateCardHtml({ photoSrc, pirateName, placeholder = false, over
         </div>
         <img class="pirate-card__overlay" src="${escapeAttr(overlaySrc)}" alt="" aria-hidden="true" decoding="async" />
         <div class="pirate-card__label">
-          <span class="pirate-card__name">${name}</span>
+          <span class="pirate-card__name${longName ? ' pirate-card__name--long' : ''}">${name}</span>
         </div>
       </div>
     </article>

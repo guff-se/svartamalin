@@ -41,10 +41,10 @@
 .admin .pill.yes { color: #88c896; border-color: #88c896; }
 .admin .pill.no { color: #c88888; border-color: #c88888; }
 .admin .pill.pending { color: var(--paper-dark); }
-.admin-col-photo { width: 3rem; }
+.admin-col-photo { width: 4.25rem; }
 .admin-portrait-thumb {
   display: block;
-  width: 2.5rem;
+  width: 3.5rem;
   aspect-ratio: 63 / 88;
   object-fit: cover;
   border-radius: 2px;

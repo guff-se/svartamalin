@@ -82,6 +82,11 @@
   text-overflow: ellipsis;
 }
 
+.pirate-card__name--long {
+  font-size: clamp(0.48rem, 2.05vw, 0.65rem);
+  letter-spacing: 0.04em;
+}
+
 /* --- Per-frame layouts (detect-card-frame-layouts.js) --- */
 
 .pirate-card--frame1 .pirate-card__photo {
@@ -208,6 +213,10 @@ body.pirate-card-lightbox-open {
   white-space: normal;
   overflow: visible;
   text-overflow: unset;
+}
+
+.pirate-card-lightbox__card .pirate-card__name--long {
+  font-size: clamp(0.78rem, 2.6vw, 1.08rem);
 }
 
 .pirate-card-lightbox__close {

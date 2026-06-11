@@ -1,4 +1,5 @@
 import { getGuestId } from '../lib/state.js'
+import { ovananSectionHtml } from '../components/ovanan-section.js'
 import { renderPracticalInfo } from '../components/practical-info.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
 import { renderMyCrew } from '../components/my-crew.js'
@@ -17,6 +18,12 @@ export async function renderHome(app) {
           <h2>Besättningen</h2>
           <p class="lead">Pirater som hörsammat kallelsen.</p>
           <div class="crew-collage" id="crew-collage">Laddar besättning…</div>
+        </div>
+      </section>
+
+      <section class="card-section">
+        <div class="card card--ovanan">
+          ${ovananSectionHtml()}
         </div>
       </section>
 

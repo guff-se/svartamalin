@@ -72,7 +72,7 @@ async function renderGuests() {
   const [{ data: guests }, { data: crews }, { data: names }] = await Promise.all([
     supabase.from('guests').select('id, real_name, attending, pirate_name_id, crew_id, phone, email').order('real_name'),
     supabase.from('crews').select('id, name').order('id'),
-    supabase.from('pirate_names').select('id, name').order('id'),
+    supabase.from('pirate_names').select('id, name').order('position'),
   ])
   const crewOpts = (crews ?? []).map((c) => `<option value="${c.id}">${escapeHtml(c.name)}</option>`).join('')
 
@@ -168,7 +168,7 @@ async function renderGuests() {
 function portraitThumbHtml(realName) {
   const src = portraitPath(realName)
   const alt = escapeHtml(realName)
-  return `<img class="admin-portrait-thumb" src="${src}" alt="${alt}" width="40" height="56" loading="lazy" />`
+  return `<img class="admin-portrait-thumb" src="${src}" alt="${alt}" width="56" height="78" loading="lazy" />`
 }
 
 function statusSelect(guestId, attending) {

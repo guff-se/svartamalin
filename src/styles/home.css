@@ -115,6 +115,67 @@
   outline-offset: 3px;
 }
 
+/* Ovanan */
+.card--ovanan {
+  max-width: 62rem;
+}
+
+.ovanan-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 14rem) 1fr;
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.ovanan-map {
+  margin: 0;
+}
+
+.ovanan-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.ovanan-details .lead {
+  text-align: left;
+  margin: 0 0 1.25rem;
+}
+
+.ovanan-block + .ovanan-block {
+  margin-top: 1.25rem;
+}
+
+.ovanan-block h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.ovanan-block p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 560px) {
+  .ovanan-layout {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .ovanan-map {
+    max-width: 12rem;
+  }
+
+  .ovanan-details .lead {
+    text-align: center;
+  }
+}
+
 /* Practical info */
 .info-grid { display: grid; gap: 1.5rem; }
 .info-item { border-left: 2px solid var(--gold); padding-left: 1rem; }
