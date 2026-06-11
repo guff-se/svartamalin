@@ -19,11 +19,19 @@
  *   --keep-expression navid josefin                  — keep expression for named stems
  *   --no-keep-expression                             — ignore keep-expression.txt for this run
  *
- * Usage:
- *   node scripts/generate-portraits.js              # all originals
- *   node scripts/generate-portraits.js navid       # filter by basename prefix
- *   node scripts/generate-portraits.js --keep-expression navid
- *   node scripts/generate-portraits.js --no-keep-expression navid
+ * Usage (node — flags work directly):
+ *   node scripts/generate-portraits.js edvin
+ *   node scripts/generate-portraits.js --keep-expression -p "a very manly man" edvin
+ *
+ * Usage (npm — put `--` before script flags, or use env vars below):
+ *   npm run generate-portraits -- --keep-expression -p "a very manly man" edvin
+ *   PORTRAIT_PROMPT="a very manly man" PORTRAIT_KEEP_EXPRESSION=1 npm run generate-portraits edvin
+ *
+ * Env (avoids npm eating --flags):
+ *   PORTRAIT_PROMPT              — prioritized prompt addition
+ *   PORTRAIT_KEEP_EXPRESSION=1   — keep expression for all in this run
+ *   PORTRAIT_KEEP_EXPRESSION=edvin navid — keep for named stems
+ *   PORTRAIT_NO_KEEP_EXPRESSION=1
  */
 
 import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises'
@@ -508,18 +516,19 @@ function isHandDrawnMedia(media) {
   return media === HAND_DRAWN_MEDIA
 }
 
-function variationSummary(picks, keepExpression) {
+function variationSummary(picks, keepExpression, promptAddition = '') {
   const short = (key) => picks[key][0]?.split(/[,.]/)[0].slice(0, 26) ?? key
   const parts = [
     isHandDrawnMedia(picks.media[0]) ? 'charcoal sketch' : short('era'),
     short('production'),
     short('hat'),
   ]
+  if (promptAddition) parts.unshift(`YOU: ${promptAddition}`)
   if (keepExpression) parts.push('keep expr')
   return parts.join(' · ')
 }
 
-function buildPrompt(stem, version, { keepExpression = false } = {}) {
+function buildPrompt(stem, version, { keepExpression = false, promptAddition = '' } = {}) {
   const { picks } = buildVariation()
   const [era] = picks.era
   const [production] = picks.production
@@ -549,6 +558,11 @@ Era and filter: ${era}. Production context: ${production}. Overall aesthetic: ${
 Render as a ${media} of the same person. Colour palette: ${palette}. Surface treatment: ${joinList(treatment)}. ${framing}, ${pose}, ${gaze}. ${handDrawn ? HAND_DRAWN_LIGHTING : lighting}. Headwear: ${joinList(picks.hat)}. Skin and coverage: ${joinList(picks.exposure)}. Costume layers: ${joinList(picks.costume)}. Props and held items: ${joinList(picks.props)} — props read as costume accessories, not real weapons. Makeup and accessories: ${accessories}. Background: ${handDrawn ? HAND_DRAWN_BACKGROUND : background}. The face stays faithful to the source photo.`
 
   const blocks = [LIKENESS]
+  if (promptAddition) {
+    blocks.push(
+      `HIGHEST PRIORITY — USER DIRECTION: ${promptAddition}. These instructions override conflicting random costume, pose, prop, and styling picks below — but facial identity rules above still apply.`,
+    )
+  }
   if (keepExpression) {
     blocks.push(KEEP_EXPRESSION, NEG_KEEP_EXPRESSION)
   } else {
@@ -562,7 +576,10 @@ Render as a ${media} of the same person. Colour palette: ${palette}. Surface tre
   }
   blocks.push(NEG)
 
-  return { prompt: blocks.join(' '), summary: variationSummary(picks, keepExpression) }
+  return {
+    prompt: blocks.join(' '),
+    summary: variationSummary(picks, keepExpression, promptAddition),
+  }
 }
 
 /** Basename (no extension) → slug with åäö transliteration and hyphen separators. */
@@ -574,17 +591,60 @@ function normalizeStem(name) {
   return portraitStemFromBasename(name.replace(/\.(jpe?g|png|webp)$/i, ''))
 }
 
-/** @returns {{ filters: string[], keepExpressionStems: Set<string>, keepExpressionAll: boolean, noKeepExpression: boolean }} */
+function printHelp() {
+  console.log(`Usage:
+  node scripts/generate-portraits.js [options] [name-filter…]
+
+Options:
+  -p, --prompt TEXT       Prioritized prompt addition (also PORTRAIT_PROMPT env)
+  -k, --keep-expression   Keep source expression (also PORTRAIT_KEEP_EXPRESSION env)
+  --no-keep-expression    Ignore keep-expression.txt for this run
+  -h, --help              Show this help
+
+npm requires "--" before flags:
+  npm run generate-portraits -- --keep-expression -p "a very manly man" edvin
+
+Or use env vars (no "--" needed):
+  PORTRAIT_PROMPT="a very manly man" PORTRAIT_KEEP_EXPRESSION=1 npm run generate-portraits edvin
+`)
+}
+
+/** @returns {{ filters: string[], keepExpressionStems: Set<string>, keepExpressionAll: boolean, noKeepExpression: boolean, promptAddition: string }} */
 function parseArgs(argv) {
   const filters = []
   const keepExpressionStems = new Set()
   let keepExpressionAll = false
   let noKeepExpression = false
+  let promptAddition = ''
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i]
+    if (arg === '--help' || arg === '-h') {
+      printHelp()
+      process.exit(0)
+    }
     if (arg === '--no-keep-expression' || arg === '--vary-expression') {
       noKeepExpression = true
+      continue
+    }
+    if (arg === '--prompt' || arg === '-p') {
+      const value = argv[++i]
+      if (!value || value.startsWith('-')) {
+        throw new Error('--prompt requires a value (quote it if it contains spaces)')
+      }
+      promptAddition = value
+      continue
+    }
+    if (arg.startsWith('--prompt=')) {
+      const value = arg.slice('--prompt='.length)
+      if (!value) throw new Error('--prompt= requires a value')
+      promptAddition = value
+      continue
+    }
+    if (arg.startsWith('-p') && arg !== '-p' && !arg.startsWith('-prompt')) {
+      const value = arg.slice(2).replace(/^=/, '')
+      if (!value) throw new Error('-p requires a value')
+      promptAddition = value
       continue
     }
     if (arg === '--keep-expression' || arg === '-k') {
@@ -603,7 +663,32 @@ function parseArgs(argv) {
     filters.push(arg)
   }
 
-  return { filters, keepExpressionStems, keepExpressionAll, noKeepExpression }
+  return { filters, keepExpressionStems, keepExpressionAll, noKeepExpression, promptAddition }
+}
+
+/** Env vars for when npm swallows CLI flags (use instead of --keep-expression / -p). */
+function applyEnvOverrides(parsed) {
+  const out = { ...parsed, keepExpressionStems: new Set(parsed.keepExpressionStems) }
+
+  const envPrompt = process.env.PORTRAIT_PROMPT?.trim()
+  if (envPrompt && !out.promptAddition) out.promptAddition = envPrompt
+
+  if (process.env.PORTRAIT_NO_KEEP_EXPRESSION === '1') {
+    out.noKeepExpression = true
+  }
+
+  const envKeep = process.env.PORTRAIT_KEEP_EXPRESSION?.trim()
+  if (envKeep && !out.noKeepExpression && !out.keepExpressionAll && out.keepExpressionStems.size === 0) {
+    if (envKeep === '1' || envKeep.toLowerCase() === 'all' || envKeep.toLowerCase() === 'true') {
+      out.keepExpressionAll = true
+    } else {
+      for (const stem of envKeep.split(/[\s,]+/)) {
+        if (stem) out.keepExpressionStems.add(normalizeStem(stem))
+      }
+    }
+  }
+
+  return out
 }
 
 async function loadKeepExpressionFile() {
@@ -784,7 +869,9 @@ async function resolveBackend() {
 
 async function main() {
   const backend = await resolveBackend()
-  const { filters, keepExpressionStems, keepExpressionAll, noKeepExpression } = parseArgs(process.argv.slice(2))
+  const parsed = parseArgs(process.argv.slice(2))
+  const { filters, keepExpressionStems, keepExpressionAll, noKeepExpression, promptAddition } =
+    applyEnvOverrides(parsed)
   const keepExpressionFile = await loadKeepExpressionFile()
   const queue = await listOriginals(filters)
 
@@ -818,6 +905,10 @@ async function main() {
   } else {
     console.log('Expression: vary (default)')
   }
+  if (promptAddition) {
+    console.log('Your prompt addition (prioritized):')
+    console.log(`  «${promptAddition}»`)
+  }
   console.log(`Generating ${queue.length} portrait(s) → ${OUT_DIR}\n`)
 
   for (const file of queue) {
@@ -826,7 +917,7 @@ async function main() {
     const { version, filename, path: outPath } = await resolveOutputPath(stem)
     const keepExpression = shouldKeepExpression(stem, keepOpts)
 
-    const { prompt, summary } = buildPrompt(stem, version, { keepExpression })
+    const { prompt, summary } = buildPrompt(stem, version, { keepExpression, promptAddition })
     const versionLabel = version > 1 ? ` v${version}` : ''
     process.stdout.write(`🎨 ${file}${versionLabel} (${summary}) … `)
 

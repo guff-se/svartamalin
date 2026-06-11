@@ -34,21 +34,25 @@ export const DECOR_LL = {
   dragon1: [17.65, 59.34],
 }
 
-// Sprite-storlekar (matchar map.js decorImage size-argument)
+// Sprite-storlekar — EXAKT matchande map.js decorImage size-argument
+// (kontrollerade rad-för-rad mot src/components/map.js raderna 318-339,
+//  448-528). Skicka inte 1.5-2× för stora värden — det fyller hela skärmen
+//  vid inzoom under reveal.
 export const DECOR_SIZE = {
   wagon:      90,
   tree:       70,
-  village:    75,
+  village1:   75,
+  village2:   70,
   village3:  130,
   globen:     70,
-  skull:      70,
+  skull:      90,   // map.js skull(): width=90 height=90
   robbers:   110,
-  dragon:     90,
-  kraken:    180,
-  octopus:   140,
-  mermaid:   110,
-  seaMonster:160,
-  whale:     130,
+  dragon:     90,   // dragonWarning: width=90
+  kraken:     90,   // kraken(): decorImage(..., 90)
+  octopus:    80,   // octopus(): decorImage(..., 80)
+  mermaid:    50,   // mermaid(): decorImage(..., 50)
+  seaMonster: 60,   // seaMonster(): decorImage(..., 60)
+  whale:      60,   // whale(): width=60 height=60 (half=30)
   decorShip: 130,
   storm:     180,
   compass:   150,

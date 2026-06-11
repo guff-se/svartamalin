@@ -1,15 +1,19 @@
 /* WebGL dev-page — minimal styling */
 
+/* Canvas är fixed bakgrund; hero + ev. content scrollar ovanpå. */
 .webgl-page {
-  position: fixed;
-  inset: 0;
+  position: relative;
+  min-height: 100vh;
   background: #1a120a;
 }
 
 #webgl-stage {
-  position: absolute;
-  inset: 0;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
+  z-index: 0;
 }
 
 #webgl-stage canvas {
@@ -27,10 +31,11 @@
   z-index: 4;
 }
 
-/* Hero — overlay-content, döljs initialt under reveal */
+/* Hero — overlay-content, döljs initialt under reveal. Tar 100vh så
+   användaren kan scrolla förbi den till content nedanför. */
 .webgl-hero {
-  position: fixed;
-  inset: 0;
+  position: relative;
+  min-height: 100vh;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -43,6 +48,17 @@
   transition: opacity 1.2s;
 }
 body.webgl-revealed .webgl-hero {
+  opacity: 1;
+  pointer-events: auto;
+}
+.webgl-content {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  opacity: 0;
+  transition: opacity 1.2s;
+}
+body.webgl-revealed .webgl-content {
   opacity: 1;
 }
 

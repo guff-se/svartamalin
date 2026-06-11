@@ -219,16 +219,50 @@ export async function buildScene() {
     return s
   }
 
-  // Städer — bottenkant förankrad
-  const stockholmSize = DECOR_SIZE.stockholm
-  addSprite('stockholm', [points.stockholm.lon, points.stockholm.lat], stockholmSize, { anchorY: 1.0 })
-  sprites.stockholm.height = stockholmSize * 0.45
-  sprites.stockholm._baseScale = { x: sprites.stockholm.scale.x, y: sprites.stockholm.scale.y }
-
-  const sodSize = DECOR_SIZE.sodertalje
-  addSprite('sodertalje', [17.6253, 59.1958], sodSize, { anchorY: 1.0 })
-  sprites.sodertalje.height = sodSize * 0.45
-  sprites.sodertalje._baseScale = { x: sprites.sodertalje.scale.x, y: sprites.sodertalje.scale.y }
+  // Städer — citySilhouette i map.js: box width × (width*0.45), bottom-anchored,
+  // preserveAspectRatio="meet" så bilden FITS inom boxen utan att stretchas.
+  // Plus text-etikett y=20 under bottenkanten.
+  const addCity = (key, ll, boxWidth, label, imgYOffset = 0) => {
+    const [cx, cy] = project(ll)
+    const boxH = boxWidth * 0.45
+    const tex = textures[key]
+    // Beräkna effektiv visuell storlek som bevarar texturens aspect inom box:n
+    // (motsvarar SVG preserveAspectRatio="xMidYMid meet").
+    const texAspect = tex.width / tex.height
+    const boxAspect = boxWidth / boxH
+    let w, h
+    if (texAspect > boxAspect) { w = boxWidth; h = boxWidth / texAspect }
+    else { w = boxH * texAspect; h = boxH }
+    const s = new Sprite(tex)
+    s.anchor.set(0.5, 1.0)  // bottom-middle
+    s.width = w
+    s.height = h
+    s._baseScale = { x: s.scale.x, y: s.scale.y }
+    s.x = cx
+    s.y = cy + imgYOffset
+    s.label = key
+    decor.addChild(s)
+    sprites[key] = s
+    // Etikett under sprite:n (y=20 i originalets citySilhouette)
+    const labelText = new Text({
+      text: label,
+      style: {
+        fontFamily: 'Metamorphous, Georgia, serif',
+        fontSize: 22,
+        fontStyle: 'italic',
+        fontWeight: 'bold',
+        letterSpacing: 2.2,
+        fill: 0x1a0a05,
+      },
+    })
+    labelText.anchor.set(0.5, 0)
+    labelText.x = cx
+    labelText.y = cy + 20
+    decor.addChild(labelText)
+    return s
+  }
+  addCity('stockholm',  [points.stockholm.lon, points.stockholm.lat], DECOR_SIZE.stockholm,  'Stockholm', 28)
+  addCity('sodertalje', [17.6253, 59.1958],                            DECOR_SIZE.sodertalje, 'Södertälje')
 
   // sampleRoad-positioner — kräver att drivingPoly redan är beräknad
   // (gjord nedan i routes-blocket), så vi placerar dessa sprites där.
@@ -245,11 +279,30 @@ export async function buildScene() {
   addSprite('compass',    DECOR_LL.compass,    DECOR_SIZE.compass)
   addSprite('skull',      DECOR_LL.skull,      DECOR_SIZE.skull)
 
+  // "Pestholmen"-label under skull (matchar map.js skull()-funktionen)
+  {
+    const [sx, sy] = project(DECOR_LL.skull)
+    const pestholmenLabel = new Text({
+      text: 'Pestholmen',
+      style: {
+        fontFamily: 'Metamorphous, Georgia, serif',
+        fontSize: 14,
+        fontStyle: 'italic',
+        letterSpacing: 1.4,
+        fill: 0x1a0a05,
+      },
+    })
+    pestholmenLabel.anchor.set(0.5, 0)
+    pestholmenLabel.x = sx
+    pestholmenLabel.y = sy + 58
+    decor.addChild(pestholmenLabel)
+  }
+
   // Land-figurer (statiska lat/lon)
   addSprite('tree1',    DECOR_LL.tree1,    DECOR_SIZE.tree)
   addSprite('tree2',    DECOR_LL.tree2,    DECOR_SIZE.tree)
   addSprite('robbers',  DECOR_LL.robbers,  DECOR_SIZE.robbers)
-  addSprite('village2', DECOR_LL.village2, DECOR_SIZE.village)
+  addSprite('village2', DECOR_LL.village2, DECOR_SIZE.village2)
   addSprite('village3', DECOR_LL.village3, DECOR_SIZE.village3)
   addSprite('globen',   DECOR_LL.globen,   DECOR_SIZE.globen)
   addSprite('dragon0',  DECOR_LL.dragon0,  DECOR_SIZE.dragon)
