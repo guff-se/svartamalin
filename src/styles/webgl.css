@@ -46,6 +46,10 @@
 }
 body.webgl-revealed #webgl-hero-tint { opacity: 0.1; }
 
+/* Lås scroll tills reveal är klar (eller skippad). webgl-revealing sätts på
+   mount, tas bort i finishReveal. */
+body.webgl-revealing { overflow: hidden; touch-action: none; }
+
 /* Hero — overlay-content, döljs initialt under reveal. Tar 100vh så
    användaren kan scrolla förbi den till content nedanför. */
 .webgl-hero {

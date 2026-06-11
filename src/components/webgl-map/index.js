@@ -70,8 +70,10 @@ export async function mountWebglMap(el) {
   startShowAudio()
   const startWall = performance.now()
   let ambientStarted = false
+  document.body.classList.add('webgl-revealing')
   const finishReveal = () => {
     if (!ambientStarted) { startAmbient(scene); ambientStarted = true }
+    document.body.classList.remove('webgl-revealing')
     document.body.classList.add('webgl-revealed')
   }
   const tick = () => {
@@ -109,6 +111,7 @@ export function unmountWebglMap() {
   revealRafId = 0
   if (tiltStage) { tiltStage.destroy(); tiltStage = null }
   document.body.classList.remove('webgl-revealed')
+  document.body.classList.remove('webgl-revealing')
   app.destroy({ removeView: true }, { children: true, texture: false })
   app = null
   if (hostEl) {
