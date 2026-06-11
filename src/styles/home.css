@@ -202,6 +202,21 @@
   }
 }
 
+/* Tema */
+.card--theme { max-width: 44rem; }
+.theme-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+.theme-item {
+  margin: 0;
+  font-family: var(--font-body);
+  line-height: 1.7;
+  text-align: left;
+}
+
 /* Practical info */
 .info-grid { display: grid; gap: 1.5rem; }
 .info-item { border-left: 2px solid var(--gold); padding-left: 1rem; }

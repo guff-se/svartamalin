@@ -1,6 +1,7 @@
 import { getGuestId } from '../lib/state.js'
 import { renderOvananSection } from '../components/ovanan-section.js'
 import { renderPracticalInfo } from '../components/practical-info.js'
+import { renderThemeSection } from '../components/theme-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
 import { renderMyCrew } from '../components/my-crew.js'
 
@@ -27,6 +28,10 @@ export async function renderHome(app) {
       </section>
 
       <section class="card-section">
+        <div class="card card--theme" id="theme-section">Laddar…</div>
+      </section>
+
+      <section class="card-section">
         <div class="card">
           <h2>Praktiskt</h2>
           <div class="info-grid" id="info-grid">Laddar…</div>
@@ -44,6 +49,7 @@ export async function renderHome(app) {
 
   renderCrewCollage(document.getElementById('crew-collage'))
   renderOvananSection(document.getElementById('ovanan-section'))
+  renderThemeSection(document.getElementById('theme-section'))
   renderPracticalInfo(document.getElementById('info-grid'))
   renderMyCrew(document.getElementById('my-crew'), getGuestId())
 }
