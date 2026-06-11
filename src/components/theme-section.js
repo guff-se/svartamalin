@@ -36,8 +36,8 @@ export async function renderThemeSection(el) {
     : ''
   const columns = `
     <div class="theme-columns">
-      ${renderBulletColumn(map.theme_fits, 'plus')}
       ${renderBulletColumn(map.theme_doesnt_fit, 'minus')}
+      ${renderBulletColumn(map.theme_fits, 'plus')}
     </div>
   `
   el.innerHTML = `

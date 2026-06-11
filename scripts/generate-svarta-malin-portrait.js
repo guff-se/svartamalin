@@ -45,23 +45,25 @@ const LIKENESS = `HIGHEST PRIORITY — FACIAL IDENTITY: This must be unmistakabl
 
 const KEEP_EXPRESSION = `FACIAL EXPRESSION — PRESERVE FROM SOURCE: Keep the exact expression from the input photo. Same smile or mouth, same eye openness, same eyebrow position. Do NOT invent a new expression.`
 
-const VARY_EXPRESSION = `FACIAL EXPRESSION — HAMMY FEMALE POWER: Maximum theatrical expression — commanding stare, defiant smirk, narrowed lethal eyes, chin-lifted queen energy, silent-film villain flair. Same woman, new expression turned up to eleven: hammy, bold, unapologetic.`
+const VARY_EXPRESSION = `FACIAL EXPRESSION — HAMMY FEMALE POWER: Expression cranked past eleven — commanding stare, enormous defiant smirk, narrowed lethal eyes, chin so high it defies gravity, silent-film villain flair, panto finale triumph. Same woman, new expression: absurdly theatrical, bold, shamelessly hammy.`
 
 const CAPTAIN = `SVARTA MALIN — THE CAPTAIN: She is the most fierce pirate captain who ever lived — a woman who seized the ship and the legend. Commanding, lethal, self-possessed; the woman every other pirate will eventually kneel to. Epic scale through theatrical excess: power is feminine, absolute, and LOUD — she leads, she decides, she wins. Dangerous swagger dialed to maximum.`
 
 const FEMALE_POWER = `FEMALE POWER — NON-NEGOTIABLE: She must read as a dangerous, self-assured woman in absolute command — not a man's sidekick, not a decorative love interest, not softened or domesticated. Sexy through swagger, confidence, and lethal competence: strong stance, direct power gaze, props held with intent. Alluring because she looks like she could take your ship — formidable femme captain, Bonny-and-Read energy through over-the-top stage costume. No damsel, no submissive gaze.`
 
-const OVER_THE_TOP = `OVER THE TOP — EVERYTHING EXAGGERATED: Turn every element up to maximum volume. Costume piled on costume — too much gold braid, too many layers, too many props. Hat absurdly big. Pose hammy and theatrical. Makeup stage-bold. Backdrop obviously painted kuliss. Village-hall pirate panto energy: charming excess, camp swagger, never understated, never tasteful restraint, never museum-minimal. More is more — if it looks almost too much, it is right.`
+const OVER_THE_TOP = `OVER THE TOP — ABSOLUTE MAXIMUM: Every single element pushed past the point of reason. THREE costume layers minimum. THREE props minimum. Hat so big it threatens the top of the frame. Pose so hammy the audience would boo with delight. Makeup you can see from the back row. Backdrop so ambitious the set crew would weep. If it does not feel slightly embarrassing in its excess, ADD MORE. Village-hall pirate panto at full volume — camp swagger, glorious clutter, zero restraint. More is more is MORE.`
 
-const HAT = `HEADWEAR — MANDATORY STAGE-PROP HAT (KULISS): She MUST wear an enormous tricorn — but it must read as amateur-theatre set dressing, a caricature of a pirate hat, not a real or cinematic one. Oversized felt or cardboard-stiff tricorn from a village-hall costume box: painted white skull-and-crossbones (slightly wobbly brush strokes), cheap gold braid or hot-glued trim, plastic feathers, visible craft-store construction. Absurdly big — almost a prop from the painted backdrop — charmingly fake, camp, and slightly ridiculous in scale. Like a kuliss that wandered onto her head. Worn level and proud, never sliding over her eyes. No bare head, no bandana-only, no small hat — BIG fake tricorn is non-negotiable.`
+const HAT = `HEADWEAR — MANDATORY GIGANTIC KULISS-HAT: An absurdly enormous tricorn — the biggest, most ridiculous pirate hat ever mounted on a human head. Amateur-theatre caricature only: cardboard-stiff felt from a village-hall box, wobbly painted skull-and-crossbones, hot-glued gold braid, plastic feathers sticking out at wild angles, sequins that caught someone's eye at the craft store, maybe a second smaller hat badge pinned on for no reason. So large it rivals the painted backdrop — a kuliss that escaped onto her head. Worn level and proud. No bare head, no small hat — GIGANTIC fake tricorn non-negotiable.`
 
 const STYLE = `Vintage pirate romanticism in the Svarta Malin style. 18th-century pirate world through 1920s–30s Hollywood studio glamour — theatrical, adventurous, weathered and nostalgic. Sepia / warm brown tones, soft diffused studio light, antique photographic finish with film grain and faint scratches. NOT modern clothing, NOT bright saturated colors, NOT clean digital look, NOT neon, NOT glossy CGI, NOT hyperrealistic.`
 
 const AMATEUR = `AMATEUR THEATRE KULISS — ALL OF IT: Village-hall dress rehearsal, community-play cast photo, church-hall variety-show energy. Costumes from a fancy-dress box assembled the night before the show: thrift-store fabrics, uneven hand-stitching, visible safety pins, glue-gun trim, spray-painted gold on cardboard epaulettes, polyester that shines wrong under the lights. Charming, camp, slightly clumsy — never slick, never expensive-looking, never historically accurate. Epic captain energy delivered through glorious homemade excess.`
 
-const COSTUME_AMATEUR = `COSTUME — AMATEUR THEATRE ONLY: The outfit must scream homemade stage costume, not film wardrobe. Think school production pirate kit, panto Pirate King cast-off, bargain-bin polyester, striped fabrics from a craft drawer, lace cuffs sewn on at the last minute, mismatched brass buttons from three different coats, duct-tape repairs, pom-pom or tinsel trim that seemed like a good idea. Coat too big in the shoulders, sash tied crooked, boots from the props cupboard. Obvious dress-up — the audience should smell the hot glue.`
+const COSTUME_AMATEUR = `COSTUME — AMATEUR THEATRE ONLY, LAYERED TO ABSURDITY: Multiple homemade layers piled on — school-play kit PLUS panto cast-off PLUS Halloween bargain bin. Safety pins visible, glue-gun galore, duct-tape holding epaulettes on, tinsel AND pom-poms AND lace cuffs all at once. Two sashes, three necklaces, coat over coat. Coat shoulders two sizes too big, boots from the props cupboard, everything crooked. The audience should smell hot glue from the photograph.`
 
-const BODY = `BODY & POSTURE: Epic theatrical captain posture — shoulders back, chest open, wide power stance, hammy and bold. She fills the frame with exaggerated authority, like the lead in a village panto finale. Flattering but plausible for this person — strong, not diminutive.`
+const PROPS_EXCESS = `PROPS — PILE THEM ON: She must carry or wear multiple obvious stage props at once — never just one accessory. Dual or triple foam pistols, cutlass AND axe AND map, parrot AND flag AND spyglass, treasure spilling at her feet. Props clutter the frame like a dressing-room explosion. All charmingly fake, all too many.`
+
+const BODY = `BODY & POSTURE: Pose so epic and hammy it fills every inch of the frame — shoulders back, chest open, limbs extended, wide power stance. She occupies the stage like a panto lead's curtain call. Exaggerated, theatrical, bold.`
 
 const NEG = `No different person, no face swap, no generic model face, no altered bone structure, no bare head, no hatless portrait, no small hat, no bandana without tricorn, no crooked or askew headwear, no realistic fine leather hat, no movie-quality or historically accurate headwear, no slick cosplay, no tasteful restraint, no subtle minimal costume, no understated elegance, no museum-quality tailoring, no documentary realism, no plain grey studio void, no subtle soft bokeh only, no real location photography background, no passive pin-up, no cheesecake pose, no boudoir damsel, no submissive or downcast gaze, no damsel-in-distress, no male captain overshadowing her, no Pirates of the Caribbean look, no Jack Sparrow, no Disney pirate aesthetic, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no text, no watermark, no playing card overlay.`
 
@@ -91,6 +93,18 @@ const POSE = [
   'pistol extended at arm\'s length straight at camera — Bonny-style bold swagger',
   'seated on crate edge, one booted leg kicked high, pistol across knee — tintype captain',
   'wide stance, coiled rope at feet, cutlass raised in huge dramatic arc',
+  'both arms thrown skyward, cutlass and pistol held high — panto curtain-call triumph',
+  'balanced on one foot on barrel rim, arms windmilling for balance — absurd heroic excess',
+  'charging forward cutlass-first, coat flying behind like a superhero cape',
+  'kneeling on BOTH knees, sword planted, arms spread — epic oath to the painted sea',
+  'standing on tiptoes, chin at impossible angle, spyglass to eye — scouting conquered waters',
+  'dual wielding cutlass and pistol, crossed in X before chest — maximum threat theatre',
+  'dragging enormous painted treasure chest with one hand, cutlass aloft in the other',
+]
+
+const POSE_EXTRA = [
+  'freeze-frame mid-battle leap, cutlass swinging in a huge arc',
+  'planting Jolly Roger flag with both hands, foot on chest prop',
 ]
 
 const GAZE = [
@@ -116,6 +130,11 @@ const COSTUME = [
   'gold galon hot-glued to lapels, tinsel trim on cuffs — community-play Pirate King cast-off',
   'striped breeches clearly from a craft drawer, fringed sash made from a curtain remnant',
   'open coat in comic-opera green, lace collar crooked, cravat knotted by someone\'s mum',
+  'TWO coats worn at once — outer velvet, inner striped, both too big',
+  'three sashes tied at different angles, each from a different fabric bin',
+  'shoulder cape made from a curtain remnant, safety-pinned over everything',
+  'sequin trim hot-glued over already-tinselled cuffs — craft-store explosion',
+  'cardboard cutlass holster AND foam pistol holster AND rope belt — belt overload',
 ]
 
 const PROPS = [
@@ -128,6 +147,14 @@ const PROPS = [
   'open treasure-chest prop with fake gold coins spilling everywhere',
   'coiled rope at feet, foam boarding axe at hip, flintlock in hand',
   'felt eyepatch on elastic string — camp accessory among many',
+  'hook-hand glove prop AND eyepatch AND plastic parrot — triple cliché',
+  'THREE foam flintlocks visible — belt, sash, and boot top',
+  'ship\'s wheel prop gripped with one hand, cutlass in the other',
+  'speaking-trumpet megaphone, rum bottle, and foam dagger — prop pile',
+  'skull-and-crossbones flag as cape PLUS cutlass PLUS map scroll',
+  'chunky wooden compass on string, spyglass, and rolled map — navigator overload',
+  'miniature painted treasure chest under arm, coins falling out',
+  'spray-painted foam boarding axe AND curved cutlass AND pistol',
 ]
 
 const ACCESSORIES = [
@@ -136,9 +163,13 @@ const ACCESSORIES = [
   'feather boa draped over shoulders, tacky plastic bangles',
   'smoky kohl and beauty spot, silent-film glamour turned up loud',
   'folk-costume beaded earrings, smuggler jewellery piled on',
+  'THREE necklaces of different lengths, all from the craft drawer',
+  'theatrical rouge so bold it reads in sepia, beauty spot, drawn-on dramatic brows',
+  'feather boa AND hoop earrings AND plastic bangles AND beaded choker — jewellery overload',
+  'stick-on moustache-twirl energy but feminine — exaggerated stage makeup maximum',
 ]
 
-const BACKGROUND_EPIC = `BACKGROUND — EPIC PAINTED KULISS: The backdrop must be a flat amateur-theatre set piece turned up to maximum drama — not a real location, not subtle bokeh. Hand-painted canvas or cloth flats with visible brush strokes, wrong perspective, cardboard cut-outs, and summer-panto ambition. Epic scale painted small: raging seas, storm skies, fleets, treasure, cliffs — all charmingly fake, all gloriously excessive. The background should feel like the most ambitious village-hall production ever mounted.`
+const BACKGROUND_EPIC = `BACKGROUND — INSANELY EPIC PAINTED KULISS: The backdrop must be the most ambitious amateur set ever attempted — TWO dramatic scenes at once if needed: storm AND kraken AND fleet AND volcano. Flat painted flats, cardboard cut-outs, cotton-ball smoke, glitter on waves, brush strokes proudly visible, perspective hilariously wrong. Not a real location — a kuliss so extra it competes with her for attention. The set designer went feral.`
 
 const BACKGROUND = [
   'painted cyclorama of raging storm sea — cardboard waves, lightning bolts painted in white, perspective wildly wrong',
@@ -159,6 +190,14 @@ const BACKGROUND = [
   'painted ship deck kuliss — mast and rigging as flat cut-outs, painted planks, visible stage screws',
   'hand-painted sunset over Salmonella Sea — dramatic clouds, gold fleck paint on waves',
   'aged sepia studio backdrop with creases — but painted ship and lightning added over it in amateur brushwork',
+  'DOUBLE kuliss — storm sea flat IN FRONT OF volcano-and-fleet flat, both visible',
+  'painted sea battle — two cut-out ships firing cotton-ball cannon smoke at each other',
+  'giant painted kraken AND painted whirlpool AND lightning — triple threat backdrop',
+  'conquered port with cardboard castle, painted fireworks, and oversized moon',
+  'ship-deck flat WITH painted horizon AND cardboard seagulls on sticks',
+  'tavern AND harbour visible through two parted curtains — two sets in one',
+  'painted mermaid tail emerging from waves beside the ship kuliss — Lotería chaos',
+  'gold glitter glued to painted waves, lightning, AND palm trees — craft-store apocalypse',
 ]
 
 const MEDIA = [
@@ -172,24 +211,39 @@ function pickRandom(pool) {
   return pool[Math.floor(Math.random() * pool.length)]
 }
 
+function pickRandomMany(pool, count) {
+  const shuffled = [...pool]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+  return shuffled.slice(0, Math.min(count, pool.length))
+}
+
+function joinList(items) {
+  return items.join('; ')
+}
+
 function buildPrompt({ keepExpression = false } = {}) {
   const pose = keepExpression
     ? 'same head angle and facial expression as the source photo; body may shift slightly for costume'
-    : pickRandom(POSE)
+    : Math.random() < 0.2
+      ? pickRandom(POSE_EXTRA)
+      : pickRandom(POSE)
   const gaze = keepExpression
     ? 'exact same facial expression as the input photo — unchanged smile, mouth, and eyes'
     : pickRandom(GAZE)
   const media = pickRandom(MEDIA)
-  const costume = pickRandom(COSTUME)
-  const props = pickRandom(PROPS)
-  const accessories = pickRandom(ACCESSORIES)
+  const costume = pickRandomMany(COSTUME, 2)
+  const props = pickRandomMany(PROPS, 3)
+  const accessories = pickRandomMany(ACCESSORIES, 2)
   const background = pickRandom(BACKGROUND)
 
   const subject = `Transform this photograph into Svarta Malin — the ultimate vintage pirate captain portrait. Portrait orientation, aspect ratio 63:88 (playing card proportions), vertical composition.
 
-Render as a ${media}. Half- or three-quarter-length portrait. ${pose}. ${gaze}. ${costume}. Props: ${props} — obvious costume accessories, not real weapons. Makeup and jewellery: ${accessories}. Background: ${background}. ${HAT}`
+Render as a ${media}. Half- or three-quarter-length portrait. ${pose}. ${gaze}. Costume layers (wear ALL at once): ${joinList(costume)}. Props (carry ALL at once): ${joinList(props)} — obvious costume accessories, not real weapons. Makeup and jewellery (ALL of it): ${joinList(accessories)}. Background: ${background}. ${HAT}`
 
-  const blocks = [LIKENESS, CAPTAIN, FEMALE_POWER, OVER_THE_TOP, COSTUME_AMATEUR, BACKGROUND_EPIC, HAT]
+  const blocks = [LIKENESS, CAPTAIN, FEMALE_POWER, OVER_THE_TOP, COSTUME_AMATEUR, PROPS_EXCESS, BACKGROUND_EPIC, HAT]
   if (keepExpression) {
     blocks.push(KEEP_EXPRESSION)
   } else {
@@ -199,11 +253,19 @@ Render as a ${media}. Half- or three-quarter-length portrait. ${pose}. ${gaze}. 
 
   const summary = [
     keepExpression ? 'keep expr' : 'epic expr',
-    'over the top',
+    'MAX OTT',
     pose.split(/[,.]/)[0].slice(0, 28),
   ].join(' · ')
 
-  const picks = { pose, gaze, media, costume, props, accessories, background }
+  const picks = {
+    pose,
+    gaze,
+    media,
+    costume: joinList(costume),
+    props: joinList(props),
+    accessories: joinList(accessories),
+    background,
+  }
 
   return { prompt: blocks.join(' '), summary, picks }
 }
