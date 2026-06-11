@@ -70,6 +70,9 @@
   font-weight: bold;
   letter-spacing: 0.05em;
 }
+#map-bg .harbor-marker .marker-label {
+  font-size: 12.8px;
+}
 #map-bg .treasure-label {
   font-size: 28px;
   font-weight: bold;
