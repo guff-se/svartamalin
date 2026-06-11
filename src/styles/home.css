@@ -1,0 +1,135 @@
+/* Home: content är överliggande kort över den animerade kartbakgrunden. */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+.hero-title {
+  font-size: clamp(3rem, 10vw, 6rem);
+  margin: 0;
+  letter-spacing: 0.05em;
+  color: #1a0a05;
+  text-shadow: 0 0 20px rgba(232, 216, 180, 0.4);
+}
+.hero-sub {
+  font-style: italic;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: #2a1810;
+  text-shadow: 0 0 8px rgba(232, 216, 180, 0.3);
+  margin: 0.5rem 0 2rem;
+}
+.hero-lead {
+  max-width: 32rem;
+  font-style: italic;
+  color: var(--paper);
+  line-height: 1.7;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.scroll-cue {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: var(--paper-dark);
+  animation: bob 2s ease-in-out infinite;
+}
+@keyframes bob {
+  0%, 100% { transform: translateY(0); opacity: 0.6; }
+  50% { transform: translateY(8px); opacity: 1; }
+}
+
+.card-section {
+  padding: 3rem 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 100%;
+  max-width: 44rem;
+  background: rgba(20, 14, 8, 0.85);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--gold);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  padding: 2rem 2rem 2.5rem;
+}
+.card h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.card .lead {
+  text-align: center;
+  font-style: italic;
+  color: var(--paper-dark);
+  margin: 0 0 1.5rem;
+}
+
+/* Crew collage */
+.crew-collage {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11.88rem, 1fr));
+  gap: 1.25rem;
+  justify-items: center;
+}
+
+.crew-collage .pirate-card {
+  max-width: 16.632rem; /* 10% larger than default 15.12rem */
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.crew-collage .pirate-card:hover {
+  transform: scale(1.03);
+}
+
+.crew-collage .pirate-card:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* Practical info */
+.info-grid { display: grid; gap: 1.5rem; }
+.info-item { border-left: 2px solid var(--gold); padding-left: 1rem; }
+.info-item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.info-item p { margin: 0; line-height: 1.7; }
+
+/* My crew */
+.crew-empty {
+  font-style: italic;
+  color: var(--paper-dark);
+  text-align: center;
+}
+.crew-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+.crew-list li {
+  padding: 1rem;
+  border: 1px solid var(--gold);
+  background: rgba(0,0,0,0.3);
+}
+.crew-list .name { font-weight: bold; }
+.crew-list .pirate { font-style: italic; color: var(--paper-dark); }
+.crew-list .contact { font-size: 0.85rem; margin-top: 0.25rem; color: var(--paper-dark); }

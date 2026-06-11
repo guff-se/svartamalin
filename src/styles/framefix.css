@@ -1,0 +1,235 @@
+/* Dev tool — /framefix */
+
+body.framefix-page {
+  background: #12100c;
+  color: var(--paper);
+}
+
+body.framefix-page #party-audio,
+body.framefix-page #map-root,
+body.framefix-page #top-controls {
+  display: none !important;
+}
+
+.framefix {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.framefix__header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.framefix h1 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.35rem;
+}
+
+.framefix__hint {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--paper-dark);
+  max-width: 28rem;
+}
+
+.framefix__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.framefix__btn {
+  font: inherit;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--gold);
+  background: rgba(184, 146, 74, 0.15);
+  color: var(--paper);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.framefix__btn:hover {
+  background: rgba(184, 146, 74, 0.28);
+}
+
+.framefix__btn--ghost {
+  border-color: var(--paper-dark);
+  background: transparent;
+  color: var(--paper-dark);
+}
+
+.framefix__export {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  background: #0e0c09;
+  color: #c9b685;
+  border: 1px solid #3a3020;
+  border-radius: 2px;
+  resize: vertical;
+}
+
+.framefix__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1.5rem;
+}
+
+.framefix__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.framefix__title {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-align: center;
+}
+
+.framefix__stage {
+  display: flex;
+  justify-content: center;
+}
+
+.framefix__card {
+  position: relative;
+  width: 100%;
+  max-width: 16rem;
+  aspect-ratio: 63 / 88;
+  touch-action: none;
+  user-select: none;
+}
+
+.framefix__photo {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 1px;
+  z-index: 1;
+}
+
+.framefix__photo-checker {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(45deg, #4a3828 25%, transparent 25%),
+    linear-gradient(-45deg, #4a3828 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #4a3828 75%),
+    linear-gradient(-45deg, transparent 75%, #4a3828 75%);
+  background-size: 12px 12px;
+  background-position: 0 0, 0 6px, 6px -6px, -6px 0;
+  background-color: #6a5040;
+  opacity: 0.85;
+}
+
+.framefix__photo-bounds {
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  border: 2px dashed rgba(120, 220, 160, 0.85);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.framefix__handle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  border-radius: 50%;
+  background: #7cffb2;
+  border: 2px solid #1a3a28;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.35);
+  pointer-events: auto;
+  cursor: grab;
+  z-index: 6;
+  touch-action: none;
+}
+
+.framefix__handle:active {
+  cursor: grabbing;
+}
+
+.framefix__handle[data-handle="tl"],
+.framefix__handle[data-handle="br"] { cursor: nwse-resize; }
+
+.framefix__handle[data-handle="tr"],
+.framefix__handle[data-handle="bl"] { cursor: nesw-resize; }
+
+.framefix__overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Anchor = text center (same as .pirate-card__label in production). Dot is visual only. */
+.framefix__label {
+  position: absolute;
+  z-index: 7;
+  transform: translate(-50%, -50%);
+  pointer-events: auto;
+  cursor: grab;
+}
+
+.framefix__label:active {
+  cursor: grabbing;
+}
+
+.framefix__label-dot {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 3px);
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff6b6b;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
+  pointer-events: auto;
+  cursor: grab;
+}
+
+.framefix__name {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(0.65rem, 2.8vw, 0.95rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+  white-space: nowrap;
+  text-shadow: 0 0 4px rgba(232, 216, 180, 0.6);
+  pointer-events: none;
+}
+
+.framefix__coords {
+  margin: 0;
+  padding: 0.45rem 0.5rem;
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.62rem;
+  line-height: 1.4;
+  color: #9a8a68;
+  background: #0e0c09;
+  border: 1px solid #2a2418;
+  border-radius: 2px;
+  white-space: pre-wrap;
+}

@@ -1,0 +1,10 @@
+# Stems listed here ALWAYS keep the original facial expression (even without --keep-expression).
+# One stem per line. Lines starting with # are ignored.
+#
+# Override for one run:  npm run generate-portraits -- --no-keep-expression navid
+#
+# Examples (uncomment to enable):
+# navid-modiri
+# josefin-ansund
+
+louise-von-bahr2

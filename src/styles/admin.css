@@ -1,0 +1,43 @@
+.admin {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.admin h1 { letter-spacing: 0.04em; }
+.admin h2 {
+  margin-top: 2.5rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: var(--gold);
+}
+.admin table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.admin th, .admin td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid rgba(184, 146, 74, 0.2);
+}
+.admin th { color: var(--gold); font-weight: normal; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.15em; }
+.admin select, .admin input, .admin textarea {
+  background: rgba(232, 216, 180, 0.05);
+  color: var(--paper);
+  border: 1px solid rgba(184, 146, 74, 0.4);
+  padding: 0.4rem 0.6rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+.admin .status-select { min-width: 7rem; }
+.admin .pirate-select { min-width: 10rem; max-width: 14rem; }
+.admin textarea { width: 100%; min-height: 4rem; resize: vertical; }
+.admin .info-row { display: grid; grid-template-columns: 10rem 1fr auto; gap: 0.75rem; align-items: start; margin-bottom: 0.75rem; }
+.admin .info-row label { padding-top: 0.5rem; color: var(--paper-dark); }
+.admin button { background: transparent; border: 1px solid var(--gold); color: var(--paper); padding: 0.5rem 1rem; cursor: pointer; font-family: inherit; }
+.admin button:hover { background: var(--accent); border-color: var(--accent); }
+.admin .pill { display: inline-block; padding: 0.1rem 0.5rem; border: 1px solid var(--gold); border-radius: 999px; font-size: 0.75rem; }
+.admin .pill.yes { color: #88c896; border-color: #88c896; }
+.admin .pill.no { color: #c88888; border-color: #c88888; }
+.admin .pill.pending { color: var(--paper-dark); }

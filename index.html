@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svarta Malin — Havets Fasa</title>
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <link rel="stylesheet" href="/src/styles/map.css" />
+    <link rel="stylesheet" href="/src/styles/rsvp.css" />
+    <link rel="stylesheet" href="/src/styles/home.css" />
+    <link rel="stylesheet" href="/src/styles/pirate-card.css" />
+    <link rel="stylesheet" href="/src/styles/framefix.css" />
+  </head>
+  <body class="locked">
+    <div id="app"></div>
+    <div id="loading-screen" hidden>
+      <div class="loading-text">Stiger ombord…</div>
+      <div class="loading-spinner"></div>
+    </div>
+    <audio id="party-audio" src="/audio/svarta-malin.m4a" preload="auto"></audio>
+    <div id="top-controls" class="top-controls" hidden>
+      <button id="logout-btn" type="button">Logga ut</button>
+      <button id="mute-toggle" aria-label="Stäng av ljud">🔊</button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

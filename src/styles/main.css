@@ -1,0 +1,202 @@
+/* Metamorphous — pirat/medieval headlines + kartetiketter. Self-hosted. */
+@font-face {
+  font-family: 'Metamorphous';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/metamorphous-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Metamorphous';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/metamorphous-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+:root {
+  --font-display: 'Metamorphous', 'Georgia', serif;
+  --font-body: 'Georgia', 'Times New Roman', serif;
+  --bg: #1a120a;
+  --paper: #e8d8b4;
+  --paper-dark: #c9b685;
+  --ink: #2a1810;
+  --accent: #8b2c1a;
+  --gold: #b8924a;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--paper);
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+h1, h2, h3,
+.hero-title, .hero-sub,
+.unlock h1,
+.rsvp h2,
+.card h2,
+.admin h1,
+.treasure-map text {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+body {
+  background-image:
+    radial-gradient(ellipse at top, rgba(184, 146, 74, 0.15), transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(139, 44, 26, 0.1), transparent 60%);
+}
+
+#app { min-height: 100vh; }
+
+#loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  background: linear-gradient(135deg, #1a120a 0%, #2a1810 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  color: var(--paper);
+  transition: opacity 0.6s ease-out;
+}
+#loading-screen[hidden] { display: none; }
+#loading-screen.fading {
+  opacity: 0;
+  pointer-events: none;
+}
+#loading-screen .loading-text {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--paper);
+  text-shadow: 0 0 20px rgba(184, 146, 74, 0.4);
+}
+#loading-screen .loading-spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid rgba(184, 146, 74, 0.3);
+  border-top-color: var(--gold);
+  border-radius: 50%;
+  animation: loading-spin 1s linear infinite;
+}
+@keyframes loading-spin {
+  to { transform: rotate(360deg); }
+}
+
+.top-controls {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.top-controls button {
+  background: rgba(26, 18, 10, 0.8);
+  color: var(--paper);
+  border: 1px solid var(--gold);
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+.top-controls button:hover { background: rgba(139, 44, 26, 0.8); }
+#logout-btn {
+  border-radius: 1.25rem;
+  height: 2.5rem;
+  padding: 0 0.85rem;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+#mute-toggle {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+/* Lösenordsskärm */
+.unlock {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  padding: 6rem 2rem 2rem;
+  text-align: center;
+}
+.unlock h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 30px rgba(184, 146, 74, 0.3);
+}
+.unlock .subtitle {
+  font-family: var(--font-display);
+  color: var(--paper-dark);
+  margin-bottom: 3rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+}
+.unlock form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.unlock input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--gold);
+  color: var(--paper);
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  width: min(20rem, 80vw);
+  outline: none;
+}
+.unlock input:focus { border-bottom-color: var(--accent); }
+.unlock button {
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--paper);
+  padding: 0.75rem 2rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.unlock button:hover { background: var(--accent); border-color: var(--accent); }
+.unlock .audio-hint {
+  margin-top: 2rem;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: var(--paper-dark);
+  font-style: italic;
+}
+.unlock .error {
+  color: var(--accent);
+  margin-top: 1rem;
+  min-height: 1.2em;
+}
+.shake { animation: shake 0.4s; }
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-10px); }
+  40%, 80% { transform: translateX(10px); }
+}

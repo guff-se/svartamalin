@@ -1,0 +1,19 @@
+---
+description: Collectable pirate portrait card frame (AI PNG overlay, pirateCardHtml)
+globs: src/components/pirate-card.js,src/components/crew-collage.js,src/styles/pirate-card.css,public/images/cards/**,scripts/generate-card-overlay.js
+alwaysApply: false
+---
+
+# Pirate portrait card frame
+
+Read [AGENTS.md](../AGENTS.md) § "Collectable pirate portrait card frame".
+
+**Quick rules:**
+
+- Frames are WebP overlays: `public/images/cards/pirate-card-overlay1.webp` … `overlay7.webp` (`CARD_OVERLAYS` in `pirate-card.js`); sources in `images/cards-originals/`
+- Regenerate: `npm run generate-card-overlay` (OpenAI `gpt-image-1`, prompt in `scripts/generate-card-overlay.js`, style from [aesthetic-style-guide.md](../aesthetic-style-guide.md))
+- Card ratio **63:88**. Centre of PNG must stay transparent for the portrait; names are **HTML** in `.pirate-card__label`, not in the image.
+- Render cards via `pirateCardHtml()` — do not duplicate markup.
+- Portraits: `/images/portraits/<pirate_name_id>.jpg`
+- After regen, tune `.pirate-card__photo` inset and `.pirate-card__label` in `pirate-card.css` if needed.
+- Do not replace with hand-drawn SVG unless user explicitly requests it.

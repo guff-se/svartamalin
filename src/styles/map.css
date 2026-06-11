@@ -1,0 +1,137 @@
+#map-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  perspective: 1800px;
+  perspective-origin: 50% 60%;
+}
+#map-bg .treasure-map {
+  transform-origin: 50% 50%;
+}
+#map-bg .map-loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--paper-dark);
+  font-style: italic;
+}
+/* SVG-elementet sträcker sig 15 % utanför viewporten på varje sida så det
+   finns kartmaterial kvar i hörnen även när den tiltas i 3D. */
+#map-bg .treasure-map {
+  position: absolute;
+  left: -15%;
+  top: -15%;
+  width: 130%;
+  height: 130%;
+  overflow: visible;
+}
+/* Vignett som ligger fast på viewport och inte roterar med kartan */
+#map-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(20, 8, 4, 0.9) 100%);
+}
+#map-bg .treasure-map text {
+  font-family: var(--font-display);
+}
+
+/* Cast shadow på land-figurer för djup */
+#map-bg .village,
+#map-bg .tree,
+#map-bg .wagon,
+#map-bg .globen,
+#map-bg .robbers,
+#map-bg .kraken,
+#map-bg .octopus,
+#map-bg .whale,
+#map-bg .mermaid,
+#map-bg .sea-monster,
+#map-bg .decor-ship,
+#map-bg .skull-warning,
+#map-bg .dragon-warning,
+#map-bg .stockholm-city,
+#map-bg .sodertalje {
+  filter: drop-shadow(2px 3px 1.5px rgba(40, 20, 10, 0.45));
+}
+#map-bg .sea-label {
+  font-size: 13.6px;
+  letter-spacing: 0.4em;
+  font-weight: bold;
+  font-style: italic;
+}
+#map-bg .marker-label {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+#map-bg .treasure-label {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+#map-bg .warning-label {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.1em;
+}
+#map-bg .compass-letter {
+  font-size: 16px;
+  font-weight: bold;
+}
+#map-bg .city-label {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-style: italic;
+}
+
+/* Content overlay */
+.content-overlay {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+}
+.content-overlay > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Mute-toggle ovanpå allt */
+.top-controls { z-index: 100; }
+
+/* När unlock-skärmen visas — ingen karta synlig än */
+body.locked #map-bg { display: none; }
+
+/* Reveal-overlay (bara skip-knapp) */
+#reveal-caption {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  pointer-events: none;
+}
+#reveal-caption .skip-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  pointer-events: auto;
+  background: rgba(20, 14, 8, 0.8);
+  color: var(--paper);
+  border: 1px solid var(--gold);
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+#reveal-caption .skip-btn:hover { background: var(--accent); border-color: var(--accent); }
+
+/* Innehåll döljs under reveal */
+body.revealing .content-overlay { opacity: 0; transition: opacity 0.6s; pointer-events: none; }
+body:not(.revealing) .content-overlay { opacity: 1; transition: opacity 1.2s; }

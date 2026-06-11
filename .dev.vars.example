@@ -1,0 +1,5 @@
+# Kopiera till .dev.vars för `wrangler pages dev` (gitignored)
+SUPABASE_URL=https://YOUR-PROJECT.supabase.co
+SUPABASE_ANON_KEY=eyJ...
+COOKIE_SECRET=change-me-to-32-random-bytes
+ADMIN_PASSWORD=change-me

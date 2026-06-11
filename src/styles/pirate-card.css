@@ -1,0 +1,228 @@
+/* Collectable pirate portrait card — 63:88 (standard playing card). */
+
+.pirate-card {
+  width: 100%;
+  max-width: 15.12rem; /* 63 × 0.24rem — 20% larger than 12.6rem */
+}
+
+.pirate-card__inner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 63 / 88;
+}
+
+/* Portrait photo — per-frame inset via .pirate-card--frameN (fallback: frame 1) */
+.pirate-card__photo {
+  position: absolute;
+  inset: 7% 7% 23% 7%;
+  background-color: #2a1810;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.pirate-card__photo-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  /* Subtle vintage treatment on the photo itself */
+  filter: sepia(0.35) contrast(1.05) brightness(0.95);
+}
+
+.pirate-card__placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: clamp(2.4rem, 9.6vw, 3.6rem);
+  opacity: 0.35;
+  background: linear-gradient(145deg, #3a2818 0%, #1a120a 100%);
+}
+
+/* Frame overlay — full card, mostly transparent */
+.pirate-card__overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Name center — per-frame top/left + translate (set in .pirate-card--frameN) */
+.pirate-card__label {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  max-width: 88%;
+  text-align: center;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  line-height: 1.15;
+}
+
+.pirate-card__name {
+  font-family: var(--font-display);
+  font-size: clamp(0.55rem, 2.35vw, 0.75rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --- Per-frame layouts (detect-card-frame-layouts.js) --- */
+
+.pirate-card--frame1 .pirate-card__photo {
+  inset: 8.19% 4.84% 14.18% 5.16%;
+}
+
+.pirate-card--frame1 .pirate-card__label {
+  top: 93.04%;
+  left: 49.38%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+.pirate-card--frame2 .pirate-card__photo {
+  inset: 2.22% 3.69% 11.43% 3.83%;
+}
+
+.pirate-card--frame2 .pirate-card__label {
+  top: 89.58%;
+  left: 49.99%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+.pirate-card--frame3 .pirate-card__photo {
+  inset: 3.25% 3.23% 2.53% 3.37%;
+}
+
+.pirate-card--frame3 .pirate-card__label {
+  top: 87.66%;
+  left: 51.31%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+.pirate-card--frame4 .pirate-card__photo {
+  inset: 12.15% 12.43% 15.86% 12.07%;
+}
+
+.pirate-card--frame4 .pirate-card__label {
+  top: 90.64%;
+  left: 45.4%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+.pirate-card--frame5 .pirate-card__photo {
+  inset: 0.6% 1.52% 1.47% 1.67%;
+}
+
+.pirate-card--frame5 .pirate-card__label {
+  top: 90.17%;
+  left: 50.83%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+.pirate-card--frame6 .pirate-card__photo {
+  inset: 2.86% 3.7% 2.56% 4.85%;
+}
+
+.pirate-card--frame6 .pirate-card__label {
+  top: 89.48%;
+  left: 51.13%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+.pirate-card--frame7 .pirate-card__photo {
+  inset: 2.65% 3.15% 1.93% 2.3%;
+}
+
+.pirate-card--frame7 .pirate-card__label {
+  top: 90.99%;
+  left: 48.66%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+/* --- end per-frame layouts --- */
+
+/* Fullscreen lightbox (crew collage) */
+body.pirate-card-lightbox-open {
+  overflow: hidden;
+}
+
+.pirate-card-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 400;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.pirate-card-lightbox__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 6, 4, 0.92);
+  backdrop-filter: blur(8px);
+}
+
+.pirate-card-lightbox__card {
+  position: relative;
+  z-index: 1;
+  width: min(90vw, calc(90vh * 63 / 88));
+  max-height: 90vh;
+}
+
+.pirate-card-lightbox__card .pirate-card {
+  max-width: none;
+  width: 100%;
+}
+
+.pirate-card-lightbox__card .pirate-card__name {
+  font-size: clamp(0.9rem, 3vw, 1.25rem);
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.pirate-card-lightbox__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: rgba(26, 18, 10, 0.85);
+  color: var(--paper);
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+
+.pirate-card-lightbox__close:hover,
+.pirate-card-lightbox__close:focus-visible {
+  background: rgba(139, 44, 26, 0.9);
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}

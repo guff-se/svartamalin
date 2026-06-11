@@ -1,0 +1,28 @@
+{
+  "name": "svartamalin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pages:dev": "wrangler pages dev -- vite dev",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name svartamalin",
+    "fetch-map": "node scripts/fetch-map-data.js",
+    "generate-card-overlay": "node scripts/generate-card-overlay.js",
+    "optimize-card-overlays": "node scripts/optimize-card-overlays.js",
+    "detect-card-frame-layouts": "node scripts/detect-card-frame-layouts.js",
+    "generate-portraits": "node scripts/generate-portraits.js",
+    "generate-portraits-experiment": "node scripts/generate-portraits-experiment.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "gsap": "^3.12.5",
+    "polygon-clipping": "^0.15.7"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "wrangler": "^3.78.0"
+  }
+}
