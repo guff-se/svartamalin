@@ -265,7 +265,9 @@ function render(data) {
 
       <!-- Rotor: allt kartinnehåll roterar tillsammans -->
       <g class="map-rotor">
-      <!-- Pergamentbakgrund. ?no-parchment=1 ersätter med flat fyllning för perf-test. -->
+      <!-- Pergamentbakgrund. ?no-parchment=1 ersätter med flat fyllning för perf-test.
+           Ligger UTANFÖR .map-fadeable så pappret behåller full opacitet när
+           kartinnehållet dämpas vid hero-fade-in. -->
       <rect
         x="${(-VIEW_W * 0.3).toFixed(0)}"
         y="${(-viewH * 0.3).toFixed(0)}"
@@ -273,6 +275,10 @@ function render(data) {
         height="${(viewH * 1.6).toFixed(0)}"
         fill="${perfFlags.noParchment ? '#d5c193' : 'url(#parchment-tile)'}"
       />
+
+      <!-- Allt utom pergamentet ligger i .map-fadeable så det kan dimmas
+           när hero-texten fadear in (lättare läsbarhet). -->
+      <g class="map-fadeable">
 
       <!-- Hav-lager (skärgård/Saltsjön från kustlinje-stängning) -->
       <g class="coastline-sea" fill="#4a6a74" fill-rule="evenodd">
@@ -387,7 +393,8 @@ function render(data) {
                preserveAspectRatio="xMidYMid meet" />
       </g>
 
-      </g>
+      </g> <!-- /map-fadeable -->
+      </g> <!-- /map-rotor -->
     </svg>
   `
 }
