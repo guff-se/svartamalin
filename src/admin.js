@@ -70,7 +70,7 @@ async function renderAdmin() {
 
 async function renderGuests() {
   const [{ data: guests }, { data: crews }, { data: names }] = await Promise.all([
-    supabase.from('guests').select('id, real_name, attending, pirate_name_id, crew_id, phone, email, created_at').order('created_at'),
+    supabase.from('guests').select('id, real_name, attending, pirate_name_id, crew_id, phone, email').order('real_name'),
     supabase.from('crews').select('id, name').order('id'),
     supabase.from('pirate_names').select('id, name').order('id'),
   ])

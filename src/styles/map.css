@@ -40,10 +40,48 @@
   font-family: var(--font-display);
 }
 
-/* Cast shadow var här tidigare via CSS filter drop-shadow — borttagen pga
-   misstanke om att den skapade stacking-context/rasterlayer som påverkade
-   text-rendering i SVG:t. Återinförs i så fall via SVG <feDropShadow> eller
-   bakas in i PNG:erna. */
+/* Cast shadow på land-figurer för djup */
+#map-bg .village,
+#map-bg .tree,
+#map-bg .wagon,
+#map-bg .globen,
+#map-bg .robbers,
+#map-bg .kraken,
+#map-bg .octopus,
+#map-bg .whale,
+#map-bg .mermaid,
+#map-bg .sea-monster,
+#map-bg .decor-ship,
+#map-bg .skull-warning,
+#map-bg .dragon-warning,
+#map-bg .stockholm-city,
+#map-bg .sodertalje {
+  filter: drop-shadow(2px 3px 1.5px rgba(40, 20, 10, 0.45));
+}
+
+/* Pre-warm compositor-layer på alla reveal-targets för att undvika
+   layer-promotion-flicker (vignetten blinkar) och scale-rasterization
+   (text pixleras när GSAP skalar från 0.4 → 1). Browsern allokerar då
+   stabil layer från start istället för att skapa/förstöra den mid-tween. */
+#map-bg .harbor-marker,
+#map-bg .sea-monster,
+#map-bg .whale,
+#map-bg .village,
+#map-bg .robbers,
+#map-bg .kraken,
+#map-bg .octopus,
+#map-bg .mermaid,
+#map-bg .skull-warning,
+#map-bg .dragon-warning,
+#map-bg .storm-cloud,
+#map-bg .decor-ship,
+#map-bg .compass-rose,
+#map-bg .our-ship,
+#map-bg .tree,
+#map-bg .wagon,
+#map-bg .globen {
+  will-change: transform, opacity;
+}
 #map-bg .sea-label {
   font-size: 13.6px;
   letter-spacing: 0.4em;
