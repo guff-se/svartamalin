@@ -126,11 +126,14 @@ async function renderGuests() {
     sel.addEventListener('change', async () => {
       const guestId = sel.dataset.guest
       const attending = { '': null, yes: true, no: false }[sel.value]
-      const { error } = await supabase.from('guests').update({ attending }).eq('id', guestId)
+      const payload = attending === true
+        ? { attending }
+        : { attending, pirate_name_id: null }
+      const { error } = await supabase.from('guests').update(payload).eq('id', guestId)
       if (error) {
         alert('Misslyckades: ' + error.message)
-        renderGuests()
       }
+      renderGuests()
     })
   })
 

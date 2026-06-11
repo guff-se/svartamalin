@@ -23,7 +23,6 @@ function showControls() {
 // tillåter även utan klick. Idempotent — multipla anrop ger samma promise.
 let primingPromise = null
 export function primeAudioAutoplay() {
-  showControls()
   if (primingPromise) return primingPromise
   primingPromise = (async () => {
     const wasMuted = audio.muted
@@ -58,8 +57,12 @@ export function pauseShowAudio() {
   try { audio.currentTime = 0 } catch {}
 }
 
-export function showMuteToggle() {
+export function showTopControls() {
   showControls()
+}
+
+export function showMuteToggle() {
+  showTopControls()
 }
 
 export function hideTopControls() {

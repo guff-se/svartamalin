@@ -4,9 +4,8 @@
   z-index: 0;
   overflow: hidden;
   pointer-events: none;
-  /* Ingen `perspective` — tilten fakas SVG-internt via vertikal-skala för att
-     undvika att SVG:t rasteriseras till en bitmap-layer (orsakade pixelering
-     på text vid inzoom). */
+  perspective: 1800px;
+  perspective-origin: 50% 60%;
 }
 #map-bg .treasure-map {
   transform-origin: 50% 50%;
@@ -41,24 +40,10 @@
   font-family: var(--font-display);
 }
 
-/* Cast shadow på land-figurer för djup */
-#map-bg .village,
-#map-bg .tree,
-#map-bg .wagon,
-#map-bg .globen,
-#map-bg .robbers,
-#map-bg .kraken,
-#map-bg .octopus,
-#map-bg .whale,
-#map-bg .mermaid,
-#map-bg .sea-monster,
-#map-bg .decor-ship,
-#map-bg .skull-warning,
-#map-bg .dragon-warning,
-#map-bg .stockholm-city,
-#map-bg .sodertalje {
-  filter: drop-shadow(2px 3px 1.5px rgba(40, 20, 10, 0.45));
-}
+/* Cast shadow var här tidigare via CSS filter drop-shadow — borttagen pga
+   misstanke om att den skapade stacking-context/rasterlayer som påverkade
+   text-rendering i SVG:t. Återinförs i så fall via SVG <feDropShadow> eller
+   bakas in i PNG:erna. */
 #map-bg .sea-label {
   font-size: 13.6px;
   letter-spacing: 0.4em;

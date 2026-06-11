@@ -1,5 +1,5 @@
 import { renderUnlock } from './pages/unlock.js'
-import { hideTopControls, pauseShowAudio } from './lib/audio.js'
+import { hideTopControls, pauseShowAudio, showTopControls } from './lib/audio.js'
 import { isReadyForShow } from './lib/guest.js'
 import { clearSession, getGuestId, isPeekMode } from './lib/state.js'
 import { showLoading, hideLoading } from './lib/loading.js'
@@ -75,6 +75,7 @@ async function route() {
 
   if (!(await isReadyForShow()) && !isPeekMode()) {
     hideLoading()
+    showTopControls()
     const { renderRsvp } = await import('./pages/rsvp.js')
     renderRsvp(app, () => route())
     return

@@ -79,15 +79,19 @@ function renderAttendingStep(card, onDone) {
 }
 
 async function updateAttending(attending, onDone) {
+  const payload = attending === true
+    ? { attending }
+    : { attending, pirate_name_id: null }
   const { error } = await supabase
     .from('guests')
-    .update({ attending })
+    .update(payload)
     .eq('id', guest.id)
   if (error) {
     alert('Något gick fel: ' + error.message)
     return
   }
   guest.attending = attending
+  if (attending !== true) guest.pirate_name_id = null
   stage = attending ? 'pirate' : 'declined'
   render(document.getElementById('app'), onDone)
 }

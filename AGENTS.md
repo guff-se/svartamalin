@@ -31,10 +31,10 @@ Reveal-tidsstämplar för dekorationer är samlade i konfig-arrayer (`driveRevea
 
 ## Performance-fällor (lärt ut hård väg)
 
-- **Ingen CSS 3D på SVG:t (inkl. `perspective` på parent eller `rotateX` på SVG).** Så fort SVG:t hamnar i en CSS 3D-compositorlayer cachar browsern dess output som bitmap, och viewBox-/inner-transform-ändringar invaliderar inte alltid den bitmapen → pixelering på text vid inzoom (hamnen/Salmonellahavet). All kamera-transformation körs istället SVG-internt:
-  - **Zoom**: `viewBox` per frame (SVG paint invalideras → vektor-skarpt).
-  - **Rotation**: inner `<g class="map-rotor">` via SVG `transform="rotate(...)"`.
-  - **Tilt**: fakad via vertikal-skala + skewX på `<g class="map-tilt">`. Inte äkta perspektiv (SVG saknar det) men ger känslan utan rasterisering.
+- **Zoom drivs av `viewBox` per frame, inte av en inner-`<g>`-skalning.** Med viewBox-attribut-ändring invaliderar browsern SVG-painten → text ritas om vektor-skarpt på den nya storleken. Inner-`<g>` `scale` kan se sig själv som en deep-mutation som inte alltid retriggrar SVG-paint i en 3D-compositorlayer.
+- **3D-tilt funkar tillsammans med viewBox-per-frame.** `perspective` på `#map-bg` + `rotateX` på SVG-elementet är OK — det är inte i sig orsaken till pixelering.
+- **CSS `filter` på map-decorationer skapade rasteriseringsproblem.** Drop-shadows via `filter: drop-shadow()` på `.kraken`, `.whale` etc. skapade en CSS filter-graf + stacking-context som påverkade hur SVG-text renderades i 3D-layern. Använd inte CSS `filter` på map-element. Cast shadows ska antingen bakas in i PNG:erna, eller läggas på via SVG `<feDropShadow>`-primitiver applicerade direkt på elementen.
+- **Rotation kan inte uttryckas i viewBox** — körs via inner `<g class="map-rotor">`. OK eftersom ren rotation inte triggar samma artefakter som scale.
 - **Slå ihop många små polygoner** till en samlad path (set `d` till alla concatenerade strängar). 1000+ separata `<path>`-element är dyrt.
 - **Undvik dyra filter** (`feTurbulence` etc.) i `<defs>` även om de inte används — vissa browsers kompilerar ändå.
 - **GSAP-tweens direkt på SVG-element vs setAttribute('transform')** krockar — välj en strategi per element.

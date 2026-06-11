@@ -263,8 +263,6 @@ function render(data) {
       <!-- Bakfärg (rotorns bottenplåt) -->
       <rect width="${VIEW_W}" height="${viewH}" fill="#3a2410" />
 
-      <!-- Tilt-g: vertikal-skala emulerar 3D-lutning utan CSS 3D (som rasteriserar SVG:t) -->
-      <g class="map-tilt">
       <!-- Rotor: allt kartinnehåll roterar tillsammans -->
       <g class="map-rotor">
       <!-- Pergamentbakgrund. ?no-parchment=1 ersätter med flat fyllning för perf-test. -->
@@ -387,7 +385,6 @@ function render(data) {
                preserveAspectRatio="xMidYMid meet" />
       </g>
 
-      </g>
       </g>
     </svg>
   `
@@ -624,14 +621,10 @@ async function runReveal() {
   cam.cx = sx; cam.cy = sy; cam.w = ZOOM_W; cam.h = ZOOM_H; cam.rot = 0; cam.tilt = 0
 
   const rotor = svg.querySelector('.map-rotor')
-  const tiltG = svg.querySelector('.map-tilt')
-  // VIKTIGT: ALLA kamera-transformationer körs SVG-internt så browsern aldrig
-  // tvingas rasterisera SVG:t till en bitmap-layer (det orsakade pixelering).
-  // - Zoom: viewBox per frame (SVG paint invalideras → vektor-skarpt).
-  // - Rotation: inner <g class="map-rotor"> via SVG transform-attribut.
-  // - "3D-tilt": fakad via vertikal-skala på <g class="map-tilt"> — inte äkta
-  //   perspektiv (SVG saknar det) men ger samma "uppifrån-känsla" utan att
-  //   skapa en CSS 3D-compositorlayer.
+  // Zoom: viewBox per frame (SVG paint invalideras vid attribut-ändring → text
+  // ritas om vektor-skarpt). Rotation: inner <g> via SVG transform-attribut.
+  // 3D-tilt: CSS rotateX på SVG-elementet kombinerat med perspective på parent.
+  let lastTilt = -1
   const applyCam = () => {
     const vbx = cam.cx - cam.w / 2
     const vby = cam.cy - cam.h / 2
@@ -642,16 +635,9 @@ async function runReveal() {
     } else {
       rotor.removeAttribute('transform')
     }
-    // Tilt-emulering: vertikal squish runt cam-center. tilt 0° = ingen squish,
-    // 35° ≈ scale(1, 0.819). Plus skewX för svag trapets-känsla av perspektiv.
-    if (!perfFlags.noTilt && cam.tilt !== 0) {
-      const sy = Math.cos(cam.tilt * Math.PI / 180)
-      const ty = cam.cy * (1 - sy)
-      const skew = cam.tilt * 0.15  // svag horisontell skev för djup
-      tiltG.setAttribute('transform',
-        `translate(0 ${ty.toFixed(1)}) scale(1 ${sy.toFixed(4)}) skewX(${skew.toFixed(2)})`)
-    } else {
-      tiltG.removeAttribute('transform')
+    if (!perfFlags.noTilt && cam.tilt !== lastTilt) {
+      svg.style.transform = cam.tilt === 0 ? '' : `rotateX(${cam.tilt.toFixed(1)}deg)`
+      lastTilt = cam.tilt
     }
   }
   applyCam()
