@@ -163,16 +163,18 @@ export async function buildScene() {
   for (let i = 0; i <= N; i++) driveWaypoints.push(sampleDriveAt((i / N) * totalDriveLen))
   const camDrivePoly = catmullRomPolyline(driveWaypoints, 80)  // 320 punkter total, glatt nog
 
+  // --- Decor sprites (renderas före routes så vägen syns ovanpå) ---
+  const decor = new Container()
+  decor.label = 'decor'
+  root.addChild(decor)
+
+  // Routes ovanpå decor (matchar map.js där drivingRoute/boatRoute path
+  // står efter alla decorImage-anrop i SVG-strukturen).
   const routesLayer = new Container()
   routesLayer.label = 'routes'
   routesLayer.addChild(routes.drive.g)
   routesLayer.addChild(routes.boat.g)
   root.addChild(routesLayer)
-
-  // --- Decor sprites ---
-  const decor = new Container()
-  decor.label = 'decor'
-  root.addChild(decor)
 
   const sprites = {}
 
@@ -388,28 +390,32 @@ export async function buildScene() {
   }
 }
 
-// Rita en GeoJSON Polygon (outer + holes) till Graphics och fill:a med
-// evenodd så hålen blir transparenta. Multipolygon = flera polygons.
+// Rita GeoJSON-features. För varje Polygon: outer ring fills, hole rings
+// "cuts" via Pixi v8 Graphics.cut() (subtraherar path från föregående fill,
+// skapar äkta hål — så öar inuti Mälaren-polygonen blir transparenta).
 function fillFeatures(g, features, project, fillStyle) {
   for (const f of features) {
     if (!f) continue
     if (f.type === 'Polygon') {
-      drawPolygonWithHoles(g, f.coordinates, project)
-      g.fill({ ...fillStyle, fillRule: 'evenodd' })
+      drawPolygonWithHoles(g, f.coordinates, project, fillStyle)
     } else if (f.type === 'MultiPolygon') {
       for (const poly of f.coordinates) {
-        drawPolygonWithHoles(g, poly, project)
-        g.fill({ ...fillStyle, fillRule: 'evenodd' })
+        drawPolygonWithHoles(g, poly, project, fillStyle)
       }
     }
   }
 }
 
-function drawPolygonWithHoles(g, rings, project) {
-  // En polygon = outer ring + 0+ hole rings. Alla ritas i samma path:
-  // evenodd-fillRule på efterföljande .fill() gör att hålen blir
-  // transparenta (interior count = 2 = jämn = utanför).
-  for (const ring of rings) drawRing(g, ring, project)
+function drawPolygonWithHoles(g, rings, project, fillStyle) {
+  if (!rings.length) return
+  // Ring 0 = outer boundary → fill
+  drawRing(g, rings[0], project)
+  g.fill(fillStyle)
+  // Resten = hål → cut() från föregående fill
+  for (let i = 1; i < rings.length; i++) {
+    drawRing(g, rings[i], project)
+    g.cut()
+  }
 }
 
 function drawRing(g, ring, project) {

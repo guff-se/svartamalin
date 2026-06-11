@@ -31,6 +31,21 @@
   z-index: 4;
 }
 
+/* Beige overlay som fadear in när hero blir synlig — matchar originalets
+   #hero-tint så texten får bättre kontrast mot kartan. */
+#webgl-hero-tint {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: #e8d8b4;
+  opacity: 0;
+  z-index: 5;
+  transition: opacity 1.2s;
+}
+body.webgl-revealed #webgl-hero-tint { opacity: 0.1; }
+
 /* Hero — overlay-content, döljs initialt under reveal. Tar 100vh så
    användaren kan scrolla förbi den till content nedanför. */
 .webgl-hero {

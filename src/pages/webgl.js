@@ -8,6 +8,7 @@ export async function renderWebgl(app) {
     <div class="webgl-page">
       <div id="webgl-stage"></div>
       <div id="webgl-vignette"></div>
+      <div id="webgl-hero-tint"></div>
       <main class="home content-overlay">
         <section class="hero webgl-hero" id="webgl-hero">
           <img class="hero-portrait" src="/images/portraits/malin-tadaa.jpg" alt="Svarta Malin" />
