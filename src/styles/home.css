@@ -122,7 +122,7 @@
 
 .ovanan-layout {
   display: grid;
-  grid-template-columns: minmax(0, 14rem) 1fr;
+  grid-template-columns: minmax(0, 18rem) 1fr;
   gap: 1.75rem;
   align-items: start;
 }
@@ -168,7 +168,7 @@
   }
 
   .ovanan-map {
-    max-width: 12rem;
+    max-width: 15rem;
   }
 
   .ovanan-details .lead {

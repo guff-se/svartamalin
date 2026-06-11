@@ -1,15 +1,20 @@
 #!/usr/bin/env node
 /**
- * Generate pirate map decoration PNGs via OpenAI Images API (gpt-image-1).
+ * Generate pirate map decoration PNGs.
  * Prompts from assets-prompts.md → public/images/map/
+ *
+ * Default backend: ChatGPT subscription via Codex OAuth (`codex login`).
+ * Optional API billing: MAP_ASSETS_USE_API_KEY=1 (requires OPENAI_API_KEY).
  */
 
 import { writeFile, mkdir } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { generateImageWithCodex, hasCodexSubscriptionAuth } from './lib/codex-image.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = join(__dirname, '..', 'public', 'images', 'map')
+const USE_API_KEY = process.env.MAP_ASSETS_USE_API_KEY === '1'
 
 const STYLE =
   'A naïve, awkward hand-drawn illustration in iron-gall ink and faded watercolour wash, in the style of an enthusiastic but genuinely unskilled 17th–18th century amateur cartographer. Quill-pen linework with wobbly hesitant strokes and uneven pressure, the proportions clearly wrong, watercolour wash spilling outside the outlines. Period palette only — sepia, warm browns, muted rust red, faded teal, ochre, muted green — all slightly aged and oxidised. Looks like an authentic awkward sketch from the age of sail, made by someone who has heard about the subject but is not very good at depicting it. NOT a modern drawing, NOT a child crayon doodle, NOT clean digital art, NOT a polished engraving. Quill pen and iron-gall ink, NOT crayons, NOT felt-tip, NOT modern materials.'
@@ -155,13 +160,20 @@ const ASSETS = [
     prompt:
       'A naïve hand-drawn sketch of Globen (the Ericsson Globe arena) in Stockholm, Sweden, for an 18th-century travel map by an unskilled amateur cartographer who has heard of this strange round building but cannot draw it well. Quill pen and iron-gall ink with muted grey-brown watercolour wash spilling outside the outlines. A large lopsided sphere or dome — not quite round, more potato-shaped or egg-shaped — with wobbly horizontal panel lines drawn unevenly around it, a crooked cylindrical base or pedestal underneath drawn too short, maybe a tiny stick-figure flag or antenna poking off at a wrong angle. The proportions are all wrong, perspective broken, the globe leans slightly. Looks earnest but clumsy — like a mapmaker trying to sketch a mysterious round landmark. CRITICAL FRAMING: entire building fits inside the image with generous margin on all sides, nothing cropped. Period sepia palette, aged and oxidised. Isolated landmark only.',
   },
+  {
+    file: 'arrow-down.png',
+    prompt:
+      'A naïve hand-drawn downward-pointing arrow for an 18th-century pirate or travel map, by an unskilled amateur cartographer. Quill pen and iron-gall ink outline with bold muted rust-red watercolour fill that spills slightly outside the wobbly lines. A simple map pointer: short vertical shaft, triangular arrowhead at the bottom pointing straight down — the tip must clearly aim downward. Lines hesitant and uneven, shaft slightly crooked, arrowhead lopsided or asymmetric. Bright enough red to read as a red arrow on a map, but aged and oxidised like period ink — not neon, not digital. Vertical composition, taller than wide. Isolated arrow symbol only, generous transparent margin around it.',
+  },
 ]
 
-async function generateImage(prompt, transparent = true, retries = 3) {
-  const fullPrompt = transparent
+function buildFullPrompt(prompt, transparent) {
+  return transparent
     ? `${prompt} ${STYLE} ${TRANSPARENT} ${NEG}`
     : `${prompt} ${STYLE} ${NEG}`
+}
 
+async function generateImageWithApi(fullPrompt, transparent = true, retries = 3) {
   const body = {
     model: 'gpt-image-1',
     prompt: fullPrompt,
@@ -200,11 +212,35 @@ async function generateImage(prompt, transparent = true, retries = 3) {
   throw new Error('Unreachable')
 }
 
-async function main() {
-  if (!process.env.OPENAI_API_KEY) {
-    console.error('OPENAI_API_KEY is not set')
-    process.exit(1)
+async function generateImageWithCodexBackend(fullPrompt, transparent = true) {
+  return generateImageWithCodex({
+    prompt: fullPrompt,
+    size: '1024x1024',
+    outputFormat: 'png',
+    // Codex image model rejects background: transparent — rely on TRANSPARENT prompt block.
+    ...(transparent ? {} : { background: 'opaque' }),
+  })
+}
+
+async function resolveBackend() {
+  if (USE_API_KEY) {
+    if (!process.env.OPENAI_API_KEY) {
+      throw new Error('MAP_ASSETS_USE_API_KEY=1 but OPENAI_API_KEY is not set')
+    }
+    return { name: 'openai-api', generate: generateImageWithApi }
   }
+
+  if (await hasCodexSubscriptionAuth()) {
+    return { name: 'codex-subscription', generate: generateImageWithCodexBackend }
+  }
+
+  throw new Error(
+    'No Codex subscription auth found (~/.codex/auth.json). Run `codex login` with your ChatGPT account, or set MAP_ASSETS_USE_API_KEY=1 with OPENAI_API_KEY.',
+  )
+}
+
+async function main() {
+  const backend = await resolveBackend()
 
   await mkdir(OUT_DIR, { recursive: true })
 
@@ -218,6 +254,7 @@ async function main() {
     process.exit(1)
   }
 
+  console.log(`Backend: ${backend.name}`)
   console.log(`Generating ${queue.length} image(s) → ${OUT_DIR}\n`)
 
   for (const asset of queue) {
@@ -233,10 +270,13 @@ async function main() {
       }
     }
 
+    const transparent = asset.transparent !== false
+    const fullPrompt = buildFullPrompt(asset.prompt, transparent)
+
     process.stdout.write(`🎨 ${asset.file} … `)
     const start = Date.now()
     try {
-      const png = await generateImage(asset.prompt, asset.transparent !== false)
+      const png = await backend.generate(fullPrompt, transparent)
       await writeFile(outPath, png)
       console.log(`done (${((Date.now() - start) / 1000).toFixed(1)}s, ${(png.length / 1024).toFixed(0)} KB)`)
     } catch (err) {
@@ -249,4 +289,7 @@ async function main() {
   console.log('\nFinished.')
 }
 
-main()
+main().catch((err) => {
+  console.error(err.message)
+  process.exit(1)
+})

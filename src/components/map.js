@@ -583,15 +583,12 @@ async function runReveal() {
   const { sx, sy, hx, hy, ox, oy } = stage
 
   // Dölj alla dekorationer och rutter initialt.
-  // OBS: opacity-bara — INGEN scale här. Varje CSS-transform på ett SVG-element
-  // ger det en egen compositor-layer som flickrar mot vignett/parent vid
-  // scroll/reveal. Reveals tweenar opacity bara av samma anledning.
   gsap.set(['.octopus', '.kraken', '.sea-monster', '.whale-1', '.mermaid',
             '.skull-warning', '.decor-ship', '.dragon-warning', '.storm-cloud',
             '.compass-rose', '.our-ship',
             '.wagon', '.village-1', '.village-2', '.village-3', '.robbers', '.tree',
             '.globen', '.stockholm-city'].join(','),
-           { opacity: 0 })
+           { opacity: 0, scale: 0.3, transformOrigin: '50% 50%' })
   // Vägar: använd stroke-dashoffset-tricket för att rita ut vägen progressivt.
   // Sätt dasharray = totalLen, dashoffset = totalLen → osynlig. Animera offset → 0.
   const drivingEl = svg.querySelector('.driving-route')
@@ -608,7 +605,7 @@ async function runReveal() {
     strokeDashoffset: boatTotalLen,
     opacity: 1,
   })
-  gsap.set('.harbor-marker', { opacity: 0 })
+  gsap.set('.harbor-marker', { opacity: 0, scale: 0.4, transformOrigin: '50% 50%' })
 
   // Skip-knapp (ingen storytelling-text)
   const caption = document.createElement('div')
@@ -745,8 +742,8 @@ async function runReveal() {
   ]
   for (const r of driveReveals) {
     tl.fromTo(r.sel,
-      { opacity: 0 },
-      { opacity: r.fade ?? 1, duration: r.dur, ease: r.ease ?? 'power2.out' },
+      { opacity: 0, scale: r.from },
+      { opacity: r.fade ?? 1, scale: 1, duration: r.dur, ease: r.ease ?? 'back.out(2)' },
       r.t)
   }
 
@@ -764,16 +761,16 @@ async function runReveal() {
   ]
   for (const r of harborReveals) {
     tl.fromTo(r.sel,
-      { opacity: 0 },
-      { opacity: r.fade ?? 1, duration: r.dur, ease: r.ease ?? 'power2.out' },
+      { opacity: 0, scale: r.from },
+      { opacity: r.fade ?? 1, scale: 1, duration: r.dur, ease: r.ease ?? 'back.out(2)' },
       r.t)
   }
 
   // 38–57 s: Båtrutt (2s kortare)
   tl.to('.boat-route', { strokeDashoffset: 0, duration: 19, ease: 'power2.inOut' }, 38)
   tl.set('.boat-route', { strokeDasharray: '12 9', strokeDashoffset: 0 }, 57)
-  tl.fromTo('.our-ship', { opacity: 0 },
-    { opacity: 1, duration: 0.8 }, 37)
+  tl.fromTo('.our-ship', { opacity: 0, scale: 0.5 },
+    { opacity: 1, scale: 1, duration: 0.8 }, 37)
 
   // Båt-inzoomning
   tl.to(cam, { w: ZOOM_W * 0.35, h: ZOOM_H * 0.35, duration: 2, ease: 'power2.inOut', onUpdate: applyCam }, 37)
@@ -818,8 +815,8 @@ async function runReveal() {
   ]
   for (const r of boatReveals) {
     tl.fromTo(r.sel,
-      { opacity: 0 },
-      { opacity: 1, duration: r.dur, ease: 'power2.out' },
+      { opacity: 0, scale: r.from },
+      { opacity: 1, scale: 1, duration: r.dur, ease: 'back.out(2)' },
       r.t)
   }
 
@@ -842,8 +839,8 @@ async function runReveal() {
   ]
   for (const r of endReveals) {
     tl.fromTo(r.sel,
-      { opacity: 0 },
-      { opacity: 1, duration: r.dur, ease: r.ease ?? 'power2.out' },
+      { opacity: 0, scale: r.from },
+      { opacity: 1, scale: 1, duration: r.dur, ease: r.ease ?? 'back.out(2)' },
       r.t)
   }
   // Södertälje, village-2, village-3 visas från start (utanför rutten —

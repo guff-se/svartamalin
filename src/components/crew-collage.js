@@ -1,6 +1,7 @@
 import { supabase } from '../lib/supabase.js'
 import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
+import { sortByPirateNameId } from '../lib/pirate-name-order.js'
 import { pirateCardHtml } from './pirate-card.js'
 
 let lightboxEl = null
@@ -32,7 +33,6 @@ async function refresh(el) {
     .from('public_guests')
     .select('id, real_name, pirate_name, pirate_name_id')
     .not('pirate_name_id', 'is', null)
-    .order('pirate_name_id')
 
   if (error) {
     el.textContent = 'Kunde inte ladda besättningen.'
@@ -44,7 +44,7 @@ async function refresh(el) {
     return
   }
 
-  el.innerHTML = data.map((p) => pirateCardHtml({
+  el.innerHTML = sortByPirateNameId(data).map((p) => pirateCardHtml({
     photoSrc: portraitPath(p.real_name),
     pirateName: p.pirate_name,
     overlaySrc: overlayForGuest({ id: p.id, pirate_name_id: p.pirate_name_id }),

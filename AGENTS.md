@@ -25,6 +25,27 @@ Riktlinjer:
   - `supabase.js` — klient-konfig
 - **Map data**: `public/map-data.json` (genereras via `npm run fetch-map`). Variabel detaljgrad — hög runt Ovanan/Salmonellahavet, lägre på resten.
 
+## Innehållstexter (`practical_info`)
+
+Gästvänd copy (praktisk info, Ovanan-sektionen, RSVP-sammanfattning) ska **ligga i Supabase-tabellen `practical_info`**, inte hårdkodas i komponenter. Arrangörerna redigerar texterna via `/admin`; seed-värden i `supabase/practical_info_seed.sql` är bara startvärden (`on conflict do nothing`).
+
+**Mönster i koden:**
+
+- `src/components/practical-info.js` — `fetchPracticalMap()`, `formatPracticalMarkdown()` (minimal markdown: `**fet**`, radbrytningar), `renderPracticalInfo()` för sektionen Praktiskt, `renderPracticalInfoKeys()` för RSVP.
+- `src/components/ovanan-section.js` — `renderOvananSection()`; hämtar Ovanan-texter från samma tabell.
+- **Rubriker** i UI (t.ex. "Boende", "Datum") kan ligga i `PRACTICAL_LABELS` / `OVANAN_LABELS` i koden — **brödtext** ska alltid komma från databasen.
+
+**Nycklar (aktuella):**
+
+| Nyckel | Sektion |
+|--------|---------|
+| `ovanan_intro`, `ovanan_accommodation`, `ovanan_resources` | Ovanan (intro + boende + resurser) |
+| `dates`, `transport_intro`, `boat_friday`, `boat_sunday`, `kids_policy`, `packing`, `teams_intro` | Praktiskt |
+
+RSVP visar en delmängd via `RSVP_PRACTICAL_KEYS` i `practical-info.js`.
+
+**När du lägger till ny copy:** skapa ny `key` i `practical_info_seed.sql`, hämta via `fetchPracticalMap()`, rendera med `formatPracticalMarkdown()`. Hårdkoda inte placeholder-strängar i JSX/HTML om de ska kunna redigeras i admin.
+
 ## Reveal-config i map.js
 
 Reveal-tidsstämplar för dekorationer är samlade i konfig-arrayer (`driveReveals`, `harborReveals`, `boatReveals`, `endReveals`) — justera där snarare än att leta upp enskilda `tl.fromTo`-anrop.

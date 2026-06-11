@@ -1,7 +1,9 @@
 -- Initial praktisk info. Admin kan redigera dessa via /admin senare.
 
 insert into practical_info (key, value) values
-  ('location', 'Ovanan — privat ö i Mälaren.'),
+  ('ovanan_intro', 'Privat ö i Mälaren — vår bas under helgen.'),
+  ('ovanan_accommodation', 'Stugor och sovplats på ön — mer information kommer.'),
+  ('ovanan_resources', 'Kök, bastu, bryggor och gemensamma ytor — detaljer fylls i.'),
   ('dates', '4–6 september 2026'),
   ('boat_friday', 'Båttider för fredag kommuniceras separat.'),
   ('boat_sunday', 'Båttider för söndag kommuniceras separat.'),

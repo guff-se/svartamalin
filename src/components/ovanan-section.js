@@ -1,8 +1,24 @@
-import { escapeHtml } from '../lib/escape.js'
+import { fetchPracticalMap, formatPracticalMarkdown, OVANAN_LABELS } from './practical-info.js'
 
-const MAP_SRC = '/images/maps/ovanan.jpg'
+const MAP_SRC = '/images/maps/ovanan-v9.jpg'
 
-export function ovananSectionHtml() {
+const INTRO_KEY = 'ovanan_intro'
+const BLOCK_KEYS = ['ovanan_accommodation', 'ovanan_resources']
+
+function ovananBlockHtml(key, map) {
+  const value = map[key]
+  if (!value) return ''
+  const label = OVANAN_LABELS[key]
+  return `
+    <div class="ovanan-block">
+      ${label ? `<h3>${label}</h3>` : ''}
+      <p>${formatPracticalMarkdown(value)}</p>
+    </div>
+  `
+}
+
+function ovananSectionHtml(map) {
+  const intro = map[INTRO_KEY] || map.location
   return `
     <h2>Ovanan</h2>
     <div class="ovanan-layout">
@@ -17,16 +33,18 @@ export function ovananSectionHtml() {
         />
       </figure>
       <div class="ovanan-details">
-        <p class="lead">Privat ö i Mälaren — vår bas under helgen.</p>
-        <div class="ovanan-block">
-          <h3>Boende</h3>
-          <p>${escapeHtml('Stugor och sovplats på ön — mer information kommer.')}</p>
-        </div>
-        <div class="ovanan-block">
-          <h3>Resurser</h3>
-          <p>${escapeHtml('Kök, bastu, bryggor och gemensamma ytor — detaljer fylls i.')}</p>
-        </div>
+        ${intro ? `<p class="lead">${formatPracticalMarkdown(intro)}</p>` : ''}
+        ${BLOCK_KEYS.map((k) => ovananBlockHtml(k, map)).join('')}
       </div>
     </div>
   `
+}
+
+export async function renderOvananSection(el) {
+  const { map, error } = await fetchPracticalMap()
+  if (error) {
+    el.textContent = 'Kunde inte ladda informationen.'
+    return
+  }
+  el.innerHTML = ovananSectionHtml(map)
 }

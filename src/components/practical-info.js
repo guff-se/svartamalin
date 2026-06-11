@@ -1,6 +1,12 @@
 import { supabase } from '../lib/supabase.js'
 import { escapeHtml } from '../lib/escape.js'
 
+export const OVANAN_LABELS = {
+  ovanan_intro: null,
+  ovanan_accommodation: 'Boende',
+  ovanan_resources: 'Resurser',
+}
+
 export const PRACTICAL_LABELS = {
   dates: 'Datum',
   transport_intro: 'Transport',
@@ -30,7 +36,7 @@ export function formatPracticalMarkdown(s) {
     .replace(/\n/g, '<br />')
 }
 
-async function fetchPracticalMap() {
+export async function fetchPracticalMap() {
   const { data, error } = await supabase
     .from('practical_info')
     .select('key, value')

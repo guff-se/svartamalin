@@ -6,6 +6,7 @@ import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { pirateCardHtml } from '../components/pirate-card.js'
 import { renderPracticalInfoKeys, RSVP_PRACTICAL_KEYS } from '../components/practical-info.js'
 import { bindVisibleScrollbar } from '../lib/visible-scrollbar.js'
+import { isSelectablePirateName } from '../lib/pirate-name-order.js'
 
 // Steg-state hålls i closures här i modulen.
 let stage = 'attending' // 'attending' | 'pirate' | 'declined'
@@ -185,14 +186,16 @@ async function refreshNames(grid, onDone, updatePreview, selection, selectName, 
 
   const claimedIds = new Set((claimed ?? []).map((g) => g.pirate_name_id))
 
-  if (selection.id != null && claimedIds.has(selection.id)) {
+  if (selection.id != null && (claimedIds.has(selection.id) || !isSelectablePirateName(selection.id))) {
     selection.id = null
     selection.name = null
     confirmBtn.disabled = true
     updatePreview('—')
   }
 
-  grid.innerHTML = (names ?? []).map((n) => {
+  const selectable = (names ?? []).filter((n) => isSelectablePirateName(n.id))
+
+  grid.innerHTML = selectable.map((n) => {
     const isClaimed = claimedIds.has(n.id)
     const isSelected = selection.id === n.id
     return `<button type="button" data-id="${n.id}" data-name="${escapeHtml(n.name)}" class="${isClaimed ? 'claimed' : ''}${isSelected ? ' selected' : ''}" ${isClaimed ? 'disabled' : ''}>${escapeHtml(n.name)}</button>`

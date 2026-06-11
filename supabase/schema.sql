@@ -7,7 +7,7 @@ create extension if not exists "uuid-ossp";
 create table if not exists pirate_names (
   id int primary key,
   name text not null unique,
-  position int not null  -- ordning som de står i piratnamn.txt
+  position int not null  -- visningsordning: Svarta Malin (id 60) först, sedan id 1..59
 );
 
 create table if not exists crews (

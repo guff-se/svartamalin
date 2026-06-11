@@ -124,6 +124,47 @@ function buildHeaders(token, accountId, version) {
   }
 }
 
+function buildGeneratePayload({ prompt, size, outputFormat, background, model }) {
+  const userText = [
+    'Use the image_generation tool to generate an image.',
+    prompt,
+    `Size: ${size}.`,
+    `Output format: ${outputFormat}.`,
+    background === 'transparent' ? 'Background: transparent.' : '',
+    'Produce only the image — no explanatory text.',
+  ]
+    .filter(Boolean)
+    .join(' ')
+
+  const imageTool = {
+    type: 'image_generation',
+    action: 'generate',
+    output_format: outputFormat,
+    size,
+    ...(background ? { background } : {}),
+  }
+
+  return {
+    model,
+    stream: true,
+    instructions: 'You are an image generation assistant.',
+    input: [
+      {
+        type: 'message',
+        role: 'user',
+        content: [{ type: 'input_text', text: userText }],
+      },
+    ],
+    tools: [imageTool],
+    tool_choice: 'auto',
+    parallel_tool_calls: false,
+    store: false,
+    reasoning: { effort: 'low', summary: 'auto' },
+    include: ['reasoning.encrypted_content'],
+    text: { verbosity: 'low' },
+  }
+}
+
 function buildEditPayload({ prompt, imageDataUrl, size, outputFormat, model }) {
   const userText = [
     'Use the image_generation tool to edit the input image.',
@@ -285,6 +326,46 @@ export async function editImageWithCodex({
   let lastErr
   for (const tryModel of models) {
     const payload = buildEditPayload({ prompt, imageDataUrl, size, outputFormat, model: tryModel })
+    for (let attempt = 1; attempt <= MAX_IMAGE_ATTEMPTS; attempt++) {
+      try {
+        return await postForImageWithAuth({ payload, accountId, version, refresh, auth })
+      } catch (err) {
+        lastErr = err
+        const hasFallback = tryModel !== models[models.length - 1]
+        const canRetry = attempt < MAX_IMAGE_ATTEMPTS && isRetryableImageError(err)
+        if (canRetry) {
+          await new Promise((r) => setTimeout(r, 4000 * attempt))
+          continue
+        }
+        if (!hasFallback || !isRetryableImageError(err)) throw err
+        break
+      }
+    }
+  }
+
+  throw lastErr
+}
+
+/**
+ * Generate an image from a text prompt using ChatGPT subscription quota (Codex OAuth).
+ * Override model: CODEX_IMAGE_MODEL (default gpt-5.4).
+ */
+export async function generateImageWithCodex({
+  prompt,
+  size = '1024x1024',
+  outputFormat = 'png',
+  background,
+  model = process.env.CODEX_IMAGE_MODEL || DEFAULT_IMAGE_MODEL,
+}) {
+  const { auth, accountId, refresh } = await loadAuth()
+  const version = await detectCodexVersion()
+  const models = [model]
+  const fallback = IMAGE_MODEL_FALLBACKS[model]
+  if (fallback && fallback !== model) models.push(fallback)
+
+  let lastErr
+  for (const tryModel of models) {
+    const payload = buildGeneratePayload({ prompt, size, outputFormat, background, model: tryModel })
     for (let attempt = 1; attempt <= MAX_IMAGE_ATTEMPTS; attempt++) {
       try {
         return await postForImageWithAuth({ payload, accountId, version, refresh, auth })
