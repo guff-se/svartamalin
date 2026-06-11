@@ -106,19 +106,45 @@ export async function buildScene() {
   fillFeatures(coastlineIslandsG, coastlineIslands, project, { texture: textures.parchment })
   root.addChild(coastlineIslandsG)
 
-  // Kustlinje-strokes (öppna chains, bara stroke)
-  const coastlineStrokeG = new Graphics()
+  // Kustlinje-strokes — matchar originalets <path class="coastline"
+  // d="${coastlineStrokeD}${coastlineIslandsPath}${waterPath}${islandsPath}" />
+  // som strokear ALLA polygon-kanter + öppna kustlinje-chains. Utan denna
+  // saknar inlandsöar och sjöar sin tydliga konturlinje.
+  const coastlineG = new Graphics()
+  // 1) Öppna chains (havs-kustlinje)
   for (const chain of coastlineStrokes) {
     if (chain.length < 2) continue
     const [x0, y0] = project(chain[0])
-    coastlineStrokeG.moveTo(x0, y0)
+    coastlineG.moveTo(x0, y0)
     for (let i = 1; i < chain.length; i++) {
       const [x, y] = project(chain[i])
-      coastlineStrokeG.lineTo(x, y)
+      coastlineG.lineTo(x, y)
     }
   }
-  coastlineStrokeG.stroke({ width: 1.2, color: 0x2a1810, alpha: 0.85, join: 'round' })
-  root.addChild(coastlineStrokeG)
+  // 2) Alla polygon-ringar (outer + holes) från water, islands, coastlineSea,
+  //    coastlineIslands som linjer i samma path → stroke en gång.
+  const addPolygonRingsToStrokes = (features) => {
+    for (const f of features) {
+      if (!f) continue
+      const polys = f.type === 'Polygon' ? [f.coordinates] : f.type === 'MultiPolygon' ? f.coordinates : []
+      for (const poly of polys) {
+        for (const ring of poly) {
+          if (ring.length < 2) continue
+          const [x0, y0] = project(ring[0])
+          coastlineG.moveTo(x0, y0)
+          for (let i = 1; i < ring.length; i++) {
+            const [x, y] = project(ring[i])
+            coastlineG.lineTo(x, y)
+          }
+        }
+      }
+    }
+  }
+  addPolygonRingsToStrokes(coastlineIslands)
+  addPolygonRingsToStrokes(water)
+  addPolygonRingsToStrokes(islands)
+  coastlineG.stroke({ width: 1.2, color: 0x2a1810, alpha: 0.85, join: 'round' })
+  root.addChild(coastlineG)
 
   // Routes — drive (OSRM-polyline) och boat (Bezier-sample)
   const drivingPoly = drivingRoute.map((ll) => project(ll))
