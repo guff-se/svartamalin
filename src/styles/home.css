@@ -48,14 +48,15 @@
 .scroll-cue {
   position: absolute;
   bottom: 8rem;
-  right: 25%;
+  left: 50%;
+  transform: translateX(-50%);
   width: clamp(5rem, 12vw, 7rem);
   height: auto;
   animation: bob 2s ease-in-out infinite;
 }
 @keyframes bob {
-  0%, 100% { transform: translateY(0); opacity: 0.6; }
-  50% { transform: translateY(8px); opacity: 1; }
+  0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.6; }
+  50%      { transform: translateX(-50%) translateY(8px); opacity: 1; }
 }
 
 .card-section {
