@@ -57,6 +57,15 @@ body.webgl-revealed #webgl-hero-tint { opacity: 0.1; }
    mount, tas bort i finishReveal. */
 body.webgl-revealing { overflow: hidden; touch-action: none; }
 
+/* Chromium (Arc/Chrome) flicker:ade på korten under scroll: backdrop-filter
+   måste re-blurra canvas-content varje frame medan Pixi ambient-animationer
+   uppdaterar canvasen → stale-snapshot-flicker. Tvinga varje kort till sitt
+   eget GPU-lager så blur cachas där, oberoende av canvas-uppdateringar. */
+.webgl-page .card {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
 /* Hero — overlay-content, döljs initialt under reveal. Tar 100vh så
    användaren kan scrolla förbi den till content nedanför. */
 .webgl-hero {

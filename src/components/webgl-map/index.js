@@ -50,17 +50,6 @@ export async function mountWebglMap(el) {
     }, 250)
   })
 
-  // Pausa Pixi-ticker när hero är ute ur view (= cards täcker canvas).
-  // Chromium (Arc/Chrome) flicker:ade annars: backdrop-filter på cards
-  // försökte re-blurra canvas-content varje frame medan Pixi:s ambient-
-  // animationer uppdaterade canvasen, vilket gav stale-snapshot-flicker
-  // under scroll.
-  const onScroll = () => {
-    const past = window.scrollY > window.innerHeight * 0.6
-    if (past && app.ticker.started) app.ticker.stop()
-    else if (!past && !app.ticker.started) app.ticker.start()
-  }
-  window.addEventListener('scroll', onScroll, { passive: true })
 
   const scene = await buildScene()
   // OBS: lägg INTE scene.root på stage:n direkt. TiltStage renderar den

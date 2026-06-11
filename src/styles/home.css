@@ -141,10 +141,6 @@
 }
 
 /* Ovanan */
-.card--ovanan {
-  max-width: 62rem;
-}
-
 .ovanan-layout {
   display: grid;
   grid-template-columns: minmax(0, 18rem) 1fr;
@@ -202,7 +198,6 @@
 }
 
 /* Tema */
-.card--theme { max-width: 52rem; }
 .theme-body {
   display: flex;
   flex-direction: column;
