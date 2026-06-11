@@ -9,6 +9,7 @@ export const CARD_FRAME_ASSIGNMENTS = {
   '2cdb037a-a214-47de-af2f-a53ada36172d': 1,
   '374e9c06-0709-4c18-9925-cd335da43aaa': 2,
   '416b54dc-f7cd-4d7e-9c57-cf5a1df17706': 2,
+  '433ee2d0-9aed-4a58-8b3b-a2341f670e20': 5,
   '4d93808f-ca94-47e7-af0f-b49721ace76f': 5,
   '53dc7e38-505c-42eb-80c3-6952b419f49b': 5,
   '59fcdc5d-057b-472f-aa70-862ece53a678': 6,
