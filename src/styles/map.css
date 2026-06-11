@@ -28,13 +28,17 @@
   height: 130%;
   overflow: visible;
 }
-/* Vignett som ligger fast på viewport och inte roterar med kartan */
-#map-bg::after {
-  content: '';
-  position: absolute;
+/* Vignett — separat element (inte ::after) med hög z-index så promoted
+   compositor-layers från GSAP-tweens på SVG-children inte hoppar ovanpå
+   den i stacking-ordningen. Tidigare ::after förlorade ibland mot
+   transform-promoted SVG-element → vignetten "blinkade" bort efter
+   village-1/robbers reveals och under hamn-inzoom. */
+#map-vignette {
+  position: fixed;
   inset: 0;
   pointer-events: none;
   background: radial-gradient(ellipse at center, transparent 55%, rgba(20, 8, 4, 0.9) 100%);
+  z-index: 4;  /* ovanför #map-bg (z:0), under hero-tint (z:5) och content-overlay (z:10) */
 }
 #map-bg .treasure-map text {
   font-family: var(--font-display);
