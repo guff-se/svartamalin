@@ -4,9 +4,11 @@ import { isReadyForShow } from './lib/guest.js'
 import { clearSession, getGuestId, isPeekMode } from './lib/state.js'
 import { showLoading, hideLoading } from './lib/loading.js'
 import { initPerf } from './lib/perf.js'
+import { preloadAssets } from './lib/preload.js'
 import { mountMapBackground, unmountMapBackground } from './components/map.js'
 
 initPerf()
+preloadAssets()
 
 const app = document.getElementById('app')
 

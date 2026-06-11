@@ -698,7 +698,7 @@ async function runReveal() {
   // 0–3 s: Stockholm — kamera lutar in i 3D-flygläge och roteras mot vägriktningen
   tl.fromTo('.stockholm-city', { opacity: 0, scale: 0.5 },
     { opacity: 1, scale: 1, duration: 1.2, ease: 'back.out(2)' }, 0.2)
-  tl.to(cam, { tilt: 35, duration: 4, ease: 'power2.inOut', onUpdate: applyCam }, 1)
+  tl.to(cam, { tilt: 50, duration: 4, ease: 'power2.inOut', onUpdate: applyCam }, 1)
   // Parallellt med tilten: rotMix 0→1 så kameran roteras smidigt från norr
   // mot vägriktnings-blenden. driveProgress använder rotMix.v multiplicerat.
   tl.to(rotMix, {
