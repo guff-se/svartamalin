@@ -1,41 +1,23 @@
 import { CARD_OVERLAYS } from '../components/pirate-card.js'
-import { CARD_FRAME_LAYOUTS } from '../lib/card-frame-layouts.js'
+import {
+  buildCardFrameCssBlock,
+  parseCardFrameLayouts,
+} from '../lib/card-frame-css.js'
+import cardCssBundled from '../styles/pirate-card.css?raw'
 
-const STORAGE_KEY = 'svartamalin:framefix-layouts'
 const SAMPLE_NAME = 'Kapten Lösskägg'
 
 /** @typedef {{ top: number, left: number, right: number, bottom: number }} PhotoInset */
 /** @typedef {{ x: number, y: number }} LabelCenter */
 /** @typedef {{ photo: PhotoInset, label: LabelCenter }} FrameLayout */
 
-/** @param {{ top: number, left: number, right: number, bottom: number }} box */
-function labelBoxToCenter(box) {
-  return {
-    x: +(box.left + (100 - box.left - box.right) / 2).toFixed(2),
-    y: +(box.top + (100 - box.top - box.bottom) / 2).toFixed(2),
-  }
-}
+/** Legacy key — no longer used; CSS file is the only source of truth. */
+const LEGACY_STORAGE_KEY = 'svartamalin:framefix-layouts'
 
 /** @returns {Record<string, FrameLayout>} */
-function loadLayouts() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    if (raw) return JSON.parse(raw)
-  } catch { /* ignore */ }
-
-  const out = {}
-  for (const [id, box] of Object.entries(CARD_FRAME_LAYOUTS)) {
-    out[id] = {
-      photo: { ...box.photo },
-      label: labelBoxToCenter(box.label),
-    }
-  }
-  return out
-}
-
-/** @param {Record<string, FrameLayout>} layouts */
-function saveLayouts(layouts) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(layouts))
+function loadLayoutsFromCss() {
+  // ?raw import — do not fetch the .css URL (Vite serves a JS module, not source text).
+  return parseCardFrameLayouts(cardCssBundled)
 }
 
 function clamp(n, min, max) {
@@ -101,44 +83,6 @@ function renderCoords(card, layout) {
   ].join('\n')
 }
 
-/** @param {Record<string, FrameLayout>} layouts */
-function buildExport(layouts) {
-  const js = {}
-  const css = []
-
-  for (const id of Object.keys(layouts).sort((a, b) => Number(a) - Number(b))) {
-    const { photo, label } = layouts[id]
-    js[id] = {
-      photo: { top: photo.top, left: photo.left, right: photo.right, bottom: photo.bottom },
-      label: { x: label.x, y: label.y },
-    }
-    css.push(
-      `.pirate-card--frame${id} .pirate-card__photo {\n  inset: ${photo.top}% ${photo.right}% ${photo.bottom}% ${photo.left}%;\n}`,
-      `.pirate-card--frame${id} .pirate-card__label {\n  top: ${label.y}%;\n  left: ${label.x}%;\n  right: auto;\n  bottom: auto;\n  transform: translate(-50%, -50%);\n}`,
-    )
-  }
-
-  return {
-    json: JSON.stringify(js, null, 2),
-    css: css.join('\n\n'),
-    jsModule: `export const CARD_FRAME_LAYOUTS = ${JSON.stringify(
-      Object.fromEntries(
-        Object.entries(js).map(([id, l]) => [id, {
-          photo: l.photo,
-          label: {
-            top: round(l.label.y - 5),
-            left: round(l.label.x - 25),
-            right: round(100 - l.label.x - 25),
-            bottom: round(100 - l.label.y - 5),
-          },
-        }]),
-      ),
-      null,
-      2,
-    )}`,
-  }
-}
-
 /** @param {HTMLElement} card @param {string} id @param {FrameLayout} layout @param {Record<string, FrameLayout>} layouts @param {() => void} [onChange] */
 function wireCard(card, id, layout, layouts, onChange) {
   const inner = card.querySelector('.framefix__card')
@@ -148,7 +92,6 @@ function wireCard(card, id, layout, layouts, onChange) {
     applyPhotoBox(inner, layout.photo)
     applyLabel(inner, layout.label)
     renderCoords(card, layout)
-    saveLayouts(layouts)
     onChange?.()
   }
   sync()
@@ -252,27 +195,28 @@ function cardHtml(id, overlaySrc) {
 }
 
 export function renderFramefix(app) {
+  localStorage.removeItem(LEGACY_STORAGE_KEY)
+
   document.body.classList.add('framefix-page')
   document.body.classList.remove('locked', 'revealing')
   document.getElementById('loading-screen')?.setAttribute('hidden', '')
   document.getElementById('top-controls')?.setAttribute('hidden', '')
 
-  const layouts = loadLayouts()
+  const layouts = loadLayoutsFromCss()
 
   app.innerHTML = `
     <main class="framefix">
       <header class="framefix__header">
         <div>
           <h1>Ramjustering</h1>
-          <p class="framefix__hint">Dra hörnen på bildrutan. Dra namnet (eller röda pricken ovanför) — koordinaterna är textens mitt, samma som i riktiga kort.</p>
+          <p class="framefix__hint">Läser layout från <code>pirate-card.css</code>. Dra hörnen och namnet — kopiera CSS och klistra in i layout-sektionen i samma fil.</p>
         </div>
         <div class="framefix__actions">
-          <button type="button" id="framefix-copy-json" class="framefix__btn">Kopiera JSON</button>
           <button type="button" id="framefix-copy-css" class="framefix__btn">Kopiera CSS</button>
-          <button type="button" id="framefix-reset" class="framefix__btn framefix__btn--ghost">Återställ</button>
+          <button type="button" id="framefix-reload" class="framefix__btn framefix__btn--ghost">Ladda om från CSS</button>
         </div>
       </header>
-      <textarea id="framefix-export" class="framefix__export" readonly rows="6" placeholder="Exporterad CSS/JSON visas här…"></textarea>
+      <textarea id="framefix-export" class="framefix__export" readonly rows="6" placeholder="Exporterad CSS visas här…"></textarea>
       <div class="framefix__grid">
         ${CARD_OVERLAYS.map((src, i) => cardHtml(i + 1, src)).join('')}
       </div>
@@ -280,35 +224,25 @@ export function renderFramefix(app) {
   `
 
   const exportArea = document.getElementById('framefix-export')
-  let exportFormat = 'css'
-  const refreshExport = (format = exportFormat) => {
-    exportFormat = format
-    const data = buildExport(layouts)
-    exportArea.value = format === 'json' ? data.json : data.css
+  const refreshExport = () => {
+    exportArea.value = buildCardFrameCssBlock(layouts)
   }
 
   app.querySelectorAll('.framefix__item').forEach((card) => {
     const id = card.dataset.frame
     if (!layouts[id]) return
-    wireCard(card, id, layouts[id], layouts, () => refreshExport(exportFormat))
+    wireCard(card, id, layouts[id], layouts, refreshExport)
   })
 
-  refreshExport('css')
-
-  document.getElementById('framefix-copy-json')?.addEventListener('click', async () => {
-    refreshExport('json')
-    await navigator.clipboard.writeText(exportArea.value)
-  })
+  refreshExport()
 
   document.getElementById('framefix-copy-css')?.addEventListener('click', async () => {
-    refreshExport('css')
+    refreshExport()
     await navigator.clipboard.writeText(exportArea.value)
   })
 
-  document.getElementById('framefix-reset')?.addEventListener('click', () => {
-    if (!confirm('Återställa alla ramar till standardvärden?')) return
-    localStorage.removeItem(STORAGE_KEY)
-    renderFramefix(app)
+  document.getElementById('framefix-reload')?.addEventListener('click', () => {
+    if (!confirm('Kasta osparade ändringar och läsa om från pirate-card.css?')) return
+    location.reload()
   })
-
 }

@@ -540,25 +540,43 @@ async function playRevealTimeline(tl, skipToEnd) {
   tl.pause()
   tl.progress(0)
 
-  // Audion spelas parallellt — men timelinen drivs av GSAP, INTE av
-  // audio.currentTime. Tidigare synk via audio.currentTime stallade på
-  // mobil när iOS buffrade audion: currentTime kröp till ~0.1 och fastnade
-  // där medan vi pollade tl.time(0.1) varje frame. Resultat: animationen
-  // "knappt rör sig" på mobil. Med GSAP-driven timeline går allt alltid
-  // i realtid oavsett audio-status. Förlust: exakt lyrik-sync (några
-  // hundra ms drift över 68s) — försumbart.
-  startShowAudio()  // fire-and-forget
+  // Audion fire-and-forget — vi synkar INTE timelinen mot audio.currentTime
+  // (det stallade på iOS när audio buffrade).
+  startShowAudio()
 
+  // VIKTIGT: använd inte tl.play() direkt. GSAP har lagSmoothing som
+  // klampar långa frame-deltan (>500ms) till 33ms för att undvika hopp
+  // när tabben kommer tillbaka från background. På mobil när SVG-paint är
+  // tung kan frame-tiden bli ~1000ms, och GSAP räknar den som 33ms →
+  // timelinen kryper fram 33ms per riktig sekund (~30× för långsamt).
+  //
+  // Lösning: driv tl.time() från performance.now() i egen rAF-loop.
+  // Wall-clock-baserad, så långsam paint gör animationen *hackig* men
+  // den COMPLETES på rätt tid.
   return new Promise((resolve) => {
-    tl.eventCallback('onComplete', () => {
-      tl.eventCallback('onComplete', null)
+    const endTime = tl.duration()
+    const startWall = performance.now()
+    let rafId = 0
+    const finish = () => {
+      if (rafId) cancelAnimationFrame(rafId)
+      rafId = 0
       resolve()
-    })
-    tl.play()
+    }
+    const tick = () => {
+      const t = (performance.now() - startWall) / 1000
+      if (t >= endTime) {
+        tl.progress(1)
+        finish()
+        return
+      }
+      tl.time(t)
+      rafId = requestAnimationFrame(tick)
+    }
+    rafId = requestAnimationFrame(tick)
+    revealSyncCleanup = () => { if (rafId) cancelAnimationFrame(rafId) }
     skipToEnd.fn = () => {
-      tl.eventCallback('onComplete', null)
       tl.progress(1)
-      resolve()
+      finish()
     }
   })
 }

@@ -15,5 +15,5 @@ Read [AGENTS.md](../AGENTS.md) § "Collectable pirate portrait card frame".
 - Card ratio **63:88**. Centre of PNG must stay transparent for the portrait; names are **HTML** in `.pirate-card__label`, not in the image.
 - Render cards via `pirateCardHtml()` — do not duplicate markup.
 - Portraits: `/images/portraits/<pirate_name_id>.jpg`
-- After regen, tune `.pirate-card__photo` inset and `.pirate-card__label` in `pirate-card.css` if needed.
+- Per-frame photo inset and label position: only in `pirate-card.css` (layout block). Tune via `/framefix` or `npm run detect-card-frame-layouts`.
 - Do not replace with hand-drawn SVG unless user explicitly requests it.

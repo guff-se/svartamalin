@@ -147,7 +147,7 @@ Photo inset must clear the frame border and bottom plaque:
 }
 ```
 
-Pass a different frame: `pirateCardHtml({ overlaySrc: '/images/cards/pirate-card-overlay3.webp', … })`. Crew collage and RSVP preview pick frames via `overlayForId(pirate_name_id)` for stable variety across the seven overlays. Each frame gets a `pirate-card--frameN` class with per-frame photo inset and name-cartouche position in `pirate-card.css` (coordinates in `src/lib/card-frame-layouts.js`). Re-detect after new frames: `npm run detect-card-frame-layouts`.
+Pass a different frame: `pirateCardHtml({ overlaySrc: '/images/cards/pirate-card-overlay3.webp', … })`. Crew collage and RSVP preview pick frames via `overlayForGuest()` / locked assignments in `card-frame-assignments.js`. Each frame gets a `pirate-card--frameN` class; per-frame photo inset and name position live only in `pirate-card.css` (layout block between markers). Tune via `/framefix` or auto-detect after new frames: `npm run detect-card-frame-layouts`.
 
 ### Rules when editing
 

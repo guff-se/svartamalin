@@ -3,7 +3,6 @@
  * Photo shows through transparent centre; overlay adds vintage frame + name label.
  */
 import { escapeHtml } from '../lib/escape.js'
-import { frameIdFromOverlay } from '../lib/card-frame-layouts.js'
 
 /** Curated frame overlays in public/images/cards/ */
 export const CARD_OVERLAYS = [
@@ -17,6 +16,13 @@ export const CARD_OVERLAYS = [
 ]
 
 export const DEFAULT_OVERLAY = CARD_OVERLAYS[0]
+
+/** @param {string} overlaySrc */
+export function frameIdFromOverlay(overlaySrc) {
+  const m = String(overlaySrc).match(/pirate-card-overlay(\d+)/)
+  const id = m ? Number(m[1]) : 1
+  return id >= 1 && id <= CARD_OVERLAYS.length ? id : 1
+}
 
 /** Stable frame pick for a numeric id (e.g. pirate_name_id). */
 export function overlayForId(id) {

@@ -1,23 +1,74 @@
 import { supabase } from '../lib/supabase.js'
 import { portraitPath } from '../lib/portraits.js'
-import { CARD_FRAME_ASSIGNMENTS, frameIdForGuest } from '../lib/card-frame-assignments.js'
+import {
+  CARD_FRAME_ASSIGNMENTS,
+  frameIdForGuest,
+  overlayForGuest,
+} from '../lib/card-frame-assignments.js'
 import { CARD_OVERLAYS, pirateCardHtml } from '../components/pirate-card.js'
 
 const STORAGE_KEY = 'svartamalin:frame-assignments-draft'
 const SAMPLE_NAME = 'Kapten Lösskägg'
 
-/** @returns {Record<string, number>} */
+/** @param {{ id: string, pirate_name_id?: number | null }} guest */
+function guestRef(guest) {
+  return { id: guest.id, pirate_name_id: guest.pirate_name_id }
+}
+
+/**
+ * Draft = only pending edits (deltas vs card-frame-assignments.js).
+ * Older versions stored a full snapshot and could override committed file values.
+ * @returns {Record<string, number>}
+ */
 function loadDraft() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
-    if (raw) return JSON.parse(raw)
+    if (!raw) return {}
+    const stored = JSON.parse(raw)
+    /** @type {Record<string, number>} */
+    const delta = {}
+    for (const [id, frame] of Object.entries(stored)) {
+      if (CARD_FRAME_ASSIGNMENTS[id] !== frame) delta[id] = frame
+    }
+    if (Object.keys(stored).length !== Object.keys(delta).length) {
+      persistDraft(delta)
+    }
+    return delta
   } catch { /* ignore */ }
   return {}
 }
 
 /** @param {Record<string, number>} draft */
-function saveDraft(draft) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(draft))
+function persistDraft(draft) {
+  if (Object.keys(draft).length === 0) {
+    localStorage.removeItem(STORAGE_KEY)
+  } else {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(draft))
+  }
+}
+
+/** @param {Record<string, number>} draft @param {string} guestId @param {number} frame */
+function setDraftFrame(draft, guestId, frame) {
+  if (CARD_FRAME_ASSIGNMENTS[guestId] === frame) {
+    delete draft[guestId]
+  } else {
+    draft[guestId] = frame
+  }
+  persistDraft(draft)
+}
+
+/** @param {Record<string, number>} draft @param {{ id: string, pirate_name_id?: number | null }} guest */
+function effectiveFrame(draft, guest) {
+  if (Object.prototype.hasOwnProperty.call(draft, guest.id)) {
+    return draft[guest.id]
+  }
+  return frameIdForGuest(guestRef(guest))
+}
+
+/** @param {Record<string, number>} draft @param {{ id: string, pirate_name_id?: number | null }} guest */
+function effectiveOverlay(draft, guest) {
+  const frame = effectiveFrame(draft, guest)
+  return CARD_OVERLAYS[frame - 1] ?? overlayForGuest(guestRef(guest))
 }
 
 /** @param {Record<string, number>} draft */
@@ -74,7 +125,7 @@ export async function renderFrameselect(app) {
       <header class="frameselect__header">
         <div>
           <h1>Ramväljare</h1>
-          <p class="frameselect__hint">Välj en ram per person. Klicka en person, sedan en ram — valet sparas lokalt tills du kopierar till <code>card-frame-assignments.js</code>.</p>
+          <p class="frameselect__hint">Visar samma ramar som sajten (<code>card-frame-assignments.js</code>). Lokala ändringar sparas som utkast tills du kopierar till filen.</p>
         </div>
         <div class="frameselect__actions">
           <button type="button" id="frameselect-copy" class="frameselect__btn">Kopiera assignments</button>
@@ -82,6 +133,7 @@ export async function renderFrameselect(app) {
         </div>
       </header>
       <p class="frameselect__status" id="frameselect-status"></p>
+      <div class="frameselect__totals" id="frameselect-totals" aria-label="Antal per ram"></div>
       <div class="frameselect__layout">
         <aside class="frameselect__people" id="frameselect-people" aria-label="Personer">Laddar…</aside>
         <section class="frameselect__picker" id="frameselect-picker" hidden>
@@ -93,9 +145,8 @@ export async function renderFrameselect(app) {
     </main>
   `
 
+  /** @type {Record<string, number>} */
   const draft = loadDraft()
-  /** @type {typeof draft} */
-  let assignments = { ...CARD_FRAME_ASSIGNMENTS, ...draft }
 
   const { data: guests, error } = await supabase
     .from('guests')
@@ -105,6 +156,7 @@ export async function renderFrameselect(app) {
   const peopleEl = document.getElementById('frameselect-people')
   const pickerEl = document.getElementById('frameselect-picker')
   const statusEl = document.getElementById('frameselect-status')
+  const totalsEl = document.getElementById('frameselect-totals')
 
   if (error || !guests?.length) {
     peopleEl.textContent = error ? 'Kunde inte ladda gäster.' : 'Inga gäster hittades.'
@@ -114,13 +166,38 @@ export async function renderFrameselect(app) {
   /** @type {{ id: string, real_name: string, pirate_name_id: number | null, pirate_name: string | null } | null} */
   let selected = null
 
-  const lockedCount = () => Object.keys(assignments).length
-  const isLocked = (id) => Object.prototype.hasOwnProperty.call(assignments, id)
+  const computeFrameCounts = () => {
+    const counts = Array(CARD_OVERLAYS.length).fill(0)
+    for (const g of guests) {
+      const frame = effectiveFrame(draft, g)
+      if (frame >= 1 && frame <= counts.length) counts[frame - 1]++
+    }
+    return counts
+  }
 
   const updateStatus = () => {
     const n = guests.length
-    const locked = guests.filter((g) => isLocked(g.id)).length
-    statusEl.textContent = `${locked} av ${n} har låst ram.`
+    const locked = guests.filter((g) => g.id in CARD_FRAME_ASSIGNMENTS).length
+    const pending = Object.keys(draft).length
+    statusEl.textContent = pending
+      ? `${locked} låsta i filen · ${pending} osparade ändringar`
+      : `${locked} av ${n} låsta — matchar sajten`
+  }
+
+  const updateFrameTotals = () => {
+    const counts = computeFrameCounts()
+    totalsEl.innerHTML = counts.map((n, i) => {
+      const frame = i + 1
+      const active = selected && effectiveFrame(draft, selected) === frame
+      return `<span class="frameselect__total${active ? ' is-active' : ''}">Ram ${frame}: <strong>${n}</strong></span>`
+    }).join('')
+  }
+
+  const refresh = () => {
+    renderPeople()
+    renderPicker()
+    updateStatus()
+    updateFrameTotals()
   }
 
   const renderPicker = () => {
@@ -130,16 +207,15 @@ export async function renderFrameselect(app) {
     }
     pickerEl.hidden = false
 
-    const guest = { id: selected.id, pirate_name_id: selected.pirate_name_id }
-    const activeFrame = isLocked(selected.id)
-      ? assignments[selected.id]
-      : frameIdForGuest(guest)
+    const activeFrame = effectiveFrame(draft, selected)
 
     document.getElementById('frameselect-preview').innerHTML = pirateCardHtml({
       photoSrc: portraitPath(selected.real_name),
       pirateName: SAMPLE_NAME,
-      overlaySrc: CARD_OVERLAYS[activeFrame - 1],
+      overlaySrc: effectiveOverlay(draft, selected),
     })
+
+    const counts = computeFrameCounts()
 
     document.getElementById('frameselect-options').innerHTML = CARD_OVERLAYS.map((src, i) => {
       const frame = i + 1
@@ -151,7 +227,7 @@ export async function renderFrameselect(app) {
             pirateName: SAMPLE_NAME,
             overlaySrc: src,
           })}
-          <span class="frameselect__option-num">Ram ${frame}</span>
+          <span class="frameselect__option-num">Ram ${frame} · ${counts[i]}</span>
         </button>
       `
     }).join('')
@@ -159,26 +235,28 @@ export async function renderFrameselect(app) {
     pickerEl.querySelectorAll('.frameselect__option').forEach((btn) => {
       btn.addEventListener('click', () => {
         const frame = Number(btn.dataset.frame)
-        assignments[selected.id] = frame
-        saveDraft({ ...assignments })
-        renderPeople()
-        renderPicker()
-        updateStatus()
+        setDraftFrame(draft, selected.id, frame)
+        refresh()
       })
     })
   }
 
+  const frameLabel = (g) => {
+    const frame = effectiveFrame(draft, g)
+    if (g.id in draft) return `✎ ram ${frame} (utkast)`
+    if (g.id in CARD_FRAME_ASSIGNMENTS) return `🔒 ram ${frame}`
+    return `ram ${frame} (auto)`
+  }
+
   const renderPeople = () => {
     peopleEl.innerHTML = guests.map((g) => {
-      const guest = { id: g.id, pirate_name_id: g.pirate_name_id }
-      const frame = isLocked(g.id) ? assignments[g.id] : frameIdForGuest(guest)
       const active = selected?.id === g.id
       return `
         <button type="button" class="frameselect__person${active ? ' is-active' : ''}" data-id="${g.id}">
           <span class="frameselect__person-name">${escape(g.real_name)}</span>
           <span class="frameselect__person-meta">
             ${g.pirate_names?.name ? escape(g.pirate_names.name) + ' · ' : ''}
-            ${isLocked(g.id) ? `🔒 ram ${frame}` : `ram ${frame} (auto)`}
+            ${frameLabel(g)}
           </span>
         </button>
       `
@@ -188,31 +266,25 @@ export async function renderFrameselect(app) {
       btn.addEventListener('click', () => {
         const id = btn.dataset.id
         selected = guests.find((g) => g.id === id) ?? null
-        renderPeople()
-        renderPicker()
+        refresh()
       })
     })
   }
 
-  renderPeople()
   selected = guests[0]
-  renderPeople()
-  renderPicker()
-  updateStatus()
+  refresh()
 
   document.getElementById('frameselect-copy')?.addEventListener('click', async () => {
-    const module = buildAssignmentsModule(assignments)
+    const module = buildAssignmentsModule(draft)
     await navigator.clipboard.writeText(module)
     statusEl.textContent = 'Kopierat! Klistra in i src/lib/card-frame-assignments.js'
   })
 
   document.getElementById('frameselect-clear-draft')?.addEventListener('click', () => {
-    if (!confirm('Rensa lokalt utkast? (Committed assignments i filen påverkas inte förrän du kopierar nytt.)')) return
-    localStorage.removeItem(STORAGE_KEY)
-    assignments = { ...CARD_FRAME_ASSIGNMENTS }
-    renderPeople()
-    renderPicker()
-    updateStatus()
+    if (!confirm('Rensa lokalt utkast? Visningen återgår till det som gäller på sajten.')) return
+    for (const key of Object.keys(draft)) delete draft[key]
+    persistDraft(draft)
+    refresh()
   })
 
   app.addEventListener('error', onPortraitError, true)

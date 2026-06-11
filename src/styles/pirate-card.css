@@ -87,7 +87,9 @@
   letter-spacing: 0.04em;
 }
 
-/* --- Per-frame layouts (detect-card-frame-layouts.js) --- */
+/* --- Per-frame layouts (pirate-card.css — source of truth; tune via /framefix) --- */
+
+/* --- Per-frame layouts (pirate-card.css — source of truth; tune via /framefix) --- */
 
 .pirate-card--frame1 .pirate-card__photo {
   inset: 8.19% 4.84% 14.18% 5.16%;
@@ -107,7 +109,7 @@
 
 .pirate-card--frame2 .pirate-card__label {
   top: 89.58%;
-  left: 49.99%;
+  left: 49.7%;
   right: auto;
   bottom: auto;
   transform: translate(-50%, -50%);
@@ -130,8 +132,8 @@
 }
 
 .pirate-card--frame4 .pirate-card__label {
-  top: 90.64%;
-  left: 45.4%;
+  top: 91.42%;
+  left: 44.85%;
   right: auto;
   bottom: auto;
   transform: translate(-50%, -50%);
@@ -142,8 +144,8 @@
 }
 
 .pirate-card--frame5 .pirate-card__label {
-  top: 90.17%;
-  left: 50.83%;
+  top: 90.3%;
+  left: 50.09%;
   right: auto;
   bottom: auto;
   transform: translate(-50%, -50%);
@@ -154,8 +156,8 @@
 }
 
 .pirate-card--frame6 .pirate-card__label {
-  top: 89.48%;
-  left: 51.13%;
+  top: 89.46%;
+  left: 50.11%;
   right: auto;
   bottom: auto;
   transform: translate(-50%, -50%);
@@ -172,6 +174,8 @@
   bottom: auto;
   transform: translate(-50%, -50%);
 }
+
+/* --- end per-frame layouts --- */
 
 /* --- end per-frame layouts --- */
 

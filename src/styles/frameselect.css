@@ -76,8 +76,38 @@ body.frameselect-page #top-controls {
 }
 
 .frameselect__status {
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   font-size: 0.82rem;
+  color: var(--gold);
+}
+
+.frameselect__totals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  margin: 0 0 1rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #3a3020;
+  background: #0e0c09;
+  border-radius: 2px;
+}
+
+.frameselect__total {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--paper-dark);
+}
+
+.frameselect__total strong {
+  font-weight: 600;
+  color: var(--paper);
+}
+
+.frameselect__total.is-active {
+  color: var(--gold);
+}
+
+.frameselect__total.is-active strong {
   color: var(--gold);
 }
 
