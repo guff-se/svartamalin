@@ -81,6 +81,9 @@ async function route() {
   }
 
   showLoading()
+  // Sätt revealing-klassen direkt så hero-texten inte flashar förbi
+  // innan mountMapBackground hinner sätta den i sin async-fetch.
+  document.body.classList.add('revealing')
   mountMapBackground()
   const { renderHome } = await import('./pages/home.js')
   renderHome(app)
