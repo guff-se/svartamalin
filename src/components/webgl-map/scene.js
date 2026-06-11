@@ -19,6 +19,7 @@
 import { Assets, Container, Graphics, Sprite, Text, TilingSprite, Texture } from 'pixi.js'
 import { buildProjection } from './projection.js'
 import { DECOR_POS, DECOR_SIZE } from './decor-positions.js'
+import { buildRoutes } from './routes.js'
 
 const MAP_DATA_URL = '/map-data.json'
 
@@ -124,9 +125,19 @@ export async function buildScene() {
   coastlineStrokeG.stroke({ width: 1.2, color: 0x2a1810, alpha: 0.85, join: 'round' })
   root.addChild(coastlineStrokeG)
 
-  // Container för routes (fylls i P4)
+  // Routes — drive (OSRM-polyline) och boat (Bezier-sample)
+  const drivingPoly = drivingRoute.map((ll) => project(ll))
+  const [hxRoute, hyRoute] = project([points.harbor.lon, points.harbor.lat])
+  const [oxRoute, oyRoute] = project([points.ovanan.lon, points.ovanan.lat])
+  const routes = buildRoutes({
+    drivingPoly,
+    harbor: [hxRoute, hyRoute],
+    ovanan: [oxRoute, oyRoute],
+  })
   const routesLayer = new Container()
   routesLayer.label = 'routes'
+  routesLayer.addChild(routes.drive.g)
+  routesLayer.addChild(routes.boat.g)
   root.addChild(routesLayer)
 
   // --- Decor sprites ---
@@ -247,8 +258,19 @@ export async function buildScene() {
     ourShip,
     seaLabel,
     routesLayer,
+    routes,
     points,
-    journey: { sx: project([points.stockholm.lon, points.stockholm.lat])[0], sy: project([points.stockholm.lon, points.stockholm.lat])[1], hx, hy, drivingRoute },
+    journey: {
+      sx: project([points.stockholm.lon, points.stockholm.lat])[0],
+      sy: project([points.stockholm.lon, points.stockholm.lat])[1],
+      hx,
+      hy,
+      ox: oxRoute,
+      oy: oyRoute,
+      drivingRoute,
+      drivingPoly,
+      boatPoly: routes.boatPoly,
+    },
   }
 }
 

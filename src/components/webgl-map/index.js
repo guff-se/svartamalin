@@ -44,6 +44,20 @@ export async function mountWebglMap(el) {
   camera.h = viewH
   camera.apply()
 
+  // P4: rita routes med marching-ants varje frame. Initialt: progress=1
+  // (helt utritade) så vi kan se rutterna. P5-timeline overridar progress
+  // för draw-in-effekt.
+  scene.routes.drive.progress = 1
+  scene.routes.boat.progress = 1
+  app.ticker.add(() => {
+    const t = performance.now() / 1000
+    // Drive: 11px / 2.2s = 5 px/s, boat: 21px / 3.4s = 6.2 px/s (matchar map.js)
+    scene.routes.drive.phase = -t * 5
+    scene.routes.boat.phase = -t * 6.2
+    scene.routes.drive.draw()
+    scene.routes.boat.draw()
+  })
+
   app.renderer.on('resize', () => {
     camera.apply()
     tiltStage.resize()
