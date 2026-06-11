@@ -14,6 +14,11 @@
   height: 100vh;
   overflow: hidden;
   z-index: 0;
+  /* iOS Safari: tvinga eget GPU-lager och inaktivera rubber-band-overscroll
+     som annars "studsar" canvas under scroll-händelser → flicker. */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 #webgl-stage canvas {
@@ -29,6 +34,7 @@
   pointer-events: none;
   background: radial-gradient(ellipse at center, transparent 55%, rgba(20, 8, 4, 0.9) 100%);
   z-index: 4;
+  transform: translateZ(0);
 }
 
 /* Beige overlay som fadear in när hero blir synlig — matchar originalets
@@ -45,6 +51,7 @@
   transition: opacity 1.2s;
 }
 body.webgl-revealed #webgl-hero-tint { opacity: 0.1; }
+#webgl-hero-tint { transform: translateZ(0); }
 
 /* Lås scroll tills reveal är klar (eller skippad). webgl-revealing sätts på
    mount, tas bort i finishReveal. */

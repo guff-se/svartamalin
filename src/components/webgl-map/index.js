@@ -23,13 +23,35 @@ export async function mountWebglMap(el) {
   hostEl = el
   app = new Application()
   await app.init({
-    resizeTo: el,
+    // Använd INTE resizeTo — på iOS triggar adresslist-kollaps en
+    // resize och Pixi rebygger canvasen → flicker i kombination med
+    // scroll. Vi sätter en gång och uppdaterar bara på faktiska
+    // window-resize-events (debounced).
+    width: el.clientWidth,
+    height: el.clientHeight,
     background: '#3a2410',
     antialias: true,
     autoDensity: true,
     resolution: window.devicePixelRatio || 1,
   })
   el.appendChild(app.canvas)
+
+  // Manuell debounced resize — bara reagera på faktiska viewport-ändringar
+  // (rotation, fönsterstorlek), inte iOS adresslist-collapse.
+  let lastW = el.clientWidth
+  let lastH = el.clientHeight
+  let resizeTimer = 0
+  window.addEventListener('resize', () => {
+    if (resizeTimer) clearTimeout(resizeTimer)
+    resizeTimer = setTimeout(() => {
+      const w = el.clientWidth
+      const h = el.clientHeight
+      // Ignorera små ändringar (typiskt adresslist-collapse ger ±100-120 px höjd)
+      if (Math.abs(w - lastW) < 4 && Math.abs(h - lastH) < 140) return
+      lastW = w; lastH = h
+      app.renderer.resize(w, h)
+    }, 250)
+  })
 
   const scene = await buildScene()
   // OBS: lägg INTE scene.root på stage:n direkt. TiltStage renderar den
