@@ -59,11 +59,14 @@
   width: clamp(2.8rem, 6.72vw, 3.92rem);
   height: auto;
   opacity: 0.8;
-  animation: bob 2s ease-in-out infinite;
+  animation: bob 3.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;
 }
 @keyframes bob {
-  0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(8px); }
+  0%   { transform: translateY(0); }
+  45%  { transform: translateY(18px); }
+  60%  { transform: translateY(14px); }
+  72%  { transform: translateY(18px); }
+  100% { transform: translateY(0); }
 }
 
 .card-section {
