@@ -303,7 +303,7 @@ function render(data) {
       />`}
 
       <!-- Städer (silhuetter, breda) -->
-      ${citySilhouette('stockholm-city', stockholmCityPos[0], stockholmCityPos[1], '/images/map/stockholm-silhouette.png', 320, 'Stockholm')}
+      ${citySilhouette('stockholm-city', stockholmCityPos[0], stockholmCityPos[1], '/images/map/stockholm-silhouette.png', 320, 'Stockholm', 28)}
       ${citySilhouette('sodertalje', sodertaljePos[0], sodertaljePos[1], '/images/map/sodertalje-silhouette.png', 260, 'Södertälje')}
 
       <!-- Land-figurer (under rutten) -->
@@ -479,11 +479,12 @@ function decorShip(x, y) {
 }
 
 // Stadssilhuetter: bredare än de är höga, bottenkant förankrad på (x, y).
-function citySilhouette(cls, x, y, href, width, label) {
+// imgYOffset låter dig flytta enbart silhuett-PNGen utan att etiketten följer med.
+function citySilhouette(cls, x, y, href, width, label, imgYOffset = 0) {
   const height = width * 0.45
   return `
     <g class="${cls} city" transform="translate(${x.toFixed(1)},${y.toFixed(1)})">
-      <image href="${href}" x="${-width / 2}" y="${-height}" width="${width}" height="${height}"
+      <image href="${href}" x="${-width / 2}" y="${-height + imgYOffset}" width="${width}" height="${height}"
              preserveAspectRatio="xMidYMax meet" />
       <text x="0" y="20" class="city-label" text-anchor="middle" fill="#1a0a05">${label}</text>
     </g>
