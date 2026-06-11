@@ -66,12 +66,10 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   const ZOOM_W = VIEW_W * 0.56
   const ZOOM_H = ZOOM_W / ASPECT
 
-  // Slutposition (matchande map.js endFx/endFy + 5% skift höger)
-  const endFxBase = 17.765  // lat hardcoded i original
-  // Approximation: project har redan tillämpats, men endFx beräknas där.
-  // Vi tar mittpunkt av befintlig vy som approximation:
-  const endFx = VIEW_W / 2 + VIEW_W * 0.865 * 0.05
-  const endFy = viewH / 2
+  // Slutposition — projicera samma lat/lon som map.js raderna 152-154.
+  // (endFxBase = project([17.765, 59.308]), sen +5% skift höger.)
+  const [endFxBase, endFy] = scene.proj.project([17.765, 59.308])
+  const endFx = endFxBase + VIEW_W * 0.865 * 0.05
 
   // Cumulativa längder för path-sampling (smooth Catmull-Rom path, inte
   // den jagged OSRM-polylinen — annars rycker kameran vid varje hörn)

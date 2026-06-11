@@ -81,6 +81,7 @@ body.webgl-revealed .webgl-content {
   position: fixed;
   bottom: max(1.5rem, env(safe-area-inset-bottom));
   right: max(1.5rem, env(safe-area-inset-right));
+  z-index: 200;  /* över vignette (z:4) och hero (z:10) */
   pointer-events: auto;
   background: rgba(20, 14, 8, 0.8);
   color: var(--paper);

@@ -87,29 +87,23 @@ export async function buildScene() {
   parchment.y = -viewH * 0.3
   root.addChild(parchment)
 
-  // Vatten (inland) — alla water-features som filled polys
+  // Vatten + öar med evenodd-fill så GeoJSON-polygon-holes respekteras
+  // (en outer ring + interior rings = öar i sjöar i öar).
   const waterColor = 0x4a6a74
   const waterG = new Graphics()
-  addFeaturesToGraphics(waterG, water, project)
-  waterG.fill({ color: waterColor })
+  fillFeatures(waterG, water, project, { color: waterColor })
   root.addChild(waterG)
 
-  // Yttre hav (Saltsjön/skärgård från coastline-sea)
   const coastlineSeaG = new Graphics()
-  addFeaturesToGraphics(coastlineSeaG, coastlineSea, project)
-  coastlineSeaG.fill({ color: waterColor })
+  fillFeatures(coastlineSeaG, coastlineSea, project, { color: waterColor })
   root.addChild(coastlineSeaG)
 
-  // Öar — fyll med pergament-textur
-  const islandFill = { texture: textures.parchment }
   const islandsG = new Graphics()
-  addFeaturesToGraphics(islandsG, islands, project)
-  islandsG.fill(islandFill)
+  fillFeatures(islandsG, islands, project, { texture: textures.parchment })
   root.addChild(islandsG)
 
   const coastlineIslandsG = new Graphics()
-  addFeaturesToGraphics(coastlineIslandsG, coastlineIslands, project)
-  coastlineIslandsG.fill(islandFill)
+  fillFeatures(coastlineIslandsG, coastlineIslands, project, { texture: textures.parchment })
   root.addChild(coastlineIslandsG)
 
   // Kustlinje-strokes (öppna chains, bara stroke)
@@ -394,17 +388,28 @@ export async function buildScene() {
   }
 }
 
-// Hjälpare: addera GeoJSON-features (Polygon/MultiPolygon) till en Graphics.
-// Anropare gör `.fill(...)` efteråt.
-function addFeaturesToGraphics(g, features, project) {
+// Rita en GeoJSON Polygon (outer + holes) till Graphics och fill:a med
+// evenodd så hålen blir transparenta. Multipolygon = flera polygons.
+function fillFeatures(g, features, project, fillStyle) {
   for (const f of features) {
     if (!f) continue
     if (f.type === 'Polygon') {
-      for (const ring of f.coordinates) drawRing(g, ring, project)
+      drawPolygonWithHoles(g, f.coordinates, project)
+      g.fill({ ...fillStyle, fillRule: 'evenodd' })
     } else if (f.type === 'MultiPolygon') {
-      for (const poly of f.coordinates) for (const ring of poly) drawRing(g, ring, project)
+      for (const poly of f.coordinates) {
+        drawPolygonWithHoles(g, poly, project)
+        g.fill({ ...fillStyle, fillRule: 'evenodd' })
+      }
     }
   }
+}
+
+function drawPolygonWithHoles(g, rings, project) {
+  // En polygon = outer ring + 0+ hole rings. Alla ritas i samma path:
+  // evenodd-fillRule på efterföljande .fill() gör att hålen blir
+  // transparenta (interior count = 2 = jämn = utanför).
+  for (const ring of rings) drawRing(g, ring, project)
 }
 
 function drawRing(g, ring, project) {
