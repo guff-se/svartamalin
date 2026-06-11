@@ -6,10 +6,12 @@
 import { Application } from 'pixi.js'
 import { buildScene } from './scene.js'
 import { Camera } from './camera.js'
+import { TiltStage } from './tilt-stage.js'
 
 let app = null
 let hostEl = null
 let camAnimId = 0
+let tiltStage = null
 
 export async function mountWebglMap(el) {
   if (app) return  // idempotent
@@ -26,7 +28,11 @@ export async function mountWebglMap(el) {
   el.appendChild(app.canvas)
 
   const scene = await buildScene()
-  app.stage.addChild(scene.root)
+  // OBS: lägg INTE scene.root på stage:n direkt. TiltStage renderar den
+  // varje frame i en RenderTexture som visas via en PerspectiveMesh för
+  // 3D-tilt-emulering.
+  tiltStage = new TiltStage(app, scene.root)
+  tiltStage.init()
 
   const { VIEW_W, viewH } = scene.proj
   const camera = new Camera({ rootContainer: scene.root, app, viewW: VIEW_W, viewH: viewH })
@@ -38,14 +44,16 @@ export async function mountWebglMap(el) {
   camera.h = viewH
   camera.apply()
 
-  app.renderer.on('resize', () => camera.apply())
+  app.renderer.on('resize', () => {
+    camera.apply()
+    tiltStage.resize()
+  })
 
-  // P2 self-test: pendla in/ut i en oändlig loop så vi kan visuellt se
-  // att zoom + pan + rotate är smooth. Stoppas i P5 när timeline tar över.
+  // P3 self-test: pendla zoom/pan/rotate + tilt så vi kan visuellt verifiera
+  // att 3D-tilten också funkar. Ersätts av timeline i P5.
   const startWall = performance.now()
   const tick = () => {
     const t = ((performance.now() - startWall) / 1000) % 16
-    // 0-8s: zooma in mot Stockholm-pos och rotera lite. 8-16s: tillbaka.
     const phase = t < 8 ? t / 8 : (16 - t) / 8
     const sx = scene.journey.sx
     const sy = scene.journey.sy
@@ -55,18 +63,20 @@ export async function mountWebglMap(el) {
     camera.h  = viewH * (1 - 0.5 * phase)
     camera.rot = 15 * phase
     camera.apply()
+    tiltStage.setTilt(50 * phase)
     camAnimId = requestAnimationFrame(tick)
   }
   camAnimId = requestAnimationFrame(tick)
 
-  // Stash refs så P3-P5 kan ta över
-  app._svm = { scene, camera }
+  // Stash refs så P5 kan ta över
+  app._svm = { scene, camera, tiltStage }
 }
 
 export function unmountWebglMap() {
   if (!app) return
   if (camAnimId) cancelAnimationFrame(camAnimId)
   camAnimId = 0
+  if (tiltStage) { tiltStage.destroy(); tiltStage = null }
   app.destroy({ removeView: true }, { children: true, texture: false })
   app = null
   if (hostEl) {
