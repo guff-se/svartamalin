@@ -18,11 +18,18 @@
 }
 .hero-portrait {
   width: 18rem;
-  max-width: 80vw;
+  max-width: 60vw;
   aspect-ratio: 63 / 88;
   object-fit: cover;
   margin-bottom: 1.5rem;
   filter: sepia(0.35) contrast(1.05) brightness(0.95);
+}
+@media (max-width: 560px) {
+  .hero-portrait {
+    width: 12rem;
+    max-width: 55vw;
+    margin-bottom: 1rem;
+  }
 }
 .hero-title {
   font-size: clamp(3rem, 10vw, 6rem);
@@ -38,7 +45,7 @@
   font-style: italic;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: clamp(0.9rem, 4vw, 1.8rem);
   color: #2a1810;
   text-shadow:
     0 0 8px rgba(232, 216, 180, 0.3),
@@ -117,6 +124,18 @@
 @media (max-width: 720px) {
   .crew-collage {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+}
+/* På riktigt smala skärmar är 2-kol-korten så små att namnen blir
+   oläsbara. Singel-kol med generös bredd istället. */
+@media (max-width: 420px) {
+  .crew-collage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+  .crew-collage .pirate-card__name {
+    font-size: 0.7rem !important;
   }
 }
 

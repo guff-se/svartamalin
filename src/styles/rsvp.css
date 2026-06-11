@@ -207,3 +207,24 @@
 .pirate-pick__picker .name-grid {
   max-height: calc(50vh - 1rem);
 }
+
+/* Mobil: stack:a kort + picker istället för side-by-side, och låt
+   name-grid använda hela bredden. */
+@media (max-width: 560px) {
+  .pirate-pick {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+  }
+  .pirate-pick__card {
+    width: min(11rem, 50vw);
+    margin: 0 auto;
+  }
+  .pirate-pick__picker {
+    flex: 1 1 auto;
+    max-width: none;
+  }
+  .pirate-pick__picker .name-grid {
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  }
+}
