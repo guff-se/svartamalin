@@ -1,12 +1,14 @@
 #map-bg {
   position: fixed;
-  inset: 0;
-  /* iOS Safari: använd dynamic viewport units så bakgrunden inte hoppar
-     när adresslisten kollapsar/expanderar under scroll. Fallback till
-     statisk 100vh för browsers utan dvh-stöd. */
-  height: 100vh;
-  height: 100dvh;
+  top: 0;
+  left: 0;
+  /* iOS: använd STATISK 100vh (= large viewport, räknar med kollapsad
+     adresslist). 100dvh växer/krymper när adresslisten kollapsar under
+     scroll → SVG:n fyller den nya ytan via preserveAspectRatio="slice" →
+     ser ut som zoom-in/zoom-out under de första 2 cm scroll.
+     Med 100vh sätts höjden EN gång och ändras inte med scroll. */
   width: 100vw;
+  height: 100vh;
   z-index: 0;
   overflow: hidden;
   pointer-events: none;
@@ -41,9 +43,10 @@
    village-1/robbers reveals och under hamn-inzoom. */
 #map-vignette {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
-  height: 100dvh;
   pointer-events: none;
   background: radial-gradient(ellipse at center, transparent 55%, rgba(20, 8, 4, 0.9) 100%);
   z-index: 4;  /* ovanför #map-bg (z:0), under hero-tint (z:5) och content-overlay (z:10) */
@@ -163,9 +166,10 @@ body:not(.revealing) #map-bg .map-fadeable { opacity: 0.8; }
    Fadear in synkat med .content-overlay. */
 #hero-tint {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
-  height: 100dvh;
   pointer-events: none;
   background: #e8d8b4;
   z-index: 5;
