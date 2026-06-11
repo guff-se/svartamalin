@@ -20,6 +20,7 @@ import { Assets, Container, Graphics, Sprite, Text, TilingSprite, Texture } from
 import { buildProjection } from './projection.js'
 import { DECOR_POS, DECOR_SIZE } from './decor-positions.js'
 import { buildRoutes } from './routes.js'
+import { catmullRomPolyline } from './catmull-rom.js'
 
 const MAP_DATA_URL = '/map-data.json'
 
@@ -134,6 +135,39 @@ export async function buildScene() {
     harbor: [hxRoute, hyRoute],
     ovanan: [oxRoute, oyRoute],
   })
+
+  // Camera-path för drive-fasen: SAMA Catmull-Rom-smoothing som originalet
+  // (5 waypoints jämnt fördelade längs OSRM-rutten → cubic Bezier interpolering).
+  // Detta är OBLIGATORISKT — kameran måste följa en glatt path, inte de
+  // jagged OSRM-vertices, annars rycker den vid varje hörn (~880 corners).
+  const driveCumLen = (() => {
+    const out = [0]
+    for (let i = 1; i < drivingPoly.length; i++) {
+      const dx = drivingPoly[i][0] - drivingPoly[i-1][0]
+      const dy = drivingPoly[i][1] - drivingPoly[i-1][1]
+      out.push(out[i-1] + Math.hypot(dx, dy))
+    }
+    return out
+  })()
+  const totalDriveLen = driveCumLen[driveCumLen.length - 1]
+  const sampleDriveAt = (target) => {
+    if (target <= 0) return { x: drivingPoly[0][0], y: drivingPoly[0][1] }
+    if (target >= totalDriveLen) return { x: drivingPoly.at(-1)[0], y: drivingPoly.at(-1)[1] }
+    for (let i = 1; i < driveCumLen.length; i++) {
+      if (driveCumLen[i] >= target) {
+        const t = (target - driveCumLen[i-1]) / (driveCumLen[i] - driveCumLen[i-1])
+        return {
+          x: drivingPoly[i-1][0] + (drivingPoly[i][0] - drivingPoly[i-1][0]) * t,
+          y: drivingPoly[i-1][1] + (drivingPoly[i][1] - drivingPoly[i-1][1]) * t,
+        }
+      }
+    }
+    return { x: drivingPoly.at(-1)[0], y: drivingPoly.at(-1)[1] }
+  }
+  const N = 4  // 5 waypoints, matchar map.js
+  const driveWaypoints = []
+  for (let i = 0; i <= N; i++) driveWaypoints.push(sampleDriveAt((i / N) * totalDriveLen))
+  const camDrivePoly = catmullRomPolyline(driveWaypoints, 80)  // 320 punkter total, glatt nog
   const routesLayer = new Container()
   routesLayer.label = 'routes'
   routesLayer.addChild(routes.drive.g)
@@ -279,6 +313,7 @@ export async function buildScene() {
       oy: oyRoute,
       drivingRoute,
       drivingPoly,
+      camDrivePoly,           // glatt path för kamera-flygning
       boatPoly: routes.boatPoly,
     },
   }

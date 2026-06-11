@@ -58,7 +58,7 @@ function normAngle(a) {
  */
 export function buildRevealTimeline(scene, camera, tiltStage) {
   const { sprites, journey, routes, harborMarker, ourShip, seaLabel } = scene
-  const { sx, sy, hx, hy, ox, oy, drivingPoly, boatPoly } = journey
+  const { sx, sy, hx, hy, ox, oy, camDrivePoly, boatPoly } = journey
   const viewH = scene.proj.viewH
 
   // Aspect-ratio för inzoom
@@ -73,8 +73,9 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   const endFx = VIEW_W / 2 + VIEW_W * 0.865 * 0.05
   const endFy = viewH / 2
 
-  // Cumulativa längder för path-sampling
-  const driveCum = cumLengths(drivingPoly)
+  // Cumulativa längder för path-sampling (smooth Catmull-Rom path, inte
+  // den jagged OSRM-polylinen — annars rycker kameran vid varje hörn)
+  const driveCum = cumLengths(camDrivePoly)
   const driveTotal = driveCum[driveCum.length - 1]
   const boatCum = cumLengths(boatPoly)
   const boatTotal = boatCum[boatCum.length - 1]
@@ -137,7 +138,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   }
 
   const rotMix = { v: 0 }
-  const driveStartTangent = tangentAt(drivingPoly, driveCum, 0)
+  const driveStartTangent = tangentAt(camDrivePoly, driveCum, 0)
 
   const tl = gsap.timeline({ paused: true })
 
@@ -176,9 +177,9 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
     ease: 'power2.inOut',
     onUpdate() {
       const len = driveProgress.p * driveTotal
-      const [x, y] = sampleAt(drivingPoly, driveCum, len)
+      const [x, y] = sampleAt(camDrivePoly, driveCum, len)
       camera.cx = x; camera.cy = y
-      camera.rot = blendRot(tangentAt(drivingPoly, driveCum, len)) * rotMix.v
+      camera.rot = blendRot(tangentAt(camDrivePoly, driveCum, len)) * rotMix.v
       onCamUpdate()
     },
   }, 3)
