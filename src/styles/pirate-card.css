@@ -9,6 +9,10 @@
   position: relative;
   width: 100%;
   aspect-ratio: 63 / 88;
+  /* Outer playing-card silhouette (1/8" radius on poker 2.5"×3.5") */
+  border-radius: max(8px, 5.5%) / max(6px, 3.95%);
+  overflow: hidden;
+  isolation: isolate;
 }
 
 /* Portrait photo — per-frame inset via .pirate-card--frameN (fallback: frame 1) */
@@ -16,8 +20,12 @@
   position: absolute;
   inset: 7% 7% 23% 7%;
   background-color: #2a1810;
-  border-radius: 2px;
+  /* clip-path + border-radius — filter on wrapper, not img (Safari clip bug) */
+  --portrait-round: max(10px, 8%);
+  border-radius: var(--portrait-round);
   overflow: hidden;
+  clip-path: inset(0 round max(10px, 8%));
+  filter: sepia(0.35) contrast(1.05) brightness(0.95);
 }
 
 .pirate-card__photo-img {
@@ -27,8 +35,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center top;
-  /* Subtle vintage treatment on the photo itself */
-  filter: sepia(0.35) contrast(1.05) brightness(0.95);
+  border-radius: var(--portrait-round);
 }
 
 .pirate-card__placeholder {

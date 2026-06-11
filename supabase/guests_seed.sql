@@ -14,7 +14,7 @@ insert into guests (real_name, login_slug) values
   ('Evelina Andersson', 'evelinaandersson'),
   ('Amanda Mungsgård', 'amandamungsgård'),
   ('Viktor Ansund', 'viktoransund'),
-  ('Josefine Ansund', 'josefineansund'),
+  ('Josefin Ansund', 'josefinansund'),
   ('Johanna Bergman', 'johannabergman'),
   ('Erik Bergman', 'erikbergman'),
   ('Jesper Lindmarker', 'jesperlindmarker'),

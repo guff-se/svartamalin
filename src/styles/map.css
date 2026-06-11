@@ -4,8 +4,9 @@
   z-index: 0;
   overflow: hidden;
   pointer-events: none;
-  perspective: 1800px;
-  perspective-origin: 50% 60%;
+  /* Ingen `perspective` — tilten fakas SVG-internt via vertikal-skala för att
+     undvika att SVG:t rasteriseras till en bitmap-layer (orsakade pixelering
+     på text vid inzoom). */
 }
 #map-bg .treasure-map {
   transform-origin: 50% 50%;

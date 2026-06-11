@@ -10,7 +10,8 @@
  * Output: images/portraits-generated/<name>.jpg (first run)
  *         images/portraits-generated/<name>-v2.jpg, -v3.jpg, … (redos — never overwrites)
  *
- * Copy a chosen version to public/images/portraits/<id>.jpg for production use.
+ * Copy a chosen version to public/images/portraits/<slug>.jpg for production use
+ * (<slug> = real name with åä→a, ö→o, spaces → hyphens).
  *
  * Facial expression (default: vary for theatrical pose/gaze):
  *   images/portraits-originals/keep-expression.txt — stems that always keep expression
@@ -33,6 +34,7 @@ import { tmpdir } from 'node:os'
 import { join, dirname, basename, extname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { editImageWithCodex, hasCodexSubscriptionAuth } from './lib/codex-image.js'
+import { imageFilenameSlug } from '../src/lib/image-slug.js'
 
 const execFileAsync = promisify(execFile)
 
@@ -563,8 +565,13 @@ Render as a ${media} of the same person. Colour palette: ${palette}. Surface tre
   return { prompt: blocks.join(' '), summary: variationSummary(picks, keepExpression) }
 }
 
+/** Basename (no extension) → slug with åäö transliteration and hyphen separators. */
+function portraitStemFromBasename(basename) {
+  return imageFilenameSlug(basename.replace(/[._]+/g, ' '))
+}
+
 function normalizeStem(name) {
-  return name.replace(/\.(jpe?g|png|webp)$/i, '')
+  return portraitStemFromBasename(name.replace(/\.(jpe?g|png|webp)$/i, ''))
 }
 
 /** @returns {{ filters: string[], keepExpressionStems: Set<string>, keepExpressionAll: boolean, noKeepExpression: boolean }} */
@@ -814,7 +821,7 @@ async function main() {
   console.log(`Generating ${queue.length} portrait(s) → ${OUT_DIR}\n`)
 
   for (const file of queue) {
-    const stem = basename(file, extname(file))
+    const stem = portraitStemFromBasename(basename(file, extname(file)))
     const inPath = join(IN_DIR, file)
     const { version, filename, path: outPath } = await resolveOutputPath(stem)
     const keepExpression = shouldKeepExpression(stem, keepOpts)

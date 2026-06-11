@@ -2,7 +2,7 @@ import { CARD_OVERLAYS } from '../components/pirate-card.js'
 import { CARD_FRAME_LAYOUTS } from '../lib/card-frame-layouts.js'
 
 const STORAGE_KEY = 'svartamalin:framefix-layouts'
-const SAMPLE_NAME = 'Svarta Malin'
+const SAMPLE_NAME = 'Kapten Lösskägg'
 
 /** @typedef {{ top: number, left: number, right: number, bottom: number }} PhotoInset */
 /** @typedef {{ x: number, y: number }} LabelCenter */

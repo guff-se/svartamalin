@@ -263,6 +263,8 @@ function render(data) {
       <!-- Bakfärg (rotorns bottenplåt) -->
       <rect width="${VIEW_W}" height="${viewH}" fill="#3a2410" />
 
+      <!-- Tilt-g: vertikal-skala emulerar 3D-lutning utan CSS 3D (som rasteriserar SVG:t) -->
+      <g class="map-tilt">
       <!-- Rotor: allt kartinnehåll roterar tillsammans -->
       <g class="map-rotor">
       <!-- Pergamentbakgrund. ?no-parchment=1 ersätter med flat fyllning för perf-test. -->
@@ -385,6 +387,7 @@ function render(data) {
                preserveAspectRatio="xMidYMid meet" />
       </g>
 
+      </g>
       </g>
     </svg>
   `
@@ -621,31 +624,34 @@ async function runReveal() {
   cam.cx = sx; cam.cy = sy; cam.w = ZOOM_W; cam.h = ZOOM_H; cam.rot = 0; cam.tilt = 0
 
   const rotor = svg.querySelector('.map-rotor')
-  // VIKTIGT: driv zoom via viewBox-attributet, INTE via en transform på en
-  // inner <g>. När SVG:t ligger i en 3D-rasterlayer (pga rotateX-tilt på
-  // parent + perspective) cachar browsern SVG:s renderade output som bitmap.
-  // En inner-transform skalar då bitmapen → pixelering. viewBox-ändring
-  // invaliderar däremot SVG-painten så content rasteriseras om vid den nya
-  // visningsstorleken — vektor-skarpt på alla zoom-nivåer. Det är dyrare
-  // CPU-mässigt men användarens explicit valda tradeoff.
-  // Rotation kan inte uttryckas i viewBox, så cam.rot körs fortfarande via
-  // rotor-transform.
-  let lastTilt = -1
+  const tiltG = svg.querySelector('.map-tilt')
+  // VIKTIGT: ALLA kamera-transformationer körs SVG-internt så browsern aldrig
+  // tvingas rasterisera SVG:t till en bitmap-layer (det orsakade pixelering).
+  // - Zoom: viewBox per frame (SVG paint invalideras → vektor-skarpt).
+  // - Rotation: inner <g class="map-rotor"> via SVG transform-attribut.
+  // - "3D-tilt": fakad via vertikal-skala på <g class="map-tilt"> — inte äkta
+  //   perspektiv (SVG saknar det) men ger samma "uppifrån-känsla" utan att
+  //   skapa en CSS 3D-compositorlayer.
   const applyCam = () => {
     const vbx = cam.cx - cam.w / 2
     const vby = cam.cy - cam.h / 2
     svg.setAttribute('viewBox', `${vbx.toFixed(1)} ${vby.toFixed(1)} ${cam.w.toFixed(1)} ${cam.h.toFixed(1)}`)
-    // Rotation runt cam-centrum via inner <g> — viewBox-skifte hanterar pan/zoom.
     if (cam.rot !== 0) {
       rotor.setAttribute('transform',
         `rotate(${cam.rot.toFixed(2)} ${cam.cx.toFixed(1)} ${cam.cy.toFixed(1)})`)
     } else {
       rotor.removeAttribute('transform')
     }
-    // 3D-tilt på SVG-elementet via CSS. Skriv bara när tilt ändras.
-    if (!perfFlags.noTilt && cam.tilt !== lastTilt) {
-      svg.style.transform = cam.tilt === 0 ? '' : `rotateX(${cam.tilt.toFixed(1)}deg)`
-      lastTilt = cam.tilt
+    // Tilt-emulering: vertikal squish runt cam-center. tilt 0° = ingen squish,
+    // 35° ≈ scale(1, 0.819). Plus skewX för svag trapets-känsla av perspektiv.
+    if (!perfFlags.noTilt && cam.tilt !== 0) {
+      const sy = Math.cos(cam.tilt * Math.PI / 180)
+      const ty = cam.cy * (1 - sy)
+      const skew = cam.tilt * 0.15  // svag horisontell skev för djup
+      tiltG.setAttribute('transform',
+        `translate(0 ${ty.toFixed(1)}) scale(1 ${sy.toFixed(4)}) skewX(${skew.toFixed(2)})`)
+    } else {
+      tiltG.removeAttribute('transform')
     }
   }
   applyCam()

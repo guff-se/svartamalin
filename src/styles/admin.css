@@ -41,3 +41,21 @@
 .admin .pill.yes { color: #88c896; border-color: #88c896; }
 .admin .pill.no { color: #c88888; border-color: #c88888; }
 .admin .pill.pending { color: var(--paper-dark); }
+.admin-col-photo { width: 3rem; }
+.admin-portrait-thumb {
+  display: block;
+  width: 2.5rem;
+  aspect-ratio: 63 / 88;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid rgba(184, 146, 74, 0.35);
+  filter: sepia(0.25);
+}
+.admin-portrait-thumb--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(232, 216, 180, 0.06);
+  color: var(--paper-dark);
+  font-size: 0.85rem;
+}

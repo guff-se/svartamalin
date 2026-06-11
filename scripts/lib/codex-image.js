@@ -12,8 +12,14 @@ const CODEX_BACKEND = 'https://chatgpt.com/backend-api/codex/responses'
 const OAUTH_TOKEN_URL = 'https://auth.openai.com/oauth/token'
 const OAUTH_CLIENT_ID = 'app_EMoamEEZ73f0CkXaXp7hrann'
 const FALLBACK_VERSION = '0.130.0'
-const DEFAULT_STALL_MS = 120_000
-const DEFAULT_TOTAL_MS = 300_000
+const DEFAULT_STALL_MS = 180_000
+const DEFAULT_TOTAL_MS = 600_000
+const MAX_IMAGE_ATTEMPTS = 3
+/** gpt-5.5 image edits currently 500 on Codex; gpt-5.4 works (Mar 2026). */
+const DEFAULT_IMAGE_MODEL = 'gpt-5.4'
+const IMAGE_MODEL_FALLBACKS = {
+  'gpt-5.5': 'gpt-5.4',
+}
 
 function codexHome() {
   return process.env.CODEX_HOME || join(homedir(), '.codex')
@@ -231,20 +237,17 @@ async function postForImage({ payload, headers, totalMs = DEFAULT_TOTAL_MS, stal
   return Buffer.from(imageB64, 'base64')
 }
 
-/**
- * Edit an image using ChatGPT subscription quota (Codex OAuth).
- */
-export async function editImageWithCodex({
-  prompt,
-  imageDataUrl,
-  size = '1024x1536',
-  outputFormat = 'jpeg',
-  model = process.env.CODEX_IMAGE_MODEL || 'gpt-5.5',
-}) {
-  let { auth, access, accountId, refresh } = await loadAuth()
-  const version = await detectCodexVersion()
-  const payload = buildEditPayload({ prompt, imageDataUrl, size, outputFormat, model })
+function isRetryableImageError(err) {
+  const msg = err?.message ?? ''
+  return (
+    msg.includes('An error occurred while processing your request') ||
+    msg.includes('server_error') ||
+    msg.includes('backend stalled')
+  )
+}
 
+async function postForImageWithAuth({ payload, accountId, version, refresh, auth }) {
+  let access = auth.tokens.access_token
   try {
     return await postForImage({
       payload,
@@ -253,11 +256,51 @@ export async function editImageWithCodex({
   } catch (err) {
     if (!refresh || err.status !== 401) throw err
     const refreshed = await refreshAccessToken(refresh)
-    auth = await persistRefreshedAuth(auth, refreshed)
-    access = auth.tokens.access_token
+    const nextAuth = await persistRefreshedAuth(auth, refreshed)
+    access = nextAuth.tokens.access_token
     return postForImage({
       payload,
       headers: buildHeaders(access, accountId, version),
     })
   }
+}
+
+/**
+ * Edit an image using ChatGPT subscription quota (Codex OAuth).
+ * Override model: CODEX_IMAGE_MODEL (default gpt-5.4).
+ */
+export async function editImageWithCodex({
+  prompt,
+  imageDataUrl,
+  size = '1024x1536',
+  outputFormat = 'jpeg',
+  model = process.env.CODEX_IMAGE_MODEL || DEFAULT_IMAGE_MODEL,
+}) {
+  const { auth, accountId, refresh } = await loadAuth()
+  const version = await detectCodexVersion()
+  const models = [model]
+  const fallback = IMAGE_MODEL_FALLBACKS[model]
+  if (fallback && fallback !== model) models.push(fallback)
+
+  let lastErr
+  for (const tryModel of models) {
+    const payload = buildEditPayload({ prompt, imageDataUrl, size, outputFormat, model: tryModel })
+    for (let attempt = 1; attempt <= MAX_IMAGE_ATTEMPTS; attempt++) {
+      try {
+        return await postForImageWithAuth({ payload, accountId, version, refresh, auth })
+      } catch (err) {
+        lastErr = err
+        const hasFallback = tryModel !== models[models.length - 1]
+        const canRetry = attempt < MAX_IMAGE_ATTEMPTS && isRetryableImageError(err)
+        if (canRetry) {
+          await new Promise((r) => setTimeout(r, 4000 * attempt))
+          continue
+        }
+        if (!hasFallback || !isRetryableImageError(err)) throw err
+        break
+      }
+    }
+  }
+
+  throw lastErr
 }

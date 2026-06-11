@@ -1,5 +1,6 @@
-/** Portrait filename from guest real name: "Gustaf Tadaa" → gustaf-tadaa.jpg */
+import { imageFilenameSlug } from './image-slug.js'
+
+/** Portrait filename from guest real name: "Amanda Mungsgård" → amanda-mungsgard.jpg (åä→a, ö→o) */
 export function portraitPath(realName) {
-  const slug = String(realName).trim().toLowerCase().replace(/\s+/g, '-')
-  return `/images/portraits/${slug}.jpg`
+  return `/images/portraits/${imageFilenameSlug(realName)}.jpg`
 }

@@ -13,7 +13,7 @@ export async function renderHome(app) {
       </section>
 
       <section class="card-section">
-        <div class="card">
+        <div class="card card--crew">
           <h2>Besättningen</h2>
           <p class="lead">Pirater som hörsammat kallelsen.</p>
           <div class="crew-collage" id="crew-collage">Laddar besättning…</div>

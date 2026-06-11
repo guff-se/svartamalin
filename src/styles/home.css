@@ -83,18 +83,27 @@
   margin: 0 0 1.5rem;
 }
 
-/* Crew collage */
+/* Crew collage — 4 kort per rad (bredare kort-container) */
+.card--crew {
+  max-width: 62rem;
+}
+
 .crew-collage {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(11.88rem, 1fr));
-  gap: 1.25rem;
-  justify-items: center;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.625rem;
 }
 
 .crew-collage .pirate-card {
-  max-width: 16.632rem; /* 10% larger than default 15.12rem */
+  max-width: none;
   cursor: pointer;
   transition: transform 0.15s ease;
+}
+
+@media (max-width: 720px) {
+  .crew-collage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .crew-collage .pirate-card:hover {

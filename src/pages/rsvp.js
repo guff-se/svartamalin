@@ -105,9 +105,15 @@ async function renderPirateStep(card, onDone) {
             <div class="name-grid-scrollbar__thumb"></div>
           </div>
         </div>
+        <div class="row pirate-pick__confirm">
+          <button id="confirm-pirate" type="button" disabled>Välj</button>
+        </div>
       </div>
     </div>
   `
+
+  const selection = { id: null, name: null }
+  const confirmBtn = document.getElementById('confirm-pirate')
 
   const previewEl = document.getElementById('pirate-card-preview')
   const updatePreview = (pirateName, pirateNameId) => {
@@ -120,14 +126,29 @@ async function renderPirateStep(card, onDone) {
   updatePreview('—')
   previewEl.addEventListener('error', onPortraitPreviewError, true)
 
+  const selectName = (pirateNameId, pirateName) => {
+    selection.id = pirateNameId
+    selection.name = pirateName
+    updatePreview(pirateName, pirateNameId)
+    grid.querySelectorAll('button[data-id]').forEach((btn) => {
+      btn.classList.toggle('selected', parseInt(btn.dataset.id, 10) === pirateNameId)
+    })
+    confirmBtn.disabled = false
+  }
+
+  confirmBtn.addEventListener('click', () => {
+    if (selection.id == null) return
+    claimName(selection.id, onDone)
+  })
+
   const grid = document.getElementById('name-grid')
-  await refreshNames(grid, onDone, updatePreview)
+  await refreshNames(grid, onDone, updatePreview, selection, selectName, confirmBtn)
   const unbindScrollbar = bindVisibleScrollbar(grid)
 
   const channel = supabase
     .channel('rsvp-pirate-names')
     .on('postgres_changes', { event: '*', schema: 'public', table: 'guests' }, () => {
-      refreshNames(grid, onDone, updatePreview)
+      refreshNames(grid, onDone, updatePreview, selection, selectName, confirmBtn)
     })
     .subscribe()
 
@@ -147,7 +168,7 @@ function onPortraitPreviewError(e) {
   photo.insertAdjacentHTML('afterbegin', '<span class="pirate-card__placeholder" aria-hidden="true">🏴‍☠️</span>')
 }
 
-async function refreshNames(grid, onDone, updatePreview) {
+async function refreshNames(grid, onDone, updatePreview, selection, selectName, confirmBtn) {
   const { data: names } = await supabase
     .from('pirate_names')
     .select('id, name, position')
@@ -160,9 +181,17 @@ async function refreshNames(grid, onDone, updatePreview) {
 
   const claimedIds = new Set((claimed ?? []).map((g) => g.pirate_name_id))
 
+  if (selection.id != null && claimedIds.has(selection.id)) {
+    selection.id = null
+    selection.name = null
+    confirmBtn.disabled = true
+    updatePreview('—')
+  }
+
   grid.innerHTML = (names ?? []).map((n) => {
     const isClaimed = claimedIds.has(n.id)
-    return `<button type="button" data-id="${n.id}" data-name="${escapeHtml(n.name)}" class="${isClaimed ? 'claimed' : ''}" ${isClaimed ? 'disabled' : ''}>${escapeHtml(n.name)}</button>`
+    const isSelected = selection.id === n.id
+    return `<button type="button" data-id="${n.id}" data-name="${escapeHtml(n.name)}" class="${isClaimed ? 'claimed' : ''}${isSelected ? ' selected' : ''}" ${isClaimed ? 'disabled' : ''}>${escapeHtml(n.name)}</button>`
   }).join('')
 
   grid.querySelectorAll('button[data-id]').forEach((btn) => {
@@ -171,9 +200,10 @@ async function refreshNames(grid, onDone, updatePreview) {
     const pirateNameId = parseInt(btn.dataset.id, 10)
     btn.addEventListener('mouseenter', () => updatePreview(name, pirateNameId))
     btn.addEventListener('focus', () => updatePreview(name, pirateNameId))
-    btn.addEventListener('click', () => claimName(parseInt(btn.dataset.id, 10), onDone))
+    btn.addEventListener('click', () => selectName(pirateNameId, name))
   })
 
+  confirmBtn.disabled = selection.id == null
   grid._syncScrollbar?.()
 }
 

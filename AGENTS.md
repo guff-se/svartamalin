@@ -31,8 +31,10 @@ Reveal-tidsstämplar för dekorationer är samlade i konfig-arrayer (`driveRevea
 
 ## Performance-fällor (lärt ut hård väg)
 
-- **Zoom drivs av `viewBox` per frame — NOT av inner-transform.** SVG:t ligger i en 3D-rasterlayer (rotateX-tilt + `perspective` på parent). En inner-`<g>`-skalning skalar då upp den GPU-cachade bitmapen → synlig pixelering på text vid inzoom (hamnen/Salmonellahavet). viewBox-ändring invaliderar SVG-painten så content rasteriseras om vid den nya storleken — vektor-skarpt på alla zoom-nivåer. Kostar mer CPU; det är användarens valda tradeoff (visuell kvalitet > FPS).
-- **Rotation kan inte uttryckas i viewBox** — `cam.rot` körs därför fortfarande via en inner-`<g>` `transform="rotate(...)"`. Det är OK eftersom ren rotation inte skalar bitmapen.
+- **Ingen CSS 3D på SVG:t (inkl. `perspective` på parent eller `rotateX` på SVG).** Så fort SVG:t hamnar i en CSS 3D-compositorlayer cachar browsern dess output som bitmap, och viewBox-/inner-transform-ändringar invaliderar inte alltid den bitmapen → pixelering på text vid inzoom (hamnen/Salmonellahavet). All kamera-transformation körs istället SVG-internt:
+  - **Zoom**: `viewBox` per frame (SVG paint invalideras → vektor-skarpt).
+  - **Rotation**: inner `<g class="map-rotor">` via SVG `transform="rotate(...)"`.
+  - **Tilt**: fakad via vertikal-skala + skewX på `<g class="map-tilt">`. Inte äkta perspektiv (SVG saknar det) men ger känslan utan rasterisering.
 - **Slå ihop många små polygoner** till en samlad path (set `d` till alla concatenerade strängar). 1000+ separata `<path>`-element är dyrt.
 - **Undvik dyra filter** (`feTurbulence` etc.) i `<defs>` även om de inte används — vissa browsers kompilerar ändå.
 - **GSAP-tweens direkt på SVG-element vs setAttribute('transform')** krockar — välj en strategi per element.

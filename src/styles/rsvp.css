@@ -119,6 +119,9 @@
   box-shadow: inset 0 0 0 1px rgba(184, 146, 74, 0.4);
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
 }
 .name-grid-scrollbar__thumb {
   position: absolute;
@@ -128,7 +131,12 @@
   background: var(--gold);
   border-radius: 5px;
   min-height: 40px;
-  pointer-events: none;
+  cursor: grab;
+  touch-action: none;
+}
+.name-grid-scrollbar.is-dragging .name-grid-scrollbar__thumb,
+.name-grid-scrollbar__thumb:active {
+  cursor: grabbing;
 }
 .name-grid button {
   padding: 0.6rem 0.5rem;
@@ -141,6 +149,15 @@
   opacity: 0.25;
   pointer-events: none;
   text-decoration: line-through;
+}
+.name-grid button.selected {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper);
+}
+.pirate-pick__confirm {
+  margin-top: 1.25rem;
+  justify-content: center;
 }
 .farewell {
   font-style: italic;

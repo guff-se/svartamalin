@@ -1,5 +1,6 @@
 import { supabase } from './lib/supabase.js'
 import { escapeHtml } from './lib/escape.js'
+import { portraitPath } from './lib/portraits.js'
 
 const app = document.getElementById('app')
 const UNLOCKED_KEY = 'svartamalin:admin_unlocked'
@@ -80,6 +81,7 @@ async function renderGuests() {
     <table>
       <thead>
         <tr>
+          <th class="admin-col-photo">Foto</th>
           <th>Namn</th>
           <th>Status</th>
           <th>Piratnamn</th>
@@ -90,6 +92,7 @@ async function renderGuests() {
       <tbody>
         ${(guests ?? []).map((g) => `
           <tr>
+            <td class="admin-col-photo">${portraitThumbHtml(g.real_name)}</td>
             <td>${escapeHtml(g.real_name)}</td>
             <td>${statusSelect(g.id, g.attending)}</td>
             <td>${pirateNameSelect(g.id, g.pirate_name_id, names ?? [], guests ?? [])}</td>
@@ -108,6 +111,16 @@ async function renderGuests() {
       </tbody>
     </table>
   `
+
+  el.querySelectorAll('.admin-portrait-thumb').forEach((img) => {
+    img.addEventListener('error', () => {
+      const empty = document.createElement('span')
+      empty.className = 'admin-portrait-thumb admin-portrait-thumb--empty'
+      empty.title = 'Inget porträtt'
+      empty.textContent = '—'
+      img.replaceWith(empty)
+    })
+  })
 
   el.querySelectorAll('.status-select').forEach((sel) => {
     sel.addEventListener('change', async () => {
@@ -147,6 +160,12 @@ async function renderGuests() {
       if (error) alert('Misslyckades: ' + error.message)
     })
   })
+}
+
+function portraitThumbHtml(realName) {
+  const src = portraitPath(realName)
+  const alt = escapeHtml(realName)
+  return `<img class="admin-portrait-thumb" src="${src}" alt="${alt}" width="40" height="56" loading="lazy" />`
 }
 
 function statusSelect(guestId, attending) {

@@ -4,6 +4,7 @@ import { CARD_FRAME_ASSIGNMENTS, frameIdForGuest } from '../lib/card-frame-assig
 import { CARD_OVERLAYS, pirateCardHtml } from '../components/pirate-card.js'
 
 const STORAGE_KEY = 'svartamalin:frame-assignments-draft'
+const SAMPLE_NAME = 'Kapten Lösskägg'
 
 /** @returns {Record<string, number>} */
 function loadDraft() {
@@ -122,8 +123,6 @@ export async function renderFrameselect(app) {
     statusEl.textContent = `${locked} av ${n} har låst ram.`
   }
 
-  const cardLabel = (g) => g.pirate_names?.name ?? g.real_name
-
   const renderPicker = () => {
     if (!selected) {
       pickerEl.hidden = true
@@ -138,7 +137,7 @@ export async function renderFrameselect(app) {
 
     document.getElementById('frameselect-preview').innerHTML = pirateCardHtml({
       photoSrc: portraitPath(selected.real_name),
-      pirateName: cardLabel(selected),
+      pirateName: SAMPLE_NAME,
       overlaySrc: CARD_OVERLAYS[activeFrame - 1],
     })
 
@@ -149,7 +148,7 @@ export async function renderFrameselect(app) {
         <button type="button" class="frameselect__option${picked ? ' is-picked' : ''}" data-frame="${frame}" aria-pressed="${picked}">
           ${pirateCardHtml({
             photoSrc: portraitPath(selected.real_name),
-            pirateName: cardLabel(selected),
+            pirateName: SAMPLE_NAME,
             overlaySrc: src,
           })}
           <span class="frameselect__option-num">Ram ${frame}</span>
