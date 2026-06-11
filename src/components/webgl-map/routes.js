@@ -12,7 +12,7 @@ import { Graphics } from 'pixi.js'
 const DRIVE_COLOR = 0x8b2c1a
 const BOAT_COLOR = 0x8b2c1a
 const DRIVE_WIDTH = 3
-const BOAT_WIDTH = 6
+const BOAT_WIDTH = 3
 
 // Marching-ants dash pattern (arc-length-units = SVG-units = pixels-pre-camera-scale)
 const DRIVE_DASH = { on: 6, off: 5 }
