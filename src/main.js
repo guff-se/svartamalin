@@ -31,18 +31,29 @@ function logout() {
 
 document.getElementById('logout-btn').addEventListener('click', logout)
 
-function isFramefixRoute() {
+function devRoute() {
   const path = location.pathname.replace(/\/$/, '') || '/'
-  return path === '/framefix'
+  if (path === '/framefix') return 'framefix'
+  if (path === '/frameselect') return 'frameselect'
+  return null
 }
 
 async function route() {
-  if (isFramefixRoute()) {
+  const dev = devRoute()
+  if (dev === 'framefix') {
     hideTopControls()
     unmountMapBackground()
     document.body.classList.remove('locked')
     const { renderFramefix } = await import('./pages/framefix.js')
     renderFramefix(app)
+    return
+  }
+  if (dev === 'frameselect') {
+    hideTopControls()
+    unmountMapBackground()
+    document.body.classList.remove('locked')
+    const { renderFrameselect } = await import('./pages/frameselect.js')
+    renderFrameselect(app)
     return
   }
 

@@ -19,7 +19,7 @@ export default defineConfig({
       configureServer(server) {
         server.middlewares.use((req, _res, next) => {
           const url = req.url?.split('?')[0] ?? ''
-          if (url === '/framefix') req.url = '/index.html'
+          if (url === '/framefix' || url === '/frameselect') req.url = '/index.html'
           next()
         })
       },

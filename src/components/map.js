@@ -619,25 +619,28 @@ async function runReveal() {
   cam.cx = sx; cam.cy = sy; cam.w = ZOOM_W; cam.h = ZOOM_H; cam.rot = 0; cam.tilt = 0
 
   const rotor = svg.querySelector('.map-rotor')
-  // PERFORMANCE: behåll viewBox stabil och kör all kamera-transform på en
-  // inre <g> via SVG transform-attribut. Detta undviker att SVG-layouten
-  // räknas om varje frame (vilket var den dominerande CPU-kostnaden).
-  // viewBox sätts till hela kartan; cam-g skalar/translaterar/roterar för
-  // att fokusera på cam-området.
-  svg.setAttribute('viewBox', `0 0 ${VIEW_W} ${viewH}`)
+  // VIKTIGT: driv zoom via viewBox-attributet, INTE via en transform på en
+  // inner <g>. När SVG:t ligger i en 3D-rasterlayer (pga rotateX-tilt på
+  // parent + perspective) cachar browsern SVG:s renderade output som bitmap.
+  // En inner-transform skalar då bitmapen → pixelering. viewBox-ändring
+  // invaliderar däremot SVG-painten så content rasteriseras om vid den nya
+  // visningsstorleken — vektor-skarpt på alla zoom-nivåer. Det är dyrare
+  // CPU-mässigt men användarens explicit valda tradeoff.
+  // Rotation kan inte uttryckas i viewBox, så cam.rot körs fortfarande via
+  // rotor-transform.
   let lastTilt = -1
   const applyCam = () => {
-    const s = VIEW_W / cam.w
-    const tx = VIEW_W / 2 - cam.cx * s
-    const ty = viewH / 2 - cam.cy * s
-    // SVG transform-lista: rightmost applied first. Scale → translate → rotate-around-center.
-    rotor.setAttribute('transform',
-      `rotate(${cam.rot.toFixed(2)} ${(VIEW_W / 2).toFixed(1)} ${(viewH / 2).toFixed(1)}) ` +
-      `translate(${tx.toFixed(1)} ${ty.toFixed(1)}) ` +
-      `scale(${s.toFixed(4)})`)
-    // Bara skriv style när tilt faktiskt ändras — annars triggar vi
-    // composit-omräkning varje frame även när tilt=0.
-    // ?no-tilt=1 stänger av 3D-rotateX-effekten helt
+    const vbx = cam.cx - cam.w / 2
+    const vby = cam.cy - cam.h / 2
+    svg.setAttribute('viewBox', `${vbx.toFixed(1)} ${vby.toFixed(1)} ${cam.w.toFixed(1)} ${cam.h.toFixed(1)}`)
+    // Rotation runt cam-centrum via inner <g> — viewBox-skifte hanterar pan/zoom.
+    if (cam.rot !== 0) {
+      rotor.setAttribute('transform',
+        `rotate(${cam.rot.toFixed(2)} ${cam.cx.toFixed(1)} ${cam.cy.toFixed(1)})`)
+    } else {
+      rotor.removeAttribute('transform')
+    }
+    // 3D-tilt på SVG-elementet via CSS. Skriv bara när tilt ändras.
     if (!perfFlags.noTilt && cam.tilt !== lastTilt) {
       svg.style.transform = cam.tilt === 0 ? '' : `rotateX(${cam.tilt.toFixed(1)}deg)`
       lastTilt = cam.tilt

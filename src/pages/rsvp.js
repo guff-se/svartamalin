@@ -2,7 +2,8 @@ import { supabase } from '../lib/supabase.js'
 import { getGuestId, setPeekMode } from '../lib/state.js'
 import { escapeHtml } from '../lib/escape.js'
 import { portraitPath } from '../lib/portraits.js'
-import { overlayForId, pirateCardHtml } from '../components/pirate-card.js'
+import { overlayForGuest } from '../lib/card-frame-assignments.js'
+import { pirateCardHtml } from '../components/pirate-card.js'
 import { renderPracticalInfoKeys, RSVP_PRACTICAL_KEYS } from '../components/practical-info.js'
 import { bindVisibleScrollbar } from '../lib/visible-scrollbar.js'
 
@@ -113,7 +114,7 @@ async function renderPirateStep(card, onDone) {
     previewEl.innerHTML = pirateCardHtml({
       photoSrc: portraitPath(guest.real_name),
       pirateName,
-      overlaySrc: overlayForId(pirateNameId),
+      overlaySrc: overlayForGuest({ id: guest.id, pirate_name_id: pirateNameId }),
     })
   }
   updatePreview('—')

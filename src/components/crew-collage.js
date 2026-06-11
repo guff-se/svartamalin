@@ -1,6 +1,7 @@
 import { supabase } from '../lib/supabase.js'
 import { portraitPath } from '../lib/portraits.js'
-import { overlayForId, pirateCardHtml } from './pirate-card.js'
+import { overlayForGuest } from '../lib/card-frame-assignments.js'
+import { pirateCardHtml } from './pirate-card.js'
 
 let lightboxEl = null
 let lightboxReturnFocus = null
@@ -46,7 +47,7 @@ async function refresh(el) {
   el.innerHTML = data.map((p) => pirateCardHtml({
     photoSrc: portraitPath(p.real_name),
     pirateName: p.pirate_name,
-    overlaySrc: overlayForId(p.pirate_name_id),
+    overlaySrc: overlayForGuest({ id: p.id, pirate_name_id: p.pirate_name_id }),
   })).join('')
 
   makeCardsInteractive(el)
