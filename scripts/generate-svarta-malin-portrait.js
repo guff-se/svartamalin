@@ -43,9 +43,11 @@ const LIKENESS = `HIGHEST PRIORITY — FACIAL IDENTITY: This must be unmistakabl
 
 const KEEP_EXPRESSION = `FACIAL EXPRESSION — PRESERVE FROM SOURCE: Keep the exact expression from the input photo. Same smile or mouth, same eye openness, same eyebrow position. Do NOT invent a new expression.`
 
-const VARY_EXPRESSION = `FACIAL EXPRESSION — EPIC CAPTAIN: Adapt expression to fierce pirate-captain drama — commanding stare, defiant smirk, narrowed lethal eyes, or chin-lifted swagger. Same woman, new expression suited to the most dangerous captain alive.`
+const VARY_EXPRESSION = `FACIAL EXPRESSION — FEMALE POWER: Adapt expression to unapologetic female authority — commanding stare, defiant smirk, narrowed lethal eyes, chin-lifted queen energy. Same woman, new expression: she is not performing for anyone's approval; she has already taken command.`
 
-const CAPTAIN = `SVARTA MALIN — THE CAPTAIN: She is the most fierce pirate captain who ever lived. Commanding, lethal, self-possessed — the woman every other pirate will eventually kneel to. Epic scale and presence, not camp panto. Dangerous through swagger and authority: she looks like she already owns the ship and the horizon.`
+const CAPTAIN = `SVARTA MALIN — THE CAPTAIN: She is the most fierce pirate captain who ever lived — a woman who seized the ship and the legend. Commanding, lethal, self-possessed; the woman every other pirate will eventually kneel to. Epic scale and presence, not camp panto. Power is feminine and absolute: she leads, she decides, she wins. Dangerous through swagger and authority — she owns the ship, the crew, and the horizon.`
+
+const FEMALE_POWER = `FEMALE POWER — NON-NEGOTIABLE: She must read as a dangerous, self-assured woman in absolute command — not a man's sidekick, not a decorative love interest, not softened or domesticated. Sexy through swagger, confidence, and lethal competence: strong stance, direct power gaze, props held with intent. Alluring because she looks like she could take your ship and your respect — formidable femme captain, Bonny-and-Read energy filtered through Hollywood glamour. No damsel, no submissive gaze, no posed-for-the-male-gaze passivity.`
 
 const HAT = `HEADWEAR — MANDATORY BIG HAT: She MUST wear a large, dramatic tricorn pirate hat — wide brim, imposing silhouette, clearly the biggest hat in the room. White skull-and-crossbones emblem, gold braid or feather trim. Hat worn level and proud atop her head, never crooked, never sliding over her eyes. No bare head, no bandana-only, no small cocked hat — BIG captain's tricorn is non-negotiable.`
 
@@ -53,27 +55,30 @@ const STYLE = `Vintage pirate romanticism in the Svarta Malin style. 18th-centur
 
 const AMATEUR = `STAGE COSTUME, EPIC STAGING: Theatrical pirate dress-up — hand-sewn coat, gold galon trim, costume props — charming disguise not museum reconstruction. But the POSE and PRESENCE read epic captain, not village-hall panto. Painted studio backdrop or softly blurred ship-deck scenery.`
 
-const BODY = `BODY & POSTURE: Confident upright captain posture — shoulders back, strong stance, fit and capable. Flattering but plausible for this person.`
+const BODY = `BODY & POSTURE: Confident upright captain posture — shoulders back, chest open, wide power stance, fit and capable. She fills the frame with authority. Flattering but plausible for this person — strong, not diminutive.`
 
-const NEG = `No different person, no face swap, no generic model face, no altered bone structure, no bare head, no hatless portrait, no small hat, no bandana without tricorn, no crooked or askew headwear, no passive pin-up, no cheesecake pose, no boudoir damsel, no Pirates of the Caribbean look, no Jack Sparrow, no Disney pirate aesthetic, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no glitter makeup, no face gems, no text, no watermark, no playing card overlay.`
+const NEG = `No different person, no face swap, no generic model face, no altered bone structure, no bare head, no hatless portrait, no small hat, no bandana without tricorn, no crooked or askew headwear, no passive pin-up, no cheesecake pose, no boudoir damsel, no submissive or downcast gaze, no hand-wringing, no clinging to a male figure, no damsel-in-distress, no decorative arm candy, no male captain overshadowing her, no softened or infantilised femininity, no male-gaze boudoir posing, no Pirates of the Caribbean look, no Jack Sparrow, no Disney pirate aesthetic, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no glitter makeup, no face gems, no text, no watermark, no playing card overlay.`
 
 // Small pools — one pick each, captain-focused
 const POSE = [
-  'standing tall, coat open, chin lifted — captain addressing her crew',
-  'one hand on hip, other resting on sword hilt at belt — defiant power stance',
-  'arms crossed, cutlass held across chest — unmovable authority',
-  'boot on a crate, chin up, flintlock at her side — she owns this deck',
-  'three-quarter turn, coat tails swinging, gaze over shoulder toward conquered seas',
-  'both hands on sword hilt, blade tip resting between boots — duelist captain',
-  'flintlock raised with calm authority, not theatrical flourish',
-  'stately captain pose — hands forward on belt, commanding the frame',
+  'standing tall, coat open, chin lifted — queen addressing her crew, not asking permission',
+  'one hand on hip, other on sword hilt — wide power stance, weight on both feet',
+  'arms crossed, cutlass held across chest — immovable female authority',
+  'boot on a crate, chin up, flintlock at her side — she conquered this deck',
+  'three-quarter turn, coat tails swinging — she looks back at territory she already claimed',
+  'both hands on sword hilt, blade between boots — duelist queen, not sidekick',
+  'flintlock raised with calm lethal authority — she fires when she chooses',
+  'wide stance, hands on belt, shoulders squared — captain who took the ship herself',
+  'one arm extended, pointing toward the horizon — her orders, her course',
+  'seated on the captain\'s chair edge, leaning forward — interrogating a mutineer',
 ]
 
 const GAZE = [
-  'piercing gaze straight into the camera — she has already won',
-  'defiant chin-up stare into the middle distance',
-  'bold stare with a faint lethal smirk',
-  'sidelong glance of someone who knows your next move',
+  'piercing gaze straight into the camera — she has already won and knows it',
+  'defiant chin-up stare — unbowed, unbroken, in charge',
+  'bold stare with a faint lethal smirk — female power, not flirtation',
+  'sidelong glance of a woman who outsmarted you three moves ago',
+  'ice-cold direct stare — respect me or regret it',
 ]
 
 const COSTUME = [
@@ -122,7 +127,7 @@ function buildPrompt({ keepExpression = false } = {}) {
 
 Render as a ${pickRandom(MEDIA)}. Half- or three-quarter-length portrait. ${pose}. ${gaze}. ${pickRandom(COSTUME)}. Props: ${pickRandom(PROPS)} — costume accessories only, not real weapons. Background: ${pickRandom(BACKGROUND)}. ${HAT}`
 
-  const blocks = [LIKENESS, CAPTAIN, HAT]
+  const blocks = [LIKENESS, CAPTAIN, FEMALE_POWER, HAT]
   if (keepExpression) {
     blocks.push(KEEP_EXPRESSION)
   } else {

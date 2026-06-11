@@ -545,18 +545,29 @@ async function playRevealTimeline(tl, skipToEnd) {
 
   await startShowAudio()
 
-  if (audio?.muted) {
-    return new Promise((resolve) => {
-      tl.eventCallback('onComplete', () => {
-        tl.eventCallback('onComplete', null)
-        resolve()
-      })
-      tl.play()
+  // Mutad eller saknad audio (iOS-autoplay-block etc.) — kör GSAP-driven
+  // timeline direkt så animationen inte fryser på t=0.
+  const playStandaloneTimeline = () => new Promise((resolve) => {
+    tl.eventCallback('onComplete', () => {
+      tl.eventCallback('onComplete', null)
+      resolve()
     })
+    tl.play()
+    skipToEnd.fn = () => {
+      tl.eventCallback('onComplete', null)
+      tl.progress(1)
+      resolve()
+    }
+  })
+
+  if (!audio || audio.muted || audio.paused) {
+    return playStandaloneTimeline()
   }
 
   return new Promise((resolve) => {
     let rafId = 0
+    let fellBackToTimeline = false
+    const startWall = performance.now()
     const finish = () => {
       stopRevealSync()
       resolve()
@@ -567,6 +578,15 @@ async function playRevealTimeline(tl, skipToEnd) {
     // per frame ger smidig sync med ljudet.
     const tick = () => {
       const t = audio.currentTime
+      // Watchdog: om audio.currentTime inte rört sig på 700ms (iOS rejectade
+      // play() trots primning) — kör timelinen GSAP-driven istället så
+      // användaren inte ser en fryst skärm.
+      if (!fellBackToTimeline && t < 0.05 && performance.now() - startWall > 700) {
+        fellBackToTimeline = true
+        stopRevealSync()
+        playStandaloneTimeline().then(resolve)
+        return
+      }
       tl.time(t)
       if (t >= endTime - 0.05 || tl.progress() >= 0.999) {
         tl.progress(1)

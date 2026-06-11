@@ -43,9 +43,10 @@
 }
 .hero-sub {
   font-style: italic;
-  letter-spacing: 0.3em;
+  letter-spacing: clamp(0.08em, 0.5vw, 0.3em);
   text-transform: uppercase;
-  font-size: clamp(0.9rem, 4vw, 1.8rem);
+  font-size: clamp(0.65rem, 3vw, 1.8rem);
+  white-space: nowrap;
   color: #2a1810;
   text-shadow:
     0 0 8px rgba(232, 216, 180, 0.3),
@@ -127,16 +128,8 @@
     gap: 0.75rem;
   }
 }
-/* På riktigt smala skärmar är 2-kol-korten så små att namnen blir
-   oläsbara. Singel-kol med generös bredd istället. */
 @media (max-width: 420px) {
-  .crew-collage {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.5rem;
-  }
-  .crew-collage .pirate-card__name {
-    font-size: 0.7rem !important;
-  }
+  .crew-collage { gap: 0.5rem; }
 }
 
 .crew-collage .pirate-card:hover {
