@@ -7,11 +7,14 @@ import { Application } from 'pixi.js'
 import { buildScene } from './scene.js'
 import { Camera } from './camera.js'
 import { TiltStage } from './tilt-stage.js'
+import { buildRevealTimeline } from './reveal-timeline.js'
+import { startShowAudio } from '../../lib/audio.js'
 
 let app = null
 let hostEl = null
 let camAnimId = 0
 let tiltStage = null
+let revealRafId = 0
 
 export async function mountWebglMap(el) {
   if (app) return  // idempotent
@@ -44,14 +47,9 @@ export async function mountWebglMap(el) {
   camera.h = viewH
   camera.apply()
 
-  // P4: rita routes med marching-ants varje frame. Initialt: progress=1
-  // (helt utritade) så vi kan se rutterna. P5-timeline overridar progress
-  // för draw-in-effekt.
-  scene.routes.drive.progress = 1
-  scene.routes.boat.progress = 1
+  // Routes ritas varje frame med marching-ants (timeline:n styr progress)
   app.ticker.add(() => {
     const t = performance.now() / 1000
-    // Drive: 11px / 2.2s = 5 px/s, boat: 21px / 3.4s = 6.2 px/s (matchar map.js)
     scene.routes.drive.phase = -t * 5
     scene.routes.boat.phase = -t * 6.2
     scene.routes.drive.draw()
@@ -63,33 +61,44 @@ export async function mountWebglMap(el) {
     tiltStage.resize()
   })
 
-  // P3 self-test: pendla zoom/pan/rotate + tilt så vi kan visuellt verifiera
-  // att 3D-tilten också funkar. Ersätts av timeline i P5.
+  // P5: bygg och kör reveal-timeline
+  const tl = buildRevealTimeline(scene, camera, tiltStage)
+  const endTime = tl.duration()
+
+  // Wall-clock-driven rAF (bypass GSAP lagSmoothing — matchar fix i map.js)
+  startShowAudio()
   const startWall = performance.now()
   const tick = () => {
-    const t = ((performance.now() - startWall) / 1000) % 16
-    const phase = t < 8 ? t / 8 : (16 - t) / 8
-    const sx = scene.journey.sx
-    const sy = scene.journey.sy
-    camera.cx = VIEW_W / 2 + (sx - VIEW_W / 2) * phase
-    camera.cy = viewH / 2 + (sy - viewH / 2) * phase
-    camera.w  = VIEW_W * (1 - 0.5 * phase)
-    camera.h  = viewH * (1 - 0.5 * phase)
-    camera.rot = 15 * phase
-    camera.apply()
-    tiltStage.setTilt(50 * phase)
-    camAnimId = requestAnimationFrame(tick)
+    const t = (performance.now() - startWall) / 1000
+    if (t >= endTime) {
+      tl.progress(1)
+      revealRafId = 0
+      return
+    }
+    tl.time(t)
+    revealRafId = requestAnimationFrame(tick)
   }
-  camAnimId = requestAnimationFrame(tick)
+  revealRafId = requestAnimationFrame(tick)
 
-  // Stash refs så P5 kan ta över
-  app._svm = { scene, camera, tiltStage }
+  // Skip-knapp
+  const skipBtn = document.getElementById('webgl-skip')
+  if (skipBtn) {
+    skipBtn.addEventListener('click', () => {
+      if (revealRafId) cancelAnimationFrame(revealRafId)
+      revealRafId = 0
+      tl.progress(1)
+    })
+  }
+
+  app._svm = { scene, camera, tiltStage, tl }
 }
 
 export function unmountWebglMap() {
   if (!app) return
   if (camAnimId) cancelAnimationFrame(camAnimId)
   camAnimId = 0
+  if (revealRafId) cancelAnimationFrame(revealRafId)
+  revealRafId = 0
   if (tiltStage) { tiltStage.destroy(); tiltStage = null }
   app.destroy({ removeView: true }, { children: true, texture: false })
   app = null
