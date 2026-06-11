@@ -16,12 +16,13 @@
   text-align: center;
   padding: 2rem;
 }
-.hero-card {
-  width: 18rem;  /* lite större än crew-collage-korten (~15rem) */
+.hero-portrait {
+  width: 18rem;
+  max-width: 80vw;
+  aspect-ratio: 63 / 88;
+  object-fit: cover;
   margin-bottom: 1.5rem;
-}
-.hero-card .pirate-card {
-  max-width: none;
+  filter: sepia(0.35) contrast(1.05) brightness(0.95);
 }
 .hero-title {
   font-size: clamp(3rem, 10vw, 6rem);
