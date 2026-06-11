@@ -904,8 +904,7 @@ function animate() {
     gsap.to(el, { scale: 1.03, duration: 3 + i * 0.4, repeat: -1, yoyo: true, ease: 'sine.inOut', transformOrigin: '50% 100%', delay: i * 0.5 })
   })
 
-  // Kompassen snurrar långsamt
-  gsap.to('.compass-spin', { rotation: 360, duration: 90, repeat: -1, ease: 'none', transformOrigin: '50% 50%' })
+  // Kompassrosen pekar alltid norr — ingen ambient-rotation.
 
   // Drake-vingar fladdrar
   gsap.utils.toArray('.dragon-warning').forEach((el, i) => {
