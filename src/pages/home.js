@@ -10,7 +10,7 @@ export async function renderHome(app) {
       <section class="hero">
         <h1 class="hero-title">Svarta Malin</h1>
         <p class="hero-sub">— Salmonellahavets fasa —</p>
-        <div class="scroll-cue">↓</div>
+        <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" width="48" height="96">
       </section>
 
       <section class="card-section">

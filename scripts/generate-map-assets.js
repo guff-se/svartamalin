@@ -165,6 +165,11 @@ const ASSETS = [
     prompt:
       'A naïve hand-drawn downward-pointing arrow for an 18th-century pirate or travel map, by an unskilled amateur cartographer. Quill pen and iron-gall ink outline with bold muted rust-red watercolour fill that spills slightly outside the wobbly lines. A simple map pointer: short vertical shaft, triangular arrowhead at the bottom pointing straight down — the tip must clearly aim downward. Lines hesitant and uneven, shaft slightly crooked, arrowhead lopsided or asymmetric. Bright enough red to read as a red arrow on a map, but aged and oxidised like period ink — not neon, not digital. Vertical composition, taller than wide. Isolated arrow symbol only, generous transparent margin around it.',
   },
+  {
+    file: 'harbor-dock-ne.png',
+    prompt:
+      'A naïve hand-drawn harbor map symbol for an 18th-century pirate or travel chart, by an unskilled amateur cartographer. Top-down or slight bird\'s-eye map view. A small sheltered harbor bay with muted faded teal watercolour wash, a crooked rocky shoreline in sepia and ochre, maybe one or two clumsy moored boats as tiny scribbles. CRITICAL — DOCK ORIENTATION: a wooden pier or dock extends from the shore toward the NORTHEAST (upper-right on the map, 45 degrees from north). The dock is a long narrow rectangle of brown planks on crooked pilings, clearly angled northeast — not east, not north, not southeast. Dock may be slightly bent or uneven in length. Quill pen and iron-gall ink, watercolour spilling outside outlines. Period palette — sepia shore, faded teal water, muted brown dock. Earnest but unskilled execution. Isolated harbor symbol only with generous transparent margin — no full map sheet, no compass rose, no text labels.',
+  },
 ]
 
 function buildFullPrompt(prompt, transparent) {

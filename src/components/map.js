@@ -359,8 +359,10 @@ function render(data) {
 
       <!-- Markörer (Stockholm-silhouetten har egen etikett ovan).
            Hamnen-markören dyker upp under reveal när vi når hamnen. -->
-      <g class="harbor-marker">
-        ${marker(hx, hy, 'Hamnen', 'right')}
+      <g class="harbor-marker" transform="translate(${hx.toFixed(1)},${hy.toFixed(1)})">
+        <image href="/images/map/harbor-dock-ne.png" x="-45" y="-90" width="90" height="90"
+               preserveAspectRatio="xMidYMax meet" />
+        <text x="55" y="-30" class="marker-label" text-anchor="start" fill="#2a1810">Hamnen</text>
       </g>
 
       <!-- Kompassros -->
