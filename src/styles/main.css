@@ -36,6 +36,9 @@ html, body {
   color: var(--paper);
   font-family: var(--font-body);
   min-height: 100vh;
+  /* Stäng av iOS rubber-band-overscroll så map-bg (position:fixed) inte
+     hoppar runt när användaren scrollar förbi botten/toppen. */
+  overscroll-behavior: none;
 }
 
 h1, h2, h3,
