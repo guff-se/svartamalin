@@ -7,10 +7,15 @@ export async function renderWebgl(app) {
   app.innerHTML = `
     <div class="webgl-page">
       <div id="webgl-stage"></div>
-      <div class="webgl-hud">
-        <div class="webgl-hud__title">Svarta Malin — WebGL</div>
-        <button id="webgl-skip" class="webgl-hud__skip">Hoppa över ↷</button>
+      <div id="webgl-vignette"></div>
+      <div class="webgl-hero" id="webgl-hero">
+        <img class="hero-portrait" src="/images/portraits/malin-tadaa.jpg" alt="Svarta Malin" />
+        <h1 class="hero-title">Svarta Malin</h1>
+        <p class="hero-sub">— Salmonellahavets fasa —</p>
+        <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" />
       </div>
+      <button id="webgl-skip" class="webgl-hud__skip">Hoppa över ↷</button>
+      <div class="webgl-hud__title">WebGL</div>
     </div>
   `
 
