@@ -18,7 +18,7 @@
 
 import { Assets, Container, Graphics, Sprite, Text, TilingSprite, Texture } from 'pixi.js'
 import { buildProjection } from './projection.js'
-import { DECOR_POS, DECOR_SIZE } from './decor-positions.js'
+import { DECOR_LL, DECOR_SIZE, sampleRoad } from './decor-positions.js'
 import { buildRoutes } from './routes.js'
 import { catmullRomPolyline } from './catmull-rom.js'
 
@@ -168,6 +168,25 @@ export async function buildScene() {
   const driveWaypoints = []
   for (let i = 0; i <= N; i++) driveWaypoints.push(sampleDriveAt((i / N) * totalDriveLen))
   const camDrivePoly = catmullRomPolyline(driveWaypoints, 80)  // 320 punkter total, glatt nog
+
+  // sampleRoad-positionerade sprites: wagon (på vägen), tree3 (vid sidan),
+  // village1 (på vägen). Matchar map.js raderna 233-235 exakt.
+  const addRoadSprite = (key, t, perpOffset, size, opts) => {
+    const [x, y] = sampleRoad(drivingPoly, t, perpOffset)
+    const s = new Sprite(textures[key])
+    s.anchor.set(opts?.anchorX ?? 0.5, opts?.anchorY ?? 0.5)
+    s.width = size
+    s.height = size
+    s._baseScale = { x: s.scale.x, y: s.scale.y }
+    s.x = x; s.y = y
+    s.label = key
+    decor.addChild(s)
+    sprites[key] = s
+    return s
+  }
+  addRoadSprite('wagon',    0.08,   0, DECOR_SIZE.wagon)
+  addRoadSprite('tree3',    0.20, -40, DECOR_SIZE.tree)
+  addRoadSprite('village1', 0.38,  35, DECOR_SIZE.village)
   const routesLayer = new Container()
   routesLayer.label = 'routes'
   routesLayer.addChild(routes.drive.g)
@@ -211,29 +230,30 @@ export async function buildScene() {
   sprites.sodertalje.height = sodSize * 0.45
   sprites.sodertalje._baseScale = { x: sprites.sodertalje.scale.x, y: sprites.sodertalje.scale.y }
 
-  // Land-decor (drive-fas)
-  addSprite('wagon', DECOR_POS.wagon, DECOR_SIZE.wagon)
-  addSprite('tree1', DECOR_POS.tree1, DECOR_SIZE.tree)
-  addSprite('tree2', DECOR_POS.tree2, DECOR_SIZE.tree)
-  addSprite('tree3', DECOR_POS.tree3, DECOR_SIZE.tree)
-  addSprite('village1', DECOR_POS.village1, DECOR_SIZE.village)
-  addSprite('village2', DECOR_POS.village2, DECOR_SIZE.village)
-  addSprite('village3', DECOR_POS.village3, DECOR_SIZE.village3)
-  addSprite('globen', DECOR_POS.globen, DECOR_SIZE.globen)
-  addSprite('skull', DECOR_POS.skull, DECOR_SIZE.skull)
-  addSprite('robbers', DECOR_POS.robbers, DECOR_SIZE.robbers)
-  addSprite('dragon0', DECOR_POS.dragon0, DECOR_SIZE.dragon)
-  addSprite('dragon1', DECOR_POS.dragon1, DECOR_SIZE.dragon)
+  // sampleRoad-positioner — kräver att drivingPoly redan är beräknad
+  // (gjord nedan i routes-blocket), så vi placerar dessa sprites där.
+  // För kvarvarande sprites: vanlig project([lon, lat]).
 
   // Sjö-decor (boat-fas)
-  addSprite('kraken', DECOR_POS.kraken, DECOR_SIZE.kraken)
-  addSprite('octopus', DECOR_POS.octopus, DECOR_SIZE.octopus)
-  addSprite('mermaid', DECOR_POS.mermaid, DECOR_SIZE.mermaid)
-  addSprite('seaMonster', DECOR_POS.seaMonster, DECOR_SIZE.seaMonster)
-  addSprite('whale1', DECOR_POS.whale1, DECOR_SIZE.whale)
-  addSprite('decorShip', DECOR_POS.decorShip, DECOR_SIZE.decorShip)
-  addSprite('storm', DECOR_POS.storm, DECOR_SIZE.storm)
-  addSprite('compass', DECOR_POS.compass, DECOR_SIZE.compass)
+  addSprite('kraken',     DECOR_LL.kraken,     DECOR_SIZE.kraken)
+  addSprite('octopus',    DECOR_LL.octopus,    DECOR_SIZE.octopus)
+  addSprite('mermaid',    DECOR_LL.mermaid,    DECOR_SIZE.mermaid)
+  addSprite('seaMonster', DECOR_LL.seaMonster, DECOR_SIZE.seaMonster)
+  addSprite('whale1',     DECOR_LL.whale1,     DECOR_SIZE.whale)
+  addSprite('decorShip',  DECOR_LL.decorShip,  DECOR_SIZE.decorShip)
+  addSprite('storm',      DECOR_LL.storm,      DECOR_SIZE.storm)
+  addSprite('compass',    DECOR_LL.compass,    DECOR_SIZE.compass)
+  addSprite('skull',      DECOR_LL.skull,      DECOR_SIZE.skull)
+
+  // Land-figurer (statiska lat/lon)
+  addSprite('tree1',    DECOR_LL.tree1,    DECOR_SIZE.tree)
+  addSprite('tree2',    DECOR_LL.tree2,    DECOR_SIZE.tree)
+  addSprite('robbers',  DECOR_LL.robbers,  DECOR_SIZE.robbers)
+  addSprite('village2', DECOR_LL.village2, DECOR_SIZE.village)
+  addSprite('village3', DECOR_LL.village3, DECOR_SIZE.village3)
+  addSprite('globen',   DECOR_LL.globen,   DECOR_SIZE.globen)
+  addSprite('dragon0',  DECOR_LL.dragon0,  DECOR_SIZE.dragon)
+  addSprite('dragon1',  DECOR_LL.dragon1,  DECOR_SIZE.dragon)
 
   // Hamn-marker (bryggan + text)
   const [hx, hy] = project([points.harbor.lon, points.harbor.lat])
