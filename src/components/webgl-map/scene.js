@@ -337,7 +337,7 @@ export async function buildScene() {
   const harborMarker = new Container()
   harborMarker.label = 'harbor-marker'
   const dock = new Sprite(textures.harborDock)
-  dock.anchor.set(0.5, 1.0)
+  dock.anchor.set(0.5, 0.5)  // mitten-mitten på hamn-koordinaten
   dock.width = DECOR_SIZE.harborDock
   dock.height = DECOR_SIZE.harborDock
   harborMarker.addChild(dock)
