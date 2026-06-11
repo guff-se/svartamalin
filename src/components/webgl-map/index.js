@@ -1,8 +1,9 @@
-// WebGL-port av map.js. Mountar PIXI.Application i ett DOM-element.
-// P0: bara tom canvas med diagnos-text för att verifiera att Pixi v8 +
-// Vite-bundlen kompilerar och att DOM-mount funkar.
+// WebGL-port av map.js. Mountar PIXI.Application i ett DOM-element och
+// bygger scenen från map-data.json + dekorations-PNGs.
+// P1: statisk scen, kamera fixad så hela världen syns.
 
-import { Application, Container, Graphics, Text } from 'pixi.js'
+import { Application } from 'pixi.js'
+import { buildScene } from './scene.js'
 
 let app = null
 let hostEl = null
@@ -14,35 +15,29 @@ export async function mountWebglMap(el) {
   app = new Application()
   await app.init({
     resizeTo: el,
-    background: '#3a2410',  // matchar map.js bottenplåt
+    background: '#3a2410',
     antialias: true,
     autoDensity: true,
     resolution: window.devicePixelRatio || 1,
   })
   el.appendChild(app.canvas)
 
-  // P0-sanity: rita en cirkel + text så vi vet att Pixi renderar
-  const probe = new Container()
-  const g = new Graphics()
-  g.circle(0, 0, 80).fill({ color: 0xb8924a, alpha: 0.8 }).stroke({ color: 0xe8d8b4, width: 2 })
-  probe.addChild(g)
+  const scene = await buildScene()
+  app.stage.addChild(scene.root)
 
-  const txt = new Text({
-    text: 'WebGL P0 — pixi.js v8 mountad',
-    style: { fontFamily: 'Georgia', fontSize: 22, fill: 0xe8d8b4, align: 'center' },
-  })
-  txt.anchor.set(0.5)
-  txt.y = 110
-  probe.addChild(txt)
-
-  // Centrera probe
-  const center = () => {
-    probe.x = app.screen.width / 2
-    probe.y = app.screen.height / 2
+  // P1-kamera: visa hela världen, centrerad. Letterboxing om viewport-aspect
+  // skiljer sig från världs-aspect.
+  const fitWorld = () => {
+    const { VIEW_W, viewH } = scene.proj
+    const sw = app.screen.width
+    const sh = app.screen.height
+    const scale = Math.min(sw / VIEW_W, sh / viewH)
+    scene.root.scale.set(scale)
+    scene.root.x = (sw - VIEW_W * scale) / 2
+    scene.root.y = (sh - viewH * scale) / 2
   }
-  center()
-  app.stage.addChild(probe)
-  app.renderer.on('resize', center)
+  fitWorld()
+  app.renderer.on('resize', fitWorld)
 }
 
 export function unmountWebglMap() {
