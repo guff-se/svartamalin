@@ -8,6 +8,7 @@ import { buildScene } from './scene.js'
 import { Camera } from './camera.js'
 import { TiltStage } from './tilt-stage.js'
 import { buildRevealTimeline } from './reveal-timeline.js'
+import { startAmbient } from './ambient.js'
 import { startShowAudio } from '../../lib/audio.js'
 
 let app = null
@@ -68,11 +69,13 @@ export async function mountWebglMap(el) {
   // Wall-clock-driven rAF (bypass GSAP lagSmoothing — matchar fix i map.js)
   startShowAudio()
   const startWall = performance.now()
+  let ambientStarted = false
   const tick = () => {
     const t = (performance.now() - startWall) / 1000
     if (t >= endTime) {
       tl.progress(1)
       revealRafId = 0
+      if (!ambientStarted) { startAmbient(scene); ambientStarted = true }
       return
     }
     tl.time(t)
@@ -87,6 +90,7 @@ export async function mountWebglMap(el) {
       if (revealRafId) cancelAnimationFrame(revealRafId)
       revealRafId = 0
       tl.progress(1)
+      if (!ambientStarted) { startAmbient(scene); ambientStarted = true }
     })
   }
 
