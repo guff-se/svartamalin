@@ -37,6 +37,7 @@ function devRoute() {
   const path = location.pathname.replace(/\/$/, '') || '/'
   if (path === '/framefix') return 'framefix'
   if (path === '/frameselect') return 'frameselect'
+  if (path === '/webgl') return 'webgl'
   return null
 }
 
@@ -56,6 +57,14 @@ async function route() {
     document.body.classList.remove('locked')
     const { renderFrameselect } = await import('./pages/frameselect.js')
     renderFrameselect(app)
+    return
+  }
+  if (dev === 'webgl') {
+    hideTopControls()
+    unmountMapBackground()
+    document.body.classList.remove('locked')
+    const { renderWebgl } = await import('./pages/webgl.js')
+    renderWebgl(app)
     return
   }
 
