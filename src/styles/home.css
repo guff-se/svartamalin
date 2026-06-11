@@ -17,12 +17,11 @@
   padding: 2rem;
 }
 .hero-card {
-  display: flex;
-  justify-content: center;
+  width: 18rem;  /* lite större än crew-collage-korten (~15rem) */
   margin-bottom: 1.5rem;
 }
 .hero-card .pirate-card {
-  max-width: 18rem;  /* lite större än crew-collage-korten (~15rem) */
+  max-width: none;
 }
 .hero-title {
   font-size: clamp(3rem, 10vw, 6rem);
