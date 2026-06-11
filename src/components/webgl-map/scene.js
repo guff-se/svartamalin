@@ -373,8 +373,8 @@ export async function buildScene() {
   ourShip.label = 'our-ship'
   root.addChild(ourShip)  // ovanpå allt
 
-  // Sea-label (SALMONELLAHAVET) — text mitt på sjön
-  const [lx, ly] = project([17.755, 59.275])
+  // Sea-label (SALMONELLAHAVET) — projicerad lat/lon från map.js rad 385
+  const [lx, ly] = project([17.549469, 59.293733])
   const seaLabel = new Text({
     text: 'SALMONELLAHAVET',
     style: {
