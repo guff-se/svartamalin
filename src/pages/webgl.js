@@ -1,7 +1,14 @@
-// Dev-route /webgl — WebGL-port av map.js (P0: scaffold).
-// Originalet (src/components/map.js) lämnas orört.
+// Dev-route /webgl — WebGL-port av map.js.
+// Originalet (src/components/map.js + home.js) lämnas orört.
+// Innehållet under hero är samma som home.js men med WebGL-bakgrund.
 
+import { getGuestId } from '../lib/state.js'
 import { mountWebglMap, unmountWebglMap } from '../components/webgl-map/index.js'
+import { renderOvananSection } from '../components/ovanan-section.js'
+import { renderPracticalInfo } from '../components/practical-info.js'
+import { renderThemeSection } from '../components/theme-section.js'
+import { renderCrewCollage } from '../components/crew-collage.js'
+import { renderMyCrew } from '../components/my-crew.js'
 
 export async function renderWebgl(app) {
   app.innerHTML = `
@@ -17,16 +24,33 @@ export async function renderWebgl(app) {
           <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" />
         </section>
 
-        <section class="card-section webgl-content">
-          <div class="card">
-            <h2>WebGL-test</h2>
-            <p class="lead">Detta är dev-routen för WebGL-porten av kart-animationen. Resten av sidan (besättningen, ovanan, tema, praktiskt) renderas inte här — bara animationen + scroll-utrymme.</p>
+        <section class="card-section">
+          <div class="card card--crew">
+            <h2>Besättningen</h2>
+            <p class="lead">Pirater som hörsammat kallelsen.</p>
+            <div class="crew-collage" id="crew-collage">Laddar besättning…</div>
           </div>
         </section>
+
+        <section class="card-section">
+          <div class="card card--ovanan" id="ovanan-section">Laddar…</div>
+        </section>
+
+        <section class="card-section">
+          <div class="card card--theme" id="theme-section">Laddar…</div>
+        </section>
+
         <section class="card-section">
           <div class="card">
-            <h2>Skiljer från originalet?</h2>
-            <p>Rapportera så fixar jag. Originalet är på /, oförändrat.</p>
+            <h2>Praktiskt</h2>
+            <div class="info-grid" id="info-grid">Laddar…</div>
+          </div>
+        </section>
+
+        <section class="card-section">
+          <div class="card my-crew-card">
+            <h2>Ditt lag</h2>
+            <div class="my-crew" id="my-crew">Laddar…</div>
           </div>
         </section>
       </main>
@@ -35,12 +59,20 @@ export async function renderWebgl(app) {
     </div>
   `
 
-  // Cleanup om användaren navigerar bort (hash/history)
+  // Cleanup om användaren navigerar bort
   const cleanup = () => {
     unmountWebglMap()
     window.removeEventListener('beforeunload', cleanup)
   }
   window.addEventListener('beforeunload', cleanup)
 
-  await mountWebglMap(document.getElementById('webgl-stage'))
+  // Mount WebGL-bakgrunden parallellt med content (content kräver inte Pixi)
+  mountWebglMap(document.getElementById('webgl-stage'))
+
+  // Rendera resten av sidan (samma som home.js)
+  renderCrewCollage(document.getElementById('crew-collage'))
+  renderOvananSection(document.getElementById('ovanan-section'))
+  renderThemeSection(document.getElementById('theme-section'))
+  renderPracticalInfo(document.getElementById('info-grid'))
+  renderMyCrew(document.getElementById('my-crew'), getGuestId())
 }
