@@ -63,7 +63,7 @@ export class TiltStage {
     // Oversize renderTex 1.3× canvas så att det finns extra kart-material
     // som kan dyka upp i bild när perspective-mesh:en foreshortenar topp/
     // botten. Matchar originalets SVG-trick (width:130%; left:-15%; ...).
-    const OVERSIZE = 1.3
+    const OVERSIZE = 1.7
     const canvasW = Math.max(1, this.app.screen.width)
     const canvasH = Math.max(1, this.app.screen.height)
     const sw = Math.round(canvasW * OVERSIZE)
@@ -84,15 +84,17 @@ export class TiltStage {
 
   _updateCorners() {
     if (!this.mesh) return
-    // Mesh:en placeras i CANVAS-koordinater. RenderTex är oversize:ad (1.3×)
-    // så vi centrerar mesh:en kring canvas-mitten och låter den extendera
-    // bortom canvas-kanterna. Texturen sträcker sig då också utanför canvas,
-    // vilket eliminerar bruna kanter vid perspective-foreshortening.
+    // Mesh:en placeras i CANVAS-koordinater. RenderTex är oversize:ad
+    // (samma OVERSIZE-faktor som i _ensureSized). Centrera mesh kring
+    // canvas-mitten och låt den extendera bortom canvas-kanterna.
+    // Vid tilt θ behövs baseH ≥ ch / cos(θ) för att topp-kanten ska nå
+    // canvas-toppen, dvs OVERSIZE ≥ 1/cos(50°) ≈ 1.56. Vi har 1.7 för
+    // marginal.
     const cw = this._canvasW
     const ch = this._canvasH
-    // Bas-rektangel = renderTex visat 1:1 = oversize × canvas, centrerad
-    const baseW = cw * 1.3
-    const baseH = ch * 1.3
+    const OVERSIZE = 1.7
+    const baseW = cw * OVERSIZE
+    const baseH = ch * OVERSIZE
     const cx = cw / 2
     const cy = ch / 2
 

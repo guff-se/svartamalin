@@ -37,8 +37,12 @@ function devRoute() {
   const path = location.pathname.replace(/\/$/, '') || '/'
   if (path === '/framefix') return 'framefix'
   if (path === '/frameselect') return 'frameselect'
-  if (path === '/webgl') return 'webgl'
   return null
+}
+
+function isOldRoute() {
+  const path = location.pathname.replace(/\/$/, '') || '/'
+  return path === '/old'
 }
 
 async function route() {
@@ -57,14 +61,6 @@ async function route() {
     document.body.classList.remove('locked')
     const { renderFrameselect } = await import('./pages/frameselect.js')
     renderFrameselect(app)
-    return
-  }
-  if (dev === 'webgl') {
-    hideTopControls()
-    unmountMapBackground()
-    document.body.classList.remove('locked')
-    const { renderWebgl } = await import('./pages/webgl.js')
-    renderWebgl(app)
     return
   }
 
@@ -92,13 +88,23 @@ async function route() {
     return
   }
 
+  // /old → SVG-originalet (renderHome + mountMapBackground)
+  if (isOldRoute()) {
+    showLoading()
+    document.body.classList.add('revealing')
+    mountMapBackground()
+    const { renderHome } = await import('./pages/home.js')
+    renderHome(app)
+    return
+  }
+
+  // Default / → WebGL-versionen
   showLoading()
-  // Sätt revealing-klassen direkt så hero-texten inte flashar förbi
-  // innan mountMapBackground hinner sätta den i sin async-fetch.
-  document.body.classList.add('revealing')
-  mountMapBackground()
-  const { renderHome } = await import('./pages/home.js')
-  renderHome(app)
+  unmountMapBackground()
+  document.body.classList.add('webgl-revealing')
+  hideLoading()
+  const { renderWebgl } = await import('./pages/webgl.js')
+  renderWebgl(app)
 }
 
 route()
