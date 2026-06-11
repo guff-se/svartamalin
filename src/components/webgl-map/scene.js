@@ -344,20 +344,6 @@ export async function buildScene() {
   // harbor-marker tweenas via Container (inte sprite) — Container har
   // default scale 1, så ingen baseScale behövs här.
   harborMarker._baseScale = { x: 1, y: 1 }
-  const harborLabel = new Text({
-    text: 'Hamnen',
-    style: {
-      fontFamily: 'Metamorphous, Georgia, serif',
-      fontSize: 12.8,
-      fontWeight: 'bold',
-      fill: 0x2a1810,
-      letterSpacing: 0.8,
-    },
-  })
-  harborLabel.anchor.set(0, 0.5)
-  harborLabel.x = 22
-  harborLabel.y = -12
-  harborMarker.addChild(harborLabel)
   harborMarker.x = hx
   harborMarker.y = hy
   decor.addChild(harborMarker)
