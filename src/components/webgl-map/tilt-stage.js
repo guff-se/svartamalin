@@ -60,8 +60,14 @@ export class TiltStage {
   }
 
   _ensureSized() {
-    const sw = Math.max(1, this.app.screen.width)
-    const sh = Math.max(1, this.app.screen.height)
+    // Oversize renderTex 1.3× canvas så att det finns extra kart-material
+    // som kan dyka upp i bild när perspective-mesh:en foreshortenar topp/
+    // botten. Matchar originalets SVG-trick (width:130%; left:-15%; ...).
+    const OVERSIZE = 1.3
+    const canvasW = Math.max(1, this.app.screen.width)
+    const canvasH = Math.max(1, this.app.screen.height)
+    const sw = Math.round(canvasW * OVERSIZE)
+    const sh = Math.round(canvasH * OVERSIZE)
     if (sw === this._lastW && sh === this._lastH && this.renderTex) return
     if (this.renderTex) this.renderTex.destroy(true)
     this.renderTex = RenderTexture.create({
@@ -71,43 +77,44 @@ export class TiltStage {
     })
     this._lastW = sw
     this._lastH = sh
+    this._canvasW = canvasW
+    this._canvasH = canvasH
     if (this.mesh) this.mesh.texture = this.renderTex
   }
 
   _updateCorners() {
     if (!this.mesh) return
-    const w = this._lastW
-    const h = this._lastH
-    const θ = (this.tilt * Math.PI) / 180
+    // Mesh:en placeras i CANVAS-koordinater. RenderTex är oversize:ad (1.3×)
+    // så vi centrerar mesh:en kring canvas-mitten och låter den extendera
+    // bortom canvas-kanterna. Texturen sträcker sig då också utanför canvas,
+    // vilket eliminerar bruna kanter vid perspective-foreshortening.
+    const cw = this._canvasW
+    const ch = this._canvasH
+    // Bas-rektangel = renderTex visat 1:1 = oversize × canvas, centrerad
+    const baseW = cw * 1.3
+    const baseH = ch * 1.3
+    const cx = cw / 2
+    const cy = ch / 2
 
-    // Perspektiv-approximation matchande CSS rotateX(tilt) perspective(1800):
-    //   topShrink = horisontell krympning av top-kanten (proc. av halva bredden)
-    //   topY      = hur långt ner top-kanten flyttas (foreshortening av höjd)
-    //   bottomGrow = hur mycket bottom-kanten "vidgas" utanför viewporten
+    const θ = (this.tilt * Math.PI) / 180
     const sinT = Math.sin(θ)
-    // Använd halva höjden som skala för "djup" — matchar att rotationsaxeln
-    // är horisontellt mitt på elementet.
-    const halfH = h / 2
+    const halfH = baseH / 2
     const perspective = 1800
-    // Top-kantens djup-Z (bort från kamera)
     const zTop = halfH * sinT
     const zBot = -halfH * sinT
-    // Projektionsfaktor för varje kant. 1.0 = ingen påverkan, <1 = krymper, >1 = växer.
     const topFactor = perspective / (perspective + zTop)
     const botFactor = perspective / (perspective + zBot)
 
-    // Centrera kring x = w/2; krymp/växt symmetriskt
-    const topW = w * topFactor
-    const botW = w * botFactor
-    const topX0 = (w - topW) / 2
-    const topX1 = topX0 + topW
-    const botX0 = (w - botW) / 2
-    const botX1 = botX0 + botW
+    const topW = baseW * topFactor
+    const botW = baseW * botFactor
+    const topX0 = cx - topW / 2
+    const topX1 = cx + topW / 2
+    const botX0 = cx - botW / 2
+    const botX1 = cx + botW / 2
 
-    // Y-positioner: top-kanten dras ner, bottom-kanten dras ner (utanför)
-    // proportionellt mot foreshortening
-    const topY = halfH * (1 - Math.cos(θ))
-    const botY = h + halfH * (Math.cos(θ) - 1) * 0  // håll bottom på h för nu
+    // y: roterar runt mitten cy → top kommer mot mitten, bot pressas utanför
+    const topY = cy - halfH * Math.cos(θ)
+    const botY = cy + halfH * Math.cos(θ)
 
     this.mesh.geometry.setCorners(
       topX0, topY,

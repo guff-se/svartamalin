@@ -21,18 +21,23 @@ export class Camera {
     this.tilt = 0
   }
 
-  /** Applicera nuvarande {cx,cy,w,h,rot} på root-containerns transform. */
+  /** Applicera nuvarande {cx,cy,w,h,rot} på root-containerns transform.
+   *  Använder Math.max (slice/cover) så cam.w fyller bredden eller cam.h
+   *  fyller höjden (vilket som ger störst scale) — matchar originalets
+   *  preserveAspectRatio="xMidYMid slice"-beteende. Math.min skulle ge meet
+   *  (letterbox) vilket gör vyn mer utzoomad än originalet.
+   *
+   *  renderTarget-size kan vara större än canvas (för tilt-kompensation),
+   *  passas in via app._svm?.tiltStage._lastW/H om TiltStage finns.
+   */
   apply() {
-    const sw = this.app.screen.width
-    const sh = this.app.screen.height
+    // Använd ev. oversized render-target-storlek istället för canvas
+    // så cam:n matar texturen i den storlek som tilt-mesh:en behöver.
+    const sw = this.app._svm?.tiltStage?._lastW ?? this.app.screen.width
+    const sh = this.app._svm?.tiltStage?._lastH ?? this.app.screen.height
 
-    // Skala så att cam.w world-units fyller hela skärmbredden, fit-height för
-    // att inte stretch:a. Använd min så hela cam.w × cam.h alltid syns.
-    const scale = Math.min(sw / this.w, sh / this.h)
+    const scale = Math.max(sw / this.w, sh / this.h)
     this.root.scale.set(scale)
-
-    // Rotation runt cam-centrum: Pixi roterar runt root.pivot.
-    // Sätt pivot till (cx, cy) i world-coords, sen position till skärmcentrum.
     this.root.pivot.set(this.cx, this.cy)
     this.root.position.set(sw / 2, sh / 2)
     this.root.rotation = (this.rot * Math.PI) / 180
