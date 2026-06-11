@@ -100,17 +100,23 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
     sprites.stockholm,
     harborMarker, ourShip,
   ]
+  // Initial state: dölj och krymp till 0.3 * baseScale (inte 0.3 av texture-
+  // native, som skulle vara fel storlek).
   for (const s of allRevealable) {
     if (!s) continue
+    const bs = s._baseScale || { x: 1, y: 1 }
     s.alpha = 0
-    s.scale.set(0.3)
+    s.scale.set(bs.x * 0.3, bs.y * 0.3)
   }
-  // Stockholm anchor är bottom-middle, scale skulle påverka pos: behåll
-  sprites.stockholm.alpha = 0
-  sprites.stockholm.scale.set(0.5)
-  // Sjöjungfrur/städer som ska synas från start (utanför rutten)
+  // Stockholm börjar på 0.5 av baseScale
+  {
+    const bs = sprites.stockholm._baseScale
+    sprites.stockholm.alpha = 0
+    sprites.stockholm.scale.set(bs.x * 0.5, bs.y * 0.5)
+  }
+  // Södertälje synlig från start vid full base-scale
   sprites.sodertalje.alpha = 1
-  sprites.sodertalje.scale.set(1)
+  sprites.sodertalje.scale.set(sprites.sodertalje._baseScale.x, sprites.sodertalje._baseScale.y)
 
   // Routes start dolda (progress=0)
   routes.drive.progress = 0
@@ -135,11 +141,15 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
 
   const tl = gsap.timeline({ paused: true })
 
-  // 0–3s: Stockholm fade-in + tilt-up
-  tl.fromTo(sprites.stockholm, { alpha: 0 },
-    { alpha: 1, duration: 1.2, ease: 'back.out(2)' }, 0.2)
-  tl.fromTo(sprites.stockholm.scale, { x: 0.5, y: 0.5 },
-    { x: 1, y: 1, duration: 1.2, ease: 'back.out(2)' }, 0.2)
+  // 0–3s: Stockholm fade-in + scale till baseScale
+  {
+    const bs = sprites.stockholm._baseScale
+    tl.fromTo(sprites.stockholm, { alpha: 0 },
+      { alpha: 1, duration: 1.2, ease: 'back.out(2)' }, 0.2)
+    tl.fromTo(sprites.stockholm.scale,
+      { x: bs.x * 0.5, y: bs.y * 0.5 },
+      { x: bs.x, y: bs.y, duration: 1.2, ease: 'back.out(2)' }, 0.2)
+  }
 
   tl.to(camera, { tilt: tiltTarget, duration: 4, ease: 'power2.inOut', onUpdate: onCamUpdate }, 1)
 
@@ -176,8 +186,11 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   // Drive reveals
   const reveal = (sprite, t, dur, fromScale, fadeTarget = 1, ease = 'back.out(2)') => {
     if (!sprite) return
+    const bs = sprite._baseScale || { x: 1, y: 1 }
     tl.fromTo(sprite, { alpha: 0 }, { alpha: fadeTarget, duration: dur, ease }, t)
-    tl.fromTo(sprite.scale, { x: fromScale, y: fromScale }, { x: 1, y: 1, duration: dur, ease }, t)
+    tl.fromTo(sprite.scale,
+      { x: bs.x * fromScale, y: bs.y * fromScale },
+      { x: bs.x, y: bs.y, duration: dur, ease }, t)
   }
 
   reveal(sprites.wagon,    4,    0.7, 0.3)

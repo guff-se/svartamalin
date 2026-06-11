@@ -153,6 +153,11 @@ export async function buildScene() {
     s.anchor.set(opts.anchorX ?? 0.5, opts.anchorY ?? 0.5)
     s.width = size
     s.height = size
+    // Spara baseScale eftersom Pixi width/height-setter manipulerar scale.x/.y
+    // internt. När reveal-timeline tweens scale, måste den tween:a TILL
+    // baseScale (inte 1.0) annars hoppar sprite:n till texture-native storlek
+    // (~5-6× större än avsett).
+    s._baseScale = { x: s.scale.x, y: s.scale.y }
     s.x = x
     s.y = y
     s.label = key
@@ -164,12 +169,13 @@ export async function buildScene() {
   // Städer — bottenkant förankrad
   const stockholmSize = DECOR_SIZE.stockholm
   addSprite('stockholm', [points.stockholm.lon, points.stockholm.lat], stockholmSize, { anchorY: 1.0 })
-  // Stockholm-silhuetten är bredare än hög: width × 0.45 (matchar originalet)
   sprites.stockholm.height = stockholmSize * 0.45
+  sprites.stockholm._baseScale = { x: sprites.stockholm.scale.x, y: sprites.stockholm.scale.y }
 
   const sodSize = DECOR_SIZE.sodertalje
   addSprite('sodertalje', [17.6253, 59.1958], sodSize, { anchorY: 1.0 })
   sprites.sodertalje.height = sodSize * 0.45
+  sprites.sodertalje._baseScale = { x: sprites.sodertalje.scale.x, y: sprites.sodertalje.scale.y }
 
   // Land-decor (drive-fas)
   addSprite('wagon', DECOR_POS.wagon, DECOR_SIZE.wagon)
@@ -204,6 +210,9 @@ export async function buildScene() {
   dock.width = DECOR_SIZE.harborDock
   dock.height = DECOR_SIZE.harborDock
   harborMarker.addChild(dock)
+  // harbor-marker tweenas via Container (inte sprite) — Container har
+  // default scale 1, så ingen baseScale behövs här.
+  harborMarker._baseScale = { x: 1, y: 1 }
   const harborLabel = new Text({
     text: 'Hamnen',
     style: {
@@ -227,6 +236,7 @@ export async function buildScene() {
   ourShip.anchor.set(0.5, 1.0)  // bottom-middle som SVG-originalet
   ourShip.width = DECOR_SIZE.ourShip
   ourShip.height = DECOR_SIZE.ourShip
+  ourShip._baseScale = { x: ourShip.scale.x, y: ourShip.scale.y }
   ourShip.x = hx
   ourShip.y = hy
   ourShip.label = 'our-ship'
