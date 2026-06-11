@@ -149,7 +149,9 @@ function render(data) {
   const [ox, oy] = project([points.ovanan.lon, points.ovanan.lat])
   // Slut-focal: hårdkodad lat/lon så bbox-expansion åt öster inte flyttar
   // kameran. Detta motsvarar geografiska mittpunkten av ursprungsvyn.
-  const [endFx, endFy] = project([17.765, 59.308])
+  const [endFxBase, endFy] = project([17.765, 59.308])
+  // Slutposition skiftad 5% av visningsbredden åt höger (visningsbredd = VIEW_W * 0.865).
+  const endFx = endFxBase + VIEW_W * 0.865 * 0.05
   Object.assign(stage, { sx, sy, hx, hy, ox, oy, endFx, endFy })
 
   // Bilväg: bygg path från OSRM-koordinater
