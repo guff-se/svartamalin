@@ -60,6 +60,7 @@
   transform: translateX(-50%);
   width: clamp(3.5rem, 8.4vw, 4.9rem);
   height: auto;
+  opacity: 0.8;
   animation: bob 2s ease-in-out infinite;
 }
 @keyframes bob {
