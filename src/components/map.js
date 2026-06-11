@@ -613,11 +613,16 @@ async function runReveal() {
   })
   gsap.set('.harbor-marker', { opacity: 0, scale: 0.4, transformOrigin: '50% 50%' })
 
-  // Skip-knapp (ingen storytelling-text)
+  // Skip-knapp (ingen storytelling-text). Måste appendas till <body>, INTE
+  // till #map-bg — #map-bg har perspective:1800px vilket skapar en ny
+  // containing-block för position:fixed-barn (CSS-spec). Då blir skip-btn
+  // bottom:1.5rem relativ till #map-bg-elementets botten (= 100vh när
+  // adresslisten är kollapsad), inte verklig viewport — och döljs under
+  // adresslisten på mobil.
   const caption = document.createElement('div')
   caption.id = 'reveal-caption'
   caption.innerHTML = `<button class="skip-btn" type="button">Hoppa över ↷</button>`
-  stageEl.appendChild(caption)
+  document.body.appendChild(caption)
 
   // Kamera börjar zoomad på Stockholm — men brett nog att rymma faror under flygningen.
   // Behåller SVG-aspekt så att kartan inte stretchas.
