@@ -4,8 +4,8 @@
   z-index: 0;
   overflow: hidden;
   pointer-events: none;
-  /* OBS: ingen `perspective` här — så fort en barn-rotateX appliceras flyttas
-     SVG:t till en 3D-rasterlayer och text pixleras vid inzoom. */
+  perspective: 1800px;
+  perspective-origin: 50% 60%;
 }
 #map-bg .treasure-map {
   transform-origin: 50% 50%;
