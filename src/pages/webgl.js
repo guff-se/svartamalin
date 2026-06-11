@@ -1,5 +1,5 @@
-// Dev-route /webgl — WebGL-port av map.js.
-// Originalet (src/components/map.js + home.js) lämnas orört.
+// Huvudsidan (/) — WebGL-port av map.js.
+// Legacy SVG: /old → home.js + map.js.
 // Innehållet under hero är samma som home.js men med WebGL-bakgrund.
 
 import { getGuestId } from '../lib/state.js'

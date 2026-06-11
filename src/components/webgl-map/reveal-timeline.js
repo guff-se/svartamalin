@@ -1,8 +1,7 @@
 // Reveal-timeline för WebGL-versionen. Port av runReveal() i map.js,
 // men targetar Pixi DisplayObjects istället för DOM-element.
 //
-// Timing-konstanter ska speglas manuellt om map.js ändras (CLAUDE.md säger
-// att timing-arrays finns i båda versionerna).
+// Timing ska speglas manuellt om map.js ändras — se AGENTS.md § Reveal-timing.
 
 import { gsap } from 'gsap'
 

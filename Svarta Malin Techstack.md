@@ -10,7 +10,9 @@ Cloudflare Pages Functions hanterar lösenordsskyddet: en enkel middleware som k
 
 **Vanilla JS + Vite** — ingen framework. Lätt, snabbt, full kontroll över animationer.
 
-**GSAP** för animationer: kartor, piratporträtt, övergångar. Teatraliska och tunga effekter utan performance-problem.
+**Pixi.js v8 (WebGL)** för den animerade sjökartan på huvudsidan — kameraflygning, 3D-tilt via `PerspectiveMesh`, dekorations-sprites och ruttanimation. Legacy SVG-version (`map.js`) finns på `/old`.
+
+**GSAP** för animationer: kart-reveal, ambient-tweens, piratporträtt, övergångar. Teatraliska och tunga effekter.
 
 ## Databas & Realtid
 

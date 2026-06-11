@@ -41,6 +41,8 @@ Skriptet hämtar:
 
 Variabel detaljgrad: hög upplösning runt Salmonellahavet/Ovanan (där kameran zoomar in), lägre på resten. Output `public/map-data.json` (~2-3 MB). Kör om vid behov — datat ändras sällan.
 
+Kartan renderas i produktion via **Pixi.js** (`src/components/webgl-map/`) som läser samma `map-data.json` plus PNG-dekorationer i `public/images/map/`. Se [AGENTS.md](AGENTS.md) för modulöversikt. Jämför mot SVG-originalet på `http://localhost:5173/old`.
+
 ## Piratkort-ram (collectable card overlay)
 
 Transparent spelkortsram (63:88) för porträttfoton genereras via OpenAI Images API. Stil enligt [aesthetic-style-guide.md](aesthetic-style-guide.md). Piratnamn läggs som HTML ovanpå — inte i bilden.
@@ -113,12 +115,13 @@ Subdomän `svartamalin.tadaa.se` konfigureras i Cloudflare DNS.
 - [x] M1: Skelett, lösenordsgrind (per-gäst login_slug), Supabase-schema, audio
 - [x] M2: RSVP-flöde med realtime-piratnamnsval (ja/nej + piratnamn)
 - [x] M3: Huvudsida (hero + kort med kollegor/info/lag, info från DB)
-- [x] M4: Animerad piratkarta som fullskärmsbakgrund — timeline-driven (synkad mot låten via `audio.currentTime`), ~68 s reveal:
-  - Stockholm-silhouette zoomar in med 3D-tilt
+- [x] M4: Animerad piratkarta som fullskärmsbakgrund — **WebGL (Pixi.js v8)** på `/`, ~68 s reveal (GSAP-timeline + wall-clock `rAF`; låten startar parallellt):
+  - Stockholm-silhouette zoomar in med 3D-tilt (`PerspectiveMesh`)
   - Kameran flyger längs verklig OSRM-bilväg till hamnen
   - Båt-fas Hamn → Ovanan med skepp
   - Faror längs vägen och i Salmonellahavet (kraken, val, bläckfisk, sjöjungfru, drakar, stigmän, m.m.)
   - Slut-zoom till helheten med kompassros, Salmonellahavet-etikett
+  - Legacy SVG-version finns kvar på `/old` (`map.js`)
 - [x] M5: Besättningscollage med pirateCard-ram (porträtt laddas från `/images/portraits/<real_name_slug>.jpg`)
 - [x] M6: Admin-vy
 - [ ] M7: Polish — slutfasen porträtt, faktiska båttider, ljud-feedback

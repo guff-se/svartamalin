@@ -16,7 +16,7 @@ Riktlinjer:
 
 - **Authentication**: per-guest login via `login_slug` (gemener-version av riktigt namn utan mellanslag). Validering via `validate_guest_login()`-RPC i Supabase. Klienten sätter `guest_id` i `localStorage`. Inget öppet registreringsformulär — gäster seedas i förväg via `supabase/guests_seed.sql`.
 - **Cloudflare Pages Functions** för `/api/unlock` och `/api/admin-unlock`. Använder `SUPABASE_URL`/`SUPABASE_ANON_KEY` env-vars (separat från Vite-prefixed motsvarigheter).
-- **Map animation** är **inte** scroll-driven. Den körs som en GSAP-timeline synkad mot låten via `audio.currentTime` — se `src/components/map.js`. Reveal är ~68 s.
+- **Map animation** är **inte** scroll-driven. Produktionsversionen (`/`) renderas med **Pixi.js v8 (WebGL)** i `src/components/webgl-map/`, monteras via `src/pages/webgl.js`. Reveal körs som en pausad GSAP-timeline (`reveal-timeline.js`) driven av wall-clock `requestAnimationFrame` (~68 s). Låten startar parallellt via `startShowAudio()` men timelinen synkas inte mot `audio.currentTime`. Legacy-SVG finns kvar på `/old` (`src/components/map.js` + `src/pages/home.js`).
 - **Shared utilities** ligger i `src/lib/`:
   - `escape.js` — HTML-escape (importera från komponenter som skriver innerHTML)
   - `loading.js` — show/hide load-screen
@@ -46,20 +46,45 @@ RSVP visar en delmängd via `RSVP_PRACTICAL_KEYS` i `practical-info.js`.
 
 **När du lägger till ny copy:** skapa ny `key` i `practical_info_seed.sql`, hämta via `fetchPracticalMap()`, rendera med `formatPracticalMarkdown()`. Hårdkoda inte placeholder-strängar i JSX/HTML om de ska kunna redigeras i admin.
 
-## Reveal-config i map.js
+## WebGL-karta (`src/components/webgl-map/`)
 
-Reveal-tidsstämplar för dekorationer är samlade i konfig-arrayer (`driveReveals`, `harborReveals`, `boatReveals`, `endReveals`) — justera där snarare än att leta upp enskilda `tl.fromTo`-anrop.
+| Fil | Roll |
+|-----|------|
+| `index.js` | `mountWebglMap()` / `unmountWebglMap()` — Pixi `Application`, resize, reveal-loop |
+| `scene.js` | Bygger statisk scen från `map-data.json` + dekorations-PNG:er |
+| `camera.js` | Zoom/pan/rotation — spegel av `cam` + `applyCam()` i `map.js` |
+| `tilt-stage.js` | 3D-tilt via `PerspectiveMesh` + `RenderTexture` (renderar `scene.root` per frame) |
+| `reveal-timeline.js` | GSAP reveal (~68 s) mot Pixi `DisplayObject`s |
+| `ambient.js` | Loopande tweens efter reveal |
+| `routes.js` | Bil- och båtrutter med marching-ants |
+| `projection.js` / `decor-positions.js` | Lat/lon → scenkoordinater |
 
-## Performance-fällor (lärt ut hård väg)
+CSS för overlay/scroll-lås: `src/styles/webgl.css` (`body.webgl-revealing` / `webgl-revealed`).
 
-- **Zoom drivs av `viewBox` per frame, inte av en inner-`<g>`-skalning.** Med viewBox-attribut-ändring invaliderar browsern SVG-painten → text ritas om vektor-skarpt på den nya storleken. Inner-`<g>` `scale` kan se sig själv som en deep-mutation som inte alltid retriggrar SVG-paint i en 3D-compositorlayer.
-- **3D-tilt funkar tillsammans med viewBox-per-frame.** `perspective` på `#map-bg` + `rotateX` på SVG-elementet är OK — det är inte i sig orsaken till pixelering.
-- **CSS `filter` på map-decorationer skapade rasteriseringsproblem.** Drop-shadows via `filter: drop-shadow()` på `.kraken`, `.whale` etc. skapade en CSS filter-graf + stacking-context som påverkade hur SVG-text renderades i 3D-layern. Använd inte CSS `filter` på map-element. Cast shadows ska antingen bakas in i PNG:erna, eller läggas på via SVG `<feDropShadow>`-primitiver applicerade direkt på elementen.
-- **Rotation kan inte uttryckas i viewBox** — körs via inner `<g class="map-rotor">`. OK eftersom ren rotation inte triggar samma artefakter som scale.
-- **Slå ihop många små polygoner** till en samlad path (set `d` till alla concatenerade strängar). 1000+ separata `<path>`-element är dyrt.
-- **Undvik dyra filter** (`feTurbulence` etc.) i `<defs>` även om de inte används — vissa browsers kompilerar ändå.
-- **GSAP-tweens direkt på SVG-element vs setAttribute('transform')** krockar — välj en strategi per element.
-- **Visuell kvalitet > frame rate.** Användaren har explicit sagt att sajten får vara tung. Default till hög kvalitet; rör inte effekter/ambient-tweens "för perfens skull" utan att fråga.
+## Reveal-timing
+
+**WebGL (produktion):** inline `reveal()`-anrop i `reveal-timeline.js`.
+
+**Legacy SVG (`/old`):** konfig-arrayer i `map.js` (`driveReveals`, `harborReveals`, `boatReveals`, `endReveals`).
+
+Ändra timing i **båda** om beteendet ska matcha.
+
+## Performance-fällor — WebGL (lärt ut hård väg)
+
+- **Lägg inte `scene.root` direkt på `app.stage`.** `TiltStage` renderar världen till en `RenderTexture` och visar den via `PerspectiveMesh` — annars försvinner 3D-tilt.
+- **Använd inte `resizeTo` på iOS.** Adresslistans kollaps triggar resize → canvas rebuild → flicker. Manuell debounced resize i `index.js` istället.
+- **Tweena sprite-skala relativt `_baseScale`.** `s.width = N` sätter `scale` till texture-native storlek. GSAP `scale.x → 1.04` blir gigantisk — multiplicera alltid med `sprite._baseScale` (se `ambient.js` och `reveal-timeline.js`).
+- **Kameran uppdateras via `camera.apply()`** efter GSAP `onUpdate` — inte direkt på container-transform utanför `Camera`.
+- **Visuell kvalitet > frame rate.** Sajten får vara tung; rör inte effekter/ambient-tweens "för perfens skull" utan att fråga.
+
+## Performance-fällor — legacy SVG (`/old`)
+
+Behålls för fallback/jämförelse. Se `src/components/map.js`:
+
+- Zoom via `viewBox` per frame; rotation via inner `<g class="map-rotor">`.
+- Ingen CSS `filter: drop-shadow()` på kartelement — bakas in i PNG eller via SVG `<feDropShadow>`.
+- Slå ihop många små polygoner till en path; undvik oanvända `<defs>`-filter.
+- GSAP-tweens vs `setAttribute('transform')` — välj en strategi per element.
 
 ---
 
@@ -132,7 +157,7 @@ el.innerHTML = pirateCardHtml({
 
 ### Current consumers
 
-- `src/components/crew-collage.js` — Besättningen grid on the home page.
+- `src/components/crew-collage.js` — Besättningen grid på huvudsidan (`webgl.js` / `home.js`).
 
 ### CSS ↔ overlay alignment
 

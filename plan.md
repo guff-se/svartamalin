@@ -7,7 +7,7 @@ En interaktiv, teatralisk RSVP-sida för Malins 40-årsfest (Svarta Malin — Ha
 ## 1. Stack (bekräftad)
 
 - **Hosting:** Cloudflare Pages + Pages Functions (lösenordsgrind)
-- **Frontend:** Vanilla JS + Vite, GSAP för animationer
+- **Frontend:** Vanilla JS + Vite, Pixi.js v8 (WebGL-karta), GSAP för animationer
 - **DB/Realtid:** Supabase (Postgres + Realtime)
 - **Domän:** `svartamalin.tadaa.se` via befintligt Cloudflare-konto
 
@@ -68,13 +68,13 @@ updated_at timestamptz
 4. → Huvudsidan.
 
 ### C. Huvudsidan (registrerad gäst)
-Single-page, sektioner i ordning (scroll-driven):
+Single-page, sektioner i ordning (scroll efter reveal):
 
-1. **Hero / kartan** — illustrerad sjökarta. Scroll triggar:
-   - Streckad linje ritas från Björkfjärdsvägen → Ovanan (GSAP MotionPath).
-   - Parallaxlager: vågor, moln, en fullriggare som glider över.
-   - X marks the spot vid Ovanan, pulserande.
-   - Markörer längs vägen visar praktiska detaljer på hover/tap.
+1. **Hero / kartan** — illustrerad sjökarta som fullskärmsbakgrund (WebGL/Pixi). Vid sidladdning körs en ~68 s **reveal** (GSAP-timeline, wall-clock `rAF`):
+   - Stockholm zoomar in med 3D-tilt, kameran följer OSRM-bilväg → hamn → båtrutt till Ovanan.
+   - Dekorationer och faror fades in längs resan; rutter ritas med marching-ants.
+   - Efter reveal (eller "Hoppa över") scrollar användaren till innehållssektionerna.
+   - Legacy SVG-version på `/old` för jämförelse.
 2. **Besättningen** — collage av alla pirater som anmält sig.
    - Ett förgenererat vintageporträtt per piratnamn (60 st, sepia/tintype).
    - Endast claimed namn renderas. Realtime: nya pirater dyker upp med fade-in.
@@ -101,8 +101,8 @@ Separat lösenord (annan env-var).
 | Vad | Antal | Anteckning |
 |---|---|---|
 | Vintageporträtt per piratnamn | 60 | Genereras med prompten i [aesthetic-style-guide.md](aesthetic-style-guide.md). Stilkonsekvens: lås palett + textur. |
-| Sjökarta (illustrerad) | 1 stor SVG/PNG | Mälaren-stiliserad, antik look. Helst SVG så vi kan animera lager. |
-| Parallaxlager | 3–5 | Vågor, moln, segelfartyg, fågelflock. |
+| Sjökarta (illustrerad) | 1 × `map-data.json` + PNG-dekorationer | OSM-baserad karta + AI-genererade kartsymboler i `public/images/map/`. Renderas i WebGL (Pixi); legacy SVG på `/old`. |
+| Parallaxlager | — | Ersatt av kameraflygning + 3D-tilt i WebGL-versionen. |
 | Ljudslinga | 1 | [Martin Ljung - Svarta Malin.m4a](Martin%20Ljung%20-%20Svarta%20Malin.m4a) — finns redan. Startar automatiskt vid lyckad upplåsning, looping, med synlig mute-toggle. |
 | Favicon + OG-bild | 1+1 | Dödskalle-hatten som logotyp. |
 
@@ -125,9 +125,9 @@ Separat lösenord (annan env-var).
 - Praktisk info läses från Supabase.
 - "Ditt lag"-tomstate.
 
-**M4 — Karta + animationer (3–4 dagar)**
-- Sjökarta som SVG, scroll-driven GSAP-sekvens.
-- Parallax, MotionPath, marker-interaktion.
+**M4 — Karta + animationer (3–4 dagar)** ✓
+- WebGL-karta (Pixi.js): reveal-timeline, kameraflygning, 3D-tilt, dekorations-sprites.
+- Legacy SVG (`map.js`) kvar på `/old`.
 
 **M5 — Besättningscollage (1–2 dagar, parallellt med porträttgenerering)**
 - Grid med realtime-uppdatering.
@@ -146,7 +146,7 @@ Separat lösenord (annan env-var).
 ## 6. Risker / öppna frågor
 
 - **60 stilkonsekventa porträtt** är den största produktionsuppgiften. Bör startas tidigt och parallellt med kod.
-- **Mobil-prestanda** för tunga GSAP/parallax — testa tidigt på iPhone. Fallback: enklare statisk version under viss bredd.
+- **Mobil-prestanda** för WebGL + GSAP — testa tidigt på iPhone (debounced resize, ingen `resizeTo`). Fallback: `/old` (SVG) eller skip-knapp.
 **Cookie + Pages Function** för shared password: enkelt men inte krypto. OK för en privat fest.
 - **Avböjt-gäster** — får de se huvudsidan om de loggar in igen? Förslag: ja, men utan "Ditt lag" och utan att vara med i collaget. Ändra-sig-knapp finns.
 
@@ -160,10 +160,12 @@ Separat lösenord (annan env-var).
 │   ├── main.js                  # entry
 │   ├── pages/
 │   │   ├── rsvp.js              # onboarding-flöde
-│   │   ├── home.js              # huvudsidan
+│   │   ├── webgl.js             # huvudsidan (produktion, WebGL-bakgrund)
+│   │   ├── home.js              # legacy huvudsida (/old, SVG-bakgrund)
 │   │   └── admin.js
 │   ├── components/
-│   │   ├── map.js               # GSAP scroll-sekvens
+│   │   ├── webgl-map/           # Pixi.js-karta (produktion)
+│   │   ├── map.js               # legacy SVG-karta (/old)
 │   │   ├── crew-collage.js
 │   │   ├── pirate-name-picker.js
 │   │   └── practical-info.js
