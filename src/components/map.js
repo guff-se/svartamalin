@@ -540,14 +540,16 @@ async function playRevealTimeline(tl, skipToEnd) {
   tl.pause()
   tl.progress(0)
 
-  const audio = document.getElementById('party-audio')
-  const endTime = tl.duration()
+  // Audion spelas parallellt — men timelinen drivs av GSAP, INTE av
+  // audio.currentTime. Tidigare synk via audio.currentTime stallade på
+  // mobil när iOS buffrade audion: currentTime kröp till ~0.1 och fastnade
+  // där medan vi pollade tl.time(0.1) varje frame. Resultat: animationen
+  // "knappt rör sig" på mobil. Med GSAP-driven timeline går allt alltid
+  // i realtid oavsett audio-status. Förlust: exakt lyrik-sync (några
+  // hundra ms drift över 68s) — försumbart.
+  startShowAudio()  // fire-and-forget
 
-  await startShowAudio()
-
-  // Mutad eller saknad audio (iOS-autoplay-block etc.) — kör GSAP-driven
-  // timeline direkt så animationen inte fryser på t=0.
-  const playStandaloneTimeline = () => new Promise((resolve) => {
+  return new Promise((resolve) => {
     tl.eventCallback('onComplete', () => {
       tl.eventCallback('onComplete', null)
       resolve()
@@ -557,49 +559,6 @@ async function playRevealTimeline(tl, skipToEnd) {
       tl.eventCallback('onComplete', null)
       tl.progress(1)
       resolve()
-    }
-  })
-
-  if (!audio || audio.muted || audio.paused) {
-    return playStandaloneTimeline()
-  }
-
-  return new Promise((resolve) => {
-    let rafId = 0
-    let fellBackToTimeline = false
-    const startWall = performance.now()
-    const finish = () => {
-      stopRevealSync()
-      resolve()
-    }
-    // Använd rAF istället för audio.timeupdate-event (som bara fyrar 4-15
-    // ggr/sek och gör att timeline:n hoppar i chunks även vid hög FPS).
-    // audio.currentTime uppdateras kontinuerligt av browsern så läsning
-    // per frame ger smidig sync med ljudet.
-    const tick = () => {
-      const t = audio.currentTime
-      // Watchdog: om audio.currentTime inte rört sig på 700ms (iOS rejectade
-      // play() trots primning) — kör timelinen GSAP-driven istället så
-      // användaren inte ser en fryst skärm.
-      if (!fellBackToTimeline && t < 0.05 && performance.now() - startWall > 700) {
-        fellBackToTimeline = true
-        stopRevealSync()
-        playStandaloneTimeline().then(resolve)
-        return
-      }
-      tl.time(t)
-      if (t >= endTime - 0.05 || tl.progress() >= 0.999) {
-        tl.progress(1)
-        finish()
-        return
-      }
-      rafId = requestAnimationFrame(tick)
-    }
-    rafId = requestAnimationFrame(tick)
-    revealSyncCleanup = () => { if (rafId) cancelAnimationFrame(rafId) }
-    skipToEnd.fn = () => {
-      finish()
-      tl.progress(1)
     }
   })
 }

@@ -5,6 +5,7 @@
  *
  * Input:  images/svarta-malin/malin-tadaa.jpg, malin-tadaa2.jpg, …
  * Output: images/svarta-malin-generated/<stem>.jpg, <stem>-v2.jpg, … (never overwrites)
+ * Log:    images/svarta-malin-generated/prompts.log (appends every run)
  *
  * Copy a chosen version to public/images/portraits/<id>.jpg for production.
  *
@@ -18,7 +19,7 @@
  *   npm run generate-svarta-malin -- --keep-expression
  */
 
-import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises'
+import { readFile, writeFile, mkdir, readdir, unlink, appendFile } from 'node:fs/promises'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
 import { randomBytes } from 'node:crypto'
@@ -32,6 +33,7 @@ const execFileAsync = promisify(execFile)
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const IN_DIR = join(__dirname, '..', 'images', 'svarta-malin')
 const OUT_DIR = join(__dirname, '..', 'images', 'svarta-malin-generated')
+const PROMPT_LOG = join(OUT_DIR, 'prompts.log')
 const DEFAULT_SOURCE = 'malin-tadaa'
 
 const INPUT_EXTS = new Set(['.jpg', '.jpeg', '.png', '.webp'])
@@ -61,7 +63,7 @@ const COSTUME_AMATEUR = `COSTUME — AMATEUR THEATRE ONLY: The outfit must screa
 
 const BODY = `BODY & POSTURE: Epic theatrical captain posture — shoulders back, chest open, wide power stance, hammy and bold. She fills the frame with exaggerated authority, like the lead in a village panto finale. Flattering but plausible for this person — strong, not diminutive.`
 
-const NEG = `No different person, no face swap, no generic model face, no altered bone structure, no bare head, no hatless portrait, no small hat, no bandana without tricorn, no crooked or askew headwear, no realistic fine leather hat, no movie-quality or historically accurate headwear, no slick cosplay, no tasteful restraint, no subtle minimal costume, no understated elegance, no museum-quality tailoring, no documentary realism, no passive pin-up, no cheesecake pose, no boudoir damsel, no submissive or downcast gaze, no damsel-in-distress, no male captain overshadowing her, no Pirates of the Caribbean look, no Jack Sparrow, no Disney pirate aesthetic, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no text, no watermark, no playing card overlay.`
+const NEG = `No different person, no face swap, no generic model face, no altered bone structure, no bare head, no hatless portrait, no small hat, no bandana without tricorn, no crooked or askew headwear, no realistic fine leather hat, no movie-quality or historically accurate headwear, no slick cosplay, no tasteful restraint, no subtle minimal costume, no understated elegance, no museum-quality tailoring, no documentary realism, no plain grey studio void, no subtle soft bokeh only, no real location photography background, no passive pin-up, no cheesecake pose, no boudoir damsel, no submissive or downcast gaze, no damsel-in-distress, no male captain overshadowing her, no Pirates of the Caribbean look, no Jack Sparrow, no Disney pirate aesthetic, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no text, no watermark, no playing card overlay.`
 
 // Small pools — one pick each, captain-focused
 const POSE = [
@@ -136,13 +138,27 @@ const ACCESSORIES = [
   'folk-costume beaded earrings, smuggler jewellery piled on',
 ]
 
+const BACKGROUND_EPIC = `BACKGROUND — EPIC PAINTED KULISS: The backdrop must be a flat amateur-theatre set piece turned up to maximum drama — not a real location, not subtle bokeh. Hand-painted canvas or cloth flats with visible brush strokes, wrong perspective, cardboard cut-outs, and summer-panto ambition. Epic scale painted small: raging seas, storm skies, fleets, treasure, cliffs — all charmingly fake, all gloriously excessive. The background should feel like the most ambitious village-hall production ever mounted.`
+
 const BACKGROUND = [
-  'painted canvas stage backdrop of wobbly ship — visible brush strokes, perspective slightly wrong',
-  'flat painted cloth harbour with crooked doorframe and too-thick rigging ropes',
-  'wrinkled dark theatrical curtain with cheap gold fleck paint',
-  'painted drop cloth sunset cyclorama — hand-painted, charmingly fake',
-  'flat scenery tavern interior — summer-panto energy',
-  'aged sepia studio backdrop with creases and water stains',
+  'painted cyclorama of raging storm sea — cardboard waves, lightning bolts painted in white, perspective wildly wrong',
+  'flat kuliss of full-rigged galleon in full sail — rigging ropes painted comically thick, brush strokes visible',
+  'hand-painted treasure island — palms too tall, skull rock, fake gold glitter on sand',
+  'painted harbour at sunset — orange sky slapped on with a wide brush, crooked lighthouse on cliff',
+  'flat scenery kraken attack — tentacles emerging from misty painted sea, panto terror',
+  'painted fleet of cut-out ships on a flat ocean panel — epic armada, charmingly fake',
+  'volcano erupting behind painted port city — smoke cotton balls, lava streaks in red poster paint',
+  'painted whirlpool spiral in the ocean — dramatic vortex kuliss, stage-left flat meets stage-right awkwardly',
+  'enormous painted Jolly Roger flag billowing across the entire backdrop',
+  'painted tavern interior with barrels and crooked doorframe — perspective slightly drunk',
+  'misty painted cliffs and seagulls drawn too large — rocky coast kuliss in grey and brown washes',
+  'painted moon huge in night sky over ship-deck flat — gothic panto romance',
+  'flat drop cloth of conquered port — cardboard skyline, painted cannon smoke',
+  'painted tropical beach with shipwreck prop half-buried in sand — summer-show excess',
+  'wrinkled dark theatrical curtain parted to reveal painted storm-at-sea cyclorama behind',
+  'painted ship deck kuliss — mast and rigging as flat cut-outs, painted planks, visible stage screws',
+  'hand-painted sunset over Salmonella Sea — dramatic clouds, gold fleck paint on waves',
+  'aged sepia studio backdrop with creases — but painted ship and lightning added over it in amateur brushwork',
 ]
 
 const MEDIA = [
@@ -163,12 +179,17 @@ function buildPrompt({ keepExpression = false } = {}) {
   const gaze = keepExpression
     ? 'exact same facial expression as the input photo — unchanged smile, mouth, and eyes'
     : pickRandom(GAZE)
+  const media = pickRandom(MEDIA)
+  const costume = pickRandom(COSTUME)
+  const props = pickRandom(PROPS)
+  const accessories = pickRandom(ACCESSORIES)
+  const background = pickRandom(BACKGROUND)
 
   const subject = `Transform this photograph into Svarta Malin — the ultimate vintage pirate captain portrait. Portrait orientation, aspect ratio 63:88 (playing card proportions), vertical composition.
 
-Render as a ${pickRandom(MEDIA)}. Half- or three-quarter-length portrait. ${pose}. ${gaze}. ${pickRandom(COSTUME)}. Props: ${pickRandom(PROPS)} — obvious costume accessories, not real weapons. Makeup and jewellery: ${pickRandom(ACCESSORIES)}. Background: ${pickRandom(BACKGROUND)}. ${HAT}`
+Render as a ${media}. Half- or three-quarter-length portrait. ${pose}. ${gaze}. ${costume}. Props: ${props} — obvious costume accessories, not real weapons. Makeup and jewellery: ${accessories}. Background: ${background}. ${HAT}`
 
-  const blocks = [LIKENESS, CAPTAIN, FEMALE_POWER, OVER_THE_TOP, COSTUME_AMATEUR, HAT]
+  const blocks = [LIKENESS, CAPTAIN, FEMALE_POWER, OVER_THE_TOP, COSTUME_AMATEUR, BACKGROUND_EPIC, HAT]
   if (keepExpression) {
     blocks.push(KEEP_EXPRESSION)
   } else {
@@ -182,7 +203,49 @@ Render as a ${pickRandom(MEDIA)}. Half- or three-quarter-length portrait. ${pose
     pose.split(/[,.]/)[0].slice(0, 28),
   ].join(' · ')
 
-  return { prompt: blocks.join(' '), summary }
+  const picks = { pose, gaze, media, costume, props, accessories, background }
+
+  return { prompt: blocks.join(' '), summary, picks }
+}
+
+async function logPrompt({
+  source,
+  output,
+  version,
+  backend,
+  keepExpression,
+  summary,
+  picks,
+  prompt,
+  status,
+  error = null,
+  durationSec = null,
+}) {
+  await mkdir(OUT_DIR, { recursive: true })
+
+  const lines = [
+    '='.repeat(80),
+    new Date().toISOString(),
+    `status: ${status}`,
+    `source: ${source}`,
+    `output: ${output}`,
+    `version: ${version}`,
+    `backend: ${backend}`,
+    `keep_expression: ${keepExpression}`,
+    `summary: ${summary}`,
+  ]
+
+  if (durationSec != null) lines.push(`duration_sec: ${durationSec}`)
+  if (error) lines.push(`error: ${error}`)
+
+  lines.push('', 'picks:')
+  for (const [key, value] of Object.entries(picks)) {
+    lines.push(`  ${key}: ${value}`)
+  }
+
+  lines.push('', 'prompt:', prompt, '')
+
+  await appendFile(PROMPT_LOG, `${lines.join('\n')}\n`, 'utf8')
 }
 
 // ── I/O & backend (mirrors generate-portraits.js) ───────────────────────────
@@ -379,24 +442,39 @@ async function main() {
   console.log(`Backend: ${backend.name}`)
   console.log(`Expression: ${keepExpression ? 'keep (from source photo)' : 'epic captain (vary)'}`)
   console.log(`Sources: ${queue.map((f) => basename(f)).join(', ')}`)
-  console.log(`Output → ${OUT_DIR}\n`)
+  console.log(`Output → ${OUT_DIR}`)
+  console.log(`Prompt log → ${PROMPT_LOG}\n`)
 
   for (const file of queue) {
     const stem = basename(file, extname(file))
     const inPath = join(IN_DIR, file)
     const { version, filename, path: outPath } = await resolveOutputPath(stem)
-    const { prompt, summary } = buildPrompt({ keepExpression })
+    const { prompt, summary, picks } = buildPrompt({ keepExpression })
 
     const versionLabel = version > 1 ? ` v${version}` : ''
     process.stdout.write(`⚓ ${file}${versionLabel} (${summary}) … `)
 
     const start = Date.now()
+    const logBase = {
+      source: file,
+      output: filename,
+      version,
+      backend: backend.name,
+      keepExpression,
+      summary,
+      picks,
+      prompt,
+    }
+
     try {
       const jpeg = await backend.generate(inPath, prompt)
       await writeFile(outPath, jpeg)
-      console.log(`done (${((Date.now() - start) / 1000).toFixed(1)}s, ${(jpeg.length / 1024).toFixed(0)} KB)`)
+      const durationSec = ((Date.now() - start) / 1000).toFixed(1)
+      await logPrompt({ ...logBase, status: 'ok', durationSec })
+      console.log(`done (${durationSec}s, ${(jpeg.length / 1024).toFixed(0)} KB)`)
       console.log(`   → ${filename}`)
     } catch (err) {
+      await logPrompt({ ...logBase, status: 'failed', error: err.message })
       console.log('FAILED')
       console.error(`   ${err.message}`)
       process.exitCode = 1
