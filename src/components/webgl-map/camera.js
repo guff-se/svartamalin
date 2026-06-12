@@ -33,17 +33,27 @@ export class Camera {
    */
   apply() {
     // Använd oversized render-target-storlek så cam:n matar texturen i den
-    // storlek som tilt-mesh:en behöver. TiltStage refen sätts vid
-    // konstruktor — viktigt att den finns INNAN första camera.apply()
-    // annars hoppar scale från canvas-storlek till oversize-storlek när
-    // den blir tillgänglig.
+    // storlek som tilt-mesh:en behöver.
     const sw = this.tiltStage?._lastW ?? this.app.screen.width
     const sh = this.tiltStage?._lastH ?? this.app.screen.height
 
     const scale = Math.max(sw / this.w, sh / this.h)
+    const rotRad = (this.rot * Math.PI) / 180
+
+    // Tilt-kompensation: vid lutning biaserar perspektivet visuell fokus
+    // mot nedre halvan av skärmen (bottenkanten är förstorad, topp-kanten
+    // krympt). Skifta pivot framåt i journey-riktningen så att blicken
+    // hamnar i bildens centrum.
+    //
+    // "Framåt på skärmen" = screen-up = world-dir (-sin(rot), -cos(rot)).
+    // Magnitud: proportionellt mot cam.h och tilt (linjärt approximerat).
+    const forward = this.h * this.tilt * 0.004   // tunable; 50° tilt = 20 % av cam.h
+    const dx = -Math.sin(rotRad) * forward
+    const dy = -Math.cos(rotRad) * forward
+
     this.root.scale.set(scale)
-    this.root.pivot.set(this.cx, this.cy)
+    this.root.pivot.set(this.cx + dx, this.cy + dy)
     this.root.position.set(sw / 2, sh / 2)
-    this.root.rotation = (this.rot * Math.PI) / 180
+    this.root.rotation = rotRad
   }
 }
