@@ -17,7 +17,7 @@ export const DECOR_LL = {
 
   // Land-figurer (drive-fasen, statiska). Keys = filename för att undvika
   // missförstånd när vi swapper bilder.
-  pirateOgre: [17.930604, 59.250],  // lite mer uppåt (norr)
+  pirateOgre: [17.940604, 59.28],
   robbers:    [17.604010, 59.190343],
   tree2:      [17.524204, 59.211292],
 
