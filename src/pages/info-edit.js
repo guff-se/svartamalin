@@ -14,13 +14,13 @@ export async function renderInfoEdit(app, onDone) {
   // fall tillbaka utan den så sidan ändå kan laddas och redigeras.
   let { data, error } = await supabase
     .from('guests')
-    .select('real_name, pirate_name_id, phone, email, food_notes, notes, pirate_names(name)')
+    .select('real_name, phone, email, food_notes, notes')
     .eq('id', id)
     .maybeSingle()
   if (error && /food_notes/.test(error.message ?? '')) {
     const r = await supabase
       .from('guests')
-      .select('real_name, pirate_name_id, phone, email, notes, pirate_names(name)')
+      .select('real_name, phone, email, notes')
       .eq('id', id)
       .maybeSingle()
     data = r.data
@@ -38,14 +38,11 @@ export async function renderInfoEdit(app, onDone) {
   data.food_notes ??= ''
   data.notes ??= ''
 
-  const pirateName = data.pirate_names?.name ?? null
-
   app.innerHTML = `
     <section class="rsvp">
       <div class="rsvp-card">
         <p class="step-hint">— ${escapeHtml(data.real_name)} —</p>
         <h2>Din info</h2>
-        ${pirateName ? `<p class="farewell">Pirat-namn: <strong>${escapeHtml(pirateName)}</strong> (kan ej ändras)</p>` : ''}
         <form id="info-form" class="info-form" autocomplete="on">
           <label class="info-field">
             <span>Allergier / matpreferenser</span>
