@@ -28,9 +28,8 @@ const DECOR_ASSETS = {
   parchment:    '/images/map/parchment.png',
   wagon:        '/images/map/wagon.png',
   tree1:        '/images/map/tree-1.png',
-  // Visuella swappar: tree2-positionen får pirate-ogre, tree3-positionen
-  // får tree-1-bilden. Keys behåller sina namn.
-  tree2:        '/images/map/pirate-ogre.png',
+  tree2:        '/images/map/tree-2.png',
+  // tree3-positionen visar tree-1-bilden (reveal +5s i reveal-timeline)
   tree3:        '/images/map/tree-1.png',
   village1:     '/images/map/village-1.png',
   village2:     '/images/map/village-2.png',
