@@ -71,7 +71,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   const ZOOM_H = ZOOM_W / ASPECT
 
   // Slutposition — något västerut från originalet 17.765, 10% mer utzoomad.
-  const [endFx, endFy] = scene.proj.project([17.71, 59.308])
+  const [endFx, endFy] = scene.proj.project([17.7375, 59.308])
   const END_ZOOM = 0.865 * 1.1 * M
 
   // Cumulativa längder för path-sampling (smooth Catmull-Rom path, inte
@@ -250,31 +250,15 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   reveal(sprites.octopus, 56, 1,   0.2)
 
   // 58–66s: ovanan-sekvens efter att skeppet anlänt vid Ovanan (t=57.5)
-  // a) Zooma in på ön + fadea in ovanan.jpg-overlay
-  // b) Zooma vidare så ovanan.jpg fyller skärmen
-  // c) Fadea in x-marks-the-spot på husen
-  // d) Hold några sekunder, sen slut-zoom (nedan)
+  // En enda zoom på ön (cam.w=30), fadea in ovanan.jpg-overlay, sen x-marks.
   tl.to(camera, {
     cx: ox, cy: oy,
-    w: 30 * M, h: (30 / ASPECT) * M,  // zoom in på ön (ön är liten — ~10 world-units)
-    duration: 2.5,
+    w: 30 * M, h: (30 / ASPECT) * M,
+    duration: 3,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
   }, 58)
-  tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 59)
-  // Byt till contain-fit så bredden INTE fyller canvas — letterbox på
-  // sidorna och ön (11.25 hög) fyller ~90% av höjden via cam.h = 12.5.
-  // cam.w lite större än ovanan så vi inte croppar på bredden.
-  tl.call(() => { camera.fitMode = 'contain' }, null, 60.5)
-  tl.to(camera, {
-    cx: ox, cy: oy,
-    w: 8 * M, h: 12.5 * M,
-    duration: 2,
-    ease: 'power2.inOut',
-    onUpdate: onCamUpdate,
-  }, 61)
-  // Återställ cover-fit innan slut-zoom så övriga världen fyller canvas igen
-  tl.call(() => { camera.fitMode = 'cover' }, null, 66.5)
+  tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 60)
   tl.fromTo(xMarks, { alpha: 0 }, { alpha: 1, duration: 1, ease: 'back.out(2)' }, 63)
   tl.fromTo(xMarks.scale,
     { x: xMarks._baseScale.x * 0.3, y: xMarks._baseScale.y * 0.3 },

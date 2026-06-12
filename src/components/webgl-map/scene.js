@@ -362,35 +362,6 @@ export async function buildScene() {
   ourShip.label = 'our-ship'
   root.addChild(ourShip)  // ovanpå allt
 
-  // Ovanan-overlay: foto av ön. Centrerad på ovanan-koordinaten, sized
-  // för att täcka ön. Initially alpha 0 — fadear in när skeppet anlänt.
-  // ovanan.jpg = 1024×1536 (aspect 0.667).
-  const OVANAN_W = 7.5
-  const OVANAN_H = OVANAN_W * (1536 / 1024)  // 11.25
-  const ovananMap = new Sprite(textures.ovananMap)
-  ovananMap.anchor.set(0.5, 0.5)
-  ovananMap.width = OVANAN_W
-  ovananMap.height = OVANAN_H
-  ovananMap._baseScale = { x: ovananMap.scale.x, y: ovananMap.scale.y }
-  ovananMap.x = oxRoute
-  ovananMap.y = oyRoute
-  ovananMap.alpha = 0
-  ovananMap.label = 'ovanan-map'
-  root.addChild(ovananMap)
-
-  // X marks the spot — placeras på övre delen av ovanan.jpg (där husen är).
-  // Offset ~ -25% av OVANAN_H från centrum. Storlek skalar med OVANAN_W.
-  const xMarks = new Sprite(textures.xMarks)
-  xMarks.anchor.set(0.5, 0.5)
-  xMarks.width = OVANAN_W * 0.2
-  xMarks.height = OVANAN_W * 0.2
-  xMarks._baseScale = { x: xMarks.scale.x, y: xMarks.scale.y }
-  xMarks.x = oxRoute
-  xMarks.y = oyRoute - OVANAN_H * 0.25
-  xMarks.alpha = 0
-  xMarks.label = 'x-marks'
-  root.addChild(xMarks)
-
   // Sea-label (SALMONELLAHAVET) — projicerad lat/lon från map.js rad 385.
   // Renderar vid 5× fontSize och skalar ner via scale så textens bitmap har
   // hög upplösning (annars pixleras den under boat-fasens inzoom). Pixi:s
@@ -414,6 +385,32 @@ export async function buildScene() {
   seaLabel.x = lx
   seaLabel.y = ly
   root.addChild(seaLabel)
+
+  // Ovanan-overlay + x-marks läggs SIST så de renderas ovanpå seaLabel
+  // (SALMONELLAHAVET) — annars syns texten genom ön.
+  const OVANAN_W = 7.5
+  const OVANAN_H = OVANAN_W * (1536 / 1024)  // 11.25
+  const ovananMap = new Sprite(textures.ovananMap)
+  ovananMap.anchor.set(0.5, 0.5)
+  ovananMap.width = OVANAN_W
+  ovananMap.height = OVANAN_H
+  ovananMap._baseScale = { x: ovananMap.scale.x, y: ovananMap.scale.y }
+  ovananMap.x = oxRoute
+  ovananMap.y = oyRoute
+  ovananMap.alpha = 0
+  ovananMap.label = 'ovanan-map'
+  root.addChild(ovananMap)
+
+  const xMarks = new Sprite(textures.xMarks)
+  xMarks.anchor.set(0.5, 0.5)
+  xMarks.width = OVANAN_W * 0.2
+  xMarks.height = OVANAN_W * 0.2
+  xMarks._baseScale = { x: xMarks.scale.x, y: xMarks.scale.y }
+  xMarks.x = oxRoute
+  xMarks.y = oyRoute - OVANAN_H * 0.25
+  xMarks.alpha = 0
+  xMarks.label = 'x-marks'
+  root.addChild(xMarks)
 
   return {
     root,

@@ -267,3 +267,37 @@
   color: var(--gold);
   font-style: italic;
 }
+
+/* Modal-overlay för "Din info" */
+.info-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+.info-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 6, 4, 0.85);
+  backdrop-filter: blur(6px);
+}
+.info-modal__card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 32rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: rgba(20, 14, 8, 0.97);
+  border: 1px solid var(--gold);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+  padding: 1.5rem 1.75rem 2rem;
+}
+.info-modal__loading,
+.info-modal__error {
+  text-align: center;
+  font-style: italic;
+  margin: 1rem 0;
+}

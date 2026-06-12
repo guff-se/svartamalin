@@ -32,11 +32,10 @@ function logout() {
 }
 
 document.getElementById('logout-btn').addEventListener('click', logout)
-document.getElementById('info-btn').addEventListener('click', () => {
-  history.pushState(null, '', '/info')
-  route()
+document.getElementById('info-btn').addEventListener('click', async () => {
+  const { openInfoModal } = await import('./pages/info-edit.js')
+  openInfoModal()
 })
-window.addEventListener('popstate', route)
 
 function devRoute() {
   const path = location.pathname.replace(/\/$/, '') || '/'
@@ -50,10 +49,6 @@ function isOldRoute() {
   return path === '/old'
 }
 
-function isInfoRoute() {
-  const path = location.pathname.replace(/\/$/, '') || '/'
-  return path === '/info'
-}
 
 async function route() {
   const dev = devRoute()
@@ -98,15 +93,6 @@ async function route() {
     return
   }
 
-  // /info → edit-form för matpref/övrig info/kontakt (piratnamn låst).
-  if (isInfoRoute()) {
-    hideLoading()
-    showTopControls()
-    unmountMapBackground()
-    const { renderInfoEdit } = await import('./pages/info-edit.js')
-    renderInfoEdit(app, () => { history.pushState(null, '', '/'); route() })
-    return
-  }
 
   // /old → SVG-originalet (renderHome + mountMapBackground)
   if (isOldRoute()) {
