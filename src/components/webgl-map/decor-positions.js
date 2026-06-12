@@ -55,7 +55,7 @@ export const DECOR_SIZE = {
   mermaid:    50,   // mermaid(): decorImage(..., 50)
   seaMonster: 60,   // seaMonster(): decorImage(..., 60)
   whale:      60,   // whale(): width=60 height=60 (half=30)
-  decorShip: 130,
+  decorShip:  65,   // halverat från 130
   storm:     180,
   compass:   150,
   ourShip:    34,   // halverat från 68
