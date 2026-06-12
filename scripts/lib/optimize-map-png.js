@@ -5,10 +5,49 @@
  * - emit RGBA PNG with strong compression
  */
 
+import { execFile } from 'node:child_process'
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
+import { promisify } from 'node:util'
 import sharp from 'sharp'
+
+const execFileAsync = promisify(execFile)
 
 const MAP_SIZE = 512
 const FUZZ = 18
+
+async function hasMagick() {
+  try {
+    await execFileAsync('magick', ['-version'])
+    return true
+  } catch {
+    return false
+  }
+}
+
+/**
+ * @param {string} inPath
+ * @param {string} outPath
+ * @param {number} w
+ * @param {number} h
+ */
+async function optimizeWithMagick(inPath, outPath, w, h) {
+  await execFileAsync('magick', [
+    inPath,
+    '-alpha', 'set',
+    '-fuzz', '12%',
+    '-fill', 'none',
+    '-draw', 'color 0,0 floodfill',
+    '-draw', `color ${w - 1},0 floodfill`,
+    '-draw', `color 0,${h - 1} floodfill`,
+    '-draw', `color ${w - 1},${h - 1} floodfill`,
+    '-resize', `${MAP_SIZE}x${MAP_SIZE}`,
+    '-define', 'png:compression-filter=5',
+    '-define', 'png:compression-level=9',
+    outPath,
+  ])
+}
 
 function readPixel(data, width, channels, x, y) {
   const i = (y * width + x) * channels
@@ -41,15 +80,8 @@ function floodFromCorner(data, width, height, channels, x, y, fuzz, visited) {
   }
 }
 
-/**
- * @param {Buffer} input
- * @param {{ width?: number, height?: number }} [opts]
- * @returns {Promise<Buffer>}
- */
-export async function optimizeMapPng(input, opts = {}) {
-  const width = opts.width ?? MAP_SIZE
-  const height = opts.height ?? MAP_SIZE
-
+/** @param {Buffer} input */
+async function optimizeWithSharp(input) {
   const { data, info } = await sharp(input)
     .ensureAlpha()
     .raw()
@@ -63,7 +95,38 @@ export async function optimizeMapPng(input, opts = {}) {
   }
 
   return sharp(data, { raw: { width: w, height: h, channels } })
-    .resize(width, height, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
-    .png({ compressionLevel: 9, adaptiveFiltering: true })
+    .resize(MAP_SIZE, MAP_SIZE)
+    .png({ compressionLevel: 9, adaptiveFiltering: true, effort: 10 })
     .toBuffer()
+}
+
+/**
+ * @param {Buffer} input
+ * @param {{ width?: number, height?: number }} [opts]
+ * @returns {Promise<Buffer>}
+ */
+export async function optimizeMapPng(input, opts = {}) {
+  const mapW = opts.width ?? MAP_SIZE
+  const mapH = opts.height ?? MAP_SIZE
+  if (mapW !== MAP_SIZE || mapH !== MAP_SIZE) {
+    throw new Error(`optimizeMapPng only supports ${MAP_SIZE}×${MAP_SIZE} today`)
+  }
+
+  if (await hasMagick()) {
+    const dir = await mkdtemp(join(tmpdir(), 'map-opt-'))
+    const inPath = join(dir, 'in.png')
+    const outPath = join(dir, 'out.png')
+    try {
+      const meta = await sharp(input).metadata()
+      const w = meta.width ?? MAP_SIZE
+      const h = meta.height ?? MAP_SIZE
+      await writeFile(inPath, input)
+      await optimizeWithMagick(inPath, outPath, w, h)
+      return await readFile(outPath)
+    } finally {
+      await rm(dir, { recursive: true, force: true })
+    }
+  }
+
+  return optimizeWithSharp(input)
 }
