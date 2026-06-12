@@ -11,6 +11,7 @@ import { writeFile, mkdir } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { generateImageWithCodex, hasCodexSubscriptionAuth } from './lib/codex-image.js'
+import { optimizeMapPng } from './lib/optimize-map-png.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = join(__dirname, '..', 'public', 'images', 'map')
@@ -286,7 +287,12 @@ async function main() {
     process.stdout.write(`🎨 ${asset.file} … `)
     const start = Date.now()
     try {
-      const png = await backend.generate(fullPrompt, transparent)
+      let png = await backend.generate(fullPrompt, transparent)
+      if (transparent) {
+        const rawKb = (png.length / 1024).toFixed(0)
+        png = await optimizeMapPng(png)
+        process.stdout.write(`optimized ${rawKb}→${(png.length / 1024).toFixed(0)} KB … `)
+      }
       await writeFile(outPath, png)
       console.log(`done (${((Date.now() - start) / 1000).toFixed(1)}s, ${(png.length / 1024).toFixed(0)} KB)`)
     } catch (err) {
