@@ -48,7 +48,7 @@ export const DECOR_SIZE = {
   skull:      90,   // map.js skull(): width=90 height=90
   robbers:   110,
   dragon:     90,   // dragonWarning: width=90
-  kraken:     90,   // kraken(): decorImage(..., 90)
+  kraken:     68,   // kraken(): decorImage(..., 90) — krymp 25% från original
   octopus:    80,   // octopus(): decorImage(..., 80)
   mermaid:    50,   // mermaid(): decorImage(..., 50)
   seaMonster: 60,   // seaMonster(): decorImage(..., 60)
@@ -56,7 +56,7 @@ export const DECOR_SIZE = {
   decorShip: 130,
   storm:     180,
   compass:   150,
-  ourShip:    90,
+  ourShip:    68,   // 25% mindre än original 90
   stockholm: 320,
   sodertalje:260,
   harborDock: 36,

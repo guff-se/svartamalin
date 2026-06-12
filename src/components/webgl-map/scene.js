@@ -359,20 +359,26 @@ export async function buildScene() {
   ourShip.label = 'our-ship'
   root.addChild(ourShip)  // ovanpå allt
 
-  // Sea-label (SALMONELLAHAVET) — projicerad lat/lon från map.js rad 385
+  // Sea-label (SALMONELLAHAVET) — projicerad lat/lon från map.js rad 385.
+  // Renderar vid 5× fontSize och skalar ner via scale så textens bitmap har
+  // hög upplösning (annars pixleras den under boat-fasens inzoom). Pixi:s
+  // resolution-option fungerar inte alltid pålitligt med oversize-renderTex,
+  // så vi använder den klassiska "rita stort, skala ner"-tekniken.
   const [lx, ly] = project([17.549469, 59.293733])
+  const SEA_LABEL_OVERSIZE = 5
   const seaLabel = new Text({
     text: 'SALMONELLAHAVET',
     style: {
       fontFamily: 'Metamorphous, Georgia, serif',
-      fontSize: 13.6,
+      fontSize: 13.6 * SEA_LABEL_OVERSIZE,
       fontStyle: 'italic',
       fontWeight: 'bold',
       fill: 0x2a1810,
-      letterSpacing: 5.4,
+      letterSpacing: 5.4 * SEA_LABEL_OVERSIZE,
     },
   })
   seaLabel.anchor.set(0.5, 0.5)
+  seaLabel.scale.set(1 / SEA_LABEL_OVERSIZE)
   seaLabel.x = lx
   seaLabel.y = ly
   root.addChild(seaLabel)
