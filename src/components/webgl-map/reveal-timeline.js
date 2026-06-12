@@ -126,6 +126,19 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   routes.boat.progress = 0
   routes.boat.solid = true
 
+  // Pre-sätt ourShip.rotation till tangenten vid boat-path-start så
+  // skeppet syns rättvänt redan vid reveal (t=33), innan boatProgress-
+  // tween:n börjar (t=34). Annars renderas det med rotation=0 (texture-
+  // default) i en frame och flippar sen till rätt vinkel.
+  {
+    const [p0x, p0y] = sampleAt(boatPoly, boatCum, 0)
+    const [p1x, p1y] = sampleAt(boatPoly, boatCum, 4)
+    const startAng = Math.atan2(p1y - p0y, p1x - p0x) * 180 / Math.PI + 180
+    ourShip.rotation = (startAng * Math.PI) / 180
+    ourShip.x = p0x
+    ourShip.y = p0y
+  }
+
   // Kamera startposition: zoomad på Stockholm
   camera.cx = sx; camera.cy = sy
   camera.w = ZOOM_W; camera.h = ZOOM_H
