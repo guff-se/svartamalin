@@ -50,7 +50,7 @@ export async function renderInfoEdit(app, onDone) {
           </label>
           <label class="info-field">
             <span>Övrig info vi bör veta</span>
-            <textarea id="other-notes" rows="3" placeholder="t.ex. trasig fot, hund med, kommer sent…">${escapeHtml(data.notes ?? '')}</textarea>
+            <textarea id="other-notes" rows="3" placeholder="t.ex. trasig fot, kommer sent, höjdrädd…">${escapeHtml(data.notes ?? '')}</textarea>
           </label>
           <label class="info-field">
             <span>Telefon</span>
