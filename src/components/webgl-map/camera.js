@@ -47,7 +47,7 @@ export class Camera {
     //
     // "Framåt på skärmen" = screen-up = world-dir (-sin(rot), -cos(rot)).
     // Magnitud: proportionellt mot cam.h och tilt (linjärt approximerat).
-    const forward = this.h * this.tilt * 0.004   // tunable; 50° tilt = 20 % av cam.h
+    const forward = this.h * this.tilt * 0.0022  // tunable; 50° tilt = 11 % av cam.h
     const dx = -Math.sin(rotRad) * forward
     const dy = -Math.cos(rotRad) * forward
 
