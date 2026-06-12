@@ -10,16 +10,33 @@ export async function renderInfoEdit(app, onDone) {
   const id = getGuestId()
   if (!id) { onDone(); return }
 
-  const { data, error } = await supabase
+  // Försök med food_notes; om kolumnen saknas (migrationen inte körd än),
+  // fall tillbaka utan den så sidan ändå kan laddas och redigeras.
+  let { data, error } = await supabase
     .from('guests')
     .select('real_name, pirate_name_id, phone, email, food_notes, notes, pirate_names(name)')
     .eq('id', id)
     .maybeSingle()
+  if (error && /food_notes/.test(error.message ?? '')) {
+    const r = await supabase
+      .from('guests')
+      .select('real_name, pirate_name_id, phone, email, notes, pirate_names(name)')
+      .eq('id', id)
+      .maybeSingle()
+    data = r.data
+    error = r.error
+  }
   if (error || !data) {
-    app.innerHTML = `<section class="rsvp"><div class="rsvp-card"><h2>Kunde inte ladda din info.</h2><div class="row"><button id="back" class="ghost">Tillbaka</button></div></div></section>`
+    app.innerHTML = `<section class="rsvp"><div class="rsvp-card"><h2>Kunde inte ladda din info.</h2><p class="farewell">${escapeHtml(error?.message ?? 'okänt fel')}</p><div class="row"><button id="back" class="ghost">Tillbaka</button></div></div></section>`
     document.getElementById('back').addEventListener('click', onDone)
     return
   }
+
+  // Säkerställ default-värden så även en helt tom rad renderar formuläret.
+  data.phone ??= ''
+  data.email ??= ''
+  data.food_notes ??= ''
+  data.notes ??= ''
 
   const pirateName = data.pirate_names?.name ?? null
 
@@ -62,15 +79,14 @@ export async function renderInfoEdit(app, onDone) {
     const other = document.getElementById('other-notes').value.trim()
     const phone = document.getElementById('phone').value.trim()
     const email = document.getElementById('email').value.trim()
-    const { error } = await supabase
-      .from('guests')
-      .update({
-        food_notes: food || null,
-        notes: other || null,
-        phone: phone || null,
-        email: email || null,
-      })
-      .eq('id', id)
+    const payloadFull = { food_notes: food || null, notes: other || null, phone: phone || null, email: email || null }
+    let { error } = await supabase.from('guests').update(payloadFull).eq('id', id)
+    if (error && /food_notes/.test(error.message ?? '')) {
+      // Migrationen inte körd: spara övriga fält så datat inte tappas
+      const { food_notes, ...payloadNoFood } = payloadFull  // eslint-disable-line no-unused-vars
+      const r = await supabase.from('guests').update(payloadNoFood).eq('id', id)
+      error = r.error
+    }
     if (error) { alert('Något gick fel: ' + error.message); return }
     const ok = document.getElementById('info-saved')
     ok.hidden = false
