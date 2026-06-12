@@ -88,7 +88,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
 
   // Initial state: dölj alla decorations som ska reveal:as, sätt cam på Stockholm
   const allRevealable = [
-    sprites.wagon, sprites.tree1, sprites.tree2, sprites.tree3,
+    sprites.wagon, sprites.pirateOgre, sprites.tree1, sprites.tree2,
     sprites.village1, sprites.village2, sprites.village3,
     sprites.globen, sprites.robbers, sprites.skull,
     sprites.dragon0, sprites.dragon1,
@@ -192,10 +192,10 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   }
 
   reveal(sprites.wagon,    4,    0.7, 0.3)
-  reveal(sprites.tree3,   13,    0.6, 0.4)
+  reveal(sprites.tree1,   13,    0.6, 0.4)
   reveal(sprites.globen,  11,    0.9, 0.3)
   reveal(sprites.dragon0, 13,    0.7, 0.3, 0.85)
-  reveal(sprites.tree1,   15,    0.6, 0.4)
+  reveal(sprites.pirateOgre, 15, 0.6, 0.4)
   reveal(sprites.village1,16,    0.9, 0.3)
   reveal(sprites.skull,   17.5,  0.7, 0.3)
   reveal(sprites.robbers, 20,    0.8, 0.3)

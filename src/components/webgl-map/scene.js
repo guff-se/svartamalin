@@ -27,11 +27,10 @@ const MAP_DATA_URL = '/map-data.json'
 const DECOR_ASSETS = {
   parchment:    '/images/map/parchment.png',
   wagon:        '/images/map/wagon.png',
-  // tree1-positionen visar pirate-ogre
-  tree1:        '/images/map/pirate-ogre.png',
-  tree2:        '/images/map/tree-2.png',
-  // tree3-positionen visar tree-1-bilden (reveal +5s i reveal-timeline)
-  tree3:        '/images/map/tree-1.png',
+  // Keys = filename för att undvika missförstånd. Bytt bild = bytt key.
+  pirateOgre: '/images/map/pirate-ogre.png',
+  tree1:      '/images/map/tree-1.png',
+  tree2:      '/images/map/tree-2.png',
   village1:     '/images/map/village-1.png',
   village2:     '/images/map/village-2.png',
   village3:     '/images/map/village-3.png',
@@ -270,7 +269,7 @@ export async function buildScene() {
   addCity('stockholm',  [points.stockholm.lon, points.stockholm.lat], DECOR_SIZE.stockholm,  'Stockholm', 28)
   addCity('sodertalje', [17.6253, 59.1958],                            DECOR_SIZE.sodertalje, 'Södertälje')
 
-  // sampleRoad-positionerade sprites: wagon (på vägen, t=0.08), tree3 (offset
+  // sampleRoad-positionerade sprites: wagon (på vägen, t=0.08), tree1 (offset
   // -40 från vägen, t=0.20), village1 (offset +35, t=0.38). Matchar map.js
   // raderna 233-235 exakt. Får sin position från den projicerade OSRM-polyline.
   const addRoadSprite = (key, t, perpOffset, size) => {
@@ -287,7 +286,7 @@ export async function buildScene() {
     return s
   }
   addRoadSprite('wagon',    0.08,   0, DECOR_SIZE.wagon)
-  addRoadSprite('tree3',    0.20, -40, DECOR_SIZE.tree)
+  addRoadSprite('tree1',    0.20, -40, DECOR_SIZE.tree)
   addRoadSprite('village1', 0.38,  35, DECOR_SIZE.village1)
 
   // sampleRoad-positioner — kräver att drivingPoly redan är beräknad
@@ -325,8 +324,8 @@ export async function buildScene() {
   }
 
   // Land-figurer (statiska lat/lon)
-  addSprite('tree1',    DECOR_LL.tree1,    DECOR_SIZE.tree)
-  addSprite('tree2',    DECOR_LL.tree2,    DECOR_SIZE.tree)
+  addSprite('pirateOgre', DECOR_LL.pirateOgre, DECOR_SIZE.pirateOgre)
+  addSprite('tree2',      DECOR_LL.tree2,      DECOR_SIZE.tree)
   addSprite('robbers',  DECOR_LL.robbers,  DECOR_SIZE.robbers)
   addSprite('village2', DECOR_LL.village2, DECOR_SIZE.village2)
   addSprite('village3', DECOR_LL.village3, DECOR_SIZE.village3)

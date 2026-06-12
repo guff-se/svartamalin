@@ -15,10 +15,11 @@ export const DECOR_LL = {
   compass:    [18.103259, 59.208657],
   skull:      [17.78,     59.29],
 
-  // Land-figurer (drive-fasen, statiska)
-  tree1:    [17.930604, 59.236150],
-  robbers:  [17.604010, 59.190343],
-  tree2:    [17.524204, 59.211292],
+  // Land-figurer (drive-fasen, statiska). Keys = filename för att undvika
+  // missförstånd när vi swapper bilder.
+  pirateOgre: [17.930604, 59.236150],  // tidigare "tree1"-position
+  robbers:    [17.604010, 59.190343],
+  tree2:      [17.524204, 59.211292],
 
   // Städer
   stockholm:  [18.0686,  59.3293],
@@ -41,6 +42,7 @@ export const DECOR_LL = {
 export const DECOR_SIZE = {
   wagon:      90,
   tree:       70,
+  pirateOgre: 70,
   village1:   75,
   village2:   70,
   village3:  130,

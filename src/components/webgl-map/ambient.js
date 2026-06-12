@@ -55,9 +55,12 @@ export function startAmbient(scene) {
     gsap.to(sprites.seaMonster, { rotation: 0.07, duration: 5, repeat: -1, yoyo: true, ease: 'sine.inOut' })
   if (sprites.wagon)
     gsap.to(sprites.wagon, { rotation: 0.026, duration: 1.4, repeat: -1, yoyo: true, ease: 'sine.inOut' })
-  for (const key of ['tree1', 'tree2', 'tree3']) {
+  for (const key of ['tree1', 'tree2']) {
     const t = sprites[key]
     if (!t) continue
     gsap.to(t, { rotation: 0.026, duration: 2.4 + Math.random() * 0.6, repeat: -1, yoyo: true, ease: 'sine.inOut' })
   }
+  // pirate-ogre svajar inte som ett träd; egen subtil rörelse
+  if (sprites.pirateOgre)
+    gsap.to(sprites.pirateOgre, { y: sprites.pirateOgre.y + 2, duration: 3, repeat: -1, yoyo: true, ease: 'sine.inOut' })
 }
