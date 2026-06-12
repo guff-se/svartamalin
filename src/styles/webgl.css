@@ -128,5 +128,12 @@ body.webgl-revealed .webgl-content {
   text-transform: uppercase;
   cursor: pointer;
   backdrop-filter: blur(4px);
+  opacity: 1;
+  transition: opacity 0.8s, visibility 0.8s;
+}
+body.webgl-revealed .webgl-hud__skip {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 .webgl-hud__skip:hover { background: var(--accent); border-color: var(--accent); }

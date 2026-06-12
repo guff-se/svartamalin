@@ -2,10 +2,8 @@ import { supabase } from '../lib/supabase.js'
 import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { sortByPirateNameId } from '../lib/pirate-name-order.js'
+import { bindLightboxTriggers } from '../lib/image-lightbox.js'
 import { pirateCardHtml } from './pirate-card.js'
-
-let lightboxEl = null
-let lightboxReturnFocus = null
 
 export async function renderCrewCollage(el) {
   el.addEventListener('error', onPortraitError, true)
@@ -53,22 +51,51 @@ async function refresh(el) {
   makeCardsInteractive(el)
 }
 
-function bindCardLightbox(el) {
-  if (el.dataset.lightboxBound) return
-  el.dataset.lightboxBound = '1'
+function cloneCardForLightbox(card) {
+  const clone = card.cloneNode(true)
+  clone.removeAttribute('tabindex')
+  clone.removeAttribute('role')
+  clone.removeAttribute('aria-label')
+  return clone
+}
 
-  el.addEventListener('click', (e) => {
-    const card = e.target.closest('.pirate-card')
-    if (!card || !el.contains(card)) return
-    openCardLightbox(card)
+function cardLightboxState(card, cards, index) {
+  return {
+    ariaLabel: card.querySelector('.pirate-card__name')?.textContent?.trim() || 'Piratkort',
+    content: cloneCardForLightbox(card),
+    returnFocus: card,
+    navigation: cardLightboxNavigation(cards, index),
+  }
+}
+
+function cardLightboxNavigation(cards, index) {
+  if (cards.length < 2) return undefined
+
+  const makeNav = (idx) => ({
+    hasPrev: idx > 0,
+    hasNext: idx < cards.length - 1,
+    step(delta) {
+      const newCard = cards[idx + delta]
+      if (!newCard) return null
+      return cardLightboxState(newCard, cards, idx + delta)
+    },
   })
 
-  el.addEventListener('keydown', (e) => {
-    if (e.key !== 'Enter' && e.key !== ' ') return
-    const card = e.target.closest('.pirate-card')
-    if (!card || !el.contains(card)) return
-    e.preventDefault()
-    openCardLightbox(card)
+  return makeNav(index)
+}
+
+function bindCardLightbox(el) {
+  bindLightboxTriggers(el, {
+    selector: '.pirate-card',
+    getAriaLabel: (card) => card.querySelector('.pirate-card__name')?.textContent?.trim() || 'Piratkort',
+    getContent: (card) => cloneCardForLightbox(card),
+    getNavigation: (card, container) => {
+      const cards = [...container.querySelectorAll('.pirate-card')]
+      const index = cards.indexOf(card)
+      if (index < 0) return undefined
+      return cardLightboxNavigation(cards, index)
+    },
+    onOpen: (lightbox) => lightbox.addEventListener('error', onPortraitError, true),
   })
 }
 
@@ -80,60 +107,3 @@ function makeCardsInteractive(el) {
     if (name) card.setAttribute('aria-label', `Visa ${name} i fullskärm`)
   })
 }
-
-function openCardLightbox(cardEl) {
-  closeCardLightbox()
-
-  const name = cardEl.querySelector('.pirate-card__name')?.textContent?.trim() || 'Piratkort'
-  const clone = cardEl.cloneNode(true)
-  clone.removeAttribute('tabindex')
-  clone.removeAttribute('role')
-  clone.removeAttribute('aria-label')
-
-  lightboxReturnFocus = cardEl
-  lightboxEl = document.createElement('div')
-  lightboxEl.className = 'pirate-card-lightbox'
-  lightboxEl.setAttribute('role', 'dialog')
-  lightboxEl.setAttribute('aria-modal', 'true')
-  lightboxEl.setAttribute('aria-label', name)
-  lightboxEl.innerHTML = `
-    <button type="button" class="pirate-card-lightbox__close" aria-label="Stäng">×</button>
-    <div class="pirate-card-lightbox__backdrop"></div>
-    <div class="pirate-card-lightbox__card"></div>
-  `
-  lightboxEl.querySelector('.pirate-card-lightbox__card').appendChild(clone)
-  lightboxEl.addEventListener('error', onPortraitError, true)
-  lightboxEl.addEventListener('click', onLightboxClick)
-  document.addEventListener('keydown', onLightboxKeydown)
-
-  document.body.appendChild(lightboxEl)
-  document.body.classList.add('pirate-card-lightbox-open')
-  lightboxEl.querySelector('.pirate-card-lightbox__close').focus()
-}
-
-function closeCardLightbox() {
-  if (!lightboxEl) return
-
-  lightboxEl.removeEventListener('click', onLightboxClick)
-  document.removeEventListener('keydown', onLightboxKeydown)
-  lightboxEl.remove()
-  lightboxEl = null
-  document.body.classList.remove('pirate-card-lightbox-open')
-
-  if (lightboxReturnFocus?.isConnected) lightboxReturnFocus.focus()
-  lightboxReturnFocus = null
-}
-
-function onLightboxClick(e) {
-  if (
-    e.target.classList.contains('pirate-card-lightbox__backdrop') ||
-    e.target.closest('.pirate-card-lightbox__close')
-  ) {
-    closeCardLightbox()
-  }
-}
-
-function onLightboxKeydown(e) {
-  if (e.key === 'Escape') closeCardLightbox()
-}
-

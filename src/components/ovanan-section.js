@@ -1,3 +1,4 @@
+import { bindLightboxTriggers } from '../lib/image-lightbox.js'
 import { fetchPracticalMap, formatPracticalMarkdown, OVANAN_LABELS } from './practical-info.js'
 
 const MAP_SRC = '/images/maps/ovanan-v9.jpg'
@@ -22,7 +23,12 @@ function ovananSectionHtml(map) {
   return `
     <h2>Ovanan</h2>
     <div class="ovanan-layout">
-      <figure class="ovanan-map">
+      <figure
+        class="ovanan-map"
+        tabindex="0"
+        role="button"
+        aria-label="Visa kartan över Ovanan i fullskärm"
+      >
         <img
           src="${MAP_SRC}"
           alt="Handritad karta över ön Ovanan i Mälaren"
@@ -40,6 +46,23 @@ function ovananSectionHtml(map) {
   `
 }
 
+function bindMapLightbox(el) {
+  bindLightboxTriggers(el, {
+    selector: '.ovanan-map',
+    getAriaLabel: (figure) => figure.querySelector('img')?.alt || 'Karta över Ovanan',
+    getContent: (figure) => {
+      const img = figure.querySelector('img')
+      const wrap = document.createElement('div')
+      wrap.className = 'pirate-card-lightbox__image'
+      const w = Number(img?.getAttribute('width')) || 1024
+      const h = Number(img?.getAttribute('height')) || 1536
+      wrap.style.setProperty('--lightbox-aspect', `${w} / ${h}`)
+      wrap.appendChild(img.cloneNode(true))
+      return wrap
+    },
+  })
+}
+
 export async function renderOvananSection(el) {
   const { map, error } = await fetchPracticalMap()
   if (error) {
@@ -47,4 +70,5 @@ export async function renderOvananSection(el) {
     return
   }
   el.innerHTML = ovananSectionHtml(map)
+  bindMapLightbox(el)
 }
