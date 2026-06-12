@@ -20,7 +20,7 @@ export async function renderWebgl(app) {
         <section class="hero webgl-hero" id="webgl-hero">
           <img class="hero-portrait" src="/images/portraits/malin-tadaa.jpg" alt="Svarta Malin" />
           <h1 class="hero-title">Svarta Malin</h1>
-          <p class="hero-sub">— Salmonellahavets fasa —</p>
+          <p class="hero-sub">Salmonellahavets fasa</p>
           <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" />
         </section>
 

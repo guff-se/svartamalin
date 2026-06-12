@@ -70,8 +70,9 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   const ZOOM_W = VIEW_W * 0.56 * M
   const ZOOM_H = ZOOM_W / ASPECT
 
-  // Slutposition — något västerut från originalet 17.765, 10% mer utzoomad.
-  const [endFx, endFy] = scene.proj.project([17.7375, 59.308])
+  // Slutposition — något västerut från originalet 17.765, 10% mer utzoomad,
+  // lite söderut (lägre lat = längre ner på skärmen).
+  const [endFx, endFy] = scene.proj.project([17.7375, 59.295])
   const END_ZOOM = 0.865 * 1.1 * M
 
   // Cumulativa längder för path-sampling (smooth Catmull-Rom path, inte

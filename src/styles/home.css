@@ -45,7 +45,7 @@
   font-style: italic;
   letter-spacing: clamp(0.08em, 0.5vw, 0.3em);
   text-transform: uppercase;
-  font-size: clamp(0.65rem, 3vw, 1.8rem);
+  font-size: clamp(0.85rem, 4vw, 2.25rem);
   white-space: nowrap;
   color: #2a1810;
   text-shadow:
@@ -54,6 +54,12 @@
     2px 3px 5px rgba(0, 0, 0, 0.75),
     1px 2px 2px rgba(0, 0, 0, 0.85);
   margin: 0.5rem 0 2rem;
+}
+.hero-sub::before { content: '— '; }
+.hero-sub::after { content: ' —'; }
+@media (max-width: 560px) {
+  .hero-sub::before,
+  .hero-sub::after { content: none; }
 }
 .hero-lead {
   max-width: 32rem;

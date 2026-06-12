@@ -11,7 +11,7 @@ export async function renderHome(app) {
       <section class="hero">
         <img class="hero-portrait" src="/images/portraits/malin-tadaa.jpg" alt="Svarta Malin" />
         <h1 class="hero-title">Svarta Malin</h1>
-        <p class="hero-sub">— Salmonellahavets fasa —</p>
+        <p class="hero-sub">Salmonellahavets fasa</p>
         <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" width="48" height="96">
       </section>
 
