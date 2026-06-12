@@ -228,11 +228,12 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
 
   tl.to(camera, { w: ZOOM_W * 0.42, h: ZOOM_H * 0.42, duration: 2, ease: 'power2.inOut', onUpdate: onCamUpdate }, 33)
 
-  // Starta båten 2% in på path:en så tangent-beräkningen (atan2 av nästa−
-  // föregående punkt) är stabil från första frame. Vid p=0 är prev≈current
-  // och atan2(0,0) ger noll → båten kan flippa runt sin egen axel innan
-  // den faktiskt rör sig.
-  const boatProgress = { p: 0.02 }
+  // Tangent från CURRENT till NEXT (4 units framåt) istället för PREV till
+  // CURRENT — vid p=0 är prev=current (båda klampade till boatPoly[0])
+  // vilket gör atan2(0,0)=0 och båten flippar runt 180° när tween startar.
+  // Forward-tangent är stabil från start eftersom next alltid är 4 units
+  // framåt på path:en.
+  const boatProgress = { p: 0 }
   tl.to(boatProgress, {
     p: 0.99,
     duration: 17,
@@ -241,8 +242,8 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
       const len = boatProgress.p * boatTotal
       const [px, py] = sampleAt(boatPoly, boatCum, len)
       camera.cx = px; camera.cy = py
-      const prev = sampleAt(boatPoly, boatCum, Math.max(0, len - 4))
-      const ang = Math.atan2(py - prev[1], px - prev[0]) * 180 / Math.PI + 180
+      const next = sampleAt(boatPoly, boatCum, Math.min(boatTotal, len + 4))
+      const ang = Math.atan2(next[1] - py, next[0] - px) * 180 / Math.PI + 180
       ourShip.x = px
       ourShip.y = py
       ourShip.rotation = (ang * Math.PI) / 180

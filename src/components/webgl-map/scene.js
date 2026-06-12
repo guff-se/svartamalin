@@ -407,7 +407,7 @@ export async function buildScene() {
   xMarks.height = OVANAN_W * 0.2
   xMarks._baseScale = { x: xMarks.scale.x, y: xMarks.scale.y }
   xMarks.x = oxRoute
-  xMarks.y = oyRoute - OVANAN_H * 0.25
+  xMarks.y = oyRoute - OVANAN_H * 0.20
   xMarks.alpha = 0
   xMarks.label = 'x-marks'
   root.addChild(xMarks)
