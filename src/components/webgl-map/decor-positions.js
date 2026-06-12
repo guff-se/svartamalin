@@ -56,7 +56,7 @@ export const DECOR_SIZE = {
   decorShip: 130,
   storm:     180,
   compass:   150,
-  ourShip:    68,   // 25% mindre än original 90
+  ourShip:    34,   // halverat från 68
   stockholm: 320,
   sodertalje:260,
   harborDock: 36,
