@@ -27,7 +27,8 @@ const MAP_DATA_URL = '/map-data.json'
 const DECOR_ASSETS = {
   parchment:    '/images/map/parchment.png',
   wagon:        '/images/map/wagon.png',
-  tree1:        '/images/map/tree-1.png',
+  // tree1-positionen visar pirate-ogre
+  tree1:        '/images/map/pirate-ogre.png',
   tree2:        '/images/map/tree-2.png',
   // tree3-positionen visar tree-1-bilden (reveal +5s i reveal-timeline)
   tree3:        '/images/map/tree-1.png',
