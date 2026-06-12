@@ -55,7 +55,6 @@ export async function renderWebgl(app) {
         </section>
       </main>
       <button id="webgl-skip" class="webgl-hud__skip">Hoppa över ↷</button>
-      <div class="webgl-hud__title">WebGL</div>
     </div>
   `
 

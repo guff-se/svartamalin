@@ -112,6 +112,7 @@ export async function buildScene() {
   // coastlineIslands vars outer ring har > 5 % av sina vertices EXAKT på
   // någon bbox-edge. Verkliga öar har enstaka edge-träffar; closure-
   // artefakter har dussintals/hundratals i rad.
+  const EDGE_TOL = 0.01  // grader (~1 km) — float-precision-tolerans
   const cleanCoastlineIslands = coastlineIslands.filter((f) => {
     if (!f) return true
     const polys = f.type === 'Polygon' ? [f.coordinates] : f.type === 'MultiPolygon' ? f.coordinates : []
@@ -120,7 +121,10 @@ export async function buildScene() {
       if (!outer || outer.length < 3) continue
       let onEdge = 0
       for (const [lon, lat] of outer) {
-        if (lat === bbox.minLat || lat === bbox.maxLat || lon === bbox.minLon || lon === bbox.maxLon) onEdge++
+        if (Math.abs(lat - bbox.minLat) < EDGE_TOL ||
+            Math.abs(lat - bbox.maxLat) < EDGE_TOL ||
+            Math.abs(lon - bbox.minLon) < EDGE_TOL ||
+            Math.abs(lon - bbox.maxLon) < EDGE_TOL) onEdge++
       }
       if (onEdge / outer.length > 0.05) return false
     }

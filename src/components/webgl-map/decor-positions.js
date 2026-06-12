@@ -4,11 +4,10 @@
 
 // Statiska lat/lon (passa map.js exakt)
 export const DECOR_LL = {
-  // Sjö-decor (boat-fasen)
+  // Sjö-decor (båt-/hamn-fasen)
   kraken:     [17.529805, 59.294257],
-  octopus:    [17.771634, 59.221499],
   mermaid:    [17.584792, 59.295477],
-  seaMonster: [17.463101, 59.301755],
+  seaMonster: [17.463101, 59.306755],
   whale1:     [17.792912, 59.262066],
   decorShip:  [18.174623, 59.329939],
   storm:      [17.42,     59.36],
@@ -17,6 +16,7 @@ export const DECOR_LL = {
 
   // Land-figurer (drive-fasen, statiska). Keys = filename för att undvika
   // missförstånd när vi swapper bilder.
+  octopus:    [17.771634, 59.221499],
   pirateOgre: [17.940604, 59.28],
   robbers:    [17.604010, 59.190343],
   tree2:      [17.524204, 59.211292],
@@ -32,7 +32,7 @@ export const DECOR_LL = {
 
   // Dragons — projicerade direkt
   dragon0: [17.92, 59.31],
-  dragon1: [17.65, 59.34],
+  dragon1: [17.65, 59.31],
 }
 
 // Sprite-storlekar — EXAKT matchande map.js decorImage size-argument
@@ -46,14 +46,14 @@ export const DECOR_SIZE = {
   village1:   75,
   village2:   70,
   village3:  130,
-  globen:     70,
+  globen:     84,   // +20% från 70
   skull:      90,   // map.js skull(): width=90 height=90
   robbers:   110,
   dragon:     90,   // dragonWarning: width=90
   kraken:     68,   // kraken(): decorImage(..., 90) — krymp 25% från original
   octopus:    80,   // octopus(): decorImage(..., 80)
   mermaid:    50,   // mermaid(): decorImage(..., 50)
-  seaMonster: 60,   // seaMonster(): decorImage(..., 60)
+  seaMonster: 36,   // 40% mindre än original 60
   whale:      60,   // whale(): width=60 height=60 (half=30)
   decorShip:  65,   // halverat från 130
   storm:     180,

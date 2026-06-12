@@ -216,6 +216,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   reveal(sprites.dragon0,  12.6,  0.7, 0.3, 0.85)
   reveal(sprites.pirateOgre,13.3, 0.6, 0.4)
   reveal(sprites.village1, 14.2,  0.9, 0.3)
+  reveal(sprites.octopus,  15,  1,   0.2)
   reveal(sprites.skull,    15.5,  0.7, 0.3)
   reveal(sprites.robbers,  17.7,  0.8, 0.3)
   reveal(sprites.tree2,    19.4,  0.6, 0.4)
@@ -268,7 +269,6 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   // new_t = 34 + (orig_t - 38) × 17/19
   reveal(sprites.mermaid, 33.8, 0.9, 0.3)
   reveal(sprites.kraken,  41.9, 1,   0.2)
-  reveal(sprites.octopus, 50.1, 1,   0.2)
 
   // 51–59s: ovanan-sekvens efter båtens ankomst (t=51)
   tl.to(camera, {

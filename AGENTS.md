@@ -82,28 +82,37 @@ RSVP visar en delmängd via `RSVP_PRACTICAL_KEYS` i `practical-info.js`.
 
 **När du lägger till ny copy:** skapa ny `key` i `practical_info_seed.sql`, hämta via `fetchPracticalMap()`, rendera med `formatPracticalMarkdown()`. Hårdkoda inte placeholder-strängar i JSX/HTML om de ska kunna redigeras i admin.
 
-## WebGL-karta (`src/components/webgl-map/`)
+## WebGL-karta (`src/components/webgl-map/`) — enda källan för kartändringar
+
+Alla kartrelaterade uppgifter (positioner, reveal-timing, kamera, dekorationer, ambient) ska göras **här**. Detta är produktionen som gäster ser på `/`.
 
 | Fil | Roll |
 |-----|------|
 | `index.js` | `mountWebglMap()` / `unmountWebglMap()` — Pixi `Application`, resize, reveal-loop |
 | `scene.js` | Bygger statisk scen från `map-data.json` + dekorations-PNG:er |
-| `camera.js` | Zoom/pan/rotation — spegel av `cam` + `applyCam()` i `map.js` |
+| `camera.js` | Zoom/pan/rotation |
 | `tilt-stage.js` | 3D-tilt via `PerspectiveMesh` + `RenderTexture` (renderar `scene.root` per frame) |
 | `reveal-timeline.js` | GSAP reveal (~68 s) mot Pixi `DisplayObject`s |
 | `ambient.js` | Loopande tweens efter reveal |
 | `routes.js` | Bil- och båtrutter med marching-ants |
-| `projection.js` / `decor-positions.js` | Lat/lon → scenkoordinater |
+| `projection.js` / `decor-positions.js` | Lat/lon → scenkoordinater; **`decor-positions.js` (`DECOR_LL`, `DECOR_SIZE`) är sanningen för dekorationspositioner** |
 
 CSS för overlay/scroll-lås: `src/styles/webgl.css` (`body.webgl-revealing` / `webgl-revealed`).
 
+## Legacy-karta (`/old`) — rör inte
+
+`src/components/map.js`, `src/pages/home.js` och tillhörande SVG-CSS (`src/styles/map.css` m.m.) är kvar som historisk fallback/jämförelse. **Ändra dem inte** när användaren ber om kartjusteringar — uppdatera bara `src/components/webgl-map/`.
+
+**Gör inte:**
+
+- Synka positioner, reveal-timing eller kamerabeteende till legacy bara för att "hålla dem lika".
+- Refaktorera, fixa eller förbättra legacy-kartan om det inte uttryckligen efterfrågas (t.ex. "fixa `/old` också").
+
+**Undantag:** Om användaren uttryckligen pekar på `/old` eller `map.js` — då får du röra legacy-filerna.
+
 ## Reveal-timing
 
-**WebGL (produktion):** inline `reveal()`-anrop i `reveal-timeline.js`.
-
-**Legacy SVG (`/old`):** konfig-arrayer i `map.js` (`driveReveals`, `harborReveals`, `boatReveals`, `endReveals`).
-
-Ändra timing i **båda** om beteendet ska matcha.
+Inline `reveal()`-anrop i `reveal-timeline.js`. Legacy har motsvarande konfig i `map.js` — ignorera den om inget annat sägs.
 
 ## Performance-fällor — WebGL (lärt ut hård väg)
 
@@ -113,9 +122,9 @@ CSS för overlay/scroll-lås: `src/styles/webgl.css` (`body.webgl-revealing` / `
 - **Kameran uppdateras via `camera.apply()`** efter GSAP `onUpdate` — inte direkt på container-transform utanför `Camera`.
 - **Visuell kvalitet > frame rate.** Sajten får vara tung; rör inte effekter/ambient-tweens "för perfens skull" utan att fråga.
 
-## Performance-fällor — legacy SVG (`/old`)
+## Performance-fällor — legacy SVG (`/old`, referens only)
 
-Behålls för fallback/jämförelse. Se `src/components/map.js`:
+Behålls oförändrad för fallback/jämförelse. Agents redigerar inte dessa filer. Referens om legacy beteende behövs — se `src/components/map.js`:
 
 - Zoom via `viewBox` per frame; rotation via inner `<g class="map-rotor">`.
 - Ingen CSS `filter: drop-shadow()` på kartelement — bakas in i PNG eller via SVG `<feDropShadow>`.

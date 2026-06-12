@@ -97,21 +97,6 @@ body.webgl-revealed .webgl-content {
   opacity: 1;
 }
 
-.webgl-hud__title {
-  position: fixed;
-  top: max(0.5rem, env(safe-area-inset-top));
-  left: 1rem;
-  z-index: 50;
-  font-family: var(--font-display);
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  color: var(--paper);
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.3rem 0.5rem;
-  border-radius: 0.25rem;
-  opacity: 0.5;
-}
-
 .webgl-hud__skip {
   position: fixed;
   bottom: max(1.5rem, env(safe-area-inset-bottom));
