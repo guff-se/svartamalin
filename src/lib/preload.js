@@ -25,6 +25,7 @@ const MAP_IMAGES = [
   '/images/map/whale-2.png',
   '/images/map/tree-1.png',
   '/images/map/tree-2.png',
+  '/images/map/pirate-ogre.png',
   '/images/map/tree-3.png',
   '/images/map/village-1.png',
   '/images/map/village-2.png',

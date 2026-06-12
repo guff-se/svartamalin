@@ -27,8 +27,10 @@ const MAP_DATA_URL = '/map-data.json'
 const DECOR_ASSETS = {
   parchment:    '/images/map/parchment.png',
   wagon:        '/images/map/wagon.png',
-  tree1:        '/images/map/tree-1.png',
-  tree2:        '/images/map/tree-2.png',
+  // Visuella swappar: tree1-positionen får tree-2-bilden; tree2-positionen
+  // får pirate-ogre. Keys behåller sina namn så timings/positioner stämmer.
+  tree1:        '/images/map/tree-2.png',
+  tree2:        '/images/map/pirate-ogre.png',
   tree3:        '/images/map/tree-3.png',
   village1:     '/images/map/village-1.png',
   village2:     '/images/map/village-2.png',

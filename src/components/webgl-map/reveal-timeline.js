@@ -195,7 +195,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   reveal(sprites.tree3,    8,    0.6, 0.4)
   reveal(sprites.globen,  11,    0.9, 0.3)
   reveal(sprites.dragon0, 13,    0.7, 0.3, 0.85)
-  reveal(sprites.tree1,   15,    0.6, 0.4)
+  reveal(sprites.tree1,   20,    0.6, 0.4)
   reveal(sprites.village1,16,    0.9, 0.3)
   reveal(sprites.skull,   17.5,  0.7, 0.3)
   reveal(sprites.robbers, 20,    0.8, 0.3)
