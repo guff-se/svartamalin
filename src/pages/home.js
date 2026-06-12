@@ -9,10 +9,10 @@ export async function renderHome(app) {
   app.innerHTML = `
     <main class="home content-overlay">
       <section class="hero">
-        <img class="hero-portrait" src="/images/portraits/malin-tadaa.jpg" alt="Svarta Malin" />
+        <img class="hero-portrait" src="/images/svarta-malin-hero.webp" alt="Svarta Malin" width="720" height="895" />
         <h1 class="hero-title">Svarta Malin</h1>
         <p class="hero-sub">Salmonellahavets fasa</p>
-        <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" width="48" height="96">
+        <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" width="36" height="72">
       </section>
 
       <section class="card-section">

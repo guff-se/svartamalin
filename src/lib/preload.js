@@ -45,7 +45,7 @@ const CARD_OVERLAYS = [
 ]
 
 const HERO_ASSETS = [
-  '/images/portraits/malin-tadaa.jpg',
+  '/images/svarta-malin-hero.webp',
 ]
 
 const ALL = [...MAP_IMAGES, ...CARD_OVERLAYS, ...HERO_ASSETS]

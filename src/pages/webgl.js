@@ -18,10 +18,10 @@ export async function renderWebgl(app) {
       <div id="webgl-hero-tint"></div>
       <main class="home content-overlay">
         <section class="hero webgl-hero" id="webgl-hero">
-          <img class="hero-portrait" src="/images/portraits/malin-tadaa.jpg" alt="Svarta Malin" />
+          <img class="hero-portrait" src="/images/svarta-malin-hero.webp" alt="Svarta Malin" width="720" height="895" />
           <h1 class="hero-title">Svarta Malin</h1>
           <p class="hero-sub">Salmonellahavets fasa</p>
-          <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" />
+          <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" width="36" height="72" />
         </section>
 
         <section class="card-section">

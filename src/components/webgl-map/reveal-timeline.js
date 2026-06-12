@@ -228,7 +228,11 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
 
   tl.to(camera, { w: ZOOM_W * 0.42, h: ZOOM_H * 0.42, duration: 2, ease: 'power2.inOut', onUpdate: onCamUpdate }, 33)
 
-  const boatProgress = { p: 0 }
+  // Starta båten 2% in på path:en så tangent-beräkningen (atan2 av nästa−
+  // föregående punkt) är stabil från första frame. Vid p=0 är prev≈current
+  // och atan2(0,0) ger noll → båten kan flippa runt sin egen axel innan
+  // den faktiskt rör sig.
+  const boatProgress = { p: 0.02 }
   tl.to(boatProgress, {
     p: 0.99,
     duration: 17,
