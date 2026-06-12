@@ -168,13 +168,13 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
     },
   }, 1)
 
-  // 3–32s: drive route draw-in + kamera följer
-  tl.to(routes.drive, { progress: 1, duration: 29, ease: 'power2.inOut' }, 3)
-  tl.call(() => { routes.drive.solid = false }, null, 32)
+  // 3–28s: drive route draw-in + kamera följer (25s, var 29s)
+  tl.to(routes.drive, { progress: 1, duration: 25, ease: 'power2.inOut' }, 3)
+  tl.call(() => { routes.drive.solid = false }, null, 28)
 
   tl.to(driveProgress, {
     p: 1,
-    duration: 29,
+    duration: 25,
     ease: 'power2.inOut',
     onUpdate() {
       const len = driveProgress.p * driveTotal
@@ -195,47 +195,48 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
       { x: bs.x, y: bs.y, duration: dur, ease }, t)
   }
 
-  reveal(sprites.wagon,    4,    0.7, 0.3)
-  reveal(sprites.tree1,   13,    0.6, 0.4)
-  reveal(sprites.globen,  11,    0.9, 0.3)
-  reveal(sprites.dragon0, 13,    0.7, 0.3, 0.85)
-  reveal(sprites.pirateOgre, 15, 0.6, 0.4)
-  reveal(sprites.village1,16,    0.9, 0.3)
-  reveal(sprites.skull,   17.5,  0.7, 0.3)
-  reveal(sprites.robbers, 20,    0.8, 0.3)
-  reveal(sprites.tree2,   22,    0.6, 0.4)
-  reveal(sprites.dragon1, 27,    0.7, 0.3, 0.85)
-  reveal(sprites.decorShip, 28,  0.9, 0.5, 1, 'power2.out')
+  // Drive reveals — skalade proportionellt mot ny 25s-duration (var 29s).
+  // new_t = 3 + (orig_t - 3) × 25/29
+  reveal(sprites.wagon,     3.9,  0.7, 0.3)
+  reveal(sprites.globen,    9.9,  0.9, 0.3)
+  reveal(sprites.tree1,    11.6,  0.6, 0.4)
+  reveal(sprites.dragon0,  11.6,  0.7, 0.3, 0.85)
+  reveal(sprites.pirateOgre,13.3, 0.6, 0.4)
+  reveal(sprites.village1, 14.2,  0.9, 0.3)
+  reveal(sprites.skull,    15.5,  0.7, 0.3)
+  reveal(sprites.robbers,  17.7,  0.8, 0.3)
+  reveal(sprites.tree2,    19.4,  0.6, 0.4)
+  reveal(sprites.dragon1,  23.7,  0.7, 0.3, 0.85)
+  reveal(sprites.decorShip,24.5,  0.9, 0.5, 1, 'power2.out')
 
-  // 32–35s: hamn inzoom + tilt-down
-  tl.to(camera, { w: ZOOM_W * 0.6, h: ZOOM_H * 0.6, duration: 3, ease: 'power2.inOut', onUpdate: onCamUpdate }, 32)
-  tl.to(camera, { rot: 0, duration: 3.5, ease: 'power3.inOut', onUpdate: onCamUpdate }, 32)
-  tl.to(camera, { tilt: 0, duration: 3.5, ease: 'power3.inOut', onUpdate: onCamUpdate }, 32)
+  // 28–31s: hamn inzoom + tilt-down (shiftad −4s från originalet 32)
+  tl.to(camera, { w: ZOOM_W * 0.6, h: ZOOM_H * 0.6, duration: 3, ease: 'power2.inOut', onUpdate: onCamUpdate }, 28)
+  tl.to(camera, { rot: 0, duration: 3.5, ease: 'power3.inOut', onUpdate: onCamUpdate }, 28)
+  tl.to(camera, { tilt: 0, duration: 3.5, ease: 'power3.inOut', onUpdate: onCamUpdate }, 28)
 
-  reveal(harborMarker,     33.5, 1.2, 0.4)
-  reveal(sprites.seaMonster, 33, 0.9, 0.3)
-  reveal(sprites.whale1,    35,  0.9, 0.3)
-  reveal(sprites.village2,  24,  0.9, 0.3)
-  reveal(sprites.village3,  26,  0.9, 0.3)
+  reveal(harborMarker,       29.5, 1.2, 0.4)
+  reveal(sprites.seaMonster, 29,   0.9, 0.3)
+  reveal(sprites.whale1,     31,   0.9, 0.3)
+  reveal(sprites.village2,   21.1, 0.9, 0.3)
+  reveal(sprites.village3,   22.8, 0.9, 0.3)
 
-  // 38–57s: båtrutt + skepp följer
-  tl.to(routes.boat, { progress: 1, duration: 19, ease: 'power2.inOut' }, 38)
-  tl.call(() => { routes.boat.solid = false }, null, 57)
+  // 34–49s: båtrutt + skepp följer (15s, var 19s; start −4s)
+  tl.to(routes.boat, { progress: 1, duration: 15, ease: 'power2.inOut' }, 34)
+  tl.call(() => { routes.boat.solid = false }, null, 49)
 
-  reveal(ourShip, 37, 0.8, 0.5)
+  reveal(ourShip, 33, 0.8, 0.5)
 
-  tl.to(camera, { w: ZOOM_W * 0.42, h: ZOOM_H * 0.42, duration: 2, ease: 'power2.inOut', onUpdate: onCamUpdate }, 37)
+  tl.to(camera, { w: ZOOM_W * 0.42, h: ZOOM_H * 0.42, duration: 2, ease: 'power2.inOut', onUpdate: onCamUpdate }, 33)
 
   const boatProgress = { p: 0 }
   tl.to(boatProgress, {
     p: 0.99,
-    duration: 19,
+    duration: 15,
     ease: 'power2.inOut',
     onUpdate() {
       const len = boatProgress.p * boatTotal
       const [px, py] = sampleAt(boatPoly, boatCum, len)
       camera.cx = px; camera.cy = py
-      // Skeppet följer båt-pathen med samma vinkel-tangent + 180° flipp
       const prev = sampleAt(boatPoly, boatCum, Math.max(0, len - 4))
       const ang = Math.atan2(py - prev[1], px - prev[0]) * 180 / Math.PI + 180
       ourShip.x = px
@@ -243,29 +244,29 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
       ourShip.rotation = (ang * Math.PI) / 180
       onCamUpdate()
     },
-  }, 38)
+  }, 34)
 
-  // Sjökreatur under båtfasen
-  reveal(sprites.mermaid, 39, 0.9, 0.3)
-  reveal(sprites.kraken,  47, 1,   0.2)
-  reveal(sprites.octopus, 56, 1,   0.2)
+  // Sjökreatur under båtfasen — skalade mot 15s-duration (var 19s).
+  // new_t = 34 + (orig_t - 38) × 15/19
+  reveal(sprites.mermaid, 33.8, 0.9, 0.3)
+  reveal(sprites.kraken,  41.1, 1,   0.2)
+  reveal(sprites.octopus, 47.2, 1,   0.2)
 
-  // 58–66s: ovanan-sekvens efter att skeppet anlänt vid Ovanan (t=57.5)
-  // En enda zoom på ön (cam.w=30), fadea in ovanan.jpg-overlay, sen x-marks.
+  // 49–57s: ovanan-sekvens efter båtens ankomst (t=49)
   tl.to(camera, {
     cx: ox, cy: oy,
     w: 30 * M, h: (30 / ASPECT) * M,
     duration: 3,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
-  }, 58)
-  tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 60)
-  tl.fromTo(xMarks, { alpha: 0 }, { alpha: 1, duration: 1, ease: 'back.out(2)' }, 63)
+  }, 49)
+  tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 51)
+  tl.fromTo(xMarks, { alpha: 0 }, { alpha: 1, duration: 1, ease: 'back.out(2)' }, 54)
   tl.fromTo(xMarks.scale,
     { x: xMarks._baseScale.x * 0.3, y: xMarks._baseScale.y * 0.3 },
-    { x: xMarks._baseScale.x, y: xMarks._baseScale.y, duration: 1, ease: 'back.out(2)' }, 63)
+    { x: xMarks._baseScale.x, y: xMarks._baseScale.y, duration: 1, ease: 'back.out(2)' }, 54)
 
-  // 67–72s: zooma ut till helheten (shiftad +6s från originalet 61)
+  // 58–63s: zooma ut till helheten
   tl.to(camera, {
     cx: endFx,
     cy: endFy,
@@ -274,12 +275,11 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
     duration: 5,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
-  }, 67)
-  // Fadea ut ovanan-overlay under zoom-ut så det inte ser konstigt ut långt borta
-  tl.to(ovananMap, { alpha: 0, duration: 3, ease: 'power2.in' }, 67)
-  tl.to(xMarks,    { alpha: 0, duration: 3, ease: 'power2.in' }, 67)
-  reveal(sprites.compass, 69, 1.5, 0.3)
-  reveal(sprites.storm,   70, 1.5, 0.5, 1, 'power2.out')
+  }, 58)
+  tl.to(ovananMap, { alpha: 0, duration: 3, ease: 'power2.in' }, 58)
+  tl.to(xMarks,    { alpha: 0, duration: 3, ease: 'power2.in' }, 58)
+  reveal(sprites.compass, 60, 1.5, 0.3)
+  reveal(sprites.storm,   61, 1.5, 0.5, 1, 'power2.out')
 
   return tl
 }
