@@ -32,6 +32,11 @@ function logout() {
 }
 
 document.getElementById('logout-btn').addEventListener('click', logout)
+document.getElementById('info-btn').addEventListener('click', () => {
+  history.pushState(null, '', '/info')
+  route()
+})
+window.addEventListener('popstate', route)
 
 function devRoute() {
   const path = location.pathname.replace(/\/$/, '') || '/'
@@ -43,6 +48,11 @@ function devRoute() {
 function isOldRoute() {
   const path = location.pathname.replace(/\/$/, '') || '/'
   return path === '/old'
+}
+
+function isInfoRoute() {
+  const path = location.pathname.replace(/\/$/, '') || '/'
+  return path === '/info'
 }
 
 async function route() {
@@ -85,6 +95,16 @@ async function route() {
     showTopControls()
     const { renderRsvp } = await import('./pages/rsvp.js')
     renderRsvp(app, () => route())
+    return
+  }
+
+  // /info → edit-form för matpref/övrig info/kontakt (piratnamn låst).
+  if (isInfoRoute()) {
+    hideLoading()
+    showTopControls()
+    unmountMapBackground()
+    const { renderInfoEdit } = await import('./pages/info-edit.js')
+    renderInfoEdit(app, () => { history.pushState(null, '', '/'); route() })
     return
   }
 

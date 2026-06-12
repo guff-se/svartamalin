@@ -9,8 +9,8 @@ import { bindVisibleScrollbar } from '../lib/visible-scrollbar.js'
 import { isSelectablePirateName } from '../lib/pirate-name-order.js'
 
 // Steg-state hålls i closures här i modulen.
-let stage = 'attending' // 'attending' | 'pirate' | 'declined'
-let guest = null   // { id, real_name }
+let stage = 'attending' // 'attending' | 'info' | 'pirate' | 'declined'
+let guest = null   // { id, real_name, phone, email, food_notes, notes, ... }
 
 export async function renderRsvp(app, onDone) {
   const existingId = getGuestId()
@@ -29,7 +29,7 @@ export async function renderRsvp(app, onDone) {
 
   const { data, error } = await supabase
     .from('guests')
-    .select('id, real_name, attending, pirate_name_id')
+    .select('id, real_name, attending, pirate_name_id, phone, email, food_notes, notes')
     .eq('id', existingId)
     .maybeSingle()
 
@@ -48,10 +48,17 @@ export async function renderRsvp(app, onDone) {
   guest = data
   if (data.attending === null) stage = 'attending'
   else if (data.attending === false) stage = 'declined'
+  else if (!hasInfoFilled(data)) stage = 'info'
   else if (data.pirate_name_id === null) stage = 'pirate'
   else { onDone(); return }
 
   render(app, onDone)
+}
+
+// Hjälp: anser info-steget "fyllt" om minst food_notes ELLER notes är ifyllt
+// (telefon/mejl frivilligt). Tomma strängar räknas inte som ifyllt.
+function hasInfoFilled(g) {
+  return Boolean((g.food_notes ?? '').trim()) || Boolean((g.notes ?? '').trim())
 }
 
 function render(app, onDone) {
@@ -60,6 +67,7 @@ function render(app, onDone) {
   const card = document.getElementById('rsvp-card')
 
   if (stage === 'attending') renderAttendingStep(card, onDone)
+  else if (stage === 'info') renderInfoStep(card, onDone)
   else if (stage === 'pirate') renderPirateStep(card, onDone)
   else if (stage === 'declined') renderDeclinedStep(card, onDone)
 }
@@ -93,8 +101,63 @@ async function updateAttending(attending, onDone) {
   }
   guest.attending = attending
   if (attending !== true) guest.pirate_name_id = null
-  stage = attending ? 'pirate' : 'declined'
+  if (!attending) stage = 'declined'
+  else if (!hasInfoFilled(guest)) stage = 'info'
+  else if (guest.pirate_name_id == null) stage = 'pirate'
+  else { onDone(); return }
   render(document.getElementById('app'), onDone)
+}
+
+// --- INFO-STEG: matpref/allergier + övrig info -------------------------
+function renderInfoStep(card, onDone) {
+  card.innerHTML = `
+    <p class="step-hint">— ${escapeHtml(guest.real_name)} —</p>
+    <h2>Berätta lite om dig</h2>
+    <p class="farewell">Vi vill veta innan du går ombord.</p>
+    <form id="info-form" class="info-form" autocomplete="on">
+      <label class="info-field">
+        <span>Allergier / matpreferenser</span>
+        <textarea id="food-notes" rows="3" placeholder="t.ex. inga räkor, vegetarian, glutenintolerant…">${escapeHtml(guest.food_notes ?? '')}</textarea>
+      </label>
+      <label class="info-field">
+        <span>Övrig info vi bör veta</span>
+        <textarea id="other-notes" rows="3" placeholder="t.ex. trasig fot, hund med, kommer sent…">${escapeHtml(guest.notes ?? '')}</textarea>
+      </label>
+      <label class="info-field">
+        <span>Telefon (frivilligt)</span>
+        <input id="phone" type="tel" inputmode="tel" value="${escapeHtml(guest.phone ?? '')}" />
+      </label>
+      <label class="info-field">
+        <span>E-post (frivilligt)</span>
+        <input id="email" type="email" value="${escapeHtml(guest.email ?? '')}" />
+      </label>
+      <div class="row">
+        <button type="submit">Fortsätt</button>
+      </div>
+    </form>
+  `
+  document.getElementById('info-form').addEventListener('submit', async (e) => {
+    e.preventDefault()
+    const food = document.getElementById('food-notes').value.trim()
+    const other = document.getElementById('other-notes').value.trim()
+    const phone = document.getElementById('phone').value.trim()
+    const email = document.getElementById('email').value.trim()
+    const { error } = await supabase
+      .from('guests')
+      .update({
+        food_notes: food || null,
+        notes: other || null,
+        phone: phone || null,
+        email: email || null,
+      })
+      .eq('id', guest.id)
+    if (error) { alert('Något gick fel: ' + error.message); return }
+    guest.food_notes = food; guest.notes = other
+    guest.phone = phone; guest.email = email
+    stage = guest.pirate_name_id == null ? 'pirate' : 'done'
+    if (stage === 'done') { onDone(); return }
+    render(document.getElementById('app'), onDone)
+  })
 }
 
 async function renderPirateStep(card, onDone) {

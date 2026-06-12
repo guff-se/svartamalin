@@ -25,7 +25,8 @@ create table if not exists guests (
   crew_id int references crews(id),
   phone text,
   email text,
-  notes text                        -- t.ex. allergier
+  food_notes text,                  -- allergier / mat-preferenser
+  notes text                        -- övrig info gästen vill att vi vet
 );
 
 create table if not exists practical_info (

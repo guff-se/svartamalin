@@ -228,3 +228,42 @@
     grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
   }
 }
+
+/* Info-formen (matpref + övrig info + kontakt) */
+.info-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+.info-field {
+  display: grid;
+  gap: 0.35rem;
+}
+.info-field > span {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.info-field textarea,
+.info-field input {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--gold);
+  color: var(--paper);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 0.75rem;
+  resize: vertical;
+}
+.info-field textarea:focus,
+.info-field input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.info-saved {
+  text-align: center;
+  color: var(--gold);
+  font-style: italic;
+}
