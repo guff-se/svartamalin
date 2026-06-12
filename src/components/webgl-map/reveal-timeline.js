@@ -204,7 +204,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   reveal(sprites.skull,   17.5,  0.7, 0.3)
   reveal(sprites.robbers, 20,    0.8, 0.3)
   reveal(sprites.tree2,   22,    0.6, 0.4)
-  reveal(sprites.dragon1, 26,    0.7, 0.3, 0.85)
+  reveal(sprites.dragon1, 27,    0.7, 0.3, 0.85)
   reveal(sprites.decorShip, 28,  0.9, 0.5, 1, 'power2.out')
 
   // 32–35s: hamn inzoom + tilt-down
