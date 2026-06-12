@@ -102,9 +102,10 @@ async function route() {
   showLoading()
   unmountMapBackground()
   document.body.classList.add('webgl-revealing')
-  hideLoading()
   const { renderWebgl } = await import('./pages/webgl.js')
   renderWebgl(app)
+  // hideLoading() anropas inifrån mountWebglMap efter att scenen är klar
+  // + minst 600ms (samma mönster som /old map.js).
 }
 
 route()

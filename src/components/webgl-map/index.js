@@ -8,6 +8,7 @@ import { TiltStage } from './tilt-stage.js'
 import { buildRevealTimeline } from './reveal-timeline.js'
 import { startAmbient } from './ambient.js'
 import { startShowAudio } from '../../lib/audio.js'
+import { hideLoading } from '../../lib/loading.js'
 
 let app = null
 let hostEl = null
@@ -18,6 +19,7 @@ let revealRafId = 0
 export async function mountWebglMap(el) {
   if (app) return  // idempotent
 
+  const mountStart = performance.now()
   hostEl = el
   app = new Application()
   await app.init({
@@ -82,9 +84,16 @@ export async function mountWebglMap(el) {
     tiltStage.resize()
   })
 
-  // P5: bygg och kör reveal-timeline
+  // P5: bygg reveal-timeline (sätter initial cam-state på Stockholm)
   const tl = buildRevealTimeline(scene, camera, tiltStage)
   const endTime = tl.duration()
+
+  // Minst 600ms loading screen — samma mönster som /old map.js. Hindrar
+  // att kartan "hoppar" innan animationen startar (initialt fit-world,
+  // sen omedelbart timeline-state på Stockholm = synligt hopp).
+  const elapsed = performance.now() - mountStart
+  if (elapsed < 600) await new Promise((r) => setTimeout(r, 600 - elapsed))
+  hideLoading()
 
   // Wall-clock-driven rAF (bypass GSAP lagSmoothing — matchar fix i map.js)
   startShowAudio()

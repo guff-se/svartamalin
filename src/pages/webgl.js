@@ -67,6 +67,8 @@ export async function renderWebgl(app) {
   window.addEventListener('beforeunload', cleanup)
 
   // Mount WebGL-bakgrunden parallellt med content (content kräver inte Pixi)
+  // Behöver INTE await — kontent under hero renderas parallellt med Pixi:s
+  // setup. hideLoading kallas inifrån mountWebglMap när scenen är redo.
   mountWebglMap(document.getElementById('webgl-stage'))
 
   // Rendera resten av sidan (samma som home.js)

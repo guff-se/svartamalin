@@ -310,6 +310,10 @@
   display: grid;
   gap: 0.75rem;
 }
+.crew-rename-form[hidden],
+.crew-rename-error[hidden] {
+  display: none;
+}
 .crew-rename-input {
   width: 100%;
   background: rgba(0, 0, 0, 0.35);
