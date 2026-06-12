@@ -12,6 +12,42 @@ Riktlinjer:
 - Commit-meddelanden på svenska, korta och beskrivande (samma ton som projektet i övrigt).
 - Inkludera `Co-Authored-By: Claude <noreply@anthropic.com>` i fotern.
 
+## Supabase — access och migrationer
+
+Du har direktåtkomst till Supabase via creds i `.env.local`. **Vänta inte på användaren — kör mot databasen själv** när det behövs (seed, data-fix, migrationer).
+
+**Tre nivåer av access (kolla `.env.local` för vad som finns):**
+
+1. **`VITE_SUPABASE_ANON_KEY`** — alltid där. Räcker för rad-läs/skriv på tabeller med öppna RLS-policies (t.ex. `practical_info`, `guests`). Via PostgREST:
+   ```bash
+   set -a; source .env.local; set +a
+   curl -s -X PATCH "${VITE_SUPABASE_URL}/rest/v1/practical_info?key=eq.dates" \
+     -H "apikey: ${VITE_SUPABASE_ANON_KEY}" \
+     -H "Authorization: Bearer ${VITE_SUPABASE_ANON_KEY}" \
+     -H "Content-Type: application/json" \
+     -H "Prefer: return=minimal" \
+     -d '{"value":"5–7 september"}'
+   ```
+
+2. **`SUPABASE_SERVICE_ROLE_KEY`** (om den finns i `.env.local`) — bypass:ar RLS, kan läsa/skriva ALLA tabeller men kan fortfarande INTE köra DDL via PostgREST. Skickas i samma `apikey`/`Authorization`-headers.
+
+3. **DDL (CREATE/ALTER/DROP)** — kräver Postgres-direktanslutning eller Management API. Två vägar:
+   - **Postgres connection-string** (`DATABASE_URL=postgresql://...` i `.env.local`) → kör direkt med `psql` eller `node-postgres`:
+     ```bash
+     psql "$DATABASE_URL" -c "alter table guests add column food_notes text;"
+     ```
+   - **Management API** (`SUPABASE_ACCESS_TOKEN=sbp_...` + `SUPABASE_PROJECT_REF=xxx` i `.env.local`):
+     ```bash
+     curl -s -X POST "https://api.supabase.com/v1/projects/${SUPABASE_PROJECT_REF}/database/query" \
+       -H "Authorization: Bearer ${SUPABASE_ACCESS_TOKEN}" \
+       -H "Content-Type: application/json" \
+       -d '{"query":"alter table guests add column if not exists food_notes text"}'
+     ```
+
+**Om en DDL-migration behövs och creds (3) saknas** — säg det rakt ut och be användaren lägga in `SUPABASE_ACCESS_TOKEN` + `SUPABASE_PROJECT_REF` eller `DATABASE_URL` i `.env.local`. Pinga inte med "kör detta SQL själv" — det är ditt jobb när access finns.
+
+**Migrationer dokumenteras** alltid i `supabase/migrations/*.sql` (idempotent: `add column if not exists`, `create policy if not exists`) så historiken finns även när du kört den via API.
+
 ## Architectural conventions
 
 - **Authentication**: per-guest login via `login_slug` (gemener-version av riktigt namn utan mellanslag). Validering via `validate_guest_login()`-RPC i Supabase. Klienten sätter `guest_id` i `localStorage`. Inget öppet registreringsformulär — gäster seedas i förväg via `supabase/guests_seed.sql`.
