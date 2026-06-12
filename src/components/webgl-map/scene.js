@@ -365,8 +365,8 @@ export async function buildScene() {
   // Ovanan-overlay: foto av ön. Centrerad på ovanan-koordinaten, sized
   // för att täcka ön. Initially alpha 0 — fadear in när skeppet anlänt.
   // ovanan.jpg = 1024×1536 (aspect 0.667).
-  const OVANAN_W = 150
-  const OVANAN_H = OVANAN_W * (1536 / 1024)  // 225
+  const OVANAN_W = 7.5
+  const OVANAN_H = OVANAN_W * (1536 / 1024)  // 11.25
   const ovananMap = new Sprite(textures.ovananMap)
   ovananMap.anchor.set(0.5, 0.5)
   ovananMap.width = OVANAN_W
@@ -379,11 +379,11 @@ export async function buildScene() {
   root.addChild(ovananMap)
 
   // X marks the spot — placeras på övre delen av ovanan.jpg (där husen är).
-  // Offset ~ -25% av OVANAN_H från centrum.
+  // Offset ~ -25% av OVANAN_H från centrum. Storlek skalar med OVANAN_W.
   const xMarks = new Sprite(textures.xMarks)
   xMarks.anchor.set(0.5, 0.5)
-  xMarks.width = 30
-  xMarks.height = 30
+  xMarks.width = OVANAN_W * 0.2
+  xMarks.height = OVANAN_W * 0.2
   xMarks._baseScale = { x: xMarks.scale.x, y: xMarks.scale.y }
   xMarks.x = oxRoute
   xMarks.y = oyRoute - OVANAN_H * 0.25

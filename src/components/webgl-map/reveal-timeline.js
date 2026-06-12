@@ -247,7 +247,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
 
   // Sjökreatur under båtfasen
   reveal(sprites.mermaid, 39, 0.9, 0.3)
-  reveal(sprites.kraken,  48, 1,   0.2)
+  reveal(sprites.kraken,  47, 1,   0.2)
   reveal(sprites.octopus, 56, 1,   0.2)
 
   // 58–66s: ovanan-sekvens efter att skeppet anlänt vid Ovanan (t=57.5)
@@ -257,16 +257,16 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   // d) Hold några sekunder, sen slut-zoom (nedan)
   tl.to(camera, {
     cx: ox, cy: oy,
-    w: 200 * M, h: (200 / ASPECT) * M,
+    w: 30 * M, h: (30 / ASPECT) * M,  // zoom in på ön (ön är liten — ~10 world-units)
     duration: 2.5,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
   }, 58)
   tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 59)
-  // Zooma till ovanan.jpg fyller hela skärmen (sprite är 150 wide × 225 tall)
+  // Zooma till ovanan.jpg (7.5 world-units bred) fyller hela skärmen
   tl.to(camera, {
     cx: ox, cy: oy,
-    w: 150 * M, h: 150 * M / ASPECT,
+    w: 7.5 * M, h: 7.5 * M / ASPECT,
     duration: 2,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
