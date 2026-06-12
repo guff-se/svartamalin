@@ -20,6 +20,9 @@ export class Camera {
     this.h  = viewH
     this.rot = 0
     this.tilt = 0
+    // 'cover' = slice (Math.max, fyller canvas, croppar överskott) — default.
+    // 'contain' = meet (Math.min, letterbox/empty space på smalare dim).
+    this.fitMode = 'cover'
   }
 
   /** Applicera nuvarande {cx,cy,w,h,rot} på root-containerns transform.
@@ -37,7 +40,8 @@ export class Camera {
     const sw = this.tiltStage?._lastW ?? this.app.screen.width
     const sh = this.tiltStage?._lastH ?? this.app.screen.height
 
-    const scale = Math.max(sw / this.w, sh / this.h)
+    const fit = this.fitMode === 'contain' ? Math.min : Math.max
+    const scale = fit(sw / this.w, sh / this.h)
     const rotRad = (this.rot * Math.PI) / 180
 
     // Tilt-kompensation: vid lutning biaserar perspektivet visuell fokus

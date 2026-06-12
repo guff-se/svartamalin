@@ -70,10 +70,9 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   const ZOOM_W = VIEW_W * 0.56 * M
   const ZOOM_H = ZOOM_W / ASPECT
 
-  // Slutposition — projicera samma lat/lon som map.js raderna 152-154.
-  // (endFxBase = project([17.765, 59.308]), sen +5% skift höger.)
-  const [endFxBase, endFy] = scene.proj.project([17.765, 59.308])
-  const endFx = endFxBase + VIEW_W * 0.865 * 0.05
+  // Slutposition — något västerut från originalet 17.765, 10% mer utzoomad.
+  const [endFx, endFy] = scene.proj.project([17.71, 59.308])
+  const END_ZOOM = 0.865 * 1.1 * M
 
   // Cumulativa längder för path-sampling (smooth Catmull-Rom path, inte
   // den jagged OSRM-polylinen — annars rycker kameran vid varje hörn)
@@ -263,14 +262,19 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
     onUpdate: onCamUpdate,
   }, 58)
   tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 59)
-  // Zooma till ovanan.jpg (7.5 world-units bred) fyller hela skärmen
+  // Byt till contain-fit så bredden INTE fyller canvas — letterbox på
+  // sidorna och ön (11.25 hög) fyller ~90% av höjden via cam.h = 12.5.
+  // cam.w lite större än ovanan så vi inte croppar på bredden.
+  tl.call(() => { camera.fitMode = 'contain' }, null, 60.5)
   tl.to(camera, {
     cx: ox, cy: oy,
-    w: 7.5 * M, h: 7.5 * M / ASPECT,
+    w: 8 * M, h: 12.5 * M,
     duration: 2,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
   }, 61)
+  // Återställ cover-fit innan slut-zoom så övriga världen fyller canvas igen
+  tl.call(() => { camera.fitMode = 'cover' }, null, 66.5)
   tl.fromTo(xMarks, { alpha: 0 }, { alpha: 1, duration: 1, ease: 'back.out(2)' }, 63)
   tl.fromTo(xMarks.scale,
     { x: xMarks._baseScale.x * 0.3, y: xMarks._baseScale.y * 0.3 },
@@ -280,8 +284,8 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   tl.to(camera, {
     cx: endFx,
     cy: endFy,
-    w: VIEW_W * 0.865 * M,
-    h: viewH * 0.865 * M,
+    w: VIEW_W * END_ZOOM,
+    h: viewH * END_ZOOM,
     duration: 5,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
