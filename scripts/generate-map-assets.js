@@ -6,6 +6,7 @@
  * Every output is post-processed to delivery size/format (see assetOutput):
  * - decorations: 512×512 RGBA PNG (backdrop stripped, compressed)
  * - arrow-down: 128×256 RGBA
+ * - x-marks-the-spot: 256×256 RGBA
  * - city silhouettes: 768×768 / 768×512 RGBA
  * - parchment: 1024×1024 opaque RGB PNG
  *
@@ -187,6 +188,12 @@ const ASSETS = [
     size: [128, 256],
     prompt:
       'A naïve hand-drawn downward-pointing arrow for an 18th-century pirate or travel map, by an unskilled amateur cartographer. Quill pen and iron-gall ink outline with bold muted rust-red watercolour fill that spills slightly outside the wobbly lines. A simple map pointer: short vertical shaft, triangular arrowhead at the bottom pointing straight down — the tip must clearly aim downward. Lines hesitant and uneven, shaft slightly crooked, arrowhead lopsided or asymmetric. Bright enough red to read as a red arrow on a map, but aged and oxidised like period ink — not neon, not digital. Vertical composition, taller than wide. Isolated arrow symbol only, generous transparent margin around it.',
+  },
+  {
+    file: 'x-marks-the-spot.png',
+    size: [256, 256],
+    prompt:
+      'A naïve hand-drawn treasure-map X for an 18th-century pirate chart, by an unskilled amateur cartographer — same style as arrow-down.png. ONLY a single bold letter X, nothing else. Two thick crossed strokes forming an X, quill pen and iron-gall ink outline with bold muted rust-red watercolour fill spilling slightly outside the wobbly lines. Strokes hesitant and uneven, one arm of the X slightly longer or thicker than the other, the crossing off-centre, ends of the strokes blunt and hand-cut not perfect points. Bright enough red to read clearly as a map overlay on parchment, aged and oxidised like period ink — not neon, not digital. CRITICAL: no island, no sand, no palm tree, no treasure chest, no skull, no text, no circle around it — just the X symbol alone with generous transparent margin on all sides. Square composition, map overlay sticker.',
   },
   {
     file: 'harbor-dock-ne.png',

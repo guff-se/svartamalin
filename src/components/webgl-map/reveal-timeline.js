@@ -56,7 +56,7 @@ function normAngle(a) {
  * @param {TiltStage} tiltStage
  */
 export function buildRevealTimeline(scene, camera, tiltStage) {
-  const { sprites, journey, routes, harborMarker, ourShip, seaLabel } = scene
+  const { sprites, journey, routes, harborMarker, ourShip, ovananMap, xMarks, seaLabel } = scene
   const { sx, sy, hx, hy, ox, oy, camDrivePoly, boatPoly } = journey
   const viewH = scene.proj.viewH
 
@@ -250,7 +250,33 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   reveal(sprites.kraken,  48, 1,   0.2)
   reveal(sprites.octopus, 56, 1,   0.2)
 
-  // 61–66s: zooma ut till helheten
+  // 58–66s: ovanan-sekvens efter att skeppet anlänt vid Ovanan (t=57.5)
+  // a) Zooma in på ön + fadea in ovanan.jpg-overlay
+  // b) Zooma vidare så ovanan.jpg fyller skärmen
+  // c) Fadea in x-marks-the-spot på husen
+  // d) Hold några sekunder, sen slut-zoom (nedan)
+  tl.to(camera, {
+    cx: ox, cy: oy,
+    w: 200 * M, h: (200 / ASPECT) * M,
+    duration: 2.5,
+    ease: 'power2.inOut',
+    onUpdate: onCamUpdate,
+  }, 58)
+  tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 59)
+  // Zooma till ovanan.jpg fyller hela skärmen (sprite är 150 wide × 225 tall)
+  tl.to(camera, {
+    cx: ox, cy: oy,
+    w: 150 * M, h: 150 * M / ASPECT,
+    duration: 2,
+    ease: 'power2.inOut',
+    onUpdate: onCamUpdate,
+  }, 61)
+  tl.fromTo(xMarks, { alpha: 0 }, { alpha: 1, duration: 1, ease: 'back.out(2)' }, 63)
+  tl.fromTo(xMarks.scale,
+    { x: xMarks._baseScale.x * 0.3, y: xMarks._baseScale.y * 0.3 },
+    { x: xMarks._baseScale.x, y: xMarks._baseScale.y, duration: 1, ease: 'back.out(2)' }, 63)
+
+  // 67–72s: zooma ut till helheten (shiftad +6s från originalet 61)
   tl.to(camera, {
     cx: endFx,
     cy: endFy,
@@ -259,9 +285,12 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
     duration: 5,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
-  }, 61)
-  reveal(sprites.compass, 63, 1.5, 0.3)
-  reveal(sprites.storm,   64, 1.5, 0.5, 1, 'power2.out')
+  }, 67)
+  // Fadea ut ovanan-overlay under zoom-ut så det inte ser konstigt ut långt borta
+  tl.to(ovananMap, { alpha: 0, duration: 3, ease: 'power2.in' }, 67)
+  tl.to(xMarks,    { alpha: 0, duration: 3, ease: 'power2.in' }, 67)
+  reveal(sprites.compass, 69, 1.5, 0.3)
+  reveal(sprites.storm,   70, 1.5, 0.5, 1, 'power2.out')
 
   return tl
 }

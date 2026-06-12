@@ -26,6 +26,8 @@ const MAP_IMAGES = [
   '/images/map/tree-1.png',
   '/images/map/tree-2.png',
   '/images/map/pirate-ogre.png',
+  '/images/map/x-marks-the-spot.png',
+  '/images/maps/ovanan.jpg',
   '/images/map/tree-3.png',
   '/images/map/village-1.png',
   '/images/map/village-2.png',

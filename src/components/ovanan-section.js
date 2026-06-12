@@ -1,7 +1,7 @@
 import { bindLightboxTriggers } from '../lib/image-lightbox.js'
 import { fetchPracticalMap, formatPracticalMarkdown, OVANAN_LABELS } from './practical-info.js'
 
-const MAP_SRC = '/images/maps/ovanan-v9.jpg'
+const MAP_SRC = '/images/maps/ovanan.jpg'
 
 const INTRO_KEY = 'ovanan_intro'
 const BLOCK_KEYS = ['ovanan_accommodation', 'ovanan_resources']
