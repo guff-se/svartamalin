@@ -60,9 +60,14 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   const { sx, sy, hx, hy, ox, oy, camDrivePoly, boatPoly } = journey
   const viewH = scene.proj.viewH
 
+  // Mobil-detektion (används för tilt-dämpning + utzoomad-mult)
+  const isMobile = window.matchMedia('(max-width: 720px), (max-aspect-ratio: 3/4)').matches
+  // 20% mer utzoomad på mobil — cam.w/h-multiplier på alla zoom-värden
+  const M = isMobile ? 1.2 : 1.0
+
   // Aspect-ratio för inzoom
   const ASPECT = VIEW_W / viewH
-  const ZOOM_W = VIEW_W * 0.56
+  const ZOOM_W = VIEW_W * 0.56 * M
   const ZOOM_H = ZOOM_W / ASPECT
 
   // Slutposition — projicera samma lat/lon som map.js raderna 152-154.
@@ -83,7 +88,6 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   const blendRot = (deg) => normAngle(rotFromTangent(deg)) * ROAD_FOLLOW
 
   // Mobil-tilt
-  const isMobile = window.matchMedia('(max-width: 720px), (max-aspect-ratio: 3/4)').matches
   const tiltTarget = isMobile ? 22 : 50
 
   // Initial state: dölj alla decorations som ska reveal:as, sätt cam på Stockholm
@@ -200,7 +204,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   reveal(sprites.skull,   17.5,  0.7, 0.3)
   reveal(sprites.robbers, 20,    0.8, 0.3)
   reveal(sprites.tree2,   22,    0.6, 0.4)
-  reveal(sprites.dragon1, 25,    0.7, 0.3, 0.85)
+  reveal(sprites.dragon1, 26,    0.7, 0.3, 0.85)
   reveal(sprites.decorShip, 28,  0.9, 0.5, 1, 'power2.out')
 
   // 32–35s: hamn inzoom + tilt-down
@@ -250,8 +254,8 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   tl.to(camera, {
     cx: endFx,
     cy: endFy,
-    w: VIEW_W * 0.865,
-    h: viewH * 0.865,
+    w: VIEW_W * 0.865 * M,
+    h: viewH * 0.865 * M,
     duration: 5,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
