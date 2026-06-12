@@ -220,7 +220,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
 
   reveal(ourShip, 37, 0.8, 0.5)
 
-  tl.to(camera, { w: ZOOM_W * 0.35, h: ZOOM_H * 0.35, duration: 2, ease: 'power2.inOut', onUpdate: onCamUpdate }, 37)
+  tl.to(camera, { w: ZOOM_W * 0.42, h: ZOOM_H * 0.42, duration: 2, ease: 'power2.inOut', onUpdate: onCamUpdate }, 37)
 
   const boatProgress = { p: 0 }
   tl.to(boatProgress, {
