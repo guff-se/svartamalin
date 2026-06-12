@@ -213,7 +213,7 @@ function render(data) {
     [17.65, 59.34],  // Norr om Ekerö, mitt i körningen
   ].map(project)
   const skullPos = project([17.78, 59.29])    // Bilväg passerar nära
-  const monsterPos = project([17.45, 59.32])  // Vid harbor/Adelsö
+  const monsterPos = project([17.463101, 59.301755])
   const whale1Pos = project([17.792912, 59.262066])
   const decorShipPos = project([18.174623, 59.329939])
   // Sampla en punkt längs den faktiska bilvägen vid relativ position t (0..1)

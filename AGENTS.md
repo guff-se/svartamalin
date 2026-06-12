@@ -52,7 +52,7 @@ Du har direktåtkomst till Supabase via creds i `.env.local`. **Vänta inte på 
 
 - **Authentication**: per-guest login via `login_slug` (gemener-version av riktigt namn utan mellanslag). Validering via `validate_guest_login()`-RPC i Supabase. Klienten sätter `guest_id` i `localStorage`. Inget öppet registreringsformulär — gäster seedas i förväg via `supabase/guests_seed.sql`.
 - **Cloudflare Pages Functions** för `/api/unlock` och `/api/admin-unlock`. Använder `SUPABASE_URL`/`SUPABASE_ANON_KEY` env-vars (separat från Vite-prefixed motsvarigheter).
-- **Map animation** är **inte** scroll-driven. Produktionsversionen (`/`) renderas med **Pixi.js v8 (WebGL)** i `src/components/webgl-map/`, monteras via `src/pages/webgl.js`. Reveal körs som en pausad GSAP-timeline (`reveal-timeline.js`) driven av wall-clock `requestAnimationFrame` (~68 s). Låten startar parallellt via `startShowAudio()` men timelinen synkas inte mot `audio.currentTime`. Legacy-SVG finns kvar på `/old` (`src/components/map.js` + `src/pages/home.js`).
+- **Map animation** är **inte** scroll-driven. Produktionsversionen (`/`) renderas med **Pixi.js v8 (WebGL)** i `src/components/webgl-map/`, monteras via `src/pages/webgl.js`. Reveal körs som en pausad GSAP-timeline (`reveal-timeline.js`) driven av wall-clock `requestAnimationFrame` (~68 s). Låten startar parallellt via `startShowAudio()` men timelinen synkas inte mot `audio.currentTime`. Legacy-SVG på `/old` (`src/components/map.js` + `src/pages/home.js`) är **frusen referens** — se avsnittet nedan.
 - **Shared utilities** ligger i `src/lib/`:
   - `escape.js` — HTML-escape (importera från komponenter som skriver innerHTML)
   - `loading.js` — show/hide load-screen

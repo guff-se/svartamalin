@@ -105,8 +105,29 @@ export async function buildScene() {
   fillFeatures(islandsG, islands, project, { texture: textures.parchment })
   root.addChild(islandsG)
 
+  // Filtrera bort "öar" som är data-genereringsartefakter — när
+  // fetch-map-data.js stänger en kustlinje som extends bortom bbox längs
+  // bbox-edge skapas ibland en stor fake-ö där det egentligen är öppet
+  // hav (t.ex. söder om Södertälje, lat ≤ 59.05). Heuristik: hoppa över
+  // coastlineIslands vars outer ring har > 5 % av sina vertices EXAKT på
+  // någon bbox-edge. Verkliga öar har enstaka edge-träffar; closure-
+  // artefakter har dussintals/hundratals i rad.
+  const cleanCoastlineIslands = coastlineIslands.filter((f) => {
+    if (!f) return true
+    const polys = f.type === 'Polygon' ? [f.coordinates] : f.type === 'MultiPolygon' ? f.coordinates : []
+    for (const poly of polys) {
+      const outer = poly[0]
+      if (!outer || outer.length < 3) continue
+      let onEdge = 0
+      for (const [lon, lat] of outer) {
+        if (lat === bbox.minLat || lat === bbox.maxLat || lon === bbox.minLon || lon === bbox.maxLon) onEdge++
+      }
+      if (onEdge / outer.length > 0.05) return false
+    }
+    return true
+  })
   const coastlineIslandsG = new Graphics()
-  fillFeatures(coastlineIslandsG, coastlineIslands, project, { texture: textures.parchment })
+  fillFeatures(coastlineIslandsG, cleanCoastlineIslands, project, { texture: textures.parchment })
   root.addChild(coastlineIslandsG)
 
   // Kustlinje-strokes — matchar originalets <path class="coastline"
@@ -143,7 +164,7 @@ export async function buildScene() {
       }
     }
   }
-  addPolygonRingsToStrokes(coastlineIslands)
+  addPolygonRingsToStrokes(cleanCoastlineIslands)
   addPolygonRingsToStrokes(water)
   addPolygonRingsToStrokes(islands)
   coastlineG.stroke({ width: 1.2, color: 0x2a1810, alpha: 0.85, join: 'round' })

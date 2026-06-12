@@ -35,5 +35,6 @@ insert into guests (real_name, login_slug) values
   ('Olle Bjerkås', 'ollebjerkås'),
   ('Ulrika Hammar', 'ulrikahammar'),
   ('Edvin Thungren', 'edvinthungren'),
-  ('Martina Hessel', 'martinahessel')
+  ('Martina Hessel', 'martinahessel'),
+  ('Chris Kummelstedt', 'chriskummelstedt')
 on conflict (login_slug) do update set real_name = excluded.real_name;
