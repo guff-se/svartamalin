@@ -57,6 +57,39 @@ $$;
 revoke all on function validate_guest_login(text) from public;
 grant execute on function validate_guest_login(text) to anon, authenticated, service_role;
 
+-- Byt lagnamn för gästens eget lag (inte byta lag).
+create or replace function update_my_crew_name(p_guest_id uuid, p_name text)
+returns void
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_crew_id int;
+  v_trimmed text;
+begin
+  v_trimmed := nullif(trim(p_name), '');
+  if v_trimmed is null then
+    raise exception 'Lagnamn får inte vara tomt';
+  end if;
+
+  select crew_id into v_crew_id
+  from guests
+  where id = p_guest_id;
+
+  if v_crew_id is null then
+    raise exception 'Du tillhör inget lag';
+  end if;
+
+  update crews
+  set name = v_trimmed
+  where id = v_crew_id;
+end;
+$$;
+
+revoke all on function update_my_crew_name(uuid, text) from public;
+grant execute on function update_my_crew_name(uuid, text) to anon, authenticated, service_role;
+
 -- RLS
 alter table pirate_names enable row level security;
 alter table crews enable row level security;
