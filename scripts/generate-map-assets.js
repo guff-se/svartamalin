@@ -3,6 +3,12 @@
  * Generate pirate map decoration PNGs.
  * Prompts from assets-prompts.md → public/images/map/
  *
+ * Every output is post-processed to delivery size/format (see assetOutput):
+ * - decorations: 512×512 RGBA PNG (backdrop stripped, compressed)
+ * - arrow-down: 128×256 RGBA
+ * - city silhouettes: 768×768 / 768×512 RGBA
+ * - parchment: 1024×1024 opaque RGB PNG
+ *
  * Default backend: ChatGPT subscription via Codex OAuth (`codex login`).
  * Optional API billing: MAP_ASSETS_USE_API_KEY=1 (requires OPENAI_API_KEY).
  */
@@ -26,7 +32,19 @@ const TRANSPARENT =
 const NEG =
   'No clean digital vector lines, no modern illustration style, no neon, no photorealism, no professional polish, no children storybook style, no crayon, no felt-tip, no background scenery, no paper texture behind the subject.'
 
-/** @type {{ file: string, prompt: string, transparent?: boolean }[]} */
+/** Default delivery size for isolated map decorations. */
+const DECOR_SIZE = [512, 512]
+
+/**
+ * @param {{ transparent?: boolean, size?: [number, number] }} asset
+ */
+function assetOutput(asset) {
+  const transparent = asset.transparent !== false
+  const [width, height] = asset.size ?? DECOR_SIZE
+  return { width, height, transparent }
+}
+
+/** @type {{ file: string, prompt: string, transparent?: boolean, size?: [number, number] }[]} */
 const ASSETS = [
   {
     file: 'dragon-warning-1.png',
@@ -101,6 +119,7 @@ const ASSETS = [
   {
     file: 'parchment.png',
     transparent: false,
+    size: [1024, 1024],
     prompt:
       'A blank seamless aged parchment paper texture — warm cream and tan tones, soft creases, faint watermarks, small ink blots, scorched and frayed edges hinted at, the kind of paper used by 17th-century cartographers. No text or illustrations, just the textured paper itself. Tileable / seamless. High resolution square image.',
   },
@@ -148,11 +167,13 @@ const ASSETS = [
   },
   {
     file: 'stockholm-silhouette.png',
+    size: [768, 768],
     prompt:
       'A naïve hand-drawn city skyline silhouette of Stockholm, Sweden, for an 18th-century travel map by an unskilled amateur cartographer — viewed from the water like an old map vignette. CRITICAL FRAMING: the ENTIRE skyline must fit fully inside the image with generous empty margin on all four sides — at least 15% padding top, bottom, left and right. Nothing cropped, clipped or cut off at any edge. The silhouette is scaled smaller and centered in the frame with plenty of breathing room. Dark sepia and iron-gall ink filled silhouette shapes with wobbly hesitant outlines. Recognisable but clumsily drawn landmarks: the tall tower of Stockholm City Hall (Stadshuset) with its spire, the needle spire of Riddarholmen Church, the Royal Palace roofline, several mismatched church spires and rooftops of varying heights, maybe a crooked bridge or waterfront quay line along the bottom. Buildings are lumpy connected shapes — wrong proportions, some towers too fat or too thin. Period palette, aged dark brown silhouette with faint ochre wash. Horizontal skyline profile, wider than tall but compact enough to fit entirely within the canvas. Map decoration, not photorealistic.',
   },
   {
     file: 'sodertalje-silhouette.png',
+    size: [768, 512],
     prompt:
       'A naïve hand-drawn city skyline silhouette of Södertälje, Sweden, for an 18th-century travel map by an unskilled amateur cartographer — viewed from the canal/waterfront like an old map vignette. Dark sepia and iron-gall ink filled silhouette shapes with wobbly hesitant outlines. A smaller waterfront town: crooked church spires, low lopsided warehouse and house rooftops along a canal, maybe lock gates or a bridge drawn as clumsy rectangles, a few masts or chimneys poking up at wrong angles. The Södertälje canal cutting through suggested by a wavy water line at the base. Buildings connected as one lumpy silhouette — wrong scale, amateur execution. Period palette, aged dark brown with faint ochre wash. Horizontal skyline profile, wider than tall. Map decoration for a Swedish town, not photorealistic.',
   },
@@ -163,6 +184,7 @@ const ASSETS = [
   },
   {
     file: 'arrow-down.png',
+    size: [128, 256],
     prompt:
       'A naïve hand-drawn downward-pointing arrow for an 18th-century pirate or travel map, by an unskilled amateur cartographer. Quill pen and iron-gall ink outline with bold muted rust-red watercolour fill that spills slightly outside the wobbly lines. A simple map pointer: short vertical shaft, triangular arrowhead at the bottom pointing straight down — the tip must clearly aim downward. Lines hesitant and uneven, shaft slightly crooked, arrowhead lopsided or asymmetric. Bright enough red to read as a red arrow on a map, but aged and oxidised like period ink — not neon, not digital. Vertical composition, taller than wide. Isolated arrow symbol only, generous transparent margin around it.',
   },
@@ -281,18 +303,19 @@ async function main() {
       }
     }
 
-    const transparent = asset.transparent !== false
-    const fullPrompt = buildFullPrompt(asset.prompt, transparent)
+    const output = assetOutput(asset)
+    const fullPrompt = buildFullPrompt(asset.prompt, output.transparent)
 
     process.stdout.write(`🎨 ${asset.file} … `)
     const start = Date.now()
     try {
-      let png = await backend.generate(fullPrompt, transparent)
-      if (transparent) {
-        const rawKb = (png.length / 1024).toFixed(0)
-        png = await optimizeMapPng(png)
-        process.stdout.write(`optimized ${rawKb}→${(png.length / 1024).toFixed(0)} KB … `)
-      }
+      const raw = await backend.generate(fullPrompt, output.transparent)
+      const rawKb = (raw.length / 1024).toFixed(0)
+      const png = await optimizeMapPng(raw, output)
+      const mode = output.transparent ? 'RGBA' : 'RGB'
+      process.stdout.write(
+        `finalized ${rawKb}→${(png.length / 1024).toFixed(0)} KB (${output.width}×${output.height} ${mode}) … `,
+      )
       await writeFile(outPath, png)
       console.log(`done (${((Date.now() - start) / 1000).toFixed(1)}s, ${(png.length / 1024).toFixed(0)} KB)`)
     } catch (err) {

@@ -36,10 +36,18 @@ export async function mountWebglMap(el) {
   })
   el.appendChild(app.canvas)
 
+  // Försök låsa orientation till portrait på mobil. Stöds på Android-
+  // Chromium (kräver ofta fullscreen) men inte iOS Safari. Om det misslyckas
+  // fallback:ar vi via att blockera orientation-flips i resize-handlern.
+  try { screen.orientation?.lock?.('portrait-primary').catch(() => {}) } catch {}
+
   // Manuell debounced resize — bara reagera på faktiska viewport-ändringar
-  // (rotation, fönsterstorlek), inte iOS adresslist-collapse.
+  // (fönsterstorlek på desktop). Vi BLOCKERAR explicit orientation-flips
+  // (rotation av telefonen) eftersom animationen är byggd för en specifik
+  // aspect och kameran blir trasig om allt skalas om mid-animation.
   let lastW = el.clientWidth
   let lastH = el.clientHeight
+  const initialPortrait = lastH > lastW
   let resizeTimer = 0
   window.addEventListener('resize', () => {
     if (resizeTimer) clearTimeout(resizeTimer)
@@ -47,6 +55,10 @@ export async function mountWebglMap(el) {
       const w = el.clientWidth
       const h = el.clientHeight
       if (Math.abs(w - lastW) < 4 && Math.abs(h - lastH) < 140) return
+      // Blockera orientation-flips (portrait <-> landscape) — animationen
+      // bryts om kamerans aspect plötsligt inverteras mitt under reveal.
+      const nowPortrait = h > w
+      if (nowPortrait !== initialPortrait) return
       lastW = w; lastH = h
       app.renderer.resize(w, h)
     }, 250)

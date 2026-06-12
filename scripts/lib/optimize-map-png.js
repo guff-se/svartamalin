@@ -1,8 +1,7 @@
 /**
- * Post-process generated map decoration PNGs:
- * - remove baked-in light backdrop (Codex has no transparent background)
- * - resize to 512×512 (standard map sprite size)
- * - emit RGBA PNG with strong compression
+ * Finalize generated map PNGs for web delivery:
+ * - transparent decorations: remove baked-in backdrop, resize, RGBA PNG
+ * - opaque assets (parchment): resize, RGB PNG
  */
 
 import { execFile } from 'node:child_process'
@@ -14,7 +13,6 @@ import sharp from 'sharp'
 
 const execFileAsync = promisify(execFile)
 
-const MAP_SIZE = 512
 const FUZZ = 18
 
 async function hasMagick() {
@@ -31,8 +29,10 @@ async function hasMagick() {
  * @param {string} outPath
  * @param {number} w
  * @param {number} h
+ * @param {number} outW
+ * @param {number} outH
  */
-async function optimizeWithMagick(inPath, outPath, w, h) {
+async function finalizeTransparentMagick(inPath, outPath, w, h, outW, outH) {
   await execFileAsync('magick', [
     inPath,
     '-alpha', 'set',
@@ -42,7 +42,23 @@ async function optimizeWithMagick(inPath, outPath, w, h) {
     '-draw', `color ${w - 1},0 floodfill`,
     '-draw', `color 0,${h - 1} floodfill`,
     '-draw', `color ${w - 1},${h - 1} floodfill`,
-    '-resize', `${MAP_SIZE}x${MAP_SIZE}`,
+    '-resize', `${outW}x${outH}`,
+    '-define', 'png:compression-filter=5',
+    '-define', 'png:compression-level=9',
+    outPath,
+  ])
+}
+
+/**
+ * @param {string} inPath
+ * @param {string} outPath
+ * @param {number} outW
+ * @param {number} outH
+ */
+async function finalizeOpaqueMagick(inPath, outPath, outW, outH) {
+  await execFileAsync('magick', [
+    inPath,
+    '-resize', `${outW}x${outH}`,
     '-define', 'png:compression-filter=5',
     '-define', 'png:compression-level=9',
     outPath,
@@ -80,8 +96,12 @@ function floodFromCorner(data, width, height, channels, x, y, fuzz, visited) {
   }
 }
 
-/** @param {Buffer} input */
-async function optimizeWithSharp(input) {
+/**
+ * @param {Buffer} input
+ * @param {number} outW
+ * @param {number} outH
+ */
+async function finalizeTransparentSharp(input, outW, outH) {
   const { data, info } = await sharp(input)
     .ensureAlpha()
     .raw()
@@ -95,22 +115,32 @@ async function optimizeWithSharp(input) {
   }
 
   return sharp(data, { raw: { width: w, height: h, channels } })
-    .resize(MAP_SIZE, MAP_SIZE)
+    .resize(outW, outH)
     .png({ compressionLevel: 9, adaptiveFiltering: true, effort: 10 })
     .toBuffer()
 }
 
 /**
  * @param {Buffer} input
- * @param {{ width?: number, height?: number }} [opts]
+ * @param {number} outW
+ * @param {number} outH
+ */
+async function finalizeOpaqueSharp(input, outW, outH) {
+  return sharp(input)
+    .resize(outW, outH)
+    .png({ compressionLevel: 9, adaptiveFiltering: true, effort: 10 })
+    .toBuffer()
+}
+
+/**
+ * @param {Buffer} input
+ * @param {{ width?: number, height?: number, transparent?: boolean }} [opts]
  * @returns {Promise<Buffer>}
  */
 export async function optimizeMapPng(input, opts = {}) {
-  const mapW = opts.width ?? MAP_SIZE
-  const mapH = opts.height ?? MAP_SIZE
-  if (mapW !== MAP_SIZE || mapH !== MAP_SIZE) {
-    throw new Error(`optimizeMapPng only supports ${MAP_SIZE}×${MAP_SIZE} today`)
-  }
+  const outW = opts.width ?? 512
+  const outH = opts.height ?? 512
+  const transparent = opts.transparent !== false
 
   if (await hasMagick()) {
     const dir = await mkdtemp(join(tmpdir(), 'map-opt-'))
@@ -118,15 +148,21 @@ export async function optimizeMapPng(input, opts = {}) {
     const outPath = join(dir, 'out.png')
     try {
       const meta = await sharp(input).metadata()
-      const w = meta.width ?? MAP_SIZE
-      const h = meta.height ?? MAP_SIZE
+      const w = meta.width ?? outW
+      const h = meta.height ?? outH
       await writeFile(inPath, input)
-      await optimizeWithMagick(inPath, outPath, w, h)
+      if (transparent) {
+        await finalizeTransparentMagick(inPath, outPath, w, h, outW, outH)
+      } else {
+        await finalizeOpaqueMagick(inPath, outPath, outW, outH)
+      }
       return await readFile(outPath)
     } finally {
       await rm(dir, { recursive: true, force: true })
     }
   }
 
-  return optimizeWithSharp(input)
+  return transparent
+    ? finalizeTransparentSharp(input, outW, outH)
+    : finalizeOpaqueSharp(input, outW, outH)
 }
