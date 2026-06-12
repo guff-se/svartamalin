@@ -21,6 +21,13 @@ export async function mountWebglMap(el) {
 
   const mountStart = performance.now()
   hostEl = el
+
+  // Vänta in browser-layout så el.clientWidth/Height inte är 0 (kan hända
+  // om mountWebglMap kallas direkt efter app.innerHTML-byte, t.ex. när
+  // RSVP fullförs och vi byter till WebGL-vyn samma synkrona tick — då
+  // har layouten inte hunnit räknas än → Pixi mountas 0×0 → svart skärm).
+  await new Promise((r) => requestAnimationFrame(r))
+
   app = new Application()
   await app.init({
     // Använd INTE resizeTo — på iOS triggar adresslist-kollaps en

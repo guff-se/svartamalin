@@ -367,17 +367,17 @@ export async function buildScene() {
   // hög upplösning (annars pixleras den under boat-fasens inzoom). Pixi:s
   // resolution-option fungerar inte alltid pålitligt med oversize-renderTex,
   // så vi använder den klassiska "rita stort, skala ner"-tekniken.
-  const [lx, ly] = project([17.549469, 59.293733])
-  const SEA_LABEL_OVERSIZE = 5
+  const [lx, ly] = project([17.519469, 59.293733])
+  const SEA_LABEL_OVERSIZE = 5.5
   const seaLabel = new Text({
     text: 'SALMONELLAHAVET',
     style: {
       fontFamily: 'Metamorphous, Georgia, serif',
-      fontSize: 13.6 * SEA_LABEL_OVERSIZE,
+      fontSize: 6.8 * SEA_LABEL_OVERSIZE,
       fontStyle: 'italic',
       fontWeight: 'bold',
       fill: 0x2a1810,
-      letterSpacing: 5.4 * SEA_LABEL_OVERSIZE,
+      letterSpacing: 2.7 * SEA_LABEL_OVERSIZE,
     },
   })
   seaLabel.anchor.set(0.5, 0.5)

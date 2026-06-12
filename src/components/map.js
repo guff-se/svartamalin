@@ -382,8 +382,8 @@ function render(data) {
       <path id="cam-boat-path" d="${camBoatD}" fill="none" stroke="none" />
 
       <!-- "Salmonellahavet"-etiketten ligger ovanpå alla bilder utom skeppet -->
-      ${(() => { const [lx, ly] = project([17.549469, 59.293733]); return `
-      <text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" class="sea-label" text-anchor="middle" fill="#2a1810">SALMONELLAHAVET</text>
+      ${(() => { const [lx, ly] = project([17.549469, 59.293733]); const SEA_LABEL_X_OFFSET = -80; return `
+      <text x="${(lx + SEA_LABEL_X_OFFSET).toFixed(1)}" y="${ly.toFixed(1)}" class="sea-label" text-anchor="middle" fill="#2a1810">SALMONELLAHAVET</text>
       `})()}
 
       <!-- Vårt piratskepp — högst upp så det aldrig täcks av andra bilder.
@@ -746,7 +746,7 @@ async function runReveal() {
     { sel: '.wagon',              t: 4,    dur: 0.7, from: 0.3 },
     { sel: '.tree-3',             t: 8,    dur: 0.6, from: 0.4 },
     { sel: '.globen',             t: 11,   dur: 0.9, from: 0.3 },
-    { sel: '.dragon-warning.d0',  t: 13,   dur: 0.7, from: 0.3, fade: 0.85 },
+    { sel: '.dragon-warning.d0',  t: 14,   dur: 0.7, from: 0.3, fade: 0.85 },
     { sel: '.tree-1',             t: 15,   dur: 0.6, from: 0.4 },
     { sel: '.village-1',          t: 16,   dur: 0.9, from: 0.3 },
     { sel: '.skull-warning',      t: 17.5, dur: 0.7, from: 0.3 },
@@ -781,9 +781,9 @@ async function runReveal() {
       r.t)
   }
 
-  // 38–57 s: Båtrutt (2s kortare)
-  tl.to('.boat-route', { strokeDashoffset: 0, duration: 19, ease: 'power2.inOut' }, 38)
-  tl.set('.boat-route', { strokeDasharray: '12 9', strokeDashoffset: 0 }, 57)
+  // 38–59 s: Båtrutt (samma längd som original 39s)
+  tl.to('.boat-route', { strokeDashoffset: 0, duration: 21, ease: 'power2.inOut' }, 38)
+  tl.set('.boat-route', { strokeDasharray: '12 9', strokeDashoffset: 0 }, 59)
   tl.fromTo('.our-ship', { opacity: 0, scale: 0.5 },
     { opacity: 1, scale: 1, duration: 0.8 }, 37)
 
@@ -798,7 +798,7 @@ async function runReveal() {
   const boatProgress = { p: 0 }
   tl.to(boatProgress, {
     p: 0.99,
-    duration: 19,
+    duration: 21,
     ease: 'power2.inOut',
     onUpdate() {
       const len = boatProgress.p * camBoatLen
@@ -820,13 +820,13 @@ async function runReveal() {
   // Vid framkomst: skeppet stannar precis som det är, ingen rotation.
   tl.call(() => {
     gsap.killTweensOf(ship)
-  }, null, 57.5)
+  }, null, 59.5)
 
   // Sjökreatur under båtfasen (38-59s)
   const boatReveals = [
-    { sel: '.mermaid', t: 39, dur: 0.9, from: 0.3 },
-    { sel: '.kraken',  t: 48, dur: 1,   from: 0.2 },
-    { sel: '.octopus', t: 56, dur: 1,   from: 0.2 },
+    { sel: '.mermaid', t: 39.1, dur: 0.9, from: 0.3 },
+    { sel: '.kraken',  t: 48.1, dur: 1,   from: 0.2 },
+    { sel: '.octopus', t: 57.9, dur: 1,   from: 0.2 },
   ]
   for (const r of boatReveals) {
     tl.fromTo(r.sel,
@@ -835,7 +835,7 @@ async function runReveal() {
       r.t)
   }
 
-  // 61–66 s: Zoomar ut, helheten visas. Focal är hårdkodad på ursprungs-vyns
+  // 63–68 s: Zoomar ut, helheten visas. Focal är hårdkodad på ursprungs-vyns
   // mittpunkt — så bbox-expansion åt öster inte flyttar slut-kameran.
   // cam.w/h matchar gamla 0.8 × old_lonRange ≈ 0.65 × new_lonRange.
   tl.to(cam, {
@@ -846,11 +846,11 @@ async function runReveal() {
     duration: 5,
     ease: 'power2.inOut',
     onUpdate: applyCam,
-  }, 61)
+  }, 63)
   // Slut-reveal (efter zoom-ut)
   const endReveals = [
-    { sel: '.compass-rose', t: 63, dur: 1.5, from: 0.3 },
-    { sel: '.storm-cloud',  t: 64, dur: 1.5, from: 0.5, ease: 'power2.out' },
+    { sel: '.compass-rose', t: 65, dur: 1.5, from: 0.3 },
+    { sel: '.storm-cloud',  t: 66, dur: 1.5, from: 0.5, ease: 'power2.out' },
   ]
   for (const r of endReveals) {
     tl.fromTo(r.sel,

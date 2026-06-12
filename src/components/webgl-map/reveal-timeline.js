@@ -200,7 +200,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   reveal(sprites.wagon,     3.9,  0.7, 0.3)
   reveal(sprites.globen,    9.9,  0.9, 0.3)
   reveal(sprites.tree1,    11.6,  0.6, 0.4)
-  reveal(sprites.dragon0,  11.6,  0.7, 0.3, 0.85)
+  reveal(sprites.dragon0,  12.6,  0.7, 0.3, 0.85)
   reveal(sprites.pirateOgre,13.3, 0.6, 0.4)
   reveal(sprites.village1, 14.2,  0.9, 0.3)
   reveal(sprites.skull,    15.5,  0.7, 0.3)
@@ -220,9 +220,9 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   reveal(sprites.village2,   21.1, 0.9, 0.3)
   reveal(sprites.village3,   22.8, 0.9, 0.3)
 
-  // 34–49s: båtrutt + skepp följer (15s, var 19s; start −4s)
-  tl.to(routes.boat, { progress: 1, duration: 15, ease: 'power2.inOut' }, 34)
-  tl.call(() => { routes.boat.solid = false }, null, 49)
+  // 34–51s: båtrutt + skepp följer (17s, var 19s; start −4s)
+  tl.to(routes.boat, { progress: 1, duration: 17, ease: 'power2.inOut' }, 34)
+  tl.call(() => { routes.boat.solid = false }, null, 51)
 
   reveal(ourShip, 33, 0.8, 0.5)
 
@@ -231,7 +231,7 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
   const boatProgress = { p: 0 }
   tl.to(boatProgress, {
     p: 0.99,
-    duration: 15,
+    duration: 17,
     ease: 'power2.inOut',
     onUpdate() {
       const len = boatProgress.p * boatTotal
@@ -246,27 +246,27 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
     },
   }, 34)
 
-  // Sjökreatur under båtfasen — skalade mot 15s-duration (var 19s).
-  // new_t = 34 + (orig_t - 38) × 15/19
+  // Sjökreatur under båtfasen — skalade mot 17s-duration (var 19s).
+  // new_t = 34 + (orig_t - 38) × 17/19
   reveal(sprites.mermaid, 33.8, 0.9, 0.3)
-  reveal(sprites.kraken,  41.1, 1,   0.2)
-  reveal(sprites.octopus, 47.2, 1,   0.2)
+  reveal(sprites.kraken,  41.9, 1,   0.2)
+  reveal(sprites.octopus, 50.1, 1,   0.2)
 
-  // 49–57s: ovanan-sekvens efter båtens ankomst (t=49)
+  // 51–59s: ovanan-sekvens efter båtens ankomst (t=51)
   tl.to(camera, {
     cx: ox, cy: oy,
-    w: 30 * M, h: (30 / ASPECT) * M,
+    w: 25 * M, h: (25 / ASPECT) * M,
     duration: 3,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
-  }, 49)
-  tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 51)
-  tl.fromTo(xMarks, { alpha: 0 }, { alpha: 1, duration: 1, ease: 'back.out(2)' }, 54)
+  }, 51)
+  tl.fromTo(ovananMap, { alpha: 0 }, { alpha: 1, duration: 1.5, ease: 'power2.out' }, 53)
+  tl.fromTo(xMarks, { alpha: 0 }, { alpha: 1, duration: 1, ease: 'back.out(2)' }, 56)
   tl.fromTo(xMarks.scale,
     { x: xMarks._baseScale.x * 0.3, y: xMarks._baseScale.y * 0.3 },
-    { x: xMarks._baseScale.x, y: xMarks._baseScale.y, duration: 1, ease: 'back.out(2)' }, 54)
+    { x: xMarks._baseScale.x, y: xMarks._baseScale.y, duration: 1, ease: 'back.out(2)' }, 56)
 
-  // 58–63s: zooma ut till helheten
+  // 60–65s: zooma ut till helheten
   tl.to(camera, {
     cx: endFx,
     cy: endFy,
@@ -275,11 +275,11 @@ export function buildRevealTimeline(scene, camera, tiltStage) {
     duration: 5,
     ease: 'power2.inOut',
     onUpdate: onCamUpdate,
-  }, 58)
-  tl.to(ovananMap, { alpha: 0, duration: 3, ease: 'power2.in' }, 58)
-  tl.to(xMarks,    { alpha: 0, duration: 3, ease: 'power2.in' }, 58)
-  reveal(sprites.compass, 60, 1.5, 0.3)
-  reveal(sprites.storm,   61, 1.5, 0.5, 1, 'power2.out')
+  }, 60)
+  tl.to(ovananMap, { alpha: 0, duration: 3, ease: 'power2.in' }, 60)
+  tl.to(xMarks,    { alpha: 0, duration: 3, ease: 'power2.in' }, 60)
+  reveal(sprites.compass, 62, 1.5, 0.3)
+  reveal(sprites.storm,   63, 1.5, 0.5, 1, 'power2.out')
 
   return tl
 }
