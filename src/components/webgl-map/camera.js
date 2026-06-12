@@ -7,9 +7,10 @@
 // tilt   = 3D-tilt (P3 — implementeras separat)
 
 export class Camera {
-  constructor({ rootContainer, app, viewW, viewH }) {
+  constructor({ rootContainer, app, viewW, viewH, tiltStage }) {
     this.root = rootContainer
     this.app = app
+    this.tiltStage = tiltStage
     this.VIEW_W = viewW
     this.VIEW_H = viewH
 
@@ -31,10 +32,13 @@ export class Camera {
    *  passas in via app._svm?.tiltStage._lastW/H om TiltStage finns.
    */
   apply() {
-    // Använd ev. oversized render-target-storlek istället för canvas
-    // så cam:n matar texturen i den storlek som tilt-mesh:en behöver.
-    const sw = this.app._svm?.tiltStage?._lastW ?? this.app.screen.width
-    const sh = this.app._svm?.tiltStage?._lastH ?? this.app.screen.height
+    // Använd oversized render-target-storlek så cam:n matar texturen i den
+    // storlek som tilt-mesh:en behöver. TiltStage refen sätts vid
+    // konstruktor — viktigt att den finns INNAN första camera.apply()
+    // annars hoppar scale från canvas-storlek till oversize-storlek när
+    // den blir tillgänglig.
+    const sw = this.tiltStage?._lastW ?? this.app.screen.width
+    const sh = this.tiltStage?._lastH ?? this.app.screen.height
 
     const scale = Math.max(sw / this.w, sh / this.h)
     this.root.scale.set(scale)

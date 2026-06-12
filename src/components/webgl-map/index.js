@@ -61,7 +61,7 @@ export async function mountWebglMap(el) {
   tiltStage.init()
 
   const { VIEW_W, viewH } = scene.proj
-  const camera = new Camera({ rootContainer: scene.root, app, viewW: VIEW_W, viewH: viewH })
+  const camera = new Camera({ rootContainer: scene.root, app, viewW: VIEW_W, viewH: viewH, tiltStage })
 
   // Default: hela världen
   camera.cx = VIEW_W / 2
