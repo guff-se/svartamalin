@@ -2,11 +2,9 @@
 // Legacy SVG: /old → home.js + map.js.
 // Innehållet under hero är samma som home.js men med WebGL-bakgrund.
 
-import { getGuestId } from '../lib/state.js'
 import { mountWebglMap, unmountWebglMap } from '../components/webgl-map/index.js'
 import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
-import { renderMyCrew } from '../components/my-crew.js'
 
 export async function renderWebgl(app) {
   app.innerHTML = `
@@ -33,6 +31,10 @@ export async function renderWebgl(app) {
         </section>
 
         <section class="card-section">
+          <div class="card card--manifest" id="sec-manifest">Laddar…</div>
+        </section>
+
+        <section class="card-section">
           <div class="card card--crew">
             <h2>Besättningen</h2>
             <p class="lead">Pirater som hörsammat kallelsen.</p>
@@ -42,11 +44,13 @@ export async function renderWebgl(app) {
 
         <section class="card-section">
           <div class="card card--practical" id="sec-practical">
-            <figure class="practical-banner">
-              <img src="/images/maps/ovanan.jpg" alt="Ovanan" />
-            </figure>
             <h2>Praktiskt</h2>
-            <div class="narrative-body" id="practical-body">Laddar…</div>
+            <div class="practical-layout">
+              <figure class="practical-img">
+                <img src="/images/maps/ovanan.jpg" alt="Ovanan" />
+              </figure>
+              <div class="narrative-body" id="practical-body">Laddar…</div>
+            </div>
           </div>
         </section>
 
@@ -79,13 +83,6 @@ export async function renderWebgl(app) {
         </section>
 
         <section class="card-section">
-          <div class="card my-crew-card">
-            <h2>Ditt lag</h2>
-            <div class="my-crew" id="my-crew">Laddar…</div>
-          </div>
-        </section>
-
-        <section class="card-section">
           <div class="card card--closing" id="sec-closing">Laddar…</div>
         </section>
       </main>
@@ -106,6 +103,7 @@ export async function renderWebgl(app) {
   mountWebglMap(document.getElementById('webgl-stage'))
 
   // Rendera resten av sidan
+  renderNarrative(document.getElementById('sec-manifest'),    { key: 'manifest' })
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
   renderNarrative(document.getElementById('sec-overfart'),    { title: 'Överfart', key: 'overfart' })
@@ -116,5 +114,4 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('sec-besattningar'),{ title: 'Besättningar', key: 'besattningar' })
   renderNarrative(document.getElementById('sec-osa'),         { title: 'OSA', key: 'osa' })
   renderNarrative(document.getElementById('sec-closing'),     { key: 'closing' })
-  renderMyCrew(document.getElementById('my-crew'), getGuestId())
 }
