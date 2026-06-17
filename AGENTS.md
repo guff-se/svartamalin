@@ -99,16 +99,20 @@ Alla kartrelaterade uppgifter (positioner, reveal-timing, kamera, dekorationer, 
 
 CSS för overlay/scroll-lås: `src/styles/webgl.css` (`body.webgl-revealing` / `webgl-revealed`).
 
-## Legacy-karta (`/old`) — rör inte
+## Legacy-karta (`/old`) — rör inte. Aldrig.
 
-`src/components/map.js`, `src/pages/home.js` och tillhörande SVG-CSS (`src/styles/map.css` m.m.) är kvar som historisk fallback/jämförelse. **Ändra dem inte** när användaren ber om kartjusteringar — uppdatera bara `src/components/webgl-map/`.
+`src/components/map.js`, `src/pages/home.js` och tillhörande SVG-CSS (`src/styles/map.css` m.m.) är historisk referens. **Sluta uppdatera dessa filer.**
 
 **Gör inte:**
 
-- Synka positioner, reveal-timing eller kamerabeteende till legacy bara för att "hålla dem lika".
-- Refaktorera, fixa eller förbättra legacy-kartan om det inte uttryckligen efterfrågas (t.ex. "fixa `/old` också").
+- Ändra positioner, reveal-timing, kamerabeteende eller layout i legacy.
+- "Hålla legacy synkad med /webgl" — gör det inte ens om strukturen skulle hamna ur sync.
+- Uppdatera home.js när du tar bort/byter namn på komponenter den importerar. Om /old slutar bygga: **låt det vara**. Det är OK att /old är trasigt — vi fokuserar bara på /.
+- Refaktorera, fixa eller förbättra legacy-kartan.
 
-**Undantag:** Om användaren uttryckligen pekar på `/old` eller `map.js` — då får du röra legacy-filerna.
+**Enda undantag:** Om användaren uttryckligen säger "fixa /old" eller pekar direkt på `map.js`/`home.js` — då får du röra dem.
+
+**Om en delad komponent som /old använder försvinner:** lämna `home.js` med trasig import. Det är inte ditt ansvar att hålla /old kompilerbar.
 
 ## Reveal-timing
 
