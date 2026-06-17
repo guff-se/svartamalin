@@ -5,8 +5,9 @@
 import { mountWebglMap, unmountWebglMap } from '../components/webgl-map/index.js'
 import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
-import { isReadyForShow } from '../lib/guest.js'
+import { hasGivenAnswer } from '../lib/guest.js'
 import { openRsvpFlow } from '../components/rsvp-modal.js'
+import { openLightbox } from '../lib/image-lightbox.js'
 
 export async function renderWebgl(app) {
   app.innerHTML = `
@@ -23,17 +24,16 @@ export async function renderWebgl(app) {
         </section>
 
         <section class="card-section">
-          <div class="card card--manifest">
-            <h2>Skepp o'hoj landkrabbor!</h2>
-            <p>Tiden är kommen.</p>
-            <p>Efter fyrtio år till havs har jag nu bestämt mig för att utmana mina ärkefiender till en sista strid. Ett sista slag för att en gång för alla visa vem som bestämmer över Salmonellahavet.</p>
-            <p>Endast en kommer att gå segrande ur denna batalj.</p>
-            <p>Och det kommer inte att vara du.</p>
-          </div>
+          <div class="card card--manifest" id="sec-manifest">Laddar…</div>
         </section>
 
-        <section class="card-section">
-          <div class="card card--manifest" id="sec-manifest">Laddar…</div>
+        <section class="card-section osa-section" id="osa-section-top" hidden>
+          <div class="card card--osa">
+            <div id="sec-osa-top">Laddar…</div>
+            <div class="row osa-actions">
+              <button class="osa-respond" type="button">Lämna besked</button>
+            </div>
+          </div>
         </section>
 
         <section class="card-section">
@@ -80,11 +80,11 @@ export async function renderWebgl(app) {
           <div class="card" id="sec-besattningar">Laddar…</div>
         </section>
 
-        <section class="card-section" id="osa-section" hidden>
+        <section class="card-section osa-section" id="osa-section" hidden>
           <div class="card card--osa">
             <div id="sec-osa">Laddar…</div>
             <div class="row osa-actions">
-              <button id="osa-respond" type="button">Lämna besked</button>
+              <button class="osa-respond" type="button">Lämna besked</button>
             </div>
           </div>
         </section>
@@ -119,19 +119,45 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('sec-theme'),       { title: 'Tema', key: 'theme_intro' })
   renderNarrative(document.getElementById('sec-bidra'),       { title: 'Bidra', key: 'bidra' })
   renderNarrative(document.getElementById('sec-besattningar'),{ title: 'Besättningar', key: 'besattningar' })
+  renderNarrative(document.getElementById('sec-osa-top'),     { title: 'OSA', key: 'osa' })
   renderNarrative(document.getElementById('sec-osa'),         { title: 'OSA', key: 'osa' })
   renderNarrative(document.getElementById('sec-closing'),     { key: 'closing' })
 
-  await refreshOsaVisibility()
-  document.getElementById('osa-respond').addEventListener('click', async () => {
-    const ok = await openRsvpFlow()
-    if (ok) refreshOsaVisibility()
+  bindOvananLightbox()
+  await refreshAnswerState()
+  document.querySelectorAll('.osa-respond').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      await openRsvpFlow()
+      refreshAnswerState()
+    })
   })
 }
 
-async function refreshOsaVisibility() {
-  const section = document.getElementById('osa-section')
-  if (!section) return
-  const ready = await isReadyForShow()
-  section.hidden = ready  // Doldt när RSVP är komplett
+async function refreshAnswerState() {
+  const answered = await hasGivenAnswer()
+  document.querySelectorAll('.osa-section').forEach((s) => { s.hidden = answered })
+  const infoBtn = document.getElementById('info-btn')
+  if (infoBtn) infoBtn.hidden = !answered
+}
+
+function bindOvananLightbox() {
+  const fig = document.querySelector('.practical-img')
+  if (!fig) return
+  const img = fig.querySelector('img')
+  if (!img) return
+  fig.setAttribute('role', 'button')
+  fig.setAttribute('tabindex', '0')
+  fig.setAttribute('aria-label', 'Visa Ovanan-kartan i fullskärm')
+  fig.style.cursor = 'pointer'
+  const open = () => {
+    const big = document.createElement('img')
+    big.src = img.src
+    big.alt = img.alt
+    big.className = 'lightbox-image'
+    openLightbox({ ariaLabel: img.alt || 'Ovanan', content: big, returnFocus: fig })
+  }
+  fig.addEventListener('click', open)
+  fig.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open() }
+  })
 }

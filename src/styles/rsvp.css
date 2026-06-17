@@ -268,6 +268,61 @@
   font-style: italic;
 }
 
+/* RSVP-modal — knapp- och layout-styling (matchar .rsvp-skärmen) */
+.info-modal--rsvp .info-modal__card {
+  max-width: 52rem;
+}
+.info-modal--rsvp .row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.info-modal--rsvp button {
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--paper);
+  padding: 0.85rem 2rem;
+  font-family: inherit;
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 8rem;
+}
+.info-modal--rsvp button:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.info-modal--rsvp button.ghost {
+  border-color: var(--paper-dark);
+  color: var(--paper-dark);
+}
+.info-modal--rsvp button[disabled] {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.info-modal--rsvp .name-grid button {
+  padding: 0.6rem 0.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  min-width: auto;
+}
+.info-modal--rsvp h2 {
+  text-align: center;
+  margin-top: 0;
+}
+.info-modal--rsvp .step-hint {
+  text-align: center;
+  font-style: italic;
+  color: var(--paper-dark);
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.1em;
+}
+
 /* Modal-overlay för "Din info" */
 .info-modal {
   position: fixed;

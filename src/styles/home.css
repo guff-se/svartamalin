@@ -92,6 +92,7 @@
   display: flex;
   justify-content: center;
 }
+.card-section[hidden] { display: none; }
 .card {
   width: 100%;
   max-width: 44rem;
@@ -227,7 +228,26 @@
   gap: 1.5rem;
   align-items: start;
 }
-.practical-img { margin: 0; }
+/* Lightbox: plain bild (override pirate-card-aspect på card slot) */
+.pirate-card-lightbox__card:has(> .lightbox-image) {
+  width: auto;
+  max-width: 90vw;
+}
+.lightbox-image {
+  display: block;
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+}
+
+.practical-img { margin: 0; cursor: pointer; }
+.practical-img:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
 .practical-img img {
   display: block;
   width: 100%;
@@ -258,12 +278,15 @@
   display: block;
   font-family: var(--font-display);
   font-style: normal;
-  font-size: clamp(1.5rem, 4.5vw, 2.4rem);
-  letter-spacing: 0.1em;
+  font-size: clamp(1.2rem, 3.4vw, 1.9rem);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 0.5rem;
+  white-space: nowrap;
+  text-align: center;
 }
+.card--manifest p { text-align: left; }
 
 /* Bidra — framhäv swish-numret */
 .card--bidra strong {

@@ -89,8 +89,8 @@ export async function openRsvpFlow() {
     return true
   }
 
-  // Steg 2: info (om saknas)
-  if (!hasInfoFilled(guest)) {
+  // Steg 2: info (alltid — för-ifylld med befintliga värden)
+  {
     const cont = await stepInfo(guest)
     if (!cont) { closeModal(); window.removeEventListener('keydown', onKey); return false }
     guest = await fetchGuest()
