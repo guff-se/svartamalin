@@ -1,6 +1,6 @@
 # svartamalin.tadaa.se — Byggplan
 
-En interaktiv, teatralisk RSVP-sida för Malins 40-årsfest (Svarta Malin — Havets Fasa). One-shot, ~30 gäster.
+En interaktiv, teatralisk RSVP-sida för Malins 40-årsfest (Svarta Malin — Salmonellahavets fasa). One-shot, ~30 gäster.
 
 ---
 

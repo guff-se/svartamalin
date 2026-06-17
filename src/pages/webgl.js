@@ -25,6 +25,16 @@ export async function renderWebgl(app) {
         </section>
 
         <section class="card-section">
+          <div class="card card--manifest">
+            <h2>Skepp o'hoj landkrabbor!</h2>
+            <p>Tiden är kommen.</p>
+            <p>Efter fyrtio år till havs har jag nu bestämt mig för att utmana mina ärkefiender till en sista strid. Ett sista slag för att en gång för alla visa vem som bestämmer över Salmonellahavet.</p>
+            <p>Endast en kommer att gå segrande ur denna batalj.</p>
+            <p>Och det kommer inte att vara du.</p>
+          </div>
+        </section>
+
+        <section class="card-section">
           <div class="card card--crew">
             <h2>Besättningen</h2>
             <p class="lead">Pirater som hörsammat kallelsen.</p>

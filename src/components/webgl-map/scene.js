@@ -331,25 +331,6 @@ export async function buildScene() {
   addSprite('compass',    DECOR_LL.compass,    DECOR_SIZE.compass)
   addSprite('skull',      DECOR_LL.skull,      DECOR_SIZE.skull)
 
-  // "Pestholmen"-label under skull (matchar map.js skull()-funktionen)
-  {
-    const [sx, sy] = project(DECOR_LL.skull)
-    const pestholmenLabel = new Text({
-      text: 'Pestholmen',
-      style: {
-        fontFamily: 'Metamorphous, Georgia, serif',
-        fontSize: 14,
-        fontStyle: 'italic',
-        letterSpacing: 1.4,
-        fill: 0x1a0a05,
-      },
-    })
-    pestholmenLabel.anchor.set(0.5, 0)
-    pestholmenLabel.x = sx
-    pestholmenLabel.y = sy + 58
-    decor.addChild(pestholmenLabel)
-  }
-
   // Land-figurer (statiska lat/lon)
   addSprite('pirateOgre', DECOR_LL.pirateOgre, DECOR_SIZE.pirateOgre)
   addSprite('tree2',      DECOR_LL.tree2,      DECOR_SIZE.tree)
@@ -376,18 +357,7 @@ export async function buildScene() {
   harborMarker.y = hy
   decor.addChild(harborMarker)
 
-  // Vårt skepp (kommer animeras längs båt-pathen)
-  const ourShip = new Sprite(textures.ourShip)
-  ourShip.anchor.set(0.5, 1.0)  // bottom-middle som SVG-originalet
-  ourShip.width = DECOR_SIZE.ourShip
-  ourShip.height = DECOR_SIZE.ourShip
-  ourShip._baseScale = { x: ourShip.scale.x, y: ourShip.scale.y }
-  ourShip.x = hx
-  ourShip.y = hy
-  ourShip.label = 'our-ship'
-  root.addChild(ourShip)  // ovanpå allt
-
-  // Sea-label (SALMONELLAHAVET) — projicerad lat/lon från map.js rad 385.
+  // Sea-label (SALMONELLAHAVET) — ovanpå decor, under our-ship (map.js rad 384–394).
   // Renderar vid 5× fontSize och skalar ner via scale så textens bitmap har
   // hög upplösning (annars pixleras den under boat-fasens inzoom). Pixi:s
   // resolution-option fungerar inte alltid pålitligt med oversize-renderTex,
@@ -410,6 +380,17 @@ export async function buildScene() {
   seaLabel.x = lx
   seaLabel.y = ly
   root.addChild(seaLabel)
+
+  // Vårt skepp (kommer animeras längs båt-pathen) — ovanpå sea-label.
+  const ourShip = new Sprite(textures.ourShip)
+  ourShip.anchor.set(0.5, 1.0)  // bottom-middle som SVG-originalet
+  ourShip.width = DECOR_SIZE.ourShip
+  ourShip.height = DECOR_SIZE.ourShip
+  ourShip._baseScale = { x: ourShip.scale.x, y: ourShip.scale.y }
+  ourShip.x = hx
+  ourShip.y = hy
+  ourShip.label = 'our-ship'
+  root.addChild(ourShip)
 
   // Ovanan-overlay + x-marks läggs SIST så de renderas ovanpå seaLabel
   // (SALMONELLAHAVET) — annars syns texten genom ön.

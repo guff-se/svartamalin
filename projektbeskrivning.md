@@ -1,4 +1,4 @@
-# Svarta Malin — Havets Fasa
+# Svarta Malin — Salmonellahavets fasa
 *Projektbeskrivning: Malins 40-årsfest*
 
 ---
