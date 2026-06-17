@@ -5,6 +5,8 @@
 import { mountWebglMap, unmountWebglMap } from '../components/webgl-map/index.js'
 import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
+import { isReadyForShow } from '../lib/guest.js'
+import { openRsvpFlow } from '../components/rsvp-modal.js'
 
 export async function renderWebgl(app) {
   app.innerHTML = `
@@ -78,8 +80,13 @@ export async function renderWebgl(app) {
           <div class="card" id="sec-besattningar">Laddar…</div>
         </section>
 
-        <section class="card-section">
-          <div class="card card--osa" id="sec-osa">Laddar…</div>
+        <section class="card-section" id="osa-section" hidden>
+          <div class="card card--osa">
+            <div id="sec-osa">Laddar…</div>
+            <div class="row osa-actions">
+              <button id="osa-respond" type="button">Lämna besked</button>
+            </div>
+          </div>
         </section>
 
         <section class="card-section">
@@ -114,4 +121,17 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('sec-besattningar'),{ title: 'Besättningar', key: 'besattningar' })
   renderNarrative(document.getElementById('sec-osa'),         { title: 'OSA', key: 'osa' })
   renderNarrative(document.getElementById('sec-closing'),     { key: 'closing' })
+
+  await refreshOsaVisibility()
+  document.getElementById('osa-respond').addEventListener('click', async () => {
+    const ok = await openRsvpFlow()
+    if (ok) refreshOsaVisibility()
+  })
+}
+
+async function refreshOsaVisibility() {
+  const section = document.getElementById('osa-section')
+  if (!section) return
+  const ready = await isReadyForShow()
+  section.hidden = ready  // Doldt när RSVP är komplett
 }

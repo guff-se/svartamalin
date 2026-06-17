@@ -283,6 +283,26 @@
   box-shadow: 0 12px 40px rgba(139, 44, 26, 0.35);
 }
 .card--osa h2 { color: var(--accent); }
+.osa-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+.osa-actions button {
+  background: var(--accent);
+  color: var(--paper);
+  border: 1px solid var(--gold);
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+}
+.osa-actions button:hover {
+  background: var(--gold);
+  color: var(--ink);
+}
 
 /* Closing-signaturen */
 .card--closing {
