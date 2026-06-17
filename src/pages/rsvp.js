@@ -4,7 +4,6 @@ import { escapeHtml } from '../lib/escape.js'
 import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { pirateCardHtml } from '../components/pirate-card.js'
-import { renderPracticalInfoKeys, RSVP_PRACTICAL_KEYS } from '../components/practical-info.js'
 import { bindVisibleScrollbar } from '../lib/visible-scrollbar.js'
 import { isSelectablePirateName } from '../lib/pirate-name-order.js'
 
@@ -75,7 +74,6 @@ function render(app, onDone) {
 function renderAttendingStep(card, onDone) {
   card.innerHTML = `
     <p class="step-hint">— ${escapeHtml(guest.real_name)} —</p>
-    <div class="rsvp-practical" id="rsvp-practical"></div>
     <h2>Hörsammar du kallelsen?</h2>
     <div class="row">
       <button id="yes">Ja, jag kommer</button>

@@ -213,76 +213,68 @@
   }
 }
 
-/* Tema */
-.theme-body {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin-top: 0.5rem;
-}
-.theme-item {
-  margin: 0;
-  font-family: var(--font-body);
+/* Narrative-sektioner (Praktiskt, Överfart, Sova, Tema, Bidra, …) */
+.card p {
+  margin: 0 0 1rem;
   line-height: 1.7;
-  text-align: left;
 }
-.theme-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  text-align: left;
-}
-.theme-col__title {
-  margin: 0 0 0.5rem;
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  letter-spacing: 0.1em;
-}
-.theme-col--plus .theme-col__title { color: #1f5a32; }
-.theme-col--minus .theme-col__title { color: #7a2a1a; }
-.theme-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-}
-.theme-list li {
-  position: relative;
-  padding-left: 1.5rem;
-  line-height: 1.5;
-}
-.theme-list li::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-family: var(--font-display);
-  font-weight: bold;
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-.theme-list--plus li::before  { content: '+'; color: #1f5a32; }
-.theme-list--minus li::before { content: '−'; color: #7a2a1a; }
+.card p:last-child { margin-bottom: 0; }
 
+/* Praktiskt — kort med ovanan-banner överst */
+.card--practical { padding-top: 0; overflow: hidden; }
+.practical-banner {
+  margin: 0 -2rem 1.5rem;
+}
+.practical-banner img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  filter: sepia(0.25) contrast(1.05) brightness(0.95);
+  border-bottom: 1px solid rgba(184, 146, 74, 0.45);
+}
 @media (max-width: 560px) {
-  .theme-columns {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
+  .practical-banner img { height: 180px; }
 }
 
-/* Practical info */
-.info-grid { display: grid; gap: 1.5rem; }
-.info-item { border-left: 2px solid var(--gold); padding-left: 1rem; }
-.info-item h3 {
+/* Bidra — framhäv swish-numret */
+.card--bidra strong {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--gold);
+  margin-top: 0.25rem;
+}
+
+/* OSA — urgency-styling */
+.card--osa {
+  border-color: var(--accent);
+  box-shadow: 0 12px 40px rgba(139, 44, 26, 0.35);
+}
+.card--osa h2 { color: var(--accent); }
+
+/* Closing-signaturen */
+.card--closing {
+  text-align: center;
+  border-color: rgba(184, 146, 74, 0.4);
+  background: rgba(20, 14, 8, 0.6);
+}
+.card--closing p {
+  font-style: italic;
   margin: 0 0 0.5rem;
-  font-size: 0.9rem;
-  letter-spacing: 0.2em;
+}
+.card--closing p:last-child {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--gold);
+  margin-top: 1.2rem;
 }
-.info-item p { margin: 0; line-height: 1.7; }
 
 /* My crew */
 .crew-empty {

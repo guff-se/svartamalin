@@ -1,7 +1,7 @@
+// Legacy /old-sida. Använder samma content-sektioner som /webgl men med
+// SVG-bakgrunden från map.js.
 import { getGuestId } from '../lib/state.js'
-import { renderOvananSection } from '../components/ovanan-section.js'
-import { renderPracticalInfo } from '../components/practical-info.js'
-import { renderThemeSection } from '../components/theme-section.js'
+import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
 import { renderMyCrew } from '../components/my-crew.js'
 
@@ -24,19 +24,22 @@ export async function renderHome(app) {
       </section>
 
       <section class="card-section">
-        <div class="card card--ovanan" id="ovanan-section">Laddar…</div>
-      </section>
-
-      <section class="card-section">
-        <div class="card card--theme" id="theme-section">Laddar…</div>
-      </section>
-
-      <section class="card-section">
-        <div class="card">
+        <div class="card card--practical" id="sec-practical">
+          <figure class="practical-banner">
+            <img src="/images/maps/ovanan.jpg" alt="Ovanan" />
+          </figure>
           <h2>Praktiskt</h2>
-          <div class="info-grid" id="info-grid">Laddar…</div>
+          <div class="narrative-body" id="practical-body">Laddar…</div>
         </div>
       </section>
+
+      <section class="card-section"><div class="card" id="sec-overfart">Laddar…</div></section>
+      <section class="card-section"><div class="card" id="sec-party-type">Laddar…</div></section>
+      <section class="card-section"><div class="card" id="sec-sova">Laddar…</div></section>
+      <section class="card-section"><div class="card card--theme" id="sec-theme">Laddar…</div></section>
+      <section class="card-section"><div class="card card--bidra" id="sec-bidra">Laddar…</div></section>
+      <section class="card-section"><div class="card" id="sec-besattningar">Laddar…</div></section>
+      <section class="card-section"><div class="card card--osa" id="sec-osa">Laddar…</div></section>
 
       <section class="card-section">
         <div class="card my-crew-card">
@@ -44,12 +47,20 @@ export async function renderHome(app) {
           <div class="my-crew" id="my-crew">Laddar…</div>
         </div>
       </section>
+
+      <section class="card-section"><div class="card card--closing" id="sec-closing">Laddar…</div></section>
     </main>
   `
 
   renderCrewCollage(document.getElementById('crew-collage'))
-  renderOvananSection(document.getElementById('ovanan-section'))
-  renderThemeSection(document.getElementById('theme-section'))
-  renderPracticalInfo(document.getElementById('info-grid'))
+  renderNarrative(document.getElementById('practical-body'),   { key: 'practical_body' })
+  renderNarrative(document.getElementById('sec-overfart'),     { title: 'Överfart', key: 'overfart' })
+  renderNarrative(document.getElementById('sec-party-type'),   { title: 'Vad är detta för typ av fest?', key: 'party_type' })
+  renderNarrative(document.getElementById('sec-sova'),         { title: 'Sova', key: 'sova' })
+  renderNarrative(document.getElementById('sec-theme'),        { title: 'Tema', key: 'theme_intro' })
+  renderNarrative(document.getElementById('sec-bidra'),        { title: 'Bidra', key: 'bidra' })
+  renderNarrative(document.getElementById('sec-besattningar'), { title: 'Besättningar', key: 'besattningar' })
+  renderNarrative(document.getElementById('sec-osa'),          { title: 'OSA', key: 'osa' })
+  renderNarrative(document.getElementById('sec-closing'),      { key: 'closing' })
   renderMyCrew(document.getElementById('my-crew'), getGuestId())
 }
