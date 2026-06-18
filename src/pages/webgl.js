@@ -8,6 +8,7 @@ import { renderCrewCollage } from '../components/crew-collage.js'
 import { hasGivenAnswer } from '../lib/guest.js'
 import { openRsvpFlow } from '../components/rsvp-modal.js'
 import { openLightbox } from '../lib/image-lightbox.js'
+import { fetchPracticalMap, formatPracticalMarkdown } from '../components/practical-info.js'
 
 export async function renderWebgl(app) {
   app.innerHTML = `
@@ -29,9 +30,11 @@ export async function renderWebgl(app) {
 
         <section class="card-section osa-section" id="osa-section-top" hidden>
           <div class="card card--osa">
+            <h2>OSA</h2>
+            <div class="osa-facts"></div>
             <div id="sec-osa-top">Laddar…</div>
             <div class="row osa-actions">
-              <button class="osa-respond" type="button">Lämna besked</button>
+              <button class="osa-respond" type="button">Mönstra på</button>
             </div>
           </div>
         </section>
@@ -53,23 +56,25 @@ export async function renderWebgl(app) {
               </figure>
               <div class="narrative-body" id="practical-body">Laddar…</div>
             </div>
+            <div class="practical-sub">
+              <h3>Överfart</h3>
+              <div id="practical-overfart">Laddar…</div>
+            </div>
+            <div class="practical-sub">
+              <h3>Sova</h3>
+              <div id="practical-sova">Laddar…</div>
+            </div>
           </div>
         </section>
 
         <section class="card-section">
-          <div class="card" id="sec-overfart">Laddar…</div>
-        </section>
-
-        <section class="card-section">
-          <div class="card" id="sec-party-type">Laddar…</div>
-        </section>
-
-        <section class="card-section">
-          <div class="card" id="sec-sova">Laddar…</div>
-        </section>
-
-        <section class="card-section">
-          <div class="card card--theme" id="sec-theme">Laddar…</div>
+          <div class="card card--theme" id="sec-party-type">
+            <div id="party-type-body">Laddar…</div>
+            <div class="practical-sub">
+              <h3>Tema</h3>
+              <div id="party-theme">Laddar…</div>
+            </div>
+          </div>
         </section>
 
         <section class="card-section">
@@ -82,9 +87,11 @@ export async function renderWebgl(app) {
 
         <section class="card-section osa-section" id="osa-section" hidden>
           <div class="card card--osa">
+            <h2>OSA</h2>
+            <div class="osa-facts"></div>
             <div id="sec-osa">Laddar…</div>
             <div class="row osa-actions">
-              <button class="osa-respond" type="button">Lämna besked</button>
+              <button class="osa-respond" type="button">Mönstra på</button>
             </div>
           </div>
         </section>
@@ -113,17 +120,18 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('sec-manifest'),    { key: 'manifest' })
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
-  renderNarrative(document.getElementById('sec-overfart'),    { title: 'Överfart', key: 'overfart' })
-  renderNarrative(document.getElementById('sec-party-type'),  { title: 'Vad är detta för typ av fest?', key: 'party_type' })
-  renderNarrative(document.getElementById('sec-sova'),        { title: 'Sova', key: 'sova' })
-  renderNarrative(document.getElementById('sec-theme'),       { title: 'Tema', key: 'theme_intro' })
+  renderNarrative(document.getElementById('practical-overfart'), { key: 'overfart' })
+  renderNarrative(document.getElementById('practical-sova'),     { key: 'sova' })
+  renderNarrative(document.getElementById('party-type-body'), { title: 'Vad är detta för typ av fest?', key: 'party_type' })
+  renderNarrative(document.getElementById('party-theme'),     { key: 'theme_intro' })
   renderNarrative(document.getElementById('sec-bidra'),       { title: 'Bidra', key: 'bidra' })
   renderNarrative(document.getElementById('sec-besattningar'),{ title: 'Besättningar', key: 'besattningar' })
-  renderNarrative(document.getElementById('sec-osa-top'),     { title: 'OSA', key: 'osa' })
-  renderNarrative(document.getElementById('sec-osa'),         { title: 'OSA', key: 'osa' })
+  renderNarrative(document.getElementById('sec-osa-top'),     { key: 'osa' })
+  renderNarrative(document.getElementById('sec-osa'),         { key: 'osa' })
   renderNarrative(document.getElementById('sec-closing'),     { key: 'closing' })
 
   bindOvananLightbox()
+  renderOsaFacts()
   await refreshAnswerState()
   document.querySelectorAll('.osa-respond').forEach((btn) => {
     btn.addEventListener('click', async () => {
@@ -138,6 +146,22 @@ async function refreshAnswerState() {
   document.querySelectorAll('.osa-section').forEach((s) => { s.hidden = answered })
   const infoBtn = document.getElementById('info-btn')
   if (infoBtn) infoBtn.hidden = !answered
+}
+
+async function renderOsaFacts() {
+  const { map } = await fetchPracticalMap()
+  const facts = [
+    ['Datum', map?.dates],
+    ['Tid', map?.boat_friday],
+    ['Plats', map?.location],
+  ].filter(([, v]) => v)
+  if (!facts.length) return
+  const html = `
+    <dl class="rsvp-facts">
+      ${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${formatPracticalMarkdown(v)}</dd></div>`).join('')}
+    </dl>
+  `
+  document.querySelectorAll('.osa-facts').forEach((el) => { el.innerHTML = html })
 }
 
 function bindOvananLightbox() {

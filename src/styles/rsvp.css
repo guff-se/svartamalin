@@ -270,6 +270,9 @@
 
 /* RSVP-modal — knapp- och layout-styling (matchar .rsvp-skärmen) */
 .info-modal--rsvp .info-modal__card {
+  max-width: 28rem;
+}
+.info-modal--rsvp.info-modal--wide .info-modal__card {
   max-width: 52rem;
 }
 .info-modal--rsvp .row {
@@ -321,6 +324,29 @@
   color: var(--paper-dark);
   margin: 0 0 0.5rem;
   letter-spacing: 0.1em;
+}
+.rsvp-facts {
+  margin: 1.25rem auto 0;
+  width: fit-content;
+  max-width: 100%;
+  display: grid;
+  gap: 0.6rem;
+}
+.rsvp-facts > div {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+.rsvp-facts dt {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.rsvp-facts dd {
+  margin: 0;
+  line-height: 1.5;
 }
 
 /* Modal-overlay för "Din info" */

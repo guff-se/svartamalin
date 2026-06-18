@@ -6,6 +6,9 @@ import { initPerf } from './lib/perf.js'
 import { preloadAssets } from './lib/preload.js'
 import { mountMapBackground, unmountMapBackground } from './components/map.js'
 
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
+window.scrollTo(0, 0)
+
 initPerf()
 preloadAssets()
 

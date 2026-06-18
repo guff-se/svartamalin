@@ -13,6 +13,7 @@ import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { pirateCardHtml } from './pirate-card.js'
 import { bindVisibleScrollbar } from '../lib/visible-scrollbar.js'
 import { isSelectablePirateName } from '../lib/pirate-name-order.js'
+import { fetchPracticalMap, formatPracticalMarkdown } from './practical-info.js'
 
 let openEl = null
 
@@ -108,11 +109,23 @@ export async function openRsvpFlow() {
 }
 
 // ============= STEG 1: ATTENDING =============
-function stepAttending(guest) {
+async function stepAttending(guest) {
+  const { map } = await fetchPracticalMap()
+  const facts = [
+    ['Datum', map?.dates],
+    ['Tid', map?.boat_friday],
+    ['Plats', map?.location],
+  ].filter(([, v]) => v)
+  const factsHtml = facts.length ? `
+    <dl class="rsvp-facts">
+      ${facts.map(([k, v]) => `<div><dt>${escapeHtml(k)}</dt><dd>${formatPracticalMarkdown(v)}</dd></div>`).join('')}
+    </dl>
+  ` : ''
   return new Promise((resolve) => {
     cardEl().innerHTML = `
       <p class="step-hint">— ${escapeHtml(guest.real_name)} —</p>
       <h2>Hörsammar du kallelsen?</h2>
+      ${factsHtml}
       <div class="row">
         <button id="rsvp-yes">Ja, jag kommer</button>
         <button id="rsvp-no" class="ghost">Nej, jag måste avstå</button>
@@ -198,6 +211,7 @@ function stepInfo(guest) {
 // ============= STEG 3: PIRATNAMN =============
 async function stepPirate(guest) {
   return new Promise(async (resolve) => {
+    openEl?.classList.add('info-modal--wide')
     cardEl().innerHTML = `
       <p class="step-hint">— ${escapeHtml(guest.real_name)} —</p>
       <div class="pirate-pick">
