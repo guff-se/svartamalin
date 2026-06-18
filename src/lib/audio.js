@@ -18,31 +18,38 @@ function showControls() {
   applyMuted(localStorage.getItem(MUTED_KEY) === '1')
 }
 
-// Låser upp autoplay i samma user gesture som inloggning. Startar audion
-// MUTED och låter den fortsätta — på mobil (Chrome/iOS) krävs att play()
-// triggas direkt i user-gesture-call-stacken UTAN await innan, och att vi
-// inte pausar (paus + senare play utanför user gesture blockas av vissa
-// browsers även om muted-play "unlockat" elementet).
-let primed = false
+// Låser upp autoplay-rätten i samma user gesture som inloggning, utan att
+// låta låten höras. Använder muted play+pause-tricket, vilket browser-policies
+// tillåter även utan klick. Idempotent — multipla anrop ger samma promise.
+let primingPromise = null
 export function primeAudioAutoplay() {
-  if (primed) return
-  primed = true
-  audio.muted = true
-  // SYNCHRONOUS i user-gesture: play() måste anropas innan något await.
-  // Vi awaitar inte — promise-resolution sker async men play()-call:et är
-  // sync, vilket är vad mobila browsers kollar.
-  audio.play().catch(() => {
-    // Om muted-play blockas (sällsynt), startShowAudio försöker igen.
-    primed = false
-  })
+  if (primingPromise) return primingPromise
+  primingPromise = (async () => {
+    const wasMuted = audio.muted
+    audio.muted = true
+    try {
+      await audio.play()
+      audio.pause()
+      try { audio.currentTime = 0 } catch {}
+    } catch {
+      // Autoplay blockerad — startShowAudio försöker igen senare.
+    }
+    audio.muted = wasMuted
+  })()
+  return primingPromise
 }
 
 // Startar musiken från 0 — anropas när reveal-animationen drar igång.
-// Audion spelas redan (muted) sen unlock; vi seekar till 0 och unmutear.
+// Awaitar primingen så vi inte race:ar med dess pause().
 export async function startShowAudio() {
-  showControls()  // sätter audio.muted från localStorage-preferens
+  showControls()
+  if (primingPromise) {
+    try { await primingPromise } catch {}
+  }
   try { audio.currentTime = 0 } catch {}
-  try { await audio.play() } catch {}
+  if (!audio.muted) {
+    try { await audio.play() } catch {}
+  }
 }
 
 export function pauseShowAudio() {
