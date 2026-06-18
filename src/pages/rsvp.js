@@ -119,7 +119,7 @@ function renderInfoStep(card, onDone) {
       </label>
       <label class="info-field">
         <span>Övrig info vi bör veta</span>
-        <textarea id="other-notes" rows="3" placeholder="t.ex. trasig fot, kommer sent, höjdrädd…">${escapeHtml(guest.notes ?? '')}</textarea>
+        <textarea id="other-notes" rows="3" placeholder="t.ex. träben, kommer sent, höjdrädd…">${escapeHtml(guest.notes ?? '')}</textarea>
       </label>
       <label class="info-field">
         <span>Telefon (frivilligt)</span>
