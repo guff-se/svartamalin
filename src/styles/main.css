@@ -108,6 +108,7 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
+.top-controls[hidden] { display: none; }
 .top-controls button {
   background: rgba(26, 18, 10, 0.8);
   color: var(--paper);
