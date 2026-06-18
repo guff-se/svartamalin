@@ -268,21 +268,21 @@
   font-style: italic;
 }
 
-/* RSVP-modal — knapp- och layout-styling (matchar .rsvp-skärmen) */
+/* Info-modal (Min info + RSVP) — knapp- och layout-styling */
 .info-modal--rsvp .info-modal__card {
   max-width: 28rem;
 }
 .info-modal--rsvp.info-modal--wide .info-modal__card {
   max-width: 52rem;
 }
-.info-modal--rsvp .row {
+.info-modal .row {
   display: flex;
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 1.5rem;
 }
-.info-modal--rsvp button {
+.info-modal button {
   background: transparent;
   border: 1px solid var(--gold);
   color: var(--paper);
@@ -295,30 +295,30 @@
   transition: all 0.2s;
   min-width: 8rem;
 }
-.info-modal--rsvp button:hover {
+.info-modal button:hover {
   background: var(--accent);
   border-color: var(--accent);
 }
-.info-modal--rsvp button.ghost {
+.info-modal button.ghost {
   border-color: var(--paper-dark);
   color: var(--paper-dark);
 }
-.info-modal--rsvp button[disabled] {
+.info-modal button[disabled] {
   opacity: 0.4;
   cursor: not-allowed;
 }
-.info-modal--rsvp .name-grid button {
+.info-modal .name-grid button {
   padding: 0.6rem 0.5rem;
   font-size: 0.9rem;
   letter-spacing: 0.02em;
   text-transform: none;
   min-width: auto;
 }
-.info-modal--rsvp h2 {
+.info-modal h2 {
   text-align: center;
   margin-top: 0;
 }
-.info-modal--rsvp .step-hint {
+.info-modal .step-hint {
   text-align: center;
   font-style: italic;
   color: var(--paper-dark);
