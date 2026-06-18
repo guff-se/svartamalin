@@ -111,6 +111,14 @@ drop policy if exists "crews_insert" on crews;
 create policy "crews_insert" on crews
   for insert with check (true);
 
+drop policy if exists "crews_update" on crews;
+create policy "crews_update" on crews
+  for update using (true) with check (true);
+
+drop policy if exists "crews_delete" on crews;
+create policy "crews_delete" on crews
+  for delete using (true);
+
 -- Practical info: alla kan läsa; admin-UI skriver via anon
 drop policy if exists "practical_info_read" on practical_info;
 create policy "practical_info_read" on practical_info

@@ -49,10 +49,32 @@ function renderUnlock() {
   })
 }
 
+function updateStatusStats(guests) {
+  const el = document.getElementById('status-stats')
+  if (!el) return
+
+  let yes = 0
+  let no = 0
+  let pending = 0
+  for (const g of guests) {
+    if (g.attending === true) yes++
+    else if (g.attending === false) no++
+    else pending++
+  }
+
+  el.innerHTML = `
+    <span class="pill yes">Kommer: ${yes}</span>
+    <span class="pill no">Avböjt: ${no}</span>
+    <span class="pill pending">Ej svarat: ${pending}</span>
+    <span class="admin-stat-total">${guests.length} gäster</span>
+  `
+}
+
 async function renderAdmin() {
   app.innerHTML = `
     <div class="admin">
       <h1>Svarta Malin — Admin</h1>
+      <div id="status-stats" class="admin-status-stats">Laddar…</div>
 
       <h2>Gäster</h2>
       <div id="guests-table">Laddar…</div>
@@ -75,6 +97,8 @@ async function renderGuests() {
     supabase.from('pirate_names').select('id, name').order('position'),
   ])
   const crewOpts = (crews ?? []).map((c) => `<option value="${c.id}">${escapeHtml(c.name)}</option>`).join('')
+
+  updateStatusStats(guests ?? [])
 
   const el = document.getElementById('guests-table')
   el.innerHTML = `
@@ -200,18 +224,111 @@ function pirateNameSelect(guestId, pirateNameId, names, guests) {
   `
 }
 
+function crewMemberCounts(guests) {
+  const counts = new Map()
+  for (const g of guests ?? []) {
+    if (g.crew_id == null) continue
+    counts.set(g.crew_id, (counts.get(g.crew_id) ?? 0) + 1)
+  }
+  return counts
+}
+
 async function renderCrews() {
   const el = document.getElementById('crews-section')
-  const { data: crews } = await supabase.from('crews').select('id, name').order('id')
+  const [{ data: crews }, { data: guests }] = await Promise.all([
+    supabase.from('crews').select('id, name').order('id'),
+    supabase.from('guests').select('crew_id'),
+  ])
+  const memberCounts = crewMemberCounts(guests)
+
   el.innerHTML = `
-    <ul style="list-style:none; padding:0;">
-      ${(crews ?? []).map((c) => `<li style="margin:0.25rem 0;">#${c.id} — ${escapeHtml(c.name)}</li>`).join('')}
+    <ul class="crew-admin-list">
+      ${(crews ?? []).map((c) => {
+        const members = memberCounts.get(c.id) ?? 0
+        return `
+          <li class="crew-admin-row" data-crew="${c.id}">
+            <span class="crew-admin-id">#${c.id}</span>
+            <input
+              type="text"
+              class="crew-name-input"
+              data-crew="${c.id}"
+              data-original="${escapeHtml(c.name)}"
+              value="${escapeHtml(c.name)}"
+              maxlength="80"
+            />
+            <span class="crew-admin-members">${members} gäst${members === 1 ? '' : 'er'}</span>
+            <button type="button" class="crew-save-btn" data-crew="${c.id}">Spara</button>
+            <button type="button" class="crew-delete-btn" data-crew="${c.id}" data-members="${members}">Ta bort</button>
+          </li>
+        `
+      }).join('')}
     </ul>
-    <form id="new-crew" style="display:flex; gap:0.5rem; margin-top:1rem;">
-      <input id="crew-name" type="text" placeholder="Lagnamn (t.ex. Babords lag)" />
+    <form id="new-crew" class="crew-admin-new">
+      <input id="crew-name" type="text" placeholder="Lagnamn (t.ex. Babords lag)" maxlength="80" />
       <button type="submit">Lägg till</button>
     </form>
   `
+
+  el.querySelectorAll('.crew-save-btn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const crewId = parseInt(btn.dataset.crew, 10)
+      const input = el.querySelector(`.crew-name-input[data-crew="${crewId}"]`)
+      const name = input.value.trim()
+      if (!name) return alert('Lagnamn får inte vara tomt.')
+      if (name === input.dataset.original) return
+
+      btn.disabled = true
+      const { data, error } = await supabase.from('crews').update({ name }).eq('id', crewId).select('id')
+      btn.disabled = false
+
+      if (error) return alert('Misslyckades: ' + error.message)
+      if (!data?.length) {
+        return alert('Kunde inte spara lagnamnet. Kör migrationen crews-admin-policies.sql i Supabase.')
+      }
+
+      input.dataset.original = name
+      btn.textContent = '✓'
+      setTimeout(() => { btn.textContent = 'Spara' }, 1200)
+      renderGuests()
+    })
+  })
+
+  el.querySelectorAll('.crew-delete-btn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const crewId = parseInt(btn.dataset.crew, 10)
+      const members = parseInt(btn.dataset.members, 10) || 0
+      const input = el.querySelector(`.crew-name-input[data-crew="${crewId}"]`)
+      const crewName = input?.value.trim() || `#${crewId}`
+      const msg = members > 0
+        ? `Ta bort laget "${crewName}" och koppla bort ${members} gäst${members === 1 ? '' : 'er'}?`
+        : `Ta bort laget "${crewName}"?`
+      if (!confirm(msg)) return
+
+      btn.disabled = true
+      if (members > 0) {
+        const { error: unlinkError } = await supabase
+          .from('guests')
+          .update({ crew_id: null })
+          .eq('crew_id', crewId)
+        if (unlinkError) {
+          btn.disabled = false
+          return alert('Kunde inte koppla bort gäster: ' + unlinkError.message)
+        }
+      }
+
+      const { data, error } = await supabase.from('crews').delete().eq('id', crewId).select('id')
+      btn.disabled = false
+
+      if (error) return alert('Misslyckades: ' + error.message)
+      if (!data?.length) {
+        return alert('Kunde inte ta bort laget. Kör migrationen crews-admin-policies.sql i Supabase.')
+      }
+
+      renderCrews()
+      renderGuests()
+    })
+  })
+
   document.getElementById('new-crew').addEventListener('submit', async (e) => {
     e.preventDefault()
     const input = document.getElementById('crew-name')
