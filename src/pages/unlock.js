@@ -11,7 +11,9 @@ export function renderUnlock(app, onUnlocked) {
           type="text"
           placeholder="Lösenord"
           autocomplete="off"
-          autofocus
+          autocapitalize="none"
+          autocorrect="off"
+          spellcheck="false"
         />
         <button type="submit">Stig ombord</button>
         <p class="error" id="unlock-error"></p>

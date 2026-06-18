@@ -133,13 +133,16 @@ body {
 }
 
 /* Lösenordsskärm */
+body.locked { overflow: hidden; }
 .unlock {
   min-height: 100vh;
+  height: 100vh;
   display: grid;
   place-items: center;
   align-content: center;
-  padding: 6rem 2rem 2rem;
+  padding: 2rem;
   text-align: center;
+  overflow: hidden;
 }
 .unlock h1 {
   font-size: clamp(2.5rem, 8vw, 5rem);
