@@ -3,14 +3,16 @@ import { hideTopControls, pauseShowAudio } from './lib/audio.js'
 import { clearSession, getGuestId } from './lib/state.js'
 import { showLoading, hideLoading } from './lib/loading.js'
 import { initPerf } from './lib/perf.js'
-import { preloadAssets } from './lib/preload.js'
+import { preloadAssets, preloadCrewPortraits } from './lib/preload.js'
 import { mountMapBackground, unmountMapBackground } from './components/map.js'
 
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
 window.scrollTo(0, 0)
 
 initPerf()
-preloadAssets()
+// Animation-assets först. När de är inne i cache, börja ladda crew-portraits
+// i bakgrunden — undviker konkurrans med Pixi/reveal under intro-animationen.
+preloadAssets().then(preloadCrewPortraits)
 
 const app = document.getElementById('app')
 

@@ -15,7 +15,8 @@
     "detect-card-frame-layouts": "node scripts/detect-card-frame-layouts.js",
     "generate-portraits": "node scripts/generate-portraits.js",
     "generate-svarta-malin": "node scripts/generate-svarta-malin-portrait.js",
-    "generate-ovanan-map": "node scripts/generate-ovanan-map.js"
+    "generate-ovanan-map": "node scripts/generate-ovanan-map.js",
+    "optimize-theatre-props": "node scripts/optimize-theatre-props.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",

@@ -43,7 +43,7 @@ export function pirateCardHtml({ photoSrc, pirateName, placeholder = false, over
   const longName = pirateName.length > LONG_PIRATE_NAME_LEN
   const frameId = frameIdFromOverlay(overlaySrc)
   const photoMark = photoSrc && !placeholder
-    ? `<img class="pirate-card__photo-img" src="${escapeAttr(photoSrc)}" alt="" decoding="async" />`
+    ? `<img class="pirate-card__photo-img" src="${escapeAttr(photoSrc)}" alt="" decoding="async" fetchpriority="low" />`
     : `<span class="pirate-card__placeholder" aria-hidden="true">🏴‍☠️</span>`
 
   return `

@@ -9,6 +9,7 @@ import { hasGivenAnswer } from '../lib/guest.js'
 import { openRsvpFlow } from '../components/rsvp-modal.js'
 import { openLightbox } from '../lib/image-lightbox.js'
 import { fetchPracticalMap, formatPracticalMarkdown } from '../components/practical-info.js'
+import { escapeHtml } from '../lib/escape.js'
 
 export async function renderWebgl(app) {
   app.innerHTML = `
@@ -42,7 +43,6 @@ export async function renderWebgl(app) {
         <section class="card-section">
           <div class="card card--crew">
             <h2>Besättningen</h2>
-            <p class="lead">Pirater som hörsammat kallelsen.</p>
             <div class="crew-collage" id="crew-collage">Laddar besättning…</div>
           </div>
         </section>
@@ -72,7 +72,13 @@ export async function renderWebgl(app) {
             <div id="party-type-body">Laddar…</div>
             <div class="practical-sub">
               <h3>Tema</h3>
-              <div id="party-theme">Laddar…</div>
+              <div class="theme-layout">
+                <figure class="theme-img">
+                  <img src="/images/theatre-props-pile.webp" alt="" />
+                </figure>
+                <div id="party-theme">Laddar…</div>
+              </div>
+              <div class="theme-columns" id="theme-columns"></div>
             </div>
           </div>
         </section>
@@ -124,6 +130,7 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('practical-sova'),     { key: 'sova' })
   renderNarrative(document.getElementById('party-type-body'), { title: 'Vad är detta för typ av fest?', key: 'party_type' })
   renderNarrative(document.getElementById('party-theme'),     { key: 'theme_intro' })
+  renderThemeColumns(document.getElementById('theme-columns'))
   renderNarrative(document.getElementById('sec-bidra'),       { title: 'Bidra', key: 'bidra' })
   renderNarrative(document.getElementById('sec-besattningar'),{ title: 'Besättningar', key: 'besattningar' })
   renderNarrative(document.getElementById('sec-osa-top'),     { key: 'osa' })
@@ -146,6 +153,25 @@ async function refreshAnswerState() {
   document.querySelectorAll('.osa-section').forEach((s) => { s.hidden = answered })
   const infoBtn = document.getElementById('info-btn')
   if (infoBtn) infoBtn.hidden = !answered
+}
+
+async function renderThemeColumns(el) {
+  if (!el) return
+  const { map } = await fetchPracticalMap()
+  const col = (raw, variant) => {
+    if (!raw) return ''
+    const lines = raw.split('\n').map((l) => l.trim()).filter(Boolean)
+    const header = lines[0]
+    const items = lines.slice(1)
+      .filter((l) => l.startsWith('* ') || l.startsWith('- '))
+      .map((l) => l.slice(2).trim())
+    const headerHtml = `<h4 class="theme-col__title">${formatPracticalMarkdown(header)}</h4>`
+    const list = items.length
+      ? `<ul class="theme-list theme-list--${variant}">${items.map((i) => `<li>${escapeHtml(i)}</li>`).join('')}</ul>`
+      : ''
+    return `<div class="theme-col theme-col--${variant}">${headerHtml}${list}</div>`
+  }
+  el.innerHTML = col(map?.theme_doesnt_fit, 'minus') + col(map?.theme_fits, 'plus')
 }
 
 async function renderOsaFacts() {

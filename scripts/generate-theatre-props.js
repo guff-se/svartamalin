@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate amateur theatre prop still-life PNGs (white background).
+ * Generate amateur theatre prop still-life PNGs (dark brown background).
  * Style per scripts/generate-portraits.js + aesthetic-style-guide.md
  *
  * Default backend: ChatGPT subscription via Codex OAuth (`codex login`).
@@ -25,15 +25,15 @@ const STYLE = `Vintage pirate romanticism in the Svarta Malin style — but LOW 
 
 const AMATEUR = `AMATEUR EXECUTION — MAXIMUM CRAP: Obvious fake stage props from a pound shop or party-supplies aisle — wobbly plastic cutlasses with chipped gold spray-paint, foam flintlocks that look like toys, a bent cardboard spyglass, a treasure map drawn in felt-tip on crumpled printer paper, a chunky painted-wood compass with the needle stuck, felt eyepatch, tangled nylon rope, a sad deflated plastic parrot, a crushed tricorn with a crooked skull painted on in marker, plastic bangles, a shoebox treasure chest, polyester sash from a costume bag, cheap feather boa shedding feathers, beads from a craft kit, an empty glass bottle with the label peeled off, toilet-roll tube scroll. Props dumped in a messy heap like someone swept them off a rehearsal floor. Village-hall panto energy — charmingly rubbish, never convincing or expensive.`
 
-const BACKGROUND = `CRITICAL: Plain flat white background (#FFFFFF) behind the prop pile only. No floor, no table, no gradient, no shadow on a surface — just white fill around the heap.`
+const BACKGROUND = `CRITICAL: Plain flat dark brown background behind the prop pile only — rich chocolate brown or deep umber (#3d2817 to #2a1a0e), no gradient, no floor, no table, no vignette. Props sit directly on the dark brown fill.`
 
-const NEG = `No sharp focus, no crisp detail, no museum-quality replicas, no expensive cosplay, no professional studio lighting, no clean product shot, no bright saturated colors, no neon, no glossy CGI, no hyperrealistic rendering, no transparent background, no grey backdrop, no text, no watermark, no border frame, no Pirates of the Caribbean look, no Disney pirate aesthetic.`
+const NEG = `No sharp focus, no crisp detail, no museum-quality replicas, no expensive cosplay, no professional studio lighting, no clean product shot, no bright saturated colors, no neon, no glossy CGI, no hyperrealistic rendering, no transparent background, no white background, no grey backdrop, no text, no watermark, no border frame, no Pirates of the Caribbean look, no Disney pirate aesthetic.`
 
 /** @type {{ file: string, prompt: string }[]} */
 const ASSETS = [
   {
     file: 'theatre-props-pile.png',
-    prompt: `A crappy low-quality photograph of a messy pile of amateur theatre pirate props stacked and tangled together — still life, no people. Bad snapshot quality: soft blur, heavy grain, slightly washed out, unflattering flat flash or dim hall lighting. Items in the heap: two rubber cutlasses with chipped gold spray-paint, foam flintlock pistols, bent plastic spyglass, crumpled felt-tip treasure map on printer paper, chunky painted compass, felt eyepatch, tangled rope, sad plastic parrot, crushed tricorn with marker skull, plastic jewellery, shoebox treasure chest, polyester sash, shedding feather boa, craft beads, peeled-label bottle, cardboard scroll. Dumped chaotically like swept off a rehearsal floor. Square composition, pile centered on plain white background.`,
+    prompt: `A crappy low-quality photograph of a messy pile of amateur theatre pirate props stacked and tangled together — still life, no people. Bad snapshot quality: soft blur, heavy grain, slightly washed out, unflattering flat flash or dim hall lighting. Items in the heap: two rubber cutlasses with chipped gold spray-paint, foam flintlock pistols, bent plastic spyglass, crumpled felt-tip treasure map on printer paper, chunky painted compass, felt eyepatch, tangled rope, sad plastic parrot, crushed tricorn with marker skull, plastic jewellery, shoebox treasure chest, polyester sash, shedding feather boa, craft beads, peeled-label bottle, cardboard scroll. Dumped chaotically like swept off a rehearsal floor. Square composition, pile centered on plain dark brown background.`,
   },
 ]
 

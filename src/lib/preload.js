@@ -50,14 +50,42 @@ const HERO_ASSETS = [
 
 const ALL = [...MAP_IMAGES, ...CARD_OVERLAYS, ...HERO_ASSETS]
 
-let started = false
+let assetsPromise = null
 
-export function preloadAssets() {
-  if (started) return
-  started = true
-  for (const src of ALL) {
+function preloadImage(src) {
+  return new Promise((resolve) => {
     const img = new Image()
     img.decoding = 'async'
+    img.onload = () => resolve()
+    img.onerror = () => resolve()  // tolerera fel — vi ska bara CACHA, inte gate:a
     img.src = src
-  }
+  })
+}
+
+/** Förladdar animationens assets. Returnerar Promise som settlar när allt är inne i cache. */
+export function preloadAssets() {
+  if (assetsPromise) return assetsPromise
+  assetsPromise = Promise.all(ALL.map(preloadImage))
+  return assetsPromise
+}
+
+let crewStarted = false
+/**
+ * Förladdar pirate-portraits. Anropas EFTER preloadAssets() settlat så vi
+ * inte konkurrerar med animation-assets om bandbredd.
+ */
+export async function preloadCrewPortraits() {
+  if (crewStarted) return
+  crewStarted = true
+  const { supabase } = await import('./supabase.js')
+  const { portraitPath } = await import('./portraits.js')
+  const { data } = await supabase
+    .from('public_guests')
+    .select('real_name, pirate_name_id')
+    .not('pirate_name_id', 'is', null)
+  if (!data) return
+  // fetchpriority="low" via Image() finns inte — bara dl till cache parallellt.
+  // Browsers begränsar per-origin connections, så detta kör som "låg" naturligt
+  // efter animation-assets redan tagit sina connections.
+  for (const g of data) preloadImage(portraitPath(g.real_name))
 }
