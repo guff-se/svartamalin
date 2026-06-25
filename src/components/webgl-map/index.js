@@ -17,11 +17,21 @@ let tiltStage = null
 let revealRafId = 0
 
 export async function mountWebglMap(el) {
-  if (app) return  // idempotent
+  if (!el) {
+    hideLoading()
+    return
+  }
+  // Redan monterad på samma element (t.ex. dubbel route) — dölj bara loading.
+  if (app && hostEl === el) {
+    hideLoading()
+    return
+  }
+  if (app) unmountWebglMap()
 
   const mountStart = performance.now()
   hostEl = el
 
+  try {
   // Vänta in browser-layout så el.clientWidth/Height inte är 0 (kan hända
   // om mountWebglMap kallas direkt efter app.innerHTML-byte, t.ex. när
   // RSVP fullförs och vi byter till WebGL-vyn samma synkrona tick — då
@@ -112,7 +122,6 @@ export async function mountWebglMap(el) {
   // sen omedelbart timeline-state på Stockholm = synligt hopp).
   const elapsed = performance.now() - mountStart
   if (elapsed < 600) await new Promise((r) => setTimeout(r, 600 - elapsed))
-  hideLoading()
 
   // Wall-clock-driven rAF (bypass GSAP lagSmoothing — matchar fix i map.js)
   startShowAudio()
@@ -137,7 +146,6 @@ export async function mountWebglMap(el) {
   }
   revealRafId = requestAnimationFrame(tick)
 
-  // Skip-knapp
   const skipBtn = document.getElementById('webgl-skip')
   if (skipBtn) {
     skipBtn.addEventListener('click', () => {
@@ -149,6 +157,13 @@ export async function mountWebglMap(el) {
   }
 
   app._svm = { scene, camera, tiltStage, tl }
+  } catch (err) {
+    console.error('WebGL map mount failed:', err)
+    unmountWebglMap()
+    throw err
+  } finally {
+    hideLoading()
+  }
 }
 
 export function unmountWebglMap() {

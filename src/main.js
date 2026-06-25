@@ -5,6 +5,7 @@ import { showLoading, hideLoading } from './lib/loading.js'
 import { initPerf } from './lib/perf.js'
 import { preloadAssets, preloadCrewPortraits } from './lib/preload.js'
 import { mountMapBackground, unmountMapBackground } from './components/map.js'
+import { unmountWebglMap } from './components/webgl-map/index.js'
 
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
 window.scrollTo(0, 0)
@@ -32,6 +33,7 @@ function logout() {
   pauseShowAudio()
   hideTopControls()
   unmountMapBackground()
+  unmountWebglMap()
   route()
 }
 
@@ -79,6 +81,7 @@ async function route() {
       localStorage.removeItem('svartamalin:unlocked')
     }
     hideTopControls()
+    unmountWebglMap()
     document.body.classList.add('locked')
     renderUnlock(app, async () => {
       markUnlocked()
