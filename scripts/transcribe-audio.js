@@ -6,14 +6,18 @@
  *   ELEVENLABS_API_KEY=... node scripts/transcribe-audio.js [audio-file]
  *
  * Defaults to "Martin Ljung - Svarta Malin.m4a" in project root.
- * Writes:
- *   public/data/svarta-malin-transcript.json  (full API response)
- *   public/data/svarta-malin-words.json       (words only, for animation sync)
+ * Writes pristine STT output, then applies lyric corrections:
+ *   public/data/svarta-malin-transcript-stt.json  (full API response, untouched)
+ *   public/data/svarta-malin-words-stt.json       (STT words only)
+ *   public/data/svarta-malin-transcript.json      (lyrics-aligned, for subtitles + animation)
+ *   public/data/svarta-malin-words.json           (lyrics-aligned compact)
+ *   public/data/svarta-malin-subtitle-lines.json  (line breaks for subtitles only)
  */
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { basename, join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { spawnSync } from 'node:child_process'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const apiKey = process.env.ELEVENLABS_API_KEY
@@ -29,8 +33,8 @@ mkdirSync(outDir, { recursive: true })
 const slug = process.argv[2]
   ? basename(input, '.m4a').toLowerCase().replace(/[^a-z0-9]+/g, '-')
   : 'svarta-malin'
-const fullOut = join(outDir, `${slug}-transcript.json`)
-const wordsOut = join(outDir, `${slug}-words.json`)
+const sttOut = join(outDir, `${slug}-transcript-stt.json`)
+const sttWordsOut = join(outDir, `${slug}-words-stt.json`)
 
 const form = new FormData()
 form.append('model_id', 'scribe_v2')
@@ -52,7 +56,7 @@ if (!res.ok) {
 }
 
 const data = await res.json()
-writeFileSync(fullOut, JSON.stringify(data, null, 2))
+writeFileSync(sttOut, JSON.stringify(data, null, 2))
 
 const words = data.words
   .filter((w) => w.type === 'word')
@@ -64,8 +68,12 @@ const compact = {
   duration: data.audio_duration_secs ?? words.at(-1)?.end,
   words,
 }
-writeFileSync(wordsOut, JSON.stringify(compact, null, 2))
+writeFileSync(sttWordsOut, JSON.stringify(compact, null, 2))
 
 console.log(`Done: ${words.length} words, ${compact.duration?.toFixed(1)}s`)
-console.log(`  ${fullOut}`)
-console.log(`  ${wordsOut}`)
+console.log(`  ${sttOut}`)
+console.log(`  ${sttWordsOut}`)
+
+console.log('Applying lyric alignment…')
+const fix = spawnSync('node', ['scripts/fix-transcript-lyrics.js'], { cwd: root, stdio: 'inherit' })
+if (fix.status !== 0) process.exit(fix.status ?? 1)

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/src/styles/framefix.css" />
     <link rel="stylesheet" href="/src/styles/frameselect.css" />
     <link rel="stylesheet" href="/src/styles/webgl.css" />
+    <link rel="stylesheet" href="/src/styles/subtitles.css" />
   </head>
   <body class="locked">
     <div id="app"></div>
@@ -22,6 +23,9 @@
       <div class="loading-spinner"></div>
     </div>
     <audio id="party-audio" src="/audio/svarta-malin.m4a" preload="auto"></audio>
+    <div id="song-subtitles" class="song-subtitles" hidden aria-live="polite">
+      <p class="song-subtitles__line"></p>
+    </div>
     <div id="top-controls" class="top-controls" hidden>
       <button id="info-btn" type="button">Min info</button>
       <button id="logout-btn" type="button">Logga ut</button>

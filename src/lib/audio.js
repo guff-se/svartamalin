@@ -1,8 +1,14 @@
+import { startSongSubtitles, stopSongSubtitles } from './subtitles.js'
+
 const audio = document.getElementById('party-audio')
 const topControls = document.getElementById('top-controls')
 const toggle = document.getElementById('mute-toggle')
 
 const MUTED_KEY = 'svartamalin:muted'
+
+function wantsMuted() {
+  return localStorage.getItem(MUTED_KEY) === '1'
+}
 
 function applyMuted(muted) {
   audio.muted = muted
@@ -11,48 +17,144 @@ function applyMuted(muted) {
   localStorage.setItem(MUTED_KEY, muted ? '1' : '0')
 }
 
-toggle.addEventListener('click', () => applyMuted(!audio.muted))
+// Synkront i user-gesture — inga await före play().
+let sessionUnlocked = false
+let mutedBackgroundPlay = false
+let gestureListenerInstalled = false
+
+function whenAudioReady() {
+  if (audio.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA) {
+    return Promise.resolve()
+  }
+  return new Promise((resolve) => {
+    const done = () => {
+      audio.removeEventListener('canplaythrough', done)
+      audio.removeEventListener('error', done)
+      resolve()
+    }
+    audio.addEventListener('canplaythrough', done, { once: true })
+    audio.addEventListener('error', done, { once: true })
+    audio.load()
+  })
+}
+
+function unlockFromGesture() {
+  if (sessionUnlocked) return
+  sessionUnlocked = true
+  const prefMuted = wantsMuted()
+  audio.muted = true
+  audio.play().catch(() => {})
+  audio.pause()
+  try { audio.currentTime = 0 } catch {}
+  audio.muted = prefMuted
+}
+
+async function tryStartAudible() {
+  if (wantsMuted()) {
+    audio.pause()
+    stopSongSubtitles()
+    return true
+  }
+  try {
+    await audio.play()
+    startSongSubtitles()
+    return true
+  } catch {
+    return false
+  }
+}
+
+function installGestureUnlockUntilPlaying() {
+  if (gestureListenerInstalled || sessionUnlocked) return
+  gestureListenerInstalled = true
+
+  const onGesture = () => {
+    unlockFromGesture()
+    void (async () => {
+      await whenAudioReady()
+      try { audio.currentTime = 0 } catch {}
+      applyMuted(wantsMuted())
+      if (await tryStartAudible()) {
+        window.removeEventListener('pointerdown', onGesture, true)
+        gestureListenerInstalled = false
+      }
+    })()
+  }
+
+  window.addEventListener('pointerdown', onGesture, { capture: true, passive: true })
+}
+
+async function startMutedBackgroundPlay() {
+  if (sessionUnlocked || mutedBackgroundPlay) return
+  await whenAudioReady()
+  audio.muted = true
+  try {
+    await audio.play()
+    mutedBackgroundPlay = true
+  } catch {}
+}
+
+toggle.addEventListener('click', () => {
+  // Fälla: audion spelar inte men ikonen visar 🔊 — klick råkar muta.
+  // Om ljud önskas men är pausat: starta (gest), toggla inte till mute.
+  if (audio.paused && !wantsMuted()) {
+    applyMuted(false)
+    unlockFromGesture()
+    void tryStartAudible()
+    return
+  }
+
+  const wasMuted = audio.muted
+  applyMuted(!wasMuted)
+  if (!audio.muted) {
+    unlockFromGesture()
+    void tryStartAudible()
+  } else {
+    audio.pause()
+    stopSongSubtitles()
+  }
+})
 
 function showControls() {
   topControls.hidden = false
-  applyMuted(localStorage.getItem(MUTED_KEY) === '1')
+  applyMuted(wantsMuted())
 }
 
-// Låser upp autoplay-rätten i samma user gesture som inloggning, utan att
-// låta låten höras. Använder muted play+pause-tricket, vilket browser-policies
-// tillåter även utan klick. Idempotent — multipla anrop ger samma promise.
-let primingPromise = null
+// Anropas från unlock-submit — måste vara synkront (inga await i prime).
 export function primeAudioAutoplay() {
-  if (primingPromise) return primingPromise
-  primingPromise = (async () => {
-    const wasMuted = audio.muted
-    audio.muted = true
-    try {
-      await audio.play()
-      audio.pause()
-      try { audio.currentTime = 0 } catch {}
-    } catch {
-      // Autoplay blockerad — startShowAudio försöker igen senare.
-    }
-    audio.muted = wasMuted
-  })()
-  return primingPromise
+  unlockFromGesture()
 }
 
-// Startar musiken från 0 — anropas när reveal-animationen drar igång.
-// Awaitar primingen så vi inte race:ar med dess pause().
-export async function startShowAudio() {
+export function prepareAudioForReturningSession() {
   showControls()
-  if (primingPromise) {
-    try { await primingPromise } catch {}
+  installGestureUnlockUntilPlaying()
+  const loading = document.getElementById('loading-screen')
+  if (loading) {
+    loading.addEventListener('pointerdown', () => unlockFromGesture(), { once: true, capture: true })
   }
+  void startMutedBackgroundPlay()
+}
+
+export async function startShowAudio() {
+  await whenAudioReady()
+  if (!sessionUnlocked && !mutedBackgroundPlay) {
+    await startMutedBackgroundPlay()
+  }
+
   try { audio.currentTime = 0 } catch {}
+  showControls()
+
   if (!audio.muted) {
-    try { await audio.play() } catch {}
+    const ok = await tryStartAudible()
+    if (!ok) installGestureUnlockUntilPlaying()
+  } else {
+    audio.pause()
+    stopSongSubtitles()
   }
 }
 
 export function pauseShowAudio() {
+  stopSongSubtitles()
   audio.pause()
   try { audio.currentTime = 0 } catch {}
 }

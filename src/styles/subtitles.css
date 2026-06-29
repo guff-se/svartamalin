@@ -1,0 +1,41 @@
+/* Song lyrics — standard bottom subtitle overlay, synced to #party-audio */
+
+.song-subtitles {
+  position: fixed;
+  left: 50%;
+  bottom: max(2.25rem, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  z-index: 180;
+  pointer-events: none;
+  max-width: min(36em, 88vw);
+  text-align: center;
+}
+
+.song-subtitles[hidden] {
+  display: none;
+}
+
+.song-subtitles__line {
+  margin: 0;
+  padding: 0.4em 0.75em;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: clamp(0.95rem, 2.8vw, 1.2rem);
+  font-weight: 500;
+  line-height: 1.35;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 0.2em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* During reveal the skip button sits bottom-right — lift subtitles slightly. */
+body.webgl-revealing .song-subtitles {
+  bottom: max(3.5rem, calc(env(safe-area-inset-bottom) + 1.25rem));
+}
+
+@media (max-width: 560px) {
+  .song-subtitles__line {
+    font-size: clamp(0.875rem, 3.6vw, 1.05rem);
+  }
+}

@@ -1,5 +1,5 @@
 import { renderUnlock } from './pages/unlock.js'
-import { hideTopControls, pauseShowAudio } from './lib/audio.js'
+import { hideTopControls, pauseShowAudio, prepareAudioForReturningSession } from './lib/audio.js'
 import { clearSession, getGuestId } from './lib/state.js'
 import { showLoading, hideLoading } from './lib/loading.js'
 import { initPerf } from './lib/perf.js'
@@ -91,7 +91,8 @@ async function route() {
   }
 
   document.body.classList.remove('locked')
-
+  await preloadAssets()
+  prepareAudioForReturningSession()
 
   // /old → SVG-originalet (renderHome + mountMapBackground)
   if (isOldRoute()) {

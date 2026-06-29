@@ -48,6 +48,10 @@ const HERO_ASSETS = [
   '/images/svarta-malin-hero.webp',
 ]
 
+const AUDIO_ASSETS = [
+  '/audio/svarta-malin.m4a',
+]
+
 const ALL = [...MAP_IMAGES, ...CARD_OVERLAYS, ...HERO_ASSETS]
 
 let assetsPromise = null
@@ -62,10 +66,25 @@ function preloadImage(src) {
   })
 }
 
+function preloadAudio(src) {
+  return new Promise((resolve) => {
+    const a = new Audio()
+    a.preload = 'auto'
+    const done = () => resolve()
+    a.addEventListener('canplaythrough', done, { once: true })
+    a.addEventListener('error', done, { once: true })
+    a.src = src
+    a.load()
+  })
+}
+
 /** Förladdar animationens assets. Returnerar Promise som settlar när allt är inne i cache. */
 export function preloadAssets() {
   if (assetsPromise) return assetsPromise
-  assetsPromise = Promise.all(ALL.map(preloadImage))
+  assetsPromise = Promise.all([
+    ...ALL.map(preloadImage),
+    ...AUDIO_ASSETS.map(preloadAudio),
+  ])
   return assetsPromise
 }
 

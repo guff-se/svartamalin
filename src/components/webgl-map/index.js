@@ -21,9 +21,11 @@ export async function mountWebglMap(el) {
     hideLoading()
     return
   }
-  // Redan monterad på samma element (t.ex. dubbel route) — dölj bara loading.
+  // Redan monterad på samma element (t.ex. dubbel route) — dölj loading,
+  // men starta om ljudet om reveal kördes om utan ny mount.
   if (app && hostEl === el) {
     hideLoading()
+    startShowAudio()
     return
   }
   if (app) unmountWebglMap()
