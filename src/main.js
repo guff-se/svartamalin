@@ -1,5 +1,5 @@
 import { renderUnlock } from './pages/unlock.js'
-import { hideTopControls, pauseShowAudio, prepareAudioForReturningSession } from './lib/audio.js'
+import { hideTopControls, pauseShowAudio, prepareAudioForReturningSession, primeAudioAutoplay, isAudioUnlocked } from './lib/audio.js'
 import { clearSession, getGuestId } from './lib/state.js'
 import { showLoading, hideLoading } from './lib/loading.js'
 import { initPerf } from './lib/perf.js'
@@ -55,6 +55,33 @@ function isOldRoute() {
   return path === '/old'
 }
 
+// Themed "Sätt segel"-splash för återvändande sessioner. Resolvar när
+// användaren tappar — tappet är user-gesturen som låser upp audion.
+function showReturningSplash() {
+  return new Promise((resolve) => {
+    const el = document.createElement('div')
+    el.className = 'returning-splash'
+    el.innerHTML = `
+      <div class="returning-splash__inner">
+        <img class="returning-splash__portrait" src="/images/svarta-malin-hero.webp" alt="Svarta Malin" width="720" height="895" />
+        <h1 class="returning-splash__title">Svarta Malin</h1>
+        <p class="returning-splash__sub">Salmonellahavets fasa</p>
+        <button class="returning-splash__btn" type="button">Sätt segel!</button>
+        <p class="returning-splash__audio-hint">🔊 Ljud rekommenderas</p>
+      </div>
+    `
+    const go = () => {
+      primeAudioAutoplay()   // synkront i gesturen — välsignar audio-elementet
+      el.removeEventListener('click', go)
+      el.remove()
+      resolve()
+    }
+    el.addEventListener('click', go)
+    document.body.appendChild(el)
+    el.querySelector('.returning-splash__btn')?.focus()
+  })
+}
+
 
 async function route() {
   const dev = devRoute()
@@ -91,6 +118,15 @@ async function route() {
   }
 
   document.body.classList.remove('locked')
+
+  // Återvändande session (reload medan inloggad) saknar user-gesture denna
+  // sidladdning → browsern blockerar audible autoplay. Visa en splash som
+  // skördar ett tap; det "välsignar" audion precis som login-klicket gör.
+  // Fresh login har redan primat (isAudioUnlocked) → ingen splash.
+  if (!isOldRoute() && !isAudioUnlocked()) {
+    await showReturningSplash()
+  }
+
   await preloadAssets()
   prepareAudioForReturningSession()
 

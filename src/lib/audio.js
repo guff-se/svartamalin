@@ -125,6 +125,13 @@ export function primeAudioAutoplay() {
   unlockFromGesture()
 }
 
+// True om audion redan "välsignats" av en user-gesture denna sidladdning.
+// Fresh login → true (login-klicket primade). Reload → false tills användaren
+// interagerar. Används för att avgöra om retur-splashen behövs.
+export function isAudioUnlocked() {
+  return sessionUnlocked
+}
+
 export function prepareAudioForReturningSession() {
   showControls()
   installGestureUnlockUntilPlaying()

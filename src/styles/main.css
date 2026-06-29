@@ -150,6 +150,70 @@ body {
   }
 }
 
+/* Retur-splash — skördar user-gesture så audion kan spela vid reload */
+.returning-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 600;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #1a120a 0%, #2a1810 100%);
+  cursor: pointer;
+  text-align: center;
+  padding: 2rem;
+}
+.returning-splash__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.returning-splash__portrait {
+  width: 22rem;
+  max-width: 70vw;
+  height: auto;
+  filter: sepia(0.35) contrast(1.05) brightness(0.95);
+  -webkit-mask-image: linear-gradient(to bottom, #000 90%, transparent);
+  mask-image: linear-gradient(to bottom, #000 90%, transparent);
+}
+.returning-splash__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  margin: 0;
+  letter-spacing: 0.05em;
+  color: var(--paper);
+  text-shadow: 0 0 30px rgba(184, 146, 74, 0.3);
+}
+.returning-splash__sub {
+  font-family: var(--font-display);
+  font-style: italic;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--paper-dark);
+  margin: 0.35rem 0 2rem;
+}
+.returning-splash__btn {
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--paper);
+  padding: 0.85rem 2.5rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.returning-splash__btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.returning-splash__audio-hint {
+  margin-top: 2rem;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: var(--paper-dark);
+  font-style: italic;
+}
+
 /* Lösenordsskärm */
 body.locked { overflow: hidden; }
 .unlock {
