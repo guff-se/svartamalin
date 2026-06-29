@@ -63,9 +63,6 @@ function showReturningSplash() {
     el.className = 'returning-splash'
     el.innerHTML = `
       <div class="returning-splash__inner">
-        <img class="returning-splash__portrait" src="/images/svarta-malin-hero.webp" alt="Svarta Malin" width="720" height="895" />
-        <h1 class="returning-splash__title">Svarta Malin</h1>
-        <p class="returning-splash__sub">Salmonellahavets fasa</p>
         <button class="returning-splash__btn" type="button">Sätt segel!</button>
         <p class="returning-splash__audio-hint">🔊 Ljud rekommenderas</p>
       </div>
