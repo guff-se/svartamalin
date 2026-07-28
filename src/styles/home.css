@@ -299,50 +299,6 @@
   .theme-img { max-width: 14rem; }
 }
 
-/* Tema — plus/minus-kolumner i botten */
-.theme-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-  text-align: left;
-}
-.theme-col__title {
-  margin: 0 0 0.5rem;
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  letter-spacing: 0.1em;
-}
-.theme-col--plus  .theme-col__title { color: #6db77f; }
-.theme-col--minus .theme-col__title { color: #c97565; }
-.theme-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-}
-.theme-list li {
-  position: relative;
-  padding-left: 1.5rem;
-  line-height: 1.5;
-}
-.theme-list li::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-family: var(--font-display);
-  font-weight: bold;
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-.theme-list--plus  li::before { content: '+'; color: #6db77f; }
-.theme-list--minus li::before { content: '−'; color: #c97565; }
-@media (max-width: 560px) {
-  .theme-columns { grid-template-columns: 1fr; gap: 1.25rem; }
-}
-
 /* Manifest — Svarta Malins kallelse, framträdande style */
 .card--manifest {
   background: rgba(20, 14, 8, 0.92);
