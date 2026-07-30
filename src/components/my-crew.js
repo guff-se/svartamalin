@@ -1,9 +1,17 @@
 import { supabase } from '../lib/supabase.js'
+import { getGuestId } from '../lib/state.js'
 import { escapeHtml } from '../lib/escape.js'
+import { portraitPath } from '../lib/portraits.js'
+import { overlayForGuest } from '../lib/card-frame-assignments.js'
+import { sortByPirateNameId } from '../lib/pirate-name-order.js'
+import { getCrewIntriger, intrigerListHtml } from '../lib/intriger.js'
+import { pirateCardHtml } from './pirate-card.js'
+import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
 
-export async function renderMyCrew(el, guestId) {
+export async function renderMyCrew(el) {
+  const guestId = getGuestId()
   if (!guestId) {
-    el.innerHTML = `<p class="crew-empty">Logga in som gäst för att se ditt lag.</p>`
+    el.innerHTML = `<p class="crew-empty">Logga in som gäst för att se din besättning.</p>`
     return
   }
 
@@ -28,110 +36,72 @@ export async function renderMyCrew(el, guestId) {
       .from('guests')
       .select('id, real_name, phone, email, pirate_name_id')
       .eq('crew_id', me.crew_id)
-      .neq('id', guestId),
+      .not('pirate_name_id', 'is', null),
   ])
 
-  // Hämta piratnamnen för mates
   const ids = (mates ?? []).map((m) => m.pirate_name_id).filter(Boolean)
   const { data: names } = ids.length
     ? await supabase.from('pirate_names').select('id, name').in('id', ids)
     : { data: [] }
   const nameMap = Object.fromEntries((names ?? []).map((n) => [n.id, n.name]))
 
-  const crewName = crew?.name ?? 'Ditt lag'
+  const crewName = crew?.name ?? '—'
+  const withPirateNames = (mates ?? [])
+    .map((m) => ({ ...m, pirate_name: nameMap[m.pirate_name_id] }))
+    .filter((m) => m.pirate_name)
+
+  const crewIntriger = getCrewIntriger(me.crew_id)
+  const crewIntrigerHtml = crewIntriger.length
+    ? `
+      <div class="crew-intriger">
+        <h3 class="crew-intriger__heading">Lagets intriger</h3>
+        ${intrigerListHtml(crewIntriger)}
+      </div>
+    `
+    : ''
 
   el.innerHTML = `
-    <div class="crew-header">
-      <h3 class="crew-name">${escapeHtml(crewName)}</h3>
-      <button type="button" class="crew-rename-btn" id="crew-rename-btn">Byt lagnamn</button>
-    </div>
-    <form class="crew-rename-form" id="crew-rename-form" hidden>
-      <label class="visually-hidden" for="crew-rename-input">Nytt lagnamn</label>
-      <input
-        type="text"
-        id="crew-rename-input"
-        class="crew-rename-input"
-        maxlength="80"
-        value="${escapeHtml(crewName)}"
-        autocomplete="off"
-      />
-      <div class="crew-rename-actions">
-        <button type="submit" class="crew-rename-save">Spara</button>
-        <button type="button" class="crew-rename-cancel ghost">Avbryt</button>
-      </div>
-      <p class="crew-rename-error" id="crew-rename-error" hidden></p>
-    </form>
-    <ul class="crew-list">
-      ${(mates ?? []).map((m) => `
-        <li>
-          <div class="name">${escapeHtml(m.real_name)}</div>
-          <div class="pirate">${escapeHtml(nameMap[m.pirate_name_id] ?? '—')}</div>
-          ${m.phone ? `<div class="contact">📞 ${escapeHtml(m.phone)}</div>` : ''}
-          ${m.email ? `<div class="contact">✉️ ${escapeHtml(m.email)}</div>` : ''}
-        </li>
-      `).join('')}
-    </ul>
+    <h2 class="crew-name">${escapeHtml(crewName)}</h2>
+    <div class="crew-collage" id="my-crew-collage"></div>
+    ${crewIntrigerHtml}
   `
 
-  bindRenameHandlers(el, guestId)
+  const grid = el.querySelector('#my-crew-collage')
+  wirePirateCardGrid(grid)
+
+  if (!withPirateNames.length) {
+    grid.innerHTML = `<p class="crew-empty">Ingen i besättningen har mönstrat på än.</p>`
+    return
+  }
+
+  grid.innerHTML = sortByPirateNameId(withPirateNames).map((m) => `
+    <div class="my-crew-member">
+      ${pirateCardHtml({
+        photoSrc: portraitPath(m.real_name),
+        pirateName: m.pirate_name,
+        overlaySrc: overlayForGuest({ id: m.id, pirate_name_id: m.pirate_name_id }),
+      })}
+      ${contactHtml(m)}
+    </div>
+  `).join('')
+
+  makeCardsInteractive(grid)
 }
 
-function bindRenameHandlers(el, guestId) {
-  const renameBtn = el.querySelector('#crew-rename-btn')
-  const form = el.querySelector('#crew-rename-form')
-  const input = el.querySelector('#crew-rename-input')
-  const cancelBtn = el.querySelector('.crew-rename-cancel')
-  const errorEl = el.querySelector('#crew-rename-error')
-  const header = el.querySelector('.crew-header')
-
-  if (!renameBtn || !form || !input) return
-
-  const showForm = () => {
-    header.hidden = true
-    form.hidden = false
-    errorEl.hidden = true
-    errorEl.textContent = ''
-    input.focus()
-    input.select()
+function contactHtml({ phone, email }) {
+  const lines = []
+  if (phone) {
+    lines.push(
+      `<a class="my-crew-contact__link" href="tel:${escapeHtml(phone)}">${escapeHtml(phone)}</a>`,
+    )
   }
-
-  const hideForm = () => {
-    form.hidden = true
-    header.hidden = false
-    errorEl.hidden = true
-    errorEl.textContent = ''
+  if (email) {
+    lines.push(
+      `<a class="my-crew-contact__link" href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a>`,
+    )
   }
-
-  renameBtn.addEventListener('click', showForm)
-  cancelBtn.addEventListener('click', hideForm)
-
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault()
-    const newName = input.value.trim()
-    if (!newName) {
-      errorEl.textContent = 'Skriv ett lagnamn.'
-      errorEl.hidden = false
-      return
-    }
-
-    const saveBtn = form.querySelector('.crew-rename-save')
-    saveBtn.disabled = true
-
-    const { error } = await supabase.rpc('update_my_crew_name', {
-      p_guest_id: guestId,
-      p_name: newName,
-    })
-
-    saveBtn.disabled = false
-
-    if (error) {
-      errorEl.textContent = error.message.includes('tomt')
-        ? 'Lagnamn får inte vara tomt.'
-        : 'Kunde inte spara: ' + error.message
-      errorEl.hidden = false
-      return
-    }
-
-    await renderMyCrew(el, guestId)
-  })
+  if (!lines.length) {
+    return `<div class="my-crew-contact my-crew-contact--empty">—</div>`
+  }
+  return `<div class="my-crew-contact">${lines.join('')}</div>`
 }

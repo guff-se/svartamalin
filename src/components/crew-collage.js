@@ -6,8 +6,7 @@ import { bindLightboxTriggers } from '../lib/image-lightbox.js'
 import { pirateCardHtml } from './pirate-card.js'
 
 export async function renderCrewCollage(el) {
-  el.addEventListener('error', onPortraitError, true)
-  bindCardLightbox(el)
+  wirePirateCardGrid(el)
   await refresh(el)
 
   // Realtime: ny pirat eller namnändring → uppdatera.
@@ -15,6 +14,23 @@ export async function renderCrewCollage(el) {
     .channel('crew-collage')
     .on('postgres_changes', { event: '*', schema: 'public', table: 'guests' }, () => refresh(el))
     .subscribe()
+}
+
+/** Bind portrait-error + lightbox once on a crew-collage container. */
+export function wirePirateCardGrid(el) {
+  el.addEventListener('error', onPortraitError, true)
+  bindCardLightbox(el)
+}
+
+/** Fill a container with pirate cards (same markup as Besättningen). */
+export function fillPirateCardGrid(el, guests) {
+  el.innerHTML = sortByPirateNameId(guests).map((p) => pirateCardHtml({
+    photoSrc: portraitPath(p.real_name),
+    pirateName: p.pirate_name,
+    overlaySrc: overlayForGuest({ id: p.id, pirate_name_id: p.pirate_name_id }),
+  })).join('')
+
+  makeCardsInteractive(el)
 }
 
 function onPortraitError(e) {
@@ -42,13 +58,7 @@ async function refresh(el) {
     return
   }
 
-  el.innerHTML = sortByPirateNameId(data).map((p) => pirateCardHtml({
-    photoSrc: portraitPath(p.real_name),
-    pirateName: p.pirate_name,
-    overlaySrc: overlayForGuest({ id: p.id, pirate_name_id: p.pirate_name_id }),
-  })).join('')
-
-  makeCardsInteractive(el)
+  fillPirateCardGrid(el, data)
 }
 
 function cloneCardForLightbox(card) {
@@ -99,7 +109,7 @@ function bindCardLightbox(el) {
   })
 }
 
-function makeCardsInteractive(el) {
+export function makeCardsInteractive(el) {
   el.querySelectorAll('.pirate-card').forEach((card) => {
     card.setAttribute('tabindex', '0')
     card.setAttribute('role', 'button')

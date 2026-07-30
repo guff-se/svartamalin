@@ -5,6 +5,8 @@
 import { mountWebglMap, unmountWebglMap } from '../components/webgl-map/index.js'
 import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
+import { renderMyCrew } from '../components/my-crew.js'
+import { renderMyIntriger } from '../components/my-intriger.js'
 import { hasGivenAnswer } from '../lib/guest.js'
 import { openRsvpFlow } from '../components/rsvp-modal.js'
 import { openLightbox } from '../lib/image-lightbox.js'
@@ -40,8 +42,16 @@ export async function renderWebgl(app) {
         </section>
 
         <section class="card-section">
+          <div class="card card--crew card--my-crew" id="my-crew">Laddar…</div>
+        </section>
+
+        <section class="card-section" id="my-intriger-section" hidden>
+          <div class="card card--intriger" id="my-intriger"></div>
+        </section>
+
+        <section class="card-section">
           <div class="card card--crew">
-            <h2>Besättningen</h2>
+            <h2>De värsta kaptener som finns</h2>
             <div class="crew-collage" id="crew-collage">Laddar besättning…</div>
           </div>
         </section>
@@ -85,10 +95,6 @@ export async function renderWebgl(app) {
           <div class="card card--bidra" id="sec-bidra">Laddar…</div>
         </section>
 
-        <section class="card-section">
-          <div class="card" id="sec-besattningar">Laddar…</div>
-        </section>
-
         <section class="card-section osa-section" id="osa-section" hidden>
           <div class="card card--osa">
             <h2>OSA</h2>
@@ -122,6 +128,8 @@ export async function renderWebgl(app) {
 
   // Rendera resten av sidan
   renderNarrative(document.getElementById('sec-manifest'),    { key: 'manifest' })
+  renderMyCrew(document.getElementById('my-crew'))
+  renderMyIntriger(document.getElementById('my-intriger'))
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
   renderNarrative(document.getElementById('practical-overfart'), { key: 'overfart' })
@@ -129,7 +137,6 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('party-type-body'), { title: 'Vad är detta för typ av fest?', key: 'party_type' })
   renderNarrative(document.getElementById('party-theme'),     { key: 'theme_intro' })
   renderNarrative(document.getElementById('sec-bidra'),       { title: 'Bidra', key: 'bidra' })
-  renderNarrative(document.getElementById('sec-besattningar'),{ title: 'Besättningar', key: 'besattningar' })
   renderNarrative(document.getElementById('sec-osa-top'),     { key: 'osa' })
   renderNarrative(document.getElementById('sec-osa'),         { key: 'osa' })
   renderNarrative(document.getElementById('sec-closing'),     { key: 'closing' })

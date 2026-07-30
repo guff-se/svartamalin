@@ -395,114 +395,82 @@
   color: var(--paper-dark);
   text-align: center;
 }
-.crew-header {
-  text-align: center;
-  margin-bottom: 1.25rem;
-}
 .crew-name {
-  margin: 0 0 0.5rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--gold);
-}
-.crew-rename-btn {
-  background: transparent;
-  border: 1px solid var(--paper-dark);
-  color: var(--paper-dark);
-  font-family: inherit;
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 0.35rem 0.75rem;
-  cursor: pointer;
-}
-.crew-rename-btn:hover {
-  border-color: var(--gold);
-  color: var(--gold);
-}
-.crew-rename-form {
-  margin-bottom: 1.25rem;
-  display: grid;
-  gap: 0.75rem;
-}
-.crew-rename-form[hidden],
-.crew-rename-error[hidden] {
-  display: none;
-}
-.crew-rename-input {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.35);
-  border: 1px solid var(--gold);
-  color: var(--paper);
-  font-family: inherit;
-  font-size: 1rem;
-  padding: 0.6rem 0.75rem;
+  margin: 0 0 1.5rem;
   text-align: center;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
 }
-.crew-rename-input:focus {
-  outline: none;
-  border-color: var(--accent);
-}
-.crew-rename-actions {
+.my-crew-member {
   display: flex;
-  justify-content: center;
-  gap: 0.75rem;
+  flex-direction: column;
+  gap: 0.55rem;
+  min-width: 0;
 }
-.crew-rename-actions button {
-  background: transparent;
-  border: 1px solid var(--gold);
-  color: var(--paper);
-  font-family: inherit;
-  padding: 0.45rem 1rem;
-  cursor: pointer;
+.my-crew-member .pirate-card {
+  max-width: none;
 }
-.crew-rename-actions button:hover {
-  background: var(--accent);
-  border-color: var(--accent);
+.my-crew-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  word-break: break-word;
 }
-.crew-rename-actions button.ghost {
-  border-color: var(--paper-dark);
+.my-crew-contact--empty {
   color: var(--paper-dark);
+  opacity: 0.5;
 }
-.crew-rename-actions button.ghost:hover {
-  background: transparent;
-  border-color: var(--gold);
+.my-crew-contact__link {
+  color: var(--paper-dark);
+  text-decoration: none;
+}
+.my-crew-contact__link:hover {
+  color: var(--gold);
+  text-decoration: underline;
+}
+
+/* Intriger */
+.crew-intriger {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(201, 162, 39, 0.25);
+}
+.crew-intriger__heading {
+  margin: 0 0 1rem;
+  text-align: center;
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--gold);
 }
-.crew-rename-actions button[disabled] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-.crew-rename-error {
-  margin: 0;
+.card--intriger h2 {
+  margin: 0 0 1.1rem;
   text-align: center;
-  font-size: 0.85rem;
-  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-.crew-list {
+.intriger-list {
   list-style: none;
-  padding: 0;
   margin: 0;
-  display: grid;
-  gap: 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
-.crew-list li {
-  padding: 1rem;
-  border: 1px solid var(--gold);
-  background: rgba(0,0,0,0.3);
+.intrig__title {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
 }
-.crew-list .name { font-weight: bold; }
-.crew-list .pirate { font-style: italic; color: var(--paper-dark); }
-.crew-list .contact { font-size: 0.85rem; margin-top: 0.25rem; color: var(--paper-dark); }
+.intrig__body {
+  margin: 0;
+  line-height: 1.65;
+  color: var(--paper-dark);
+}
