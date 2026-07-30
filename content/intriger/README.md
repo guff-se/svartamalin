@@ -2,6 +2,8 @@
 
 Statiska intrig-texter. Publiceras vid deploy. Klienten visar bara inloggad gästs egna + lagets.
 
+**Stil & dramaturgi:** läs och följ alltid [STYLE.md](STYLE.md) innan du skriver eller ändrar intrigtext.
+
 ## Filnamn
 
 | Typ | Sökväg | Nyckel |

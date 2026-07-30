@@ -61,6 +61,17 @@ Du har direktåtkomst till Supabase via creds i `.env.local`. **Vänta inte på 
   - `supabase.js` — klient-konfig
 - **Map data**: `public/map-data.json` (genereras via `npm run fetch-map`). Variabel detaljgrad — hög runt Ovanan/Salmonellahavet, lägre på resten.
 
+## Intriger (lajv) — skrivregler
+
+Intriger är statiska markdown-filer under `content/intriger/` (inte Supabase). Se filformat i `content/intriger/README.md`.
+
+**När du skriver eller ändrar intrigtext:** läs och följ **alltid** [`content/intriger/STYLE.md`](content/intriger/STYLE.md). Kortfattat:
+
+- Röst: Povel Ramel / klassisk svensk revy — finurligt, ordvitsar, allitteration, rim; överdrivet och bombastiskt; mottagaren är hjälten i sin berättelse (du-form). **Alltid piratnamn** — aldrig civilnamn i intrigtext. Gärna eko från `svartamalin-sångtext.txt` (alla piratnamn kommer därifrån; sista versen = slutstriden — spoila den inte).
+- Metaregel (får **inte** stå i intrigerna): alla dödas av Svarta Malin; hon återvänder som Ran. Spelarna vet det; intrigerna spoilar det inte men leder dramaturgiskt ditåt.
+- Helgens båge styr undertonen: fredag överdåd → lördag svek → lördag kväll förlisning/slagsmål → natt Rans salar.
+- Lag: `crews/{crew_id}.md`. Individ: `guests/{login_slug}.md`. Spegla tvåvägsrelationer; markera envägs i frontmatter.
+
 ## Innehållstexter (`practical_info`)
 
 Gästvänd copy (praktisk info, Ovanan-sektionen, RSVP-sammanfattning) ska **ligga i Supabase-tabellen `practical_info`**, inte hårdkodas i komponenter. Arrangörerna redigerar texterna via `/admin`; seed-värden i `supabase/practical_info_seed.sql` är bara startvärden (`on conflict do nothing`).
