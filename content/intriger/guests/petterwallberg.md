@@ -4,20 +4,20 @@ mirrors:
   - slug: josefinlowing
     note: mutual romans #2
   - slug: viktoransund
-    note: mutual fiende #3: skäggvad (röd/blå/löss), kapat bogserlina, rakad skamrand
+    note: mutual fiende #3: skäggvad (rött/blått/löst skägg), kapat bogserlina, rakad skamrand
   - slug: hampuslindblad
-    note: mutual fiende #19: Blåskägg färgade ditt lösskägg och hånade faunan
+    note: mutual fiende #19: Blåskägg färgade ditt löskägg blått och hånade att det är fejk
 related: [josefinlowing, viktoransund, hampuslindblad]
 ---
 
 ## Kuling i kölvattnet {slug:josefinlowing}
 
-Du vill ha **Kapten Kuling** tillbaka, stormen, kyssarna, den som blåste dig omkull och fick dig att tycka om det. Ni skiljdes när stoltheten vann över ömheten. Nu är hon här. I vägen står er gamla tystnad, och **Kapten Blåskägg**, som gärna skrattar om du böjer dig först. Avgör det ikväll: ta första steget, låt henne göra det, eller låtsas att vinden aldrig fanns. Helgen är för kort för att vänta.
+Du och **Kapten Kuling** från **Fregatten Fördärvet** hade en stormig kärlek, men skildes när stoltheten tog över. Du vill ha henne tillbaka. I vägen står er gamla tystnad, och **Kapten Blåskägg**, som gärna hånar dig om du böjer dig först. Bestäm dig under kalaset: ta första steget, vänta på att hon gör det, eller låtsas att det aldrig hänt.
 
 ## Rödskägg i räfsan {slug:viktoransund}
 
-**Skäggvadet** skulle avgöra allt: rött, blått eller löss. Du, **Kapten Lösskägg**, seglade med äran (och faunan) i full blom, tills **Kapten Rödskägg** från **Fregatten Fromheten** kapade din bogserlina i natten och stal segern. Du svarade i hans snarkningar: en rakad rand mitt i det röda. Han kallar det vanvård. Du kallar det bokföring. Ikväll kan ni jämföra skägg, eller jämföra hämnd.
+Ni utkämpade **skäggvadet**, tävlingen om Salmonellahavets ståtligaste skägg: det röda, det blåa och ditt. Ditt är förvisso ett löskägg, ett fejkskägg du knäpper på, men det bär du med stolthet, det sitter perfekt i alla stormar. Du låg bra till tills **Kapten Rödskägg** från **Fregatten Fromheten** kapade din bogserlina i natten och stal segern. Du hämnades medan han sov: rakade en bar rand mitt i hans röda skägg, ett skägg han till skillnad från dig inte kan ta av och byta ut. Han kallar det vandalism, du kallar det rättvisa. Under kalaset: gör upp om vem som verkligen vann, eller fortsätt hämnas.
 
 ## Blåskägg och baljan {slug:hampuslindblad}
 
-**Kapten Blåskägg** från **Galeonen Gnället** seglade aldrig hederligt i skäggvadet, tävlingen om vem som härskar över Salmonellahavets skägg. Han hånade dina löss som “oreda i ansiktet”, hällde indigo i den gemensamma skäggbaljan och lät din stolthet vakna med blå tipp. Sen utropade han sig till Skäggkonung över både rött och löss. Din fauna förtjänar respekt; hans blåa pomp förtjänar en kam, eller en sax. Ikväll möts tre skägg i samma sal. Ett av dem ska klia.
+**Kapten Blåskägg** från **Galeonen Gnället** seglade aldrig hederligt i skäggvadet, tävlingen om Salmonellahavets ståtligaste skägg. Han hånade dig öppet för att ditt skägg inte ens är äkta, "ett löskägg, inte ett riktigt skägg", och doppade det i indigo så att det vaknade blått. Sen utropade han sig till Skäggkonung över både rött och löst. Ditt löskägg förtjänar respekt: det sitter perfekt i varje storm. Hans blåa pomp förtjänar en kam, eller en sax. Under kalaset möts tre skägg i samma sal. Ett av dem ska ramla av.

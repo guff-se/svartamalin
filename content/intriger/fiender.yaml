@@ -1,0 +1,156 @@
+# Ärkefiender: källista för intrigskrivning
+# Inte synlig för gäster. Nycklar = guests.login_slug.
+#
+# Regler (vid generering / ändring):
+#   * alla lagmedlemmar ska ha någon att hata (outbound)
+#   * majoriteten av posterna ska vara mutual
+#   * fienden får inte vara i samma lag
+#   * fienden får inte vara en romans (se romanser.yaml)
+#   * om din romans har en romans med någon annan → den personen är gärna din fiende
+#   * type mutual = ömsesidigt hat; one_way = A hatar B (B speglar inte automatiskt)
+#   * one_way-mål som saknar egen fiende behöver outbound (mutual eller one_way)
+#   * flera kan hata samma person av olika skäl
+#   * intrigtext skrivs för BÅDA parter (även one_way: den hatade vet om hatet och varför)
+#
+# status: pending | done | skipped
+
+fiender:
+  # --- Mutual ---
+
+  - id: 1
+    type: mutual
+    a: johannabergman     # Kapten Klöver: Barken Bortförklaringen
+    b: minervalowgren     # Kapten Prygel: Fregatten Fromheten
+    # oförrätt: Prygel stal valsen med Hurring + äran för gemensam bordning; Klöver svarade med rykten
+    status: done
+
+  - id: 2
+    type: mutual
+    a: malintadaa         # Svarta Malin: Korvetten Kurtisanen
+    b: amaliawahlstrom    # Kapten Enben: Barken Bortförklaringen
+    # oförrätt: Enbens skål om “ankan som tämjde fasan”; Malin kapade hennes skiff i dimman
+    status: done
+
+  - id: 3
+    type: mutual
+    a: petterwallberg     # Kapten Lösskägg: Korvetten Kurtisanen
+    b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
+    # oförrätt: Skäggvadet (rött/blått/löst skägg). Röd kapade bogserlina; Lösskägg rakade skamrand i det röda.
+    # Del av skäggtrion med Blåskägg (#18, #19).
+    status: done
+
+  - id: 4
+    type: mutual
+    a: minimacklin        # Kapten Blodig: Fregatten Fördärvet
+    b: josefinansund      # Kapten Frodig: Barken Bortförklaringen
+    # oförrätt: Frodig stal kapitulationen; Blodig stämplade storseglet i blod
+    status: done
+
+  - id: 5
+    type: mutual
+    a: louisevonbahr      # Kapten Fuling: Fregatten Fördärvet
+    b: linneaappert       # Kapten Planka: Korvetten Kurtisanen
+    # oförrätt: Planka vann auktion med Fulings börs; Fuling planterade silverrykte
+    status: done
+
+  - id: 6
+    type: mutual
+    a: navidmodiri        # Kapten Döver: Fregatten Fördärvet
+    b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
+    # oförrätt: Rötägg sålde ruttna förråd; Döver teg om ett rev
+    status: done
+
+  - id: 7
+    type: mutual
+    a: josefinlowing      # Kapten Kuling: Fregatten Fördärvet
+    b: elinmartensson     # Kapten Plåthorn: Galeonen Gnället
+    # oförrätt: Plåthorns “varning” sålde Kulings position; Kuling kapade hornet i skål
+    status: done
+
+  - id: 8
+    type: mutual
+    a: jesperlindmarker   # Kapten Hurring: Korvetten Kurtisanen
+    b: hampuslindblad     # Kapten Blåskägg: Galeonen Gnället
+    # oförrätt: Hurring obetald skuld + skämt; Blåskägg naglade IOU:er i masten
+    status: done
+
+  - id: 9
+    type: mutual
+    a: chriskummelstedt   # Kalle Anka: Galeonen Gnället
+    b: ludvigvonbahr      # Kapten Dunka: Barken Bortförklaringen
+    # oförrätt: Anka tog äran för Dunkas seger; Dunka kastade honom överbord; Anka tömde prisfatet
+    status: done
+
+  # --- One-way ---
+
+  - id: 10
+    type: one_way
+    a: linneaekbom        # Kapten Rosing: Galeonen Gnället
+    b: fabianmacklin      # Kapten Nykter: Barken Bortförklaringen
+    # oförrätt: Nykter tog sista dansen med Barnsben efter gemensamt nej (+ påstådd viskning)
+    status: done
+
+  - id: 11
+    type: one_way
+    a: fabianmacklin      # Kapten Nykter: Barken Bortförklaringen
+    b: navidmodiri        # Kapten Döver: Fregatten Fördärvet
+    # oförrätt: Döver upprepade Nykters frieri till Barnsben i tavernan
+    status: done
+
+  - id: 12
+    type: one_way
+    a: alexandrapalmquist # Kapten Babord: Galeonen Gnället
+    b: ulrikahammar       # Kapten Barnsben: Korvetten Kurtisanen
+    # oförrätt: Barnsben smög brev till Döver lindat i Babords scarf
+    status: done
+
+  - id: 13
+    type: one_way
+    a: ulrikahammar       # Kapten Barnsben: Korvetten Kurtisanen
+    b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
+    # oförrätt: Rötäggets parfymspratt (blomster → rötägg) saboterade uppvaktning av Döver
+    status: done
+
+  - id: 14
+    type: one_way
+    a: gustaftadaa        # Löjtnant Spader: Fregatten Fördärvet
+    b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
+    # oförrätt: Rötägg fuskade i kort och vann Spaders sjökort till Plåthorns fiskegrund
+    status: done
+
+  - id: 15
+    type: one_way
+    a: jesperlejfjord     # Kapten Hjärter: Fregatten Fromheten
+    b: chriskummelstedt   # Kalle Anka: Galeonen Gnället
+    # oförrätt: Anka skryt om natten med Malin (Hjärters hemliga låga)
+    status: done
+
+  - id: 16
+    type: one_way
+    a: elinamelakoski     # Katten Felix: Fregatten Fromheten
+    b: chriskummelstedt   # Kalle Anka: Galeonen Gnället
+    # oförrätt: Anka lät Felix bära “vin” med kärleksbrev till Malin
+    status: done
+
+  - id: 17
+    type: one_way
+    a: amandamungsgard    # Kapten Kosing: Fregatten Fromheten
+    b: malintadaa         # Svarta Malin: Korvetten Kurtisanen
+    # oförrätt: Malin tog Ankan under armen + skål där Kosing blev “söt men tvåa”
+    status: done
+
+  # --- Skäggtrion (rött / blått / löst skägg): bygger vidare på #3 ---
+
+  - id: 18
+    type: mutual
+    a: hampuslindblad     # Kapten Blåskägg: Galeonen Gnället
+    b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
+    # oförrätt: Efter skäggvadet hällde Blå indigo i baljan; Röd vaknade blåstrimmig; Blå krönte sig Skäggkonung
+    status: done
+
+  - id: 19
+    type: mutual
+    a: hampuslindblad     # Kapten Blåskägg: Galeonen Gnället
+    b: petterwallberg     # Kapten Lösskägg: Korvetten Kurtisanen
+    # oförrätt: Blå hånade att Lösskäggs skägg är fejk, färgade det blått, utropade sig kung över alla tre skäggen
+    status: done
