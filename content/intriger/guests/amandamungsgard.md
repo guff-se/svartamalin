@@ -15,7 +15,7 @@ Du, **Kapten Kosing**, vill fylla fickorna ikväll: ringar, bägare, “tillfäl
 
 ## Ankans öppna kista {slug:chriskummelstedt}
 
-Du vill ha **Kalle Anka** tillbaka som *din* last, inte delad. Ni öppnade hjärtan som skattkistor utan lås, tills det blev oklart vem som ägde vad. I vägen står **Svarta Malin**, som tog honom under armen och rankade dig som tvåa. Avgör det ikväll: kräva ränta på känslan inför honom, eller låtsas att kosing bara är mynt medan Malin vinner igen.
+Du vill ha **Kalle Anka** från **Galeonen Gnället** tillbaka, helt för dig själv. Ni öppnade era hjärtan för varandra tills det rann ut i sanden. I vägen står **Svarta Malin**, som tog honom under armen och fick dig att känna dig som ett andrahandsval. Avgör det ikväll: kräv ett tydligt besked av honom, eller spela sval och låt Malin vinna honom igen.
 
 ## Fasanen på locket {slug:malintadaa}
 

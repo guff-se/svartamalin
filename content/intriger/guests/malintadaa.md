@@ -20,4 +20,4 @@ Du vill ha upprättelse efter att **Kapten Enben** skålade offentligt för "ank
 
 ## Kosing som kliar {slug:amandamungsgard}
 
-Du vill att **Kapten Kosing** slutar se dig som tjuv av ankor. Hon öppnade sitt hjärta för **Kalle Anka**; du sitter fortfarande på locket enligt henne. **Kapten Enben** dansade med honom natten efter din; hon tror kanske att hon vann. Avgör det ikväll: le som fasan, eller påminn henne om vem som prejar vem på Salmonellahavet.
+**Kapten Kosing** från **Fregatten Fromheten** ser dig som den som stal **Kalle Anka** ifrån henne. Hon öppnade sitt hjärta för honom, men han valde att umgås med dig. Du vill få henne att sluta anklaga dig. I vägen står också **Kapten Enben**, som dansade med Anka natten efter dig och tror att hon vann honom. Avgör det ikväll: le överlägset och strunta i skvallret, eller påminn Kosing om vem det egentligen är som brukar vinna på Salmonellahavet.
