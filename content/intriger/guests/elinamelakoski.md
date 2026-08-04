@@ -13,14 +13,14 @@ related: [ludvigvonbahr, malintadaa, jesperlejfjord, chriskummelstedt]
 
 ## Dunka dunka hjärtat {slug:ludvigvonbahr}
 
-Du vill ha **Kapten Dunka** tillbaka, den högljudda kärleken som fick däcket att klaga. Ni var ömsesidiga tills det blev tystare. Nu smyger du igen. I vägen står både hans tvekan och din hemliga dragning till **Svarta Malin**, som gör dig till en dålig lögnare om Dunka frågar var din uppmärksamhet egentligen går. Avgör det ikväll: knacka på hans dörr på riktigt, eller låt Malin (och Hjärter) ta hela din natt.
+Du och **Kapten Dunka** från **Barken Bortförklaringen** hade en högljudd kärlek som klingade av. Du vill ha honom tillbaka. I vägen står hans tvekan, och din egen hemliga dragning till **Svarta Malin**, som gör dig till en dålig lögnare om Dunka frågar var din uppmärksamhet egentligen ligger. Avgör det ikväll: knacka på hans dörr på riktigt, eller låt din dragning till Malin ta hela natten.
 
 ## Nio liv, en fasa, och ett ess som vet {slug:malintadaa}
 
-Ändå, djupast av allt, brinner ditt hjärta i hemlighet för **Svarta Malin**. Inte för lek, inte för byte, utan för *henne*: fasan, legenden, den som får alla att bäva. Du har smugit i skuggorna kring hennes ljus som en katt kring kaviar.
+Djupast av allt brinner ditt hjärta i hemlighet för **Svarta Malin** från **Korvetten Kurtisanen**, Salmonellahavets fasa. Inte för lek, inte för byte, utan för *henne*: legenden, den som får alla att bäva. Du har smugit runt henne som en katt kring kaviar, men aldrig vågat säga något.
 
-Och du är inte ensam i smyget: **Kapten Hjärter** bär samma olagliga låga. Ni har avslöjat varandra, morrhår mot ess, och landat i den fräcka idén att ni kanske kan **dela** på **Svarta Malin** hellre än att slåss om henne. Hon får inte veta, inte än. I kväll: antingen en tyst allians, eller ett litet jama i örat på Hjärter om hur man delar en fasa utan att bli uppäten.
+Du är inte ensam om känslan: **Kapten Hjärter**, din skeppskamrat, bär samma hemliga låga. Ni har erkänt det för varandra och kommit på den fräcka idén att kanske **dela** på Malin i stället för att slåss om henne. Malin själv får inte veta, inte än. Avgör det ikväll: håll er tysta allians, eller viska med Hjärter om hur man delar en fasa utan att bli uppäten.
 
 ## Ankans falska bud {slug:chriskummelstedt}
 
-Du bar “vin” åt **Kalle Anka** från **Galeonen Gnället** till **Svarta Malin**s kajuta, och fann kärleksbrevet i flaskan. Budkatt blev bedragen katt. Du hatar honom för att ha använt dina tassar till hans prejning. Han vet. Ikväll kan du jama artigt… eller klösa där ankan är mjukast.
+**Kalle Anka** från **Galeonen Gnället** bad dig bära en flaska “vin” till **Svarta Malin**s kajuta. Du upptäckte att det i själva verket var ett kärleksbrev från honom till Malin. Du hatar att han använde dig som brevbärare i sin uppvaktning, särskilt eftersom du själv älskar Malin i hemlighet. Han vet att du är arg. Avgör det ikväll: låt det passera artigt, eller hämnas där ankan är som ömtåligast.
