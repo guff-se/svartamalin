@@ -303,8 +303,8 @@
 .card--manifest {
   background: rgba(20, 14, 8, 0.92);
   border-color: var(--gold);
-  text-align: center;
-  max-width: 40rem;
+  text-align: left;
+  max-width: 62rem;
   padding: 2.5rem 3.5rem 3rem;
 }
 @media (max-width: 560px) {
@@ -313,8 +313,12 @@
 .card--manifest p {
   line-height: 1.7;
   font-style: italic;
+  text-align: left;
 }
-.card--manifest p:first-child strong {
+#manifest-intro p:first-child {
+  text-align: center;
+}
+#manifest-intro p:first-child strong {
   display: block;
   font-family: var(--font-display);
   font-style: normal;
@@ -326,12 +330,59 @@
   text-align: center;
 }
 @media (min-width: 560px) {
-  .card--manifest p:first-child strong { white-space: nowrap; }
+  #manifest-intro p:first-child strong { white-space: nowrap; }
 }
-.card--manifest p { text-align: center; }
+.card--manifest h3 {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-size: clamp(1.05rem, 2.4vw, 1.25rem);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 1.75rem 0 0.65rem;
+  text-align: left;
+}
+.manifest-body h3:first-child {
+  margin-top: 0;
+}
+.manifest-block {
+  display: grid;
+  grid-template-columns: minmax(0, 11rem) 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin-top: 1.75rem;
+}
+.manifest-block--flip {
+  grid-template-columns: 1fr minmax(0, 11rem);
+}
+.manifest-block--flip .manifest-img {
+  order: 2;
+}
+.manifest-img {
+  margin: 0;
+}
+.manifest-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border: 1px solid rgba(184, 146, 74, 0.45);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  filter: sepia(0.25) contrast(1.05) brightness(0.92);
+}
+@media (max-width: 560px) {
+  .manifest-block,
+  .manifest-block--flip {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .manifest-block--flip .manifest-img { order: 0; }
+  .manifest-img { max-width: 10rem; }
+}
 
-/* Bidra — framhäv swish-numret inline */
-.card--bidra strong {
+/* Praktiskt / Bidra — framhäv swish-numret inline */
+.card--practical #practical-bidra strong {
   font-family: var(--font-display);
   letter-spacing: 0.06em;
   color: var(--gold);
@@ -389,18 +440,50 @@
   margin-top: 1.2rem;
 }
 
-/* My crew */
+/* My crew — 5–6 medlemmar på en rad (mindre kort än hela besättningen) */
 .crew-empty {
   font-style: italic;
   color: var(--paper-dark);
   text-align: center;
 }
 .crew-name {
-  margin: 0 0 1.5rem;
+  margin: 0 0 0.35rem;
   text-align: center;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--gold);
+}
+.crew-sub {
+  margin: 0 0 1.5rem;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: var(--paper-dark);
+  opacity: 0.75;
+}
+.my-crew-members-heading {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-align: center;
+}
+.card--my-crew .crew-collage {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.45rem;
+}
+.card--my-crew .crew-collage .my-crew-member {
+  flex: 1 1 0;
+  min-width: 0;
+}
+@media (max-width: 720px) {
+  .card--my-crew .crew-collage {
+    gap: 0.35rem;
+  }
 }
 .my-crew-member {
   display: flex;
@@ -433,26 +516,88 @@
   text-decoration: underline;
 }
 
-/* Intriger */
-.crew-intriger {
-  margin-top: 1.75rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(201, 162, 39, 0.25);
-}
-.crew-intriger__heading {
+/* Din karaktär — gästens eget underlag till intrigerna */
+.card--character h2 {
   margin: 0 0 1rem;
   text-align: center;
-  font-size: 1.05rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--gold);
 }
+.character-hero {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0.5rem;
+}
+.character-hero .pirate-card {
+  width: 15rem;
+  max-width: 60%;
+  cursor: pointer;
+}
+.card--character .info-form {
+  margin-top: 0;
+}
+.card--character .info-field > span {
+  text-transform: none;
+  letter-spacing: 0.04em;
+  font-size: 0.95rem;
+}
+.card--character .row {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.card--character .row button {
+  background: var(--accent);
+  color: var(--paper);
+  border: 1px solid var(--gold);
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+}
+.card--character .row button:hover {
+  background: var(--gold);
+  color: var(--ink);
+}
+.card--character .row button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Intriger — under lagnamn, ovanför medlemsraden */
+.crew-intriger {
+  margin: 0 0 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.25);
+}
+.intriger-hero {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1rem;
+}
+.intriger-hero .pirate-card {
+  width: 19rem;
+  max-width: 72%;
+  cursor: pointer;
+}
 .card--intriger h2 {
-  margin: 0 0 1.1rem;
+  margin: 0 0 0.35rem;
   text-align: center;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--gold);
+}
+.intriger-sub {
+  margin: 0 0 1.1rem;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: var(--paper-dark);
+  opacity: 0.75;
 }
 .intriger-list {
   list-style: none;
@@ -462,12 +607,38 @@
   flex-direction: column;
   gap: 1.25rem;
 }
+.intrig {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+}
+.intrig__card {
+  flex: 0 0 auto;
+  width: 8.625rem; /* 5.75rem × 1.5 */
+}
+.intrig__card .pirate-card {
+  max-width: none;
+  width: 100%;
+  cursor: pointer;
+}
+/* Mini-kort: rent cqw utan rem-golv — annars sväller namnet ur plattan */
+.intrig__card .pirate-card__name {
+  font-size: 4.85cqw;
+}
+.intrig__card .pirate-card__name--long {
+  font-size: 4.2cqw;
+}
+.intrig__text {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-top: 0.2rem;
+}
 .intrig__title {
   margin: 0 0 0.45rem;
   font-family: var(--font-display);
   font-size: 1.15rem;
   letter-spacing: 0.04em;
-  color: var(--ink);
+  color: var(--gold);
 }
 .intrig__body {
   margin: 0;

@@ -7,6 +7,7 @@ import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
 import { renderMyCrew } from '../components/my-crew.js'
 import { renderMyIntriger } from '../components/my-intriger.js'
+import { renderMyCharacter } from '../components/my-character.js'
 import { hasGivenAnswer } from '../lib/guest.js'
 import { openRsvpFlow } from '../components/rsvp-modal.js'
 import { openLightbox } from '../lib/image-lightbox.js'
@@ -27,7 +28,37 @@ export async function renderWebgl(app) {
         </section>
 
         <section class="card-section">
-          <div class="card card--manifest" id="sec-manifest">Laddar…</div>
+          <div class="card card--manifest" id="sec-manifest">
+            <div id="manifest-intro">Laddar…</div>
+            <div class="manifest-block">
+              <figure class="manifest-img">
+                <img src="/images/theatre-props-feast.webp" alt="" width="640" height="960" />
+              </figure>
+              <div class="manifest-body" id="manifest-friday">Laddar…</div>
+            </div>
+            <div class="manifest-block manifest-block--flip">
+              <figure class="manifest-img">
+                <img src="/images/theatre-props-betrayal.webp" alt="" width="640" height="960" />
+              </figure>
+              <div class="manifest-body" id="manifest-saturday">Laddar…</div>
+            </div>
+            <div class="manifest-block">
+              <figure class="manifest-img">
+                <img src="/images/theatre-props-duel.webp" alt="" width="640" height="960" />
+              </figure>
+              <div class="manifest-body" id="manifest-play">Laddar…</div>
+            </div>
+            <div class="manifest-block manifest-block--flip">
+              <figure class="manifest-img">
+                <img src="/images/theatre-props-treasure.webp" alt="" width="640" height="960" />
+              </figure>
+              <div class="manifest-body" id="manifest-prep">Laddar…</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card-section" id="my-character-section" hidden>
+          <div class="card card--character" id="my-character"></div>
         </section>
 
         <section class="card-section osa-section" id="osa-section-top" hidden>
@@ -41,19 +72,12 @@ export async function renderWebgl(app) {
           </div>
         </section>
 
-        <section class="card-section">
-          <div class="card card--crew card--my-crew" id="my-crew">Laddar…</div>
-        </section>
-
         <section class="card-section" id="my-intriger-section" hidden>
           <div class="card card--intriger" id="my-intriger"></div>
         </section>
 
         <section class="card-section">
-          <div class="card card--crew">
-            <h2>De värsta kaptener som finns</h2>
-            <div class="crew-collage" id="crew-collage">Laddar besättning…</div>
-          </div>
+          <div class="card card--crew card--my-crew" id="my-crew">Laddar…</div>
         </section>
 
         <section class="card-section">
@@ -73,26 +97,11 @@ export async function renderWebgl(app) {
               <h3>Sova</h3>
               <div id="practical-sova">Laddar…</div>
             </div>
-          </div>
-        </section>
-
-        <section class="card-section">
-          <div class="card card--theme" id="sec-party-type">
-            <div id="party-type-body">Laddar…</div>
             <div class="practical-sub">
-              <h3>Tema</h3>
-              <div class="theme-layout">
-                <figure class="theme-img">
-                  <img src="/images/theatre-props-pile.webp" alt="" />
-                </figure>
-                <div id="party-theme">Laddar…</div>
-              </div>
+              <h3>Bidra</h3>
+              <div id="practical-bidra">Laddar…</div>
             </div>
           </div>
-        </section>
-
-        <section class="card-section">
-          <div class="card card--bidra" id="sec-bidra">Laddar…</div>
         </section>
 
         <section class="card-section osa-section" id="osa-section" hidden>
@@ -103,6 +112,13 @@ export async function renderWebgl(app) {
             <div class="row osa-actions">
               <button class="osa-respond" type="button">Mönstra på</button>
             </div>
+          </div>
+        </section>
+
+        <section class="card-section">
+          <div class="card card--crew">
+            <h2>De värsta kaptener som finns</h2>
+            <div class="crew-collage" id="crew-collage">Laddar besättning…</div>
           </div>
         </section>
 
@@ -127,16 +143,19 @@ export async function renderWebgl(app) {
   mountWebglMap(document.getElementById('webgl-stage'))
 
   // Rendera resten av sidan
-  renderNarrative(document.getElementById('sec-manifest'),    { key: 'manifest' })
+  renderNarrative(document.getElementById('manifest-intro'),    { key: 'manifest' })
+  renderNarrative(document.getElementById('manifest-friday'),   { key: 'manifest_friday' })
+  renderNarrative(document.getElementById('manifest-saturday'), { key: 'manifest_saturday' })
+  renderNarrative(document.getElementById('manifest-play'),     { key: 'manifest_play' })
+  renderNarrative(document.getElementById('manifest-prep'),     { key: 'manifest_prep' })
+  renderMyCharacter(document.getElementById('my-character'))
   renderMyCrew(document.getElementById('my-crew'))
   renderMyIntriger(document.getElementById('my-intriger'))
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
   renderNarrative(document.getElementById('practical-overfart'), { key: 'overfart' })
   renderNarrative(document.getElementById('practical-sova'),     { key: 'sova' })
-  renderNarrative(document.getElementById('party-type-body'), { title: 'Vad är detta för typ av fest?', key: 'party_type' })
-  renderNarrative(document.getElementById('party-theme'),     { key: 'theme_intro' })
-  renderNarrative(document.getElementById('sec-bidra'),       { title: 'Bidra', key: 'bidra' })
+  renderNarrative(document.getElementById('practical-bidra'),    { key: 'bidra' })
   renderNarrative(document.getElementById('sec-osa-top'),     { key: 'osa' })
   renderNarrative(document.getElementById('sec-osa'),         { key: 'osa' })
   renderNarrative(document.getElementById('sec-closing'),     { key: 'closing' })
@@ -148,6 +167,7 @@ export async function renderWebgl(app) {
     btn.addEventListener('click', async () => {
       await openRsvpFlow()
       refreshAnswerState()
+      renderMyCharacter(document.getElementById('my-character'))
     })
   })
 }

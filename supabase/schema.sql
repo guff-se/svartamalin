@@ -26,7 +26,11 @@ create table if not exists guests (
   phone text,
   email text,
   food_notes text,                  -- allergier / mat-preferenser
-  notes text                        -- övrig info gästen vill att vi vet
+  notes text,                       -- övrig info gästen vill att vi vet
+  character_facts text,             -- gästens egna fakta om sin karaktär
+  character_object text,            -- speciellt objekt hen tar med sig
+  character_skill text,             -- färdighet / aktivitet under festen
+  character_play_with text          -- person hen vill spela mot
 );
 
 create table if not exists practical_info (
