@@ -1,0 +1,48 @@
+# Fördelning: huvudstory ut till deltagarnas intrigfiler
+#
+# Samma mönster som romanser.yaml och fiender.yaml. Denna fil är bryggan mellan
+# designarbetet i content/huvudstory/ och gästtexten i content/intriger/.
+#
+# Arbetsordning:
+#   1. Story-bit beslutas i akter.md eller sidequests.md
+#   2. Posten läggs in här med status: pending
+#   3. Gästtext skrivs i content/intriger/guests/{slug}.md eller crews/{id}.md
+#      enligt content/intriger/STYLE.md
+#   4. status: done
+#
+# Ingen gästtext skrivs innan posten finns här. Se README.md.
+#
+# Fält:
+#   id            löpnummer
+#   beat          B-nn i akter.md, eller S-nn i sidequests.md
+#   akt           I | II | III | IV
+#   till          lista av login_slug som ska få text, eller crew: N
+#   roll          barare | jagare | grindvakt | vittne   (se premiss.md)
+#   vet           vad personen faktiskt vet efter att ha läst sin intrig
+#   vet_inte      vad personen uttryckligen inte får veta
+#   speglas       slugs som behöver motsvarande text för att världen ska hålla
+#   bygger_pa     romans: N eller fiende: N ur romanser.yaml / fiender.yaml
+#   pussel        P-nn i pussel.md, eller null
+#   status        pending | done | skipped
+#
+# Kontroller att köra på hela filen innan skrivning börjar:
+#   * har varje av de 26 slugsen minst en post?
+#   * ligger alla toppar inte i samma akt?
+#   * har någon fler än tre poster? (risk för överlastning)
+#   * motsäger någon post en annan?
+#   * finns någon post där två personer måste vara på olika platser samtidigt?
+
+fordelning: []
+# Exempel på formatet, tas bort när första riktiga posten läggs in:
+#
+#  - id: 1
+#    beat: B-01
+#    akt: II
+#    till: [amaliawahlstrom]
+#    roll: jagare
+#    vet: "att Malin en gång prejat något som inte var hennes att preja, och att beviset finns kvar på ön"
+#    vet_inte: "var beviset finns, eller vad det är"
+#    speglas: [malintadaa]
+#    bygger_pa: "fiende: 2"
+#    pussel: P-03
+#    status: pending

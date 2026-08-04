@@ -72,6 +72,17 @@ Intriger är statiska markdown-filer under `content/intriger/` (inte Supabase). 
 - Helgens båge styr undertonen: fredag överdåd → lördag svek → lördag kväll förlisning/slagsmål → natt Rans salar.
 - Lag: `crews/{crew_id}.md`. Individ: `guests/{login_slug}.md`. Spegla tvåvägsrelationer; markera envägs i frontmatter.
 
+## Huvudstory (lajvets övergripande berättelse)
+
+Designarbetet för helgens huvudstory ligger i **[`content/huvudstory/`](content/huvudstory/README.md)**. Det är arrangörsmaterial: det innehåller lösningar, hemligheter och spelledningsinfo och **publiceras aldrig**. `src/lib/intriger.js` globbar bara `content/intriger/{crews,guests}/*.md`, så filerna där bundlas inte in i klienten. Lägg inga lösningar i `content/intriger/`.
+
+Arbetsordningen är tvåstegs och får inte kortslutas:
+
+1. **Designa** i `content/huvudstory/` (premiss, kanon, akter, pussel, sidequests). Rak teknisk prosa, ingen revyröst.
+2. **Distribuera** via `content/huvudstory/fordelning.yaml`, som är bryggan till gästtexten. Först när en story-bit har en post där skrivs text i `content/intriger/guests/{slug}.md` eller `crews/{id}.md` enligt `STYLE.md`, varefter status sätts till `done`.
+
+Läs `content/huvudstory/README.md` för filkarta, invarianter och definition of done, samt `content/huvudstory/RESEARCH.md` för de designprinciper (lajvintriger, escape rooms, säkerhetsmekanik) som besluten vilar på.
+
 ## Innehållstexter (`practical_info`)
 
 Gästvänd copy (praktisk info, Ovanan-sektionen, RSVP-sammanfattning) ska **ligga i Supabase-tabellen `practical_info`**, inte hårdkodas i komponenter. Arrangörerna redigerar texterna via `/admin`; seed-värden i `supabase/practical_info_seed.sql` är bara startvärden (`on conflict do nothing`).
