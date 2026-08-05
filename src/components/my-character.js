@@ -9,23 +9,23 @@ import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
 const FIELDS = [
   {
     col: 'character_facts',
-    label: 'Dela några fakta om dig',
-    placeholder: 't.ex. född i en tunna, rädd för måsar, äger tre kompasser…',
+    label: 'Berätta om karaktären du vill spela',
+    placeholder: 't.ex. din största hemlighet, vad som kan vinna ditt hjärta, vad du är rädd för',
   },
   {
     col: 'character_object',
-    label: 'Dela ett speciellt objekt du kommer ha med dig',
-    placeholder: 't.ex. en sjungande snusdosa, ett kapat sjökort…',
+    label: 'Berätta om ett speciellt objekt du kommer ha med dig',
+    placeholder: 't.ex. en prejat halsband, ett hemlig karta. Något som någon annan kan fatta tycke för.',
   },
   {
     col: 'character_skill',
     label: 'Dela en färdighet du har, eller en aktivitet du vill engagera dig i under festen',
-    placeholder: 't.ex. spår vind, spelar dragspel, håller dopp i grytan…',
+    placeholder: 't.ex. spela dragspel, grilla kött, sexmagick…',
   },
   {
     col: 'character_play_with',
-    label: 'Är det någon särskild person du skulle vilja spela mot?',
-    placeholder: 'Namn — och gärna varför',
+    label: 'Finns det någon intrig, nån hemlig information eller bakgrundsberättelse, som du vill att en annan deltagare skall få.',
+    placeholder: 't.ex. Att fråga om din rituella fotmassage, misstänka att ditt skägg är oäkta',
   },
 ]
 

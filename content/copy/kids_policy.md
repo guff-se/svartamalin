@@ -1,0 +1,1 @@
+Barnfritt. Spädbarn välkomna.

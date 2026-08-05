@@ -18,7 +18,7 @@ const ROOT = join(__dirname, '..')
 const SRC_DIR = join(ROOT, 'images', 'theatre-props-generated')
 const OUT_DIR = join(ROOT, 'public', 'images')
 
-const WIDTH = 768
+const MAX_EDGE = 960
 const QUALITY = 82
 
 async function main() {
@@ -45,7 +45,7 @@ async function main() {
     const srcBytes = (await stat(src)).size
 
     const info = await sharp(src)
-      .resize(WIDTH, WIDTH, { fit: 'inside', withoutEnlargement: true })
+      .resize(MAX_EDGE, MAX_EDGE, { fit: 'inside', withoutEnlargement: true })
       .webp({ quality: QUALITY, alphaQuality: 100, effort: 6 })
       .toFile(out)
 

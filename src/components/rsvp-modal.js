@@ -299,7 +299,7 @@ async function stepPirate(guest) {
         .from('guests').update({ pirate_name_id: selection.id })
         .eq('id', guest.id).is('pirate_name_id', null)
       if (error) {
-        if (error.code === '23505') { alert('Någon hann före — välj ett annat namn.'); loadNames(); return }
+        if (error.code === '23505') { alert('Någon hann före. Välj ett annat namn.'); loadNames(); return }
         alert('Något gick fel: ' + error.message); return
       }
       unbindScrollbar()

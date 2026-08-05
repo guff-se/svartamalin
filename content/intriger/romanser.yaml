@@ -1,0 +1,119 @@
+# Romanser / kärleksaffärer: källista för intrigskrivning
+# Inte synlig för gäster. Nycklar = guests.login_slug.
+#
+# type: mutual  = A + B (ömsesidig affär)
+# type: one_way = A -> B (A har/haft känslor eller affär riktad mot B; speglas inte automatiskt)
+#
+# status: pending | done | skipped
+# Gå igenom item-by-item och uppdatera status + skriv speglade intriger enligt STYLE.md.
+
+romanser:
+  - id: 1
+    type: mutual
+    a: malintadaa          # Malin Tadaa
+    b: chriskummelstedt    # Chris Kummelstedt
+    status: done
+
+  - id: 2
+    type: mutual
+    a: petterwallberg      # Petter Wallberg
+    b: josefinlowing       # Josefin Löwing
+    status: done
+
+  - id: 3
+    type: mutual
+    a: linneaappert        # Linnea Appert
+    b: edvinthungren       # Edvin Thungren
+    status: done
+
+  - id: 4
+    type: one_way
+    a: linneaekbom         # Linnea Ekbom
+    b: ulrikahammar        # Ulrika Hammar
+    status: done
+
+  - id: 5
+    type: one_way
+    a: fabianmacklin       # Fabian Macklin
+    b: ulrikahammar        # Ulrika Hammar
+    status: done
+
+  - id: 6
+    type: one_way
+    a: ulrikahammar        # Ulrika Hammar
+    b: navidmodiri         # Navid Modiri
+    status: done
+
+  - id: 7
+    type: mutual
+    a: navidmodiri         # Navid Modiri
+    b: alexandrapalmquist  # Alexandra Palmquist
+    status: done
+
+  - id: 8
+    type: mutual
+    a: viktoransund        # Viktor Ansund
+    b: minimacklin         # Mini Macklin
+    status: done
+
+  - id: 9
+    type: mutual
+    a: elinamelakoski      # Elina Melakoski
+    b: ludvigvonbahr       # Ludvig von Bahr
+    status: done
+
+  - id: 10
+    type: mutual
+    a: louisevonbahr       # Louise von Bahr
+    b: hampuslindblad      # Hampus Lindblad
+    status: done
+
+  - id: 11
+    type: mutual
+    a: josefinansund       # Josefin Ansund
+    b: jesperlejfjord      # Jesper Lejfjord
+    status: done
+
+  - id: 12
+    type: mutual
+    a: jesperlindmarker    # Jesper Lindmarker
+    b: johannabergman      # Johanna Bergman
+    status: done
+
+  - id: 13
+    type: mutual
+    a: jesperlindmarker    # Jesper Lindmarker
+    b: minervalowgren      # Minerva Löwgren
+    status: done
+
+  - id: 14
+    type: mutual
+    a: gustaftadaa         # Gustaf Tadaa
+    b: elinmartensson      # Elin Mårtensson
+    status: done
+
+  - id: 15
+    type: mutual
+    a: amaliawahlstrom     # Amalia Wahlström
+    b: chriskummelstedt    # Chris Kummelstedt
+    status: done
+
+  - id: 16
+    type: mutual
+    a: amandamungsgard     # Amanda Mungsgård
+    b: chriskummelstedt    # Chris Kummelstedt
+    status: done
+
+  - id: 17
+    type: one_way
+    a: jesperlejfjord      # Jesper Lejfjord (Kapten Hjärter)
+    b: malintadaa          # Svarta Malin: hemlig kärlek
+    note: a vet att elinamelakoski också brinner för Malin; tipset att dela (#18)
+    status: done
+
+  - id: 18
+    type: one_way
+    a: elinamelakoski      # Elina Melakoski (Katten Felix)
+    b: malintadaa          # Svarta Malin: hemlig kärlek
+    note: a vet att jesperlejfjord också brinner för Malin; tipset att dela (#17)
+    status: done

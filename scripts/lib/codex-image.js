@@ -165,9 +165,13 @@ function buildGeneratePayload({ prompt, size, outputFormat, background, model })
   }
 }
 
-function buildEditPayload({ prompt, imageDataUrl, size, outputFormat, model }) {
+function buildEditPayload({ prompt, imageDataUrls, size, outputFormat, model }) {
+  const urls = Array.isArray(imageDataUrls) ? imageDataUrls : [imageDataUrls]
+  const multi = urls.length > 1
   const userText = [
-    'Use the image_generation tool to edit the input image.',
+    multi
+      ? `Use the image_generation tool to create a new image that uses ALL ${urls.length} input photos as facial identity references (photo 1 = first image, photo 2 = second, etc.).`
+      : 'Use the image_generation tool to edit the input image.',
     prompt,
     `Size: ${size}.`,
     `Output format: ${outputFormat}.`,
@@ -191,7 +195,7 @@ function buildEditPayload({ prompt, imageDataUrl, size, outputFormat, model }) {
         role: 'user',
         content: [
           { type: 'input_text', text: userText },
-          { type: 'input_image', image_url: imageDataUrl },
+          ...urls.map((image_url) => ({ type: 'input_image', image_url })),
         ],
       },
     ],
@@ -308,15 +312,20 @@ async function postForImageWithAuth({ payload, accountId, version, refresh, auth
 
 /**
  * Edit an image using ChatGPT subscription quota (Codex OAuth).
+ * Pass `imageDataUrl` (single) or `imageDataUrls` (multiple face refs).
  * Override model: CODEX_IMAGE_MODEL (default gpt-5.4).
  */
 export async function editImageWithCodex({
   prompt,
   imageDataUrl,
+  imageDataUrls,
   size = '1024x1536',
   outputFormat = 'jpeg',
   model = process.env.CODEX_IMAGE_MODEL || DEFAULT_IMAGE_MODEL,
 }) {
+  const urls = imageDataUrls ?? (imageDataUrl ? [imageDataUrl] : null)
+  if (!urls?.length) throw new Error('editImageWithCodex requires imageDataUrl or imageDataUrls')
+
   const { auth, accountId, refresh } = await loadAuth()
   const version = await detectCodexVersion()
   const models = [model]
@@ -325,7 +334,7 @@ export async function editImageWithCodex({
 
   let lastErr
   for (const tryModel of models) {
-    const payload = buildEditPayload({ prompt, imageDataUrl, size, outputFormat, model: tryModel })
+    const payload = buildEditPayload({ prompt, imageDataUrls: urls, size, outputFormat, model: tryModel })
     for (let attempt = 1; attempt <= MAX_IMAGE_ATTEMPTS; attempt++) {
       try {
         return await postForImageWithAuth({ payload, accountId, version, refresh, auth })

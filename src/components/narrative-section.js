@@ -40,6 +40,13 @@ function escapeText(s) {
 function formatParagraphs(s) {
   return s
     .split(/\n{2,}/)
-    .map((p) => `<p>${formatPracticalMarkdown(p)}</p>`)
+    .map((p) => {
+      const trimmed = p.trim()
+      const h3 = trimmed.match(/^###\s+([\s\S]+)$/)
+      if (h3) return `<h3>${formatPracticalMarkdown(h3[1].trim())}</h3>`
+      const h2 = trimmed.match(/^##\s+([\s\S]+)$/)
+      if (h2) return `<h2>${formatPracticalMarkdown(h2[1].trim())}</h2>`
+      return `<p>${formatPracticalMarkdown(trimmed)}</p>`
+    })
     .join('')
 }

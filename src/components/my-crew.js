@@ -54,16 +54,17 @@ export async function renderMyCrew(el) {
   const crewIntrigerHtml = crewIntriger.length
     ? `
       <div class="crew-intriger">
-        <h3 class="crew-intriger__heading">Lagets intriger</h3>
-        ${intrigerListHtml(crewIntriger)}
+        ${intrigerListHtml(crewIntriger, {}, { showCards: false })}
       </div>
     `
     : ''
 
   el.innerHTML = `
     <h2 class="crew-name">${escapeHtml(crewName)}</h2>
-    <div class="crew-collage" id="my-crew-collage"></div>
+    <p class="crew-sub">Din skuta</p>
     ${crewIntrigerHtml}
+    <h3 class="my-crew-members-heading">Besättningen</h3>
+    <div class="crew-collage" id="my-crew-collage"></div>
   `
 
   const grid = el.querySelector('#my-crew-collage')

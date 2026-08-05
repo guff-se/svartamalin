@@ -181,7 +181,7 @@ export async function renderFrameselect(app) {
     const pending = Object.keys(draft).length
     statusEl.textContent = pending
       ? `${locked} låsta i filen · ${pending} osparade ändringar`
-      : `${locked} av ${n} låsta — matchar sajten`
+      : `${locked} av ${n} låsta, matchar sajten`
   }
 
   const updateFrameTotals = () => {

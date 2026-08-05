@@ -284,7 +284,7 @@ async function claimName(pirateNameId, onDone) {
 
   if (error) {
     if (error.code === '23505') {
-      alert('Någon hann före — välj ett annat namn.')
+      alert('Någon hann före. Välj ett annat namn.')
       return
     }
     alert('Något gick fel: ' + error.message)

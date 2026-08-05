@@ -1,7 +1,7 @@
-// Minimal data-helper för practical_info-tabellen. Renderingen sker i
-// narrative-section.js och webgl.js.
+// Copy-texter (praktisk info, manifest, tema, Ovanan m.m.) ligger som markdown
+// i content/copy/*.md — versioneras i git och redigeras direkt i repot.
+// Nyckel = filnamn utan .md. Renderingen sker i narrative-section.js och webgl.js.
 
-import { supabase } from '../lib/supabase.js'
 import { escapeHtml } from '../lib/escape.js'
 
 // Minimal markdown — **bold** + radbrytningar.
@@ -11,10 +11,21 @@ export function formatPracticalMarkdown(s) {
     .replace(/\n/g, '<br />')
 }
 
+// Bundlas in vid build via Vite. eager → synkron access, raw → filens innehåll.
+const files = import.meta.glob('/content/copy/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+})
+
+const COPY = Object.fromEntries(
+  Object.entries(files).map(([path, raw]) => [
+    path.split('/').pop().replace(/\.md$/, ''),
+    String(raw).trim(),
+  ]),
+)
+
+// Behåller async-signaturen så anropsställena (await) är oförändrade.
 export async function fetchPracticalMap() {
-  const { data, error } = await supabase
-    .from('practical_info')
-    .select('key, value')
-  if (error) return { error }
-  return { map: Object.fromEntries((data ?? []).map((r) => [r.key, r.value])) }
+  return { map: COPY }
 }

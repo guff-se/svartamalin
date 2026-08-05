@@ -1,9 +1,13 @@
 import { supabase } from '../lib/supabase.js'
 import { getGuestId } from '../lib/state.js'
-import { getGuestIntriger, intrigerListHtml } from '../lib/intriger.js'
+import { portraitPath } from '../lib/portraits.js'
+import { overlayForGuest } from '../lib/card-frame-assignments.js'
+import { fetchIntrigerGuests, getGuestIntriger, intrigerListHtml } from '../lib/intriger.js'
+import { pirateCardHtml } from './pirate-card.js'
+import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
 
 /**
- * Personliga intriger — egen card under lag-sektionen.
+ * Personliga intriger — egen card ovanför lag-sektionen.
  * Döljer hela section om det inte finns något att visa.
  * @param {HTMLElement} el  — #my-intriger card
  */
@@ -22,7 +26,7 @@ export async function renderMyIntriger(el) {
 
   const { data: me } = await supabase
     .from('guests')
-    .select('login_slug')
+    .select('id, real_name, login_slug, pirate_name_id')
     .eq('id', guestId)
     .maybeSingle()
 
@@ -32,9 +36,40 @@ export async function renderMyIntriger(el) {
     return
   }
 
+  const [{ data: pname }, guestsBySlug] = await Promise.all([
+    me?.pirate_name_id
+      ? supabase.from('pirate_names').select('name').eq('id', me.pirate_name_id).maybeSingle()
+      : Promise.resolve({ data: null }),
+    fetchIntrigerGuests(intrigues),
+  ])
+
+  const pirateName = pname?.name || '…'
+  const heroCard = me
+    ? pirateCardHtml({
+        photoSrc: portraitPath(me.real_name),
+        pirateName,
+        overlaySrc: overlayForGuest({ id: me.id, pirate_name_id: me.pirate_name_id }),
+      })
+    : ''
+
   if (section) section.hidden = false
   el.innerHTML = `
-    <h2>Dina intriger</h2>
-    ${intrigerListHtml(intrigues)}
+    <div class="intriger-hero">
+      ${heroCard}
+    </div>
+    <p class="intriger-sub">Dina relationer</p>
+    ${intrigerListHtml(intrigues, guestsBySlug)}
   `
+
+  const hero = el.querySelector('.intriger-hero')
+  if (hero) {
+    wirePirateCardGrid(hero)
+    makeCardsInteractive(hero)
+  }
+
+  const list = el.querySelector('.intriger-list')
+  if (list) {
+    wirePirateCardGrid(list)
+    makeCardsInteractive(list)
+  }
 }

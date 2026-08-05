@@ -34,6 +34,25 @@
   border-bottom: 1px solid rgba(184, 146, 74, 0.2);
 }
 .admin th { color: var(--gold); font-weight: normal; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.15em; }
+.admin-sort-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+.admin-sort-btn:hover,
+.admin-sort-btn.is-active {
+  color: var(--paper);
+}
+.admin-sort-btn:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
 .admin select, .admin input, .admin textarea {
   background: rgba(232, 216, 180, 0.05);
   color: var(--paper);

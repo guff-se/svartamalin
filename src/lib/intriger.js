@@ -1,7 +1,12 @@
 // Statiska intriger från content/intriger/{crews,guests}/*.md
 // Bundlas vid build; UI filtrerar på inloggad gästs login_slug / crew_id.
 
+import { pirateCardHtml, DEFAULT_OVERLAY } from '../components/pirate-card.js'
+import { overlayForGuest } from './card-frame-assignments.js'
 import { escapeHtml } from './escape.js'
+import { GUEST_REAL_NAMES } from './guest-real-names.js'
+import { portraitPath } from './portraits.js'
+import { supabase } from './supabase.js'
 
 const crewRaw = import.meta.glob('../../content/intriger/crews/*.md', {
   eager: true,
@@ -16,9 +21,12 @@ const guestRaw = import.meta.glob('../../content/intriger/guests/*.md', {
 })
 
 /**
- * @typedef {{ title: string, body: string }} Intrig
+ * @typedef {{ title: string, body: string, slug?: string | null, portraitSrc?: string | null }} Intrig
  * @typedef {{ meta: Record<string, unknown>, intrigues: Intrig[] }} IntrigDoc
  */
+
+/** Rubrik-annotering: `## Titel {slug:login_slug}` */
+const SLUG_ATTR_RE = /\s*\{slug:\s*([a-z0-9_]+)\s*\}\s*$/i
 
 /** @param {string} path */
 function fileKey(path) {
@@ -70,7 +78,18 @@ export function parseFrontmatter(raw) {
 }
 
 /**
+ * @param {string | null | undefined} slug
+ * @returns {string | null}
+ */
+export function portraitSrcForSlug(slug) {
+  if (!slug) return null
+  const realName = GUEST_REAL_NAMES[slug]
+  return realName ? portraitPath(realName) : null
+}
+
+/**
  * Dela body i intriger på ##-rubriker. Text före första ## ignoreras.
+ * Rubrik får valfri `{slug:login_slug}` — syns inte i UI, styr mini-porträtt.
  * @param {string} body
  * @returns {Intrig[]}
  */
@@ -82,10 +101,18 @@ export function splitIntriger(body) {
   for (let i = 1; i < parts.length; i++) {
     const chunk = parts[i]
     const nl = chunk.indexOf('\n')
-    const title = (nl === -1 ? chunk : chunk.slice(0, nl)).trim()
+    const rawTitle = (nl === -1 ? chunk : chunk.slice(0, nl)).trim()
     const text = (nl === -1 ? '' : chunk.slice(nl + 1)).trim()
+    const slugMatch = rawTitle.match(SLUG_ATTR_RE)
+    const slug = slugMatch ? slugMatch[1].toLowerCase() : null
+    const title = slugMatch ? rawTitle.slice(0, slugMatch.index).trim() : rawTitle
     if (!title && !text) continue
-    out.push({ title, body: text })
+    out.push({
+      title,
+      body: text,
+      slug,
+      portraitSrc: portraitSrcForSlug(slug),
+    })
   }
   return out
 }
@@ -121,17 +148,83 @@ export function getGuestIntriger(loginSlug) {
   return guestDocs[loginSlug]?.intrigues ?? []
 }
 
-/** HTML för en lista intriger (redan filtrerad). */
-export function intrigerListHtml(intrigues) {
+/**
+ * Hämta gäst+piratnamn för intrig-slugs (via real_name — exponerar inte login_slug).
+ * @param {Intrig[]} intrigues
+ * @returns {Promise<Record<string, { id: string, real_name: string, pirate_name: string | null, pirate_name_id: number | null }>>}
+ */
+export async function fetchIntrigerGuests(intrigues) {
+  /** @type {Record<string, string>} */
+  const realToSlug = {}
+  for (const i of intrigues ?? []) {
+    if (!i.slug) continue
+    const rn = GUEST_REAL_NAMES[i.slug]
+    if (rn) realToSlug[rn] = i.slug
+  }
+  const names = Object.keys(realToSlug)
+  /** @type {Record<string, { id: string, real_name: string, pirate_name: string | null, pirate_name_id: number | null }>} */
+  const bySlug = {}
+  if (!names.length) return bySlug
+
+  const { data: guests } = await supabase
+    .from('guests')
+    .select('id, real_name, pirate_name_id')
+    .in('real_name', names)
+
+  const ids = (guests ?? []).map((g) => g.pirate_name_id).filter(Boolean)
+  const { data: pnames } = ids.length
+    ? await supabase.from('pirate_names').select('id, name').in('id', ids)
+    : { data: [] }
+  const nameMap = Object.fromEntries((pnames ?? []).map((n) => [n.id, n.name]))
+
+  for (const g of guests ?? []) {
+    const slug = realToSlug[g.real_name]
+    if (!slug) continue
+    bySlug[slug] = {
+      id: g.id,
+      real_name: g.real_name,
+      pirate_name_id: g.pirate_name_id,
+      pirate_name: g.pirate_name_id != null ? (nameMap[g.pirate_name_id] ?? null) : null,
+    }
+  }
+  return bySlug
+}
+
+/**
+ * HTML för en lista intriger (redan filtrerad).
+ * @param {Intrig[]} intrigues
+ * @param {Record<string, { id: string, real_name: string, pirate_name: string | null, pirate_name_id: number | null }>} [guestsBySlug]
+ * @param {{ showCards?: boolean }} [opts] — `showCards: false` för lagintriger (ingen mini-porträtt)
+ */
+export function intrigerListHtml(intrigues, guestsBySlug = {}, opts = {}) {
   if (!intrigues?.length) return ''
+  const showCards = opts.showCards !== false
   return `
-    <ul class="intriger-list">
-      ${intrigues.map((i) => `
+    <ul class="intriger-list${showCards ? '' : ' intriger-list--text-only'}">
+      ${intrigues.map((i) => {
+        const g = i.slug ? guestsBySlug[i.slug] : null
+        const card = showCards
+          ? `
+          <div class="intrig__card">
+            ${pirateCardHtml({
+              photoSrc: i.portraitSrc ?? undefined,
+              pirateName: g?.pirate_name || '…',
+              placeholder: !i.portraitSrc,
+              overlaySrc: g
+                ? overlayForGuest({ id: g.id, pirate_name_id: g.pirate_name_id })
+                : DEFAULT_OVERLAY,
+            })}
+          </div>`
+          : ''
+        return `
         <li class="intrig">
-          <h3 class="intrig__title">${formatMd(i.title)}</h3>
-          <div class="intrig__body">${formatMd(i.body)}</div>
-        </li>
-      `).join('')}
+          ${card}
+          <div class="intrig__text">
+            <h3 class="intrig__title">${formatMd(i.title)}</h3>
+            <div class="intrig__body">${formatMd(i.body)}</div>
+          </div>
+        </li>`
+      }).join('')}
     </ul>
   `
 }

@@ -81,22 +81,86 @@ async function renderAdmin() {
 
       <h2>Lag</h2>
       <div id="crews-section"></div>
-
-      <h2>Praktisk info</h2>
-      <div id="info-section">Laddar…</div>
     </div>
   `
 
-  await Promise.all([renderGuests(), renderCrews(), renderInfo()])
+  await Promise.all([renderGuests(), renderCrews()])
+}
+
+/** @type {{ key: 'name' | 'status' | 'pirate' | 'crew', dir: 1 | -1 }} */
+let guestSort = { key: 'name', dir: 1 }
+
+const STATUS_SORT_ORDER = { yes: 0, pending: 1, no: 2 }
+
+function attendingSortKey(attending) {
+  if (attending === true) return STATUS_SORT_ORDER.yes
+  if (attending === false) return STATUS_SORT_ORDER.no
+  return STATUS_SORT_ORDER.pending
+}
+
+function compareNullable(a, b, dir, { string = false } = {}) {
+  const aNull = a == null || a === ''
+  const bNull = b == null || b === ''
+  if (aNull && bNull) return 0
+  if (aNull) return 1
+  if (bNull) return -1
+  if (string) return String(a).localeCompare(String(b), 'sv') * dir
+  if (a < b) return -1 * dir
+  if (a > b) return 1 * dir
+  return 0
+}
+
+function sortGuests(guests, crews, names) {
+  const crewNameById = new Map((crews ?? []).map((c) => [c.id, c.name]))
+  const piratePosById = new Map((names ?? []).map((n) => [n.id, n.position]))
+  const { key, dir } = guestSort
+
+  return [...(guests ?? [])].sort((a, b) => {
+    let cmp = 0
+    if (key === 'name') {
+      cmp = a.real_name.localeCompare(b.real_name, 'sv') * dir
+    } else if (key === 'status') {
+      cmp = (attendingSortKey(a.attending) - attendingSortKey(b.attending)) * dir
+    } else if (key === 'pirate') {
+      cmp = compareNullable(
+        a.pirate_name_id == null ? null : piratePosById.get(a.pirate_name_id),
+        b.pirate_name_id == null ? null : piratePosById.get(b.pirate_name_id),
+        dir,
+      )
+    } else if (key === 'crew') {
+      cmp = compareNullable(
+        a.crew_id == null ? null : (crewNameById.get(a.crew_id) ?? ''),
+        b.crew_id == null ? null : (crewNameById.get(b.crew_id) ?? ''),
+        dir,
+        { string: true },
+      )
+      if (cmp === 0 && a.crew_id != null && b.crew_id != null) {
+        cmp = (a.crew_id - b.crew_id) * dir
+      }
+    }
+    if (cmp === 0) cmp = a.real_name.localeCompare(b.real_name, 'sv')
+    return cmp
+  })
+}
+
+function sortHeader(label, key) {
+  const active = guestSort.key === key
+  const arrow = active ? (guestSort.dir === 1 ? ' ↑' : ' ↓') : ''
+  return `<th>
+    <button type="button" class="admin-sort-btn${active ? ' is-active' : ''}" data-sort="${key}">
+      ${label}${arrow}
+    </button>
+  </th>`
 }
 
 async function renderGuests() {
   const [{ data: guests }, { data: crews }, { data: names }] = await Promise.all([
-    supabase.from('guests').select('id, real_name, attending, pirate_name_id, crew_id, phone, email').order('real_name'),
+    supabase.from('guests').select('id, real_name, attending, pirate_name_id, crew_id, phone, email'),
     supabase.from('crews').select('id, name').order('id'),
-    supabase.from('pirate_names').select('id, name').order('position'),
+    supabase.from('pirate_names').select('id, name, position').order('position'),
   ])
   const crewOpts = (crews ?? []).map((c) => `<option value="${c.id}">${escapeHtml(c.name)}</option>`).join('')
+  const sorted = sortGuests(guests, crews, names)
 
   updateStatusStats(guests ?? [])
 
@@ -106,15 +170,15 @@ async function renderGuests() {
       <thead>
         <tr>
           <th class="admin-col-photo">Foto</th>
-          <th>Namn</th>
-          <th>Status</th>
-          <th>Piratnamn</th>
-          <th>Lag</th>
+          ${sortHeader('Namn', 'name')}
+          ${sortHeader('Status', 'status')}
+          ${sortHeader('Piratnamn', 'pirate')}
+          ${sortHeader('Lag', 'crew')}
           <th>Kontakt</th>
         </tr>
       </thead>
       <tbody>
-        ${(guests ?? []).map((g) => `
+        ${sorted.map((g) => `
           <tr>
             <td class="admin-col-photo">${portraitThumbHtml(g.real_name)}</td>
             <td>${escapeHtml(g.real_name)}</td>
@@ -135,6 +199,18 @@ async function renderGuests() {
       </tbody>
     </table>
   `
+
+  el.querySelectorAll('.admin-sort-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.sort
+      if (guestSort.key === key) {
+        guestSort = { key, dir: guestSort.dir === 1 ? -1 : 1 }
+      } else {
+        guestSort = { key, dir: 1 }
+      }
+      renderGuests()
+    })
+  })
 
   el.querySelectorAll('.admin-portrait-thumb').forEach((img) => {
     img.addEventListener('error', () => {
@@ -339,45 +415,6 @@ async function renderCrews() {
     input.value = ''
     renderCrews()
     renderGuests()
-  })
-}
-
-async function renderInfo() {
-  const el = document.getElementById('info-section')
-  const { data } = await supabase.from('practical_info').select('key, value').order('key')
-  el.innerHTML = (data ?? []).map((r) => `
-    <div class="info-row">
-      <label>${escapeHtml(r.key)}</label>
-      <textarea data-key="${r.key}">${escapeHtml(r.value)}</textarea>
-      <button data-save="${r.key}">Spara</button>
-    </div>
-  `).join('') + `
-    <form id="new-info" style="margin-top:1.5rem; display:flex; gap:0.5rem;">
-      <input id="info-key" type="text" placeholder="Nyckel (t.ex. boat_friday)" />
-      <input id="info-value" type="text" placeholder="Värde" style="flex:1;" />
-      <button type="submit">Lägg till</button>
-    </form>
-  `
-
-  el.querySelectorAll('button[data-save]').forEach((btn) => {
-    btn.addEventListener('click', async () => {
-      const key = btn.dataset.save
-      const value = el.querySelector(`textarea[data-key="${key}"]`).value
-      const { error } = await supabase.from('practical_info').upsert({ key, value, updated_at: new Date().toISOString() })
-      if (error) return alert(error.message)
-      btn.textContent = '✓'
-      setTimeout(() => { btn.textContent = 'Spara' }, 1200)
-    })
-  })
-
-  document.getElementById('new-info').addEventListener('submit', async (e) => {
-    e.preventDefault()
-    const key = document.getElementById('info-key').value.trim()
-    const value = document.getElementById('info-value').value.trim()
-    if (!key || !value) return
-    const { error } = await supabase.from('practical_info').insert({ key, value })
-    if (error) return alert(error.message)
-    renderInfo()
   })
 }
 

@@ -209,7 +209,7 @@ export function renderFramefix(app) {
       <header class="framefix__header">
         <div>
           <h1>Ramjustering</h1>
-          <p class="framefix__hint">Läser layout från <code>pirate-card.css</code>. Dra hörnen och namnet — kopiera CSS och klistra in i layout-sektionen i samma fil.</p>
+          <p class="framefix__hint">Läser layout från <code>pirate-card.css</code>. Dra hörnen och namnet, kopiera CSS och klistra in i layout-sektionen i samma fil.</p>
         </div>
         <div class="framefix__actions">
           <button type="button" id="framefix-copy-css" class="framefix__btn">Kopiera CSS</button>
