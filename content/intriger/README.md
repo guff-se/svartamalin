@@ -17,6 +17,8 @@ Statiska intrig-texter. Publiceras vid deploy. Klienten visar bara inloggad gäs
 | Lag | `crews/{crew_id}.md` | `crews.id` i Supabase (t.ex. `1.md`) |
 | Individ | `guests/{login_slug}.md` | `guests.login_slug` (t.ex. `gustaftadaa.md`) |
 
+Gästlistan är stängd: en fil per gäst med `attending = true` i Supabase, inget mer. Gäster som tackat nej eller inte svarat får **ingen** fil — inte ens en tom stubbe — och ska inte nämnas i lagintriger, `romanser.yaml` eller `fiender.yaml`.
+
 ## Format
 
 Valfri frontmatter (för agenten, syns inte för gästen), sedan 2–3 intriger som `##`-rubriker.

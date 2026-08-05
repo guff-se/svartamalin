@@ -65,6 +65,14 @@ Du har direktåtkomst till Supabase via creds i `.env.local`. **Vänta inte på 
 
 Intriger är statiska markdown-filer under `content/intriger/` (inte Supabase). Se filformat i `content/intriger/README.md`.
 
+**Gästlistan är stängd — bara gäster med `attending = true` hanteras.** Skapa aldrig `guests/{login_slug}.md` för någon som tackat nej eller aldrig svarat, inte ens en tom stubbe. De ska inte heller dyka upp i lagintriger, `romanser.yaml`, `fiender.yaml` eller huvudstoryn. De ligger kvar i `guests`-tabellen och i `GUEST_REAL_NAMES` (portrait-paths), men existerar inte i lajvet. Hämta listan innan du skriver intrigtext:
+
+```bash
+set -a; source .env.local; set +a
+curl -s "${VITE_SUPABASE_URL}/rest/v1/guests?select=login_slug,real_name,crew_id&attending=is.true&order=login_slug" \
+  -H "apikey: ${VITE_SUPABASE_ANON_KEY}" -H "Authorization: Bearer ${VITE_SUPABASE_ANON_KEY}"
+```
+
 **När du skriver eller ändrar intrigtext:** läs och följ **alltid** [`content/intriger/STYLE.md`](content/intriger/STYLE.md). Kortfattat:
 
 - Röst: Povel Ramel / klassisk svensk revy — finurligt, ordvitsar, allitteration, rim; överdrivet och bombastiskt; mottagaren är hjälten i sin berättelse (du-form). **Alltid piratnamn** — aldrig civilnamn i intrigtext. Gärna eko från `svartamalin-sångtext.txt` (alla piratnamn kommer därifrån; sista versen = slutstriden — spoila den inte).

@@ -48,6 +48,8 @@ När en story-bit är beslutad läggs den in i [`fordelning.yaml`](fordelning.ya
 
 Regeln är: **ingen gästtext skrivs innan story-biten finns beslutad här.** Annars uppstår motsägelser mellan filer som ingen upptäcker förrän på ön.
 
+Mottagare får bara vara gäster med `attending = true` i Supabase. Gästlistan är stängd — den som tackat nej eller inte svarat ska inte tilldelas story-bitar, roller eller pusselnycklar, och får ingen fil i `content/intriger/guests/`.
+
 ---
 
 ## Invarianter
