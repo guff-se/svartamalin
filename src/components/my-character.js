@@ -5,6 +5,7 @@ import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { pirateCardHtml } from './pirate-card.js'
 import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
+import { fetchPracticalMap, formatPracticalMarkdown } from './practical-info.js'
 
 const FIELDS = [
   {
@@ -24,8 +25,8 @@ const FIELDS = [
   },
   {
     col: 'character_play_with',
-    label: 'Finns det någon intrig, nån hemlig information eller bakgrundsberättelse, som du vill att en annan deltagare skall få.',
-    placeholder: 't.ex. Att fråga om din rituella fotmassage, misstänka att ditt skägg är oäkta',
+    label: 'Något annat du vill berätta?',
+    placeholder: 't.ex. något du vill skall finnas med i storyn',
   },
 ]
 
@@ -70,6 +71,9 @@ export async function renderMyCharacter(el) {
     ? await supabase.from('pirate_names').select('name').eq('id', me.pirate_name_id).maybeSingle()
     : { data: null }
 
+  const { map: copy } = await fetchPracticalMap()
+  const intro = copy?.character_intro
+
   if (section) section.hidden = false
   el.innerHTML = `
     <h2>Din karaktär</h2>
@@ -80,6 +84,7 @@ export async function renderMyCharacter(el) {
         overlaySrc: overlayForGuest({ id: me.id, pirate_name_id: me.pirate_name_id }),
       })}
     </div>
+    ${intro ? `<div class="character-intro">${intro.split(/\n{2,}/).map((p) => `<p>${formatPracticalMarkdown(p.trim())}</p>`).join('')}</div>` : ''}
     <form id="character-form" class="info-form">
       ${FIELDS.map((f) => `
         <label class="info-field">
