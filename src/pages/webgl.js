@@ -93,6 +93,10 @@ export async function renderWebgl(app) {
               <div id="my-sleeping"></div>
             </div>
             <div class="practical-sub">
+              <h3>Packning</h3>
+              <div id="practical-packing">Laddar…</div>
+            </div>
+            <div class="practical-sub">
               <h3>Bidra</h3>
               <div id="practical-bidra">Laddar…</div>
             </div>
@@ -149,6 +153,7 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
   renderNarrative(document.getElementById('practical-sova'),     { key: 'sova' })
   renderMySleeping(document.getElementById('my-sleeping'))
+  renderNarrative(document.getElementById('practical-packing'),  { key: 'packing' })
   renderNarrative(document.getElementById('practical-bidra'),    { key: 'bidra' })
   renderNarrative(document.getElementById('sec-osa-top'),     { key: 'osa' })
   renderNarrative(document.getElementById('sec-osa'),         { key: 'osa' })
