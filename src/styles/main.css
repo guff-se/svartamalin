@@ -185,9 +185,38 @@ body {
 }
 .returning-splash__audio-hint {
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   color: var(--paper-dark);
   font-style: italic;
+}
+.audio-hint__mute {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  background: rgba(26, 18, 10, 0.8);
+  color: var(--paper);
+  font-size: 1.2rem;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s;
+}
+.audio-hint__mute:hover {
+  background: rgba(139, 44, 26, 0.8);
+  border-color: var(--gold);
 }
 
 /* Lösenordsskärm */
@@ -250,9 +279,27 @@ body.locked { overflow: hidden; }
 .unlock button:hover { background: var(--accent); border-color: var(--accent); }
 .unlock .audio-hint {
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   color: var(--paper-dark);
   font-style: italic;
+}
+.unlock .audio-hint__mute {
+  /* Överstyr .unlock button (padding, uppercase, hover-fyll) */
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  letter-spacing: normal;
+  text-transform: none;
+  border-radius: 50%;
+  background: rgba(26, 18, 10, 0.8);
+}
+.unlock .audio-hint__mute:hover {
+  background: rgba(139, 44, 26, 0.8);
+  border-color: var(--gold);
 }
 .unlock .error {
   color: var(--accent);

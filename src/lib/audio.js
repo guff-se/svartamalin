@@ -5,15 +5,26 @@ const topControls = document.getElementById('top-controls')
 const toggle = document.getElementById('mute-toggle')
 
 const MUTED_KEY = 'svartamalin:muted'
+const muteButtons = new Set(toggle ? [toggle] : [])
 
 function wantsMuted() {
   return localStorage.getItem(MUTED_KEY) === '1'
 }
 
+function syncMuteButtons(muted) {
+  for (const btn of [...muteButtons]) {
+    if (!btn.isConnected) {
+      muteButtons.delete(btn)
+      continue
+    }
+    btn.textContent = muted ? '🔇' : '🔊'
+    btn.setAttribute('aria-label', muted ? 'Slå på ljud' : 'Stäng av ljud')
+  }
+}
+
 function applyMuted(muted) {
   audio.muted = muted
-  toggle.textContent = muted ? '🔇' : '🔊'
-  toggle.setAttribute('aria-label', muted ? 'Slå på ljud' : 'Stäng av ljud')
+  syncMuteButtons(muted)
   localStorage.setItem(MUTED_KEY, muted ? '1' : '0')
 }
 
@@ -94,7 +105,7 @@ async function startMutedBackgroundPlay() {
   } catch {}
 }
 
-toggle.addEventListener('click', () => {
+function onMuteToggleClick() {
   // Fälla: audion spelar inte men ikonen visar 🔊 — klick råkar muta.
   // Om ljud önskas men är pausat: starta (gest), toggla inte till mute.
   if (audio.paused && !wantsMuted()) {
@@ -113,7 +124,32 @@ toggle.addEventListener('click', () => {
     audio.pause()
     stopSongSubtitles()
   }
-})
+}
+
+toggle?.addEventListener('click', onMuteToggleClick)
+
+// Extra mute-knapp (unlock / retur-splash). Synkar preferens med sajtens toggle.
+// Innan showen startat (top-controls dolda) togglas bara preferensen — sajtens
+// "paused → starta ljud"-fälla skulle annars hindra mute före boarding.
+export function bindMuteButton(btn) {
+  if (!btn || muteButtons.has(btn)) return
+  muteButtons.add(btn)
+  syncMuteButtons(wantsMuted())
+  btn.addEventListener('click', (e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    if (topControls.hidden) {
+      const next = !wantsMuted()
+      applyMuted(next)
+      if (next) {
+        audio.pause()
+        stopSongSubtitles()
+      }
+      return
+    }
+    onMuteToggleClick()
+  })
+}
 
 function showControls() {
   topControls.hidden = false

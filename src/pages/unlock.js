@@ -1,4 +1,4 @@
-import { primeAudioAutoplay } from '../lib/audio.js'
+import { bindMuteButton, primeAudioAutoplay } from '../lib/audio.js'
 import { supabase } from '../lib/supabase.js'
 import { setGuestId } from '../lib/state.js'
 
@@ -18,13 +18,17 @@ export function renderUnlock(app, onUnlocked) {
         <button type="submit">Stig ombord</button>
         <p class="error" id="unlock-error"></p>
       </form>
-      <p class="audio-hint">🔊 Ljud rekommenderas</p>
+      <p class="audio-hint">
+        <button type="button" class="audio-hint__mute" aria-label="Stäng av ljud">🔊</button>
+        Ljud rekommenderas
+      </p>
     </section>
   `
 
   const form = document.getElementById('unlock-form')
   const input = document.getElementById('password')
   const error = document.getElementById('unlock-error')
+  bindMuteButton(app.querySelector('.audio-hint__mute'))
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault()

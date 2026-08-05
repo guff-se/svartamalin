@@ -1,5 +1,5 @@
 import { renderUnlock } from './pages/unlock.js'
-import { hideTopControls, pauseShowAudio, prepareAudioForReturningSession, primeAudioAutoplay, isAudioUnlocked } from './lib/audio.js'
+import { bindMuteButton, hideTopControls, pauseShowAudio, prepareAudioForReturningSession, primeAudioAutoplay, isAudioUnlocked } from './lib/audio.js'
 import { clearSession, getGuestId } from './lib/state.js'
 import { showLoading, hideLoading } from './lib/loading.js'
 import { initPerf } from './lib/perf.js'
@@ -64,7 +64,10 @@ function showReturningSplash() {
     el.innerHTML = `
       <div class="returning-splash__inner">
         <button class="returning-splash__btn" type="button">Sätt segel!</button>
-        <p class="returning-splash__audio-hint">🔊 Ljud rekommenderas</p>
+        <p class="returning-splash__audio-hint">
+          <button type="button" class="audio-hint__mute" aria-label="Stäng av ljud">🔊</button>
+          Ljud rekommenderas
+        </p>
       </div>
     `
     const go = () => {
@@ -75,6 +78,7 @@ function showReturningSplash() {
     }
     el.addEventListener('click', go)
     document.body.appendChild(el)
+    bindMuteButton(el.querySelector('.audio-hint__mute'))
     el.querySelector('.returning-splash__btn')?.focus()
   })
 }
