@@ -1,9 +1,12 @@
 ### Lördag
 
+#### Frukost
+
+Vi vaknar som oss själva och äter frukost tillsammans. Ni får därefter en liten stund att göra er i ordning. Vi är på en fantastisk ö med mycket att göra. Se till att din piratutstyrsel är någorlund praktisk och redo för äventyr.
+
 #### Förmiddag: Äventyr
 
-Vi vaknar som oss själva och äter frukost tillsammans. Sedan börjar spelet! Ytan spricker. Förräderi, hämd och rena rövartåg. Skatter stjäls, romanser inleder och avslutas. Mysterier avtäcks. Hämnd avkrävs.
-Vi är på en fantastisk ö med mycket att göra. Klä dig gärna någorlunda praktiskt och redo för äventyr.
+Här börjar spelet! Ytan spricker. Förräderi, hämd och rena rövartåg. Skatter stjäls, romanser inleder och avslutas. Mysterier avtäcks. Hämnd avkrävs.
 
 #### Lunch: Stiltje
 
@@ -15,7 +18,7 @@ Vi samlas sedan för en gemensam avresa. Biljetter finns till alla som vill, men
 
 #### Kväll: Förlisning
 
-Svarta Malin fyller år och bjuder på kaviar och rom. Så bryter helvetet ut, det blir slagsmål till slut! Vi flyger på jubilaren med värjor och krut. Det enda vi vet säkert är att när figheten är slut är det Svarta Malin som står som segrare!
+Svarta Malin fyller år och bjuder på kaviar och rom. Så bryter helvetet ut, det blir slagsmål till slut! Vi flyger på jubilaren med värjor och krut. Det enda vi vet säkert är att när fighten är slut är det Svarta Malin som står som segrare!
 
 #### Natt: Rans Salar
 

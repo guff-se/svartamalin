@@ -603,7 +603,18 @@
 }
 @media (max-width: 720px) {
   .card--my-crew .crew-collage {
-    gap: 0.35rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+  .card--my-crew .crew-collage .my-crew-member {
+    flex: none;
+    min-width: 0;
+  }
+}
+@media (max-width: 420px) {
+  .card--my-crew .crew-collage {
+    gap: 0.5rem;
   }
 }
 .my-crew-member {
@@ -631,6 +642,9 @@
 .my-crew-contact__link {
   color: var(--paper-dark);
   text-decoration: none;
+}
+.my-crew-contact__link[href^="mailto:"] {
+  font-size: 0.88em;
 }
 .my-crew-contact__link:hover {
   color: var(--gold);
