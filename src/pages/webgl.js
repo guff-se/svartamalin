@@ -94,7 +94,6 @@ export async function renderWebgl(app) {
               <div id="practical-sova">Laddar…</div>
             </div>
             <div class="practical-sub" hidden>
-              <h3>Din sovplats</h3>
               <div id="my-sleeping"></div>
             </div>
             <div class="practical-sub">

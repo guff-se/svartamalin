@@ -53,10 +53,11 @@ export async function renderMySleeping(el) {
 
   if (block) block.hidden = false
   el.innerHTML = `
-    <p class="sleeping-spot">
+    <h3 class="sleeping-spot">
+      <span class="sleeping-spot__label">Din sovplats</span>
       <span class="sleeping-spot__room">${escapeHtml(me.sleeping_room)}</span>
       ${me.sleeping_bed ? `<span class="sleeping-spot__bed">${escapeHtml(me.sleeping_bed)}</span>` : ''}
-    </p>
+    </h3>
     ${roommatesHtml(roommates ?? [], nameMap)}
   `
 }
