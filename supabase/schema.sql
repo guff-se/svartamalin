@@ -30,7 +30,9 @@ create table if not exists guests (
   character_facts text,             -- gästens egna fakta om sin karaktär
   character_object text,            -- speciellt objekt hen tar med sig
   character_skill text,             -- färdighet / aktivitet under festen
-  character_play_with text          -- person hen vill spela mot
+  character_play_with text,         -- person hen vill spela mot
+  sleeping_room text,               -- rum på Ovanan, t.ex. "Norra Toppstugan"
+  sleeping_bed text                 -- bäddtyp, t.ex. "Dubbelsäng", "Madrass"
 );
 
 create table if not exists practical_info (
