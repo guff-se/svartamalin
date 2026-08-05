@@ -107,6 +107,7 @@
   font-size: clamp(1.5rem, 4vw, 2.2rem);
   letter-spacing: 0.04em;
   text-align: center;
+  color: var(--gold);
 }
 .card .lead {
   text-align: center;
@@ -232,7 +233,6 @@
 
 .ovanan-block p {
   margin: 0;
-  line-height: 1.7;
 }
 
 @media (max-width: 560px) {
@@ -250,10 +250,19 @@
   }
 }
 
-/* Narrative-sektioner (Praktiskt, Överfart, Sova, Tema, Bidra, …) */
+/* Brödtext — samma stil som .intrig__body (Din skuta) */
+.card p,
+.card--manifest li,
+.narrative-body li,
+.ovanan-block p,
+.intrig__body {
+  line-height: 1.65;
+  color: var(--paper-dark);
+  font-style: normal;
+  font-size: 1rem;
+}
 .card p {
   margin: 0 0 1rem;
-  line-height: 1.7;
 }
 .card p:last-child { margin-bottom: 0; }
 .card p a {
@@ -323,7 +332,6 @@
 .card--practical .narrative-body h3:first-child { margin-top: 0; }
 .practical-sub p {
   margin: 0 0 0.75rem;
-  line-height: 1.7;
 }
 .practical-sub p:last-child { margin-bottom: 0; }
 
@@ -409,8 +417,6 @@
   .card--manifest { padding: 2rem 1.5rem 2.5rem; }
 }
 .card--manifest p {
-  line-height: 1.7;
-  font-style: italic;
   text-align: left;
 }
 .card--manifest ul {
@@ -418,8 +424,6 @@
   padding-left: 1.25rem;
 }
 .card--manifest li {
-  line-height: 1.7;
-  font-style: italic;
   text-align: left;
   margin-bottom: 0.9rem;
 }
@@ -435,7 +439,7 @@
   text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 0.5rem;
-  text-align: left;
+  text-align: center;
 }
 @media (min-width: 560px) {
   #manifest-intro p:first-child strong { white-space: nowrap; }
@@ -450,8 +454,21 @@
   margin: 1.75rem 0 0.65rem;
   text-align: left;
 }
+.card--manifest h4 {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-size: clamp(0.92rem, 2vw, 1.05rem);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 1.35rem 0 0.4rem;
+  text-align: left;
+}
 .manifest-body h3:first-child {
   margin-top: 0;
+}
+.manifest-body h3 + h4 {
+  margin-top: 0.85rem;
 }
 .manifest-block {
   display: grid;
@@ -535,12 +552,10 @@
   background: rgba(20, 14, 8, 0.6);
 }
 .card--closing p {
-  font-style: italic;
   margin: 0 0 0.5rem;
 }
 .card--closing p:last-child {
   font-family: var(--font-display);
-  font-style: normal;
   font-size: 1.4rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -645,9 +660,6 @@
 .character-intro {
   margin: 0 0 1.25rem;
   text-align: left;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  opacity: 0.85;
 }
 .character-intro h3 {
   margin: 0 0 0.6rem;
@@ -655,7 +667,6 @@
   text-transform: uppercase;
   font-size: 1rem;
   color: var(--gold);
-  opacity: 1;
 }
 .character-intro h4 {
   margin: 0.8rem 0 0.4rem;
@@ -751,6 +762,4 @@
 }
 .intrig__body {
   margin: 0;
-  line-height: 1.65;
-  color: var(--paper-dark);
 }
