@@ -367,9 +367,6 @@
   font-style: italic;
   text-align: left;
 }
-#manifest-intro p:first-child {
-  text-align: center;
-}
 #manifest-intro p:first-child strong {
   display: block;
   font-family: var(--font-display);
@@ -379,7 +376,7 @@
   text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 0.5rem;
-  text-align: center;
+  text-align: left;
 }
 @media (min-width: 560px) {
   #manifest-intro p:first-child strong { white-space: nowrap; }
