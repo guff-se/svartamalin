@@ -52,17 +52,42 @@ Skriv som om världen fortfarande tror på seger, skatt och överlevnad, medan u
 
 Intriger ska passa in i helgens båge. De behöver inte nämna dagarna uttryckligen, men relationer och uppdrag ska kunna **explodera** i rätt fas.
 
-### Fredag: Överdåd
-Ostindiefararen är hemma. Ingen talar om vad som väntar. Vi ler mot våra fiender och dricker deras vin. Den sista natten innan allt brinner.
+### Helgen är TVÅ kvällar, inte en
 
-→ Intriger får gärna ge skäl att **skåla med fienden**, dölja hat bakom artighet, eller bära på något som måste ske “innan morgonen”.
+Lajvet pågår från **fredag middag** till **lördag kväll**. Det betyder:
+
+| Fas | När |
+|-----|-----|
+| Överdåd | fredag middag och **fredag kväll** (kväll ett) |
+| Svek | lördag dag |
+| Förlisning | **lördag kväll** (kväll två), där allt får sitt utlopp |
+| Rans salar | natten efter lördag kväll, efterspelet |
+
+Fredag kväll är festen och fasaden. Lördag kväll är uppgörelsen. En intrig som ska avgöras i strid, hämnd eller skandal hör hemma på **kväll två**, inte på kväll ett.
+
+### Tidsuttryck: så skriver du deadline
+
+Skriv aldrig så att helgen låter som en enda kväll. Ett ensamt "i kväll" eller "innan morgonen" landar hos gästen som fredag kväll, och då förbrukas intrigen ett dygn för tidigt.
+
+| Gör | Undvik |
+|-----|--------|
+| "innan helgen är över", "innan sista skålen", "innan ni lämnar Ovanan" | "innan morgonen", "innan natten är över" |
+| "första kvällen ler ni, andra kvällen kräver ni betalt" | "i kväll" (utan att säga vilken) |
+| "börja redan vid fredagens fat, avsluta det på lördagen" | Formuleringar som antyder att allt hinner och måste ske vid ett enda bord |
+
+Vill du ändå ha brådskan i texten: namnge kvällen ("**andra kvällen**", "lördagens sista skål") eller sätt deadline vid helgens slut. Att en intrig *börjar* redan fredag är utmärkt, men den ska ha luft nog att bära genom lördagen.
+
+### Fredag middag och kväll: Överdåd (kväll ett)
+Ostindiefararen är hemma. Ingen talar om vad som väntar. Vi ler mot våra fiender och dricker deras vin. Kvällen innan allt brinner.
+
+→ Intriger får gärna ge skäl att **skåla med fienden**, dölja hat bakom artighet, eller bära på något som ska **sås nu och skördas i morgon**. Låt fredagen ställa frågan, inte besvara den.
 
 ### Lördag dag: Svek
 Ytan spricker. Spelet är lagtävling, men man kan köpa fördelar och sälja ut sitt lag. Förräderi är tillåtet. Det är spelet.
 
 → Ge hemliga **erbjudanden, skulder, lojalitetskonflikter** och skäl att tveka mellan laget och dig själv.
 
-### Lördag kväll: Förlisning
+### Lördag kväll: Förlisning (kväll två, helgens slut)
 Alla slåss med alla. Nedslagen av annan än Malin → res dig och fighta igen. Bara Malin dödar permanent. Malin vinner. Gustaf (Rans budbärare) delar ut slöjor bland de döda och sjunger *Så länge skutan kan gå*. Speglar sista versen i sången (jubileum → värjor och krut → hög av kaptener).
 
 → Bygg rivaliteter och hedersfrågor som **måste få sitt utlopp**. Nämn inte dödsregeln, Malins oövervinnerlighet eller versens utgång i texten.
@@ -103,7 +128,7 @@ I sin kortaste form ger en intrig spelaren tre saker:
 
 1. **Något att vilja** (skatt, kärlek, hämnd, ära, en hemlighet, en plats i historien).
 2. **Någon som står i vägen** (rival, älskare, lagkamrat, fiende, Malin, en skuld).
-3. **En anledning att det måste avgöras nu** (helgen, skålen i kväll, innan morgonen, innan någon annan prejar först).
+3. **En anledning att det måste avgöras under helgen** (innan sista skålen, innan skutorna skiljs åt, innan någon annan prejar först). Se tidsuttrycken nedan: helgen är två kvällar, så undvik "innan morgonen".
 
 Saknas något av de tre: skriv om tills alla tre syns i texten.
 
@@ -130,7 +155,8 @@ De flesta intriger mår bra av att **minst tre personer** är involverade (motta
 4. Är minst tre personer involverade (eller finns skäl till färre)?
 5. Omnämns alla deltagare **bara** med piratnamn (inga civilnamn)?
 6. Spoilar texten Malin/Ran-slutet eller sista versens utgång? → stryk.
-7. Kan det mata fredagens leenden, lördagens svek eller kvällens kaos?
-8. Finns (gärna) eko från `svartamalin-sångtext.txt`, utan att spoila?
-9. Är speglade intriger uppdaterade (eller enväg markerad i frontmatter)?
-10. Finns em dash (—)? → stryk och skriv om med komma, kolon eller punkt.
+7. Kan det mata fredagens leenden, lördagens svek eller lördagskvällens kaos?
+8. Låter deadlinen som en enda kväll ("i kväll", "innan morgonen")? → skriv om, helgen är två kvällar.
+9. Finns (gärna) eko från `svartamalin-sångtext.txt`, utan att spoila?
+10. Är speglade intriger uppdaterade (eller enväg markerad i frontmatter)?
+11. Finns em dash (—)? → stryk och skriv om med komma, kolon eller punkt.
