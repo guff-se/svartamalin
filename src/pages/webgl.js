@@ -57,8 +57,8 @@ export async function renderWebgl(app) {
           </div>
         </section>
 
-        <section class="card-section" id="my-character-section" hidden>
-          <div class="card card--character" id="my-character"></div>
+        <section class="card-section">
+          <div class="card card--crew card--my-crew" id="my-crew">Laddar…</div>
         </section>
 
         <section class="card-section osa-section" id="osa-section-top" hidden>
@@ -72,8 +72,8 @@ export async function renderWebgl(app) {
           </div>
         </section>
 
-        <section class="card-section">
-          <div class="card card--crew card--my-crew" id="my-crew">Laddar…</div>
+        <section class="card-section" id="my-character-section" hidden>
+          <div class="card card--character" id="my-character"></div>
         </section>
 
         <section class="card-section">
@@ -148,8 +148,8 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('manifest-saturday'), { key: 'manifest_saturday' })
   renderNarrative(document.getElementById('manifest-play'),     { key: 'manifest_play' })
   renderNarrative(document.getElementById('manifest-prep'),     { key: 'manifest_prep' })
-  renderMyCharacter(document.getElementById('my-character'))
   renderMyCrew(document.getElementById('my-crew'))
+  renderMyCharacter(document.getElementById('my-character'))
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
   renderNarrative(document.getElementById('practical-overfart'), { key: 'overfart' })
