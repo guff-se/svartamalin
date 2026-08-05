@@ -367,6 +367,19 @@
   font-style: italic;
   text-align: left;
 }
+.card--manifest ul {
+  margin: 0.9rem 0 0;
+  padding-left: 1.25rem;
+}
+.card--manifest li {
+  line-height: 1.7;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 0.9rem;
+}
+.card--manifest li::marker {
+  color: var(--gold);
+}
 #manifest-intro p:first-child strong {
   display: block;
   font-family: var(--font-display);
