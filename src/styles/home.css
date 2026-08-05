@@ -273,7 +273,8 @@
 .practical-sub {
   margin-top: 1.5rem;
 }
-.practical-sub h3 {
+.practical-sub h3,
+.card--practical .narrative-body h3 {
   margin: 0 0 0.75rem;
   font-family: var(--font-display);
   font-size: 1.4rem;
@@ -281,6 +282,10 @@
   text-transform: uppercase;
   color: var(--gold);
 }
+/* Rubriker mitt i brödtexten behöver luft ovanför — sub-blocken får sin via
+   .practical-sub margin-top. */
+.card--practical .narrative-body h3 { margin-top: 1.5rem; }
+.card--practical .narrative-body h3:first-child { margin-top: 0; }
 .practical-sub p {
   margin: 0 0 0.75rem;
   line-height: 1.7;
