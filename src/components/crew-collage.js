@@ -3,7 +3,11 @@ import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { sortByPirateNameId } from '../lib/pirate-name-order.js'
 import { bindLightboxTriggers } from '../lib/image-lightbox.js'
+import { escapeHtml } from '../lib/escape.js'
+import { getGuestId } from '../lib/state.js'
 import { pirateCardHtml } from './pirate-card.js'
+
+const CREWLESS_HEADING = 'Lösdrivare'
 
 export async function renderCrewCollage(el) {
   wirePirateCardGrid(el)
@@ -24,13 +28,17 @@ export function wirePirateCardGrid(el) {
 
 /** Fill a container with pirate cards (same markup as Besättningen). */
 export function fillPirateCardGrid(el, guests) {
-  el.innerHTML = sortByPirateNameId(guests).map((p) => pirateCardHtml({
+  el.innerHTML = pirateCardsHtml(guests)
+
+  makeCardsInteractive(el)
+}
+
+function pirateCardsHtml(guests) {
+  return sortByPirateNameId(guests).map((p) => pirateCardHtml({
     photoSrc: portraitPath(p.real_name),
     pirateName: p.pirate_name,
     overlaySrc: overlayForGuest({ id: p.id, pirate_name_id: p.pirate_name_id }),
   })).join('')
-
-  makeCardsInteractive(el)
 }
 
 function onPortraitError(e) {
@@ -43,22 +51,68 @@ function onPortraitError(e) {
 }
 
 async function refresh(el) {
-  const { data, error } = await supabase
-    .from('public_guests')
-    .select('id, real_name, pirate_name, pirate_name_id')
-    .not('pirate_name_id', 'is', null)
+  const [{ data, error }, { data: crews }, myCrewId] = await Promise.all([
+    supabase
+      .from('public_guests')
+      .select('id, real_name, pirate_name, pirate_name_id, crew_id')
+      .not('pirate_name_id', 'is', null),
+    supabase.from('crews').select('id, name').order('id'),
+    fetchMyCrewId(),
+  ])
 
   if (error) {
     el.textContent = 'Kunde inte ladda besättningen.'
     return
   }
 
-  if (!data || data.length === 0) {
+  // Grupperad vy: containern är inte längre själva kort-gridden.
+  el.classList.remove('crew-collage')
+  el.classList.add('crew-groups')
+
+  const groups = groupByCrew(data ?? [], crews ?? [], myCrewId)
+
+  if (!groups.length) {
     el.innerHTML = `<p class="crew-empty">Ingen har mönstrat på än.</p>`
     return
   }
 
-  fillPirateCardGrid(el, data)
+  el.innerHTML = groups.map((group) => `
+    <section class="crew-group">
+      <h3 class="crew-group__name">${escapeHtml(group.name)}</h3>
+      <div class="crew-collage">${pirateCardsHtml(group.guests)}</div>
+    </section>
+  `).join('')
+
+  makeCardsInteractive(el)
+}
+
+async function fetchMyCrewId() {
+  const guestId = getGuestId()
+  if (!guestId) return null
+
+  const { data } = await supabase
+    .from('guests')
+    .select('crew_id')
+    .eq('id', guestId)
+    .maybeSingle()
+
+  return data?.crew_id ?? null
+}
+
+/** Ett block per lag i lagordning; den inloggades eget lag utelämnas. */
+function groupByCrew(guests, crews, myCrewId) {
+  const groups = crews
+    .filter((crew) => crew.id !== myCrewId)
+    .map((crew) => ({
+      name: crew.name,
+      guests: guests.filter((g) => g.crew_id === crew.id),
+    }))
+
+  const crewIds = new Set(crews.map((c) => c.id))
+  const crewless = guests.filter((g) => !crewIds.has(g.crew_id))
+  if (crewless.length) groups.push({ name: CREWLESS_HEADING, guests: crewless })
+
+  return groups.filter((group) => group.guests.length)
 }
 
 function cloneCardForLightbox(card) {

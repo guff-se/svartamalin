@@ -152,6 +152,31 @@
   outline-offset: 3px;
 }
 
+/* Grupperat collage — ett block per lag */
+.crew-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.crew-group__name {
+  margin: 0 0 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(184, 146, 74, 0.4);
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--gold);
+}
+
+@media (max-width: 420px) {
+  .crew-group__name {
+    font-size: 1.1rem;
+  }
+}
+
 /* Ovanan */
 .ovanan-layout {
   display: grid;
