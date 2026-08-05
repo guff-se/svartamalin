@@ -369,14 +369,16 @@ export async function buildScene() {
   harborLabel.anchor.set(0.5, 0.5)
   harborLabel.scale.set((dockSize * 1.5) / harborLabel.width)
   harborLabel.x = 0
-  harborLabel.y = -dockSize / 2 + dockSize * 0.2
+  // ~20 % från bryggans topp, sen ytterligare ~50 % av textens höjd uppåt
+  harborLabel.y = -dockSize / 2 - 3
   harborMarker.addChild(harborLabel)
   // harbor-marker tweenas via Container (inte sprite) — Container har
   // default scale 1, så ingen baseScale behövs här.
   harborMarker._baseScale = { x: 1, y: 1 }
   harborMarker.x = hx
   harborMarker.y = hy
-  decor.addChild(harborMarker)
+  // Ovanpå routesLayer så "Enhörna Varf" / bryggan inte skyms av båtvägen.
+  root.addChild(harborMarker)
 
   // Sea-label (SALMONELLAHAVET) — ovanpå decor, under our-ship (map.js rad 384–394).
   // Renderar vid 5× fontSize och skalar ner via scale så textens bitmap har

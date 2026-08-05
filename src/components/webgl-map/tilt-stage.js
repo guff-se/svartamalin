@@ -126,13 +126,18 @@ export class TiltStage {
     )
   }
 
-  _tick() {
+  /** En render av world → renderTex (används per frame och vid freeze/resize). */
+  renderOnce() {
     if (!this.renderTex) return
     this.app.renderer.render({
       container: this.world,
       target: this.renderTex,
       clear: true,
     })
+  }
+
+  _tick() {
+    this.renderOnce()
   }
 
   destroy() {

@@ -6,7 +6,6 @@ import { buildScene } from './scene.js'
 import { Camera } from './camera.js'
 import { TiltStage } from './tilt-stage.js'
 import { buildRevealTimeline } from './reveal-timeline.js'
-import { startAmbient } from './ambient.js'
 import { startShowAudio } from '../../lib/audio.js'
 import { hideLoading } from '../../lib/loading.js'
 
@@ -15,6 +14,23 @@ let hostEl = null
 let camAnimId = 0
 let tiltStage = null
 let revealRafId = 0
+let sceneFrozen = false
+
+/** En sista render av världen → mesh, sen stoppa tickern så bakgrunden fryser. */
+function freezeBackground() {
+  if (!app || sceneFrozen) return
+  sceneFrozen = true
+  if (tiltStage) tiltStage.renderOnce()
+  app.render()
+  app.ticker.stop()
+}
+
+/** Efter resize med stoppad ticker — uppdatera textur + stage en gång. */
+function renderFrozenFrame() {
+  if (!app || !sceneFrozen) return
+  if (tiltStage) tiltStage.renderOnce()
+  app.render()
+}
 
 export async function mountWebglMap(el) {
   if (!el) {
@@ -80,6 +96,7 @@ export async function mountWebglMap(el) {
       if (nowPortrait !== initialPortrait) return
       lastW = w; lastH = h
       app.renderer.resize(w, h)
+      renderFrozenFrame()
     }, 250)
   })
 
@@ -102,13 +119,14 @@ export async function mountWebglMap(el) {
   camera.apply()
 
   // Routes ritas varje frame med marching-ants (timeline:n styr progress)
-  app.ticker.add(() => {
+  const routeTick = () => {
     const t = performance.now() / 1000
     scene.routes.drive.phase = -t * 5
     scene.routes.boat.phase = -t * 6.2
     scene.routes.drive.draw()
     scene.routes.boat.draw()
-  })
+  }
+  app.ticker.add(routeTick)
 
   app.renderer.on('resize', () => {
     camera.apply()
@@ -128,10 +146,16 @@ export async function mountWebglMap(el) {
   // Wall-clock-driven rAF (bypass GSAP lagSmoothing — matchar fix i map.js)
   startShowAudio()
   const startWall = performance.now()
-  let ambientStarted = false
+  let revealDone = false
   document.body.classList.add('webgl-revealing')
   const finishReveal = () => {
-    if (!ambientStarted) { startAmbient(scene); ambientStarted = true }
+    if (revealDone) return
+    revealDone = true
+    // Sista draw av rutter (fryst phase) — ingen ambient efter intro.
+    scene.routes.drive.draw()
+    scene.routes.boat.draw()
+    app.ticker.remove(routeTick)
+    freezeBackground()
     document.body.classList.remove('webgl-revealing')
     document.body.classList.add('webgl-revealed')
   }
@@ -174,6 +198,7 @@ export function unmountWebglMap() {
   camAnimId = 0
   if (revealRafId) cancelAnimationFrame(revealRafId)
   revealRafId = 0
+  sceneFrozen = false
   if (tiltStage) { tiltStage.destroy(); tiltStage = null }
   document.body.classList.remove('webgl-revealed')
   document.body.classList.remove('webgl-revealing')
