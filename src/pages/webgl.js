@@ -6,8 +6,8 @@ import { mountWebglMap, unmountWebglMap } from '../components/webgl-map/index.js
 import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
 import { renderMyCrew } from '../components/my-crew.js'
-import { renderMyIntriger } from '../components/my-intriger.js'
 import { renderMyCharacter } from '../components/my-character.js'
+import { renderMySleeping } from '../components/my-sleeping.js'
 import { hasGivenAnswer } from '../lib/guest.js'
 import { openRsvpFlow } from '../components/rsvp-modal.js'
 import { openLightbox } from '../lib/image-lightbox.js'
@@ -72,10 +72,6 @@ export async function renderWebgl(app) {
           </div>
         </section>
 
-        <section class="card-section" id="my-intriger-section" hidden>
-          <div class="card card--intriger" id="my-intriger"></div>
-        </section>
-
         <section class="card-section">
           <div class="card card--crew card--my-crew" id="my-crew">Laddar…</div>
         </section>
@@ -96,6 +92,10 @@ export async function renderWebgl(app) {
             <div class="practical-sub">
               <h3>Sova</h3>
               <div id="practical-sova">Laddar…</div>
+            </div>
+            <div class="practical-sub" hidden>
+              <h3>Din sovplats</h3>
+              <div id="my-sleeping"></div>
             </div>
             <div class="practical-sub">
               <h3>Bidra</h3>
@@ -150,11 +150,11 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('manifest-prep'),     { key: 'manifest_prep' })
   renderMyCharacter(document.getElementById('my-character'))
   renderMyCrew(document.getElementById('my-crew'))
-  renderMyIntriger(document.getElementById('my-intriger'))
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
   renderNarrative(document.getElementById('practical-overfart'), { key: 'overfart' })
   renderNarrative(document.getElementById('practical-sova'),     { key: 'sova' })
+  renderMySleeping(document.getElementById('my-sleeping'))
   renderNarrative(document.getElementById('practical-bidra'),    { key: 'bidra' })
   renderNarrative(document.getElementById('sec-osa-top'),     { key: 'osa' })
   renderNarrative(document.getElementById('sec-osa'),         { key: 'osa' })

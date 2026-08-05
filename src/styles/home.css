@@ -643,32 +643,6 @@
   padding-bottom: 1.25rem;
   border-bottom: 1px solid rgba(201, 162, 39, 0.25);
 }
-.intriger-hero {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 1rem;
-}
-.intriger-hero .pirate-card {
-  width: 19rem;
-  max-width: 72%;
-  cursor: pointer;
-}
-.card--intriger h2 {
-  margin: 0 0 0.35rem;
-  text-align: center;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--gold);
-}
-.intriger-sub {
-  margin: 0 0 1.1rem;
-  text-align: center;
-  font-family: var(--font-display);
-  font-size: 0.95rem;
-  letter-spacing: 0.08em;
-  color: var(--paper-dark);
-  opacity: 0.75;
-}
 .intriger-list {
   list-style: none;
   margin: 0;
