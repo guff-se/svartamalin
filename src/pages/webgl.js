@@ -86,10 +86,6 @@ export async function renderWebgl(app) {
               <div class="narrative-body" id="practical-body">Laddar…</div>
             </div>
             <div class="practical-sub">
-              <h3>Överfart</h3>
-              <div id="practical-overfart">Laddar…</div>
-            </div>
-            <div class="practical-sub">
               <h3>Sova</h3>
               <div id="practical-sova">Laddar…</div>
             </div>
@@ -151,7 +147,6 @@ export async function renderWebgl(app) {
   renderMyCharacter(document.getElementById('my-character'))
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
-  renderNarrative(document.getElementById('practical-overfart'), { key: 'overfart' })
   renderNarrative(document.getElementById('practical-sova'),     { key: 'sova' })
   renderMySleeping(document.getElementById('my-sleeping'))
   renderNarrative(document.getElementById('practical-bidra'),    { key: 'bidra' })
