@@ -21,7 +21,7 @@ const FIELDS = [
   {
     col: 'character_skill',
     label: 'Dela en färdighet du har, eller en aktivitet du vill engagera dig i under festen',
-    placeholder: 't.ex. spela dragspel, grilla kött, sexmagick…',
+    placeholder: 't.ex. spela dragspel, grilla kött, fixa med båtar, sexmagick…',
   },
   {
     col: 'character_play_with',
