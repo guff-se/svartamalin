@@ -152,11 +152,21 @@
   outline-offset: 3px;
 }
 
-/* Grupperat collage — ett block per lag */
+/* Grupperat collage — ett block per lag, 5 kort per rad (lagstorleken) */
 .crew-groups {
   display: flex;
   flex-direction: column;
   gap: 2.25rem;
+}
+
+.crew-groups .crew-collage {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+@media (max-width: 720px) {
+  .crew-groups .crew-collage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .crew-group__name {
