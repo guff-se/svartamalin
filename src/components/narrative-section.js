@@ -59,6 +59,8 @@ function formatParagraphs(s) {
     }
 
     closeList()
+    const h4 = trimmed.match(/^####\s+([\s\S]+)$/)
+    if (h4) { out += `<h4>${formatPracticalMarkdown(h4[1].trim())}</h4>`; continue }
     const h3 = trimmed.match(/^###\s+([\s\S]+)$/)
     if (h3) { out += `<h3>${formatPracticalMarkdown(h3[1].trim())}</h3>`; continue }
     const h2 = trimmed.match(/^##\s+([\s\S]+)$/)

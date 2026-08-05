@@ -64,7 +64,7 @@ export async function renderMySleeping(el) {
 
 function roommatesHtml(roommates, nameMap) {
   if (!roommates.length) {
-    return `<p class="sleeping-mates__empty">Rummet är ditt eget — ingen annan snarkning att stå ut med.</p>`
+    return `<p class="sleeping-mates__empty">Rummet är ditt eget. Ingen annan snarkning att stå ut med.</p>`
   }
   const items = roommates.map((m) => {
     const pirateName = nameMap[m.pirate_name_id]

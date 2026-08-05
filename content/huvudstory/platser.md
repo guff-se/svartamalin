@@ -25,7 +25,7 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | TBD | |
 | **Bryggan och storbåten** | Ankomst och avfärd | Alla | Ankomst fredag, avfärd söndag | Ram |
 | **Matsal och festplats** | Middag fredag, brunch lördag | Alla | Överdåd fredag, brunch 14.00, festen 20.00 | I, III |
-| **Sovplatser och stugor** | Boende | Alla | Privata scener, gömställen för lagens skatter | Alla |
+| **Sovplatser och stugor** | Boende | Alla | Privat. Skall inte användas i spel. | Alla |
 
 ---
 
@@ -39,8 +39,9 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 | Piratstugan | **Slutet rum med eld.** Mörkt, avskilt, går att låsa och göra i ordning | Enda platsen på ön som fungerar som riktigt escape-rum |
 | Skelettet | **Kropp.** Ett lik som redan finns i fiktionen | Ursprungssynd, ett brott som inte är sonat, en identitet att avslöja |
 | Svärdfisken | **Offentligt gömställe.** Alla ser den, ingen tittar i gapet | Dead drop, brevväxling, det som ligger framför allas ögon |
-| Onsen och bastun | **Nakenhet och samtal.** Ingen kan bära papper eller prop | Bekännelser, allianser, sanningar som sägs muntligt och inte kan bevisas |
-| Verkstadsförråden | **Byggbart.** Vi kan möblera om helt | Arkiv, skattkammare, cell, kartrum. Andra escape-rumskandidaten |
+| Onsen | **Nakenhet och intima möten.** Litet badkar, perfekta för mindre möten, ritualer eller interaktioner. | Bekännelser, allianser, sanningar som sägs muntligt. |
+| Bastun | **Nakenhet och samtal.** Ingen kan bära papper eller prop | Semi-offentliga möten, plats där man kan råka höra något nån anna säger. |
+| Verkstaden | **Byggbart.** Vi kan möblera om helt | Arkiv, skattkammare, cell, kartrum. Andra escape-rumskandidaten |
 | Segelbåten | **Isolering.** Två personer, ingen kan höra | Hemligt möte, gömma det farligaste objektet, förräderi |
 | Kikaren | **Envägsblick.** En person ser något ingen annan ser samtidigt | Vittnesmål som måste bäras vidare muntligt, alltså rykte och misstro |
 | Skylten på annan ö | **Ohämtbar text.** Går inte att ta med sig | Ledtråd som måste memoreras eller ritas av, felkopiering är en feature |

@@ -1,3 +1,2 @@
-Majoriteten av besättningen kommer att inkvarteras inomhus. De saltaste sjöbusarna kan däremot komma att få tillbringa natten i tält under stjärnhimlen.
-
-Har du särskilda önskemål om sovplats är du välkommen att meddela mig i god tid. Vi kommer dock att behöva samsas om utrymmet på ön, så alltför höga krav på privata hytter, sviter eller kungliga gemak kommer att avvisas.
+Hela besättningen kommer att inkvarteras inomhus. Det blir lite trångt och vissa av er kommer att få dela rum med nån ni inte känner. Vissa rum är också nära sammanlänkade med där festen kommer vara. Vi har gjort vårt bästa för att ge er tillfredställande ackomodering, men det är givetvis fritt att byta med varandra.
+Sovrummen kommer att vara "ur spel" hela helgen. Dessa är för att sova och kunna vara ifred. Ta inte heller med er föremål som tillhör spelet till dessa utrymmen.

@@ -341,15 +341,36 @@ export async function buildScene() {
   addSprite('dragon0',  DECOR_LL.dragon0,  DECOR_SIZE.dragon)
   addSprite('dragon1',  DECOR_LL.dragon1,  DECOR_SIZE.dragon)
 
-  // Hamn-marker (bryggan + text)
+  // Hamn-marker (bryggan + text). Texten är barn till containern så den
+  // reveal:as samtidigt som bryggan (reveal(harborMarker, …)).
   const [hx, hy] = project([points.harbor.lon, points.harbor.lat])
   const harborMarker = new Container()
   harborMarker.label = 'harbor-marker'
+  const dockSize = DECOR_SIZE.harborDock
   const dock = new Sprite(textures.harborDock)
   dock.anchor.set(0.5, 0.5)  // mitten-mitten på hamn-koordinaten
-  dock.width = DECOR_SIZE.harborDock
-  dock.height = DECOR_SIZE.harborDock
+  dock.width = dockSize
+  dock.height = dockSize
   harborMarker.addChild(dock)
+  // Etikett ovanpå bryggan: ~20 % från bildens topp, 50 % bredare än bilden.
+  // Rita oversized + skala ner för skarp bitmap under hamn-inzoomen.
+  const HARBOR_LABEL_OVERSIZE = 5
+  const harborLabel = new Text({
+    text: 'Enhörna Varf',
+    style: {
+      fontFamily: 'Metamorphous, Georgia, serif',
+      fontSize: 14 * HARBOR_LABEL_OVERSIZE,
+      fontStyle: 'italic',
+      fontWeight: 'bold',
+      letterSpacing: 1.2 * HARBOR_LABEL_OVERSIZE,
+      fill: 0x2a1810,
+    },
+  })
+  harborLabel.anchor.set(0.5, 0.5)
+  harborLabel.scale.set((dockSize * 1.5) / harborLabel.width)
+  harborLabel.x = 0
+  harborLabel.y = -dockSize / 2 + dockSize * 0.2
+  harborMarker.addChild(harborLabel)
   // harbor-marker tweenas via Container (inte sprite) — Container har
   // default scale 1, så ingen baseScale behövs här.
   harborMarker._baseScale = { x: 1, y: 1 }

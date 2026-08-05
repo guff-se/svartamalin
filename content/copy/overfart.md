@@ -1,1 +1,0 @@
-För den som verkligen kräver det finns möjlighet till överfart med en mindre jolle mellan hamnen och ön. Jollen tar fyra personer åt gången. Observera att **ingen överfart kommer att ske mellan kl. 15.00 på lördagen och söndag morgon**.

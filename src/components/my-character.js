@@ -15,7 +15,7 @@ const FIELDS = [
   },
   {
     col: 'character_object',
-    label: 'Berätta om ett speciellt objekt du kommer ha med dig',
+    label: 'Berätta om ett speciellt objekt du kommer ha med dig (som du inte är rädd om)',
     placeholder: 't.ex. en prejat halsband, ett hemlig karta. Något som någon annan kan fatta tycke för.',
   },
   {

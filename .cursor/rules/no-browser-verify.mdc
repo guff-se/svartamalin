@@ -1,0 +1,15 @@
+---
+description: Användaren verifierar UI själv — ingen webbläsare/screenshot
+alwaysApply: true
+---
+
+# UI-verifiering
+
+Användaren kollar själv i webbläsaren. **Öppna inte** cursor-ide-browser och **ta inte screenshots** för att verifiera layout, copy, CSS eller övrig frontend.
+
+Gör i stället:
+- Ändra kod/copy
+- Kör `npm run build` när det behövs
+- Rapportera kort vad som ändrats
+
+Undantag: användaren ber uttryckligen om browser-test, screenshot eller att du ska "kolla i browsern".
