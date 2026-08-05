@@ -4,10 +4,15 @@
 
 import { escapeHtml } from '../lib/escape.js'
 
-// Minimal markdown — **bold** + radbrytningar.
+// Minimal markdown — **bold**, [text](https://…) + radbrytningar.
+// Bara http/https i länkar: texten går genom innerHTML.
 export function formatPracticalMarkdown(s) {
   return escapeHtml(s)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(
+      /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+      '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>',
+    )
     .replace(/\n/g, '<br />')
 }
 

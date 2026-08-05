@@ -221,6 +221,12 @@
   line-height: 1.7;
 }
 .card p:last-child { margin-bottom: 0; }
+.card p a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.card p a:hover { color: var(--paper); }
 
 /* Praktiskt — bild till vänster (avlång på höjden, ingen crop), text till höger */
 .practical-layout {

@@ -1,12 +1,16 @@
 Detta slag kommer att utkämpas på Ovanan, min egen ö i Salmonellahavet. Ni är alla inbjudna att fröjdas i dagarna två.
 
-Vi samlas i hamnen kl. 17.00 fredagen den 4 september, där mitt fartyg väntar för att föra er över till ön. När kvällningen kommer samlas vi kring en sista fredlig måltid tillsammans, lugnet före stormen.
+### Överfart
 
-Natten blir stilla. Ugglorna hoar, vågorna skvalpar mot stranden och brisen sveper lätt genom trädkronorna.
+Vi samlas i vid [**Enhörna varf**, Björkfjärdsvägen 28](https://maps.app.goo.gl/nXJLR6wE3TXup6yF7), kl. 17.00 fredagen den 4 september, där mitt fartyg väntar för att föra er över till ön.
+Ni kommer sedan att vara åter vid Enhörna mellan 14-15 på Söndag.
 
-När lördagen gryr väntar sjömansbrunch och de sista förberedelserna inför det som komma skall.
-Kl. 15.00 stängs öns portar. Ingen kan därefter komma till eller från ön.
-Då inleds **det stora slaget**.
-En gemensam resa genom farliga vatten väntar. Vad som sker därefter får framtiden utvisa.
+### Mat & Dryck
 
-På söndagen samlas vi åter för brunch, slickar våra sår, plåstrar om varandra och hjälper till att återställa ön efter bataljen. Den stora skutan avgår mot fastlandet omkring kl. 14.00.
+Det kommer att serveras mat av alla sorter och måltiderna kommer vara bufféliknande så att alla kan äta vad de vill eller inte vill. Vill du vara med och bidra till menyn på ett eller annat sätt, så kontakta Gustaf.
+Vi kommer att köpa in både alkoholhaltig och alkoholfri dryck, men du som vet med dig att det är något särskilt du vill dricka får gärna ta med detta för att bjuda på.
+Kaviar och rom kommer finnas på plats.
+
+### Packning
+
+Sängkläder (kolla om du har enkel eller dubbelsäng), handduk, varma kläder för kvällarna, regnkläder om du vill fortsätta kunna leka ute även vid regnrusk, **piratdräkt**, rekvisita.
