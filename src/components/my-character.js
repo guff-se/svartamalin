@@ -26,9 +26,35 @@ const FIELDS = [
   {
     col: 'character_play_with',
     label: 'Något annat du vill berätta?',
-    placeholder: 't.ex. något du vill skall finnas med i storyn',
+    placeholder: 't.ex. något du vill ha med i berättlesen, en särskild person du vill ha spel mot, etc.',
   },
 ]
+
+// Rubriker i copyn (## / ###) hamnar under sektionens egen h2 "Din karaktär"
+// och renderas därför som h3/h4. Radbrytning räcker som avgränsare — copyn
+// skrivs utan tomrader mellan rubrik och brödtext.
+function formatIntro(raw) {
+  const out = []
+  let para = []
+  const flush = () => {
+    if (para.length) out.push(`<p>${formatPracticalMarkdown(para.join('\n'))}</p>`)
+    para = []
+  }
+  raw.split('\n').forEach((line) => {
+    const heading = line.trim().match(/^(#{2,3})\s+(.+)$/)
+    if (heading) {
+      flush()
+      const tag = heading[1].length === 2 ? 'h3' : 'h4'
+      out.push(`<${tag}>${formatPracticalMarkdown(heading[2].trim())}</${tag}>`)
+    } else if (line.trim()) {
+      para.push(line.trim())
+    } else {
+      flush()
+    }
+  })
+  flush()
+  return out.join('')
+}
 
 /**
  * "Din karaktär" — gästens eget underlag till intrigerna.
@@ -84,7 +110,7 @@ export async function renderMyCharacter(el) {
         overlaySrc: overlayForGuest({ id: me.id, pirate_name_id: me.pirate_name_id }),
       })}
     </div>
-    ${intro ? `<div class="character-intro">${intro.split(/\n{2,}/).map((p) => `<p>${formatPracticalMarkdown(p.trim())}</p>`).join('')}</div>` : ''}
+    ${intro ? `<div class="character-intro">${formatIntro(intro)}</div>` : ''}
     <form id="character-form" class="info-form">
       ${FIELDS.map((f) => `
         <label class="info-field">

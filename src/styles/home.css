@@ -579,10 +579,24 @@
 }
 .character-intro {
   margin: 0 0 1.25rem;
-  text-align: center;
+  text-align: left;
   font-size: 0.95rem;
   line-height: 1.5;
   opacity: 0.85;
+}
+.character-intro h3 {
+  margin: 0 0 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--gold);
+  opacity: 1;
+}
+.character-intro h4 {
+  margin: 0.8rem 0 0.4rem;
+  letter-spacing: 0.06em;
+  font-size: 0.95rem;
+  color: var(--gold);
 }
 .character-intro p {
   margin: 0 0 0.5rem;
