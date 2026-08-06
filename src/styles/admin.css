@@ -90,3 +90,69 @@
   color: var(--paper-dark);
   font-size: 0.85rem;
 }
+.admin-character-empty {
+  color: var(--paper-dark);
+  font-size: 0.85rem;
+}
+.admin-character-marks {
+  display: inline-flex;
+  gap: 0.2rem;
+  vertical-align: middle;
+}
+.admin-character-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.55rem;
+  padding: 0.12rem 0.28rem;
+  border: 1px solid rgba(184, 146, 74, 0.25);
+  border-radius: 2px;
+  color: var(--paper-dark);
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  opacity: 0.45;
+}
+.admin-character-mark.is-filled {
+  border-color: #88c896;
+  color: #88c896;
+  opacity: 1;
+}
+.admin-character-toggle {
+  background: transparent;
+  border: 1px solid transparent;
+  color: inherit;
+  padding: 0.15rem;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.admin-character-toggle:hover,
+.admin-character-toggle.is-open {
+  border-color: rgba(184, 146, 74, 0.5);
+}
+.admin-character-detail td {
+  padding: 0.75rem 0.75rem 1rem;
+  background: rgba(232, 216, 180, 0.04);
+  border-bottom: 1px solid rgba(184, 146, 74, 0.25);
+}
+.admin-character-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.85rem 1.25rem;
+  margin: 0;
+}
+.admin-character-field dt {
+  margin: 0 0 0.25rem;
+  color: var(--gold);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.admin-character-field dd {
+  margin: 0;
+  white-space: pre-wrap;
+  color: var(--paper);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}

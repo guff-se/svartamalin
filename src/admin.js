@@ -52,22 +52,8 @@ function renderUnlock() {
 function updateStatusStats(guests) {
   const el = document.getElementById('status-stats')
   if (!el) return
-
-  let yes = 0
-  let no = 0
-  let pending = 0
-  for (const g of guests) {
-    if (g.attending === true) yes++
-    else if (g.attending === false) no++
-    else pending++
-  }
-
-  el.innerHTML = `
-    <span class="pill yes">Kommer: ${yes}</span>
-    <span class="pill no">Avböjt: ${no}</span>
-    <span class="pill pending">Ej svarat: ${pending}</span>
-    <span class="admin-stat-total">${guests.length} gäster</span>
-  `
+  const n = guests?.length ?? 0
+  el.innerHTML = `<span class="admin-stat-total">${n} gäst${n === 1 ? '' : 'er'} (kommer)</span>`
 }
 
 async function renderAdmin() {
@@ -87,16 +73,8 @@ async function renderAdmin() {
   await Promise.all([renderGuests(), renderCrews()])
 }
 
-/** @type {{ key: 'name' | 'status' | 'pirate' | 'crew', dir: 1 | -1 }} */
-let guestSort = { key: 'name', dir: 1 }
-
-const STATUS_SORT_ORDER = { yes: 0, pending: 1, no: 2 }
-
-function attendingSortKey(attending) {
-  if (attending === true) return STATUS_SORT_ORDER.yes
-  if (attending === false) return STATUS_SORT_ORDER.no
-  return STATUS_SORT_ORDER.pending
-}
+/** @type {{ key: 'name' | 'pirate' | 'crew', dir: 1 | -1 }} */
+let guestSort = { key: 'crew', dir: 1 }
 
 function compareNullable(a, b, dir, { string = false } = {}) {
   const aNull = a == null || a === ''
@@ -119,8 +97,6 @@ function sortGuests(guests, crews, names) {
     let cmp = 0
     if (key === 'name') {
       cmp = a.real_name.localeCompare(b.real_name, 'sv') * dir
-    } else if (key === 'status') {
-      cmp = (attendingSortKey(a.attending) - attendingSortKey(b.attending)) * dir
     } else if (key === 'pirate') {
       cmp = compareNullable(
         a.pirate_name_id == null ? null : piratePosById.get(a.pirate_name_id),
@@ -153,9 +129,73 @@ function sortHeader(label, key) {
   </th>`
 }
 
+const CHARACTER_FIELDS = [
+  { col: 'character_facts', label: 'Fakta', short: 'Fa' },
+  { col: 'character_object', label: 'Objekt', short: 'Ob' },
+  { col: 'character_skill', label: 'Färdighet', short: 'Fä' },
+  { col: 'character_play_with', label: 'Övrigt', short: 'Öv' },
+]
+
+/** @type {Set<string>} */
+const expandedCharacterGuests = new Set()
+
+function characterMarksHtml(guest) {
+  return CHARACTER_FIELDS.map((f) => {
+    const filled = Boolean(guest[f.col]?.trim())
+    return `<span
+      class="admin-character-mark${filled ? ' is-filled' : ''}"
+      title="${escapeHtml(f.label)}${filled ? '' : ' (tom)'}"
+    >${escapeHtml(f.short)}</span>`
+  }).join('')
+}
+
+function characterToggleHtml(guest) {
+  const filled = CHARACTER_FIELDS.some((f) => guest[f.col]?.trim())
+  const open = expandedCharacterGuests.has(guest.id)
+  const marks = characterMarksHtml(guest)
+  if (!filled) {
+    return `<span class="admin-character-marks" aria-label="Inga karaktärsfält ifyllda">${marks}</span>`
+  }
+  return `
+    <button
+      type="button"
+      class="admin-character-toggle${open ? ' is-open' : ''}"
+      data-guest="${guest.id}"
+      aria-expanded="${open ? 'true' : 'false'}"
+      aria-label="Visa karaktärsfält"
+    >
+      <span class="admin-character-marks">${marks}</span>
+    </button>
+  `
+}
+
+function characterDetailHtml(guest) {
+  if (!expandedCharacterGuests.has(guest.id)) return ''
+  const fields = CHARACTER_FIELDS.map((f) => {
+    const value = guest[f.col]?.trim()
+    return `
+      <div class="admin-character-field">
+        <dt>${escapeHtml(f.label)}</dt>
+        <dd>${value ? escapeHtml(value) : '<span class="admin-character-empty">—</span>'}</dd>
+      </div>
+    `
+  }).join('')
+  return `
+    <tr class="admin-character-detail">
+      <td colspan="6">
+        <dl class="admin-character-fields">${fields}</dl>
+      </td>
+    </tr>
+  `
+}
+
 async function renderGuests() {
+  const characterCols = CHARACTER_FIELDS.map((f) => f.col).join(', ')
   const [{ data: guests }, { data: crews }, { data: names }] = await Promise.all([
-    supabase.from('guests').select('id, real_name, attending, pirate_name_id, crew_id, phone, email'),
+    supabase
+      .from('guests')
+      .select(`id, real_name, pirate_name_id, crew_id, phone, email, ${characterCols}`)
+      .eq('attending', true),
     supabase.from('crews').select('id, name').order('id'),
     supabase.from('pirate_names').select('id, name, position').order('position'),
   ])
@@ -171,10 +211,10 @@ async function renderGuests() {
         <tr>
           <th class="admin-col-photo">Foto</th>
           ${sortHeader('Namn', 'name')}
-          ${sortHeader('Status', 'status')}
           ${sortHeader('Piratnamn', 'pirate')}
           ${sortHeader('Lag', 'crew')}
           <th>Kontakt</th>
+          <th>Karaktär</th>
         </tr>
       </thead>
       <tbody>
@@ -182,7 +222,6 @@ async function renderGuests() {
           <tr>
             <td class="admin-col-photo">${portraitThumbHtml(g.real_name)}</td>
             <td>${escapeHtml(g.real_name)}</td>
-            <td>${statusSelect(g.id, g.attending)}</td>
             <td>${pirateNameSelect(g.id, g.pirate_name_id, names ?? [], guests ?? [])}</td>
             <td>
               <select data-guest="${g.id}" class="crew-select">
@@ -194,7 +233,9 @@ async function renderGuests() {
               ${g.phone ? escapeHtml(g.phone) + '<br/>' : ''}
               ${g.email ? escapeHtml(g.email) : ''}
             </td>
+            <td>${characterToggleHtml(g)}</td>
           </tr>
+          ${characterDetailHtml(g)}
         `).join('')}
       </tbody>
     </table>
@@ -212,6 +253,18 @@ async function renderGuests() {
     })
   })
 
+  el.querySelectorAll('.admin-character-toggle').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const guestId = btn.dataset.guest
+      if (expandedCharacterGuests.has(guestId)) {
+        expandedCharacterGuests.delete(guestId)
+      } else {
+        expandedCharacterGuests.add(guestId)
+      }
+      renderGuests()
+    })
+  })
+
   el.querySelectorAll('.admin-portrait-thumb').forEach((img) => {
     img.addEventListener('error', () => {
       const empty = document.createElement('span')
@@ -219,21 +272,6 @@ async function renderGuests() {
       empty.title = 'Inget porträtt'
       empty.textContent = '—'
       img.replaceWith(empty)
-    })
-  })
-
-  el.querySelectorAll('.status-select').forEach((sel) => {
-    sel.addEventListener('change', async () => {
-      const guestId = sel.dataset.guest
-      const attending = { '': null, yes: true, no: false }[sel.value]
-      const payload = attending === true
-        ? { attending }
-        : { attending, pirate_name_id: null }
-      const { error } = await supabase.from('guests').update(payload).eq('id', guestId)
-      if (error) {
-        alert('Misslyckades: ' + error.message)
-      }
-      renderGuests()
     })
   })
 
@@ -271,17 +309,6 @@ function portraitThumbHtml(realName) {
   return `<img class="admin-portrait-thumb" src="${src}" alt="${alt}" width="56" height="78" loading="lazy" />`
 }
 
-function statusSelect(guestId, attending) {
-  const val = attending === true ? 'yes' : attending === false ? 'no' : ''
-  return `
-    <select data-guest="${guestId}" class="status-select">
-      <option value="" ${val === '' ? 'selected' : ''}>Ej svarat</option>
-      <option value="yes" ${val === 'yes' ? 'selected' : ''}>Kommer</option>
-      <option value="no" ${val === 'no' ? 'selected' : ''}>Avböjt</option>
-    </select>
-  `
-}
-
 function pirateNameSelect(guestId, pirateNameId, names, guests) {
   const takenByOther = new Set(
     guests.filter((g) => g.pirate_name_id && g.id !== guestId).map((g) => g.pirate_name_id),
@@ -313,7 +340,7 @@ async function renderCrews() {
   const el = document.getElementById('crews-section')
   const [{ data: crews }, { data: guests }] = await Promise.all([
     supabase.from('crews').select('id, name').order('id'),
-    supabase.from('guests').select('crew_id'),
+    supabase.from('guests').select('crew_id').eq('attending', true),
   ])
   const memberCounts = crewMemberCounts(guests)
 
