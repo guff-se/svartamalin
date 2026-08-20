@@ -1,6 +1,6 @@
-// Generic narrative-section renderer — fetch:ar text från practical_info[key]
-// och skriver h2 (om title given) + paragrafer i el. Stöd för minimal
-// markdown: **fet** och paragrafer (dubbla radbrytningar).
+// Generic narrative-section renderer. Brödtext från content/copy/{key}.md
+// via fetchPracticalMap() (Vite-glob, inte Supabase). Skriver h2 (om title given)
+// + paragrafer i el. Minimal markdown: **fet** och paragrafer (dubbla radbrytningar).
 
 import { fetchPracticalMap, formatPracticalMarkdown } from './practical-info.js'
 
@@ -20,7 +20,7 @@ async function getMap() {
 /**
  * Rendera text-sektion i `el`.
  *   title — om satt: h2 ovanför brödtext
- *   key   — practical_info-nyckel för brödtext
+ *   key   — filnamn i content/copy/ utan .md
  */
 export async function renderNarrative(el, { title, key } = {}) {
   if (!el) return

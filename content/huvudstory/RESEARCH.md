@@ -1,5 +1,7 @@
 # Best practice: lajvintriger och escape rooms
 
+Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
+
 Destillerat underlag för designarbetet. Varje avsnitt slutar med **Vad det betyder för oss**, alltså den konkreta konsekvensen för Ovanan.
 
 ---
@@ -32,7 +34,7 @@ En intrig utan tidspress spelas aldrig. Standardrådet är att bygga in ett skä
 
 Om en hemlighet bara finns hos en person avslöjas den ofta aldrig. Standardrådet: se till att **tillräckligt många karaktärer känner andras hemligheter**, och att de har en motivation att blanda sig i. Gör en plan för hur varje hemlighet avslöjas, plus en backup, plus en backup för backupen.
 
-**Vad det betyder för oss:** för varje kritisk story-information ska vi lista minst **två oberoende vägar** till den, plus en spelledarväg. Detta blir en obligatorisk kolumn i [`akter.md`](akter.md). Vi har dessutom en gratis mekanism i Gubben i stubben som kan mata in information som "rykte" utan att vi behöver bryta fiktionen.
+**Vad det betyder för oss:** för varje kritisk story-information ska vi lista minst **två oberoende vägar** till den, plus en spelledarväg. Detta blir en obligatorisk kolumn i [`akter.md`](akter.md). Rykten kan spridas via Malin, budbärare eller planterade lappar.
 
 ## 1.4 Trianglar, inte dueller
 
@@ -46,7 +48,7 @@ Tvåpersonskonflikter blir platta. Rådet är att lägga till personer så att t
 
 *Ensemble play* beskriver samma sak strukturellt: en **solo** är initiativet att sätta ton eller riktning, och en solo får sin kraft av **ackompanjemang**. Om ingen bekräftar mordet på kungen så hände det inte.
 
-**Vad det betyder för oss:** vår manifesttext säger redan play to lose. Vi bör lägga till **play to lift** explicit i gästkommunikationen, alltså instruktionen att hänga på andras initiativ och ge folk deras segrar. Det finns delvis i `manifest_play.md` men kan skärpas. För designen: varje pussel måste ha ett sätt att lyftas kollektivt. Om ett lag löser något ska de kunna göra det **inför** andra så att triumfen är social.
+**Vad det betyder för oss:** vår manifesttext säger redan play to lose. Play to lift lärs ut i de två praktiska genomgångarna (fredag kväll, lördag morgon), inte genom att skärpa sajtcopy. `manifest_play.md` får peka på genomgångarna. För designen: varje pussel måste ha ett sätt att lyftas kollektivt. Om ett lag löser något ska de kunna göra det **inför** andra så att triumfen är social.
 
 ## 1.6 River rafting: tidig intensitet
 
@@ -64,10 +66,10 @@ Poängen: du kan bara ge meningsfull övergripande struktur **tidigt**. I slutet
 
 Workshoppens huvudfunktion är att göra deltagarna till ett kollektiv som kan skapa scener för varandra. Den ska också kalibrera relationer, öva mekaniker och sätta spelstil. Konkret rekommendation: låt par och grupper med förskrivna relationer få några minuter att prata igenom vad relationen innebär och var deras gränser går, särskilt för romantiska relationer. Låt folk **öva på att vara elaka** om lajvet kräver elakhet, annars kommer bra intriger aldrig igång.
 
-**Vad det betyder för oss:** vi har ingen formell workshop, men vi har fredagen. Fredag kväll **är** vår workshop, fast förklädd till fest. Två saker bör designas in medvetet:
+**Vad det betyder för oss:** vi har två praktiska genomgångar, inte en förklädd workshop. Fredag 18.30 är den fulla genomgången: play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, och låt saker som hittas av misstag få vara. Lördag 10.30 är en kort repris, sedan den (ännu obestämda) ceremonin som sätter alibi. Därutöver:
 
 - Ett tillfälle där personer med romans eller fiendskap får prata ihop sig kort, i eller ur roll
-- Transitionen 10.30 på lördagen som en minimal workshop, alltså tre minuter övning i att vara sin pirat plus en påminnelse om säkerhetssignaler
+- Transitionens ceremoni 10.30 är fortfarande den viktigaste alibi-generatorn. Genomgången räcker inte som insteg.
 
 ## 1.8 Alibi och det ritualiserade insteget
 
@@ -92,7 +94,7 @@ Etablerade verktyg, alla enkla nog att lära ut i en mening var:
 
 Lookdown är minst störande för andras spel och därför bäst som förstahandsverktyg. Cut ska vara okränkbart.
 
-**Vad det betyder för oss:** vi har 26 vänner, alkohol, nakenhet, bad, en fysisk slutstrid och LSD. Det är inte ett sammanhang där vi kan hoppa över detta. Rekommendation: lär ut **exakt tre** verktyg, alltså cut, largo och lookdown, plus OK-checken. Fler blir ihågkomna av ingen. De ska nämnas fredag kväll och repeteras i transitionen 10.30. Detaljerad plan i [`spelledning.md`](spelledning.md).
+**Vad det betyder för oss:** vi har 25 vänner, alkohol, nakenhet, bad, en fysisk slutstrid och LSD. Det är inte ett sammanhang där vi kan hoppa över detta. De fyra verktygen lärs ut i genomgångarna på ön, inte på sajten. Detaljerad plan i [`spelledning.md`](spelledning.md).
 
 ## 1.10 Ritualscener som fungerar
 
@@ -117,7 +119,7 @@ Från megagame-design, som löser exakt vårt problem, alltså många deltagare 
 - Sätt ett kort namn på varje handling eller förmåga så att spelare kan referera till dem
 - Ta bort allt som inte används. Dödvikt i regler och roller är värre än för lite innehåll
 
-**Vad det betyder för oss:** designprincipen blir "**vilja utan förmåga, förmåga utan vilja**". Den som vill komma åt skelettet på Södra Ovanan ska inte vara den som kan köra ekan. Den som kan tolka skylten i kikaren ska inte vara den som vet var man ska sikta. Detta skapar handel, tjänster och svek automatiskt, alltså exakt lördagens tema.
+**Vad det betyder för oss:** designprincipen blir "**vilja utan förmåga, förmåga utan vilja**". Den som vill komma åt skelettet på Södra Ovanan ska inte vara den som kan köra ekan. Ekan sköts av **Kapten Kuling** och **Kapten Rödskägg**. En skriven överfart går gärna som förhandling med en av dem, för spel. Folk får paddla utan dem. Den som kan tolka skylten i kikaren ska inte vara den som vet var man ska sikta. Detta skapar handel, tjänster och svek automatiskt, alltså exakt lördagens tema.
 
 ---
 
@@ -171,7 +173,7 @@ Vanligaste klagomålen från entusiaster: för mycket sökande, för många röd
 
 Ge hints. Alltid. Rekommendationen är en **trappa** i flera steg, som erbjuds efter några minuters stiltje på det aktiva pusslet, och att hintsystemet är en del av rummets fiktion. Notera vilka pussel som konsekvent kräver de djupaste hintarna och skriv om eller stryk dem.
 
-**Vad det betyder för oss:** vi har en färdig fiktiv hint-maskin i **Gubben i stubben**, som sitter på en ljugarbänk. En orakelgestalt som ljuger är den perfekta hint-mekanismen, eftersom den kan ge både sanning och halvsanning utan att bryta fiktionen, och eftersom spelarna själva måste tolka. Det kräver att någon bemannar eller förbereder gubben. Se [`spelledning.md`](spelledning.md).
+**Vad det betyder för oss:** hint-trappan i fyra steg är obligatorisk för varje pussel. Hur hints **levereras** är inte låst: Malin i roll, en deltagare som budbärare, eller spelledaren rakt av.
 
 Hint-trappa vi använder, fyra steg, obligatorisk för varje pussel i [`pussel.md`](pussel.md):
 
@@ -198,7 +200,7 @@ Beskriv varje lås med typ, så att variationen går att kontrollera i grafen:
 - Playtesta och observera var folk tvekar. Justera synlighet, inte svårighet
 - Var beredd att stryka noder som inte fungerar
 
-**Vad det betyder för oss:** vi kan inte playtesta med 26 personer i förväg, så vi kompenserar med generositet: allt lite enklare än det känns nödvändigt, och en spelledare som får ge bort svar utan att skämmas. Det vi **kan** testa i förväg är kikaren mot skylten och tändstickor eller lampor i piratstugan. Det bör göras på ett förbesök.
+**Vad det betyder för oss:** vi kan inte playtesta med 25 personer i förväg, så vi kompenserar med generositet: allt lite enklare än det känns nödvändigt, och en spelledare som får ge bort svar utan att skämmas. Det vi **kan** testa i förväg är kikaren mot skylten och tändstickor eller lampor i piratstugan. Det bör göras på ett förbesök.
 
 ---
 
@@ -211,7 +213,7 @@ Beskriv varje lås med typ, så att variationen går att kontrollera i grafen:
 5. **Kropp, ljus och optik framför papper och siffror.** Ingen matematik, ingen lång läsning.
 6. **Ett pussel, max fem minuter.** Längre saker delas upp.
 7. **Inga röda sillar.** Förvirringen är gratis, vi behöver den inte.
-8. **Gubben i stubben är hintsystemet.** Fyra steg i trappan, oraklet får ljuga men aldrig blockera.
+8. **Hints kommer alltid, i fyra steg.** Levereras i fiktionen om det går, annars av spelledaren utan skam.
 9. **Efter 15.30 finns inga pussel.** Bara kropp, sång, bild och känsla.
 10. **Dramat vinner alltid över mekaniken.** Om någon vill göra något vansinnigt och roligt så låt pusslet gå sönder.
 

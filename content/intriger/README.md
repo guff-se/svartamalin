@@ -2,13 +2,20 @@
 
 Statiska intrig-texter. Publiceras vid deploy. Klienten visar bara inloggad gästs egna + lagets.
 
-**Stil & dramaturgi:** läs och följ alltid [STYLE.md](STYLE.md) innan du skriver eller ändrar intrigtext.
+Karta för hela `content/`: [`../README.md`](../README.md).
 
-**Romanser (källista):** [romanser.yaml](romanser.yaml), ömsesidiga (`mutual`) och envägs (`one_way`) affärer att gå igenom item-by-item.
+**Gästtext, följ [STYLE.md](STYLE.md):** `crews/*.md` och `guests/*.md`. Inget annat i den här mappen visas för deltagarna.
 
-**Fiender (källista):** [fiender.yaml](fiender.yaml).
+**Intern text, tydlig prosa:** den här README:n, STYLE.md, [romanser.yaml](romanser.yaml) och [fiender.yaml](fiender.yaml). Yaml-filerna är källistor för agenten, inte gästcopy.
+
+**Karaktärsunderlag** från gästerna ligger i [`../roller/`](../roller/README.md) (`npm run fetch-roller`). **Meta-anteckningar** (praktiskt ansvar, designbeslut) ligger i [`../anteckningar/`](../anteckningar/README.md). Läs båda innan du skriver deras intrig. Skriv inte revy tillbaka in i dem.
 
 **Huvudstoryn** designas i [`../huvudstory/`](../huvudstory/README.md) och landar här via [`../huvudstory/fordelning.yaml`](../huvudstory/fordelning.yaml). Skriv aldrig in en huvudstory-bit i en intrigfil innan den har en post där. Lösningar, hemligheter och spelledningsinfo hör inte hit: filerna i `crews/` och `guests/` publiceras till gästerna.
+
+Parallella spår som också designas där, inte här:
+
+- Lagskatter: [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md). Jakten står i `crews/`. Cirkeln och vem som jagas står inte i gästtext.
+- Förrädare: [`../huvudstory/forradare.md`](../huvudstory/forradare.md). Mullvad och kontakt skrivs i `guests/` när de är tillsatta. Aldrig i lagfilen.
 
 ## Filnamn
 

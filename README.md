@@ -21,8 +21,9 @@ Sajten körs på `http://localhost:5173`. Admin på `http://localhost:5173/admin
 1. Skapa ett Supabase-projekt.
 2. Kör innehållet i [supabase/schema.sql](supabase/schema.sql) i SQL editorn.
 3. Kör [supabase/seed.sql](supabase/seed.sql) för att seeda piratnamnen.
-4. Kör [supabase/practical_info_seed.sql](supabase/practical_info_seed.sql) för initial info.
-5. Kopiera projekt-URL och anon-nyckeln till `.env.local`.
+4. Kopiera projekt-URL och anon-nyckeln till `.env.local`.
+
+Brödtext på sajten ligger **inte** i databasen. Den ligger i [`content/copy/`](content/copy/README.md) och bundlas vid build.
 
 ## Kartdata
 

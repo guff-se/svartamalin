@@ -1,8 +1,14 @@
 # Stilprinciper för intriger
 
-**Obligatorisk läsning** innan någon intrig skrivs eller ändras. Dessa regler gäller alltid för agenten.
+**Gäller bara** `crews/*.md` och `guests/*.md`. Skriv dem enligt den här filen.
+
+Gäller **inte** sajtcopy i [`../copy/`](../copy/README.md) (gästerna läser den på webbsidan, men den har sajtens röst, inte intrigrevy). Gäller inte heller `huvudstory/`, `roller/`, `anteckningar/`, yaml-källistor eller README: intern text för Gustaf och agenten, tydlig, inte poetisk. Karta: [`../README.md`](../README.md).
+
+**Obligatorisk läsning** innan någon gästintrig skrivs eller ändras.
 
 Tekniskt filformat: se [README.md](README.md). Varje `##`-rubrik ska ha `{slug:login_slug}` för personen mini-porträttet visar.
+
+Läs också, för den person du skriver till: [`../roller/{slug}.md`](../roller/) (gästens underlag) och [`../anteckningar/{slug}.md`](../anteckningar/) (arrangörens meta-anteckningar). Skriv inte tillbaka revy in i de filerna.
 
 ---
 
@@ -32,6 +38,7 @@ Den sista versen (från “När jag nyss fyllde år…”) är **slutstriden**: 
 | `**Kapten Blodig**` / `**Kapten Träben**` | Civilnamn (“Gustaf”, “Malin Tadaa”) i intrigtext |
 | Eko från sången: preja, plundra, jubileum, kaviar och rom, valplats | Spoila versen om att alla “låg kvar i en hög” |
 | Rivalitet, skuld, hemlig kärlek, stöld, ed, arv, svek, i revykostym | Byråkratisk ton, HR-språk, ironisk distans som tar udden ur spelet |
+| Övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut (när sjöfärd ska bli en scen) | En sjöfärd som *måste* gå via dem. Folk får paddla utan dem. |
 | Låt laget kännas som ett teatersällskap med gemensam mission | Platta “gör poäng i tävlingen”-uppdrag utan karaktär |
 
 ---
@@ -160,3 +167,6 @@ De flesta intriger mår bra av att **minst tre personer** är involverade (motta
 9. Finns (gärna) eko från `svartamalin-sångtext.txt`, utan att spoila?
 10. Är speglade intriger uppdaterade (eller enväg markerad i frontmatter)?
 11. Finns em dash (—)? → stryk och skriv om med komma, kolon eller punkt.
+12. Kräver texten att någon åker eka, kajak, paddel eller badar ensam? → stryk. Off-regel: aldrig ensam på vattnet.
+13. Kräver texten en sjöfärd som ska bli en scen? Primär väg: övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut. Skriv inte att de *måste*. Folk får åka ut utan dem.
+14. Uppmanar texten till ransakning, att vända ön, eller att ta något man råkar hitta? → stryk. Off-regel: lös gåtor och uppdrag, låt saker som hittas av misstag få vara.

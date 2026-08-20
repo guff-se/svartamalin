@@ -1,119 +1,145 @@
-# Romanser / kärleksaffärer: källista för intrigskrivning
+# Romanser / kärleksaffärer: intern källista
 # Inte synlig för gäster. Nycklar = guests.login_slug.
-#
+# Skriv `Piratnamn (civilnamn)` i kommentarer så agenten slipper slå i cast.md.
+
 # type: mutual  = A + B (ömsesidig affär)
 # type: one_way = A -> B (A har/haft känslor eller affär riktad mot B; speglas inte automatiskt)
+# type: npc     = A med en figur som inte är gäst (ingen guests/{slug}.md)
 #
 # status: pending | done | skipped
-# Gå igenom item-by-item och uppdatera status + skriv speglade intriger enligt STYLE.md.
+# done = brödtext skriven i guests/. Inte förrän den omgången.
+# Gästfilerna är nollställda 2026-08-20. Inga done förrän gästtexten skrivs.
+#
+# Svarta Malin får ha flera romanser samtidigt. De krockar gärna i spelet.
+#
+# Rollönskemål som styrt omparningen (content/roller/):
+#   * viktoransund: förbjuden kärlek med Kapten Frodig (josefinansund), inte Mini
+#   * elinamelakoski: enda trygga personen är Kapten Hjärter; inget publikt par med annan
+#   * jesperlejfjord: vill spela mot Katten Felix (hålls i #17/#18, inte som publikt par)
+#   * amandamungsgard: något med Ludde; ingenting med Mini
+#   * minimacklin: oläkt kärlek/svek med Svarta Malin
+#   * chriskummelstedt tackade nej: inga poster
 
 romanser:
-  - id: 1
-    type: mutual
-    a: malintadaa          # Malin Tadaa
-    b: chriskummelstedt    # Chris Kummelstedt
-    status: done
-
   - id: 2
     type: mutual
-    a: petterwallberg      # Petter Wallberg
-    b: josefinlowing       # Josefin Löwing
-    status: done
+    a: petterwallberg      # Kapten Lösskägg (Petter Wallberg)
+    b: josefinlowing       # Kapten Kuling (Josefin Löwing)
+    status: pending
 
   - id: 3
     type: mutual
-    a: linneaappert        # Linnea Appert
-    b: edvinthungren       # Edvin Thungren
-    status: done
+    a: linneaappert        # Kapten Planka (Linnea Appert)
+    b: edvinthungren       # Kapten Rötägg (Edvin Thungren)
+    status: pending
 
   - id: 4
     type: one_way
-    a: linneaekbom         # Linnea Ekbom
-    b: ulrikahammar        # Ulrika Hammar
-    status: done
+    a: linneaekbom         # Kapten Rosing (Linnea Ekbom)
+    b: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
+    status: pending
 
   - id: 5
     type: one_way
-    a: fabianmacklin       # Fabian Macklin
-    b: ulrikahammar        # Ulrika Hammar
-    status: done
+    a: fabianmacklin       # Kapten Nykter (Fabian Macklin)
+    b: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
+    status: pending
 
   - id: 6
     type: one_way
-    a: ulrikahammar        # Ulrika Hammar
-    b: navidmodiri         # Navid Modiri
-    status: done
+    a: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
+    b: navidmodiri         # Kapten Döver (Navid Modiri)
+    status: pending
 
   - id: 7
     type: mutual
-    a: navidmodiri         # Navid Modiri
-    b: alexandrapalmquist  # Alexandra Palmquist
-    status: done
+    a: navidmodiri         # Kapten Döver (Navid Modiri)
+    b: alexandrapalmquist  # Kapten Babord (Alexandra Palmquist)
+    status: pending
 
   - id: 8
     type: mutual
-    a: viktoransund        # Viktor Ansund
-    b: minimacklin         # Mini Macklin
-    status: done
+    a: viktoransund        # Kapten Rödskägg (Viktor Ansund)
+    b: josefinansund       # Kapten Frodig (Josefin Ansund)
+    note: förbjuden hemlig kärlek, släkter/besättningar fiender i generationer (Rödskäggs underlag)
+    status: pending
 
   - id: 9
     type: mutual
-    a: elinamelakoski      # Elina Melakoski
-    b: ludvigvonbahr       # Ludvig von Bahr
-    status: done
+    a: elinamelakoski      # Katten Felix (Elina Melakoski)
+    b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
+    note: skipped, Katten Felix känner sig bara trygg med Kapten Hjärter
+    status: skipped
 
   - id: 10
     type: mutual
-    a: louisevonbahr       # Louise von Bahr
-    b: hampuslindblad      # Hampus Lindblad
-    status: done
+    a: louisevonbahr       # Kapten Fuling (Louise von Bahr)
+    b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
+    status: pending
 
   - id: 11
     type: mutual
-    a: josefinansund       # Josefin Ansund
-    b: jesperlejfjord      # Jesper Lejfjord
-    status: done
+    a: josefinansund       # Kapten Frodig (Josefin Ansund)
+    b: jesperlejfjord      # Kapten Hjärter (Jesper Lejfjord)
+    note: skipped, Frodig är Rödskäggs förbjudna kärlek (#8); Hjärter spelar mot Felix via #17/#18
+    status: skipped
 
   - id: 12
     type: mutual
-    a: jesperlindmarker    # Jesper Lindmarker
-    b: johannabergman      # Johanna Bergman
-    status: done
+    a: jesperlindmarker    # Kapten Hurring (Jesper Lindmarker)
+    b: johannabergman      # Kapten Klöver (Johanna Bergman)
+    status: pending
 
   - id: 13
     type: mutual
-    a: jesperlindmarker    # Jesper Lindmarker
-    b: minervalowgren      # Minerva Löwgren
-    status: done
+    a: jesperlindmarker    # Kapten Hurring (Jesper Lindmarker)
+    b: minervalowgren      # Kapten Prygel (Minerva Löwgren)
+    status: pending
 
   - id: 14
     type: mutual
-    a: gustaftadaa         # Gustaf Tadaa
-    b: elinmartensson      # Elin Mårtensson
-    status: done
-
-  - id: 15
-    type: mutual
-    a: amaliawahlstrom     # Amalia Wahlström
-    b: chriskummelstedt    # Chris Kummelstedt
-    status: done
-
-  - id: 16
-    type: mutual
-    a: amandamungsgard     # Amanda Mungsgård
-    b: chriskummelstedt    # Chris Kummelstedt
-    status: done
+    a: gustaftadaa         # Löjtnant Spader (Gustaf Tadaa)
+    b: elinmartensson      # Kapten Plåthorn (Elin Mårtensson)
+    status: pending
 
   - id: 17
     type: one_way
-    a: jesperlejfjord      # Jesper Lejfjord (Kapten Hjärter)
-    b: malintadaa          # Svarta Malin: hemlig kärlek
-    note: a vet att elinamelakoski också brinner för Malin; tipset att dela (#18)
-    status: done
+    a: jesperlejfjord      # Kapten Hjärter (Jesper Lejfjord)
+    b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
+    note: a vet att elinamelakoski också brinner för Malin; tipset att dela (#18). Privat, inte publikt par. Jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan.
+    status: pending
 
   - id: 18
     type: one_way
-    a: elinamelakoski      # Elina Melakoski (Katten Felix)
-    b: malintadaa          # Svarta Malin: hemlig kärlek
-    note: a vet att jesperlejfjord också brinner för Malin; tipset att dela (#17)
-    status: done
+    a: elinamelakoski      # Katten Felix (Elina Melakoski)
+    b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
+    note: a vet att jesperlejfjord också brinner för Malin; tipset att dela (#17). Felix trygga person är Hjärter. Jagar hennes hemliga älskare på ön, privat med Hjärter (huvudstory B-13). Sanningen är Karl XII, först i kistan.
+    status: pending
+
+  - id: 19
+    type: mutual
+    a: amandamungsgard     # Kapten Kosing (Amanda Mungsgård)
+    b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
+    note: Kosings önskemål att spela med Dunka; inte förankrat av honom i underlaget
+    status: pending
+
+  - id: 20
+    type: one_way
+    a: minimacklin         # Kapten Blodig (Mini Macklin)
+    b: malintadaa          # Svarta Malin (Malin Tadaa): oläkt kärlek efter svek i tonåren
+    note: jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan. Får krocka med #17/#18.
+    status: pending
+
+  - id: 21
+    type: mutual
+    a: alexandrapalmquist  # Kapten Babord (Alexandra Palmquist)
+    b: gustaftadaa         # Löjtnant Spader (Gustaf Tadaa)
+    status: pending
+
+  # NPC, ingen gästfil. b är inte en login_slug.
+  - id: 22
+    type: npc
+    a: malintadaa          # Svarta Malin (Malin Tadaa)
+    npc: Karl XII
+    note: kärleksaffär. Får krocka med #17, #18, #20. I andras gästtext är det en hemlig älskare som ser ut att vara på ön. Sanningen i kistan vid B-42.
+    status: pending

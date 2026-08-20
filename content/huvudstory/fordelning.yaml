@@ -1,7 +1,7 @@
 # Fördelning: huvudstory ut till deltagarnas intrigfiler
 #
-# Samma mönster som romanser.yaml och fiender.yaml. Denna fil är bryggan mellan
-# designarbetet i content/huvudstory/ och gästtexten i content/intriger/.
+# Intern. Inte gästtext. Bryggan mellan design i content/huvudstory/
+# och gästtexten i content/intriger/{crews,guests}/.
 #
 # Arbetsordning:
 #   1. Story-bit beslutas i akter.md eller sidequests.md
@@ -11,38 +11,207 @@
 #   4. status: done
 #
 # Ingen gästtext skrivs innan posten finns här. Se README.md.
+# Gästfilerna är nollställda 2026-08-20. Individposter är pending
+# tills den omgången. Crew-poster (id 1–5) är skrivna i crews/.
 #
 # Fält:
 #   id            löpnummer
 #   beat          B-nn i akter.md, eller S-nn i sidequests.md
 #   akt           I | II | III | IV
-#   till          lista av login_slug som ska få text, eller crew: N
+#   till          lista av login_slug, eller mappningen { crew: N }
 #   roll          barare | jagare | grindvakt | vittne   (se premiss.md)
 #   vet           vad personen faktiskt vet efter att ha läst sin intrig
 #   vet_inte      vad personen uttryckligen inte får veta
 #   speglas       slugs som behöver motsvarande text för att världen ska hålla
 #   bygger_pa     romans: N eller fiende: N ur romanser.yaml / fiender.yaml
-#   pussel        P-nn i pussel.md, eller null
+#   pussel        P-nn eller Q-n i pussel.md, eller null
 #   status        pending | done | skipped
 #
+# Questposter (när Q-1 till Q-5 är färdigskrivna, story plus uppgifter):
+#   En start per quest, i en spelares intrig, inte i lagfilen.
+#   Tvärledtråd: slug på en skuta som *inte* har ingången. vet: info som
+#   bara är meningsfull om mottagaren redan känner till questet.
+#   Varje skuta: exakt tre starter (olika quests). Varje quest: exakt tre skutor.
+#   Välj lag och deltagare utifrån storyn. Inte tvärtom. Inte förrän då.
+#
 # Kontroller att köra på hela filen innan skrivning börjar:
-#   * har varje av de 26 slugsen minst en post?
+#   * har varje av de 25 slugsen minst en post?
 #   * ligger alla toppar inte i samma akt?
 #   * har någon fler än tre poster? (risk för överlastning)
 #   * motsäger någon post en annan?
 #   * finns någon post där två personer måste vara på olika platser samtidigt?
+#   * varje skuta: exakt tre quest-starter, olika Q-n
+#   * varje quest: exakt tre skutor
+#   * tvärledtrådar bara till de två quests skutan saknar, och meningslösa utan questet
 
-fordelning: []
-# Exempel på formatet, tas bort när första riktiga posten läggs in:
-#
-#  - id: 1
-#    beat: B-01
-#    akt: II
-#    till: [amaliawahlstrom]
-#    roll: jagare
-#    vet: "att Malin en gång prejat något som inte var hennes att preja, och att beviset finns kvar på ön"
-#    vet_inte: "var beviset finns, eller vad det är"
-#    speglas: [malintadaa]
-#    bygger_pa: "fiende: 2"
-#    pussel: P-03
-#    status: pending
+fordelning:
+  - id: 1
+    beat: B-11
+    akt: II
+    till: { crew: 1 }
+    roll: jagare
+    vet: "att Korvetten Kurtisanen ska gömma sin skatt vid ankomsten, och att de ska hitta Fregatten Fördärvets skatt"
+    vet_inte: "att Galeonen Gnället jagar Kurtisanens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 2
+    beat: B-11
+    akt: II
+    till: { crew: 2 }
+    roll: jagare
+    vet: "att Fregatten Fördärvet ska gömma sin skatt vid ankomsten, och att de ska hitta Barken Bortförklaringens skatt"
+    vet_inte: "att Korvetten Kurtisanen jagar Fördärvets skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 3
+    beat: B-11
+    akt: II
+    till: { crew: 3 }
+    roll: jagare
+    vet: "att Barken Bortförklaringen ska gömma sin skatt vid ankomsten, och att de ska hitta Fregatten Fromhetens skatt"
+    vet_inte: "att Fregatten Fördärvet jagar Bortförklaringens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 4
+    beat: B-11
+    akt: II
+    till: { crew: 4 }
+    roll: jagare
+    vet: "att Fregatten Fromheten ska gömma sin skatt vid ankomsten, och att de ska hitta Galeonen Gnällets skatt"
+    vet_inte: "att Barken Bortförklaringen jagar Fromhetens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 5
+    beat: B-11
+    akt: II
+    till: { crew: 5 }
+    roll: jagare
+    vet: "att Galeonen Gnället ska gömma sin skatt vid ankomsten, och att de ska hitta Korvetten Kurtisanens skatt"
+    vet_inte: "att Fregatten Fromheten jagar Gnällets skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 6
+    beat: B-13
+    akt: II
+    till: [malintadaa]
+    roll: barare
+    vet: "att hon har en kärleksaffär med Karl XII, att hon får ha andra romanser samtidigt, och att hon ska låta hamnen tro att den hemliga älskaren är någon på ön"
+    vet_inte: "att kistan kommer att öppnas, att miniatyren och kontraktets sista rad avslöjar sängen"
+    speglas: []
+    bygger_pa: "romans: 22"
+    pussel: null
+    status: pending
+
+  - id: 7
+    beat: B-13
+    akt: II
+    till: [jesperlejfjord]
+    roll: jagare
+    vet: "att Svarta Malin gömmer en älskare, och att allt pekar mot någon som är med på ön. Att Katten Felix bär samma låga."
+    vet_inte: "att älskaren är Karl XII, att kontraktet finns, att kistan bär sanningen"
+    speglas: [elinamelakoski]
+    bygger_pa: "romans: 17"
+    pussel: null
+    status: pending
+
+  - id: 8
+    beat: B-13
+    akt: II
+    till: [elinamelakoski]
+    roll: jagare
+    vet: "att Svarta Malin gömmer en älskare, och att allt pekar mot någon som är med på ön. Att Kapten Hjärter bär samma låga. Jakten är privat, inte en scen inför alla."
+    vet_inte: "att älskaren är Karl XII, att kontraktet finns, att kistan bär sanningen"
+    speglas: [jesperlejfjord]
+    bygger_pa: "romans: 18"
+    pussel: null
+    status: pending
+
+  - id: 9
+    beat: B-13
+    akt: II
+    till: [minimacklin]
+    roll: jagare
+    vet: "att Svarta Malin gömmer en älskare efter det gamla sveket, och att allt pekar mot någon som är med på ön"
+    vet_inte: "att älskaren är Karl XII, att kontraktet finns, att kistan bär sanningen"
+    speglas: []
+    bygger_pa: "romans: 20"
+    pussel: null
+    status: pending
+
+  - id: 10
+    beat: B-14
+    akt: II
+    till: [josefinlowing]
+    roll: grindvakt
+    vet: "att hon och Kapten Rödskägg har hand om eka, kajak och paddel, att folk gärna övertalar dem att ge sig ut, och att andra får paddla utan dem"
+    vet_inte: "inget särskilt av huvudstoryns lösning"
+    speglas: [viktoransund]
+    bygger_pa: null
+    pussel: null
+    status: pending
+
+  - id: 11
+    beat: B-14
+    akt: II
+    till: [viktoransund]
+    roll: grindvakt
+    vet: "att han och Kapten Kuling har hand om eka, kajak och paddel, att folk gärna övertalar dem att ge sig ut, och att andra får paddla utan dem"
+    vet_inte: "inget särskilt av huvudstoryns lösning"
+    speglas: [josefinlowing]
+    bygger_pa: null
+    pussel: null
+    status: pending
+
+  - id: 12
+    beat: S-02
+    akt: II
+    till: [petterwallberg]
+    roll: jagare
+    vet: "att han, Kapten Rödskägg och Kapten Blåskägg strider om vem som är Skäggkonung, och att det ska avgöras publikt under helgen"
+    vet_inte: "hur det avgörs (intrigtext TBD), inget av kistan eller kontraktet"
+    speglas: [viktoransund, hampuslindblad]
+    bygger_pa: "fiende: 3, 19"
+    pussel: null
+    status: pending
+
+  - id: 13
+    beat: S-02
+    akt: II
+    till: [viktoransund]
+    roll: jagare
+    vet: "att han, Kapten Lösskägg och Kapten Blåskägg strider om vem som är Skäggkonung, och att det ska avgöras publikt under helgen"
+    vet_inte: "hur det avgörs (intrigtext TBD), inget av kistan eller kontraktet"
+    speglas: [petterwallberg, hampuslindblad]
+    bygger_pa: "fiende: 3, 18"
+    pussel: null
+    status: pending
+
+  - id: 14
+    beat: S-02
+    akt: II
+    till: [hampuslindblad]
+    roll: jagare
+    vet: "att han, Kapten Lösskägg och Kapten Rödskägg strider om vem som är Skäggkonung, och att det ska avgöras publikt under helgen. Att han redan har krönt sig."
+    vet_inte: "hur det avgörs (intrigtext TBD), inget av kistan eller kontraktet"
+    speglas: [petterwallberg, viktoransund]
+    bygger_pa: "fiende: 18, 19"
+    pussel: null
+    status: pending
+
+# B-12 förrädare: fem mullvadar + fem kontakter. Poster läggs in när
+# paren är tillsatta i forradare.md. Ingen gästtext förrän dess.

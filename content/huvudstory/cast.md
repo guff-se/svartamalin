@@ -1,6 +1,10 @@
-# Cast: 26 deltagare, 5 skutor
+# Cast: 25 deltagare, 5 skutor
 
-Referenstabell för story-arbetet. Källa: tabellerna `guests` och `pirate_names` i Supabase. Uppdatera om piratnamn eller lagindelning ändras.
+Intern text för Gustaf och agenten. Gäster läser inte detta.
+
+Referenstabell för story-arbetet. Källa: tabellerna `guests` och `pirate_names` i Supabase, filtrerat på `attending = true`. Alla andra rader i `guests` ignoreras. De städas inte ur seed. Uppdatera om piratnamn eller lagindelning ändras.
+
+Verifierad mot databasen 2026-08-20. **Kalle Anka** (`pirate_names.id` 59) är obesatt: återbud, ingen gäst bär namnet.
 
 I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Piratnamn (slug)`.
 
@@ -28,11 +32,11 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 
 | Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
-| **Kapten Dunka** | Ludvig von Bahr | `ludvigvonbahr` |
 | **Kapten Enben** | Amalia Wahlström | `amaliawahlstrom` |
 | **Kapten Nykter** | Fabian Macklin | `fabianmacklin` |
 | **Kapten Frodig** | Josefin Ansund | `josefinansund` |
 | **Kapten Klöver** | Johanna Bergman | `johannabergman` |
+| **Kapten Blåskägg** | Hampus Lindblad | `hampuslindblad` |
 
 ## Skuta 4: Fregatten Fromheten
 
@@ -48,10 +52,9 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 
 | Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
-| **Kalle Anka** | Chris Kummelstedt | `chriskummelstedt` |
+| **Kapten Dunka** | Ludvig von Bahr | `ludvigvonbahr` |
 | **Kapten Rosing** | Linnea Ekbom | `linneaekbom` |
 | **Kapten Babord** | Alexandra Palmquist | `alexandrapalmquist` |
-| **Kapten Blåskägg** | Hampus Lindblad | `hampuslindblad` |
 | **Kapten Rötägg** | Edvin Thungren | `edvinthungren` |
 | **Kapten Plåthorn** | Elin Mårtensson | `elinmartensson` |
 
@@ -63,8 +66,10 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 |------|-----|----------|
 | Antagonist och jubilar | **Svarta Malin** (`malintadaa`) | Osårbar. Dödar alla i finalen. Återvänder som Ran. |
 | Rans budbärare | **Löjtnant Spader** (`gustaftadaa`) | Delar ut slöjor bland de döda, sjunger *Så länge skutan kan gå*. Är i praktiken även spelledare. |
+| Båtarna | **Kapten Kuling** (`josefinlowing`), **Kapten Rödskägg** (`viktoransund`) | Vattenansvariga. Skrivna sjöintriger går gärna via att övertala dem. Man får åka ut utan dem. Aldrig ensam. |
+| Maten | **Kapten Nykter** (`fabianmacklin`), **Kapten Hjärter** (`jesperlejfjord`) | Köksansvariga. Brunch 14.00, mat framme från 17.00. |
 
-Ovanstående två har uppgifter som ligger utanför den vanliga deltagarrollen. Räkna med att de har **mindre** utrymme för egna pussel och sidequests, eftersom de driver runtime.
+Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin och Spader har **mindre** utrymme för egna pussel. Båt- och matansvar är praktiskt, dokumenterat i [`../anteckningar/`](../anteckningar/). Kuling och Rödskäggs övertalningsscener är extra spel, inte ett monopol. Tillsätt inte båt- eller matansvariga som mullvad.
 
 ---
 
@@ -74,27 +79,26 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 
 | slug | Romanser | Fiender | Sidequest i huvudstory | Pusselansvar |
 |------|----------|---------|------------------------|--------------|
-| `malintadaa` | 1 | 2 | | |
+| `malintadaa` | 0 | 2 | | |
 | `gustaftadaa` | 1 | 1 | | |
-| `petterwallberg` | 1 | 2 | | |
+| `petterwallberg` | 1 | 3 | | |
 | `linneaappert` | 1 | 1 | | |
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | |
 | `louisevonbahr` | 1 | 1 | | |
 | `josefinlowing` | 1 | 1 | | |
 | `navidmodiri` | 2 | 2 | | |
-| `minimacklin` | 1 | 1 | | |
+| `minimacklin` | 1 | 2 | | |
 | `ludvigvonbahr` | 1 | 1 | | |
-| `amaliawahlstrom` | 1 | 1 | | |
-| `fabianmacklin` | 1 | 2 | | |
+| `amaliawahlstrom` | 0 | 1 | | |
+| `fabianmacklin` | 1 | 3 | | |
 | `josefinansund` | 1 | 1 | | |
 | `johannabergman` | 1 | 1 | | |
-| `jesperlejfjord` | 2 | 1 | | |
+| `jesperlejfjord` | 1 | 1 | | |
 | `amandamungsgard` | 1 | 1 | | |
 | `viktoransund` | 1 | 2 | | |
-| `elinamelakoski` | 2 | 1 | | |
+| `elinamelakoski` | 1 | 1 | | |
 | `minervalowgren` | 1 | 1 | | |
-| `chriskummelstedt` | 3 | 3 | | |
 | `linneaekbom` | 1 | 1 | | |
 | `alexandrapalmquist` | 1 | 1 | | |
 | `hampuslindblad` | 1 | 3 | | |

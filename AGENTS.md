@@ -4,13 +4,18 @@ Project-specific notes for AI agents working in this repo.
 
 ## Git-vana
 
-Repo:t är under git. **Committa regelbundet** — efter varje avgränsad förändring som builder grönt. Det finns ingen extern backup, så commits är enda sättet att kunna rulla tillbaka när en "förbättring" visar sig ta bort effekter användaren ville behålla.
+Repo:t är under git. **Committa regelbundet, utan att vänta på att användaren ber om det.** Det finns ingen extern backup — commits är enda sättet att rulla tillbaka när en "förbättring" tar bort något användaren ville behålla.
+
+Den här sektionen **överstyr** generella agentregler av typen "commita bara när användaren ber om det". I det här repot commitar du själv.
 
 Riktlinjer:
-- Commita efter varje slutförd uppgift som passerar `npm run build`. Vänta inte tills slutet av sessionen.
-- En commit per logisk ändring. Slå inte ihop "fixa stockholm-pos + ändra zoom + ta bort röd prick" i en commit — gör tre.
+- Commita efter varje slutförd uppgift. För kod: när `npm run build` är grön. För innehåll (markdown, yaml, copy): när filerna är färdiga — vänta inte på build.
+- Vänta inte tills slutet av sessionen. Lämna inte working tree dirty när du är klar.
+- En commit per logisk ändring. Slå inte ihop "fixa stockholm-pos + ändra zoom + ta bort röd prick" i en commit — gör tre. Undantag: användaren säger uttryckligen "commit all" / "commita allt".
 - Commit-meddelanden på svenska, korta och beskrivande (samma ton som projektet i övrigt).
 - Inkludera `Co-Authored-By: Claude <noreply@anthropic.com>` i fotern.
+- Commita inte `.env`, `.env.local` eller andra secrets.
+- `git push` bara när användaren ber om det.
 
 ## Supabase — access och migrationer
 
@@ -18,15 +23,15 @@ Du har direktåtkomst till Supabase via creds i `.env.local`. **Vänta inte på 
 
 **Tre nivåer av access (kolla `.env.local` för vad som finns):**
 
-1. **`VITE_SUPABASE_ANON_KEY`** — alltid där. Räcker för rad-läs/skriv på tabeller med öppna RLS-policies (t.ex. `practical_info`, `guests`). Via PostgREST:
+1. **`VITE_SUPABASE_ANON_KEY`** — alltid där. Räcker för rad-läs/skriv på tabeller med öppna RLS-policies (t.ex. `guests`). Via PostgREST:
    ```bash
    set -a; source .env.local; set +a
-   curl -s -X PATCH "${VITE_SUPABASE_URL}/rest/v1/practical_info?key=eq.dates" \
+   curl -s -X PATCH "${VITE_SUPABASE_URL}/rest/v1/guests?login_slug=eq.gustaftadaa" \
      -H "apikey: ${VITE_SUPABASE_ANON_KEY}" \
      -H "Authorization: Bearer ${VITE_SUPABASE_ANON_KEY}" \
      -H "Content-Type: application/json" \
      -H "Prefer: return=minimal" \
-     -d '{"value":"5–7 september"}'
+     -d '{"food_notes":"vegetarisk"}'
    ```
 
 2. **`SUPABASE_SERVICE_ROLE_KEY`** (om den finns i `.env.local`) — bypass:ar RLS, kan läsa/skriva ALLA tabeller men kan fortfarande INTE köra DDL via PostgREST. Skickas i samma `apikey`/`Authorization`-headers.
@@ -61,9 +66,19 @@ Du har direktåtkomst till Supabase via creds i `.env.local`. **Vänta inte på 
   - `supabase.js` — klient-konfig
 - **Map data**: `public/map-data.json` (genereras via `npm run fetch-map`). Variabel detaljgrad — hög runt Ovanan/Salmonellahavet, lägre på resten.
 
+## Innehåll (`content/`) — två publiker
+
+Karta: [`content/README.md`](content/README.md).
+
+**Gästtext, intriger (följ [`content/intriger/STYLE.md`](content/intriger/STYLE.md)):** `content/intriger/crews/*.md` och `content/intriger/guests/*.md`. Bundlas till inloggad gäst.
+
+**Gästtext, sajtens brödtext:** [`content/copy/`](content/copy/README.md). All brödtext på webbsidan. Inte STYLE.md. Inte Supabase. Bundlas vid build via `import.meta.glob` i `practical-info.js`. Inga story-hemligheter.
+
+**Intern text:** `huvudstory/`, `roller/`, `anteckningar/`, yaml-källistor, README. Gäster ska inte läsa det. Högsta prioritet är att en framtida agent förstår filen. Tydligt, inte poetiskt. Ingen revyröst, ingen du-form till deltagaren. Civilnamn och slug är tillåtna.
+
 ## Intriger (lajv) — skrivregler
 
-Intriger är statiska markdown-filer under `content/intriger/` (inte Supabase). Se filformat i `content/intriger/README.md`.
+Intriger är statiska markdown-filer under `content/intriger/crews/` och `content/intriger/guests/` (inte Supabase). Se filformat i `content/intriger/README.md`. STYLE.md gäller bara de filerna, inte yaml-källistor eller intern designtext.
 
 **Gästlistan är stängd — bara gäster med `attending = true` hanteras.** Skapa aldrig `guests/{login_slug}.md` för någon som tackat nej eller aldrig svarat, inte ens en tom stubbe. De ska inte heller dyka upp i lagintriger, `romanser.yaml`, `fiender.yaml` eller huvudstoryn. De ligger kvar i `guests`-tabellen och i `GUEST_REAL_NAMES` (portrait-paths), men existerar inte i lajvet. Hämta listan innan du skriver intrigtext:
 
@@ -73,7 +88,7 @@ curl -s "${VITE_SUPABASE_URL}/rest/v1/guests?select=login_slug,real_name,crew_id
   -H "apikey: ${VITE_SUPABASE_ANON_KEY}" -H "Authorization: Bearer ${VITE_SUPABASE_ANON_KEY}"
 ```
 
-**När du skriver eller ändrar intrigtext:** läs och följ **alltid** [`content/intriger/STYLE.md`](content/intriger/STYLE.md). Kortfattat:
+**När du skriver eller ändrar intrigtext:** läs personens [`content/roller/{slug}.md`](content/roller/) och [`content/anteckningar/{slug}.md`](content/anteckningar/), och följ **alltid** [`content/intriger/STYLE.md`](content/intriger/STYLE.md). Kortfattat:
 
 - Röst: Povel Ramel / klassisk svensk revy — finurligt, ordvitsar, allitteration, rim; överdrivet och bombastiskt; mottagaren är hjälten i sin berättelse (du-form). **Alltid piratnamn** — aldrig civilnamn i intrigtext. Gärna eko från `svartamalin-sångtext.txt` (alla piratnamn kommer därifrån; sista versen = slutstriden — spoila den inte).
 - Metaregel (får **inte** stå i intrigerna): alla dödas av Svarta Malin; hon återvänder som Ran. Spelarna vet det; intrigerna spoilar det inte men leder dramaturgiskt ditåt.
@@ -82,7 +97,7 @@ curl -s "${VITE_SUPABASE_URL}/rest/v1/guests?select=login_slug,real_name,crew_id
 
 ## Huvudstory (lajvets övergripande berättelse)
 
-Designarbetet för helgens huvudstory ligger i **[`content/huvudstory/`](content/huvudstory/README.md)**. Det är arrangörsmaterial: det innehåller lösningar, hemligheter och spelledningsinfo och **publiceras aldrig**. `src/lib/intriger.js` globbar bara `content/intriger/{crews,guests}/*.md`, så filerna där bundlas inte in i klienten. Lägg inga lösningar i `content/intriger/`.
+Designarbetet för helgens huvudstory ligger i **[`content/huvudstory/`](content/huvudstory/README.md)**. Det är intern text för Gustaf och agenten: lösningar, hemligheter och spelledning. **Publiceras aldrig.** Skriv så att en framtida agent förstår utan att gissa. Ingen revyröst. `src/lib/intriger.js` globbar bara `content/intriger/{crews,guests}/*.md`. Lägg inga lösningar i gästfilerna.
 
 Arbetsordningen är tvåstegs och får inte kortslutas:
 
@@ -91,26 +106,16 @@ Arbetsordningen är tvåstegs och får inte kortslutas:
 
 Läs `content/huvudstory/README.md` för filkarta, invarianter och definition of done, samt `content/huvudstory/RESEARCH.md` för de designprinciper (lajvintriger, escape rooms, säkerhetsmekanik) som besluten vilar på.
 
-## Innehållstexter (`practical_info`)
+## Innehållstexter (`content/copy`)
 
-Gästvänd copy (praktisk info, Ovanan-sektionen, RSVP-sammanfattning) ska **ligga i Supabase-tabellen `practical_info`**, inte hårdkodas i komponenter. Arrangörerna redigerar texterna via `/admin`; seed-värden i `supabase/practical_info_seed.sql` är bara startvärden (`on conflict do nothing`).
+Sajtens brödtext skrivs i [`content/copy/{key}.md`](content/copy/README.md). **Inte** i Supabase. Gästerna läser den. STYLE.md gäller inte där. Vite globbar filerna i `src/components/practical-info.js`. En md-ändring syns efter build/deploy. Hårdkoda inte brödtext i komponenter.
 
 **Mönster i koden:**
 
-- `src/components/practical-info.js` — `fetchPracticalMap()`, `formatPracticalMarkdown()` (minimal markdown: `**fet**`, radbrytningar), `renderPracticalInfo()` för sektionen Praktiskt, `renderPracticalInfoKeys()` för RSVP.
-- `src/components/ovanan-section.js` — `renderOvananSection()`; hämtar Ovanan-texter från samma tabell.
-- **Rubriker** i UI (t.ex. "Boende", "Datum") kan ligga i `PRACTICAL_LABELS` / `OVANAN_LABELS` i koden — **brödtext** ska alltid komma från databasen.
+- `src/components/practical-info.js` — `fetchPracticalMap()` returnerar globbade md-filer, `formatPracticalMarkdown()` (minimal markdown: `**fet**`, länkar, radbrytningar).
+- `src/components/narrative-section.js` — `renderNarrative(el, { key })` hämtar samma karta.
 
-**Nycklar (aktuella):**
-
-| Nyckel | Sektion |
-|--------|---------|
-| `ovanan_intro`, `ovanan_accommodation`, `ovanan_resources` | Ovanan (intro + boende + resurser) |
-| `dates`, `transport_intro`, `boat_friday`, `boat_sunday`, `kids_policy`, `packing`, `teams_intro` | Praktiskt |
-
-RSVP visar en delmängd via `RSVP_PRACTICAL_KEYS` i `practical-info.js`.
-
-**När du lägger till ny copy:** skapa ny `key` i `practical_info_seed.sql`, hämta via `fetchPracticalMap()`, rendera med `formatPracticalMarkdown()`. Hårdkoda inte placeholder-strängar i JSX/HTML om de ska kunna redigeras i admin.
+**När du lägger till ny copy:** skapa `{key}.md` i `content/copy/` och anropa `renderNarrative` med den nyckeln. Hårdkoda inte placeholder-strängar i JSX/HTML.
 
 ## WebGL-karta (`src/components/webgl-map/`) — enda källan för kartändringar
 

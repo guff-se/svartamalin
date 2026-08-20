@@ -1,5 +1,7 @@
 # Slutstriden, lördag ca 20.00
 
+Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
+
 Sista versen spelas ut. Malins födelsedagsfest med kaviar och rom, som urartar i slagsmål, och där alla utom Malin faller. Därefter är lajvet slut och festen fri.
 
 Designprincipen från [`RESEARCH.md`](RESEARCH.md) 1.6: sena akter behöver **mindre** struktur, inte mer. Vid 20.00 driver deltagarna sig själva. Lägg ingen komplicerad mekanik här. Det som behövs är regi, signaler och en tydlig ordning på händelserna.
@@ -28,14 +30,24 @@ Given av sången och av metaregeln. Ändras inte.
 
 Vad får helvetet att bryta ut? Det får inte vara ett utrop från arrangören.
 
+**Beslutat 2026-08-18:** kistan öppnas. Där ligger ingen skatt, utan skuldbrev och kontraktet med Kung Karl XII. Upptäckten att festen är fällan, att Malin sålt dem, är tändningen. Man flyger på jubilaren.
+
+**Beslutat 2026-08-20:** samma öppning bär den andra punchlinen. Kontraktets sista rad är intim, och i kistan ligger ett miniatyrporträtt av Karl XII. De som jagat Malins hemliga älskare bland kaptenerna förstår att hon är i säng med kungen. Tändningen är fortfarande förräderiet. Affären är den personliga örfilen ovanpå.
+
 Krav:
 
-- [ ] Ska kunna komma från en deltagare, inte från oss
-- [ ] Ska vara synligt och hörbart för alla samtidigt
-- [ ] Ska kännas som en konsekvens av dagen, inte som ett schemalagt moment
-- [ ] Ska ha en backup om ingen deltagare tänder den senast en viss tid
+- [x] Ska kunna komma från en deltagare, inte från oss. De öppnar kistan själva, med nyckeln ur cryptexen.
+- [x] Ska vara synligt och hörbart för alla samtidigt. Kistan står väl synlig. Kontraktet läses högt.
+- [x] Ska kännas som en konsekvens av dagen, inte som ett schemalagt moment. De har jagat kistan hela lördagen.
+- [x] Ska ha en backup om ingen deltagare tänder den senast en viss tid. 20.45: Malin eller Spader tvingar upp kistan. Se [`pussel.md`](pussel.md) P-01 bypass.
 
-Kandidater:
+Kvar att designa runt tändningen:
+
+- [ ] Kontraktet måste gå att läsa högt på högst trettio sekunder. Ingen lång text efter 15.30. Sigill, några rader, en underskrift. Sista raden intim: "min hjärtans Malin" eller motsvarande, så sängen landar utan ny logik. Bilden ska bära: en hög skuldbrev, plus miniatyren av kungen.
+- [ ] Vem läser? Den som öppnade, eller den som skriker först. Inte spelledaren i första hand.
+- [ ] Hyllningarna ska vara klara *innan* kistan öppnas, så att play to lift hinner levereras. Ordningen: kaviar och rom, sista ledtråden i samband med serveringen, hyllningar, sedan öppning. Om öppningen kommer för tidigt kortas hyllningarna. Hellre det än att tändningen dröjer.
+
+Kasserade kandidater (behålls så vi inte återuppfinner dem):
 
 - Malins tal säger något ohyggligt högt, alltså sanningen som avslöjats under dagen
 - Skatterna redovisas och någon saknas
@@ -72,7 +84,12 @@ Att bestämma:
 
 - [ ] Vad slåss man med? Teaterrekvisita, skumgummi, ingenting alls?
 - [ ] Slöjor: antal, material, hur många behövs, vem bär dem
-- [ ] Kaviar och rom: faktiskt kaviar och faktisk rom, eller motsvarande. Måste finnas
+- [ ] Kaviar och rom: faktiskt kaviar och faktisk rom, eller motsvarande. Måste finnas. Sista ledtråden till cryptexen ges här: Malins halsband med XII, när hon serverar.
+- [ ] Kistan, på plats vid festen, fortfarande låst tills ledtråden är given
+- [ ] Cryptexen, i omlopp. Spelledning vet ungefär var den är, eller har reservnyckel
+- [ ] Skuldbrev i hög, visuellt, inte en läsuppgift
+- [ ] Kontraktet med Kung Karl XII: kort, sigill, läsbart högt på trettio sekunder, intim sista rad
+- [ ] Miniatyrporträtt av Karl XII, liggande synligt i kistan på kontraktet
 - [ ] Malins Ran-skepnad: vad byter hon till, var byter hon om, hur lång tid tar det
 
 ### Övergången till Ran
@@ -94,9 +111,9 @@ Att bestämma:
 | Tid | Vad | Ansvarig |
 |-----|-----|----------|
 | 19.45 | Kallelse till festen | |
-| 20.00 | Kaviar och rom, Malin tar emot | |
+| 20.00 | Kaviar och rom, Malin tar emot. Sista ledtråden till cryptexen, i samband med serveringen. | `malintadaa` |
 | 20.15 | Hyllningarna, skuta för skuta | |
-| 20.45 | Malins svar och tändningen | |
+| 20.40 | Kistan öppnas. Kontraktet. Tändningen | deltagare; backup Malin/Spader 20.45 om den fortfarande är stängd |
 | 20.50 | Striden | |
 | 21.15 | Malin sista stående | |
 | 21.20 | Tystnad, slöjorna, sången | `gustaftadaa` |

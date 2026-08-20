@@ -1,5 +1,7 @@
 # Kanon
 
+Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
+
 Världens fakta. Allt som skrivs i intriger, pussel och props måste vara konsistent med detta. När något beslutas i [`premiss.md`](premiss.md) eller [`akter.md`](akter.md) skrivs faktan in här, så att vi har **ett** ställe att kontrollera mot.
 
 Format: korta påståenden, inte prosa. Varje påstående ska vara sant eller falskt.
@@ -36,22 +38,63 @@ Får aldrig stå i gästtext. Se `../intriger/STYLE.md`.
 ## Fast kanon: skutorna
 
 1. Fem skutor: **Korvetten Kurtisanen**, **Fregatten Fördärvet**, **Barken Bortförklaringen**, **Fregatten Fromheten**, **Galeonen Gnället**.
-2. Varje skuta har en skatt som ska gömmas och som en annan skuta ska hitta. Se `../intriger/crews/`.
-3. Malin seglar med Korvetten Kurtisanen.
+2. Varje skuta gömmer en skatt. Varje skatt eftersöks av en annan skuta, i cirkel ett steg framåt: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1. Register och vad gästerna får veta: [`lagskatter.md`](lagskatter.md). Gästtext: `../intriger/crews/`.
+3. Varje skuta har exakt en mullvad och exakt en kontaktperson, två olika personer. Mullvaden arbetar för en annan skuta. Kontaktpersonen där är den enda som vet att mullvaden finns och vem det är. Cirkel två steg framåt: 1→3→5→2→4→1. Register: [`forradare.md`](forradare.md).
+4. Malin seglar med Korvetten Kurtisanen.
 
 ## Fast kanon: platsen
 
 1. Ovanan är Malins hamn. Hon tar emot där.
-2. Södra Ovanan är en annan ö, nås över vatten. Där finns en piratstuga och ett skelett i skogen.
-3. Gubben i stubben sitter på norra udden, på en ljugarbänk.
-4. I vardagsrummet finns en svärdfisk vars gap går att gömma saker i.
-5. En segelbåt ligger vid en boj en bit ut.
+2. Södra Ovanan är en annan ö, nås över vatten. Dit går en motordriven eka (5 personer, 2 minuter), två kajaker och två stand up paddle (10 minuter att paddla). Där finns en piratstuga och ett skelett i skogen. Off-regel: aldrig ensam på vattnet. Kapten Kuling och Kapten Rödskägg har hand om båtarna. Man får åka ut utan dem.
+3. På norra ändan av Ovanan finns en bänk vid en stubbe, kallad Gubben i stubben. I stubben ligger en trägubbe och en flaska sprit.
+4. På södra ändan av Ovanan, huvudön, finns Gumman på udden: en bänk med en trägumma och en flaska sprit. Detta är inte Södra Ovanan.
+5. I vardagsrummet finns en svärdfisk vars gap går att gömma saker i.
+6. En segelbåt ligger vid en boj en bit ut. Båten heter Tvåkronan.
 
 ---
 
 ## Ny kanon, beslutas under designarbetet
 
 Fylls i löpande. Varje post ska ha ett datum och en källa, alltså vilket dokument beslutet kommer från.
+
+### Malins kista och kontraktet med Karl XII
+
+Beslutat 2026-08-18. Källa: [`beslut.md`](beslut.md), [`premiss.md`](premiss.md).
+
+1. På ön står en kista, väl synlig. Den sägs innehålla Svarta Malins skatt.
+2. Kistan är låst med en nyckel.
+3. Nyckeln ligger i en cryptex med sex bokstävers kombination.
+4. På cryptexen sitter en lapp: "Denna tappas lätt bort." Den som hittar den kommer snart att förlora den, genom slagsmål, vadslagning, stöld eller slarv.
+5. Cryptexens lösenord går inte att kläcka utan XII. XII sitter på Malins halsband, som hon sätter på till slutfesten. Den syns när hon serverar kaviar och rom. Tre parallella quests per skuta ger de andra bokstäverna. Se [`pussel.md`](pussel.md).
+6. I kistan finns ingen skatt. Där ligger en stor hög skuldbrev, ett kontrakt med Kung Karl XII, och ett miniatyrporträtt av kungen.
+7. Kungen i kontraktet är **Karl XII**.
+8. I kontraktet har Svarta Malin förbundit sig att bjuda alla Salmonellahavets pirater på födelsedagsfest och fylla dem med rom, så att konungens män kan slå till i gryningen och arrestera dem alla.
+9. Upptäckten av kontraktet är det som tänder slutstriden. Kungens män kommer aldrig. Gryningen spelas inte.
+10. Kontraktets sista rad är intim. Miniatyren gör sängen läsbar som bild. Kistans exakta plats, vems skuldbreven är och vad Malin får i utbyte är inte kanon än. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins XII. Queststories är låsta i [`quests.md`](quests.md). Lösenord och questmekanik är det inte. Se [`pussel.md`](pussel.md).
+
+### Malin och Karl XII
+
+Beslutat 2026-08-20. Källa: [`beslut.md`](beslut.md).
+
+1. Svarta Malin har en kärleksaffär med Karl XII. Det är kanon, inte ett rykte.
+2. Hon får ha andra romanser samtidigt, med gäster på ön. Flera romanser krockar inte med kanon. De krockar gärna i spelet.
+3. I gästtext och rykten före kistan: hon har en **hemlig älskare**. Älskaren ska framstå som någon som är med på ön. Aldrig som någon långt borta, aldrig med kungens namn.
+4. De som redan brinner för henne (**Kapten Hjärter**, **Katten Felix**, **Kapten Blodig**) får veta att hon gömmer någon. De ska leta bland kaptenerna i hamnen.
+5. Sanningen, att älskaren är kungen, avslöjas först när kistan öppnas. Kontraktet bär ett intimt register, och i kistan ligger ett miniatyrporträtt av Karl XII. Rummet ska förstå det utan ny logik.
+6. Malin vet att det är kungen. Hon vet inte att kistan kommer att öppnas. Utåt: värdinnan som låter hamnen gissa fel.
+
+### Lagskatter och förrädare
+
+Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.md`](forradare.md).
+
+1. Varje skuta gömmer en skatt fredag ca 17.30. Jakten öppnar lördag 10.30.
+2. Jaktcirkel ett steg: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1.
+3. Gästerna får veta vilken skuta *de* jagar. Inte vem som jagar dem. Inte att det är en sluten cirkel.
+4. Ingen poäng. Funnen skatt får bäras, mutas, stjälas tillbaka. Drama vinner vid krock med huvudstoryn.
+5. Sovplatser är inte gömställen. Malins kista är inte gömställe för lagskatt.
+6. Varje skuta har en mullvad och en kontaktperson, olika personer.
+7. Förrädarcirkel två steg: 1→3→5→2→4→1. Kontaktpersonen är den enda som vet mullvadens existens och identitet.
+8. Mullvad och kontakt är inte tillsatta. Malin och Spader är inte mullvad.
 
 ### Skelettet på Södra Ovanan
 
@@ -63,24 +106,15 @@ Fylls i löpande. Varje post ska ha ett datum och en källa, alltså vilket doku
 | Vad finns kvar på kroppen? | TBD | |
 | Vad ändras när identiteten avslöjas? | TBD | |
 
-Detta är kanonens hjärta. Beslutet blockerar det mesta annat.
+Detta är bakgrundsspåret. Det är inte längre kanonens hjärta: det är kistan. Södra Ovanan används av **Q-2** (piratstugan). Skelettet får inte vara Q-2:s skatt.
 
 ### Piratstugan
 
 | Fråga | Svar | Beslutat |
 |-------|------|----------|
-| Vems stuga är det? | TBD | |
+| Vems stuga är det? | Svarta Malins ursprungliga hem. Q-2. | 2026-08-20 |
 | Varför står den orörd? | TBD | |
-| Vad finns kvar där inne? | TBD | |
-
-### Gubben i stubben
-
-| Fråga | Svar | Beslutat |
-|-------|------|----------|
-| Vem eller vad är gubben? | TBD | |
-| Varför ljuger han? | TBD | |
-| Hur vet gästerna att man kan fråga honom? | TBD | |
-| Vad kostar ett svar? | TBD | |
+| Vad finns kvar där inne? | Flera saker från hennes historia. Listan inte låst. Cryptex-bokstaven någonstans bland dem. | delvis, 2026-08-20 |
 
 ### Segelbåten vid bojen
 
@@ -94,9 +128,17 @@ Detta är kanonens hjärta. Beslutet blockerar det mesta annat.
 
 | Fråga | Svar | Beslutat |
 |-------|------|----------|
-| Varför överlever hon alltid? | TBD | |
-| Vad är hon skyldig, och vem? | TBD | |
-| Vad vill hon egentligen ha av festen? | TBD | |
+| Varför överlever hon alltid? | TBD. I fiktionen: hon har sålt de andra till Karl XII. Metaregeln tar vid efteråt. | delvis, 2026-08-18 |
+| Vad är hon skyldig, och vem? | Hon har förbundit sig mot Kung Karl XII. Skuldbreven i kistan: vems och för vad är öppet. Hon ligger också med honom. | delvis, 2026-08-20 |
+| Vad vill hon egentligen ha av festen? | Uppfylla kontraktet: samla piraterna och fylla dem med rom. | 2026-08-18 |
+| Vem är hennes hemliga älskare? | Karl XII. Före kistan ska det se ut som någon på ön. | 2026-08-20 |
+| Första kärleken? | Q-1. Får ljuga. Får inte vara kungen. Questen säger också att hon var kurtisan och att skutan är döpt efter yrket. Yrket är inte låst kanon. | delvis, 2026-08-20 |
+| Hur blev hon pirat? | Q-2. Får ljuga. Inkluderar hur hon blev Svarta. Inte Ran. | delvis, 2026-08-20 |
+| Hur fick hon Kurtisanen? | Sången: hon prejade sin egen korvett. Beslut 2026-08-18: köpt på kredit. **Q-3 berättar preja-versionen och ska ljuga.** Sanningen sitter i kistan. | 2026-08-20 |
+| Hur fick hon ön? | Q-4. Ovanan är hennes hamn. Questen får ljuga om bytet. Får inte säga att kajen är en fälla. | delvis, 2026-08-20 |
+| Samlar hon skulder? | Q-5 visar metoden (IOU:er, eder, namn). Kistans hög visas inte i questen. Vems skuldbreven är förblir öppet. | delvis, 2026-08-20 |
+
+Queststories är inte automatiskt kanon. De får vara opålitliga. De får **inte** innehålla affären med Karl XII eller förräderiet. Det sitter i kistan. Full text: [`quests.md`](quests.md).
 
 ---
 
@@ -104,9 +146,9 @@ Detta är kanonens hjärta. Beslutet blockerar det mesta annat.
 
 Kör igenom när ny kanon lagts till, och alltid innan gästtext skrivs.
 
-- [ ] Motsäger något av det nya en post i `romanser.yaml`?
+- [x] Motsäger något av det nya en post i `romanser.yaml`? Nej. Malin får ha flera romanser. #17, #18, #20 består. De jagar en rival på ön.
 - [ ] Motsäger något av det nya en post i `fiender.yaml`?
 - [ ] Motsäger något av det nya en redan skriven intrig i `guests/` eller `crews/`?
 - [ ] Kräver något av det nya att en deltagare gör två saker samtidigt på olika platser?
-- [ ] Spoilar något av det nya metaregeln eller sista versens utgång?
-- [ ] Går det att avslöja utan att en enda specifik person måste dyka upp?
+- [x] Spoilar något av det nya metaregeln eller sista versens utgång? Nej. Kungens män i gryningen är fällan piraterna tror på. De dör i striden. Gryningen spelas inte. Affären med kungen nämns inte i gästtext utom hos Malin.
+- [x] Går det att avslöja utan att en enda specifik person måste dyka upp? Ja. Kistans innehåll bär det. Hjärter, Felix och Blodig är krydda.

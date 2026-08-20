@@ -18,6 +18,7 @@ create table if not exists crews (
 create table if not exists guests (
   id uuid primary key default uuid_generate_v4(),
   created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
   real_name text not null,
   login_slug text not null,         -- lowercase namn utan mellanslag (inloggningslösenord)
   attending boolean,                -- null = inte svarat, false = avböjt
@@ -35,6 +36,7 @@ create table if not exists guests (
   sleeping_bed text                 -- bäddtyp, t.ex. "Dubbelsäng", "Madrass"
 );
 
+-- OANVÄND av sajten. Brödtext ligger i content/copy/, inte här.
 create table if not exists practical_info (
   key text primary key,
   value text not null,
@@ -47,6 +49,23 @@ create unique index if not exists guests_real_name_lower_idx
 
 create unique index if not exists guests_login_slug_idx
   on guests (login_slug);
+
+-- Sätt updated_at automatiskt vid varje UPDATE på guests.
+create or replace function public.set_updated_at()
+returns trigger
+language plpgsql
+as $$
+begin
+  new.updated_at = now();
+  return new;
+end;
+$$;
+
+drop trigger if exists guests_set_updated_at on guests;
+create trigger guests_set_updated_at
+  before update on guests
+  for each row
+  execute function public.set_updated_at();
 
 -- Validera inloggning utan att exponera login_slug via tabell-läsning.
 create or replace function validate_guest_login(p_slug text)

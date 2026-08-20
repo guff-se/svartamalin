@@ -34,7 +34,7 @@ function fileKey(path) {
   return base.replace(/\.md$/i, '')
 }
 
-/** Minimal markdown — **bold** + radbrytningar (samma som practical_info). */
+/** Minimal markdown — **bold** + radbrytningar (samma som content/copy). */
 function formatMd(s) {
   return escapeHtml(s)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')

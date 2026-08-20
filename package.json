@@ -10,6 +10,7 @@
     "pages:dev": "wrangler pages dev -- vite dev",
     "deploy": "npm run build && wrangler pages deploy dist --project-name svartamalin --branch main",
     "fetch-map": "node scripts/fetch-map-data.js",
+    "fetch-roller": "node scripts/fetch-roller.js",
     "generate-card-overlay": "node scripts/generate-card-overlay.js",
     "optimize-card-overlays": "node scripts/optimize-card-overlays.js",
     "detect-card-frame-layouts": "node scripts/detect-card-frame-layouts.js",

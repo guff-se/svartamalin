@@ -34,15 +34,12 @@ claimed_by uuid references guests(id) null  -- denormaliserat för snabb realtim
 -- crews
 id int pk
 name text                     -- t.ex. "Babords lag"
-
--- practical_info (key/value så admin kan redigera utan deploy)
-key text pk                   -- "boat_friday", "boat_sunday", "packing", ...
-value text                    -- markdown
-updated_at timestamptz
 ```
 
+Sajtens brödtext ligger **inte** i databasen. Den ligger i [`content/copy/`](content/copy/README.md) och bundlas vid build.
+
 **RLS-policys:**
-- Anonym läsning av `pirate_names`, `practical_info`, och aggregerade gästdata (förnamn + piratnamn) — men inte telefon/email för andra crews.
+- Anonym läsning av `pirate_names` och aggregerade gästdata (förnamn + piratnamn) — men inte telefon/email för andra crews.
 - Skriv endast via Edge Functions / authenticated session (vi sätter en signerad guest-cookie efter lösenord + RSVP).
 
 ---
@@ -79,7 +76,7 @@ Single-page, sektioner i ordning (scroll efter reveal):
    - Ett förgenererat vintageporträtt per piratnamn (60 st, sepia/tintype).
    - Endast claimed namn renderas. Realtime: nya pirater dyker upp med fade-in.
    - Klick → större vy med piratnamn + förnamn.
-3. **Praktisk info** — sektioner som läses från `practical_info`-tabellen:
+3. **Praktisk info** — sektioner från [`content/copy/`](content/copy/README.md) (bundlas vid build, inte från databasen):
    - Plats & datum
    - Båttider (TBD — admin fyller i)
    - Vad att packa
@@ -91,7 +88,7 @@ Single-page, sektioner i ordning (scroll efter reveal):
 Separat lösenord (annan env-var).
 - Tabell över alla gäster: namn, status, piratnamn, lag.
 - Dropdown per gäst för crew-tilldelning → skriver `crew_id`.
-- Redigera `practical_info` (textareas, markdown-preview).
+- Sajtens brödtext redigeras i `content/copy/`, inte i admin.
 - (Supabase Studio räcker som backup för allt övrigt.)
 
 ---

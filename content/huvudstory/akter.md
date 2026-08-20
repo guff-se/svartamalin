@@ -1,5 +1,7 @@
 # Akter och beats
 
+Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
+
 Huvudstoryns dramaturgi. Här utvecklas berättelsen. Klockslagen kommer från [`tidslinje.md`](tidslinje.md), platserna från [`platser.md`](platser.md).
 
 En **beat** är den minsta enheten: en sak som händer, på en plats, med namngivna personer, som ändrar läget.
@@ -37,18 +39,36 @@ Om det floppar: vad gör vi istället
 
 ## Akt I: Överdåd (fredag kväll)
 
-Ingen mekanik. Frön planteras muntligt och visuellt. Ingenting ska lösas.
+Ingen mekanik. Frön planteras muntligt och visuellt. Ingenting ska lösas. Fokus är uppbyggnad. Det skall också festas - folk skall dricka, dansa och hångla. 
 
 Vad akt I måste åstadkomma:
 
 - [ ] Alla har hört Malin säga något som senare visar sig ha varit en varning
-- [ ] Minst tre fysiska objekt har setts av alla, så att de blir bekanta innan de blir viktiga
-- [ ] Alla lag har gömt sin skatt
+- [x] Minst tre fysiska objekt har setts av alla, så att de blir bekanta innan de blir viktiga. **Kistan** är det första: väl synlig, orörd, ingen mekanik. Två till TBD.
 - [ ] Ingen har blivit ombedd att göra något svårt
 
 ### Beats
 
-Ingen ännu.
+#### B-01: Kistan står framme
+
+Akt:            I
+Tid:            från ankomst, ca 17.30
+Plats:          TBD, väl synlig för alla
+Inblandade:     alla ser den. Ingen rör den som pussel.
+Publik:         hela ön
+
+Vad händer:     Malins skattkista står framme. Den är låst. Den ser ut att innehålla skatt.
+
+Vad ändras:     alla har sett objektet som lördagen kretsar kring.
+
+Trigger:        den står där när de kommer i land, eller bärs in under installationen
+Väg 1:          omöjlig att missa
+Väg 2:          Malin nämner den i talet 19.30
+Spelledarväg:   behövs inte. Den är fysisk.
+
+Pusselnod:      ingen på fredag. P-01 först lördag.
+Props:          kista, hänglås. Cryptexen är inte i spel än.
+Om det floppar: om den står undanskymd har akt I misslyckats. Flytta den.
 
 ---
 
@@ -60,7 +80,7 @@ Vad akt II måste åstadkomma:
 
 - [ ] Öppna med något som redan brinner, alltså inte med information som delas ut
 - [ ] Ge varje skuta något att göra från minut ett
-- [ ] Låta minst en person svika sitt lag, och göra det lönsamt
+- [ ] Låta minst en person svika sitt lag, och göra det lönsamt. Fem mullvadar är strukturen. Se [`forradare.md`](forradare.md). Personer inte tillsatta.
 - [ ] Konvergera i ett gemensamt moment strax före brunchen
 - [ ] Sluta med att ritualen 15.30 känns oundviklig
 
@@ -68,17 +88,23 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | TBD | | Piratstugan eller verkstadsförråden | |
-| Optiska spåret | TBD | | Kikaren och skylten | |
+| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). | tre skutor per quest, start i namngivna intrigfiler | TBD per Q-n | P-01 vid festen |
+| Optiska spåret | TBD. Skylten är parkerad, kikaren finns | | Kikaren (skylten bara om vi beslutar den) | |
 | Kropps- och tävlingsspåret | TBD | | Klätternätet, vattnet, Södra Ovanan | |
-| Sociala spåret | TBD | | Onsen, bastun, matsalen | |
-| Skattspåret (befintligt) | Lagen gömmer och letar skatter | Alla, se `crews/` | Hela ön | |
+| Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | P-01 |
+| Älskarspåret | Malin gömmer någon. Hjärter, Felix och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Felix, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
+| Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
+| Förrädarspåret | Mullvad per skuta, kontakt på uppdragsgivarens lag. Cirkel två steg. | Fem par, tillsätts i [`forradare.md`](forradare.md) | Hemliga möten | |
+| Båtspåret | Sjöfärd som *scen*: övertala Kuling eller Rödskägg. Folk får också paddla utan dem. | Kuling, Rödskägg, plus den som vill ut | Bryggan, Södra Ovanan, bojen | B-14 |
+| Skäggspåret | Tre kaptener slåss om vem som är Skäggkonung. Publikt. Intrigtext TBD. | Lösskägg, Rödskägg, Blåskägg | Kajen eller gården, inte långt från båtarna | B-15 |
+
+**Kollision är en feature.** Spåren ovan pågår samtidigt och får krocka. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd. Designa inte isolerade banor som kräver att de andra pausas.
 
 ### Den gemensamma tävlingsaktiviteten
 
 Krav som den måste uppfylla:
 
-- [ ] Rymmer 26 personer samtidigt, eller fem lag i rotation
+- [ ] Rymmer 25 personer samtidigt, eller fem lag i rotation
 - [ ] Går att förstå på en mening
 - [ ] Går att fuska i, och fusket ska vara mer lönsamt än att vinna rent
 - [ ] Producerar ett resultat som **behövs** i huvudstoryn, alltså inte bara poäng
@@ -92,7 +118,131 @@ Idéer att utvärdera:
 
 ### Beats
 
-Ingen ännu.
+#### B-10: Cryptexen i omlopp
+
+Akt:            II
+Tid:            från 10.30
+Plats:          cirkulerar
+Inblandade:     den som just då har den. Byts.
+Publik:         den som ser bytet
+
+Vad händer:     cryptexen kommer in i spelet. På den sitter lappen "Denna tappas lätt bort." Den som har den förlorar den snart.
+
+Vad ändras:     nyckeln till kistan är i spel som föremål, inte som lösning. Lösenordet går fortfarande inte att kläcka.
+
+Trigger:        TBD: var den dyker upp första gången
+Väg 1:          någon hittar den
+Väg 2:          Malin "tappar" den, eller den ligger i ett gömställe som en ledtråd pekar på
+Spelledarväg:   Spader sätter den i någons hand
+
+Pusselnod:      P-01, olöst
+Props:          cryptex, lapp, nyckel inuti
+Om det floppar: om den hamstras: play to lose. Någon tar den. Om den försvinner spårlöst: spelledning vet ungefär var, eller tar fram reserven vid festen.
+
+#### B-11: Skattjakten öppnar
+
+Akt:            II
+Tid:            från 10.30
+Plats:          hela ön utom sovplatser
+Inblandade:     alla fem skutor. Vem som jagar vem: [`lagskatter.md`](lagskatter.md).
+Publik:         jakten syns. Målet är hemligt för den jagade.
+
+Vad händer:     lagen får jaga den skatt deras lagintrig pekar ut. Gömmena ligger sedan fredag 17.30. Ingen poäng. Funnen skatt får bäras, mutas bort, stjälas tillbaka.
+
+Vad ändras:     skattjakten är i spel samtidigt som cryptexen. De får krocka.
+
+Trigger:        ceremonin 10.30 släpper spelet
+Väg 1:          lagen gör det själva, de har läst lagintrigen
+Väg 2:          någon frågar Spader vad de ska göra. Han pekar på deras eget uppdrag.
+Spelledarväg:   behövs inte. Uppdraget står i lagfilen.
+
+Pusselnod:      ingen, om inte en skatt senare bär en ledtråd
+Props:          fem lagskatter, lagen tar med dem
+Om det floppar: om ingen hittar något: strunt. Huvudstoryn vilar inte på det.
+
+#### B-12: Mullvadarna tar kontakt
+
+Akt:            II
+Tid:            10.30 till 14.00
+Plats:          avskilt. Segelbåt, svärdfisk, Gubben, Gumman. Inte samma plats för alla fem.
+Inblandade:     fem par, namnges i [`forradare.md`](forradare.md) när de tillsätts
+Publik:         ingen, om de inte bränns
+
+Vad händer:     varje mullvad söker upp sin enda kontakt. Kontaktpersonen är den enda på uppdragsgivarens skuta som vet.
+
+Vad ändras:     fem hemliga kanaler mellan skutor är öppna. Svek kan bli lönsamt.
+
+Trigger:        bådas individintrig, när den är skriven
+Väg 1:          de hittar varandra
+Väg 2:          dead drop i svärdfiskens gap
+Spelledarväg:   om paret aldrig möts: strunt. Inte bärande balk.
+
+Pusselnod:      ingen
+Props:          inga egna. Eventuell lapp i gapet.
+Om det floppar: huvudstoryn går. Play to lift om någon vill ur rollen: cut, ingen ersättare mitt i helgen.
+
+#### B-13: Jakten på älskaren
+
+Akt:            II
+Tid:            10.30 till 20.40
+Plats:          hela ön
+Inblandade:     Kapten Hjärter (`jesperlejfjord`), Katten Felix (`elinamelakoski`), Kapten Blodig (`minimacklin`). Svarta Malin (`malintadaa`) vet sanningen och leder fel.
+Publik:         den som de anklagar. Inte hela ön, om de inte gör den publik.
+
+Vad händer:     tre personer som brinner för Malin vet att hon gömmer en älskare. Allt pekar mot någon som är med på ön. De letar, anklagar, avlyssnar. Malin varken bekräftar eller förnekar ett namn i hamnen.
+
+Vad ändras:     svartsjukan är i spel. En felaktig rival kan utpekas. Sanningen ändras inte.
+
+Trigger:        deras individintriger
+Väg 1:          de jagar själva
+Väg 2:          de jagar varandra. Blodig och Hjärter är redan rivaler om henne (fiende 21).
+Spelledarväg:   behövs inte. Inte bärande balk. Om ingen jagar: kistan bär punchlinen ändå.
+
+Pusselnod:      ingen
+Props:          inga egna. Miniatyren och kontraktets intima register väntar i kistan, K-07 och K-08.
+Om det floppar: huvudstoryn går. Punchlinen vid B-42 träffar dem som jagat, och rummet i övrigt via miniatyren.
+
+#### B-14: Båtgrindarna
+
+Akt:            II
+Tid:            10.30 till 13.30
+Plats:          bryggan. Eka, kajak, paddel.
+Inblandade:     Kapten Kuling (`josefinlowing`), Kapten Rödskägg (`viktoransund`), plus den som vill ut
+Publik:         kajen. Överfarten syns.
+
+Vad händer:     den som vill ha en scen på vattnet övertalar Kuling eller Rödskägg att ge sig ut. De följer med, mutar, vägrar, eller blir lämnade på kajen. Folk får också paddla utan dem, bara inte ensamma.
+
+Vad ändras:     överfarten är spel. Ingen har monopol på ekan.
+
+Trigger:        någon vill över vattnet, och väljer att göra det till en förhandling
+Väg 1:          övertala Kuling
+Väg 2:          övertala Rödskägg
+Spelledarväg:   behövs inte. De som vill ut paddlar. Bara sällskapsregeln är hård.
+
+Pusselnod:      ingen egen. Öppnar platser som har noder, om de används.
+Props:          eka, kajaker, SUP.
+Om det floppar: ingen övertalning sker. Folk åker ändå. Kuling och Rödskägg får en scen av att bli förbigångna, eller ingen scen. Huvudstoryn stannar inte.
+
+#### B-15: Skäggtrion
+
+Akt:            II
+Tid:            lördag, när de tre möts. Inte en lång scen långt från kajen.
+Plats:          kajen eller gården. Publikt.
+Inblandade:     Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktoransund`), Kapten Blåskägg (`hampuslindblad`)
+Publik:         ja. Poängen är att folk ser det.
+
+Vad händer:     de tre med skägg i namnet tar upp kröningsstriden. Blåskägg har redan utropat sig Skäggkonung. Lösskägg samlar skägg. Rödskägg är kränkt och blåstrimmig. Hur det avgörs skrivs i S-02 senare. Det ska vara kul.
+
+Vad ändras:     någon kröns, eller ingen, eller alla tre. Fiendskaperna 3, 18, 19 är i spel som scen, inte bara bakgrund.
+
+Trigger:        deras individintriger, när de är skrivna
+Väg 1:          de tre gör det själva
+Väg 2:          någon annan hetsar dem
+Spelledarväg:   behövs inte. Inte bärande balk.
+
+Pusselnod:      ingen
+Props:          TBD med S-02. Lösskäggs skäggsäck finns redan i underlaget.
+Om det floppar: de tre hatar varandra ändå. Huvudstoryn stannar inte.
 
 ---
 
@@ -119,15 +269,76 @@ Se [`slutstriden.md`](slutstriden.md). Minimal ny mekanik. Allt som byggts ska f
 
 Vad akt IV måste åstadkomma:
 
-- [ ] Malins födelsedagsfest med kaviar och rom, precis som i sången
-- [ ] Ett ögonblick där alla samtidigt förstår att det är dags
+- [x] Malins födelsedagsfest med kaviar och rom, precis som i sången
+- [x] Ett ögonblick där alla samtidigt förstår att det är dags: kistan öppnas, kontraktet, skuldbreven
 - [ ] Utrymme för varje rivalitet från `fiender.yaml` att få sitt utlopp
 - [ ] Malin som sista stående
 - [ ] Slöjorna, sången, Ran
 
 ### Beats
 
-Ingen ännu.
+#### B-40: Sista ledtråden
+
+Akt:            IV
+Tid:            ca 20.00
+Plats:          festplatsen
+Inblandade:     Malin (`malintadaa`), alla
+Publik:         alla
+
+Vad händer:     Malin serverar kaviar och rom. I samband med det syns **XII** på hennes halsband, den sista ledtråden till cryptexen. Utan den går lösenordet inte att kläcka. Hon ger den inte som gåta. Hon sätter på halsbandet till festen, inte före.
+
+Vad ändras:     gåtan är nu lösbar. Inte förrän nu.
+
+Trigger:        serveringen
+Väg 1:          hon säger eller gör det som en del av värdinneskapet
+Väg 2:          TBD, beroende på hur medveten hon är
+Spelledarväg:   hon ger ledtråden oavsett. Den är inte spelarbaserad.
+
+Pusselnod:      P-01, sista nödvändiga input
+Props:          kaviar, rom, Malins halsband med XII.
+Om det floppar: ingen hör. Hon upprepar det som skål, kortare, högre.
+
+#### B-41: Kistan öppnas
+
+Akt:            IV
+Tid:            ca 20.40
+Plats:          där kistan står, synligt för alla
+Inblandade:     den som just då har cryptexen, plus de som samlats
+Publik:         alla
+
+Vad händer:     sex bokstäver slås in. Cryptexen öppnas. Nyckeln tas ut. Kistan öppnas.
+
+Vad ändras:     låset är borta. Innehållet är synligt.
+
+Trigger:        sista ledtråden given
+Väg 1:          deltagarna gör det själva
+Väg 2:          någon skriker bokstäverna, en annan slår in
+Spelledarväg:   20.45, Malin eller Spader tvingar upp med reservnyckel
+
+Pusselnod:      P-01
+Props:          cryptex, nyckel, kista
+Om det floppar: bypass 20.45. Se [`pussel.md`](pussel.md).
+
+#### B-42: Kontraktet, tändningen
+
+Akt:            IV
+Tid:            direkt efter B-41
+Plats:          samma
+Inblandade:     den som öppnade eller den som skriker först. Sedan alla.
+Publik:         alla
+
+Vad händer:     i kistan ligger ingen skatt, utan en hög skuldbrev och ett kontrakt med Kung Karl XII. Kontraktet läses högt: Malin har sålt dem. Festen är fällan. Kungens män ska slå till i gryningen. Sista raden och miniatyrporträttet gör den andra sanningen omöjlig att missa: hon är i säng med kungen. De som jagat en rival i hamnen förstår vem de jagat. Man flyger på jubilaren.
+
+Vad ändras:     slutstriden har börjat. Den hemliga älskaren är inte någon på ön.
+
+Trigger:        kistans innehåll
+Väg 1:          någon läser högt
+Väg 2:          någon håller upp kontraktet och miniatyren och skriker innebörden
+Spelledarväg:   Malin erkänner, eller Spader läser. Samma innehåll.
+
+Pusselnod:      ingen. Detta är inte ett pussel.
+Props:          skuldbrev i hög, kontraktet (kort, sigill, trettio sekunder högt, intim sista rad), miniatyr av Karl XII
+Om det floppar: innehållet missas i tumult. Någon ställer sig på en bänk och läser igen. Miniatyren hålls upp. Striden får inte starta utan att rummet vet varför.
 
 ---
 
@@ -137,13 +348,18 @@ Den centrala sanningen delas i bitar. Varje bit får en rad. Regeln från [`RESE
 
 | Bit av sanningen | Bärare | Väg 1 | Väg 2 | Spelledarväg | Senast avslöjad |
 |------------------|--------|-------|-------|--------------|-----------------|
-| TBD | | | | Gubben i stubben | före brunch |
+| Malin har en skattkista på ön | Kistan själv | Alla ser den | Malin nämner den | behövs inte | fredag |
+| Nyckeln ligger i en cryptex som cirkulerar | Cryptexen + lappen | Hitta den | Se den byta ägare | Spader sätter den i någons hand | lördag 11-ish |
+| Lösenordet (kandidat `HKHXII`) | Tre av fem quests + Malins XII | Questskatter | Tvärledtrådar mellan lag | XII syns på Malin vid serveringen | **20.00, inte tidigare** |
+| Ingen skatt. Skuldbrev och kontrakt. Festen är fällan. | Kistans innehåll | Öppna kistan | Någon skriker innebörden | Malin/Spader tvingar upp 20.45 | 20.40 |
+| Malin har en hemlig älskare | Hjärter, Felix, Blodig | deras intrig | Malins undanflykter | behövs inte | lördag dag |
+| Älskaren är Karl XII | Kontraktets sista rad + miniatyren | Öppna kistan | Hålla upp miniatyren | samma som B-42, 20.45 | 20.40 |
 
 ## Om ingenting löses
 
 Fallback-versionen av lördagen. Måste finnas skriven innan helgen, annars improviserar vi i panik.
 
 - **Kl 13.00, inget löst:** TBD
-- **Kl 14.00, brunchen:** Malin säger sanningen delvis själv, i tal. TBD
+- **Kl 14.00, brunchen:** Malin säger sanningen delvis själv, i tal. TBD. Inte kontraktet, inte kistans innehåll.
 - **Kl 15.30, ritualen:** ritualen fungerar oavsett vad som lösts. TBD
-- **Kl 20.00:** slutstriden fungerar oavsett. Ingen risk här.
+- **Kl 20.00:** sista ledtråden ges oavsett. Kistan öppnas av deltagarna, eller tvingas upp 20.45. Tändningen sker. Slutstriden fungerar.

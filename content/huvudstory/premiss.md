@@ -1,6 +1,8 @@
 # Premiss
 
-Det första dokumentet att bli klart med. Allt annat hänger på det som står här. Status: **inte beslutat**.
+Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
+
+Det första dokumentet att bli klart med. Allt annat hänger på det som står här. Status: **delvis beslutat** (slutmålet och den centrala sanningen 2026-08-18).
 
 ---
 
@@ -8,37 +10,36 @@ Det första dokumentet att bli klart med. Allt annat hänger på det som står h
 
 En mening. Vem vill vad, vad står i vägen, och varför avgörs det den här helgen.
 
-> TBD
+> Svarta Malin har sålt Salmonellahavets pirater till Karl XII. Festen är fällan, kistan är beviset, och när den öppnas flyger man på jubilaren.
 
-Testet: om loglinen inte rymmer både Malin och de 25 andra så är den fel. Om den inte förklarar varför alla är på ön just nu så är den fel.
+Testet: loglinen rymmer Malin och de andra. Den förklarar varför alla är på ön just nu: hon har bjudit dem på födelsedagsfest, enligt kontrakt.
 
 ## 2. Tema
 
 Vad handlar helgen om **under** piraterna? Fredag är överdåd, lördag är svek, kvällen är förlisning, natten är dödsriket. Vilken enda mening binder ihop dem?
 
-> TBD
+> TBD. Starkaste kandidaten efter slutmålet: lojalitet som vara, och att fira sig själv till döds.
 
-Kandidater att välja mellan eller kombinera:
+Kandidater, rangordnade efter hur väl de nu bär:
 
-- Att fira sig själv till döds
-- Lojalitet som visar sig vara en vara man kan sälja
+- **Lojalitet som visar sig vara en vara man kan sälja.** Kontraktet med Karl XII. Malin prejar kollegorna med lagen i hand.
+- **Att fira sig själv till döds.** Festen är fällan. Kaviar och rom är agnet.
+- **Vad man är skyldig den som gjort en till den man är.** Skuldbreven i kistan. Ännu oklart vems och för vad.
 - Att alla vill bli den som blir omsjungen, och att bara en kan
-- Vad man är skyldig den som gjort en till den man är
 - Att en lista över namn är detsamma som en lista över lik
 
 ## 3. Den centrala sanningen
 
 Den enda faktan i världen som allt annat hänger på. Den ska gästerna **inte** veta från början, och den ska kunna avslöjas gradvis under lördagen.
 
-> TBD
+> Malins skatt är en lögn. I kistan ligger skuldbrev och ett kontrakt med Kung Karl XII: hon har förbundit sig att bjuda alla Salmonellahavets pirater på födelsedagsfest och fylla dem med rom, så att konungens män kan slå till i gryningen och arrestera dem. Festen är fällan. Kontraktet är också en kärleksakt: hon är i säng med kungen. Före kistan ska det se ut som att hennes hemliga älskare är någon på ön.
 
 Krav på sanningen:
 
-- [ ] Den ska förklara något gästerna redan sett eller hört, alltså vara en omtolkning snarare än ny information
-- [ ] Den ska göra Malin mer intressant, inte bara mer skyldig
-- [ ] Den ska kunna avslöjas i **delar**, så att olika lag kan ha olika delar
-- [ ] Den får inte spoila metaregeln, alltså att alla dör och Malin blir Ran
-- [ ] Den ska ha en fysisk bärare på ön, alltså skelettet, segelbåten, svärdfisken eller skylten
+- [x] Den ska förklara något gästerna redan sett eller hört, alltså vara en omtolkning snarare än ny information. De är bjudna på födelsedagsfest. Hon fyller dem med rom. Sången säger detsamma. Omtolkningen: det är inte gästfrihet, det är kontrakt.
+- [x] Den ska göra Malin mer intressant, inte bara mer skyldig. Hon plundrar med prejudikat. Nu har hon sålt kollegorna med samma juridiska självbild.
+- [x] Den ska kunna avslöjas i **delar**, så att olika lag kan ha olika delar. Sanningen sitter i kistan. En del är redan utlagd: Hjärter, Felix och Blodig vet att hon gömmer en älskare, och tror att det är någon i hamnen. Fem parallella quests bär bokstäver till lösenordet, och lär något om Malins dåtid. De får ljuga. De spoilar inte affären eller förräderiet. XII kommer från Malin vid 20.00. Queststories låsta i [`quests.md`](quests.md). Mekanik inte.
+- [x] Den får inte spoila metaregeln, alltså att alla dör och Malin blir Ran. Kungens män i gryningen är det piraterna tror väntar. De hinner slåss och dö först. Gryningen spelas aldrig.
 
 ## 4. Vad varje deltagare får ut av huvudstoryn
 
@@ -51,41 +52,44 @@ Huvudstoryn får inte bli arrangörernas berättelse som gästerna tittar på. V
 | **Grindvakt** | Kan något eller kontrollerar en plats som andra behöver | 4 till 6 |
 | **Vittne** | Har sett något och kan berätta, sant eller ljugande | 4 till 6 |
 
-Ingen får sakna roll. Fördelningen förs in i [`fordelning.yaml`](fordelning.yaml).
+Ingen får sakna roll när gästtexten skrivs. Fördelningen förs in i [`fordelning.yaml`](fordelning.yaml). Inte ett krav under designfasen.
+
+Cryptexen som cirkulerar ger en extra roll till den som just då har den: **innehavare**. Den är tillfällig. Lappen säger att den tappas lätt bort. Ingen ska bära den hela dagen.
 
 ## 5. Vad huvudstoryn inte är
 
 Skriv ut det, så vi kan säga nej till bra idéer som inte hör hit.
 
-- Inte en tävling med poäng. Lagens skattjakt är redan tävlingen.
-- Inte ett mordmysterium som ska lösas rätt. Om ingen löser den ska helgen ändå fungera.
-- Inte beroende av att alla 26 förstår den. Det räcker att 8 personer förstår och att resten känner den.
-- Inte något som kräver att en enskild person orkar hålla ihop den, förutom Malin och Spader.
+- Inte en tävling med poäng. Lagens skattjakt är redan tävlingen, och den pågår **samtidigt** som huvudstoryn. De får kollidera. Designa inte isolerade spår.
+- Inte en story som kan ignoreras. Alla andra storys kan gå åt skogen, men denna måste sluta med att kistan öppnas. Om det inte görs naturligt så skall finnas fallbacks.
+- Inte beroende av att alla 25 förstår den. Det räcker med att 10 försöker och det räcker att 1 person öppnar kistan.
+- Inte något som kräver att en enskild person orkar hålla ihop den.
 
 ## 6. Sensoriskt löfte
 
 Tre bilder eller sinnesintryck som helgen ska leverera. De styr props, ljud och plats mer än handlingen gör.
 
-1. TBD
-2. TBD
-3. TBD
-
-Kandidater från vad ön och sången ger oss: eldsken i en stuga på en annan ö, ett skelett i skogen, en lista med namn som läses högt, kaviar och rom på silver, en kikare som visar något ohyggligt på horisonten, en sång som alla kan men ingen börjat sjunga.
+1. En väl synlig kista som alla ser och ingen kan öppna.
+2. En cryptex som går från hand till hand, stjäls, vadslås bort och slarvas bort.
+3. Kaviar och rom på silver, sedan locket upp och en hög skuldbrev.
 
 ## 7. Kopplingen till sången
 
-Sångtexten är vår kanon. Tre saker i den vi kan bygga på och som ännu inte används:
+Sångtexten är vår kanon. Tre saker i den vi bygger på:
 
-- **Listorna.** Sången är i grunden tre listor över kaptener, och den sista listan är över lik. En fysisk lista är därför öns starkaste prop.
-- **Prejandet.** "Det är sjörövarns rätt genom prejudikat." Malin har en juridisk självbild. Hon plundrar med lagen i hand. Det öppnar för dokument, kontrakt och rätt.
-- **"Vem är det som är still going strong."** Malin överlever alltid. Frågan varför är obesvarad i sången och är därmed vårt mest lediga utrymme.
+- **Listorna.** Sången är i grunden tre listor över kaptener, och den sista listan är över lik. Skuldbreven i kistan är en fysisk lista. Vems, och för vad, är öppet.
+- **Prejandet.** "Det är sjörövarns rätt genom prejudikat." Malin har en juridisk självbild. Kontraktet med Kung Karl XII är prejudikatet vänt mot de egna.
+- **"Vem är det som är still going strong."** Malin överlever alltid. I fiktionen: hon har köpt sig fri med de andras halsar. Metaregeln (Ran) tar vid efteråt och får inte nämnas.
+
+Födelsedagsfesten med kaviar och rom är både sångens vers och kontraktets villkor. Sista versen är fortfarande finalen och citeras inte i förväg.
 
 ## 8. Öppna val som blockerar allt annat
 
 Dessa måste beslutas först. Loggas i [`beslut.md`](beslut.md) när de är avgjorda.
 
-- [ ] **Vet gästerna att det finns en huvudstory** innan helgen, eller upptäcker de den på lördagen?
-- [ ] **Är Malin medveten** om huvudstoryn i roll, alltså är hon dess arkitekt eller dess offer?
-- [ ] **Vad är skelettet på Södra Ovanan?** Detta är det enskilt mest avgörande valet, eftersom en identitet på skelettet definierar hela bakgrunden.
-- [ ] **Får huvudstoryn kollidera med lagens skattjakt**, eller löper de parallellt?
-- [ ] **Vad händer om ingen löser något?** Vilken version av lördagen kör vi då?
+- [x] **Vet gästerna att det finns en huvudstory** innan helgen? Ja. De vet inte vad den är. Frön i intrigfiler och gästcopy. Fredag fortfarande utan mekanik.
+- [x] **Vad är slutmålet?** Kistan, cryptexen, skuldbreven, kontraktet, tändningen. Se [`beslut.md`](beslut.md) 2026-08-18.
+- [ ] **Hur bär Malin sveket i roll** under lördagen? I fiktionen är hon arkitekten. Utåt: öppet.
+- [ ] **Vad är skelettet på Södra Ovanan?** Bakgrundsspår, inte längre skälet till att alla är på ön.
+- [x] **Får huvudstoryn kollidera med lagens skattjakt?** Ja. Allt pågår samtidigt och får kollidera.
+- [ ] **Vad händer om ingen löser något?** Kistan måste upp senast 20.45. Bypass i [`pussel.md`](pussel.md) och [`slutstriden.md`](slutstriden.md). Fallback före festen fortfarande TBD.

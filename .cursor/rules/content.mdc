@@ -1,0 +1,15 @@
+---
+description: Två slags gästtext i content/ — STYLE.md bara för intriger
+globs: content/**
+alwaysApply: false
+---
+
+# content/ — gästtext och intern text
+
+Läs [content/README.md](../../content/README.md) innan du skriver eller ändrar något under `content/`.
+
+**Gästtext, intriger (följ [STYLE.md](../../content/intriger/STYLE.md)):** `content/intriger/crews/*.md` och `content/intriger/guests/*.md`.
+
+**Gästtext, sajtens brödtext:** `content/copy/*.md`. Gästerna läser det på webbsidan. Inte STYLE.md. Inte Supabase. Bundlas vid build. En md-ändring syns efter deploy.
+
+**Intern text:** `huvudstory/`, `roller/`, `anteckningar/`, yaml-källistor och README. Gäster ska inte läsa det. Högsta prioritet är att en framtida agent förstår filen. Tydligt, inte poetiskt. Ingen revyröst, ingen du-form till deltagaren. Civilnamn och slug är tillåtna.

@@ -6,7 +6,7 @@ Vi vaknar som oss själva och äter frukost tillsammans. Ni får därefter en li
 
 #### Förmiddag: Äventyr
 
-Här börjar spelet! Ytan spricker. Förräderi, hämd och rena rövartåg. Skatter stjäls, romanser inleder och avslutas. Mysterier avtäcks. Hämnd avkrävs.
+Här börjar spelet! Ytan spricker. Förräderi, hämnd och rena rövartåg. Skatter stjäls, romanser inleder och avslutas. Ni har redan, i era intriger, fått nys om att något större än lagens skatter rör sig på ön. På lördagen öppnar det, mitt i skattjakten, inte vid sidan av den. Allt pågår samtidigt. Mysterier avtäcks. Hämnd avkrävs.
 
 #### Lunch: Stiltje
 

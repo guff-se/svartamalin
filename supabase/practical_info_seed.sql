@@ -1,4 +1,5 @@
--- Initial praktisk info. Admin kan redigera dessa via /admin senare.
+-- Initial copy. OANVÄND: sajten läser inte den här tabellen.
+-- Brödtext ligger i content/copy/{key}.md och bundlas vid build.
 
 insert into practical_info (key, value) values
   ('theme_intro', 'Temat är pirater. Mer exakt: pirater av den karibiskt-romantiserade, gärna teatraliska 1700-talsorten. Med detta menas inte de bittra, vattenskrämda äkta-pirater som plundrade engelska handelsskepp och dog av skörbjugg innan de hann fylla 35, utan deras betydligt charmigare litterära ättlingar, de med trekantshatt, krökt sabel, oförklarliga ärr och en obändig vana att tala i tre-stavelse-utrop.

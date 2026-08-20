@@ -1,6 +1,6 @@
 // Copy-texter (praktisk info, manifest, tema, Ovanan m.m.) ligger som markdown
 // i content/copy/*.md — versioneras i git och redigeras direkt i repot.
-// Nyckel = filnamn utan .md. Renderingen sker i narrative-section.js och webgl.js.
+// Inte i Supabase. Nyckel = filnamn utan .md. Renderingen sker i narrative-section.js och webgl.js.
 
 import { escapeHtml } from '../lib/escape.js'
 

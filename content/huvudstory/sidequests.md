@@ -1,5 +1,7 @@
 # Sidequests
 
+Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
+
 Sidospår i huvudstoryn som bara rör vissa deltagare. Skiljer sig från de individuella intrigerna i `../intriger/guests/` på ett sätt: **sidequests är kopplade till huvudstoryn**, romanser och fiendskaper är inte.
 
 En sidequest är kort. En sak att göra, en person att göra den med eller mot, ett skäl att det sker under helgen.
@@ -35,7 +37,8 @@ Status:         idé / beslutad / skriven
 
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
-| | | | | | |
+| S-01 | Jakten på älskaren | Hjärter, Felix, Blodig. Malin leder fel. | II | jägare / bärare | beslutad |
+| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg | II | rivaler | beslutad |
 
 ---
 
@@ -55,42 +58,78 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 
 | slug | Antal sidequests | Roll i huvudstoryn | Akt där personen toppar |
 |------|------------------|--------------------|-------------------------|
-| `malintadaa` | | antagonist | IV |
+| `malintadaa` | 1 | antagonist, bärare | IV |
 | `gustaftadaa` | | budbärare, spelledare | IV |
-| `petterwallberg` | | | |
+| `petterwallberg` | 1 | rival | II |
 | `linneaappert` | | | |
 | `ulrikahammar` | | | |
 | `jesperlindmarker` | | | |
 | `louisevonbahr` | | | |
-| `josefinlowing` | | | |
+| `josefinlowing` | 1 | grindvakt | II |
 | `navidmodiri` | | | |
-| `minimacklin` | | | |
+| `minimacklin` | 1 | jägare | II |
 | `ludvigvonbahr` | | | |
 | `amaliawahlstrom` | | | |
 | `fabianmacklin` | | | |
 | `josefinansund` | | | |
 | `johannabergman` | | | |
-| `jesperlejfjord` | | | |
+| `jesperlejfjord` | 1 | jägare | II |
 | `amandamungsgard` | | | |
-| `viktoransund` | | | |
-| `elinamelakoski` | | | |
+| `viktoransund` | 2 | grindvakt, rival | II |
+| `elinamelakoski` | 1 | jägare | II |
 | `minervalowgren` | | | |
-| `chriskummelstedt` | | | |
 | `linneaekbom` | | | |
 | `alexandrapalmquist` | | | |
-| `hampuslindblad` | | | |
+| `hampuslindblad` | 1 | rival | II |
 | `edvinthungren` | | | |
 | `elinmartensson` | | | |
 
 **Spridningsregel:** alla toppar får inte ligga i akt IV. Sikta på ungefär en fjärdedel i akt II, en fjärdedel vid brunchen och ritualen, resten i akt IV.
 
+## S-01: Jakten på älskaren
+
+Akt:            II
+Deltagare:      Kapten Hjärter (`jesperlejfjord`), Katten Felix (`elinamelakoski`), Kapten Blodig (`minimacklin`). Svarta Malin (`malintadaa`) bär sanningen.
+Roll i storyn:  jägare / bärare
+Kopplad till:   B-13, B-42
+
+Vad de vill:    ta reda på vem Malin gömmer
+Vad står i vägen: hon leder fel. Rivalen ser ut att sitta vid bordet. Sanningen är Karl XII, och den sitter i kistan.
+Varför nu:      festen, närheten, att hon försvinner. Innan sista skålen.
+
+Hur det spelas: de tre jagar bland kaptenerna. Felix bara privat, med Hjärter. Malin varken bekräftar eller förnekar ett namn i hamnen. Flera romanser samtidigt är tillåtna och gömmer den hemliga.
+Utfall om ja:   fel person utpekas, scener, svartsjuka. Punchlinen vid kistan blir personlig.
+Utfall om nej:  kistan bär det ändå. Miniatyren och kontraktets sista rad.
+
+Bygger på:      romanser 17, 18, 20, 22. Fiende 21 (Hjärter–Blodig) om den spelas.
+Speglas hos:    Hjärter och Felix speglar jakten. Malin speglar inte deras kärlek. Blodig enväg.
+Status:         beslutad
+
+## S-02: Skäggtrion
+
+Akt:            II
+Deltagare:      Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktoransund`), Kapten Blåskägg (`hampuslindblad`)
+Roll i storyn:  rivaler
+Kopplad till:   B-15
+
+Vad de vill:    vara Skäggkonung. Eller åtminstone se till att de andra inte är det.
+Vad står i vägen: de två andra. Blåskägg har redan krönt sig. Lösskägg samlar skägg. Rödskägg är kränkt.
+Varför nu:      tre skäggnamn på samma ö. Festen. Folk som tittar.
+
+Hur det spelas: TBD. Skriv en kul, publik intrig senare. Inte bärande balk. Inte en lång scen långt från kajen: Rödskägg har båtarna.
+Utfall om ja:   någon kröns, eller ingen, eller alla tre. Folk har sett det.
+Utfall om nej:  fiendskaperna finns kvar. Huvudstoryn går.
+
+Bygger på:      fiender 3, 18, 19
+Speglas hos:    alla tre
+Status:         beslutad
+
 ## Uppslag från befintligt material
 
 Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att dras in i huvudstoryn, eftersom de redan har tryck och redan korsar skutor:
 
-- **Skäggtrion**, alltså Lösskägg, Rödskägg och Blåskägg (fiender 3, 18, 19). Tre skutor, en pågående kröningsstrid, färdig för ett publikt prov.
-- **Kalle Anka som allas problem** (romanser 1, 15, 16 och fiender 9, 15, 16). Sex personer knutna till en person. Perfekt bärare av något han inte förstår värdet av.
-- **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fyra personer i ett nät. Bra grindvakt, eftersom folk gör tjänster för henne.
+- **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fyra personer i ett nät.
+- **Blodig, Hjärter och Felix om Malin** (romanser 17, 18, 20 och fiende 21). Tre anspråk på jubilaren. De jagar hennes hemliga älskare i hamnen. Sanningen är Karl XII, först i kistan. **S-01, beslutad. Gästtext inte skriven.**
 - **Enben mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Sannolikt vår viktigaste ingång till huvudstoryn.
-- **Hjärter och Felix, båda hemligt förälskade i Malin** (romanser 17, 18). De vet om varandra. Två vittnen som vill henne väl och därför kan bära obekväm sanning.
-- **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn, någon man kan tro på som förrädare.
+- **Hjärter och Felix, båda hemligt förälskade i Malin** (romanser 17, 18). De vet om varandra. Två vittnen som vill henne väl och därför kan bära obekväm sanning. De jagar rivalen tillsammans, Felix bara privat. **S-01, beslutad. Gästtext inte skriven.**
+- **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Mullvad väljs när questsen är färdigskrivna.
