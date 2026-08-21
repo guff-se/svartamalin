@@ -79,14 +79,15 @@ export async function renderWebgl(app) {
         <section class="card-section">
           <div class="card card--practical" id="sec-practical">
             <h2>Praktiskt</h2>
+            <div class="narrative-body" id="practical-body">Laddar…</div>
             <div class="practical-layout">
               <figure class="practical-img">
                 <img src="/images/maps/ovanan.jpg" alt="Ovanan" />
               </figure>
-              <div class="narrative-body" id="practical-body">Laddar…</div>
+              <div class="narrative-body" id="practical-ovanan">Laddar…</div>
             </div>
             <div class="practical-sub">
-              <div id="practical-sova">Laddar…</div>
+              <div id="practical-mat-sova">Laddar…</div>
             </div>
             <div class="practical-sub" hidden>
               <div id="my-sleeping"></div>
@@ -148,7 +149,8 @@ export async function renderWebgl(app) {
   renderMyCharacter(document.getElementById('my-character'))
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
-  renderNarrative(document.getElementById('practical-sova'),     { key: 'sova' })
+  renderNarrative(document.getElementById('practical-ovanan'), { key: 'ovanan' })
+  renderNarrative(document.getElementById('practical-mat-sova'), { key: 'mat-sova' })
   renderMySleeping(document.getElementById('my-sleeping'))
   renderNarrative(document.getElementById('practical-packing'),  { key: 'packing' })
   renderNarrative(document.getElementById('practical-bidra'),    { key: 'bidra' })

@@ -278,6 +278,7 @@
   grid-template-columns: minmax(0, 20rem) 1fr;
   gap: 1.5rem;
   align-items: start;
+  margin-top: 1.5rem;
 }
 /* Lightbox: plain bild (override pirate-card-aspect på card slot) */
 .pirate-card-lightbox__card:has(> .lightbox-image) {
