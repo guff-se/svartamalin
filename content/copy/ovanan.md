@@ -1,6 +1,9 @@
 ### Ovanan
 
-Vi har Ovanan för oss själva hela helgen. Här finns allt ni kan tänkas behöva. Kök inne och ute. Fina sovrum. Två badrum och dusch (att samsas om). Bastu, bad, kajaker, verkstad, ljudystem.
+Vi har Ovanan för oss själva hela helgen. Här finns allt ni kan tänkas behöva. Kök inne och ute. Fina sovrum. Två badrum och dusch (att samsas om). Bastu, bad, hopptorn. Kajaker, sup, motorbåt. Verkstad, verktyg, ljudystem.
+Är det något särskilt du undrar över så tveka inte att fråga.
+
+Här är en lista på 
 
 1. Hamnen  
 2. Bastu & Onsen  
@@ -12,4 +15,4 @@ Vi har Ovanan för oss själva hela helgen. Här finns allt ni kan tänkas behö
 8. Gymmet  
 9. Bollen
 
-[Ladda ner kartan här](/images/maps/ovanan-final.png)
+[Ladda ner kartan utan siffror här](/images/maps/ovanan-final.png) (om du t.ex. vill tillverka en egen skattkarta)
