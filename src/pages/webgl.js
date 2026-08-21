@@ -86,18 +86,15 @@ export async function renderWebgl(app) {
               <div class="narrative-body" id="practical-body">Laddar…</div>
             </div>
             <div class="practical-sub">
-              <h3>Sova</h3>
               <div id="practical-sova">Laddar…</div>
             </div>
             <div class="practical-sub" hidden>
               <div id="my-sleeping"></div>
             </div>
             <div class="practical-sub">
-              <h3>Packning</h3>
               <div id="practical-packing">Laddar…</div>
             </div>
             <div class="practical-sub">
-              <h3>Bidra</h3>
               <div id="practical-bidra">Laddar…</div>
             </div>
           </div>

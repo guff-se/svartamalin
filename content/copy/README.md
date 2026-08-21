@@ -14,10 +14,10 @@ Vite globbar `content/copy/*.md` i `src/components/practical-info.js` (`import.m
 
 **Inte Supabase.** Tabellen `practical_info` används inte av sajten. Redigera md-filerna, inte databasen.
 
-Hårdkoda inte brödtext i komponenter. Rubriker i UI (t.ex. "Boende") får ligga i koden.
+Hårdkoda inte brödtext i komponenter. Underrubriker i Praktiskt (`### Överfart`, `### Sova` osv.) ligger i md-filerna, inte i HTML. Undantag: dynamiska rubriker som »Din sovplats«.
 
 ## Filnamn
 
 `{key}.md`. Exempel: `boat_friday.md` → nyckeln `boat_friday`, som `renderNarrative(..., { key: 'boat_friday' })`.
 
-Markdown som sajten förstår: `**fet**`, `[länk](https://…)`, radbrytningar.
+Markdown som sajten förstår: `##`/`###`/`####`-rubriker, `**fet**`, `[länk](https://…)`, radbrytningar.
