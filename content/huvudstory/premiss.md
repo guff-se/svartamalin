@@ -22,7 +22,7 @@ Vad handlar helgen om **under** piraterna? Fredag är överdåd, lördag är sve
 
 Kandidater, rangordnade efter hur väl de nu bär:
 
-- **Lojalitet som visar sig vara en vara man kan sälja.** Kontraktet med Karl XII. Malin prejar kollegorna med lagen i hand.
+- **Lojalitet som visar sig vara en vara man kan sälja.** Kärleksbrevet från Karl XII. Malin prejar kollegorna med lagen i hand.
 - **Att fira sig själv till döds.** Festen är fällan. Kaviar och rom är agnet.
 - **Vad man är skyldig den som gjort en till den man är.** Skuldbreven i kistan. Ännu oklart vems och för vad.
 - Att alla vill bli den som blir omsjungen, och att bara en kan
@@ -32,7 +32,7 @@ Kandidater, rangordnade efter hur väl de nu bär:
 
 Den enda faktan i världen som allt annat hänger på. Den ska gästerna **inte** veta från början, och den ska kunna avslöjas gradvis under lördagen.
 
-> Malins skatt är en lögn. I kistan ligger skuldbrev och ett kontrakt med Kung Karl XII: hon har förbundit sig att bjuda alla Salmonellahavets pirater på födelsedagsfest och fylla dem med rom, så att konungens män kan slå till i gryningen och arrestera dem. Festen är fällan. Kontraktet är också en kärleksakt: hon är i säng med kungen. Före kistan ska det se ut som att hennes hemliga älskare är någon på ön.
+> Malins skatt är en lögn. I kistan ligger skuldbrev och ett kärleksbrev från Kung Karl XII: hon har lovat att bjuda alla Salmonellahavets pirater på födelsedagsfest och fylla dem med rom, så att konungens män kan slå till i gryningen och arrestera dem. Festen är fällan. Brevet är kontraktet och kärleksakten. Före kistan ska det se ut som att hennes hemliga älskare är någon på ön.
 
 Krav på sanningen:
 
@@ -71,17 +71,17 @@ Tre bilder eller sinnesintryck som helgen ska leverera. De styr props, ljud och 
 
 1. En väl synlig kista som alla ser och ingen kan öppna.
 2. En cryptex som går från hand till hand, stjäls, vadslås bort och slarvas bort.
-3. Kaviar och rom på silver, sedan locket upp och en hög skuldbrev.
+3. Kaviar och rom på silver, sedan locket upp: en hög skuldbrev och ett kärleksbrev som läses högt.
 
 ## 7. Kopplingen till sången
 
 Sångtexten är vår kanon. Tre saker i den vi bygger på:
 
 - **Listorna.** Sången är i grunden tre listor över kaptener, och den sista listan är över lik. Skuldbreven i kistan är en fysisk lista. Vems, och för vad, är öppet.
-- **Prejandet.** "Det är sjörövarns rätt genom prejudikat." Malin har en juridisk självbild. Kontraktet med Kung Karl XII är prejudikatet vänt mot de egna.
+- **Prejandet.** "Det är sjörövarns rätt genom prejudikat." Malin har en juridisk självbild. Kärleksbrevet från Kung Karl XII är prejudikatet vänt mot de egna.
 - **"Vem är det som är still going strong."** Malin överlever alltid. I fiktionen: hon har köpt sig fri med de andras halsar. Metaregeln (Ran) tar vid efteråt och får inte nämnas.
 
-Födelsedagsfesten med kaviar och rom är både sångens vers och kontraktets villkor. Sista versen är fortfarande finalen och citeras inte i förväg.
+Födelsedagsfesten med kaviar och rom är både sångens vers och brevets villkor. Sista versen är fortfarande finalen och citeras inte i förväg.
 
 ## 8. Öppna val som blockerar allt annat
 

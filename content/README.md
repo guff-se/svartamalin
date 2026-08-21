@@ -1,11 +1,12 @@
 # content/
 
-Två slags gästtext, och intern text. Blanda inte ihop dem.
+Två slags gästtext på skärm, en på papper, och intern text. Blanda inte ihop dem.
 
 Gäster läser:
 
 - **Intriger** i `intriger/crews/` och `intriger/guests/` (inloggad, per person/lag)
 - **Sajtcopy** i `copy/` (all brödtext på webbsidan)
+- **Rekvisita** i `rekvisita/` (på papper, på ön, inte på sajten)
 
 Allt annat under `content/` läses av Gustaf och av framtida agenter. Ingen gäst ska se det.
 
@@ -18,10 +19,11 @@ Allt annat under `content/` läses av Gustaf och av framtida agenter. Ingen gäs
 | Lagintriger | [`intriger/crews/{id}.md`](intriger/crews/) | [`intriger/STYLE.md`](intriger/STYLE.md) |
 | Individintriger | [`intriger/guests/{slug}.md`](intriger/guests/) | samma |
 | Sajtens brödtext | [`copy/{key}.md`](copy/README.md) | Sajtrösten. **Inte** STYLE.md. |
+| Tryckt rekvisita | [`rekvisita/`](rekvisita/README.md) | Den fiktiva avsändaren. **Inte** STYLE.md. Inte på sajten. |
 
-`src/lib/intriger.js` globbar `crews/*.md` och `guests/*.md`. `src/components/practical-info.js` globbar `copy/*.md`. Båda bundlas vid build. Copy ligger **inte** i Supabase.
+`src/lib/intriger.js` globbar `crews/*.md` och `guests/*.md`. `src/components/practical-info.js` globbar `copy/*.md`. Båda bundlas vid build. Copy ligger **inte** i Supabase. `rekvisita/` globbas inte.
 
-STYLE.md gäller **bara** intrigfilerna. Skriv aldrig revyintriger i `copy/`, `huvudstory/` eller någon annanstans "för att det ska kännas som lajvet".
+STYLE.md gäller **bara** intrigfilerna. Skriv aldrig revyintriger i `copy/`, `rekvisita/`, `huvudstory/` eller någon annanstans "för att det ska kännas som lajvet".
 
 Format och gästlista för intriger: [`intriger/README.md`](intriger/README.md).
 
@@ -36,6 +38,7 @@ Skriv inte som om gästen läser. Ingen revyröst, ingen du-form till deltagaren
 | Vad | Var | Publiceras |
 |-----|-----|-----------|
 | Huvudstory, pussel, spelledning | [`huvudstory/`](huvudstory/README.md) | Nej |
+| Tryckt rekvisita (källtext) | [`rekvisita/`](rekvisita/README.md) | Nej på sajten. Ja på papper, på ön. |
 | Gästens eget karaktärsunderlag | [`roller/`](roller/README.md) | Nej |
 | Meta-anteckningar per person | [`anteckningar/`](anteckningar/README.md) | Nej |
 | Romanser och fiender (källistor) | [`intriger/romanser.yaml`](intriger/romanser.yaml), [`intriger/fiender.yaml`](intriger/fiender.yaml) | Nej |
@@ -43,7 +46,7 @@ Skriv inte som om gästen läser. Ingen revyröst, ingen du-form till deltagaren
 Gäller överallt i `content/`:
 
 - **Aldrig em dash.** Komma, kolon eller punkt.
-- **Inga lösningar i gästfilerna.** Hemligheter, facit och spelledning stannar i `huvudstory/`. Det gäller både intrigfiler och `copy/`.
+- **Inga lösningar i gästfilerna.** Hemligheter, facit och spelledning stannar i `huvudstory/`. Det gäller intrigfiler och `copy/`. Rekvisita i kistan får bära sanningen, det är därför den ligger där.
 
 ---
 

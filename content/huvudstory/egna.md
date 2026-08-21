@@ -20,6 +20,15 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-21, rekvisita och kärleksbrev i kistan
+
+Källa: Gustaf, i chatt. Införd i `content/rekvisita/`.
+
+- [x] Skapa en ny mapp i content för texter som skall skrivas ut och användas i rekvisita.
+- [x] Författa ett kärleksbrev från Karl XII till Svarta Malin, som avslöjar hennes förräderi. Detta brev skall ligga i kistan som öppnas i slutet.
+
+---
+
 ## 2026-08-20, pusselidéer
 
 Källa: Gustaf, i chatt. Parkerade i [`pussel.md`](pussel.md). Inte beslutade.

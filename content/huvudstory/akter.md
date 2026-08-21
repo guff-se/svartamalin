@@ -199,7 +199,7 @@ Väg 2:          de jagar varandra. Blodig och Hjärter är redan rivaler om hen
 Spelledarväg:   behövs inte. Inte bärande balk. Om ingen jagar: kistan bär punchlinen ändå.
 
 Pusselnod:      ingen
-Props:          inga egna. Miniatyren och kontraktets intima register väntar i kistan, K-07 och K-08.
+Props:          inga egna. Miniatyren och kärleksbrevet väntar i kistan, K-07 och K-08.
 Om det floppar: huvudstoryn går. Punchlinen vid B-42 träffar dem som jagat, och rummet i övrigt via miniatyren.
 
 #### B-14: Båtgrindarna
@@ -319,7 +319,7 @@ Pusselnod:      P-01
 Props:          cryptex, nyckel, kista
 Om det floppar: bypass 20.45. Se [`pussel.md`](pussel.md).
 
-#### B-42: Kontraktet, tändningen
+#### B-42: Kärleksbrevet, tändningen
 
 Akt:            IV
 Tid:            direkt efter B-41
@@ -327,17 +327,17 @@ Plats:          samma
 Inblandade:     den som öppnade eller den som skriker först. Sedan alla.
 Publik:         alla
 
-Vad händer:     i kistan ligger ingen skatt, utan en hög skuldbrev och ett kontrakt med Kung Karl XII. Kontraktet läses högt: Malin har sålt dem. Festen är fällan. Kungens män ska slå till i gryningen. Sista raden och miniatyrporträttet gör den andra sanningen omöjlig att missa: hon är i säng med kungen. De som jagat en rival i hamnen förstår vem de jagat. Man flyger på jubilaren.
+Vad händer:     i kistan ligger ingen skatt, utan en hög skuldbrev och ett kärleksbrev från Karl XII. Brevet läses högt: Malin har sålt dem. Festen är fällan. Kungens män ska slå till i gryningen. Hälsning, sista rad och miniatyrporträttet gör den andra sanningen omöjlig att missa: hon är i säng med kungen. De som jagat en rival i hamnen förstår vem de jagat. Man flyger på jubilaren.
 
 Vad ändras:     slutstriden har börjat. Den hemliga älskaren är inte någon på ön.
 
 Trigger:        kistans innehåll
 Väg 1:          någon läser högt
-Väg 2:          någon håller upp kontraktet och miniatyren och skriker innebörden
+Väg 2:          någon håller upp brevet och miniatyren och skriker innebörden
 Spelledarväg:   Malin erkänner, eller Spader läser. Samma innehåll.
 
 Pusselnod:      ingen. Detta är inte ett pussel.
-Props:          skuldbrev i hög, kontraktet (kort, sigill, trettio sekunder högt, intim sista rad), miniatyr av Karl XII
+Props:          skuldbrev i hög, kärleksbrevet (K-07, trettio sekunder högt), miniatyr av Karl XII
 Om det floppar: innehållet missas i tumult. Någon ställer sig på en bänk och läser igen. Miniatyren hålls upp. Striden får inte starta utan att rummet vet varför.
 
 ---
@@ -351,9 +351,9 @@ Den centrala sanningen delas i bitar. Varje bit får en rad. Regeln från [`RESE
 | Malin har en skattkista på ön | Kistan själv | Alla ser den | Malin nämner den | behövs inte | fredag |
 | Nyckeln ligger i en cryptex som cirkulerar | Cryptexen + lappen | Hitta den | Se den byta ägare | Spader sätter den i någons hand | lördag 11-ish |
 | Lösenordet (kandidat `HKHXII`) | Tre av fem quests + Malins XII | Questskatter | Tvärledtrådar mellan lag | XII syns på Malin vid serveringen | **20.00, inte tidigare** |
-| Ingen skatt. Skuldbrev och kontrakt. Festen är fällan. | Kistans innehåll | Öppna kistan | Någon skriker innebörden | Malin/Spader tvingar upp 20.45 | 20.40 |
+| Ingen skatt. Skuldbrev och kärleksbrev. Festen är fällan. | Kistans innehåll | Öppna kistan | Någon skriker innebörden | Malin/Spader tvingar upp 20.45 | 20.40 |
 | Malin har en hemlig älskare | Hjärter, Felix, Blodig | deras intrig | Malins undanflykter | behövs inte | lördag dag |
-| Älskaren är Karl XII | Kontraktets sista rad + miniatyren | Öppna kistan | Hålla upp miniatyren | samma som B-42, 20.45 | 20.40 |
+| Älskaren är Karl XII | Brevets hälsning och sista rad + miniatyren | Öppna kistan | Hålla upp miniatyren | samma som B-42, 20.45 | 20.40 |
 
 ## Om ingenting löses
 

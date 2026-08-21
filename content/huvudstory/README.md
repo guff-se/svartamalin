@@ -6,12 +6,13 @@ Karta för hela `content/`: [`../README.md`](../README.md).
 
 **Röst:** tydlig teknisk prosa. Högsta prioritet är att en framtida agent förstår filen. Ingen revyröst, ingen du-form till deltagaren, inga punchlines. STYLE.md gäller inte här. Varje fil i den här mappen inleds med samma intern-rad så det syns även om agenten öppnar bara en fil.
 
-Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.md`, och sajtens brödtext i [`../copy/`](../copy/README.md). Allt annat under `content/` är internt.
+Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.md`, och sajtens brödtext i [`../copy/`](../copy/README.md). Tryckt rekvisita i [`../rekvisita/`](../rekvisita/README.md) läses på papper, inte på sajten. Allt annat under `content/` är internt.
 
 | Vad | Var | Publiceras |
 |-----|-----|-----------|
 | Individuella och lagintriger | `content/intriger/{guests,crews}/*.md` | Ja, i UI per inloggad gäst |
 | Sajtens brödtext | [`../copy/`](../copy/README.md) (bundlas vid build) | Ja |
+| Tryckt rekvisita | [`../rekvisita/`](../rekvisita/README.md) | Ja på papper. Nej på sajten |
 | Gästens eget underlag | `content/roller/` | Nej |
 | Meta-anteckningar per person | `content/anteckningar/` | Nej |
 | **Huvudstory, pussel, spelledning** | **`content/huvudstory/` (här)** | **Nej** |
@@ -72,7 +73,7 @@ Fasta ramar. Ändras bara genom ett medvetet beslut som loggas i [`beslut.md`](b
 2. **Malin är osårbar och dödar alla.** Slutet är låst: alla dödas av Svarta Malin, hon återvänder som Ran. Detta får aldrig stå i gästtext.
 3. **Fredag är off-story.** Överdåd, ingen huvudstory-mekanik, inga pussel. Spelet startar på riktigt lördag förmiddag.
 4. **Ritualen 15.30 är obligatorisk pivot.** Huvudstoryn måste ha ett skäl att alla samlas då, och ritualen ska förändra spelets premiss efteråt.
-5. **Allt efter 15.30 måste fungera i påverkat tillstånd.** Inga pussel, ingen läsning av långa texter, ingen räkning eller logik efter ritualen. Bara kropp, bild, sång, känsla och rörelse. Se [`spelledning.md`](spelledning.md). Undantag vid 20.00: slå in sex redan kända bokstäver i cryptexen, och höra kontraktet läsas högt. Ingen ny logik, ingen lång text.
+5. **Allt efter 15.30 måste fungera i påverkat tillstånd.** Inga pussel, ingen läsning av långa texter, ingen räkning eller logik efter ritualen. Bara kropp, bild, sång, känsla och rörelse. Se [`spelledning.md`](spelledning.md). Undantag vid 20.00: slå in sex redan kända bokstäver i cryptexen, och höra kärleksbrevet läsas högt. Ingen ny logik, ingen lång text.
 6. **Play to lose gäller före all pusselmekanik.** Om ett pussel och ett drama krockar vinner dramat. Ingen deltagare får bli en flaskhals som stoppar helgen.
 7. **Ingen deltagare får sakna uppgift när gästtexten är skriven.** Var och en ska ha minst en sak i huvudstoryn att vilja, veta eller bära. Kontrolleras mot [`fordelning.yaml`](fordelning.yaml) i den omgången, inte under designfasen.
 8. **Alla existerande intriger är kanon.** Huvudstoryn får bygga på romanser och fiendskaper i `romanser.yaml` och `fiender.yaml`, men inte motsäga dem.
@@ -80,7 +81,7 @@ Fasta ramar. Ändras bara genom ett medvetet beslut som loggas i [`beslut.md`](b
 10. **Sista versen i sången är finalen.** Slutstriden ska eka den, aldrig citera utgången i förväg.
 11. **Allt pågår samtidigt och får kollidera.** Huvudstory, skattjakt, romanser och fiendskaper är inte isolerade spår. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd.
 12. **Gästerna vet att det finns en huvudstory innan helgen.** De vet inte vad den är. Frön får stå i intrigfiler och i gästcopy. Fredag är fortfarande utan mekanik.
-13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins sista ledtråd, som hon ger när hon serverar. All ledtrådssamling sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns ingen skatt, utan skuldbrev och kontraktet med Karl XII. Kontraktet är också en kärleksakt. Det är tändningen.
+13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins sista ledtråd, som hon ger när hon serverar. All ledtrådssamling sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns ingen skatt, utan skuldbrev och ett kärleksbrev från Karl XII. Brevet är kontraktet och kärleksakten. Det är tändningen. Trycktext: [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md).
 14. **Aldrig ensam på vattnet.** Off-regel, hela helgen. Ingen eka, kajak, paddel eller bad utan sällskap. Ingen story-bit, intrig eller pussel får kräva att någon åker ut eller badar själv.
 15. **Båtarna sköts av Kuling och Rödskägg.** Kapten Kuling (`josefinlowing`) och Kapten Rödskägg (`viktoransund`) har hand om eka, kajak och paddel. En *skriven* intrig som kräver sjöfärd går primärt genom att övertala en av dem att ge sig ut, för spel och interaktion. Man **får** åka ut utan dem. Off-regeln är bara: aldrig ensam.
 16. **Låt saker som hittas av misstag få vara.** Off-regel, sägs i genomgången. Gäster löser gåtor och uppdrag, inte brute force. Ingen story-bit, skatt eller pussel får kräva att ön ransakas. Den som råkar hitta något de inte söker lämnar det.

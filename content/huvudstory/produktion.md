@@ -18,8 +18,8 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-04 | Nyckel till kistan, inuti cryptexen | B-41 | Passar K-01. Får plats i cryptexen. | | | saknas |
 | K-05 | Reservnyckel till kistan | P-01 bypass, 20.45 | Hos spelledning hela helgen. Dolt. | | | saknas |
 | K-06 | Hög med skuldbrev | B-42 | Visuell mängd, inte en läsuppgift. Tåla att spridas ut. | | | saknas |
-| K-07 | Kontraktet med Kung Karl XII | B-42 | Sigill. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Sista raden intim, så sängen med kungen landar utan ny logik. | | | saknas |
-| K-08 | Miniatyrporträtt av Karl XII | B-42 | Liten, synlig när locket går upp, liggande på kontraktet. Ingen text som måste läsas. Ska läsas som bild: hon är i säng med kungen. | | | saknas |
+| K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Text: [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md) | | | utkast |
+| K-08 | Miniatyrporträtt av Karl XII | B-42 | Liten, synlig när locket går upp, liggande på kärleksbrevet. Ingen text som måste läsas. Ska läsas som bild: hon är i säng med kungen. | | | saknas |
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
@@ -74,7 +74,7 @@ Sådant som ska produceras i repot eller skickas till tryck.
 
 | Vad | Format | Var i repot | Status |
 |-----|--------|-------------|--------|
-| Kontraktet med Kung Karl XII | Tryck eller handskrift, sigill, intim sista rad | | utkast saknas |
+| Kärleksbrev från Karl XII (K-07) | Tryck eller handskrift, sigill, ett blad | [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md) | utkast |
 | Miniatyr av Karl XII | Bild, liten, i kistan | | utkast saknas |
 | Skuldbrev | Handskrift, visuell hög | | utkast saknas |
 | Kaptenslistan som fysiskt dokument | Tryck | | |

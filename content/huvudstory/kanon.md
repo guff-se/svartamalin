@@ -66,11 +66,11 @@ Beslutat 2026-08-18. Källa: [`beslut.md`](beslut.md), [`premiss.md`](premiss.md
 3. Nyckeln ligger i en cryptex med sex bokstävers kombination.
 4. På cryptexen sitter en lapp: "Denna tappas lätt bort." Den som hittar den kommer snart att förlora den, genom slagsmål, vadslagning, stöld eller slarv.
 5. Cryptexens lösenord går inte att kläcka utan XII. XII sitter på Malins halsband, som hon sätter på till slutfesten. Den syns när hon serverar kaviar och rom. Tre parallella quests per skuta ger de andra bokstäverna. Se [`pussel.md`](pussel.md).
-6. I kistan finns ingen skatt. Där ligger en stor hög skuldbrev, ett kontrakt med Kung Karl XII, och ett miniatyrporträtt av kungen.
-7. Kungen i kontraktet är **Karl XII**.
-8. I kontraktet har Svarta Malin förbundit sig att bjuda alla Salmonellahavets pirater på födelsedagsfest och fylla dem med rom, så att konungens män kan slå till i gryningen och arrestera dem alla.
-9. Upptäckten av kontraktet är det som tänder slutstriden. Kungens män kommer aldrig. Gryningen spelas inte.
-10. Kontraktets sista rad är intim. Miniatyren gör sängen läsbar som bild. Kistans exakta plats, vems skuldbreven är och vad Malin får i utbyte är inte kanon än. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins XII. Queststories är låsta i [`quests.md`](quests.md). Lösenord och questmekanik är det inte. Se [`pussel.md`](pussel.md).
+6. I kistan finns ingen skatt. Där ligger en stor hög skuldbrev, ett kärleksbrev från Karl XII till Svarta Malin, och ett miniatyrporträtt av kungen. Brevet *är* kontraktet. Inget separat juridiskt papper för tändningen. Trycktext: [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md).
+7. Kungen i brevet är **Karl XII**.
+8. I brevet står att Svarta Malin har lovat att samla Salmonellahavets kaptener till födelsedagsfest och fylla dem med kaviar och rom, så att konungens män kan slå till i gryningen och arrestera dem alla. Festen är fällan. I gengäld stryker kungen hennes skulder och sätter Korvetten Kurtisanen på hennes namn.
+9. Upptäckten av brevet är det som tänder slutstriden. Kungens män kommer aldrig. Gryningen spelas inte.
+10. Brevets hälsning och sista rad är intima (`min hjärtans`, `Din till döden`). Miniatyren gör sängen läsbar som bild. Kistans exakta plats och vems skuldbreven är förblir öppet. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins XII. Queststories är låsta i [`quests.md`](quests.md). Lösenord och questmekanik är det inte. Se [`pussel.md`](pussel.md).
 
 ### Malin och Karl XII
 
@@ -80,7 +80,7 @@ Beslutat 2026-08-20. Källa: [`beslut.md`](beslut.md).
 2. Hon får ha andra romanser samtidigt, med gäster på ön. Flera romanser krockar inte med kanon. De krockar gärna i spelet.
 3. I gästtext och rykten före kistan: hon har en **hemlig älskare**. Älskaren ska framstå som någon som är med på ön. Aldrig som någon långt borta, aldrig med kungens namn.
 4. De som redan brinner för henne (**Kapten Hjärter**, **Katten Felix**, **Kapten Blodig**) får veta att hon gömmer någon. De ska leta bland kaptenerna i hamnen.
-5. Sanningen, att älskaren är kungen, avslöjas först när kistan öppnas. Kontraktet bär ett intimt register, och i kistan ligger ett miniatyrporträtt av Karl XII. Rummet ska förstå det utan ny logik.
+5. Sanningen, att älskaren är kungen, avslöjas först när kistan öppnas. Kärleksbrevet bär det intima registret, och i kistan ligger ett miniatyrporträtt av Karl XII. Rummet ska förstå det utan ny logik.
 6. Malin vet att det är kungen. Hon vet inte att kistan kommer att öppnas. Utåt: värdinnan som låter hamnen gissa fel.
 
 ### Lagskatter och förrädare
@@ -129,12 +129,12 @@ Detta är bakgrundsspåret. Det är inte längre kanonens hjärta: det är kista
 | Fråga | Svar | Beslutat |
 |-------|------|----------|
 | Varför överlever hon alltid? | TBD. I fiktionen: hon har sålt de andra till Karl XII. Metaregeln tar vid efteråt. | delvis, 2026-08-18 |
-| Vad är hon skyldig, och vem? | Hon har förbundit sig mot Kung Karl XII. Skuldbreven i kistan: vems och för vad är öppet. Hon ligger också med honom. | delvis, 2026-08-20 |
+| Vad är hon skyldig, och vem? | Hon har förbundit sig mot Kung Karl XII. Brevet i kistan stryker skulderna mot förräderiet. Skuldbrevens hög: vems och för vad är öppet. Hon ligger också med honom. | delvis, 2026-08-21 |
 | Vad vill hon egentligen ha av festen? | Uppfylla kontraktet: samla piraterna och fylla dem med rom. | 2026-08-18 |
 | Vem är hennes hemliga älskare? | Karl XII. Före kistan ska det se ut som någon på ön. | 2026-08-20 |
 | Första kärleken? | Q-1. Får ljuga. Får inte vara kungen. Questen säger också att hon var kurtisan och att skutan är döpt efter yrket. Yrket är inte låst kanon. | delvis, 2026-08-20 |
 | Hur blev hon pirat? | Q-2. Får ljuga. Inkluderar hur hon blev Svarta. Inte Ran. | delvis, 2026-08-20 |
-| Hur fick hon Kurtisanen? | Sången: hon prejade sin egen korvett. Beslut 2026-08-18: köpt på kredit. **Q-3 berättar preja-versionen och ska ljuga.** Sanningen sitter i kistan. | 2026-08-20 |
+| Hur fick hon Kurtisanen? | Sången: hon prejade sin egen korvett. Beslut 2026-08-18: köpt på kredit. **Q-3 berättar preja-versionen och ska ljuga.** Sanningen sitter i kistan: kungen sätter korvetten på hennes namn. | 2026-08-21 |
 | Hur fick hon ön? | Q-4. Ovanan är hennes hamn. Questen får ljuga om bytet. Får inte säga att kajen är en fälla. | delvis, 2026-08-20 |
 | Samlar hon skulder? | Q-5 visar metoden (IOU:er, eder, namn). Kistans hög visas inte i questen. Vems skuldbreven är förblir öppet. | delvis, 2026-08-20 |
 
