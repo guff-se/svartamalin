@@ -3,8 +3,6 @@
 Vi har Ovanan för oss själva hela helgen. Här finns allt ni kan tänkas behöva. Kök inne och ute. Fina sovrum. Två badrum och dusch (att samsas om). Bastu, bad, hopptorn. Kajaker, sup, motorbåt. Verkstad, verktyg, ljudystem.
 Är det något särskilt du undrar över så tveka inte att fråga.
 
-Här är en lista på 
-
 1. Hamnen  
 2. Bastu & Onsen  
 3. Badbryggan  
