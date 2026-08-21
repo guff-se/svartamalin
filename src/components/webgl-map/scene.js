@@ -418,7 +418,7 @@ export async function buildScene() {
   // Ovanan-overlay + x-marks läggs SIST så de renderas ovanpå seaLabel
   // (SALMONELLAHAVET) — annars syns texten genom ön.
   const OVANAN_W = 5.5
-  const OVANAN_H = OVANAN_W * (1536 / 1024)  // 8.25
+  const OVANAN_H = OVANAN_W * (1551 / 1014)  // ovanan-final.png
   const ovananMap = new Sprite(textures.ovananMap)
   ovananMap.anchor.set(0.5, 0.5)
   ovananMap.width = OVANAN_W
