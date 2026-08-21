@@ -82,7 +82,7 @@ export async function renderWebgl(app) {
             <div class="narrative-body" id="practical-body">Laddar…</div>
             <div class="practical-layout">
               <figure class="practical-img">
-                <img src="/images/maps/ovanan.jpg" alt="Ovanan" />
+                <img src="/images/maps/ovanan-siffror.jpg" alt="Ovanan" />
               </figure>
               <div class="narrative-body" id="practical-ovanan">Laddar…</div>
             </div>
