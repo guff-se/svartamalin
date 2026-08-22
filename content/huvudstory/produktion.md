@@ -22,9 +22,8 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-08 | Miniatyrporträtt av Karl XII | B-42 | Liten, synlig när locket går upp, liggande på kärleksbrevet. Ingen text som måste läsas. Ska läsas som bild: hon är i säng med kungen. | | | saknas |
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
 | Q1-01 | Dagboksblad före förräderiet, två halvor | P-02 | Vertikalt rivet. Ingen halva läsbar ensam. Tåla utomhus, i flaska eller vaxduk. Kort. Oskyldig Malin, ingen hämnd. Text: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md). Avskrift hos spelledning. | | | utkast |
-| Q1-02 | Ottos sigill | P-03 | Ring med adelsvapen. Inte krona. Namn Otto von Pälspung får stå. Inte kungligt. Gå att gömma en lapp i eller runt. | | | saknas |
 | Q1-03 | Cryptex-lapp i påsen | P-03 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
-| Q1-04 | Dagboksblad efter hämnden | P-03 | Helt blad. Ligger med sigillet och Q1-03. Kort. Receptet och skeppsnamnet. Text: [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md). Avskrift hos spelledning. | | | utkast |
+| Q1-04 | Dagboksblad efter hämnden | P-03 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md). Avskrift hos spelledning. | | | utkast |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
@@ -38,7 +37,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 | Piratstugan möbleras | Södra Ovanan | | Fredag eller tidigt lördag | |
 | Verkstadsförråd byggs om | Verkstaden | | Före helgen om möjligt | |
 | Gubben i stubben / Gumman på udden | Norra och södra ändan av Ovanan | kort | Lördag före 10.30. Ladda Q1-01 i flaska eller under docka, vaxduk. Dockor och flaskor stannar. | |
-| Klätternätet, sigillet | Högt i nätet | kort | Lördag före 10.30. Inte fredag: ingen mekanik då, och påsen syns. Knuten, inte en flagga. I påsen: Q1-02, Q1-03, Q1-04. | |
+| Klätternätet, Q-1-påsen | Högt i nätet | kort | Lördag före 10.30. Inte fredag. Knuten, inte en flagga. I påsen: Q1-03 och Q1-04. Inget sigill. | |
 | Kistan ställs fram | TBD, väl synlig | kort | Fredag före ankomst, eller under installationen 17.30 | |
 | Cryptexen laddas (nyckel in, lapp på) | TBD var den kommer in lördag | kort | Lördag före 10.30 | |
 | Svärdfiskens gap laddas | Vardagsrummet | | Löpande under lördagen | |

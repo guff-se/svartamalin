@@ -25,7 +25,7 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Skylt på annan ö** | Idé: text läsbar bara genom kikaren. **Inte beslutad.** | Envägsinformation | Parkerad. Kräver förarbete om vi kör | |
 | **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1 / P-02. Vänster halva av dagboksbladet. | II |
 | **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1 / P-02. Höger halva av dagboksbladet. | II |
-| **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1 / P-03. Sigillet högt i nätet. | II |
+| **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1 / P-03. Påsen med blad två och cryptex-lappen, högt i nätet. | II |
 | **Gymmet** | Styrketräningsgym i egen byggnad | 4 till 8 personer | TBD | |
 | **Bryggan och storbåten** | Ankomst och avfärd | Alla | Ankomst fredag, avfärd söndag | Ram |
 | **Matsal och festplats** | Middag fredag, brunch lördag, festen 20.00 | Alla | Överdåd fredag, brunch 14.00, kaviar och rom, kistan öppnas | I, III, IV |

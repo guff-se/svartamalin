@@ -6,7 +6,7 @@ prop: Q1-04
 
 # Dagboksblad, efter hämnden
 
-Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med sigillet och cryptex-lappen i klätternätet.
+Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med cryptex-lappen i klätternätet.
 
 ## Tryck
 

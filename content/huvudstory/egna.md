@@ -38,6 +38,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.
 - [x] Vad som inte avslöjas, men som finns med bakom kulisserna, är att Malin fortfarande är kurtisan och nu i säng med Karl XII.
 - [x] Vi kan ge adelsmannen ett namn. Greve Otto von Pälspung.
 - [x] Det skall skapas två texter till denna quest. Två dagboksblad. Ett som delas i två delar och som blir ledtrådar. Ett till som ligger tillsammans med kryptex-ledtråden i slutet. Så det första dagboksinlägget är från före Malin har blivit förrådd, det beskriver den oskyldiga Malin. Det andra är efter hon har utmätt sin hämnd.
+- [x] Ta bort Ottos sigill som en bit rekvisita som skall produceras.
 
 Kryss = inlagt i designen. Gömställe för minnet är agentdesign, se [`quests.md`](quests.md). Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md).
 

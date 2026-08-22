@@ -102,7 +102,7 @@ Runtime:
 
 ### Q-1: engångsquest, kurtisanen
 
-Halvorna och sigillet är unika. Tre skutor tävlar. Första laget bär föremålen. De andra två får lappen genom stöld, byte eller avskrift.
+Halvorna och påsen är unika. Tre skutor tävlar. Första laget bär föremålen. De andra två får lappen genom stöld, byte eller avskrift.
 
 Runtime:
 

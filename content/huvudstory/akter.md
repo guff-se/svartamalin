@@ -252,7 +252,7 @@ Plats:          Gubben i stubben, Gumman på udden, klätternätet
 Inblandade:     tre skutor TBD. Start i en namngiven intrig, inte Hjärter, Felix, Blodig.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
-Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser den oskyldiga Malin och var sigillet sitter, tar påsen högt i klätternätet. I påsen: Ottos sigill, blad två (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen.
+Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser den oskyldiga Malin och var hon gömt sigillet, tar påsen högt i klätternätet. I påsen: blad två (hämnden) och cryptex-lappen. Inget fysiskt sigill. Engångs: första laget bär föremålen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 
@@ -262,7 +262,7 @@ Väg 2:          någon hittar en halva, den andra saknas, de frågar runt
 Spelledarväg:   se [`spelledning.md`](spelledning.md) Q-1. Avskrift bara om halvorna är förlorade. Inte extra uppsättning.
 
 Pusselnod:      P-02, P-03
-Props:          Q1-01, Q1-02, Q1-03, Q1-04
+Props:          Q1-01, Q1-03, Q1-04
 Om det floppar: tre andra quests plus XII räcker fortfarande för de skutor som inte hade Q-1. En Q-1-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
 ---
