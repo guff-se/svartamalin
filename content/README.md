@@ -19,7 +19,7 @@ Allt annat under `content/` läses av Gustaf och av framtida agenter. Ingen gäs
 | Lagintriger | [`intriger/crews/{id}.md`](intriger/crews/) | [`intriger/STYLE.md`](intriger/STYLE.md) |
 | Individintriger | [`intriger/guests/{slug}.md`](intriger/guests/) | samma |
 | Sajtens brödtext | [`copy/{key}.md`](copy/README.md) | Sajtrösten. **Inte** STYLE.md. |
-| Tryckt rekvisita | [`rekvisita/`](rekvisita/README.md) | Den fiktiva avsändaren. **Inte** STYLE.md. Inte på sajten. |
+| Tryckt rekvisita | [`rekvisita/`](rekvisita/README.md) | Den fiktiva avsändaren. **Inte** STYLE.md. Inte på sajten. Max 10 rader meta, sedan `## Tryck`. |
 
 `src/lib/intriger.js` globbar `crews/*.md` och `guests/*.md`. `src/components/practical-info.js` globbar `copy/*.md`. Båda bundlas vid build. Copy ligger **inte** i Supabase. `rekvisita/` globbas inte.
 

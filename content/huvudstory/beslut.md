@@ -48,6 +48,7 @@ Två listor. Beslut som är tagna, och frågor som blockerar arbetet. Ett beslut
 | 2026-08-22 | Q-1 är engångsquest | Halvorna och sigillet tas. Tre skutor tävlar. Förlorarna får lappen genom stöld, byte eller avskrift. Inte kopior på plats. | [`quests.md`](quests.md), [`pussel.md`](pussel.md), [`egna.md`](egna.md) |
 | 2026-08-22 | Q-1 story: kurtisanen och adelsmannen | Malin var kär i Greve Otto von Pälspung, utnyttjad och övergiven för lägre stånd, hämnades som kurtisan i hans krets. Stal hemligheter, förrådde honom, tog allt. Receptet för piratkarriären. Yrket är kanon. Bakom kulisserna: hon är fortfarande kurtisan, nu med Karl XII. Otto är inte någon på ön. | [`quests.md`](quests.md), [`kanon.md`](kanon.md), [`egna.md`](egna.md) |
 | 2026-08-22 | Q-1 har två dagboksblad | Första bladet, före förräderiet, rivs i två halvor och är ledtråden. Andra bladet, efter hämnden, ligger med cryptex-lappen. | [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md) |
+| 2026-08-22 | Rekvisitafiler är papperstext | Max 10 rader meta. Resten är Tryck. Spelledning och design stannar i huvudstory. | [`../rekvisita/README.md`](../rekvisita/README.md) |
 
 ---
 

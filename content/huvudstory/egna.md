@@ -20,6 +20,14 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-22, rekvisita är papperstext
+
+Källa: Gustaf, i chatt. Införd i [`../rekvisita/README.md`](../rekvisita/README.md).
+
+- [x] Vi har problem med agent-rutiner för content/rekvisita/. Jag vill ha hjälp med att skriva texter, inte långa beskrivningar om texterna. Meta-info kan vara max 10 rader. Bara en kort text om texten.
+
+---
+
 ## 2026-08-22, Q-1 story och engångsquest
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.md), [`beslut.md`](beslut.md).

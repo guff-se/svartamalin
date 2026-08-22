@@ -1,52 +1,28 @@
 # Rekvisita: texter att trycka
 
-Gästerna läser det här **på papper**, på ön. Inte på sajten. Inte i UI. Filerna globbas inte av `src/lib/intriger.js` och inte av `practical-info.js`.
+Gästerna läser det här **på papper**, på ön. Inte på sajten. Inte i UI.
 
-Det här är inte [`huvudstory/`](../huvudstory/README.md). Designen av vad papperet *gör* i spelet ligger där. Här ligger **själva texten** som ska stå på rekvisitan.
-
-Karta för hela `content/`: [`../README.md`](../README.md).
-
----
-
-## Vad som hör hit
-
-Brev, kontrakt, dagboksblad, lappar, skuldbrev, skyltar och allt annat som skrivs ut eller handskrives och sedan används som prop.
-
-Inte:
-
-- Intrigtext till inloggad gäst (`../intriger/`)
-- Sajtens brödtext (`../copy/`)
-- Spelledning, facit, kanon (`../huvudstory/`)
-
----
-
-## Röst
-
-Varje tryckt text talar med **den fiktiva avsändarens röst**. Inte STYLE.md (ingen revy, ingen du-form till deltagaren). Inte intern agentprosa.
-
-Karl XII skriver som kung. Malin skriver som Malin. En IOU skriver som den som är skyldig.
-
-Aldrig em dash. Komma, kolon eller punkt.
-
-Ingen tryckt text får spoila metaregeln (alla dör, Malin blir Ran) eller sista versens utgång.
+Här ligger **själva texten**. Design, spelledning, högläsning, facit och konsistens hör hemma i [`../huvudstory/`](../huvudstory/README.md), inte i filerna här.
 
 ---
 
 ## Filformat
 
-Varje fil har två lager, i den ordningen:
+Varje fil:
 
-1. **Intern ram.** Vad prop:en är, var den ligger, när den läses, hur lång högläsning, konsistens mot kanon. Tydlig prosa för en framtida agent.
-2. **Tryck.** Exakt den text som ska stå på papperet. Inget mer. Det avsnittet kopieras till tryck eller handskrift.
+1. **Max 10 rader meta** överst: titel plus en kort text om vad papperet är.
+2. **`## Tryck`**, sedan exakt den text som ska stå på papperet.
 
-Lägg inte facit, bypass eller spelledning i Tryck-avsnittet.
+Skriv inte högläsning, bypass, prop-id, noder, laddtid eller får-inte-listor i rekvisitafilen. Agenten ska skriva papperstexten, inte beskriva den.
+
+Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, ingen sista vers.
 
 ---
 
 ## Register
 
-| Fil | Prop | Var | Status |
-|-----|------|-----|--------|
-| [`karl-xii-karleksbrev.md`](karl-xii-karleksbrev.md) | K-07. Kärleksbrev från Karl XII, som också är kontraktet | Malins kista, öppnas ca 20.00 | utkast |
-| [`malin-dagboksblad-fore.md`](malin-dagboksblad-fore.md) | Q1-01. Dagboksblad före förräderiet, två halvor | Gubben i stubben och Gumman på udden | utkast |
-| [`malin-dagboksblad-efter.md`](malin-dagboksblad-efter.md) | Q1-04. Dagboksblad efter hämnden | Klätternätet, med sigillet och cryptex-lappen | utkast |
+| Fil | Vad | Var |
+|-----|-----|-----|
+| [`karl-xii-karleksbrev.md`](karl-xii-karleksbrev.md) | Kärleksbrev från Karl XII, också kontraktet | Malins kista |
+| [`malin-dagboksblad-fore.md`](malin-dagboksblad-fore.md) | Dagboksblad före förräderiet, två halvor | Gubben och Gumman |
+| [`malin-dagboksblad-efter.md`](malin-dagboksblad-efter.md) | Dagboksblad efter hämnden | Klätternätet, med sigillet |
