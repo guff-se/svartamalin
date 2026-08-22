@@ -12,11 +12,11 @@ Amanda Mungsgård · Fregatten Fromheten
 
 ## Karaktär
 
-Det är en enda stor blockering och ingenting kommer fram men jag är ju spontant bra på att leka sektledare och skenhelig så det får väl bli nått i den stilen. Jag är ledsen att så är fallet men lite att göra åt med deadline på formulär :) förhoppningsvis löser det sig när vår grupp ses
+kapten kosing kommer att införa någon slags korruption av betalning på ön där folk ska betala arvssynd skatt
 
 ## Föremål
 
-En skatt med mynt
+En skatt med mynt och sedlar
 
 ## Göra / inte göra
 
@@ -24,4 +24,6 @@ Kommer göra en hemlig ät upplevelse med Johanna
 
 ## Övrigt
 
-Johanna eftersom vi planerat en sak tillsammans. Skulle va kul att göra något med Ludde men ej förankrat med honom. Ingenting med Mini direkt personligen pga orkar inte forcera något
+Johanna eftersom vi planerat en sak tillsammans. Skulle va kul att göra något med Ludvig Von Bahr. Ingenting med Mini direkt personligen
+
+Vill ej vara med i något för högintensivt och dramatiskt intensivt som innefattar att stå i centrum med hela gänget omkring mig, bli indragen i nån slags kidnappning eller annat.

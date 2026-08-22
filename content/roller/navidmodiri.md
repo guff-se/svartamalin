@@ -12,16 +12,20 @@ Navid Modiri · Fregatten Fördärvet
 
 ## Karaktär
 
-_Tomt._
+Kapten Dövers hemlighet är att han egentligen inte är döv utan bara trött på sitt egna 
+( och av och till även andras ) pladder. Teckenspråket han slarvigt använder sig av är ett rent påhitt då Kapten Döver inte tagit sig tiden att lära sig varken läsa eller skriva. 
+Det hindrar dock inte kaptenen att frenetiskt vifta med händerna i något slags påhittat handbabbel som hans omgivning knappt begriper fragment av.
+Denna hemliga psuedonedsättning gör det även möjligt för kapten Döver att tjuvlyssna på andra när de pratar, då de tror att han är döv och inte hör vad de säger. 
+Detta bidrar till en stor fara då en av besättningsmedlemmarna från de andra skeppen besitter kunskapen av faktiskt teckenspråk och riskerar att avslöja kapten Dövers hemlighet under helgen.
 
 ## Föremål
 
-_Tomt._
+En magisk flaska med sanningsserum.
 
 ## Göra / inte göra
 
-_Tomt._
+Kapten Döver håller en workshop i teckenspråk.
 
 ## Övrigt
 
-_Tomt._
+Kapten Dövers stora nemesis är Kapten Hjärter - som han gladeligen och så ofta han kan gärna saboterar för och försöker på alla sätt och vis att hindra från sina uppdrag.
