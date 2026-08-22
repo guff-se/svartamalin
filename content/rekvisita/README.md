@@ -48,4 +48,5 @@ Lägg inte facit, bypass eller spelledning i Tryck-avsnittet.
 | Fil | Prop | Var | Status |
 |-----|------|-----|--------|
 | [`karl-xii-karleksbrev.md`](karl-xii-karleksbrev.md) | K-07. Kärleksbrev från Karl XII, som också är kontraktet | Malins kista, öppnas ca 20.00 | utkast |
-| [`malin-dagboksblad.md`](malin-dagboksblad.md) | Q1-01. Dagboksblad, två halvor | Gubben i stubben och Gumman på udden, lördag förmiddag | utkast |
+| [`malin-dagboksblad-fore.md`](malin-dagboksblad-fore.md) | Q1-01. Dagboksblad före förräderiet, två halvor | Gubben i stubben och Gumman på udden | utkast |
+| [`malin-dagboksblad-efter.md`](malin-dagboksblad-efter.md) | Q1-04. Dagboksblad efter hämnden | Klätternätet, med sigillet och cryptex-lappen | utkast |

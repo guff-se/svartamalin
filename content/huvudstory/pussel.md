@@ -182,23 +182,23 @@ Kräver:         Q-1-start i en spelares intrig (tre skutor TBD)
 Tid:            5 till 15 minuter att gå mellan uddarna. Själva läsningen under en minut.
 Målgrupp:       tre skutor, tävling
 
-Lösning:        hämta båda halvorna, håll ihop dem vertikalt, läs bladet. Texten pekar mot sigillet i klätternätet.
+Lösning:        hämta båda halvorna, håll ihop dem vertikalt, läs bladet. Oskyldig Malin. Texten pekar mot sigillet i klätternätet.
 
 Ledtråd:        starten säger att något är delat på två uddar, eller pekar mot Gubben och Gumman. Halvorna ligger vid trädocka och flaska, inte löst på bänken.
-Självvalidering: de två bitarna passar. Texten blir läsbar.
+Självvalidering: de två bitarna passar. Texten blir läsbar. Ingen hämnd i den här texten.
 
 Hint 1 riktning: det ni söker sitter inte på en udde. Det sitter på två.
 Hint 2 objekt: Gubben i stubben har den ena. Gumman på udden har den andra. Titta vid dockan och flaskan.
 Hint 3 metod: bladet är rivet på höjden. Håll ihop kanterna.
 Hint 4 lösning: vänster halva hos Gubben, höger hos Gumman. Läs. Sista raderna säger var sigillet sitter.
 
-Bypass:         om halvorna är borta: fråga vem som satt vid bänkarna i förmiddag. Om de är förlorade: Spader har en läsbar avskrift av det hopsatta bladet, inte cryptex-lappen. Kedjan går vidare till P-03.
-Props:          Q1-01, två halvblad. Tryck: [`../rekvisita/malin-dagboksblad.md`](../rekvisita/malin-dagboksblad.md). Avskrift hos spelledning.
+Bypass:         om halvorna är borta: fråga vem som satt vid bänkarna i förmiddag. Om de är förlorade: Spader har en läsbar avskrift av det hopsatta första bladet, inte cryptex-lappen, inte det andra bladet. Kedjan går vidare till P-03.
+Props:          Q1-01, två halvblad. Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md). Avskrift hos spelledning.
 Testat:         nej
 
 Engångs: halvorna tas. Första laget bär dem. Andra lag avskriver, stjäl eller byter. Trädockor och flaskor stannar.
 
-### P-03: Adelsmannens sigill
+### P-03: Ottos sigill och blad två
 
 Typ:            sök / kropp
 Plats:          klätternätet, högt i nätet
@@ -207,21 +207,21 @@ Kräver:         P-02 (det hopsatta bladet säger var)
 Tid:            några minuter att få ned. Inte ett klätterprov. Hitta något långt eller klättra kort.
 Målgrupp:       tre skutor, tävling
 
-Lösning:        hämta påsen högt i klätternätet. I den ligger ett sigill. I sigillet ligger cryptex-lappen.
+Lösning:        hämta påsen högt i klätternätet. I den ligger Ottos sigill, det andra dagboksbladet (efter hämnden) och cryptex-lappen.
 
-Ledtråd:        dagboksbladets sista rader. Ingen annan pekare. Den som råkar se påsen och inte söker den lämnar den.
-Självvalidering: sigill med adelsvapen (inte krona). Lapp inuti.
+Ledtråd:        första bladets sista rader. Ingen annan pekare. Den som råkar se påsen och inte söker den lämnar den.
+Självvalidering: sigill med adelsvapen (inte krona). Ett helt andra blad om hämnden. Lapp inuti eller bredvid.
 
 Hint 1 riktning: inte vid bänkarna. Bladet ni just läste säger vart hon gömde minnet.
 Hint 2 objekt: klätternätet. Titta högt, inte i gräset.
 Hint 3 metod: få ned påsen. En stång, en åra, eller klättra. Det ska ta en stund, inte kräva en atlet.
-Hint 4 lösning: påse knuten högt i nätet. Sigill i påsen. Lapp i sigillet.
+Hint 4 lösning: påse knuten högt i nätet. Sigill, andra bladet och lappen i påsen.
 
-Bypass:         om sigillet är taget: jaga den som tog det. Lappen får stjälas, bytas, avskrivas. Om det är förlorat på riktigt: spelledning har reservlapp med samma bokstav. Om ingen når P-03 före brunchen: Spader ger Q-1-starten en riktning mot nätet, inte mot kungen.
-Props:          Q1-02 sigill, Q1-03 cryptex-lapp, påse. Reservlapp hos spelledning.
+Bypass:         om påsen är tagen: jaga den som tog den. Lappen får stjälas, bytas, avskrivas. Om den är förlorad på riktigt: spelledning har reservlapp och avskrift av andra bladet. Om ingen når P-03 före brunchen: Spader ger Q-1-starten en riktning mot nätet, inte mot kungen.
+Props:          Q1-02 sigill, Q1-03 cryptex-lapp, Q1-04 andra bladet, påse. Tryck: [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md). Reservlapp hos spelledning.
 Testat:         nej
 
-Engångs: sigillet och lappen tas. Tre skutor tävlar. Förlorarna får lappen socialt.
+Engångs: påsen tas. Tre skutor tävlar. Förlorarna får lappen socialt.
 
 ### Q-1 till Q-5
 
@@ -257,16 +257,16 @@ Testat:         nej
 #### Q-1: Första kärleken
 
 Story:          se quests.md. Inte här.
-Uppgifter:      P-02 två halvor, P-03 sigillet.
+Uppgifter:      P-02 två halvor av första bladet, P-03 sigillet med andra bladet.
 Bokstav:        TBD
 Ingångar:       tre skutor TBD
 Start:          slug TBD, i den personens intrig. Inte Hjärter, Felix, Blodig.
 Pit stop 1:     P-02, Gubben och Gumman. Ingen andras info krävs.
 Pit stop 2:     (ingen)
 Tvärledtråd:    TBD när skutorna tillsätts. Meningslös utan questet. Kandidat: att något är rivet norr och söder.
-Skatt:          P-03, sigillet i klätternätet, cryptex-lappen inuti.
+Skatt:          P-03, sigillet i klätternätet, andra bladet och cryptex-lappen i påsen.
 Bypass:         se P-02 och P-03.
-Props:          Q1-01, Q1-02, Q1-03. Avskrift och reservlapp hos spelledning.
+Props:          Q1-01, Q1-02, Q1-03, Q1-04. Avskrift och reservlapp hos spelledning.
 Testat:         nej
 
 ---

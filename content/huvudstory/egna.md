@@ -28,8 +28,10 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.
 - [x] Malin var kär i en adelsman, men utnyttjade och övergav henne eftersom hon var av lägre stånd. Hon bestämde sig för att ta ut hämnd. Genom att sälja sig som kurtisan till andra män i adelskretsarna fick hon fram information om hennes gamla kärlek, så att hon kunde förråda honom, förnedra honom och ta allt han ägde.
 - [x] Detta blev receptet på hennes framgångar. Hon fortsatte som kurtisan. Hon tog inte bara betalt från sina kunder, hon stal deras hemligheter. Hon använde sin kunskap för att utpressa, förråda och som information för sitt prejande. Hennes affärer i sängen med överklassen är och har alltid varit centralt för hennes karriär som pirat.
 - [x] Vad som inte avslöjas, men som finns med bakom kulisserna, är att Malin fortfarande är kurtisan och nu i säng med Karl XII.
+- [x] Vi kan ge adelsmannen ett namn. Greve Otto von Pälspung.
+- [x] Det skall skapas två texter till denna quest. Två dagboksblad. Ett som delas i två delar och som blir ledtrådar. Ett till som ligger tillsammans med kryptex-ledtråden i slutet. Så det första dagboksinlägget är från före Malin har blivit förrådd, det beskriver den oskyldiga Malin. Det andra är efter hon har utmätt sin hämnd.
 
-Kryss = inlagt i designen. Adelsmannen är namnlös. Gömställe för minnet och dagboksbladets tryck är agentdesign efteråt, se [`quests.md`](quests.md).
+Kryss = inlagt i designen. Gömställe för minnet är agentdesign, se [`quests.md`](quests.md). Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md).
 
 ---
 

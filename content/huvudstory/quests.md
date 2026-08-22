@@ -39,7 +39,7 @@ När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråd
 
 | id | Namn | Vad gästen ska ha lärt sig | Sanning vs lögn |
 |----|------|----------------------------|-----------------|
-| Q-1 | Första kärleken | Malin var kurtisan. Sängen är underrättelse och hämnd. Skutan är döpt efter yrket. | Yrket är kanon. Första personen är en namnlös adelsman, inte kungen. Hon är fortfarande kurtisan: det sitter bakom kulisserna. |
+| Q-1 | Första kärleken | Malin var kurtisan. Sängen är underrättelse och hämnd. Skutan är döpt efter yrket. | Yrket är kanon. Första personen är Greve Otto von Pälspung, inte kungen. Hon är fortfarande kurtisan: det sitter bakom kulisserna. |
 | Q-2 | Hur hon blev pirat | Hon tog sjörövarns rätt. Hon tog namnet Svarta. | Ursprung och gammalt namn får ljuga. Inte Ran. |
 | Q-3 | Korvetten | Hon prejade sin egen korvett. | **Lögn.** Sanningen: köpt på kredit. Sitter i kistan. |
 | Q-4 | Ön | Hon fick Ovanan med list. Hamnen är ett gammalt löfte. | Får ljuga om bytet. Får inte säga att kajen är en fälla. |
@@ -53,13 +53,13 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 
 **Vad gästerna ska jaga:** Vem Malin älskade först, och varför skutan heter Kurtisanen.
 
-**Vad de ska ha lärt sig när questen är klar:** Malin sålde närhet innan hon var kapten. Hon gör sängen till underrättelse. Första kärleken var en adelsman som utnyttjade henne. Hon hämnades genom att sälja sig till hans krets, stjäla deras hemligheter, förråda honom och ta allt han ägde. Det blev receptet. Skeppet är döpt efter yrket.
+**Vad de ska ha lärt sig när questen är klar:** Malin sålde närhet innan hon var kapten. Hon gör sängen till underrättelse. Första kärleken var Greve Otto von Pälspung, som utnyttjade henne. Hon hämnades genom att sälja sig till hans krets, stjäla deras hemligheter, förråda honom och ta allt han ägde. Det blev receptet. Skeppet är döpt efter yrket.
 
-**Cirkulerande version (det som får stå i gästtext och på dagboksbladet):** Malin var kär i en adelsman. Han utnyttjade henne och övergav henne för att hon var av lägre stånd. Hon tog hämnd: hon sålde sig som kurtisan till andra män i adelskretsarna, fick fram information om honom, förrådde honom, förnedrade honom och tog allt han ägde. Hon fortsatte som kurtisan. Hon tog inte bara betalt. Hon stal hemligheter och använde dem till utpressning, svek och prejning. Affärer i sängen med överklassen är och har alltid varit centralt för hennes karriär som pirat. Skutan heter Kurtisanen efter yrket.
+**Cirkulerande version (det som får stå i gästtext och på dagboksbladet):** Malin var kär i Greve Otto von Pälspung. Han utnyttjade henne och övergav henne för att hon var av lägre stånd. Hon tog hämnd: hon sålde sig som kurtisan till andra män i adelskretsarna, fick fram information om honom, förrådde honom, förnedrade honom och tog allt han ägde. Hon fortsatte som kurtisan. Hon tog inte bara betalt. Hon stal hemligheter och använde dem till utpressning, svek och prejning. Affärer i sängen med överklassen är och har alltid varit centralt för hennes karriär som pirat. Skutan heter Kurtisanen efter yrket.
 
-**Sanning enligt kanon:** Cirkulerande version är sann. Adelsmannen är namnlös, inte kungen, inte någon på ön. Yrket kurtisan är kanon, inte bara questens påstående. Skeppets namn är kanon. **Bakom kulisserna, får inte in i questen:** hon är fortfarande kurtisan, och nu i säng med Karl XII. Det avslöjas i kistan, inte här.
+**Sanning enligt kanon:** Cirkulerande version är sann. Otto von Pälspung är inte kungen och inte någon på ön. Yrket kurtisan är kanon, inte bara questens påstående. Skeppets namn är kanon. **Bakom kulisserna, får inte in i questen:** hon är fortfarande kurtisan, och nu i säng med Karl XII. Det avslöjas i kistan, inte här.
 
-**Får ljuga om:** Hans namn (helst inget namn alls). Om han lever. Hur totalt ruinen var. Om sigillet verkligen är hans.
+**Får ljuga om:** Om han lever. Hur totalt ruinen var. Om sigillet verkligen är hans.
 
 **Får inte:**
 
@@ -71,7 +71,7 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 
 **Håll isär från:**
 
-- S-01 (Hjärter, Felix, Blodig jagar en rival i hamnen). Q-1 är dåtid, en namnlös adelsman som är borta. S-01 är nutid, någon de tror sitter vid bordet. Vid tillsättning: kolla att Q-1-starten inte landar på samma tre.
+- S-01 (Hjärter, Felix, Blodig jagar en rival i hamnen). Q-1 är dåtid, Otto von Pälspung som är borta. S-01 är nutid, någon de tror sitter vid bordet. Vid tillsättning: kolla att Q-1-starten inte landar på samma tre.
 - Q-3. Q-1 = namnet som yrke och säng. Q-3 = hur hon tog skutan.
 - Q-5. Q-1 = hemligheter ur sängen, hämnd på en man. Q-5 = boken med andras skulder. Ingen skuldbok i den här questen.
 
@@ -80,25 +80,25 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 **Skrivstöd:**
 
 - Ton i gästtext: skvaller om ett gammalt yrke, en gammal hämnd, ett skeppsnamn. Inte en jakt på den nuvarande älskaren.
-- Props: dagboksbladet (två halvor, vertikalt rivet) och adelsmannens sigill. Inte ett porträtt av Karl XII. Inte miniatyren i kistan. Bladet ska vara kort. Ingen novell. Tryck: [`../rekvisita/malin-dagboksblad.md`](../rekvisita/malin-dagboksblad.md).
+- Props: två dagboksblad. Det första (oskyldig Malin) rivs vertikalt, halvor vid Gubben och Gumman. Det andra (efter hämnden) ligger med sigillet och cryptex-lappen i klätternätet. Inte ett porträtt av Karl XII. Inte miniatyren i kistan. Båda korta. Ingen novell. Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md).
 
 **Mekanik:** form låst 2026-08-20. Engångs låst 2026-08-22. Noder: [`pussel.md`](pussel.md) P-02, P-03.
 
-Platser: **Gubben i stubben** och **Gumman på udden** (var sin halva). **Klätternätet** (sigillet, cryptex-lappen).
+Platser: **Gubben i stubben** och **Gumman på udden** (var sin halva av det första bladet). **Klätternätet** (sigillet, andra bladet, cryptex-lappen).
 
 Kedja:
 
 1. Start (intrig) pekar mot de två bänkarna, eller mot att något är delat på två uddar.
-2. Pit stop: hämta båda halvorna. De är ett vertikalt rivet dagboksblad. Ingen halva är läsbar ensam. Tillsammans: kurtisanåret, hämnden, receptet, var sigillet sitter.
-3. Skatt: adelsmannens sigill, högt i klätternätet. I det ligger cryptex-lappen.
+2. Pit stop: hämta båda halvorna. De är ett vertikalt rivet dagboksblad från **före** förräderiet. Oskyldig Malin, Otto, var sigillet sitter. Ingen hämnd i den texten.
+3. Skatt: Ottos sigill, högt i klätternätet. I påsen ligger också det **andra** dagboksbladet (efter hämnden) och cryptex-lappen.
 
-Props: två fysiska halvblad. Ett sigill (ring med adelsvapen, inte krona, inget gästnamn). Cryptex-lapp i sigillet.
+Props: två fysiska halvblad (Q1-01). Ett sigill (Q1-02). Cryptex-lapp (Q1-03). Ett helt andra blad (Q1-04).
 
-**Engångs, avsiktligt:** halvorna och sigillet tas. Tre skutor har ingång och tävlar. Första laget som fullföljer bär de unika föremålen. De andra två får dem genom stöld, byte, avskrift eller hot. Cryptex-lappen är ett fysiskt papper och får cirkulera som cryptexen. Det är spelet, inte ett fel.
+**Engångs, avsiktligt:** halvorna, sigillet och båda bladen tas. Tre skutor har ingång och tävlar. Första laget som fullföljer bär de unika föremålen. De andra två får dem genom stöld, byte, avskrift eller hot. Cryptex-lappen är ett fysiskt papper och får cirkulera som cryptexen. Det är spelet, inte ett fel.
 
-Bypass om halvorna är borta: fråga vem som satt vid bänkarna. Spader har en läsbar avskrift av det hopsatta bladet (inte cryptex-lappen), så kedjan kan gå vidare till nätet. Bypass om sigillet är borta: jaga den som tog det. Om det är förlorat på riktigt: spelledning har en reservlapp. Om ingen springer Q-1 före brunchen: Spader ger starten en riktning, inte sanningen om kungen.
+Bypass om halvorna är borta: fråga vem som satt vid bänkarna. Spader har en läsbar avskrift av det hopsatta första bladet (inte cryptex-lappen, inte det andra bladet), så kedjan kan gå vidare till nätet. Bypass om påsen är borta: jaga den som tog den. Om den är förlorad på riktigt: spelledning har reservlapp och avskrift av andra bladet. Om ingen springer Q-1 före brunchen: Spader ger starten en riktning, inte sanningen om kungen.
 
-Får inte i bladet eller på sigillet: kungen, nuvarande älskare på ön, kreditköpet av Kurtisanen, adelsmannens namn, krona som kan läsas som kungligt.
+Får inte i något av bladen eller på sigillet: kungen, nuvarande älskare på ön, kreditköpet av Kurtisanen, krona som kan läsas som kungligt. Ottos namn får och ska stå. Hämnden och skeppsnamnet står bara i det andra bladet.
 
 ---
 
