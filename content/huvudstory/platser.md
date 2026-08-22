@@ -23,9 +23,9 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Segelbåten vid bojen** (Tvåkronan) | Båt en bit ut, kräver simning eller eka. Aldrig ensam. | 2 till 4 personer, hög tröskel | TBD. Parkerad idé: 2-kronorsmynt ombord, se [`pussel.md`](pussel.md) | |
 | **Kikaren** | Väldigt bra kikare, ser andra öar | 1 person i taget, kö uppstår | TBD | |
 | **Skylt på annan ö** | Idé: text läsbar bara genom kikaren. **Inte beslutad.** | Envägsinformation | Parkerad. Kräver förarbete om vi kör | |
-| **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1. Ena halvan av dagboksbladet. | II |
-| **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1. Andra halvan av dagboksbladet. | II |
-| **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | TBD. Parkerad idé: ledtråd högt upp, se [`pussel.md`](pussel.md) | |
+| **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1 / P-02. Vänster halva av dagboksbladet. | II |
+| **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1 / P-02. Höger halva av dagboksbladet. | II |
+| **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1 / P-03. Sigillet högt i nätet. | II |
 | **Gymmet** | Styrketräningsgym i egen byggnad | 4 till 8 personer | TBD | |
 | **Bryggan och storbåten** | Ankomst och avfärd | Alla | Ankomst fredag, avfärd söndag | Ram |
 | **Matsal och festplats** | Middag fredag, brunch lördag, festen 20.00 | Alla | Överdåd fredag, brunch 14.00, kaviar och rom, kistan öppnas | I, III, IV |

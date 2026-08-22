@@ -4,7 +4,7 @@ Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, in
 
 Använd den här filen när du skriver gästtext i `content/intriger/crews/` eller `guests/`, eller pit stops i [`pussel.md`](pussel.md). **Cirkulerande version** är rykte-fakta att lägga in i gästtext, inte färdig STYLE.md-prosa. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
 
-Status: **story låst 2026-08-20**. Mekanik delvis: Q-1 och Q-2 har form. Q-3 och Q-4 saknar form. Q-5 har en idé. Hint-trappa, bypass och bokstäver låses i [`pussel.md`](pussel.md) när noden byggs.
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form. Q-3 och Q-4 saknar form. Q-5 har en idé. Hint-trappa, bypass och bokstäver låses i [`pussel.md`](pussel.md) när noden byggs.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
 
@@ -39,7 +39,7 @@ När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråd
 
 | id | Namn | Vad gästen ska ha lärt sig | Sanning vs lögn |
 |----|------|----------------------------|-----------------|
-| Q-1 | Första kärleken | Malin var kurtisan. Kärlek är kontrakt. Skutan är döpt efter yrket. | Första personen är inte kungen. Yrket är questens påstående, inte låst kanon. |
+| Q-1 | Första kärleken | Malin var kurtisan. Sängen är underrättelse och hämnd. Skutan är döpt efter yrket. | Yrket är kanon. Första personen är en namnlös adelsman, inte kungen. Hon är fortfarande kurtisan: det sitter bakom kulisserna. |
 | Q-2 | Hur hon blev pirat | Hon tog sjörövarns rätt. Hon tog namnet Svarta. | Ursprung och gammalt namn får ljuga. Inte Ran. |
 | Q-3 | Korvetten | Hon prejade sin egen korvett. | **Lögn.** Sanningen: köpt på kredit. Sitter i kistan. |
 | Q-4 | Ön | Hon fick Ovanan med list. Hamnen är ett gammalt löfte. | Får ljuga om bytet. Får inte säga att kajen är en fälla. |
@@ -49,52 +49,56 @@ När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråd
 
 ## Q-1: Första kärleken
 
-Sammanslagen av: första kärleken + Kurtisanen före skeppet.
+Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-22. Källa: Gustaf, [`egna.md`](egna.md).
 
 **Vad gästerna ska jaga:** Vem Malin älskade först, och varför skutan heter Kurtisanen.
 
-**Vad de ska ha lärt sig när questen är klar:** Malin sålde närhet innan hon var kapten. Hon gör kärlek till avtal. Skeppet är döpt efter yrket.
+**Vad de ska ha lärt sig när questen är klar:** Malin sålde närhet innan hon var kapten. Hon gör sängen till underrättelse. Första kärleken var en adelsman som utnyttjade henne. Hon hämnades genom att sälja sig till hans krets, stjäla deras hemligheter, förråda honom och ta allt han ägde. Det blev receptet. Skeppet är döpt efter yrket.
 
-**Cirkulerande version (det som får stå i gästtext):** Malin var kurtisan i hamnarna innan hon var kapten. Hon tog betalt. Hon lärde sig eder och vem som ljuger i sängen. En affär slutade med ett kontrakt hon fortfarande håller. Sedan tog hon ett skepp och behöll titeln.
+**Cirkulerande version (det som får stå i gästtext och på dagboksbladet):** Malin var kär i en adelsman. Han utnyttjade henne och övergav henne för att hon var av lägre stånd. Hon tog hämnd: hon sålde sig som kurtisan till andra män i adelskretsarna, fick fram information om honom, förrådde honom, förnedrade honom och tog allt han ägde. Hon fortsatte som kurtisan. Hon tog inte bara betalt. Hon stal hemligheter och använde dem till utpressning, svek och prejning. Affärer i sängen med överklassen är och har alltid varit centralt för hennes karriär som pirat. Skutan heter Kurtisanen efter yrket.
 
-**Sanning enligt kanon:** Första kärleken är öppen. Får inte vara kungen. Yrket kurtisan är questens påstående, inte låst kanon. Skeppets namn är kanon. Affären med Karl XII är kanon men får inte in i den här questen.
+**Sanning enligt kanon:** Cirkulerande version är sann. Adelsmannen är namnlös, inte kungen, inte någon på ön. Yrket kurtisan är kanon, inte bara questens påstående. Skeppets namn är kanon. **Bakom kulisserna, får inte in i questen:** hon är fortfarande kurtisan, och nu i säng med Karl XII. Det avslöjas i kistan, inte här.
 
-**Får ljuga om:** Vem den första var. Om yrket varade. Om det var ära eller nöd. Om kontraktet fortfarande gäller. Om hen lever.
+**Får ljuga om:** Hans namn (helst inget namn alls). Om han lever. Hur totalt ruinen var. Om sigillet verkligen är hans.
 
 **Får inte:**
 
 - Peka ut kungen.
-- Peka ut någon på ön som *är* den hemliga älskaren. S-01 ska kunna korsa tråden och gissa fel.
-- Säga att hon fortfarande säljer sig till makt.
+- Peka ut någon på ön som *är* den första älskaren, eller som *är* den hemliga älskaren nu. S-01 ska kunna korsa tråden och gissa fel.
+- Säga att hon fortfarande säljer sig till makt, eller att kunden nu är kungen.
 - Säga att Kurtisanen köptes på kredit. Det hör till Q-3 och kistan, inte hit.
+- Förklara hur hon blev pirat (Q-2) eller hur hon tog skutan (Q-3). Receptet får nämnas. Kuppen får inte.
 
 **Håll isär från:**
 
-- S-01 (Hjärter, Felix, Blodig jagar en rival i hamnen). Samma säng, annan jakt. Vid tillsättning: kolla att Q-1 inte blir en andra älskarjakt för samma tre.
+- S-01 (Hjärter, Felix, Blodig jagar en rival i hamnen). Q-1 är dåtid, en namnlös adelsman som är borta. S-01 är nutid, någon de tror sitter vid bordet. Vid tillsättning: kolla att Q-1-starten inte landar på samma tre.
 - Q-3. Q-1 = namnet som yrke och säng. Q-3 = hur hon tog skutan.
+- Q-5. Q-1 = hemligheter ur sängen, hämnd på en man. Q-5 = boken med andras skulder. Ingen skuldbok i den här questen.
 
-**Efter kistan (intern, inte gästtext):** Sängen var inte ny. Bara kunden. Miniatyren och kontraktets sista rad omtolkar Q-1.
+**Efter kistan (intern, inte gästtext):** Samma recept. Ny kund. Miniatyren och kärleksbrevets sista rad omtolkar Q-1: sängen var inte ny, bara kunden.
 
 **Skrivstöd:**
 
-- Ton i gästtext: skvaller om ett gammalt yrke och en gammal affär. Inte en jakt på den nuvarande älskaren.
-- Props: dagboksbladet (två halvor) och minnet från den första älskaren. Inte ett porträtt av Karl XII. Inte miniatyren. Bladet ska vara kort. Ingen novell.
+- Ton i gästtext: skvaller om ett gammalt yrke, en gammal hämnd, ett skeppsnamn. Inte en jakt på den nuvarande älskaren.
+- Props: dagboksbladet (två halvor, vertikalt rivet) och adelsmannens sigill. Inte ett porträtt av Karl XII. Inte miniatyren i kistan. Bladet ska vara kort. Ingen novell. Tryck: [`../rekvisita/malin-dagboksblad.md`](../rekvisita/malin-dagboksblad.md).
 
-**Mekanik:** form låst 2026-08-20. Nod inte byggd.
+**Mekanik:** form låst 2026-08-20. Engångs låst 2026-08-22. Noder: [`pussel.md`](pussel.md) P-02, P-03.
 
-Platser: **Gubben i stubben** och **Gumman på udden**. En halva av brevet på varje plats.
+Platser: **Gubben i stubben** och **Gumman på udden** (var sin halva). **Klätternätet** (sigillet, cryptex-lappen).
 
 Kedja:
 
 1. Start (intrig) pekar mot de två bänkarna, eller mot att något är delat på två uddar.
-2. Pit stop: hämta båda halvorna. Tillsammans är de ett dagboksblad om Malins år som kurtisan. I texten finns en ledtråd till var hon gömt ett minne från sin första älskare.
-3. Skatt: minnet. I det ligger cryptex-ledtråden. Var minnet är gömt: TBD.
+2. Pit stop: hämta båda halvorna. De är ett vertikalt rivet dagboksblad. Ingen halva är läsbar ensam. Tillsammans: kurtisanåret, hämnden, receptet, var sigillet sitter.
+3. Skatt: adelsmannens sigill, högt i klätternätet. I det ligger cryptex-lappen.
 
-Props: två fysiska halvblad som blir läsbara ihop. Ett minne (föremål TBD). Cryptex-lapp i minnet.
+Props: två fysiska halvblad. Ett sigill (ring med adelsvapen, inte krona, inget gästnamn). Cryptex-lapp i sigillet.
 
-Öppet, Gustaf: detta gör Q-1 till ett **engångs-quest**, eftersom ledtrådarna försvinner när någon tar halvorna och minnet. Tre skutor ska kunna springa samma kedja. Lös innan bygge: kopior, att bladen stannar på plats och avskrivs, eller att minnet bär flera identiska lappar. Bypass om halvorna är borta.
+**Engångs, avsiktligt:** halvorna och sigillet tas. Tre skutor har ingång och tävlar. Första laget som fullföljer bär de unika föremålen. De andra två får dem genom stöld, byte, avskrift eller hot. Cryptex-lappen är ett fysiskt papper och får cirkulera som cryptexen. Det är spelet, inte ett fel.
 
-Får inte i bladet: kungen, nuvarande älskare på ön, kreditköpet av Kurtisanen. Namnet på den första får ljuga.
+Bypass om halvorna är borta: fråga vem som satt vid bänkarna. Spader har en läsbar avskrift av det hopsatta bladet (inte cryptex-lappen), så kedjan kan gå vidare till nätet. Bypass om sigillet är borta: jaga den som tog det. Om det är förlorat på riktigt: spelledning har en reservlapp. Om ingen springer Q-1 före brunchen: Spader ger starten en riktning, inte sanningen om kungen.
+
+Får inte i bladet eller på sigillet: kungen, nuvarande älskare på ön, kreditköpet av Kurtisanen, adelsmannens namn, krona som kan läsas som kungligt.
 
 ---
 
@@ -134,7 +138,7 @@ Platser: **Södra Ovanan** och **piratstugan**. Stugan är Svarta Malins ursprun
 
 Kedja: TBD. Starten ska peka mot stugan eller mot att hon bodde där innan hamnen. Pit stops och skatt (cryptex-bokstaven) låses när föremålen i stugan finns.
 
-Logistik: överfart, aldrig ensam. Ekan 5 personer, 2 minuter. Kajaker och SUP 10 minuter, minst två farkoster. Gärna via Kuling eller Rödskägg för spel. Man får paddla utan dem. Allt på Södra Ovanan klart före 13.30. Stugan tar 6 till 10. Tre skutor kan turas om. Inte samma engångsproblem som Q-1, så länge föremålen stannar i rummet.
+Logistik: överfart, aldrig ensam. Ekan 5 personer, 2 minuter. Kajaker och SUP 10 minuter, minst två farkoster. Gärna via Kuling eller Rödskägg för spel. Man får paddla utan dem. Allt på Södra Ovanan klart före 13.30. Stugan tar 6 till 10. Tre skutor kan turas om. Föremålen stannar i rummet. Inte engångs som Q-1.
 
 Får inte i stugan: Ran, civilnamn, Karl XII, förräderiet, skelettets identitet som krav.
 
@@ -251,7 +255,7 @@ När locket går upp ska de fem kapitlen omtolkas utan ny logik. Skriv inte omto
 
 | Quest | Omtolkning |
 |-------|------------|
-| Q-1 | Sängen var ett yrke. Kunden i kistan är kungen. |
+| Q-1 | Samma recept. Ny kund. Kunden i kistan är kungen. |
 | Q-2 | Samma juridiska självbild, nu mot de egna. |
 | Q-3 | Prejningen var en faktura. |
 | Q-4 | Hamnen var scenen hon redan hade. |

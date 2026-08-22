@@ -88,9 +88,9 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). | tre skutor per quest, start i namngivna intrigfiler | TBD per Q-n | P-01 vid festen |
+| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). Q-1 är engångs, B-16. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Övriga TBD. | P-01 vid festen |
 | Optiska spåret | TBD. Skylten är parkerad, kikaren finns | | Kikaren (skylten bara om vi beslutar den) | |
-| Kropps- och tävlingsspåret | TBD | | Klätternätet, vattnet, Södra Ovanan | |
+| Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | P-01 |
 | Älskarspåret | Malin gömmer någon. Hjärter, Felix och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Felix, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
 | Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
@@ -243,6 +243,27 @@ Spelledarväg:   behövs inte. Inte bärande balk.
 Pusselnod:      ingen
 Props:          TBD med S-02. Lösskäggs skäggsäck finns redan i underlaget.
 Om det floppar: de tre hatar varandra ändå. Huvudstoryn stannar inte.
+
+#### B-16: Q-1, kurtisanen
+
+Akt:            II
+Tid:            10.30 till 13.30
+Plats:          Gubben i stubben, Gumman på udden, klätternätet
+Inblandade:     tre skutor TBD. Start i en namngiven intrig, inte Hjärter, Felix, Blodig.
+Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
+
+Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser hämnden och receptet, tar sigillet högt i klätternätet. Cryptex-lappen ligger i sigillet. Engångs: första laget bär föremålen.
+
+Vad ändras:     rummet vet att hon var kurtisan, att sängen är underrättelse, att första kärleken var en adelsman hon ruinerade. Inte att kunden nu är kungen.
+
+Trigger:        Q-1-start i individintrig, när den är skriven
+Väg 1:          de tre lagen tävlar, ett vinner föremålen, de andra stjäl eller avskriver
+Väg 2:          någon hittar en halva, den andra saknas, de frågar runt
+Spelledarväg:   se [`spelledning.md`](spelledning.md) Q-1. Avskrift bara om halvorna är förlorade. Inte extra uppsättning.
+
+Pusselnod:      P-02, P-03
+Props:          Q1-01, Q1-02, Q1-03
+Om det floppar: tre andra quests plus XII räcker fortfarande för de skutor som inte hade Q-1. En Q-1-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
 ---
 

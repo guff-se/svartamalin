@@ -100,6 +100,19 @@ Runtime:
 4. **Hjärter, Felix och Blodig** får jaga fel person. Det är poängen. Play to lift: ge dem en scen, inte sanningen.
 5. **Vid B-42:** miniatyren upp, sista raden hörs. Då får hon erkänna. Inte förrän.
 
+### Q-1: engångsquest, kurtisanen
+
+Halvorna och sigillet är unika. Tre skutor tävlar. Första laget bär föremålen. De andra två får lappen genom stöld, byte eller avskrift.
+
+Runtime:
+
+1. **Tomma bänkar.** Dockor och flaskor ligger kvar. Papperet är borta. Peka mot vem som satt där, inte mot kungen.
+2. **Hamstring.** Play to lose. Andra tar, byter, avskriver. Ge inte en extra uppsättning halvor.
+3. **Avskrift.** Spader har det hopsatta bladet, dolt. Bara om båda halvorna är förlorade på riktigt, inte för att ett lag kom sist.
+4. **Sigillet borta.** Jaga den som tog det. Reservlapp bara om föremålet är borta från ön.
+5. **Ingen springer Q-1 före brunchen.** Ge starten en riktning mot Gubben och Gumman. Inte sanningen om kungen. Inte en extra lapp i knät.
+6. **Malin tillfrågas om adelsmannen.** Hon får bekräfta dåtiden: kurtisan, hämnd, receptet. Hon namnger inte honom. Hon kopplar inte till någon i hamnen. Hon säger inte att hon gör om det nu.
+
 ### Låt saker som hittas av misstag få vara
 
 Off-regel. Sägs i genomgången. Gäller lagskatter, pusselprops och ledtrådar.

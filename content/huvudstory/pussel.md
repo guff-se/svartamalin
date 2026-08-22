@@ -50,7 +50,7 @@ Testat:         nej / ja, datum
 
 ## Pusselgraf
 
-Konvergenspunkten och **formen på banorna** är beslutade. **Storyn i de fem questsen är beslutad 2026-08-20.** Q-1 och Q-2 har mekanikform i [`quests.md`](quests.md). Q-1:s engångsproblem och Q-5:s porträttvägg är öppna. Start, skutor, bokstäver och hint-trappa är inte låsta. Ursprung: Gustaf, [`egna.md`](egna.md). Källa: [`beslut.md`](beslut.md) 2026-08-20.
+Konvergenspunkten och **formen på banorna** är beslutade. **Storyn i de fem questsen är beslutad 2026-08-20. Q-1 relåst 2026-08-22.** Q-1 och Q-2 har mekanikform i [`quests.md`](quests.md). Q-1 är engångsquest. Q-5:s porträttvägg är öppen. Start, skutor, bokstäver är inte låsta. Ursprung: Gustaf, [`egna.md`](egna.md). Källa: [`beslut.md`](beslut.md).
 
 ```
 Q-1 --pit stop(s)--> skatt (1 eller 2 bokstäver)
@@ -91,7 +91,7 @@ Story låst 2026-08-20. Full text, får-inte-listor och skrivstöd: [`quests.md`
 
 | id | Namn | Lär gästen | Sanning vs lögn |
 |----|------|------------|-----------------|
-| Q-1 | Första kärleken | Kurtisan, kärlek som kontrakt, skeppets namn | Inte kungen. Yrket är questens påstående. |
+| Q-1 | Första kärleken | Kurtisan, sängen som underrättelse, skeppets namn | Yrket är kanon. Inte kungen. Hon är fortfarande kurtisan: bakom kulisserna. |
 | Q-2 | Hur hon blev pirat | Sjörövarns rätt + namnet Svarta | Får ljuga. Inte Ran. |
 | Q-3 | Korvetten | Hon prejade sin egen korvett | **Lögn.** Kreditköpet sitter i kistan. |
 | Q-4 | Ön | Hur hon fick Ovanan. Hamnen är ett löfte. | Får ljuga om bytet. Inte fällan. |
@@ -113,7 +113,7 @@ Kontroller att köra på grafen varje gång den ändras:
 - [ ] Start sitter i en spelares intrig, inte bara i lagfilen?
 - [ ] Tvärledtrådar till de två quests skutan saknar: meningslösa utan questet?
 - [ ] Tre quests plus XII ger sex bokstäver, för varje skuta?
-- [ ] Varje quest har både storyline och minst en uppgift? Story låst. Uppgift inte.
+- [ ] Varje quest har både storyline och minst en uppgift? Q-1 ja. Övriga story låst, uppgift inte.
 - [x] Queststoryn lär något om Malins historia, och spoilar inte Karl XII eller förräderiet? Ja. Se [`quests.md`](quests.md).
 - [ ] Ingen nod med fler än två beroenden nedströms som saknar bypass?
 - [ ] Är typerna varierade, alltså inte fem kodlås i rad?
@@ -173,9 +173,59 @@ Så att vi inte råkar designa en gåta som går att gissa före 20.00:
 - Inte ett ord som sitter ihop om man bara har fem av sex bokstäver
 - Inte en sista ledtråd som bara säger "ni hade rätt"
 
+### P-02: Dagboksbladets två halvor
+
+Typ:            sök
+Plats:          Gubben i stubben (vänster halva), Gumman på udden (höger halva)
+Låser upp:      P-03
+Kräver:         Q-1-start i en spelares intrig (tre skutor TBD)
+Tid:            5 till 15 minuter att gå mellan uddarna. Själva läsningen under en minut.
+Målgrupp:       tre skutor, tävling
+
+Lösning:        hämta båda halvorna, håll ihop dem vertikalt, läs bladet. Texten pekar mot sigillet i klätternätet.
+
+Ledtråd:        starten säger att något är delat på två uddar, eller pekar mot Gubben och Gumman. Halvorna ligger vid trädocka och flaska, inte löst på bänken.
+Självvalidering: de två bitarna passar. Texten blir läsbar.
+
+Hint 1 riktning: det ni söker sitter inte på en udde. Det sitter på två.
+Hint 2 objekt: Gubben i stubben har den ena. Gumman på udden har den andra. Titta vid dockan och flaskan.
+Hint 3 metod: bladet är rivet på höjden. Håll ihop kanterna.
+Hint 4 lösning: vänster halva hos Gubben, höger hos Gumman. Läs. Sista raderna säger var sigillet sitter.
+
+Bypass:         om halvorna är borta: fråga vem som satt vid bänkarna i förmiddag. Om de är förlorade: Spader har en läsbar avskrift av det hopsatta bladet, inte cryptex-lappen. Kedjan går vidare till P-03.
+Props:          Q1-01, två halvblad. Tryck: [`../rekvisita/malin-dagboksblad.md`](../rekvisita/malin-dagboksblad.md). Avskrift hos spelledning.
+Testat:         nej
+
+Engångs: halvorna tas. Första laget bär dem. Andra lag avskriver, stjäl eller byter. Trädockor och flaskor stannar.
+
+### P-03: Adelsmannens sigill
+
+Typ:            sök / kropp
+Plats:          klätternätet, högt i nätet
+Låser upp:      en cryptex-bokstav till P-01
+Kräver:         P-02 (det hopsatta bladet säger var)
+Tid:            några minuter att få ned. Inte ett klätterprov. Hitta något långt eller klättra kort.
+Målgrupp:       tre skutor, tävling
+
+Lösning:        hämta påsen högt i klätternätet. I den ligger ett sigill. I sigillet ligger cryptex-lappen.
+
+Ledtråd:        dagboksbladets sista rader. Ingen annan pekare. Den som råkar se påsen och inte söker den lämnar den.
+Självvalidering: sigill med adelsvapen (inte krona). Lapp inuti.
+
+Hint 1 riktning: inte vid bänkarna. Bladet ni just läste säger vart hon gömde minnet.
+Hint 2 objekt: klätternätet. Titta högt, inte i gräset.
+Hint 3 metod: få ned påsen. En stång, en åra, eller klättra. Det ska ta en stund, inte kräva en atlet.
+Hint 4 lösning: påse knuten högt i nätet. Sigill i påsen. Lapp i sigillet.
+
+Bypass:         om sigillet är taget: jaga den som tog det. Lappen får stjälas, bytas, avskrivas. Om det är förlorat på riktigt: spelledning har reservlapp med samma bokstav. Om ingen når P-03 före brunchen: Spader ger Q-1-starten en riktning mot nätet, inte mot kungen.
+Props:          Q1-02 sigill, Q1-03 cryptex-lapp, påse. Reservlapp hos spelledning.
+Testat:         nej
+
+Engångs: sigillet och lappen tas. Tre skutor tävlar. Förlorarna får lappen socialt.
+
 ### Q-1 till Q-5
 
-Fem parallella kedjor. **Story låst.** Mekanik TBD. Storybriefs: [`quests.md`](quests.md). Ofullständig mekanikrad betyder att questen inte får byggas.
+Fem parallella kedjor. **Story låst. Q-1 mekanik låst som engångs.** Q-2 till Q-5: ofullständig mekanikrad betyder att questen inte får byggas. Storybriefs: [`quests.md`](quests.md).
 
 Mall för mekanik, fylls när pit stops låses:
 
@@ -198,11 +248,26 @@ Testat:         nej
 
 | id | Namn | Story | Bokstav | Ingångar | Start | Status |
 |----|------|-------|---------|----------|-------|--------|
-| Q-1 | Första kärleken | se quests.md | | tre skutor TBD | | story + form låst. Engångsproblem öppet |
+| Q-1 | Första kärleken | se quests.md | | tre skutor TBD | | story + form + engångs låst. P-02, P-03. Bokstav och start öppna |
 | Q-2 | Hur hon blev pirat | se quests.md | | tre skutor TBD | | story + form låst. Stugans innehåll öppet |
 | Q-3 | Korvetten | se quests.md. Lögn: prejning. Sanning i kistan. | | tre skutor TBD | | story låst, mekanik öppen |
 | Q-4 | Ön | se quests.md | | tre skutor TBD | | story låst, mekanik öppen |
 | Q-5 | Skuldboken | se quests.md | | tre skutor TBD | | story låst. Porträttväggen är idé, inte låst |
+
+#### Q-1: Första kärleken
+
+Story:          se quests.md. Inte här.
+Uppgifter:      P-02 två halvor, P-03 sigillet.
+Bokstav:        TBD
+Ingångar:       tre skutor TBD
+Start:          slug TBD, i den personens intrig. Inte Hjärter, Felix, Blodig.
+Pit stop 1:     P-02, Gubben och Gumman. Ingen andras info krävs.
+Pit stop 2:     (ingen)
+Tvärledtråd:    TBD när skutorna tillsätts. Meningslös utan questet. Kandidat: att något är rivet norr och söder.
+Skatt:          P-03, sigillet i klätternätet, cryptex-lappen inuti.
+Bypass:         se P-02 och P-03.
+Props:          Q1-01, Q1-02, Q1-03. Avskrift och reservlapp hos spelledning.
+Testat:         nej
 
 ---
 
@@ -268,18 +333,21 @@ Isolering och tröskel. Två till fyra personer, ingen kan höra dem. Båten het
 
 ### Gubben i stubben och Gumman på udden
 
-Två spegelplatser på huvudön Ovanan, redan på plats. **Q-1.** Se [`quests.md`](quests.md).
+Två spegelplatser på huvudön Ovanan, redan på plats. **Q-1, P-02.** Se [`quests.md`](quests.md).
 
-**Gubben i stubben** (norra ändan): bänk vid en stubbe. I stubben ligger en trägubbe och en flaska sprit. Ena halvan av dagboksbladet.
+**Gubben i stubben** (norra ändan): bänk vid en stubbe. I stubben ligger en trägubbe och en flaska sprit. Vänster halva av dagboksbladet, i flaskan eller under dockan, i vaxduk.
 
-**Gumman på udden** (södra ändan av huvudön, inte Södra Ovanan): bänk med en trägumma och en flaska sprit. Andra halvan.
+**Gumman på udden** (södra ändan av huvudön, inte Södra Ovanan): bänk med en trägumma och en flaska sprit. Höger halva, samma gömma.
 
-- **Naturlig svårighet:** två platser, långt isär. Ingen ser båda halvorna utan att gå.
-- **Hård begränsning:** tre skutor ska kunna läsa bladet. Halvor som plockas upp försvinner. Engångsproblem, olöst. Nodekort får inte byggas förrän det är löst.
+- **Naturlig svårighet:** två platser, långt isär. Ingen ser båda halvorna utan att gå. Vertikalt rivet: ingen halva är läsbar ensam.
+- **Engångs, låst 2026-08-22:** halvorna tas. Tre skutor tävlar. Förlorarna får texten genom stöld, byte eller avskrift. Dockor och flaskor stannar.
 
 ### Klätternätet
 
-Kroppsligt moment. Bra som prov eller som plats där något hänger utom räckhåll. Parkerad idé: ledtråd högt upp, se nedan.
+Kroppsligt moment. **Q-1, P-03.** Sigillet sitter högt i nätet. Inte ett klätterprov: det ska ta tid att få ned, med stång eller kort klättring. Parkerad idé "högt hängande ledtråd" används här. Se nedan.
+
+- **Naturlig svårighet:** man måste veta att man ska titta i nätet. Bladet från P-02 pekar. Den som råkar se påsen lämnar den.
+- **Engångs:** påsen tas. Cryptex-lappen cirkulerar därefter.
 
 ---
 
@@ -295,9 +363,11 @@ Passar: bokstäver till P-01, kartbitar, skiffernycklar. Passar inte: den sista 
 
 ### Högt hängande ledtråd
 
-Häng en ledtråd högt på en gren, så att det tar tid och blir ett projekt att få ned den. Klätternätet är en given plats. En vanlig trädgren fungerar också.
+Används av **Q-1 / P-03**: sigillet sitter högt i klätternätet. Inte ett klätterprov. Det ska ta tid att hitta något långt, eller klättra kort, och få ned påsen.
 
 Idén är inte nödvändigtvis att man måste klättra högt, utan att man istället måste hitta något långt som man kan använda för att få ned ledtråden. På så sätt handlar pusslet mer om att det tar tid att hitta rätt grej, än om att man måste vara bra på att klättra.
+
+Övriga grenar på ön är fortfarande lediga om en annan quest behöver samma gest.
 
 ### Delad karta
 

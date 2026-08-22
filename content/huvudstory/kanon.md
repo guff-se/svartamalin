@@ -82,6 +82,7 @@ Beslutat 2026-08-20. Källa: [`beslut.md`](beslut.md).
 4. De som redan brinner för henne (**Kapten Hjärter**, **Katten Felix**, **Kapten Blodig**) får veta att hon gömmer någon. De ska leta bland kaptenerna i hamnen.
 5. Sanningen, att älskaren är kungen, avslöjas först när kistan öppnas. Kärleksbrevet bär det intima registret, och i kistan ligger ett miniatyrporträtt av Karl XII. Rummet ska förstå det utan ny logik.
 6. Malin vet att det är kungen. Hon vet inte att kistan kommer att öppnas. Utåt: värdinnan som låter hamnen gissa fel.
+7. Hon är fortfarande kurtisan. Affären med kungen är samma yrke, ny kund. Q-1 lär ut receptet i dåtid. Nutiden sitter i kistan. Beslutat 2026-08-22.
 
 ### Lagskatter och förrädare
 
@@ -132,7 +133,7 @@ Detta är bakgrundsspåret. Det är inte längre kanonens hjärta: det är kista
 | Vad är hon skyldig, och vem? | Hon har förbundit sig mot Kung Karl XII. Brevet i kistan stryker skulderna mot förräderiet. Skuldbrevens hög: vems och för vad är öppet. Hon ligger också med honom. | delvis, 2026-08-21 |
 | Vad vill hon egentligen ha av festen? | Uppfylla kontraktet: samla piraterna och fylla dem med rom. | 2026-08-18 |
 | Vem är hennes hemliga älskare? | Karl XII. Före kistan ska det se ut som någon på ön. | 2026-08-20 |
-| Första kärleken? | Q-1. Får ljuga. Får inte vara kungen. Questen säger också att hon var kurtisan och att skutan är döpt efter yrket. Yrket är inte låst kanon. | delvis, 2026-08-20 |
+| Första kärleken? | En namnlös adelsman. Inte kungen. Inte någon på ön. Hon älskade, blev utnyttjad för att hon var av lägre stånd, hämnades som kurtisan: stal hemligheter ur hans krets, förrådde honom, tog allt han ägde. Yrket är kanon. Receptet (säng → hemlighet → prejning) är kanon. Hon är fortfarande kurtisan och nu i säng med Karl XII: det sitter bakom kulisserna, avslöjas i kistan. Q-1. | 2026-08-22 |
 | Hur blev hon pirat? | Q-2. Får ljuga. Inkluderar hur hon blev Svarta. Inte Ran. | delvis, 2026-08-20 |
 | Hur fick hon Kurtisanen? | Sången: hon prejade sin egen korvett. Beslut 2026-08-18: köpt på kredit. **Q-3 berättar preja-versionen och ska ljuga.** Sanningen sitter i kistan: kungen sätter korvetten på hennes namn. | 2026-08-21 |
 | Hur fick hon ön? | Q-4. Ovanan är hennes hamn. Questen får ljuga om bytet. Får inte säga att kajen är en fälla. | delvis, 2026-08-20 |

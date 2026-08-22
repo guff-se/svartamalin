@@ -20,6 +20,19 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-22, Q-1 story och engångsquest
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.md), [`beslut.md`](beslut.md).
+
+- [x] Q1 blir ett engångsquest.
+- [x] Malin var kär i en adelsman, men utnyttjade och övergav henne eftersom hon var av lägre stånd. Hon bestämde sig för att ta ut hämnd. Genom att sälja sig som kurtisan till andra män i adelskretsarna fick hon fram information om hennes gamla kärlek, så att hon kunde förråda honom, förnedra honom och ta allt han ägde.
+- [x] Detta blev receptet på hennes framgångar. Hon fortsatte som kurtisan. Hon tog inte bara betalt från sina kunder, hon stal deras hemligheter. Hon använde sin kunskap för att utpressa, förråda och som information för sitt prejande. Hennes affärer i sängen med överklassen är och har alltid varit centralt för hennes karriär som pirat.
+- [x] Vad som inte avslöjas, men som finns med bakom kulisserna, är att Malin fortfarande är kurtisan och nu i säng med Karl XII.
+
+Kryss = inlagt i designen. Adelsmannen är namnlös. Gömställe för minnet och dagboksbladets tryck är agentdesign efteråt, se [`quests.md`](quests.md).
+
+---
+
 ## 2026-08-21, rekvisita och kärleksbrev i kistan
 
 Källa: Gustaf, i chatt. Införd i `content/rekvisita/`.
@@ -34,7 +47,7 @@ Källa: Gustaf, i chatt. Införd i `content/rekvisita/`.
 Källa: Gustaf, i chatt. Parkerade i [`pussel.md`](pussel.md). Inte beslutade.
 
 - [ ] Vissa ledtrådar kommer delas ut i samband med mat eller andra fasta tider, för att kontrollera pacing på storyn.
-- [ ] Man kan hänga en ledtråd högt på en gren, så att det tar tid (och blir ett projekt) att få ned den.
+- [x] Man kan hänga en ledtråd högt på en gren, så att det tar tid (och blir ett projekt) att få ned den.
 - [ ] En karta, som delas i flera delar och man måste ha alla för att hitta rätt.
 - [ ] En ledtråd kan ligga i segelbåten (Tvåkronan) och ledtråden kan vara ett faktiskt svenskt 2-kronorsmynt.
 - [ ] Vissa ledtrådar kan planteras hos en karaktär, så att någon annan måste få dem att berätta detta.
@@ -82,7 +95,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md).
 - [x] Q-2: I denna vil jag använda södra ön och piratstugan där. Detta är Svarta Malins ursprungliga hem och man kan hitta flera saker från hennes historia där.
 - [ ] Q-5: En idé är att sista mysteriet i skuldboken är att man skall ta ner porträttväggen. Det kopplar bra in till listan på skulder och man skulle kunna skriva något finurligt som kopplar ihop detta till listan på "de värsta kaptener som finns" - en ledtråd som antyder att man skall använda sången för att sortera porträtt. Detta gör dock att bara en grupp kan lösa Q5, såvida inte porträtten passas vidare.
 
-Kryss = formen är inlagd. Q-5 är idé, inte låst. Engångsproblemen är inte lösta.
+Kryss = formen är inlagd. Q-5 är idé, inte låst. Q-1:s engångs är beslutat 2026-08-22, se avsnittet ovan.
 
 ---
 
