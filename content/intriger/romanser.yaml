@@ -16,8 +16,13 @@
 #   * viktoransund: förbjuden kärlek med Kapten Frodig (josefinansund), inte Mini
 #   * elinamelakoski: enda trygga personen är Kapten Hjärter; inget publikt par med annan
 #   * jesperlejfjord: vill spela mot Katten Felix (hålls i #17/#18, inte som publikt par)
-#   * amandamungsgard: något med Ludde; ingenting med Mini
-#   * minimacklin: oläkt kärlek/svek med Svarta Malin
+#   * amandamungsgard: något med Ludvig (#19); ingenting med Mini; inte högintensivt centrum-drama
+#   * minimacklin: oläkt kärlek/svek med Svarta Malin (#20). 1 min förstummad av Malins ögon;
+#     samma tapp för skeppskatt (Felix) — inte par och inte fiende med Felix
+#   * edvinthungren: manschettknappar med enhörningar, fått för kärlekens skull → #3
+#   * navidmodiri: nemesis är Kapten Hjärter (fiende 23, inte romans)
+#   * josefinlowing: onåd från Rödskägg, bakhåll på Paradisets ö (fiende 25)
+#   * elinmartensson: Prygel vill krossa hornet (fiende 24)
 #   * chriskummelstedt tackade nej: inga poster
 
 romanser:
@@ -31,6 +36,7 @@ romanser:
     type: mutual
     a: linneaappert        # Kapten Planka (Linnea Appert)
     b: edvinthungren       # Kapten Rötägg (Edvin Thungren)
+    note: Rötäggs manschettknappar med enhörningar, fått för kärlekens skull (Planka). Han vill vara snäll nu; Plankas underlag fortfarande tomt.
     status: pending
 
   - id: 4
@@ -120,14 +126,14 @@ romanser:
     type: mutual
     a: amandamungsgard     # Kapten Kosing (Amanda Mungsgård)
     b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
-    note: Kosings önskemål att spela med Dunka; inte förankrat av honom i underlaget
+    note: Kosings önskemål att spela med Dunka; inte förankrat av honom i underlaget. Inte högintensivt publikt drama (Kosings underlag: inget centrum, ingen kidnappning).
     status: pending
 
   - id: 20
     type: one_way
     a: minimacklin         # Kapten Blodig (Mini Macklin)
     b: malintadaa          # Svarta Malin (Malin Tadaa): oläkt kärlek efter svek i tonåren
-    note: jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan. Får krocka med #17/#18.
+    note: jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan. Får krocka med #17/#18. Blodig blir förstummad 1 min om hon ser Malin i ögonen (solglasögon som garden).
     status: pending
 
   - id: 21

@@ -13,6 +13,12 @@
 #   * flera kan hata samma person av olika skäl
 #   * intrigtext skrivs för BÅDA parter (även one_way: den hatade vet om hatet och varför)
 #   * amandamungsgard vill inte spela personligen mot Mini: inga poster Mini–Kosing
+#   * amandamungsgard vill inte stå i centrum i högintensivt drama (kidnappning etc.): #17 låg intensitet
+#   * navidmodiri: nemesis Kapten Hjärter (#23). Tjuvlyssnar, fejkdöv
+#   * edvinthungren: vill vara snäll nu; gamla oförrätter är röta från före omvändelsen
+#   * josefinlowing: bakhåll mot Rödskägg på Paradisets ö (#25). De har båtarna tillsammans: scener vid kajen
+#   * elinmartensson: Prygel vill krossa plåthornet (#24)
+#   * minimacklin blir mjuk 1 min av skeppskatt (Felix): inte fiende med Felix
 #
 # status: pending | done | skipped
 # done = brödtext skriven i guests/. Inte förrän den omgången.
@@ -62,7 +68,8 @@ fiender:
     type: mutual
     a: navidmodiri        # Kapten Döver: Fregatten Fördärvet
     b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
-    # oförrätt: Rötägg sålde ruttna förråd; Döver teg om ett rev
+    # oförrätt: Rötäggs röta mot den "döve" (ruttna förråd, före omvändelsen). Döver teg då;
+    # nu tjuvlyssnar han och släpper inte Rötäggs nya snällhet. Rötägg vill vara snäll; Döver köper det inte.
     status: pending
 
   - id: 7
@@ -99,7 +106,7 @@ fiender:
     type: one_way
     a: fabianmacklin      # Kapten Nykter: Barken Bortförklaringen
     b: navidmodiri        # Kapten Döver: Fregatten Fördärvet
-    # oförrätt: Döver upprepade Nykters frieri till Barnsben i tavernan
+    # oförrätt: Döver tjuvlyssnade på Nykters frieri till Barnsben (alla trodde han var döv) och upprepade det i tavernan
     status: pending
 
   - id: 12
@@ -113,21 +120,24 @@ fiender:
     type: one_way
     a: ulrikahammar       # Kapten Barnsben: Korvetten Kurtisanen
     b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
-    # oförrätt: Rötäggets parfymspratt (blomster → rötägg) saboterade uppvaktning av Döver
+    # oförrätt: Rötäggets parfymspratt (blomster → rötägg) saboterade uppvaktning av Döver.
+    # Gammal röta; Rötägg påstår att han ändrat sig. Barnsben köper det inte.
     status: pending
 
   - id: 14
     type: one_way
     a: gustaftadaa        # Löjtnant Spader: Fregatten Fördärvet
     b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
-    # oförrätt: Rötägg fuskade i kort och vann Spaders sjökort till Plåthorns fiskegrund
+    # oförrätt: Rötägg fuskade i kort och vann Spaders sjökort till Plåthorns fiskegrund.
+    # Gammal röta, innan omvändelsen.
     status: pending
 
   - id: 17
     type: one_way
     a: amandamungsgard    # Kapten Kosing: Fregatten Fromheten
     b: malintadaa         # Svarta Malin: Korvetten Kurtisanen
-    # oförrätt: Malin avfärdade Kosings skatt som “söt men tvåa” i en skål
+    # oförrätt: Malin avfärdade Kosings arvssyndskatt som “söt men tvåa” i en skål.
+    # Låg intensitet: Kosing vill inte stå i centrum i publikt drama.
     status: pending
 
   - id: 21
@@ -159,4 +169,31 @@ fiender:
     a: hampuslindblad     # Kapten Blåskägg: Barken Bortförklaringen
     b: petterwallberg     # Kapten Lösskägg: Korvetten Kurtisanen
     # oförrätt: Blå hånade att Lösskäggs skägg är fejk, färgade det blått, utropade sig kung över alla tre skäggen
+    status: pending
+
+  # --- Namngivna i underlag (hämtade 2026-08-21/22) ---
+
+  - id: 23
+    type: mutual
+    a: navidmodiri        # Kapten Döver: Fregatten Fördärvet
+    b: jesperlejfjord     # Kapten Hjärter: Fregatten Fromheten
+    # oförrätt: Dövers nemesis (underlag). Saboterar Hjärters uppdrag (kök och jakten på Malins älskare).
+    # Hjärter har sett Döver reagera på ljud han "inte kan höra" och litar inte på handbabblet.
+    # Scener tål kökskanten: Hjärter har maten.
+    status: pending
+
+  - id: 24
+    type: mutual
+    a: elinmartensson     # Kapten Plåthorn: Galeonen Gnället
+    b: minervalowgren     # Kapten Prygel: Fregatten Fromheten
+    # oförrätt: Plåthorns horn sätter striden i kåttrans så hon kan smita. Prygel (underlag: Plåthorn)
+    # vill se hornet krossat en gång för alla — stridslysten ära mot feg flykt.
+    status: pending
+
+  - id: 25
+    type: mutual
+    a: josefinlowing      # Kapten Kuling: Fregatten Fördärvet
+    b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
+    # oförrätt: Kuling låg i bakhåll och sköt Rödskägg i ryggen på Paradisets ö för ett år sedan (Kulings underlag).
+    # De har båtarna tillsammans: fiendskapen spelas vid kajen, inte långt från vattnet.
     status: pending
