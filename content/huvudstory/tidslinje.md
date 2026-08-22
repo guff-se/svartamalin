@@ -9,7 +9,7 @@ Två spår i det här dokumentet, som inte ska blandas ihop i tabellen:
 - **Ram** är det praktiska som händer oavsett story, alltså mat, båt, bastu, sömn.
 - **Story** är huvudstoryn, pusslen och de scener vi regisserar.
 
-Inom storyn pågår allt samtidigt och **får kollidera**: huvudstory, skattjakt, förräderi, romanser, fiendskaper. Det är inte isolerade banor. Skattcirkel och förrädarcirkel står i [`lagskatter.md`](lagskatter.md) och [`forradare.md`](forradare.md).
+Inom storyn pågår allt samtidigt och **får kollidera**: huvudstory, skattjakt, förräderi, romanser, fiendskaper. Det är inte isolerade banor. Skattcirkel och förrädarcirkel står i [`lagskatter.md`](lagskatter.md) och [`forradare.yaml`](forradare.yaml).
 
 ---
 

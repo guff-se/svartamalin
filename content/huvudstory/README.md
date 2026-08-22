@@ -31,7 +31,7 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 6. [`sidequests.md`](sidequests.md) sidospår som bara rör vissa deltagare
 7. [`quests.md`](quests.md) de fem queststoriesna (Malins legend). Låst story, mekanik i pussel.md
 8. [`lagskatter.md`](lagskatter.md) varje skuta gömmer en skatt, en annan skuta jagar den
-9. [`forradare.md`](forradare.md) mullvad och kontaktperson per skuta
+9. [`forradare.yaml`](forradare.yaml) mullvad och kontaktperson per skuta
 10. [`pussel.md`](pussel.md) escape-room-mekaniken, pusselkedjor och ledtrådsdesign. Storybriefs för Q-1 till Q-5: [`quests.md`](quests.md)
 11. [`ritual.md`](ritual.md) lördag 15.30, ritualen
 12. [`slutstriden.md`](slutstriden.md) lördag ca 20.00, finalen

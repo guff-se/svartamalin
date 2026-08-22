@@ -6,5 +6,5 @@ real_name: Louise von Bahr
 
 # Kapten Fuling
 
-Inga extra anteckningar. Romans 10 med **Kapten Blåskägg**. Fiende 5 mot **Kapten Planka**.
+Romans 10 med **Kapten Blåskägg**. Fiende 5 mot **Kapten Planka**. Mullvad för Fromheten, kontakt **Kapten Hjärter** (forradare 2). Tvekan: Blåskägg jagar just Fromheten.
 

@@ -6,5 +6,5 @@ real_name: Linnea Ekbom
 
 # Kapten Rosing
 
-Inga extra anteckningar. Romans 4, enväg mot **Kapten Barnsben**. Fiende 10, enväg mot **Kapten Nykter**.
+Romans 4, enväg mot **Kapten Barnsben**. Fiende 10, enväg mot **Kapten Nykter**. Kontakt för **Kapten Frodig** (forradare 3).
 

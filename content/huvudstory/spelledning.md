@@ -40,7 +40,7 @@ Två tillfällen. Samma innehåll, andra gången kortare. Play to lift och cut �
 
 **Innehåll, i den här ordningen:**
 
-1. **Play to lift.** Häng på andras initiativ. Ge folk deras segrar. Karaktären försöker vinna, spelaren letar efter det som ger bäst drama. Skattjakten får krocka med allt annat. Mullvad som never tar kontakt: strunt. Mullvad som vill ur: cut, ingen ersättare mitt i helgen. Se [`forradare.md`](forradare.md).
+1. **Play to lift.** Häng på andras initiativ. Ge folk deras segrar. Karaktären försöker vinna, spelaren letar efter det som ger bäst drama. Skattjakten får krocka med allt annat. Mullvad som never tar kontakt: strunt. Mullvad som vill ur: cut, ingen ersättare mitt i helgen. Se [`forradare.yaml`](forradare.yaml).
 2. **Lookdown.** Handen som solskydd, backa och gå. Ingen frågar.
 3. **Largo.** Ordet "largo", alla tar ett steg tillbaka, spelet fortsätter tystare.
 4. **OK-check.** Tecknet, ögonkontakt, svar med tumme.

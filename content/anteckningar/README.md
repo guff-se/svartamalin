@@ -50,7 +50,7 @@ Tom body är okej. Då finns filen, men inget att läsa.
 | Jagar Malins hemliga älskare | **Kapten Hjärter**, **Katten Felix** (`elinamelakoski`), **Kapten Blodig** (`minimacklin`) |
 | Skäggtrion | **Kapten Lösskägg** (`petterwallberg`), **Kapten Rödskägg**, **Kapten Blåskägg** (`hampuslindblad`). Beslutad, intrigtext TBD. |
 
-Nykter vakt vid ritualen är TBD. Förrädare per skuta är TBD. Skriv inte gästtext som låser dem.
+Nykter vakt vid ritualen är TBD. Förrädare per skuta: [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml). Skriv inte gästtext som låser dem förrän status är done.
 
 ## Uppslag, inte tillsatt
 

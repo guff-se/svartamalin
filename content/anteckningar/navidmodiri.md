@@ -6,5 +6,5 @@ real_name: Navid Modiri
 
 # Kapten Döver
 
-Inga extra anteckningar. Romans 7 med **Kapten Babord**. Barnsben enväg mot honom (#6). Fiender 6 och 11.
+Romans 7 med **Kapten Babord**. Barnsben enväg mot honom (#6). Fiender 6, 11 och 23. Kontakt för **Kapten Babord** (forradare 5, romans 7).
 

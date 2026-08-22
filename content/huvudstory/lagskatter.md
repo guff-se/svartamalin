@@ -28,7 +28,7 @@ Skuta N jagar skuta N+1:s skatt. Skuta 5 jagar skuta 1:s.
 
 Kolumnen **Jagas av** är bara för oss. Gästtexten talar om vilken skuta *de* jagar, inte vem som jagar *dem*. Cirkeln läcker om båda sidorna står i samma lagfil.
 
-Detta är **inte** samma cirkel som förrädarna. Förrädare går två steg (`1 → 3 → 5 → 2 → 4 → 1`). Se [`forradare.md`](forradare.md). En mullvad som säljer sitt lags gömställe hjälper alltså inte sin uppdragsgivare direkt. Hen måste arbeta aktivt.
+Detta är **inte** samma cirkel som förrädarna. Förrädare går två steg (`1 → 3 → 5 → 2 → 4 → 1`). Se [`forradare.yaml`](forradare.yaml). En mullvad som säljer sitt lags gömställe hjälper alltså inte sin uppdragsgivare direkt. Hen måste arbeta aktivt.
 
 ---
 
@@ -96,7 +96,7 @@ Tillåtet och önskvärt:
 
 - sälja sitt lags gömställe mot en ledtråd till cryptexen
 - gömma en ledtråd *i* en lagskatt (då måste skatten upp före 15.30, och bypass finnas)
-- mullvaden läcker, skyddar eller stjäl enligt [`forradare.md`](forradare.md)
+- mullvaden läcker, skyddar eller stjäl enligt [`forradare.yaml`](forradare.yaml)
 - en skatt används som muta i en romans eller ett fiendskap
 
 Otillåtet:

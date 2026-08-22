@@ -6,7 +6,7 @@ Karta för hela `content/`: [`../README.md`](../README.md).
 
 **Gästtext, följ [STYLE.md](STYLE.md):** `crews/*.md` och `guests/*.md`. Inget annat i den här mappen visas för deltagarna.
 
-**Intern text, tydlig prosa:** den här README:n, STYLE.md, [romanser.yaml](romanser.yaml) och [fiender.yaml](fiender.yaml). Yaml-filerna är källistor för agenten, inte gästcopy.
+**Intern text, tydlig prosa:** den här README:n, STYLE.md, [romanser.yaml](romanser.yaml), [fiender.yaml](fiender.yaml) och [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml). Yaml-filerna är källistor för agenten, inte gästcopy.
 
 **Karaktärsunderlag** från gästerna ligger i [`../roller/`](../roller/README.md) (`npm run fetch-roller`). **Meta-anteckningar** (praktiskt ansvar, designbeslut) ligger i [`../anteckningar/`](../anteckningar/README.md). Läs båda innan du skriver deras intrig. Skriv inte revy tillbaka in i dem.
 
@@ -15,7 +15,7 @@ Karta för hela `content/`: [`../README.md`](../README.md).
 Parallella spår som också designas där, inte här:
 
 - Lagskatter: [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md). Jakten står i `crews/`. Cirkeln och vem som jagas står inte i gästtext.
-- Förrädare: [`../huvudstory/forradare.md`](../huvudstory/forradare.md). Mullvad och kontakt skrivs i `guests/` när de är tillsatta. Aldrig i lagfilen.
+- Förrädare: [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml). Mullvad och kontakt skrivs i `guests/` när status är done. Aldrig i lagfilen.
 
 ## Filnamn
 

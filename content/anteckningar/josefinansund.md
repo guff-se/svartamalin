@@ -10,3 +10,5 @@ Förbjuden hemlig kärlek med **Kapten Rödskägg** (`viktoransund`), romans 8. 
 
 Fiende 4 mot **Kapten Blodig**: behålls som hot mot den hemliga kärleken om Blodig nystar.
 
+Mullvad för Gnället, kontakt **Kapten Rosing** (forradare 3). Hänger på jakten mot Blodigs skuta.
+

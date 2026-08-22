@@ -6,7 +6,7 @@ real_name: Jesper Lejfjord
 
 # Kapten Hjärter
 
-Har hand om maten tillsammans med **Kapten Nykter** (`fabianmacklin`). Praktiskt ansvar: brunch 14.00 får inte glida, mat framme kontinuerligt från 17.00. Tillsätts **inte** som mullvad.
+Har hand om maten tillsammans med **Kapten Nykter** (`fabianmacklin`). Praktiskt ansvar: brunch 14.00 får inte glida, mat framme kontinuerligt från 17.00. Tillsätts **inte** som mullvad. Kontakt för **Kapten Fuling** (forradare 2). Fuling-scenerna tål kökskanten.
 
 Jägare i huvudstoryn (B-13): hemlig kärlek till **Svarta Malin**, delar känslan med **Katten Felix**. Vet att hon gömmer en älskare, och tror att det är någon på ön. Vet **inte** att det är Karl XII. Jakten med Felix är privat.
 

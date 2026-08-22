@@ -41,7 +41,7 @@ Skriv inte som om gästen läser. Ingen revyröst, ingen du-form till deltagaren
 | Tryckt rekvisita (källtext) | [`rekvisita/`](rekvisita/README.md) | Nej på sajten. Ja på papper, på ön. |
 | Gästens eget karaktärsunderlag | [`roller/`](roller/README.md) | Nej |
 | Meta-anteckningar per person | [`anteckningar/`](anteckningar/README.md) | Nej |
-| Romanser och fiender (källistor) | [`intriger/romanser.yaml`](intriger/romanser.yaml), [`intriger/fiender.yaml`](intriger/fiender.yaml) | Nej |
+| Romanser, fiender, förrädare (källistor) | [`intriger/romanser.yaml`](intriger/romanser.yaml), [`intriger/fiender.yaml`](intriger/fiender.yaml), [`huvudstory/forradare.yaml`](huvudstory/forradare.yaml) | Nej |
 
 Gäller överallt i `content/`:
 

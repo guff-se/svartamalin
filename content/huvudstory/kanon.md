@@ -39,7 +39,7 @@ Får aldrig stå i gästtext. Se `../intriger/STYLE.md`.
 
 1. Fem skutor: **Korvetten Kurtisanen**, **Fregatten Fördärvet**, **Barken Bortförklaringen**, **Fregatten Fromheten**, **Galeonen Gnället**.
 2. Varje skuta gömmer en skatt. Varje skatt eftersöks av en annan skuta, i cirkel ett steg framåt: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1. Register och vad gästerna får veta: [`lagskatter.md`](lagskatter.md). Gästtext: `../intriger/crews/`.
-3. Varje skuta har exakt en mullvad och exakt en kontaktperson, två olika personer. Mullvaden arbetar för en annan skuta. Kontaktpersonen där är den enda som vet att mullvaden finns och vem det är. Cirkel två steg framåt: 1→3→5→2→4→1. Register: [`forradare.md`](forradare.md).
+3. Varje skuta har exakt en mullvad och exakt en kontaktperson, två olika personer. Mullvaden arbetar för en annan skuta. Kontaktpersonen där är den enda som vet att mullvaden finns och vem det är. Cirkel två steg framåt: 1→3→5→2→4→1. Register: [`forradare.yaml`](forradare.yaml).
 4. Malin seglar med Korvetten Kurtisanen.
 
 ## Fast kanon: platsen
@@ -85,7 +85,7 @@ Beslutat 2026-08-20. Källa: [`beslut.md`](beslut.md).
 
 ### Lagskatter och förrädare
 
-Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.md`](forradare.md).
+Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.yaml`](forradare.yaml).
 
 1. Varje skuta gömmer en skatt fredag ca 17.30. Jakten öppnar lördag 10.30.
 2. Jaktcirkel ett steg: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1.
@@ -94,7 +94,7 @@ Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.md`](
 5. Sovplatser är inte gömställen. Malins kista är inte gömställe för lagskatt.
 6. Varje skuta har en mullvad och en kontaktperson, olika personer.
 7. Förrädarcirkel två steg: 1→3→5→2→4→1. Kontaktpersonen är den enda som vet mullvadens existens och identitet.
-8. Mullvad och kontakt är inte tillsatta. Malin och Spader är inte mullvad.
+8. Paren är tillsatta i [`forradare.yaml`](forradare.yaml). Malin och Spader är inte mullvad. Spader är inte kontakt.
 
 ### Skelettet på Södra Ovanan
 

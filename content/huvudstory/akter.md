@@ -80,7 +80,7 @@ Vad akt II måste åstadkomma:
 
 - [ ] Öppna med något som redan brinner, alltså inte med information som delas ut
 - [ ] Ge varje skuta något att göra från minut ett
-- [ ] Låta minst en person svika sitt lag, och göra det lönsamt. Fem mullvadar är strukturen. Se [`forradare.md`](forradare.md). Personer inte tillsatta.
+- [ ] Låta minst en person svika sitt lag, och göra det lönsamt. Fem mullvadar är strukturen. Se [`forradare.yaml`](forradare.yaml). Paren är tillsatta, gästtext pending.
 - [ ] Konvergera i ett gemensamt moment strax före brunchen
 - [ ] Sluta med att ritualen 15.30 känns oundviklig
 
@@ -94,7 +94,7 @@ Struktur att fylla i:
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | P-01 |
 | Älskarspåret | Malin gömmer någon. Hjärter, Felix och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Felix, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
 | Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
-| Förrädarspåret | Mullvad per skuta, kontakt på uppdragsgivarens lag. Cirkel två steg. | Fem par, tillsätts i [`forradare.md`](forradare.md) | Hemliga möten | |
+| Förrädarspåret | Mullvad per skuta, kontakt på uppdragsgivarens lag. Cirkel två steg. | Fem par i [`forradare.yaml`](forradare.yaml) | Hemliga möten | |
 | Båtspåret | Sjöfärd som *scen*: övertala Kuling eller Rödskägg. Folk får också paddla utan dem. | Kuling, Rödskägg, plus den som vill ut | Bryggan, Södra Ovanan, bojen | B-14 |
 | Skäggspåret | Tre kaptener slåss om vem som är Skäggkonung. Publikt. Intrigtext TBD. | Lösskägg, Rödskägg, Blåskägg | Kajen eller gården, inte långt från båtarna | B-15 |
 
@@ -165,7 +165,7 @@ Om det floppar: om ingen hittar något: strunt. Huvudstoryn vilar inte på det.
 Akt:            II
 Tid:            10.30 till 14.00
 Plats:          avskilt. Segelbåt, svärdfisk, Gubben, Gumman. Inte samma plats för alla fem.
-Inblandade:     fem par, namnges i [`forradare.md`](forradare.md) när de tillsätts
+Inblandade:     fem par i [`forradare.yaml`](forradare.yaml)
 Publik:         ingen, om de inte bränns
 
 Vad händer:     varje mullvad söker upp sin enda kontakt. Kontaktpersonen är den enda på uppdragsgivarens skuta som vet.

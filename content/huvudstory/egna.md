@@ -88,7 +88,7 @@ Kryss = formen är inlagd. Q-5 är idé, inte låst. Engångsproblemen är inte 
 
 ## 2026-08-20, tillsätt lag och förrädare efteråt
 
-Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`forradare.md`](forradare.md), [`pussel.md`](pussel.md).
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`forradare.yaml`](forradare.yaml), [`pussel.md`](pussel.md).
 
 - [x] Ta bort alla förslag på vilket lag som skall ha vilken quest. Ta också bort alla förslag på förrädare. Det är bättre att vi gör detta när quests är färdigskrivna, så att vi väljer lag och deltagare utifrån story, inte tvärtom.
 

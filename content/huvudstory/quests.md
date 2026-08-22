@@ -6,7 +6,7 @@ Använd den här filen när du skriver gästtext i `content/intriger/crews/` ell
 
 Status: **story låst 2026-08-20**. Mekanik delvis: Q-1 och Q-2 har form. Q-3 och Q-4 saknar form. Q-5 har en idé. Hint-trappa, bypass och bokstäver låses i [`pussel.md`](pussel.md) när noden byggs.
 
-**Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.md`](forradare.md) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
+**Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
 
 De fem questsen är kapitel i Malins legend. De är inte slutstoryn. Ingen av dem behöver vara sann. Efter kistan ska de fem *kännas* som samma kvinna.
 

@@ -1,0 +1,76 @@
+# Förrädare: intern källista
+# Inte synlig för gäster. Nycklar = guests.login_slug.
+# Kommentarer: Piratnamn och skuta, så agenten slipper slå i cast.md.
+#
+# type: mole = A är mullvad på home, B är kontakt på works_for
+# Cirkel två steg (inte skattcirkeln 1→2→3→4→5→1):
+#   1 → 3 → 5 → 2 → 4 → 1
+#
+# Regler:
+#   * exakt en mullvad och exakt en kontakt per skuta, olika personer
+#   * en person är mullvad, kontakt, eller ingen av delarna. Inte båda.
+#   * bara attending = true
+#   * kontakt får inte vara mullvadens fiende (fiender.yaml)
+#   * bygg på romans när cirkeln tillåter (romanser.yaml)
+#   * mullvaden ska vilja något av uppdragsgivaren, inte bara "var förrädare"
+#   * inte mullvad: malintadaa, gustaftadaa, josefinlowing, viktoransund,
+#     fabianmacklin, jesperlejfjord
+#   * inte kontakt: gustaftadaa. malintadaa default inte (stjäl från antagonisten)
+#
+# Kunskap: bara A och B vet att mullvaden finns och vem det är.
+# Inte hemmalaget, inte resten av uppdragsgivarens lag.
+#
+# status: pending | done | skipped
+# done = brödtext skriven i guests/. Inte i lagfilen.
+# Gästfilerna är nollställda 2026-08-20. Inga done förrän gästtexten skrivs.
+
+forradare:
+  - id: 1
+    type: mole
+    a: ulrikahammar        # Kapten Barnsben: Korvetten Kurtisanen
+    b: fabianmacklin       # Kapten Nykter: Barken Bortförklaringen
+    home: 1
+    works_for: 3
+    bygger_pa: "romans: 5"
+    note: Nykter värvade den han uppvaktar. Barnsben brinner för Döver (romans 6) på Fördärvet, som Barken gömmer sig för. Tvekan.
+    status: pending
+
+  - id: 3
+    type: mole
+    a: josefinansund       # Kapten Frodig: Barken Bortförklaringen
+    b: linneaekbom         # Kapten Rosing: Galeonen Gnället
+    home: 3
+    works_for: 5
+    bygger_pa: "fiende: 4"
+    note: Inte fiender med varandra. Gnället jagar Fördärvet, där Frodigs fiende Blodig sitter. Förräderiet försvagar också Barkens jakt på Fromheten (Rödskägg, romans 8).
+    status: pending
+
+  - id: 5
+    type: mole
+    a: alexandrapalmquist  # Kapten Babord: Galeonen Gnället
+    b: navidmodiri         # Kapten Döver: Fregatten Fördärvet
+    home: 5
+    works_for: 2
+    bygger_pa: "romans: 7"
+    note: Mutual-par. Kurtisanen jagar Fördärvet; Babords fiende Barnsben sitter där (fiende 12). Tvekan mot skeppskamraten Rötägg, Dövers fiende (fiende 6).
+    status: pending
+
+  - id: 2
+    type: mole
+    a: louisevonbahr       # Kapten Fuling: Fregatten Fördärvet
+    b: jesperlejfjord      # Kapten Hjärter: Fregatten Fromheten
+    home: 2
+    works_for: 4
+    bygger_pa: "romans: 10"
+    note: Inte fiender med varandra. Tvekan: Blåskägg (romans 10) jagar Fromheten. Hjärter är Dövers nemesis (fiende 23), inte Fulings. Scener tål kökskanten.
+    status: pending
+
+  - id: 4
+    type: mole
+    a: minervalowgren      # Kapten Prygel: Fregatten Fromheten
+    b: jesperlindmarker    # Kapten Hurring: Korvetten Kurtisanen
+    home: 4
+    works_for: 1
+    bygger_pa: "romans: 13"
+    note: Mutual-par. Gnället jagar Kurtisanen; Prygels fiende Plåthorn sitter där (fiende 24). Klöver älskar också Hurring (romans 12) och vet inte om mullvaden.
+    status: pending

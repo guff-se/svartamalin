@@ -213,5 +213,125 @@ fordelning:
     pussel: null
     status: pending
 
-# B-12 förrädare: fem mullvadar + fem kontakter. Poster läggs in när
-# paren är tillsatta i forradare.md. Ingen gästtext förrän dess.
+# B-12 förrädare: fem mullvadar + fem kontakter. Paren är tillsatta
+# i forradare.yaml. Ingen gästtext förrän status: done.
+
+  - id: 15
+    beat: B-12
+    akt: II
+    till: [ulrikahammar]
+    roll: barare
+    vet: "att hon arbetar i hemlighet för Barken Bortförklaringen, och att Kapten Nykter är hennes enda länk. Hemmalaget vet ingenting."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt utöver den egna jakten"
+    speglas: [fabianmacklin]
+    bygger_pa: "romans: 5"
+    pussel: null
+    status: pending
+
+  - id: 16
+    beat: B-12
+    akt: II
+    till: [fabianmacklin]
+    roll: grindvakt
+    vet: "att Kapten Barnsben på Korvetten Kurtisanen är hans mullvad. Ingen annan ombord vet."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
+    speglas: [ulrikahammar]
+    bygger_pa: "romans: 5"
+    pussel: null
+    status: pending
+
+  - id: 17
+    beat: B-12
+    akt: II
+    till: [josefinansund]
+    roll: barare
+    vet: "att hon arbetar i hemlighet för Galeonen Gnället, och att Kapten Rosing är hennes enda länk. Hemmalaget vet ingenting."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt utöver den egna jakten"
+    speglas: [linneaekbom]
+    bygger_pa: "fiende: 4"
+    pussel: null
+    status: pending
+
+  - id: 18
+    beat: B-12
+    akt: II
+    till: [linneaekbom]
+    roll: grindvakt
+    vet: "att Kapten Frodig på Barken Bortförklaringen är hennes mullvad. Ingen annan ombord vet."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
+    speglas: [josefinansund]
+    bygger_pa: "fiende: 4"
+    pussel: null
+    status: pending
+
+  - id: 19
+    beat: B-12
+    akt: II
+    till: [alexandrapalmquist]
+    roll: barare
+    vet: "att hon arbetar i hemlighet för Fregatten Fördärvet, och att Kapten Döver är hennes enda länk. Hemmalaget vet ingenting."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt utöver den egna jakten"
+    speglas: [navidmodiri]
+    bygger_pa: "romans: 7"
+    pussel: null
+    status: pending
+
+  - id: 20
+    beat: B-12
+    akt: II
+    till: [navidmodiri]
+    roll: grindvakt
+    vet: "att Kapten Babord på Galeonen Gnället är hans mullvad. Ingen annan ombord vet."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
+    speglas: [alexandrapalmquist]
+    bygger_pa: "romans: 7"
+    pussel: null
+    status: pending
+
+  - id: 21
+    beat: B-12
+    akt: II
+    till: [louisevonbahr]
+    roll: barare
+    vet: "att hon arbetar i hemlighet för Fregatten Fromheten, och att Kapten Hjärter är hennes enda länk. Hemmalaget vet ingenting."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt utöver den egna jakten"
+    speglas: [jesperlejfjord]
+    bygger_pa: "romans: 10"
+    pussel: null
+    status: pending
+
+  - id: 22
+    beat: B-12
+    akt: II
+    till: [jesperlejfjord]
+    roll: grindvakt
+    vet: "att Kapten Fuling på Fregatten Fördärvet är hans mullvad. Ingen annan ombord vet."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
+    speglas: [louisevonbahr]
+    bygger_pa: "romans: 10"
+    pussel: null
+    status: pending
+
+  - id: 23
+    beat: B-12
+    akt: II
+    till: [minervalowgren]
+    roll: barare
+    vet: "att hon arbetar i hemlighet för Korvetten Kurtisanen, och att Kapten Hurring är hennes enda länk. Hemmalaget vet ingenting."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt utöver den egna jakten"
+    speglas: [jesperlindmarker]
+    bygger_pa: "romans: 13"
+    pussel: null
+    status: pending
+
+  - id: 24
+    beat: B-12
+    akt: II
+    till: [jesperlindmarker]
+    roll: grindvakt
+    vet: "att Kapten Prygel på Fregatten Fromheten är hans mullvad. Ingen annan ombord vet."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
+    speglas: [minervalowgren]
+    bygger_pa: "romans: 13"
+    pussel: null
+    status: pending
