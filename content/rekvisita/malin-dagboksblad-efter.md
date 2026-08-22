@@ -6,13 +6,13 @@ prop: Q1-04
 
 # Dagboksblad, efter hämnden
 
-Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med cryptex-lappen i klätternätet.
+Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med cryptex-lappen i klätternätet. Bara dagbok.
 
 ## Tryck
 
 Otto.
 
-Jag skrev ditt namn så många gånger. Jag gömde ditt sigill som ett löfte. Du tog vad du ville. Sen lämnade du mig, för att jag var av lägre stånd. Du skrattade när du sa det. Som om jag borde ha vetat.
+Jag skrev ditt namn så många gånger. Du tog vad du ville. Sen lämnade du mig, för att jag var av lägre stånd. Du skrattade när du sa det. Som om jag borde ha vetat.
 
 Jag visste inte. Nu vet jag.
 
@@ -20,4 +20,4 @@ Jag sålde mig till herrarna i din krets. De som drack med dig. De som gifte bor
 
 Det blev mitt yrke. Inte siden. Sängen. Sängen är hur jag får veta. Det jag vet är hur jag tar. Därför heter min skuta Kurtisanen. De tror det är ett skämt. Det är en räkning.
 
-Sigillet är kvar. Resten av dig är borta. Jag sover. Jag skriver inte ditt namn mer.
+Resten av dig är borta. Jag sover. Jag skriver inte ditt namn mer.

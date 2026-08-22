@@ -21,7 +21,7 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Text: [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md) | | | utkast |
 | K-08 | Miniatyrporträtt av Karl XII | B-42 | Liten, synlig när locket går upp, liggande på kärleksbrevet. Ingen text som måste läsas. Ska läsas som bild: hon är i säng med kungen. | | | saknas |
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
-| Q1-01 | Dagboksblad före förräderiet, två halvor | P-02 | Vertikalt rivet. Ingen halva läsbar ensam. Tåla utomhus, i flaska eller vaxduk. Kort. Oskyldig Malin, ingen hämnd. Text: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md). Avskrift hos spelledning. | | | utkast |
+| Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | P-02 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md). | | | utkast |
 | Q1-03 | Cryptex-lapp i påsen | P-03 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
 | Q1-04 | Dagboksblad efter hämnden | P-03 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md). Avskrift hos spelledning. | | | utkast |
 
@@ -37,7 +37,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 | Piratstugan möbleras | Södra Ovanan | | Fredag eller tidigt lördag | |
 | Verkstadsförråd byggs om | Verkstaden | | Före helgen om möjligt | |
 | Gubben i stubben / Gumman på udden | Norra och södra ändan av Ovanan | kort | Lördag före 10.30. Ladda Q1-01 i flaska eller under docka, vaxduk. Dockor och flaskor stannar. | |
-| Klätternätet, Q-1-påsen | Högt i nätet | kort | Lördag före 10.30. Inte fredag. Knuten, inte en flagga. I påsen: Q1-03 och Q1-04. Inget sigill. | |
+| Klätternätet, Q-1-påsen | Högt i nätet | kort | Lördag före 10.30. Inte fredag. Knuten, inte en flagga. I påsen: Q1-03 och Q1-04. | |
 | Kistan ställs fram | TBD, väl synlig | kort | Fredag före ankomst, eller under installationen 17.30 | |
 | Cryptexen laddas (nyckel in, lapp på) | TBD var den kommer in lördag | kort | Lördag före 10.30 | |
 | Svärdfiskens gap laddas | Vardagsrummet | | Löpande under lördagen | |
@@ -79,7 +79,7 @@ Sådant som ska produceras i repot eller skickas till tryck.
 | Vad | Format | Var i repot | Status |
 |-----|--------|-------------|--------|
 | Kärleksbrev från Karl XII (K-07) | Tryck eller handskrift, sigill, ett blad | [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md) | utkast |
-| Malins dagboksblad före (Q1-01) | Ett blad, rives vertikalt till två halvor | [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md) | utkast |
+| Malins dagboksblad före (Q1-01) | Ett blad, dubbelsidigt, rives vertikalt | [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md) | utkast |
 | Malins dagboksblad efter (Q1-04) | Ett helt blad | [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md) | utkast |
 | Miniatyr av Karl XII | Bild, liten, i kistan | | utkast saknas |
 | Skuldbrev | Handskrift, visuell hög | | utkast saknas |

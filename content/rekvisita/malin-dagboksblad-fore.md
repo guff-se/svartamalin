@@ -6,7 +6,7 @@ prop: Q1-01
 
 # Dagboksblad, före förräderiet
 
-Oskyldig Malin, förälskad i Greve Otto von Pälspung. Rives vertikalt. Halvor vid Gubben och Gumman.
+Oskyldig Malin, förälskad i Greve Otto von Pälspung. Rives vertikalt. Halvor vid Gubben och Gumman. Bara dagbok. Vägvisning på baksidan.
 
 ## Tryck
 
@@ -16,6 +16,6 @@ Jag älskar Greve Otto von Pälspung. Otto. Mitt Otto. Han kom igen i kväll, se
 
 Han är greve. Jag är bara Malin. Jag har sagt det till honom. Han tar mitt ansikte i händerna och säger att ståndet inte spelar någon roll, att en man älskar vem han vill. När han kysser mig är det som om hela världen redan visste, och bara vi två som låtsas att det är en hemlighet.
 
-Han har gett mig sitt sigill. Han sa att det är ett löfte, att jag ska ha det tills han kan ge mig sitt namn på riktigt. Jag vågar inte ha det på mig. Jag gömmer det högt i klätternätet, där hans släkt inte letar och där ingen frågar en flicka vad hon gör.
+Han har lovat mig sitt namn. Inte nu, säger han, men snart, när huset inte längre kan säga nej. Jag sover med den meningen. Jag läser hans namn högt ibland, bara för att höra att det är sant. Otto von Pälspung.
 
-Jag läser hans namn högt ibland, bara för att höra att det är sant. Otto von Pälspung. Jag är hans. Han är min. Snart ska alla få se det. Jag ska bära siden. Han har lovat.
+Jag är hans. Han är min. Snart ska alla få se det. Jag ska bära siden. Han har lovat.

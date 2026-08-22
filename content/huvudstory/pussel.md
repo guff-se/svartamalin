@@ -182,18 +182,18 @@ Kräver:         Q-1-start i en spelares intrig (tre skutor TBD)
 Tid:            5 till 15 minuter att gå mellan uddarna. Själva läsningen under en minut.
 Målgrupp:       tre skutor, tävling
 
-Lösning:        hämta båda halvorna, håll ihop dem vertikalt, läs bladet. Oskyldig Malin. Texten pekar mot klätternätet.
+Lösning:        hämta båda halvorna, håll ihop dem vertikalt, läs framsidan, vänd. Framsidan är dagbok. Baksidan är vägvisning till klätternätet.
 
 Ledtråd:        starten säger att något är delat på två uddar, eller pekar mot Gubben och Gumman. Halvorna ligger vid trädocka och flaska, inte löst på bänken.
-Självvalidering: de två bitarna passar. Texten blir läsbar. Ingen hämnd i den här texten.
+Självvalidering: de två bitarna passar. Framsidan blir läsbar. Baksidan pekar vidare.
 
 Hint 1 riktning: det ni söker sitter inte på en udde. Det sitter på två.
 Hint 2 objekt: Gubben i stubben har den ena. Gumman på udden har den andra. Titta vid dockan och flaskan.
-Hint 3 metod: bladet är rivet på höjden. Håll ihop kanterna.
-Hint 4 lösning: vänster halva hos Gubben, höger hos Gumman. Läs. Sista raderna säger klätternätet.
+Hint 3 metod: bladet är rivet på höjden. Håll ihop kanterna. Läs båda sidor.
+Hint 4 lösning: vänster halva hos Gubben, höger hos Gumman. Framsidan är dagbok. Baksidan säger klätternätet.
 
-Bypass:         om halvorna är borta: fråga vem som satt vid bänkarna i förmiddag. Om de är förlorade: Spader har en läsbar avskrift av det hopsatta första bladet, inte cryptex-lappen, inte det andra bladet. Kedjan går vidare till P-03.
-Props:          Q1-01, två halvblad. Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md). Avskrift hos spelledning.
+Bypass:         om halvorna är borta: fråga vem som satt vid bänkarna i förmiddag. Om de är förlorade: Spader har avskrift av framsida och baksida, inte cryptex-lappen, inte det andra bladet. Kedjan går vidare till P-03.
+Props:          Q1-01, två halvblad, dubbelsidiga. Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md). Avskrift hos spelledning.
 Testat:         nej
 
 Engångs: halvorna tas. Första laget bär dem. Andra lag avskriver, stjäl eller byter. Trädockor och flaskor stannar.
@@ -203,16 +203,16 @@ Engångs: halvorna tas. Första laget bär dem. Andra lag avskriver, stjäl elle
 Typ:            sök / kropp
 Plats:          klätternätet, högt i nätet
 Låser upp:      en cryptex-bokstav till P-01
-Kräver:         P-02 (det hopsatta bladet säger var)
+Kräver:         P-02 (baksidan säger var)
 Tid:            några minuter att få ned. Inte ett klätterprov. Hitta något långt eller klättra kort.
 Målgrupp:       tre skutor, tävling
 
-Lösning:        hämta påsen högt i klätternätet. I den ligger det andra dagboksbladet (efter hämnden) och cryptex-lappen. Inget fysiskt sigill.
+Lösning:        hämta påsen högt i klätternätet. I den ligger det andra dagboksutdraget (efter hämnden) och cryptex-lappen.
 
-Ledtråd:        första bladets sista rader. Ingen annan pekare. Den som råkar se påsen och inte söker den lämnar den.
+Ledtråd:        baksidan av det rivna bladet. Ingen annan pekare. Den som råkar se påsen och inte söker den lämnar den.
 Självvalidering: ett helt andra blad om hämnden, plus lappen.
 
-Hint 1 riktning: inte vid bänkarna. Bladet ni just läste säger vart hon gömde minnet.
+Hint 1 riktning: inte vid bänkarna. Vänd på det ni just läste.
 Hint 2 objekt: klätternätet. Titta högt, inte i gräset.
 Hint 3 metod: få ned påsen. En stång, en åra, eller klättra. Det ska ta en stund, inte kräva en atlet.
 Hint 4 lösning: påse knuten högt i nätet. Andra bladet och lappen i påsen.

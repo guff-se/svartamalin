@@ -108,7 +108,7 @@ Runtime:
 
 1. **Tomma bänkar.** Dockor och flaskor ligger kvar. Papperet är borta. Peka mot vem som satt där, inte mot kungen.
 2. **Hamstring.** Play to lose. Andra tar, byter, avskriver. Ge inte en extra uppsättning halvor.
-3. **Avskrift.** Spader har det hopsatta första bladet, dolt. Bara om båda halvorna är förlorade på riktigt, inte för att ett lag kom sist. Det andra bladet avskrivs bara om påsen är borta från ön.
+3. **Avskrift.** Spader har det hopsatta första bladet, båda sidor, dolt. Bara om båda halvorna är förlorade på riktigt, inte för att ett lag kom sist. Det andra bladet avskrivs bara om påsen är borta från ön.
 4. **Påsen borta.** Jaga den som tog den. Reservlapp bara om föremålet är borta från ön.
 5. **Ingen springer Q-1 före brunchen.** Ge starten en riktning mot Gubben och Gumman. Inte sanningen om kungen. Inte en extra lapp i knät.
 6. **Malin tillfrågas om Otto.** Hon får namnge Greve Otto von Pälspung. Hon får bekräfta dåtiden: kärleken, förräderiet, kurtisan, hämnd, receptet. Hon kopplar inte till någon i hamnen. Hon säger inte att hon gör om det nu.

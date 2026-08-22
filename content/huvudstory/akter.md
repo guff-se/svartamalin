@@ -252,7 +252,7 @@ Plats:          Gubben i stubben, Gumman på udden, klätternätet
 Inblandade:     tre skutor TBD. Start i en namngiven intrig, inte Hjärter, Felix, Blodig.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
-Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser den oskyldiga Malin och var hon gömt sigillet, tar påsen högt i klätternätet. I påsen: blad två (hämnden) och cryptex-lappen. Inget fysiskt sigill. Engångs: första laget bär föremålen.
+Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser dagboken, vänder, följer baksidan till klätternätet. I påsen: blad två (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 

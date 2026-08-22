@@ -59,7 +59,7 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 
 **Sanning enligt kanon:** Cirkulerande version är sann. Otto von Pälspung är inte kungen och inte någon på ön. Yrket kurtisan är kanon, inte bara questens påstående. Skeppets namn är kanon. **Bakom kulisserna, får inte in i questen:** hon är fortfarande kurtisan, och nu i säng med Karl XII. Det avslöjas i kistan, inte här.
 
-**Får ljuga om:** Om han lever. Hur totalt ruinen var. Om sigillet verkligen är hans.
+**Får ljuga om:** Om han lever. Hur totalt ruinen var.
 
 **Får inte:**
 
@@ -80,7 +80,7 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 **Skrivstöd:**
 
 - Ton i gästtext: skvaller om ett gammalt yrke, en gammal hämnd, ett skeppsnamn. Inte en jakt på den nuvarande älskaren.
-- Props: två dagboksblad. Det första (oskyldig Malin) rivs vertikalt, halvor vid Gubben och Gumman. Det andra (efter hämnden) ligger med cryptex-lappen i klätternätet. Inget fysiskt sigill. Inte ett porträtt av Karl XII. Inte miniatyren i kistan. Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md).
+- Props: två dagboksutdrag. Det första (oskyldig Malin) rivs vertikalt, halvor vid Gubben och Gumman. Vägvisning på baksidan. Det andra (efter hämnden) ligger med cryptex-lappen i klätternätet. Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md), [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md).
 
 **Mekanik:** form låst 2026-08-20. Engångs låst 2026-08-22. Noder: [`pussel.md`](pussel.md) P-02, P-03.
 
@@ -89,16 +89,16 @@ Platser: **Gubben i stubben** och **Gumman på udden** (var sin halva av det fö
 Kedja:
 
 1. Start (intrig) pekar mot de två bänkarna, eller mot att något är delat på två uddar.
-2. Pit stop: hämta båda halvorna. De är ett vertikalt rivet dagboksblad från **före** förräderiet. Oskyldig Malin, Otto, var hon gömt sigillet. Ingen hämnd i den texten. Inget fysiskt sigill produceras.
-3. Skatt: påse högt i klätternätet. I den ligger det **andra** dagboksbladet (efter hämnden) och cryptex-lappen.
+2. Pit stop: hämta båda halvorna. Framsidan är ett dagboksutdrag från **före** förräderiet. Oskyldig Malin, Otto. Ingen hämnd, ingen plats. Vänd. Baksidan är vägvisning till klätternätet.
+3. Skatt: påse högt i klätternätet. I den ligger det **andra** dagboksutdraget (efter hämnden) och cryptex-lappen.
 
-Props: två fysiska halvblad (Q1-01). Cryptex-lapp (Q1-03). Ett helt andra blad (Q1-04). Påse.
+Props: två fysiska halvblad, dubbelsidiga (Q1-01). Cryptex-lapp (Q1-03). Ett helt andra blad (Q1-04). Påse.
 
 **Engångs, avsiktligt:** halvorna och påsen tas. Tre skutor har ingång och tävlar. Första laget som fullföljer bär de unika föremålen. De andra två får dem genom stöld, byte, avskrift eller hot. Cryptex-lappen är ett fysiskt papper och får cirkulera som cryptexen. Det är spelet, inte ett fel.
 
 Bypass om halvorna är borta: fråga vem som satt vid bänkarna. Spader har en läsbar avskrift av det hopsatta första bladet (inte cryptex-lappen, inte det andra bladet), så kedjan kan gå vidare till nätet. Bypass om påsen är borta: jaga den som tog den. Om den är förlorad på riktigt: spelledning har reservlapp och avskrift av andra bladet. Om ingen springer Q-1 före brunchen: Spader ger starten en riktning, inte sanningen om kungen.
 
-Får inte i något av bladen: kungen, nuvarande älskare på ön, kreditköpet av Kurtisanen. Ottos namn får och ska stå. Hämnden och skeppsnamnet står bara i det andra bladet.
+Får inte i dagboksutdragen: kungen, nuvarande älskare på ön, kreditköpet av Kurtisanen, platsen för nästa steg. Ottos namn får och ska stå. Hämnden och skeppsnamnet står bara i det andra utdraget. Platsen står bara på baksidan av det första.
 
 ---
 
