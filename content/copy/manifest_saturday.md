@@ -20,6 +20,6 @@ Vi samlas sedan för en gemensam avresa. Biljetter finns till alla som vill, men
 
 Svarta Malin fyller år och bjuder på kaviar och rom. Så bryter helvetet ut, det blir slagsmål till slut! Vi flyger på jubilaren med värjor och krut. Det enda vi vet säkert är att när fighten är slut är det Svarta Malin som står som segrare!
 
-#### Natt: Rans Salar
+#### Natt: Helt vanlig fest
 
 Spelet är slut! Alla möts som vänner i djuphavets salar. Fri fest ock lek, tills solen stiger igen.
