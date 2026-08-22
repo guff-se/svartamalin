@@ -10,10 +10,14 @@ Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med cryptex-lappe
 
 ## Tryck
 
-Otto von Pälspung tog vad han ville. Sen lämnade han mig, för att jag var av lägre stånd.
+Otto.
 
-Jag sålde mig till herrarna i hans krets. Jag tog deras mynt. Jag tog deras hemligheter. Med det jag visste förrådde jag honom, förnedrade honom och tog allt han ägde.
+Jag skrev ditt namn så många gånger. Jag gömde ditt sigill som ett löfte. Du tog vad du ville. Sen lämnade du mig, för att jag var av lägre stånd. Du skrattade när du sa det. Som om jag borde ha vetat.
 
-Det blev mitt yrke. Sängen är hur jag får veta. Det jag vet är hur jag tar. Därför heter min skuta Kurtisanen.
+Jag visste inte. Nu vet jag.
 
-Sigillet är kvar. Resten av honom är borta.
+Jag sålde mig till herrarna i din krets. De som drack med dig. De som gifte bort döttrar till dig. Jag tog deras mynt. Jag tog det de viskade när de trodde att de ägde mig. Med det jag visste förrådde jag dig. Jag förnedrade dig. Jag tog allt du ägde, hus och heder och det löfte du aldrig tänkt hålla.
+
+Det blev mitt yrke. Inte siden. Sängen. Sängen är hur jag får veta. Det jag vet är hur jag tar. Därför heter min skuta Kurtisanen. De tror det är ett skämt. Det är en räkning.
+
+Sigillet är kvar. Resten av dig är borta. Jag sover. Jag skriver inte ditt namn mer.

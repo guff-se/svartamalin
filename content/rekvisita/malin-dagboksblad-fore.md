@@ -10,10 +10,12 @@ Oskyldig Malin, förälskad i Greve Otto von Pälspung. Rives vertikalt. Halvor 
 
 ## Tryck
 
-Jag älskar Greve Otto von Pälspung.
+Jag måste skriva det, annars tror jag att jag har drömt.
 
-Han är greve. Jag är bara Malin. Han säger att ståndet inte spelar någon roll. Han kysser mig som om hela världen redan visste.
+Jag älskar Greve Otto von Pälspung. Otto. Mitt Otto. Han kom igen i kväll, senare än sist, och jag hade redan tänkt att han glömt mig. Sen stod han där och skrattade som om det vore jag som kom för sent.
 
-Han har gett mig sitt sigill som löfte. Jag gömmer det högt i klätternätet, där hans släkt inte letar.
+Han är greve. Jag är bara Malin. Jag har sagt det till honom. Han tar mitt ansikte i händerna och säger att ståndet inte spelar någon roll, att en man älskar vem han vill. När han kysser mig är det som om hela världen redan visste, och bara vi två som låtsas att det är en hemlighet.
 
-Jag är hans. Han är min. Snart ska alla få se det.
+Han har gett mig sitt sigill. Han sa att det är ett löfte, att jag ska ha det tills han kan ge mig sitt namn på riktigt. Jag vågar inte ha det på mig. Jag gömmer det högt i klätternätet, där hans släkt inte letar och där ingen frågar en flicka vad hon gör.
+
+Jag läser hans namn högt ibland, bara för att höra att det är sant. Otto von Pälspung. Jag är hans. Han är min. Snart ska alla få se det. Jag ska bära siden. Han har lovat.
