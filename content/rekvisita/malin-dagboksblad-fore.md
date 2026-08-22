@@ -1,3 +1,9 @@
+---
+quest: Q-1
+pussel: P-02
+prop: Q1-01
+---
+
 # Dagboksblad, före förräderiet
 
 Oskyldig Malin, förälskad i Greve Otto von Pälspung. Rives vertikalt. Halvor vid Gubben och Gumman.

@@ -1,3 +1,9 @@
+---
+story: kista
+beat: B-42
+prop: K-07
+---
+
 # Kärleksbrev från Karl XII till Svarta Malin
 
 Både kärleksbrev och kontrakt. Ett blad i kistan. Miniatyren ligger ovanpå.
