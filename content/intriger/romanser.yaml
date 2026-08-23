@@ -101,7 +101,7 @@ romanser:
     type: mutual
     a: gustaftadaa         # Löjtnant Spader (Gustaf Tadaa)
     b: elinmartensson      # Kapten Plåthorn (Elin Mårtensson)
-    status: pending
+    status: done
 
   - id: 17
     type: one_way

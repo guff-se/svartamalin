@@ -413,9 +413,9 @@ fordelning:
     akt: II
     till: [jesperlindmarker]
     roll: jagare
-    vet: "att han vill veta vem som en gång angav honom och satte honom i fängelse, att hans svarta liggare behöver en ny rad, att Kapten Fuling alltid nekat att hon planterar rykten trots att hon gjorde det mot Kapten Planka, att Kapten Klöver och Kapten Prygel båda delar säng med honom utan att veta om varandra och att han kan spela ut dem mot varandra, och att Kapten Blåskägg bär en obetald skuld och ett gammalt skämt som gör honom till ett bekvämt mål för misstanke"
+    vet: "att han vill veta vem som en gång angav honom och satte honom i fängelse, att hans svarta liggare behöver en ny rad, att Kapten Fuling alltid nekat att hon planterar rykten trots att hon gjorde det mot Kapten Planka, att Kapten Klöver och Kapten Prygel båda delar säng med honom utan att veta om varandra och att han kan spela ut dem mot varandra, att Kapten Blåskägg bär en obetald skuld och ett gammalt skämt som gör honom till ett bekvämt mål för misstanke, och att Löjtnant Spader bär en gammal spelskuld till honom som han kan kräva in i mynt eller i ett rykte från spelborden"
     vet_inte: "inget av kistan eller kontraktet"
-    speglas: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad]
+    speglas: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa]
     bygger_pa: "fiende: 5, 1, 8"
     pussel: null
     status: done
@@ -617,10 +617,10 @@ fordelning:
     akt: II-IV
     till: [elinmartensson]
     roll: grindvakt
-    vet: "att hon aldrig släpper sitt plåthorn frivilligt eftersom det är hennes flyktväg när det blir på allvar, att Kapten Prygel vill se det krossat och Kapten Kuling redan hånat det i en skål efter en gammal förnedring, och att hon kan fly, muta eller blåsa i hornet i självförsvar"
+    vet: "att hon aldrig släpper sitt plåthorn frivilligt eftersom det är hennes flyktväg när det blir på allvar, att Kapten Prygel vill se det krossat och Kapten Kuling redan hånat det i en skål efter en gammal förnedring, att hon kan fly, muta eller blåsa i hornet i självförsvar, att Löjtnant Spader är hennes hemliga romans, och att Kuling försökt värva honom för att komma åt hornet utan att veta om kärleken"
     vet_inte: "att Kapten Rosing hör deras planer via sin snäcka"
-    speglas: [josefinlowing, minervalowgren]
-    bygger_pa: "fiende: 7, 24"
+    speglas: [josefinlowing, minervalowgren, gustaftadaa]
+    bygger_pa: "fiende: 7, 24, romans: 14"
     pussel: null
     status: done
 
@@ -629,8 +629,8 @@ fordelning:
     akt: II-IV
     till: [josefinlowing]
     roll: jagare
-    vet: "att Kapten Plåthorns 'varning' en gång sålde hennes position och att hon hånat hornet i en skål sen dess, och att hon nu vill ha hornet för skojs skull, taktiskt bruk eller för att sälja det vidare"
-    vet_inte: "att Kapten Rosing hör planerna via sin snäcka"
+    vet: "att Kapten Plåthorns 'varning' en gång sålde hennes position och att hon hånat hornet i en skål sen dess, att hon nu vill ha hornet för skojs skull, taktiskt bruk eller för att sälja det vidare, och att Löjtnant Spader, känd kortfuskare, kan värvas att hjälpa henne komma åt det"
+    vet_inte: "att Kapten Rosing hör planerna via sin snäcka, att Spader älskar Plåthorn i hemlighet"
     speglas: [elinmartensson]
     bygger_pa: "fiende: 7"
     pussel: null
@@ -753,5 +753,29 @@ fordelning:
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [navidmodiri]
     bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 61
+    beat: S-04
+    akt: II
+    till: [gustaftadaa]
+    roll: vittne
+    vet: "att han bär en gammal spelskuld till Kapten Hurring, att Hurring kräver in den mitt i sin jakt på vem som en gång angav honom, och att han kan betala i mynt eller i ett rykte han snappat upp vid spelborden, sant eller påhittat"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [jesperlindmarker]
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 62
+    beat: S-08
+    akt: II-IV
+    till: [gustaftadaa]
+    roll: vittne
+    vet: "att han älskar Kapten Plåthorn i hemlighet, att Kapten Kuling försöker värva honom, med hans rykte som kortfuskare som lockbete, för att komma åt Plåthorns horn, och att hon inte vet om kärleken"
+    vet_inte: "att kistan öppnas, att brevet läses högt"
+    speglas: [elinmartensson]
+    bygger_pa: "romans: 14"
     pussel: null
     status: done

@@ -11,7 +11,9 @@ mirrors:
     note: obetald skuld och gammalt skämt (tvåvägs)
   - slug: amaliawahlstrom
     note: säljer skvaller om Malin till henne (enväg)
-related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, amaliawahlstrom]
+  - slug: gustaftadaa
+    note: gammal spelskuld (tvåvägs)
+related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, amaliawahlstrom, gustaftadaa]
 ---
 
 ## Boken som ska fyllas {slug:louisevonbahr}
@@ -31,3 +33,7 @@ Du delar säng med både **Kapten Klöver** och **Kapten Prygel**, var för sig,
 ## Historien du säljer om Malin {slug:amaliawahlstrom}
 
 I din svarta liggare finns en rad om **Svarta Malin** du aldrig kunnat bekräfta, gammal och osäker men fortfarande vass. **Kapten Enben** och **Kapten Kuling** bär båda groll mot henne och letar efter en anledning att få henne att förlora något inför alla. Sälj raden till den som betalar bäst, mynt eller en tjänst du kan kräva tillbaka senare, och låt den bli ammunition till nästa provokation.
+
+## Skulden Spader ska betala {slug:gustaftadaa}
+
+**Löjtnant Spader** sitter på en gammal spelskuld till dig, från år av kort ni delat vid samma bord i olika hamnar, och du tänker driva in den nu när alla ändå är samlade på samma ö. Han hör mer vid sina spelbord än de flesta anar. Kräv betalt i mynt, eller i ett namn: någon han hört viska om vem som en gång angav dig. Vilket han än väljer att ge dig, ta det som en ny rad i liggaren.

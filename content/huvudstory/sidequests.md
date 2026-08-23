@@ -40,11 +40,11 @@ Status:         idé / beslutad / skriven
 | S-01 | Jakten på älskaren | Hjärter, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | skriven |
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / grindvakt | skriven |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver | II | jägare / bärare / vittne | skriven |
-| S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg | II | jägare / bärare / vittne | skriven |
+| S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
 | S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
 | S-06 | Enbens räkning | Enben, Kuling, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
 | S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | skriven |
-| S-08 | Jakten på Plåthornet | Plåthorn, Kuling, Prygel, Rosing | II–IV | grindvakt / jägare / vittne | skriven |
+| S-08 | Jakten på Plåthornet | Plåthorn, Kuling, Prygel, Rosing, Spader | II–IV | grindvakt / jägare / vittne | skriven |
 | S-09 | Blodigs hot | Blodig, Frodig, Rödskägg, Lösskägg | II–IV | jägare / bärare | skriven |
 | S-10 | Teckenspråket | Döver, Babord, Rötägg, Fuling. Hjärter är målet, enväg. | II | jägare / grindvakt / vittne | skriven |
 
@@ -69,7 +69,7 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | slug | Antal sidequests | Roll i huvudstoryn | Akt där personen toppar |
 |------|------------------|--------------------|-------------------------|
 | `malintadaa` | 2 | antagonist, bärare | IV |
-| `gustaftadaa` | | budbärare, spelledare | IV |
+| `gustaftadaa` | 2 | budbärare, spelledare | IV |
 | `petterwallberg` | 2 | rival, jägare | II–IV |
 | `linneaappert` | 1 | jägare | II |
 | `ulrikahammar` | 2 | bärare, vittne | II |
@@ -145,7 +145,9 @@ Obs: Klöver bär också S-04 och S-05, samma etablerade drag (vadslagning, skva
 
 Beslutade 2026-08-23. Ingen gästtext skriven än. Inte i `fordelning.yaml`. Huvudstoryn går ändå i mål om någon enskild inte spelas, som alla sidequests.
 
-Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Planka, Fuling, Enben, Blåskägg) får ändå kort via yaml och andras föremål. Spader får ingen egen jakt: han bad om att inte få mer praktiskt ansvar, och Kosing vill uttryckligen inte stå i centrum av ett högintensivt drama.
+Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Planka, Fuling, Enben, Blåskägg) får ändå kort via yaml och andras föremål. Kosing vill uttryckligen inte stå i centrum av ett högintensivt drama.
+
+**Löjtnant Spader (`gustaftadaa`) kan inte bäras in i huvudstoryn** (han kör runtime och spelledning, se `cast.md`), men han kan delta i sidequests som vilken gäst som helst. Han bär S-04 (spelskuld till Hurring) och S-08 (hemlig romans med Plåthorn, romans 14, som Kuling drar in honom i utan att veta om den). Båda rollerna är låg intensitet: en skuld att förhandla om, ett val att göra i det tysta, ingen ny scen som kräver att han lämnar spelledningen.
 
 **Mullvad och sidequest är två hemligheter. Skriv dem inte som samma uppdrag**, se [`forradare.yaml`](forradare.yaml):
 
@@ -180,9 +182,9 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `alexandrapalmquist` | S-10 | sjökort, mild ordning, romans med Döver. Redan mullvad mot Döver (annan hemlighet). |
 | `edvinthungren` | S-07, S-10 | vill vara snäll, enhörningsmanschetter från Planka |
 | `elinmartensson` | S-08 | plåthorn, klagomur |
-| `gustaftadaa` | ingen jakt | kortfusk som garnering i S-04. Inte mer ansvar. |
+| `gustaftadaa` | S-04, S-08 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14). Kan inte bäras in i huvudstoryn (kör runtime), men fungerar som sidequest-deltagare. |
 
-Sju personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `amaliawahlstrom`, `minervalowgren`, `linneaekbom`. Två bär tre: `fabianmacklin`, `johannabergman`. Alla har rollunderlag med gott om material att bära det på, och ingen av lasterna delar mekanik mellan sidequesterna: se "Obs"-raden under respektive sidequest för hur de hålls isär i gästtexten.
+Åtta personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `amaliawahlstrom`, `minervalowgren`, `linneaekbom`, `gustaftadaa`. Två bär tre: `fabianmacklin`, `johannabergman`. Alla har rollunderlag med gott om material att bära det på, och ingen av lasterna delar mekanik mellan sidequesterna: se "Obs"-raden under respektive sidequest för hur de hålls isär i gästtexten.
 
 ---
 
@@ -212,23 +214,23 @@ Obs: Nykter bär också S-05 och S-07, Barnsben bär också S-07, Döver bär oc
 ## S-04: Liggaren
 
 Akt:            II
-Deltagare:      Kapten Hurring (`jesperlindmarker`), Kapten Fuling (`louisevonbahr`), Kapten Klöver (`johannabergman`), Kapten Prygel (`minervalowgren`), Kapten Blåskägg (`hampuslindblad`)
-Roll i storyn:  jägare (Hurring) / bärare (Fuling) / vittne (Klöver, Prygel, Blåskägg)
+Deltagare:      Kapten Hurring (`jesperlindmarker`), Kapten Fuling (`louisevonbahr`), Kapten Klöver (`johannabergman`), Kapten Prygel (`minervalowgren`), Kapten Blåskägg (`hampuslindblad`), Löjtnant Spader (`gustaftadaa`)
+Roll i storyn:  jägare (Hurring) / bärare (Fuling) / vittne (Klöver, Prygel, Blåskägg, Spader)
 Kopplad till:   ingen beat än. Inte S-01. Hjärters kristallfyrklöver sitter redan hos Klöver från ett kortspel, Hjärter jagar inte den här.
 
 Vad de vill:    Hurring vill äntligen veta vem som angav honom för många år sedan och satte honom i fängelse, och skriva en ny rad i sin svarta liggare den här helgen.
 Vad står i vägen: sanningen ligger begravd. Fuling har alltid nekat att hon planterar rykten, trots att det är precis vad hon gjorde mot Planka (fiende 5, det planterade silverryktet efter en förlorad auktion). Ingen misstänker den tysta ryktesspridaren för något så allvarligt som ett angiveri. Klöver och Prygel, båda ihop med Hurring samtidigt (romanser 12 och 13, han vet, de vet inte om varandra) och sedan länge ovänner (fiende 1, en stulen vals och äran för en gemensam bordning), hjälper honom helst var för sig och tävlar om att vara den som löser gåtan, inte om att slå sig samman.
 Varför nu:      alla från den tiden är samlade på samma ö för första gången, och liggaren behöver en ny sida.
 
-Hur det spelas: Hurring förhör gamla bekanta och driver in skulder, och stämmer av deras historier mot liggaren. Klöver, som driver hemliga spelklubbar och byter skvaller mot choklad, har hört ett fragment som pekar mot "någon som är bra på rykten" men vill ha betalt för att dela det, gärna av Prygel snarare än gratis. Prygel har sin lilla kortlek och kan fuska tillbaka, och vägrar be Klöver om hjälp rakt ut. Deras gamla groll gör att de hellre motarbetar varandra än samarbetar, vilket bromsar Hurring mer än Fuling gör. Fuling ljuger eller planterar ett nytt rykte för att peka bort från sig själv, gärna mot Planka igen. Blåskägg, som redan har en obetald skuld och ett gammalt skämt liggande hos Hurring (fiende 8, IOU:er naglade i masten), bär sin egen rad i liggaren och kan lika gärna bli den Hurring vänder sin misstanke mot när Fuling nekar för övertygande.
-Utfall om ja:   Hurring får bekräftelse, eller stark cirkumstantiell bevisning, att Fuling ligger bakom. En ny sida i liggaren, kanske en offentlig konfrontation. Klöver och Prygel upptäcker kanske att de delar Hurring, vilket öppnar ett helt annat drama.
+Hur det spelas: Hurring förhör gamla bekanta och driver in skulder, och stämmer av deras historier mot liggaren. Klöver, som driver hemliga spelklubbar och byter skvaller mot choklad, har hört ett fragment som pekar mot "någon som är bra på rykten" men vill ha betalt för att dela det, gärna av Prygel snarare än gratis. Prygel har sin lilla kortlek och kan fuska tillbaka, och vägrar be Klöver om hjälp rakt ut. Deras gamla groll gör att de hellre motarbetar varandra än samarbetar, vilket bromsar Hurring mer än Fuling gör. Fuling ljuger eller planterar ett nytt rykte för att peka bort från sig själv, gärna mot Planka igen. Blåskägg, som redan har en obetald skuld och ett gammalt skämt liggande hos Hurring (fiende 8, IOU:er naglade i masten), bär sin egen rad i liggaren och kan lika gärna bli den Hurring vänder sin misstanke mot när Fuling nekar för övertygande. Spader, känd kortspelare med spelskulder åt båda hållen, har en gammal spelskuld till Hurring: Hurring kräver in den mitt i utredningen, i mynt eller i ett rykte Spader kan ha snappat upp vid något av alla spelbord han suttit vid. Spader väljer själv om han betalar, eller köper sig fri med ett namn, sant eller påhittat.
+Utfall om ja:   Hurring får bekräftelse, eller stark cirkumstantiell bevisning, att Fuling ligger bakom. En ny sida i liggaren, kanske en offentlig konfrontation. Klöver och Prygel upptäcker kanske att de delar Hurring, vilket öppnar ett helt annat drama. Spaders rykte kan peka åt vilket håll som helst, sant eller inte.
 Utfall om nej:  mysteriet förblir olöst, Fulings hemlighet överlever, och Hurrings paranoia om andra möjliga angivare, kanske Malin eller Blåskägg, fortsätter.
 
-Bygger på:      fiende 5 (Fuling–Planka, hennes vana att plantera rykten). Romanser 12, 13 (Hurring–Klöver, Hurring–Prygel). Fiende 1 (Klöver–Prygel). Fiende 8 (Hurring–Blåskägg). Hurrings egen etablerade hemlighet: han vet inte vem som angav honom.
-Speglas hos:    Hurring, Fuling, Klöver, Prygel, Blåskägg.
+Bygger på:      fiende 5 (Fuling–Planka, hennes vana att plantera rykten). Romanser 12, 13 (Hurring–Klöver, Hurring–Prygel). Fiende 1 (Klöver–Prygel). Fiende 8 (Hurring–Blåskägg). Hurrings egen etablerade hemlighet: han vet inte vem som angav honom. Spaders etablerade rykte som kortfuskare och spelskuldsatt (rollunderlag).
+Speglas hos:    Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader.
 Status:         skriven
 
-Obs: Fuling bär redan en hemlig mullvadsrelation mot Hjärter (annan skuta, annan hemlighet). Håll de två isär i gästtexten: den här handlar om det gamla angiveriet, inte om helgens förräderi. Blåskägg bär också S-02, Klöver bär också S-02 och S-05: ingen delad mekanik.
+Obs: Fuling bär redan en hemlig mullvadsrelation mot Hjärter (annan skuta, annan hemlighet). Håll de två isär i gästtexten: den här handlar om det gamla angiveriet, inte om helgens förräderi. Blåskägg bär också S-02, Klöver bär också S-02 och S-05: ingen delad mekanik. Spader bär också S-08: skulden till Hurring och romansen med Plåthorn delar ingen mekanik.
 
 ---
 
@@ -304,23 +306,23 @@ Obs: Barnsben bär också S-03, Rötägg bär också S-10, Nykter bär också S-
 ## S-08: Jakten på Plåthornet
 
 Akt:            II–IV, betalar sig bäst efter ritualen 15.30: ett hornstöt mitt i kvällens kaos kräver ingen logik, bara kropp och skratt
-Deltagare:      Kapten Plåthorn (`elinmartensson`), Kapten Kuling (`josefinlowing`), Kapten Prygel (`minervalowgren`), Kapten Rosing (`linneaekbom`)
-Roll i storyn:  grindvakt (Plåthorn) / jägare (Kuling, Prygel) / vittne (Rosing, enväg)
+Deltagare:      Kapten Plåthorn (`elinmartensson`), Kapten Kuling (`josefinlowing`), Kapten Prygel (`minervalowgren`), Kapten Rosing (`linneaekbom`), Löjtnant Spader (`gustaftadaa`)
+Roll i storyn:  grindvakt (Plåthorn) / jägare (Kuling, Prygel) / vittne (Rosing, enväg) / vittne, bärare (Spader)
 Kopplad till:   klagomuren på Gnället.
 
-Vad de vill:    Prygel vill se hornet krossat en gång för alla, på allvar, för att det stör hennes stridslystna heder (fiende 24). Kuling, som redan hånat hornet i en skål (fiende 7), vill komma över det för skojs skull, kanske använda det taktiskt eller sälja det vidare.
-Vad står i vägen: Plåthorn släpper aldrig hornet frivilligt. Det är hennes enda pålitliga flyktväg när det blir på allvar, och hon bär det nära sig hela tiden.
+Vad de vill:    Prygel vill se hornet krossat en gång för alla, på allvar, för att det stör hennes stridslystna heder (fiende 24). Kuling, som redan hånat hornet i en skål (fiende 7), vill komma över det för skojs skull, kanske använda det taktiskt eller sälja det vidare. Spader vill, framför allt, skydda Plåthorn utan att avslöja att han älskar henne.
+Vad står i vägen: Plåthorn släpper aldrig hornet frivilligt. Det är hennes enda pålitliga flyktväg när det blir på allvar, och hon bär det nära sig hela tiden. Kuling har fått för sig att hon behöver en listig hand för att komma åt hornet, och har fäst blicken på Spader, känd kortfuskare, utan att ana att han redan är Plåthorns hemliga romans (romans 14).
 Varför nu:      den samlade festen och stridsstämningen gör hornet extra farligt att använda, och båda jägarna vet att fel tillfälle blir kaos.
 
-Hur det spelas: Kuling och Prygel försöker, var för sig eller tillsammans, locka fram, stjäla eller lura Plåthorn att blåsa i hornet vid fel tillfälle, så att hon förlorar kontrollen över det eller avslöjas. Plåthorn försvarar sig genom att fly, muta, eller blåsa i hornet i självförsvar och sprida kaos som täckmantel. Rosing, vars viskande snäcka hör mer än hon bett om, snappar upp planerna i förbifarten och kan varna Plåthorn i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid hon inte kan simma ifrån.
-Utfall om ja:   hornet byter händer eller krossas, ett kaosmoln av upphetsning bryter ut runt bytet, publikt och pinsamt.
+Hur det spelas: Kuling och Prygel försöker, var för sig eller tillsammans, locka fram, stjäla eller lura Plåthorn att blåsa i hornet vid fel tillfälle, så att hon förlorar kontrollen över det eller avslöjas. Plåthorn försvarar sig genom att fly, muta, eller blåsa i hornet i självförsvar och sprida kaos som täckmantel. Rosing, vars viskande snäcka hör mer än hon bett om, snappar upp planerna i förbifarten och kan varna Plåthorn i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid hon inte kan simma ifrån. Kuling övertalar Spader att hjälpa henne komma åt hornet, med mynt eller smicker om hans rykte. Spader väljer om han spelar med på låtsas och skyddar Plåthorn i det tysta, eller varnar henne rakt ut och riskerar att avslöja sin hemliga kärlek för att göra det.
+Utfall om ja:   hornet byter händer eller krossas, ett kaosmoln av upphetsning bryter ut runt bytet, publikt och pinsamt. Spaders dubbelspel kan avslöjas i samma veva som hornet.
 Utfall om nej:  Plåthorn behåller hornet, grälet fortsätter, ingen konsekvens för huvudstoryn.
 
-Bygger på:      fiende 7 (Kuling–Plåthorn). Fiende 24 (Prygel–Plåthorn).
-Speglas hos:    Plåthorn, Kuling, Prygel. Rosing enväg, hon lyssnar men väljer själv om hon agerar.
+Bygger på:      fiende 7 (Kuling–Plåthorn). Fiende 24 (Prygel–Plåthorn). Romans 14 (Spader–Plåthorn), hemlig och mutual.
+Speglas hos:    Plåthorn, Kuling, Prygel, Spader. Rosing enväg, hon lyssnar men väljer själv om hon agerar.
 Status:         skriven
 
-Obs: Prygel bär redan mullvadskontakten mot Hurring (annan hemlighet, se mullvadstabellen). Kuling bär redan grindvaktsrollen för båtarna plus S-06. Rosing bär också S-03 och mullvadskontakten mot Frodig. Inget av det delar mekanik med det här.
+Obs: Prygel bär redan mullvadskontakten mot Hurring (annan hemlighet, se mullvadstabellen). Kuling bär redan grindvaktsrollen för båtarna plus S-06. Rosing bär också S-03 och mullvadskontakten mot Frodig. Spader bär också S-04: skulden till Hurring och romansen med Plåthorn delar ingen mekanik. Inget av det delar mekanik med det här.
 
 ---
 
