@@ -197,3 +197,11 @@ fiender:
     # oförrätt: Kuling låg i bakhåll och sköt Rödskägg i ryggen på Paradisets ö för ett år sedan (Kulings underlag).
     # De har båtarna tillsammans: fiendskapen spelas vid kajen, inte långt från vattnet.
     status: pending
+
+  - id: 26
+    type: mutual
+    a: amaliawahlstrom    # Kapten Enben: Barken Bortförklaringen
+    b: louisevonbahr      # Kapten Fuling: Fregatten Fördärvet
+    # oförrätt: båda älskar Kapten Blåskägg (romans 10, 23), samma mönster som Klöver/Prygel om Hurring (fiende 1).
+    # Fuling hade honom först, Enben vägrar backa. Ingen av dem vet säkert om Blåskägg valt en av dem eller ingen.
+    status: pending

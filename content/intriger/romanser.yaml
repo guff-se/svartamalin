@@ -25,7 +25,9 @@
 #   * navidmodiri: nemesis är Kapten Hjärter (fiende 23, inte romans)
 #   * josefinlowing: onåd från Rödskägg, bakhåll på Paradisets ö (fiende 25)
 #   * elinmartensson: Prygel vill krossa hornet (fiende 24)
-#   * amaliawahlstrom: saknade romans (var bara fiende 2 mot Malin), ny mutual med linneaekbom (#23)
+#   * amaliawahlstrom: saknade romans (var bara fiende 2 mot Malin), ny mutual med hampuslindblad (#23).
+#     Gör henne till rival med louisevonbahr i fiender.yaml, samma Hampus.
+#   * ludvigvonbahr: utöver Kosing (#19) även ny mutual med Malin (#24), gömma/krock för B-13
 #   * chriskummelstedt tackade nej: inga poster
 
 romanser:
@@ -156,6 +158,13 @@ romanser:
   - id: 23
     type: mutual
     a: amaliawahlstrom     # Kapten Enben (Amalia Wahlström)
-    b: linneaekbom         # Kapten Rosing (Linnea Ekbom)
-    note: Enben saknade romans, bara fiende 2 mot Malin. Rosings eget underlag listar farliga leenden och dramatiska motståndare som sin svaghet, och Enben är den enda på ön som öppet trotsat Svarta Malin (den kapade skiffen, skålen om fasanen). Ingen fiendepost mellan dem. Korsar skutor (3 och 5).
+    b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
+    note: Enben saknade romans, bara fiende 2 mot Malin. Blåskägg har redan Fuling (#10): Enben är hans andra kärlek, ovetande om varandra till en början. Gör Enben till rival med louisevonbahr i fiender.yaml, samma mönster som Klöver/Prygel om Hurring (fiende 1, romanser 12/13).
+    status: pending
+
+  - id: 24
+    type: mutual
+    a: malintadaa          # Svarta Malin (Malin Tadaa)
+    b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
+    note: ytterligare synlig romans som gömmer den hemliga (#17/#18/#20/#22), bränsle för jakten på älskaren (huvudstory B-13/S-01). Krockar med Dunkas romans med Kosing (#19): håll den här diskret så Kosing inte dras in i centrum-drama mot sin vilja.
     status: pending
