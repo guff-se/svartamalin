@@ -32,8 +32,9 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md).
 - [x] Gömstället är i svärdfiskens mun.
 - [x] Sen behöver vi spåna på sätt att fördröja detta till lördagen, så att det inte spelas ut fredag.
 - [x] vi litar på att C räcker. de har dessutom en metainstruktion att inte fokusera på att lösa pussel på fredagen.
+- [x] uppdatera så att de tre skuldsatta måste vara män.
 
-Kryss = inlagt i questen. Fördröjning låst: Malin i rummet plus metainstruktion. Ingen dummy-laddning.
+Kryss = inlagt i questen. Fördröjning låst: Malin i rummet plus metainstruktion. Ingen dummy-laddning. De tre starterna är män. Civilnamn i anteckningar, inte piratnamn.
 
 ---
 

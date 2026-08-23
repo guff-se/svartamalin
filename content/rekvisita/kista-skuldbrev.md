@@ -7,7 +7,7 @@ prop: K-10
 
 # Tre skuldbrev
 
-En per Q-5-start. Namn vid tillsättning. Tre identiska mallar.
+En per Q-5-start. Tre män. Namn vid tillsättning. Tre identiska mallar.
 
 ## Tryck
 

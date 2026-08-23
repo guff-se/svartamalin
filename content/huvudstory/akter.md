@@ -291,10 +291,10 @@ Om det floppar: tre andra quests plus XII räcker för skutor som inte hade Q-2.
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
 Plats:          Storstugan, porträttväggen, svärdfiskens mun
-Inblandade:     tre skutor TBD. Start i tre namngivna intrigfiler, en gäldenär per lag. Tvärledtråd på de två skutorna utan ingång.
+Inblandade:     tre skutor TBD. Start i tre namngivna intrigfiler, en manlig gäldenär per lag. Kön efter civilnamn. Tvärledtråd på de två skutorna utan ingång.
 Publik:         den som ser väggen tas ner, och den som ser någon fiska i gapet
 
-Vad händer:     tre personer är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: dagboksbladet och tre cryptex-lappar. Troligen one-off.
+Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: dagboksbladet och tre cryptex-lappar. Troligen one-off.
 
 Vad ändras:     rummet vet att hon håller havet med mäns skulder, och att de ligger i kistan. Inte kungen. Inte att hon är skuldsatt.
 

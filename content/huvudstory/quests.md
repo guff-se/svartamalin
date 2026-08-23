@@ -266,7 +266,7 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 
 **Vad de ska ha lärt sig när questen är klar:** Hon samlar andras skulder. Inte bara guld: IOU:er, eder, obetalda skålar, namn på en lapp. En kapten som inte betalar Malin slutar vara kapten. Lojalitet hos henne är något som kan skrivas upp. Hon håller Salmonellahavet genom att sätta män i skuld.
 
-**Cirkulerande version, start (det som får stå i de tre startintrigerna):** Du är skyldig Svarta Malin pengar. Hon för logg. Du vill komma åt loggen. Inte var den sitter.
+**Cirkulerande version, start (det som får stå i de tre startintrigerna):** Du är skyldig Svarta Malin pengar. Hon för logg. Du vill komma åt loggen. Inte var den sitter. Mottagaren är en man. Civilnamn i [`../anteckningar/`](../anteckningar/), inte piratnamn.
 
 **Cirkulerande version, tvärledtråd (de två skutorna utan Q-5):** Loggen sitter på väggen i Storstugan, listan på de värsta kaptener som finns. Den som bär tråden står inte själv i loggen och är obrydd. Meningslös om mottagaren inte redan jagar loggen.
 
@@ -283,6 +283,7 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 - Säga att festen är betalning mot någon högre makt.
 - Citera sista versen som framtid. Spoila inte metaregeln.
 - Sätta upp Katten Felix. Obesatt. 24 bilder.
+- Tillsätta en kvinna som Q-5-start. De tre skuldsatta är män.
 
 **Håll isär från:** Kistans kärleksbrev (plot). De tre skuldbreven är Q-5:s payoff, inte tändningen. Q-3 (belöningen av Kurtisanen syns inte här). Q-1 (hemligheter ur sängen, inte en bok). Temat i [`premiss.md`](premiss.md): att sälja rollen man tröttnat på.
 
@@ -290,7 +291,7 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 
 **Skrivstöd:**
 
-- Ton i startintrigen: egen skuld, jakt på loggen. Inte att Malin är skuldsatt. Inte kungen. Inte väggen. Inte fisken.
+- Ton i startintrigen: egen skuld, jakt på loggen. Inte att Malin är skuldsatt. Inte kungen. Inte väggen. Inte fisken. Mottagaren är man.
 - Ton i tvärledtråd: var loggen sitter, att bäraren själv är fri. Inte att man ska vända bilderna. Inte sångordningen.
 - Props: 24 porträtt, 16 med bokstav. Ett dagboksblad. Tre cryptex-lappar. Tre skuldbrev i kistan, namn vid tillsättning. Tryck: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md), [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md).
 
@@ -300,7 +301,7 @@ Platser: **Storstugan**. Porträttväggen "de värsta kaptener som finns", uppsa
 
 Kedja:
 
-1. Start (intrig), en person per av tre skutor. Skyldig Malin pengar. Vet att hon för logg. Vill åt den. Inte var.
+1. Start (intrig), en man per av tre skutor. Skyldig Malin pengar. Vet att hon för logg. Vill åt den. Inte var. Kön efter civilnamn i anteckningar, inte piratnamn.
 2. Tvärledtråd, ett antal personer på de två skutorna utan Q-5. Vet att loggen är väggen. Vet att de själva inte står där. Obrydda.
 3. Väggen. 24 porträtt. 16 baksidor bär bokstäver, 8 tomma. I sångordning, hoppa över namn som inte hänger (sångens extra namn, Felix obesatt): **I SVÄRDFISKENS MUN**.
 4. Skatt: dagboksbladet och tre cryptex-lappar i svärdfiskens mun. Troligen one-off: första laget tar. De andra stjäl, byter eller avskriver. Det är spelet.
@@ -354,7 +355,7 @@ Låst 2026-08-23. Inte dummy-laddning. Väggen och munnen får stå färdiga fr�
 
 Strykta: tomma baksidor fredag. Sången som lås. Tvärledtråd undanhållen till lördag.
 
-Tillsättning: inte nu. En gäldenär per av tre Q-5-skutor. Deras tre skuldbrev i kistan, namn då. Tvärledtråd bara på de två skutorna utan ingång. De som vet var loggen sitter står inte själva i den.
+Tillsättning: inte nu. En manlig gäldenär per av tre Q-5-skutor. Civilnamn i anteckningar, inte piratnamn. Deras tre skuldbrev i kistan, namn då. Tvärledtråd bara på de två skutorna utan ingång. De som vet var loggen sitter står inte själva i den. Tvärledtråd har inget könskrav.
 
 ---
 
