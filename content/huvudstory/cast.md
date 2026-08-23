@@ -84,17 +84,17 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `linneaappert` | 1 | 1 | | Q-1 (start) |
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | |
-| `louisevonbahr` | 1 | 1 | | |
+| `louisevonbahr` | 1 | 1 | | Q-2 (start) |
 | `josefinlowing` | 1 | 1 | | |
 | `navidmodiri` | 2 | 2 | | |
 | `minimacklin` | 1 | 2 | | |
 | `ludvigvonbahr` | 1 | 1 | | |
-| `amaliawahlstrom` | 0 | 1 | | |
+| `amaliawahlstrom` | 0 | 1 | | Q-2 (start) |
 | `fabianmacklin` | 1 | 3 | | |
 | `josefinansund` | 1 | 1 | | Q-1 (start) |
 | `johannabergman` | 1 | 1 | | |
 | `jesperlejfjord` | 1 | 1 | | |
-| `amandamungsgard` | 1 | 1 | | |
+| `amandamungsgard` | 1 | 1 | | Q-2 (start) |
 | `viktoransund` | 1 | 2 | | |
 | `minervalowgren` | 1 | 1 | | |
 | `linneaekbom` | 1 | 1 | | |

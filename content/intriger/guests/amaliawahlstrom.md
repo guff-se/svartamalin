@@ -25,3 +25,9 @@ Fasanskålen och den kapade skiffen räcker inte längre. Du vill se **Svarta Ma
 ## Ammunition från liggaren {slug:jesperlindmarker}
 
 **Kapten Hurring** sitter på en rad om **Svarta Malin** i sin svarta liggare, gammal och aldrig bekräftad, men vass nog att användas. Han säljer den till dig om du betalar bäst, mynt eller en tjänst han kan kräva tillbaka senare. Köp den, och lägg den till din nästa provokation.
+
+## Stugan ingen pratar om {slug:malintadaa}
+
+Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
+
+Du vill veta var hon gömmer sig när garden är nere. En kvinna utan sitt sällskap och sin charm är lättare att komma åt, och du har redan ett horn i sidan till henne. Ta dig över till den öde ön innan helgen är över och se om huset finns på riktigt.

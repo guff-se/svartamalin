@@ -270,14 +270,14 @@ Om det floppar: tre andra quests plus XII räcker fortfarande för de skutor som
 Akt:            II
 Tid:            10.30 till 13.30
 Plats:          Södra Ovanan, piratstugan, skelettet i skogen
-Inblandade:     tre skutor TBD. Start i tre namngivna intrigfiler, en person per lag. Inte Malin.
+Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Fuling (`louisevonbahr`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Inte Malin.
 Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
 
 Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre dagboksblad (namnet, handlingen, tillflykten), tar en token ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra token där. Skylt: endast en per lag. Inget pussel. Inga pit stops.
 
 Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten själv, tog namnet Svarta, begravde Otto i skogen, och fortfarande behöver en plats att vara ifred. Inte Ran. Inte kungen.
 
-Trigger:        Q-2-start i tre individintriger, när de är skrivna
+Trigger:        Q-2-start skriven i de tre individintrigerna ovan (klar 2026-08-23)
 Väg 1:          de tre lagen turas om i stugan och vid graven, var och en tar en token per gömme
 Väg 2:          ett lag tar alla tokens trots skylten. De andra tar socialt.
 Spelledarväg:   se [`quests.md`](quests.md).

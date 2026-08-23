@@ -149,6 +149,7 @@ Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta). Relåst 2026
 - Tre identiska rykten, en person per av de tre skutorna. Inte i lagfilen. Inte som allmänt rykte.
 - Tvärledtråd: ingen. De två skutorna utan Q-2 får ingen skriven pekare mot stugan. Hör de det socialt är det spel. Råkar de gå in i stugan eller till graven gäller off-regeln: tokens de inte söker lämnas.
 - Vid tillsättning, inte nu: inte Malin. Inte bara Kuling eller Rödskägg: överfarten är logistik, inte questens grind.
+- **Tillsättning (2026-08-23):** Skuta 2, 3, 4. Start: Kapten Fuling (`louisevonbahr`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Skuta 1 och 5 har ingen ingång till Q-2 (Skuta 1 har redan Q-1 via Planka). Ingen av de tre är Kurtisanen: regel 8 gäller inte här. Gästtext skriven, se `fordelning.yaml` id 66-68.
 - Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra ledtråden ligger där. Inte en identitetsgåta. Inte ett separat spår.
 - Props, tryck: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md), [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md), [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md).
 

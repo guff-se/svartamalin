@@ -817,3 +817,39 @@ fordelning:
     bygger_pa: null
     pussel: "Q-1"
     status: done
+
+  - id: 66
+    beat: B-17
+    akt: II
+    till: [louisevonbahr]
+    roll: jagare
+    vet: "att Svarta Malin, långt innan hon blev kapten, byggde ett hus med egna händer på en öde ö i närheten, och att hon fortfarande flyr dit när världen blir för mycket"
+    vet_inte: "att stugan är Q-2:s ursprung, att hon begravde någon i skogen, namnet Svarta, kungen, kistan"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-2"
+    status: done
+
+  - id: 67
+    beat: B-17
+    akt: II
+    till: [amaliawahlstrom]
+    roll: jagare
+    vet: "att Svarta Malin, långt innan hon blev kapten, byggde ett hus med egna händer på en öde ö i närheten, och att hon fortfarande flyr dit när världen blir för mycket"
+    vet_inte: "att stugan är Q-2:s ursprung, att hon begravde någon i skogen, namnet Svarta, kungen, kistan"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-2"
+    status: done
+
+  - id: 68
+    beat: B-17
+    akt: II
+    till: [amandamungsgard]
+    roll: jagare
+    vet: "att Svarta Malin, långt innan hon blev kapten, byggde ett hus med egna händer på en öde ö i närheten, och att hon fortfarande flyr dit när världen blir för mycket"
+    vet_inte: "att stugan är Q-2:s ursprung, att hon begravde någon i skogen, namnet Svarta, kungen, kistan"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-2"
+    status: done
