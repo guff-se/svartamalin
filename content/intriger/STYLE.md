@@ -19,6 +19,7 @@ Skriv som **klassisk svensk revy à la Povel Ramel**:
 - Finurligt, lekfullt, teatralt, aldrig torrt, aldrig modern “neutral” prosa.
 - Gärna **ordvitsar**, **allitteration**, **rim** och rytmiska meningar (utan att tvinga rim överallt).
 - **Överdrivet och bombastiskt.** Stora känslor, stora skulder, stora ambitioner. Inga små vardagskonflikter.
+- Det är okej med grövre och mer **sexuella** referenser och språk. Publiken är vuxna som är vana vid sex-positiva rum. Sexreferenser skall primärt vara för en kvinnlig och jämnställd publik (no "male gaze").
 - Tilltala mottagaren i **du-form**. Varje person ska känna att **de är hjälten** i historien, även när de är skurkar, förrädare eller stackars lurade. Deras intrig är deras scen.
 - **Alltid piratnamn.** Deltagare omnämns **bara** med sitt piratnamn (`**Kapten Blod**`, `**Svarta Malin**`, …), aldrig civilnamn, smeknamn eller login_slug i brödtexten.
 - Korta texter (några meningar till ett kort stycke per `##`-intrig). Hellre en skarp punchline än en lång utredning.
