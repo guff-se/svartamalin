@@ -12,6 +12,8 @@
 #
 # Svarta Malin får ha flera romanser samtidigt. De krockar gärna i spelet.
 #
+# Alla gäster skall ha minst en romans. Att vara målet för en one_way räknas inte.
+#
 # Rollönskemål som styrt omparningen (content/roller/):
 #   * viktoransund: förbjuden kärlek med Kapten Frodig (josefinansund), inte Mini
 #   * elinamelakoski: enda trygga personen är Kapten Hjärter; inget publikt par med annan
@@ -23,6 +25,7 @@
 #   * navidmodiri: nemesis är Kapten Hjärter (fiende 23, inte romans)
 #   * josefinlowing: onåd från Rödskägg, bakhåll på Paradisets ö (fiende 25)
 #   * elinmartensson: Prygel vill krossa hornet (fiende 24)
+#   * amaliawahlstrom: saknade romans (var bara fiende 2 mot Malin), ny mutual med linneaekbom (#23)
 #   * chriskummelstedt tackade nej: inga poster
 
 romanser:
@@ -148,4 +151,11 @@ romanser:
     a: malintadaa          # Svarta Malin (Malin Tadaa)
     npc: Karl XII
     note: kärleksaffär. Får krocka med #17, #18, #20. I andras gästtext är det en hemlig älskare som ser ut att vara på ön. Sanningen i kistan vid B-42.
+    status: pending
+
+  - id: 23
+    type: mutual
+    a: amaliawahlstrom     # Kapten Enben (Amalia Wahlström)
+    b: linneaekbom         # Kapten Rosing (Linnea Ekbom)
+    note: Enben saknade romans, bara fiende 2 mot Malin. Rosings eget underlag listar farliga leenden och dramatiska motståndare som sin svaghet, och Enben är den enda på ön som öppet trotsat Svarta Malin (den kapade skiffen, skålen om fasanen). Ingen fiendepost mellan dem. Korsar skutor (3 och 5).
     status: pending
