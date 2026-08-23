@@ -193,7 +193,7 @@ Hint 3 metod: bladet är rivet på höjden. Håll ihop kanterna. Läs båda sido
 Hint 4 lösning: vänster halva hos Gubben, höger hos Gumman. Framsidan är dagbok. Baksidan säger klätternätet.
 
 Bypass:         om halvorna är borta: fråga vem som satt vid bänkarna i förmiddag. Om de är förlorade: Spader har avskrift av framsida och baksida, inte cryptex-lappen, inte det andra bladet. Kedjan går vidare till P-03.
-Props:          Q1-01, två halvblad, dubbelsidiga. Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md). Avskrift hos spelledning.
+Props:          Q1-01, två halvblad, dubbelsidiga. Tryck: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). Avskrift hos spelledning.
 Testat:         nej
 
 Engångs: halvorna tas. Första laget bär dem. Andra lag avskriver, stjäl eller byter. Trädockor och flaskor stannar.
@@ -218,7 +218,7 @@ Hint 3 metod: få ned påsen. En stång, en åra, eller klättra. Det ska ta en 
 Hint 4 lösning: påse knuten högt i nätet. Andra bladet och lappen i påsen.
 
 Bypass:         om påsen är tagen: jaga den som tog den. Lappen får stjälas, bytas, avskrivas. Om den är förlorad på riktigt: spelledning har reservlapp och avskrift av andra bladet. Om ingen når P-03 före brunchen: Spader ger Q-1-starten en riktning mot nätet, inte mot kungen.
-Props:          Q1-03 cryptex-lapp, Q1-04 andra bladet, påse. Tryck: [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md). Reservlapp hos spelledning.
+Props:          Q1-03 cryptex-lapp, Q1-04 andra bladet, påse. Tryck: [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md). Reservlapp hos spelledning.
 Testat:         nej
 
 Engångs: påsen tas. Tre skutor tävlar. Förlorarna får lappen socialt.

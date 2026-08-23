@@ -80,7 +80,7 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 **Skrivstöd:**
 
 - Ton i gästtext: skvaller om ett gammalt yrke, en gammal hämnd, ett skeppsnamn. Inte en jakt på den nuvarande älskaren.
-- Props: två dagboksutdrag. Det första (oskyldig Malin) rivs vertikalt, halvor vid Gubben och Gumman. Vägvisning på baksidan. Det andra (efter hämnden) ligger med cryptex-lappen i klätternätet. Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md), [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md).
+- Props: två dagboksutdrag. Det första (oskyldig Malin) rivs vertikalt, halvor vid Gubben och Gumman. Vägvisning på baksidan. Det andra (efter hämnden) ligger med cryptex-lappen i klätternätet. Tryck: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md), [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md).
 - Håll isär från Q-2:s blad om namnet. Det sitter tidsmässigt mellan de här två utdragen. Q-1 äger Otto, kurtisanen och skeppsnamnet. Q-2 äger Svarta.
 
 **Mekanik:** form låst 2026-08-20. Engångs låst 2026-08-22. Noder: [`pussel.md`](pussel.md) P-02, P-03.
@@ -143,7 +143,7 @@ Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta). Relåst 2026
 - Tvärledtråd: ingen. De två skutorna utan Q-2 får ingen skriven pekare mot stugan. Hör de det socialt är det spel. Råkar de gå in i stugan gäller off-regeln: tokens de inte söker lämnas.
 - Vid tillsättning, inte nu: inte Malin. Inte bara Kuling eller Rödskägg: överfarten är logistik, inte questens grind.
 - Skelettet i skogen är ett annat spår. Peka inte "identifiera liket" som Q-2.
-- Props, tryck: [`../rekvisita/malin-dagboksblad-svarta.md`](../rekvisita/malin-dagboksblad-svarta.md), [`../rekvisita/malin-dagboksblad-handling.md`](../rekvisita/malin-dagboksblad-handling.md), [`../rekvisita/malin-dagboksblad-tillflykt.md`](../rekvisita/malin-dagboksblad-tillflykt.md).
+- Props, tryck: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md), [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md), [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md).
 
 **Mekanik:** form låst 2026-08-23. Inga pit stops. Inget pussel. Ingen pusselnod. Bokstav och tre skutor öppna. Se [`pussel.md`](pussel.md).
 
@@ -165,9 +165,9 @@ Rummet ska se bebott ut, inte utstädat som museum. Hon var här nyligen. Tre bl
 
 | id | Grupp | Vad som står där | Vad den lär |
 |----|-------|------------------|-------------|
-| Q2-07 | Uppbrottet / Namnet | Dagboksblad. Förrådd av älskaren. Sorgen svart, hämnden svart. Tar namnet Svarta Malin. Tidsmässigt mellan Q-1 blad 1 och blad 2. Tryck: [`../rekvisita/malin-dagboksblad-svarta.md`](../rekvisita/malin-dagboksblad-svarta.md). | Hon lämnade hemmet. Hon tog tilltalet här. |
-| Q2-08 | Handlingen | Dagboksblad, filosofiskt. Ska man göra något ska man göra det själv. Bygget och rätten att preja. Dystopisk, högstadie-emo. Tryck: [`../rekvisita/malin-dagboksblad-handling.md`](../rekvisita/malin-dagboksblad-handling.md). | Hon byggde själv. Handling ger rätten. |
-| Q2-09 | Tillflykten | Dagboksblad, nutid. Enda stället hon är ifred. Kollegorna följer henne. En stor plan ska ge lugn. Tryck: [`../rekvisita/malin-dagboksblad-tillflykt.md`](../rekvisita/malin-dagboksblad-tillflykt.md). | Hon kommer fortfarande hit. Planen nämns, inte innehållet. |
+| Q2-07 | Uppbrottet / Namnet | Dagboksblad. Förrådd av älskaren. Sorgen svart, hämnden svart. Tar namnet Svarta Malin. Tidsmässigt mellan Q-1 blad 1 och blad 2. Tryck: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md). | Hon lämnade hemmet. Hon tog tilltalet här. |
+| Q2-08 | Handlingen | Dagboksblad, filosofiskt. Ska man göra något ska man göra det själv. Bygget och rätten att preja. Dystopisk, högstadie-emo. Tryck: [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md). | Hon byggde själv. Handling ger rätten. |
+| Q2-09 | Tillflykten | Dagboksblad, nutid. Enda stället hon är ifred. Kollegorna följer henne. En stor plan ska ge lugn. Tryck: [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md). | Hon kommer fortfarande hit. Planen nämns, inte innehållet. |
 | Q2-02 | Uppbrottet, föremål | Ihopvikt sjal eller klänning, kam. Inga namn. | Dressing till Q2-07. |
 | Q2-03 | Bygget, föremål | Hyvel, hammare, spån. Bjälke med märke. Möbler lite skeva. | Dressing till Q2-08. |
 | Q2-04 | Rätten, föremål | Namnlös flaggskärva eller skeppsklocka. Ingen lapp. Inte Kurtisanen. | Dressing till Q2-08. |

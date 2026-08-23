@@ -68,7 +68,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.
 - [x] Gör dagboksbladen ungefär dubbelt så långa. Matcha stilen till hur en ung kvinna skriver dagbok.
 - [x] Ta bort sigillet ur storyn och dagböckerna. Vi kommer att hålla det separat. Texterna skall bara vara dagboksutdrag. Vägvisning för platsen kommer finnas på baksidan av den sönderrivna dagbokssidan.
 
-Kryss = inlagt i designen. Gömställe för minnet är agentdesign, se [`quests.md`](quests.md). Tryck: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md).
+Kryss = inlagt i designen. Gömställe för minnet är agentdesign, se [`quests.md`](quests.md). Tryck: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md).
 
 ---
 

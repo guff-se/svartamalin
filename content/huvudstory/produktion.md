@@ -18,21 +18,21 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-04 | Nyckel till kistan, inuti cryptexen | B-41 | Passar K-01. Får plats i cryptexen. | | | saknas |
 | K-05 | Reservnyckel till kistan | P-01 bypass, 20.45 | Hos spelledning hela helgen. Dolt. | | | saknas |
 | K-06 | Hög med skuldbrev | B-42 | Visuell mängd, inte en läsuppgift. Tåla att spridas ut. | | | saknas |
-| K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Text: [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md) | | | utkast |
+| K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md) | | | utkast |
 | K-08 | Miniatyrporträtt av Karl XII | B-42 | Liten, synlig när locket går upp, liggande på kärleksbrevet. Ingen text som måste läsas. Ska läsas som bild: hon är i säng med kungen. | | | saknas |
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
-| Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | P-02 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md). | | | utkast |
+| Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | P-02 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). | | | utkast |
 | Q1-03 | Cryptex-lapp i påsen | P-03 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
-| Q1-04 | Dagboksblad efter hämnden | P-03 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md). Avskrift hos spelledning. | | | utkast |
+| Q1-04 | Dagboksblad efter hämnden | P-03 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md). Avskrift hos spelledning. | | | utkast |
 | Q2-01 | Skrin med tre cryptex-tokens och skylt "Endast en per lag" | B-17 | Synligt när man är inne i piratstugan, inte gömt under golv. Tre tokens. Skylten läsbar. Reservtokens hos spelledning, inte i stugan. | | | saknas |
 | Q2-02 | Uppbrottet: sjal eller klänning, kam | B-17 | Ser ut att ha följt med från land och lagts undan. Inga namn, ingen text. | | | saknas |
 | Q2-03 | Bygget: hyvel, hammare, spån, märke i bjälke | B-17 | Handgjort, lite snett. Visar att hon byggde själv. | | | saknas |
 | Q2-04 | Rätten: flaggskärva eller skeppsklocka | B-17 | Första bytet, namnlöst. Inte Kurtisanen. Ingen lapp. Texten sitter i Q2-08. | | | saknas |
 | Q2-05 | Namnet: ljus duk med svartbränd kant | B-17 | Inget äldre namn utskrivet. Dressing till Q2-07. | | | saknas |
 | Q2-06 | Tillflykten nu: filt, kopp, ljusstump | B-17 | Ser nyligen använt ut. Dressing till Q2-09. | | | saknas |
-| Q2-07 | Dagboksblad, uppbrottet / namnet | B-17 | Helt blad, stannar i stugan. Inte Otto. Inte kurtisanhämnden. Text: [`../rekvisita/malin-dagboksblad-svarta.md`](../rekvisita/malin-dagboksblad-svarta.md). | | | utkast |
-| Q2-08 | Dagboksblad, handlingen | B-17 | Helt blad, stannar i stugan. Bygget och rätten att preja. Text: [`../rekvisita/malin-dagboksblad-handling.md`](../rekvisita/malin-dagboksblad-handling.md). | | | utkast |
-| Q2-09 | Dagboksblad, tillflykten | B-17 | Helt blad, stannar i stugan. Nutid. Stor plan utan innehåll. Text: [`../rekvisita/malin-dagboksblad-tillflykt.md`](../rekvisita/malin-dagboksblad-tillflykt.md). | | | utkast |
+| Q2-07 | Dagboksblad, uppbrottet / namnet | B-17 | Helt blad, stannar i stugan. Inte Otto. Inte kurtisanhämnden. Text: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md). | | | utkast |
+| Q2-08 | Dagboksblad, handlingen | B-17 | Helt blad, stannar i stugan. Bygget och rätten att preja. Text: [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md). | | | utkast |
+| Q2-09 | Dagboksblad, tillflykten | B-17 | Helt blad, stannar i stugan. Nutid. Stor plan utan innehåll. Text: [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md). | | | utkast |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
@@ -87,12 +87,12 @@ Sådant som ska produceras i repot eller skickas till tryck.
 
 | Vad | Format | Var i repot | Status |
 |-----|--------|-------------|--------|
-| Kärleksbrev från Karl XII (K-07) | Tryck eller handskrift, sigill, ett blad | [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md) | utkast |
-| Malins dagboksblad före (Q1-01) | Ett blad, dubbelsidigt, rives vertikalt | [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md) | utkast |
-| Malins dagboksblad efter (Q1-04) | Ett helt blad | [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md) | utkast |
-| Malins dagboksblad, namnet (Q2-07) | Ett helt blad, stannar i stugan | [`../rekvisita/malin-dagboksblad-svarta.md`](../rekvisita/malin-dagboksblad-svarta.md) | utkast |
-| Malins dagboksblad, handlingen (Q2-08) | Ett helt blad, stannar i stugan | [`../rekvisita/malin-dagboksblad-handling.md`](../rekvisita/malin-dagboksblad-handling.md) | utkast |
-| Malins dagboksblad, tillflykten (Q2-09) | Ett helt blad, stannar i stugan | [`../rekvisita/malin-dagboksblad-tillflykt.md`](../rekvisita/malin-dagboksblad-tillflykt.md) | utkast |
+| Kärleksbrev från Karl XII (K-07) | Tryck eller handskrift, sigill, ett blad | [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md) | utkast |
+| Malins dagboksblad före (Q1-01) | Ett blad, dubbelsidigt, rives vertikalt | [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md) | utkast |
+| Malins dagboksblad efter (Q1-04) | Ett helt blad | [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md) | utkast |
+| Malins dagboksblad, namnet (Q2-07) | Ett helt blad, stannar i stugan | [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md) | utkast |
+| Malins dagboksblad, handlingen (Q2-08) | Ett helt blad, stannar i stugan | [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md) | utkast |
+| Malins dagboksblad, tillflykten (Q2-09) | Ett helt blad, stannar i stugan | [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md) | utkast |
 | Miniatyr av Karl XII | Bild, liten, i kistan | | utkast saknas |
 | Skuldbrev | Handskrift, visuell hög | | utkast saknas |
 | Kaptenslistan som fysiskt dokument | Tryck | | |

@@ -23,16 +23,18 @@ Skriv inte högläsning, bypass, noder, laddtid eller får-inte-listor i rekvisi
 
 Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, ingen sista vers.
 
+**Filnamn:** `{spår}-{typ}-{n}-{funktion}.md`. Quest först, sen vad papperet är, sen ordning, sen funktion. Exempel: `Q2-dagbok-1-namnet.md`. Saker som inte är en quest: `kista-karleksbrev.md`.
+
 ---
 
 ## Register
 
 | Fil | Taggar | Vad | Var |
 |-----|--------|-----|-----|
-| [`karl-xii-karleksbrev.md`](karl-xii-karleksbrev.md) | `kista`, `B-42`, `K-07` | Kärleksbrev från Karl XII | Malins kista |
-| [`malin-dagboksblad-fore.md`](malin-dagboksblad-fore.md) | `Q-1`, `P-02`, `Q1-01` | Dagboksblad före förräderiet | Gubben och Gumman |
-| [`malin-dagboksblad-fore-baksida.md`](malin-dagboksblad-fore-baksida.md) | `Q-1`, `P-02`, `Q1-01` | Vägvisning, baksida av samma blad | Gubben och Gumman |
-| [`malin-dagboksblad-efter.md`](malin-dagboksblad-efter.md) | `Q-1`, `P-03`, `Q1-04` | Dagboksblad efter hämnden | Klätternätet |
-| [`malin-dagboksblad-svarta.md`](malin-dagboksblad-svarta.md) | `Q-2`, `B-17`, `Q2-07` | Uppbrottet, namnet Svarta | Piratstugan |
-| [`malin-dagboksblad-handling.md`](malin-dagboksblad-handling.md) | `Q-2`, `B-17`, `Q2-08` | Bygget och rätten att preja | Piratstugan |
-| [`malin-dagboksblad-tillflykt.md`](malin-dagboksblad-tillflykt.md) | `Q-2`, `B-17`, `Q2-09` | Tillflykten, nutid | Piratstugan |
+| [`kista-karleksbrev.md`](kista-karleksbrev.md) | `kista`, `B-42`, `K-07` | Kärleksbrev från Karl XII | Malins kista |
+| [`Q1-dagbok-1-fore.md`](Q1-dagbok-1-fore.md) | `Q-1`, `P-02`, `Q1-01` | Dagboksblad före förräderiet | Gubben och Gumman |
+| [`Q1-dagbok-1-baksida.md`](Q1-dagbok-1-baksida.md) | `Q-1`, `P-02`, `Q1-01` | Vägvisning, baksida av samma blad | Gubben och Gumman |
+| [`Q1-dagbok-2-efter.md`](Q1-dagbok-2-efter.md) | `Q-1`, `P-03`, `Q1-04` | Dagboksblad efter hämnden | Klätternätet |
+| [`Q2-dagbok-1-namnet.md`](Q2-dagbok-1-namnet.md) | `Q-2`, `B-17`, `Q2-07` | Uppbrottet, namnet Svarta | Piratstugan |
+| [`Q2-dagbok-2-handlingen.md`](Q2-dagbok-2-handlingen.md) | `Q-2`, `B-17`, `Q2-08` | Bygget och rätten att preja | Piratstugan |
+| [`Q2-dagbok-3-tillflykten.md`](Q2-dagbok-3-tillflykten.md) | `Q-2`, `B-17`, `Q2-09` | Tillflykten, nutid | Piratstugan |

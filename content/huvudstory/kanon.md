@@ -66,7 +66,7 @@ Beslutat 2026-08-18. Källa: [`beslut.md`](beslut.md), [`premiss.md`](premiss.md
 3. Nyckeln ligger i en cryptex med sex bokstävers kombination.
 4. På cryptexen sitter en lapp: "Denna tappas lätt bort." Den som hittar den kommer snart att förlora den, genom slagsmål, vadslagning, stöld eller slarv.
 5. Cryptexens lösenord går inte att kläcka utan XII. XII sitter på Malins halsband, som hon sätter på till slutfesten. Den syns när hon serverar kaviar och rom. Tre parallella quests per skuta ger de andra bokstäverna. Se [`pussel.md`](pussel.md).
-6. I kistan finns ingen skatt. Där ligger en stor hög skuldbrev, ett kärleksbrev från Karl XII till Svarta Malin, och ett miniatyrporträtt av kungen. Brevet *är* kontraktet. Inget separat juridiskt papper för tändningen. Trycktext: [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md).
+6. I kistan finns ingen skatt. Där ligger en stor hög skuldbrev, ett kärleksbrev från Karl XII till Svarta Malin, och ett miniatyrporträtt av kungen. Brevet *är* kontraktet. Inget separat juridiskt papper för tändningen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
 7. Kungen i brevet är **Karl XII**.
 8. I brevet står att Svarta Malin har lovat att samla Salmonellahavets kaptener till födelsedagsfest och fylla dem med kaviar och rom, så att konungens män kan slå till i gryningen och arrestera dem alla. Festen är fällan. I gengäld stryker kungen hennes skulder och sätter Korvetten Kurtisanen på hennes namn.
 9. Upptäckten av brevet är det som tänder slutstriden. Kungens män kommer aldrig. Gryningen spelas inte.
