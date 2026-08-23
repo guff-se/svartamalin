@@ -215,3 +215,14 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`forradare.yaml`](
 Källa: Gustaf, i chatt. Införd i genomgången, [`spelledning.md`](spelledning.md).
 
 - [x] Låt saker som hittas av misstag få vara. Lös gåtor och uppdrag, inte bara brute force.
+
+---
+
+## 2026-08-23, korthajarna Spader, Klöver, Hjärter
+
+Källa: Gustaf, i chatt. Parkerad som tre konkurrerande outlines i [`sidequests.md`](sidequests.md) S-11. Inte beslutad.
+
+- [ ] lägg till ett nytt sidequest för löjtnant spader, kapten klöver och kapten hjärter. spader, klöver och hjärter är alla korthajar och har lång rivalitet. alla anklagar de andra för att vara fuskare.
+- [ ] hitta på en story som kan utspela sig mellan dessa under helgen. dra även in en 4e och kanekeen 5e person. kom med 3 förslag på outline på storyn.
+
+Kryss när en outline är vald och S-11 är beslutad. Gästtext skrivs inte förrän då.
