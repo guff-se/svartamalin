@@ -36,7 +36,7 @@ Vad får helvetet att bryta ut? Det får inte vara ett utrop från arrangören.
 
 **Beslutat 2026-08-21:** trycktexten finns i [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md). Inget separat juridiskt kontrakt för tändningen.
 
-**Beslutat 2026-08-23:** kistan innehåller brev mellan Malin och kungen, plus minnen och skatter. Enda plot-relevanta: kärleksbrevet. Inga skuldbrev. Motivet är vila och ensam makt, inte skuld. Miniatyr är dressing.
+**Beslutat 2026-08-23:** kistan innehåller brev mellan Malin och kungen, plus minnen och skatter, plus tre skuldbrev (Q-5, ett per start). Enda plot-relevanta: kärleksbrevet. Motivet är vila och ensam makt, inte att hon är skuldsatt. Miniatyr och skuldbrev är dressing.
 
 Krav:
 

@@ -88,7 +88,7 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Övriga TBD. | cryptexen vid festen |
+| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. Q-5 är väggen och svärdfisken, B-18. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-5: Storstugan, porträttväggen, svärdfiskens mun. Övriga TBD. | cryptexen vid festen |
 | Optiska spåret | TBD. Skylten är parkerad, kikaren finns | | Kikaren (skylten bara om vi beslutar den) | |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
@@ -285,6 +285,27 @@ Spelledarväg:   se [`quests.md`](quests.md).
 Pusselnod:      ingen
 Props:          Q2-01 till Q2-10
 Om det floppar: tre andra quests plus XII räcker för skutor som inte hade Q-2. En Q-2-skuta utan token måste stjäla eller få spelledar-reserv. Spelet stannar inte. Södra Ovanan stänger 13.30.
+
+#### B-18: Q-5, skuldboken
+
+Akt:            II
+Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
+Plats:          Storstugan, porträttväggen, svärdfiskens mun
+Inblandade:     tre skutor TBD. Start i tre namngivna intrigfiler, en gäldenär per lag. Tvärledtråd på de två skutorna utan ingång.
+Publik:         den som ser väggen tas ner, och den som ser någon fiska i gapet
+
+Vad händer:     tre personer är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: dagboksbladet och tre cryptex-lappar. Troligen one-off.
+
+Vad ändras:     rummet vet att hon håller havet med mäns skulder, och att de ligger i kistan. Inte kungen. Inte att hon är skuldsatt.
+
+Trigger:        Q-5-start i tre individintriger, när de är skrivna
+Väg 1:          tre lag tävlar, ett tar munnen, de andra stjäl eller avskriver
+Väg 2:          väggen raserad, Spader har meningen
+Spelledarväg:   se [`quests.md`](quests.md) Q-5. Inte extra uppsättning i munnen.
+
+Pusselnod:      Q-5
+Props:          Q5-01, Q5-03, Q5-04. K-10 i kistan, namn vid tillsättning.
+Om det floppar: tre andra quests plus XII räcker. En Q-5-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
 ---
 

@@ -4,7 +4,7 @@ Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, in
 
 Använd den här filen när du skriver gästtext i `content/intriger/crews/` eller `guests/`. **Cirkulerande version** är rykte-fakta att lägga in i gästtext, inte färdig STYLE.md-prosa. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
 
-Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har kedja, inte låst. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den hit och stryks där.
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-5 form låst 2026-08-23, fördröjning mot fredag öppen.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den hit och stryks där.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
 
@@ -266,57 +266,91 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 
 **Cirkulerande version, dagboksbladet:** Hon dominerar Salmonellahavet genom att sätta män i skuld till sig. Alla sådana skulder förvaras i hennes skattkista.
 
-**Sanning enligt kanon:** Metoden är sann. Hon håller havet med andras skulder. Kistan bär inte det arkivet. I kistan ligger brevet: hon ville sluta hålla. **Öppet:** om bladet får ljuga att arkivet sitter i kistan, se mekanik nedan.
+**Sanning enligt kanon:** Metoden är sann. Hon håller havet med andras skulder. I kistan ligger tre skuldbrev, ett per Q-5-start. Inte hela arkivet. Plot är fortfarande kärleksbrevet: hon ville sluta hålla.
 
-**Får ljuga om:** Vems skulder. Hur stora. Om loggen är en bok eller lösa lappar. Om den egna posten finns.
+**Får ljuga om:** Vems skulder utöver de tre. Hur stora. Om loggen är en bok eller lösa lappar. Om fler än de tre posterna finns.
 
 **Får inte:**
 
-- Visa kistans innehåll. Göra kistan till gömställe för questskatten.
-- Säga att skatten *är* skuldbrev, förrän beslutet om bladets lögn är taget. Se mekanik.
+- Göra kistan till gömställe för questskatten (bladet och lapparna sitter i svärdfisken).
 - Lukta krona, kung, stat, arrest.
 - Säga att festen är betalning mot någon högre makt.
 - Citera sista versen som framtid. Spoila inte metaregeln.
+- Sätta upp Katten Felix. Obesatt. 24 bilder.
 
-**Håll isär från:** Kistans brev (plot, inte arkiv). Q-3 (belöningen av Kurtisanen syns inte här). Q-1 (hemligheter ur sängen, inte en bok). Temat i [`premiss.md`](premiss.md): att sälja rollen man tröttnat på.
+**Håll isär från:** Kistans kärleksbrev (plot). De tre skuldbreven är Q-5:s payoff, inte tändningen. Q-3 (belöningen av Kurtisanen syns inte här). Q-1 (hemligheter ur sängen, inte en bok). Temat i [`premiss.md`](premiss.md): att sälja rollen man tröttnat på.
 
-**Efter kistan (intern, inte gästtext):** Ni har sett hur hon håller havet. I kistan ser ni att hon ville sluta. Om bladet pekade mot kistan som arkiv är det lögnen som spricker.
+**Efter kistan (intern, inte gästtext):** Ni har sett hur hon håller havet. I kistan ligger tre skuldbrev och brevet som visar att hon ville sluta. Arkivet är nästan tomt.
 
 **Skrivstöd:**
 
-- Ton i startintrigen: egen skuld, jakt på loggen. Inte att Malin är skuldsatt. Inte kungen. Inte väggen.
+- Ton i startintrigen: egen skuld, jakt på loggen. Inte att Malin är skuldsatt. Inte kungen. Inte väggen. Inte fisken.
 - Ton i tvärledtråd: var loggen sitter, att bäraren själv är fri. Inte att man ska vända bilderna. Inte sångordningen.
-- Props: 25 porträtt med bokstav på baksidan. Ett gömt dagboksblad. Cryptex-lapp. Inte kontraktet. Inte en hög som ser ut som kistans innehåll.
+- Props: 24 porträtt, 16 med bokstav. Ett dagboksblad. Tre cryptex-lappar. Tre skuldbrev i kistan, namn vid tillsättning. Tryck: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md), [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md).
 
-**Mekanik:** kedja 2026-08-23. Inte låst. Porträttväggen tillsatt här, struken i [`pussel.md`](pussel.md). Tre beslut blockerar lås.
+**Mekanik:** form låst 2026-08-23. Fördröjning mot fredag öppen, arbetshypotes nedan. Porträttvägg och svärdfisk tillsatta här.
 
-Platser: **Storstugan**, porträttväggen "de värsta kaptener som finns", fullt synlig. Gömt dagboksblad: TBD.
+Platser: **Storstugan**. Porträttväggen "de värsta kaptener som finns", uppsatt efter skuta. **Svärdfiskens mun**: dagboksblad plus tre cryptex-lappar.
 
 Kedja:
 
 1. Start (intrig), en person per av tre skutor. Skyldig Malin pengar. Vet att hon för logg. Vill åt den. Inte var.
 2. Tvärledtråd, ett antal personer på de två skutorna utan Q-5. Vet att loggen är väggen. Vet att de själva inte står där. Obrydda.
-3. Väggen. 25 porträtt, uppsatta efter skuta. Bokstav på baksidan. I sångordning bildar baksidorna en mening som pekar mot ett gömt dagboksblad.
-4. Skatt: dagboksbladet (kapitlet) och cryptex-bokstaven.
+3. Väggen. 24 porträtt. 16 baksidor bär bokstäver, 8 tomma. I sångordning, hoppa över namn som inte hänger (sångens extra namn, Felix obesatt): **I SVÄRDFISKENS MUN**.
+4. Skatt: dagboksbladet och tre cryptex-lappar i svärdfiskens mun. Troligen one-off: första laget tar. De andra stjäl, byter eller avskriver. Det är spelet.
 
-Första gången varje närvarande namn nämns, hela sången: 1 Enben, 2 Blodig, 3 Frodig, 4 Babord, 5 Kuling, 6 Fuling, 7 Nykter, 8 Svarta Malin, 9 Barnsben, 10 Döver, 11 Hjärter, 12 Spader, 13 Klöver, 14 Blåskägg, 15 Rödskägg, 16 Rötägg, 17 Lösskägg, 18 Hurring, 19 Kosing, 20 Rosing, 21 Plåthorn, 22 Prygel, 23 Dunka, 24 Planka, 25 Felix.
+Sångordning, närvarande namn, första gången i hela sången. Bokstav på baksidan. Tom = ingen bokstav.
 
-### Tre öppna beslut, blockerar lås
+| nr | Namn | Bokstav |
+|----|------|---------|
+| 1 | Enben | I |
+| 2 | Blodig | S |
+| 3 | Frodig | V |
+| 4 | Babord | Ä |
+| 5 | Kuling | R |
+| 6 | Fuling | D |
+| 7 | Nykter | F |
+| 8 | Svarta Malin | I |
+| 9 | Barnsben | S |
+| 10 | Döver | K |
+| 11 | Hjärter | E |
+| 12 | Spader | N |
+| 13 | Klöver | S |
+| 14 | Blåskägg | M |
+| 15 | Rödskägg | U |
+| 16 | Rötägg | N |
+| 17 | Lösskägg | |
+| 18 | Hurring | |
+| 19 | Kosing | |
+| 20 | Rosing | |
+| 21 | Plåthorn | |
+| 22 | Prygel | |
+| 23 | Dunka | |
+| 24 | Planka | |
 
-1. **Kistan.** Bladet säger att skulderna ligger i skattkistan. Kanon 2026-08-23: kistan bär inte arkivet, inga skuldbrev där. Antingen är bladet en tillåten lögn (då uppdateras får-inte) eller så pekar bladet mot en annan kista. Inte båda.
-2. **Sångnyckeln.** Vers 1 och 2 nämner bara åtta av de 25 närvarande namnen. Resten sitter i sista versen. Sortering mot 25 namn kräver fysisk nyckel på plats. Ingen utskriven fulltext. Ingen lång läsning. Ingen mobil. Meningen på baksidan är inte lösenordet.
-3. **Tre lag.** Väggen är unik. Tre skutor ska springa. Kandidat, inte beslut: väggen hängs tillbaka, pusslet är återanvändbart. Dagboksbladet och cryptex-lappen är engångs som Q-1. Alternativ: porträtten passas vidare.
+Låten spelas flera gånger under helgen. Ingen utskriven fulltext. Ingen mobil. De lyssnar. Titelraden på väggen är sångraden, det är hinten att sortera. Meningen är inte lösenordet.
 
-### Kvar att konstruera efter de tre besluten
+Hur de vet att vända: de jagar en logg, framsidan är bara ett ansikte, de tittar bakom. Tvärledtråd säger inte det.
 
-- Meningen på baksidan. Måste peka mot gömstället. Kort. Självvaliderande.
-- Gömstället för dagboksbladet. Inte kistan. Inte ett gömme som kräver ransakning.
-- Hur de vet att vända bilderna och sortera mot sången. Väggens titel är sångraden. Räcker det, eller behövs mer i start eller tvärledtråd.
-- Vilken cryptex-bokstav. Ett exemplar eller tre.
-- Hint-trappa och bypass: väggen raserad, bladet borta, ingen springer före brunch.
-- Trycktext i [`../rekvisita/`](../rekvisita/). Props i [`produktion.md`](produktion.md). Beat i [`akter.md`](akter.md).
+Hint om de kör fast: titta bakom. Lyssna på låten, inte läs. Hoppa namn som saknas på väggen. Fisken i rummet.
 
-Tillsättning: inte nu. En gäldenär per av tre Q-5-skutor. Tvärledtråd bara på de två skutorna utan ingång. De som vet var loggen sitter står inte själva i den.
+Bypass om väggen är raserad: Spader har meningen. Bypass om munnen är tömd: jaga den som tog. Reservblad och reservlappar hos spelledning. Om ingen springer Q-5 före brunchen: fortfarande öppet till 15.30, huvudön. Spader ger starten en riktning mot väggen, inte mot kungen.
+
+**Engångs, avsiktligt nog:** tre lappar i munnen, ett blad. Första laget bär dem troligen. Väggen hängs tillbaka.
+
+### Fördröjning mot fredag (öppen)
+
+Arbetshypotes, samma mönster som Q-1 och Q-2: **ladda lördag före 10.30.** Fredag: väggen hänger som dressing, baksidor tomma, munnen tom. Lördag morgon: bokstäver på baksidorna, blad och tre lappar i munnen.
+
+Komplement, inte ersättning:
+
+- Briefing: fredag off-story, pussel från 10.30. Redan låst.
+- Socialt: Malin värdinna i Storstugan fredag. Att ta ner hennes kaptenvägg under födelsedagen är en scen, inte en lösning.
+- Inte i gästtext: skriv inte "vänta till lördag". Meta.
+
+Strykta som enda grind: sången som lås (den spelas redan fredag 18.30). Tvärledtråd undanhållen till lördag (den sitter i sajtintrigen).
+
+Tillsättning: inte nu. En gäldenär per av tre Q-5-skutor. Deras tre skuldbrev i kistan, namn då. Tvärledtråd bara på de två skutorna utan ingång. De som vet var loggen sitter står inte själva i den.
 
 ---
 
@@ -330,7 +364,7 @@ När locket går upp ska de fem kapitlen omtolkas utan ny logik. Skriv inte omto
 | Q-2 | Planen i tillflykten var att vila. Priset var de andra. |
 | Q-3 | Prejningen var kungens gåva. |
 | Q-4 | Hamnen var scenen hon redan hade. |
-| Q-5 | Ni har sett hur hon håller havet. I kistan ser ni att hon ville sluta. |
+| Q-5 | Ni har sett hur hon håller havet. Tre skuldbrev ligger kvar. Brevet visar att hon ville sluta. |
 
 ---
 

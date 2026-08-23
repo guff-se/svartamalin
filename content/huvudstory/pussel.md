@@ -8,7 +8,7 @@ Tillsatta, inte här:
 
 - Q-1 (halvor vid Gubben och Gumman, påse högt i klätternätet): [`quests.md`](quests.md)
 - Q-2 (stuga, grav, tokens, inget pussel): [`quests.md`](quests.md)
-- Q-5 porträttvägg (tillsatt, inte låst): [`quests.md`](quests.md)
+- Q-5 (porträttvägg, svärdfiskens mun, tre lappar): [`quests.md`](quests.md)
 - Cryptex, kista, XII, lösenordskandidat: [`kanon.md`](kanon.md). Runtime: [`spelledning.md`](spelledning.md)
 - Platser som redan har funktion: [`platser.md`](platser.md)
 
@@ -52,12 +52,6 @@ Optisk envägsledtråd, **om** skylten byggs. Kikaren finns oavsett och kan anv�
 - Man måste veta var man ska sikta: bäring, riktmärke eller klockslag.
 - Informationen bärs vidare muntligt eller ritas av. Felkopiering är spelet.
 - Skylten: tillstånd, installation före helgen. Inga noder som kräver den förrän beslutet är taget.
-
-### Svärdfiskens gap
-
-Offentligt gömställe i genomfartsrummet. Ingen tittar in i ett gap. Ledtråden måste peka på fisken utan att säga fisken.
-
-Bra: dead drop, brev. Dåligt: det viktigaste objektet. Cryptexen ska cirkulera, inte bo här.
 
 ### Verkstadens förrådsrum
 

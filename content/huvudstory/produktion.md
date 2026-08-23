@@ -21,6 +21,7 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Enda plot-relevanta i kistan. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md) | | | utkast |
 | K-08 | Miniatyrporträtt av Karl XII | B-42 | Dressing, ett minne bland skatterna. Inte plot. Brevet bär sängen. | | | saknas |
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
+| K-10 | Tre skuldbrev | B-42, Q-5 | Ett per Q-5-start. Namn vid tillsättning. Dressing, inte plot. Text: [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md). | | | utkast |
 | Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | Q-1 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). | | | utkast |
 | Q1-03 | Cryptex-lapp i påsen | Q-1 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
 | Q1-04 | Dagboksblad efter hämnden | Q-1 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md). Avskrift hos spelledning. | | | utkast |
@@ -34,6 +35,9 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q2-08 | Dagboksblad, handlingen | B-17 | Helt blad, stannar i stugan. Bygget och rätten att preja. Text: [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md). | | | utkast |
 | Q2-09 | Dagboksblad, tillflykten | B-17 | Helt blad, stannar i stugan. Nutid. Stor plan utan innehåll. Text: [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md). | | | utkast |
 | Q2-10 | Cryptex-tokens vid Ottos grav | B-17 | Tre tokens, annan bokstav än Q2-01. Skylt: Endast en per lag. Ligger vid skelettet i skogen. Reservtokens hos spelledning, inte på ön. | | | saknas |
+| Q5-01 | 24 piratporträtt, uppsatta efter skuta | B-18 | Framsida ansikte, 16 baksidor med bokstav enligt tabellen i [`quests.md`](quests.md). 8 tomma. Ingen Felix. Tåla att tas ner och hängas tillbaka. | | | saknas |
+| Q5-03 | Dagboksblad, skulderna | B-18 | Helt blad. I svärdfiskens mun. Text: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md). Avskrift hos spelledning. | | | utkast |
+| Q5-04 | Tre cryptex-lappar | B-18 | I svärdfiskens mun med Q5-03. Positionsmarkering TBD. Troligen one-off. Reservlappar hos spelledning. | | | saknas |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
@@ -51,7 +55,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 | Klätternätet, Q-1-påsen | Högt i nätet | kort | Lördag före 10.30. Inte fredag. Knuten, inte en flagga. I påsen: Q1-03 och Q1-04. | |
 | Kistan ställs fram | TBD, väl synlig | kort | Fredag före ankomst, eller under installationen 17.30 | |
 | Cryptexen laddas (nyckel in, lapp på) | TBD var den kommer in lördag | kort | Lördag före 10.30 | |
-| Svärdfiskens gap laddas | Vardagsrummet | | Löpande under lördagen | |
+| Q-5 väggen och svärdfisken | Storstugan | kort | Fredag: väggen som dressing, tomma baksidor, tom mun. Lördag före 10.30: bokstäver, Q5-03, Q5-04. Inte fredagsspel. | |
 | Segelbåten laddas | Bojen | | Fredag, i dagsljus | |
 
 ---

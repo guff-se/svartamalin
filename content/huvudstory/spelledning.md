@@ -73,6 +73,7 @@ Hon vet att älskaren är Karl XII. Hon vet att festen är fällan. Hon är trö
 - Frågar någon vem hon gömmer: varken bekräfta eller förneka ett namn i hamnen.
 - Namnge inte kungen som älskare före B-42. Inte som skämt.
 - Spela inte skuldsatt. Inte fordringsägare. Inte att Kurtisanen köptes på kredit.
+- Fredag: släpp inte Q-5-väggen. Lördag: låtsas inte se om någon tar ner den.
 - Hon får vara trött på att kallas Svarta Malin. Inte varför. Inte planen.
 - Hon får flirta och försvinna med gäster. Det gömmer den hemliga, det motbevisar den inte.
 - Hjärter och Blodig får jaga fel person. Ge dem en scen, inte sanningen.

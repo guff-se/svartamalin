@@ -39,3 +39,5 @@ Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, 
 | [`Q2-dagbok-1-namnet.md`](Q2-dagbok-1-namnet.md) | `Q-2`, `B-17`, `Q2-07` | Uppbrottet, namnet Svarta, pekar mot Ottos grav | Piratstugan |
 | [`Q2-dagbok-2-handlingen.md`](Q2-dagbok-2-handlingen.md) | `Q-2`, `B-17`, `Q2-08` | Bygget och rätten att preja | Piratstugan |
 | [`Q2-dagbok-3-tillflykten.md`](Q2-dagbok-3-tillflykten.md) | `Q-2`, `B-17`, `Q2-09` | Tillflykten, nutid | Piratstugan |
+| [`Q5-dagbok-1-skulderna.md`](Q5-dagbok-1-skulderna.md) | `Q-5`, `B-18`, `Q5-03` | Hon håller havet med mäns skulder. Kistan. | Svärdfiskens mun |
+| [`kista-skuldbrev.md`](kista-skuldbrev.md) | `kista`, `Q-5`, `B-42`, `K-10` | Tre skuldbrev, ett per Q-5-start. Namn vid tillsättning. | Malins kista |
