@@ -8,6 +8,7 @@ Tillsatta, inte här:
 
 - Q-1 (halvor vid Gubben och Gumman, påse högt i klätternätet): [`quests.md`](quests.md)
 - Q-2 (stuga, grav, tokens, inget pussel): [`quests.md`](quests.md)
+- Q-5 porträttvägg (tillsatt, inte låst): [`quests.md`](quests.md)
 - Cryptex, kista, XII, lösenordskandidat: [`kanon.md`](kanon.md). Runtime: [`spelledning.md`](spelledning.md)
 - Platser som redan har funktion: [`platser.md`](platser.md)
 
@@ -74,7 +75,7 @@ Parkerad idé: ett faktiskt 2-kronorsmynt ombord, se nedan. Samma vattenregel: s
 
 ## Lediga idéer
 
-Kandidater till pit stop eller skatt i Q-3, Q-4 eller Q-5. Ursprung: Gustaf, [`egna.md`](egna.md). Får inte byggas förrän de sitter i en quest.
+Kandidater till pit stop eller skatt i Q-3 eller Q-4. Ursprung: Gustaf, [`egna.md`](egna.md). Får inte byggas förrän de sitter i en quest. Q-5:s vägg sitter i questen.
 
 ### Pacing via mat och fasta tider
 
@@ -103,28 +104,6 @@ Krav: minst två personer kan avslöja samma sak. Bypass om bäraren är tyst, f
 Olåsbar utan nyckel på annan plats eller hos annan person.
 
 Spänning: ingen matematik, kropp framför papper. Om den används: mycket kort meddelande, nyckeln är ett föremål eller en fras. Inte efter 15.30.
-
-### Porträttväggen: sångordning
-
-Kandidat till **Q-5:s sista steg**. Inte låst. Se [`quests.md`](quests.md). Om den tillsätts: flytta hitifrån till Q-5 och stryk.
-
-Bilder på alla 25 pirater, uppsatta efter skuta. Bokstav på baksidan. Sorterade i den ordning namnen nämns i sången bildar baksidorna en mening. Koppling till skuldboken: listan på "de värsta kaptener som finns".
-
-Bara en grupp kan lösa det om väggen är unik, såvida inte porträtten passas vidare.
-
-Första gången varje närvarande namn nämns, hela sången:
-
-1. Enben, 2. Blodig, 3. Frodig, 4. Babord, 5. Kuling, 6. Fuling, 7. Nykter, 8. Svarta Malin, 9. Barnsben, 10. Döver, 11. Hjärter, 12. Spader, 13. Klöver, 14. Blåskägg, 15. Rödskägg, 16. Rötägg, 17. Lösskägg, 18. Hurring, 19. Kosing, 20. Rosing, 21. Plåthorn, 22. Prygel, 23. Dunka, 24. Planka, 25. Felix.
-
-Vers 1 och 2 innehåller bara åtta av de 25. Resten sitter i sista versen (finalen, spoila inte). Sortering kräver sista versen eller en namnlista som inte är sången.
-
-Spänningar:
-
-- Ingen lång läsning. 25 namn mot en sångtext är en läsuppgift. Behöver fysisk nyckel på plats. Ingen story-bit får kräva mobil.
-- Utskriven fulltext spoilar finalen. En lista i rätt ordning spoilar pusslet.
-- Startordning efter skuta är bra: väggen är meningsfull innan någon rör den. Bypass om väggen är raserad.
-- Meningen på baksidan är inte lösenordet. Den får peka mot plats, person eller bokstav.
-- Plats TBD. Vardagsrummet är kandidat.
 
 ---
 

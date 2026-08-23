@@ -4,7 +4,7 @@ Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, in
 
 Använd den här filen när du skriver gästtext i `content/intriger/crews/` eller `guests/`. **Cirkulerande version** är rykte-fakta att lägga in i gästtext, inte färdig STYLE.md-prosa. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
 
-Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har en idé. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den hit och stryks där.
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har kedja, inte låst. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den hit och stryks där.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
 
@@ -256,41 +256,67 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 
 ## Q-5: Skuldboken
 
-**Vad gästerna ska jaga:** Vems namn som står i Malins bok, och om det egna gör det.
+**Vad gästerna ska jaga:** Malins skuldlogg. Den egna posten. Sedan det gömda dagboksbladet väggen pekar mot.
 
-**Vad de ska ha lärt sig när questen är klar:** Hon samlar andras skulder. Inte bara guld: IOU:er, eder, obetalda skålar, namn på en lapp. En kapten som inte betalar Malin slutar vara kapten. Lojalitet hos henne är något som kan skrivas upp.
+**Vad de ska ha lärt sig när questen är klar:** Hon samlar andras skulder. Inte bara guld: IOU:er, eder, obetalda skålar, namn på en lapp. En kapten som inte betalar Malin slutar vara kapten. Lojalitet hos henne är något som kan skrivas upp. Hon håller Salmonellahavet genom att sätta män i skuld.
 
-**Cirkulerande version (det som får stå i gästtext):** Malin är Salmonellahavets bokhållare. Det är därför man kommer när hon kallar. Det finns en bok, eller en hög lappar, eller en lista. Namn. Belopp. Eder.
+**Cirkulerande version, start (det som får stå i de tre startintrigerna):** Du är skyldig Svarta Malin pengar. Hon för logg. Du vill komma åt loggen. Inte var den sitter.
 
-**Sanning enligt kanon:** Metoden är sann. Hon håller havet med andras skulder. Kistan bär inte det arkivet. I kistan ligger brevet: hon ville sluta hålla.
+**Cirkulerande version, tvärledtråd (de två skutorna utan Q-5):** Loggen sitter på väggen i Storstugan, listan på de värsta kaptener som finns. Den som bär tråden står inte själv i loggen och är obrydd. Meningslös om mottagaren inte redan jagar loggen.
 
-**Får ljuga om:** Vems skulder. Hur stora. Var boken finns. Om den är en bok eller lösa lappar.
+**Cirkulerande version, dagboksbladet:** Hon dominerar Salmonellahavet genom att sätta män i skuld till sig. Alla sådana skulder förvaras i hennes skattkista.
+
+**Sanning enligt kanon:** Metoden är sann. Hon håller havet med andras skulder. Kistan bär inte det arkivet. I kistan ligger brevet: hon ville sluta hålla. **Öppet:** om bladet får ljuga att arkivet sitter i kistan, se mekanik nedan.
+
+**Får ljuga om:** Vems skulder. Hur stora. Om loggen är en bok eller lösa lappar. Om den egna posten finns.
 
 **Får inte:**
 
-- Visa kistans innehåll eller säga att skatten är skuldbrev.
+- Visa kistans innehåll. Göra kistan till gömställe för questskatten.
+- Säga att skatten *är* skuldbrev, förrän beslutet om bladets lögn är taget. Se mekanik.
 - Lukta krona, kung, stat, arrest.
 - Säga att festen är betalning mot någon högre makt.
-- Göra Malins kista till gömställe för questskatten. Redan förbjudet i kanon.
+- Citera sista versen som framtid. Spoila inte metaregeln.
 
-**Håll isär från:** Kistans brev (plot, inte arkiv). Q-3 (belöningen av Kurtisanen syns inte här). Temat i [`premiss.md`](premiss.md): att sälja rollen man tröttnat på.
+**Håll isär från:** Kistans brev (plot, inte arkiv). Q-3 (belöningen av Kurtisanen syns inte här). Q-1 (hemligheter ur sängen, inte en bok). Temat i [`premiss.md`](premiss.md): att sälja rollen man tröttnat på.
 
-**Efter kistan (intern, inte gästtext):** Ni har sett hur hon håller havet. I kistan ser ni att hon ville sluta.
+**Efter kistan (intern, inte gästtext):** Ni har sett hur hon håller havet. I kistan ser ni att hon ville sluta. Om bladet pekade mot kistan som arkiv är det lögnen som spricker.
 
 **Skrivstöd:**
 
-- Ton i gästtext: andras skulder till Malin. Inte att hon är skuldsatt. Inte kungen.
-- Props: en lapp, en IOU, en lista med några namn. Inte kontraktet. Inte en hög som ser ut som kistans innehåll.
+- Ton i startintrigen: egen skuld, jakt på loggen. Inte att Malin är skuldsatt. Inte kungen. Inte väggen.
+- Ton i tvärledtråd: var loggen sitter, att bäraren själv är fri. Inte att man ska vända bilderna. Inte sångordningen.
+- Props: 25 porträtt med bokstav på baksidan. Ett gömt dagboksblad. Cryptex-lapp. Inte kontraktet. Inte en hög som ser ut som kistans innehåll.
 
-**Mekanik:** idé 2026-08-20. Inte låst. Nod inte byggd.
+**Mekanik:** kedja 2026-08-23. Inte låst. Porträttväggen tillsatt här, struken i [`pussel.md`](pussel.md). Tre beslut blockerar lås.
 
-Sista steget, kandidat: **porträttväggen** i [`pussel.md`](pussel.md). Inte låst. Om den tillsätts: flytta byggstenen hit och stryk den där.
+Platser: **Storstugan**, porträttväggen "de värsta kaptener som finns", fullt synlig. Gömt dagboksblad: TBD.
 
-Kedjan före väggen: TBD.
+Kedja:
 
-Öppet, Gustaf: bara **en grupp** kan lösa Q-5 om väggen är ett unikt fysiskt pussel, såvida inte porträtten **passas vidare**. Tre skutor ska kunna springa questen. Lös innan bygge.
+1. Start (intrig), en person per av tre skutor. Skyldig Malin pengar. Vet att hon för logg. Vill åt den. Inte var.
+2. Tvärledtråd, ett antal personer på de två skutorna utan Q-5. Vet att loggen är väggen. Vet att de själva inte står där. Obrydda.
+3. Väggen. 25 porträtt, uppsatta efter skuta. Bokstav på baksidan. I sångordning bildar baksidorna en mening som pekar mot ett gömt dagboksblad.
+4. Skatt: dagboksbladet (kapitlet) och cryptex-bokstaven.
 
-Öppet mot kanon: vers 1 och 2 nämner bara åtta av de 25 namnen. Resten sitter i sista versen, som är finalen och inte får spoilas i förväg. Sortering mot full sångtext kräver antingen sista versen eller en namnlista som inte är sången. Ingen lång läsning. Ingen utskriven fulltext på väggen. Meningen på baksidan är inte lösenordet.
+Första gången varje närvarande namn nämns, hela sången: 1 Enben, 2 Blodig, 3 Frodig, 4 Babord, 5 Kuling, 6 Fuling, 7 Nykter, 8 Svarta Malin, 9 Barnsben, 10 Döver, 11 Hjärter, 12 Spader, 13 Klöver, 14 Blåskägg, 15 Rödskägg, 16 Rötägg, 17 Lösskägg, 18 Hurring, 19 Kosing, 20 Rosing, 21 Plåthorn, 22 Prygel, 23 Dunka, 24 Planka, 25 Felix.
+
+### Tre öppna beslut, blockerar lås
+
+1. **Kistan.** Bladet säger att skulderna ligger i skattkistan. Kanon 2026-08-23: kistan bär inte arkivet, inga skuldbrev där. Antingen är bladet en tillåten lögn (då uppdateras får-inte) eller så pekar bladet mot en annan kista. Inte båda.
+2. **Sångnyckeln.** Vers 1 och 2 nämner bara åtta av de 25 närvarande namnen. Resten sitter i sista versen. Sortering mot 25 namn kräver fysisk nyckel på plats. Ingen utskriven fulltext. Ingen lång läsning. Ingen mobil. Meningen på baksidan är inte lösenordet.
+3. **Tre lag.** Väggen är unik. Tre skutor ska springa. Kandidat, inte beslut: väggen hängs tillbaka, pusslet är återanvändbart. Dagboksbladet och cryptex-lappen är engångs som Q-1. Alternativ: porträtten passas vidare.
+
+### Kvar att konstruera efter de tre besluten
+
+- Meningen på baksidan. Måste peka mot gömstället. Kort. Självvaliderande.
+- Gömstället för dagboksbladet. Inte kistan. Inte ett gömme som kräver ransakning.
+- Hur de vet att vända bilderna och sortera mot sången. Väggens titel är sångraden. Räcker det, eller behövs mer i start eller tvärledtråd.
+- Vilken cryptex-bokstav. Ett exemplar eller tre.
+- Hint-trappa och bypass: väggen raserad, bladet borta, ingen springer före brunch.
+- Trycktext i [`../rekvisita/`](../rekvisita/). Props i [`produktion.md`](produktion.md). Beat i [`akter.md`](akter.md).
+
+Tillsättning: inte nu. En gäldenär per av tre Q-5-skutor. Tvärledtråd bara på de två skutorna utan ingång. De som vet var loggen sitter står inte själva i den.
 
 ---
 

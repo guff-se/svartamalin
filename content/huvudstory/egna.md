@@ -20,6 +20,18 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-23, Q-5 skuldboken
+
+Källa: Gustaf, i chatt. Införd som kedja i [`quests.md`](quests.md). Inte låst.
+
+- [ ] Varje lag som är tilldelat denna quest skall ha en person som är skyldig svarta malin pengar. Hen vet att hon för logg på sina skulder och vill komma åt denna.
+- [ ] I de två lag som inte fått tilldelat denna quest skall det finnas ett antal personer som vet om var malins håller sin skuldlogg. De vet att de själva inte står i loggen så de är ganska obrydda. Loggen är helt enkelt på den stora väggen med "de värsta kaptener som finns", som är uppsatt fullt synligt i Storstugan.
+- [ ] På baksidan av bilderna på väggen finns bokstäver. Om bilderna läggs i den ordning som är i låten så framträder en mening, som pekar vägen till ett gömt dagboksblad. I dagboksbladet så står det om hur svarta malin dominerar salmonellahavet genom att sätta män i skuld till henne, och att alla dessa förvaras i hennes skattkista. Där finns också en bokstav till kryptexen.
+
+Kryss = formen är inlagd och låst. Kedjan sitter i questen. Tre öppna beslut blockerar lås: kistan, sångnyckeln, tre lag mot unik vägg.
+
+---
+
 ## 2026-08-23, Malins motiv och kistan
 
 Källa: Gustaf, i chatt. Införd i [`kanon.md`](kanon.md), [`premiss.md`](premiss.md), [`quests.md`](quests.md), [`beslut.md`](beslut.md), [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
@@ -167,9 +179,9 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md).
 
 - [x] Q-1: Här använder vi gubben och gumman. På varje plats finns var sin halva av ett brev. Detta är ett dagboksblad som beskriver malins år som kurtisan. I texten så finns också ledtråden till vart hon gömt ett minne från sin första älskare. Detta minnet innehåller cryptex-ledtråden. Detta skulle dock göra Q1 till ett engångs-quest, eftersom ledtrådarna försvinner.
 - [x] Q-2: I denna vil jag använda södra ön och piratstugan där. Detta är Svarta Malins ursprungliga hem och man kan hitta flera saker från hennes historia där. **Ersatt 2026-08-23:** inte ursprungliga hemmet, utan huset hon byggde efter att hon flytt. Se avsnittet ovan.
-- [ ] Q-5: En idé är att sista mysteriet i skuldboken är att man skall ta ner porträttväggen. Det kopplar bra in till listan på skulder och man skulle kunna skriva något finurligt som kopplar ihop detta till listan på "de värsta kaptener som finns" - en ledtråd som antyder att man skall använda sången för att sortera porträtt. Detta gör dock att bara en grupp kan lösa Q5, såvida inte porträtten passas vidare.
+- [ ] Q-5: En idé är att sista mysteriet i skuldboken är att man skall ta ner porträttväggen. Det kopplar bra in till listan på skulder och man skulle kunna skriva något finurligt som kopplar ihop detta till listan på "de värsta kaptener som finns" - en ledtråd som antyder att man skall använda sången för att sortera porträtt. Detta gör dock att bara en grupp kan lösa Q5, såvida inte porträtten passas vidare. **Utvecklad 2026-08-23:** se avsnittet Q-5 skuldboken ovan. Väggen är loggen. Inte låst.
 
-Kryss = formen är inlagd. Q-5 är idé, inte låst. Q-1:s engångs är beslutat 2026-08-22, se avsnittet ovan.
+Kryss = formen är inlagd. Q-5 är kedja, inte låst. Q-1:s engångs är beslutat 2026-08-22, se avsnittet ovan.
 
 ---
 

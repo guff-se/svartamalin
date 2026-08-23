@@ -56,6 +56,7 @@ Två listor. Beslut som är tagna, och frågor som blockerar arbetet. Ett beslut
 | 2026-08-23 | Malins motiv: vila, inte skuld | Hon är trött på att vara Svarta Malin och på att kämpa om Salmonellahavet. Lierad sängvägen med Karl XII för att röja undan konkurrensen. Ensam härskare plus rik belöning. Inte skuldsatt. Inte skuldbrev i kistan. Överstyr 2026-08-18 (skulder och utbyte). | [`kanon.md`](kanon.md), [`premiss.md`](premiss.md), [`egna.md`](egna.md), [`quests.md`](quests.md) |
 | 2026-08-23 | Kistans innehåll | Brev mellan Malin och kungen, plus minnen och skatter. Enda plot-relevanta: kärleksbrevet (kontraktet). Miniatyr och övriga brev är dressing. Överstyr skuldbrev i kistan från 2026-08-18 och 2026-08-21. | [`kanon.md`](kanon.md), [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md), [`produktion.md`](produktion.md), [`slutstriden.md`](slutstriden.md) |
 | 2026-08-23 | Q-3 sanning | Preja-versionen är lögnen och får stå i questen. Sanningen: kungen sätter korvetten på hennes namn som belöning, inte kreditköp. Överstyr 2026-08-18 (köpt på kredit). | [`quests.md`](quests.md), [`kanon.md`](kanon.md) |
+| 2026-08-23 | Q-5 kedja, inte låst | Tre gäldenärer startar. Tvärledtråd på de två skutorna utan quest: loggen är porträttväggen i Storstugan. Sångordning ger mening till gömt dagboksblad. Bladet: skulder i skattkistan, plus cryptex-bokstav. Tre öppna beslut innan lås: kistan, sångnyckeln, tre lag. | [`quests.md`](quests.md), [`egna.md`](egna.md), [`platser.md`](platser.md) |
 
 
 
@@ -97,6 +98,7 @@ Kan besvaras senare, men får inte glömmas.
 - [ ] Krävs det ett förbesök, och när i så fall?
 - [ ] Vad är cryptexens sex bokstäver? Får inte gå att gissa från sången, ön, Malins namn eller halsbandet innan man sett det. Kandidat: `HKHXII`. Tre quests ger `H`, `K`, `H`. Malin ger `XII`. Se [`kanon.md`](kanon.md).
 - [ ] Vilka tre quests har varje skuta, och vem bär start respektive tvärledtråd? Först när questsen är färdigskrivna. Välj utifrån storyn, inte tvärtom. `[fordelning.yaml](fordelning.yaml)`.
-- [ ] Parkerade pit-stop- och skattidéer, inte antagna: ledtrådar vid mat, högt hängande ledtråd, delad karta, 2-krona i Tvåkronan, ledtråd hos karaktär, caesarskiffer. Porträttväggen är kandidat till Q-5, inte låst. Gustafs lista: `[egna.md](egna.md)`.
+- [ ] Parkerade pit-stop- och skattidéer, inte antagna: ledtrådar vid mat, högt hängande ledtråd, delad karta, 2-krona i Tvåkronan, ledtråd hos karaktär, caesarskiffer. Gustafs lista: `[egna.md](egna.md)`.
+- [ ] Q-5 tre öppna beslut innan lås: får dagboksbladet ljuga att arkivet sitter i kistan. Sångnyckel utan sista versen och utan lång läsning. Tre lag mot unik vägg. Se `[quests.md](quests.md)`.
 - [ ] Var och när kommer cryptexen in i spelet? Inte fredag: ingen mekanik då.
 - [x] Tillsätt mullvad och kontakt per skuta. Fem par i `[forradare.yaml](forradare.yaml)`. Gästtext pending.
