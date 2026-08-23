@@ -8,4 +8,4 @@ related: [hampuslindblad, louisevonbahr]
 
 ## Blåskägg, mitt ben {slug:hampuslindblad}
 
-Du saknade en romans. Inte längre. **Kapten Blåskägg** är din, och du vägrar backa för **Kapten Fuling** som påstår att hon hade honom först. Du vill rida honom med det enda benet om det så krävs, ta hans krona i näven och knulla skäggkungen tills hamnen glömmer vem som krönte sig. Första kvällen: ett leende som inte backar. Innan helgen är över ska Blåskägg ha valt, eller åtminstone stönat ditt namn så Fuling hör det.
+Du saknade en romans. Inte längre. **Kapten Blåskägg** är din, och du vägrar backa för **Kapten Fuling** som påstår att hon hade honom först. Du vill rida honom med det enda benet om det så krävs, ta skägget i näven och knulla honom tills hamnen glömmer att Fuling fanns. Första kvällen: ett leende som inte backar. Innan helgen är över ska Blåskägg ha valt, eller åtminstone stönat ditt namn så Fuling hör det.
