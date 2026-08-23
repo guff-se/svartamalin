@@ -78,7 +78,7 @@ fiender:
     a: josefinlowing      # Kapten Kuling: Fregatten Fördärvet
     b: elinmartensson     # Kapten Plåthorn: Galeonen Gnället
     # oförrätt: Plåthorns “varning” sålde Kulings position; Kuling kapade hornet i skål
-    status: pending
+    status: done
 
   - id: 8
     type: mutual
@@ -182,7 +182,7 @@ fiender:
     b: minervalowgren     # Kapten Prygel: Fregatten Fromheten
     # oförrätt: Plåthorns horn sätter striden i kåttrans så hon kan smita. Prygel (underlag: Plåthorn)
     # vill se hornet krossat en gång för alla — stridslysten ära mot feg flykt.
-    status: pending
+    status: done
 
   - id: 25
     type: mutual

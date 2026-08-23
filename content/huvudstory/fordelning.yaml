@@ -611,3 +611,51 @@ fordelning:
     bygger_pa: null
     pussel: null
     status: done
+
+  - id: 49
+    beat: S-08
+    akt: II-IV
+    till: [elinmartensson]
+    roll: grindvakt
+    vet: "att hon aldrig släpper sitt plåthorn frivilligt eftersom det är hennes flyktväg när det blir på allvar, att Kapten Prygel vill se det krossat och Kapten Kuling redan hånat det i en skål efter en gammal förnedring, och att hon kan fly, muta eller blåsa i hornet i självförsvar"
+    vet_inte: "att Kapten Rosing hör deras planer via sin snäcka"
+    speglas: [josefinlowing, minervalowgren]
+    bygger_pa: "fiende: 7, 24"
+    pussel: null
+    status: done
+
+  - id: 50
+    beat: S-08
+    akt: II-IV
+    till: [josefinlowing]
+    roll: jagare
+    vet: "att Kapten Plåthorns 'varning' en gång sålde hennes position och att hon hånat hornet i en skål sen dess, och att hon nu vill ha hornet för skojs skull, taktiskt bruk eller för att sälja det vidare"
+    vet_inte: "att Kapten Rosing hör planerna via sin snäcka"
+    speglas: [elinmartensson]
+    bygger_pa: "fiende: 7"
+    pussel: null
+    status: done
+
+  - id: 51
+    beat: S-08
+    akt: II-IV
+    till: [minervalowgren]
+    roll: jagare
+    vet: "att Kapten Plåthorns horn stör hennes stridslystna heder och låter Plåthorn smita undan striden, och att hon vill se det krossat, ensam eller med Kapten Kuling"
+    vet_inte: "att Kapten Rosing hör planerna via sin snäcka"
+    speglas: [elinmartensson]
+    bygger_pa: "fiende: 24"
+    pussel: null
+    status: done
+
+  - id: 52
+    beat: S-08
+    akt: II-IV
+    till: [linneaekbom]
+    roll: vittne
+    vet: "att hennes snäcka snappat upp Kapten Kulings och Kapten Prygels planer mot Kapten Plåthorns horn, och att hon kan varna Plåthorn mot en tjänst eller hålla tyst"
+    vet_inte: "inget särskilt av huvudstoryns lösning"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
