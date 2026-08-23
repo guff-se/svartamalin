@@ -96,6 +96,7 @@ curl -s "${VITE_SUPABASE_URL}/rest/v1/guests?select=login_slug,real_name,crew_id
 - Helgens båge styr undertonen: fredag överdåd → lördag svek → lördag kväll förlisning/slagsmål → natt Rans salar.
 - Lag: `crews/{crew_id}.md`. Individ: `guests/{login_slug}.md`. Spegla tvåvägsrelationer; markera envägs i frontmatter.
 - Vad vet karaktären? De läser bara egen `guests/`-fil, egen `crews/`-fil och `content/copy/`. Referera inte till andras intriger eller sidequests de inte är med i, om det inte lyfts in i *deras* text.
+- Han/hon/hen: slå upp `real_name` i `content/anteckningar/{slug}.md`. Piratnamn styr inte kön. Okänd person: hen, eller skriv om utan pronomen. Anta inte att kaptener är män.
 
 ## Huvudstory (lajvets övergripande berättelse)
 

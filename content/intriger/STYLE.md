@@ -24,6 +24,7 @@ Skriv som **klassisk svensk revy à la Povel Ramel**:
 
 - Tilltala mottagaren i **du-form**. Varje person ska känna att **de är hjälten** i historien, även när de är skurkar, förrädare eller stackars lurade. Deras intrig är deras scen.
 - **Alltid piratnamn.** Deltagare omnämns **bara** med sitt piratnamn (`**Kapten Blod**`, `**Svarta Malin**`, …), aldrig civilnamn, smeknamn eller login_slug i brödtexten.
+- **Han / hon / hen.** Kaptener är inte män som default. Piratnamn styr inte kön (`Katten Felix`, `Kapten Blåskägg`, `Kapten Dunka`). Slå upp `real_name` i [`../anteckningar/{slug}.md`](../anteckningar/). Skriv han/hon efter civilnamnet. Okänd person (hemlig älskare, "någon i hamnen"): **hen**, eller skriv om utan pronomen. "Ta upp jakten tillsammans" slår "Jaga honom tillsammans" när läsaren inte vet könet. Tilltala inte mottagaren som man ("stolte") om du inte vet; "stolta" går för alla.
 - Korta texter (några meningar till ett kort stycke per `##`-intrig). Hellre en skarp punchline än en lång utredning.
 - **Aldrig em dash (—).** Det ser AI-skrivet ut och låter konstigt på svenska. Använd komma, kolon, punkt eller omskrivning istället.
 
@@ -34,7 +35,7 @@ Festen är sexpositiv. Den bjuds inte in som sådan, men alla deltagare är vana
 Konsekvens för intrigtext:
 
 - Explicit språk och grövre sexuella referenser är **tillåtna**. Kuk, fitta, knulla, suga, binda, ta: orden får användas när de tjänar revyn och lusten.
-- Registret är **lust och sex**, inte romankärlek. "Du vill bli bunden och tagen" slår "Du drömmer om en framtid tillsammans". "Du vill smaka hans svärd" slår "Han skall göra dig till drottning".
+- Registret är **lust och sex**, inte romankärlek. "Du vill bli bunden och tagen" slår "Du drömmer om en framtid tillsammans". "Du vill smaka svärdet" slår "Hen skall göra dig till drottning". Han/hon bara när civilnamnet gör könet känt.
 - Primärt för en kvinnlig och jämnställd publik. Ingen male gaze. Mottagaren är subjektet: hen vill, tar, suger, rids, blir tagen för att hen vill det.
 - Sexuell erövring är en giltig drivkraft. Att *måste* ligga med någon för att vinna uppdraget är det inte.
 
@@ -50,11 +51,12 @@ Den sista versen (från “När jag nyss fyllde år…”) är **slutstriden**: 
 
 | Gör | Undvik |
 |-----|--------|
-| “Du, stolte sjörövare, har en hemlighet som skulle få Salmonellahavet att skälva.” | “Du har information om en annan gäst.” |
+| “Du, stolta sjörövare, har en hemlighet som skulle få Salmonellahavet att skälva.” | “Du har information om en annan gäst.” |
 | `**Kapten Blodig**` / `**Kapten Träben**` | Civilnamn (“Gustaf”, “Malin Tadaa”) i intrigtext |
 | Eko från sången: preja, plundra, jubileum, kaviar och rom, valplats | Spoila versen om att alla “låg kvar i en hög” |
 | Lust, åtrå, sexuell dragning. Sexuell erövring. | Att man måste lyckas ligga med någon för att vinna. |
-| "Du vill smaka hans svärd", "Du vill bli bunden och tagen" | "Han skall göra dig till drottning", "Du drömmer om en framtid tillsammans" |
+| "Du vill smaka svärdet", "Du vill bli bunden och tagen" | "Han skall göra dig till drottning", "Du drömmer om en framtid tillsammans" |
+| Han/hon efter civilnamn. Hen eller omskrivning när personen är okänd för läsaren. | "Jaga honom" om en älskare vars kön läsaren inte känner. "Hans svärd" om en kapten som är kvinna. |
 | Rivalitet, skuld, hemlig kärlek, stöld, ed, arv, svek, i revykostym | Byråkratisk ton, HR-språk, ironisk distans som tar udden ur spelet |
 | Övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut (när sjöfärd ska bli en scen) | En sjöfärd som *måste* gå via dem. Folk får paddla utan dem. |
 | Låt laget kännas som ett teatersällskap med gemensam mission | Platta “gör poäng i tävlingen”-uppdrag utan karaktär |
@@ -235,3 +237,4 @@ Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet at
 15. Är språket prydligt eller framtid-tillsammans kring sex och romans? → skriv om. Lust, explicithet och "bunden och tagen" är rätt register. Male gaze är det inte.
 16. Förutsätter någon mening kunskap som inte står i mottagarens gästfil, lagfil, copy eller egen roller? → lyft in om de *ska* veta det, annars stryk.
 17. Refererar texten till en sidequest, ett objekt eller en titel från ett spår personen inte är med i? → stryk. Speglad romans räcker inte.
+18. Stämmer han/hon med civilnamnet i `anteckningar/`? Okänd person: hen, eller skriv om utan pronomen. Anta inte att kaptener är män.
