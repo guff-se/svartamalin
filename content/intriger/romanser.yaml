@@ -51,13 +51,13 @@ romanser:
     type: one_way
     a: linneaekbom         # Kapten Rosing (Linnea Ekbom)
     b: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
-    status: pending
+    status: done
 
   - id: 5
     type: one_way
     a: fabianmacklin       # Kapten Nykter (Fabian Macklin)
     b: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
-    status: pending
+    status: done
 
   - id: 6
     type: one_way

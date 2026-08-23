@@ -359,3 +359,51 @@ fordelning:
     bygger_pa: "fiende: 3, 18, 19"
     pussel: null
     status: done
+
+  - id: 28
+    beat: S-03
+    akt: II
+    till: [ulrikahammar]
+    roll: barare
+    vet: "att hon måste svälja ett krumelurpiller varje skymning för att inte sluta vara barnslig, att Kapten Nykter och Kapten Rosing båda uppvaktar henne vid hennes sy- och broderihörna för att bli den hon litar på då, och att hon själv väljer vem hon anförtror sig åt"
+    vet_inte: "att Nykter håller henne nära av andra, egna skäl, att Döver tjuvlyssnar vid hörnan"
+    speglas: [fabianmacklin, linneaekbom]
+    bygger_pa: "romans: 4, 5"
+    pussel: null
+    status: done
+
+  - id: 29
+    beat: S-03
+    akt: II
+    till: [fabianmacklin]
+    roll: jagare
+    vet: "att han uppvaktar Kapten Barnsben vid hennes sy- och broderihörna för att bli den hon litar på i skymningen, och att Kapten Rosing gör detsamma utan att veta om honom"
+    vet_inte: "att Döver tjuvlyssnar vid hörnan"
+    speglas: [ulrikahammar]
+    bygger_pa: "romans: 5"
+    pussel: null
+    status: done
+
+  - id: 30
+    beat: S-03
+    akt: II
+    till: [linneaekbom]
+    roll: jagare
+    vet: "att hon uppvaktar Kapten Barnsben vid hennes sy- och broderihörna för att bli den hon litar på i skymningen, och att Kapten Nykter gör detsamma utan att hon vet om honom"
+    vet_inte: "att Döver tjuvlyssnar vid hörnan, Nykters egna skäl att stå Barnsben nära"
+    speglas: [ulrikahammar]
+    bygger_pa: "romans: 4"
+    pussel: null
+    status: done
+
+  - id: 31
+    beat: S-03
+    akt: II
+    till: [navidmodiri]
+    roll: vittne
+    vet: "att han tjuvlyssnar i smyg vid Kapten Barnsbens sy- och broderihörna bakom sin fejkade dövhet, och redan vet vem hon litar mest på i skymningen"
+    vet_inte: "inget särskilt av huvudstoryns lösning"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
