@@ -273,7 +273,7 @@ Plats:          Södra Ovanan, piratstugan
 Inblandade:     tre skutor TBD. Start i tre namngivna intrigfiler, en person per lag. Inte Malin.
 Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
 
-Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser minnena (hur hon blev pirat, hur hon tog namnet Svarta), tar en token ur skrinet. Skylt: endast en per lag. Inget pussel. Inga pit stops.
+Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre dagboksblad (namnet, handlingen, tillflykten), tar en token ur skrinet. Skylt: endast en per lag. Inget pussel. Inga pit stops.
 
 Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten själv, tog namnet Svarta, och fortfarande behöver en plats att vara ifred. Inte Ran. Inte kungen.
 
@@ -283,7 +283,7 @@ Väg 2:          ett lag tar alla tre tokens trots skylten. De andra tar socialt
 Spelledarväg:   se [`spelledning.md`](spelledning.md) Q-2.
 
 Pusselnod:      ingen
-Props:          Q2-01 till Q2-06
+Props:          Q2-01 till Q2-09
 Om det floppar: tre andra quests plus XII räcker för skutor som inte hade Q-2. En Q-2-skuta utan token måste stjäla eller få spelledar-reserv. Spelet stannar inte. Södra Ovanan stänger 13.30.
 
 ---

@@ -20,6 +20,19 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-23, Q-2 tre blad i stugan
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`../rekvisita/`](../rekvisita/).
+
+- [x] Vi kör följande två brev
+- [x] Uppbrottet/Namnet. Här kan det stå att hon blivit förrådd av sin älskare. Detta ligger i tidslinjen mellan brev 1 och brev 2 som är med i Q-1. I detta brev beskriven hon sorgen som svart, hämden som svart och hon bestämmer sig för att nu vara känd som svarta malin.
+- [x] Filosofisk text - "skall man göra något skall man göra det själv" det är genom handling som man får rätt att göra. dystopisk, lite högstadie-emo-känsla. Kopplar ihop både bygget och rätten till att preja.
+- [x] Tillflykten - hur hon mår idag, hur detta är enda platsen hon kan vara ifred. hur hennes piratkollegor följer henne överallt och hur hon hoppas på att hennes stora plan för att änligen få lugn skall gå i lås (hinta till Karl XII-plotten, utan att avslöja något annat än det är en stor plan för att lösa alla problem).
+
+Kryss = inlagt i designen och tryckt. Tre blad, trots "två brev". Ottos namn står inte. Kurtisanhämnden står inte. Planen namnges inte.
+
+---
+
 ## 2026-08-23, Q-2 utan mekanik, stugan som tillflykt
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.md), [`pussel.md`](pussel.md).

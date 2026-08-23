@@ -272,7 +272,7 @@ Testat:         nej
 #### Q-2: Hur hon blev pirat
 
 Story:          se quests.md. Inte här.
-Uppgifter:      åk till piratstugan, läs minnena, ta en token ur skrinet. Inga pit stops. Inget pussel. Ingen nod.
+Uppgifter:      åk till piratstugan, läs de tre bladen, ta en token ur skrinet. Inga pit stops. Inget pussel. Ingen nod.
 Bokstav:        TBD
 Ingångar:       tre skutor TBD
 Start:          tre slugs TBD, en person per av de tre skutorna. Samma rykte om huset. Inte Malin. Inte bara Kuling eller Rödskägg.
@@ -281,7 +281,7 @@ Pit stop 2:     ingen
 Tvärledtråd:    ingen. Starten är enda skrivna pekaren mot stugan.
 Skatt:          Q2-01, skrinet i piratstugan. Tre tokens. Skylt: Endast en per lag.
 Bypass:         om ingen åker ut: Spader ger starten riktning mot södra ön. Reservtokens hos spelledning bara om tokens är borta från ön. Den som råkar gå in utan Q-2 lämnar skrinet.
-Props:          Q2-01 till Q2-06. Se [`quests.md`](quests.md) och [`produktion.md`](produktion.md).
+Props:          Q2-01 till Q2-09. Tryck: Q2-07, Q2-08, Q2-09.
 Testat:         nej
 
 ---

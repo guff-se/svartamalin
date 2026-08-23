@@ -33,3 +33,6 @@ Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, 
 | [`malin-dagboksblad-fore.md`](malin-dagboksblad-fore.md) | `Q-1`, `P-02`, `Q1-01` | Dagboksblad före förräderiet | Gubben och Gumman |
 | [`malin-dagboksblad-fore-baksida.md`](malin-dagboksblad-fore-baksida.md) | `Q-1`, `P-02`, `Q1-01` | Vägvisning, baksida av samma blad | Gubben och Gumman |
 | [`malin-dagboksblad-efter.md`](malin-dagboksblad-efter.md) | `Q-1`, `P-03`, `Q1-04` | Dagboksblad efter hämnden | Klätternätet |
+| [`malin-dagboksblad-svarta.md`](malin-dagboksblad-svarta.md) | `Q-2`, `B-17`, `Q2-07` | Uppbrottet, namnet Svarta | Piratstugan |
+| [`malin-dagboksblad-handling.md`](malin-dagboksblad-handling.md) | `Q-2`, `B-17`, `Q2-08` | Bygget och rätten att preja | Piratstugan |
+| [`malin-dagboksblad-tillflykt.md`](malin-dagboksblad-tillflykt.md) | `Q-2`, `B-17`, `Q2-09` | Tillflykten, nutid | Piratstugan |

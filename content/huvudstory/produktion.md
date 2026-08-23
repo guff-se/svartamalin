@@ -27,9 +27,12 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q2-01 | Skrin med tre cryptex-tokens och skylt "Endast en per lag" | B-17 | Synligt när man är inne i piratstugan, inte gömt under golv. Tre tokens. Skylten läsbar. Reservtokens hos spelledning, inte i stugan. | | | saknas |
 | Q2-02 | Uppbrottet: sjal eller klänning, kam | B-17 | Ser ut att ha följt med från land och lagts undan. Inga namn, ingen text. | | | saknas |
 | Q2-03 | Bygget: hyvel, hammare, spån, märke i bjälke | B-17 | Handgjort, lite snett. Visar att hon byggde själv. | | | saknas |
-| Q2-04 | Rätten: flaggskärva eller skeppsklocka, plus kort lapp | B-17 | Första bytet, namnlöst. Inte Kurtisanen. Lapp: hon tog det, ingen gav det. Trycktext TBD i rekvisita. | | | saknas |
-| Q2-05 | Namnet: ljus duk med svartbränd kant, ordet Svarta | B-17 | Inget äldre namn utskrivet. Bara Svarta. | | | saknas |
-| Q2-06 | Tillflykten nu: filt, kopp, ljusstump | B-17 | Ser nyligen använt ut. Inget papperspussel. | | | saknas |
+| Q2-04 | Rätten: flaggskärva eller skeppsklocka | B-17 | Första bytet, namnlöst. Inte Kurtisanen. Ingen lapp. Texten sitter i Q2-08. | | | saknas |
+| Q2-05 | Namnet: ljus duk med svartbränd kant | B-17 | Inget äldre namn utskrivet. Dressing till Q2-07. | | | saknas |
+| Q2-06 | Tillflykten nu: filt, kopp, ljusstump | B-17 | Ser nyligen använt ut. Dressing till Q2-09. | | | saknas |
+| Q2-07 | Dagboksblad, uppbrottet / namnet | B-17 | Helt blad, stannar i stugan. Inte Otto. Inte kurtisanhämnden. Text: [`../rekvisita/malin-dagboksblad-svarta.md`](../rekvisita/malin-dagboksblad-svarta.md). | | | utkast |
+| Q2-08 | Dagboksblad, handlingen | B-17 | Helt blad, stannar i stugan. Bygget och rätten att preja. Text: [`../rekvisita/malin-dagboksblad-handling.md`](../rekvisita/malin-dagboksblad-handling.md). | | | utkast |
+| Q2-09 | Dagboksblad, tillflykten | B-17 | Helt blad, stannar i stugan. Nutid. Stor plan utan innehåll. Text: [`../rekvisita/malin-dagboksblad-tillflykt.md`](../rekvisita/malin-dagboksblad-tillflykt.md). | | | utkast |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
@@ -40,7 +43,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 | Vad | Plats | Arbetstid | När görs det | Ansvarig |
 |-----|-------|-----------|--------------|----------|
 | Skylt på annan ö | Se [`platser.md`](platser.md) | | Parkerad idé. Bara om vi beslutar den, och då före helgen med tillstånd | |
-| Piratstugan möbleras som tillflykt | Södra Ovanan | | Fredag eller tidigt lördag. Q2-02 till Q2-06 utlagda, Q2-01 skrinet synligt. Inte escape-rum. Inte fredagsspel. | |
+| Piratstugan möbleras som tillflykt | Södra Ovanan | | Fredag eller tidigt lördag. Q2-02 till Q2-06 utlagda. Q2-07, Q2-08, Q2-09 läsbara. Q2-01 skrinet synligt. Inte escape-rum. Inte fredagsspel. | |
 | Verkstadsförråd byggs om | Verkstaden | | Före helgen om möjligt | |
 | Gubben i stubben / Gumman på udden | Norra och södra ändan av Ovanan | kort | Lördag före 10.30. Ladda Q1-01 i flaska eller under docka, vaxduk. Dockor och flaskor stannar. | |
 | Klätternätet, Q-1-påsen | Högt i nätet | kort | Lördag före 10.30. Inte fredag. Knuten, inte en flagga. I påsen: Q1-03 och Q1-04. | |
@@ -87,6 +90,9 @@ Sådant som ska produceras i repot eller skickas till tryck.
 | Kärleksbrev från Karl XII (K-07) | Tryck eller handskrift, sigill, ett blad | [`../rekvisita/karl-xii-karleksbrev.md`](../rekvisita/karl-xii-karleksbrev.md) | utkast |
 | Malins dagboksblad före (Q1-01) | Ett blad, dubbelsidigt, rives vertikalt | [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md) | utkast |
 | Malins dagboksblad efter (Q1-04) | Ett helt blad | [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md) | utkast |
+| Malins dagboksblad, namnet (Q2-07) | Ett helt blad, stannar i stugan | [`../rekvisita/malin-dagboksblad-svarta.md`](../rekvisita/malin-dagboksblad-svarta.md) | utkast |
+| Malins dagboksblad, handlingen (Q2-08) | Ett helt blad, stannar i stugan | [`../rekvisita/malin-dagboksblad-handling.md`](../rekvisita/malin-dagboksblad-handling.md) | utkast |
+| Malins dagboksblad, tillflykten (Q2-09) | Ett helt blad, stannar i stugan | [`../rekvisita/malin-dagboksblad-tillflykt.md`](../rekvisita/malin-dagboksblad-tillflykt.md) | utkast |
 | Miniatyr av Karl XII | Bild, liten, i kistan | | utkast saknas |
 | Skuldbrev | Handskrift, visuell hög | | utkast saknas |
 | Kaptenslistan som fysiskt dokument | Tryck | | |
