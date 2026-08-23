@@ -59,6 +59,7 @@ Status:         idé / beslutad / skriven
 5. **Korsa lagen.** En sidequest som bara går inom ett lag missar poängen. Låt den dra folk över skutgränser.
 6. **Ge en handling, inte en känsla.** "Var svartsjuk" går inte att spela. "Ta reda på vad hon lade i fiskens gap innan hon hinner tillbaka" går att spela.
 7. **Vet mottagaren att det är en sidequest?** Nej. Det ska stå i deras intrigfil som vilken intrig som helst.
+8. **Gästtexten står för sig själv.** Spelaren har inte läst den här filen. Varje oförrätt, föremål och rykte som behövs för att spela ska berättas i *deras* `guests/`-stycke, i klartext, inte som intern jargong.
 
 ## Balansräkning
 
