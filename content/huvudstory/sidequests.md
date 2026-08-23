@@ -39,6 +39,13 @@ Status:         idé / beslutad / skriven
 |----|------|-----------|-----|------|--------|
 | S-01 | Jakten på älskaren | Hjärter, Felix, Blodig. Malin leder fel. | II | jägare / bärare | beslutad |
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg | II | rivaler | beslutad |
+| S-03 | Krumelurpillren | Barnsben, Nykter, Rosing | II / IV | jägare / bärare | idé |
+| S-04 | Liggaren | Hurring, Klöver, Prygel | II | jägare / vittne | idé |
+| S-05 | Kajhemligheten | Frodig, Fuling, Kuling. Rödskägg är hemligheten. | II | grindvakt / vittne | idé |
+| S-06 | Teckenspråket | Döver, Babord, Rötägg. Hjärter är målet, enväg. | II | jägare / grindvakt | idé |
+| S-07 | Hornet | Plåthorn, Prygel, Rosing | II | jägare / bärare | idé |
+| S-08 | Fasanen | Enben, Planka, Hurring | II | jägare / vittne | idé |
+| S-09 | Arvssyndskatten | Kosing, Dunka, Klöver | II | jägare / grindvakt | idé |
 
 ---
 
