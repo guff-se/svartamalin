@@ -249,14 +249,14 @@ Om det floppar: de tre hatar varandra ändå. Huvudstoryn stannar inte.
 Akt:            II
 Tid:            10.30 till 13.30
 Plats:          Gubben i stubben, Gumman på udden, klätternätet
-Inblandade:     tre skutor TBD. Start i en namngiven intrig, inte Hjärter, Blodig.
+Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter, Blodig (S-01 kolliderar).
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
 Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser dagboken, vänder, följer baksidan till klätternätet. I påsen: blad två (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 
-Trigger:        Q-1-start i individintrig, när den är skriven
+Trigger:        Q-1-start skriven i de tre individintrigerna ovan (klar 2026-08-23)
 Väg 1:          de tre lagen tävlar, ett vinner föremålen, de andra stjäl eller avskriver
 Väg 2:          någon hittar en halva, den andra saknas, de frågar runt
 Spelledarväg:   se [`quests.md`](quests.md) Q-1. Avskrift bara om halvorna är förlorade. Inte extra uppsättning.

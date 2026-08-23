@@ -8,7 +8,7 @@ mirrors:
   - slug: gustaftadaa
     note: hemlig romans (tvåvägs)
 # linneaekbom kan varna dig i smyg, enväg, speglas inte
-related: [josefinlowing, minervalowgren, linneaekbom, gustaftadaa]
+related: [josefinlowing, minervalowgren, linneaekbom, gustaftadaa, malintadaa]
 ---
 
 ## Hornet de vill ta ifrån dig {slug:minervalowgren}
@@ -22,3 +22,11 @@ Ditt plåthorn är ingen leksak: blås i det och alla pirater i närheten drabba
 **Löjtnant Spader** är din hemliga kärlek, dold även för dina egna skutkamrater på Gnället. Han bär spader i ring och halsband, spelar kort som ingen annan kan, och ryktas fuska utan att någon någonsin bevisat hur. Bara du vet hur ofta han vinner när han egentligen borde förlora.
 
 **Kapten Kuling** har fått för sig att hon behöver en listig hand för att komma åt ditt horn, och Spader är känd som precis den sortens hand. Hon vet inte att han redan är din. Lita på att han väljer dig när det gäller, eller oroa dig för att spelet frestar honom mer. Det är ditt val om du säger något till honom om vad du anar, eller låter honom bevisa det själv, innan festen är över.
+
+## Kurtisanens hemlighet {slug:malintadaa}
+
+Innan hon bar kaptenstiteln sålde **Svarta Malin** sin närhet för guld. Hamnen viskar att hennes allra första kärlek var en greve som svek henne för hennes låga stånd, och att hon svarade genom att göra sängen till sitt vapen: sälja sig till hans krets, stjäla deras hemligheter, ta allt han ägde. Hennes skuta bär hans lärdom i sitt namn.
+
+Du vet något om att göra en historia större än den var, om att bygga ett rykte som gör dig svårare att komma åt. Malin har gjort samma sak i stor skala, och du vill veta hur hon bar det, kanske för att stjäla lite av tricket själv.
+
+Ett dagboksblad om hennes första år som kurtisan ligger rivet i två halvor: en vid **Gubben i stubben**, en vid **Gumman på udden**. Hämta båda innan en annan skuta hinner före dig. Håll dem ihop, läs, och vänd. Baksidan pekar vidare.

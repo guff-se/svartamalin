@@ -81,7 +81,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `malintadaa` | 0 | 2 | | |
 | `gustaftadaa` | 1 | 1 | | |
 | `petterwallberg` | 1 | 2 | | |
-| `linneaappert` | 1 | 1 | | |
+| `linneaappert` | 1 | 1 | | Q-1 (start) |
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | |
 | `louisevonbahr` | 1 | 1 | | |
@@ -91,7 +91,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `ludvigvonbahr` | 1 | 1 | | |
 | `amaliawahlstrom` | 0 | 1 | | |
 | `fabianmacklin` | 1 | 3 | | |
-| `josefinansund` | 1 | 1 | | |
+| `josefinansund` | 1 | 1 | | Q-1 (start) |
 | `johannabergman` | 1 | 1 | | |
 | `jesperlejfjord` | 1 | 1 | | |
 | `amandamungsgard` | 1 | 1 | | |
@@ -101,4 +101,4 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `alexandrapalmquist` | 1 | 1 | | |
 | `hampuslindblad` | 1 | 3 | | |
 | `edvinthungren` | 1 | 3 | | |
-| `elinmartensson` | 1 | 1 | | |
+| `elinmartensson` | 1 | 1 | | Q-1 (start) |

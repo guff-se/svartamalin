@@ -100,6 +100,8 @@ Props: två fysiska halvblad, dubbelsidiga (Q1-01). Cryptex-lapp (Q1-03). Ett he
 
 **Engångs, avsiktligt:** halvorna och påsen tas. Tre skutor har ingång och tävlar. Första laget som fullföljer bär de unika föremålen. De andra två får dem genom stöld, byte, avskrift eller hot. Cryptex-lappen är ett fysiskt papper och får cirkulera som cryptexen. Det är spelet, inte ett fel.
 
+**Tillsättning (2026-08-23):** Skuta 1, 3, 5. Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter eller Blodig (S-01 kolliderar, se ovan). Skuta 2 och 4 har ingen ingång till Q-1. Gästtext skriven i deras `guests/`-filer, se `fordelning.yaml` id 63-65.
+
 Bypass om halvorna är borta: fråga vem som satt vid bänkarna. Spader har en läsbar avskrift av det hopsatta första bladet (inte cryptex-lappen, inte det andra bladet), så kedjan kan gå vidare till nätet. Bypass om påsen är borta: jaga den som tog den. Om den är förlorad på riktigt: spelledning har reservlapp och avskrift av andra bladet. Om ingen springer Q-1 före brunchen: Spader ger starten en riktning, inte sanningen om kungen.
 
 Får inte i dagboksutdragen: kungen, nuvarande älskare på ön, hur hon fick Kurtisanen, platsen för nästa steg. Ottos namn får och ska stå. Hämnden och skeppsnamnet står bara i det andra utdraget. Platsen står bara på baksidan av det första.
