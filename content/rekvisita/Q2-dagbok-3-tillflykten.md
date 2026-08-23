@@ -10,7 +10,7 @@ Nutid. Enda stället hon är ifred. En stor plan för lugn. Piratstugan.
 
 ## Tryck
 
-De följer efter. Alla. Kaptener i ryggen. Skålar i örat. Händer i ärmen. Svarta Malin hit. Svarta Malin dit. Det finns inget rum kvar i namnet. Jag går och namnet går före.
+De följer efter. Alla. Kaptener i ryggen. Skålar i örat. Händer i ärmen. Svarta Malin hit. Svarta Malin dit. Namnet har lämnat mig och blivit något eget. Dit jag går, har namnet redan gått.
 
 Det här huset är enda stället jag inte är hon ett tag. Här kan jag sitta. Här frågar ingen. Här är vattnet bara vatten.
 
