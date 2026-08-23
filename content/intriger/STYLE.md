@@ -28,6 +28,8 @@ Skriv som **klassisk svensk revy à la Povel Ramel**:
 
 Alla deltagares piratnamn kommer från [`svartamalin-sångtext.txt`](../../svartamalin-sångtext.txt) (Povel Ramel). Intriger får **gärna** referera till ord, bilder och händelser ur sången, prejning, plundring, Salmonellahavet, kaviar och rom, värjor och krut, listor på kaptener, osv., så länge det stannar i karaktärernas värld och inte spoilar metaregeln.
 
+`prejudikat` i sången är vitsen att sjörövare alltid har prejat, och därför har rätt att röva vidare. Använd ordet bara i den betydelsen: inte som generell juridik, tvåvägsrättvisa, ursprungshistoria eller fysiskt bevis.
+
 Den sista versen (från “När jag nyss fyllde år…”) är **slutstriden**: kollegorna kommer för att hylla Malin, det blir slagsmål, och hon lämnar dem i en hög. Det är samma ögonblick som lördag kvälls förlisning / metaregeln, använd det som undertext och eko i språket, men skriv det **inte ut** som fakta i intrigerna.
 
 ### Ja / nej

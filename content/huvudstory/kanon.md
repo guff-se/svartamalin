@@ -14,7 +14,7 @@ Detta är givet av Povel Ramels text och kan inte ändras.
 
 1. Salmonellahavet är världens hav.
 2. Svarta Malin är dess fasa. Alla stönar och bävar.
-3. Malin prejar med hänvisning till prejudikat, alltså sjörövarens rätt. Hon har till och med prejat sin egen korvett.
+3. Malin prejar med hänvisning till prejudikat: eftersom sjörövare alltid har prejat har de rätt att fortsätta. Hon har till och med prejat sin egen korvett. Ordet betyder bara den rätten, inte generell juridik, inte ett ursprungsbrott, inte ett fysiskt bevis.
 4. Malin har plundrat i väst och i öst. Hennes offer livnär sig nu på tång.
 5. Det finns en lång lista över kaptener. Alla deltagare står på den.
 6. Malin fyllde år, kollegorna kom för att hylla henne, hon bjöd på kaviar och rom.

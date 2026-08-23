@@ -110,7 +110,7 @@ Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta).
 
 **Vad de ska ha lärt sig när questen är klar:** Hon tog sjörövarns rätt själv. Hon äger tilltalet. Den som säger fel namn har redan förlorat.
 
-**Cirkulerande version (det som får stå i gästtext):** Hon föddes inte till pirat. Något togs ifrån henne, eller hon tog något och kallade det prejudikat. Hon bar ett annat namn tills en natt brände eller dränkte det. Hamnen döpte om henne till Svarta, eller hon tvingade listan att följa efter.
+**Cirkulerande version (det som får stå i gästtext):** Hon föddes inte till pirat. Något togs ifrån henne, eller hon tog något och kallade det sin rätt. Hon bar ett annat namn tills en natt brände eller dränkte det. Hamnen döpte om henne till Svarta, eller hon tvingade listan att följa efter.
 
 **Sanning enligt kanon:** Öppen. Questen får låsa en lögn. Metaregeln (hon blir Ran) är förbjuden här.
 
@@ -122,7 +122,7 @@ Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta).
 - Säga att hon sedan sålde de andra med samma logik.
 - Ge henne ett civilnamn i gästtext. Piratnamn bara. Det "gamla namnet" är ett annat piratnamn eller ett tilltal, inte ett civilnamn.
 
-**Håll isär från:** Q-3 (prejudikat som ursprung, inte kuppen mot korvetten). Q-4 (huvudön som hamn). Skelettet på Södra Ovanan är inte den här questens skatt och får inte låsas här.
+**Håll isär från:** Q-3 (kuppen mot korvetten, inte hur hon blev pirat). Q-4 (huvudön som hamn). Skelettet på Södra Ovanan är inte den här questens skatt och får inte låsas här.
 
 **Efter kistan (intern, inte gästtext):** Hon har alltid kunnat bli någon annan utan att släppa greppet. Kontraktet är samma juridiska självbild, nu mot de egna.
 
@@ -172,7 +172,7 @@ Får inte i stugan: Ran, civilnamn, Karl XII, förräderiet, skelettets identite
 **Skrivstöd:**
 
 - Ton i gästtext: stolt, bombastisk. Sångens version.
-- Props: något som ser ut som bevis för prejning (flagga, loggbok, prejudikat). Inte en växel. Inte ett skuldebrev på skutan.
+- Props: något som ser ut som bevis för prejning (flagga, loggbok, en proklamation om sjörövarns rätt). Inte en växel. Inte ett skuldebrev på skutan. Inte ett föremål som kallas "prejudikat": det ordet är rätten att preja, inte ett papper.
 
 **Mekanik:** TBD i [`pussel.md`](pussel.md).
 
@@ -267,4 +267,4 @@ När locket går upp ska de fem kapitlen omtolkas utan ny logik. Skriv inte omto
 
 Använd inte som sjätte quest, och inte som ersättning utan nytt beslut.
 
-Hur hon blev fasan. Den som försvann. Den första festen. Prejudikatet som eget kapitel (ligger i Q-2 och Q-3). Tången. Andelen. Läraren. Varför hon alltid går.
+Hur hon blev fasan. Den som försvann. Den första festen. Hur hon tog sjörövarns rätt, som eget kapitel (ligger i Q-2 och Q-3). Tången. Andelen. Läraren. Varför hon alltid går.

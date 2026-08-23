@@ -78,7 +78,7 @@ Tre bilder eller sinnesintryck som helgen ska leverera. De styr props, ljud och 
 Sångtexten är vår kanon. Tre saker i den vi bygger på:
 
 - **Listorna.** Sången är i grunden tre listor över kaptener, och den sista listan är över lik. Skuldbreven i kistan är en fysisk lista. Vems, och för vad, är öppet.
-- **Prejandet.** "Det är sjörövarns rätt genom prejudikat." Malin har en juridisk självbild. Kärleksbrevet från Kung Karl XII är prejudikatet vänt mot de egna.
+- **Prejandet.** "Det är sjörövarns rätt genom prejudikat." Prejudikat är vitsen att sjörövare alltid har prejat, och därför får de röva vidare. Malin har den självbilden. Kärleksbrevet från Kung Karl XII vänder samma självbild mot de egna: hon har rätt att göra det hon gör, nu mot kollegorna.
 - **"Vem är det som är still going strong."** Malin överlever alltid. I fiktionen: hon har köpt sig fri med de andras halsar. Metaregeln (Ran) tar vid efteråt och får inte nämnas.
 
 Födelsedagsfesten med kaviar och rom är både sångens vers och brevets villkor. Sista versen är fortfarande finalen och citeras inte i förväg.
