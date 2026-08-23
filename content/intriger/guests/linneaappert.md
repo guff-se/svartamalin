@@ -23,3 +23,5 @@ Innan hon bar kaptenstiteln sålde **Svarta Malin** sin närhet för guld. Hamne
 Du vet själv hur det känns när ett falskt rykte klistrar sig fast, sedan **Kapten Fuling** en gång spred ett om dig efter en förlorad auktion. Nu vill du veta vad som faktiskt är sant i Malins eget rykte, innan det stormar förbi som allt annat gör på den här ön.
 
 Ett dagboksblad om hennes första år som kurtisan ligger rivet i två halvor: en vid **Gubben i stubben**, en vid **Gumman på udden**. Hämta båda innan en annan skuta hinner före dig. Håll dem ihop, läs, och vänd. Baksidan pekar vidare.
+
+Du seglar på **Korvetten Kurtisanen**, hennes egen skuta, och delar koj och köl med henne hela helgen. Det gör jakten farligare för dig än för de andra två skutorna: låt henne aldrig se dig läsa bladet eller gå mot uddarna. Kommer hon runt hörnet, göm det undan och le som om ingenting.

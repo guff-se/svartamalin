@@ -23,6 +23,7 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 5. Gästtext: piratnamn, du-form, [`../intriger/STYLE.md`](../intriger/STYLE.md). "Ton i gästtext" under skrivstöd är en instruktion till agenten, inte text att klistra in.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.
 7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på varje kort. Bygg inte noder som motsäger den. Q-2 har inget pussel.
+8. **Korvetten Kurtisanens egna quest-trådar spelas bakom Malins rygg.** Malin är skuta 1:s egen kapten. En quest-start till en medlem av **Korvetten Kurtisanen** (`malintadaa` undantagen, hon bär aldrig sin egen jakt) ska instruera att uppdraget måste lösas utan att Malin ser eller anar det. Hon delar koj, köl och vardag med dem hela helgen: att gräva i hennes förflutna är farligare för en Kurtisan än för någon annan skutas medlem. Skriv in det som en konkret risk i gästtexten (hon kan komma runt hörnet när som helst), inte som en spelledningsvarning.
 
 När du skriver en **start** i en gästs intrig (först när questen är färdig och personen är tillsatt i fördelningen):
 
@@ -30,6 +31,7 @@ När du skriver en **start** i en gästs intrig (först när questen är färdig
 - Berätta den cirkulerande versionen som om den vore sann. Q-2: bara stugryktet i starten. Kapitlet sitter i stugan.
 - Peka mot nästa konkreta handling: en person, en plats, ett föremål. Inte "ta reda på sanningen om Malin".
 - Skriv inte ut fältet "Får inte" som varning till gästen.
+- Är mottagaren från **Korvetten Kurtisanen**: lägg till regel 8 ovan som en risk i berättelsen, inte som en instruktion till spelaren.
 
 När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet. **Q-2 får ingen tvärledtråd.**
 
@@ -100,7 +102,7 @@ Props: två fysiska halvblad, dubbelsidiga (Q1-01). Cryptex-lapp (Q1-03). Ett he
 
 **Engångs, avsiktligt:** halvorna och påsen tas. Tre skutor har ingång och tävlar. Första laget som fullföljer bär de unika föremålen. De andra två får dem genom stöld, byte, avskrift eller hot. Cryptex-lappen är ett fysiskt papper och får cirkulera som cryptexen. Det är spelet, inte ett fel.
 
-**Tillsättning (2026-08-23):** Skuta 1, 3, 5. Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter eller Blodig (S-01 kolliderar, se ovan). Skuta 2 och 4 har ingen ingång till Q-1. Gästtext skriven i deras `guests/`-filer, se `fordelning.yaml` id 63-65.
+**Tillsättning (2026-08-23):** Skuta 1, 3, 5. Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter eller Blodig (S-01 kolliderar, se ovan). Skuta 2 och 4 har ingen ingång till Q-1. Gästtext skriven i deras `guests/`-filer, se `fordelning.yaml` id 63-65. Planka är Kurtisanen (skuta 1, Malins egen skuta): hennes gästtext bär regel 8 ovan, hon måste jaga bladen utan att Malin ser.
 
 Bypass om halvorna är borta: fråga vem som satt vid bänkarna. Spader har en läsbar avskrift av det hopsatta första bladet (inte cryptex-lappen, inte det andra bladet), så kedjan kan gå vidare till nätet. Bypass om påsen är borta: jaga den som tog den. Om den är förlorad på riktigt: spelledning har reservlapp och avskrift av andra bladet. Om ingen springer Q-1 före brunchen: Spader ger starten en riktning, inte sanningen om kungen.
 

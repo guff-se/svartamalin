@@ -249,7 +249,7 @@ Om det floppar: de tre hatar varandra ändå. Huvudstoryn stannar inte.
 Akt:            II
 Tid:            10.30 till 13.30
 Plats:          Gubben i stubben, Gumman på udden, klätternätet
-Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter, Blodig (S-01 kolliderar).
+Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i `quests.md`, hon jagar bladen bakom Malins rygg.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
 Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser dagboken, vänder, följer baksidan till klätternätet. I påsen: blad två (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen.
