@@ -37,16 +37,16 @@ Status:         idé / beslutad / skriven
 
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
-| S-01 | Jakten på älskaren | Hjärter, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | beslutad |
-| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / grindvakt | beslutad |
-| S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver | II | jägare / bärare / vittne | beslutad |
-| S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg | II | jägare / bärare / vittne | beslutad |
-| S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | beslutad |
-| S-06 | Enbens räkning | Enben, Kuling, Malin, Hurring | II–IV | jägare / antagonist / vittne | beslutad |
-| S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | beslutad |
-| S-08 | Jakten på Plåthornet | Plåthorn, Kuling, Prygel, Rosing | II–IV | grindvakt / jägare / vittne | beslutad |
-| S-09 | Blodigs hot | Blodig, Frodig, Rödskägg, Lösskägg | II–IV | jägare / bärare | beslutad |
-| S-10 | Teckenspråket | Döver, Babord, Rötägg, Fuling. Hjärter är målet, enväg. | II | jägare / grindvakt / vittne | beslutad |
+| S-01 | Jakten på älskaren | Hjärter, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | skriven |
+| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / grindvakt | skriven |
+| S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver | II | jägare / bärare / vittne | skriven |
+| S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg | II | jägare / bärare / vittne | skriven |
+| S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
+| S-06 | Enbens räkning | Enben, Kuling, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
+| S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | skriven |
+| S-08 | Jakten på Plåthornet | Plåthorn, Kuling, Prygel, Rosing | II–IV | grindvakt / jägare / vittne | skriven |
+| S-09 | Blodigs hot | Blodig, Frodig, Rödskägg, Lösskägg | II–IV | jägare / bärare | skriven |
+| S-10 | Teckenspråket | Döver, Babord, Rötägg, Fuling. Hjärter är målet, enväg. | II | jägare / grindvakt / vittne | skriven |
 
 ---
 
@@ -116,7 +116,7 @@ Utfall om nej:  kistan bär det ändå. Brevet.
 
 Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl att vara med. Fiende 21 (Hjärter–Blodig) om den spelas. Fiende 2 (Enben–Malin) som Enbens skäl att blanda sig i.
 Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig enväg. Enben enväg, hon bryr sig inte om vem som är skyldig, bara att Malin ser dålig ut. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
-Status:         beslutad
+Status:         skriven
 
 Obs: Enben bär också S-06, samma måltavla (Malin) men en annan handling: här sprider hon en falsk ledtråd, i S-06 tar hon eller Kuling något ifrån henne. Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom.
 
@@ -137,7 +137,7 @@ Utfall om nej:  fiendskaperna finns kvar. Huvudstoryn går.
 
 Bygger på:      fiender 3, 18, 19. Klövers etablerade svartklubbsverksamhet i rollunderlaget.
 Speglas hos:    alla tre. Klöver enväg, hon bryr sig bara om vadet.
-Status:         beslutad
+Status:         skriven
 
 Obs: Klöver bär också S-04 och S-05, samma etablerade drag (vadslagning, skvaller mot betalning), inte samma mekanik.
 
@@ -203,7 +203,7 @@ Utfall om nej:  Barnsben tar sitt piller privat och ensam. Romanserna 4 och 5 fi
 
 Bygger på:      romanser 4, 5. Samma underliggande relation som mullvad 1 (Nykter–Barnsben), men en annan konsekvens av den: uppvaktningen syns här, förräderiet syns inte.
 Speglas hos:    Barnsben, Nykter, Rosing. Döver enväg, han lyssnar men agerar inte.
-Status:         beslutad
+Status:         skriven
 
 Obs: Nykter bär också S-05 och S-07, Barnsben bär också S-07, Döver bär också S-10. Ingen av dem delar mekanik mellan sidequesterna.
 
@@ -226,7 +226,7 @@ Utfall om nej:  mysteriet förblir olöst, Fulings hemlighet överlever, och Hur
 
 Bygger på:      fiende 5 (Fuling–Planka, hennes vana att plantera rykten). Romanser 12, 13 (Hurring–Klöver, Hurring–Prygel). Fiende 1 (Klöver–Prygel). Fiende 8 (Hurring–Blåskägg). Hurrings egen etablerade hemlighet: han vet inte vem som angav honom.
 Speglas hos:    Hurring, Fuling, Klöver, Prygel, Blåskägg.
-Status:         beslutad
+Status:         skriven
 
 Obs: Fuling bär redan en hemlig mullvadsrelation mot Hjärter (annan skuta, annan hemlighet). Håll de två isär i gästtexten: den här handlar om det gamla angiveriet, inte om helgens förräderi. Blåskägg bär också S-02, Klöver bär också S-02 och S-05: ingen delad mekanik.
 
@@ -249,7 +249,7 @@ Utfall om nej:  Dunka bluffar sig igenom, myten lever vidare, skatten förblir o
 
 Bygger på:      fiende 20 (Dunka–Nykter). Romans 19 (Kosing–Dunka), i den lågintensiva, icke-centrala form Kosing själv bett om. Kosings och Klövers gemensamma matplan, redan nämnd i båda rollunderlagen.
 Speglas hos:    Dunka, Kosing, Nykter, Klöver.
-Status:         beslutad
+Status:         skriven
 
 Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02 och S-04, Dunka bär också S-01. Ingen delad mekanik.
 
@@ -272,7 +272,7 @@ Utfall om nej:  inget landar, Malin charmar sig undan som vanligt, ingen kostnad
 
 Bygger på:      fiende 2 (Enben–Malin). Kulings etablerade personliga oförrätt mot Malin, i rollunderlaget, inte en formell fiendepost. Hurrings hemlighet från S-04: han vet inte vem som angav honom, och misstänker Malin.
 Speglas hos:    Enben, Kuling, Malin, Hurring.
-Status:         beslutad
+Status:         skriven
 
 Obs: Hurring bär också S-04, Enben bär också S-01. Ingen delad mekanik.
 
@@ -295,7 +295,7 @@ Utfall om nej:  Barnsben eller Nykter berättar sanningen, Planka får tvivel, e
 
 Bygger på:      romans 3 (Planka–Rötägg). Fiende 13 (Barnsben–Rötägg).
 Speglas hos:    Rötägg, Planka, Barnsben, Nykter.
-Status:         beslutad
+Status:         skriven
 
 Obs: Barnsben bär också S-03, Rötägg bär också S-10, Nykter bär också S-03 och S-05. Ingen delad mekanik med någon av dem.
 
@@ -318,7 +318,7 @@ Utfall om nej:  Plåthorn behåller hornet, grälet fortsätter, ingen konsekven
 
 Bygger på:      fiende 7 (Kuling–Plåthorn). Fiende 24 (Prygel–Plåthorn).
 Speglas hos:    Plåthorn, Kuling, Prygel. Rosing enväg, hon lyssnar men väljer själv om hon agerar.
-Status:         beslutad
+Status:         skriven
 
 Obs: Prygel bär redan mullvadskontakten mot Hurring (annan hemlighet, se mullvadstabellen). Kuling bär redan grindvaktsrollen för båtarna plus S-06. Rosing bär också S-03 och mullvadskontakten mot Frodig. Inget av det delar mekanik med det här.
 
@@ -341,7 +341,7 @@ Utfall om nej:  hemligheten överlever, men Blodig har nu ett vapen hon kan anv�
 
 Bygger på:      fiende 4 (Blodig–Frodig). Romans 8 (Rödskägg–Frodig), med hotet redan explicit noterat i `fiender.yaml`. Matchar Rödskäggs eget rollunderlag, som uttryckligen bjuder in att den förbjudna kärleken riskerar avslöjas. Fiende 3 (Lösskägg–Rödskägg) som Lösskäggs skäl att sprida vidare.
 Speglas hos:    Blodig, Frodig, Rödskägg, Lösskägg.
-Status:         beslutad
+Status:         skriven
 
 Obs: Frodig bär redan mullvadsrelationen mot Rosing (annan hemlighet, se mullvadstabellen). De två uppdragen delar ingen mekanik. Blodig bär också S-01, Rödskägg och Lösskägg bär också S-02.
 
@@ -364,7 +364,7 @@ Utfall om nej:  fiende 6 och 23 och romans 7 finns kvar olösta. Workshopen blir
 
 Bygger på:      romans 7 (Döver–Babord). Fiender 6 (Döver–Rötägg), 23 (Döver–Hjärter). Fulings etablerade vana att plantera och sitta på rykten (fiende 5) tillämpad här på sin egen skeppskamrat.
 Speglas hos:    Döver, Babord, Rötägg, Fuling. Hjärter enväg, ingen ny egen jakt åt honom.
-Status:         beslutad
+Status:         skriven
 
 Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlighet, se mullvadstabellen): hon är hans handlerkontakt och hans romans i samma andetag, vilket redan är sant i `forradare.yaml`. Håll teckenspråksbluffen och förräderiet isär i gästtexten. Rötägg bär också S-07, Fuling bär också S-04. Samma personer, olika relationer, ingen delad mekanik.
 
