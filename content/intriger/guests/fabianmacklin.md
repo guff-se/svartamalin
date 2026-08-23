@@ -5,7 +5,9 @@ mirrors:
     note: uppvaktning vid syhörnan (tvåvägs)
   - slug: ludvigvonbahr
     note: gammalt hamnskämt om svärdet (tvåvägs)
-related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard]
+  - slug: linneaappert
+    note: reservsvar om Barnsben inte hittas
+related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaappert]
 ---
 
 ## Den hon litar på i skymningen {slug:ulrikahammar}
@@ -19,3 +21,7 @@ related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard]
 Du gjorde en gång **Kapten Dunka**s svärdshistoria till ett stående hamnskämt, och han svarade med en av sina långa, envisa kramar som pressade andan och äran ur dig samtidigt. Sen dess håller du dig på behörigt avstånd från honom, men inte från hans svaga punkt.
 
 **Kapten Kosing** driver in en arvssyndsskatt mot uppblåsta anor, och Dunkas är den finaste hon känner till. Viska åt henne var hans svaga punkt sitter, utan att själv synas i det. Se honom svettas en gång till, från säkert avstånd den här gången.
+
+## Svaret du ger om Rötägg {slug:linneaappert}
+
+Hittar **Kapten Planka** inte **Kapten Barnsben** kan hon fråga dig istället om **Kapten Rötägg** verkligen ändrat sig sen han miste sitt skepp genom att vara grym mot sin besättning. Du vet vad Barnsben vet, och du tycker om att se andra desperata efter sanning. Färga ditt svar precis så mycket som roar dig mest.

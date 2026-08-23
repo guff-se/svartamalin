@@ -563,3 +563,51 @@ fordelning:
     bygger_pa: null
     pussel: null
     status: done
+
+  - id: 45
+    beat: S-07
+    akt: II
+    till: [edvinthungren]
+    roll: barare
+    vet: "att han vill bevisa för Kapten Planka att han verkligen ändrat sig sen han miste sitt skepp genom att vara röta mot sin besättning, att Kapten Barnsben inte tror på hans omvändelse på grund av parfymspratten han en gång ställde till mot hennes uppvaktning av Kapten Döver, och att han kan blidka henne innan Planka hinner fråga"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [linneaappert, ulrikahammar]
+    bygger_pa: "romans: 3, fiende: 13"
+    pussel: null
+    status: done
+
+  - id: 46
+    beat: S-07
+    akt: II
+    till: [linneaappert]
+    roll: jagare
+    vet: "att Kapten Rötägg gav henne manschettknappar för kärlekens skull och säger att han ändrat sig, att hon kan fråga Kapten Barnsben vad hon vet om honom, och att Kapten Nykter kan svara istället om hon inte hittar Barnsben"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [edvinthungren]
+    bygger_pa: "romans: 3"
+    pussel: null
+    status: done
+
+  - id: 47
+    beat: S-07
+    akt: II
+    till: [ulrikahammar]
+    roll: vittne
+    vet: "att Kapten Rötägg en gång bytte ut hennes doft mot något rutet och sabbade hennes uppvaktning av Kapten Döver, att hon inte tror på hans påstådda omvändelse, och att Kapten Planka kommer fråga henne vad hon vet"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [edvinthungren]
+    bygger_pa: "fiende: 13"
+    pussel: null
+    status: done
+
+  - id: 48
+    beat: S-07
+    akt: II
+    till: [fabianmacklin]
+    roll: vittne
+    vet: "att Kapten Planka kan fråga honom om Kapten Rötäggs omvändelse är sann, om hon inte hittar Kapten Barnsben, och att han tycker om att se andra desperata efter sanning"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done

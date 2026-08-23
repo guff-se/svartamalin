@@ -45,7 +45,7 @@ romanser:
     a: linneaappert        # Kapten Planka (Linnea Appert)
     b: edvinthungren       # Kapten Rötägg (Edvin Thungren)
     note: Rötäggs manschettknappar med enhörningar, fått för kärlekens skull (Planka). Han vill vara snäll nu; Plankas underlag fortfarande tomt.
-    status: pending
+    status: done
 
   - id: 4
     type: one_way

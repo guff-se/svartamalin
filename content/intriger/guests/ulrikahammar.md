@@ -6,7 +6,9 @@ mirrors:
   - slug: linneaekbom
     note: uppvaktning vid syhörnan (tvåvägs)
 # navidmodiri lyssnar i smyg vid syhörnan, enväg, speglas inte
-related: [fabianmacklin, linneaekbom, navidmodiri]
+  - slug: edvinthungren
+    note: gammal röta, parfymspratten mot din uppvaktning av Döver (enväg, du dömer, han vet om domen)
+related: [fabianmacklin, linneaekbom, navidmodiri, edvinthungren, linneaappert]
 ---
 
 ## Skymningens piller {slug:fabianmacklin}
@@ -18,3 +20,9 @@ När mörkret faller måste du svälja ett piller ur din lilla krumelurburk, ann
 ## Den andra uppvaktaren {slug:linneaekbom}
 
 **Kapten Rosing** uppvaktar dig lika ivrigt som **Kapten Nykter**, och vill precis samma sak: bli den du väljer att lita på i skymningen, den som får se din krumelurburk innan mörkret faller. Hon vet inte om honom. Han vet inte om henne. Låt dem båda tro att de har en chans, ända till du väljer, eller väljer att inte välja alls, innan festen är över.
+
+## Parfymen som förstörde allt {slug:edvinthungren}
+
+**Kapten Rötägg** bytte en gång ut din doft mot något rutet, precis när du gjorde din bästa uppvaktning av **Kapten Döver**, och sabbet gjorde susen: uppvaktningen dog på fläcken och han har aldrig riktigt förlåtit sig. Han påstår nu att han ändrat sig sen han miste sitt skepp genom att vara grym mot sin besättning, och att han är snäll numera. Du köper det inte.
+
+**Kapten Planka** älskar honom och kommer förr eller senare fråga dig vad du vet. Släpp taget om gammal röta som en gest, eller håll fast vid den och sabotera relationen igen, precis som han en gång saboterade din. Valet är helt ditt, innan festen är över.

@@ -123,7 +123,7 @@ fiender:
     b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
     # oförrätt: Rötäggets parfymspratt (blomster → rötägg) saboterade uppvaktning av Döver.
     # Gammal röta; Rötägg påstår att han ändrat sig. Barnsben köper det inte.
-    status: pending
+    status: done
 
   - id: 14
     type: one_way
