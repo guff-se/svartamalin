@@ -115,7 +115,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 22"
     pussel: null
-    status: pending
+    status: done
 
   - id: 7
     beat: B-13
@@ -127,7 +127,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 17"
     pussel: null
-    status: pending
+    status: done
 
   - id: 9
     beat: B-13
@@ -139,7 +139,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 20"
     pussel: null
-    status: pending
+    status: done
 
   - id: 10
     beat: B-14
