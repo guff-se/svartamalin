@@ -10,6 +10,8 @@ Tekniskt filformat: se [README.md](README.md). Varje `##`-rubrik ska ha `{slug:l
 
 Läs också, för den person du skriver till: [`../roller/{slug}.md`](../roller/) (gästens underlag) och [`../anteckningar/{slug}.md`](../anteckningar/) (arrangörens meta-anteckningar). Skriv inte tillbaka revy in i de filerna.
 
+**Vad vet karaktären?** Deltagaren läser bara sin egen `guests/`-fil, sin skutas `crews/`-fil och sajtens [`../copy/`](../copy/). Allt annat är osynligt. Skriv aldrig som om de läst en annan spelares intrig, en sidequest de inte är med i, eller intern design. Se avsnittet nedan.
+
 ---
 
 ## Röst & stil
@@ -19,6 +21,7 @@ Skriv som **klassisk svensk revy à la Povel Ramel**:
 - Finurligt, lekfullt, teatralt, aldrig torrt, aldrig modern “neutral” prosa.
 - Gärna **ordvitsar**, **allitteration**, **rim** och rytmiska meningar (utan att tvinga rim överallt).
 - **Överdrivet och bombastiskt.** Stora känslor, stora skulder, stora ambitioner. Inga små vardagskonflikter.
+
 - Tilltala mottagaren i **du-form**. Varje person ska känna att **de är hjälten** i historien, även när de är skurkar, förrädare eller stackars lurade. Deras intrig är deras scen.
 - **Alltid piratnamn.** Deltagare omnämns **bara** med sitt piratnamn (`**Kapten Blod**`, `**Svarta Malin**`, …), aldrig civilnamn, smeknamn eller login_slug i brödtexten.
 - Korta texter (några meningar till ett kort stycke per `##`-intrig). Hellre en skarp punchline än en lång utredning.
@@ -55,6 +58,7 @@ Den sista versen (från “När jag nyss fyllde år…”) är **slutstriden**: 
 | Rivalitet, skuld, hemlig kärlek, stöld, ed, arv, svek, i revykostym | Byråkratisk ton, HR-språk, ironisk distans som tar udden ur spelet |
 | Övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut (när sjöfärd ska bli en scen) | En sjöfärd som *måste* gå via dem. Folk får paddla utan dem. |
 | Låt laget kännas som ett teatersällskap med gemensam mission | Platta “gör poäng i tävlingen”-uppdrag utan karaktär |
+| Bara det *den här* personen kan veta. Lyft in begrepp i *den här* filen, eller stryk dem. | “Knulla skäggkungen som krönte sig” till någon som inte är i skäggtrion |
 
 ---
 
@@ -166,6 +170,49 @@ De flesta intriger mår bra av att **minst tre personer** är involverade (motta
 
 - Lagkamrater ser **inte** varandras individuella intriger, skriv individuellt så det tål att vara hemligt inom laget (svek, hemlig kärlek till lagkamrat, osv. är tillåtna och dramaturgiskt välkomna).
 - Laguppdrag ska kunna spelas **tillsammans** utan att kräva att alla läst samma individhemlighet.
+- Se **Vad karaktären vet** nedan. Det gäller också mellan lagkamrater, och mellan personer som har romans.
+
+---
+
+## Vad karaktären vet
+
+En deltagare kan **bara** läsa tre saker på skärmen:
+
+1. Sin egen fil: `guests/{login_slug}.md`
+2. Sin skutas fil: `crews/{crew_id}.md`
+3. Sajtens brödtext: [`../copy/`](../copy/)
+
+De ser inte andra gästers filer, inte andra skutors lagfiler, inte `huvudstory/`, inte yaml-källistor, inte `anteckningar/`, och inte någon annans `roller/`. Sidequests, beats och andras hemligheter **existerar inte** för dem förrän de står i *deras* läsbara text.
+
+Rekvisita i [`../rekvisita/`](../rekvisita/) läses på papper på ön, om de får lappen i handen. Det är inte förhandskunskap. Skriv inte intrigtext som om de redan läst en prop.
+
+**Testet, varje mening:** vad vet karaktären? Om svaret är "det står i en annan fil", "det står i S-nn som de inte är med i" eller "det står i intern design" får meningen inte stå.
+
+### Vad som räknas som känt
+
+Utan att det upprepas i just den här meningen får du räkna med:
+
+- Piratnamn och skutor. De är offentliga (sången, sajten, festen).
+- Mottagarens *egen* `roller/{slug}.md`. De skrev underlaget, de minns det. Tom roller-fil = inget extra.
+- Övriga `##`-stycken i *samma* gästfil, plus lagfilen, plus copy.
+- För huvudstory-bitar: fältet `vet` i *deras* post i [`../huvudstory/fordelning.yaml`](../huvudstory/fordelning.yaml). Fältet `vet_inte` får inte läcka in.
+
+### Vad som inte är känt
+
+- Andra spelares individuella intriger. Även lagkamrater. Även den de har romans eller fiendskap med.
+- Sidequests de inte är listade i. En speglad romans ger **inte** automatiskt den andras sidequest, objekt eller titel.
+- Begrepp, titlar, föremål och händelser som bara finns i intern design (`sidequests.md`, `akter.md`, yaml, någon annans gästfil).
+- Att något *blir* publikt på ön. Intrigtexten är förhandstext. Skriv inte som om de redan sett en scen som utspelar sig under helgen.
+
+### Lyft in, eller referera inte
+
+Hittar du en vass bild i en annan fil: antingen **lyfter du in** det mottagaren behöver veta, i *den här* texten, och **bara** om de *ska* veta det (de är med i spåret, eller `fordelning.yaml` säger `vet`), eller så **skriver du om** så bilden inte krävs.
+
+Exempel: **Kapten Enben** har romans med **Kapten Blåskägg**. Hon är inte i skäggtrion (S-02). "Knulla skäggkungen tills hamnen glömmer vem som krönte sig" förutsätter en kröning hon aldrig fått höra om. Skriv romansen som rivalitet om Blåskägg, utan trion. Låt Blåskäggs egen fil bära kröningen.
+
+Samma fälla: "kung över tre skägg", "liggaren" som namngivet objekt, "kistan", "Karl XII", ett piller, ett svärd, ett horn. Om *den här* personen inte bär spåret: använd inte spårets ordförråd. En kroppsdel i namnet (skägg, ben, horn) är inte samma sak som spårets titel.
+
+Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet att B är hens romans. A vet inte vad B har i sina andra `##`-stycken, om det inte också står i A:s fil.
 
 ---
 
@@ -186,3 +233,5 @@ De flesta intriger mår bra av att **minst tre personer** är involverade (motta
 13. Kräver texten en sjöfärd som ska bli en scen? Primär väg: övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut. Skriv inte att de *måste*. Folk får åka ut utan dem.
 14. Uppmanar texten till ransakning, att vända ön, eller att ta något man råkar hitta? → stryk. Off-regel: lös gåtor och uppdrag, låt saker som hittas av misstag få vara.
 15. Är språket prydligt eller framtid-tillsammans kring sex och romans? → skriv om. Lust, explicithet och "bunden och tagen" är rätt register. Male gaze är det inte.
+16. Förutsätter någon mening kunskap som inte står i mottagarens gästfil, lagfil, copy eller egen roller? → lyft in om de *ska* veta det, annars stryk.
+17. Refererar texten till en sidequest, ett objekt eller en titel från ett spår personen inte är med i? → stryk. Speglad romans räcker inte.

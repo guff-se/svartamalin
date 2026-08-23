@@ -4,7 +4,7 @@ Två slags gästtext på skärm, en på papper, och intern text. Blanda inte iho
 
 Gäster läser:
 
-- **Intriger** i `intriger/crews/` och `intriger/guests/` (inloggad, per person/lag)
+- **Intriger** i `intriger/crews/` och `intriger/guests/` (inloggad, per person/lag). En gäst ser **bara** sin egen gästfil och sin lagfil, plus copy. Inte andras.
 - **Sajtcopy** i `copy/` (all brödtext på webbsidan)
 - **Rekvisita** i `rekvisita/` (på papper, på ön, inte på sajten)
 

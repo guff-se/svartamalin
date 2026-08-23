@@ -95,6 +95,7 @@ curl -s "${VITE_SUPABASE_URL}/rest/v1/guests?select=login_slug,real_name,crew_id
 - Metaregel (får **inte** stå i intrigerna): alla dödas av Svarta Malin; hon återvänder som Ran. Spelarna vet det; intrigerna spoilar det inte men leder dramaturgiskt ditåt.
 - Helgens båge styr undertonen: fredag överdåd → lördag svek → lördag kväll förlisning/slagsmål → natt Rans salar.
 - Lag: `crews/{crew_id}.md`. Individ: `guests/{login_slug}.md`. Spegla tvåvägsrelationer; markera envägs i frontmatter.
+- Vad vet karaktären? De läser bara egen `guests/`-fil, egen `crews/`-fil och `content/copy/`. Referera inte till andras intriger eller sidequests de inte är med i, om det inte lyfts in i *deras* text.
 
 ## Huvudstory (lajvets övergripande berättelse)
 

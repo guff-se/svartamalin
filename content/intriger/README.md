@@ -58,6 +58,8 @@ Innan gryningen ska ni …
 - Lagfil → alla i laget (`crew_id`).
 - Gästfil → endast den gästen.
 - Lagkamrater ser **inte** varandras individuella intriger.
+- Sajtens [`../copy/`](../copy/) läser alla. Inget mer på skärmen (andras gästfiler, andra lagfiler, `huvudstory/`, yaml: osynligt).
+- Skrivregeln: karaktären vet bara det som står i de tre. Se [STYLE.md](STYLE.md) ("Vad karaktären vet"). Lyft in det de *ska* veta, eller referera inte.
 
 ## Tomma filer
 
