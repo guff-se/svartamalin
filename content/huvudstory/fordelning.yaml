@@ -515,3 +515,51 @@ fordelning:
     bygger_pa: null
     pussel: null
     status: done
+
+  - id: 41
+    beat: S-06
+    akt: II-IV
+    till: [amaliawahlstrom]
+    roll: jagare
+    vet: "att hon vill se Malin förlora något inför alla, att Kapten Kuling bär en egen, äldre oförrätt mot Malin och att de kan gå samman om de upptäcker varandras groll, och att Kapten Hurring säljer en osäker historia om Malin till den som betalar bäst"
+    vet_inte: "att kistan öppnas, att brevet läses högt"
+    speglas: [josefinlowing, malintadaa, jesperlindmarker]
+    bygger_pa: "fiende: 2"
+    pussel: null
+    status: done
+
+  - id: 42
+    beat: S-06
+    akt: II-IV
+    till: [josefinlowing]
+    roll: jagare
+    vet: "att hon aldrig släppt förlusten Svarta Malin en gång orsakade henne och att Fördärvet ska kräva tillbaka det som är dess innan festen är över, att Kapten Enben bär ett eget, äldre groll mot Malin och att de kan gå samman om de upptäcker varandra, och att Kapten Hurring säljer en osäker historia om Malin till den som betalar bäst"
+    vet_inte: "att kistan öppnas, att brevet läses högt"
+    speglas: [amaliawahlstrom, malintadaa]
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 43
+    beat: S-06
+    akt: II-IV
+    till: [malintadaa]
+    roll: barare
+    vet: "att Kapten Enben och Kapten Kuling båda bär gammalt groll mot henne och letar efter ett tillfälle att få henne att förlora något inför alla"
+    vet_inte: "att kistan öppnas, att brevet läses högt"
+    speglas: [amaliawahlstrom, josefinlowing]
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 44
+    beat: S-06
+    akt: II-IV
+    till: [jesperlindmarker]
+    roll: vittne
+    vet: "att han sitter på en osäker, aldrig bekräftad historia om Svarta Malin i sin svarta liggare, och att han kan sälja den till Kapten Enben eller Kapten Kuling mot mynt eller en framtida tjänst"
+    vet_inte: "att kistan öppnas, att brevet läses högt"
+    speglas: [amaliawahlstrom]
+    bygger_pa: null
+    pussel: null
+    status: done
