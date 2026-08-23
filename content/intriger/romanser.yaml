@@ -108,7 +108,7 @@ romanser:
     a: jesperlejfjord      # Kapten Hjärter (Jesper Lejfjord)
     b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
     note: Jagar hennes hemliga älskare på ön (huvudstory B-13). Privat, inte publikt par. Sanningen är Karl XII, först i kistan.
-    status: pending
+    status: done
 
   - id: 19
     type: mutual
@@ -122,7 +122,7 @@ romanser:
     a: minimacklin         # Kapten Blodig (Mini Macklin)
     b: malintadaa          # Svarta Malin (Malin Tadaa): oläkt kärlek efter svek i tonåren
     note: jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan. Får krocka med #17. Blodig blir förstummad 1 min om hon ser Malin i ögonen (solglasögon som garden).
-    status: pending
+    status: done
 
   - id: 21
     type: mutual
@@ -150,4 +150,4 @@ romanser:
     a: malintadaa          # Svarta Malin (Malin Tadaa)
     b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
     note: ytterligare synlig romans som gömmer den hemliga (#17/#20/#22), bränsle för jakten på älskaren (huvudstory B-13/S-01). Krockar med Dunkas romans med Kosing (#19): håll den här diskret så Kosing inte dras in i centrum-drama mot sin vilja.
-    status: pending
+    status: done

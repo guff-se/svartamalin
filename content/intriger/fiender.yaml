@@ -40,7 +40,7 @@ fiender:
     a: malintadaa         # Svarta Malin: Korvetten Kurtisanen
     b: amaliawahlstrom    # Kapten Enben: Barken Bortförklaringen
     # oförrätt: Enbens skål om “fasanen som inte kan flyga”; Malin kapade hennes skiff i dimman
-    status: pending
+    status: done
 
   - id: 3
     type: mutual
@@ -146,7 +146,7 @@ fiender:
     a: jesperlejfjord     # Kapten Hjärter: Fregatten Fromheten
     b: minimacklin        # Kapten Blodig: Fregatten Fördärvet
     # oförrätt: rivaler om Malin. Blodig gör anspråk efter gammalt svek; Hjärter bär hemlig låga (#17, #20)
-    status: pending
+    status: done
 
   # --- Skäggtrion (rött / blått / löst skägg): bygger vidare på #3 ---
 

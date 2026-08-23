@@ -115,7 +115,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 22"
     pussel: null
-    status: pending
+    status: done
 
   - id: 7
     beat: B-13
@@ -127,7 +127,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 17"
     pussel: null
-    status: pending
+    status: done
 
   - id: 9
     beat: B-13
@@ -139,7 +139,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 20"
     pussel: null
-    status: pending
+    status: done
 
   - id: 10
     beat: B-14
@@ -334,7 +334,7 @@ fordelning:
     speglas: [malintadaa]
     bygger_pa: "fiende: 2"
     pussel: null
-    status: pending
+    status: done
 
   - id: 26
     beat: S-01
@@ -346,7 +346,7 @@ fordelning:
     speglas: [malintadaa]
     bygger_pa: "romans: 24"
     pussel: null
-    status: pending
+    status: done
 
   - id: 27
     beat: S-02
