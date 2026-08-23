@@ -148,7 +148,7 @@ Får inte i stugan: Ran, civilnamn, Karl XII, förräderiet, skelettets identite
 
 **Vad gästerna ska jaga:** Hur hon tog Korvetten Kurtisanen.
 
-**Vad de ska ha lärt sig när questen är klar:** Att hon prejade sin egen korvett med list och prejudikat. Att Kurtisanens folk seglar i den historien.
+**Vad de ska ha lärt sig när questen är klar:** Att hon prejade sin egen korvett med list, och rättfärdigade det med prejudikat. Att Kurtisanens folk seglar i den historien.
 
 **Cirkulerande version (det som får stå i gästtext):** Hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Stor, olaglig, hennes. Det är sången.
 

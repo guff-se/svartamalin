@@ -113,7 +113,7 @@ Krav som den måste uppfylla:
 Idéer att utvärdera:
 
 - Kaptenslistan: lagen samlar namn eller sigill som tillsammans bildar sångens lista, och den som saknas i listan är den som ska avslöjas
-- Prejningen: lagen prejar varandra enligt Malins prejudikat, med kontrakt och fysiska bevis, alltså en handelsmarknad i pirathamn
+- Prejningen: lagen prejar varandra med hänvisning till sjörövarns rätt, med kontrakt och fysiska bevis, alltså en handelsmarknad i pirathamn
 - Fisketävling eller kapprodd till Södra Ovanan, där själva transporten är den begränsade resursen
 
 ### Beats

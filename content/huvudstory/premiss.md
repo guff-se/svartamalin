@@ -37,7 +37,7 @@ Den enda faktan i världen som allt annat hänger på. Den ska gästerna **inte*
 Krav på sanningen:
 
 - [x] Den ska förklara något gästerna redan sett eller hört, alltså vara en omtolkning snarare än ny information. De är bjudna på födelsedagsfest. Hon fyller dem med rom. Sången säger detsamma. Omtolkningen: det är inte gästfrihet, det är kontrakt.
-- [x] Den ska göra Malin mer intressant, inte bara mer skyldig. Hon plundrar med prejudikat. Nu har hon sålt kollegorna med samma juridiska självbild.
+- [x] Den ska göra Malin mer intressant, inte bara mer skyldig. Hon plundrar och rättfärdigar det med prejudikat. Nu har hon sålt kollegorna med samma juridiska självbild.
 - [x] Den ska kunna avslöjas i **delar**, så att olika lag kan ha olika delar. Sanningen sitter i kistan. En del är redan utlagd: Hjärter, Felix och Blodig vet att hon gömmer en älskare, och tror att det är någon i hamnen. Fem parallella quests bär bokstäver till lösenordet, och lär något om Malins dåtid. De får ljuga. De spoilar inte affären eller förräderiet. XII kommer från Malin vid 20.00. Queststories låsta i [`quests.md`](quests.md). Mekanik inte.
 - [x] Den får inte spoila metaregeln, alltså att alla dör och Malin blir Ran. Kungens män i gryningen är det piraterna tror väntar. De hinner slåss och dö först. Gryningen spelas aldrig.
 
