@@ -66,7 +66,7 @@ Poängen: du kan bara ge meningsfull övergripande struktur **tidigt**. I slutet
 
 Workshoppens huvudfunktion är att göra deltagarna till ett kollektiv som kan skapa scener för varandra. Den ska också kalibrera relationer, öva mekaniker och sätta spelstil. Konkret rekommendation: låt par och grupper med förskrivna relationer få några minuter att prata igenom vad relationen innebär och var deras gränser går, särskilt för romantiska relationer. Låt folk **öva på att vara elaka** om lajvet kräver elakhet, annars kommer bra intriger aldrig igång.
 
-**Vad det betyder för oss:** vi har två praktiska genomgångar, inte en förklädd workshop. Fredag 18.30 är den fulla genomgången: play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, och låt saker som hittas av misstag få vara. Lördag 10.30 är en kort repris, sedan den (ännu obestämda) ceremonin som sätter alibi. Därutöver:
+**Vad det betyder för oss:** vi har två praktiska genomgångar, inte en förklädd workshop. Fredag 18.30 är den fulla genomgången: play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, låt saker som hittas av misstag få vara, fredag är fest inte pussellösning, och sexpositiv fest. Lördag 10.30 är en kort repris, sedan den (ännu obestämda) ceremonin som sätter alibi. Därutöver:
 
 - Ett tillfälle där personer med romans eller fiendskap får prata ihop sig kort, i eller ur roll
 - Transitionens ceremoni 10.30 är fortfarande den viktigaste alibi-generatorn. Genomgången räcker inte som insteg.

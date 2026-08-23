@@ -30,9 +30,10 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md).
 - [x] Meningen är "I svärdfiskens mun". Vi behöver inte använda alla 24 tecken.
 - [x] Det blir 24 bilder nu, eftersom Katten Felix hoppat av.
 - [x] Gömstället är i svärdfiskens mun.
-- [ ] Sen behöver vi spåna på sätt att fördröja detta till lördagen, så att det inte spelas ut fredag.
+- [x] Sen behöver vi spåna på sätt att fördröja detta till lördagen, så att det inte spelas ut fredag.
+- [x] vi litar på att C räcker. de har dessutom en metainstruktion att inte fokusera på att lösa pussel på fredagen.
 
-Kryss = inlagt i questen, kistan, platserna och tryck. Fördröjningen mot fredag är öppen: arbetshypotes i questen, inte låst.
+Kryss = inlagt i questen. Fördröjning låst: Malin i rummet plus metainstruktion. Ingen dummy-laddning.
 
 ---
 
@@ -44,7 +45,7 @@ Källa: Gustaf, i chatt. Införd som kedja i [`quests.md`](quests.md).
 - [x] I de två lag som inte fått tilldelat denna quest skall det finnas ett antal personer som vet om var malins håller sin skuldlogg. De vet att de själva inte står i loggen så de är ganska obrydda. Loggen är helt enkelt på den stora väggen med "de värsta kaptener som finns", som är uppsatt fullt synligt i Storstugan.
 - [x] På baksidan av bilderna på väggen finns bokstäver. Om bilderna läggs i den ordning som är i låten så framträder en mening, som pekar vägen till ett gömt dagboksblad. I dagboksbladet så står det om hur svarta malin dominerar salmonellahavet genom att sätta män i skuld till henne, och att alla dessa förvaras i hennes skattkista. Där finns också en bokstav till kryptexen.
 
-Kryss = kedjan sitter i questen. Formen låst 2026-08-23 utom fördröjning mot fredag.
+Kryss = kedjan sitter i questen. Formen låst 2026-08-23. Fördröjning låst samma kväll.
 
 ---
 
@@ -197,7 +198,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md).
 - [x] Q-2: I denna vil jag använda södra ön och piratstugan där. Detta är Svarta Malins ursprungliga hem och man kan hitta flera saker från hennes historia där. **Ersatt 2026-08-23:** inte ursprungliga hemmet, utan huset hon byggde efter att hon flytt. Se avsnittet ovan.
 - [x] Q-5: En idé är att sista mysteriet i skuldboken är att man skall ta ner porträttväggen. Det kopplar bra in till listan på skulder och man skulle kunna skriva något finurligt som kopplar ihop detta till listan på "de värsta kaptener som finns" - en ledtråd som antyder att man skall använda sången för att sortera porträtt. Detta gör dock att bara en grupp kan lösa Q5, såvida inte porträtten passas vidare. **Utvecklad 2026-08-23:** se avsnitten Q-5 skuldboken och Q-5 form ovan. Väggen är loggen. Tre lappar i munnen, troligen one-off, ok.
 
-Kryss = formen är inlagd. Q-5 form låst 2026-08-23 utom fördröjning mot fredag. Q-1:s engångs är beslutat 2026-08-22.
+Kryss = formen är inlagd. Q-5 form låst 2026-08-23. Q-1:s engångs är beslutat 2026-08-22.
 
 ---
 

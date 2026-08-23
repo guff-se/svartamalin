@@ -24,7 +24,7 @@ Utåt kommuniceras bara **16.00** (samling och avfärd från Enhörna). Båten a
 | 16.00 | Avfärd från Enhörna Varf. Svarta Malin hälsar gästerna välkomna på båten. Svarta Malin är i roll, men inte gästerna. Hon sitter ner en stund med varje lag. Det bjuds på fördrink och snacks. |
 | **17.15** | Ankomst med storbåten, bryggan | Flytta packning och annat praktiskt. |
 | 17.30 | Rumsfördelning, installation, ombyte | Lagen gömmer sina skatter. Detta är enda skattgömningsfönstret. Kistan ska redan stå framme, väl synlig. |
-| 18.30 | Mingel, välkomstskål. **Praktisk genomgång:** play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, låt saker som hittas av misstag få vara, och sexpositiv fest (inget play space, sex överallt). Cut är okränkbar. Se [`spelledning.md`](spelledning.md). | Piratnamn används från nu. Mjuk drift in i roll, ingen startsignal. |
+| 18.30 | Mingel, välkomstskål. **Praktisk genomgång:** play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, låt saker som hittas av misstag få vara, fredag är fest inte pussellösning, och sexpositiv fest (inget play space, sex överallt). Cut är okränkbar. Se [`spelledning.md`](spelledning.md). | Piratnamn används från nu. Mjuk drift in i roll, ingen startsignal. |
 | 19.30 | Middag | Malins tal. Här planteras **frön** till huvudstoryn, muntligt, utan att något ska lösas. Kistan är redan synlig. |
 | 21.00 | Bastu, onsen, bad | Bekännelsescener. Individuella intriger och romanser tar plats. |
 | Sent | Fri fest | Ingen story-mekanik. |

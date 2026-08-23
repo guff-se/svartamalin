@@ -31,7 +31,8 @@ Samma innehåll, andra gången kortare. Ordning:
 2. Lookdown, largo, OK-check, cut.
 3. Aldrig ensam på vattnet. Gäller onsen. Kuling och Rödskägg har båtarna. Man får åka utan dem.
 4. Låt saker som hittas av misstag få vara. Ingen ransakning.
-5. Sexpositiv fest. Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Samma cut, largo, lookdown, OK-check som resten av spelet. Står inte på sajten.
+5. Fredag är fest. Ingen pussellösning, ingen jakt på gömmen. Spelet startar lördag 10.30.
+6. Sexpositiv fest. Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Samma cut, largo, lookdown, OK-check som resten av spelet. Står inte på sajten.
 
 När:
 

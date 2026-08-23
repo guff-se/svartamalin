@@ -55,7 +55,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 | Klätternätet, Q-1-påsen | Högt i nätet | kort | Lördag före 10.30. Inte fredag. Knuten, inte en flagga. I påsen: Q1-03 och Q1-04. | |
 | Kistan ställs fram | TBD, väl synlig | kort | Fredag före ankomst, eller under installationen 17.30 | |
 | Cryptexen laddas (nyckel in, lapp på) | TBD var den kommer in lördag | kort | Lördag före 10.30 | |
-| Q-5 väggen och svärdfisken | Storstugan | kort | Fredag: väggen som dressing, tomma baksidor, tom mun. Lördag före 10.30: bokstäver, Q5-03, Q5-04. Inte fredagsspel. | |
+| Q-5 väggen och svärdfisken | Storstugan | kort | Färdig från fredag, gärna före ankomst. Bokstäver på baksidorna. Q5-03 och Q5-04 i munnen. Ingen dummy-laddning. Fredagsspel stoppas av Malin i rummet plus genomgången. | |
 | Segelbåten laddas | Bojen | | Fredag, i dagsljus | |
 
 ---

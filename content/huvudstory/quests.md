@@ -4,7 +4,7 @@ Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, in
 
 Använd den här filen när du skriver gästtext i `content/intriger/crews/` eller `guests/`. **Cirkulerande version** är rykte-fakta att lägga in i gästtext, inte färdig STYLE.md-prosa. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
 
-Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-5 form låst 2026-08-23, fördröjning mot fredag öppen.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den hit och stryks där.
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-5 form låst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den hit och stryks där.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
 
@@ -288,7 +288,7 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 - Ton i tvärledtråd: var loggen sitter, att bäraren själv är fri. Inte att man ska vända bilderna. Inte sångordningen.
 - Props: 24 porträtt, 16 med bokstav. Ett dagboksblad. Tre cryptex-lappar. Tre skuldbrev i kistan, namn vid tillsättning. Tryck: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md), [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md).
 
-**Mekanik:** form låst 2026-08-23. Fördröjning mot fredag öppen, arbetshypotes nedan. Porträttvägg och svärdfisk tillsatta här.
+**Mekanik:** form låst 2026-08-23. Fördröjning mot fredag: Malin i rummet plus metainstruktion. Porträttvägg och svärdfisk tillsatta här.
 
 Platser: **Storstugan**. Porträttväggen "de värsta kaptener som finns", uppsatt efter skuta. **Svärdfiskens mun**: dagboksblad plus tre cryptex-lappar.
 
@@ -338,17 +338,15 @@ Bypass om väggen är raserad: Spader har meningen. Bypass om munnen är tömd: 
 
 **Engångs, avsiktligt nog:** tre lappar i munnen, ett blad. Första laget bär dem troligen. Väggen hängs tillbaka.
 
-### Fördröjning mot fredag (öppen)
+### Fördröjning mot fredag
 
-Arbetshypotes, samma mönster som Q-1 och Q-2: **ladda lördag före 10.30.** Fredag: väggen hänger som dressing, baksidor tomma, munnen tom. Lördag morgon: bokstäver på baksidorna, blad och tre lappar i munnen.
+Låst 2026-08-23. Inte dummy-laddning. Väggen och munnen får stå färdiga från fredag.
 
-Komplement, inte ersättning:
-
-- Briefing: fredag off-story, pussel från 10.30. Redan låst.
 - Socialt: Malin värdinna i Storstugan fredag. Att ta ner hennes kaptenvägg under födelsedagen är en scen, inte en lösning.
-- Inte i gästtext: skriv inte "vänta till lördag". Meta.
+- Meta: genomgången säger att fredag är fest, inte pussellösning. Redan invariant. Sägs i [`spelledning.md`](spelledning.md).
+- Inte i gästtext: skriv inte "vänta till lördag".
 
-Strykta som enda grind: sången som lås (den spelas redan fredag 18.30). Tvärledtråd undanhållen till lördag (den sitter i sajtintrigen).
+Strykta: tomma baksidor fredag. Sången som lås. Tvärledtråd undanhållen till lördag.
 
 Tillsättning: inte nu. En gäldenär per av tre Q-5-skutor. Deras tre skuldbrev i kistan, namn då. Tvärledtråd bara på de två skutorna utan ingång. De som vet var loggen sitter står inte själva i den.
 
