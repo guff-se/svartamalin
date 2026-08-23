@@ -113,9 +113,9 @@ Detta är bakgrundsspåret. Det är inte längre kanonens hjärta: det är kista
 
 | Fråga | Svar | Beslutat |
 |-------|------|----------|
-| Vems stuga är det? | Svarta Malins ursprungliga hem. Q-2. | 2026-08-20 |
-| Varför står den orörd? | TBD | |
-| Vad finns kvar där inne? | Flera saker från hennes historia. Listan inte låst. Cryptex-bokstaven någonstans bland dem. | delvis, 2026-08-20 |
+| Vems stuga är det? | Malin byggde den med egna händer efter att hon flyttade hemifrån. Inte barndomshemmet. Q-2. | 2026-08-23 |
+| Varför står den där? | Tillflykt. Dit flyr hon när världen blir för överväldigande. Hon använder den fortfarande. | 2026-08-23 |
+| Vad finns kvar där inne? | Fyra minnesgrupper (uppbrott, bygge, första rätten, namnet Svarta) plus tecken på att hon var där nyligen. Skrin med tre cryptex-tokens, "endast en per lag". Lista: [`quests.md`](quests.md). | 2026-08-23 |
 
 ### Segelbåten vid bojen
 
@@ -134,7 +134,7 @@ Detta är bakgrundsspåret. Det är inte längre kanonens hjärta: det är kista
 | Vad vill hon egentligen ha av festen? | Uppfylla kontraktet: samla piraterna och fylla dem med rom. | 2026-08-18 |
 | Vem är hennes hemliga älskare? | Karl XII. Före kistan ska det se ut som någon på ön. | 2026-08-20 |
 | Första kärleken? | Greve Otto von Pälspung. Inte kungen. Inte någon på ön. Hon älskade, blev utnyttjad för att hon var av lägre stånd, hämnades som kurtisan: stal hemligheter ur hans krets, förrådde honom, tog allt han ägde. Yrket är kanon. Receptet (säng → hemlighet → prejning) är kanon. Hon är fortfarande kurtisan och nu i säng med Karl XII: det sitter bakom kulisserna, avslöjas i kistan. Q-1. | 2026-08-22 |
-| Hur blev hon pirat? | Q-2. Får ljuga. Inkluderar hur hon blev Svarta. Inte Ran. | delvis, 2026-08-20 |
+| Hur blev hon pirat? | Q-2. Hon lämnade hemmet, byggde stugan på Södra Ovanan, tog sjörövarns rätt själv därifrån, tog namnet Svarta. Stugan är tillflykt, inte barndomshem. Minnena får ljuga om brott, offer och gammalt namn. Inte Ran. Inte Kurtisanen som första byte. | 2026-08-23 |
 | Hur fick hon Kurtisanen? | Sången: hon prejade sin egen korvett. Beslut 2026-08-18: köpt på kredit. **Q-3 berättar preja-versionen och ska ljuga.** Sanningen sitter i kistan: kungen sätter korvetten på hennes namn. | 2026-08-21 |
 | Hur fick hon ön? | Q-4. Ovanan är hennes hamn. Questen får ljuga om bytet. Får inte säga att kajen är en fälla. | delvis, 2026-08-20 |
 | Samlar hon skulder? | Q-5 visar metoden (IOU:er, eder, namn). Kistans hög visas inte i questen. Vems skuldbreven är förblir öppet. | delvis, 2026-08-20 |

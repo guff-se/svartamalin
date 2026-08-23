@@ -50,11 +50,11 @@ Testat:         nej / ja, datum
 
 ## Pusselgraf
 
-Konvergenspunkten och **formen på banorna** är beslutade. **Storyn i de fem questsen är beslutad 2026-08-20. Q-1 relåst 2026-08-22.** Q-1 och Q-2 har mekanikform i [`quests.md`](quests.md). Q-1 är engångsquest. Q-5:s porträttvägg är öppen. Start, skutor, bokstäver är inte låsta. Ursprung: Gustaf, [`egna.md`](egna.md). Källa: [`beslut.md`](beslut.md).
+Konvergenspunkten och **formen på banorna** är beslutade. **Storyn i de fem questsen är beslutad 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23.** Q-1 har mekanikform (engångs) i [`quests.md`](quests.md). Q-2 har form utan pussel och utan pit stops. Q-5:s porträttvägg är öppen. Start, skutor, bokstäver är inte låsta. Ursprung: Gustaf, [`egna.md`](egna.md). Källa: [`beslut.md`](beslut.md).
 
 ```
 Q-1 --pit stop(s)--> skatt (1 eller 2 bokstäver)
-Q-2 --pit stop(s)--> skatt (1 eller 2 bokstäver)
+Q-2 (ingen pit stop) --> skatt i stugans skrin
 Q-3 --pit stop(s)--> skatt (1 eller 2 bokstäver)   }  varje skuta har ingång till 3 av 5
 Q-4 --pit stop(s)--> skatt (1 eller 2 bokstäver)
 Q-5 --pit stop(s)--> skatt (1 eller 2 bokstäver)
@@ -75,16 +75,16 @@ Fem separata kedjor. Inte en lång kedja som alla står i kö till.
 | Quests | 5 |
 | Ingångar per skuta | 3, i spelares intrigfiler |
 | Skutor per quest | 3 |
-| Pit stops per quest | 1 eller 2 |
+| Pit stops per quest | 1 eller 2. **Q-2: 0.** |
 | Skatt i slutet | bokstaven eller bokstäverna |
 | För att knäcka P-01 | den egna skutans 3 quests **och** Malins XII |
 
 Varje quest:
 
-1. **Start** i en namngiven spelares intrig. Inte i lagfilen. Inte som allmänt rykte.
-2. **Ett eller två pit stops.** Ett pit stop kan kräva information som sitter hos en annan spelare.
-3. **Skatt.** Där ligger bokstaven. Får finnas i flera exemplar om samma bokstav kommer från mer än en quest.
-4. **Storyline och uppgift.** En quest är inte bara ett pussel. Den har en historia *och* en eller flera uppgifter, utmaningar eller pussel.
+1. **Start** i en namngiven spelares intrig. Inte i lagfilen. Inte som allmänt rykte. Q-2: tre identiska starter, en person per av de tre skutorna.
+2. **Ett eller två pit stops**, utom **Q-2: noll.** Ett pit stop kan kräva information som sitter hos en annan spelare.
+3. **Skatt.** Där ligger bokstaven. Får finnas i flera exemplar om samma bokstav kommer från mer än en quest. Q-2: tre tokens i ett skrin, en per lag.
+4. **Storyline och uppgift.** En quest är inte bara ett pussel. Den har en historia *och* en eller flera uppgifter, utmaningar eller pussel. Q-2:s uppgift är överfart, minnen, en token. Inget pussel.
 5. **Malins historia, inte slutet.** Storyn lär något om Svarta Malins bakgrund. Den får ljuga (unreliable narrator). Den får **inte** röja affären med Karl XII eller förräderiet. Det sitter i kistan.
 
 Story låst 2026-08-20. Full text, får-inte-listor och skrivstöd: [`quests.md`](quests.md).
@@ -97,7 +97,7 @@ Story låst 2026-08-20. Full text, får-inte-listor och skrivstöd: [`quests.md`
 | Q-4 | Ön | Hur hon fick Ovanan. Hamnen är ett löfte. | Får ljuga om bytet. Inte fällan. |
 | Q-5 | Skuldboken | Hon samlar andras skulder | Metoden, inte kistans hög. |
 
-Tvärledtrådar: deltagare får i sin intrig en ledtråd som behövs vid ett pit stop i de **två** quests skutan inte har ingång till. Ledtråden är meningslös om du inte redan känner till questet. Den är till för de tre andra lagen som springer den kedjan.
+Tvärledtrådar: deltagare får i sin intrig en ledtråd som behövs vid ett pit stop i de **två** quests skutan inte har ingång till. Ledtråden är meningslös om du inte redan känner till questet. Den är till för de tre andra lagen som springer den kedjan. **Q-2 har ingen tvärledtråd.** De tre startintrigerna är den enda skrivna pekaren mot stugan.
 
 Syfte, låst: tre ändor att nysta i, så skutan måste prioritera. Fem parallella kedjor, ingen flaskhals mot slutet.
 
@@ -111,9 +111,9 @@ Kontroller att köra på grafen varje gång den ändras:
 - [ ] Acyklisk?
 - [ ] Varje skuta har exakt tre ingångar, varje quest exakt tre skutor?
 - [ ] Start sitter i en spelares intrig, inte bara i lagfilen?
-- [ ] Tvärledtrådar till de två quests skutan saknar: meningslösa utan questet?
+- [ ] Tvärledtrådar till de två quests skutan saknar: meningslösa utan questet? Q-2: ingen tvärledtråd, avsiktligt.
 - [ ] Tre quests plus XII ger sex bokstäver, för varje skuta?
-- [ ] Varje quest har både storyline och minst en uppgift? Q-1 ja. Övriga story låst, uppgift inte.
+- [ ] Varje quest har både storyline och minst en uppgift? Q-1 ja. Q-2 ja (överfart, minnen, token, inget pussel). Övriga story låst, uppgift inte.
 - [x] Queststoryn lär något om Malins historia, och spoilar inte Karl XII eller förräderiet? Ja. Se [`quests.md`](quests.md).
 - [ ] Ingen nod med fler än två beroenden nedströms som saknar bypass?
 - [ ] Är typerna varierade, alltså inte fem kodlås i rad?
@@ -225,7 +225,7 @@ Engångs: påsen tas. Tre skutor tävlar. Förlorarna får lappen socialt.
 
 ### Q-1 till Q-5
 
-Fem parallella kedjor. **Story låst. Q-1 mekanik låst som engångs.** Q-2 till Q-5: ofullständig mekanikrad betyder att questen inte får byggas. Storybriefs: [`quests.md`](quests.md).
+Fem parallella kedjor. **Story låst. Q-1 mekanik låst som engångs. Q-2 mekanik låst utan pussel.** Q-3 till Q-5: ofullständig mekanikrad betyder att questen inte får byggas. Storybriefs: [`quests.md`](quests.md).
 
 Mall för mekanik, fylls när pit stops låses:
 
@@ -249,7 +249,7 @@ Testat:         nej
 | id | Namn | Story | Bokstav | Ingångar | Start | Status |
 |----|------|-------|---------|----------|-------|--------|
 | Q-1 | Första kärleken | se quests.md | | tre skutor TBD | | story + form + engångs låst. P-02, P-03. Bokstav och start öppna |
-| Q-2 | Hur hon blev pirat | se quests.md | | tre skutor TBD | | story + form låst. Stugans innehåll öppet |
+| Q-2 | Hur hon blev pirat | se quests.md | | tre skutor TBD | | story + form låst 2026-08-23. Inga pit stops. Ingen pusselnod. Stugans minnen och skrin låsta. Bokstav och start öppna |
 | Q-3 | Korvetten | se quests.md. Lögn: prejning. Sanning i kistan. | | tre skutor TBD | | story låst, mekanik öppen |
 | Q-4 | Ön | se quests.md | | tre skutor TBD | | story låst, mekanik öppen |
 | Q-5 | Skuldboken | se quests.md | | tre skutor TBD | | story låst. Porträttväggen är idé, inte låst |
@@ -267,6 +267,21 @@ Tvärledtråd:    TBD när skutorna tillsätts. Meningslös utan questet. Kandid
 Skatt:          P-03, påsen i klätternätet, andra bladet och cryptex-lappen.
 Bypass:         se P-02 och P-03.
 Props:          Q1-01, Q1-03, Q1-04. Avskrift och reservlapp hos spelledning.
+Testat:         nej
+
+#### Q-2: Hur hon blev pirat
+
+Story:          se quests.md. Inte här.
+Uppgifter:      åk till piratstugan, läs minnena, ta en token ur skrinet. Inga pit stops. Inget pussel. Ingen nod.
+Bokstav:        TBD
+Ingångar:       tre skutor TBD
+Start:          tre slugs TBD, en person per av de tre skutorna. Samma rykte om huset. Inte Malin. Inte bara Kuling eller Rödskägg.
+Pit stop 1:     ingen
+Pit stop 2:     ingen
+Tvärledtråd:    ingen. Starten är enda skrivna pekaren mot stugan.
+Skatt:          Q2-01, skrinet i piratstugan. Tre tokens. Skylt: Endast en per lag.
+Bypass:         om ingen åker ut: Spader ger starten riktning mot södra ön. Reservtokens hos spelledning bara om tokens är borta från ön. Den som råkar gå in utan Q-2 lämnar skrinet.
+Props:          Q2-01 till Q2-06. Se [`quests.md`](quests.md) och [`produktion.md`](produktion.md).
 Testat:         nej
 
 ---
@@ -303,15 +318,16 @@ Ett offentligt gömställe i genomfartsrummet.
 
 ### Piratstugan på Södra Ovanan
 
-Öns enda riktiga escape-rum. Slutet, mörkt, med eldstad och kamin.
+Slutet rum med eld. **Inte ett escape-rum i Q-2.** Möblerad som Malins tillflykt.
 
-- **Naturlig svårighet:** man måste ta sig dit över vatten. Ekan tar 5 personer och 2 minuter, minst två ombord. Kajaker och SUP tar 10 minuter, minst två farkoster ute. Restiden är inte tröskeln. Aldrig ensam. Skrivna överfarter går gärna via **Kapten Kuling** eller **Kapten Rödskägg**, för spel. Man får paddla utan dem.
-- **Bra användning:** Q-2. Rummet är Svarta Malins ursprungliga hem. Saker från hennes historia. Ljus- och mörkerpussel, saker som blir läsbara i eldsken eller värme.
-- **Hård begränsning:** stängs 13.30. Allt innehåll här måste kunna klaras av före brunchen. Ingen ensam överfart. Skelettet i skogen är inte Q-2:s skatt.
+- **Naturlig svårighet:** man måste ta sig dit över vatten. Ekan tar 5 personer och 2 minuter, minst två ombord. Kajaker och SUP tar 10 minuter, minst två farkoster ute. Restiden är inte tröskeln. Aldrig ensam. Skrivna överfarter går gärna via **Kapten Kuling** eller **Kapten Rödskägg**, för spel. Man får paddla utan dem. Den enda skrivna pekaren dit är Q-2:s tre startintriger.
+- **Bra användning:** Q-2. Rummet är huset hon byggde efter att hon flyttade hemifrån. Små minnen som berättar hur hon blev pirat. Skrin med tokens, en per lag. Se [`quests.md`](quests.md).
+- **Dålig användning:** ljus- och mörkerpussel, värmelås, numrerade stationer, något som måste lösas för att skrinet ska synas.
+- **Hård begränsning:** stängs 13.30. Allt innehåll här måste kunna klaras av före brunchen. Ingen ensam överfart. Skelettet i skogen är inte Q-2:s skatt. Ingen annan quest, sajtcopy eller tvärledtråd får peka mot stugan.
 
 ### Verkstadens förrådsrum
 
-Byggbara rum. Andra escape-rumskandidaten, och den enda som är tillgänglig hela dagen.
+Byggbara rum. Escape-rumskandidaten, och den enda som är tillgänglig hela dagen. Piratstugan är inte escape-rum.
 
 - **Bra användning:** arkiv, kartrum, skattkammare, cell. Här kan vi montera lås och installationer i förväg
 - **Att bestämma:** hur många rum får vi använda, och hur mycket får vi bygga om

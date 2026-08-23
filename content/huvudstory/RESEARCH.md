@@ -167,7 +167,7 @@ Vanligaste klagomålen från entusiaster: för mycket sökande, för många röd
 
 1. **Ingen matematik.** Vår publik är berusad, i kostym och delvis påverkad. Räkning och kodlås med siffror är dåliga val.
 2. **Sökande är billigt men blir tråkigt.** Svärdfiskens gap är ett fantastiskt gömställe, men "leta överallt" som mekanik håller i tio minuter, inte tre timmar.
-3. **Ljus, kikare, mörker och kropp** är våra starka kort. Piratstugan har kamin och eldstad, alltså mörker och eldsken. Kikaren är en optisk mekanik. Onsen och klätternätet är kroppsliga. Bygg på dessa istället för på papper och siffror.
+3. **Ljus, kikare, mörker och kropp** är våra starka kort. Kikaren är en optisk mekanik. Onsen och klätternätet är kroppsliga. Piratstugan har kamin och eld, men **Q-2 använder den inte som escape-rum**: inga ljus- eller värmepussel där. Bygg på kropp och optik på andra platser, inte på papper och siffror.
 
 ## 2.3 Hintsystem
 
@@ -200,7 +200,7 @@ Beskriv varje lås med typ, så att variationen går att kontrollera i grafen:
 - Playtesta och observera var folk tvekar. Justera synlighet, inte svårighet
 - Var beredd att stryka noder som inte fungerar
 
-**Vad det betyder för oss:** vi kan inte playtesta med 25 personer i förväg, så vi kompenserar med generositet: allt lite enklare än det känns nödvändigt, och en spelledare som får ge bort svar utan att skämmas. Det vi **kan** testa i förväg är kikaren mot skylten och tändstickor eller lampor i piratstugan. Det bör göras på ett förbesök.
+**Vad det betyder för oss:** vi kan inte playtesta med 25 personer i förväg, så vi kompenserar med generositet: allt lite enklare än det känns nödvändigt, och en spelledare som får ge bort svar utan att skämmas. Det vi **kan** testa i förväg är kikaren mot skylten. Piratstugan i Q-2 är möblering, inte ett pussel att playtesta med tändstickor.
 
 ---
 

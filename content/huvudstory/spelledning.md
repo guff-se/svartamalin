@@ -113,6 +113,19 @@ Runtime:
 5. **Ingen springer Q-1 före brunchen.** Ge starten en riktning mot Gubben och Gumman. Inte sanningen om kungen. Inte en extra lapp i knät.
 6. **Malin tillfrågas om Otto.** Hon får namnge Greve Otto von Pälspung. Hon får bekräfta dåtiden: kärleken, förräderiet, kurtisan, hämnd, receptet. Hon kopplar inte till någon i hamnen. Hon säger inte att hon gör om det nu.
 
+### Q-2: stugan, utan pussel
+
+Tre skutor. En startintrig per lag, samma rykte. Inga pit stops. Inget pussel. Minnena stannar. Tre tokens i skrinet, en per lag.
+
+Runtime:
+
+1. **Ingen åker ut.** Ge starten en riktning mot södra ön. Inte mot kungen. Inte en extra token i knät.
+2. **Hamstring.** Ett lag tar alla tre tokens trots skylten. Play to lose. De andra tar, byter, avskriver. Ge inte tre nya tokens i stugan.
+3. **Reserv.** Bara om tokens är borta från ön. Hos Spader, dolt.
+4. **Någon går in utan Q-2.** Off-regeln: lämna skrinet. Minnena får de se. Ta inte tokens.
+5. **Malin tillfrågas om stugan.** Hon får bekräfta att hon byggde den och att hon går dit för att vara ifred. Hon ger inte tokens. Hon namnger inte kungen. Hon förklarar inte skelettet. Hon får tala om att hon tog rätten och namnet Svarta, i samma register som minnena.
+6. **Kuling och Rödskägg.** Överfarten är logistik och extra scener. De vet inte varför någon vill till stugan, om de inte hör det i spel.
+
 ### Låt saker som hittas av misstag få vara
 
 Off-regel. Sägs i genomgången. Gäller lagskatter, pusselprops och ledtrådar.

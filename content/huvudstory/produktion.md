@@ -24,6 +24,12 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | P-02 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/malin-dagboksblad-fore.md`](../rekvisita/malin-dagboksblad-fore.md), [`../rekvisita/malin-dagboksblad-fore-baksida.md`](../rekvisita/malin-dagboksblad-fore-baksida.md). | | | utkast |
 | Q1-03 | Cryptex-lapp i påsen | P-03 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
 | Q1-04 | Dagboksblad efter hämnden | P-03 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/malin-dagboksblad-efter.md`](../rekvisita/malin-dagboksblad-efter.md). Avskrift hos spelledning. | | | utkast |
+| Q2-01 | Skrin med tre cryptex-tokens och skylt "Endast en per lag" | B-17 | Synligt när man är inne i piratstugan, inte gömt under golv. Tre tokens. Skylten läsbar. Reservtokens hos spelledning, inte i stugan. | | | saknas |
+| Q2-02 | Uppbrottet: sjal eller klänning, kam | B-17 | Ser ut att ha följt med från land och lagts undan. Inga namn, ingen text. | | | saknas |
+| Q2-03 | Bygget: hyvel, hammare, spån, märke i bjälke | B-17 | Handgjort, lite snett. Visar att hon byggde själv. | | | saknas |
+| Q2-04 | Rätten: flaggskärva eller skeppsklocka, plus kort lapp | B-17 | Första bytet, namnlöst. Inte Kurtisanen. Lapp: hon tog det, ingen gav det. Trycktext TBD i rekvisita. | | | saknas |
+| Q2-05 | Namnet: ljus duk med svartbränd kant, ordet Svarta | B-17 | Inget äldre namn utskrivet. Bara Svarta. | | | saknas |
+| Q2-06 | Tillflykten nu: filt, kopp, ljusstump | B-17 | Ser nyligen använt ut. Inget papperspussel. | | | saknas |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
@@ -34,7 +40,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 | Vad | Plats | Arbetstid | När görs det | Ansvarig |
 |-----|-------|-----------|--------------|----------|
 | Skylt på annan ö | Se [`platser.md`](platser.md) | | Parkerad idé. Bara om vi beslutar den, och då före helgen med tillstånd | |
-| Piratstugan möbleras | Södra Ovanan | | Fredag eller tidigt lördag | |
+| Piratstugan möbleras som tillflykt | Södra Ovanan | | Fredag eller tidigt lördag. Q2-02 till Q2-06 utlagda, Q2-01 skrinet synligt. Inte escape-rum. Inte fredagsspel. | |
 | Verkstadsförråd byggs om | Verkstaden | | Före helgen om möjligt | |
 | Gubben i stubben / Gumman på udden | Norra och södra ändan av Ovanan | kort | Lördag före 10.30. Ladda Q1-01 i flaska eller under docka, vaxduk. Dockor och flaskor stannar. | |
 | Klätternätet, Q-1-påsen | Högt i nätet | kort | Lördag före 10.30. Inte fredag. Knuten, inte en flagga. I påsen: Q1-03 och Q1-04. | |
@@ -50,7 +56,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 Saker som **inte** går att designa på distans. Om vi gör ett förbesök (öppen fråga i [`beslut.md`](beslut.md)) är detta testlistan.
 
 - [ ] **Kikaren mot skylten.** Bara om vi beslutar skylten. Vilken riktning fungerar? Hur stor text krävs? Vilken tid på dagen är ljuset rätt?
-- [ ] **Läsbarhet i piratstugan.** Fungerar eldsken eller kamin som ljuskälla för ett pussel? Behövs lyktor?
+- [ ] **Piratstugan som tillflykt.** Ser den bebodd ut, inte som museum eller escape-rum? Syns skrinet när man är inne? Håller minnena i dagsljus utan extra ljusgimmick?
 - [x] **Transporttid till Södra Ovanan.** Eka med motor: 2 minuter, 5 personer. Kajaker och SUP: 10 minuter. Bekräftas på plats om vi gör förbesök.
 - [ ] **Mobiltäckning och strömuttag** där vi behöver musik eller ljud.
 - [ ] **Verkstadsförråden.** Hur många, hur stora, får vi bygga om, går de att låsa?

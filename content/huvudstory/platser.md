@@ -15,7 +15,7 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | Plats | Vad den är | Kapacitet | Funktion i huvudstoryn | Akt |
 |-------|-----------|-----------|------------------------|-----|
 | **Södra Ovanan** | Egen ö. Nås med motordriven eka (5 personer, 2 min), kajak, SUP eller simning. Aldrig ensam. | Ekan tar fem åt gången, minst två ombord. Kajaker och SUP minst två farkoster. | Q-2. Vägen till piratstugan. Skelettet är ett annat spår. | II |
-| **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Svarta Malins ursprungliga hem. Föremål från hennes historia. | II |
+| **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Huset hon byggde som tillflykt. Minnen plus skrin med tokens. Inte escape-rum. | II |
 | **Skelettet i skogen** (Södra Ovanan) | Skelett, befintlig prop | Liten grupp, hög effekt | TBD. Inte Q-2:s skatt. Inte Q-4:s skatt. | |
 | **Vardagsrummet med svärdfisken** | Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | TBD | |
 | **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD | III, efterspel |
@@ -41,12 +41,12 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 | Plats | Egenskap | Passar därför för |
 |-------|----------|-------------------|
 | Södra Ovanan | **Tröskel, men inte restid.** Ekan tar 2 minuter. Skrivna överfarter går gärna via Kuling eller Rödskägg, för spel. Man får paddla utan dem. | Pilgrimsfärd, exil, förbjuden kunskap. Handeln om överfarten är extra scener, inte ett lås |
-| Piratstugan | **Slutet rum med eld.** Mörkt, avskilt, går att låsa och göra i ordning | Enda platsen på ön som fungerar som riktigt escape-rum |
+| Piratstugan | **Slutet rum med eld.** Mörkt, avskilt, går att låsa och göra i ordning | Malins tillflykt. Q-2 möblerar den som bebodd, inte som escape-rum. Verkstaden är kvar som escape-rumskandidat |
 | Skelettet | **Kropp.** Ett lik som redan finns i fiktionen | Ursprungssynd, ett brott som inte är sonat, en identitet att avslöja |
 | Svärdfisken | **Offentligt gömställe.** Alla ser den, ingen tittar i gapet | Dead drop, brevväxling, det som ligger framför allas ögon |
 | Onsen | **Nakenhet och intima möten.** Litet badkar, perfekta för mindre möten, ritualer eller interaktioner. | Bekännelser, allianser, sanningar som sägs muntligt. |
 | Bastun | **Nakenhet och samtal.** Ingen kan bära papper eller prop | Semi-offentliga möten, plats där man kan råka höra något nån anna säger. |
-| Verkstaden | **Byggbart.** Vi kan möblera om helt | Arkiv, skattkammare, cell, kartrum. Andra escape-rumskandidaten |
+| Verkstaden | **Byggbart.** Vi kan möblera om helt | Arkiv, skattkammare, cell, kartrum. Escape-rumskandidaten. Piratstugan är inte det. |
 | Segelbåten (Tvåkronan) | **Isolering.** Två personer, ingen kan höra | Hemligt möte, gömma det farligaste objektet, förräderi. Parkerad: ett 2-kronorsmynt som ledtråd |
 | Kikaren | **Envägsblick.** En person ser något ingen annan ser samtidigt | Vittnesmål som måste bäras vidare muntligt, alltså rykte och misstro |
 | Skylten på annan ö | **Ohämtbar text.** Går inte att ta med sig. Parkerad idé. | Ledtråd som måste memoreras eller ritas av, om vi bygger den |

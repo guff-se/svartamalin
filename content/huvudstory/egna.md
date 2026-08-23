@@ -20,6 +20,19 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-23, Q-2 utan mekanik, stugan som tillflykt
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.md), [`pussel.md`](pussel.md).
+
+- [x] Q-2 skall inte ha någon direkt spelmekanik eller pit stops.
+- [x] För de 3 lagen som har denna quest skall en person i varje lag få en intrig om att när malin flytt hemifrån så byggde hon ett hus med egna händer på en öde ö och att det ryktas att detta hus fortfarande finns kvar i närheten, en plats dit malin flyr för att vara för sig själv när världen blir för överväldigande.
+- [x] Denna blir den enda ledtråd som pekar till stugan på södra ön.
+- [x] Sedan är stugan i sig en plats fylld av små minnen som berättar historia. Där finns också ett skrin med kryptex-tokens att hitta, där det står "endast en per lag", så att flera lag skall kunna hitta den. Det är hela questet.
+
+Kryss = inlagt i designen. Tillsättning och intrigtext är inte gjord. Minnena i stugan är agentdesign utifrån Q-2:s kapitel, se [`quests.md`](quests.md). Ersätter "ursprungliga hem" från 2026-08-20.
+
+---
+
 ## 2026-08-22, rekvisita är papperstext
 
 Källa: Gustaf, i chatt. Införd i [`../rekvisita/README.md`](../rekvisita/README.md).
@@ -105,7 +118,7 @@ Kryss = storybriefs finns. Mekanik (start, pit stops, bokstäver) är inte byggd
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md).
 
 - [x] Q-1: Här använder vi gubben och gumman. På varje plats finns var sin halva av ett brev. Detta är ett dagboksblad som beskriver malins år som kurtisan. I texten så finns också ledtråden till vart hon gömt ett minne från sin första älskare. Detta minnet innehåller cryptex-ledtråden. Detta skulle dock göra Q1 till ett engångs-quest, eftersom ledtrådarna försvinner.
-- [x] Q-2: I denna vil jag använda södra ön och piratstugan där. Detta är Svarta Malins ursprungliga hem och man kan hitta flera saker från hennes historia där.
+- [x] Q-2: I denna vil jag använda södra ön och piratstugan där. Detta är Svarta Malins ursprungliga hem och man kan hitta flera saker från hennes historia där. **Ersatt 2026-08-23:** inte ursprungliga hemmet, utan huset hon byggde efter att hon flytt. Se avsnittet ovan.
 - [ ] Q-5: En idé är att sista mysteriet i skuldboken är att man skall ta ner porträttväggen. Det kopplar bra in till listan på skulder och man skulle kunna skriva något finurligt som kopplar ihop detta till listan på "de värsta kaptener som finns" - en ledtråd som antyder att man skall använda sången för att sortera porträtt. Detta gör dock att bara en grupp kan lösa Q5, såvida inte porträtten passas vidare.
 
 Kryss = formen är inlagd. Q-5 är idé, inte låst. Q-1:s engångs är beslutat 2026-08-22, se avsnittet ovan.

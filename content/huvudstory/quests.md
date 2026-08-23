@@ -4,7 +4,7 @@ Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, in
 
 Använd den här filen när du skriver gästtext i `content/intriger/crews/` eller `guests/`, eller pit stops i [`pussel.md`](pussel.md). **Cirkulerande version** är rykte-fakta att lägga in i gästtext, inte färdig STYLE.md-prosa. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
 
-Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form. Q-3 och Q-4 saknar form. Q-5 har en idé. Hint-trappa, bypass och bokstäver låses i [`pussel.md`](pussel.md) när noden byggs.
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har en idé. Hint-trappa, bypass och bokstäver låses i [`pussel.md`](pussel.md) när noden byggs.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
 
@@ -22,16 +22,16 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 4. Får inte citera sista versen som framtid. Får inte spoila metaregeln (alla dör, Malin blir Ran).
 5. Gästtext: piratnamn, du-form, [`../intriger/STYLE.md`](../intriger/STYLE.md). "Ton i gästtext" under skrivstöd är en instruktion till agenten, inte text att klistra in.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.
-7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på varje kort. Bygg inte noder som motsäger den. Full nod (hint-trappa, bypass, bokstav) låses i [`pussel.md`](pussel.md).
+7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på varje kort. Bygg inte noder som motsäger den. Full nod (hint-trappa, bypass, bokstav) låses i [`pussel.md`](pussel.md) när questen har pussel. Q-2 har ingen nod.
 
 När du skriver en **start** i en gästs intrig (först när questen är färdig och personen är tillsatt i fördelningen):
 
-- Ge personen ett skäl att vilja veta just den här saken om Malin.
-- Berätta den cirkulerande versionen som om den vore sann.
+- Ge personen ett skäl att vilja veta just den här saken om Malin. Q-2:s start är ryktet om huset, inte uppdraget "ta reda på hur hon blev pirat".
+- Berätta den cirkulerande versionen som om den vore sann. Q-2: bara stugryktet i starten. Kapitlet sitter i stugan.
 - Peka mot nästa konkreta handling: en person, en plats, ett föremål. Inte "ta reda på sanningen om Malin".
 - Skriv inte ut fältet "Får inte" som varning till gästen.
 
-När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet.
+När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet. **Q-2 får ingen tvärledtråd.**
 
 ---
 
@@ -40,7 +40,7 @@ När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråd
 | id | Namn | Vad gästen ska ha lärt sig | Sanning vs lögn |
 |----|------|----------------------------|-----------------|
 | Q-1 | Första kärleken | Malin var kurtisan. Sängen är underrättelse och hämnd. Skutan är döpt efter yrket. | Yrket är kanon. Första personen är Greve Otto von Pälspung, inte kungen. Hon är fortfarande kurtisan: det sitter bakom kulisserna. |
-| Q-2 | Hur hon blev pirat | Hon tog sjörövarns rätt. Hon tog namnet Svarta. | Ursprung och gammalt namn får ljuga. Inte Ran. |
+| Q-2 | Hur hon blev pirat | Hon byggde sin tillflykt. Hon tog sjörövarns rätt. Hon tog namnet Svarta. | Stugan är kanon. Ursprung och gammalt namn får ljuga. Inte Ran. |
 | Q-3 | Korvetten | Hon prejade sin egen korvett. | **Lögn.** Sanningen: köpt på kredit. Sitter i kistan. |
 | Q-4 | Ön | Hon fick Ovanan med list. Hamnen är ett gammalt löfte. | Får ljuga om bytet. Får inte säga att kajen är en fälla. |
 | Q-5 | Skuldboken | Hon samlar andras skulder. Lojalitet går att skriva upp. | Metoden är sann nog. Kistans hög visas inte här. |
@@ -104,43 +104,72 @@ Får inte i dagboksutdragen: kungen, nuvarande älskare på ön, kreditköpet av
 
 ## Q-2: Hur hon blev pirat
 
-Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta).
+Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta). Relåst 2026-08-23. Källa: Gustaf, [`egna.md`](egna.md). Minnena i stugan är agentdesign utifrån kapitlet.
 
-**Vad gästerna ska jaga:** Ögonblicket hon blev kapten, och vad hon hette innan.
+**Vad gästerna ska jaga:** Huset hon byggde med egna händer på en öde ö i närheten. En plats hon fortfarande flyr till.
 
-**Vad de ska ha lärt sig när questen är klar:** Hon tog sjörövarns rätt själv. Hon äger tilltalet. Den som säger fel namn har redan förlorat.
+**Vad de ska ha lärt sig när questen är klar:** Hon föddes inte till pirat. Hon lämnade hemmet och byggde sin egen plats. Därifrån tog hon sjörövarns rätt själv. Hon tog namnet Svarta. Hon kommer fortfarande hit när hon inte står ut med att vara fasan. Den som säger fel namn har redan förlorat.
 
-**Cirkulerande version (det som får stå i gästtext):** Hon föddes inte till pirat. Något togs ifrån henne, eller hon tog något och kallade det sin rätt. Hon bar ett annat namn tills en natt brände eller dränkte det. Hamnen döpte om henne till Svarta, eller hon tvingade listan att följa efter.
+**Cirkulerande version, start (det som får stå i de tre startintrigerna):** När Malin flyttade hemifrån byggde hon ett hus med egna händer på en öde ö. Det ryktas att huset fortfarande finns kvar i närheten. Dit flyr hon för att vara för sig själv när världen blir för överväldigande.
 
-**Sanning enligt kanon:** Öppen. Questen får låsa en lögn. Metaregeln (hon blir Ran) är förbjuden här.
+**Cirkulerande version, stugan (det minnena visar, inte starten):** Hon föddes inte till pirat. Efter uppbrottet byggde hon stugan. Från den här ön tog hon sitt första byte: hon gick ombord, pekade på sjörövarns rätt, och ingen hade gett henne den. Den natten tog hon namnet Svarta. Hamnen följde efter. Stugan är fortfarande hennes tillflykt.
 
-**Får ljuga om:** Brottet. Offret. Om hon var den kränkta eller den som kränkte. Det gamla namnet.
+**Sanning enligt kanon:** Stugan är sann. Hon byggde den. Hon flyr dit fortfarande. Det är inte barndomshemmet. Minnena får ljuga om brottet, offret och det gamla namnet. Metaregeln (hon blir Ran) är förbjuden här.
+
+**Får ljuga om:** Brottet. Offret. Om hon var den kränkta eller den som kränkte. Det gamla namnet. Vilket det första bytet var.
 
 **Får inte:**
 
 - Säga att hon byter namn igen (Ran).
 - Säga att hon sedan sålde de andra med samma logik.
-- Ge henne ett civilnamn i gästtext. Piratnamn bara. Det "gamla namnet" är ett annat piratnamn eller ett tilltal, inte ett civilnamn.
+- Ge henne ett civilnamn i gästtext, minnen eller lappar. Piratnamn bara. Skriv inte ut ett gammalt namn. Minnena visar att hon tog Svarta, inte vad hon hette före.
+- Peka mot stugan från någon annan skriven källa än de tre startintrigerna. Ingen tvärledtråd. Ingen sajtcopy. Ingen annan quest. Ingen lapp på huvudön.
+- Nämna skrinet eller tokens i starten. De finns i stugan.
+- Förklara Q-1 (Otto, kurtisan) eller Q-3 (Kurtisanen) i minnena. Första bytet är inte Kurtisanen och namnges inte som ett känt skepp.
 
-**Håll isär från:** Q-3 (kuppen mot korvetten, inte hur hon blev pirat). Q-4 (huvudön som hamn). Skelettet på Södra Ovanan är inte den här questens skatt och får inte låsas här.
+**Håll isär från:** Q-3 (kuppen mot korvetten, inte hur hon blev pirat). Q-4 (huvudön som hamn). Skelettet på Södra Ovanan är inte den här questens skatt och får inte låsas här. Q-1 (Otto och kurtisanåret). Stugan är inte barndomshemmet.
 
-**Efter kistan (intern, inte gästtext):** Hon har alltid kunnat bli någon annan utan att släppa greppet. Kontraktet är samma juridiska självbild, nu mot de egna.
+**Efter kistan (intern, inte gästtext):** Hon har alltid kunnat bli någon annan utan att släppa greppet. Kontraktet är samma juridiska självbild, nu mot de egna. Kvinnan som behövde en ö för att vara ifred sålde ändå de andra.
 
 **Skrivstöd:**
 
-- Ton i gästtext: jakt på ett gammalt tilltal och en första prejning. Inte "vem är hon egentligen nu".
-- Om det gamla namnet avslöjas: det får inte förstöra Svarta Malin som tilltal i resten av helgen.
-- Stugan är hemmet. Skelettet i skogen är ett annat spår. Peka inte "identifiera liket" som Q-2.
+- Ton i startintrigen: rykte om ett hus hon byggde, en tillflykt. Inte "ta reda på hur hon blev pirat". Inte en jakt på ett gammalt tilltal. Inte "vem är hon egentligen nu".
+- Starten pekar mot en öde ö i närheten. Den behöver inte namnge Södra Ovanan. Gästerna vet redan att det finns en södra ö med båtar.
+- Tre identiska rykten, en person per av de tre skutorna. Inte i lagfilen. Inte som allmänt rykte.
+- Tvärledtråd: ingen. De två skutorna utan Q-2 får ingen skriven pekare mot stugan. Hör de det socialt är det spel. Råkar de gå in i stugan gäller off-regeln: tokens de inte söker lämnas.
+- Vid tillsättning, inte nu: inte Malin. Inte bara Kuling eller Rödskägg: överfarten är logistik, inte questens grind.
+- Skelettet i skogen är ett annat spår. Peka inte "identifiera liket" som Q-2.
 
-**Mekanik:** form låst 2026-08-20. Innehåll i stugan inte låst. Nod inte byggd.
+**Mekanik:** form låst 2026-08-23. Inga pit stops. Inget pussel. Ingen pusselnod. Bokstav och tre skutor öppna. Se [`pussel.md`](pussel.md).
 
-Platser: **Södra Ovanan** och **piratstugan**. Stugan är Svarta Malins ursprungliga hem. Där finns flera saker från hennes historia.
+Platser: **Södra Ovanan** och **piratstugan**. Stugan är huset hon byggde efter att hon flyttade hemifrån. En tillflykt hon fortfarande använder. Inte ett escape-rum.
 
-Kedja: TBD. Starten ska peka mot stugan eller mot att hon bodde där innan hamnen. Pit stops och skatt (cryptex-bokstaven) låses när föremålen i stugan finns.
+Kedja:
 
-Logistik: överfart, aldrig ensam. Ekan 5 personer, 2 minuter. Kajaker och SUP 10 minuter, minst två farkoster. Gärna via Kuling eller Rödskägg för spel. Man får paddla utan dem. Allt på Södra Ovanan klart före 13.30. Stugan tar 6 till 10. Tre skutor kan turas om. Föremålen stannar i rummet. Inte engångs som Q-1.
+1. Start (intrig), en person per av tre skutor. Ryktet om huset. Inget mer.
+2. Överfart till Södra Ovanan. Aldrig ensam. Inte ett pit stop. Inte en gåta. Gärna via Kuling eller Rödskägg för spel. Man får paddla utan dem.
+3. Stugan. Gå in. Titta. Minnena berättar kapitlet. Skrinet har tokens. Skylt: **Endast en per lag.** Ta en. Gå.
 
-Får inte i stugan: Ran, civilnamn, Karl XII, förräderiet, skelettets identitet som krav.
+Logistik: ekan 5 personer, 2 minuter. Kajaker och SUP 10 minuter, minst två farkoster. Allt på Södra Ovanan klart före 13.30. Stugan tar 6 till 10. Tre skutor kan turas om. Minnena stannar. Tokens tas, en per lag. Inte engångs som Q-1: tre lag ska kunna göra samma besök.
+
+Får inte i stugan: Ran, civilnamn, Karl XII, förräderiet, skelettets identitet, Otto, Kurtisanen som första byte, ljus- eller värmepussel, numrerade stationer, något som måste lösas för att skrinet ska synas.
+
+### Stugan: minnen och skrin
+
+Rummet ska se bebott ut, inte utstädat som museum. Hon var här nyligen. Fyra minnesgrupper (Q2-02 till Q2-05), tecken på att hon fortfarande använder rummet (Q2-06), plus skrinet. De läses genom att gå runt. Ingen ordning krävs. Ingen grupp är ett lås.
+
+| id | Grupp | Vad som står där | Vad den lär |
+|----|-------|------------------|-------------|
+| Q2-02 | Uppbrottet | En ihopvikt sjal eller klänning, en kam, något hon tog med från land och aldrig riktigt packade upp. Inga namn. | Hon lämnade hemmet. Hon var inte pirat då. |
+| Q2-03 | Bygget | Hyvel, hammare, spån. En bjälke med ett enkelt märke hon skar in. Möbler som ser handgjorda och lite skeva ut. | Hon byggde huset med egna händer. Det är hennes. |
+| Q2-04 | Rätten | En namnlös skärva av en främmande flagga eller en billig skeppsklocka, plus en kort lapp i hennes hand: hon tog det, ingen gav det, det är sjörövarns rätt. Första bytet. Inte Kurtisanen. Inget skeppsnamn. | Hon tog rätten själv. |
+| Q2-05 | Namnet | En ljus duk med kanten svartbränd, eller sot i ett fat. Bara ordet Svarta, inristat eller skrivet. Inget äldre namn. | Hon tog tilltalet här. |
+| Q2-06 | Tillflykten nu | Obäddad säng eller en filt, en kopp, en ljusstump som sett nyligen bruk. Inget papperspussel. | Hon kommer fortfarande hit när världen blir för stor. |
+| Q2-01 | Skrinet | Träskrin, synligt när man är inne, inte under golvplankor. Tre cryptex-tokens. På lock eller lapp: **Endast en per lag.** | Skatten. En token per quest-lag. |
+
+Q2-04:s lapp skrivs i `content/rekvisita/` när questen går till tryck. Inte nu. Kort. Hennes röst. Ingen STYLE.md. Inget civilnamn, ingen Ran, ingen kung.
+
+Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot södra ön, inte mot kungen, inte en extra token i knät. Om skrinet är tömt av ett lag som tog alla tre: play to lose, de andra tar socialt. Reservtokens hos spelledning bara om tokens är borta från ön. Den som råkar gå in utan Q-2 lämnar skrinet. Minnena får de se.
 
 ---
 
@@ -196,7 +225,7 @@ Får inte i stugan: Ran, civilnamn, Karl XII, förräderiet, skelettets identite
 - Säga att hon samlade piraterna hit på order.
 - Lösa skelettet på Södra Ovanan. Skelettet får eka den här historien senare. Questen kräver inte att skelettet är svaret, och får inte låsa identiteten.
 
-**Håll isär från:** Skelettet på Södra Ovanan. Q-2 äger piratstugan (Malins ursprungliga hem). Q-4 handlar om huvudön som hamn. Peka inte "gå till Södra Ovanan och identifiera skelettet" som den här questens skatt.
+**Håll isär från:** Skelettet på Södra Ovanan. Q-2 äger piratstugan (huset hon byggde som tillflykt, inte barndomshemmet). Q-4 handlar om huvudön som hamn. Peka inte "gå till Södra Ovanan och identifiera skelettet" som den här questens skatt.
 
 **Efter kistan (intern, inte gästtext):** Hon behövde en scen. Hon hade redan en.
 
@@ -256,7 +285,7 @@ När locket går upp ska de fem kapitlen omtolkas utan ny logik. Skriv inte omto
 | Quest | Omtolkning |
 |-------|------------|
 | Q-1 | Samma recept. Ny kund. Kunden i kistan är kungen. |
-| Q-2 | Samma juridiska självbild, nu mot de egna. |
+| Q-2 | Samma juridiska självbild, nu mot de egna. Tillflykten räddade inte de andra. |
 | Q-3 | Prejningen var en faktura. |
 | Q-4 | Hamnen var scenen hon redan hade. |
 | Q-5 | Boken ni jagade var en miniatyr av högen i kistan. |

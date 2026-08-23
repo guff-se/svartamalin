@@ -88,7 +88,7 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). Q-1 är engångs, B-16. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Övriga TBD. | P-01 vid festen |
+| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). Q-1 är engångs, B-16. Q-2 är stugan utan pussel, B-17. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan. Övriga TBD. | P-01 vid festen |
 | Optiska spåret | TBD. Skylten är parkerad, kikaren finns | | Kikaren (skylten bara om vi beslutar den) | |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | P-01 |
@@ -264,6 +264,27 @@ Spelledarväg:   se [`spelledning.md`](spelledning.md) Q-1. Avskrift bara om hal
 Pusselnod:      P-02, P-03
 Props:          Q1-01, Q1-03, Q1-04
 Om det floppar: tre andra quests plus XII räcker fortfarande för de skutor som inte hade Q-1. En Q-1-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
+
+#### B-17: Q-2, stugan
+
+Akt:            II
+Tid:            10.30 till 13.30
+Plats:          Södra Ovanan, piratstugan
+Inblandade:     tre skutor TBD. Start i tre namngivna intrigfiler, en person per lag. Inte Malin.
+Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
+
+Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser minnena (hur hon blev pirat, hur hon tog namnet Svarta), tar en token ur skrinet. Skylt: endast en per lag. Inget pussel. Inga pit stops.
+
+Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten själv, tog namnet Svarta, och fortfarande behöver en plats att vara ifred. Inte Ran. Inte kungen.
+
+Trigger:        Q-2-start i tre individintriger, när de är skrivna
+Väg 1:          de tre lagen turas om i stugan, var och en tar en token
+Väg 2:          ett lag tar alla tre tokens trots skylten. De andra tar socialt.
+Spelledarväg:   se [`spelledning.md`](spelledning.md) Q-2.
+
+Pusselnod:      ingen
+Props:          Q2-01 till Q2-06
+Om det floppar: tre andra quests plus XII räcker för skutor som inte hade Q-2. En Q-2-skuta utan token måste stjäla eller få spelledar-reserv. Spelet stannar inte. Södra Ovanan stänger 13.30.
 
 ---
 
