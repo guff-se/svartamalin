@@ -20,6 +20,18 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-23, Q-2 två ledtrådar, skelettet är Otto
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.md), [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md).
+
+- [x] Man kommer att kunna få två olika ledtrådar av Q2.
+- [x] en kommer att vara i stugan, en kommer att vara vid skelettet (gör nu skelettet till en del av Q2 istället för separat).
+- [x] Lägg in i Q2-dagbok-1-namnet.md att hon planerar att begrava von Pälspung (ok att nämna namnet) och begrava honom på ön. Detta blir ledtråden att leta vidare.
+
+Kryss = inlagt i designen och tryckt. Skelettet är Greve Otto von Pälspung. Två cryptex-ledtrådar, tre exemplar av varje, endast en per lag.
+
+---
+
 ## 2026-08-23, Q-2 tre blad i stugan
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`../rekvisita/`](../rekvisita/).
@@ -29,7 +41,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`../rekvisita/`](.
 - [x] Filosofisk text - "skall man göra något skall man göra det själv" det är genom handling som man får rätt att göra. dystopisk, lite högstadie-emo-känsla. Kopplar ihop både bygget och rätten till att preja.
 - [x] Tillflykten - hur hon mår idag, hur detta är enda platsen hon kan vara ifred. hur hennes piratkollegor följer henne överallt och hur hon hoppas på att hennes stora plan för att änligen få lugn skall gå i lås (hinta till Karl XII-plotten, utan att avslöja något annat än det är en stor plan för att lösa alla problem).
 
-Kryss = inlagt i designen och tryckt. Tre blad, trots "två brev". Ottos namn står inte. Kurtisanhämnden står inte. Planen namnges inte.
+Kryss = inlagt i designen och tryckt. Tre blad, trots "två brev". Ottos namn står i namnbladet, se avsnittet ovan. Kurtisanhämnden står inte. Planen namnges inte.
 
 ---
 

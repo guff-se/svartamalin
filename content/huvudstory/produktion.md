@@ -24,15 +24,16 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | P-02 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). | | | utkast |
 | Q1-03 | Cryptex-lapp i påsen | P-03 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
 | Q1-04 | Dagboksblad efter hämnden | P-03 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md). Avskrift hos spelledning. | | | utkast |
-| Q2-01 | Skrin med tre cryptex-tokens och skylt "Endast en per lag" | B-17 | Synligt när man är inne i piratstugan, inte gömt under golv. Tre tokens. Skylten läsbar. Reservtokens hos spelledning, inte i stugan. | | | saknas |
+| Q2-01 | Skrin med tre cryptex-tokens och skylt "Endast en per lag" | B-17 | Synligt när man är inne i piratstugan, inte gömt under golv. Tre tokens, första bokstaven. Skylten läsbar. Reservtokens hos spelledning, inte i stugan. | | | saknas |
 | Q2-02 | Uppbrottet: sjal eller klänning, kam | B-17 | Ser ut att ha följt med från land och lagts undan. Inga namn, ingen text. | | | saknas |
 | Q2-03 | Bygget: hyvel, hammare, spån, märke i bjälke | B-17 | Handgjort, lite snett. Visar att hon byggde själv. | | | saknas |
 | Q2-04 | Rätten: flaggskärva eller skeppsklocka | B-17 | Första bytet, namnlöst. Inte Kurtisanen. Ingen lapp. Texten sitter i Q2-08. | | | saknas |
 | Q2-05 | Namnet: ljus duk med svartbränd kant | B-17 | Inget äldre namn utskrivet. Dressing till Q2-07. | | | saknas |
 | Q2-06 | Tillflykten nu: filt, kopp, ljusstump | B-17 | Ser nyligen använt ut. Dressing till Q2-09. | | | saknas |
-| Q2-07 | Dagboksblad, uppbrottet / namnet | B-17 | Helt blad, stannar i stugan. Inte Otto. Inte kurtisanhämnden. Text: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md). | | | utkast |
+| Q2-07 | Dagboksblad, uppbrottet / namnet | B-17 | Helt blad, stannar i stugan. Namnger Otto. Pekar mot graven i skogen. Inte kurtisanhämnden. Text: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md). | | | utkast |
 | Q2-08 | Dagboksblad, handlingen | B-17 | Helt blad, stannar i stugan. Bygget och rätten att preja. Text: [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md). | | | utkast |
 | Q2-09 | Dagboksblad, tillflykten | B-17 | Helt blad, stannar i stugan. Nutid. Stor plan utan innehåll. Text: [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md). | | | utkast |
+| Q2-10 | Cryptex-tokens vid Ottos grav | B-17 | Tre tokens, annan bokstav än Q2-01. Skylt: Endast en per lag. Ligger vid skelettet i skogen. Reservtokens hos spelledning, inte på ön. | | | saknas |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
@@ -44,6 +45,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 |-----|-------|-----------|--------------|----------|
 | Skylt på annan ö | Se [`platser.md`](platser.md) | | Parkerad idé. Bara om vi beslutar den, och då före helgen med tillstånd | |
 | Piratstugan möbleras som tillflykt | Södra Ovanan | | Fredag eller tidigt lördag. Q2-02 till Q2-06 utlagda. Q2-07, Q2-08, Q2-09 läsbara. Q2-01 skrinet synligt. Inte escape-rum. Inte fredagsspel. | |
+| Ottos grav, andra ledtråden | Skelettet i skogen, Södra Ovanan | | Lördag före 10.30. Q2-10 tokens och skylt. Inte fredagsspel. | |
 | Verkstadsförråd byggs om | Verkstaden | | Före helgen om möjligt | |
 | Gubben i stubben / Gumman på udden | Norra och södra ändan av Ovanan | kort | Lördag före 10.30. Ladda Q1-01 i flaska eller under docka, vaxduk. Dockor och flaskor stannar. | |
 | Klätternätet, Q-1-påsen | Högt i nätet | kort | Lördag före 10.30. Inte fredag. Knuten, inte en flagga. I påsen: Q1-03 och Q1-04. | |

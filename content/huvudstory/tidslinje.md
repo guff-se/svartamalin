@@ -42,7 +42,7 @@ Utåt kommuniceras bara **16.00** (samling och avfärd från Enhörna). Båten a
 | 11.00 | Förmiddagsspel | Akt II: cryptexen i omlopp (B-10), skattjakten (B-11), mullvadarna tar kontakt (B-12). Escape, tävling och skattjakt samtidigt. De får krocka. Lösenordet går inte att kläcka än. |
 | 13.30 | Sista chansen Södra Ovanan | Södra Ovanan stänger. Allt vatteninnehåll klart. |
 | **14.00** | **Brunch** | Ordentlig mat, alla äter. Story pausar men roll behålls. Malins bordsscen sätter upp ritualen. |
-| 15.00 | Förberedelse ritual | Klädsel, plats, skelettet hämtas in i fiktionen. |
+| 15.00 | Förberedelse ritual | Klädsel, plats. |
 | **15.30** | **Ritualen** | Akt III: kollektiv ritual, LSD. Se [`ritual.md`](ritual.md). |
 | 16.30 | Efterspel ritual. Bastu och onsen **öppna, med tillsyn.** | Kroppsligt, musikaliskt, vandrande. Inga pussel. Inga texter. |
 | 18.00 | Mat och vila | Enkel mat, tillgänglig hela kvällen. Nu ska ingen behöva vänta på en sittning. |

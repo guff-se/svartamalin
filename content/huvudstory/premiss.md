@@ -90,6 +90,6 @@ Dessa måste beslutas först. Loggas i [`beslut.md`](beslut.md) när de är avgj
 - [x] **Vet gästerna att det finns en huvudstory** innan helgen? Ja. De vet inte vad den är. Frön i intrigfiler och gästcopy. Fredag fortfarande utan mekanik.
 - [x] **Vad är slutmålet?** Kistan, cryptexen, skuldbreven, kontraktet, tändningen. Se [`beslut.md`](beslut.md) 2026-08-18.
 - [ ] **Hur bär Malin sveket i roll** under lördagen? I fiktionen är hon arkitekten. Utåt: öppet.
-- [ ] **Vad är skelettet på Södra Ovanan?** Bakgrundsspår, inte längre skälet till att alla är på ön.
+- [x] **Vad är skelettet på Södra Ovanan?** Greve Otto von Pälspung. Q-2. Malin begravde honom i skogen. Andra cryptex-ledtråden ligger där. Inte bakgrundsspår. Inte skälet till att alla är på ön.
 - [x] **Får huvudstoryn kollidera med lagens skattjakt?** Ja. Allt pågår samtidigt och får kollidera.
 - [ ] **Vad händer om ingen löser något?** Kistan måste upp senast 20.45. Bypass i [`pussel.md`](pussel.md) och [`slutstriden.md`](slutstriden.md). Fallback före festen fortfarande TBD.

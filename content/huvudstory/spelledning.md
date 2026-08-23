@@ -111,19 +111,19 @@ Runtime:
 3. **Avskrift.** Spader har det hopsatta första bladet, båda sidor, dolt. Bara om båda halvorna är förlorade på riktigt, inte för att ett lag kom sist. Det andra bladet avskrivs bara om påsen är borta från ön.
 4. **Påsen borta.** Jaga den som tog den. Reservlapp bara om föremålet är borta från ön.
 5. **Ingen springer Q-1 före brunchen.** Ge starten en riktning mot Gubben och Gumman. Inte sanningen om kungen. Inte en extra lapp i knät.
-6. **Malin tillfrågas om Otto.** Hon får namnge Greve Otto von Pälspung. Hon får bekräfta dåtiden: kärleken, förräderiet, kurtisan, hämnd, receptet. Hon kopplar inte till någon i hamnen. Hon säger inte att hon gör om det nu.
+6. **Malin tillfrågas om Otto.** Hon får namnge Greve Otto von Pälspung. Hon får bekräfta dåtiden: kärleken, förräderiet, kurtisan, hämnd, receptet. Hon kopplar inte till någon i hamnen. Hon säger inte att hon gör om det nu. Hon säger inte att hon begravde honom. Det är Q-2.
 
-### Q-2: stugan, utan pussel
+### Q-2: stugan och graven, utan pussel
 
-Tre skutor. En startintrig per lag, samma rykte. Inga pit stops. Inget pussel. Minnena stannar. Tre tokens i skrinet, en per lag.
+Tre skutor. En startintrig per lag, samma rykte. Inga pit stops. Inget pussel. Minnena stannar. Två gömmen: skrinet i stugan och tokens vid Ottos grav. Tre tokens av varje, en per lag.
 
 Runtime:
 
-1. **Ingen åker ut.** Ge starten en riktning mot södra ön. Inte mot kungen. Inte en extra token i knät.
-2. **Hamstring.** Ett lag tar alla tre tokens trots skylten. Play to lose. De andra tar, byter, avskriver. Ge inte tre nya tokens i stugan.
+1. **Ingen åker ut.** Ge starten en riktning mot södra ön. Inte mot kungen. Inte extra tokens i knät.
+2. **Hamstring.** Ett lag tar alla tokens trots skylten. Play to lose. De andra tar, byter, avskriver. Ge inte tre nya tokens i stugan eller vid graven.
 3. **Reserv.** Bara om tokens är borta från ön. Hos Spader, dolt.
-4. **Någon går in utan Q-2.** Off-regeln: lämna skrinet. Bladen får de läsa. Ta inte tokens.
-5. **Malin tillfrågas om stugan.** Hon får bekräfta att hon byggde den och att hon går dit för att vara ifred. Hon ger inte tokens. Hon namnger inte kungen. Hon förklarar inte skelettet. Hon förklarar inte den stora planen. Hon får tala om namnet Svarta och att hon byggde själv, i samma register som bladen. Hon namnger inte Otto.
+4. **Någon går in utan Q-2.** Off-regeln: lämna skrinet och tokens vid graven. Bladen får de läsa. Ta inte tokens.
+5. **Malin tillfrågas om stugan eller graven.** Hon får bekräfta att hon byggde stugan och att hon går dit för att vara ifred. Hon får namnge Otto von Pälspung och bekräfta att hon begravde honom i skogen. Hon ger inte tokens. Hon namnger inte kungen. Hon förklarar inte den stora planen. Hon får tala om namnet Svarta och att hon byggde själv, i samma register som bladen.
 6. **Kuling och Rödskägg.** Överfarten är logistik och extra scener. De vet inte varför någon vill till stugan, om de inte hör det i spel.
 
 ### Låt saker som hittas av misstag få vara

@@ -45,7 +45,7 @@ Får aldrig stå i gästtext. Se `../intriger/STYLE.md`.
 ## Fast kanon: platsen
 
 1. Ovanan är Malins hamn. Hon tar emot där.
-2. Södra Ovanan är en annan ö, nås över vatten. Dit går en motordriven eka (5 personer, 2 minuter), två kajaker och två stand up paddle (10 minuter att paddla). Där finns en piratstuga och ett skelett i skogen. Off-regel: aldrig ensam på vattnet. Kapten Kuling och Kapten Rödskägg har hand om båtarna. Man får åka ut utan dem.
+2. Södra Ovanan är en annan ö, nås över vatten. Dit går en motordriven eka (5 personer, 2 minuter), två kajaker och två stand up paddle (10 minuter att paddla). Där finns en piratstuga och Ottos grav i skogen (skelettet). Off-regel: aldrig ensam på vattnet. Kapten Kuling och Kapten Rödskägg har hand om båtarna. Man får åka ut utan dem.
 3. På norra ändan av Ovanan finns en bänk vid en stubbe, kallad Gubben i stubben. I stubben ligger en trägubbe och en flaska sprit.
 4. På södra ändan av Ovanan, huvudön, finns Gumman på udden: en bänk med en trägumma och en flaska sprit. Detta är inte Södra Ovanan.
 5. I vardagsrummet finns en svärdfisk vars gap går att gömma saker i.
@@ -101,13 +101,13 @@ Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.yaml`
 
 | Fråga | Svar | Beslutat |
 |-------|------|----------|
-| Vem är det? | TBD | |
-| När dog personen? | TBD | |
-| Vem vet det? | TBD | |
-| Vad finns kvar på kroppen? | TBD | |
-| Vad ändras när identiteten avslöjas? | TBD | |
+| Vem är det? | Greve Otto von Pälspung. Malin begravde honom i skogen. | 2026-08-23 |
+| När dog personen? | Efter hämnden, när hon redan byggt stugan. | 2026-08-23 |
+| Vem vet det? | Namnbladet i stugan. Malin. | 2026-08-23 |
+| Vad finns kvar på kroppen? | Andra cryptex-ledtråden, tre tokens, en per lag. | 2026-08-23 |
+| Vad lär gästerna? | Att Otto ligger i skogen. Q-2 är klar. Inte kistan. Inte kungen. | 2026-08-23 |
 
-Detta är bakgrundsspåret. Det är inte längre kanonens hjärta: det är kistan. Södra Ovanan används av **Q-2** (piratstugan). Skelettet får inte vara Q-2:s skatt.
+Detta är Q-2. Inte ett separat bakgrundsspår. Södra Ovanan är stugan och Ottos grav.
 
 ### Piratstugan
 
@@ -115,7 +115,7 @@ Detta är bakgrundsspåret. Det är inte längre kanonens hjärta: det är kista
 |-------|------|----------|
 | Vems stuga är det? | Malin byggde den med egna händer efter att hon flyttade hemifrån. Inte barndomshemmet. Q-2. | 2026-08-23 |
 | Varför står den där? | Tillflykt. Dit flyr hon när världen blir för överväldigande. Hon använder den fortfarande. | 2026-08-23 |
-| Vad finns kvar där inne? | Tre dagboksblad (namnet, handlingen, tillflykten) plus fysiska minnen och skrin med tre tokens. Lista: [`quests.md`](quests.md). Tryck i `content/rekvisita/`. | 2026-08-23 |
+| Vad finns kvar där inne? | Tre dagboksblad (namnet, handlingen, tillflykten) plus fysiska minnen och skrin med tre tokens. Namnbladet pekar mot Ottos grav i skogen. Lista: [`quests.md`](quests.md). Tryck i `content/rekvisita/`. | 2026-08-23 |
 
 ### Segelbåten vid bojen
 
@@ -133,8 +133,8 @@ Detta är bakgrundsspåret. Det är inte längre kanonens hjärta: det är kista
 | Vad är hon skyldig, och vem? | Hon har förbundit sig mot Kung Karl XII. Brevet i kistan stryker skulderna mot förräderiet. Skuldbrevens hög: vems och för vad är öppet. Hon ligger också med honom. | delvis, 2026-08-21 |
 | Vad vill hon egentligen ha av festen? | Uppfylla kontraktet: samla piraterna och fylla dem med rom. | 2026-08-18 |
 | Vem är hennes hemliga älskare? | Karl XII. Före kistan ska det se ut som någon på ön. | 2026-08-20 |
-| Första kärleken? | Greve Otto von Pälspung. Inte kungen. Inte någon på ön. Hon älskade, blev utnyttjad för att hon var av lägre stånd, hämnades som kurtisan: stal hemligheter ur hans krets, förrådde honom, tog allt han ägde. Yrket är kanon. Receptet (säng → hemlighet → prejning) är kanon. Hon är fortfarande kurtisan och nu i säng med Karl XII: det sitter bakom kulisserna, avslöjas i kistan. Q-1. | 2026-08-22 |
-| Hur blev hon pirat? | Q-2. Hon lämnade hemmet efter älskarens förräderi, tog namnet Svarta Malin ur sorgen och hämnden, byggde stugan, tog rätten genom handling. Stugan är tillflykt. Ottos namn sitter i Q-1. Inte Ran. Inte Kurtisanen som första byte. | 2026-08-23 |
+| Första kärleken? | Greve Otto von Pälspung. Inte kungen. Inte en gäst. Han är död. Graven är skelettet i skogen på Södra Ovanan, Q-2. Hon älskade, blev utnyttjad för att hon var av lägre stånd, hämnades som kurtisan: stal hemligheter ur hans krets, förrådde honom, tog allt han ägde. Yrket är kanon. Receptet (säng → hemlighet → prejning) är kanon. Hon är fortfarande kurtisan och nu i säng med Karl XII: det sitter bakom kulisserna, avslöjas i kistan. Q-1 äger kurtisanhämnden. Q-1 säger inte att hon begravde honom. | 2026-08-23 |
+| Hur blev hon pirat? | Q-2. Hon lämnade hemmet efter älskarens förräderi, tog namnet Svarta Malin ur sorgen och hämnden, byggde stugan, begravde Otto i skogen, tog rätten genom handling. Stugan är tillflykt. Ottos namn får stå i namnbladet. Inte Ran. Inte Kurtisanen som första byte. | 2026-08-23 |
 | Hur fick hon Kurtisanen? | Sången: hon prejade sin egen korvett. Beslut 2026-08-18: köpt på kredit. **Q-3 berättar preja-versionen och ska ljuga.** Sanningen sitter i kistan: kungen sätter korvetten på hennes namn. | 2026-08-21 |
 | Hur fick hon ön? | Q-4. Ovanan är hennes hamn. Questen får ljuga om bytet. Får inte säga att kajen är en fälla. | delvis, 2026-08-20 |
 | Samlar hon skulder? | Q-5 visar metoden (IOU:er, eder, namn). Kistans hög visas inte i questen. Vems skuldbreven är förblir öppet. | delvis, 2026-08-20 |

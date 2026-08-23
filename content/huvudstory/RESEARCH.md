@@ -119,7 +119,7 @@ Från megagame-design, som löser exakt vårt problem, alltså många deltagare 
 - Sätt ett kort namn på varje handling eller förmåga så att spelare kan referera till dem
 - Ta bort allt som inte används. Dödvikt i regler och roller är värre än för lite innehåll
 
-**Vad det betyder för oss:** designprincipen blir "**vilja utan förmåga, förmåga utan vilja**". Den som vill komma åt skelettet på Södra Ovanan ska inte vara den som kan köra ekan. Ekan sköts av **Kapten Kuling** och **Kapten Rödskägg**. En skriven överfart går gärna som förhandling med en av dem, för spel. Folk får paddla utan dem. Den som kan tolka skylten i kikaren ska inte vara den som vet var man ska sikta. Detta skapar handel, tjänster och svek automatiskt, alltså exakt lördagens tema.
+**Vad det betyder för oss:** designprincipen blir "**vilja utan förmåga, förmåga utan vilja**". Den som vill till stugan på Södra Ovanan ska inte vara den som kan köra ekan. Ekan sköts av **Kapten Kuling** och **Kapten Rödskägg**. En skriven överfart går gärna som förhandling med en av dem, för spel. Folk får paddla utan dem. Den som kan tolka skylten i kikaren ska inte vara den som vet var man ska sikta. Detta skapar handel, tjänster och svek automatiskt, alltså exakt lördagens tema.
 
 ---
 

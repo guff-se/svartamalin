@@ -14,9 +14,9 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 
 | Plats | Vad den är | Kapacitet | Funktion i huvudstoryn | Akt |
 |-------|-----------|-----------|------------------------|-----|
-| **Södra Ovanan** | Egen ö. Nås med motordriven eka (5 personer, 2 min), kajak, SUP eller simning. Aldrig ensam. | Ekan tar fem åt gången, minst två ombord. Kajaker och SUP minst två farkoster. | Q-2. Vägen till piratstugan. Skelettet är ett annat spår. | II |
-| **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Huset hon byggde som tillflykt. Minnen plus skrin med tokens. Inte escape-rum. | II |
-| **Skelettet i skogen** (Södra Ovanan) | Skelett, befintlig prop | Liten grupp, hög effekt | TBD. Inte Q-2:s skatt. Inte Q-4:s skatt. | |
+| **Södra Ovanan** | Egen ö. Nås med motordriven eka (5 personer, 2 min), kajak, SUP eller simning. Aldrig ensam. | Ekan tar fem åt gången, minst två ombord. Kajaker och SUP minst två farkoster. | Q-2. Vägen till piratstugan och Ottos grav. | II |
+| **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Huset hon byggde som tillflykt. Minnen plus skrin med tokens. Namnbladet pekar mot graven. Inte escape-rum. | II |
+| **Skelettet i skogen** (Södra Ovanan) | Ottos grav. Befintlig prop. | Liten grupp | Q-2. Andra cryptex-ledtråden. Namnbladet i stugan pekar hit. Inte en identitetsgåta. | II |
 | **Vardagsrummet med svärdfisken** | Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | TBD | |
 | **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD | III, efterspel |
 | **Verkstaden** | Verkstad med förrådsrum som kan byggas om | Förråden tar 3 till 6 personer | TBD | |
@@ -42,7 +42,7 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 |-------|----------|-------------------|
 | Södra Ovanan | **Tröskel, men inte restid.** Ekan tar 2 minuter. Skrivna överfarter går gärna via Kuling eller Rödskägg, för spel. Man får paddla utan dem. | Pilgrimsfärd, exil, förbjuden kunskap. Handeln om överfarten är extra scener, inte ett lås |
 | Piratstugan | **Slutet rum med eld.** Mörkt, avskilt, går att låsa och göra i ordning | Malins tillflykt. Q-2 möblerar den som bebodd, inte som escape-rum. Verkstaden är kvar som escape-rumskandidat |
-| Skelettet | **Kropp.** Ett lik som redan finns i fiktionen | Ursprungssynd, ett brott som inte är sonat, en identitet att avslöja |
+| Skelettet | **Grav.** Otto von Pälspung ligger här. Q-2. | Andra cryptex-ledtråden. Namnbladet i stugan är pekaren. Inte en identitetsgåta |
 | Svärdfisken | **Offentligt gömställe.** Alla ser den, ingen tittar i gapet | Dead drop, brevväxling, det som ligger framför allas ögon |
 | Onsen | **Nakenhet och intima möten.** Litet badkar, perfekta för mindre möten, ritualer eller interaktioner. | Bekännelser, allianser, sanningar som sägs muntligt. |
 | Bastun | **Nakenhet och samtal.** Ingen kan bära papper eller prop | Semi-offentliga möten, plats där man kan råka höra något nån anna säger. |

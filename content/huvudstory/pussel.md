@@ -54,7 +54,7 @@ Konvergenspunkten och **formen på banorna** är beslutade. **Storyn i de fem qu
 
 ```
 Q-1 --pit stop(s)--> skatt (1 eller 2 bokstäver)
-Q-2 (ingen pit stop) --> skatt i stugans skrin
+Q-2 (ingen pit stop) --> skatt i stugan, skatt vid graven
 Q-3 --pit stop(s)--> skatt (1 eller 2 bokstäver)   }  varje skuta har ingång till 3 av 5
 Q-4 --pit stop(s)--> skatt (1 eller 2 bokstäver)
 Q-5 --pit stop(s)--> skatt (1 eller 2 bokstäver)
@@ -83,8 +83,8 @@ Varje quest:
 
 1. **Start** i en namngiven spelares intrig. Inte i lagfilen. Inte som allmänt rykte. Q-2: tre identiska starter, en person per av de tre skutorna.
 2. **Ett eller två pit stops**, utom **Q-2: noll.** Ett pit stop kan kräva information som sitter hos en annan spelare.
-3. **Skatt.** Där ligger bokstaven. Får finnas i flera exemplar om samma bokstav kommer från mer än en quest. Q-2: tre tokens i ett skrin, en per lag.
-4. **Storyline och uppgift.** En quest är inte bara ett pussel. Den har en historia *och* en eller flera uppgifter, utmaningar eller pussel. Q-2:s uppgift är överfart, minnen, en token. Inget pussel.
+3. **Skatt.** Där ligger bokstaven. Får finnas i flera exemplar om samma bokstav kommer från mer än en quest. Q-2: två ledtrådar, tre tokens av varje, en per lag per gömme.
+4. **Storyline och uppgift.** En quest är inte bara ett pussel. Den har en historia *och* en eller flera uppgifter, utmaningar eller pussel. Q-2:s uppgift är överfart, minnen, token i stugan, token vid graven. Inget pussel.
 5. **Malins historia, inte slutet.** Storyn lär något om Svarta Malins bakgrund. Den får ljuga (unreliable narrator). Den får **inte** röja affären med Karl XII eller förräderiet. Det sitter i kistan.
 
 Story låst 2026-08-20. Full text, får-inte-listor och skrivstöd: [`quests.md`](quests.md).
@@ -92,7 +92,7 @@ Story låst 2026-08-20. Full text, får-inte-listor och skrivstöd: [`quests.md`
 | id | Namn | Lär gästen | Sanning vs lögn |
 |----|------|------------|-----------------|
 | Q-1 | Första kärleken | Kurtisan, sängen som underrättelse, skeppets namn | Yrket är kanon. Inte kungen. Hon är fortfarande kurtisan: bakom kulisserna. |
-| Q-2 | Hur hon blev pirat | Sjörövarns rätt + namnet Svarta | Får ljuga. Inte Ran. |
+| Q-2 | Hur hon blev pirat | Sjörövarns rätt + namnet Svarta + Ottos grav | Får ljuga. Inte Ran. |
 | Q-3 | Korvetten | Hon prejade sin egen korvett | **Lögn.** Kreditköpet sitter i kistan. |
 | Q-4 | Ön | Hur hon fick Ovanan. Hamnen är ett löfte. | Får ljuga om bytet. Inte fällan. |
 | Q-5 | Skuldboken | Hon samlar andras skulder | Metoden, inte kistans hög. |
@@ -113,7 +113,7 @@ Kontroller att köra på grafen varje gång den ändras:
 - [ ] Start sitter i en spelares intrig, inte bara i lagfilen?
 - [ ] Tvärledtrådar till de två quests skutan saknar: meningslösa utan questet? Q-2: ingen tvärledtråd, avsiktligt.
 - [ ] Tre quests plus XII ger sex bokstäver, för varje skuta?
-- [ ] Varje quest har både storyline och minst en uppgift? Q-1 ja. Q-2 ja (överfart, minnen, token, inget pussel). Övriga story låst, uppgift inte.
+- [ ] Varje quest har både storyline och minst en uppgift? Q-1 ja. Q-2 ja (överfart, minnen, två tokens, inget pussel). Övriga story låst, uppgift inte.
 - [x] Queststoryn lär något om Malins historia, och spoilar inte Karl XII eller förräderiet? Ja. Se [`quests.md`](quests.md).
 - [ ] Ingen nod med fler än två beroenden nedströms som saknar bypass?
 - [ ] Är typerna varierade, alltså inte fem kodlås i rad?
@@ -249,7 +249,7 @@ Testat:         nej
 | id | Namn | Story | Bokstav | Ingångar | Start | Status |
 |----|------|-------|---------|----------|-------|--------|
 | Q-1 | Första kärleken | se quests.md | | tre skutor TBD | | story + form + engångs låst. P-02, P-03. Bokstav och start öppna |
-| Q-2 | Hur hon blev pirat | se quests.md | | tre skutor TBD | | story + form låst 2026-08-23. Inga pit stops. Ingen pusselnod. Stugans minnen och skrin låsta. Bokstav och start öppna |
+| Q-2 | Hur hon blev pirat | se quests.md | | tre skutor TBD | | story + form låst 2026-08-23. Inga pit stops. Ingen pusselnod. Stuga och grav låsta. Två ledtrådar. Bokstäver och start öppna |
 | Q-3 | Korvetten | se quests.md. Lögn: prejning. Sanning i kistan. | | tre skutor TBD | | story låst, mekanik öppen |
 | Q-4 | Ön | se quests.md | | tre skutor TBD | | story låst, mekanik öppen |
 | Q-5 | Skuldboken | se quests.md | | tre skutor TBD | | story låst. Porträttväggen är idé, inte låst |
@@ -272,16 +272,16 @@ Testat:         nej
 #### Q-2: Hur hon blev pirat
 
 Story:          se quests.md. Inte här.
-Uppgifter:      åk till piratstugan, läs de tre bladen, ta en token ur skrinet. Inga pit stops. Inget pussel. Ingen nod.
-Bokstav:        TBD
+Uppgifter:      åk till piratstugan, läs de tre bladen, ta en token ur skrinet, följ namnbladet till graven, ta en token där. Inga pit stops. Inget pussel. Ingen nod.
+Bokstav:        TBD. Två olika bokstäver, tre exemplar av varje.
 Ingångar:       tre skutor TBD
 Start:          tre slugs TBD, en person per av de tre skutorna. Samma rykte om huset. Inte Malin. Inte bara Kuling eller Rödskägg.
 Pit stop 1:     ingen
 Pit stop 2:     ingen
-Tvärledtråd:    ingen. Starten är enda skrivna pekaren mot stugan.
-Skatt:          Q2-01, skrinet i piratstugan. Tre tokens. Skylt: Endast en per lag.
-Bypass:         om ingen åker ut: Spader ger starten riktning mot södra ön. Reservtokens hos spelledning bara om tokens är borta från ön. Den som råkar gå in utan Q-2 lämnar skrinet.
-Props:          Q2-01 till Q2-09. Tryck: Q2-07, Q2-08, Q2-09.
+Tvärledtråd:    ingen. Starten är enda skrivna pekaren mot stugan. Namnbladet i stugan är pekaren mot graven.
+Skatt:          Q2-01 i skrinet. Q2-10 vid graven. Tre tokens av varje. Skylt: Endast en per lag.
+Bypass:         om ingen åker ut: Spader ger starten riktning mot södra ön. Reservtokens hos spelledning bara om tokens är borta från ön. Den som råkar gå in utan Q-2 lämnar skrinet och tokens vid graven.
+Props:          Q2-01 till Q2-10. Tryck: Q2-07, Q2-08, Q2-09.
 Testat:         nej
 
 ---
@@ -321,9 +321,9 @@ Ett offentligt gömställe i genomfartsrummet.
 Slutet rum med eld. **Inte ett escape-rum i Q-2.** Möblerad som Malins tillflykt.
 
 - **Naturlig svårighet:** man måste ta sig dit över vatten. Ekan tar 5 personer och 2 minuter, minst två ombord. Kajaker och SUP tar 10 minuter, minst två farkoster ute. Restiden är inte tröskeln. Aldrig ensam. Skrivna överfarter går gärna via **Kapten Kuling** eller **Kapten Rödskägg**, för spel. Man får paddla utan dem. Den enda skrivna pekaren dit är Q-2:s tre startintriger.
-- **Bra användning:** Q-2. Rummet är huset hon byggde efter att hon flyttade hemifrån. Små minnen som berättar hur hon blev pirat. Skrin med tokens, en per lag. Se [`quests.md`](quests.md).
+- **Bra användning:** Q-2. Rummet är huset hon byggde efter att hon flyttade hemifrån. Små minnen som berättar hur hon blev pirat. Namnbladet pekar mot Ottos grav i skogen. Skrin med tokens, en per lag. Se [`quests.md`](quests.md).
 - **Dålig användning:** ljus- och mörkerpussel, värmelås, numrerade stationer, något som måste lösas för att skrinet ska synas.
-- **Hård begränsning:** stängs 13.30. Allt innehåll här måste kunna klaras av före brunchen. Ingen ensam överfart. Skelettet i skogen är inte Q-2:s skatt. Ingen annan quest, sajtcopy eller tvärledtråd får peka mot stugan.
+- **Hård begränsning:** stängs 13.30. Allt innehåll här måste kunna klaras av före brunchen. Ingen ensam överfart. Ingen annan quest, sajtcopy eller tvärledtråd får peka mot stugan.
 
 ### Verkstadens förrådsrum
 
@@ -334,11 +334,11 @@ Byggbara rum. Escape-rumskandidaten, och den enda som är tillgänglig hela dage
 
 ### Skelettet i skogen
 
-En kropp som redan finns i fiktionen.
+Ottos grav. Q-2:s andra gömme. Namnbladet i stugan är pekaren.
 
-- **Bra användning:** identitet, ursprungsbrott, något att bära hem som bevis
-- **Varning:** hittas den för tidigt utan sammanhang blir den bara en kuriositet. Den behöver en ledtråd som gör den läsbar, alltså ett tecken, ett smycke, en tatuering eller ett dokument
-- **Konsistens:** skelettet får inte motsäga kistan och kontraktet
+- **Bra användning:** andra cryptex-ledtråden, tre tokens, en per lag. Samma skylt som skrinet.
+- **Varning:** hittas den utan namnbladet är det bara ett skelett. Off-regeln: den som inte söker Q-2 lämnar tokens.
+- **Konsistens:** Otto är död. Han är inte kungen. Han är inte en gäst. Graven förklarar inte kistan.
 
 ### Segelbåten vid bojen (Tvåkronan)
 
