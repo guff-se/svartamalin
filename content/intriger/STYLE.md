@@ -186,6 +186,22 @@ En deltagare kan **bara** läsa tre saker på skärmen:
 
 De ser inte andra gästers filer, inte andra skutors lagfiler, inte `huvudstory/`, inte yaml-källistor, inte `anteckningar/`, och inte någon annans `roller/`. Sidequests, beats och andras hemligheter **existerar inte** för dem förrän de står i *deras* läsbara text.
 
+### Hård regel: texten måste stå för sig själv
+
+Spelaren har **inte** läst `sidequests.md`, `fiender.yaml`, `romanser.yaml`, andras `roller/` eller andras gästfiler. De har sin egen gästfil, sin lagfil, sajtcopy och det de själva skrev i `roller/{sin slug}.md`.
+
+**Efter varje stycke:** läs det högt och fråga: *går den här meningen att förstå utan någon ytterligare fil?* Om nej: lyft in förklaringen i samma stycke, eller stryk.
+
+Förbjudet: intern jargong och halva historier.
+
+| Dåligt (kräver annan fil) | Bra (står själv) |
+|---------------------------|------------------|
+| "skamrand i det röda" | "Sist ni möttes rakade **Kapten Lösskägg** en rand mitt i ditt röda skägg, medan du bar det, så att hela hamnen såg skammen." |
+| "burken och skymningen" | "När mörkret faller måste **Kapten Barnsben** svälja ett piller ur en liten burk, annars slutar hon vara barn och blir stor. Det fasar hon för." |
+| "ni vet båda vad som sitter i ditt ansikte" | Säg vad som sitter där, i den här filen. |
+
+Egen `roller/`-fil får räknas som känd, men använd inte designer-smeknamn som inte står där. `fiender.yaml` och `sidequests.md` är **inte** kända. Om karaktären skulle minnas en oförrätt måste *spelaren* få oförrätten berättad i gästtexten.
+
 Rekvisita i [`../rekvisita/`](../rekvisita/) läses på papper på ön, om de får lappen i handen. Det är inte förhandskunskap. Skriv inte intrigtext som om de redan läst en prop.
 
 **Testet, varje mening:** vad vet karaktären? Om svaret är "det står i en annan fil", "det står i S-nn som de inte är med i" eller "det står i intern design" får meningen inte stå.
@@ -235,6 +251,6 @@ Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet at
 13. Kräver texten en sjöfärd som ska bli en scen? Primär väg: övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut. Skriv inte att de *måste*. Folk får åka ut utan dem.
 14. Uppmanar texten till ransakning, att vända ön, eller att ta något man råkar hitta? → stryk. Off-regel: lös gåtor och uppdrag, låt saker som hittas av misstag få vara.
 15. Är språket prydligt eller framtid-tillsammans kring sex och romans? → skriv om. Lust, explicithet och "bunden och tagen" är rätt register. Male gaze är det inte.
-16. Förutsätter någon mening kunskap som inte står i mottagarens gästfil, lagfil, copy eller egen roller? → lyft in om de *ska* veta det, annars stryk.
+16. **Står texten för sig själv?** Läs stycket som om du bara har den här filen. Kräver någon mening `sidequests.md`, yaml, någon annans roller eller någon annans gästfil? → berätta händelsen i den här filen, eller stryk. "skamrand i det röda" och "burken och skymningen" är förbjudna som oförklarade.
 17. Refererar texten till en sidequest, ett objekt eller en titel från ett spår personen inte är med i? → stryk. Speglad romans räcker inte.
 18. Stämmer han/hon med civilnamnet i `anteckningar/`? Okänd person: hen, eller skriv om utan pronomen. Anta inte att kaptener är män.

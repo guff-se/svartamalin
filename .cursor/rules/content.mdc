@@ -8,7 +8,7 @@ alwaysApply: false
 
 Läs [content/README.md](../../content/README.md) innan du skriver eller ändrar något under `content/`.
 
-**Gästtext, intriger (följ [STYLE.md](../../content/intriger/STYLE.md)):** `content/intriger/crews/*.md` och `content/intriger/guests/*.md`. Explicit språk och grövre sexuella referenser är tillåtna. Register: lust och sex, inte romankärlek. En gäst läser bara sin egen fil, sin lagfil och `copy/`. Skriv vad *den* karaktären vet. Han/hon efter civilnamn i `anteckningar/`. Okänd person: hen eller omskrivning. Anta inte att kaptener är män.
+**Gästtext, intriger (följ [STYLE.md](../../content/intriger/STYLE.md)):** `content/intriger/crews/*.md` och `content/intriger/guests/*.md`. Explicit språk och grövre sexuella referenser är tillåtna. Register: lust och sex, inte romankärlek. En gäst läser bara sin egen fil, sin lagfil och `copy/`. **Varje text måste stå för sig själv:** efter skrivning, läs stycket och fråga om det går att förstå utan `sidequests.md`, yaml eller andras filer. Om nej, lyft in förklaringen eller stryk. Skriv vad *den* karaktären vet. Han/hon efter civilnamn i `anteckningar/`. Okänd person: hen eller omskrivning. Anta inte att kaptener är män.
 
 **Gästtext, sajtens brödtext:** `content/copy/*.md`. Gästerna läser det på webbsidan. Inte STYLE.md. Inte Supabase. Bundlas vid build. En md-ändring syns efter deploy. Nämn inte att festen är sexpositiv eller att sex är tillåtet överallt. Det sägs på plats.
 
