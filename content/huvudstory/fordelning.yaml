@@ -467,3 +467,51 @@ fordelning:
     bygger_pa: "fiende: 8"
     pussel: null
     status: done
+
+  - id: 37
+    beat: S-05
+    akt: II
+    till: [ludvigvonbahr]
+    roll: barare
+    vet: "att Kapten Kosing driver in en arvssyndsskatt mot uppblåsta anor riktad mot honom, att han kan betala i mynt eller berättelse eller dementera eller snubbla på en detalj, och att Kapten Nykter en gång gjorde hans svärdshistoria till ett hamnskämt som han svarade på med en kram"
+    vet_inte: "att Nykter viskar hans svaghet till Kosing i hemlighet"
+    speglas: [amandamungsgard, fabianmacklin]
+    bygger_pa: "romans: 19, fiende: 20"
+    pussel: null
+    status: done
+
+  - id: 38
+    beat: S-05
+    akt: II
+    till: [amandamungsgard]
+    roll: grindvakt
+    vet: "att hennes arvssyndsskatt riktar sig mot Kapten Dunkas uppblåsta anor och svärdshistoria, att hon kan kräva betalt i mynt eller berättelse, och att hon och Kapten Klöver har planerat en hemlig ätupplevelse som kan säljas som ett sätt att slippa skatten"
+    vet_inte: "att Kapten Nykter viskar Dunkas svaghet till henne"
+    speglas: [ludvigvonbahr, johannabergman]
+    bygger_pa: "romans: 19"
+    pussel: null
+    status: done
+
+  - id: 39
+    beat: S-05
+    akt: II
+    till: [fabianmacklin]
+    roll: jagare
+    vet: "att han en gång gjorde Kapten Dunkas svärdshistoria till ett hamnskämt och fick en kram tillbaka som pressade andan ur honom, att Kapten Kosing driver in en arvssyndsskatt mot Dunkas anor, och att han kan viska Dunkas svaga punkt till henne utan att synas i det"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [ludvigvonbahr]
+    bygger_pa: "fiende: 20"
+    pussel: null
+    status: done
+
+  - id: 40
+    beat: S-05
+    akt: II
+    till: [johannabergman]
+    roll: vittne
+    vet: "att hon och Kapten Kosing har planerat en hemlig ätupplevelse tillsammans, och att den kan öppnas för affärer mitt i Kosings arvssyndsindrivning mot Kapten Dunka"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [amandamungsgard]
+    bygger_pa: null
+    pussel: null
+    status: done

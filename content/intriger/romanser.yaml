@@ -115,7 +115,7 @@ romanser:
     a: amandamungsgard     # Kapten Kosing (Amanda Mungsgård)
     b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
     note: Kosings önskemål att spela med Dunka; inte förankrat av honom i underlaget. Inte högintensivt publikt drama (Kosings underlag: inget centrum, ingen kidnappning). Dunka får senare även Malin (#24): håll den romansen diskret så Kosing inte dras in i centrum-drama.
-    status: pending
+    status: done
 
   - id: 20
     type: one_way

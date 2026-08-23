@@ -92,7 +92,7 @@ fiender:
     a: ludvigvonbahr      # Kapten Dunka: Galeonen Gnället
     b: fabianmacklin      # Kapten Nykter: Barken Bortförklaringen
     # oförrätt: Nykter gjorde Dunkas svärdhistoria till hamnskämt; Dunka kramade honom tills andan och äran gick ur
-    status: pending
+    status: done
 
   # --- One-way ---
 

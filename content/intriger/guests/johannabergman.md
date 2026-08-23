@@ -3,7 +3,7 @@
 mirrors:
   - slug: jesperlindmarker
     note: hemlig romans, han vet om Prygel, du vet inte (tvåvägs, asymmetrisk kunskap)
-related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren]
+related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard]
 ---
 
 ## Boken på kajen {slug:petterwallberg}
@@ -17,3 +17,7 @@ related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minerv
 Du delar din kärlek med **Kapten Hurring** utan att ana att han samtidigt delar säng med **Kapten Prygel**. Nu vill han hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld han fortfarande bär.
 
 Dina hemliga spelklubbar i varenda hamn ni lagt till i har gett dig öron överallt, och du har hört ett fragment som pekar mot "någon som är bra på rykten". Sälj det, gärna till Prygel hellre än gratis till Hurring själv, choklad går lika bra som mynt. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, så låt henne betala dyrt för det hon egentligen borde veta ändå.
+
+## Bordet ni planerat tillsammans {slug:amandamungsgard}
+
+Du och **Kapten Kosing** har länge planerat en hemlig, exklusiv ätupplevelse, och nu ska den bli lönsam. Hon driver in en arvssyndsskatt mot uppblåsta anor, riktad mot **Kapten Dunka** och hans påstådda svärdshistoria. Den som vill slippa skatten kan istället köpa sig en plats vid ert bord. Choklad går lika bra som mynt, och du tar din procent oavsett.
