@@ -121,14 +121,14 @@ romanser:
     type: one_way
     a: jesperlejfjord      # Kapten Hjärter (Jesper Lejfjord)
     b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
-    note: a vet att elinamelakoski också brinner för Malin; tipset att dela (#18). Privat, inte publikt par. Jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan.
+    note: a vet att elinamelakoski också brinner för Malin; de förför henne tillsammans, trekant (#18). Privat, inte publikt par. Jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan.
     status: done
 
   - id: 18
     type: one_way
     a: elinamelakoski      # Katten Felix (Elina Melakoski)
     b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
-    note: a vet att jesperlejfjord också brinner för Malin; tipset att dela (#17). Felix trygga person är Hjärter. Jagar hennes hemliga älskare på ön, privat med Hjärter (huvudstory B-13). Sanningen är Karl XII, först i kistan.
+    note: a vet att jesperlejfjord också brinner för Malin; de förför henne tillsammans, trekant (#17). Felix trygga person är Hjärter. Jagar hennes hemliga älskare på ön, privat med Hjärter (huvudstory B-13). Sanningen är Karl XII, först i kistan.
     status: done
 
   - id: 19
