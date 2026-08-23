@@ -20,6 +20,17 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-23, sexpositiv fest
+
+Källa: Gustaf, i chatt. Införd i [`../intriger/STYLE.md`](../intriger/STYLE.md), [`../copy/README.md`](../copy/README.md), [`spelledning.md`](spelledning.md), [`tidslinje.md`](tidslinje.md), [`beslut.md`](beslut.md), [`platser.md`](platser.md).
+
+- [x] Detta är en sexpositiv fest. Även om det inte bjuds in som en sådan så är alla deltagare vana vid sexpositiva rum, så det är inget konstigt bland deltagarna.
+- [x] Vi har inget bestämt play space, utan det är tillåtet med sex över allt och när som helst.
+- [x] Detta kommer inte vara uttryckt i text på webbsidan, men kommer nämnas i praktisk genomgång på plats.
+- [x] Vad det också innebär är att det är okej att använda explicit språk och grövre sexuella referenser i intriger och texter.
+
+---
+
 ## 2026-08-23, Q-2 två ledtrådar, skelettet är Otto
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.md), [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md).

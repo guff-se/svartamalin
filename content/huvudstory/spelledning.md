@@ -31,6 +31,7 @@ Samma innehåll, andra gången kortare. Ordning:
 2. Lookdown, largo, OK-check, cut.
 3. Aldrig ensam på vattnet. Gäller onsen. Kuling och Rödskägg har båtarna. Man får åka utan dem.
 4. Låt saker som hittas av misstag få vara. Ingen ransakning.
+5. Sexpositiv fest. Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Samma cut, largo, lookdown, OK-check som resten av spelet. Står inte på sajten.
 
 När:
 
@@ -39,7 +40,7 @@ När:
 - Lördag 15.28, innan ritualen. Bara cut, largo, lookdown.
 - Lördag 20.45, innan striden. Bara cut.
 
-Sajtcopy nämner att vi går igenom hur vi leker. Den nämner inte cut. Vattenregeln står på sajten.
+Sajtcopy nämner att vi går igenom hur vi leker. Den nämner inte cut. Den nämner inte att festen är sexpositiv eller att sex är tillåtet överallt. Vattenregeln står på sajten.
 
 ---
 

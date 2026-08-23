@@ -20,7 +20,7 @@ Varje fil:
 
 Skriv inte högläsning, bypass, noder, laddtid eller får-inte-listor i rekvisitafilen. Agenten ska skriva papperstexten, inte beskriva den.
 
-Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, ingen sista vers.
+Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, ingen sista vers. Explicit språk är tillåtet när det passar avsändaren. Samma sexpositiva register som intrigerna: lust och sex, inte pryd romankärlek.
 
 **Filnamn:** `{spår}-{typ}-{n}-{funktion}.md`. Quest först, sen vad papperet är, sen ordning, sen funktion. Exempel: `Q2-dagbok-1-namnet.md`. Saker som inte är en quest: `kista-karleksbrev.md`.
 

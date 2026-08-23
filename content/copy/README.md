@@ -6,6 +6,8 @@ STYLE.md gäller **inte** här. Intriger har revyröst. Copy är sajtens röst: 
 
 Inga story-hemligheter, inga lösningar, inga civilnamn på deltagare. Piratnamn när personer nämns.
 
+Skriv **inte** att festen är sexpositiv, att sex är tillåtet, eller att det finns eller saknas play space. Det sägs på plats, i den praktiska genomgången. Se [`../huvudstory/spelledning.md`](../huvudstory/spelledning.md). Explicit språk hör hemma i intrigerna, inte här.
+
 Karta: [`../README.md`](../README.md).
 
 ## Publicering

@@ -19,17 +19,27 @@ Skriv som **klassisk svensk revy à la Povel Ramel**:
 - Finurligt, lekfullt, teatralt, aldrig torrt, aldrig modern “neutral” prosa.
 - Gärna **ordvitsar**, **allitteration**, **rim** och rytmiska meningar (utan att tvinga rim överallt).
 - **Överdrivet och bombastiskt.** Stora känslor, stora skulder, stora ambitioner. Inga små vardagskonflikter.
-- Det är okej med grövre och mer **sexuella** referenser och språk. Publiken är vuxna som är vana vid sex-positiva rum. Sexreferenser skall primärt vara för en kvinnlig och jämnställd publik (no "male gaze").
 - Tilltala mottagaren i **du-form**. Varje person ska känna att **de är hjälten** i historien, även när de är skurkar, förrädare eller stackars lurade. Deras intrig är deras scen.
 - **Alltid piratnamn.** Deltagare omnämns **bara** med sitt piratnamn (`**Kapten Blod**`, `**Svarta Malin**`, …), aldrig civilnamn, smeknamn eller login_slug i brödtexten.
 - Korta texter (några meningar till ett kort stycke per `##`-intrig). Hellre en skarp punchline än en lång utredning.
 - **Aldrig em dash (—).** Det ser AI-skrivet ut och låter konstigt på svenska. Använd komma, kolon, punkt eller omskrivning istället.
 
+### Sexpositiv fest
+
+Festen är sexpositiv. Den bjuds inte in som sådan, men alla deltagare är vana vid sexpositiva rum. Det är inget konstigt bland dem. Inget avgränsat play space: sex är tillåtet överallt och när som helst. Det står **inte** på webbsidan. Det sägs i den praktiska genomgången på plats, se [`../huvudstory/spelledning.md`](../huvudstory/spelledning.md).
+
+Konsekvens för intrigtext:
+
+- Explicit språk och grövre sexuella referenser är **tillåtna**. Kuk, fitta, knulla, suga, binda, ta: orden får användas när de tjänar revyn och lusten.
+- Registret är **lust och sex**, inte romankärlek. "Du vill bli bunden och tagen" slår "Du drömmer om en framtid tillsammans". "Du vill smaka hans svärd" slår "Han skall göra dig till drottning".
+- Primärt för en kvinnlig och jämnställd publik. Ingen male gaze. Mottagaren är subjektet: hen vill, tar, suger, rids, blir tagen för att hen vill det.
+- Sexuell erövring är en giltig drivkraft. Att *måste* ligga med någon för att vinna uppdraget är det inte.
+
 ### Sångtexten som källa
 
 Alla deltagares piratnamn kommer från [`svartamalin-sångtext.txt`](../../svartamalin-sångtext.txt) (Povel Ramel). Intriger får **gärna** referera till ord, bilder och händelser ur sången, prejning, plundring, Salmonellahavet, kaviar och rom, värjor och krut, listor på kaptener, osv., så länge det stannar i karaktärernas värld och inte spoilar metaregeln.
 
-`prejudikat` i sången är vitsen att sjörövare alltid har prejat, och därför har rätt att röva vidare. Ordet rättfärdigar prejningen, det är inte ett redskap man prejar *med*. Skriv "hänvisar till prejudikat" eller "rättfärdigar med prejudikat", aldrig "plundrar med prejudikat". Inte heller generell juridik, tvåvägsrättvisa, ursprungshistoria eller fysiskt bevis.
+`prejudikat` i sången är vitsen att sjörövare alltid har prejat, och därför har rätt att röva vidare. Ordet rättfärdigar prejningen, det är inte ett redskap man prejar *med*. Skriv "hänvisar till prejudikat" eller "rättfärdigar med prejudikat", aldrig "plundrar med prejudikat". Inte heller generell juridik, tvåvägsrättvisa, ursprungshistoria eller fysiskt bevis. Överanvänd inte ordet.
 
 Den sista versen (från “När jag nyss fyllde år…”) är **slutstriden**: kollegorna kommer för att hylla Malin, det blir slagsmål, och hon lämnar dem i en hög. Det är samma ögonblick som lördag kvälls förlisning / metaregeln, använd det som undertext och eko i språket, men skriv det **inte ut** som fakta i intrigerna.
 
@@ -40,6 +50,8 @@ Den sista versen (från “När jag nyss fyllde år…”) är **slutstriden**: 
 | “Du, stolte sjörövare, har en hemlighet som skulle få Salmonellahavet att skälva.” | “Du har information om en annan gäst.” |
 | `**Kapten Blodig**` / `**Kapten Träben**` | Civilnamn (“Gustaf”, “Malin Tadaa”) i intrigtext |
 | Eko från sången: preja, plundra, jubileum, kaviar och rom, valplats | Spoila versen om att alla “låg kvar i en hög” |
+| Lust, åtrå, sexuell dragning. Sexuell erövring. | Att man måste lyckas ligga med någon för att vinna. |
+| "Du vill smaka hans svärd", "Du vill bli bunden och tagen" | "Han skall göra dig till drottning", "Du drömmer om en framtid tillsammans" |
 | Rivalitet, skuld, hemlig kärlek, stöld, ed, arv, svek, i revykostym | Byråkratisk ton, HR-språk, ironisk distans som tar udden ur spelet |
 | Övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut (när sjöfärd ska bli en scen) | En sjöfärd som *måste* gå via dem. Folk får paddla utan dem. |
 | Låt laget kännas som ett teatersällskap med gemensam mission | Platta “gör poäng i tävlingen”-uppdrag utan karaktär |
@@ -173,3 +185,4 @@ De flesta intriger mår bra av att **minst tre personer** är involverade (motta
 12. Kräver texten att någon åker eka, kajak, paddel eller badar ensam? → stryk. Off-regel: aldrig ensam på vattnet.
 13. Kräver texten en sjöfärd som ska bli en scen? Primär väg: övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut. Skriv inte att de *måste*. Folk får åka ut utan dem.
 14. Uppmanar texten till ransakning, att vända ön, eller att ta något man råkar hitta? → stryk. Off-regel: lös gåtor och uppdrag, låt saker som hittas av misstag få vara.
+15. Är språket prydligt eller framtid-tillsammans kring sex och romans? → skriv om. Lust, explicithet och "bunden och tagen" är rätt register. Male gaze är det inte.

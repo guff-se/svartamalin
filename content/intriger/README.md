@@ -4,7 +4,7 @@ Statiska intrig-texter. Publiceras vid deploy. Klienten visar bara inloggad gäs
 
 Karta för hela `content/`: [`../README.md`](../README.md).
 
-**Gästtext, följ [STYLE.md](STYLE.md):** `crews/*.md` och `guests/*.md`. Inget annat i den här mappen visas för deltagarna.
+**Gästtext, följ [STYLE.md](STYLE.md):** `crews/*.md` och `guests/*.md`. Inget annat visat för deltagarna. Explicit språk OK. Register: lust och sex, inte romankärlek.
 
 **Intern text, tydlig prosa:** den här README:n, STYLE.md, [romanser.yaml](romanser.yaml), [fiender.yaml](fiender.yaml) och [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml). Yaml-filerna är källistor för agenten, inte gästcopy.
 

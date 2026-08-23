@@ -8,9 +8,9 @@ alwaysApply: false
 
 Läs [content/README.md](../../content/README.md) innan du skriver eller ändrar något under `content/`.
 
-**Gästtext, intriger (följ [STYLE.md](../../content/intriger/STYLE.md)):** `content/intriger/crews/*.md` och `content/intriger/guests/*.md`.
+**Gästtext, intriger (följ [STYLE.md](../../content/intriger/STYLE.md)):** `content/intriger/crews/*.md` och `content/intriger/guests/*.md`. Explicit språk och grövre sexuella referenser är tillåtna. Register: lust och sex, inte romankärlek.
 
-**Gästtext, sajtens brödtext:** `content/copy/*.md`. Gästerna läser det på webbsidan. Inte STYLE.md. Inte Supabase. Bundlas vid build. En md-ändring syns efter deploy.
+**Gästtext, sajtens brödtext:** `content/copy/*.md`. Gästerna läser det på webbsidan. Inte STYLE.md. Inte Supabase. Bundlas vid build. En md-ändring syns efter deploy. Nämn inte att festen är sexpositiv eller att sex är tillåtet överallt. Det sägs på plats.
 
 **Gästtext på papper, rekvisita:** `content/rekvisita/*.md`. Trycks och används som props på ön. Inte på sajten. Inte STYLE.md. Röst: den fiktiva avsändaren. YAML-taggar (`quest`, `pussel`, `story`, `beat`, `prop`), **max 10 rader meta**, sedan `## Tryck` med papperstexten. Ingen spelledning, högläsning eller får-inte-lista i filen. Karta: [rekvisita/README.md](../../content/rekvisita/README.md).
 

@@ -72,7 +72,7 @@ Karta: [`content/README.md`](content/README.md).
 
 **Gästtext, intriger (följ [`content/intriger/STYLE.md`](content/intriger/STYLE.md)):** `content/intriger/crews/*.md` och `content/intriger/guests/*.md`. Bundlas till inloggad gäst.
 
-**Gästtext, sajtens brödtext:** [`content/copy/`](content/copy/README.md). All brödtext på webbsidan. Inte STYLE.md. Inte Supabase. Bundlas vid build via `import.meta.glob` i `practical-info.js`. Inga story-hemligheter.
+**Gästtext, sajtens brödtext:** [`content/copy/`](content/copy/README.md). All brödtext på webbsidan. Inte STYLE.md. Inte Supabase. Bundlas vid build via `import.meta.glob` i `practical-info.js`. Inga story-hemligheter. Nämn inte att festen är sexpositiv. Det sägs på plats.
 
 **Intern text:** `huvudstory/`, `roller/`, `anteckningar/`, yaml-källistor, README. Gäster ska inte läsa det. Högsta prioritet är att en framtida agent förstår filen. Tydligt, inte poetiskt. Ingen revyröst, ingen du-form till deltagaren. Civilnamn och slug är tillåtna.
 
@@ -91,6 +91,7 @@ curl -s "${VITE_SUPABASE_URL}/rest/v1/guests?select=login_slug,real_name,crew_id
 **När du skriver eller ändrar intrigtext:** läs personens [`content/roller/{slug}.md`](content/roller/) och [`content/anteckningar/{slug}.md`](content/anteckningar/), och följ **alltid** [`content/intriger/STYLE.md`](content/intriger/STYLE.md). Kortfattat:
 
 - Röst: Povel Ramel / klassisk svensk revy — finurligt, ordvitsar, allitteration, rim; överdrivet och bombastiskt; mottagaren är hjälten i sin berättelse (du-form). **Alltid piratnamn** — aldrig civilnamn i intrigtext. Gärna eko från `svartamalin-sångtext.txt` (alla piratnamn kommer därifrån; sista versen = slutstriden — spoila den inte).
+- Sexpositiv fest. Explicit språk och grövre sexuella referenser är tillåtna. Register: lust och sex ("bunden och tagen"), inte romankärlek ("framtid tillsammans"). Ingen male gaze. Står inte på sajten; sägs i genomgången på plats.
 - Metaregel (får **inte** stå i intrigerna): alla dödas av Svarta Malin; hon återvänder som Ran. Spelarna vet det; intrigerna spoilar det inte men leder dramaturgiskt ditåt.
 - Helgens båge styr undertonen: fredag överdåd → lördag svek → lördag kväll förlisning/slagsmål → natt Rans salar.
 - Lag: `crews/{crew_id}.md`. Individ: `guests/{login_slug}.md`. Spegla tvåvägsrelationer; markera envägs i frontmatter.
@@ -108,7 +109,7 @@ Läs `content/huvudstory/README.md` för filkarta, invarianter och definition of
 
 ## Innehållstexter (`content/copy`)
 
-Sajtens brödtext skrivs i [`content/copy/{key}.md`](content/copy/README.md). **Inte** i Supabase. Gästerna läser den. STYLE.md gäller inte där. Vite globbar filerna i `src/components/practical-info.js`. En md-ändring syns efter build/deploy. Hårdkoda inte brödtext i komponenter.
+Sajtens brödtext skrivs i [`content/copy/{key}.md`](content/copy/README.md). **Inte** i Supabase. Gästerna läser den. STYLE.md gäller inte där. Vite globbar filerna i `src/components/practical-info.js`. En md-ändring syns efter build/deploy. Hårdkoda inte brödtext i komponenter. Nämn inte sexpositivitet, play space eller att sex är tillåtet.
 
 **Mönster i koden:**
 

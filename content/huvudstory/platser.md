@@ -32,6 +32,10 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Malins kista** | Låst kista, väl synlig. Ska se ut att innehålla skatt. | Alla ser den. En i taget vid låset. | Konvergenspunkten. Frö fredag, jakt lördag, tändning 20.40. | I, II, IV |
 | **Sovplatser och stugor** | Boende | Alla | Privat. Inte spel. Inte gömställe för lagskatt. | Alla |
 
+## Sex och rum
+
+Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Onsen och bastu är bra för nakenhet och intima möten, men de är inte "sexrummet". Samma cut, largo, lookdown och OK-check som resten av helgen. Säg det i genomgången, inte på sajten. Se [`spelledning.md`](spelledning.md).
+
 ---
 
 ## Egenskaper som styr design
@@ -44,7 +48,7 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 | Piratstugan | **Slutet rum med eld.** Mörkt, avskilt, går att låsa och göra i ordning | Malins tillflykt. Q-2 möblerar den som bebodd, inte som escape-rum. Verkstaden är kvar som escape-rumskandidat |
 | Skelettet | **Grav.** Otto von Pälspung ligger här. Q-2. | Andra cryptex-ledtråden. Namnbladet i stugan är pekaren. Inte en identitetsgåta |
 | Svärdfisken | **Offentligt gömställe.** Alla ser den, ingen tittar i gapet | Dead drop, brevväxling, det som ligger framför allas ögon |
-| Onsen | **Nakenhet och intima möten.** Litet badkar, perfekta för mindre möten, ritualer eller interaktioner. | Bekännelser, allianser, sanningar som sägs muntligt. |
+| Onsen | **Nakenhet och intima möten.** Litet badkar, perfekta för mindre möten, ritualer eller interaktioner. Inte ett avgränsat play space. Sex är tillåtet överallt. | Bekännelser, allianser, sanningar som sägs muntligt, sex. |
 | Bastun | **Nakenhet och samtal.** Ingen kan bära papper eller prop | Semi-offentliga möten, plats där man kan råka höra något nån anna säger. |
 | Verkstaden | **Byggbart.** Vi kan möblera om helt | Arkiv, skattkammare, cell, kartrum. Escape-rumskandidaten. Piratstugan är inte det. |
 | Segelbåten (Tvåkronan) | **Isolering.** Två personer, ingen kan höra | Hemligt möte, gömma det farligaste objektet, förräderi. Parkerad: ett 2-kronorsmynt som ledtråd |

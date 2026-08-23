@@ -24,7 +24,7 @@ Utåt kommuniceras bara **16.00** (samling och avfärd från Enhörna). Båten a
 | 16.00 | Avfärd från Enhörna Varf. Svarta Malin hälsar gästerna välkomna på båten. Svarta Malin är i roll, men inte gästerna. Hon sitter ner en stund med varje lag. Det bjuds på fördrink och snacks. |
 | **17.15** | Ankomst med storbåten, bryggan | Flytta packning och annat praktiskt. |
 | 17.30 | Rumsfördelning, installation, ombyte | Lagen gömmer sina skatter. Detta är enda skattgömningsfönstret. Kistan ska redan stå framme, väl synlig. |
-| 18.30 | Mingel, välkomstskål. **Praktisk genomgång:** play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, och låt saker som hittas av misstag få vara. Cut är okränkbar. Se [`spelledning.md`](spelledning.md). | Piratnamn används från nu. Mjuk drift in i roll, ingen startsignal. |
+| 18.30 | Mingel, välkomstskål. **Praktisk genomgång:** play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, låt saker som hittas av misstag få vara, och sexpositiv fest (inget play space, sex överallt). Cut är okränkbar. Se [`spelledning.md`](spelledning.md). | Piratnamn används från nu. Mjuk drift in i roll, ingen startsignal. |
 | 19.30 | Middag | Malins tal. Här planteras **frön** till huvudstoryn, muntligt, utan att något ska lösas. Kistan är redan synlig. |
 | 21.00 | Bastu, onsen, bad | Bekännelsescener. Individuella intriger och romanser tar plats. |
 | Sent | Fri fest | Ingen story-mekanik. |
@@ -38,7 +38,7 @@ Utåt kommuniceras bara **16.00** (samling och avfärd från Enhörna). Båten a
 | Tid | Ram | Story |
 |-----|-----|-------|
 | 09.00 | Frukost, off live | Ingen roll, inget spel. Medvetet vardagligt. |
-| 10.30 | **Transition.** Börjar med repris av den praktiska genomgången (play to lift, cut, aldrig ensam på vattnet, låt saker som hittas av misstag få vara). Därefter gemensam ceremoni, form TBD. | Gemensam ceremoni som startar spelet. Kort, fysisk, tydlig. Se nedan. |
+| 10.30 | **Transition.** Börjar med repris av den praktiska genomgången (play to lift, cut, aldrig ensam på vattnet, låt saker som hittas av misstag få vara, sexpositiv fest). Därefter gemensam ceremoni, form TBD. | Gemensam ceremoni som startar spelet. Kort, fysisk, tydlig. Se nedan. |
 | 11.00 | Förmiddagsspel | Akt II: cryptexen i omlopp (B-10), skattjakten (B-11), mullvadarna tar kontakt (B-12). Escape, tävling och skattjakt samtidigt. De får krocka. Lösenordet går inte att kläcka än. |
 | 13.30 | Sista chansen Södra Ovanan | Södra Ovanan stänger. Allt vatteninnehåll klart. |
 | **14.00** | **Brunch** | Ordentlig mat, alla äter. Story pausar men roll behålls. Malins bordsscen sätter upp ritualen. |
