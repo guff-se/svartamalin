@@ -221,12 +221,12 @@ Källa: Gustaf, i chatt. Införd i genomgången, [`spelledning.md`](spelledning.
 
 ## 2026-08-23, korthajarna Spader, Klöver, Hjärter
 
-Källa: Gustaf, i chatt. Parkerad som tre konkurrerande outlines i [`sidequests.md`](sidequests.md) S-11. Inte beslutad.
+Källa: Gustaf, i chatt. **S-11 beslutad** samma kväll: A:s bord, B:s sanning (alla tre fuskar), Prygel som dealer, Plåthorn som den som vet, Rötägg stryks. Insatsen är rykte, inte kristallfyrklövern. Se [`sidequests.md`](sidequests.md).
 
-- [ ] lägg till ett nytt sidequest för löjtnant spader, kapten klöver och kapten hjärter. spader, klöver och hjärter är alla korthajar och har lång rivalitet. alla anklagar de andra för att vara fuskare.
-- [ ] hitta på en story som kan utspela sig mellan dessa under helgen. dra även in en 4e och kanekeen 5e person. kom med 3 förslag på outline på storyn.
+- [x] lägg till ett nytt sidequest för löjtnant spader, kapten klöver och kapten hjärter. spader, klöver och hjärter är alla korthajar och har lång rivalitet. alla anklagar de andra för att vara fuskare.
+- [x] hitta på en story som kan utspela sig mellan dessa under helgen. dra även in en 4e och kanekeen 5e person. kom med 3 förslag på outline på storyn.
 
-Kryss när en outline är vald och S-11 är beslutad. Gästtext skrivs inte förrän då.
+Gästtext skrivs efter poster i `fordelning.yaml`.
 
 ---
 

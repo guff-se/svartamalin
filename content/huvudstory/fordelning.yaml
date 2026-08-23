@@ -853,3 +853,64 @@ fordelning:
     bygger_pa: null
     pussel: "Q-2"
     status: done
+
+  - id: 69
+    beat: S-11
+    akt: II
+    till: [gustaftadaa]
+    roll: jagare
+    vet: "att han, Kapten Klöver och Kapten Hjärter är korthajar som i år anklagat varandra för fusk, att de sitter ett enda rubber vid kökskanten den här helgen, att Kapten Prygel delar och hatar Klöver, att insatsen är vem som utpekas som fuskaren inför vittnen, att han palmerar ess bakom pillandet med spader-smyckena, och att Kapten Plåthorn sett honom vinna när han borde förlora"
+    vet_inte: "hur Klöver eller Hjärter fuskar, något av kistan eller kontraktet, någon ledtråd till huvudquesten"
+    speglas: [johannabergman, jesperlejfjord, minervalowgren, elinmartensson]
+    bygger_pa: "fiende: 27, 28, romans: 14"
+    pussel: null
+    status: pending
+
+  - id: 70
+    beat: S-11
+    akt: II
+    till: [johannabergman]
+    roll: jagare
+    vet: "att hon, Löjtnant Spader och Kapten Hjärter är korthajar som i år anklagat varandra för fusk, att hon öppnar ett enda rubber vid kökskanten, att Kapten Prygel delar och hatar henne, att insatsen är rykte inte kristallfyrklövern, och att hennes episka trick är att byta lek mitt i given"
+    vet_inte: "hur Spader eller Hjärter fuskar, något av kistan eller kontraktet"
+    speglas: [gustaftadaa, jesperlejfjord, minervalowgren]
+    bygger_pa: "fiende: 27, 29, 1"
+    pussel: null
+    status: pending
+
+  - id: 71
+    beat: S-11
+    akt: II
+    till: [jesperlejfjord]
+    roll: jagare
+    vet: "att han, Löjtnant Spader och Kapten Klöver är korthajar som i år anklagat varandra för fusk, att rubbern sitter vid kökskanten så han kan spela mellan grytor, att Kapten Prygel delar, att insatsen är rykte inte kristallfyrklövern, att Katten Felix är borta och det här är buset istället, och att han märker baksidor med kökssmet"
+    vet_inte: "hur Spader eller Klöver fuskar, något av kistan eller kontraktet"
+    speglas: [gustaftadaa, johannabergman, minervalowgren]
+    bygger_pa: "fiende: 28, 29"
+    pussel: null
+    status: pending
+
+  - id: 72
+    beat: S-11
+    akt: II
+    till: [minervalowgren]
+    roll: grindvakt
+    vet: "att hon delar korthajarnas rubber vid kökskanten, att hon hatar Kapten Klöver sedan den stulna valsen och bordningsäran, att hon kan dela snett mot Klöver med sin lilla lek, och att hon tar dealerns cut oavsett vem som utpekas"
+    vet_inte: "hur de tre fuskar, något av kistan eller kontraktet"
+    speglas: [johannabergman, gustaftadaa, jesperlejfjord]
+    bygger_pa: "fiende: 1"
+    pussel: null
+    status: pending
+
+  - id: 73
+    beat: S-11
+    akt: II
+    till: [elinmartensson]
+    roll: vittne
+    vet: "att Löjtnant Spader vinner i kort när han borde förlora, att hon älskar honom i hemlighet, att korthajarna sitter ett rubber vid kökskanten, och att hon kan täcka honom eller sälja den detaljen"
+    vet_inte: "hur Klöver eller Hjärter fuskar, något av kistan eller kontraktet"
+    speglas: [gustaftadaa]
+    bygger_pa: "romans: 14"
+    pussel: null
+    status: pending
+
