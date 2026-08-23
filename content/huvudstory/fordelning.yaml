@@ -864,7 +864,7 @@ fordelning:
     speglas: [johannabergman, jesperlejfjord, minervalowgren, elinmartensson]
     bygger_pa: "fiende: 27, 28, romans: 14"
     pussel: null
-    status: pending
+    status: done
 
   - id: 70
     beat: S-11
@@ -876,7 +876,7 @@ fordelning:
     speglas: [gustaftadaa, jesperlejfjord, minervalowgren]
     bygger_pa: "fiende: 27, 29, 1"
     pussel: null
-    status: pending
+    status: done
 
   - id: 71
     beat: S-11
@@ -888,7 +888,7 @@ fordelning:
     speglas: [gustaftadaa, johannabergman, minervalowgren]
     bygger_pa: "fiende: 28, 29"
     pussel: null
-    status: pending
+    status: done
 
   - id: 72
     beat: S-11
@@ -900,7 +900,7 @@ fordelning:
     speglas: [johannabergman, gustaftadaa, jesperlejfjord]
     bygger_pa: "fiende: 1"
     pussel: null
-    status: pending
+    status: done
 
   - id: 73
     beat: S-11
@@ -912,5 +912,5 @@ fordelning:
     speglas: [gustaftadaa]
     bygger_pa: "romans: 14"
     pussel: null
-    status: pending
+    status: done
 

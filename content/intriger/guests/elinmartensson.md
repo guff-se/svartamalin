@@ -30,3 +30,9 @@ Innan hon bar kaptenstiteln sålde **Svarta Malin** sin närhet för guld. Hamne
 Du vet något om att göra en historia större än den var, om att bygga ett rykte som gör dig svårare att komma åt. Malin har gjort samma sak i stor skala, och du vill veta hur hon bar det, kanske för att stjäla lite av tricket själv.
 
 Ett dagboksblad om hennes första år som kurtisan ligger rivet i två halvor: en vid **Gubben i stubben**, en vid **Gumman på udden**. Hämta båda innan en annan skuta hinner före dig. Håll dem ihop, läs, och vänd. Baksidan pekar vidare.
+
+## Det du vet om hans vinster {slug:gustaftadaa}
+
+Du älskar **Löjtnant Spader** i hemlighet, och du är den enda som sett honom vinna vid korten gång på gång när han egentligen borde ha förlorat. Nu ska han sätta sig vid ett bord med **Kapten Klöver** och **Kapten Hjärter**, två andra korthajar som anklagat honom för fusk lika länge som de anklagat varandra.
+
+Du vet inte hur Klöver eller Hjärter fuskar, bara att alla tre gör det på sitt eget sätt. Vad du gör med det du vet om Spader är ditt val: täck honom tyst från åskådarplats, eller sälj detaljen till någon som skulle betala bra för att se honom avslöjad. Välj innan partiet är slut.

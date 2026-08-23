@@ -428,4 +428,4 @@ Obs: Klöver bär S-02, S-04, S-05 och S-11. De tre första är bank och procent
 
 Ord: kortfärgen heter klöver. Klubb är sällskap. Fyrklöver är växten och amuletten. Inga vitsar som blandar dem.
 
-Gästtext är inte skriven. Posterna 69–73 ligger i `fordelning.yaml` som pending. Varje oförrätt de behöver för att spela måste stå i *deras* gästfil, i klartext.
+Gästtext skriven 2026-08-23. Posterna 69–73 i `fordelning.yaml` markerade done, liksom fiender 27–29.

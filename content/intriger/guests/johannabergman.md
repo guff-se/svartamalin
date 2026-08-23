@@ -3,7 +3,11 @@
 mirrors:
   - slug: jesperlindmarker
     note: hemlig romans, han vet om Prygel, du vet inte (tvåvägs, asymmetrisk kunskap)
-related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard]
+  - slug: jesperlejfjord
+    note: stal hans kristallfyrklöver, mångårig fuskrivalitet (tvåvägs)
+  - slug: gustaftadaa
+    note: mångårig rivalitet, ömsesidiga fuskanklagelser (tvåvägs)
+related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard, jesperlejfjord, gustaftadaa]
 ---
 
 ## Boken på kajen {slug:petterwallberg}
@@ -21,3 +25,9 @@ Dina hemliga spelklubbar i varenda hamn ni lagt till i har gett dig öron övera
 ## Bordet ni planerat tillsammans {slug:amandamungsgard}
 
 Du och **Kapten Kosing** har länge planerat en hemlig, exklusiv ätupplevelse, och nu ska den bli lönsam. Hon driver in en arvssyndsskatt mot uppblåsta anor, riktad mot **Kapten Dunka** och hans påstådda svärdshistoria. Den som vill slippa skatten kan istället köpa sig en plats vid ert bord. Choklad går lika bra som mynt, och du tar din procent oavsett.
+
+## Fyrklövern han inte fått tillbaka {slug:jesperlejfjord}
+
+Du lurade en gång till dig **Kapten Hjärter**s kristallfyrklöver vid ett bord, en riktig tur-amulett, inte kortfärgen du själv är uppkallad efter, och kallade honom speltorsk rakt i ansiktet. Han har inte glömt. Inte heller **Löjtnant Spader**, som du och Hjärter båda anklagat för fusk lika länge som ni anklagat varandra, i hamn efter hamn, utan att någon bevisat något.
+
+I år sitter ni äntligen samma bord, vid kökskanten, ett enda parti innan ritualen. **Kapten Prygel** delar, med sin egen lilla lek om hon vill. Du har ditt episka trick klart: byt hela leken mitt i given, så snyggt att rummet ser trolleri, inte fusk. Den som pekas ut som hajen som faktiskt fuskade förlorar mer än insatsen. Se till att det inte blir du.

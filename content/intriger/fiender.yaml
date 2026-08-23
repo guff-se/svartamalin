@@ -209,7 +209,7 @@ fiender:
     # oförrätt: år vid samma bord. Spader har förlorat förmögenheter i hennes svartklubbar
     # och svär att hon byter lek. Hon svär att han palmerar. Båda har utpekat den andra
     # som fuskare i hamn efter hamn. S-11.
-    status: pending
+    status: done
 
   - id: 28
     type: mutual
@@ -218,7 +218,7 @@ fiender:
     # oförrätt: Hjärter förlorade en omgång han omöjligt kunde förlora. Spader gick därifrån
     # som haj. Hjärter svär att korten var märkta åt fel håll. Spader svär att Hjärter är
     # en torsk som skyller på fusk. S-11.
-    status: pending
+    status: done
 
   - id: 29
     type: mutual
@@ -227,4 +227,4 @@ fiender:
     # oförrätt: hon lurade till sig hans kristallfyrklöver (tur-amulett, inte kortfärg)
     # vid ett bord och kallade honom speltorsk. Han har inte glömt. Inte jakten i S-04.
     # S-11 är rykte vid bordet, inte amuletten som pokal.
-    status: pending
+    status: done

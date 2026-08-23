@@ -5,7 +5,11 @@ mirrors:
     note: hemlig romans, han vet om Klöver, du vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: elinmartensson
     note: vill se hornet krossat (tvåvägs)
-related: [jesperlindmarker, johannabergman, elinmartensson]
+  - slug: gustaftadaa
+    note: delar vid korthajarnas parti
+  - slug: jesperlejfjord
+    note: delar vid korthajarnas parti
+related: [jesperlindmarker, johannabergman, elinmartensson, gustaftadaa, jesperlejfjord]
 ---
 
 ## Vad du inte vet om Hurring {slug:jesperlindmarker}
@@ -17,3 +21,9 @@ Du delar din kärlek till **Kapten Hurring** utan att ana att han samtidigt dela
 ## Hornet som ska krossas {slug:elinmartensson}
 
 **Kapten Plåthorn**s plåthorn stör din stridslystna heder mer än något annat på ön: en enda blåsning i det sätter hela slagfältet i en ohämmad upphetsning och låter henne smita undan striden precis när den blir som hetast. Du vill se det krossat, en gång för alla, på allvar. Lura eller stjäl det från henne, ensam eller tillsammans med **Kapten Kuling** som har egna skäl att vilja åt samma horn, innan festen är över.
+
+## Given du delar {slug:johannabergman}
+
+Du hatar **Kapten Klöver** sedan hon stal både valsen med **Kapten Hurring** och äran för en bordning ni gjorde tillsammans. Nu får du chansen att göra något åt det: hon, **Löjtnant Spader** och **Kapten Hjärter** ska sitta ett enda parti vid kökskanten, och du är den som delar.
+
+Ingen av dem vet exakt hur de andra två fuskar, bara att alla tre är misstänkta. Du behöver inte veta det heller. Ta fram din lilla kortlek och dela snett åt Klövers nackdel om du vill se henne pekas ut som hajen som till slut åkte fast. Ta din procent som delare oavsett hur kvällen slutar.
