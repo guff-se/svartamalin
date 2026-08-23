@@ -76,7 +76,7 @@ romanser:
     a: viktoransund        # Kapten Rödskägg (Viktor Ansund)
     b: josefinansund       # Kapten Frodig (Josefin Ansund)
     note: förbjuden hemlig kärlek, släkter/besättningar fiender i generationer (Rödskäggs underlag)
-    status: pending
+    status: done
 
   - id: 10
     type: mutual

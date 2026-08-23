@@ -56,7 +56,7 @@ fiender:
     b: josefinansund      # Kapten Frodig: Barken Bortförklaringen
     # oförrätt: Frodig stal kapitulationen; Blodig stämplade storseglet i blod
     # Behålls: hot mot Rödskägg–Frodigs hemliga kärlek (#8) om Blodig nystar.
-    status: pending
+    status: done
 
   - id: 5
     type: mutual

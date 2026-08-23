@@ -5,7 +5,9 @@ mirrors:
     note: skäggtrion, skamranden (tvåvägs)
   - slug: hampuslindblad
     note: skäggtrion, blåfärgad och avkrönt (tvåvägs)
-related: [petterwallberg, hampuslindblad, johannabergman]
+  - slug: josefinansund
+    note: förbjuden hemlig kärlek (tvåvägs)
+related: [petterwallberg, hampuslindblad, johannabergman, josefinansund, minimacklin]
 ---
 
 ## Randen han rakade {slug:petterwallberg}
@@ -19,3 +21,9 @@ Ni två, plus **Kapten Blåskägg**, strider om vem som ska kallas Skäggkonung.
 **Kapten Blåskägg** hällde indigo i tvättbaljan medan du sov och lät dig vakna blåstrimmig inför hela besättningen, sen krönte han sig Skäggkonung på stående fot, som om saken redan var avgjord. Den kronan tänker du inte låta honom behålla.
 
 Han och **Kapten Lösskägg** gör båda anspråk på samma titel. Kajen kröner den som får högst skål vid båtarna, innan festen är över. Ta tillbaka kronan med en skål så stor att hamnen glömmer färgen på ditt skägg, och låt Blåskägg känna att tronen alltid satt löst.
+
+## Kärleken ni håller hemlig {slug:josefinansund}
+
+Din kärlek till **Kapten Frodig** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa.
+
+**Kapten Blodig** bär ett gammalt groll mot Frodig och snubblar gärna över ett tecken på er kärlek om hon får chansen. Förneka högljutt, muta henne, eller fly tillsammans, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över.

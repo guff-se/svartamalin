@@ -659,3 +659,51 @@ fordelning:
     bygger_pa: null
     pussel: null
     status: done
+
+  - id: 53
+    beat: S-09
+    akt: II-IV
+    till: [minimacklin]
+    roll: jagare
+    vet: "att hon och Kapten Frodig bär ett gammalt groll, en stulen kapitulation och ett blodstämplat storsegel, att hon kan snubbla över eller nysta i ett tecken på att Frodig har något ihop med Kapten Rödskägg, och att hon kan konfrontera dem eller sälja fragmentet vidare till Kapten Lösskägg"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [josefinansund, viktoransund, petterwallberg]
+    bygger_pa: "fiende: 4"
+    pussel: null
+    status: done
+
+  - id: 54
+    beat: S-09
+    akt: II-IV
+    till: [josefinansund]
+    roll: barare
+    vet: "att hennes förbjudna kärlek till Kapten Rödskägg måste hållas hemlig, att Kapten Blodig bär ett gammalt groll mot henne och gärna snubblar över ett tecken på kärleken, och att panik kan bekräfta ryktet lika säkert som ett erkännande"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [viktoransund, minimacklin]
+    bygger_pa: "romans: 8"
+    pussel: null
+    status: done
+
+  - id: 55
+    beat: S-09
+    akt: II-IV
+    till: [viktoransund]
+    roll: barare
+    vet: "att hans förbjudna kärlek till Kapten Frodig måste hållas hemlig, och att Kapten Blodig bär ett gammalt groll mot Frodig och gärna snubblar över ett tecken på kärleken"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [josefinansund, minimacklin]
+    bygger_pa: "romans: 8"
+    pussel: null
+    status: done
+
+  - id: 56
+    beat: S-09
+    akt: II-IV
+    till: [petterwallberg]
+    roll: jagare
+    vet: "att Kapten Blodig kan sälja honom ett fragment om Kapten Rödskäggs hemliga liv, och att han kan riva upp det vid fel tillfälle mitt i striden om Skäggkonungen"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [minimacklin]
+    bygger_pa: null
+    pussel: null
+    status: done
