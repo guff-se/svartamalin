@@ -68,7 +68,7 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 | Båtarna | **Kapten Kuling** (`josefinlowing`), **Kapten Rödskägg** (`viktoransund`) | Vattenansvariga. Skrivna sjöintriger går gärna via att övertala dem. Man får åka ut utan dem. Aldrig ensam. |
 | Maten | **Kapten Nykter** (`fabianmacklin`), **Kapten Hjärter** (`jesperlejfjord`) | Köksansvariga. Brunch 14.00, mat framme från 17.00. |
 
-Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin och Spader har **mindre** utrymme för egna pussel. Båt- och matansvar är praktiskt, dokumenterat i [`../anteckningar/`](../anteckningar/). Kuling och Rödskäggs övertalningsscener är extra spel, inte ett monopol. Tillsätt inte båt- eller matansvariga som mullvad.
+Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin har mindre utrymme för egna pussel. Spader är **fullt spelbar**: sidequests, romanser, rivaliteter som vanligt. Två undantag, bara de: inga ledtrådar till huvudquesten, och inte mullvad eller kontakt. Se [`forradare.yaml`](forradare.yaml). Båt- och matansvar är praktiskt, dokumenterat i [`../anteckningar/`](../anteckningar/). Kuling och Rödskäggs övertalningsscener är extra spel, inte ett monopol. Tillsätt inte båt- eller matansvariga som mullvad.
 
 ---
 

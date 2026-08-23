@@ -148,7 +148,7 @@ Beslutade 2026-08-23. Ingen gästtext skriven än. Inte i `fordelning.yaml`. Huv
 
 Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Planka, Fuling, Enben, Blåskägg) får ändå kort via yaml och andras föremål. Kosing vill uttryckligen inte stå i centrum av ett högintensivt drama.
 
-**Löjtnant Spader (`gustaftadaa`) kan inte bäras in i huvudstoryn** (han kör runtime och spelledning, se `cast.md`), men han kan delta i sidequests som vilken gäst som helst. Han bär S-04 (spelskuld till Hurring) och S-08 (hemlig romans med Plåthorn, romans 14, som Kuling drar in honom i utan att veta om den). Båda rollerna är låg intensitet: en skuld att förhandla om, ett val att göra i det tysta, ingen ny scen som kräver att han lämnar spelledningen.
+**Löjtnant Spader (`gustaftadaa`) är fullt spelbar.** Sidequests, romanser, rivaliteter som vilken gäst som helst. Två undantag, bara de: inga ledtrådar till huvudquesten, och inte mullvad eller kontakt. Se [`forradare.yaml`](forradare.yaml). Han bär S-04 (spelskuld till Hurring) och S-08 (hemlig romans med Plåthorn, romans 14, som Kuling drar in honom i utan att veta om den).
 
 **Mullvad och sidequest är två hemligheter. Skriv dem inte som samma uppdrag**, se [`forradare.yaml`](forradare.yaml):
 
@@ -183,7 +183,7 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `alexandrapalmquist` | S-10 | sjökort, mild ordning, romans med Döver. Redan mullvad mot Döver (annan hemlighet). |
 | `edvinthungren` | S-07, S-10 | vill vara snäll, enhörningsmanschetter från Planka |
 | `elinmartensson` | S-08 | plåthorn, klagomur |
-| `gustaftadaa` | S-04, S-08 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14). Kan inte bäras in i huvudstoryn (kör runtime), men fungerar som sidequest-deltagare. |
+| `gustaftadaa` | S-04, S-08 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14). Fullt spelbar. Inga huvudquest-ledtrådar, inte mullvad/kontakt. |
 
 Åtta personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `amaliawahlstrom`, `minervalowgren`, `linneaekbom`, `gustaftadaa`. Två bär tre: `fabianmacklin`, `johannabergman`. Alla har rollunderlag med gott om material att bära det på, och ingen av lasterna delar mekanik mellan sidequesterna: se "Obs"-raden under respektive sidequest för hur de hålls isär i gästtexten.
 
@@ -386,7 +386,7 @@ Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att d
 - **Hurring, Fuling, Klöver, Prygel** (romanser 12, 13, fiende 1, 5). **S-04, beslutad.**
 - **Plåthorns horn mot Kuling och Prygel** (fiender 7, 24). **S-08, beslutad.**
 - **Kosing och Dunka** (romans 19, låg intensitet, fiende 20 som garnering). **S-05, beslutad.**
-- **Korthajarna Spader, Klöver, Hjärter.** Ingen fiendepost mellan dem än. Rivaliteten sitter i rollfilerna: Spader är känd fuskare vars metod är ett olöst mysterium, Klöver drev hemliga kortklubbar och lurade Hjärters kristallfyrklöver, Hjärter kallas speltorsk i Klövers underlag och ville ha hemligt bus. **S-11, tre outlines, inte vald.** Fiende 14 (Spader–Rötägg, kortfusk om ett sjökort) är obesökt som motor.
+- **Korthajarna Spader, Klöver, Hjärter.** Ingen fiendepost mellan dem än. Rivaliteten sitter i rollfilerna: Spader är känd fuskare vars metod är ett olöst mysterium, Klöver drev hemliga svartklubbar för kortspel och lurade Hjärters kristallfyrklöver (amulett, inte kortfärg), Hjärter kallas speltorsk i Klövers underlag och ville ha hemligt bus. **S-11, tre outlines, inte vald.** Fiende 14 (Spader–Rötägg, kortfusk om ett sjökort) är obesökt som motor.
 
 ---
 
@@ -398,17 +398,17 @@ Status:         idé. Tre konkurrerande outlines nedan. Ingen gästtext. Inte i 
 
 ### Vad som redan sitter (gemensam kanon för alla tre outlines)
 
-De tre har färgnamn och är korthajar. Det finns **ingen** post i `fiender.yaml` mellan dem. Rivaliteten måste skrivas in när en outline väljs, annars blir gästtexten ogiltig mot invarianten att huvudstoryn inte får motsäga yaml.
+De tre har färgnamn och är korthajar. Det finns **ingen** post i `fiender.yaml` mellan dem.
 
-Etablerat i rollfilerna, inte i yaml:
+Etablerat i rollfilerna:
 
-- Spader är kortspelare av rang, skulder åt båda håll, ryktas fuska. **Hur** han fuskar är uttryckligen ett mysterium för någon att lösa. Han bär spader-smycken. Kan inte lämna spelledning. Befintliga S-04 och S-08 är låg intensitet. En tredje sidequest måste också vara det: bordet kommer till honom, han jagar inte över ön.
+- Spader är kortspelare av rang, skulder åt båda håll, ryktas fuska. **Hur** han fuskar är uttryckligen ett mysterium för någon att lösa. Han bär spader-smycken. Fullt spelbar. Inga ledtrådar till huvudquesten. Inte mullvad, inte kontakt.
 - Klöver har drivit hemliga kortklubbar i varje hamn, fyrdubbelt mer guld än pirateriet, besättningen anar inget. Hon lurade Hjärters kristallfyrklöver i en omgång. Hon vill göra ett episkt korttrick. Hon byter skvaller mot choklad. Redan tre sidequests (S-02, S-04, S-05), alla på samma drag: vadslagning och procent. S-11 måste ha **annan mekanik** (själva bordet, fusket, föremålet), inte en fjärde bankbok.
 - Hjärter förlorade fyrklövern. S-04 säger uttryckligen att han **inte** jagar den där. Om S-11 gör fyrklövern till insats måste den meningen i S-04 stå kvar: jakten sitter här, inte där. Han har maten, scener tål kökskanten. En sidequest (S-01), plus envägsmål i S-10. Han ville hemligt bus, och spela mot Katten Felix som hoppat av.
 
 Helgen: fredag är off-story, retas får de. Avgörandet är lördag före ritualen. Efter 15.30 ingen ny logik, men ett publikt avslöjande, ett trick eller ett raseriutbrott vid bordet går fortfarande.
 
-Lastvarning: Klöver går mot fyra sidequests. Spader mot tre plus runtime. Hjärter tål mer. Den fjärde och femte personen väljs olika per outline, medvetet, så Gustaf kan blanda.
+Lastvarning: Klöver går mot fyra sidequests. Spader mot tre. Hjärter tål mer. Den fjärde och femte personen väljs olika per outline, medvetet, så Gustaf kan blanda.
 
 ### Outline A: Rubber om fyrklövern
 
@@ -420,15 +420,15 @@ Vad de vill:
 
 - Hjärter vill ha fyrklövern tillbaka, som hemligt bus och som bevis att han inte är speltorsken Klöver kallar honom.
 - Klöver vill vinna offentligt med ett episkt trick, och bevisa att de andra fuskar.
-- Spader vill inte förlora mer rykte. Han sätter sig om bordet hamnar där festen redan är.
+- Spader vill inte förlora mer rykte. Han sätter sig vid bordet och spelar.
 - Prygel vill se Klöver förlora. Fiende 1, stulen vals och äran för en bordning. Hon har en mycket liten kortlek och kan fuska tillbaka. Hon är Fromheten, samma skuta som Hjärter, och kan dealera vid kökskanten utan att Hjärter lämnar maten.
 - Rötägg, om han är med: fiende 14, obesökt. Han fuskade i kort och vann Spaders sjökort till Plåthorns fiskegrund. Han är den som kan peka ut ett fusk för att han själv gjort det, eller den som blir utpekad när de tre behöver en syndabock.
 
-Vad står i vägen: var och en är säker på att de andra två fuskar. En "ärlig" dealer som hatar banken. Spader kan inte sitta en lång session.
+Vad står i vägen: var och en är säker på att de andra två fuskar. En "ärlig" dealer som hatar banken.
 
 Varför nu: tre färgnamn på samma ö, trofén fysiskt här, första gången de kan sitta samma bord.
 
-Hur det spelas: Klöver öppnar ett bord, inte en ny klubbhemlighet utan ett enda rubber. Prygel delar. Anklagelser under leken, inte efteråt. Hjärter lagar mat och spelar mellan grytor. Spader går förbi, sätter sig en hand, går igen. Om Rötägg är med står han bakom en stol och "hjälper" någon att se fusk, mot en tjänst.
+Hur det spelas: Klöver öppnar ett bord, inte en ny klubbhemlighet utan ett enda rubber. Prygel delar. Anklagelser under leken, inte efteråt. Hjärter lagar mat och spelar mellan grytor. Spader sitter med. Om Rötägg är med står han bakom en stol och "hjälper" någon att se fusk, mot en tjänst.
 
 Utfall om ja: fyrklövern byter händer, eller åker i sjön, eller sitter kvar hos Klöver efter ett trick ingen kan bevisa. Någon utpekas. Prygel tar procent oavsett, men inte samma procent som i S-02: här är det dealerns cut, inte vadslagningsboken.
 Utfall om nej: rivaliteten finns kvar. Fyrklövern sitter hos Klöver. Huvudstoryn går.
@@ -437,7 +437,7 @@ Bygger på: Klövers föremål och Hjärters förlust. Fiende 1 (Klöver–Pryge
 Speglas hos: de tre. Prygel. Rötägg om vald.
 Krockar: S-04 säger att Hjärter inte jagar fyrklövern *där*. S-02 och S-05 är Klöver som bank, inte som spelare. Prygel bär S-04 och S-08. Rötägg bär S-07 och S-10. Ingen delad mekanik om gästtexten håller isär "dealern vid korthajbordet" från "lilla leken mot Klöver i liggarjakten".
 
-Styrka: mest spelbart. Ett bord, ett föremål, en dealer. Tål kök och spelledning.
+Styrka: mest spelbart. Ett bord, ett föremål, en dealer. Tål kökskanten.
 Svaghet: liknar S-02 i formen (tävling, Klöver tar cut). Måste skrivas som *de tre spelar*, inte som att Klöver bara håller boken.
 
 ### Outline B: Bevisa fusket
@@ -450,11 +450,11 @@ Vad de vill:
 
 - Klöver vill avslöja Spaders metod inför vittnen, med sitt episka trick som motbevis: "så här ser *riktigt* fusk ut, och det är inte vad han gör, eller just det".
 - Hjärter vill sätta dit Klöver för fyrklövern hon lurade, och Spader i samma veva, som bus vid grytorna: byta en lek, märka baksidor, låta någon annan hålla beviset.
-- Spader vill inte bli tagen. Han skyddar metoden. Han lämnar inte runtime.
+- Spader vill inte bli tagen. Han skyddar metoden.
 - Plåthorn vet redan att han vinner när han borde förlora, det står i hennes S-08-text. Hon kan skydda honom eller sälja metoden. Romans 14, hemlig.
 - Rötägg bar fusket mot Spader (fiende 14). Han kan lära Hjärter eller Klöver hur man ser palmerade kort, mot att de släpper hans gamla skuld. Eller plantera märkta kort hos Spader för att täcka sin egen historia.
 
-Vad står i vägen: metoden är osynlig. Plåthorn älskar honom. Rötägg ljuger. Hjärter kan inte lämna köket länge nog för en razzia. Spader är alltid "just på väg".
+Vad står i vägen: metoden är osynlig. Plåthorn älskar honom. Rötägg ljuger. Hjärter kan inte lämna köket länge nog för en razzia.
 
 Varför nu: tre hajars rykte på samma ö. Den som tar de andra den här helgen äger hamnarna efteråt. Katten Felix, som Hjärter ville spela mot, är borta: det här är buset istället.
 

@@ -44,7 +44,7 @@ Tom body är okej. Då finns filen, men inget att läsa.
 
 | Ansvar | Vem |
 |--------|-----|
-| Spelledning | **Löjtnant Spader** (`gustaftadaa`). Inte mullvad, inte kontakt. |
+| Spelledning | **Löjtnant Spader** (`gustaftadaa`). Fullt spelbar. Inte mullvad, inte kontakt, inga huvudquest-ledtrådar. |
 | Båtar | **Kapten Kuling** (`josefinlowing`), **Kapten Rödskägg** (`viktoransund`). Inte mullvad. |
 | Mat | **Kapten Nykter** (`fabianmacklin`), **Kapten Hjärter** (`jesperlejfjord`). Inte mullvad. |
 | Jagar Malins hemliga älskare | **Kapten Hjärter** (`jesperlejfjord`), **Kapten Blodig** (`minimacklin`) |

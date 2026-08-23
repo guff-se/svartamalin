@@ -24,6 +24,7 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.
 7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på varje kort. Bygg inte noder som motsäger den. Q-2 har inget pussel.
 8. **Korvetten Kurtisanens egna quest-trådar spelas bakom Malins rygg.** Malin är skuta 1:s egen kapten. En quest-start till en medlem av **Korvetten Kurtisanen** (`malintadaa` undantagen, hon bär aldrig sin egen jakt) ska instruera att uppdraget måste lösas utan att Malin ser eller anar det. Hon delar koj, köl och vardag med dem hela helgen: att gräva i hennes förflutna är farligare för en Kurtisan än för någon annan skutas medlem. Skriv in det som en konkret risk i gästtexten (hon kan komma runt hörnet när som helst), inte som en spelledningsvarning.
+9. **Löjtnant Spader (`gustaftadaa`) får varken start eller tvärledtråd.** Han är fullt spelbar i övrigt. Han ska inte sitta och lösa huvudquesten.
 
 När du skriver en **start** i en gästs intrig (först när questen är färdig och personen är tillsatt i fördelningen):
 

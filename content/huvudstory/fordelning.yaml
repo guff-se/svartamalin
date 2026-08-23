@@ -43,6 +43,8 @@
 #   * varje skuta: exakt tre quest-starter, olika Q-n
 #   * varje quest: exakt tre skutor
 #   * tvärledtrådar bara till de två quests skutan saknar, och meningslösa utan questet
+#   * gustaftadaa (Löjtnant Spader) får inte quest-starter eller tvärledtrådar
+#     till huvudquesten. I övrigt fullt spelbar. Inte mullvad, inte kontakt.
 
 fordelning:
   - id: 1

@@ -226,3 +226,20 @@ Källa: Gustaf, i chatt. Parkerad som tre konkurrerande outlines i [`sidequests.
 - [ ] hitta på en story som kan utspela sig mellan dessa under helgen. dra även in en 4e och kanekeen 5e person. kom med 3 förslag på outline på storyn.
 
 Kryss när en outline är vald och S-11 är beslutad. Gästtext skrivs inte förrän då.
+
+---
+
+## 2026-08-23, klöver, klubb, fyrklöver
+
+Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-11 och [`../intriger/STYLE.md`](../intriger/STYLE.md).
+
+- [x] Det engelska ordet "Clubs", som i färgen i kortspel är "klöver" på svenska. Ordet "klubb" betyder "club" som i ett sällskap.
+- [x] fyrklöver har inget med kortspel att göra. färgen heter klöver.
+
+---
+
+## 2026-08-23, Spader är spelbar
+
+Källa: Gustaf, i chatt. Införd i [`forradare.yaml`](forradare.yaml), [`cast.md`](cast.md), [`../anteckningar/gustaftadaa.md`](../anteckningar/gustaftadaa.md), [`sidequests.md`](sidequests.md), [`beslut.md`](beslut.md), [`kanon.md`](kanon.md).
+
+- [x] ta bort allt som säger att "spader inte kan lämna spelledningen". Det är skitsnack. Spader är en fullt spelbar karaktär, som deltar i sidequests, romanser, rivaliteter som vanligt. Den enda begränsningen är att han inte kan tilldelas ledtrådar för att försöka lösa main quests, samt att han inte kan vara mullvad/kontaktperson i forradare.yaml. tydliggör detta.

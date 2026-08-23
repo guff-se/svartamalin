@@ -95,7 +95,7 @@ Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.yaml`
 5. Sovplatser är inte gömställen. Malins kista är inte gömställe för lagskatt.
 6. Varje skuta har en mullvad och en kontaktperson, olika personer.
 7. Förrädarcirkel två steg: 1→3→5→2→4→1. Kontaktpersonen är den enda som vet mullvadens existens och identitet.
-8. Paren är tillsatta i [`forradare.yaml`](forradare.yaml). Malin och Spader är inte mullvad. Spader är inte kontakt.
+8. Paren är tillsatta i [`forradare.yaml`](forradare.yaml). Malin och Spader är inte mullvad. Spader är inte kontakt. Spader är i övrigt fullt spelbar och får inte ledtrådar till huvudquesten.
 
 ### Skelettet på Södra Ovanan
 
