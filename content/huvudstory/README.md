@@ -69,7 +69,7 @@ Mottagare får bara vara gäster med `attending = true` i Supabase. Gästlistan 
 
 Fasta ramar. Ändras bara genom ett medvetet beslut som loggas i [`beslut.md`](beslut.md).
 
-1. **25 deltagare, 5 skutor.** Ingen story-bit får kräva att fler än 25 personer finns eller att en skuta har fler än 5 medlemmar. Se [`cast.md`](cast.md).
+1. **24 deltagare, 5 skutor.** Ingen story-bit får kräva att fler än 24 personer finns eller att en skuta har fler än 5 medlemmar. Se [`cast.md`](cast.md).
 2. **Malin är osårbar och dödar alla.** Slutet är låst: alla dödas av Svarta Malin, hon återvänder som Ran. Detta får aldrig stå i gästtext.
 3. **Fredag är off-story.** Överdåd, ingen huvudstory-mekanik, inga pussel. Spelet startar på riktigt lördag förmiddag.
 4. **Ritualen 15.30 är obligatorisk pivot.** Huvudstoryn måste ha ett skäl att alla samlas då, och ritualen ska förändra spelets premiss efteråt.

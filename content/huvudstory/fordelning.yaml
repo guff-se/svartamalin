@@ -122,22 +122,10 @@ fordelning:
     akt: II
     till: [jesperlejfjord]
     roll: jagare
-    vet: "att Svarta Malin gömmer en älskare, och att allt pekar mot någon som är med på ön. Att Katten Felix bär samma låga."
+    vet: "att Svarta Malin gömmer en älskare, och att allt pekar mot någon som är med på ön"
     vet_inte: "att älskaren är Karl XII, att kontraktet finns, att kistan bär sanningen"
-    speglas: [elinamelakoski]
+    speglas: []
     bygger_pa: "romans: 17"
-    pussel: null
-    status: pending
-
-  - id: 8
-    beat: B-13
-    akt: II
-    till: [elinamelakoski]
-    roll: jagare
-    vet: "att Svarta Malin gömmer en älskare, och att allt pekar mot någon som är med på ön. Att Kapten Hjärter bär samma låga. Jakten är privat, inte en scen inför alla."
-    vet_inte: "att älskaren är Karl XII, att kontraktet finns, att kistan bär sanningen"
-    speglas: [jesperlejfjord]
-    bygger_pa: "romans: 18"
     pussel: null
     status: pending
 

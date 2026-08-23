@@ -18,7 +18,8 @@
 #   * edvinthungren: vill vara snäll nu; gamla oförrätter är röta från före omvändelsen
 #   * josefinlowing: bakhåll mot Rödskägg på Paradisets ö (#25). De har båtarna tillsammans: scener vid kajen
 #   * elinmartensson: Prygel vill krossa plåthornet (#24)
-#   * minimacklin blir mjuk 1 min av skeppskatt (Felix): inte fiende med Felix
+#   * minimacklin blir mjuk 1 min av skeppskatt: inte en fiendepost
+#   * elinamelakoski tackade nej 2026-08-23: inga poster
 #
 # status: pending | done | skipped
 # done = brödtext skriven i guests/. Inte förrän den omgången.
@@ -145,13 +146,6 @@ fiender:
     a: jesperlejfjord     # Kapten Hjärter: Fregatten Fromheten
     b: minimacklin        # Kapten Blodig: Fregatten Fördärvet
     # oförrätt: rivaler om Malin. Blodig gör anspråk efter gammalt svek; Hjärter bär hemlig låga (#17, #20)
-    status: pending
-
-  - id: 22
-    type: one_way
-    a: elinamelakoski     # Katten Felix: Fregatten Fromheten
-    b: petterwallberg     # Kapten Lösskägg: Korvetten Kurtisanen
-    # oförrätt: Lösskägg satte skägg på katten och pekade ut vem som skulle förföras. Katten hatar att bli använd; gömmer sig, konfronterar inte.
     status: pending
 
   # --- Skäggtrion (rött / blått / löst skägg): bygger vidare på #3 ---

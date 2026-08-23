@@ -47,7 +47,7 @@ Tom body är okej. Då finns filen, men inget att läsa.
 | Spelledning | **Löjtnant Spader** (`gustaftadaa`). Inte mullvad, inte kontakt. |
 | Båtar | **Kapten Kuling** (`josefinlowing`), **Kapten Rödskägg** (`viktoransund`). Inte mullvad. |
 | Mat | **Kapten Nykter** (`fabianmacklin`), **Kapten Hjärter** (`jesperlejfjord`). Inte mullvad. |
-| Jagar Malins hemliga älskare | **Kapten Hjärter**, **Katten Felix** (`elinamelakoski`), **Kapten Blodig** (`minimacklin`) |
+| Jagar Malins hemliga älskare | **Kapten Hjärter** (`jesperlejfjord`), **Kapten Blodig** (`minimacklin`) |
 | Skäggtrion | **Kapten Lösskägg** (`petterwallberg`), **Kapten Rödskägg**, **Kapten Blåskägg** (`hampuslindblad`). Beslutad, intrigtext TBD. |
 
 Nykter vakt vid ritualen är TBD. Förrädare per skuta: [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml). Skriv inte gästtext som låser dem förrän status är done.

@@ -71,7 +71,7 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 
 **Håll isär från:**
 
-- S-01 (Hjärter, Felix, Blodig jagar en rival i hamnen). Q-1 är dåtid. Otto von Pälspung är död, skelettet på Södra Ovanan, Q-2. S-01 är nutid, någon de tror sitter vid bordet. Vid tillsättning: kolla att Q-1-starten inte landar på samma tre.
+- S-01 (Hjärter och Blodig jagar en rival i hamnen). Q-1 är dåtid. Otto von Pälspung är död, skelettet på Södra Ovanan, Q-2. S-01 är nutid, någon de tror sitter vid bordet. Vid tillsättning: kolla att Q-1-starten inte landar på samma två.
 - Q-2. Q-1 äger kurtisanen, skeppsnamnet och hämnden i sängen. Q-2 äger namnet Svarta, tillflykten och skelettet. Ottos namn får stå i båda. Q-1 säger inte att hon begravde honom.
 - Q-3. Q-1 = namnet som yrke och säng. Q-3 = hur hon tog skutan.
 - Q-5. Q-1 = hemligheter ur sängen, hämnd på en man. Q-5 = boken med andras skulder. Ingen skuldbok i den här questen.

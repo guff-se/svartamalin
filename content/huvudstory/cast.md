@@ -1,10 +1,10 @@
-# Cast: 25 deltagare, 5 skutor
+# Cast: 24 deltagare, 5 skutor
 
 Intern text för Gustaf och agenten. Gäster läser inte detta.
 
 Referenstabell för story-arbetet. Källa: tabellerna `guests` och `pirate_names` i Supabase, filtrerat på `attending = true`. Alla andra rader i `guests` ignoreras. De städas inte ur seed. Uppdatera om piratnamn eller lagindelning ändras.
 
-Verifierad mot databasen 2026-08-20. **Kalle Anka** (`pirate_names.id` 59) är obesatt: återbud, ingen gäst bär namnet.
+Verifierad mot databasen 2026-08-23. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta: återbud, ingen gäst bär namnen.
 
 I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Piratnamn (slug)`.
 
@@ -45,7 +45,6 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 | **Kapten Hjärter** | Jesper Lejfjord | `jesperlejfjord` |
 | **Kapten Kosing** | Amanda Mungsgård | `amandamungsgard` |
 | **Kapten Rödskägg** | Viktor Ansund | `viktoransund` |
-| **Katten Felix** | Elina Melakoski | `elinamelakoski` |
 | **Kapten Prygel** | Minerva Löwgren | `minervalowgren` |
 
 ## Skuta 5: Galeonen Gnället
@@ -81,7 +80,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 |------|----------|---------|------------------------|--------------|
 | `malintadaa` | 0 | 2 | | |
 | `gustaftadaa` | 1 | 1 | | |
-| `petterwallberg` | 1 | 3 | | |
+| `petterwallberg` | 1 | 2 | | |
 | `linneaappert` | 1 | 1 | | |
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | |
@@ -97,7 +96,6 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `jesperlejfjord` | 1 | 1 | | |
 | `amandamungsgard` | 1 | 1 | | |
 | `viktoransund` | 1 | 2 | | |
-| `elinamelakoski` | 1 | 1 | | |
 | `minervalowgren` | 1 | 1 | | |
 | `linneaekbom` | 1 | 1 | | |
 | `alexandrapalmquist` | 1 | 1 | | |

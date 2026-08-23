@@ -79,7 +79,7 @@ Beslutat 2026-08-20. Källa: [`beslut.md`](beslut.md).
 1. Svarta Malin har en kärleksaffär med Karl XII. Det är kanon, inte ett rykte.
 2. Hon får ha andra romanser samtidigt, med gäster på ön. Flera romanser krockar inte med kanon. De krockar gärna i spelet.
 3. I gästtext och rykten före kistan: hon har en **hemlig älskare**. Älskaren ska framstå som någon som är med på ön. Aldrig som någon långt borta, aldrig med kungens namn.
-4. De som redan brinner för henne (**Kapten Hjärter**, **Katten Felix**, **Kapten Blodig**) får veta att hon gömmer någon. De ska leta bland kaptenerna i hamnen.
+4. De som redan brinner för henne (**Kapten Hjärter**, **Kapten Blodig**) får veta att hon gömmer någon. De ska leta bland kaptenerna i hamnen.
 5. Sanningen, att älskaren är kungen, avslöjas först när kistan öppnas. Kärleksbrevet bär det intima registret och sängen. Rummet ska förstå det utan ny logik. Miniatyr är dressing.
 6. Malin vet att det är kungen. Hon vet inte att kistan kommer att öppnas. Utåt: värdinnan som låter hamnen gissa fel.
 7. Hon är fortfarande kurtisan. Affären med kungen är samma yrke, ny kund. Q-1 lär ut receptet i dåtid. Nutiden sitter i kistan. Beslutat 2026-08-22.
@@ -147,9 +147,9 @@ Queststories är inte automatiskt kanon. De får vara opålitliga. De får **int
 
 Kör igenom när ny kanon lagts till, och alltid innan gästtext skrivs.
 
-- [x] Motsäger något av det nya en post i `romanser.yaml`? Nej. Malin får ha flera romanser. #17, #18, #20 består. De jagar en rival på ön.
+- [x] Motsäger något av det nya en post i `romanser.yaml`? Nej. Malin får ha flera romanser. #17, #20 består. De jagar en rival på ön.
 - [ ] Motsäger något av det nya en post i `fiender.yaml`?
 - [ ] Motsäger något av det nya en redan skriven intrig i `guests/` eller `crews/`?
 - [ ] Kräver något av det nya att en deltagare gör två saker samtidigt på olika platser?
 - [x] Spoilar något av det nya metaregeln eller sista versens utgång? Nej. Kungens män i gryningen är fällan piraterna tror på. De dör i striden. Gryningen spelas inte. Affären med kungen nämns inte i gästtext utom hos Malin.
-- [x] Går det att avslöja utan att en enda specifik person måste dyka upp? Ja. Kistans innehåll bär det. Hjärter, Felix och Blodig är krydda.
+- [x] Går det att avslöja utan att en enda specifik person måste dyka upp? Ja. Kistans innehåll bär det. Hjärter och Blodig är krydda.

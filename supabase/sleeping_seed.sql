@@ -26,7 +26,6 @@ from (values
   ('Gustaf Tadaa',        'Sviten',           'Dubbelsäng'),
   ('Malin Tadaa',         'Sviten',           'Dubbelsäng'),
   ('Jesper Lejfjord',     'TV-rummet',        'Bäddsoffa'),
-  ('Elina Melakoski',     'TV-rummet',        'Bäddsoffa'),
   ('Josefin Ansund',      'Bollen',           'Dubbelsäng'),
   ('Viktor Ansund',       'Bollen',           'Dubbelsäng'),
   ('Chris Kummelstedt',   'Bollen',           'Våningssäng'),

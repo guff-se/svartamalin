@@ -19,11 +19,10 @@
 #
 # Rollönskemål som styrt omparningen (content/roller/):
 #   * viktoransund: förbjuden kärlek med Kapten Frodig (josefinansund), inte Mini
-#   * elinamelakoski: enda trygga personen är Kapten Hjärter; inget publikt par med annan
-#   * jesperlejfjord: vill spela mot Katten Felix (hålls i #17/#18, inte som publikt par)
+#   * jesperlejfjord: ville spela mot Katten Felix; Elina återbud 2026-08-23, jakten är med Blodig (fiende 21)
 #   * amandamungsgard: något med Ludvig (#19); ingenting med Mini; inte högintensivt centrum-drama
 #   * minimacklin: oläkt kärlek/svek med Svarta Malin (#20). 1 min förstummad av Malins ögon;
-#     samma tapp för skeppskatt (Felix) — inte par och inte fiende med Felix
+#     samma tapp för skeppskatt: mjuk 1 min, inte fiendskap mot katter
 #   * edvinthungren: manschettknappar med enhörningar, fått för kärlekens skull → #3
 #   * navidmodiri: nemesis är Kapten Hjärter (fiende 23, inte romans)
 #   * josefinlowing: onåd från Rödskägg, bakhåll på Paradisets ö (fiende 25)
@@ -32,6 +31,7 @@
 #     Gör henne till rival med louisevonbahr i fiender.yaml, samma Hampus.
 #   * ludvigvonbahr: utöver Kosing (#19) även ny mutual med Malin (#24), gömma/krock för B-13
 #   * chriskummelstedt tackade nej: inga poster
+#   * elinamelakoski tackade nej 2026-08-23: inga poster. Katten Felix obesatt.
 
 romanser:
   - id: 2
@@ -78,26 +78,12 @@ romanser:
     note: förbjuden hemlig kärlek, släkter/besättningar fiender i generationer (Rödskäggs underlag)
     status: pending
 
-  - id: 9
-    type: mutual
-    a: elinamelakoski      # Katten Felix (Elina Melakoski)
-    b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
-    note: skipped, Katten Felix känner sig bara trygg med Kapten Hjärter
-    status: skipped
-
   - id: 10
     type: mutual
     a: louisevonbahr       # Kapten Fuling (Louise von Bahr)
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
     note: Blåskägg får senare även Enben (#23), ovetande om varandra till en början. Ger Fuling fiende 26 mot Enben.
     status: pending
-
-  - id: 11
-    type: mutual
-    a: josefinansund       # Kapten Frodig (Josefin Ansund)
-    b: jesperlejfjord      # Kapten Hjärter (Jesper Lejfjord)
-    note: skipped, Frodig är Rödskäggs förbjudna kärlek (#8); Hjärter spelar mot Felix via #17/#18
-    status: skipped
 
   - id: 12
     type: mutual
@@ -121,14 +107,7 @@ romanser:
     type: one_way
     a: jesperlejfjord      # Kapten Hjärter (Jesper Lejfjord)
     b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
-    note: a vet att elinamelakoski också brinner för Malin; de förför henne tillsammans, trekant (#18). Privat, inte publikt par. Jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan.
-    status: pending
-
-  - id: 18
-    type: one_way
-    a: elinamelakoski      # Katten Felix (Elina Melakoski)
-    b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
-    note: a vet att jesperlejfjord också brinner för Malin; de förför henne tillsammans, trekant (#17). Felix trygga person är Hjärter. Jagar hennes hemliga älskare på ön, privat med Hjärter (huvudstory B-13). Sanningen är Karl XII, först i kistan.
+    note: Jagar hennes hemliga älskare på ön (huvudstory B-13). Privat, inte publikt par. Sanningen är Karl XII, först i kistan.
     status: pending
 
   - id: 19
@@ -142,7 +121,7 @@ romanser:
     type: one_way
     a: minimacklin         # Kapten Blodig (Mini Macklin)
     b: malintadaa          # Svarta Malin (Malin Tadaa): oläkt kärlek efter svek i tonåren
-    note: jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan. Får krocka med #17/#18. Blodig blir förstummad 1 min om hon ser Malin i ögonen (solglasögon som garden).
+    note: jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan. Får krocka med #17. Blodig blir förstummad 1 min om hon ser Malin i ögonen (solglasögon som garden).
     status: pending
 
   - id: 21
@@ -156,7 +135,7 @@ romanser:
     type: npc
     a: malintadaa          # Svarta Malin (Malin Tadaa)
     npc: Karl XII
-    note: kärleksaffär. Får krocka med #17, #18, #20. I andras gästtext är det en hemlig älskare som ser ut att vara på ön. Sanningen i kistan vid B-42.
+    note: kärleksaffär. Får krocka med #17, #20. I andras gästtext är det en hemlig älskare som ser ut att vara på ön. Sanningen i kistan vid B-42.
     status: pending
 
   - id: 23
@@ -170,5 +149,5 @@ romanser:
     type: mutual
     a: malintadaa          # Svarta Malin (Malin Tadaa)
     b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
-    note: ytterligare synlig romans som gömmer den hemliga (#17/#18/#20/#22), bränsle för jakten på älskaren (huvudstory B-13/S-01). Krockar med Dunkas romans med Kosing (#19): håll den här diskret så Kosing inte dras in i centrum-drama mot sin vilja.
-    status: pending
+    note: ytterligare synlig romans som gömmer den hemliga (#17/#20/#22), bränsle för jakten på älskaren (huvudstory B-13/S-01). Krockar med Dunkas romans med Kosing (#19): håll den här diskret så Kosing inte dras in i centrum-drama mot sin vilja.
+    status: done

@@ -37,7 +37,7 @@ Status:         idé / beslutad / skriven
 
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
-| S-01 | Jakten på älskaren | Hjärter, Felix, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | beslutad |
+| S-01 | Jakten på älskaren | Hjärter, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | beslutad |
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / grindvakt | beslutad |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver | II | jägare / bärare / vittne | beslutad |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg | II | jägare / bärare / vittne | beslutad |
@@ -84,7 +84,6 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `jesperlejfjord` | 1 | jägare | II |
 | `amandamungsgard` | 1 | grindvakt | II |
 | `viktoransund` | 3 | grindvakt, rival, bärare | II–IV |
-| `elinamelakoski` | 1 | jägare | II |
 | `minervalowgren` | 2 | vittne, jägare | II–IV |
 | `linneaekbom` | 2 | jägare, vittne | II–IV |
 | `alexandrapalmquist` | 1 | grindvakt | II |
@@ -101,7 +100,7 @@ S-01 till S-10 är nu alla **beslutade** (2026-08-23). Ingen gästtext är skriv
 ## S-01: Jakten på älskaren
 
 Akt:            II
-Deltagare:      Kapten Hjärter (`jesperlejfjord`), Katten Felix (`elinamelakoski`), Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`), Kapten Dunka (`ludvigvonbahr`). Svarta Malin (`malintadaa`) bär sanningen.
+Deltagare:      Kapten Hjärter (`jesperlejfjord`), Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`), Kapten Dunka (`ludvigvonbahr`). Svarta Malin (`malintadaa`) bär sanningen.
 Roll i storyn:  jägare / bärare / vittne (Enben) / bärare, falsk ledtråd (Dunka)
 Kopplad till:   B-13, B-42
 
@@ -109,12 +108,12 @@ Vad de vill:    ta reda på vem Malin gömmer. Enben vill inget hellre än att M
 Vad står i vägen: hon leder fel. Rivalen ser ut att sitta vid bordet, och nu sitter han också där på riktigt: Dunka och Malin har en synlig, om än diskret, romans (romans 24) som ser ut precis som det jägarna letar efter. Sanningen är Karl XII, och den sitter i kistan.
 Varför nu:      festen, närheten, att hon försvinner. Innan sista skålen.
 
-Hur det spelas: de tre jagar bland kaptenerna. Felix bara privat, med Hjärter. Malin varken bekräftar eller förnekar ett namn i hamnen. Enben, som redan hatar Malin, plockar upp jakten i förbifarten och pekar gärna ut ett namn hon själv ogillar, utan att bry sig om det stämmer. Dunka gör jägarnas jobb åt dem: han låter sig ses vid Malins bord, låter en skål bli tvetydig, och dementerar aldrig ett rykte som får honom att verka som erövraren av jubilaren. Han vet inte att han är en avledning, han tror bara att han äntligen får den status han alltid velat ha. Flera romanser samtidigt är tillåtna och gömmer den hemliga.
+Hur det spelas: Hjärter och Blodig jagar bland kaptenerna. Hjärter privat, vid kökskanten. Malin varken bekräftar eller förnekar ett namn i hamnen. Enben, som redan hatar Malin, plockar upp jakten i förbifarten och pekar gärna ut ett namn hon själv ogillar, utan att bry sig om det stämmer. Dunka gör jägarnas jobb åt dem: han låter sig ses vid Malins bord, låter en skål bli tvetydig, och dementerar aldrig ett rykte som får honom att verka som erövraren av jubilaren. Han vet inte att han är en avledning, han tror bara att han äntligen får den status han alltid velat ha. Flera romanser samtidigt är tillåtna och gömmer den hemliga.
 Utfall om ja:   fel person utpekas, scener, svartsjuka. Enbens falska pekning gör förvirringen värre, och Dunka blir den mest övertygande fel-utpekningen av alla, eftersom han själv aldrig förnekar den. Punchlinen vid kistan blir personlig, och särskilt pinsam för Dunka.
 Utfall om nej:  kistan bär det ändå. Brevet.
 
-Bygger på:      romanser 17, 18, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl att vara med. Fiende 21 (Hjärter–Blodig) om den spelas. Fiende 2 (Enben–Malin) som Enbens skäl att blanda sig i.
-Speglas hos:    Hjärter och Felix speglar jakten. Malin speglar inte deras kärlek. Blodig enväg. Enben enväg, hon bryr sig inte om vem som är skyldig, bara att Malin ser dålig ut. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
+Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl att vara med. Fiende 21 (Hjärter–Blodig) om den spelas. Fiende 2 (Enben–Malin) som Enbens skäl att blanda sig i.
+Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig enväg. Enben enväg, hon bryr sig inte om vem som är skyldig, bara att Malin ser dålig ut. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
 Status:         beslutad
 
 Obs: Enben bär också S-06, samma måltavla (Malin) men en annan handling: här sprider hon en falsk ledtråd, i S-06 tar hon eller Kuling något ifrån henne. Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom.
@@ -130,7 +129,7 @@ Vad de vill:    vara Skäggkonung. Eller åtminstone se till att de andra inte �
 Vad står i vägen: de två andra. Blåskägg har redan krönt sig. Lösskägg samlar skägg. Rödskägg är kränkt.
 Varför nu:      tre skäggnamn på samma ö. Festen. Folk som tittar.
 
-Hur det spelas: TBD. Skriv en kul, publik intrig senare. Inte bärande balk. Inte en lång scen långt från kajen: Rödskägg har båtarna. Klöver, som redan driver hemliga spelklubbar, öppnar en informell vadslagning om vem som blir Skäggkonung och tar procent på varje insats, choklad går lika bra som mynt.
+Hur det spelas: kajen kröner den som får högst skål vid båtarna, inför folk. Fredag: de tre retas, Klöver öppnar boken. Lördag: hyllningen ska landa innan sista skålen. Lösskägg plundrar de andras skägg och sätter vunna tofsar på folk. Rödskägg mutar med Piratpulver och stannar vid båtarna. Blåskägg försvarar den krona han redan satt på sig. Klöver tar procent, choklad lika bra som mynt. Inte bärande balk. Inte en lång scen långt från kajen.
 Utfall om ja:   någon kröns, eller ingen, eller alla tre. Folk har sett det. Klöver går plus oavsett utfall.
 Utfall om nej:  fiendskaperna finns kvar. Huvudstoryn går.
 
@@ -374,9 +373,9 @@ Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlig
 Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att dras in i huvudstoryn, eftersom de redan har tryck och redan korsar skutor:
 
 - **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fyra personer i ett nät. **S-03, beslutad**, med Rosing och Nykter som jägare och Döver som enväg-vittne. Babord hålls utanför här, se S-10.
-- **Blodig, Hjärter och Felix om Malin** (romanser 17, 18, 20 och fiende 21). Tre anspråk på jubilaren. De jagar hennes hemliga älskare i hamnen. Sanningen är Karl XII, först i kistan. **S-01, beslutad. Gästtext inte skriven.**
+- **Blodig och Hjärter om Malin** (romanser 17, 20 och fiende 21). Två anspråk på jubilaren. De jagar hennes hemliga älskare i hamnen. Sanningen är Karl XII, först i kistan. **S-01, beslutad.**
 - **Enben mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Sannolikt vår viktigaste ingång till huvudstoryn. **S-06, beslutad.**
-- **Hjärter och Felix, båda hemligt förälskade i Malin** (romanser 17, 18). De vet om varandra. Två vittnen som vill henne väl och därför kan bära obekväm sanning. De jagar rivalen tillsammans, Felix bara privat. **S-01, beslutad. Gästtext inte skriven.**
+- **Hjärter, hemligt förälskad i Malin** (romans 17). Jagar rivalen privat, vid kökskanten. **S-01, beslutad.**
 - **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Adresserad via fiende 13 i **S-07** och fiende 6 i **S-10**. Mullvad väljs när questsen är färdigskrivna.
 - **Frodig och Rödskägg, förbjuden kärlek** (romans 8, fiende 25). Hotet från Blodig, redan noterat i `fiender.yaml` fiende 4, adresserat i **S-09, beslutad.** Fiende 25 (Kuling–Rödskägg) fortfarande obesökt: kan bli en egen sidequest senare om vattnet ska in.
 - **Hurring, Fuling, Klöver, Prygel** (romanser 12, 13, fiende 1, 5). **S-04, beslutad.**

@@ -92,7 +92,7 @@ Struktur att fylla i:
 | Optiska spåret | TBD. Skylten är parkerad, kikaren finns | | Kikaren (skylten bara om vi beslutar den) | |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
-| Älskarspåret | Malin gömmer någon. Hjärter, Felix och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Felix, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
+| Älskarspåret | Malin gömmer någon. Hjärter och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
 | Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
 | Förrädarspåret | Mullvad per skuta, kontakt på uppdragsgivarens lag. Cirkel två steg. | Fem par i [`forradare.yaml`](forradare.yaml) | Hemliga möten | |
 | Båtspåret | Sjöfärd som *scen*: övertala Kuling eller Rödskägg. Folk får också paddla utan dem. | Kuling, Rödskägg, plus den som vill ut | Bryggan, Södra Ovanan, bojen | B-14 |
@@ -186,10 +186,10 @@ Om det floppar: huvudstoryn går. Play to lift om någon vill ur rollen: cut, in
 Akt:            II
 Tid:            10.30 till 20.40
 Plats:          hela ön
-Inblandade:     Kapten Hjärter (`jesperlejfjord`), Katten Felix (`elinamelakoski`), Kapten Blodig (`minimacklin`). Svarta Malin (`malintadaa`) vet sanningen och leder fel.
+Inblandade:     Kapten Hjärter (`jesperlejfjord`), Kapten Blodig (`minimacklin`). Svarta Malin (`malintadaa`) vet sanningen och leder fel.
 Publik:         den som de anklagar. Inte hela ön, om de inte gör den publik.
 
-Vad händer:     tre personer som brinner för Malin vet att hon gömmer en älskare. Allt pekar mot någon som är med på ön. De letar, anklagar, avlyssnar. Malin varken bekräftar eller förnekar ett namn i hamnen.
+Vad händer:     två personer som brinner för Malin vet att hon gömmer en älskare. Allt pekar mot någon som är med på ön. De letar, anklagar, avlyssnar. Malin varken bekräftar eller förnekar ett namn i hamnen.
 
 Vad ändras:     svartsjukan är i spel. En felaktig rival kan utpekas. Sanningen ändras inte.
 
@@ -249,7 +249,7 @@ Om det floppar: de tre hatar varandra ändå. Huvudstoryn stannar inte.
 Akt:            II
 Tid:            10.30 till 13.30
 Plats:          Gubben i stubben, Gumman på udden, klätternätet
-Inblandade:     tre skutor TBD. Start i en namngiven intrig, inte Hjärter, Felix, Blodig.
+Inblandade:     tre skutor TBD. Start i en namngiven intrig, inte Hjärter, Blodig.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
 Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser dagboken, vänder, följer baksidan till klätternätet. I påsen: blad två (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen.
@@ -394,7 +394,7 @@ Den centrala sanningen delas i bitar. Varje bit får en rad. Regeln från [`RESE
 | Nyckeln ligger i en cryptex som cirkulerar | Cryptexen + lappen | Hitta den | Se den byta ägare | Spader sätter den i någons hand | lördag 11-ish |
 | Lösenordet (kandidat `HKHXII`) | Tre av fem quests + Malins XII | Questskatter | Tvärledtrådar mellan lag | XII syns på Malin vid serveringen | **20.00, inte tidigare** |
 | Ingen skatt. Kärleksbrevet. Festen är fällan. Ensam makt mot förräderiet. | Kistans innehåll | Öppna kistan | Någon skriker innebörden | Malin/Spader tvingar upp 20.45 | 20.40 |
-| Malin har en hemlig älskare | Hjärter, Felix, Blodig | deras intrig | Malins undanflykter | behövs inte | lördag dag |
+| Malin har en hemlig älskare | Hjärter, Blodig | deras intrig | Malins undanflykter | behövs inte | lördag dag |
 | Älskaren är Karl XII | Brevets hälsning och sista rad | Öppna kistan | Hålla upp brevet | samma som B-42, 20.45 | 20.40 |
 
 ## Om ingenting löses

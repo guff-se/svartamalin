@@ -12,9 +12,9 @@ Antagonist och jubilar. Skuta 1, **Korvetten Kurtisanen**. Osårbar. Dödar alla
 
 **Vet inte:** att kistan kommer att öppnas, att XII på halsbandet är en ledtråd, att någon jagar lösenordet.
 
-**S-01:** Hjärter, Felix och Blodig jagar hennes hemliga älskare och tror att det är någon i hamnen. Malin leder fel: varken bekräfta eller förneka ett namn på ön. Spegla inte deras kärlek i hennes gästtext.
+**S-01:** Hjärter och Blodig jagar hennes hemliga älskare och tror att det är någon i hamnen. Malin leder fel: varken bekräfta eller förneka ett namn på ön. Spegla inte deras kärlek i hennes gästtext.
 
 **Inte** mullvad. Default: inte kontakt heller. Mindre utrymme för egen pusselintrig.
 
-Romanser mot henne (enväg, de vet inte om kungen): Hjärter #17, Felix #18, Blodig #20. NPC: Karl XII #22. Fiender: Enben #2, Kosing #17.
+Romanser mot henne (enväg, de vet inte om kungen): Hjärter #17, Blodig #20. NPC: Karl XII #22. Fiender: Enben #2, Kosing #17.
 

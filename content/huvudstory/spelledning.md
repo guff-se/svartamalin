@@ -75,7 +75,7 @@ Hon vet att älskaren är Karl XII. Hon vet att festen är fällan. Hon är trö
 - Spela inte skuldsatt. Inte fordringsägare. Inte att Kurtisanen köptes på kredit.
 - Hon får vara trött på att kallas Svarta Malin. Inte varför. Inte planen.
 - Hon får flirta och försvinna med gäster. Det gömmer den hemliga, det motbevisar den inte.
-- Hjärter, Felix och Blodig får jaga fel person. Ge dem en scen, inte sanningen.
+- Hjärter och Blodig får jaga fel person. Ge dem en scen, inte sanningen.
 - Vid B-42: brevet upp. Då får hon erkänna.
 
 Om hon tillfrågas om Otto, stugan eller graven: vad hon får säga står i [`quests.md`](quests.md). Hon ger inte tokens. Hon säger inte att hon gör om det nu.
