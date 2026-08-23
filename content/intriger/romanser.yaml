@@ -8,7 +8,7 @@
 #
 # status: pending | done | skipped
 # done = brödtext skriven i guests/. Inte förrän den omgången.
-# Gästtext för pending-romanser skriven 2026-08-23. skipped är 9 och 11.
+# Gästfilerna är nollställda 2026-08-23. Inga done förrän gästtexten skrivs om.
 #
 # Svarta Malin får ha flera romanser samtidigt. De krockar gärna i spelet.
 #
@@ -38,45 +38,45 @@ romanser:
     type: mutual
     a: petterwallberg      # Kapten Lösskägg (Petter Wallberg)
     b: josefinlowing       # Kapten Kuling (Josefin Löwing)
-    status: done
+    status: pending
 
   - id: 3
     type: mutual
     a: linneaappert        # Kapten Planka (Linnea Appert)
     b: edvinthungren       # Kapten Rötägg (Edvin Thungren)
     note: Rötäggs manschettknappar med enhörningar, fått för kärlekens skull (Planka). Han vill vara snäll nu; Plankas underlag fortfarande tomt.
-    status: done
+    status: pending
 
   - id: 4
     type: one_way
     a: linneaekbom         # Kapten Rosing (Linnea Ekbom)
     b: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
-    status: done
+    status: pending
 
   - id: 5
     type: one_way
     a: fabianmacklin       # Kapten Nykter (Fabian Macklin)
     b: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
-    status: done
+    status: pending
 
   - id: 6
     type: one_way
     a: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
     b: navidmodiri         # Kapten Döver (Navid Modiri)
-    status: done
+    status: pending
 
   - id: 7
     type: mutual
     a: navidmodiri         # Kapten Döver (Navid Modiri)
     b: alexandrapalmquist  # Kapten Babord (Alexandra Palmquist)
-    status: done
+    status: pending
 
   - id: 8
     type: mutual
     a: viktoransund        # Kapten Rödskägg (Viktor Ansund)
     b: josefinansund       # Kapten Frodig (Josefin Ansund)
     note: förbjuden hemlig kärlek, släkter/besättningar fiender i generationer (Rödskäggs underlag)
-    status: done
+    status: pending
 
   - id: 9
     type: mutual
@@ -90,7 +90,7 @@ romanser:
     a: louisevonbahr       # Kapten Fuling (Louise von Bahr)
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
     note: Blåskägg får senare även Enben (#23), ovetande om varandra till en början. Ger Fuling fiende 26 mot Enben.
-    status: done
+    status: pending
 
   - id: 11
     type: mutual
@@ -103,53 +103,53 @@ romanser:
     type: mutual
     a: jesperlindmarker    # Kapten Hurring (Jesper Lindmarker)
     b: johannabergman      # Kapten Klöver (Johanna Bergman)
-    status: done
+    status: pending
 
   - id: 13
     type: mutual
     a: jesperlindmarker    # Kapten Hurring (Jesper Lindmarker)
     b: minervalowgren      # Kapten Prygel (Minerva Löwgren)
-    status: done
+    status: pending
 
   - id: 14
     type: mutual
     a: gustaftadaa         # Löjtnant Spader (Gustaf Tadaa)
     b: elinmartensson      # Kapten Plåthorn (Elin Mårtensson)
-    status: done
+    status: pending
 
   - id: 17
     type: one_way
     a: jesperlejfjord      # Kapten Hjärter (Jesper Lejfjord)
     b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
     note: a vet att elinamelakoski också brinner för Malin; de förför henne tillsammans, trekant (#18). Privat, inte publikt par. Jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan.
-    status: done
+    status: pending
 
   - id: 18
     type: one_way
     a: elinamelakoski      # Katten Felix (Elina Melakoski)
     b: malintadaa          # Svarta Malin (Malin Tadaa): hemlig kärlek
     note: a vet att jesperlejfjord också brinner för Malin; de förför henne tillsammans, trekant (#17). Felix trygga person är Hjärter. Jagar hennes hemliga älskare på ön, privat med Hjärter (huvudstory B-13). Sanningen är Karl XII, först i kistan.
-    status: done
+    status: pending
 
   - id: 19
     type: mutual
     a: amandamungsgard     # Kapten Kosing (Amanda Mungsgård)
     b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
     note: Kosings önskemål att spela med Dunka; inte förankrat av honom i underlaget. Inte högintensivt publikt drama (Kosings underlag: inget centrum, ingen kidnappning). Dunka får senare även Malin (#24): håll den romansen diskret så Kosing inte dras in i centrum-drama.
-    status: done
+    status: pending
 
   - id: 20
     type: one_way
     a: minimacklin         # Kapten Blodig (Mini Macklin)
     b: malintadaa          # Svarta Malin (Malin Tadaa): oläkt kärlek efter svek i tonåren
     note: jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan. Får krocka med #17/#18. Blodig blir förstummad 1 min om hon ser Malin i ögonen (solglasögon som garden).
-    status: done
+    status: pending
 
   - id: 21
     type: mutual
     a: alexandrapalmquist  # Kapten Babord (Alexandra Palmquist)
     b: gustaftadaa         # Löjtnant Spader (Gustaf Tadaa)
-    status: done
+    status: pending
 
   # NPC, ingen gästfil. b är inte en login_slug.
   - id: 22
@@ -157,18 +157,18 @@ romanser:
     a: malintadaa          # Svarta Malin (Malin Tadaa)
     npc: Karl XII
     note: kärleksaffär. Får krocka med #17, #18, #20. I andras gästtext är det en hemlig älskare som ser ut att vara på ön. Sanningen i kistan vid B-42.
-    status: done
+    status: pending
 
   - id: 23
     type: mutual
     a: amaliawahlstrom     # Kapten Enben (Amalia Wahlström)
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
     note: Enben saknade romans, bara fiende 2 mot Malin. Blåskägg har redan Fuling (#10): Enben är hans andra kärlek, ovetande om varandra till en början. Gör Enben till rival med louisevonbahr i fiender.yaml, samma mönster som Klöver/Prygel om Hurring (fiende 1, romanser 12/13).
-    status: done
+    status: pending
 
   - id: 24
     type: mutual
     a: malintadaa          # Svarta Malin (Malin Tadaa)
     b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
     note: ytterligare synlig romans som gömmer den hemliga (#17/#18/#20/#22), bränsle för jakten på älskaren (huvudstory B-13/S-01). Krockar med Dunkas romans med Kosing (#19): håll den här diskret så Kosing inte dras in i centrum-drama mot sin vilja.
-    status: done
+    status: pending
