@@ -68,10 +68,12 @@ Lappen är en order om play to lose.
 
 ## Malin i roll
 
-Hon vet att älskaren är Karl XII. Ingen annan får veta förrän kistan öppnas.
+Hon vet att älskaren är Karl XII. Hon vet att festen är fällan. Hon är trött på namnet. Hon är inte skuldsatt. Ingen annan får veta förrän kistan öppnas.
 
 - Frågar någon vem hon gömmer: varken bekräfta eller förneka ett namn i hamnen.
 - Namnge inte kungen som älskare före B-42. Inte som skämt.
+- Spela inte skuldsatt. Inte fordringsägare. Inte att Kurtisanen köptes på kredit.
+- Hon får vara trött på att kallas Svarta Malin. Inte varför. Inte planen.
 - Hon får flirta och försvinna med gäster. Det gömmer den hemliga, det motbevisar den inte.
 - Hjärter, Felix och Blodig får jaga fel person. Ge dem en scen, inte sanningen.
 - Vid B-42: brevet upp. Då får hon erkänna.

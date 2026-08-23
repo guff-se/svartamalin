@@ -110,8 +110,8 @@ fordelning:
     akt: II
     till: [malintadaa]
     roll: barare
-    vet: "att hon har en kärleksaffär med Karl XII, att hon får ha andra romanser samtidigt, och att hon ska låta hamnen tro att den hemliga älskaren är någon på ön"
-    vet_inte: "att kistan kommer att öppnas, att brevet avslöjar sängen"
+    vet: "att hon har en kärleksaffär med Karl XII, att festen är fällan hon själv byggt, att hon lierat sig sängvägen för att röja konkurrensen och bli ensam härskare, att belöningen är Kurtisanen plus guld nog att sluta slåss, att hon är trött på namnet Svarta Malin, att hon inte är skuldsatt, att hon får ha andra romanser samtidigt, och att hon ska låta hamnen tro att den hemliga älskaren är någon på ön"
+    vet_inte: "att kistan kommer att öppnas, att brevet läses högt"
     speglas: []
     bygger_pa: "romans: 22"
     pussel: null

@@ -17,7 +17,7 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-03 | Lapp "Denna tappas lätt bort" | B-10 | Fäst på cryptexen, läsbar, tåla slitage | | | saknas |
 | K-04 | Nyckel till kistan, inuti cryptexen | B-41 | Passar K-01. Får plats i cryptexen. | | | saknas |
 | K-05 | Reservnyckel till kistan | cryptex-bypass, 20.45 | Hos spelledning hela helgen. Dolt. | | | saknas |
-| K-06 | Dressing i kistan: övriga brev, minnen, skatter | B-42 | Ser ut som en älskarinnas gömma. Inte plot. Inte en läsuppgift. | | | saknas |
+| K-06 | Dressing i kistan: övriga brev, minnen, skatter | B-42 | Ser ut som en älskarinnas gömma. Inte plot. Inte en läsuppgift. Två lappar: [`../rekvisita/kista-dressing-1-natt.md`](../rekvisita/kista-dressing-1-natt.md), [`../rekvisita/kista-dressing-2-rummet.md`](../rekvisita/kista-dressing-2-rummet.md). Resten fysiskt: smycken, tyger, miniatyren. | | | utkast |
 | K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Enda plot-relevanta i kistan. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md) | | | utkast |
 | K-08 | Miniatyrporträtt av Karl XII | B-42 | Dressing, ett minne bland skatterna. Inte plot. Brevet bär sängen. | | | saknas |
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
@@ -96,7 +96,7 @@ Sådant som ska produceras i repot eller skickas till tryck.
 | Malins dagboksblad, handlingen (Q2-08) | Ett helt blad, stannar i stugan | [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md) | utkast |
 | Malins dagboksblad, tillflykten (Q2-09) | Ett helt blad, stannar i stugan | [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md) | utkast |
 | Miniatyr av Karl XII | Bild, liten, dressing i kistan | | utkast saknas |
-| Övriga brev i kistan | Dressing, inte plot, inte läsuppgift | | |
+| Övriga brev i kistan (K-06) | Två korta lappar, dressing | [`../rekvisita/kista-dressing-1-natt.md`](../rekvisita/kista-dressing-1-natt.md), [`../rekvisita/kista-dressing-2-rummet.md`](../rekvisita/kista-dressing-2-rummet.md) | utkast |
 | Kaptenslistan som fysiskt dokument | Tryck | | |
 | Intrigtexter i UI | Redan byggt | `content/intriger/` | löpande |
 | Praktisk info och program | Markdown, bundlas | `content/copy/` | löpande |
