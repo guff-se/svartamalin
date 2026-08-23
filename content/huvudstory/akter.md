@@ -88,7 +88,7 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. Q-5 är väggen och svärdfisken, B-18. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-5: Storstugan, porträttväggen, svärdfiskens mun. Övriga TBD. | cryptexen vid festen |
+| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. Q-5 är väggen och svärdfisken, B-18. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-5: Storstugan, porträttväggen, svärdfiskens mun. Övriga TBD. | cryptexen vid festen |
 | Optiska spåret | TBD. Skylten är parkerad, kikaren finns | | Kikaren (skylten bara om vi beslutar den) | |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
@@ -249,17 +249,17 @@ Om det floppar: de tre hatar varandra ändå. Huvudstoryn stannar inte.
 Akt:            II
 Tid:            10.30 till 13.30
 Plats:          Gubben i stubben, Gumman på udden, klätternätet
-Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i `quests.md`, hon jagar bladen bakom Malins rygg.
+Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i [`quests.md`](quests.md), hon jagar bladen bakom Malins rygg.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
 Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser dagboken, vänder, följer baksidan till klätternätet. I påsen: blad två (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 
-Trigger:        Q-1-start skriven i de tre individintrigerna ovan (klar 2026-08-23)
+Trigger:        Q-1-start i de tre individintrigerna ovan (pending omskrivning till första ledtråden, 2026-08-23)
 Väg 1:          de tre lagen tävlar, ett vinner föremålen, de andra stjäl eller avskriver
 Väg 2:          någon hittar en halva, den andra saknas, de frågar runt
-Spelledarväg:   se [`quests.md`](quests.md) Q-1. Avskrift bara om halvorna är förlorade. Inte extra uppsättning.
+Spelledarväg:   se [`quests/Q-1.md`](quests/Q-1.md). Avskrift bara om halvorna är förlorade. Inte extra uppsättning.
 
 Pusselnod:      Q-1
 Props:          Q1-01, Q1-03, Q1-04
@@ -280,7 +280,7 @@ Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten 
 Trigger:        Q-2-start skriven i de tre individintrigerna ovan (klar 2026-08-23)
 Väg 1:          de tre lagen turas om i stugan och vid graven, var och en tar en token per gömme
 Väg 2:          ett lag tar alla tokens trots skylten. De andra tar socialt.
-Spelledarväg:   se [`quests.md`](quests.md).
+Spelledarväg:   se [`quests/Q-2.md`](quests/Q-2.md).
 
 Pusselnod:      ingen
 Props:          Q2-01 till Q2-10
@@ -301,7 +301,7 @@ Vad ändras:     rummet vet att hon håller havet med mäns skulder, och att de 
 Trigger:        Q-5-start i tre individintriger, när de är skrivna
 Väg 1:          tre lag tävlar, ett tar munnen, de andra stjäl eller avskriver
 Väg 2:          väggen raserad, Spader har meningen
-Spelledarväg:   se [`quests.md`](quests.md) Q-5. Inte extra uppsättning i munnen.
+Spelledarväg:   se [`quests/Q-5.md`](quests/Q-5.md). Inte extra uppsättning i munnen.
 
 Pusselnod:      Q-5
 Props:          Q5-01, Q5-03, Q5-04. K-10 i kistan, namn vid tillsättning.

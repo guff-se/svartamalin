@@ -20,15 +20,19 @@
 #   akt           I | II | III | IV
 #   till          lista av login_slug, eller mappningen { crew: N }
 #   roll          barare | jagare | grindvakt | vittne   (se premiss.md)
-#   vet           vad personen faktiskt vet efter att ha läst sin intrig
+#   vet           vad personen faktiskt vet efter att ha läst sin intrig.
+#                 Quest-start: bara första ledtråden, inte kapitlet.
+#                 Se quests.md, "Ingångstext". Per quest: quests/Q-n.md.
 #   vet_inte      vad personen uttryckligen inte får veta
 #   speglas       slugs som behöver motsvarande text för att världen ska hålla
 #   bygger_pa     romans: N eller fiende: N ur romanser.yaml / fiender.yaml
-#   pussel        Q-n i quests.md när mekaniken är tillsatt, eller null. Lediga byggstenar i pussel.md.
+#   pussel        Q-n i quests/Q-n.md när mekaniken är tillsatt, eller null. Lediga byggstenar i pussel.md.
 #   status        pending | done | skipped
 #
 # Questposter (när Q-1 till Q-5 är färdigskrivna, story plus uppgifter):
 #   En start per quest, i en spelares intrig, inte i lagfilen.
+#   Starten är första ledtråden: ett skäl att vilja, en konkret nästa handling.
+#   Inte kapitlet. Cirkulerande version utöver starten sitter i props och pit stops.
 #   Tvärledtråd: slug på en skuta som *inte* har ingången. vet: info som
 #   bara är meningsfull om mottagaren redan känner till questet.
 #   Varje skuta: exakt tre starter (olika quests). Varje quest: exakt tre skutor.
@@ -787,36 +791,36 @@ fordelning:
     akt: II
     till: [linneaappert]
     roll: jagare
-    vet: "att Svarta Malin sålde sin närhet som kurtisan innan hon var kapten, att hennes första kärlek var en greve som svek henne för hennes låga stånd, att hon hämnades genom att sälja sig i hans krets och stjäla deras hemligheter, att skutan Kurtisanen är döpt efter yrket, att ett dagboksblad om det ligger rivet i två halvor vid Gubben i stubben och Gumman på udden, och att hon måste jaga bladen utan att Malin, hennes egen kapten på Korvetten Kurtisanen, ser eller anar det"
-    vet_inte: "att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
+    vet: "att det ryktas att Svarta Malin skrev om sin första kärlek i ett dagboksblad, att bladet ligger rivet i två halvor vid Gubben i stubben och Gumman på udden, och att hon måste hämta båda utan att Malin, hennes egen kapten på Korvetten Kurtisanen, ser eller anar det"
+    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, cryptex-lappen, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
-    status: done
+    status: pending
 
   - id: 64
     beat: B-16
     akt: II
     till: [josefinansund]
     roll: jagare
-    vet: "att Svarta Malin sålde sin närhet som kurtisan innan hon var kapten, att hennes första kärlek var en greve som svek henne för hennes låga stånd, att hon hämnades genom att sälja sig i hans krets och stjäla deras hemligheter, att skutan Kurtisanen är döpt efter yrket, och att ett dagboksblad om det ligger rivet i två halvor vid Gubben i stubben och Gumman på udden"
-    vet_inte: "att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
+    vet: "att det ryktas att Svarta Malin skrev om sin första kärlek i ett dagboksblad, och att bladet ligger rivet i två halvor vid Gubben i stubben och Gumman på udden"
+    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, cryptex-lappen, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
-    status: done
+    status: pending
 
   - id: 65
     beat: B-16
     akt: II
     till: [elinmartensson]
     roll: jagare
-    vet: "att Svarta Malin sålde sin närhet som kurtisan innan hon var kapten, att hennes första kärlek var en greve som svek henne för hennes låga stånd, att hon hämnades genom att sälja sig i hans krets och stjäla deras hemligheter, att skutan Kurtisanen är döpt efter yrket, och att ett dagboksblad om det ligger rivet i två halvor vid Gubben i stubben och Gumman på udden"
-    vet_inte: "att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
+    vet: "att det ryktas att Svarta Malin skrev om sin första kärlek i ett dagboksblad, och att bladet ligger rivet i två halvor vid Gubben i stubben och Gumman på udden"
+    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, cryptex-lappen, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
-    status: done
+    status: pending
 
   - id: 66
     beat: B-17

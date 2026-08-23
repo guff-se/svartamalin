@@ -5,7 +5,7 @@ Intern text för Gustaf och agenten. Gäster läser inte detta.
 Runtime på ön. Design, quests, pussel och platser står inte här.
 
 - Story och beats: [`akter.md`](akter.md)
-- Quests: [`quests.md`](quests.md). Hint och bypass sitter i questen. Lediga byggstenar: [`pussel.md`](pussel.md)
+- Quests: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Hint och bypass sitter i questens fil. Lediga byggstenar: [`pussel.md`](pussel.md)
 - Platser, båtar, vatten: [`platser.md`](platser.md)
 - Ritualen: [`ritual.md`](ritual.md). Finalen: [`slutstriden.md`](slutstriden.md)
 - Vem som gör vad: [`cast.md`](cast.md), [`../anteckningar/README.md`](../anteckningar/README.md)
@@ -51,7 +51,7 @@ När:
 
 Verktyg, i ordning: Malin i roll. En deltagare som budbärare. Kollektiv kallelse, högst tre gånger. Ge bort svaret.
 
-Hint och bypass: i questen ([`quests.md`](quests.md)). Lediga byggstenar: [`pussel.md`](pussel.md). Erbjud nästa steg efter ungefär fem minuters stiltje.
+Hint och bypass: i questens fil under [`quests/`](quests/). Lediga byggstenar: [`pussel.md`](pussel.md). Erbjud nästa steg efter ungefär fem minuters stiltje.
 
 ---
 
@@ -80,7 +80,7 @@ Hon vet att älskaren är Karl XII. Hon vet att festen är fällan. Hon är trö
 - Hjärter och Blodig får jaga fel person. Ge dem en scen, inte sanningen.
 - Vid B-42: brevet upp. Då får hon erkänna.
 
-Om hon tillfrågas om Otto, stugan eller graven: vad hon får säga står i [`quests.md`](quests.md). Hon ger inte tokens. Hon säger inte att hon gör om det nu.
+Om hon tillfrågas om Otto, stugan eller graven: vad hon får säga står i [`quests/Q-2.md`](quests/Q-2.md). Hon ger inte tokens. Hon säger inte att hon gör om det nu.
 
 ---
 

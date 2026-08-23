@@ -27,6 +27,7 @@ Skriv som **klassisk svensk revy à la Povel Ramel**:
 - **Han / hon / hen.** Kaptener är inte män som default. Piratnamn styr inte kön (`Katten Felix`, `Kapten Blåskägg`, `Kapten Dunka`). Slå upp `real_name` i [`../anteckningar/{slug}.md`](../anteckningar/). Skriv han/hon efter civilnamnet. Okänd person (hemlig älskare, "någon i hamnen"): **hen**, eller skriv om utan pronomen. "Ta upp jakten tillsammans" slår "Jaga honom tillsammans" när läsaren inte vet könet. Tilltala inte mottagaren som man ("stolte") om du inte vet; "stolta" går för alla.
 - Korta texter (några meningar till ett kort stycke per `##`-intrig). Hellre en skarp punchline än en lång utredning.
 - **Aldrig em dash (—).** Det ser AI-skrivet ut och låter konstigt på svenska. Använd komma, kolon, punkt eller omskrivning istället.
+- **Klöver, klubb, fyrklöver är tre olika ord.** Kortfärgen (eng. Clubs) heter **klöver**. **Klubb** är ett sällskap, till exempel svartklubb. **Fyrklöver** är växten med fyra blad, en tur-amulett. Den har inget med kortspel att göra. Kapten Klöver heter efter färgen. Kristallfyrklövern hon bar från Hjärter är amuletten, inte färgen. Inga ordvitsar som blandar dem.
 
 ### Sexpositiv fest
 
@@ -219,7 +220,7 @@ Utan att det upprepas i just den här meningen får du räkna med:
 - Piratnamn och skutor. De är offentliga (sången, sajten, festen).
 - Mottagarens *egen* `roller/{slug}.md`. De skrev underlaget, de minns det. Tom roller-fil = inget extra.
 - Övriga `##`-stycken i *samma* gästfil, plus lagfilen, plus copy.
-- För huvudstory-bitar: fältet `vet` i *deras* post i [`../huvudstory/fordelning.yaml`](../huvudstory/fordelning.yaml). Fältet `vet_inte` får inte läcka in.
+- För huvudstory-bitar: fältet `vet` i *deras* post i [`../huvudstory/fordelning.yaml`](../huvudstory/fordelning.yaml). Fältet `vet_inte` får inte läcka in. **Quest-start:** `vet` är första ledtråden, inte kapitlet. Skriv inte in "Vad de ska ha lärt sig när questen är klar" från questens fil under [`../huvudstory/quests/`](../huvudstory/quests/). Hur ingångstext skrivs: [`../huvudstory/quests.md`](../huvudstory/quests.md).
 
 ### Vad som inte är känt
 
@@ -261,3 +262,5 @@ Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet at
 17. Refererar texten till en sidequest, ett objekt eller en titel från ett spår personen inte är med i? → stryk. Speglad romans räcker inte.
 18. Stämmer han/hon med civilnamnet i `anteckningar/`? Okänd person: hen, eller skriv om utan pronomen. Anta inte att kaptener är män.
 19. Slutar stycket med `Fredag:` / `Lördag:` utan att tidpunkten är själva saken? → stryk schemat. Vilja, hinder, helgen. Inte spelledning om när de ska spela.
+20. Blandas klöver (kortfärg), klubb (sällskap) och fyrklöver (växt/amulett)? → stryk vitsen. Färgen heter klöver. Fyrklöver har inget med kortspel att göra.
+21. Är det en **quest-start** (Q-1 till Q-5)? Då bara första ledtråden, inte kapitlet. Inte andra intriger eller relationer i samma stycke. Uppmana att ta laget till hjälp. Om stycket redan svarar på vad gästen ska ha lärt sig när questen är klar: stryk svaret. Se [`../huvudstory/quests.md`](../huvudstory/quests.md) Ingångstext.

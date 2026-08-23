@@ -6,13 +6,13 @@ Den här filen är **bara oanvända byggstenar**. När en bit tillsätts en ques
 
 Tillsatta, inte här:
 
-- Q-1 (halvor vid Gubben och Gumman, påse högt i klätternätet): [`quests.md`](quests.md)
-- Q-2 (stuga, grav, tokens, inget pussel): [`quests.md`](quests.md)
-- Q-5 (porträttvägg, svärdfiskens mun, tre lappar): [`quests.md`](quests.md)
+- Q-1 (halvor vid Gubben och Gumman, påse högt i klätternätet): [`quests/Q-1.md`](quests/Q-1.md)
+- Q-2 (stuga, grav, tokens, inget pussel): [`quests/Q-2.md`](quests/Q-2.md)
+- Q-5 (porträttvägg, svärdfiskens mun, tre lappar): [`quests/Q-5.md`](quests/Q-5.md)
 - Cryptex, kista, XII, lösenordskandidat: [`kanon.md`](kanon.md). Runtime: [`spelledning.md`](spelledning.md)
 - Platser som redan har funktion: [`platser.md`](platser.md)
 
-Story och får-inte: [`quests.md`](quests.md). Graf och invarianter: [`README.md`](README.md).
+Story och får-inte: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Graf och invarianter: [`README.md`](README.md).
 
 ---
 

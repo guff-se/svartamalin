@@ -20,6 +20,37 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-23, quest-ingångar är första ledtråden
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`beslut.md`](beslut.md), [`fordelning.yaml`](fordelning.yaml), [`../intriger/STYLE.md`](../intriger/STYLE.md).
+
+- [x] Nej, nej, nej, nu avslöjar du hela storyn i första ledtråden.
+- [x] Uppdatera instruktionerna för hur ingångar till quests skrivs så att de bara ger en första ledtråd om storyn.
+
+Kryss = skrivregeln sitter i [`quests.md`](quests.md) Ingångstext. Befintlig Q-1-gästtext dumpade kapitlet och är pending tills den skrivs om.
+
+---
+
+## 2026-08-23, hur quest-ingångar skrivs
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md) Ingångstext, [`../intriger/STYLE.md`](../intriger/STYLE.md).
+
+- [x] Avslöja inte storyn i första ingången.
+- [x] Blanda inte in andra intriger/relationer. Låt den stå för sig själv.
+- [x] Uppmuntra mottagaren att ta sitt lag till hjälp för att lösa problemet.
+
+---
+
+## 2026-08-23, quests.md uppdelad
+
+Källa: Gustaf, i chatt.
+
+- [x] Dela upp quests.md i 6 filer, en övergripande och en för var och en av de 5 questsen.
+
+Kryss = [`quests.md`](quests.md) plus [`quests/Q-1.md`](quests/Q-1.md) till [`quests/Q-5.md`](quests/Q-5.md).
+
+---
+
 ## 2026-08-23, Q-5 form
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md).
@@ -107,7 +138,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.
 - [x] Denna blir den enda ledtråd som pekar till stugan på södra ön.
 - [x] Sedan är stugan i sig en plats fylld av små minnen som berättar historia. Där finns också ett skrin med kryptex-tokens att hitta, där det står "endast en per lag", så att flera lag skall kunna hitta den. Det är hela questet.
 
-Kryss = inlagt i designen. Tillsättning och intrigtext är inte gjord. Minnena i stugan är agentdesign utifrån Q-2:s kapitel, se [`quests.md`](quests.md). Ersätter "ursprungliga hem" från 2026-08-20.
+Kryss = inlagt i designen. Tillsättning och intrigtext är inte gjord. Minnena i stugan är agentdesign utifrån Q-2:s kapitel, se [`quests/Q-2.md`](quests/Q-2.md). Ersätter "ursprungliga hem" från 2026-08-20.
 
 ---
 
@@ -133,7 +164,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.
 - [x] Gör dagboksbladen ungefär dubbelt så långa. Matcha stilen till hur en ung kvinna skriver dagbok.
 - [x] Ta bort sigillet ur storyn och dagböckerna. Vi kommer att hålla det separat. Texterna skall bara vara dagboksutdrag. Vägvisning för platsen kommer finnas på baksidan av den sönderrivna dagbokssidan.
 
-Kryss = inlagt i designen. Gömställe för minnet är agentdesign, se [`quests.md`](quests.md). Tryck: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md).
+Kryss = inlagt i designen. Gömställe för minnet är agentdesign, se [`quests/Q-1.md`](quests/Q-1.md). Tryck: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md).
 
 ---
 

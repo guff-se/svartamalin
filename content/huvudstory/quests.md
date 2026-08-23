@@ -2,13 +2,23 @@
 
 Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
 
-Använd den här filen när du skriver gästtext i `content/intriger/crews/` eller `guests/`. **Cirkulerande version** är rykte-fakta att lägga in i gästtext, inte färdig STYLE.md-prosa. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
+De fem questsen är kapitel i Malins legend. De är inte slutstoryn. Ingen av dem behöver vara sann. Efter kistan ska de fem *kännas* som samma kvinna.
 
-Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-5 form låst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den hit och stryks där.
+Använd den här filen för gemensamma regler och för hur ingångstext skrivs i `content/intriger/`. Själva kapitlet, mekaniken och props sitter per quest:
+
+| id | Fil |
+|----|-----|
+| Q-1 | [`quests/Q-1.md`](quests/Q-1.md) Första kärleken |
+| Q-2 | [`quests/Q-2.md`](quests/Q-2.md) Hur hon blev pirat |
+| Q-3 | [`quests/Q-3.md`](quests/Q-3.md) Korvetten |
+| Q-4 | [`quests/Q-4.md`](quests/Q-4.md) Ön |
+| Q-5 | [`quests/Q-5.md`](quests/Q-5.md) Skuldboken |
+
+**Cirkulerande version** är rykte-fakta gästerna får *genom questen*, inte färdig STYLE.md-prosa. **Starten** får bara den del som står under **Cirkulerande version, start** på questens egen fil. Resten sitter i props, pit stops och skatten. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
+
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-5 form låst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den till questens fil och stryks där.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
-
-De fem questsen är kapitel i Malins legend. De är inte slutstoryn. Ingen av dem behöver vara sann. Efter kistan ska de fem *kännas* som samma kvinna.
 
 ---
 
@@ -17,24 +27,47 @@ De fem questsen är kapitel i Malins legend. De är inte slutstoryn. Ingen av de
 Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 
 1. Storyn handlar om Svarta Malins dåtid.
-2. Berättaren får ljuga. Gästerna får den cirkulerande versionen. Om sanningen skiljer sig sitter den i den här filen och i kistan.
+2. Berättaren får ljuga. Gästerna får den cirkulerande versionen **genom questen**, inte i första ledtråden. Om sanningen skiljer sig sitter den i questens fil och i kistan.
 3. Får inte nämna Karl XII, kungen, affären, sängen med makten, eller att festen är en fälla.
 4. Får inte citera sista versen som framtid. Får inte spoila metaregeln (alla dör, Malin blir Ran).
 5. Gästtext: piratnamn, du-form, [`../intriger/STYLE.md`](../intriger/STYLE.md). "Ton i gästtext" under skrivstöd är en instruktion till agenten, inte text att klistra in.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.
-7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på varje kort. Bygg inte noder som motsäger den. Q-2 har inget pussel.
+7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på questens fil. Bygg inte noder som motsäger den. Q-2 har inget pussel.
 8. **Korvetten Kurtisanens egna quest-trådar spelas bakom Malins rygg.** Malin är skuta 1:s egen kapten. En quest-start till en medlem av **Korvetten Kurtisanen** (`malintadaa` undantagen, hon bär aldrig sin egen jakt) ska instruera att uppdraget måste lösas utan att Malin ser eller anar det. Hon delar koj, köl och vardag med dem hela helgen: att gräva i hennes förflutna är farligare för en Kurtisan än för någon annan skutas medlem. Skriv in det som en konkret risk i gästtexten (hon kan komma runt hörnet när som helst), inte som en spelledningsvarning.
 9. **Löjtnant Spader (`gustaftadaa`) får varken start eller tvärledtråd.** Han är fullt spelbar i övrigt. Han ska inte sitta och lösa huvudquesten.
 
-När du skriver en **start** i en gästs intrig (först när questen är färdig och personen är tillsatt i fördelningen):
+---
 
-- Ge personen ett skäl att vilja veta just den här saken om Malin. Q-2:s start är ryktet om huset, inte uppdraget "ta reda på hur hon blev pirat".
-- Berätta den cirkulerande versionen som om den vore sann. Q-2: bara stugryktet i starten. Kapitlet sitter i stugan.
-- Peka mot nästa konkreta handling: en person, en plats, ett föremål. Inte "ta reda på sanningen om Malin".
+## Ingångstext i `content/intriger/`
+
+Gäller startstycket i `content/intriger/guests/{slug}.md`. Inte lagfilen. Inte tvärledtråd (den har egen regel längst ner). Skriv först när questen är färdig och personen är tillsatt i [`fordelning.yaml`](fordelning.yaml). Röst enligt [`../intriger/STYLE.md`](../intriger/STYLE.md). Innehåll enligt questens fält **Cirkulerande version, start**.
+
+Starten är **första ledtråden**, inte kapitlet. Gästen ska vilja veta mer och veta vart hen går. Hen ska inte redan ha lärt sig det questen är till för att lära. Testet: om starten redan svarar på fältet "Vad de ska ha lärt sig när questen är klar", är den för lång. Stryk svaret. Lämna frågan, ett rykte, och nästa handling.
+
+Tre hårda regler, utöver listan nedan:
+
+1. **Avslöja inte storyn i första ingången.** Bara fältet **Cirkulerande version, start**. Inte blad 2, inte kapitlet, inte "Vad de ska ha lärt sig när questen är klar". Inte cryptexen. Inte nästa gömme efter det första.
+2. **Blanda inte in andra intriger eller relationer.** Stycket ska stå för sig själv. Koppla det inte till mottagarens romanser, fiendskaper, sidequests eller övriga `##`-stycken i samma fil. Skälet att gå sitter i questen (ryktet, tävlingen, nyfikenheten på Malin), inte i att hen också gömmer en kärlek eller har ett gammalt groll. Undantag: regel 8 för Kurtisanen. Det är questregel, inte personlig intrig.
+3. **Uppmuntra mottagaren att ta sitt lag till hjälp.** Questen är lagets, inte ett solouppdrag. Skriv uttryckligen att hen ska ta med sin skuta. Inte spelledning om när. Inte att hen måste gå ensam.
+
+Övrigt:
+
+- Ge **en** första ledtråd ur den cirkulerande versionen: ett rykte, en fråga, ett namn på ett föremål. Berätta den ledtråden som om den vore sann.
+- Peka mot nästa konkreta handling: en plats, ett föremål, två uddar. Inte "ta reda på sanningen om Malin".
+- Kapitlet sitter i props, pit stops och skatten. Inte i starten.
 - Skriv inte ut fältet "Får inte" som varning till gästen.
-- Är mottagaren från **Korvetten Kurtisanen**: lägg till regel 8 ovan som en risk i berättelsen, inte som en instruktion till spelaren.
+- Är mottagaren från **Korvetten Kurtisanen**: lägg till regel 8 ovan som en risk i berättelsen, inte som en instruktion till spelaren. Hen tar skutan till hjälp, men inte Malin.
 
-När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet. **Q-2 får ingen tvärledtråd.**
+Dåligt: "Du gömmer själv en förbjuden kärlek. Malin var kurtisan och hämnades. Gå till uddarna."
+Bra: "Det ryktas att Malin skrev om sin första kärlek. Bladet ligger itu, en halva vid Gubben i stubben, en vid Gumman på udden. Ta din skuta. Hämta båda innan en annan skuta gör det."
+
+Mönster, redan skrivna:
+
+- Q-1: ett rivet dagboksblad om hennes första kärlek, två uddar. Inte kurtisanen, inte hämnden, inte Ottos namn, inte att skutan är döpt efter yrket.
+- Q-2: ryktet om huset hon byggde. Inte hur hon blev pirat. Kapitlet sitter i stugan.
+- Q-5: du är skyldig henne, hon för logg. Inte var loggen sitter.
+
+När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet. **Q-2 får ingen tvärledtråd.** Samma tre hårda regler: inte kapitlet, inte mottagarens övriga relationer, uppmana att ta laget om tråden ska spelas.
 
 ---
 
@@ -42,320 +75,11 @@ När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråd
 
 | id | Namn | Vad gästen ska ha lärt sig | Sanning vs lögn |
 |----|------|----------------------------|-----------------|
-| Q-1 | Första kärleken | Malin var kurtisan. Sängen är underrättelse och hämnd. Skutan är döpt efter yrket. | Yrket är kanon. Första personen är Greve Otto von Pälspung, inte kungen. Hon är fortfarande kurtisan: det sitter bakom kulisserna. |
-| Q-2 | Hur hon blev pirat | Hon tog namnet Svarta ur sorgen. Hon byggde själv. Hon begravde von Pälspung i skogen. Stugan är tillflykten. | Stugan och graven är kanon. Planen i tillflyktsbladet är kungen, osagt. |
-| Q-3 | Korvetten | Hon prejade sin egen korvett. | **Lögn.** Sanningen: kungen satte den på hennes namn som belöning. Sitter i kistan. |
-| Q-4 | Ön | Hon fick Ovanan med list. Hamnen är ett gammalt löfte. | Får ljuga om bytet. Får inte säga att kajen är en fälla. |
-| Q-5 | Skuldboken | Hon samlar andras skulder. Lojalitet går att skriva upp. | Metoden är sann nog. Kistan bär inte hennes arkiv. |
-
----
-
-## Q-1: Första kärleken
-
-Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-22. Källa: Gustaf, [`egna.md`](egna.md).
-
-**Vad gästerna ska jaga:** Vem Malin älskade först, och varför skutan heter Kurtisanen.
-
-**Vad de ska ha lärt sig när questen är klar:** Malin sålde närhet innan hon var kapten. Hon gör sängen till underrättelse. Första kärleken var Greve Otto von Pälspung, som utnyttjade henne. Hon hämnades genom att sälja sig till hans krets, stjäla deras hemligheter, förråda honom och ta allt han ägde. Det blev receptet. Skeppet är döpt efter yrket.
-
-**Cirkulerande version (det som får stå i gästtext och på dagboksbladet):** Malin var kär i Greve Otto von Pälspung. Han utnyttjade henne och övergav henne för att hon var av lägre stånd. Hon tog hämnd: hon sålde sig som kurtisan till andra män i adelskretsarna, fick fram information om honom, förrådde honom, förnedrade honom och tog allt han ägde. Hon fortsatte som kurtisan. Hon tog inte bara betalt. Hon stal hemligheter och använde dem till utpressning, svek och prejning. Affärer i sängen med överklassen är och har alltid varit centralt för hennes karriär som pirat. Skutan heter Kurtisanen efter yrket.
-
-**Sanning enligt kanon:** Cirkulerande version är sann. Otto von Pälspung är inte kungen och inte en gäst. Han är död. Graven är skelettet i skogen på Södra Ovanan, Q-2. Yrket kurtisan är kanon. Skeppets namn är kanon. **Bakom kulisserna, får inte in i questen:** hon är fortfarande kurtisan, och nu i säng med Karl XII. Det avslöjas i kistan, inte här.
-
-**Får ljuga om:** Hur totalt ruinen var.
-
-**Får inte:**
-
-- Peka ut kungen.
-- Peka ut någon på ön som *är* den första älskaren, eller som *är* den hemliga älskaren nu. S-01 ska kunna korsa tråden och gissa fel.
-- Säga att hon fortfarande säljer sig till makt, eller att kunden nu är kungen.
-- Säga hur hon fick skutan. Det är Q-3. Inte kungen. Inte belöning.
-- Förklara hur hon blev pirat (Q-2) eller hur hon tog skutan (Q-3). Receptet får nämnas. Kuppen får inte.
-
-**Håll isär från:**
-
-- S-01 (Hjärter och Blodig jagar en rival i hamnen). Q-1 är dåtid. Otto von Pälspung är död, skelettet på Södra Ovanan, Q-2. S-01 är nutid, någon de tror sitter vid bordet. Vid tillsättning: kolla att Q-1-starten inte landar på samma två.
-- Q-2. Q-1 äger kurtisanen, skeppsnamnet och hämnden i sängen. Q-2 äger namnet Svarta, tillflykten och skelettet. Ottos namn får stå i båda. Q-1 säger inte att hon begravde honom.
-- Q-3. Q-1 = namnet som yrke och säng. Q-3 = hur hon tog skutan.
-- Q-5. Q-1 = hemligheter ur sängen, hämnd på en man. Q-5 = boken med andras skulder. Ingen skuldbok i den här questen.
-
-**Efter kistan (intern, inte gästtext):** Samma recept. Ny kund. Kärleksbrevet omtolkar Q-1: sängen var inte ny, bara kunden.
-
-**Skrivstöd:**
-
-- Ton i gästtext: skvaller om ett gammalt yrke, en gammal hämnd, ett skeppsnamn. Inte en jakt på den nuvarande älskaren.
-- Props: två dagboksutdrag. Det första (oskyldig Malin) rivs vertikalt, halvor vid Gubben och Gumman. Vägvisning på baksidan. Det andra (efter hämnden) ligger med cryptex-lappen i klätternätet. Tryck: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md), [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md).
-- Håll isär från Q-2:s blad om namnet. Det sitter tidsmässigt mellan de här två utdragen. Q-1 äger kurtisanen och skeppsnamnet. Q-2 äger Svarta, begravningen och skelettet. Ottos namn får stå i Q-2 namnbladet.
-
-**Mekanik:** form låst 2026-08-20. Engångs låst 2026-08-22. Halvorna ligger vid docka och flaska, inte löst på bänken. Bladet är rivet på höjden. Påsen sitter högt i nätet. Bara baksidan pekar dit. Den som råkar se påsen och inte söker den lämnar den.
-
-Platser: **Gubben i stubben** och **Gumman på udden** (var sin halva av det första bladet). **Klätternätet** (andra bladet och cryptex-lappen).
-
-Kedja:
-
-1. Start (intrig) pekar mot de två bänkarna, eller mot att något är delat på två uddar.
-2. Hämta båda halvorna. Framsidan är ett dagboksutdrag från **före** förräderiet. Oskyldig Malin, Otto. Ingen hämnd, ingen plats. Vänd. Baksidan är vägvisning till klätternätet.
-3. Skatt: påse högt i klätternätet. I den ligger det **andra** dagboksutdraget (efter hämnden) och cryptex-lappen.
-
-Hint om de kör fast: två uddar, inte en. Titta vid docka och flaska. Håll ihop vertikalt, läs båda sidor. Påsen sitter högt.
-
-Props: två fysiska halvblad, dubbelsidiga (Q1-01). Cryptex-lapp (Q1-03). Ett helt andra blad (Q1-04). Påse.
-
-**Engångs, avsiktligt:** halvorna och påsen tas. Tre skutor har ingång och tävlar. Första laget som fullföljer bär de unika föremålen. De andra två får dem genom stöld, byte, avskrift eller hot. Cryptex-lappen är ett fysiskt papper och får cirkulera som cryptexen. Det är spelet, inte ett fel.
-
-**Tillsättning (2026-08-23):** Skuta 1, 3, 5. Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter eller Blodig (S-01 kolliderar, se ovan). Skuta 2 och 4 har ingen ingång till Q-1. Gästtext skriven i deras `guests/`-filer, se `fordelning.yaml` id 63-65. Planka är Kurtisanen (skuta 1, Malins egen skuta): hennes gästtext bär regel 8 ovan, hon måste jaga bladen utan att Malin ser.
-
-Bypass om halvorna är borta: fråga vem som satt vid bänkarna. Spader har en läsbar avskrift av det hopsatta första bladet (inte cryptex-lappen, inte det andra bladet), så kedjan kan gå vidare till nätet. Bypass om påsen är borta: jaga den som tog den. Om den är förlorad på riktigt: spelledning har reservlapp och avskrift av andra bladet. Om ingen springer Q-1 före brunchen: Spader ger starten en riktning, inte sanningen om kungen.
-
-Får inte i dagboksutdragen: kungen, nuvarande älskare på ön, hur hon fick Kurtisanen, platsen för nästa steg. Ottos namn får och ska stå. Hämnden och skeppsnamnet står bara i det andra utdraget. Platsen står bara på baksidan av det första.
-
----
-
-## Q-2: Hur hon blev pirat
-
-Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta). Relåst 2026-08-23. Källa: Gustaf, [`egna.md`](egna.md).
-
-**Vad gästerna ska jaga:** Huset hon byggde. Sedan graven namnbladet pekar mot.
-
-**Vad de ska ha lärt sig när questen är klar:** Hon föddes inte till pirat. Älskaren förrådde henne. Sorgen och hämnden var svarta, så hon tog namnet Svarta Malin. Hon byggde stugan själv. Handling ger rätten. Hon begravde Otto von Pälspung i skogen på samma ö. Hon kommer fortfarande hit. Det är enda stället hon är ifred.
-
-**Cirkulerande version, start (det som får stå i de tre startintrigerna):** När Malin flyttade hemifrån byggde hon ett hus med egna händer på en öde ö. Det ryktas att huset fortfarande finns kvar i närheten. Dit flyr hon för att vara för sig själv när världen blir för överväldigande.
-
-**Cirkulerande version, stugan (det bladen visar, inte starten):** Älskaren förrådde henne. Sorgen är svart, hämnden är svart, hon tar namnet Svarta Malin. Hon namnger Otto von Pälspung och skriver att hon ska begrava honom på ön, i skogen. Det sitter tidsmässigt mellan Q-1:s två dagboksblad. Ska man göra något ska man göra det själv. Hon byggde huset. Hon tog sjörövarns rätt genom handling. Stugan är fortfarande enda platsen hon är ifred. Kollegorna följer henne. Hon hoppas att en stor plan ska ge lugn.
-
-**Sanning enligt kanon:** Stugan är sann. Hon byggde den. Hon flyr dit fortfarande. Skelettet i skogen är Greve Otto von Pälspung. Hon begravde honom där. Namnet Svarta från sorgen och hämnden är den cirkulerande versionen. Den stora planen i tillflyktsbladet är kontraktet med Karl XII. Bladet får bara säga att det finns en stor plan för lugn. Inte kungen. Inte fällan. Inte affären.
-
-**Får ljuga om:** Brottet. Offret. Om hon var den kränkta eller den som kränkte. Vilket det första bytet var.
-
-**Får inte:**
-
-- Säga att hon byter namn igen (Ran).
-- Säga att hon sedan sålde de andra med samma logik.
-- Ge henne ett civilnamn. Piratnamn bara. Skriv inte ut ett gammalt namn före Svarta.
-- Berätta kurtisanhämnden eller att skutan heter Kurtisanen. Det är Q-1 blad 2. Ottos namn får stå. Begravningen får stå. Hämnden i sängen får inte.
-- Peka mot stugan från någon annan skriven källa än de tre startintrigerna. Ingen tvärledtråd. Ingen sajtcopy. Ingen annan quest. Ingen lapp på huvudön.
-- Nämna skrinet eller tokens i starten. De ligger i stugan och vid graven.
-- Namnge kungen, fällan eller affären. Tillflyktsbladet får bara hint: en stor plan för att lösa alla problem och få lugn.
-- Förklara Q-3. Första bytet är inte Kurtisanen och namnges inte som ett känt skepp.
-
-**Håll isär från:** Q-3 (kuppen mot korvetten). Q-4 (huvudön som hamn, inte Södra Ovanan). Q-1 äger kurtisanen, skeppsnamnet och hämnden i sängen. Q-2 äger namnet Svarta, tillflykten och graven. Ottos namn får stå i båda. Q-1 säger inte att hon begravde honom. Stugan är inte barndomshemmet. Skelettet är inte ett separat spår.
-
-**Efter kistan (intern, inte gästtext):** Planen i tillflyktsbladet var att äntligen vila. Priset var att sälja de andra. Hon blev av med konkurrensen sängvägen. Tillflykten räddade bara henne.
-
-**Skrivstöd:**
-
-- Ton i startintrigen: rykte om ett hus hon byggde, en tillflykt. Inte "ta reda på hur hon blev pirat". Inte en jakt på ett gammalt tilltal. Inte "vem är hon egentligen nu".
-- Starten pekar mot en öde ö i närheten. Den behöver inte namnge Södra Ovanan. Gästerna vet redan att det finns en södra ö med båtar.
-- Tre identiska rykten, en person per av de tre skutorna. Inte i lagfilen. Inte som allmänt rykte.
-- Tvärledtråd: ingen. De två skutorna utan Q-2 får ingen skriven pekare mot stugan. Hör de det socialt är det spel. Råkar de gå in i stugan eller till graven gäller off-regeln: tokens de inte söker lämnas.
-- Vid tillsättning, inte nu: inte Malin. Inte bara Kuling eller Rödskägg: överfarten är logistik, inte questens grind.
-- **Tillsättning (2026-08-23):** Skuta 2, 3, 4. Start: Kapten Fuling (`louisevonbahr`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Skuta 1 och 5 har ingen ingång till Q-2 (Skuta 1 har redan Q-1 via Planka). Ingen av de tre är Kurtisanen: regel 8 gäller inte här. Gästtext skriven, se `fordelning.yaml` id 66-68.
-- Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra ledtråden ligger där. Inte en identitetsgåta. Inte ett separat spår.
-- Props, tryck: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md), [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md), [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md).
-
-**Mekanik:** form låst 2026-08-23. Inga pit stops. Inget pussel. Två cryptex-ledtrådar, tre exemplar av varje. Bokstäver och tre skutor öppna.
-
-Platser: **Södra Ovanan**, **piratstugan** och **skelettet i skogen**. Stugan är huset hon byggde efter att hon flyttade hemifrån. Skelettet är Ottos grav. Inte ett escape-rum. Inte en identitetsgåta.
-
-Kedja:
-
-1. Start (intrig), en person per av tre skutor. Ryktet om huset. Inget mer. Inte graven. Inte tokens.
-2. Överfart till Södra Ovanan. Aldrig ensam. Inte ett pit stop. Inte en gåta. Gärna via Kuling eller Rödskägg för spel. Man får paddla utan dem.
-3. Stugan. Gå in. Titta. Tre blad plus fysiska minnen. Skrinet har första ledtråden. Skylt: **Endast en per lag.** Ta en. Namnbladet pekar mot skogen.
-4. Skogen. Skelettet är Otto von Pälspung. Andra ledtråden. Samma skylt. Ta en. Gå.
-
-Logistik: ekan 5 personer, 2 minuter. Kajaker och SUP 10 minuter, minst två farkoster. Allt på Södra Ovanan klart före 13.30. Stugan tar 6 till 10. Tre skutor kan turas om. Bladen och minnena stannar. Tokens tas, en per lag per gömme. Inte engångs som Q-1: tre lag ska kunna göra samma besök.
-
-Får inte i stugan: Ran, civilnamn, kurtisanhämnden, Kurtisanen som skepp, kungen, fällan, affären, ljus- eller värmepussel, numrerade stationer, något som måste lösas för att skrinet ska synas. Ottos namn och begravningen står i namnbladet.
-
-### Stugan: minnen och skrin
-
-Rummet ska se bebott ut, inte utstädat som museum. Hon var här nyligen. Tre blad bär kapitlet. Fysiska minnen är dressing. Ingen ordning krävs. Ingen grupp är ett lås.
-
-| id | Grupp | Vad som står där | Vad den lär |
-|----|-------|------------------|-------------|
-| Q2-07 | Uppbrottet / Namnet | Dagboksblad. Förrådd av älskaren. Sorgen svart, hämnden svart. Tar namnet Svarta Malin. Namnger Otto von Pälspung. Ska begrava honom i skogen på ön. Tidsmässigt mellan Q-1 blad 1 och blad 2. Tryck: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md). | Hon lämnade hemmet. Hon tog tilltalet här. Pekar mot graven. |
-| Q2-08 | Handlingen | Dagboksblad, filosofiskt. Ska man göra något ska man göra det själv. Bygget och rätten att preja. Dystopisk, högstadie-emo. Tryck: [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md). | Hon byggde själv. Handling ger rätten. |
-| Q2-09 | Tillflykten | Dagboksblad, nutid. Enda stället hon är ifred. Kollegorna följer henne. En stor plan ska ge lugn. Tryck: [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md). | Hon kommer fortfarande hit. Planen nämns, inte innehållet. |
-| Q2-02 | Uppbrottet, föremål | Ihopvikt sjal eller klänning, kam. Inga namn. | Dressing till Q2-07. |
-| Q2-03 | Bygget, föremål | Hyvel, hammare, spån. Bjälke med märke. Möbler lite skeva. | Dressing till Q2-08. |
-| Q2-04 | Rätten, föremål | Namnlös flaggskärva eller skeppsklocka. Ingen lapp. Inte Kurtisanen. | Dressing till Q2-08. |
-| Q2-05 | Namnet, föremål | Ljus duk med svartbränd kant. Inget äldre namn. | Dressing till Q2-07. |
-| Q2-06 | Tillflykten, föremål | Filt, kopp, ljusstump. Ser nyligen använt ut. | Dressing till Q2-09. |
-| Q2-01 | Skrinet | Träskrin, synligt när man är inne. Tre cryptex-tokens, första bokstaven. På lock eller lapp: **Endast en per lag.** | Första ledtråden. En token per quest-lag. |
-
-### Skogen: Ottos grav
-
-Skelettet är Greve Otto von Pälspung. Namnbladet i stugan är pekaren. Inte en identitetsgåta. Inte ett separat spår.
-
-| id | Grupp | Vad som står där | Vad den lär |
-|----|-------|------------------|-------------|
-| Q2-10 | Andra ledtråden | Tre cryptex-tokens vid graven, annan bokstav än Q2-01. Skylt: **Endast en per lag.** | Andra ledtråden. En token per quest-lag. |
-
-Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot södra ön, inte mot kungen, inte extra tokens i knät. Om ett gömme töms av ett lag som tog alla tre: play to lose, de andra tar socialt. Reservtokens hos spelledning bara om tokens är borta från ön. Den som råkar gå in utan Q-2 lämnar skrinet och tokens vid graven. Bladen får de läsa.
-
----
-
-## Q-3: Korvetten
-
-**Vad gästerna ska jaga:** Hur hon tog Korvetten Kurtisanen.
-
-**Vad de ska ha lärt sig när questen är klar:** Att hon prejade sin egen korvett med list, och rättfärdigade det med prejudikat. Att Kurtisanens folk seglar i den historien.
-
-**Cirkulerande version (det som får stå i gästtext):** Hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Stor, olaglig, hennes. Det är sången.
-
-**Sanning enligt kanon (2026-08-23, låst mot den här questen):** Kurtisanen är kungens belöning, inte prejad. Han sätter den på hennes namn mot förräderiet. Sanningen sitter i kistan. Den här questen **ska** vara lögnen. Lås inte prejningen som sann.
-
-**Får ljuga om:** Allt kring kuppen. Vem som stod på däck. Om det var hennes skepp redan.
-
-**Får inte:**
-
-- Säga att kungen gav henne skutan, eller att den är belöning.
-- Koppla skutan till kungen, eller till affären, på ett sätt som pekar mot kontraktet.
-- Förklara Q-1:s kurtisan-yrke här. Namnet är redan givet. Den här questen är ägandet.
-
-**Håll isär från:**
-
-- Q-1: namnet som yrke. Q-3: hur skutan togs.
-- Q-5: att hon samlar IOU:er i största allmänhet. Belöningen syns först i kistan, inte i Q-5.
-
-**Efter kistan (intern, inte gästtext):** Prejningen var kungens gåva.
-
-**Skrivstöd:**
-
-- Ton i gästtext: stolt, bombastisk. Sångens version.
-- Props: något som ser ut som bevis för prejning (flagga, loggbok, en proklamation om sjörövarns rätt). Inte ett gåvobrev. Inte kungens sigill. Inte ett föremål som kallas "prejudikat": det ordet är rätten att preja, inte ett papper.
-
-**Mekanik:** ingen. Plocka en ledig byggsten i [`pussel.md`](pussel.md) när formen låses.
-
----
-
-## Q-4: Ön
-
-**Vad gästerna ska jaga:** Hur Malin fick Ovanan.
-
-**Vad de ska ha lärt sig när questen är klar:** Ön är hennes hamn genom ett gammalt byte och ett löfte: kajen ska vara öppen för kaptenerna på listan. Inbjudan är äldre än den här helgen.
-
-**Cirkulerande version (det som får stå i gästtext):** Någon gav ön, någon förlorade den, eller hon tog den. Hon vann den med list, inte med kanon. En föregångare försvann. En ed att hamnen alltid skulle vara öppen för kaptenerna på listan.
-
-**Sanning enligt kanon:** Ovanan är hennes hamn. Hur hon fick den är öppen. Questen får ljuga. Kajen är inte, i gästtexten, byggd som fälla.
-
-**Får ljuga om:** Vems ö det var. Hur bytet gick till. Om föregångaren lever. Om eden fortfarande gäller.
-
-**Får inte:**
-
-- Säga att kajen eller festen är en fälla.
-- Säga att hon samlade piraterna hit på order.
-
-**Håll isär från:** Q-2 äger Södra Ovanan: stugan och Ottos grav. Q-4 handlar om huvudön som hamn. Peka inte mot Södra Ovanan.
-
-**Efter kistan (intern, inte gästtext):** Hon behövde en scen. Hon hade redan en.
-
-**Skrivstöd:**
-
-- Ton i gästtext: ett löfte och ett byte. Inte en jakt på en kropp.
-- Props: ed, karta, föregångarens märke. Inte något från Ottos grav. Det är Q-2.
-
-**Mekanik:** ingen. Plocka en ledig byggsten i [`pussel.md`](pussel.md) när formen låses.
-
----
-
-## Q-5: Skuldboken
-
-**Vad gästerna ska jaga:** Malins skuldlogg. Den egna posten. Sedan det gömda dagboksbladet väggen pekar mot.
-
-**Vad de ska ha lärt sig när questen är klar:** Hon samlar andras skulder. Inte bara guld: IOU:er, eder, obetalda skålar, namn på en lapp. En kapten som inte betalar Malin slutar vara kapten. Lojalitet hos henne är något som kan skrivas upp. Hon håller Salmonellahavet genom att sätta män i skuld.
-
-**Cirkulerande version, start (det som får stå i de tre startintrigerna):** Du är skyldig Svarta Malin pengar. Hon för logg. Du vill komma åt loggen. Inte var den sitter. Mottagaren är en man. Civilnamn i [`../anteckningar/`](../anteckningar/), inte piratnamn.
-
-**Cirkulerande version, tvärledtråd (de två skutorna utan Q-5):** Loggen sitter på väggen i Storstugan, listan på de värsta kaptener som finns. Den som bär tråden står inte själv i loggen och är obrydd. Meningslös om mottagaren inte redan jagar loggen.
-
-**Cirkulerande version, dagboksbladet:** Hon dominerar Salmonellahavet genom att sätta män i skuld till sig. Alla sådana skulder förvaras i hennes skattkista.
-
-**Sanning enligt kanon:** Metoden är sann. Hon håller havet med andras skulder. I kistan ligger tre skuldbrev, ett per Q-5-start. Inte hela arkivet. Plot är fortfarande kärleksbrevet: hon ville sluta hålla.
-
-**Får ljuga om:** Vems skulder utöver de tre. Hur stora. Om loggen är en bok eller lösa lappar. Om fler än de tre posterna finns.
-
-**Får inte:**
-
-- Göra kistan till gömställe för questskatten (bladet och lapparna sitter i svärdfisken).
-- Lukta krona, kung, stat, arrest.
-- Säga att festen är betalning mot någon högre makt.
-- Citera sista versen som framtid. Spoila inte metaregeln.
-- Sätta upp Katten Felix. Obesatt. 24 bilder.
-- Tillsätta en kvinna som Q-5-start. De tre skuldsatta är män.
-
-**Håll isär från:** Kistans kärleksbrev (plot). De tre skuldbreven är Q-5:s payoff, inte tändningen. Q-3 (belöningen av Kurtisanen syns inte här). Q-1 (hemligheter ur sängen, inte en bok). Temat i [`premiss.md`](premiss.md): att sälja rollen man tröttnat på.
-
-**Efter kistan (intern, inte gästtext):** Ni har sett hur hon håller havet. I kistan ligger tre skuldbrev och brevet som visar att hon ville sluta. Arkivet är nästan tomt.
-
-**Skrivstöd:**
-
-- Ton i startintrigen: egen skuld, jakt på loggen. Inte att Malin är skuldsatt. Inte kungen. Inte väggen. Inte fisken. Mottagaren är man.
-- Ton i tvärledtråd: var loggen sitter, att bäraren själv är fri. Inte att man ska vända bilderna. Inte sångordningen.
-- Props: 24 porträtt, 16 med bokstav. Ett dagboksblad. Tre cryptex-lappar. Tre skuldbrev i kistan, namn vid tillsättning. Tryck: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md), [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md).
-
-**Mekanik:** form låst 2026-08-23. Fördröjning mot fredag: Malin i rummet plus metainstruktion. Porträttvägg och svärdfisk tillsatta här.
-
-Platser: **Storstugan**. Porträttväggen "de värsta kaptener som finns", uppsatt efter skuta. **Svärdfiskens mun**: dagboksblad plus tre cryptex-lappar.
-
-Kedja:
-
-1. Start (intrig), en man per av tre skutor. Skyldig Malin pengar. Vet att hon för logg. Vill åt den. Inte var. Kön efter civilnamn i anteckningar, inte piratnamn.
-2. Tvärledtråd, ett antal personer på de två skutorna utan Q-5. Vet att loggen är väggen. Vet att de själva inte står där. Obrydda.
-3. Väggen. 24 porträtt. 16 baksidor bär bokstäver, 8 tomma. I sångordning, hoppa över namn som inte hänger (sångens extra namn, Felix obesatt): **I SVÄRDFISKENS MUN**.
-4. Skatt: dagboksbladet och tre cryptex-lappar i svärdfiskens mun. Troligen one-off: första laget tar. De andra stjäl, byter eller avskriver. Det är spelet.
-
-Sångordning, närvarande namn, första gången i hela sången. Bokstav på baksidan. Tom = ingen bokstav.
-
-| nr | Namn | Bokstav |
-|----|------|---------|
-| 1 | Enben | I |
-| 2 | Blodig | S |
-| 3 | Frodig | V |
-| 4 | Babord | Ä |
-| 5 | Kuling | R |
-| 6 | Fuling | D |
-| 7 | Nykter | F |
-| 8 | Svarta Malin | I |
-| 9 | Barnsben | S |
-| 10 | Döver | K |
-| 11 | Hjärter | E |
-| 12 | Spader | N |
-| 13 | Klöver | S |
-| 14 | Blåskägg | M |
-| 15 | Rödskägg | U |
-| 16 | Rötägg | N |
-| 17 | Lösskägg | |
-| 18 | Hurring | |
-| 19 | Kosing | |
-| 20 | Rosing | |
-| 21 | Plåthorn | |
-| 22 | Prygel | |
-| 23 | Dunka | |
-| 24 | Planka | |
-
-Låten spelas flera gånger under helgen. Ingen utskriven fulltext. Ingen mobil. De lyssnar. Titelraden på väggen är sångraden, det är hinten att sortera. Meningen är inte lösenordet.
-
-Hur de vet att vända: de jagar en logg, framsidan är bara ett ansikte, de tittar bakom. Tvärledtråd säger inte det.
-
-Hint om de kör fast: titta bakom. Lyssna på låten, inte läs. Hoppa namn som saknas på väggen. Fisken i rummet.
-
-Bypass om väggen är raserad: Spader har meningen. Bypass om munnen är tömd: jaga den som tog. Reservblad och reservlappar hos spelledning. Om ingen springer Q-5 före brunchen: fortfarande öppet till 15.30, huvudön. Spader ger starten en riktning mot väggen, inte mot kungen.
-
-**Engångs, avsiktligt nog:** tre lappar i munnen, ett blad. Första laget bär dem troligen. Väggen hängs tillbaka.
-
-### Fördröjning mot fredag
-
-Låst 2026-08-23. Inte dummy-laddning. Väggen och munnen får stå färdiga från fredag.
-
-- Socialt: Malin värdinna i Storstugan fredag. Att ta ner hennes kaptenvägg under födelsedagen är en scen, inte en lösning.
-- Meta: genomgången säger att fredag är fest, inte pussellösning. Redan invariant. Sägs i [`spelledning.md`](spelledning.md).
-- Inte i gästtext: skriv inte "vänta till lördag".
-
-Strykta: tomma baksidor fredag. Sången som lås. Tvärledtråd undanhållen till lördag.
-
-Tillsättning: inte nu. En manlig gäldenär per av tre Q-5-skutor. Civilnamn i anteckningar, inte piratnamn. Deras tre skuldbrev i kistan, namn då. Tvärledtråd bara på de två skutorna utan ingång. De som vet var loggen sitter står inte själva i den. Tvärledtråd har inget könskrav.
+| [Q-1](quests/Q-1.md) | Första kärleken | Malin var kurtisan. Sängen är underrättelse och hämnd. Skutan är döpt efter yrket. | Yrket är kanon. Första personen är Greve Otto von Pälspung, inte kungen. Hon är fortfarande kurtisan: det sitter bakom kulisserna. |
+| [Q-2](quests/Q-2.md) | Hur hon blev pirat | Hon tog namnet Svarta ur sorgen. Hon byggde själv. Hon begravde von Pälspung i skogen. Stugan är tillflykten. | Stugan och graven är kanon. Planen i tillflyktsbladet är kungen, osagt. |
+| [Q-3](quests/Q-3.md) | Korvetten | Hon prejade sin egen korvett. | **Lögn.** Sanningen: kungen satte den på hennes namn som belöning. Sitter i kistan. |
+| [Q-4](quests/Q-4.md) | Ön | Hon fick Ovanan med list. Hamnen är ett gammalt löfte. | Får ljuga om bytet. Får inte säga att kajen är en fälla. |
+| [Q-5](quests/Q-5.md) | Skuldboken | Hon samlar andras skulder. Lojalitet går att skriva upp. | Metoden är sann nog. Kistan bär inte hennes arkiv. |
 
 ---
 
@@ -365,11 +89,11 @@ När locket går upp ska de fem kapitlen omtolkas utan ny logik. Skriv inte omto
 
 | Quest | Omtolkning |
 |-------|------------|
-| Q-1 | Samma recept. Ny kund. Kunden i kistan är kungen. |
-| Q-2 | Planen i tillflykten var att vila. Priset var de andra. |
-| Q-3 | Prejningen var kungens gåva. |
-| Q-4 | Hamnen var scenen hon redan hade. |
-| Q-5 | Ni har sett hur hon håller havet. Tre skuldbrev ligger kvar. Brevet visar att hon ville sluta. |
+| [Q-1](quests/Q-1.md) | Samma recept. Ny kund. Kunden i kistan är kungen. |
+| [Q-2](quests/Q-2.md) | Planen i tillflykten var att vila. Priset var de andra. |
+| [Q-3](quests/Q-3.md) | Prejningen var kungens gåva. |
+| [Q-4](quests/Q-4.md) | Hamnen var scenen hon redan hade. |
+| [Q-5](quests/Q-5.md) | Ni har sett hur hon håller havet. Tre skuldbrev ligger kvar. Brevet visar att hon ville sluta. |
 
 ---
 
@@ -377,4 +101,4 @@ När locket går upp ska de fem kapitlen omtolkas utan ny logik. Skriv inte omto
 
 Använd inte som sjätte quest, och inte som ersättning utan nytt beslut.
 
-Hur hon blev fasan. Den som försvann. Den första festen. Hur hon tog sjörövarns rätt, som eget kapitel (ligger i Q-2 och Q-3). Tången. Andelen. Läraren. Varför hon alltid går.
+Hur hon blev fasan. Den som försvann. Den första festen. Hur hon tog sjörövarns rätt, som eget kapitel (ligger i [Q-2](quests/Q-2.md) och [Q-3](quests/Q-3.md)). Tången. Andelen. Läraren. Varför hon alltid går.

@@ -35,7 +35,7 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q2-08 | Dagboksblad, handlingen | B-17 | Helt blad, stannar i stugan. Bygget och rätten att preja. Text: [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md). | | | utkast |
 | Q2-09 | Dagboksblad, tillflykten | B-17 | Helt blad, stannar i stugan. Nutid. Stor plan utan innehåll. Text: [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md). | | | utkast |
 | Q2-10 | Cryptex-tokens vid Ottos grav | B-17 | Tre tokens, annan bokstav än Q2-01. Skylt: Endast en per lag. Ligger vid skelettet i skogen. Reservtokens hos spelledning, inte på ön. | | | saknas |
-| Q5-01 | 24 piratporträtt, uppsatta efter skuta | B-18 | Framsida ansikte, 16 baksidor med bokstav enligt tabellen i [`quests.md`](quests.md). 8 tomma. Ingen Felix. Tåla att tas ner och hängas tillbaka. | | | saknas |
+| Q5-01 | 24 piratporträtt, uppsatta efter skuta | B-18 | Framsida ansikte, 16 baksidor med bokstav enligt tabellen i [`quests/Q-5.md`](quests/Q-5.md). 8 tomma. Ingen Felix. Tåla att tas ner och hängas tillbaka. | | | saknas |
 | Q5-03 | Dagboksblad, skulderna | B-18 | Helt blad. I svärdfiskens mun. Text: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md). Avskrift hos spelledning. | | | utkast |
 | Q5-04 | Tre cryptex-lappar | B-18 | I svärdfiskens mun med Q5-03. Positionsmarkering TBD. Troligen one-off. Reservlappar hos spelledning. | | | saknas |
 

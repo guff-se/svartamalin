@@ -70,7 +70,7 @@ Beslutat 2026-08-18. Källa: [`beslut.md`](beslut.md), [`premiss.md`](premiss.md
 7. Kungen i brevet är **Karl XII**.
 8. I brevet står att Svarta Malin har lovat att samla Salmonellahavets kaptener till födelsedagsfest och fylla dem med kaviar och rom, så att konungens män kan slå till i gryningen och arrestera dem alla. Festen är fällan. I gengäld blir hon ensam härskare över Salmonellahavet, Korvetten Kurtisanen står på hennes namn, och hon får guld nog att sluta slåss. Hon är inte skuldsatt. Affären är sängvägen.
 9. Upptäckten av brevet är det som tänder slutstriden. Kungens män kommer aldrig. Gryningen spelas inte.
-10. Brevets hälsning och sista rad är intima (`min hjärtans`, `Din till döden`). Sängen läses ur brevet. Miniatyr och övriga brev är dressing, inte plot. Kistans exakta plats förblir öppen. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins XII. Queststories: [`quests.md`](quests.md). Lediga pusselbyggstenar: [`pussel.md`](pussel.md).
+10. Brevets hälsning och sista rad är intima (`min hjärtans`, `Din till döden`). Sängen läses ur brevet. Miniatyr och övriga brev är dressing, inte plot. Kistans exakta plats förblir öppen. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins XII. Queststories: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Lediga pusselbyggstenar: [`pussel.md`](pussel.md).
 
 ### Malin och Karl XII
 
@@ -115,7 +115,7 @@ Detta är Q-2. Inte ett separat bakgrundsspår. Södra Ovanan är stugan och Ott
 |-------|------|----------|
 | Vems stuga är det? | Malin byggde den med egna händer efter att hon flyttade hemifrån. Inte barndomshemmet. Q-2. | 2026-08-23 |
 | Varför står den där? | Tillflykt. Dit flyr hon när världen blir för överväldigande. Hon använder den fortfarande. | 2026-08-23 |
-| Vad finns kvar där inne? | Tre dagboksblad (namnet, handlingen, tillflykten) plus fysiska minnen och skrin med tre tokens. Namnbladet pekar mot Ottos grav i skogen. Lista: [`quests.md`](quests.md). Tryck i `content/rekvisita/`. | 2026-08-23 |
+| Vad finns kvar där inne? | Tre dagboksblad (namnet, handlingen, tillflykten) plus fysiska minnen och skrin med tre tokens. Namnbladet pekar mot Ottos grav i skogen. Lista: [`quests/Q-2.md`](quests/Q-2.md). Tryck i `content/rekvisita/`. | 2026-08-23 |
 
 ### Segelbåten vid bojen
 
@@ -139,7 +139,7 @@ Detta är Q-2. Inte ett separat bakgrundsspår. Södra Ovanan är stugan och Ott
 | Hur fick hon ön? | Q-4. Ovanan är hennes hamn. Questen får ljuga om bytet. Får inte säga att kajen är en fälla. | delvis, 2026-08-20 |
 | Samlar hon skulder? | Q-5 visar metoden mot andra, mot män. Tre skuldbrev i kistan, ett per manlig Q-5-start. Inte hela arkivet. Plot är kärleksbrevet. | 2026-08-23 |
 
-Queststories är inte automatiskt kanon. De får vara opålitliga. De får **inte** innehålla affären med Karl XII eller förräderiet. Det sitter i kistan. Full text: [`quests.md`](quests.md).
+Queststories är inte automatiskt kanon. De får vara opålitliga. De får **inte** innehålla affären med Karl XII eller förräderiet. Det sitter i kistan. Full text: [`quests.md`](quests.md), per quest i [`quests/`](quests/).
 
 ---
 
