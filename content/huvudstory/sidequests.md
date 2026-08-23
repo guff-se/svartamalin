@@ -37,7 +37,7 @@ Status:         idé / beslutad / skriven
 
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
-| S-01 | Jakten på älskaren | Hjärter, Felix, Blodig, Enben. Malin leder fel. | II | jägare / bärare | beslutad |
+| S-01 | Jakten på älskaren | Hjärter, Felix, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | beslutad |
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / grindvakt | beslutad |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver | II | jägare / bärare / vittne | beslutad |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg | II | jägare / bärare / vittne | beslutad |
@@ -76,7 +76,7 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `josefinlowing` | 3 | grindvakt, jägare | II–IV |
 | `navidmodiri` | 2 | jägare, vittne | II |
 | `minimacklin` | 2 | jägare | II–IV |
-| `ludvigvonbahr` | 1 | bärare | II |
+| `ludvigvonbahr` | 2 | bärare | II |
 | `amaliawahlstrom` | 2 | jägare, vittne | II–IV |
 | `fabianmacklin` | 3 | jägare, vittne | II |
 | `josefinansund` | 1 | bärare | II–IV |
@@ -101,23 +101,23 @@ S-01 till S-10 är nu alla **beslutade** (2026-08-23). Ingen gästtext är skriv
 ## S-01: Jakten på älskaren
 
 Akt:            II
-Deltagare:      Kapten Hjärter (`jesperlejfjord`), Katten Felix (`elinamelakoski`), Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`). Svarta Malin (`malintadaa`) bär sanningen.
-Roll i storyn:  jägare / bärare / vittne (Enben)
+Deltagare:      Kapten Hjärter (`jesperlejfjord`), Katten Felix (`elinamelakoski`), Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`), Kapten Dunka (`ludvigvonbahr`). Svarta Malin (`malintadaa`) bär sanningen.
+Roll i storyn:  jägare / bärare / vittne (Enben) / bärare, falsk ledtråd (Dunka)
 Kopplad till:   B-13, B-42
 
-Vad de vill:    ta reda på vem Malin gömmer. Enben vill inget hellre än att Malin ska se skyldig ut för något, vad som helst (fiende 2), och sprider gärna eget namn på ett bord.
-Vad står i vägen: hon leder fel. Rivalen ser ut att sitta vid bordet. Sanningen är Karl XII, och den sitter i kistan.
+Vad de vill:    ta reda på vem Malin gömmer. Enben vill inget hellre än att Malin ska se skyldig ut för något, vad som helst (fiende 2), och sprider gärna eget namn på ett bord. Dunka vill bli sedd som mannen som fick Svarta Malin, sant eller inte.
+Vad står i vägen: hon leder fel. Rivalen ser ut att sitta vid bordet, och nu sitter han också där på riktigt: Dunka och Malin har en synlig, om än diskret, romans (romans 24) som ser ut precis som det jägarna letar efter. Sanningen är Karl XII, och den sitter i kistan.
 Varför nu:      festen, närheten, att hon försvinner. Innan sista skålen.
 
-Hur det spelas: de tre jagar bland kaptenerna. Felix bara privat, med Hjärter. Malin varken bekräftar eller förnekar ett namn i hamnen. Enben, som redan hatar Malin, plockar upp jakten i förbifarten och pekar gärna ut ett namn hon själv ogillar, utan att bry sig om det stämmer. Flera romanser samtidigt är tillåtna och gömmer den hemliga.
-Utfall om ja:   fel person utpekas, scener, svartsjuka. Enbens falska pekning gör förvirringen värre. Punchlinen vid kistan blir personlig.
+Hur det spelas: de tre jagar bland kaptenerna. Felix bara privat, med Hjärter. Malin varken bekräftar eller förnekar ett namn i hamnen. Enben, som redan hatar Malin, plockar upp jakten i förbifarten och pekar gärna ut ett namn hon själv ogillar, utan att bry sig om det stämmer. Dunka gör jägarnas jobb åt dem: han låter sig ses vid Malins bord, låter en skål bli tvetydig, och dementerar aldrig ett rykte som får honom att verka som erövraren av jubilaren. Han vet inte att han är en avledning, han tror bara att han äntligen får den status han alltid velat ha. Flera romanser samtidigt är tillåtna och gömmer den hemliga.
+Utfall om ja:   fel person utpekas, scener, svartsjuka. Enbens falska pekning gör förvirringen värre, och Dunka blir den mest övertygande fel-utpekningen av alla, eftersom han själv aldrig förnekar den. Punchlinen vid kistan blir personlig, och särskilt pinsam för Dunka.
 Utfall om nej:  kistan bär det ändå. Miniatyren och kontraktets sista rad.
 
-Bygger på:      romanser 17, 18, 20, 22. Fiende 21 (Hjärter–Blodig) om den spelas. Fiende 2 (Enben–Malin) som Enbens skäl att blanda sig i.
-Speglas hos:    Hjärter och Felix speglar jakten. Malin speglar inte deras kärlek. Blodig enväg. Enben enväg, hon bryr sig inte om vem som är skyldig, bara att Malin ser dålig ut.
+Bygger på:      romanser 17, 18, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl att vara med. Fiende 21 (Hjärter–Blodig) om den spelas. Fiende 2 (Enben–Malin) som Enbens skäl att blanda sig i.
+Speglas hos:    Hjärter och Felix speglar jakten. Malin speglar inte deras kärlek. Blodig enväg. Enben enväg, hon bryr sig inte om vem som är skyldig, bara att Malin ser dålig ut. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
 Status:         beslutad
 
-Obs: Enben bär också S-06, samma måltavla (Malin) men en annan handling: här sprider hon en falsk ledtråd, i S-06 tar hon eller Kuling något ifrån henne.
+Obs: Enben bär också S-06, samma måltavla (Malin) men en annan handling: här sprider hon en falsk ledtråd, i S-06 tar hon eller Kuling något ifrån henne. Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom.
 
 ## S-02: Skäggtrion
 
@@ -239,7 +239,7 @@ Roll i storyn:  bärare (Dunka) / grindvakt (Kosing) / jägare (Nykter) / vittne
 Kopplad till:   ingen beat än. Låg intensitet för Kosing: ingen ring, ingen kidnappning, inget centrum.
 
 Vad de vill:    Kosing vill lägga sin påhittade arvssyndsskatt just på Dunkas uppblåsta anor och historier. Nykter, som redan gjort Dunkas svärdhistoria till ett hamnskämt (fiende 20), vill se honom svettas en gång till, men gör det indirekt: han pekar ut det svaga stället åt Kosing istället för att själv stå i vägen för Dunka. Klöver, som redan planerat en hemlig ätupplevelse med Kosing, vill se den bli lönsam.
-Vad står i vägen: Dunka vaktar sitt tveeggade svärd svartsjukt och låter aldrig någon granska det på nära håll, av skräck för att avslöjas som falsk under fasaden.
+Vad står i vägen: Dunka vaktar sitt tveeggade svärd svartsjukt och låter aldrig någon granska det på nära håll, av skräck för att avslöjas som falsk under fasaden. Samtidigt njuter han i hemlighet av ryktet att han setts vid Malins bord (romans 24, se S-01), vilket gör honom svårare att skrämma: han känner sig redan som en stor man den här helgen.
 Varför nu:      festens skålande och skryt ger den naturliga scenen, och Kosings skattebod är öppen hela helgen.
 
 Hur det spelas: Nykter viskar åt Kosing var Dunkas svaga punkt sitter, utan att själv synas i det. Kosing riktar sin arvssyndsskatt mot Dunkas anspråk på fin börd och kräver betalt i mynt eller en berättelse. Dunka kan betala, dementera högljutt, eller dra igång svärdets "historia" en gång för mycket och snubbla på en detalj. Spricker myten svarar han med en av sina långa, envisa kramar, som tröst åt sig själv snarare än andra. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå skatten kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
@@ -250,7 +250,7 @@ Bygger på:      fiende 20 (Dunka–Nykter). Romans 19 (Kosing–Dunka), i den l
 Speglas hos:    Dunka, Kosing, Nykter, Klöver.
 Status:         beslutad
 
-Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02 och S-04. Ingen delad mekanik.
+Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02 och S-04, Dunka bär också S-01. Ingen delad mekanik.
 
 ---
 
