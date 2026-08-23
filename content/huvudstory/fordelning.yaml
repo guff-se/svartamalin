@@ -407,3 +407,63 @@ fordelning:
     bygger_pa: null
     pussel: null
     status: done
+
+  - id: 32
+    beat: S-04
+    akt: II
+    till: [jesperlindmarker]
+    roll: jagare
+    vet: "att han vill veta vem som en gång angav honom och satte honom i fängelse, att hans svarta liggare behöver en ny rad, att Kapten Fuling alltid nekat att hon planterar rykten trots att hon gjorde det mot Kapten Planka, att Kapten Klöver och Kapten Prygel båda delar säng med honom utan att veta om varandra och att han kan spela ut dem mot varandra, och att Kapten Blåskägg bär en obetald skuld och ett gammalt skämt som gör honom till ett bekvämt mål för misstanke"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad]
+    bygger_pa: "fiende: 5, 1, 8"
+    pussel: null
+    status: done
+
+  - id: 33
+    beat: S-04
+    akt: II
+    till: [louisevonbahr]
+    roll: barare
+    vet: "att Kapten Hurring letar efter vem som en gång angav honom, att hon alltid nekat att hon planterar rykten trots att hon gjorde det mot Kapten Planka, och att hon kan plantera ett nytt rykte för att peka bort från sig själv"
+    vet_inte: "att hon själv är mullvad för Fromheten (skild hemlighet)"
+    speglas: [jesperlindmarker]
+    bygger_pa: "fiende: 5"
+    pussel: null
+    status: done
+
+  - id: 34
+    beat: S-04
+    akt: II
+    till: [johannabergman]
+    roll: vittne
+    vet: "att hon delar säng med Kapten Hurring utan att veta om Kapten Prygel, att hon hört ett skvallerfragment om en ryktesspridare, och att hon kan sälja det till Prygel mot choklad eller mynt"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [jesperlindmarker]
+    bygger_pa: "romans: 12"
+    pussel: null
+    status: done
+
+  - id: 35
+    beat: S-04
+    akt: II
+    till: [minervalowgren]
+    roll: vittne
+    vet: "att hon delar sin kärlek till Kapten Hurring utan att veta om Kapten Klöver, att Klöver har ett skvallerfragment hon vill sälja dyrt, och att hon kan fuska med sin lilla kortlek för att lösa gåtan själv"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [jesperlindmarker]
+    bygger_pa: "romans: 13"
+    pussel: null
+    status: done
+
+  - id: 36
+    beat: S-04
+    akt: II
+    till: [hampuslindblad]
+    roll: vittne
+    vet: "att han bär en obetald skuld och ett gammalt skämt gentemot Kapten Hurring, IOU-lappar naglade i masten, och att det gör honom till ett bekvämt mål när Kapten Fuling nekar för övertygande"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [jesperlindmarker]
+    bygger_pa: "fiende: 8"
+    pussel: null
+    status: done

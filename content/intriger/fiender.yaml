@@ -33,7 +33,7 @@ fiender:
     a: johannabergman     # Kapten Klöver: Barken Bortförklaringen
     b: minervalowgren     # Kapten Prygel: Fregatten Fromheten
     # oförrätt: Prygel stal valsen med Hurring + äran för gemensam bordning; Klöver svarade med rykten
-    status: pending
+    status: done
 
   - id: 2
     type: mutual
@@ -63,7 +63,7 @@ fiender:
     a: louisevonbahr      # Kapten Fuling: Fregatten Fördärvet
     b: linneaappert       # Kapten Planka: Korvetten Kurtisanen
     # oförrätt: Planka vann auktion med Fulings börs; Fuling planterade silverrykte
-    status: pending
+    status: done
 
   - id: 6
     type: mutual
@@ -85,7 +85,7 @@ fiender:
     a: jesperlindmarker   # Kapten Hurring: Korvetten Kurtisanen
     b: hampuslindblad     # Kapten Blåskägg: Barken Bortförklaringen
     # oförrätt: Hurring obetald skuld + skämt; Blåskägg naglade IOU:er i masten
-    status: pending
+    status: done
 
   - id: 20
     type: mutual

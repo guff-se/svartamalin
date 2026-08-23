@@ -89,13 +89,13 @@ romanser:
     type: mutual
     a: jesperlindmarker    # Kapten Hurring (Jesper Lindmarker)
     b: johannabergman      # Kapten Klöver (Johanna Bergman)
-    status: pending
+    status: done
 
   - id: 13
     type: mutual
     a: jesperlindmarker    # Kapten Hurring (Jesper Lindmarker)
     b: minervalowgren      # Kapten Prygel (Minerva Löwgren)
-    status: pending
+    status: done
 
   - id: 14
     type: mutual
