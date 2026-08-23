@@ -17,9 +17,9 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-03 | Lapp "Denna tappas lätt bort" | B-10 | Fäst på cryptexen, läsbar, tåla slitage | | | saknas |
 | K-04 | Nyckel till kistan, inuti cryptexen | B-41 | Passar K-01. Får plats i cryptexen. | | | saknas |
 | K-05 | Reservnyckel till kistan | cryptex-bypass, 20.45 | Hos spelledning hela helgen. Dolt. | | | saknas |
-| K-06 | Hög med skuldbrev | B-42 | Visuell mängd, inte en läsuppgift. Tåla att spridas ut. | | | saknas |
-| K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md) | | | utkast |
-| K-08 | Miniatyrporträtt av Karl XII | B-42 | Liten, synlig när locket går upp, liggande på kärleksbrevet. Ingen text som måste läsas. Ska läsas som bild: hon är i säng med kungen. | | | saknas |
+| K-06 | Dressing i kistan: övriga brev, minnen, skatter | B-42 | Ser ut som en älskarinnas gömma. Inte plot. Inte en läsuppgift. | | | saknas |
+| K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Enda plot-relevanta i kistan. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md) | | | utkast |
+| K-08 | Miniatyrporträtt av Karl XII | B-42 | Dressing, ett minne bland skatterna. Inte plot. Brevet bär sängen. | | | saknas |
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
 | Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | Q-1 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). | | | utkast |
 | Q1-03 | Cryptex-lapp i påsen | Q-1 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
@@ -77,7 +77,7 @@ Saker som **inte** går att designa på distans. Om vi gör ett förbesök (öpp
 | Kista | 1 | | | | |
 | Cryptex, 6 bokstäver | 1 (+ reservnyckel, inte extra cryptex) | | | | |
 | Hänglås och nycklar | 1 set + reserv | | | | |
-| Papper, sigill, bläck till skuldbrev och kontrakt | | | | | |
+| Papper, sigill, bläck till kärleksbrevet och dressing-brev | | | | | |
 | Kaviar och rom | till 25 | | | | |
 | Slöjor till de döda | 25 | | | | |
 | Filtar till tysta rummet | | | | | |
@@ -95,8 +95,8 @@ Sådant som ska produceras i repot eller skickas till tryck.
 | Malins dagboksblad, namnet (Q2-07) | Ett helt blad, stannar i stugan | [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md) | utkast |
 | Malins dagboksblad, handlingen (Q2-08) | Ett helt blad, stannar i stugan | [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md) | utkast |
 | Malins dagboksblad, tillflykten (Q2-09) | Ett helt blad, stannar i stugan | [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md) | utkast |
-| Miniatyr av Karl XII | Bild, liten, i kistan | | utkast saknas |
-| Skuldbrev | Handskrift, visuell hög | | utkast saknas |
+| Miniatyr av Karl XII | Bild, liten, dressing i kistan | | utkast saknas |
+| Övriga brev i kistan | Dressing, inte plot, inte läsuppgift | | |
 | Kaptenslistan som fysiskt dokument | Tryck | | |
 | Intrigtexter i UI | Redan byggt | `content/intriger/` | löpande |
 | Praktisk info och program | Markdown, bundlas | `content/copy/` | löpande |

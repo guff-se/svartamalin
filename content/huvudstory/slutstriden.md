@@ -30,11 +30,13 @@ Given av sången och av metaregeln. Ändras inte.
 
 Vad får helvetet att bryta ut? Det får inte vara ett utrop från arrangören.
 
-**Beslutat 2026-08-18:** kistan öppnas. Där ligger ingen skatt, utan skuldbrev och ett kärleksbrev från Karl XII. Brevet är kontraktet. Upptäckten att festen är fällan, att Malin sålt dem, är tändningen. Man flyger på jubilaren.
+**Beslutat 2026-08-18:** kistan öppnas. Där ligger ingen skatt. Upptäckten att festen är fällan, att Malin sålt dem, är tändningen. Man flyger på jubilaren.
 
-**Beslutat 2026-08-20:** samma öppning bär den andra punchlinen. Brevets hälsning och sista rad är intima, och i kistan ligger ett miniatyrporträtt av Karl XII. De som jagat Malins hemliga älskare bland kaptenerna förstår att hon är i säng med kungen. Tändningen är fortfarande förräderiet. Affären är den personliga örfilen ovanpå.
+**Beslutat 2026-08-20:** samma öppning bär den andra punchlinen. Brevets hälsning och sista rad är intima. De som jagat Malins hemliga älskare bland kaptenerna förstår att hon är i säng med kungen. Tändningen är fortfarande förräderiet. Affären är den personliga örfilen ovanpå.
 
 **Beslutat 2026-08-21:** trycktexten finns i [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md). Inget separat juridiskt kontrakt för tändningen.
+
+**Beslutat 2026-08-23:** kistan innehåller brev mellan Malin och kungen, plus minnen och skatter. Enda plot-relevanta: kärleksbrevet. Inga skuldbrev. Motivet är vila och ensam makt, inte skuld. Miniatyr är dressing.
 
 Krav:
 
@@ -45,7 +47,7 @@ Krav:
 
 Kvar att designa runt tändningen:
 
-- [x] Kontraktet måste gå att läsa högt på högst trettio sekunder. Ingen lång text efter 15.30. Sigill, några rader, en underskrift. Sista raden intim: "min hjärtans Malin" eller motsvarande, så sängen landar utan ny logik. Bilden ska bära: en hög skuldbrev, plus miniatyren av kungen. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
+- [x] Kontraktet måste gå att läsa högt på högst trettio sekunder. Ingen lång text efter 15.30. Sigill, några rader, en underskrift. Sista raden intim: "min hjärtans Malin" eller motsvarande, så sängen landar utan ny logik. Bilden ska bära: brevet, plus dressing av minnen och skatter. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
 - [ ] Vem läser? Den som öppnade, eller den som skriker först. Inte spelledaren i första hand.
 - [ ] Hyllningarna ska vara klara *innan* kistan öppnas, så att play to lift hinner levereras. Ordningen: kaviar och rom, sista ledtråden i samband med serveringen, hyllningar, sedan öppning. Om öppningen kommer för tidigt kortas hyllningarna. Hellre det än att tändningen dröjer.
 
@@ -89,9 +91,9 @@ Att bestämma:
 - [ ] Kaviar och rom: faktiskt kaviar och faktisk rom, eller motsvarande. Måste finnas. Sista ledtråden till cryptexen ges här: Malins halsband med XII, när hon serverar.
 - [ ] Kistan, på plats vid festen, fortfarande låst tills ledtråden är given
 - [ ] Cryptexen, i omlopp. Spelledning vet ungefär var den är, eller har reservnyckel
-- [ ] Skuldbrev i hög, visuellt, inte en läsuppgift
+- [ ] Dressing i kistan: övriga brev, minnen, skatter. Inte plot. Inte en läsuppgift.
 - [x] Kärleksbrevet från Karl XII: kort, sigill, läsbart högt på trettio sekunder. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md)
-- [ ] Miniatyrporträtt av Karl XII, liggande synligt i kistan på brevet
+- [ ] Miniatyrporträtt av Karl XII, dressing bland minnena. Inte plot.
 - [ ] Malins Ran-skepnad: vad byter hon till, var byter hon om, hur lång tid tar det
 
 ### Övergången till Ran

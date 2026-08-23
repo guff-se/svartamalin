@@ -20,6 +20,18 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-23, Malins motiv och kistan
+
+Källa: Gustaf, i chatt. Införd i [`kanon.md`](kanon.md), [`premiss.md`](premiss.md), [`quests.md`](quests.md), [`beslut.md`](beslut.md), [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
+
+- [x] som man kan se i Q2-dagbok-3-tillflykten.md är svarta malin trött på att vara svarta malin. att alltid kämpa för kontroll över salmonellahavet. hennes lösning är att hon lierat sig (sängvägen) med karl XII för att kunna bli av med all sin konkurrens. på detta sätt blir hon ensam härskare över salmonellahavet och samtidigt rikligt belönad. Hennes motivation är alltså inte att hon är skuldsatt. Det inte ligger mängder med skuldbrev i kistan. Hon är motiverad av att drömmen om att äntligen få slippa kämpa, att slippa spela sin roll som svarta malin.
+- [x] Det påverkar också storyn kring korvetten, Q-3.
+- [x] Det som ligger i kistan är bara brev mellan malin och kungen, samt lite minnen och skatter. Det enda plot-relevanta innehållet är brevet.
+
+Kryss = inlagt i kanon, premiss, quests, kistbrev och tändning. Q-3:s cirkulerande lögn (preja) står kvar. Sanningen är belöning, inte kredit.
+
+---
+
 ## 2026-08-23, sexpositiv fest
 
 Källa: Gustaf, i chatt. Införd i [`../intriger/STYLE.md`](../intriger/STYLE.md), [`../copy/README.md`](../copy/README.md), [`spelledning.md`](spelledning.md), [`tidslinje.md`](tidslinje.md), [`beslut.md`](beslut.md), [`platser.md`](platser.md).

@@ -30,7 +30,7 @@ Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, 
 
 | Fil | Taggar | Vad | Var |
 |-----|--------|-----|-----|
-| [`kista-karleksbrev.md`](kista-karleksbrev.md) | `kista`, `B-42`, `K-07` | Kärleksbrev från Karl XII | Malins kista |
+| [`kista-karleksbrev.md`](kista-karleksbrev.md) | `kista`, `B-42`, `K-07` | Kärleksbrev från Karl XII. Enda plot-relevanta i kistan. | Malins kista |
 | [`Q1-dagbok-1-fore.md`](Q1-dagbok-1-fore.md) | `Q-1`, `Q1-01` | Dagboksblad före förräderiet | Gubben och Gumman |
 | [`Q1-dagbok-1-baksida.md`](Q1-dagbok-1-baksida.md) | `Q-1`, `Q1-01` | Vägvisning, baksida av samma blad | Gubben och Gumman |
 | [`Q1-dagbok-2-efter.md`](Q1-dagbok-2-efter.md) | `Q-1`, `Q1-04` | Dagboksblad efter hämnden | Klätternätet |

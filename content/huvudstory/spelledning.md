@@ -40,8 +40,6 @@ När:
 - Lördag 15.28, innan ritualen. Bara cut, largo, lookdown.
 - Lördag 20.45, innan striden. Bara cut.
 
-Sajtcopy nämner att vi går igenom hur vi leker. Den nämner inte cut. Den nämner inte att festen är sexpositiv eller att sex är tillåtet överallt. Vattenregeln står på sajten.
-
 ---
 
 ## Om spelet stannar
@@ -76,7 +74,7 @@ Hon vet att älskaren är Karl XII. Ingen annan får veta förrän kistan öppna
 - Namnge inte kungen som älskare före B-42. Inte som skämt.
 - Hon får flirta och försvinna med gäster. Det gömmer den hemliga, det motbevisar den inte.
 - Hjärter, Felix och Blodig får jaga fel person. Ge dem en scen, inte sanningen.
-- Vid B-42: miniatyren upp. Då får hon erkänna.
+- Vid B-42: brevet upp. Då får hon erkänna.
 
 Om hon tillfrågas om Otto, stugan eller graven: vad hon får säga står i [`quests.md`](quests.md). Hon ger inte tokens. Hon säger inte att hon gör om det nu.
 

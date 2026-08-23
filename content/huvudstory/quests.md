@@ -41,9 +41,9 @@ När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråd
 |----|------|----------------------------|-----------------|
 | Q-1 | Första kärleken | Malin var kurtisan. Sängen är underrättelse och hämnd. Skutan är döpt efter yrket. | Yrket är kanon. Första personen är Greve Otto von Pälspung, inte kungen. Hon är fortfarande kurtisan: det sitter bakom kulisserna. |
 | Q-2 | Hur hon blev pirat | Hon tog namnet Svarta ur sorgen. Hon byggde själv. Hon begravde von Pälspung i skogen. Stugan är tillflykten. | Stugan och graven är kanon. Planen i tillflyktsbladet är kungen, osagt. |
-| Q-3 | Korvetten | Hon prejade sin egen korvett. | **Lögn.** Sanningen: köpt på kredit. Sitter i kistan. |
+| Q-3 | Korvetten | Hon prejade sin egen korvett. | **Lögn.** Sanningen: kungen satte den på hennes namn som belöning. Sitter i kistan. |
 | Q-4 | Ön | Hon fick Ovanan med list. Hamnen är ett gammalt löfte. | Får ljuga om bytet. Får inte säga att kajen är en fälla. |
-| Q-5 | Skuldboken | Hon samlar andras skulder. Lojalitet går att skriva upp. | Metoden är sann nog. Kistans hög visas inte här. |
+| Q-5 | Skuldboken | Hon samlar andras skulder. Lojalitet går att skriva upp. | Metoden är sann nog. Kistan bär inte hennes arkiv. |
 
 ---
 
@@ -66,7 +66,7 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 - Peka ut kungen.
 - Peka ut någon på ön som *är* den första älskaren, eller som *är* den hemliga älskaren nu. S-01 ska kunna korsa tråden och gissa fel.
 - Säga att hon fortfarande säljer sig till makt, eller att kunden nu är kungen.
-- Säga att Kurtisanen köptes på kredit. Det hör till Q-3 och kistan, inte hit.
+- Säga hur hon fick skutan. Det är Q-3. Inte kungen. Inte belöning.
 - Förklara hur hon blev pirat (Q-2) eller hur hon tog skutan (Q-3). Receptet får nämnas. Kuppen får inte.
 
 **Håll isär från:**
@@ -76,7 +76,7 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 - Q-3. Q-1 = namnet som yrke och säng. Q-3 = hur hon tog skutan.
 - Q-5. Q-1 = hemligheter ur sängen, hämnd på en man. Q-5 = boken med andras skulder. Ingen skuldbok i den här questen.
 
-**Efter kistan (intern, inte gästtext):** Samma recept. Ny kund. Miniatyren och kärleksbrevets sista rad omtolkar Q-1: sängen var inte ny, bara kunden.
+**Efter kistan (intern, inte gästtext):** Samma recept. Ny kund. Kärleksbrevet omtolkar Q-1: sängen var inte ny, bara kunden.
 
 **Skrivstöd:**
 
@@ -102,7 +102,7 @@ Props: två fysiska halvblad, dubbelsidiga (Q1-01). Cryptex-lapp (Q1-03). Ett he
 
 Bypass om halvorna är borta: fråga vem som satt vid bänkarna. Spader har en läsbar avskrift av det hopsatta första bladet (inte cryptex-lappen, inte det andra bladet), så kedjan kan gå vidare till nätet. Bypass om påsen är borta: jaga den som tog den. Om den är förlorad på riktigt: spelledning har reservlapp och avskrift av andra bladet. Om ingen springer Q-1 före brunchen: Spader ger starten en riktning, inte sanningen om kungen.
 
-Får inte i dagboksutdragen: kungen, nuvarande älskare på ön, kreditköpet av Kurtisanen, platsen för nästa steg. Ottos namn får och ska stå. Hämnden och skeppsnamnet står bara i det andra utdraget. Platsen står bara på baksidan av det första.
+Får inte i dagboksutdragen: kungen, nuvarande älskare på ön, hur hon fick Kurtisanen, platsen för nästa steg. Ottos namn får och ska stå. Hämnden och skeppsnamnet står bara i det andra utdraget. Platsen står bara på baksidan av det första.
 
 ---
 
@@ -135,7 +135,7 @@ Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta). Relåst 2026
 
 **Håll isär från:** Q-3 (kuppen mot korvetten). Q-4 (huvudön som hamn, inte Södra Ovanan). Q-1 äger kurtisanen, skeppsnamnet och hämnden i sängen. Q-2 äger namnet Svarta, tillflykten och graven. Ottos namn får stå i båda. Q-1 säger inte att hon begravde honom. Stugan är inte barndomshemmet. Skelettet är inte ett separat spår.
 
-**Efter kistan (intern, inte gästtext):** Hon har alltid kunnat bli någon annan utan att släppa greppet. Kontraktet är samma juridiska självbild, nu mot de egna. Kvinnan som behövde en ö för att vara ifred sålde ändå de andra. Den stora planen i tillflyktsbladet var fällan.
+**Efter kistan (intern, inte gästtext):** Planen i tillflyktsbladet var att äntligen vila. Priset var att sälja de andra. Hon blev av med konkurrensen sängvägen. Tillflykten räddade bara henne.
 
 **Skrivstöd:**
 
@@ -198,27 +198,27 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 
 **Cirkulerande version (det som får stå i gästtext):** Hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Stor, olaglig, hennes. Det är sången.
 
-**Sanning enligt kanon (2026-08-18, låst mot den här questen 2026-08-20):** Kurtisanen är köpt på kredit, inte prejad. Sanningen sitter i kistan. Den här questen **ska** vara lögnen. Lås inte prejningen som sann.
+**Sanning enligt kanon (2026-08-23, låst mot den här questen):** Kurtisanen är kungens belöning, inte prejad. Han sätter den på hennes namn mot förräderiet. Sanningen sitter i kistan. Den här questen **ska** vara lögnen. Lås inte prejningen som sann.
 
 **Får ljuga om:** Allt kring kuppen. Vem som stod på däck. Om det var hennes skepp redan.
 
 **Får inte:**
 
-- Säga att hon köpte den på kredit.
-- Koppla köpet till kungen, eller till baroner på ett sätt som pekar mot kontraktet.
+- Säga att kungen gav henne skutan, eller att den är belöning.
+- Koppla skutan till kungen, eller till affären, på ett sätt som pekar mot kontraktet.
 - Förklara Q-1:s kurtisan-yrke här. Namnet är redan givet. Den här questen är ägandet.
 
 **Håll isär från:**
 
 - Q-1: namnet som yrke. Q-3: hur skutan togs.
-- Q-5: att hon samlar IOU:er i största allmänhet. Kreditköpet av Kurtisanen syns först i kistan, inte i Q-5.
+- Q-5: att hon samlar IOU:er i största allmänhet. Belöningen syns först i kistan, inte i Q-5.
 
-**Efter kistan (intern, inte gästtext):** Prejningen blir en faktura.
+**Efter kistan (intern, inte gästtext):** Prejningen var kungens gåva.
 
 **Skrivstöd:**
 
 - Ton i gästtext: stolt, bombastisk. Sångens version.
-- Props: något som ser ut som bevis för prejning (flagga, loggbok, en proklamation om sjörövarns rätt). Inte en växel. Inte ett skuldebrev på skutan. Inte ett föremål som kallas "prejudikat": det ordet är rätten att preja, inte ett papper.
+- Props: något som ser ut som bevis för prejning (flagga, loggbok, en proklamation om sjörövarns rätt). Inte ett gåvobrev. Inte kungens sigill. Inte ett föremål som kallas "prejudikat": det ordet är rätten att preja, inte ett papper.
 
 **Mekanik:** ingen. Plocka en ledig byggsten i [`pussel.md`](pussel.md) när formen låses.
 
@@ -262,7 +262,7 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 
 **Cirkulerande version (det som får stå i gästtext):** Malin är Salmonellahavets bokhållare. Det är därför man kommer när hon kallar. Det finns en bok, eller en hög lappar, eller en lista. Namn. Belopp. Eder.
 
-**Sanning enligt kanon:** I kistan ligger en stor hög skuldbrev. Vems och för vad är öppet. Den här questen får visa *metoden*, inte kistans hög.
+**Sanning enligt kanon:** Metoden är sann. Hon håller havet med andras skulder. Kistan bär inte det arkivet. I kistan ligger brevet: hon ville sluta hålla.
 
 **Får ljuga om:** Vems skulder. Hur stora. Var boken finns. Om den är en bok eller lösa lappar.
 
@@ -273,14 +273,14 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 - Säga att festen är betalning mot någon högre makt.
 - Göra Malins kista till gömställe för questskatten. Redan förbjudet i kanon.
 
-**Håll isär från:** Kistans skuldbrev (samma gest, annan skala). Q-3 (kreditköpet av Kurtisanen syns inte här). Temat i [`premiss.md`](premiss.md): lojalitet som vara.
+**Håll isär från:** Kistans brev (plot, inte arkiv). Q-3 (belöningen av Kurtisanen syns inte här). Temat i [`premiss.md`](premiss.md): att sälja rollen man tröttnat på.
 
-**Efter kistan (intern, inte gästtext):** Ni har sett hennes hobby. Nu ser ni hennes arkiv.
+**Efter kistan (intern, inte gästtext):** Ni har sett hur hon håller havet. I kistan ser ni att hon ville sluta.
 
 **Skrivstöd:**
 
-- Ton i gästtext: andras skulder till Malin. Inte Malins skuld till kungen.
-- Props: en lapp, en IOU, en lista med några namn. Inte kontraktet. Inte miniatyren. Inte en hög som ser ut som kistans innehåll.
+- Ton i gästtext: andras skulder till Malin. Inte att hon är skuldsatt. Inte kungen.
+- Props: en lapp, en IOU, en lista med några namn. Inte kontraktet. Inte en hög som ser ut som kistans innehåll.
 
 **Mekanik:** idé 2026-08-20. Inte låst. Nod inte byggd.
 
@@ -301,10 +301,10 @@ När locket går upp ska de fem kapitlen omtolkas utan ny logik. Skriv inte omto
 | Quest | Omtolkning |
 |-------|------------|
 | Q-1 | Samma recept. Ny kund. Kunden i kistan är kungen. |
-| Q-2 | Samma juridiska självbild, nu mot de egna. Tillflykten räddade inte de andra. Den stora planen var fällan. |
-| Q-3 | Prejningen var en faktura. |
+| Q-2 | Planen i tillflykten var att vila. Priset var de andra. |
+| Q-3 | Prejningen var kungens gåva. |
 | Q-4 | Hamnen var scenen hon redan hade. |
-| Q-5 | Boken ni jagade var en miniatyr av högen i kistan. |
+| Q-5 | Ni har sett hur hon håller havet. I kistan ser ni att hon ville sluta. |
 
 ---
 
