@@ -39,13 +39,13 @@ Status:         idé / beslutad / skriven
 |----|------|-----------|-----|------|--------|
 | S-01 | Jakten på älskaren | Hjärter, Felix, Blodig. Malin leder fel. | II | jägare / bärare | beslutad |
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg | II | rivaler | beslutad |
-| S-03 | Krumelurpillren | Barnsben, Nykter, Rosing | II / IV | jägare / bärare | idé |
-| S-04 | Liggaren | Hurring, Klöver, Prygel | II | jägare / vittne | idé |
-| S-05 | Kajhemligheten | Frodig, Fuling, Kuling. Rödskägg är hemligheten. | II | grindvakt / vittne | idé |
-| S-06 | Teckenspråket | Döver, Babord, Rötägg. Hjärter är målet, enväg. | II | jägare / grindvakt | idé |
-| S-07 | Hornet | Plåthorn, Prygel, Rosing | II | jägare / bärare | idé |
-| S-08 | Fasanen | Enben, Planka, Hurring | II | jägare / vittne | idé |
-| S-09 | Arvssyndskatten | Kosing, Dunka, Klöver | II | jägare / grindvakt | idé |
+| S-03 | Barnsben som allas åtrå | Barnsben, Rosing, Nykter, Döver, Babord | II | bärare / jägare / grindvakt / vittne | idé |
+| S-04 | Vem angav Hurring | Hurring, Fuling, Klöver, Prygel | II | jägare / bärare / vittne | idé |
+| S-05 | Svärdet och arvssynden | Dunka, Nykter, Kosing | II | bärare / jägare / grindvakt | idé |
+| S-06 | Enbens räkning | Enben, Kuling, Malin | II–IV | jägare / antagonist | idé |
+| S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben | II | bärare / jägare / vittne | idé |
+| S-08 | Jakten på Plåthornet | Plåthorn, Kuling, Prygel | II–IV | grindvakt / jägare | idé |
+| S-09 | Blodigs hot | Blodig, Frodig, Rödskägg | II–IV | jägare / bärare | idé |
 
 ---
 
@@ -65,35 +65,33 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 
 | slug | Antal sidequests | Roll i huvudstoryn | Akt där personen toppar |
 |------|------------------|--------------------|-------------------------|
-| `malintadaa` | 1 | antagonist, bärare | IV |
+| `malintadaa` | 2 | antagonist, bärare | IV |
 | `gustaftadaa` | | budbärare, spelledare | IV |
 | `petterwallberg` | 1 | rival | II |
-| `linneaappert` | | | |
-| `ulrikahammar` | | | |
-| `jesperlindmarker` | | | |
-| `louisevonbahr` | | | |
-| `josefinlowing` | 1 | grindvakt | II |
-| `navidmodiri` | | | |
-| `minimacklin` | 1 | jägare | II |
-| `ludvigvonbahr` | | | |
-| `amaliawahlstrom` | | | |
-| `fabianmacklin` | | | |
-| `josefinansund` | | | |
-| `johannabergman` | | | |
+| `linneaappert` | 1 | bärare | II |
+| `ulrikahammar` | 2 | bärare, jägare | II |
+| `jesperlindmarker` | 1 | jägare | II |
+| `louisevonbahr` | 1 | bärare | II |
+| `josefinlowing` | 3 | grindvakt, jägare | II |
+| `navidmodiri` | 1 | bärare, grindvakt | II |
+| `minimacklin` | 2 | jägare | II |
+| `ludvigvonbahr` | 1 | bärare | II |
+| `amaliawahlstrom` | 1 | jägare | II |
+| `fabianmacklin` | 2 | jägare | II |
+| `josefinansund` | 1 | bärare | II–IV |
+| `johannabergman` | 1 | vittne | II |
 | `jesperlejfjord` | 1 | jägare | II |
-| `amandamungsgard` | | | |
-| `viktoransund` | 2 | grindvakt, rival | II |
+| `amandamungsgard` | 1 | grindvakt | II |
+| `viktoransund` | 3 | grindvakt, rival, bärare | II |
 | `elinamelakoski` | 1 | jägare | II |
-| `minervalowgren` | | | |
-| `linneaekbom` | | | |
-| `alexandrapalmquist` | | | |
+| `minervalowgren` | 2 | vittne, jägare | II |
+| `linneaekbom` | 1 | jägare | II |
+| `alexandrapalmquist` | 1 | vittne | II |
 | `hampuslindblad` | 1 | rival | II |
-| `edvinthungren` | | | |
-| `elinmartensson` | | | |
+| `edvinthungren` | 1 | bärare | II |
+| `elinmartensson` | 1 | grindvakt | II–IV |
 
 **Spridningsregel:** alla toppar får inte ligga i akt IV. Sikta på ungefär en fjärdedel i akt II, en fjärdedel vid brunchen och ritualen, resten i akt IV.
-
-Tabellen räknar bara **beslutade** sidequests. Idéerna S-03 till S-09 är täckning, inte last. Om de tas: se täckningstabellen under idéerna. Tunga dubletter att välja bort: Rosing i både S-03 och S-07, Prygel i både S-04 och S-07, Hurring i både S-04 och S-08, Klöver i både S-04 och S-09, Kuling redan grindvakt för båtarna plus S-05.
 
 ## S-01: Jakten på älskaren
 
@@ -133,208 +131,145 @@ Bygger på:      fiender 3, 18, 19
 Speglas hos:    alla tre
 Status:         beslutad
 
-## Idéer från `content/roller/`
-
-Förslag, inte beslut. Ingen gästtext. Inte i `fordelning.yaml`. Huvudstoryn går om ingen av dem spelas.
-
-Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Planka, Fuling, Enben, Blåskägg) får ändå kort via yaml och andras föremål. Spader får ingen egen jakt: han bad om att inte få mer praktiskt ansvar. Kortfusket är garnering i S-04.
-
-Mullvad och sidequest är två hemligheter. Skriv dem inte som samma uppdrag. Barnsben är mullvad mot Nykter, Frodig mot Rosing, Babord mot Döver, Prygel mot Hurring, Fuling mot Hjärter.
-
-### Täckning om idéerna tas
-
-| slug | Idéer | Rollerobjekt som bär handlingen |
-|------|-------|--------------------------------|
-| `linneaappert` | S-08 | tom rollfil. På Kurtisanen, kan lyssna vid Malins bord. Romans 3. |
-| `ulrikahammar` | S-03 | krumelurpiller, syhörna |
-| `jesperlindmarker` | S-04, S-08 | svart liggare, vem angav honom |
-| `louisevonbahr` | S-05 | tom rollfil. Romans 10, kan sälja eller begrava ryktet |
-| `josefinlowing` | S-05 | familjesmycke, båtar, bakhåll mot Rödskägg |
-| `navidmodiri` | S-06 | fejkdöv, sanningsserum, workshop, nemesis Hjärter |
-| `ludvigvonbahr` | S-09 | tvåeggat svärd med lögnig historia, långa kramar |
-| `amaliawahlstrom` | S-08 | tom rollfil. Fiende 2 mot Malin |
-| `fabianmacklin` | S-03 | njutningsstatyett, frieri till Barnsben |
-| `josefinansund` | S-05 | förbjuden kärlek med Rödskägg |
-| `johannabergman` | S-04, S-09 | svartklubb, kristallfyrklöver, skvaller mot choklad |
-| `amandamungsgard` | S-09 | arvssyndskatt, mynt, låg intensitet, vill spela med Dunka |
-| `minervalowgren` | S-04, S-07 | liten kortlek, vill krossa hornet |
-| `linneaekbom` | S-03, S-07 | duell, kan inte simma, talande snäcka |
-| `alexandrapalmquist` | S-06 | sjökort, romans med Döver, scarf-oförrätt |
-| `edvinthungren` | S-06 | vill vara snäll, enhörningsmanschetter från Planka |
-| `elinmartensson` | S-07 | plåthorn, klagomur |
-| `gustaftadaa` | ingen jakt | kortfusk som garnering i S-04. Inte mer ansvar. |
-
----
-
-## S-03: Krumelurpillren
-
-Akt:            II, avgörs i skymningen mot IV
-Deltagare:      Kapten Barnsben (`ulrikahammar`), Kapten Nykter (`fabianmacklin`), Kapten Rosing (`linneaekbom`)
-Roll i storyn:  jägare / bärare
-Kopplad till:   ingen beat än. Korsar kökskanten (Nykter har maten). Inte Q-2.
-
-Vad de vill:    Barnsben måste ta ett piller när mörkret faller, annars växer hon. Ingen ska se. Nykter vill vara den hon litar på i skymningen, och gärna den som håller burken. Rosing vill detsamma, och vill dessutom utmana någon på duell om saken blir publik.
-Vad står i vägen: de två andra. Burken är liten och kan stjälas. Döver har redan tjuvlyssnat på Nykters frieri (fiende 11). Babord hatar Barnsben för breven i scarfen (fiende 12) och kan sno pillren som hämnd, men hon är inte deltagare här: det är kollision med S-06.
-Varför nu:      första skymningen som räknas är lördag. Fredag är off-story. Efter ritualen är det kropp, inte pussel: att gömma en burk, smyga i en klick, ta ett piller.
-
-Hur det spelas: Barnsben sätter en syhörna. Nykter och Rosing uppvaktar. En av dem försöker få burken. Barnsben kan släppa ett piller i en drink hos den som blivit för vuxen. Själva intaget sker när det mörknar, inte vid Gubben i stubben.
-Utfall om ja:   någon har burken, någon har sett intaget, någon har fått ett piller i sig. Svartsjuka vid syhörnan. Duellen kan bli av, eller inte.
-Utfall om nej:  Barnsben tar pillret privat. Romanserna 4 och 5 och fiende 10 finns kvar.
-
-Bygger på:      romanser 4, 5. Fiende 10. Inte mullvad 1: det är ett annat uppdrag mot Nykter.
-Speglas hos:    alla tre. Döver enväg om han råkar höra. Inte Barnsben mot Döver (romans 6) i den här jakten.
-Status:         idé
-
-Last: Rosing också i S-07. Om hon bara får en: behåll S-03, byt tredje i S-07.
-
----
-
-## S-04: Liggaren
+## S-03: Barnsben som allas åtrå
 
 Akt:            II
-Deltagare:      Kapten Hurring (`jesperlindmarker`), Kapten Klöver (`johannabergman`), Kapten Prygel (`minervalowgren`)
-Roll i storyn:  jägare / vittne
-Kopplad till:   ingen beat än. Inte S-01. Hjärters kristallfyrklöver sitter redan hos Klöver, Hjärter jagar inte den.
+Deltagare:      Kapten Barnsben (`ulrikahammar`), Kapten Rosing (`linneaekbom`), Kapten Nykter (`fabianmacklin`), Kapten Döver (`navidmodiri`), Kapten Babord (`alexandrapalmquist`)
+Roll i storyn:  bärare (Barnsben) / jägare (Rosing, Nykter) / grindvakt (Döver) / vittne (Babord)
+Kopplad till:   TBD, ingen beat i akter.md ännu
 
-Vad de vill:    Hurring vill veta vem som angav honom och sätta nya skulder i liggaren. Klöver vill läsa liggaren och sälja skvaller mot choklad. Prygel vill vara den Hurring är lojal mot, och straffa Klöver för den stulna valsen.
-Vad står i vägen: liggaren får stjälas, läsas, skrivas i. En del rader är sanna, en del är lögner Hurring glömt. Klöver och Prygel älskar båda Hurring (romanser 12, 13) och hatar varandra (fiende 1). Blåskägg har redan naglat IOU:er i masten (fiende 8): han är inte deltagare, men en rad i boken kan peka dit.
-Varför nu:      alla tre sitter vid samma fest. Liggaren är på personen. Svartklubben kan slås upp mellan jakterna.
+Vad de vill:    Barnsben vill att Döver ska se henne. Rosing och Nykter vill, var för sig och utan att veta om varandra, ha Barnsben. Babord vill bli av med ett rykte hon aldrig bad om.
+Vad står i vägen: Döver är upptagen av att låtsas döv och tjuvlyssna på sin nemesis Hjärter, och märker inte Barnsben på det sätt hon vill. Rosing vågar inte använda sin viskande snäcka på Barnsben, av rädsla för vad den avslöjar om henne själv. Nykter tar hellre en dans i trots än frågar på allvar. Babords scarf användes för att smuggla ett brev till Döver utan hennes lov, och ryktet om det följer henne fortfarande.
+Varför nu:      alla gamla bekanta är på samma ö för första gången på länge, festen gör folk vårdslösa, och Barnsbens sy- och broderihörna blir en plats där alla ändå hamnar förr eller senare.
 
-Hur det spelas: någon tar boken. Någon lägger i en rad. Klöver håller ett kortbord och lossar tungan mot choklad. Prygel har en liten kortlek och kan fuska tillbaka. Spaders kortfusk är garnering: den som jagar metoden kan fråga honom, han får inte ett eget uppdrag.
-Utfall om ja:   ett namn pekas ut som angivare. Det får inte vara Malin som facit. Flera versioner av samma skuld cirkulerar.
-Utfall om nej:  liggaren stannar hos Hurring. Fiende 1 och romanserna finns kvar.
+Hur det spelas: Barnsben håller sin sy- och broderihörna öppen, vilket ger alla fyra andra ett naturligt skäl att sätta sig ner och prata. Rosing kan använda snäckan nära Barnsben för att höra vad hon egentligen tänker, på risk att avslöja sina egna känslor. Nykter retas och stjäl uppmärksamhet snarare än att fråga rakt ut. Döver låtsas inte höra något av det som sägs, men hör allt. Babord konfronterar Barnsben om scarfen och kräver en offentlig ursäkt, särskilt känsligt eftersom Babord själv är ihop med Spader och inte vill dras in i mer intrigmakeri.
+Utfall om ja:   någon av trådarna löper ut: Rosing vågar erkänna, eller Döver tappar masken och avslöjar att han hört allt, eller Babord får sin ursäkt. Vilken som helst är en publik, pinsam scen.
+Utfall om nej:  det olyckliga nätet förblir olyckligt. Ingen konsekvens för huvudstoryn.
 
-Bygger på:      romanser 12, 13. Fiender 1, 8. Inte mullvad 4: Prygel mot Hurring är ett annat uppdrag.
-Speglas hos:    alla tre. Spader enväg om fusket kommer upp.
+Bygger på:      romanser 4, 5, 6. fiender 12, 13.
+Speglas hos:    Barnsben, Rosing, Nykter, Döver, Babord.
 Status:         idé
 
-Last: Hurring också i S-08, Prygel också i S-07, Klöver också i S-09.
-
----
-
-## S-05: Kajhemligheten
-
-Akt:            II, före 13.30 om vattnet behövs
-Deltagare:      Kapten Frodig (`josefinansund`), Kapten Fuling (`louisevonbahr`), Kapten Kuling (`josefinlowing`). Kapten Rödskägg (`viktoransund`) är hemligheten, inte ny jägare.
-Roll i storyn:  grindvakt / vittne
-Kopplad till:   B-14. Korsar S-02 om Fuling säljer ryktet till Blåskägg.
-
-Vad de vill:    Frodig vill träffa Rödskägg utan att släkterna får veta. Hon behöver kaj, båt eller alibi. Kuling har båtarna och sköt Rödskägg i ryggen för ett år sedan: hon ser kajen. Fuling kan begrava mötet eller sälja det, särskilt till Blåskägg som hon har romans med.
-Vad står i vägen: Rödskägg är redan i S-02 och har båtarna. Ge honom inte en ny jakt. Blodig hatar Frodig (fiende 4) och kan nysta, men hon är redan i S-01: kollision, inte fjärde jägare. Piratpulver i Rödskäggs väska kan köpa tystnad eller mod, utan egen quest.
-Varför nu:      tre skutor på samma ö. Kajen är publik. Överfart stänger 13.30.
-
-Hur det spelas: Frodig ber om eka, kajak eller ett alibi på land. Kuling vägrar, mutas, eller följer med och ser. Fuling får höra och väljer. Scenen hålls vid kajen, inte långt inne i skogen. Aldrig ensam på vattnet.
-Utfall om ja:   mötet syns, eller ryktet går, eller alibit håller till kistan. S-02 kan få bränsle.
-Utfall om nej:  romans 8 och fiende 25 finns kvar. Ingen måste ut på vattnet.
-
-Bygger på:      romans 8, 10. Fiende 25. Inte mullvad 3: Frodig mot Rosing är ett annat uppdrag.
-Speglas hos:    Frodig och Kuling. Fuling. Rödskägg speglar mötet, inte en ny jakt.
-Status:         idé
-
-Last: Kuling har redan båtarna. En scen vid kajen, inte en lång kedja.
-
----
-
-## S-06: Teckenspråket
+## S-04: Vem angav Hurring
 
 Akt:            II
-Deltagare:      Kapten Döver (`navidmodiri`), Kapten Babord (`alexandrapalmquist`), Kapten Rötägg (`edvinthungren`). Kapten Hjärter är målet enväg, inte extra last.
-Roll i storyn:  jägare / grindvakt
-Kopplad till:   fiende 23. Korsar S-01 om Döver saboterar jakten på älskaren. Korsar köket.
+Deltagare:      Kapten Hurring (`jesperlindmarker`), Kapten Fuling (`louisevonbahr`), Kapten Klöver (`johannabergman`), Kapten Prygel (`minervalowgren`)
+Roll i storyn:  jägare (Hurring) / bärare (Fuling) / vittne (Klöver, Prygel)
+Kopplad till:   TBD, ingen beat i akter.md ännu
 
-Vad de vill:    Döver vill sabotera Hjärter och behålla fejkdövheten. Han har sanningsserum och vill hålla en workshop i hittepå-tecken. Babord älskar honom och kan täcka. Rötägg vill vara snäll nu och hjälpa till, vilket är det sista Döver vill: Rötägg är gammal röta mot den "döve" (fiende 6).
-Vad står i vägen: någon på ön kan riktigt teckenspråk och kan avslöja honom. Hjärter har redan sett honom reagera på ljud. Serumet i fel hals. Rötägg som hjälper för mycket.
-Varför nu:      Hjärter lagar mat och jagar Malins älskare. Döver kan stå vid kökskanten och "inte höra".
+Vad de vill:    Hurring vill äntligen veta vem som angav honom för många år sedan och satte honom i fängelse.
+Vad står i vägen: sanningen ligger begravd. Fuling har alltid nekat till att plantera rykten, trots att det är precis vad hon gjorde mot Planka (fiende 5). Ingen misstänker den tysta ryktesspridaren för något så allvarligt.
+Varför nu:      alla från den tiden är samlade på samma ö för första gången, och Hurrings svarta liggare behöver en ny sida, en som han tänker skriva i just den här helgen.
 
-Hur det spelas: workshop på gården som täckmantel. Serum i en kopp nära Hjärter eller nära den som ska avslöja Döver. Babord översätter hittepå. Rötägg går på workshopen för att vara vänlig och kan råka visa att tecknen är strunt. Hjärter får inte en ny egen jakt: han är måltavla.
-Utfall om ja:   någon tror Döver är döv, eller någon har bevis för motsatsen. Hjärters jakt i S-01 störs eller får en falsk ledtråd.
-Utfall om nej:  fiende 6 och 23 och romans 7 finns kvar. Workshopen blir bara fest.
+Hur det spelas: Hurring förhör och driver in gamla skulder, och stämmer av folks historier mot sin liggare. Klöver, som driver hemliga spelklubbar och byter skvaller mot choklad, har hört ett fragment som pekar mot "någon som är bra på rykten", men vill ha betalt för att dela det. Prygel, just nu Hurrings kärlek, hamnar i kläm mellan att hjälpa honom och att skydda vem det än visar sig vara. Fuling ljuger eller planterar ett nytt rykte för att peka bort från sig själv, gärna mot Planka igen.
+Utfall om ja:   Hurring får bekräftelse, eller stark cirkumstantiell bevisning, att Fuling ligger bakom. Ny sida i liggaren, kanske en offentlig konfrontation.
+Utfall om nej:  mysteriet förblir olöst. Fulings hemlighet överlever. Hurrings paranoia om andra, kanske Malin, fortsätter.
 
-Bygger på:      romans 7. Fiender 6, 23. Inte mullvad 5: Babord mot Döver är ett annat uppdrag.
-Speglas hos:    alla tre. Hjärter enväg.
+Bygger på:      fiende 5 (Fuling–Planka, hennes vana att plantera rykten). Hurrings egen etablerade hemlighet: han vet inte vem som angav honom.
+Speglas hos:    Hurring, Fuling, Klöver, Prygel.
 Status:         idé
 
----
-
-## S-07: Hornet
-
-Akt:            II, gärna publik strid eller brunchskål
-Deltagare:      Kapten Plåthorn (`elinmartensson`), Kapten Prygel (`minervalowgren`), Kapten Rosing (`linneaekbom`)
-Roll i storyn:  jägare / bärare
-Kopplad till:   klagomuren på Gnället. Inte vattnet som duellplats: Rosing kan inte simma, och aldrig ensam.
-
-Vad de vill:    Plåthorn vill ha hornet kvar som flyktväg när det blir närkamp. Prygel vill se det krossat. Rosing vill ha en duell med ära, och hornet skulle förstöra den, eller bli hennes utväg om duellen går snett.
-Vad står i vägen: hornet är på personen. Ryktet är känt. Kuling hatar också Plåthorn (fiende 7) och kan dyka upp vid en skål, men hon är redan grindvakt plus S-05: inte fjärde jägare.
-Varför nu:      första publika slagsmålet eller skålen. Klagomuren ger en naturlig publik.
-
-Hur det spelas: någon utmanar. Hornet åker fram, eller någon försöker sno det före. Prygel går för att krossa. Rosing väljer: ära utan horn, eller horn och flykt. Duellen är eyegazing, rom, eller dramatisk entré, inte simning.
-Utfall om ja:   hornet krossas, stjäls, eller blåses. En skål urartar. Folk har sett det.
-Utfall om nej:  fiende 24 finns kvar. Plåthorn smiter på annat sätt.
-
-Bygger på:      fiende 24. Rosing vill duellera enligt rollfilen. Inte romans 14: Spader speglar inte, han har nog.
-Speglas hos:    alla tre.
-Status:         idé
-
-Last: Rosing också i S-03, Prygel också i S-04. Om bara en var: behåll Prygel här (hornet är hennes underlag), byt Rosing mot den som utmanar på klagomuren.
-
----
-
-## S-08: Fasanen
+## S-05: Svärdet och arvssynden
 
 Akt:            II
-Deltagare:      Kapten Enben (`amaliawahlstrom`), Kapten Planka (`linneaappert`), Kapten Hurring (`jesperlindmarker`)
-Roll i storyn:  jägare / vittne
-Kopplad till:   fiende 2. Inte bärande balk mot kistan. Inte S-01: de jagar inte älskaren.
+Deltagare:      Kapten Dunka (`ludvigvonbahr`), Kapten Nykter (`fabianmacklin`), Kapten Kosing (`amandamungsgard`)
+Roll i storyn:  bärare (Dunka) / jägare (Nykter) / grindvakt (Kosing)
+Kopplad till:   TBD, ingen beat i akter.md ännu
 
-Vad de vill:    Enben vill ha ett publikt recant av skålen om fasanen som inte kan flyga, eller bevis för att Malin kapade hennes skiff. Planka sitter på Kurtisanen och kan lyssna vid Malins bord. Hurring misstänker redan att Malin angav honom, och sitter på liggaren.
-Vad står i vägen: Malin bekräftar eller förnekar inte. S-01 ska fortfarande kunna gissa fel om älskaren. Kosing har också en lågintensiv oförrätt mot Malin (fiende 17) men vill inte stå i centrum: hon är inte deltagare här. Kuling har Malin som största oförrätt i rollfilen, men hon är redan båtar plus S-05.
-Varför nu:      festen, skålarna, att Enben och Malin är i samma hamn.
+Vad de vill:    Kosing vill lägga sin påhittade arvssyndsskatt på Dunkas uppblåsta historier och anor. Nykter vill, en gång till, sticka hål på Dunkas ego inför andra.
+Vad står i vägen: Dunka vaktar sitt tveeggade svärd svartsjukt och låter aldrig någon granska det på nära håll. Han är livrädd för att avslöjas som falsk.
+Varför nu:      festens skålande och skryt ger den perfekta scenen, och Kosings skattebod är öppen hela helgen.
 
-Hur det spelas: Enben samlar vittnesmål. Planka tar en mening från Kurtisanens kaj. Hurring byter en rad i liggaren mot ett namn eller en skiff-historia. Ingen ny logik, inget pussel. Inte peka ut kungen.
-Utfall om ja:   en skål, ett rykte, en rad i boken. Malin ser skyldig ut för något som inte är kontraktet.
-Utfall om nej:  fiende 2 finns kvar. Kistan bär förräderiet ändå.
+Hur det spelas: Kosing riktar sin arvssyndsskatt specifikt mot Dunka och kräver betalt för hans anspråk på fin börd. Nykter retar fram svärdets "historia" högt inför andra, i hopp om att Dunka snubblar på en detalj eller att någon känner igen den. Om Dunka betalar eller historien rämnar spricker hans självbild inför båda besättningarna, vilket kan trigga hans signaturkramar som tröst.
+Utfall om ja:   Dunka förödmjukas offentligt, Kosing kammar hem en fin skatt, Nykter njuter av segern.
+Utfall om nej:  Dunka bluffar sig igenom, myten lever vidare, skatten obetald.
 
-Bygger på:      fiende 2. Plankas tomma rollfil plus romans 3 som inte används här. Hurring från S-04-objektet.
-Speglas hos:    Enben och Hurring. Planka. Malin speglar inte: hon leder fel eller tiger, samma gest som i S-01.
+Bygger på:      fiende 20 (Dunka–Nykter). Romans 19 (Kosing–Dunka), i den lågintensiva, icke-centrala form Kosing bett om.
+Speglas hos:    Dunka, Nykter, Kosing.
 Status:         idé
 
-Last: Hurring också i S-04. Om bara en: behåll S-04, byt Hurring här mot Fuling (säljer rykte, redan i S-05) eller stryk S-08. Enben ska ändå ha *någon* roll mot Malin när gästtexten skrivs. Det kan vara huvudstory, inte sidequest.
+## S-06: Enbens räkning
 
----
+Akt:            II–IV
+Deltagare:      Kapten Enben (`amaliawahlstrom`), Kapten Kuling (`josefinlowing`), Svarta Malin (`malintadaa`)
+Roll i storyn:  jägare (Enben, Kuling) / antagonist, bärare (Malin, redan tillsatt)
+Kopplad till:   TBD, ingen beat i akter.md ännu
 
-## S-09: Arvssyndskatten
+Vad de vill:    Enben och Kuling vill båda, av olika skäl, offentligt förödmjuka eller ta tillbaka något från Malin innan helgen är slut. Enben för skålen om "fasanen som inte kan flyga" och den kapade skiffen. Kuling för en gammal skuld hon aldrig släppt, en Fördärvet enligt henne har rätt att kräva tillbaka.
+Vad står i vägen: Malin är svår att komma åt, alltid charmig, och just nu generös värdinna på sin egen fest. Att slå till nu ser passande ut mot en fiende, men riskabelt mot en jubilar. Enben och Kuling känner inte till varandras groll från början.
+Varför nu:      det är Malins helg, hennes fest, hennes garde nere mitt i firandet och romen, den enda gång hon går att komma åt.
 
-Akt:            II, gärna när folk äter
-Deltagare:      Kapten Kosing (`amandamungsgard`), Kapten Dunka (`ludvigvonbahr`), Kapten Klöver (`johannabergman`)
-Roll i storyn:  jägare / grindvakt
-Kopplad till:   ingen beat än. Låg intensitet för Kosing. Inte kidnappning, inte publik rättegång, inte Mini.
+Hur det spelas: Enben och Kuling provocerar, retar eller försöker lura ut något av Malin var för sig, en skål som slår fel, ett föremål som "lånas tillbaka" med en giftig kommentar, en duellutmaning. Upptäcker de varandras groll, till exempel via Klövers skvaller, kan de gå samman om en större publik aktion, till exempel att rigga en skål eller tvinga fram en pinsam utmaning inför alla. Kan krocka med cryptexen: att sno den ur Malins ficka som hämnd.
+Utfall om ja:   Malin nålas offentligt, kanske förlorar hon cryptexen kort som ett practical joke/hämnd, en scen som sår tvivel om henne inför kvällen.
+Utfall om nej:  inget landar, Malin charmar sig undan som vanligt, ingen kostnad för huvudstoryn.
 
-Vad de vill:    Kosing vill införa arvssyndskatt och spela med Dunka. Dunka vill se stor ut med det tvåeggade svärdet och inte bli avslöjad som bluff. Klöver vill ha choklad och skvaller, och Kosing har redan planerat en hemlig ätupplevelse med henne.
-Vad står i vägen: Nykter gjorde Dunkas svärdhistoria till hamnskämt (fiende 20). Han är inte deltagare: han kan skratta från kökskanten som kollision med S-03. Dunkas kramar är "indrivning". Kosings skatt av mynt är kassan.
-Varför nu:      folk har fickor, skålar och skuld. Brunch och kvällsmat ger naturliga stopp.
-
-Hur det spelas: Kosing sätter taxan i en mening. Dunka går runt med svärd och kräv. Klöver släpper namn mot choklad eller tar betalt för att *inte* berätta svärdlögnen. Den hemliga ätupplevelsen är droppen där kassan räknas, inte en scen mitt på gården.
-Utfall om ja:   någon har betalat, någon har vägrat, svärdet har avkrävts en historia. Kosing har inte stått i en ring med hela ön.
-Utfall om nej:  romans 19 och fiende 20 finns kvar.
-
-Bygger på:      romans 19. Fiende 20 som kollision. Kosings och Klövers gemensamma matplan i rollfilen.
-Speglas hos:    alla tre. Nykter enväg om svärdet kommer upp.
+Bygger på:      fiende 2 (Enben–Malin). Kulings etablerade personliga oförrätt mot Malin, i rollunderlaget, inte en formell fiendepost.
+Speglas hos:    Enben, Kuling, Malin.
 Status:         idé
 
-Last: Klöver också i S-04. Om bara en: behåll S-04, byt Klöver här mot Nykter (då får Nykter S-03 plus S-09).
+## S-07: Rötäggets bevis
 
----
+Akt:            II
+Deltagare:      Kapten Rötägg (`edvinthungren`), Kapten Planka (`linneaappert`), Kapten Barnsben (`ulrikahammar`)
+Roll i storyn:  bärare (Rötägg) / jägare (Planka) / vittne, grindvakt (Barnsben)
+Kopplad till:   TBD, ingen beat i akter.md ännu
+
+Vad de vill:    Rötägg vill bevisa för Planka, som han älskar och fick sina manschettknappar av, att han verkligen ändrat sig. Planka vill veta om kärleken vilar på sanning.
+Vad står i vägen: Barnsben minns fortfarande parfymspratten som saboterade hennes uppvaktning av Döver (fiende 13) och tror inte på Rötäggs omvändelse. Frågar Planka rakt ut riskerar hon att få höra hela sanningen om vem Rötägg var förr.
+Varför nu:      alla gamla bekanta är på samma ö, och romens frikostighet gör att gammalt groll lättare kommer upp till ytan.
+
+Hur det spelas: Planka söker upp Barnsben, gärna vid sy- och broderihörnan, för att höra vad hon vet om Rötägg. Barnsben kan välja att släppa taget om gammal röta som en gest, eller hålla fast vid den och sabotera relationen igen, medveten eller ej om att det är precis vad hon en gång anklagade honom för. Rötägg kan försöka blidka Barnsben i förväg med en gest, till exempel en massage eller sabrerad bubbel, innan Planka hinner fråga.
+Utfall om ja:   Barnsben förlåter, äkta eller spelat, och Rötägg och Plankas kärlek stärks.
+Utfall om nej:  Barnsben berättar sanningen, Planka får tvivel, ett osäkert kärleksdrama fortsätter in i kvällen.
+
+Bygger på:      romans 3 (Planka–Rötägg). Fiende 13 (Barnsben–Rötägg).
+Speglas hos:    Rötägg, Planka, Barnsben.
+Status:         idé
+
+## S-08: Jakten på Plåthornet
+
+Akt:            II–IV
+Deltagare:      Kapten Plåthorn (`elinmartensson`), Kapten Kuling (`josefinlowing`), Kapten Prygel (`minervalowgren`)
+Roll i storyn:  grindvakt (Plåthorn) / jägare (Kuling, Prygel)
+Kopplad till:   TBD, ingen beat i akter.md ännu
+
+Vad de vill:    Prygel vill se hornet krossat en gång för alla, på allvar, för att det stör hennes stridslystna heder. Kuling vill komma över det för skojs skull, efter att redan ha hånat det i en skål, kanske använda det taktiskt eller sälja det vidare.
+Vad står i vägen: Plåthorn släpper aldrig hornet frivilligt. Det är hennes enda pålitliga flyktväg när det blir på allvar, och hon bär det nära sig hela tiden.
+Varför nu:      den samlade festen och stridsstämningen gör hornet extra farligt att använda, och båda jägarna vet att fel tillfälle blir kaos.
+
+Hur det spelas: Kuling och Prygel försöker, var för sig eller tillsammans, locka fram, stjäla eller lura Plåthorn att blåsa i hornet vid fel tillfälle, så att hon förlorar kontrollen över det eller avslöjas. Plåthorn försvarar sig genom att fly, muta, eller blåsa i hornet i självförsvar och sprida kaos som täckmantel. Betalar sig bäst efter ritualen 15.30: ett hornstöt mitt i kvällens kaos kräver ingen logik, bara kropp och skratt.
+Utfall om ja:   hornet byter händer eller krossas, ett kaosmoln av upphetsning bryter ut runt bytet, publikt och pinsamt.
+Utfall om nej:  Plåthorn behåller hornet, grälet fortsätter, ingen konsekvens för huvudstoryn.
+
+Bygger på:      fiende 7 (Kuling–Plåthorn). Fiende 24 (Prygel–Plåthorn).
+Speglas hos:    Plåthorn, Kuling, Prygel.
+Status:         idé
+
+## S-09: Blodigs hot
+
+Akt:            II–IV
+Deltagare:      Kapten Blodig (`minimacklin`), Kapten Frodig (`josefinansund`), Kapten Rödskägg (`viktoransund`)
+Roll i storyn:  jägare (Blodig) / bärare (Frodig, Rödskägg)
+Kopplad till:   TBD, ingen beat i akter.md ännu
+
+Vad de vill:    Blodig, redan Frodigs ärkefiende, får nys om den förbjudna kärleken mellan Frodig och Rödskägg och vill använda den, dels för att hämnas den gamla oförrätten, dels för att elda på kaos.
+Vad står i vägen: hemligheten är väl bevarad. Deras släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal.
+Varför nu:      helgens närhet och alkohol gör folk vårdslösa, ett hastigt ögonkast eller en smekning kan förråda dem inför fel person.
+
+Hur det spelas: Blodig, redan känd för att slå till hårt och redan upptagen med att jaga Malins älskare (S-01), snubblar över eller aktivt nystar i ett tecken på förhållandet, ett brev, en blick, ett smeknamn. Hon konfronterar en av dem enskilt eller sprider ett rykte utan att avslöja hela sanningen än, som hot eller utpressning. Frodig och Rödskägg måste förneka högljutt, muta Blodig, eller fly tillsammans, med risk att bekräfta ryktet genom sin egen panik.
+Utfall om ja:   kärleken avslöjas offentligt, skandal mellan skutorna, gammalt groll (fiende 3, fiende 4) blossar upp igen.
+Utfall om nej:  hemligheten överlever, men Blodig har nu ett vapen hon kan använda när som helst under kvällen.
+
+Bygger på:      fiende 4 (Blodig–Frodig). Romans 8 (Rödskägg–Frodig), med explicit koppling redan noterad i `fiender.yaml`.
+Speglas hos:    Blodig, Frodig, Rödskägg.
+Status:         idé
 
 ## Uppslag från befintligt material
 
 Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att dras in i huvudstoryn, eftersom de redan har tryck och redan korsar skutor:
 
-- **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fyra personer i ett nät. **S-03, idé.** Döver och Babord är kollision, inte fjärde jägare.
+- **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fyra personer i ett nät. **S-03, idé.**
 - **Blodig, Hjärter och Felix om Malin** (romanser 17, 18, 20 och fiende 21). Tre anspråk på jubilaren. De jagar hennes hemliga älskare i hamnen. Sanningen är Karl XII, först i kistan. **S-01, beslutad. Gästtext inte skriven.**
-- **Enben mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Sannolikt vår viktigaste ingång till huvudstoryn. **S-08, idé.** Inte bärande balk. Kan bli huvudstory-roll istället för sidequest.
+- **Enben mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Sannolikt vår viktigaste ingång till huvudstoryn. **S-06, idé.**
 - **Hjärter och Felix, båda hemligt förälskade i Malin** (romanser 17, 18). De vet om varandra. Två vittnen som vill henne väl och därför kan bära obekväm sanning. De jagar rivalen tillsammans, Felix bara privat. **S-01, beslutad. Gästtext inte skriven.**
-- **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. I S-06 är han den som vill vara snäll och därför är farlig för Döver. Mullvad väljs när questsen är färdigskrivna.
-- **Frodig och Rödskägg, förbjuden kärlek** (romans 8, fiende 25). **S-05, idé.** Rödskägg får inte ny jakt.
-- **Hurring, Klöver, Prygel** (romanser 12, 13, fiende 1). **S-04, idé.**
-- **Plåthorns horn mot Prygel** (fiende 24). **S-07, idé.**
-- **Kosing och Dunka** (romans 19, låg intensitet). **S-09, idé.**
+- **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Mullvad väljs när questsen är färdigskrivna. Delvis adresserad i **S-07** via fiende 13.
