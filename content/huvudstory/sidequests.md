@@ -96,7 +96,7 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 
 **Utökning 2026-08-23:** varje sidequest fick en eller två extra deltagare, enligt regeln att fler ska ha fyra eller fem inblandade, inte bara det minsta av tre. Tillägget är genomgående enkelt: en person som redan bär ett etablerat drag (skvaller mot betalning, tjuvlyssning, en gammal skuld, en rivalitet) får samma ledtråd eller bakgrundsinfo som huvuddeltagarna, oftast som enväg-vittne, sällan som ny aktiv jägare. Ingen sidequest fick ny mekanik för att rymma fler, se "Hur det spelas" i respektive avsnitt.
 
-S-01 till S-10 är nu alla **beslutade** (2026-08-23). Ingen gästtext är skriven än och ingen sidequest finns i [`fordelning.yaml`](fordelning.yaml): det är nästa steg, ett i taget, enligt arbetsordningen i [`README.md`](README.md).
+S-01 till S-10 är nu alla **beslutade** (2026-08-23). Gästfilerna nollställdes 2026-08-23: ingen gästtext är skriven, utskrift är pending. Sidequest-poster som redan ligger i [`fordelning.yaml`](fordelning.yaml) är tillbaka på pending. Skriv ett i taget enligt arbetsordningen i [`README.md`](README.md).
 
 ## S-01: Jakten på älskaren
 

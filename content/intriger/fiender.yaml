@@ -23,7 +23,7 @@
 #
 # status: pending | done | skipped
 # done = brödtext skriven i guests/. Inte förrän den omgången.
-# Gästfilerna är nollställda 2026-08-20. Inga done förrän gästtexten skrivs.
+# Gästfilerna är nollställda 2026-08-23. Inga done förrän gästtexten skrivs.
 
 fiender:
   # --- Mutual ---

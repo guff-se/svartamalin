@@ -11,7 +11,7 @@
 #   4. status: done
 #
 # Ingen gästtext skrivs innan posten finns här. Se README.md.
-# Gästfilerna är nollställda 2026-08-20. Individposter är pending
+# Gästfilerna är nollställda 2026-08-23. Individposter är pending
 # tills den omgången. Crew-poster (id 1–5) är skrivna i crews/.
 #
 # Fält:
@@ -115,7 +115,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 22"
     pussel: null
-    status: done
+    status: pending
 
   - id: 7
     beat: B-13
@@ -127,7 +127,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 17"
     pussel: null
-    status: done
+    status: pending
 
   - id: 9
     beat: B-13
@@ -139,7 +139,7 @@ fordelning:
     speglas: []
     bygger_pa: "romans: 20"
     pussel: null
-    status: done
+    status: pending
 
   - id: 10
     beat: B-14
@@ -170,8 +170,8 @@ fordelning:
     akt: II
     till: [petterwallberg]
     roll: jagare
-    vet: "att han, Kapten Rödskägg och Kapten Blåskägg strider om vem som är Skäggkonung, och att det ska avgöras publikt under helgen"
-    vet_inte: "hur det avgörs (intrigtext TBD), inget av kistan eller kontraktet"
+    vet: "att han, Kapten Rödskägg och Kapten Blåskägg strider om vem som är Skäggkonung, att kajen kröner den som får högst skål vid båtarna, att han samlar skägg skurna från levande kaptener, och att Kapten Klöver tar vad"
+    vet_inte: "inget av kistan eller kontraktet"
     speglas: [viktoransund, hampuslindblad]
     bygger_pa: "fiende: 3, 19"
     pussel: null
@@ -182,8 +182,8 @@ fordelning:
     akt: II
     till: [viktoransund]
     roll: jagare
-    vet: "att han, Kapten Lösskägg och Kapten Blåskägg strider om vem som är Skäggkonung, och att det ska avgöras publikt under helgen"
-    vet_inte: "hur det avgörs (intrigtext TBD), inget av kistan eller kontraktet"
+    vet: "att han, Kapten Lösskägg och Kapten Blåskägg strider om vem som är Skäggkonung, att kajen kröner den som får högst skål vid båtarna, att Lösskägg rakade en rand i hans röda skägg medan han bar det, att Blåskägg färgade honom blå i tvättbaljan och krönte sig, och att Kapten Klöver tar vad"
+    vet_inte: "inget av kistan eller kontraktet"
     speglas: [petterwallberg, hampuslindblad]
     bygger_pa: "fiende: 3, 18"
     pussel: null
@@ -194,8 +194,8 @@ fordelning:
     akt: II
     till: [hampuslindblad]
     roll: jagare
-    vet: "att han, Kapten Lösskägg och Kapten Rödskägg strider om vem som är Skäggkonung, och att det ska avgöras publikt under helgen. Att han redan har krönt sig."
-    vet_inte: "hur det avgörs (intrigtext TBD), inget av kistan eller kontraktet"
+    vet: "att han, Kapten Lösskägg och Kapten Rödskägg strider om vem som är Skäggkonung, att han redan har krönt sig efter att ha färgat Rödskägg, att kajen kröner den som får högst skål vid båtarna, och att Kapten Klöver tar vad"
+    vet_inte: "inget av kistan eller kontraktet"
     speglas: [petterwallberg, viktoransund]
     bygger_pa: "fiende: 18, 19"
     pussel: null
@@ -321,5 +321,41 @@ fordelning:
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
     speglas: [minervalowgren]
     bygger_pa: "romans: 13"
+    pussel: null
+    status: pending
+
+  - id: 25
+    beat: S-01
+    akt: II
+    till: [amaliawahlstrom]
+    roll: vittne
+    vet: "att Malin skålade för fasanen som inte kan flyga och menade henne, att Malin kapade hennes båt i dimman, att hamnen viskar att Malin gömmer en älskare, och att hon ska sätta ett namn på ett bord så Malin ser skyldig ut"
+    vet_inte: "vem den hemliga älskaren är, att Dunka är utlagd som avledning, kistan, Karl XII"
+    speglas: [malintadaa]
+    bygger_pa: "fiende: 2"
+    pussel: null
+    status: pending
+
+  - id: 26
+    beat: S-01
+    akt: II
+    till: [ludvigvonbahr]
+    roll: barare
+    vet: "att han har en synlig, diskret romans med Svarta Malin, att ryktet att han är mannen som fick henne gynnar honom, och att han inte ska dementera det"
+    vet_inte: "att han är en avledning, att den hemliga älskaren är Karl XII, att kistan bär sanningen"
+    speglas: [malintadaa]
+    bygger_pa: "romans: 24"
+    pussel: null
+    status: pending
+
+  - id: 27
+    beat: S-02
+    akt: II
+    till: [johannabergman]
+    roll: grindvakt
+    vet: "att Lösskägg, Rödskägg och Blåskägg slåss om vem som ska kallas Skäggkonung, att kajen kröner den som får högst skål vid båtarna, och att hon ska öppna vadslagning och ta procent, choklad lika bra som mynt"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: []
+    bygger_pa: "fiende: 3, 18, 19"
     pussel: null
     status: pending
