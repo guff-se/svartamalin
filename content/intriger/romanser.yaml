@@ -69,7 +69,7 @@ romanser:
     type: mutual
     a: navidmodiri         # Kapten Döver (Navid Modiri)
     b: alexandrapalmquist  # Kapten Babord (Alexandra Palmquist)
-    status: pending
+    status: done
 
   - id: 8
     type: mutual

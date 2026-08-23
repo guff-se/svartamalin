@@ -707,3 +707,51 @@ fordelning:
     bygger_pa: null
     pussel: null
     status: done
+
+  - id: 57
+    beat: S-10
+    akt: II
+    till: [navidmodiri]
+    roll: jagare
+    vet: "att hans teckenspråk och dövhet är påhitt för att slippa strunt och tjuvlyssna ostört, att Kapten Babord täcker för honom, att han håller en workshop på gården nära köket där Kapten Hjärter jagar jubilarens älskare, att Kapten Rötägg vill hjälpa honom av vänlighet trots att han inte litar på omvändelsen, och att Kapten Fuling anar sanningen och sparar den som en skuld"
+    vet_inte: "att kistan öppnas, att brevet läses högt"
+    speglas: [alexandrapalmquist, edvinthungren, louisevonbahr]
+    bygger_pa: "romans: 7, fiende: 6, 23"
+    pussel: null
+    status: done
+
+  - id: 58
+    beat: S-10
+    akt: II
+    till: [alexandrapalmquist]
+    roll: grindvakt
+    vet: "att hon täcker för Kapten Dövers påhittade teckenspråk och dövhet genom att översätta med rak min, och att någon på ön kan riktigt teckenspråk och skulle kunna avslöja dem"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [navidmodiri]
+    bygger_pa: "romans: 7"
+    pussel: null
+    status: done
+
+  - id: 59
+    beat: S-10
+    akt: II
+    till: [edvinthungren]
+    roll: vittne
+    vet: "att han en gång var röta mot Kapten Döver, att han nu vill hjälpa honom med workshopen av ren vänlighet fast Döver inte vill ha hjälpen, och att hans iver kan avslöja mer om Döver än han anar"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [navidmodiri]
+    bygger_pa: "fiende: 6"
+    pussel: null
+    status: done
+
+  - id: 60
+    beat: S-10
+    akt: II
+    till: [louisevonbahr]
+    roll: vittne
+    vet: "att hon länge anat att Kapten Dövers dövhet är påhitt men aldrig sagt det högt, och att hon sparar det som en skuld att kräva in senare istället för att avslöja honom gratis"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [navidmodiri]
+    bygger_pa: null
+    pussel: null
+    status: done

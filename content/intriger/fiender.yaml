@@ -71,7 +71,7 @@ fiender:
     b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
     # oförrätt: Rötäggs röta mot den "döve" (ruttna förråd, före omvändelsen). Döver teg då;
     # nu tjuvlyssnar han och släpper inte Rötäggs nya snällhet. Rötägg vill vara snäll; Döver köper det inte.
-    status: pending
+    status: done
 
   - id: 7
     type: mutual
@@ -174,7 +174,7 @@ fiender:
     # oförrätt: Dövers nemesis (underlag). Saboterar Hjärters uppdrag (kök och jakten på Malins älskare).
     # Hjärter har sett Döver reagera på ljud han "inte kan höra" och litar inte på handbabblet.
     # Scener tål kökskanten: Hjärter har maten.
-    status: pending
+    status: done
 
   - id: 24
     type: mutual
