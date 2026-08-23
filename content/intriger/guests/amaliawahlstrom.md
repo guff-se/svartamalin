@@ -1,3 +1,11 @@
 ---
 # Skuta: **Barken Bortförklaringen** (crew_id: 3)
+mirrors:
+  - slug: hampuslindblad
+    note: romans 23, mutual med Kapten Blåskägg
+related: [hampuslindblad, louisevonbahr]
 ---
+
+## Blåskägg, mitt ben {slug:hampuslindblad}
+
+Du saknade en romans. Inte längre. **Kapten Blåskägg** är din, och du vägrar backa för **Kapten Fuling** som påstår att hon hade honom först. Du vill rida honom med det enda benet om det så krävs, ta hans krona i näven och knulla skäggkungen tills hamnen glömmer vem som krönte sig. Första kvällen: ett leende som inte backar. Innan helgen är över ska Blåskägg ha valt, eller åtminstone stönat ditt namn så Fuling hör det.
