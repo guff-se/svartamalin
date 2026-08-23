@@ -101,9 +101,15 @@ Skriv aldrig så att helgen låter som en enda kväll. Ett ensamt "i kväll" ell
 |-----|--------|
 | "innan helgen är över", "innan sista skålen", "innan ni lämnar Ovanan" | "innan morgonen", "innan natten är över" |
 | "första kvällen ler ni, andra kvällen kräver ni betalt" | "i kväll" (utan att säga vilken) |
-| "börja redan vid fredagens fat, avsluta det på lördagen" | Formuleringar som antyder att allt hinner och måste ske vid ett enda bord |
+| "innan sista skålen", "innan ni lämnar Ovanan" | Formuleringar som antyder att allt hinner och måste ske vid ett enda bord |
 
 Vill du ändå ha brådskan i texten: namnge kvällen ("**andra kvällen**", "lördagens sista skål") eller sätt deadline vid helgens slut. Att en intrig *börjar* redan fredag är utmärkt, men den ska ha luft nog att bära genom lördagen.
+
+### Inte spelledning om när de ska spela
+
+Avsluta **inte** varje gäststycke med `Fredag: …` / `Lördag: …`. Det är spelledning om hur och när de ska spela. Standard: vilja, hinder, varför det måste avgöras under helgen. Låt gästen välja när.
+
+OK **bara när tidpunkten är själva saken**: ett piller som måste tas i skymningen, en kröning vid båtarna. Då står tiden i brödtexten som fakta, inte som ett schema längst ner.
 
 ### Fredag middag och kväll: Överdåd (kväll ett)
 Ostindiefararen är hemma. Ingen talar om vad som väntar. Vi ler mot våra fiender och dricker deras vin. Kvällen innan allt brinner.
@@ -190,7 +196,7 @@ De ser inte andra gästers filer, inte andra skutors lagfiler, inte `huvudstory/
 
 Spelaren har **inte** läst `sidequests.md`, `fiender.yaml`, `romanser.yaml`, andras `roller/` eller andras gästfiler. De har sin egen gästfil, sin lagfil, sajtcopy och det de själva skrev i `roller/{sin slug}.md`.
 
-**Efter varje stycke:** läs det högt och fråga: *går den här meningen att förstå utan någon ytterligare fil?* Om nej: lyft in förklaringen i samma stycke, eller stryk.
+**Efter varje stycke:** läs det högt och fråga: *går den här texten att förstå utan någon ytterligare fil?* Om nej: lyft in förklaringen i samma stycke, eller stryk.
 
 Förbjudet: intern jargong och halva historier.
 
@@ -254,3 +260,4 @@ Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet at
 16. **Står texten för sig själv?** Läs stycket som om du bara har den här filen. Kräver någon mening `sidequests.md`, yaml, någon annans roller eller någon annans gästfil? → berätta händelsen i den här filen, eller stryk. "skamrand i det röda" och "burken och skymningen" är förbjudna som oförklarade.
 17. Refererar texten till en sidequest, ett objekt eller en titel från ett spår personen inte är med i? → stryk. Speglad romans räcker inte.
 18. Stämmer han/hon med civilnamnet i `anteckningar/`? Okänd person: hen, eller skriv om utan pronomen. Anta inte att kaptener är män.
+19. Slutar stycket med `Fredag:` / `Lördag:` utan att tidpunkten är själva saken? → stryk schemat. Vilja, hinder, helgen. Inte spelledning om när de ska spela.

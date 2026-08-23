@@ -60,6 +60,7 @@ Innan gryningen ska ni …
 - Lagkamrater ser **inte** varandras individuella intriger.
 - Sajtens [`../copy/`](../copy/) läser alla. Inget mer på skärmen (andras gästfiler, andra lagfiler, `huvudstory/`, yaml: osynligt).
 - Skrivregeln: karaktären vet bara det som står i de tre. Se [STYLE.md](STYLE.md) ("Vad karaktären vet"). Lyft in det de *ska* veta, eller referera inte.
+- Inte Fredag/Lördag som standardavslut. Se STYLE.md. Tid i texten bara när tidpunkten är själva saken.
 
 ## Tomma filer
 

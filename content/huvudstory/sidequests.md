@@ -60,6 +60,7 @@ Status:         idé / beslutad / skriven
 6. **Ge en handling, inte en känsla.** "Var svartsjuk" går inte att spela. "Ta reda på vad hon lade i fiskens gap innan hon hinner tillbaka" går att spela.
 7. **Vet mottagaren att det är en sidequest?** Nej. Det ska stå i deras intrigfil som vilken intrig som helst.
 8. **Gästtexten står för sig själv.** Spelaren har inte läst den här filen. Varje oförrätt, föremål och rykte som behövs för att spela ska berättas i *deras* `guests/`-stycke, i klartext, inte som intern jargong.
+9. **Inte Fredag/Lördag som standardavslut.** Gästtexten ska inte sluta med ett schema (`Fredag: …` / `Lördag: …`) om tidpunkten inte är själva saken. Vilja, hinder, varför helgen. Låt gästen välja när. Se STYLE.md.
 
 ## Balansräkning
 
