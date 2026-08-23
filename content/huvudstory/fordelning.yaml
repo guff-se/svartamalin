@@ -175,7 +175,7 @@ fordelning:
     speglas: [viktoransund, hampuslindblad]
     bygger_pa: "fiende: 3, 19"
     pussel: null
-    status: pending
+    status: done
 
   - id: 13
     beat: S-02
@@ -187,7 +187,7 @@ fordelning:
     speglas: [petterwallberg, hampuslindblad]
     bygger_pa: "fiende: 3, 18"
     pussel: null
-    status: pending
+    status: done
 
   - id: 14
     beat: S-02
@@ -199,7 +199,7 @@ fordelning:
     speglas: [petterwallberg, viktoransund]
     bygger_pa: "fiende: 18, 19"
     pussel: null
-    status: pending
+    status: done
 
 # B-12 förrädare: fem mullvadar + fem kontakter. Paren är tillsatta
 # i forradare.yaml. Ingen gästtext förrän status: done.
@@ -358,4 +358,4 @@ fordelning:
     speglas: []
     bygger_pa: "fiende: 3, 18, 19"
     pussel: null
-    status: pending
+    status: done

@@ -48,7 +48,7 @@ fiender:
     b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
     # oförrätt: Skäggvadet (rött/blått/löst skägg). Röd kapade bogserlina; Lösskägg rakade skamrand i det röda.
     # Del av skäggtrion med Blåskägg (#18, #19). Lösskäggs underlag: plundra kaptener med skägg i namnet.
-    status: pending
+    status: done
 
   - id: 4
     type: mutual
@@ -156,14 +156,14 @@ fiender:
     b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
     # oförrätt: Efter skäggvadet hällde Blå indigo i baljan; Röd vaknade blåstrimmig; Blå krönte sig Skäggkonung
     # Rödskägg ville spela mot Frodigs skuta: Blåskägg sitter på Barken.
-    status: pending
+    status: done
 
   - id: 19
     type: mutual
     a: hampuslindblad     # Kapten Blåskägg: Barken Bortförklaringen
     b: petterwallberg     # Kapten Lösskägg: Korvetten Kurtisanen
     # oförrätt: Blå hånade att Lösskäggs skägg är fejk, färgade det blått, utropade sig kung över alla tre skäggen
-    status: pending
+    status: done
 
   # --- Namngivna i underlag (hämtade 2026-08-21/22) ---
 
