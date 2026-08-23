@@ -140,7 +140,7 @@ Regler:
 
 Enkätdata från branschen (Nicholson 2015, 175 anläggningar): 45 procent använder path-based struktur med parallella sekvenser, 37 procent rent sekventiell.
 
-**Vad det betyder för oss:** vi har fem lag och en ö, inte ett rum och fyra personer. Vår graf måste ha minst **fem ingångar**, alltså en per skuta, som konvergerar. Att rita grafen är obligatoriskt innan något pussel byggs. Mall och notation i [`pussel.md`](pussel.md).
+**Vad det betyder för oss:** vi har fem lag och en ö, inte ett rum och fyra personer. Vår graf måste ha minst **fem ingångar**, alltså en per skuta, som konvergerar. Att rita grafen är obligatoriskt innan något pussel byggs. Tillsatt mekanik sitter i [`quests.md`](quests.md). Lediga byggstenar: [`pussel.md`](pussel.md).
 
 ## 2.2 Ledtrådsregler
 
@@ -175,7 +175,7 @@ Ge hints. Alltid. Rekommendationen är en **trappa** i flera steg, som erbjuds e
 
 **Vad det betyder för oss:** hint-trappan i fyra steg är obligatorisk för varje pussel. Hur hints **levereras** är inte låst: Malin i roll, en deltagare som budbärare, eller spelledaren rakt av.
 
-Hint-trappa vi använder, fyra steg, obligatorisk för varje pussel i [`pussel.md`](pussel.md):
+Hint-trappa vi använder, fyra steg, obligatorisk när ett pussel tillsätts en quest:
 
 1. **Riktning:** "Har ni tittat i vardagsrummet?"
 2. **Objekt:** "Fisken har ett gap."

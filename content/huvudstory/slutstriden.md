@@ -41,7 +41,7 @@ Krav:
 - [x] Ska kunna komma från en deltagare, inte från oss. De öppnar kistan själva, med nyckeln ur cryptexen.
 - [x] Ska vara synligt och hörbart för alla samtidigt. Kistan står väl synlig. Kontraktet läses högt.
 - [x] Ska kännas som en konsekvens av dagen, inte som ett schemalagt moment. De har jagat kistan hela lördagen.
-- [x] Ska ha en backup om ingen deltagare tänder den senast en viss tid. 20.45: Malin eller Spader tvingar upp kistan. Se [`pussel.md`](pussel.md) P-01 bypass.
+- [x] Ska ha en backup om ingen deltagare tänder den senast en viss tid. 20.45: Malin eller Spader tvingar upp kistan. Se [`kanon.md`](kanon.md) och [`spelledning.md`](spelledning.md).
 
 Kvar att designa runt tändningen:
 

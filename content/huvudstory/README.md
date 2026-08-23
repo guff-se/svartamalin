@@ -29,10 +29,10 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 4. [`tidslinje.md`](tidslinje.md) körschema fredag 17.15 (ankomst Ovanan) till söndag 14.00, beat för beat
 5. [`akter.md`](akter.md) huvudstoryn i akter och beats, med reveal-plan och backup
 6. [`sidequests.md`](sidequests.md) sidospår som bara rör vissa deltagare
-7. [`quests.md`](quests.md) de fem queststoriesna (Malins legend). Låst story, mekanik i pussel.md
+7. [`quests.md`](quests.md) de fem queststoriesna (Malins legend). Låst story. Tillsatt mekanik sitter i questen.
 8. [`lagskatter.md`](lagskatter.md) varje skuta gömmer en skatt, en annan skuta jagar den
 9. [`forradare.yaml`](forradare.yaml) mullvad och kontaktperson per skuta
-10. [`pussel.md`](pussel.md) escape-room-mekaniken, pusselkedjor och ledtrådsdesign. Storybriefs för Q-1 till Q-5: [`quests.md`](quests.md)
+10. [`pussel.md`](pussel.md) lediga pusselbyggstenar. När en bit tillsätts flyttas den till questen eller platsen och stryks här. Story: [`quests.md`](quests.md)
 11. [`ritual.md`](ritual.md) lördag 15.30, ritualen
 12. [`slutstriden.md`](slutstriden.md) lördag ca 20.00, finalen
 13. [`spelledning.md`](spelledning.md) runtime: signaler, säkerhet, nödbromsar, vem gör vad
@@ -85,7 +85,7 @@ Fasta ramar. Ändras bara genom ett medvetet beslut som loggas i [`beslut.md`](b
 14. **Aldrig ensam på vattnet.** Off-regel, hela helgen. Ingen eka, kajak, paddel eller bad utan sällskap. Ingen story-bit, intrig eller pussel får kräva att någon åker ut eller badar själv.
 15. **Båtarna sköts av Kuling och Rödskägg.** Kapten Kuling (`josefinlowing`) och Kapten Rödskägg (`viktoransund`) har hand om eka, kajak och paddel. En *skriven* intrig som kräver sjöfärd går primärt genom att övertala en av dem att ge sig ut, för spel och interaktion. Man **får** åka ut utan dem. Off-regeln är bara: aldrig ensam.
 16. **Låt saker som hittas av misstag få vara.** Off-regel, sägs i genomgången. Gäster löser gåtor och uppdrag, inte brute force. Ingen story-bit, skatt eller pussel får kräva att ön ransakas. Den som råkar hitta något de inte söker lämnar det.
-17. **Fem parallella quests.** Inte en linjär kedja. Varje skuta har ingång till tre. Varje quest har tre skutor. Start i en spelares intrig. Normalt ett eller två pit stops. **Q-2 är undantag: inga pit stops, inget pussel.** Skatt med bokstav. Tre quests plus Malins XII räcker till cryptexen. Varje quest har både storyline och uppgift. Q-2:s uppgift är att åka till stugan, läsa minnena, ta en token, och följa namnbladet till Ottos grav. Storyn lär något om Malins historia och får ljuga. Den får inte röja affären eller förräderiet med Karl XII. Stories: [`quests.md`](quests.md). Mekanik: [`pussel.md`](pussel.md).
+17. **Fem parallella quests.** Inte en linjär kedja. Varje skuta har ingång till tre. Varje quest har tre skutor. Start i en spelares intrig. Normalt ett eller två pit stops. **Q-2 är undantag: inga pit stops, inget pussel.** Skatt med bokstav. Tre quests plus Malins XII räcker till cryptexen. Varje quest har både storyline och uppgift. Q-2:s uppgift är att åka till stugan, läsa minnena, ta en token, och följa namnbladet till Ottos grav. Storyn lär något om Malins historia och får ljuga. Den får inte röja affären eller förräderiet med Karl XII. Stories och tillsatt mekanik: [`quests.md`](quests.md). Lediga byggstenar: [`pussel.md`](pussel.md).
 
 ---
 
@@ -97,7 +97,7 @@ En story-bit är klar när allt nedan är sant:
 - [ ] Den har en fysisk plats på ön i [`platser.md`](platser.md)
 - [ ] Den har namngivna deltagare, inte "några gäster"
 - [ ] Den har en tydlig **vilja**, ett **hinder** och ett skäl att det avgörs **nu**
-- [ ] Om den innehåller ett pussel: pusslet finns som nod i [`pussel.md`](pussel.md) med lösning, ledtråd, hint-trappa och bypass
+- [ ] Om den innehåller ett pussel: mekaniken sitter i questen eller på platsen (lösning, ledtråd, hint, bypass). Inte som fri nod i [`pussel.md`](pussel.md)
 - [ ] Om den innehåller en hemlighet: minst två personer kan avslöja den, och det finns en backup om ingen gör det
 - [ ] Props och bygg är listade i [`produktion.md`](produktion.md) med ansvarig
 - [ ] Den finns i [`fordelning.yaml`](fordelning.yaml) med mottagare och status

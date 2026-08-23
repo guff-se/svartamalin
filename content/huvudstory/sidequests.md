@@ -16,7 +16,7 @@ En sidequest är kort. En sak att göra, en person att göra den med eller mot, 
 Akt:            I / II / III / IV
 Deltagare:      Piratnamn (slug), ...
 Roll i storyn:  bärare / jägare / grindvakt / vittne
-Kopplad till:   B-nn i akter.md, P-nn i pussel.md
+Kopplad till:   B-nn i akter.md, Q-n i quests.md
 
 Vad de vill:    
 Vad står i vägen:

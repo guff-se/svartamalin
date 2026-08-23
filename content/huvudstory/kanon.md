@@ -65,12 +65,12 @@ Beslutat 2026-08-18. Källa: [`beslut.md`](beslut.md), [`premiss.md`](premiss.md
 2. Kistan är låst med en nyckel.
 3. Nyckeln ligger i en cryptex med sex bokstävers kombination.
 4. På cryptexen sitter en lapp: "Denna tappas lätt bort." Den som hittar den kommer snart att förlora den, genom slagsmål, vadslagning, stöld eller slarv.
-5. Cryptexens lösenord går inte att kläcka utan XII. XII sitter på Malins halsband, som hon sätter på till slutfesten. Den syns när hon serverar kaviar och rom. Tre parallella quests per skuta ger de andra bokstäverna. Se [`pussel.md`](pussel.md).
+5. Cryptexens lösenord går inte att kläcka utan XII. XII sitter på Malins halsband, som hon sätter på till slutfesten. Den syns när hon serverar kaviar och rom. Tre parallella quests per skuta ger de andra bokstäverna. Kandidat: `HKHXII` (Hans Kungliga Höghet XII). Inte antaget. Questen före 15.30 ger positionsmarkering (`1H`, `2K`, `3H`), inte helheten. `XII` syns först 20.00. Lösenordet får inte vara MALINS, SKATT, PIRAT, KUNGEN, KISTAN, KARLXII, eller något från sången, ön, Malins namn eller kontraktets parter. Inte ett ord som sitter ihop med fem av sex bokstäver. Inte en sista ledtråd som bara bekräftar. Om kistan är stängd 20.45 tvingas den upp i roll. Runtime: [`spelledning.md`](spelledning.md).
 6. I kistan finns ingen skatt. Där ligger en stor hög skuldbrev, ett kärleksbrev från Karl XII till Svarta Malin, och ett miniatyrporträtt av kungen. Brevet *är* kontraktet. Inget separat juridiskt papper för tändningen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
 7. Kungen i brevet är **Karl XII**.
 8. I brevet står att Svarta Malin har lovat att samla Salmonellahavets kaptener till födelsedagsfest och fylla dem med kaviar och rom, så att konungens män kan slå till i gryningen och arrestera dem alla. Festen är fällan. I gengäld stryker kungen hennes skulder och sätter Korvetten Kurtisanen på hennes namn.
 9. Upptäckten av brevet är det som tänder slutstriden. Kungens män kommer aldrig. Gryningen spelas inte.
-10. Brevets hälsning och sista rad är intima (`min hjärtans`, `Din till döden`). Miniatyren gör sängen läsbar som bild. Kistans exakta plats och vems skuldbreven är förblir öppet. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins XII. Queststories är låsta i [`quests.md`](quests.md). Lösenord och questmekanik är det inte. Se [`pussel.md`](pussel.md).
+10. Brevets hälsning och sista rad är intima (`min hjärtans`, `Din till döden`). Miniatyren gör sängen läsbar som bild. Kistans exakta plats och vems skuldbreven är förblir öppet. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins XII. Queststories: [`quests.md`](quests.md). Lediga pusselbyggstenar: [`pussel.md`](pussel.md).
 
 ### Malin och Karl XII
 

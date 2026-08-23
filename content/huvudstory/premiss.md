@@ -92,4 +92,4 @@ Dessa måste beslutas först. Loggas i [`beslut.md`](beslut.md) när de är avgj
 - [ ] **Hur bär Malin sveket i roll** under lördagen? I fiktionen är hon arkitekten. Utåt: öppet.
 - [x] **Vad är skelettet på Södra Ovanan?** Greve Otto von Pälspung. Q-2. Malin begravde honom i skogen. Andra cryptex-ledtråden ligger där. Inte bakgrundsspår. Inte skälet till att alla är på ön.
 - [x] **Får huvudstoryn kollidera med lagens skattjakt?** Ja. Allt pågår samtidigt och får kollidera.
-- [ ] **Vad händer om ingen löser något?** Kistan måste upp senast 20.45. Bypass i [`pussel.md`](pussel.md) och [`slutstriden.md`](slutstriden.md). Fallback före festen fortfarande TBD.
+- [ ] **Vad händer om ingen löser något?** Kistan måste upp senast 20.45. Bypass i [`kanon.md`](kanon.md) och [`slutstriden.md`](slutstriden.md). Fallback före festen fortfarande TBD.

@@ -84,7 +84,7 @@ Lagen tar med skatten själva. Vi dikterar inte föremålet. Krav utåt: fysiskt
 
 Ingen poängställning. Att bära hem den jagade skatten är segern. Att förlora sin egen är skammen. Stöld tillbaka är tillåten. Drama vinner om jakt och huvudstory krockar.
 
-En funnen skatt får användas som muta, vad, pusselnyckel eller offentlig förnedring. Den får **inte** vara enda vägen in i Malins kista. Kistan har sin egen kedja i [`pussel.md`](pussel.md).
+En funnen skatt får användas som muta, vad, pusselnyckel eller offentlig förnedring. Den får **inte** vara enda vägen in i Malins kista. Kistan har sin egen kedja i [`kanon.md`](kanon.md).
 
 Om ingen hittar någon skatt: helgen går ändå. Skattjakten är inte tändningen. Kasserad tändning i [`slutstriden.md`](slutstriden.md): "skatterna redovisas och någon saknas."
 
@@ -125,4 +125,4 @@ Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11.
 
 - [ ] Vad är varje lags fysiska skatt? Fylls i här när de valt, eller på plats fredag.
 - [ ] Ska en funnen skatt visas publikt (skryt) eller gömmas om (stöld)? Lämnas till lagen. Vi tvingar ingen redovisning.
-- [ ] Får en skatt bära en ledtråd till cryptexen? Nej tills en pusselnod i [`pussel.md`](pussel.md) säger ja, med bypass.
+- [ ] Får en skatt bära en ledtråd till cryptexen? Nej tills en quest i [`quests.md`](quests.md) säger ja, med bypass.

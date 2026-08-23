@@ -24,7 +24,7 @@
 #   vet_inte      vad personen uttryckligen inte får veta
 #   speglas       slugs som behöver motsvarande text för att världen ska hålla
 #   bygger_pa     romans: N eller fiende: N ur romanser.yaml / fiender.yaml
-#   pussel        P-nn eller Q-n i pussel.md, eller null
+#   pussel        Q-n i quests.md när mekaniken är tillsatt, eller null. Lediga byggstenar i pussel.md.
 #   status        pending | done | skipped
 #
 # Questposter (när Q-1 till Q-5 är färdigskrivna, story plus uppgifter):

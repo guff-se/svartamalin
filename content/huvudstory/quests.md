@@ -2,9 +2,9 @@
 
 Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
 
-Använd den här filen när du skriver gästtext i `content/intriger/crews/` eller `guests/`, eller pit stops i [`pussel.md`](pussel.md). **Cirkulerande version** är rykte-fakta att lägga in i gästtext, inte färdig STYLE.md-prosa. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
+Använd den här filen när du skriver gästtext i `content/intriger/crews/` eller `guests/`. **Cirkulerande version** är rykte-fakta att lägga in i gästtext, inte färdig STYLE.md-prosa. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
 
-Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har en idé. Hint-trappa, bypass och bokstäver låses i [`pussel.md`](pussel.md) när noden byggs.
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har en idé. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den hit och stryks där.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
 
@@ -22,7 +22,7 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 4. Får inte citera sista versen som framtid. Får inte spoila metaregeln (alla dör, Malin blir Ran).
 5. Gästtext: piratnamn, du-form, [`../intriger/STYLE.md`](../intriger/STYLE.md). "Ton i gästtext" under skrivstöd är en instruktion till agenten, inte text att klistra in.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.
-7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på varje kort. Bygg inte noder som motsäger den. Full nod (hint-trappa, bypass, bokstav) låses i [`pussel.md`](pussel.md) när questen har pussel. Q-2 har ingen nod.
+7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på varje kort. Bygg inte noder som motsäger den. Q-2 har inget pussel.
 
 När du skriver en **start** i en gästs intrig (först när questen är färdig och personen är tillsatt i fördelningen):
 
@@ -84,15 +84,17 @@ Sammanslagen av: första kärleken + Kurtisanen före skeppet. Relåst 2026-08-2
 - Props: två dagboksutdrag. Det första (oskyldig Malin) rivs vertikalt, halvor vid Gubben och Gumman. Vägvisning på baksidan. Det andra (efter hämnden) ligger med cryptex-lappen i klätternätet. Tryck: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md), [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md).
 - Håll isär från Q-2:s blad om namnet. Det sitter tidsmässigt mellan de här två utdragen. Q-1 äger kurtisanen och skeppsnamnet. Q-2 äger Svarta, begravningen och skelettet. Ottos namn får stå i Q-2 namnbladet.
 
-**Mekanik:** form låst 2026-08-20. Engångs låst 2026-08-22. Noder: [`pussel.md`](pussel.md) P-02, P-03.
+**Mekanik:** form låst 2026-08-20. Engångs låst 2026-08-22. Halvorna ligger vid docka och flaska, inte löst på bänken. Bladet är rivet på höjden. Påsen sitter högt i nätet. Bara baksidan pekar dit. Den som råkar se påsen och inte söker den lämnar den.
 
 Platser: **Gubben i stubben** och **Gumman på udden** (var sin halva av det första bladet). **Klätternätet** (andra bladet och cryptex-lappen).
 
 Kedja:
 
 1. Start (intrig) pekar mot de två bänkarna, eller mot att något är delat på två uddar.
-2. Pit stop: hämta båda halvorna. Framsidan är ett dagboksutdrag från **före** förräderiet. Oskyldig Malin, Otto. Ingen hämnd, ingen plats. Vänd. Baksidan är vägvisning till klätternätet.
+2. Hämta båda halvorna. Framsidan är ett dagboksutdrag från **före** förräderiet. Oskyldig Malin, Otto. Ingen hämnd, ingen plats. Vänd. Baksidan är vägvisning till klätternätet.
 3. Skatt: påse högt i klätternätet. I den ligger det **andra** dagboksutdraget (efter hämnden) och cryptex-lappen.
+
+Hint om de kör fast: två uddar, inte en. Titta vid docka och flaska. Håll ihop vertikalt, läs båda sidor. Påsen sitter högt.
 
 Props: två fysiska halvblad, dubbelsidiga (Q1-01). Cryptex-lapp (Q1-03). Ett helt andra blad (Q1-04). Påse.
 
@@ -145,7 +147,7 @@ Sammanslagen av: hur hon blev pirat + Namnet (hur hon blev Svarta). Relåst 2026
 - Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra ledtråden ligger där. Inte en identitetsgåta. Inte ett separat spår.
 - Props, tryck: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md), [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md), [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md).
 
-**Mekanik:** form låst 2026-08-23. Inga pit stops. Inget pussel. Ingen pusselnod. Två cryptex-ledtrådar, tre exemplar av varje. Bokstäver och tre skutor öppna. Se [`pussel.md`](pussel.md).
+**Mekanik:** form låst 2026-08-23. Inga pit stops. Inget pussel. Två cryptex-ledtrådar, tre exemplar av varje. Bokstäver och tre skutor öppna.
 
 Platser: **Södra Ovanan**, **piratstugan** och **skelettet i skogen**. Stugan är huset hon byggde efter att hon flyttade hemifrån. Skelettet är Ottos grav. Inte ett escape-rum. Inte en identitetsgåta.
 
@@ -218,7 +220,7 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 - Ton i gästtext: stolt, bombastisk. Sångens version.
 - Props: något som ser ut som bevis för prejning (flagga, loggbok, en proklamation om sjörövarns rätt). Inte en växel. Inte ett skuldebrev på skutan. Inte ett föremål som kallas "prejudikat": det ordet är rätten att preja, inte ett papper.
 
-**Mekanik:** TBD i [`pussel.md`](pussel.md).
+**Mekanik:** ingen. Plocka en ledig byggsten i [`pussel.md`](pussel.md) när formen låses.
 
 ---
 
@@ -248,7 +250,7 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 - Ton i gästtext: ett löfte och ett byte. Inte en jakt på en kropp.
 - Props: ed, karta, föregångarens märke. Inte något från Ottos grav. Det är Q-2.
 
-**Mekanik:** TBD i [`pussel.md`](pussel.md).
+**Mekanik:** ingen. Plocka en ledig byggsten i [`pussel.md`](pussel.md) när formen låses.
 
 ---
 
@@ -282,7 +284,7 @@ Bypass: om ingen åker ut före brunchen ger Spader starten en riktning mot söd
 
 **Mekanik:** idé 2026-08-20. Inte låst. Nod inte byggd.
 
-Sista steget, kandidat: **porträttväggen**. Ta ner bilderna. Koppling till skuldboken och till listan på "de värsta kaptener som finns". En ledtråd som antyder att man ska använda sången för att sortera porträtten. Bokstäver på baksidan, se [`pussel.md`](pussel.md) (porträttväggen).
+Sista steget, kandidat: **porträttväggen** i [`pussel.md`](pussel.md). Inte låst. Om den tillsätts: flytta byggstenen hit och stryk den där.
 
 Kedjan före väggen: TBD.
 

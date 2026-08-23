@@ -30,7 +30,7 @@ Väg 1:          hur deltagarna kan nå den själva
 Väg 2:          oberoende alternativ väg
 Spelledarväg:   hur vi tvingar fram den om inget annat funkar
 
-Pusselnod:      P-nn i pussel.md, eller ingen
+Pusselnod:      i questen eller platsen, inte i pussel.md. Ingen om beatet inte har pussel
 Props:          se produktion.md
 Om det floppar: vad gör vi istället
 ```
@@ -66,7 +66,7 @@ Väg 1:          omöjlig att missa
 Väg 2:          Malin nämner den i talet 19.30
 Spelledarväg:   behövs inte. Den är fysisk.
 
-Pusselnod:      ingen på fredag. P-01 först lördag.
+Pusselnod:      ingen på fredag. Cryptexen först lördag.
 Props:          kista, hänglås. Cryptexen är inte i spel än.
 Om det floppar: om den står undanskymd har akt I misslyckats. Flytta den.
 
@@ -88,10 +88,10 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Övriga TBD. | P-01 vid festen |
+| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Övriga TBD. | cryptexen vid festen |
 | Optiska spåret | TBD. Skylten är parkerad, kikaren finns | | Kikaren (skylten bara om vi beslutar den) | |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. | | Vattnet, Södra Ovanan | |
-| Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | P-01 |
+| Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
 | Älskarspåret | Malin gömmer någon. Hjärter, Felix och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Felix, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
 | Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
 | Förrädarspåret | Mullvad per skuta, kontakt på uppdragsgivarens lag. Cirkel två steg. | Fem par i [`forradare.yaml`](forradare.yaml) | Hemliga möten | |
@@ -135,7 +135,7 @@ Väg 1:          någon hittar den
 Väg 2:          Malin "tappar" den, eller den ligger i ett gömställe som en ledtråd pekar på
 Spelledarväg:   Spader sätter den i någons hand
 
-Pusselnod:      P-01, olöst
+Pusselnod:      cryptexen, olöst
 Props:          cryptex, lapp, nyckel inuti
 Om det floppar: om den hamstras: play to lose. Någon tar den. Om den försvinner spårlöst: spelledning vet ungefär var, eller tar fram reserven vid festen.
 
@@ -259,9 +259,9 @@ Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kur
 Trigger:        Q-1-start i individintrig, när den är skriven
 Väg 1:          de tre lagen tävlar, ett vinner föremålen, de andra stjäl eller avskriver
 Väg 2:          någon hittar en halva, den andra saknas, de frågar runt
-Spelledarväg:   se [`spelledning.md`](spelledning.md) Q-1. Avskrift bara om halvorna är förlorade. Inte extra uppsättning.
+Spelledarväg:   se [`quests.md`](quests.md) Q-1. Avskrift bara om halvorna är förlorade. Inte extra uppsättning.
 
-Pusselnod:      P-02, P-03
+Pusselnod:      Q-1
 Props:          Q1-01, Q1-03, Q1-04
 Om det floppar: tre andra quests plus XII räcker fortfarande för de skutor som inte hade Q-1. En Q-1-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
@@ -280,7 +280,7 @@ Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten 
 Trigger:        Q-2-start i tre individintriger, när de är skrivna
 Väg 1:          de tre lagen turas om i stugan och vid graven, var och en tar en token per gömme
 Väg 2:          ett lag tar alla tokens trots skylten. De andra tar socialt.
-Spelledarväg:   se [`spelledning.md`](spelledning.md) Q-2.
+Spelledarväg:   se [`quests.md`](quests.md).
 
 Pusselnod:      ingen
 Props:          Q2-01 till Q2-10
@@ -336,7 +336,7 @@ Väg 1:          hon säger eller gör det som en del av värdinneskapet
 Väg 2:          TBD, beroende på hur medveten hon är
 Spelledarväg:   hon ger ledtråden oavsett. Den är inte spelarbaserad.
 
-Pusselnod:      P-01, sista nödvändiga input
+Pusselnod:      cryptexen, sista nödvändiga input
 Props:          kaviar, rom, Malins halsband med XII.
 Om det floppar: ingen hör. Hon upprepar det som skål, kortare, högre.
 
@@ -357,9 +357,9 @@ Väg 1:          deltagarna gör det själva
 Väg 2:          någon skriker bokstäverna, en annan slår in
 Spelledarväg:   20.45, Malin eller Spader tvingar upp med reservnyckel
 
-Pusselnod:      P-01
+Pusselnod:      cryptexen
 Props:          cryptex, nyckel, kista
-Om det floppar: bypass 20.45. Se [`pussel.md`](pussel.md).
+Om det floppar: bypass 20.45. Se [`kanon.md`](kanon.md) och [`spelledning.md`](spelledning.md).
 
 #### B-42: Kärleksbrevet, tändningen
 

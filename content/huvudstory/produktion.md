@@ -16,14 +16,14 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-02 | Cryptex, 6 bokstavsringar, rymmer nyckeln | B-10, B-40, B-41 | Tåla att tappas, stjälas, hamna i fickan. Gå att slå in bokstäver i påverkat tillstånd. Inte genomskinlig. | | | saknas |
 | K-03 | Lapp "Denna tappas lätt bort" | B-10 | Fäst på cryptexen, läsbar, tåla slitage | | | saknas |
 | K-04 | Nyckel till kistan, inuti cryptexen | B-41 | Passar K-01. Får plats i cryptexen. | | | saknas |
-| K-05 | Reservnyckel till kistan | P-01 bypass, 20.45 | Hos spelledning hela helgen. Dolt. | | | saknas |
+| K-05 | Reservnyckel till kistan | cryptex-bypass, 20.45 | Hos spelledning hela helgen. Dolt. | | | saknas |
 | K-06 | Hög med skuldbrev | B-42 | Visuell mängd, inte en läsuppgift. Tåla att spridas ut. | | | saknas |
 | K-07 | Kärleksbrev från Karl XII (kontraktet) | B-42 | Sigill. Ett blad. Gå att läsa högt på trettio sekunder. Läsbar i eldsken och av en påverkad person. Ingen lång text. Hälsning och sista rad intim, så sängen med kungen landar utan ny logik. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md) | | | utkast |
 | K-08 | Miniatyrporträtt av Karl XII | B-42 | Liten, synlig när locket går upp, liggande på kärleksbrevet. Ingen text som måste läsas. Ska läsas som bild: hon är i säng med kungen. | | | saknas |
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
-| Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | P-02 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). | | | utkast |
-| Q1-03 | Cryptex-lapp i påsen | P-03 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
-| Q1-04 | Dagboksblad efter hämnden | P-03 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md). Avskrift hos spelledning. | | | utkast |
+| Q1-01 | Dagboksblad före, två halvor, dubbelsidigt | Q-1 | Vertikalt rivet. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). | | | utkast |
+| Q1-03 | Cryptex-lapp i påsen | Q-1 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
+| Q1-04 | Dagboksblad efter hämnden | Q-1 | Helt blad. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md). Avskrift hos spelledning. | | | utkast |
 | Q2-01 | Skrin med tre cryptex-tokens och skylt "Endast en per lag" | B-17 | Synligt när man är inne i piratstugan, inte gömt under golv. Tre tokens, första bokstaven. Skylten läsbar. Reservtokens hos spelledning, inte i stugan. | | | saknas |
 | Q2-02 | Uppbrottet: sjal eller klänning, kam | B-17 | Ser ut att ha följt med från land och lagts undan. Inga namn, ingen text. | | | saknas |
 | Q2-03 | Bygget: hyvel, hammare, spån, märke i bjälke | B-17 | Handgjort, lite snett. Visar att hon byggde själv. | | | saknas |

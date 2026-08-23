@@ -1,6 +1,5 @@
 ---
 quest: Q-1
-pussel: P-02
 prop: Q1-01
 ---
 

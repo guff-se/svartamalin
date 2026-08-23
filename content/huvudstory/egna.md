@@ -112,7 +112,7 @@ Källa: Gustaf, i chatt. Parkerade i [`pussel.md`](pussel.md). Inte beslutade.
 
 ## 2026-08-20, queststruktur
 
-Källa: Gustaf, i chatt. Införd som ram i [`pussel.md`](pussel.md) och [`beslut.md`](beslut.md). Story låst 2026-08-20, se avsnittet nedan. Kryss när Q-1 till Q-5 finns som noder med mekanik.
+Källa: Gustaf, i chatt. Införd som ram i [`quests.md`](quests.md) och [`beslut.md`](beslut.md). Story låst 2026-08-20, se avsnittet nedan. Kryss när Q-1 till Q-5 har mekanik i questen, inte som fria noder i [`pussel.md`](pussel.md).
 
 - [ ] Det finns 5 separata quests som alla leder fram till en eller två cryptex-bokstäver.
 - [ ] Varje quest har en startpunkt i en spelares intrig. Den har ett eller två pit stops på vägen, samt en sista skatt i slutet som innehåller bokstaven.
