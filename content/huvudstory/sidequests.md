@@ -397,13 +397,13 @@ Deltagare:      Löjtnant Spader (`gustaftadaa`), Kapten Klöver (`johannabergma
 Roll i storyn:  rivaler (Spader, Klöver, Hjärter) / grindvakt, dealer (Prygel) / vittne (Plåthorn)
 Kopplad till:   ingen beat. Inte S-02, inte S-04. Kökskanten på Fromheten.
 
-Vad de vill:    sitta samma bord den här helgen och få de andra två utpekade som fuskare inför vittnen. Den som pekas ut förlorar rykte som haj. Klöver vill dessutom landa sitt episka korttrick publikt. Hjärter vill ha hemligt bus vid grytorna, nu när Katten Felix är borta. Spader vill inte bli tagen. Prygel vill se Klöver förlora, och ta dealerns cut. Plåthorn vill skydda Spader, eller sälja en detalj om hur han vinner, beroende på vad rummet ger.
+Vad de vill:    sitta samma bord den här helgen och få de andra två utpekade som fuskare inför vittnen. Den som pekas ut förlorar rykte som haj. Klöver vill dessutom landa sitt episka korttrick publikt. Hjärter vill ha hemligt bus vid grytorna, nu när Katten Felix är borta. Spader vill inte bli tagen, och vill dessutom vinna tillbaka en av sina spader-ringar som Klöver vann av honom vid ett tidigare bord. Prygel vill se Klöver förlora, och ta dealerns procent. Plåthorn vill skydda Spader, eller sälja en detalj om hur han vinner, beroende på vad rummet ger.
 
-Vad står i vägen: alla tre fuskar, på olika sätt, och var och en är säker på att det är de *andra* som fuskar. De behöver en "ärlig" dealer. Prygel hatar Klöver (fiende 1) och delar snett. Hjärter kan inte lämna köket. Plåthorn älskar Spader (romans 14) och är den enda som redan sett honom vinna när han borde förlora.
+Vad står i vägen: alla tre fuskar, på olika sätt, och var och en är säker på att det är de *andra* som fuskar. De behöver en "ärlig" dealer. Prygel hatar Klöver (fiende 1) och delar snett. Hjärter kan inte lämna köket. Plåthorn älskar Spader (romans 14) och är den enda som redan sett honom vinna när han borde förlora. Klöver bär ringen som en trofé bredvid kristallfyrklövern och släpper ingendera lätt.
 
-Varför nu:      tre färgnamn på samma ö för första gången, tre hajars rykte i samma hamn. Fredag är off-story, retas får de. Rubbern är lördag före ritualen. Efter 15.30 ingen ny logik, men ett publikt pekande, ett trick eller ett raseriutbrott vid bordet går fortfarande.
+Varför nu:      tre färgnamn på samma ö för första gången, tre hajars rykte i samma hamn. Fredag är off-story, retas får de. Partiet spelas lördag, när som helst det passar, ingen specifik klockslag. Även efter 15.30 fungerar ett publikt pekande, ett trick eller ett raseriutbrott vid bordet utan ny logik.
 
-Hur det spelas: ett enda semi-publikt rubber vid kökskanten, inte en jakt över ön och inte en ny svartklubb. Klöver öppnar bordet. Prygel delar, med sin lilla lek eller en vanlig lek hon kontrollerar. Anklagelser under given, inte efteråt: kasta kortet, kräva ny giv, peka, göra tricket. Hjärter spelar mellan grytor. Spader sitter med. Publiken får titta, det är så play to lift landar.
+Hur det spelas: ett enda semi-publikt parti vid kökskanten, inte en jakt över ön och inte en ny svartklubb. Klöver öppnar bordet. Prygel delar, med sin lilla lek eller en vanlig lek hon kontrollerar. Anklagelser under given, inte efteråt: kasta kortet, kräva ny giv, peka, göra tricket. Hjärter spelar mellan grytor. Spader sitter med. Publiken får titta, det är så play to lift landar.
 
 Sanningen, bara här, inte i gästtext som facit till ett pussel:
 
@@ -413,18 +413,18 @@ Sanningen, bara här, inte i gästtext som facit till ett pussel:
 
 Var och en vet *sitt* fusk. Ingen av de tre får de andras metoder utskrivna. Plåthorn vet att Spader vinner när han borde förlora, inte hur Klöver eller Hjärter gör. Prygel behöver inte veta metoderna. Hon kan dela snett mot Klöver ändå.
 
-Insatsen är rykte: vem som utpekas som fuskaren inför vittnen. Kristallfyrklövern är amulett, inte pokal och inte kortfärg. Den sitter hos Klöver. Hjärter jagar den inte i S-04, och inte här heller. Om någon slänger den på bordet som sidovad är det spel, inte motorn.
+Insatsen är rykte: vem som utpekas som fuskaren inför vittnen. Kristallfyrklövern är amulett, inte pokal och inte kortfärg, och sitter hos Klöver. Likaså en av Spaders spader-ringar, också vunnen av Klöver vid ett tidigare bord. Hjärter jagar inte fyrklövern i S-04, och inte här heller. Spader vill visst ha sin ring tillbaka, men om ringen eller fyrklövern hamnar på bordet som sidovad är det spel, inte motorn.
 
 Rekvisita: en spelbar kortlek vid köket. Prygels lilla lek (hennes föremål). Valfritt extra ess till Spader. Ingen tryckt gåta.
 
-Utfall om ja:   någon utpekas, sant eller falskt. Rykte knäcks eller tvättas. Klövers trick landar, eller åker dit. Prygel tar dealerns cut oavsett, inte samma procent som i S-02: här är det given, inte vadslagningsboken. Plåthorns romans kan läcka i samma veva, måste inte.
+Utfall om ja:   någon utpekas, sant eller falskt. Rykte knäcks eller tvättas. Klövers trick landar, eller åker dit. Prygel tar sin procent som delare oavsett, inte samma procent som i S-02: här är det given, inte vadslagningsboken. Spader kan vinna tillbaka sin ring, eller inte. Plåthorns romans kan läcka i samma veva, måste inte.
 Utfall om nej:  rivaliteten finns kvar. Mysteriet hur Spader fuskar får förbli olöst, som rollfilen tillåter. Huvudstoryn går.
 
-Bygger på:      fiender 27 (Spader–Klöver), 28 (Spader–Hjärter), 29 (Klöver–Hjärter), nya. Fiende 1 (Klöver–Prygel). Romans 14 (Spader–Plåthorn), hemlig. Spaders olösta fusk. Klövers trick. Hjärters bus. Prygels lilla lek.
+Bygger på:      fiender 27 (Spader–Klöver, nu även den vunna ringen), 28 (Spader–Hjärter), 29 (Klöver–Hjärter), nya. Fiende 1 (Klöver–Prygel). Romans 14 (Spader–Plåthorn), hemlig. Spaders olösta fusk. Klövers trick. Hjärters bus. Prygels lilla lek.
 Speglas hos:    Spader, Klöver, Hjärter. Prygel. Plåthorn.
 Status:         skriven
 
-Obs: Klöver bär S-02, S-04, S-05 och S-11. De tre första är bank och procent. Här spelar hon. Håll isär i gästtexten. Prygel bär S-04 och S-08: där liten lek mot Klöver i liggarjakten respektive jakten på hornet. Här dealer vid hajbordet. Spader bär S-04 och S-08: skuld till Hurring, skydd av Plåthorn. Här sitter han och palmerar. Plåthorn bär S-08: hornet. Här vet hon om leken, inte om hornet. Hjärter bär S-01 och är envägsmål i S-10: jakten på Malins älskare och teckenspråket. Här bus vid grytorna. Rötägg är inte med. Fiende 14 förblir bakgrund. Klövers svartklubbar nämns inte som insats: det är sällskap, inte färgen, och det är Outline C som ströks.
+Obs: Klöver bär S-02, S-04, S-05 och S-11. De tre första är bank och procent. Här spelar hon, och här bär hon dessutom Hjärters kristallfyrklöver och en av Spaders spader-ringar som troféer. Håll isär i gästtexten. Prygel bär S-04 och S-08: där liten lek mot Klöver i liggarjakten respektive jakten på hornet. Här dealer vid hajbordet. Spader bär S-04 och S-08: skuld till Hurring, skydd av Plåthorn. Här sitter han och palmerar, och vill ha sin ring tillbaka från Klöver. Plåthorn bär S-08: hornet. Här vet hon om leken, inte om hornet. Hjärter bär S-01 och är envägsmål i S-10: jakten på Malins älskare och teckenspråket. Här bus vid grytorna. Rötägg är inte med. Fiende 14 förblir bakgrund. Klövers svartklubbar nämns inte som insats: det är sällskap, inte färgen, och det är Outline C som ströks.
 
 Ord: kortfärgen heter klöver. Klubb är sällskap. Fyrklöver är växten och amuletten. Inga vitsar som blandar dem.
 
