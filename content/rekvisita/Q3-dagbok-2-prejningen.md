@@ -18,4 +18,4 @@ Förvärva skeppet på hederligt sätt. Skriv det, Malin, så du minns det i mor
 
 Det finns en lagfart. Gömd. Ett dokument som bevisar min rätt och min hederlighet. Ett sådant dokument som lagmännen dyrkar och kräver. Korvetten Kurtisanen är min.
 
-YNTSNEGRA SVAAF HAQRE ONQOELTTNA
+YNTSNBDRÅ SVÅÅC EÅQRB ONQOBITTNÅ
