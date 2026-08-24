@@ -89,7 +89,7 @@ Struktur att fylla i:
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
 | Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. Q-3 är gym, vedhög, badbrygga, B-19. Q-4 är Tomtebobarnen, kikare, skylt, B-20. Q-5 är väggen och svärdfisken, B-18. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-3: gymmet, vedhögen bakom bastun, under badbryggan. Q-4: Storstugan hyllan, kikaren, skylt på annan ö. Q-5: Storstugan, porträttväggen, svärdfiskens mun. | cryptexen vid festen |
-| Optiska spåret | Q-4. Kikaren mot skylten. | tre skutor, tillsättning öppen | Kikaren, skylt på annan ö | cryptexen |
+| Optiska spåret | Q-4. Kikaren mot skylten. | skuta 1, 2, 4 | Kikaren, skylt på annan ö | cryptexen |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. Gymmet är taget av Q-3. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
 | Älskarspåret | Malin gömmer någon. Hjärter och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
@@ -333,7 +333,7 @@ Om det floppar: tre andra quests plus XII räcker. En Q-3-skuta utan lapp måste
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
 Plats:          Storstugan hyllan, kikaren, skylt på annan ö
-Inblandade:     Tre skutor, tillsättning öppen. Inte skuta 3 (full). Inte Malin, inte Spader, inte mullvad.
+Inblandade:     Skuta 1, 2, 4. Startpersoner öppna. Inte skuta 3, inte skuta 5 (båda fulla). Inte Malin, inte Spader, inte mullvad.
 Publik:         den som ser folk bläddra i barnboken, och den som står i kö vid kikaren
 
 Vad händer:     tre skutor jagar hur Malin fick Ovanan. Starten pekar mot *Tomtebobarnen* i hyllan i Storstugan, hennes favoritbok som barn. Inte dagboken. I boken: blad 6 (byte och löfte, fastsatt) och en kompassbild med sann bäring (fastsatt). Kikaren är slutdestination. I rätt bäring: skylt på annan ö med en cryptex-bokstav. Tas inte. Pit stop och skatt återanvändbara. Bäring mäts på plats.
