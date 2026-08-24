@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, Q-3 skiffer till två till
+
+Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md).
+
+- [x] Ge chiffret till 2 personer till i de lagen som inte har questet. Fortfarande inte till svarta malin, löjtnant spader eller en mullvad.
+
+Kryss = skuta 1: Hurring plus Planka (`linneaappert`). Skuta 3: Enben plus Frodig (`josefinansund`). Inte mullvad, inte Malin, inte Spader.
+
+---
+
 ## 2026-08-24, Q-3 skiffer som tvärledtråd
 
 Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md).

@@ -19,3 +19,7 @@ Din kärlek till **Kapten Rödskägg** är förbjuden och hemlig: era släkter o
 Vid festbordet viskas ett rykte som får även de mest skvallersugna att sänka rösten: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det på papper. Bladet ska vara rivet i två halvor, en gömd vid **Gubben i stubben**, en vid **Gumman på udden**. Ingen har lyckats sätta ihop dem än.
 
 Kalla på **Barken Bortförklaringen** och sök upp båda platserna innan en annan skuta hinner före. Den som förenar halvorna först sitter på ett rykte värt mer än guld.
+
+## Bokstäver som flyttar sig {slug:malintadaa}
+
+När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, förskjuter hon bokstäverna tretton steg framåt. A blir N. Knepet är värt noll tills någon kommer med ett blad de inte kan tyda. Då är du den som kan läsa.

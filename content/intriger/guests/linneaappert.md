@@ -20,4 +20,8 @@ related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa]
 
 Vid festbordet går ett rykte som ingen vågar säga rakt ut framför skepparen: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det på ett blad. Bladet ska vara rivet i två, säger man, en halva gömd vid **Gubben i stubben**, den andra vid **Gumman på udden**. Ingen har lyckats sätta ihop dem än.
 
-Du seglar på hennes egen köl, delar koj och köl med henne hela helgen, och det gör den här jakten farligare för dig än för någon annan skuta. Att gräva i hennes förflutna är att gräva under fötterna på din egen kapten: kommer hon runt hörnet med halvorna i din hand är festen slut på ett annat sätt än ni tänkt er. Kalla ihop din besättning i smyg och sök upp båda platserna, men låt Malin aldrig ana vad ni letar efter.
+Du seglar på hennes egen köl, delar koja och köl med henne hela helgen, och det gör den här jakten farligare för dig än för någon annan skuta. Att gräva i hennes förflutna är att gräva under fötterna på din egen kapten: kommer hon runt hörnet med halvorna i din hand är festen slut på ett annat sätt än ni tänkt er. Kalla ihop din besättning i smyg och sök upp båda platserna, men låt Malin aldrig ana vad ni letar efter.
+
+## Bokstäver som flyttar sig {slug:malintadaa}
+
+När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, förskjuter hon bokstäverna tretton steg framåt. A blir N. Knepet är värt noll tills någon kommer med ett blad de inte kan tyda. Då är du den som kan läsa.

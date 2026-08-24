@@ -81,7 +81,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `malintadaa` | 0 | 2 | | |
 | `gustaftadaa` | 1 | 1 | | |
 | `petterwallberg` | 1 | 2 | | Q-5 (start) |
-| `linneaappert` | 1 | 1 | | Q-1 (start)|
+| `linneaappert` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | Q-3 (tvärledtråd) |
 | `louisevonbahr` | 1 | 1 | | Q-2 (start) |
@@ -91,7 +91,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
 | `amaliawahlstrom` | 0 | 1 | | Q-2 (start), Q-3 (tvärledtråd) |
 | `fabianmacklin` | 1 | 3 | | Q-5 (start)|
-| `josefinansund` | 1 | 1 | | Q-1 (start) |
+| `josefinansund` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `johannabergman` | 1 | 1 | | |
 | `jesperlejfjord` | 1 | 1 | | |
 | `amandamungsgard` | 1 | 1 | | Q-2 (start) |
