@@ -27,8 +27,9 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md) gemensamma regler 11
 - [x] Varje gäst kan bara bli tilldelad MAX en ingångsintrig till quest.
 - [x] förrädare kan inte bli tilldelad en ingångsintrig.
 - [x] Svarta malin och löjtnant spader kan inte bli tilldelade ingångsintrig.
+- [x] Tydliggörande: bara mullvaden/förrädaren kan inte få ingångsintrig. kontaktpersonen kan fortfarande få det.
 
-Kryss = reglerna sitter i [`quests.md`](quests.md). Befintliga tillsättningar som bryter dem flyttas inte förrän Gustaf säger till.
+Kryss = reglerna sitter i [`quests.md`](quests.md). Förrädare = mullvad (`a` i forradare.yaml), inte kontakt (`b`). Befintliga tillsättningar som bryter dem flyttas inte förrän Gustaf säger till.
 
 ---
 
