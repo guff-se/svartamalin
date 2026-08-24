@@ -31,6 +31,16 @@ Kryss = nyckeln sitter hos de två personerna, inte på gymbladet. Alltid framå
 
 ---
 
+## 2026-08-24, Q-3 skatt vid badbryggan
+
+Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md). Överstyr hopptornet som sista station.
+
+- [x] ändra "HOPPTORNET" till BADBRYGGAN
+
+Kryss = chiffer `LAGFARTEN FINNS UNDER BADBRYGGAN`. Skatten sitter under badbryggan, inte under hopptornet.
+
+---
+
 ## 2026-08-24, Q-3 lagfart som twist
 
 Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md) och [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). Överstyr chiffertexten i avsnittet under.
@@ -39,7 +49,7 @@ Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md) och [`../rek
 - [x] Ägarbeviset som malin har utfärdat till sig själv skall bli en kul twist, att man tror att man hittar lagfarten
 - [x] Att det finns en gömd lagfart skall stå även i texten utanför chiffret
 
-Kryss = blad 5 II nämner den gömda lagfarten i klartext. Chiffer: `LAGFARTEN FINNS UNDER HOPPTORNET`. Punchline under tornet är ägarbeviset Malin till Malin.
+Kryss = blad 5 II nämner den gömda lagfarten i klartext. Chiffer överstyrd samma dag: `LAGFARTEN FINNS UNDER BADBRYGGAN`, se avsnittet ovan. Punchline är ägarbeviset Malin till Malin.
 
 ---
 

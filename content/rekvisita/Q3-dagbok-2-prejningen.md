@@ -14,12 +14,8 @@ Vedhögen bakom bastun. Fastsatt. Samma natt som I. Gömd lagfart i klartext. Ch
 Blad 5
 II
 
-Förvärva skeppet på hederligt sätt. Skriv det, Malin, så du minns det i morgon när blodet lugnat sig: hederligt. Inte som en tjuv i natten med kniven i strumpan. Som den som redan har rätten, och bara väntar på att papperet ska hinna ikapp handen.
+Förvärva skeppet på hederligt sätt. Skriv det, Malin, så du minns det i morgon när blodet lugnat sig: hederligt. Lika hederligt som konungar och grevar, som med sina lagar besätter rikedom och land. Lika hederigt som präserskapets kollekt och handelsmännens provision.
 
-Vedstapeln är kall mot ryggen. Barken river genom linnet var gång jag rör mig. Jag sitter här för att ingen letar efter ett dagboksblad bland vedträ.
+Det finns en lagfart. Gömd. Ett dokument som bevisar min rätt och min hederlighet. Ett sådant dokument som lagmännen dyrkar och kräver. Korvetten Kurtisanen är min.
 
-Det finns en lagfart. Gömd. Den som håller den håller skeppet i svart på vitt, och världen tror vad den läser. Ett skepp utan lagfart är bara ett rykte. Ett skepp med lagfart är ett faktum.
-
-Papperet först. I natt.
-
-YNTSNEGRA SVAAF HAQRE UBCCGBEARG
+YNTSNEGRA SVAAF HAQRE ONQOELTTNA

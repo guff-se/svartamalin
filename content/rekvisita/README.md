@@ -42,6 +42,6 @@ Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, 
 | [`Q2-dagbok-3-tillflykten.md`](Q2-dagbok-3-tillflykten.md) | `Q-2`, `B-17`, `Q2-09`, blad 8 | Tillflykten, nutid | Piratstugan |
 | [`Q3-dagbok-1-ombord.md`](Q3-dagbok-1-ombord.md) | `Q-3`, `B-19`, `Q3-01`, blad 5 I | Ombord på egen korvett. Fastsatt. Pekar mot vedhögen. Inte skiffernyckeln. | Gymmet |
 | [`Q3-dagbok-2-prejningen.md`](Q3-dagbok-2-prejningen.md) | `Q-3`, `B-19`, `Q3-02`, blad 5 II | Gömd lagfart i klartext. Fastsatt. Sista raden Caesar +13. Inte prejning. | Vedhögen bakom bastun |
-| [`Q3-agarbevis.md`](Q3-agarbevis.md) | `Q-3`, `B-19`, `Q3-03` | Malin till Malin. Piraternas lagar. Tas. | Under hopptornet |
+| [`Q3-agarbevis.md`](Q3-agarbevis.md) | `Q-3`, `B-19`, `Q3-03` | Malin till Malin. Piraternas lagar. Tas. | Under badbryggan |
 | [`Q5-dagbok-1-skulderna.md`](Q5-dagbok-1-skulderna.md) | `Q-5`, `B-18`, `Q5-03`, blad 7 | Hon håller havet med mäns skulder. Kistan. | Svärdfiskens mun |
 | [`kista-skuldbrev.md`](kista-skuldbrev.md) | `kista`, `Q-5`, `B-42`, `K-10` | Tre skuldbrev, ett per manlig Q-5-start. Namn vid tillsättning. | Malins kista |

@@ -20,7 +20,8 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. | II |
 | **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD. Inte Q-3: vedhögen bakom bastun är ett annat ställe. | III, efterspel |
 | **Vedhögen bakom bastun** | Vedtrave bakom bastun, utomhus | 2 till 5 personer | Q-3. Andra pit stop. Blad 5 II fastsatt, Caesar +13. | II |
-| **Hopptornet** | Hopptorn vid vattnet. Skatten ligger under, på land vid foten. Inte i vattnet. Inte uppe i tornet. | Liten grupp | Q-3. Skatt: ägarbevis och cryptex-lapp. | II |
+| **Hopptornet** | Hopptorn vid vattnet | Liten grupp | TBD. Inte Q-3. | |
+| **Badbryggan** | Badbrygga vid vattnet, skild från ankomstbryggan. Skatten sitter under, nåbar från bryggan. Inte i vattnet. Inte simning. | Liten grupp | Q-3. Skatt: ägarbevis och cryptex-lapp. | II |
 | **Verkstaden** | Verkstad med förrådsrum som kan byggas om | Förråden tar 3 till 6 personer | TBD | |
 | **Segelbåten vid bojen** (Tvåkronan) | Båt en bit ut, kräver simning eller eka. Aldrig ensam. | 2 till 4 personer, hög tröskel | TBD. Parkerad idé: 2-kronorsmynt ombord, se [`pussel.md`](pussel.md) | |
 | **Kikaren** | Väldigt bra kikare, ser andra öar | 1 person i taget, kö uppstår | TBD | |
@@ -62,7 +63,8 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 | Klätternätet | **Kropp och risk.** Fysisk ansträngning | Tävlingsmoment, prov, något som måste hämtas högt upp |
 | Gymmet | **Egen byggnad, kropp.** Avskilt från huset, vikter och redskap | Q-3. Bladet om att aldrig vila sitter här. Inte ett fysiskt prov. |
 | Vedhögen | **Utomhus, bakom värmen.** Synlig trave, inte ett gömme inne i veden | Q-3. Andra bladet, fastsatt. Inte ransaka högen. |
-| Hopptornet | **Höjd vid vatten.** Skatten är under, på land | Q-3. Inte hopp. Inte bad. Foten av tornet. |
+| Hopptornet | **Höjd vid vatten.** | TBD. Inte Q-3. Inte hopp som pussel. |
+| Badbryggan | **Under plank.** Nåbar från däcket | Q-3. Inte simning. Inte hopptornet. |
 | Malins kista | **Offentligt lås.** Alla ser den, ingen kommer in | Fredagens frö, lördagens jakt, kvällens tändning. Får inte gömmas. |
 
 ---
@@ -101,4 +103,5 @@ Att fortfarande bestämma:
 
 Lista platser som ännu inte har funktion, så vi ser vad vi har kvar att spela med. Uppdateras löpande.
 
+- **Hopptornet**: ledigt. Q-3 sitter under badbryggan.
 - **Malins kista**: funktionen är låst, den exakta platsen är det inte. Krav: väl synlig för alla från fredag kväll, nåbar vid festen, tåla väder om den står ute.

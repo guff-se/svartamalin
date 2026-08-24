@@ -997,7 +997,7 @@ fordelning:
     till: [navidmodiri]
     roll: jagare
     vet: "att Svarta Malin vilar aldrig, att hon skrev om att kämpa utan paus, och att bladet sitter i gymmet"
-    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, hopptornet, Caesar-nyckeln, kungen, att kistan öppnas"
+    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, badbryggan, Caesar-nyckeln, kungen, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-3"
@@ -1009,7 +1009,7 @@ fordelning:
     till: [viktoransund]
     roll: jagare
     vet: "att Svarta Malin vilar aldrig, att hon skrev om att kämpa utan paus, och att bladet sitter i gymmet"
-    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, hopptornet, Caesar-nyckeln, kungen, att kistan öppnas"
+    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, badbryggan, Caesar-nyckeln, kungen, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-3"
@@ -1021,7 +1021,7 @@ fordelning:
     till: [linneaekbom]
     roll: jagare
     vet: "att Svarta Malin vilar aldrig, att hon skrev om att kämpa utan paus, och att bladet sitter i gymmet"
-    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, hopptornet, Caesar-nyckeln, kungen, att kistan öppnas"
+    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, badbryggan, Caesar-nyckeln, kungen, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-3"
@@ -1033,7 +1033,7 @@ fordelning:
     till: [amaliawahlstrom]
     roll: vittne
     vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, att A blir N, och att Å Ä Ö står"
-    vet_inte: "gymmet, vedhögen, hopptornet, ägarbeviset, kapitlet, kungen, att kistan öppnas"
+    vet_inte: "gymmet, vedhögen, badbryggan, ägarbeviset, kapitlet, kungen, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-3"
@@ -1045,7 +1045,7 @@ fordelning:
     till: [jesperlindmarker]
     roll: vittne
     vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, att A blir N, och att Å Ä Ö står"
-    vet_inte: "gymmet, vedhögen, hopptornet, ägarbeviset, kapitlet, kungen, att kistan öppnas"
+    vet_inte: "gymmet, vedhögen, badbryggan, ägarbeviset, kapitlet, kungen, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-3"

@@ -40,9 +40,9 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q5-03 | Dagboksblad 7, skulderna | B-18 | Helt blad. "Blad 7" överst. I svärdfiskens mun. Text: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md). Avskrift hos spelledning. | | | utkast |
 | Q5-04 | Tre cryptex-lappar | B-18 | I svärdfiskens mun med Q5-03. Positionsmarkering TBD. Troligen one-off. Reservlappar hos spelledning. | | | saknas |
 | Q3-01 | Dagboksblad 5 I, ombord | B-19 | Fastsatt i gymmet. "Blad 5" plus I. Tåla att läsas av tre lag, inte tas. Text: [`../rekvisita/Q3-dagbok-1-ombord.md`](../rekvisita/Q3-dagbok-1-ombord.md). | | | utkast |
-| Q3-02 | Dagboksblad 5 II, lagfarten | B-19 | Fastsatt på vedhögen bakom bastun. Utomhus, vaxduk eller laminat. "Blad 5" plus II. Gömd lagfart i klartext. Sista raden versaler, Caesar +13, facit `LAGFARTEN FINNS UNDER HOPPTORNET`. Text: [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). | | | utkast |
-| Q3-03 | Ägarbevis, Malin till Malin | B-19 | Tas. Under hopptornet, på land vid foten, vattentät påse. Inte dagbok. Inte bladnummer. Text: [`../rekvisita/Q3-agarbevis.md`](../rekvisita/Q3-agarbevis.md). Avskrift hos spelledning. | | | utkast |
-| Q3-04 | Cryptex-lapp under hopptornet | B-19 | I samma påse som Q3-03. Positionsmarkering TBD. Engångs. Reservlapp hos spelledning. | | | saknas |
+| Q3-02 | Dagboksblad 5 II, lagfarten | B-19 | Fastsatt på vedhögen bakom bastun. Utomhus, vaxduk eller laminat. "Blad 5" plus II. Gömd lagfart i klartext. Sista raden versaler, Caesar +13, facit `LAGFARTEN FINNS UNDER BADBRYGGAN`. Text: [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). | | | utkast |
+| Q3-03 | Ägarbevis, Malin till Malin | B-19 | Tas. Under badbryggan, nåbar från bryggan utan simning, vattentät påse. Inte dagbok. Inte bladnummer. Text: [`../rekvisita/Q3-agarbevis.md`](../rekvisita/Q3-agarbevis.md). Avskrift hos spelledning. | | | utkast |
+| Q3-04 | Cryptex-lapp under badbryggan | B-19 | I samma påse som Q3-03. Positionsmarkering TBD. Engångs. Reservlapp hos spelledning. | | | saknas |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
@@ -65,7 +65,7 @@ Saker som kräver arbete på ön, inte bara inköp.
 | Q-5 väggen, svärdfisken och dagboken | Storstugan | kort | Färdig från fredag, gärna före ankomst. Bokstäver på baksidorna. Q5-03 och Q5-04 i munnen. D-01 synlig på en yta i samma rum: pärm och stubbar, inga kapitel. Ingen dummy-laddning. Fredagsspel stoppas av Malin i rummet plus genomgången. | |
 | Q-3 gymbladet | Gymmet | kort | Lördag före 10.30. Q3-01 fastsatt, inte fredag. | |
 | Q-3 vedhögsbladet | Vedhögen bakom bastun | kort | Lördag före 10.30. Q3-02 fastsatt, vaxduk. Synligt på högen, inte inne i veden. | |
-| Q-3 skatten under hopptornet | Foten av hopptornet, på land | kort | Lördag före 10.30. Q3-03 och Q3-04 i vattentät påse. Inte i vattnet. Inte uppe i tornet. Inte fredag. | |
+| Q-3 skatten under badbryggan | Under badbryggan, från däcket | kort | Lördag före 10.30. Q3-03 och Q3-04 i vattentät påse. Inte i vattnet. Inte hopptornet. Inte fredag. | |
 | Segelbåten laddas | Bojen | | Fredag, i dagsljus | |
 
 ---
@@ -83,7 +83,7 @@ Saker som **inte** går att designa på distans. Om vi gör ett förbesök (öpp
 - [ ] **Var sker slutstriden?** Ytan måste rymma 25 personer i rörelse utan trappor eller vattenkant.
 - [ ] **Var står kistan?** Väl synlig från fredag, nåbar vid festen, väder om den står ute.
 - [ ] **Vedhögen bakom bastun.** Finns den? Går Q3-02 att fästa synligt utan att någon måste riva isär veden?
-- [ ] **Hopptornets fot.** Torrt gömme på land, inte i vattnet. Påsen syns när man letar under tornet, inte från bryggan av en slump.
+- [ ] **Badbryggan.** Gömme under bryggan, nåbart från däcket utan simning. Påsen syns när man letar under, inte från hopptornet av en slump.
 - [ ] **Vädrets plan B.** Vad händer med varje utomhuspussel i regn? Q-1: halvorna i flaska eller vaxduk. Q-3: Q3-02 och Q3-03 i vaxduk eller laminat. Sigillet i påse.
 
 ## Inköp
