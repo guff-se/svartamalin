@@ -5,7 +5,9 @@ mirrors:
     note: synlig diskret romans, avledning för hamnen (tvåvägs)
   - slug: amaliawahlstrom
     note: gammalt groll, fasa-skålen och skiffen (tvåvägs)
-related: [ludvigvonbahr, amaliawahlstrom]
+  - slug: josefinlowing
+    note: gammal oförrätt, möjlig allians med Enben (tvåvägs)
+related: [ludvigvonbahr, amaliawahlstrom, josefinlowing]
 ---
 
 ## Den som sitter vid ditt bord {slug:ludvigvonbahr}
@@ -17,4 +19,8 @@ Festen är din fälla och romen är linan du själv drar i. Namnet Svarta Malin 
 ## Skålen hon aldrig glömde {slug:amaliawahlstrom}
 
 **Kapten Enben** bär fortfarande skålen där du kallade henne en fasa till kapten, och skiffen du kapade i dimman. Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig till något, vad som helst. Låt henne. Skyldig till fel sak är den bästa sortens skyldig. Nicka inte. Neka inte. Skål med henne som om ingenting, och låt hennes eget groll göra resten av jobbet åt dig.
+
+## Två som väntar på sitt tillfälle {slug:josefinlowing}
+
+**Kapten Enben** är inte ensam om att vänta på ett tillfälle att se dig svaja. **Kapten Kuling** bär en egen, lika gammal räkning mot dig, en last hon aldrig slutat sakna. Var för sig är de ett gnabb du charmar dig förbi med ett skratt och ett fyllt glas. Upptäcker de varandra blir de en publik, och en publik som väntar på ditt nästa felsteg är farligare än vilken enskild fiende som helst. Håll leendet på plats, håll värdinnerollen fast om ratten, och se till att ingen av dem får sin scen innan helgen är över.
 

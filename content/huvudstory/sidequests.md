@@ -42,7 +42,7 @@ Status:         idé / beslutad / skriven
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver | II | jägare / bärare / vittne | skriven |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
 | S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
-| S-06 | Enbens räkning | Enben, Kuling, Malin, Hurring | II–IV | jägare / antagonist / vittne | beslutad |
+| S-06 | Enbens räkning | Enben, Kuling, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
 | S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | skriven |
 | S-08 | Jakten på Plåthornet | Plåthorn, Kuling, Prygel, Rosing, Spader | II–IV | grindvakt / jägare / vittne | skriven |
 | S-09 | Blodigs hot | Blodig, Frodig, Rödskägg, Lösskägg | II–IV | jägare / bärare | skriven |
@@ -275,7 +275,7 @@ Utfall om nej:  inget landar, Malin charmar sig undan som vanligt, ingen kostnad
 
 Bygger på:      fiende 2 (Enben–Malin). Kulings etablerade personliga oförrätt mot Malin, i rollunderlaget, inte en formell fiendepost. Hurrings hemlighet från S-04 (Liggaren): han vet inte vem som angav honom, och misstänker Malin.
 Speglas hos:    Enben, Kuling, Malin, Hurring.
-Status:         beslutad
+Status:         skriven
 
 Obs: Hurring bär också S-04 (Liggaren, samma misstanke mot Malin där han själv är den som söker svaret). Enben bär också S-01 (Jakten på älskaren, där hon sprider en falsk ledtråd om Malin snarare än att ta något ifrån henne). Ingen delad mekanik.
 

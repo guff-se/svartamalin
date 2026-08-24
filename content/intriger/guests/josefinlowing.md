@@ -3,8 +3,12 @@
 mirrors:
   - slug: elinmartensson
     note: gammal förnedring, hånad i skål (tvåvägs)
+  - slug: amaliawahlstrom
+    note: möjlig allians mot Malin, upptäcker varandras groll (tvåvägs)
+  - slug: jesperlindmarker
+    note: Hurring säljer en osäker rad om Malin till bästa bud (tvåvägs)
 # gustaftadaa: hon vet inte att han älskar Plåthorn i hemlighet, se hans fil
-related: [elinmartensson, gustaftadaa]
+related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker]
 ---
 
 ## Hornet du redan hånat {slug:elinmartensson}
@@ -14,3 +18,9 @@ related: [elinmartensson, gustaftadaa]
 ## Handen du vill låna {slug:gustaftadaa}
 
 **Löjtnant Spader** är känd som en kortspelare utan like, och ryktet om att han fuskar har aldrig kunnat bevisas. Precis den sortens listiga hand du behöver för att komma åt **Kapten Plåthorn**s horn. Övertyga honom att hjälpa dig lura henne, med mynt, med en tjänst, eller med smicker om hans rykte. Gör det innan festen är över.
+
+## Kapten med samma räkning {slug:amaliawahlstrom}
+
+Fördärvet har sin fordran på **Svarta Malin**, den last hon en gång tog och döpte om till rättvist delad. Men du är inte ensam om att vänta på ett tillfälle att ta tillbaka något från jubilaren. **Kapten Enben** bär sin egen, lika gamla skam hon aldrig fått upprättelse för. Hitta varandra i festvimlet, dela groll över ett glas, och slå ihop era krav till en scen ingen i hamnen glömmer. En ensam fordran är ett gnabb. Två som går samman är en dom.
+
+**Kapten Hurring** har en rad i sin svarta liggare om Malin han aldrig kunnat bekräfta, och han säljer den gärna, till den av er två som lägger mest på bordet. Var snabbare än Enben, innan helgen är över, om du vill äga historien själv.
