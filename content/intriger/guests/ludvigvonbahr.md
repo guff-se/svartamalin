@@ -25,3 +25,9 @@ Ditt tveeggade svärd är en helig ko: ingen får syna det på nära håll, för
 ## Hamnskämtet som aldrig dör {slug:fabianmacklin}
 
 **Kapten Nykter** gjorde en gång din svärdshistoria till ett stående hamnskämt, upprepat vid varje bord där du själv inte är. Du svarade som du alltid gör: en av dina långa, envisa kramar, tills andan och äran gick ur honom. Det är inte glömt av någon av er, minst av allt av dig.
+
+## Skulden under bordet {slug:malintadaa}
+
+Du är skyldig **Svarta Malin** pengar, en skuld som blivit större för varje kväll du skjutit upp att nämna den. Hon för logg över vartenda mynt, varenda ed och varenda obetald skål som dragits på någon, och ditt namn står redan där, med bläck som inte suddas. Du vill åt loggen, inte för att betala, utan för att se vad mer den håller.
+
+Var den sitter vet du inte. Kalla ihop **Galeonen Gnället** och börja leta, innan en annan skuta hinner före er.

@@ -31,3 +31,9 @@ Din kärlek till **Kapten Frodig** är förbjuden och hemlig: era släkter och b
 ## Aldrig vila {slug:malintadaa}
 
 **Svarta Malin** vilar aldrig. Det ryktas att hon skrev om just det, om att kämpa utan paus tills kroppen tar vad den redan slitit för, och att bladet sitter i gymmet. Ingen har läst det än. Ta **Fregatten Fromheten** med dig och hämta det innan en annan skuta gör det.
+
+## De värsta kaptener som finns {slug:malintadaa}
+
+Det viskas att **Svarta Malin** håller räkning på alla som är skyldiga henne, och att räkenskapen hänger i Storstugan: en vägg full av porträtt, döpt "de värsta kaptener som finns", ett ansikte per skuld. Ditt eget ansikte hänger aldrig där. Du står inte i skuld till henne, och det vet du med gott samvete.
+
+Hör du någon leta efter var loggen sitter, kan du peka dit utan att fråga varför. Ta med dig **Fregatten Fromheten** om du vill sälja tipset dyrt, eller behåll det som ett skämt bara du känner till.

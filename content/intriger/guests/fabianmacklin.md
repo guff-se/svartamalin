@@ -7,7 +7,7 @@ mirrors:
     note: gammalt hamnskämt om svärdet (tvåvägs)
   - slug: linneaappert
     note: reservsvar om Barnsben inte hittas
-related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaappert]
+related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaappert, malintadaa]
 ---
 
 ## Den hon litar på i skymningen {slug:ulrikahammar}
@@ -25,3 +25,9 @@ Du gjorde en gång **Kapten Dunka**s svärdshistoria till ett stående hamnskäm
 ## Svaret du ger om Rötägg {slug:linneaappert}
 
 Hittar **Kapten Planka** inte **Kapten Barnsben** kan hon fråga dig istället om **Kapten Rötägg** verkligen ändrat sig sen han miste sitt skepp genom att vara grym mot sin besättning. Du vet vad Barnsben vet, och du tycker om att se andra desperata efter sanning. Färga ditt svar precis så mycket som roar dig mest.
+
+## Skulden bakom din nyktra min {slug:malintadaa}
+
+Du är skyldig **Svarta Malin** pengar, en gammal skuld du trodde var glömd tills hon nämnde den i förbifarten, som om hon aldrig glömmer något. Hon för logg över vartenda mynt, varenda ed och varenda obetald skål som dragits på någon, och ditt namn står redan i den boken. Du vill åt loggen, inte för att göra upp, utan för att se vad mer den håller.
+
+Var den sitter vet du inte än. Ta med dig **Barken Bortförklaringen** och börja fråga runt, innan en annan skuta kommer före dig.

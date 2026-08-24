@@ -16,7 +16,7 @@ Använd den här filen för gemensamma regler och för hur ingångstext skrivs i
 
 **Cirkulerande version** är rykte-fakta gästerna får *genom questen*, inte färdig STYLE.md-prosa. **Starten** får bara den del som står under **Cirkulerande version, start** på questens egen fil. Resten sitter i props, pit stops och skatten. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
 
-Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-3 form låst och tillsatt 2026-08-24. Q-5 form låst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 har form: gym, vedhög, badbrygga. Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den till questens fil och stryks där.
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-3 form låst och tillsatt 2026-08-24. Q-5 form låst 2026-08-23, tillsatt och gästtext skriven 2026-08-24.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 har form: gym, vedhög, badbrygga. Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den till questens fil och stryks där.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom. En start per gäst. Inte till mullvad, inte till Malin, inte till Spader. Se regel 11-13.
 

@@ -936,7 +936,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-5"
-    status: pending
+    status: done
 
   - id: 75
     beat: B-18
@@ -948,7 +948,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-5"
-    status: pending
+    status: done
 
   - id: 76
     beat: B-18
@@ -960,7 +960,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-5"
-    status: pending
+    status: done
 
   - id: 77
     beat: B-18
@@ -972,7 +972,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-5"
-    status: pending
+    status: done
 
   - id: 78
     beat: B-18
@@ -984,7 +984,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-5"
-    status: pending
+    status: done
 
 # B-19 Q-3-tillsättning (2026-08-24): skuta 2, 4, 5. Start: Kapten Döver (`navidmodiri`),
 # Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd (skiffer +13 framåt):

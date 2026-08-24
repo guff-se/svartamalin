@@ -24,3 +24,9 @@ Konfrontera en av dem enskilt, eller sprid ett rykte utan att avslöja hela sann
 Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
 
 Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.
+
+## Väggen du aldrig behöver frukta {slug:malintadaa}
+
+Det viskas att **Svarta Malin** för en logg över alla som är skyldiga henne, och att loggen hänger rätt upp och ner i Storstugan: en vägg av porträtt, döpt "de värsta kaptener som finns", uppsatt skuta för skuta. Du vet det, obekymrat, för ditt eget ansikte hänger aldrig där. Du är inte skyldig henne ett öre.
+
+Hör du någon fråga sig var Malins skuldlogg sitter, vet du svaret utan att behöva jaga det själv. Dela det med **Fregatten Fördärvet** om priset känns rätt, eller håll det för dig själv och se vem som kommer krypande.
