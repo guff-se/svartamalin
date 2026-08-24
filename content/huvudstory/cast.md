@@ -83,21 +83,21 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `petterwallberg` | 1 | 2 | | Q-5 (start) |
 | `linneaappert` | 1 | 1 | | Q-1 (start)|
 | `ulrikahammar` | 3 | 2 | | |
-| `jesperlindmarker` | 2 | 1 | | |
+| `jesperlindmarker` | 2 | 1 | | Q-3 (tvärledtråd) |
 | `louisevonbahr` | 1 | 1 | | Q-2 (start) |
 | `josefinlowing` | 1 | 1 | | |
-| `navidmodiri` | 2 | 2 | | |
+| `navidmodiri` | 2 | 2 | | Q-3 (start) |
 | `minimacklin` | 1 | 2 | | Q-5 (tvärledtråd) |
 | `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
-| `amaliawahlstrom` | 0 | 1 | | Q-2 (start) |
+| `amaliawahlstrom` | 0 | 1 | | Q-2 (start), Q-3 (tvärledtråd) |
 | `fabianmacklin` | 1 | 3 | | Q-5 (start)|
 | `josefinansund` | 1 | 1 | | Q-1 (start) |
 | `johannabergman` | 1 | 1 | | |
 | `jesperlejfjord` | 1 | 1 | | |
 | `amandamungsgard` | 1 | 1 | | Q-2 (start) |
-| `viktoransund` | 1 | 2 | | Q-5 (tvärledtråd) |
+| `viktoransund` | 1 | 2 | | Q-3 (start), Q-5 (tvärledtråd) |
 | `minervalowgren` | 1 | 1 | | |
-| `linneaekbom` | 1 | 1 | | |
+| `linneaekbom` | 1 | 1 | | Q-3 (start) |
 | `alexandrapalmquist` | 1 | 1 | | |
 | `hampuslindblad` | 1 | 3 | | Q-5 (start) |
 | `edvinthungren` | 1 | 3 | | |

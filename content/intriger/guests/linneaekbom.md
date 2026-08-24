@@ -4,7 +4,7 @@ mirrors:
   - slug: ulrikahammar
     note: uppvaktning vid syhörnan (tvåvägs)
 # enväg vittne mot elinmartensson (snäckan hör Kuling/Prygels planer), speglas inte
-related: [ulrikahammar, fabianmacklin, elinmartensson]
+related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa]
 ---
 
 ## Den du vill bli vald av {slug:ulrikahammar}
@@ -16,3 +16,7 @@ related: [ulrikahammar, fabianmacklin, elinmartensson]
 ## Vad snäckan viskar om hornet {slug:elinmartensson}
 
 Din hemliga snäcka hör mer än du bett om, och den har snappat upp **Kapten Kuling**s och **Kapten Prygel**s planer på att lura eller stjäla **Kapten Plåthorn**s plåthorn. Du kan varna henne, i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid du ändå inte kan simma ifrån. Välj innan festen är över.
+
+## Aldrig vila {slug:malintadaa}
+
+**Svarta Malin** vilar aldrig. Det ryktas att hon skrev om just det, om att kämpa utan paus tills kroppen tar vad den redan slitit för, och att bladet sitter i gymmet. Ingen har läst det än. Ta **Galeonen Gnället** med dig och hämta det innan en annan skuta gör det.

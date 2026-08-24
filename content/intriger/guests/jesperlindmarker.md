@@ -1,5 +1,6 @@
 ---
 # Skuta: **Korvetten Kurtisanen** (crew_id: 1)
+# enväg vittne mot malintadaa (skiffer +13), speglas inte
 mirrors:
   - slug: louisevonbahr
     note: gammalt angiveri, hon nekar, han misstänker (tvåvägs)
@@ -15,7 +16,7 @@ mirrors:
     note: säljer en osäker rad om Malin till bästa bud (tvåvägs)
   - slug: josefinlowing
     note: säljer en osäker rad om Malin till bästa bud (tvåvägs)
-related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa, amaliawahlstrom, josefinlowing]
+related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa, amaliawahlstrom, josefinlowing, malintadaa]
 ---
 
 ## Boken som ska fyllas {slug:louisevonbahr}
@@ -39,3 +40,7 @@ Du delar säng med både **Kapten Klöver** och **Kapten Prygel**, var för sig,
 ## En rad som säljer sig själv {slug:amaliawahlstrom}
 
 Din svarta liggare rymmer mer än frågan om vem som en gång angav dig. Där finns också en gammal, aldrig bekräftad historia om **Svarta Malin** själv, den sortens rad som blir sannare för var gång den upprepas. Nu vill både **Kapten Enben** och **Kapten Kuling** ha den, var för sig, av var sitt gamla groll mot jubilaren. Du behöver inte veta vem som har mest rätt att klaga. Du behöver bara veta vem som betalar bäst, i mynt eller i en tjänst du kan kräva tillbaka senare. Sälj raden innan helgen är över, till den som bjuder högst, och låt de två slåss om vad den egentligen betyder.
+
+## Bokstäver som flyttar sig {slug:malintadaa}
+
+En annan rad i liggaren är inte rykte. Den är hantverk. När **Svarta Malin** inte vill att vem som helst ska läsa, förskjuter hon bokstäverna tretton steg framåt. Inte bakåt. A blir N. Å, Ä och Ö står. Sälj knepet till den som redan har ett blad de stirrar sig blinda på, eller behåll det tills budet är högt nog. Utan bladet är raden bara bläck.

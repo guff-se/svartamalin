@@ -16,6 +16,8 @@ related: [malintadaa, josefinlowing, jesperlindmarker]
 
 Nu viskar hamnen att jubilaren gömmer en hemlig älskare. Sanningen intresserar dig inte det minsta. Du vill bara att Malin ska se skyldig ut, till vad som helst, inför så många som möjligt. Sätt ett namn på ett bord. Helst ett namn du redan ogillar av andra skäl. Upprepa det som om tre andra redan sagt samma sak. Låt en skål slå fel innan helgen är över, så Malin får bära skammen du en gång fick bära.
 
+Så länge du burit den skålen har du också lärt dig hur hon gömmer skrift. När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, förskjuter hon bokstäverna tretton steg framåt. Inte bakåt. A blir N. Å, Ä och Ö står orörda. Knepet är värt noll tills någon kommer med ett blad de inte kan tyda. Då är du den som kan läsa.
+
 ## Stugan ingen pratar om {slug:malintadaa}
 
 Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.

@@ -8,7 +8,7 @@ mirrors:
     note: gammal röta, han köper inte omvändelsen (tvåvägs)
   - slug: louisevonbahr
     note: hon anar sanningen och sparar den som skuld (tvåvägs, asymmetrisk kunskap)
-related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr]
+related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr, malintadaa]
 ---
 
 ## Det du hör vid syhörnan {slug:ulrikahammar}
@@ -28,3 +28,7 @@ Ditt hittepå-teckenspråk är precis lika påhittat som din dövhet. Håll en w
 ## Skulden Fuling håller tyst om {slug:louisevonbahr}
 
 **Kapten Fuling**, din egen skeppskamrat, har länge anat att din dövhet är påhitt men sagt ingenting. Det passar henne bättre att ha en skuld att kräva in senare än att avslöja dig gratis nu. Hon kan när som helst nämna, i förbifarten, att hon "alltid undrat" hur du klarar dig utan att höra, ett hot utan hot i orden. Räkna med att den dagen kommer innan festen är över.
+
+## Aldrig vila {slug:malintadaa}
+
+**Svarta Malin** vilar aldrig. Det ryktas att hon skrev om just det, om att kämpa utan paus tills kroppen tar vad den redan slitit för, och att bladet sitter i gymmet. Ingen har läst det än. Ta **Fregatten Fördärvet** med dig och hämta det innan en annan skuta gör det.

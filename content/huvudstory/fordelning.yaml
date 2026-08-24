@@ -986,3 +986,68 @@ fordelning:
     pussel: "Q-5"
     status: pending
 
+# B-19 Q-3-tillsättning (2026-08-24): skuta 2, 4, 5. Start: Kapten Döver (`navidmodiri`),
+# Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd (skiffer +13 framåt):
+# Kapten Enben (`amaliawahlstrom`, skuta 3), Kapten Hurring (`jesperlindmarker`, skuta 1).
+# Inte mullvad, inte Malin, inte Spader. Skuta 1 och 3 utan ingång.
+
+  - id: 79
+    beat: B-19
+    akt: II
+    till: [navidmodiri]
+    roll: jagare
+    vet: "att Svarta Malin vilar aldrig, att hon skrev om att kämpa utan paus, och att bladet sitter i gymmet"
+    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, hopptornet, Caesar-nyckeln, kungen, att kistan öppnas"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-3"
+    status: done
+
+  - id: 80
+    beat: B-19
+    akt: II
+    till: [viktoransund]
+    roll: jagare
+    vet: "att Svarta Malin vilar aldrig, att hon skrev om att kämpa utan paus, och att bladet sitter i gymmet"
+    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, hopptornet, Caesar-nyckeln, kungen, att kistan öppnas"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-3"
+    status: done
+
+  - id: 81
+    beat: B-19
+    akt: II
+    till: [linneaekbom]
+    roll: jagare
+    vet: "att Svarta Malin vilar aldrig, att hon skrev om att kämpa utan paus, och att bladet sitter i gymmet"
+    vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, hopptornet, Caesar-nyckeln, kungen, att kistan öppnas"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-3"
+    status: done
+
+  - id: 82
+    beat: B-19
+    akt: II
+    till: [amaliawahlstrom]
+    roll: vittne
+    vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, att A blir N, och att Å Ä Ö står"
+    vet_inte: "gymmet, vedhögen, hopptornet, ägarbeviset, kapitlet, kungen, att kistan öppnas"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-3"
+    status: done
+
+  - id: 83
+    beat: B-19
+    akt: II
+    till: [jesperlindmarker]
+    roll: vittne
+    vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, att A blir N, och att Å Ä Ö står"
+    vet_inte: "gymmet, vedhögen, hopptornet, ägarbeviset, kapitlet, kungen, att kistan öppnas"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-3"
+    status: done
+

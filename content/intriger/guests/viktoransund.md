@@ -7,7 +7,7 @@ mirrors:
     note: skäggtrion, blåfärgad och avkrönt (tvåvägs)
   - slug: josefinansund
     note: förbjuden hemlig kärlek (tvåvägs)
-related: [petterwallberg, hampuslindblad, johannabergman, josefinansund, minimacklin]
+related: [petterwallberg, hampuslindblad, johannabergman, josefinansund, minimacklin, malintadaa]
 ---
 
 ## Randen han rakade {slug:petterwallberg}
@@ -27,3 +27,7 @@ Han och **Kapten Lösskägg** gör båda anspråk på samma titel. Kajen kröner
 Din kärlek till **Kapten Frodig** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa.
 
 **Kapten Blodig** bär ett gammalt groll mot Frodig och snubblar gärna över ett tecken på er kärlek om hon får chansen. Förneka högljutt, muta henne, eller fly tillsammans, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över.
+
+## Aldrig vila {slug:malintadaa}
+
+**Svarta Malin** vilar aldrig. Det ryktas att hon skrev om just det, om att kämpa utan paus tills kroppen tar vad den redan slitit för, och att bladet sitter i gymmet. Ingen har läst det än. Ta **Fregatten Fromheten** med dig och hämta det innan en annan skuta gör det.
