@@ -1032,7 +1032,7 @@ fordelning:
     akt: II
     till: [amaliawahlstrom]
     roll: vittne
-    vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, att A blir N, och att Å Ä Ö står"
+    vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, och att A blir N"
     vet_inte: "gymmet, vedhögen, badbryggan, ägarbeviset, kapitlet, kungen, att kistan öppnas"
     speglas: []
     bygger_pa: null
@@ -1044,7 +1044,7 @@ fordelning:
     akt: II
     till: [jesperlindmarker]
     roll: vittne
-    vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, att A blir N, och att Å Ä Ö står"
+    vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, och att A blir N"
     vet_inte: "gymmet, vedhögen, badbryggan, ägarbeviset, kapitlet, kungen, att kistan öppnas"
     speglas: []
     bygger_pa: null
