@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, Alexandra i ytterligare en sidequest
+
+Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-03.
+
+- [x] involvera alexandra i ytterligare en sidequest. om du inte kan lägga till någon, så kan du byta ut henne mot någon annan som har 3 eller 4 quests bara är vittne (och inte har en specifik anledning att vara med i just den sidequesten)
+
+Kryss = tillagd i S-03 som jägare, fiende 12 (scarfen). Inte byte. Gästtext skriven.
+
+---
+
 ## 2026-08-24, Q-4 form: kikare, Tomtebobarnen, skylt
 
 Källa: Gustaf, i chatt. Införd i [`quests/Q-4.md`](quests/Q-4.md).

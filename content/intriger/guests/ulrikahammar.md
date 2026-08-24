@@ -6,9 +6,11 @@ mirrors:
   - slug: linneaekbom
     note: uppvaktning vid syhörnan (tvåvägs)
 # navidmodiri lyssnar i smyg vid syhörnan, enväg, speglas inte
+  - slug: alexandrapalmquist
+    note: fiende, scarfen med brevet till Döver (enväg hat från henne, du vet om det)
   - slug: edvinthungren
     note: gammal röta, parfymspratten mot din uppvaktning av Döver (enväg, du dömer, han vet om domen)
-related: [fabianmacklin, linneaekbom, navidmodiri, edvinthungren, linneaappert]
+related: [fabianmacklin, linneaekbom, navidmodiri, alexandrapalmquist, edvinthungren, linneaappert]
 ---
 
 ## Skymningens piller {slug:fabianmacklin}
@@ -20,6 +22,12 @@ När mörkret faller måste du svälja ett piller ur din lilla krumelurburk, ann
 ## Den andra uppvaktaren {slug:linneaekbom}
 
 **Kapten Rosing** uppvaktar dig lika ivrigt som **Kapten Nykter**, och vill precis samma sak: bli den du väljer att lita på i skymningen, den som får se din krumelurburk innan mörkret faller. Hon vet inte om honom. Han vet inte om henne. Låt dem båda tro att de har en chans, ända till du väljer, eller väljer att inte välja alls, innan festen är över.
+
+## Scarfen du lånade {slug:alexandrapalmquist}
+
+Du lindade en gång ett brev till **Kapten Döver** i **Kapten Babord**s scarf och smög det fram, mjukt som en hemlighet. Hon vet om det. Hon hatar det. Hon hatar att någon tar det som är hennes och stoppar in en plan hon inte godkänt.
+
+Hon kan dyka upp vid din sy- och broderihörna. Möt henne, muta henne, neka, eller sy fast scarfen i hennes knä som om ingenting hänt. Välj innan festen är över: Döver är värd mer än en scarf, men en scarf kan räcka för att hon ska ställa till en scen just när du minst vill ha folk över axeln.
 
 ## Parfymen som förstörde allt {slug:edvinthungren}
 

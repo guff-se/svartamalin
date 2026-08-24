@@ -375,10 +375,10 @@ fordelning:
     akt: II
     till: [ulrikahammar]
     roll: barare
-    vet: "att hon måste svälja ett krumelurpiller varje skymning för att inte sluta vara barnslig, att Kapten Nykter och Kapten Rosing båda uppvaktar henne vid hennes sy- och broderihörna för att bli den hon litar på då, och att hon själv väljer vem hon anförtror sig åt"
-    vet_inte: "att Nykter håller henne nära av andra, egna skäl, att Döver tjuvlyssnar vid hörnan"
-    speglas: [fabianmacklin, linneaekbom]
-    bygger_pa: "romans: 4, 5"
+    vet: "att hon måste svälja ett krumelurpiller varje skymning för att inte sluta vara barnslig, att Kapten Nykter och Kapten Rosing båda uppvaktar henne vid hennes sy- och broderihörna för att bli den hon litar på då, att hon själv väljer vem hon anförtror sig åt, och att Kapten Babord hatar henne för att hon en gång smög ett brev till Kapten Döver lindat i Babords scarf och kan dyka upp vid hörnan"
+    vet_inte: "att Nykter håller henne nära av andra, egna skäl, att Döver tjuvlyssnar vid hörnan, att Babord inte känner till pillren"
+    speglas: [fabianmacklin, linneaekbom, alexandrapalmquist]
+    bygger_pa: "romans: 4, 5, fiende: 12"
     pussel: null
     status: done
 
@@ -1074,5 +1074,20 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-3"
+    status: done
+
+# S-03 tillägg 2026-08-24: Babord jagar Barnsben via fiende 12 (scarfen).
+# Inte S-10, inte mullvaden. Gästtext skriven.
+
+  - id: 86
+    beat: S-03
+    akt: II
+    till: [alexandrapalmquist]
+    roll: jagare
+    vet: "att Kapten Barnsben en gång smög ett brev till Kapten Döver lindat i Babords scarf, att Barnsben håller en sy- och broderihörna öppen där folk landar och lämnar lappar, och att Babord kan ta tillbaka scarfen, fånga henne med ännu ett brev, eller tala om för Döver vems händer som rörde tyget"
+    vet_inte: "krumelurpillren, att Döver tjuvlyssnar vid samma hörna, Nykters och Rosings uppvaktning som uppdrag, mullvaden mot Döver (annan hemlighet), teckenspråksbluffen som del av den här biten"
+    speglas: [ulrikahammar]
+    bygger_pa: "fiende: 12"
+    pussel: null
     status: done
 

@@ -115,7 +115,7 @@ fiender:
     a: alexandrapalmquist # Kapten Babord: Galeonen Gnället
     b: ulrikahammar       # Kapten Barnsben: Korvetten Kurtisanen
     # oförrätt: Barnsben smög brev till Döver lindat i Babords scarf
-    status: pending
+    status: done
 
   - id: 13
     type: one_way
