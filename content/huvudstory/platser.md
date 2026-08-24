@@ -17,15 +17,15 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Södra Ovanan** | Egen ö. Nås med motordriven eka (5 personer, 2 min), kajak, SUP eller simning. Aldrig ensam. | Ekan tar fem åt gången, minst två ombord. Kajaker och SUP minst två farkoster. | Q-2. Vägen till piratstugan och Ottos grav. | II |
 | **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Huset hon byggde som tillflykt. Minnen plus skrin med tokens. Namnbladet pekar mot graven. Inte escape-rum. | II |
 | **Skelettet i skogen** (Södra Ovanan) | Ottos grav. Befintlig prop. | Liten grupp | Q-2. Andra cryptex-ledtråden. Namnbladet i stugan pekar hit. Inte en identitetsgåta. | II |
-| **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. | II |
+| **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. | II |
 | **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD | III, efterspel |
 | **Verkstaden** | Verkstad med förrådsrum som kan byggas om | Förråden tar 3 till 6 personer | TBD | |
 | **Segelbåten vid bojen** (Tvåkronan) | Båt en bit ut, kräver simning eller eka. Aldrig ensam. | 2 till 4 personer, hög tröskel | TBD. Parkerad idé: 2-kronorsmynt ombord, se [`pussel.md`](pussel.md) | |
 | **Kikaren** | Väldigt bra kikare, ser andra öar | 1 person i taget, kö uppstår | TBD | |
 | **Skylt på annan ö** | Idé: text läsbar bara genom kikaren. **Inte beslutad.** | Envägsinformation | Parkerad. Kräver förarbete om vi kör | |
-| **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1. Vänster halva av dagboksbladet. | II |
-| **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1. Höger halva av dagboksbladet. | II |
-| **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1. Påsen med blad två och cryptex-lappen, högt i nätet. | II |
+| **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1. Vänster halva av blad 1. | II |
+| **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1. Höger halva av blad 1. | II |
+| **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1. Påsen med blad 4 och cryptex-lappen, högt i nätet. | II |
 | **Gymmet** | Styrketräningsgym i egen byggnad | 4 till 8 personer | TBD | |
 | **Bryggan och storbåten** | Ankomst och avfärd | Alla | Ankomst fredag, avfärd söndag | Ram |
 | **Matsal och festplats** | Middag fredag, brunch lördag, festen 20.00 | Alla | Överdåd fredag, brunch 14.00, kaviar och rom, kistan öppnas | I, III, IV |
@@ -47,8 +47,8 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 | Södra Ovanan | **Tröskel, men inte restid.** Ekan tar 2 minuter. Skrivna överfarter går gärna via Kuling eller Rödskägg, för spel. Man får paddla utan dem. | Pilgrimsfärd, exil, förbjuden kunskap. Handeln om överfarten är extra scener, inte ett lås |
 | Piratstugan | **Slutet rum med eld.** Mörkt, avskilt, går att låsa och göra i ordning | Malins tillflykt. Q-2 möblerar den som bebodd, inte som escape-rum. Verkstaden är kvar som escape-rumskandidat |
 | Skelettet | **Grav.** Otto von Pälspung ligger här. Q-2. | Andra cryptex-ledtråden. Namnbladet i stugan är pekaren. Inte en identitetsgåta |
-| Storstugan | **Offentlig vägg.** Alla ser den, ingen tar ner bilderna utan skäl. | Q-5: skuldloggen som sitter i öppen dag. Sångordning. |
-| Svärdfisken | **Offentligt gömställe.** Alla ser den, ingen tittar i gapet. Samma rum som väggen. | Q-5: dagboksblad och tre cryptex-lappar. Meningen på baksidorna pekar hit. |
+| Storstugan | **Offentlig vägg.** Alla ser den, ingen tar ner bilderna utan skäl. | Q-5: skuldloggen som sitter i öppen dag. Sångordning. Malins dagbok synlig på en yta i samma rum: pärm och stubbar, inte kapitel. |
+| Svärdfisken | **Offentligt gömställe.** Alla ser den, ingen tittar i gapet. Samma rum som väggen och som boken. | Q-5: blad 7 och tre cryptex-lappar. Meningen på baksidorna pekar hit. |
 | Onsen | **Nakenhet och intima möten.** Litet badkar, perfekta för mindre möten, ritualer eller interaktioner. Inte ett avgränsat play space. Sex är tillåtet överallt. | Bekännelser, allianser, sanningar som sägs muntligt, sex. |
 | Bastun | **Nakenhet och samtal.** Ingen kan bära papper eller prop | Semi-offentliga möten, plats där man kan råka höra något nån anna säger. |
 | Verkstaden | **Byggbart.** Vi kan möblera om helt | Arkiv, skattkammare, cell, kartrum. Escape-rumskandidaten. Piratstugan är inte det. |

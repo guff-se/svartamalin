@@ -1,13 +1,16 @@
 ---
 quest: Q-1
 prop: Q1-01
+dagbok: 1
 ---
 
-# Dagboksblad, före förräderiet
+# Dagboksblad 1, före förräderiet
 
-Oskyldig Malin, förälskad i Greve Otto von Pälspung. Rives vertikalt. Halvor vid Gubben och Gumman. Bara dagbok. Vägvisning på baksidan.
+Oskyldig Malin, förälskad i Greve Otto von Pälspung. Rives vertikalt. "Blad 1" på båda halvorna. Halvor vid Gubben och Gumman. Bara dagbok. Vägvisning på baksidan.
 
 ## Tryck
+
+Blad 1
 
 Jag måste skriva det, annars tror jag att jag har drömt.
 

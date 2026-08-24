@@ -1,11 +1,12 @@
 ---
 quest: Q-1
 prop: Q1-01
+dagbok: 1
 ---
 
-# Baksida, sönderrivet dagboksblad
+# Baksida, blad 1
 
-Vägvisning på baksidan av Q1-01. Rives med framsidan.
+Vägvisning på baksidan av Q1-01. Rives med framsidan. Inte bladnummer. Inte dagbok.
 
 ## Tryck
 

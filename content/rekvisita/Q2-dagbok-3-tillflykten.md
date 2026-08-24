@@ -2,13 +2,16 @@
 quest: Q-2
 beat: B-17
 prop: Q2-09
+dagbok: 8
 ---
 
-# Dagboksblad, tillflykten
+# Dagboksblad 8, tillflykten
 
-Nutid. Enda stället hon är ifred. En stor plan för lugn. Piratstugan.
+Nutid. Enda stället hon är ifred. En stor plan för lugn. Piratstugan. Sist i boken, inte sist i rummet.
 
 ## Tryck
+
+Blad 8
 
 De följer efter. Alla. Kaptener i ryggen. Skålar i örat. Händer i ärmen. Svarta Malin hit. Svarta Malin dit. Namnet har lämnat mig och blivit något eget. Dit jag går, har namnet redan gått.
 

@@ -2,13 +2,16 @@
 quest: Q-2
 beat: B-17
 prop: Q2-08
+dagbok: 3
 ---
 
-# Dagboksblad, handlingen
+# Dagboksblad 3, handlingen
 
 Filosofi. Bygget och rätten att preja. Ska man göra något ska man göra det själv. Piratstugan.
 
 ## Tryck
+
+Blad 3
 
 Ska man göra något ska man göra det själv.
 

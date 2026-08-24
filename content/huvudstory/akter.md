@@ -252,7 +252,7 @@ Plats:          Gubben i stubben, Gumman på udden, klätternätet
 Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i [`quests.md`](quests.md), hon jagar bladen bakom Malins rygg.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
-Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser dagboken, vänder, följer baksidan till klätternätet. I påsen: blad två (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen.
+Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 1, vänder, följer baksidan till klätternätet. I påsen: blad 4 (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen. Kronologi: [`quests.md`](quests.md). Inte samma som hittordningen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 
@@ -273,7 +273,7 @@ Plats:          Södra Ovanan, piratstugan, skelettet i skogen
 Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Fuling (`louisevonbahr`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Inte Malin.
 Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
 
-Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre dagboksblad (namnet, handlingen, tillflykten), tar en token ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra token där. Skylt: endast en per lag. Inget pussel. Inga pit stops.
+Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 2 namnet, blad 3 handlingen, blad 8 tillflykten), tar en token ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra token där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
 
 Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten själv, tog namnet Svarta, begravde Otto i skogen, och fortfarande behöver en plats att vara ifred. Inte Ran. Inte kungen.
 
@@ -294,7 +294,7 @@ Plats:          Storstugan, porträttväggen, svärdfiskens mun
 Inblandade:     tre skutor TBD. Start i tre namngivna intrigfiler, en manlig gäldenär per lag. Kön efter civilnamn. Tvärledtråd på de två skutorna utan ingång.
 Publik:         den som ser väggen tas ner, och den som ser någon fiska i gapet
 
-Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: dagboksbladet och tre cryptex-lappar. Troligen one-off.
+Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre cryptex-lappar. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.
 
 Vad ändras:     rummet vet att hon håller havet med mäns skulder, och att de ligger i kistan. Inte kungen. Inte att hon är skuldsatt.
 

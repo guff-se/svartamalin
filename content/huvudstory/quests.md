@@ -35,6 +35,32 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på questens fil. Bygg inte noder som motsäger den. Q-2 har inget pussel.
 8. **Korvetten Kurtisanens egna quest-trådar spelas bakom Malins rygg.** Malin är skuta 1:s egen kapten. En quest-start till en medlem av **Korvetten Kurtisanen** (`malintadaa` undantagen, hon bär aldrig sin egen jakt) ska instruera att uppdraget måste lösas utan att Malin ser eller anar det. Hon delar koj, köl och vardag med dem hela helgen: att gräva i hennes förflutna är farligare för en Kurtisan än för någon annan skutas medlem. Skriv in det som en konkret risk i gästtexten (hon kan komma runt hörnet när som helst), inte som en spelledningsvarning.
 9. **Löjtnant Spader (`gustaftadaa`) får varken start eller tvärledtråd.** Han är fullt spelbar i övrigt. Han ska inte sitta och lösa huvudquesten.
+10. **En dagbok, utrivna blad.** Malins dagbok står synlig i Storstugan. De flesta sidorna är utrivna. De utrivna bladen är det gästerna hittar i questsen. Kronologisk ordning står i tabellen nedan. Den är inte samma som hittordningen. Skriv inte in bokens plats som ett sökuppdrag i gästtext. Boken är dressing: den som råkar öppna den ser stubbar, inte kapitel.
+
+---
+
+## Dagboken
+
+En fysisk bok i **Storstugan**. Synlig. Inte ett gömme. Inte en karta till bladen. Off-regel: den som inte söker något i boken lämnar den.
+
+De utrivna bladen bär kapitlen. Cryptex-lappar, tokens och vägvisning på baksidor är inte dagbok. Q-3 och Q-4 saknar form: blad 5 och 6 är reserverade, texten skrivs när questen låses. När de får form är kapitlet ett dagboksblad, inte en proklamation eller en ed som bär storyn.
+
+Talet **Blad N** ska stå på papperet, så den som samlar flera kan lägga dem i tidsordning. Inte i questordning. Inte som lösenord.
+
+| Blad | Liv | Quest | Prop | Hittas |
+|------|-----|-------|------|--------|
+| 1 | Första kärleken, före förräderiet | [Q-1](quests/Q-1.md) | Q1-01 | Gubben och Gumman, itu |
+| 2 | Förrådd. Tar namnet Svarta. Ska begrava Otto. | [Q-2](quests/Q-2.md) | Q2-07 | Piratstugan. Stannar. |
+| 3 | Bygget. Rätten att preja. | [Q-2](quests/Q-2.md) | Q2-08 | Piratstugan. Stannar. |
+| 4 | Hämnden klar. Otto begraven. Skutan döpt. | [Q-1](quests/Q-1.md) | Q1-04 | Klätternätet |
+| 5 | Hon "tar" korvetten. Lögnen. | [Q-3](quests/Q-3.md) | TBD | TBD |
+| 6 | Hon får Ovanan. | [Q-4](quests/Q-4.md) | TBD | TBD |
+| 7 | Skulderna. Hon håller havet. | [Q-5](quests/Q-5.md) | Q5-03 | Svärdfiskens mun |
+| 8 | Nutid. Tillflykten. En stor plan. | [Q-2](quests/Q-2.md) | Q2-09 | Piratstugan. Stannar. |
+
+Hittordning är en annan sak. Q-1 ger blad 1, sedan blad 4. Q-2 ger blad 2, 3 och 8 i samma rum, utan krav på ordning. Q-5 ger blad 7. En gäst som bara springer en quest ska ändå förstå sitt kapitel. Kronologin är för den som får flera blad i handen.
+
+Boken i Storstugan: pärm, titel, utrivna stubbar. Inga kvarvarande kapitel. Ingen innehållsförteckning som pekar mot gömmen. Inga namn på kungen.
 
 ---
 
@@ -46,7 +72,7 @@ Starten är **första ledtråden**, inte kapitlet. Gästen ska vilja veta mer oc
 
 Tre hårda regler, utöver listan nedan:
 
-1. **Avslöja inte storyn i första ingången.** Bara fältet **Cirkulerande version, start**. Inte blad 2, inte kapitlet, inte "Vad de ska ha lärt sig när questen är klar". Inte cryptexen. Inte nästa gömme efter det första.
+1. **Avslöja inte storyn i första ingången.** Bara fältet **Cirkulerande version, start**. Inte senare blad, inte kapitlet, inte "Vad de ska ha lärt sig när questen är klar". Inte cryptexen. Inte nästa gömme efter det första. Inte boken i Storstugan som sökuppdrag.
 2. **Blanda inte in andra intriger eller relationer.** Stycket ska stå för sig själv. Koppla det inte till mottagarens romanser, fiendskaper, sidequests eller övriga `##`-stycken i samma fil. Skälet att gå sitter i questen (ryktet, tävlingen, nyfikenheten på Malin), inte i att hen också gömmer en kärlek eller har ett gammalt groll. Undantag: regel 8 för Kurtisanen. Det är questregel, inte personlig intrig.
 3. **Uppmuntra mottagaren att ta sitt lag till hjälp.** Questen är lagets, inte ett solouppdrag. Skriv uttryckligen att hen ska ta med sin skuta. Inte spelledning om när. Inte att hen måste gå ensam.
 

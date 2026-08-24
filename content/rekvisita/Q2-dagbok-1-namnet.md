@@ -2,13 +2,16 @@
 quest: Q-2
 beat: B-17
 prop: Q2-07
+dagbok: 2
 ---
 
-# Dagboksblad, uppbrottet
+# Dagboksblad 2, uppbrottet
 
-Mellan Q-1 blad 1 och 2. Förrådd. Tar namnet Svarta. Planerar begrava von Pälspung på ön.
+Mellan blad 1 och blad 4. Förrådd. Tar namnet Svarta. Planerar begrava von Pälspung på ön.
 
 ## Tryck
+
+Blad 2
 
 Han förrådde mig.
 

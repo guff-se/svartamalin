@@ -15,6 +15,7 @@ Varje fil:
    - `story:` t.ex. `kista` när det inte är en quest
    - `beat:` `B-42` osv.
    - `prop:` `Q1-01`, `K-07` osv.
+   - `dagbok:` `1` … `8` när papperet är ett utrivet blad ur Malins dagbok. Talet **Blad N** är första raden under `## Tryck`. Inte på vägvisningsbaksidor. Kronologi: [`../huvudstory/quests.md`](../huvudstory/quests.md).
 2. **Max 10 rader meta** totalt (frontmatter + titel + en kort rad om vad papperet är).
 3. **`## Tryck`**, sedan exakt den text som ska stå på papperet.
 
@@ -33,11 +34,11 @@ Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, 
 | [`kista-karleksbrev.md`](kista-karleksbrev.md) | `kista`, `B-42`, `K-07` | Kärleksbrev från Karl XII. Enda plot-relevanta i kistan. | Malins kista |
 | [`kista-dressing-1-natt.md`](kista-dressing-1-natt.md) | `kista`, `B-42`, `K-06` | Lapp från kungen. Dressing. | Malins kista |
 | [`kista-dressing-2-rummet.md`](kista-dressing-2-rummet.md) | `kista`, `B-42`, `K-06` | Lapp från kungen. Dressing. | Malins kista |
-| [`Q1-dagbok-1-fore.md`](Q1-dagbok-1-fore.md) | `Q-1`, `Q1-01` | Dagboksblad före förräderiet | Gubben och Gumman |
-| [`Q1-dagbok-1-baksida.md`](Q1-dagbok-1-baksida.md) | `Q-1`, `Q1-01` | Vägvisning, baksida av samma blad | Gubben och Gumman |
-| [`Q1-dagbok-2-efter.md`](Q1-dagbok-2-efter.md) | `Q-1`, `Q1-04` | Dagboksblad efter hämnden | Klätternätet |
-| [`Q2-dagbok-1-namnet.md`](Q2-dagbok-1-namnet.md) | `Q-2`, `B-17`, `Q2-07` | Uppbrottet, namnet Svarta, pekar mot Ottos grav | Piratstugan |
-| [`Q2-dagbok-2-handlingen.md`](Q2-dagbok-2-handlingen.md) | `Q-2`, `B-17`, `Q2-08` | Bygget och rätten att preja | Piratstugan |
-| [`Q2-dagbok-3-tillflykten.md`](Q2-dagbok-3-tillflykten.md) | `Q-2`, `B-17`, `Q2-09` | Tillflykten, nutid | Piratstugan |
-| [`Q5-dagbok-1-skulderna.md`](Q5-dagbok-1-skulderna.md) | `Q-5`, `B-18`, `Q5-03` | Hon håller havet med mäns skulder. Kistan. | Svärdfiskens mun |
+| [`Q1-dagbok-1-fore.md`](Q1-dagbok-1-fore.md) | `Q-1`, `Q1-01`, blad 1 | Dagboksblad före förräderiet | Gubben och Gumman |
+| [`Q1-dagbok-1-baksida.md`](Q1-dagbok-1-baksida.md) | `Q-1`, `Q1-01`, blad 1 | Vägvisning, baksida av samma blad. Inte bladnummer. | Gubben och Gumman |
+| [`Q1-dagbok-2-efter.md`](Q1-dagbok-2-efter.md) | `Q-1`, `Q1-04`, blad 4 | Dagboksblad efter hämnden | Klätternätet |
+| [`Q2-dagbok-1-namnet.md`](Q2-dagbok-1-namnet.md) | `Q-2`, `B-17`, `Q2-07`, blad 2 | Uppbrottet, namnet Svarta, pekar mot Ottos grav | Piratstugan |
+| [`Q2-dagbok-2-handlingen.md`](Q2-dagbok-2-handlingen.md) | `Q-2`, `B-17`, `Q2-08`, blad 3 | Bygget och rätten att preja | Piratstugan |
+| [`Q2-dagbok-3-tillflykten.md`](Q2-dagbok-3-tillflykten.md) | `Q-2`, `B-17`, `Q2-09`, blad 8 | Tillflykten, nutid | Piratstugan |
+| [`Q5-dagbok-1-skulderna.md`](Q5-dagbok-1-skulderna.md) | `Q-5`, `B-18`, `Q5-03`, blad 7 | Hon håller havet med mäns skulder. Kistan. | Svärdfiskens mun |
 | [`kista-skuldbrev.md`](kista-skuldbrev.md) | `kista`, `Q-5`, `B-42`, `K-10` | Tre skuldbrev, ett per manlig Q-5-start. Namn vid tillsättning. | Malins kista |

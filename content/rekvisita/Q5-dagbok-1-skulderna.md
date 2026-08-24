@@ -2,13 +2,16 @@
 quest: Q-5
 beat: B-18
 prop: Q5-03
+dagbok: 7
 ---
 
-# Dagboksblad, skulderna
+# Dagboksblad 7, skulderna
 
 Munnen. Hon håller havet med mäns skulder. Kistan.
 
 ## Tryck
+
+Blad 7
 
 Män. Alltid män. De kommer med skepp och skryt och tomma fickor. Jag låter dem dricka. Jag låter dem lova. Jag skriver upp.
 

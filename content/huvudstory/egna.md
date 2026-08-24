@@ -20,6 +20,17 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, dagboken
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/`](quests/), [`platser.md`](platser.md), [`produktion.md`](produktion.md).
+
+- [x] Det finns en dagbok som är placerad på synlig plats. Denna kommer ha de flesta sidor utrivna. Dessa dagbokssidor är sedan vad som hittas som en del av olika quests.
+- [x] Alla dagbokssidor skall ha en kronologisk ordning (som inte är den ordning de hittas i quests).
+
+Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-3 och Q-4 får blad när de har form.
+
+---
+
 ## 2026-08-23, quest-ingångar är första ledtråden
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`beslut.md`](beslut.md), [`fordelning.yaml`](fordelning.yaml), [`../intriger/STYLE.md`](../intriger/STYLE.md).
