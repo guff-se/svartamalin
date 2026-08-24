@@ -17,15 +17,15 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Södra Ovanan** | Egen ö. Nås med motordriven eka (5 personer, 2 min), kajak, SUP eller simning. Aldrig ensam. | Ekan tar fem åt gången, minst två ombord. Kajaker och SUP minst två farkoster. | Q-2. Vägen till piratstugan och Ottos grav. | II |
 | **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Huset hon byggde som tillflykt. Minnen plus skrin med tokens. Namnbladet pekar mot graven. Inte escape-rum. | II |
 | **Skelettet i skogen** (Södra Ovanan) | Ottos grav. Befintlig prop. | Liten grupp | Q-2. Andra cryptex-ledtråden. Namnbladet i stugan pekar hit. Inte en identitetsgåta. | II |
-| **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. | II |
+| **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. Q-4: *Tomtebobarnen* i hyllan, blad 6 och kompassbild. Inte dagboken. | II |
 | **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD. Inte Q-3: vedhögen bakom bastun är ett annat ställe. | III, efterspel |
 | **Vedhögen bakom bastun** | Vedtrave bakom bastun, utomhus | 2 till 5 personer | Q-3. Andra pit stop. Blad 5 II fastsatt, Caesar +13. | II |
 | **Hopptornet** | Hopptorn vid vattnet | Liten grupp | TBD. Inte Q-3. | |
 | **Badbryggan** | Badbrygga vid vattnet, skild från ankomstbryggan. Skatten sitter under, nåbar från bryggan. Inte i vattnet. Inte simning. | Liten grupp | Q-3. Skatt: ägarbevis och cryptex-lapp. | II |
 | **Verkstaden** | Verkstad med förrådsrum som kan byggas om | Förråden tar 3 till 6 personer | TBD | |
 | **Segelbåten vid bojen** (Tvåkronan) | Båt en bit ut, kräver simning eller eka. Aldrig ensam. | 2 till 4 personer, hög tröskel | TBD. Parkerad idé: 2-kronorsmynt ombord, se [`pussel.md`](pussel.md) | |
-| **Kikaren** | Väldigt bra kikare, ser andra öar | 1 person i taget, kö uppstår | TBD | |
-| **Skylt på annan ö** | Idé: text läsbar bara genom kikaren. **Inte beslutad.** | Envägsinformation | Parkerad. Kräver förarbete om vi kör | |
+| **Kikaren** | Väldigt bra kikare, ser andra öar | 1 person i taget, kö uppstår | Q-4. Slutdestination. En fysisk kompass sitter där. | II |
+| **Skylt på annan ö** | Text läsbar bara genom kikaren, i rätt bäring. En cryptex-bokstav. | Envägsinformation | Q-4. Skatten. Tas inte. Kräver förarbete: tillstånd, installation, läsbarhet. | II |
 | **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1. Vänster halva av blad 1. | II |
 | **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1. Höger halva av blad 1. | II |
 | **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1. Påsen med blad 4 och cryptex-lappen, högt i nätet. | II |
@@ -50,14 +50,14 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 | Södra Ovanan | **Tröskel, men inte restid.** Ekan tar 2 minuter. Skrivna överfarter går gärna via Kuling eller Rödskägg, för spel. Man får paddla utan dem. | Pilgrimsfärd, exil, förbjuden kunskap. Handeln om överfarten är extra scener, inte ett lås |
 | Piratstugan | **Slutet rum med eld.** Mörkt, avskilt, går att låsa och göra i ordning | Malins tillflykt. Q-2 möblerar den som bebodd, inte som escape-rum. Verkstaden är kvar som escape-rumskandidat |
 | Skelettet | **Grav.** Otto von Pälspung ligger här. Q-2. | Andra cryptex-ledtråden. Namnbladet i stugan är pekaren. Inte en identitetsgåta |
-| Storstugan | **Offentlig vägg.** Alla ser den, ingen tar ner bilderna utan skäl. | Q-5: skuldloggen som sitter i öppen dag. Sångordning. Malins dagbok synlig på en yta i samma rum: pärm och stubbar, inte kapitel. |
+| Storstugan | **Offentlig vägg.** Alla ser den, ingen tar ner bilderna utan skäl. | Q-5: skuldloggen som sitter i öppen dag. Sångordning. Malins dagbok synlig på en yta i samma rum: pärm och stubbar, inte kapitel. Q-4: *Tomtebobarnen* i hyllan, annan bok. |
 | Svärdfisken | **Offentligt gömställe.** Alla ser den, ingen tittar i gapet. Samma rum som väggen och som boken. | Q-5: blad 7 och tre cryptex-lappar. Meningen på baksidorna pekar hit. |
 | Onsen | **Nakenhet och intima möten.** Litet badkar, perfekta för mindre möten, ritualer eller interaktioner. Inte ett avgränsat play space. Sex är tillåtet överallt. | Bekännelser, allianser, sanningar som sägs muntligt, sex. |
 | Bastun | **Nakenhet och samtal.** Ingen kan bära papper eller prop | Semi-offentliga möten, plats där man kan råka höra något nån anna säger. |
 | Verkstaden | **Byggbart.** Vi kan möblera om helt | Arkiv, skattkammare, cell, kartrum. Escape-rumskandidaten. Piratstugan är inte det. |
 | Segelbåten (Tvåkronan) | **Isolering.** Två personer, ingen kan höra | Hemligt möte, gömma det farligaste objektet, förräderi. Parkerad: ett 2-kronorsmynt som ledtråd |
-| Kikaren | **Envägsblick.** En person ser något ingen annan ser samtidigt | Vittnesmål som måste bäras vidare muntligt, alltså rykte och misstro |
-| Skylten på annan ö | **Ohämtbar text.** Går inte att ta med sig. Parkerad idé. | Ledtråd som måste memoreras eller ritas av, om vi bygger den |
+| Kikaren | **Envägsblick.** En person ser något ingen annan ser samtidigt | Q-4. Vittnesmål som måste bäras vidare muntligt, alltså rykte och misstro |
+| Skylten på annan ö | **Ohämtbar text.** Går inte att ta med sig. | Q-4. En cryptex-bokstav. Måste memoreras eller ritas av. |
 | Gubben i stubben | **Gömställe vid bänk.** Stubbe med trägubbe och sprit redan i | Dead drop, gömd ledtråd, en scen för en liten grupp |
 | Gumman på udden | **Gömställe vid bänk.** Spegel till gubben, södra ändan | Samma som gubben |
 | Klätternätet | **Kropp och risk.** Fysisk ansträngning | Tävlingsmoment, prov, något som måste hämtas högt upp |
@@ -69,17 +69,17 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 
 ---
 
-## Kikaren och skylten: parkerad idé
+## Kikaren och skylten: Q-4
 
-Kikaren finns och är en stark mekanik i sig. Skylten på annan ö är **bara en idé**, inte beslutad. Den skulle ses genom kikaren. Om vi kör den måste den planeras, tillståndsprövas och installeras före helgen. Designa inte pussel som kräver skylten förrän beslutet är taget.
+Beslutat 2026-08-24. Kikaren är Q-4:s slutdestination. Skylten på annan ö bär cryptex-bokstaven. Bäringen kommer från kompassbilden i *Tomtebobarnen*. Se [`quests/Q-4.md`](quests/Q-4.md).
 
-Om vi senare säger ja:
+Produktion före helgen:
 
-- [ ] Var sätter vi skylten? Krävs tillstånd eller ägarkontakt?
-- [ ] Hur stor text för att vara läsbar i kikaren? Testas på plats innan helgen.
-- [ ] Vad står på skylten? Kort nog att memoreras, långt nog att en person felkopierar det.
-- [ ] Vad pekar deltagarna mot skylten? Kikaren måste riktas exakt, alltså behövs en bäring eller ett riktmärke som kommer från ett tidigare pussel.
-- [ ] Backup om vädret gör den oläslig, alltså dimma, motljus eller regn.
+- [ ] Vilken ö? Tillstånd eller ägarkontakt.
+- [ ] Hur stor bokstav för att vara läsbar i kikaren? Testas på plats.
+- [ ] Bäring från kikaren mot skylten, mäts på plats, trycks i kompassbilden. Inte den mest uppenbara siktlinjen.
+- [ ] Fysisk kompass vid kikaren.
+- [ ] Backup om vädret gör skylten oläslig: dimma, motljus, regn. Spader har bokstaven.
 
 ## Södra Ovanan: logistik som story
 
@@ -103,5 +103,5 @@ Att fortfarande bestämma:
 
 Lista platser som ännu inte har funktion, så vi ser vad vi har kvar att spela med. Uppdateras löpande.
 
-- **Hopptornet**: ledigt. Q-3 sitter under badbryggan.
+- **Hopptornet**: ledigt. Q-3 sitter under badbryggan. Q-4 sitter vid kikaren och skylten.
 - **Malins kista**: funktionen är låst, den exakta platsen är det inte. Krav: väl synlig för alla från fredag kväll, nåbar vid festen, tåla väder om den står ute.

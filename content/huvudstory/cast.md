@@ -74,7 +74,7 @@ Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin
 
 ## Belastningsöversikt
 
-Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms bort. Pusselansvar speglar [`fordelning.yaml`](fordelning.yaml) och questfilerna, inte omvänd riktning. Q-4 saknar form och har ingen tillsättning.
+Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms bort. Pusselansvar speglar [`fordelning.yaml`](fordelning.yaml) och questfilerna, inte omvänd riktning. Q-4 har form, inte tillsättning.
 
 | slug | Romanser | Fiender | Sidequest i huvudstory | Pusselansvar |
 |------|----------|---------|------------------------|--------------|

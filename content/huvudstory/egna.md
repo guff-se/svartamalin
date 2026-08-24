@@ -20,6 +20,20 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, Q-4 form: kikare, Tomtebobarnen, skylt
+
+Källa: Gustaf, i chatt. Införd i [`quests/Q-4.md`](quests/Q-4.md).
+
+- [x] vi kommer använda kikaren som slutdestination för q4
+- [x] det finns en tryckt bild med en kompass som pekar den faktiska kompassriktningen som kikaren skall pekas
+- [x] Denna kommer vara gömd innuti boken "tomtebobarnen", som ingångsintriger sedan pekar på
+- [x] Det var malins favoritbok som barn
+- [x] när man pekar kikaren i rätt rikting så kommer man se en skylt uppsatt på en ö, med en kryptex-bokstav
+
+Kryss = formen sitter i questen. Bäring, vilken ö och bokstav mäts på plats. Tillsättning och gästtext inte gjorda.
+
+---
+
 ## 2026-08-24, Q-3 skiffer till två till
 
 Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md).
@@ -136,7 +150,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/`](quests/
 - [x] Det finns en dagbok som är placerad på synlig plats. Denna kommer ha de flesta sidor utrivna. Dessa dagbokssidor är sedan vad som hittas som en del av olika quests.
 - [x] Alla dagbokssidor skall ha en kronologisk ordning (som inte är den ordning de hittas i quests).
 
-Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-3 har två blad av blad 5. Q-4 får blad när den har form.
+Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-3 har två blad av blad 5. Q-4 har blad 6 i *Tomtebobarnen*.
 
 ---
 

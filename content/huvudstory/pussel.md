@@ -9,6 +9,7 @@ Tillsatta, inte här:
 - Q-1 (halvor vid Gubben och Gumman, påse högt i klätternätet): [`quests/Q-1.md`](quests/Q-1.md)
 - Q-2 (stuga, grav, tokens, inget pussel): [`quests/Q-2.md`](quests/Q-2.md)
 - Q-3 (gym, vedhög, badbrygga, Caesar +13 framåt hos fyra tvärledtrådar): [`quests/Q-3.md`](quests/Q-3.md)
+- Q-4 (Tomtebobarnen, kompassbild, kikare mot skylt): [`quests/Q-4.md`](quests/Q-4.md)
 - Q-5 (porträttvägg, svärdfiskens mun, tre lappar): [`quests/Q-5.md`](quests/Q-5.md)
 - Cryptex, kista, XII, lösenordskandidat: [`kanon.md`](kanon.md). Runtime: [`spelledning.md`](spelledning.md)
 - Platser som redan har funktion: [`platser.md`](platser.md)
@@ -46,14 +47,6 @@ Regler som måste hålla, även efter flytt:
 
 Fysik som redan finns. Ingen quest äger dem än. Bygg inte noder som kräver en parkerad idé förrän den är tillsatt.
 
-### Kikaren mot skylten på annan ö
-
-Optisk envägsledtråd, **om** skylten byggs. Kikaren finns oavsett och kan användas till annat.
-
-- Man måste veta var man ska sikta: bäring, riktmärke eller klockslag.
-- Informationen bärs vidare muntligt eller ritas av. Felkopiering är spelet.
-- Skylten: tillstånd, installation före helgen. Inga noder som kräver den förrän beslutet är taget.
-
 ### Verkstadens förrådsrum
 
 Byggbara rum. Escape-rumskandidaten. Tillgänglig hela dagen. Piratstugan är inte escape-rum (Q-2).
@@ -70,7 +63,7 @@ Parkerad idé: ett faktiskt 2-kronorsmynt ombord, se nedan. Samma vattenregel: s
 
 ## Lediga idéer
 
-Kandidater till pit stop eller skatt i Q-4. Ursprung: Gustaf, [`egna.md`](egna.md). Får inte byggas förrän de sitter i en quest. Q-3:s Caesar sitter i questen. Q-5:s vägg sitter i questen.
+Kandidater till pit stop eller skatt. Ursprung: Gustaf, [`egna.md`](egna.md). Får inte byggas förrän de sitter i en quest. Q-3:s Caesar sitter i questen. Q-4:s kikare och skylt sitter i questen. Q-5:s vägg sitter i questen.
 
 ### Pacing via mat och fasta tider
 
@@ -103,7 +96,7 @@ Skrivs ut så att bra men fel idéer kan avvisas snabbt.
 - Simning efter 13.30
 - Ensam eka, kajak, paddel eller simning
 - Ett enda pussel som blockerar hela helgen
-- Pussel som kräver skylten på annan ö, så länge den idén är parkerad
+- Pussel som kräver skylten på annan ö utan bäring från kompassbilden. Q-4 äger den kedjan.
 - Pussel som förutsätter att skattjakten pausas
 - Ett lösenord som går att gissa från sången, ön, Malins namn eller Karl XII
 - En sista ledtråd som bara bekräftar det man redan kunnat räkna ut

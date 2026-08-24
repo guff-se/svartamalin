@@ -16,7 +16,7 @@ Använd den här filen för gemensamma regler och för hur ingångstext skrivs i
 
 **Cirkulerande version** är rykte-fakta gästerna får *genom questen*, inte färdig STYLE.md-prosa. **Starten** får bara den del som står under **Cirkulerande version, start** på questens egen fil. Resten sitter i props, pit stops och skatten. **Sanning enligt kanon** är vad som faktiskt gäller. Blandas de två är filen trasig.
 
-Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-3 form låst och tillsatt 2026-08-24. Q-5 form låst 2026-08-23, tillsatt och gästtext skriven 2026-08-24.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 har form: gym, vedhög, badbrygga. Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den till questens fil och stryks där.
+Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-3 form låst och tillsatt 2026-08-24. Q-4 form låst 2026-08-24. Q-5 form låst 2026-08-23, tillsatt och gästtext skriven 2026-08-24.** Mekanik: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 har form: gym, vedhög, badbrygga. Q-4 har form: *Tomtebobarnen*, kikaren, skylt på annan ö. Q-5 har form. Tillsättning och gästtext för Q-4 inte gjorda. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den till questens fil och stryks där.
 
 **Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom. En start per gäst. Inte till mullvad, inte till Malin, inte till Spader. Se regel 11-13.
 
@@ -46,7 +46,7 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 
 En fysisk bok i **Storstugan**. Synlig. Inte ett gömme. Inte en karta till bladen. Off-regel: den som inte söker något i boken lämnar den.
 
-De utrivna bladen bär kapitlen. Cryptex-lappar, tokens och vägvisning på baksidor är inte dagbok. Q-4 saknar form: blad 6 är reserverat, texten skrivs när questen låses. När den får form är kapitlet ett dagboksblad, inte en proklamation eller en ed som bär storyn. Q-3: två fysiska blad av blad 5, samma natt, läsordning I–II. Ägarbeviset under badbryggan är inte dagbok.
+De utrivna bladen bär kapitlen. Cryptex-lappar, tokens, kompassbilder och vägvisning på baksidor är inte dagbok. Q-4: blad 6 i *Tomtebobarnen*, fastsatt. Kapitlet är ett dagboksblad, inte en proklamation eller en ed som bär storyn. Kompassbilden och skylten är inte dagbok. Q-3: två fysiska blad av blad 5, samma natt, läsordning I–II. Ägarbeviset under badbryggan är inte dagbok.
 
 Talet **Blad N** ska stå på papperet, så den som samlar flera kan lägga dem i tidsordning. Inte i questordning. Inte som lösenord.
 
@@ -57,11 +57,11 @@ Talet **Blad N** ska stå på papperet, så den som samlar flera kan lägga dem 
 | 3 | Bygget. Rätten att preja. | [Q-2](quests/Q-2.md) | Q2-08 | Piratstugan. Stannar. |
 | 4 | Hämnden klar. Otto begraven. Skutan döpt. | [Q-1](quests/Q-1.md) | Q1-04 | Klätternätet |
 | 5 | Hon "tar" korvetten. Lögnen. Samma natt, två blad, I–II. | [Q-3](quests/Q-3.md) | Q3-01, Q3-02 | Gymmet (I, stannar), vedhögen (II, stannar) |
-| 6 | Hon får Ovanan. | [Q-4](quests/Q-4.md) | TBD | TBD |
+| 6 | Hon får Ovanan. | [Q-4](quests/Q-4.md) | Q4-02 | *Tomtebobarnen*, hyllan i Storstugan. Stannar. |
 | 7 | Skulderna. Hon håller havet. | [Q-5](quests/Q-5.md) | Q5-03 | Svärdfiskens mun |
 | 8 | Nutid. Tillflykten. En stor plan. | [Q-2](quests/Q-2.md) | Q2-09 | Piratstugan. Stannar. |
 
-Hittordning är en annan sak. Q-1 ger blad 1, sedan blad 4. Q-2 ger blad 2, 3 och 8 i samma rum, utan krav på ordning. Q-3 ger blad 5 I, sedan II. Ägarbeviset är inte blad. Q-5 ger blad 7. En gäst som bara springer en quest ska ändå förstå sitt kapitel. Kronologin är för den som får flera blad i handen.
+Hittordning är en annan sak. Q-1 ger blad 1, sedan blad 4. Q-2 ger blad 2, 3 och 8 i samma rum, utan krav på ordning. Q-3 ger blad 5 I, sedan II. Ägarbeviset är inte blad. Q-4 ger blad 6 i *Tomtebobarnen*. Q-5 ger blad 7. En gäst som bara springer en quest ska ändå förstå sitt kapitel. Kronologin är för den som får flera blad i handen.
 
 Boken i Storstugan: pärm, titel, utrivna stubbar. Inga kvarvarande kapitel. Ingen innehållsförteckning som pekar mot gömmen. Inga namn på kungen.
 
@@ -95,6 +95,7 @@ Mönster, redan skrivna:
 - Q-1: ett rivet dagboksblad om hennes första kärlek, två uddar. Inte kurtisanen, inte hämnden, inte Ottos namn, inte att skutan är döpt efter yrket.
 - Q-2: ryktet om huset hon byggde. Inte hur hon blev pirat. Kapitlet sitter i stugan.
 - Q-3: hon vilar aldrig, bladet sitter i gymmet. Inte prejningen, inte att skutan är tagen. Tvärledtråd: tretton steg framåt, inte var bladen sitter.
+- Q-4: *Tomtebobarnen* var hennes favoritbok som barn, hyllan i Storstugan. Inte bytet. Inte kikaren. Inte kompassen.
 - Q-5: du är skyldig henne, hon för logg. Inte var loggen sitter.
 
 När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet. **Q-2 får ingen tvärledtråd.** Samma tre hårda regler: inte kapitlet, inte mottagarens övriga relationer, uppmana att ta laget om tråden ska spelas.
