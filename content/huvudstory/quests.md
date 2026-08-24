@@ -46,7 +46,7 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 
 En fysisk bok i **Storstugan**. Synlig. Inte ett gömme. Inte en karta till bladen. Off-regel: den som inte söker något i boken lämnar den.
 
-De utrivna bladen bär kapitlen. Cryptex-lappar, tokens och vägvisning på baksidor är inte dagbok. Q-4 saknar form: blad 6 är reserverat, texten skrivs när questen låses. När den får form är kapitlet ett dagboksblad, inte en proklamation eller en ed som bär storyn. Q-3: tre fysiska blad av blad 5, samma natt, läsordning I–III.
+De utrivna bladen bär kapitlen. Cryptex-lappar, tokens och vägvisning på baksidor är inte dagbok. Q-4 saknar form: blad 6 är reserverat, texten skrivs när questen låses. När den får form är kapitlet ett dagboksblad, inte en proklamation eller en ed som bär storyn. Q-3: två fysiska blad av blad 5, samma natt, läsordning I–II. Ägarbeviset under hopptornet är inte dagbok.
 
 Talet **Blad N** ska stå på papperet, så den som samlar flera kan lägga dem i tidsordning. Inte i questordning. Inte som lösenord.
 
@@ -56,12 +56,12 @@ Talet **Blad N** ska stå på papperet, så den som samlar flera kan lägga dem 
 | 2 | Förrådd. Tar namnet Svarta. Ska begrava Otto. | [Q-2](quests/Q-2.md) | Q2-07 | Piratstugan. Stannar. |
 | 3 | Bygget. Rätten att preja. | [Q-2](quests/Q-2.md) | Q2-08 | Piratstugan. Stannar. |
 | 4 | Hämnden klar. Otto begraven. Skutan döpt. | [Q-1](quests/Q-1.md) | Q1-04 | Klätternätet |
-| 5 | Hon "tar" korvetten. Lögnen. Samma natt, tre blad, I–III. | [Q-3](quests/Q-3.md) | Q3-01, Q3-02, Q3-03 | Gymmet (I, stannar), vedhögen (II, stannar), under hopptornet (III, tas) |
+| 5 | Hon "tar" korvetten. Lögnen. Samma natt, två blad, I–II. | [Q-3](quests/Q-3.md) | Q3-01, Q3-02 | Gymmet (I, stannar), vedhögen (II, stannar) |
 | 6 | Hon får Ovanan. | [Q-4](quests/Q-4.md) | TBD | TBD |
 | 7 | Skulderna. Hon håller havet. | [Q-5](quests/Q-5.md) | Q5-03 | Svärdfiskens mun |
 | 8 | Nutid. Tillflykten. En stor plan. | [Q-2](quests/Q-2.md) | Q2-09 | Piratstugan. Stannar. |
 
-Hittordning är en annan sak. Q-1 ger blad 1, sedan blad 4. Q-2 ger blad 2, 3 och 8 i samma rum, utan krav på ordning. Q-3 ger blad 5 I, sedan II, sedan III. Q-5 ger blad 7. En gäst som bara springer en quest ska ändå förstå sitt kapitel. Kronologin är för den som får flera blad i handen.
+Hittordning är en annan sak. Q-1 ger blad 1, sedan blad 4. Q-2 ger blad 2, 3 och 8 i samma rum, utan krav på ordning. Q-3 ger blad 5 I, sedan II. Ägarbeviset är inte blad. Q-5 ger blad 7. En gäst som bara springer en quest ska ändå förstå sitt kapitel. Kronologin är för den som får flera blad i handen.
 
 Boken i Storstugan: pärm, titel, utrivna stubbar. Inga kvarvarande kapitel. Ingen innehållsförteckning som pekar mot gömmen. Inga namn på kungen.
 
@@ -94,7 +94,7 @@ Mönster, redan skrivna:
 
 - Q-1: ett rivet dagboksblad om hennes första kärlek, två uddar. Inte kurtisanen, inte hämnden, inte Ottos namn, inte att skutan är döpt efter yrket.
 - Q-2: ryktet om huset hon byggde. Inte hur hon blev pirat. Kapitlet sitter i stugan.
-- Q-3: hon vilar aldrig, bladet sitter i gymmet. Inte prejningen, inte att skutan är tagen.
+- Q-3: hon vilar aldrig, bladet sitter i gymmet. Inte prejningen, inte att skutan är tagen. Tvärledtråd: tretton steg framåt, inte bakåt, inte var bladen sitter.
 - Q-5: du är skyldig henne, hon för logg. Inte var loggen sitter.
 
 När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet. **Q-2 får ingen tvärledtråd.** Samma tre hårda regler: inte kapitlet, inte mottagarens övriga relationer, uppmana att ta laget om tråden ska spelas.

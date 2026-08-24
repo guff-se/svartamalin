@@ -20,7 +20,7 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. | II |
 | **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD. Inte Q-3: vedhögen bakom bastun är ett annat ställe. | III, efterspel |
 | **Vedhögen bakom bastun** | Vedtrave bakom bastun, utomhus | 2 till 5 personer | Q-3. Andra pit stop. Blad 5 II fastsatt, Caesar +13. | II |
-| **Hopptornet** | Hopptorn vid vattnet. Skatten ligger under, på land vid foten. Inte i vattnet. Inte uppe i tornet. | Liten grupp | Q-3. Skatt: blad 5 III och cryptex-lappen. | II |
+| **Hopptornet** | Hopptorn vid vattnet. Skatten ligger under, på land vid foten. Inte i vattnet. Inte uppe i tornet. | Liten grupp | Q-3. Skatt: ägarbevis och cryptex-lapp. | II |
 | **Verkstaden** | Verkstad med förrådsrum som kan byggas om | Förråden tar 3 till 6 personer | TBD | |
 | **Segelbåten vid bojen** (Tvåkronan) | Båt en bit ut, kräver simning eller eka. Aldrig ensam. | 2 till 4 personer, hög tröskel | TBD. Parkerad idé: 2-kronorsmynt ombord, se [`pussel.md`](pussel.md) | |
 | **Kikaren** | Väldigt bra kikare, ser andra öar | 1 person i taget, kö uppstår | TBD | |

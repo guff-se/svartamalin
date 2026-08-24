@@ -7,7 +7,7 @@ dagbok: 5
 
 # Dagboksblad 5 I, ombord
 
-Gymmet. Fastsatt. Hon går ombord på sin egen korvett. Pekar mot vedhögen. Nyckel till skiffern.
+Gymmet. Fastsatt. Hon går ombord på sin egen korvett. Pekar mot vedhögen. Inte skiffernyckeln.
 
 ## Tryck
 
@@ -20,4 +20,4 @@ I natt gick jag ombord på min egen korvett. Kurtisanen. De sov i kojerna. Jag s
 
 Den som väntar på lov får inget skepp.
 
-Resten ligger i vedhögen bakom bastun. Nästa blad skrev jag som vi skrev order ombord: tretton steg fram. A blir N. Den som inte slitit med oss ska inte kunna läsa.
+Resten ligger i vedhögen bakom bastun. Nästa blad skrev jag som vi skrev order ombord. Den som inte känner knepet ska inte kunna läsa.

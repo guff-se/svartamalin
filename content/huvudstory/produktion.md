@@ -41,7 +41,7 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q5-04 | Tre cryptex-lappar | B-18 | I svärdfiskens mun med Q5-03. Positionsmarkering TBD. Troligen one-off. Reservlappar hos spelledning. | | | saknas |
 | Q3-01 | Dagboksblad 5 I, ombord | B-19 | Fastsatt i gymmet. "Blad 5" plus I. Tåla att läsas av tre lag, inte tas. Text: [`../rekvisita/Q3-dagbok-1-ombord.md`](../rekvisita/Q3-dagbok-1-ombord.md). | | | utkast |
 | Q3-02 | Dagboksblad 5 II, prejningen | B-19 | Fastsatt på vedhögen bakom bastun. Utomhus, vaxduk eller laminat. "Blad 5" plus II. Sista raden versaler, Caesar +13. Text: [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). | | | utkast |
-| Q3-03 | Dagboksblad 5 III, ägaren | B-19 | Tas. Under hopptornet, på land vid foten, vattentät påse. "Blad 5" plus III. Text: [`../rekvisita/Q3-dagbok-3-agaren.md`](../rekvisita/Q3-dagbok-3-agaren.md). Avskrift hos spelledning. | | | utkast |
+| Q3-03 | Ägarbevis, Malin till Malin | B-19 | Tas. Under hopptornet, på land vid foten, vattentät påse. Inte dagbok. Inte bladnummer. Text: [`../rekvisita/Q3-agarbevis.md`](../rekvisita/Q3-agarbevis.md). Avskrift hos spelledning. | | | utkast |
 | Q3-04 | Cryptex-lapp under hopptornet | B-19 | I samma påse som Q3-03. Positionsmarkering TBD. Engångs. Reservlapp hos spelledning. | | | saknas |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.

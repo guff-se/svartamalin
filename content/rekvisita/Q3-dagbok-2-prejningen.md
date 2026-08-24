@@ -5,17 +5,17 @@ prop: Q3-02
 dagbok: 5
 ---
 
-# Dagboksblad 5 II, prejningen
+# Dagboksblad 5 II, förvärvet
 
-Vedhögen bakom bastun. Fastsatt. Hon pekar på rätten och tar skutan. Sista raden Caesar +13.
+Vedhögen bakom bastun. Fastsatt. Hon ska förvärva skeppet på hederligt sätt. Sista raden Caesar +13.
 
 ## Tryck
 
 Blad 5
 II
 
-Jag pekade på sjörövarns rätt. De stod på däck. De visste att jag redan hade rätten, för att jag redan hade gått ombord, för att jag redan hade bestämt att skutan var min.
+Jag ska förvärva skeppet på hederligt sätt. Inte som en tjuv i natten. Som den som redan har rätten, och bara behöver papperet.
 
-Ingen gav mig Kurtisanen. Jag tog den. Stor. Olaglig. Min.
+Sjörövarns lag är lag. Den som går ombord och pekar på rätten har redan tagit. Jag tar inte. Jag förvärvar.
 
-FVFGN OYNQRG YVTTRE HAQRE UBCCGBEARG
+ÄTNEORIVFRG SVAAF HAQRE UBCCGBEARG

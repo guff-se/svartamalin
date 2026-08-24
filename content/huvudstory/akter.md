@@ -315,13 +315,13 @@ Plats:          Gymmet, vedhögen bakom bastun, under hopptornet
 Inblandade:     Tre skutor, TBD vid tillsättning. Inte skuta 3 som start (redan full). Inte Malin, inte Spader.
 Publik:         den som ser folk i gymmet läsa väggen, vid veden, eller böja sig under hopptornet
 
-Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 5 I fastsatt där, pekar mot vedhögen och ger Caesar-nyckeln (+13, A blir N). Blad 5 II fastsatt på veden, sista raden chiffer: under hopptornet. Skatt: blad 5 III och cryptex-lappen, på land vid foten. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
+Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 5 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 5 II fastsatt på veden, sista raden chiffer. Nyckeln är tvärledtråd: en person per av de två skutorna utan Q-3 vet tretton steg framåt. Skatt: ägarbevis (Malin till Malin) och cryptex-lappen, på land vid foten. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
 
 Vad ändras:     rummet vet att hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Inte att kungen gav henne skutan.
 
 Trigger:        Q-3-start i tre individintriger, när de är skrivna
 Väg 1:          tre lag läser I och II efter varandra, ett tar skatten, de andra stjäl eller avskriver
-Väg 2:          skiffern går inte, Spader har meningen
+Väg 2:          båda nyckelbärarna tysta, Spader har meningen
 Spelledarväg:   se [`quests/Q-3.md`](quests/Q-3.md). Inte extra uppsättning under tornet.
 
 Pusselnod:      Q-3

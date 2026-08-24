@@ -20,6 +20,29 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, Q-3 skiffer som tvärledtråd
+
+Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md).
+
+- [x] I de två lagen som inte har denna quest skall det finnas en person i vardera som vet att malin använder ett skiffer där man skjuter bokstäverna 13 steg för att kunna läsa hennes texter.
+- [x] tydliggörande: hon förskjuter 13 steg framåt! riktningen är viktig.
+
+Kryss = nyckeln sitter hos de två personerna, inte på gymbladet. Alltid framåt, inte bakåt. Namn vid tillsättning.
+
+---
+
+## 2026-08-24, Q-3 ägarbevis
+
+Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md). Ersätter sista dagbokssidan under hopptornet.
+
+- [x] Kul twist: den andra dagbokssidan skriver att hon kommer att förvärva skeppet på hederligt sätt och ledtråden säger "ÄGARBEVISET FINNS UNDER HOPPTORNET"
+- [x] Det verkliga ägarbevist är bara ett dokument från Malin till Malin där hon ger sig själv äganderätten i enighet med piraternas lagar.
+- [x] Så skippar vi sista dagbokssidan.
+
+Kryss = blad 5 är I–II. Skatten är ägarbeviset plus cryptex-lappen.
+
+---
+
 ## 2026-08-24, Q-3 form
 
 Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md).
@@ -28,10 +51,10 @@ Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md).
 - [x] Där kommer att finnas en dagbokssida, som är fastsatt, så att den inte går att ta med sig, så att den blir återanvändningsbar.
 - [x] Denna innehåller en text som pekar till vedhögen bakom bastun.
 - [x] Även där finns en fast dagboksida som inte går att flytta på. Där finns en text skriven i caesarskiffer (+13), som ger instruktioner till sista stationen.
-- [x] Den sista stationen är under hopptornet. Där finns den sista dagbokssidan, samt kryptex-bokstav.
+- [ ] Den sista stationen är under hopptornet. Där finns den sista dagbokssidan, samt kryptex-bokstav.
 - [x] Alla sidorna skall paralellt berätta den övergripande storyn om hur hon prejade till sig sin korvett
 
-Kryss = formen sitter i questen. Tre blad av blad 5 (I–III). Nyckeln till skiffern sitter på gymbladet. Tillsättning och gästtext inte gjorda.
+Kryss = formen sitter i questen. Sista dagbokssidan ersatt av ägarbevis, se avsnittet ovan. Skiffernyckeln sitter som tvärledtråd, se avsnittet ovan. Tillsättning och gästtext inte gjorda.
 
 ---
 
@@ -69,7 +92,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/`](quests/
 - [x] Det finns en dagbok som är placerad på synlig plats. Denna kommer ha de flesta sidor utrivna. Dessa dagbokssidor är sedan vad som hittas som en del av olika quests.
 - [x] Alla dagbokssidor skall ha en kronologisk ordning (som inte är den ordning de hittas i quests).
 
-Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-3 har tre blad av blad 5. Q-4 får blad när den har form.
+Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-3 har två blad av blad 5. Q-4 får blad när den har form.
 
 ---
 

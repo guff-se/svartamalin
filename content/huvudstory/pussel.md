@@ -8,7 +8,7 @@ Tillsatta, inte här:
 
 - Q-1 (halvor vid Gubben och Gumman, påse högt i klätternätet): [`quests/Q-1.md`](quests/Q-1.md)
 - Q-2 (stuga, grav, tokens, inget pussel): [`quests/Q-2.md`](quests/Q-2.md)
-- Q-3 (gym, vedhög, hopptorn, Caesar +13): [`quests/Q-3.md`](quests/Q-3.md)
+- Q-3 (gym, vedhög, hopptorn, Caesar +13 framåt hos två tvärledtrådar): [`quests/Q-3.md`](quests/Q-3.md)
 - Q-5 (porträttvägg, svärdfiskens mun, tre lappar): [`quests/Q-5.md`](quests/Q-5.md)
 - Cryptex, kista, XII, lösenordskandidat: [`kanon.md`](kanon.md). Runtime: [`spelledning.md`](spelledning.md)
 - Platser som redan har funktion: [`platser.md`](platser.md)
@@ -87,12 +87,6 @@ Krav: minst två oberoende sätt att få ihop bitarna, plus spelledarväg. Karta
 ### Tvåkronan: myntet i båten
 
 Ledtråd ombord, ett svenskt 2-kronorsmynt. Samma vattenregel som båten. Skrivna turer gärna via Kuling eller Rödskägg.
-
-### Ledtråd planterad hos en karaktär
-
-Sitter hos en person. Någon annan måste få dem att berätta. Grindvakt i [`premiss.md`](premiss.md).
-
-Krav: minst två personer kan avslöja samma sak. Bypass om bäraren är tyst, full eller borta.
 
 ---
 
