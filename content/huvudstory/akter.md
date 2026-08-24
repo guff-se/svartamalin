@@ -291,7 +291,7 @@ Om det floppar: tre andra quests plus XII räcker för skutor som inte hade Q-2.
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
 Plats:          Storstugan, porträttväggen, svärdfiskens mun
-Inblandade:     tre skutor TBD. Start i tre namngivna intrigfiler, en manlig gäldenär per lag. Kön efter civilnamn. Tvärledtråd på de två skutorna utan ingång.
+Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Lösskägg (`petterwallberg`), Kapten Blåskägg (`hampuslindblad`), Kapten Dunka (`ludvigvonbahr`). Tvärledtråd: Kapten Blodig (`minimacklin`, skuta 2), Kapten Rödskägg (`viktoransund`, skuta 4). Inte Malin, inte Spader.
 Publik:         den som ser väggen tas ner, och den som ser någon fiska i gapet
 
 Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre cryptex-lappar. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.

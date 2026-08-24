@@ -80,25 +80,25 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 |------|----------|---------|------------------------|--------------|
 | `malintadaa` | 0 | 2 | | |
 | `gustaftadaa` | 1 | 1 | | |
-| `petterwallberg` | 1 | 2 | | |
+| `petterwallberg` | 1 | 2 | | Q-5 (start) |
 | `linneaappert` | 1 | 1 | | Q-1 (start) |
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | |
 | `louisevonbahr` | 1 | 1 | | Q-2 (start) |
 | `josefinlowing` | 1 | 1 | | |
 | `navidmodiri` | 2 | 2 | | |
-| `minimacklin` | 1 | 2 | | |
-| `ludvigvonbahr` | 1 | 1 | | |
+| `minimacklin` | 1 | 2 | | Q-5 (tvärledtråd) |
+| `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
 | `amaliawahlstrom` | 0 | 1 | | Q-2 (start) |
 | `fabianmacklin` | 1 | 3 | | |
 | `josefinansund` | 1 | 1 | | Q-1 (start) |
 | `johannabergman` | 1 | 1 | | |
 | `jesperlejfjord` | 1 | 1 | | |
 | `amandamungsgard` | 1 | 1 | | Q-2 (start) |
-| `viktoransund` | 1 | 2 | | |
+| `viktoransund` | 1 | 2 | | Q-5 (tvärledtråd) |
 | `minervalowgren` | 1 | 1 | | |
 | `linneaekbom` | 1 | 1 | | |
 | `alexandrapalmquist` | 1 | 1 | | |
-| `hampuslindblad` | 1 | 3 | | |
+| `hampuslindblad` | 1 | 3 | | Q-5 (start) |
 | `edvinthungren` | 1 | 3 | | |
 | `elinmartensson` | 1 | 1 | | Q-1 (start) |
