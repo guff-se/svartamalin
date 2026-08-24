@@ -39,7 +39,7 @@ Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md). Överstyr A
 - [x] Det skall inkludera ÅÄÖ.
 - [x] Alltså, LAGFARTEN = YNTSNBRÅ
 
-Kryss = alfabetet är A–ZÅÄÖ, 29 bokstäver, +13 framåt. A blir N. N blir Å. LAGFARTEN är nio bokstäver: `YNTSNBDRÅ` (T blir D). Gästtexten får A blir N och framåt, ingen extra glosa om ÅÄÖ.
+Kryss = alfabetet är A–ZÅÄÖ, 29 bokstäver, +13 framåt. A blir N. N blir Å. LAGFARTEN är nio bokstäver: `YNTSNBDRÅ` (T blir D).
 
 ---
 

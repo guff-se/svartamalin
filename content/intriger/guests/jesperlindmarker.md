@@ -43,4 +43,4 @@ Din svarta liggare rymmer mer än frågan om vem som en gång angav dig. Där fi
 
 ## Bokstäver som flyttar sig {slug:malintadaa}
 
-En annan rad i liggaren är inte rykte. Den är hantverk. När **Svarta Malin** inte vill att vem som helst ska läsa, förskjuter hon bokstäverna tretton steg framåt. Inte bakåt. A blir N. Sälj knepet till den som redan har ett blad de stirrar sig blinda på, eller behåll det tills budet är högt nog. Utan bladet är raden bara bläck.
+En annan rad i liggaren är inte rykte. Den är hantverk. När **Svarta Malin** inte vill att vem som helst ska läsa, förskjuter hon bokstäverna tretton steg framåt. Inte bakåt. A blir N. Å, Ä och Ö står. Sälj knepet till den som redan har ett blad de stirrar sig blinda på, eller behåll det tills budet är högt nog. Utan bladet är raden bara bläck.
