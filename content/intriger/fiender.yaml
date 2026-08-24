@@ -39,7 +39,7 @@ fiender:
     type: mutual
     a: malintadaa         # Svarta Malin: Korvetten Kurtisanen
     b: amaliawahlstrom    # Kapten Enben: Barken Bortförklaringen
-    # oförrätt: Enbens skål om “fasanen som inte kan flyga”; Malin kapade hennes skiff i dimman
+    # oförrätt: Malins skål, hon kallade Enben “en fasa till kapten”; Malin kapade hennes skiff i dimman
     status: done
 
   - id: 3

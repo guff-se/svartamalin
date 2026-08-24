@@ -335,7 +335,7 @@ fordelning:
     akt: II
     till: [amaliawahlstrom]
     roll: vittne
-    vet: "att Malin skålade för fasanen som inte kan flyga och menade henne, att Malin kapade hennes båt i dimman, att hamnen viskar att Malin gömmer en älskare, och att hon ska sätta ett namn på ett bord så Malin ser skyldig ut"
+    vet: "att Malin skålade och kallade henne en fasa till kapten, att Malin kapade hennes båt i dimman, att hamnen viskar att Malin gömmer en älskare, och att hon ska sätta ett namn på ett bord så Malin ser skyldig ut"
     vet_inte: "vem den hemliga älskaren är, att Dunka är utlagd som avledning, kistan, Karl XII"
     speglas: [malintadaa]
     bygger_pa: "fiende: 2"

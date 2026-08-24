@@ -265,7 +265,7 @@ Deltagare:      Kapten Enben (`amaliawahlstrom`), Kapten Kuling (`josefinlowing`
 Roll i storyn:  jägare (Enben, Kuling) / antagonist, bärare (Malin, redan tillsatt) / vittne (Hurring)
 Kopplad till:   fiende 2. Inte bärande balk mot kistan, men sannolikt vår viktigaste ingång till huvudstoryn utanför Malins egna scener.
 
-Vad de vill:    Enben och Kuling vill båda, av olika skäl, offentligt förödmjuka eller ta tillbaka något från Malin innan helgen är slut. Enben för skålen om "fasanen som inte kan flyga" och den kapade skiffen (fiende 2). Kuling för en gammal, egen oförrätt hon aldrig släppt, en skuld hon anser att Fördärvet har rätt att kräva tillbaka. Hurring, som redan misstänker att Malin kan vara den som angav honom (se S-04), vill gärna se någon annan gräva i henne, så länge det inte är han själv som står främst.
+Vad de vill:    Enben och Kuling vill båda, av olika skäl, offentligt förödmjuka eller ta tillbaka något från Malin innan helgen är slut. Enben för skålen där Malin kallade henne "en fasa till kapten" och den kapade skiffen (fiende 2). Kuling för en gammal, egen oförrätt hon aldrig släppt, en skuld hon anser att Fördärvet har rätt att kräva tillbaka. Hurring, som redan misstänker att Malin kan vara den som angav honom (se S-04), vill gärna se någon annan gräva i henne, så länge det inte är han själv som står främst.
 Vad står i vägen: Malin är svår att komma åt, alltid charmig, och just nu generös värdinna på sin egen fest. Att slå till nu ser ut som otacksamhet mot en jubilar. Enben, Kuling och Hurring känner inte till varandras groll från början.
 Varför nu:      det är Malins helg, hennes fest, hennes garde nere mitt i firandet och romen, den enda gången hon går att komma åt.
 
