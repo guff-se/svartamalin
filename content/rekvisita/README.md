@@ -43,7 +43,7 @@ Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, 
 | [`Q3-dagbok-1-ombord.md`](Q3-dagbok-1-ombord.md) | `Q-3`, `B-19`, `Q3-01`, blad 5 I | Ombord på egen korvett. Fastsatt. Pekar mot vedhögen. Inte skiffernyckeln. | Gymmet |
 | [`Q3-dagbok-2-prejningen.md`](Q3-dagbok-2-prejningen.md) | `Q-3`, `B-19`, `Q3-02`, blad 5 II | Gömd lagfart i klartext. Fastsatt. Sista raden Caesar +13. Inte prejning. | Vedhögen bakom bastun |
 | [`Q3-agarbevis.md`](Q3-agarbevis.md) | `Q-3`, `B-19`, `Q3-03` | Malin till Malin. Piraternas lagar. Tas. | Under badbryggan |
-| [`Q4-dagbok-1-hamnen.md`](Q4-dagbok-1-hamnen.md) | `Q-4`, `B-20`, `Q4-02`, blad 6 | Hon får Ovanan. Byte och löfte. Fastsatt i *Tomtebobarnen*. | Hyllan i Storstugan |
+| [`Q4-dagbok-1-havet.md`](Q4-dagbok-1-havet.md) | `Q-4`, `B-20`, `Q4-02`, blad 6 | Kärleken till Salmonellahavet. Blicken, glaset. Fastsatt i *Tomtebobarnen*. | Hyllan i Storstugan |
 | [`Q4-kompass.md`](Q4-kompass.md) | `Q-4`, `B-20`, `Q4-03` | Tryckt kompassbild. Nålen är sann bäring. Sikta genom glaset. Fastsatt. Inte dagbok. | I *Tomtebobarnen* |
 | [`Q5-dagbok-1-skulderna.md`](Q5-dagbok-1-skulderna.md) | `Q-5`, `B-18`, `Q5-03`, blad 7 | Hon håller havet med mäns skulder. Kistan. | Svärdfiskens mun |
 | [`kista-skuldbrev.md`](kista-skuldbrev.md) | `kista`, `Q-5`, `B-42`, `K-10` | Tre skuldbrev, ett per manlig Q-5-start. Namn vid tillsättning. | Malins kista |

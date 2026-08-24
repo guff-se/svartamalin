@@ -328,7 +328,7 @@ Pusselnod:      Q-3
 Props:          Q3-01, Q3-02, Q3-03, Q3-04
 Om det floppar: tre andra quests plus XII räcker. En Q-3-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
-#### B-20: Q-4, ön
+#### B-20: Q-4, havet
 
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
@@ -336,9 +336,9 @@ Plats:          Storstugan hyllan, kikaren, skylt på annan ö
 Inblandade:     Skuta 1, 2, 4. Startpersoner öppna. Inte skuta 3, inte skuta 5 (båda fulla). Inte Malin, inte Spader, inte mullvad.
 Publik:         den som ser folk bläddra i barnboken, och den som står i kö vid kikaren
 
-Vad händer:     tre skutor jagar hur Malin fick Ovanan. Starten pekar mot *Tomtebobarnen* i hyllan i Storstugan, hennes favoritbok som barn. Inte dagboken. I boken: blad 6 (byte och löfte, fastsatt) och en kompassbild med sann bäring (fastsatt). Kikaren är slutdestination. I rätt bäring: skylt på annan ö med en cryptex-bokstav. Tas inte. Pit stop och skatt återanvändbara. Bäring mäts på plats.
+Vad händer:     tre skutor jagar vad Malin älskar. Starten pekar mot *Tomtebobarnen* i hyllan i Storstugan, hennes favoritbok som barn. Inte dagboken. Inte havet. I boken: blad 6 (kärleken till Salmonellahavet, fastsatt) och en kompassbild med sann bäring (fastsatt). Kikaren är slutdestination och metafor. I rätt bäring: skylt på annan ö med en cryptex-bokstav. Tas inte. Pit stop och skatt återanvändbara. Bäring mäts på plats.
 
-Vad ändras:     rummet vet att hon fick ön med list, att kajen är ett gammalt löfte, att listan är äldre än festen. Inte att kajen är en fälla.
+Vad ändras:     rummet vet att hon älskar Salmonellahavet, att hon tar det med blicken, genom glas. Inte hur hon fick ön. Inte att kajen är en fälla.
 
 Trigger:        Q-4-start skriven i tre individintriger, när de är tillsatta
 Väg 1:          tre lag läser boken, siktar kikaren, ser bokstaven

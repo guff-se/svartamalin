@@ -20,6 +20,17 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, Q-4 story: kärleken till Salmonellahavet
+
+Källa: Gustaf, i chatt. Införd i [`quests/Q-4.md`](quests/Q-4.md).
+
+- [x] vi ändrar storyn i Q4 till malins kärlek till salmonellahavet, inte hur hon fick sin ö
+- [x] där blir kikaren en metafor, och dagboksbladet handlar om detta
+
+Kryss = kapitlet är kärleken till havet. Kikaren är metaforen. Blad 6 bär det. Mekaniken oförändrad. Hur hon fick ön är struket som Q-4-tema.
+
+---
+
 ## 2026-08-24, Alexandra i ytterligare en sidequest
 
 Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-03.

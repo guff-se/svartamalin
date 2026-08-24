@@ -44,7 +44,7 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q3-03 | Ägarbevis, Malin till Malin | B-19 | Tas. Under badbryggan, nåbar från bryggan utan simning, vattentät påse. Inte dagbok. Inte bladnummer. Text: [`../rekvisita/Q3-agarbevis.md`](../rekvisita/Q3-agarbevis.md). Avskrift hos spelledning. | | | utkast |
 | Q3-04 | Cryptex-lapp under badbryggan | B-19 | I samma påse som Q3-03. Positionsmarkering TBD. Engångs. Reservlapp hos spelledning. | | | saknas |
 | Q4-01 | *Tomtebobarnen*, fysisk barnbok | B-20 | Hyllan i Storstugan, synlig titel. Inte dagboken. Q4-02 och Q4-03 fastsatta inuti, går inte att ta. | | | saknas |
-| Q4-02 | Dagboksblad 6, hamnen | B-20 | Fastsatt i *Tomtebobarnen*. "Blad 6" överst. Byte och löfte. Inte kikaren. Inte bäringen. Text: [`../rekvisita/Q4-dagbok-1-hamnen.md`](../rekvisita/Q4-dagbok-1-hamnen.md). Avskrift hos spelledning. | | | utkast |
+| Q4-02 | Dagboksblad 6, havet | B-20 | Fastsatt i *Tomtebobarnen*. "Blad 6" överst. Kärleken till Salmonellahavet. Inte kikaren som prop. Inte bäringen. Text: [`../rekvisita/Q4-dagbok-1-havet.md`](../rekvisita/Q4-dagbok-1-havet.md). Avskrift hos spelledning. | | | utkast |
 | Q4-03 | Kompassbild | B-20 | Fastsatt i *Tomtebobarnen*. Tryckt kompass, nålen visar bäringen från kikaren mot skylten. Mäts på plats före tryck. Bildtext: sikta genom glaset. Inte dagbok. Text: [`../rekvisita/Q4-kompass.md`](../rekvisita/Q4-kompass.md). | | | utkast |
 | Q4-04 | Skylt på annan ö | B-20 | En cryptex-bokstav, läsbar bara genom kikaren i rätt bäring. Tas inte. Storlek testas på plats. Reserv: Spader har bokstaven. | | | saknas |
 | Q4-05 | Kompass vid kikaren | B-20 | Fysisk kompass, avläsbar, sitter vid kikaren. Ingen mobil. | | | saknas |
@@ -123,7 +123,7 @@ Sådant som ska produceras i repot eller skickas till tryck.
 | Malins dagboksblad 3, handlingen (Q2-08) | Ett helt blad, stannar i stugan. "Blad 3" | [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md) | utkast |
 | Malins dagboksblad 8, tillflykten (Q2-09) | Ett helt blad, stannar i stugan. "Blad 8" | [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md) | utkast |
 | Malins dagboksblad 7, skulderna (Q5-03) | Ett helt blad. "Blad 7" | [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md) | utkast |
-| Malins dagboksblad 6, hamnen (Q4-02) | Ett helt blad, fastsatt i *Tomtebobarnen*. "Blad 6" | [`../rekvisita/Q4-dagbok-1-hamnen.md`](../rekvisita/Q4-dagbok-1-hamnen.md) | utkast |
+| Malins dagboksblad 6, havet (Q4-02) | Ett helt blad, fastsatt i *Tomtebobarnen*. "Blad 6" | [`../rekvisita/Q4-dagbok-1-havet.md`](../rekvisita/Q4-dagbok-1-havet.md) | utkast |
 | Kompassbild (Q4-03) | Tryckt bild, nålen mäts på plats | [`../rekvisita/Q4-kompass.md`](../rekvisita/Q4-kompass.md) | utkast |
 | *Tomtebobarnen* (Q4-01) | Fysisk barnbok, hyllan i Storstugan | | saknas |
 | Miniatyr av Karl XII | Bild, liten, dressing i kistan | | utkast saknas |
