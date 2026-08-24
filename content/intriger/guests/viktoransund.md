@@ -34,6 +34,6 @@ Din kärlek till **Kapten Frodig** är förbjuden och hemlig: era släkter och b
 
 ## De värsta kaptener som finns {slug:malintadaa}
 
-Det viskas att **Svarta Malin** håller räkning på alla som är skyldiga henne, och att räkenskapen hänger i Storstugan: en vägg full av porträtt, döpt "de värsta kaptener som finns", ett ansikte per skuld. Ditt eget ansikte hänger aldrig där. Du står inte i skuld till henne, och det vet du med gott samvete.
+Det viskas att **Svarta Malin** håller räkning på alla som är skyldiga henne, och att räkenskapen hänger i Storstugan: en vägg full av porträtt, döpt "de värsta kaptener som finns". Ditt eget porträtt hänger där som allas gör, men ditt namn är skuldfritt. Du står inte i skuld till henne, och det vet du med gott samvete.
 
 Hör du någon leta efter var loggen sitter, kan du peka dit utan att fråga varför. Ta med dig **Fregatten Fromheten** om du vill sälja tipset dyrt, eller behåll det som ett skämt bara du känner till.

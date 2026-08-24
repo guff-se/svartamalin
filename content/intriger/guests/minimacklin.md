@@ -27,6 +27,6 @@ Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan hel
 
 ## Väggen du aldrig behöver frukta {slug:malintadaa}
 
-Det viskas att **Svarta Malin** för en logg över alla som är skyldiga henne, och att loggen hänger rätt upp och ner i Storstugan: en vägg av porträtt, döpt "de värsta kaptener som finns", uppsatt skuta för skuta. Du vet det, obekymrat, för ditt eget ansikte hänger aldrig där. Du är inte skyldig henne ett öre.
+Det viskas att **Svarta Malin** för en logg över alla som är skyldiga henne, och att loggen hänger rätt upp och ner i Storstugan: en vägg av porträtt, döpt "de värsta kaptener som finns", uppsatt skuta för skuta. Ditt eget porträtt hänger där som allas gör, men du vet, obekymrat, att ditt namn är skuldfritt. Du är inte skyldig henne ett öre.
 
 Hör du någon fråga sig var Malins skuldlogg sitter, vet du svaret utan att behöva jaga det själv. Dela det med **Fregatten Fördärvet** om priset känns rätt, eller håll det för dig själv och se vem som kommer krypande.
