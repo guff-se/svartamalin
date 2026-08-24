@@ -175,11 +175,11 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `ludvigvonbahr` | S-05 | tvåeggat svärd med lögnig historia, långa kramar |
 | `amaliawahlstrom` | S-01, S-06 | tom rollfil. Fiende 2 mot Malin, sannolikt viktigaste ingången till huvudstoryn |
 | `fabianmacklin` | S-03, S-05, S-07 | njutningsstatyett, frieri till Barnsben. Redan Barnsbens mullvadskontakt (annan hemlighet). |
-| `josefinansund` | S-09 | förbjuden kärlek med Rödskägg. Redan mullvad mot Rosing (annan hemlighet). |
+| `josefinansund` | S-09 | förbjuden kärlek med Rödskägg. |
 | `johannabergman` | S-02, S-04, S-05, S-11 | svartklubb, kristallfyrklöver, skvaller mot choklad, korthajbordet |
 | `amandamungsgard` | S-05 | arvssyndskatt, mynt, låg intensitet, vill spela med Dunka |
 | `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa hornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). |
-| `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Frodigs mullvadskontakt (annan hemlighet). |
+| `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
 | `alexandrapalmquist` | S-10 | sjökort, mild ordning, romans med Döver. Redan mullvad mot Döver (annan hemlighet). |
 | `edvinthungren` | S-07, S-10 | vill vara snäll, enhörningsmanschetter från Planka |
 | `elinmartensson` | S-08, S-11 | plåthorn, klagomur, vet hur Spader vinner när han borde förlora |
@@ -231,7 +231,7 @@ Bygger på:      fiende 5 (Fuling–Planka, hennes vana att plantera rykten). Ro
 Speglas hos:    Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader.
 Status:         skriven
 
-Obs: Fuling bär redan en hemlig mullvadsrelation mot Hjärter (annan skuta, annan hemlighet). Håll de två isär i gästtexten: den här handlar om det gamla angiveriet, inte om helgens förräderi. Blåskägg bär också S-02. Klöver bär också S-02, S-05 och S-11: här skvallerbank, där spelare vid bordet. Spader bär också S-08 och S-11: skulden till Hurring, romansen med Plåthorn och korthajbordet delar ingen mekanik. Prygel bär också S-08 och S-11: här liten lek mot Klöver i liggarjakten, där dealer vid hajbordet.
+Obs: Håll angiveriet isär från förrädarspåret i forradare.yaml. De delar ingen mekanik. Blåskägg bär också S-02. Klöver bär också S-02, S-05 och S-11: här skvallerbank, där spelare vid bordet. Spader bär också S-08 och S-11: skulden till Hurring, romansen med Plåthorn och korthajbordet delar ingen mekanik. Prygel bär också S-08 och S-11: här liten lek mot Klöver i liggarjakten, där dealer vid hajbordet.
 
 ---
 
@@ -346,7 +346,7 @@ Bygger på:      fiende 4 (Blodig–Frodig). Romans 8 (Rödskägg–Frodig), med
 Speglas hos:    Blodig, Frodig, Rödskägg, Lösskägg.
 Status:         skriven
 
-Obs: Frodig bär redan mullvadsrelationen mot Rosing (annan hemlighet, se mullvadstabellen). De två uppdragen delar ingen mekanik. Blodig bär också S-01, Rödskägg och Lösskägg bär också S-02.
+Obs: Håll den förbjudna kärleken isär från förrädarspåret i forradare.yaml. De två uppdragen delar ingen mekanik. Blodig bär också S-01, Rödskägg och Lösskägg bär också S-02.
 
 ---
 

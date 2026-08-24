@@ -28,6 +28,7 @@
 # status: pending | done | skipped
 # done = brödtext skriven i guests/. Inte i lagfilen.
 # Gästfilerna är nollställda 2026-08-23. Inga done förrän gästtexten skrivs.
+# 2026-08-24: home 2 och 3 omslumpade. Läs inte upp a för Gustaf.
 
 forradare:
   - id: 1
@@ -42,13 +43,14 @@ forradare:
 
   - id: 3
     type: mole
-    a: josefinansund       # Kapten Frodig: Barken Bortförklaringen
-    b: linneaekbom         # Kapten Rosing: Galeonen Gnället
+    a: hampuslindblad       # Kapten Blåskägg: Barken Bortförklaringen
+    b: linneaekbom          # Kapten Rosing: Galeonen Gnället
     home: 3
     works_for: 5
-    bygger_pa: "fiende: 4"
-    note: Inte fiender med varandra. Gnället jagar Fördärvet, där Frodigs fiende Blodig sitter. Förräderiet försvagar också Barkens jakt på Fromheten (Rödskägg, romans 8).
+    bygger_pa: null
+    note: Omslumpad 2026-08-24. Läs inte upp a för Gustaf.
     status: pending
+
 
   - id: 5
     type: mole
@@ -62,13 +64,14 @@ forradare:
 
   - id: 2
     type: mole
-    a: louisevonbahr       # Kapten Fuling: Fregatten Fördärvet
-    b: jesperlejfjord      # Kapten Hjärter: Fregatten Fromheten
+    a: louisevonbahr        # Kapten Fuling: Fregatten Fördärvet
+    b: jesperlejfjord       # Kapten Hjärter: Fregatten Fromheten
     home: 2
     works_for: 4
-    bygger_pa: "romans: 10"
-    note: Inte fiender med varandra. Tvekan: Blåskägg (romans 10) jagar Fromheten. Hjärter är Dövers nemesis (fiende 23), inte Fulings. Scener tål kökskanten.
+    bygger_pa: null
+    note: Omslumpad 2026-08-24. Läs inte upp a för Gustaf.
     status: pending
+
 
   - id: 4
     type: mole

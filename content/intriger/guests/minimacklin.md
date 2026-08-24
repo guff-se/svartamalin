@@ -18,3 +18,9 @@ Nu viskar hamnen att jubilaren gömmer en älskare. Du vill veta vem, inte av ar
 **Kapten Frodig** stal en gång din kapitulation, och du stämplade hennes storsegel i blod som svar, ett groll som aldrig läkt. Nu snubblar du över, eller nystar aktivt i, ett tecken på att hon har något ihop med **Kapten Rödskägg**: ett brev, en blick, ett smeknamn som inte passar två familjer som varit fiender i generationer.
 
 Konfrontera en av dem enskilt, eller sprid ett rykte utan att avslöja hela sanningen än, som ett hot eller en utpressning. Fragmentet kan du sälja vidare till **Kapten Lösskägg**, som redan letar svagheter hos Rödskägg inför skäggtrion. Gör det innan festen är över, mitt i din egen jakt på jubilarens älskare.
+
+## Stugan ingen pratar om {slug:malintadaa}
+
+Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
+
+Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.

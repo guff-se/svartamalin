@@ -237,26 +237,28 @@ fordelning:
   - id: 17
     beat: B-12
     akt: II
-    till: [josefinansund]
+    till: [hampuslindblad]
     roll: barare
-    vet: "att hon arbetar i hemlighet för Galeonen Gnället, och att Kapten Rosing är hennes enda länk. Hemmalaget vet ingenting."
+    vet: "att han arbetar i hemlighet för Galeonen Gnället, och att Kapten Rosing är hans enda länk. Hemmalaget vet ingenting."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt utöver den egna jakten"
     speglas: [linneaekbom]
-    bygger_pa: "fiende: 4"
+    bygger_pa: null
     pussel: null
     status: pending
+
 
   - id: 18
     beat: B-12
     akt: II
     till: [linneaekbom]
     roll: grindvakt
-    vet: "att Kapten Frodig på Barken Bortförklaringen är hennes mullvad. Ingen annan ombord vet."
+    vet: "att Kapten Blåskägg på Barken Bortförklaringen är hennes mullvad. Ingen annan ombord vet."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
-    speglas: [josefinansund]
-    bygger_pa: "fiende: 4"
+    speglas: [hampuslindblad]
+    bygger_pa: null
     pussel: null
     status: pending
+
 
   - id: 19
     beat: B-12
@@ -290,9 +292,10 @@ fordelning:
     vet: "att hon arbetar i hemlighet för Fregatten Fromheten, och att Kapten Hjärter är hennes enda länk. Hemmalaget vet ingenting."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt utöver den egna jakten"
     speglas: [jesperlejfjord]
-    bygger_pa: "romans: 10"
+    bygger_pa: null
     pussel: null
     status: pending
+
 
   - id: 22
     beat: B-12
@@ -302,9 +305,10 @@ fordelning:
     vet: "att Kapten Fuling på Fregatten Fördärvet är hans mullvad. Ingen annan ombord vet."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
     speglas: [louisevonbahr]
-    bygger_pa: "romans: 10"
+    bygger_pa: null
     pussel: null
     status: pending
+
 
   - id: 23
     beat: B-12
@@ -825,7 +829,7 @@ fordelning:
   - id: 66
     beat: B-17
     akt: II
-    till: [louisevonbahr]
+    till: [minimacklin]
     roll: jagare
     vet: "att Svarta Malin, långt innan hon blev kapten, byggde ett hus med egna händer på en öde ö i närheten, och att hon fortfarande flyr dit när världen blir för mycket"
     vet_inte: "att stugan är Q-2:s ursprung, att hon begravde någon i skogen, namnet Svarta, kungen, kistan"
@@ -918,9 +922,8 @@ fordelning:
     pussel: null
     status: done
 
-# B-18 Q-5-tillsättning (2026-08-24): skuta 1, 3, 5. Start: Kapten Lösskägg
-# (petterwallberg), Kapten Blåskägg (hampuslindblad), Kapten Dunka
-# (ludvigvonbahr). Tvärledtråd: skuta 2 (minimacklin), skuta 4 (viktoransund).
+# B-18 Q-5-tillsättning (2026-08-24): skuta 1, 3, 5. Start: Kapten Lösskägg (`petterwallberg`),
+# Kapten Nykter (`fabianmacklin`), Kapten Dunka (`ludvigvonbahr`). Tvärledtråd: skuta 2 (minimacklin), skuta 4 (viktoransund).
 # Gästtext oskriven, se quests/Q-5.md.
 
   - id: 74
@@ -938,7 +941,7 @@ fordelning:
   - id: 75
     beat: B-18
     akt: II
-    till: [hampuslindblad]
+    till: [fabianmacklin]
     roll: jagare
     vet: "att han är skyldig Svarta Malin pengar, att hon för en logg över alla sådana skulder, och att han vill komma åt loggen"
     vet_inte: "var loggen sitter, porträttväggen, svärdfiskens mun, cryptex-lapparna, dagboksblad 7, kungen, att festen är en fälla, att kistan öppnas"

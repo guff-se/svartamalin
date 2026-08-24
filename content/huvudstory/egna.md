@@ -20,6 +20,20 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, slumpa om två mullvadar
+
+Källa: Gustaf, i chatt. Utfallet står i [`forradare.yaml`](forradare.yaml). Läs inte upp `a` för home 2 och 3 för Gustaf.
+
+- [x] Ta bort josefinansund och louisevonbahr som mullvadar.
+- [x] Välj slumpmässigt en ny mullvad för var deras två skutor. Den "nya" mullvaden kan mycket väl vara samma, men det viktiga är att **jag** inte vet vem det är.
+- [x] Om det råkar bli så att josefinansund eller louisevonbahr blir mullvadar, så flytta deras ingångsintriger till en annan deltagare i samma lag (följ regler för vilka som kan få ingångsintriger).
+- [x] Skriv om ingångsintrigerna för dessa två.
+- [x] Skriv inga förrädarintriger än.
+
+Kryss = gjort. Förrädarintriger fortfarande pending.
+
+---
+
 ## 2026-08-24, vem som får quest-ingång
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md) gemensamma regler 11-13.

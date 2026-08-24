@@ -270,7 +270,7 @@ Om det floppar: tre andra quests plus XII räcker fortfarande för de skutor som
 Akt:            II
 Tid:            10.30 till 13.30
 Plats:          Södra Ovanan, piratstugan, skelettet i skogen
-Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Fuling (`louisevonbahr`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Inte Malin.
+Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Inte Malin.
 Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
 
 Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 2 namnet, blad 3 handlingen, blad 8 tillflykten), tar en token ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra token där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
@@ -291,7 +291,7 @@ Om det floppar: tre andra quests plus XII räcker för skutor som inte hade Q-2.
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
 Plats:          Storstugan, porträttväggen, svärdfiskens mun
-Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Lösskägg (`petterwallberg`), Kapten Blåskägg (`hampuslindblad`), Kapten Dunka (`ludvigvonbahr`). Tvärledtråd: Kapten Blodig (`minimacklin`, skuta 2), Kapten Rödskägg (`viktoransund`, skuta 4). Inte Malin, inte Spader.
+Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Lösskägg (`petterwallberg`), Kapten Nykter (`fabianmacklin`), Kapten Dunka (`ludvigvonbahr`). Tvärledtråd: Kapten Blodig (`minimacklin`, skuta 2), Kapten Rödskägg (`viktoransund`, skuta 4). Inte Malin, inte Spader.
 Publik:         den som ser väggen tas ner, och den som ser någon fiska i gapet
 
 Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre cryptex-lappar. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.

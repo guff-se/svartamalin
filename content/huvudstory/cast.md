@@ -14,7 +14,7 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 |-----------|--------------|------|
 | **Svarta Malin** | Malin Tadaa | `malintadaa` |
 | **Kapten Lösskägg** | Petter Wallberg | `petterwallberg` |
-| **Kapten Planka** | Linnea Appert | `linneaappert` |
+| **Kapten Planka** | Linnea Appert | Q-5 (start)|
 | **Kapten Barnsben** | Ulrika Hammar | `ulrikahammar` |
 | **Kapten Hurring** | Jesper Lindmarker | `jesperlindmarker` |
 
@@ -23,36 +23,36 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 | Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
 | **Kapten Fuling** | Louise von Bahr | `louisevonbahr` |
-| **Kapten Kuling** | Josefin Löwing | `josefinlowing` |
-| **Kapten Döver** | Navid Modiri | `navidmodiri` |
+| **Kapten Kuling** | Josefin Löwing | |
+| **Kapten Döver** | Navid Modiri | |
 | **Löjtnant Spader** | Gustaf Tadaa | `gustaftadaa` |
 | **Kapten Blodig** | Mini Macklin | `minimacklin` |
 
 ## Skuta 3: Barken Bortförklaringen
 
-| Piratnamn | Riktigt namn | slug |
+| Piratnamn | Riktigt namn | Q-2 (start), Q-5 (tvärledtråd)|
 |-----------|--------------|------|
 | **Kapten Enben** | Amalia Wahlström | `amaliawahlstrom` |
-| **Kapten Nykter** | Fabian Macklin | `fabianmacklin` |
+| **Kapten Nykter** | Fabian Macklin | Q-2 (start)|
 | **Kapten Frodig** | Josefin Ansund | `josefinansund` |
-| **Kapten Klöver** | Johanna Bergman | `johannabergman` |
+| **Kapten Klöver** | Johanna Bergman | Q-1 (start)|
 | **Kapten Blåskägg** | Hampus Lindblad | `hampuslindblad` |
 
 ## Skuta 4: Fregatten Fromheten
 
-| Piratnamn | Riktigt namn | slug |
+| Piratnamn | Riktigt namn | |
 |-----------|--------------|------|
 | **Kapten Hjärter** | Jesper Lejfjord | `jesperlejfjord` |
 | **Kapten Kosing** | Amanda Mungsgård | `amandamungsgard` |
-| **Kapten Rödskägg** | Viktor Ansund | `viktoransund` |
-| **Kapten Prygel** | Minerva Löwgren | `minervalowgren` |
+| **Kapten Rödskägg** | Viktor Ansund | Q-2 (start)|
+| **Kapten Prygel** | Minerva Löwgren | Q-5 (tvärledtråd)|
 
 ## Skuta 5: Galeonen Gnället
 
 | Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
 | **Kapten Dunka** | Ludvig von Bahr | `ludvigvonbahr` |
-| **Kapten Rosing** | Linnea Ekbom | `linneaekbom` |
+| **Kapten Rosing** | Linnea Ekbom | Q-5 (start)|
 | **Kapten Babord** | Alexandra Palmquist | `alexandrapalmquist` |
 | **Kapten Rötägg** | Edvin Thungren | `edvinthungren` |
 | **Kapten Plåthorn** | Elin Mårtensson | `elinmartensson` |
@@ -61,7 +61,7 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 
 ## Särställningar i berättelsen
 
-| Roll | Vem | Funktion |
+| Roll | Vem | Q-1 (start)|
 |------|-----|----------|
 | Antagonist och jubilar | **Svarta Malin** (`malintadaa`) | Osårbar. Dödar alla i finalen. Återvänder som Ran. |
 | Rans budbärare | **Löjtnant Spader** (`gustaftadaa`) | Delar ut slöjor bland de döda, sjunger *Så länge skutan kan gå*. Är i praktiken även spelledare. |
@@ -81,7 +81,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `malintadaa` | 0 | 2 | | |
 | `gustaftadaa` | 1 | 1 | | |
 | `petterwallberg` | 1 | 2 | | Q-5 (start) |
-| `linneaappert` | 1 | 1 | | Q-1 (start) |
+| `linneaappert` | 1 | 1 | | Q-1 (start)|
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | |
 | `louisevonbahr` | 1 | 1 | | Q-2 (start) |
@@ -90,7 +90,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `minimacklin` | 1 | 2 | | Q-5 (tvärledtråd) |
 | `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
 | `amaliawahlstrom` | 0 | 1 | | Q-2 (start) |
-| `fabianmacklin` | 1 | 3 | | |
+| `fabianmacklin` | 1 | 3 | | Q-5 (start)|
 | `josefinansund` | 1 | 1 | | Q-1 (start) |
 | `johannabergman` | 1 | 1 | | |
 | `jesperlejfjord` | 1 | 1 | | |

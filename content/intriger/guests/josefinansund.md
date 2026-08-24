@@ -18,4 +18,4 @@ Din kärlek till **Kapten Rödskägg** är förbjuden och hemlig: era släkter o
 
 Vid festbordet viskas ett rykte som får även de mest skvallersugna att sänka rösten: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det på papper. Bladet ska vara rivet i två halvor, en gömd vid **Gubben i stubben**, en vid **Gumman på udden**. Ingen har lyckats sätta ihop dem än.
 
-Kalla på hela besättningen på **Barken Bortförklaringen** och sök upp båda platserna. Den skuta som förenar halvorna först sitter på ett rykte värt mer än guld, innan en annan skuta hinner före er.
+Kalla på **Barken Bortförklaringen** och sök upp båda platserna innan en annan skuta hinner före. Den som förenar halvorna först sitter på ett rykte värt mer än guld.
