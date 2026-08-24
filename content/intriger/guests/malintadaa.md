@@ -5,7 +5,7 @@ mirrors:
     note: synlig diskret romans, avledning för hamnen (tvåvägs)
   - slug: amaliawahlstrom
     note: gammalt groll, fasa-skålen och skiffen (tvåvägs)
-related: [ludvigvonbahr, amaliawahlstrom, josefinlowing]
+related: [ludvigvonbahr, amaliawahlstrom]
 ---
 
 ## Den som sitter vid ditt bord {slug:ludvigvonbahr}
@@ -18,6 +18,3 @@ Festen är din fälla och romen är linan du själv drar i. Namnet Svarta Malin 
 
 **Kapten Enben** bär fortfarande skålen där du kallade henne en fasa till kapten, och skiffen du kapade i dimman. Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig till något, vad som helst. Låt henne. Skyldig till fel sak är den bästa sortens skyldig. Nicka inte. Neka inte. Skål med henne som om ingenting, och låt hennes eget groll göra resten av jobbet åt dig.
 
-## De som vill se dig svaja {slug:amaliawahlstrom}
-
-**Kapten Enben** och **Kapten Kuling** bär var sitt gammalt groll mot dig, en fasa-skål och en gammal förlust ingen av dem släppt. De letar efter ett tillfälle att få dig att förlora något inför alla: en skål som slår fel, ett föremål du inte vill mista offentligt. Just nu är du jubilar och värdinna, generös och charmig, och det är ditt bästa skydd. Le igenom det. Charma dig undan. Det är vad du alltid gjort.

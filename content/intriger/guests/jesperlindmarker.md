@@ -9,11 +9,9 @@ mirrors:
     note: hemlig romans, han vet om Klöver, hon vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: hampuslindblad
     note: obetald skuld och gammalt skämt (tvåvägs)
-  - slug: amaliawahlstrom
-    note: säljer skvaller om Malin till henne (enväg)
   - slug: gustaftadaa
     note: gammal spelskuld (tvåvägs)
-related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, amaliawahlstrom, gustaftadaa]
+related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa]
 ---
 
 ## Boken som ska fyllas {slug:louisevonbahr}
@@ -29,10 +27,6 @@ Du delar säng med både **Kapten Klöver** och **Kapten Prygel**, var för sig,
 ## Skulden i masten {slug:hampuslindblad}
 
 **Kapten Blåskägg** bär en obetald skuld till dig och ett gammalt skämt du aldrig låtit dö, IOU-lappar naglade i masten som ett offentligt påminnelseregister. Han är från samma tid som angiveriet, och när **Kapten Fuling** nekar lite för övertygande kan din misstanke lika gärna vandra vidare till honom. En ny rad i liggaren behöver inte vara den rätta för att kännas skön att skriva.
-
-## Historien du säljer om Malin {slug:amaliawahlstrom}
-
-I din svarta liggare finns en rad om **Svarta Malin** du aldrig kunnat bekräfta, gammal och osäker men fortfarande vass. **Kapten Enben** och **Kapten Kuling** bär båda groll mot henne och letar efter en anledning att få henne att förlora något inför alla. Sälj raden till den som betalar bäst, mynt eller en tjänst du kan kräva tillbaka senare, och låt den bli ammunition till nästa provokation.
 
 ## Skulden Spader ska betala {slug:gustaftadaa}
 

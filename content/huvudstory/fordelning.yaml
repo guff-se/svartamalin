@@ -532,7 +532,7 @@ fordelning:
     speglas: [josefinlowing, malintadaa, jesperlindmarker]
     bygger_pa: "fiende: 2"
     pussel: null
-    status: done
+    status: pending
 
   - id: 42
     beat: S-06
@@ -544,7 +544,7 @@ fordelning:
     speglas: [amaliawahlstrom, malintadaa]
     bygger_pa: null
     pussel: null
-    status: done
+    status: pending
 
   - id: 43
     beat: S-06
@@ -556,7 +556,7 @@ fordelning:
     speglas: [amaliawahlstrom, josefinlowing]
     bygger_pa: null
     pussel: null
-    status: done
+    status: pending
 
   - id: 44
     beat: S-06
@@ -568,7 +568,7 @@ fordelning:
     speglas: [amaliawahlstrom]
     bygger_pa: null
     pussel: null
-    status: done
+    status: pending
 
   - id: 45
     beat: S-07
