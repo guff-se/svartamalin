@@ -18,7 +18,9 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Huset hon byggde som tillflykt. Minnen plus skrin med tokens. Namnbladet pekar mot graven. Inte escape-rum. | II |
 | **Skelettet i skogen** (Södra Ovanan) | Ottos grav. Befintlig prop. | Liten grupp | Q-2. Andra cryptex-ledtråden. Namnbladet i stugan pekar hit. Inte en identitetsgåta. | II |
 | **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. | II |
-| **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD | III, efterspel |
+| **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD. Inte Q-3: vedhögen bakom bastun är ett annat ställe. | III, efterspel |
+| **Vedhögen bakom bastun** | Vedtrave bakom bastun, utomhus | 2 till 5 personer | Q-3. Andra pit stop. Blad 5 II fastsatt, Caesar +13. | II |
+| **Hopptornet** | Hopptorn vid vattnet. Skatten ligger under, på land vid foten. Inte i vattnet. Inte uppe i tornet. | Liten grupp | Q-3. Skatt: blad 5 III och cryptex-lappen. | II |
 | **Verkstaden** | Verkstad med förrådsrum som kan byggas om | Förråden tar 3 till 6 personer | TBD | |
 | **Segelbåten vid bojen** (Tvåkronan) | Båt en bit ut, kräver simning eller eka. Aldrig ensam. | 2 till 4 personer, hög tröskel | TBD. Parkerad idé: 2-kronorsmynt ombord, se [`pussel.md`](pussel.md) | |
 | **Kikaren** | Väldigt bra kikare, ser andra öar | 1 person i taget, kö uppstår | TBD | |
@@ -26,7 +28,7 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1. Vänster halva av blad 1. | II |
 | **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1. Höger halva av blad 1. | II |
 | **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1. Påsen med blad 4 och cryptex-lappen, högt i nätet. | II |
-| **Gymmet** | Styrketräningsgym i egen byggnad | 4 till 8 personer | TBD | |
+| **Gymmet** | Styrketräningsgym i egen byggnad | 4 till 8 personer | Q-3. Första pit stop. Blad 5 I fastsatt. Starten pekar hit. | II |
 | **Bryggan och storbåten** | Ankomst och avfärd | Alla | Ankomst fredag, avfärd söndag | Ram |
 | **Matsal och festplats** | Middag fredag, brunch lördag, festen 20.00 | Alla | Överdåd fredag, brunch 14.00, kaviar och rom, kistan öppnas | I, III, IV |
 | **Malins kista** | Låst kista, väl synlig. Ska se ut att innehålla skatt. | Alla ser den. En i taget vid låset. | Konvergenspunkten. Frö fredag, jakt lördag, tändning 20.40. | I, II, IV |
@@ -58,8 +60,10 @@ Varje plats har en fysisk egenskap som avgör vilken sorts scen den kan bära. T
 | Gubben i stubben | **Gömställe vid bänk.** Stubbe med trägubbe och sprit redan i | Dead drop, gömd ledtråd, en scen för en liten grupp |
 | Gumman på udden | **Gömställe vid bänk.** Spegel till gubben, södra ändan | Samma som gubben |
 | Klätternätet | **Kropp och risk.** Fysisk ansträngning | Tävlingsmoment, prov, något som måste hämtas högt upp |
+| Gymmet | **Egen byggnad, kropp.** Avskilt från huset, vikter och redskap | Q-3. Bladet om att aldrig vila sitter här. Inte ett fysiskt prov. |
+| Vedhögen | **Utomhus, bakom värmen.** Synlig trave, inte ett gömme inne i veden | Q-3. Andra bladet, fastsatt. Inte ransaka högen. |
+| Hopptornet | **Höjd vid vatten.** Skatten är under, på land | Q-3. Inte hopp. Inte bad. Foten av tornet. |
 | Malins kista | **Offentligt lås.** Alla ser den, ingen kommer in | Fredagens frö, lördagens jakt, kvällens tändning. Får inte gömmas. |
-| Gymmet | **Egen byggnad, kropp.** Avskilt från huset, vikter och redskap | Fysiskt prov, en scen utanför huvudhuset, något gömt bland redskapen |
 
 ---
 
@@ -98,4 +102,3 @@ Att fortfarande bestämma:
 Lista platser som ännu inte har funktion, så vi ser vad vi har kvar att spela med. Uppdateras löpande.
 
 - **Malins kista**: funktionen är låst, den exakta platsen är det inte. Krav: väl synlig för alla från fredag kväll, nåbar vid festen, tåla väder om den står ute.
-- **Gymmet**: ledig. Egen byggnad, ingen tilldelad funktion än.

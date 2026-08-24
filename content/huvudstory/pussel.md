@@ -8,6 +8,7 @@ Tillsatta, inte här:
 
 - Q-1 (halvor vid Gubben och Gumman, påse högt i klätternätet): [`quests/Q-1.md`](quests/Q-1.md)
 - Q-2 (stuga, grav, tokens, inget pussel): [`quests/Q-2.md`](quests/Q-2.md)
+- Q-3 (gym, vedhög, hopptorn, Caesar +13): [`quests/Q-3.md`](quests/Q-3.md)
 - Q-5 (porträttvägg, svärdfiskens mun, tre lappar): [`quests/Q-5.md`](quests/Q-5.md)
 - Cryptex, kista, XII, lösenordskandidat: [`kanon.md`](kanon.md). Runtime: [`spelledning.md`](spelledning.md)
 - Platser som redan har funktion: [`platser.md`](platser.md)
@@ -69,7 +70,7 @@ Parkerad idé: ett faktiskt 2-kronorsmynt ombord, se nedan. Samma vattenregel: s
 
 ## Lediga idéer
 
-Kandidater till pit stop eller skatt i Q-3 eller Q-4. Ursprung: Gustaf, [`egna.md`](egna.md). Får inte byggas förrän de sitter i en quest. Q-5:s vägg sitter i questen.
+Kandidater till pit stop eller skatt i Q-4. Ursprung: Gustaf, [`egna.md`](egna.md). Får inte byggas förrän de sitter i en quest. Q-3:s Caesar sitter i questen. Q-5:s vägg sitter i questen.
 
 ### Pacing via mat och fasta tider
 
@@ -92,12 +93,6 @@ Ledtråd ombord, ett svenskt 2-kronorsmynt. Samma vattenregel som båten. Skrivn
 Sitter hos en person. Någon annan måste få dem att berätta. Grindvakt i [`premiss.md`](premiss.md).
 
 Krav: minst två personer kan avslöja samma sak. Bypass om bäraren är tyst, full eller borta.
-
-### Caesarskiffer eller liknande
-
-Olåsbar utan nyckel på annan plats eller hos annan person.
-
-Spänning: ingen matematik, kropp framför papper. Om den används: mycket kort meddelande, nyckeln är ett föremål eller en fras. Inte efter 15.30.
 
 ---
 

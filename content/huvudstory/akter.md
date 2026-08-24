@@ -88,9 +88,9 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. Q-5 är väggen och svärdfisken, B-18. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-5: Storstugan, porträttväggen, svärdfiskens mun. Övriga TBD. | cryptexen vid festen |
+| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. Q-3 är gym, vedhög, hopptorn, B-19. Q-5 är väggen och svärdfisken, B-18. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-3: gymmet, vedhögen bakom bastun, under hopptornet. Q-5: Storstugan, porträttväggen, svärdfiskens mun. Q-4 TBD. | cryptexen vid festen |
 | Optiska spåret | TBD. Skylten är parkerad, kikaren finns | | Kikaren (skylten bara om vi beslutar den) | |
-| Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. | | Vattnet, Södra Ovanan | |
+| Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. Gymmet är taget av Q-3. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
 | Älskarspåret | Malin gömmer någon. Hjärter och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
 | Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
@@ -306,6 +306,27 @@ Spelledarväg:   se [`quests/Q-5.md`](quests/Q-5.md). Inte extra uppsättning i 
 Pusselnod:      Q-5
 Props:          Q5-01, Q5-03, Q5-04. K-10 i kistan, namn vid tillsättning.
 Om det floppar: tre andra quests plus XII räcker. En Q-5-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
+
+#### B-19: Q-3, korvetten
+
+Akt:            II
+Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
+Plats:          Gymmet, vedhögen bakom bastun, under hopptornet
+Inblandade:     Tre skutor, TBD vid tillsättning. Inte skuta 3 som start (redan full). Inte Malin, inte Spader.
+Publik:         den som ser folk i gymmet läsa väggen, vid veden, eller böja sig under hopptornet
+
+Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 5 I fastsatt där, pekar mot vedhögen och ger Caesar-nyckeln (+13, A blir N). Blad 5 II fastsatt på veden, sista raden chiffer: under hopptornet. Skatt: blad 5 III och cryptex-lappen, på land vid foten. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
+
+Vad ändras:     rummet vet att hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Inte att kungen gav henne skutan.
+
+Trigger:        Q-3-start i tre individintriger, när de är skrivna
+Väg 1:          tre lag läser I och II efter varandra, ett tar skatten, de andra stjäl eller avskriver
+Väg 2:          skiffern går inte, Spader har meningen
+Spelledarväg:   se [`quests/Q-3.md`](quests/Q-3.md). Inte extra uppsättning under tornet.
+
+Pusselnod:      Q-3
+Props:          Q3-01, Q3-02, Q3-03, Q3-04
+Om det floppar: tre andra quests plus XII räcker. En Q-3-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
 ---
 

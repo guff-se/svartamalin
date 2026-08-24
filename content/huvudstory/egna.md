@@ -20,6 +20,21 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, Q-3 form
+
+Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md).
+
+- [x] Vi lägger första pit stop i gymmet och låter ingångs-intrigen peka dit (nånting om att kämpa och aldrig vila)
+- [x] Där kommer att finnas en dagbokssida, som är fastsatt, så att den inte går att ta med sig, så att den blir återanvändningsbar.
+- [x] Denna innehåller en text som pekar till vedhögen bakom bastun.
+- [x] Även där finns en fast dagboksida som inte går att flytta på. Där finns en text skriven i caesarskiffer (+13), som ger instruktioner till sista stationen.
+- [x] Den sista stationen är under hopptornet. Där finns den sista dagbokssidan, samt kryptex-bokstav.
+- [x] Alla sidorna skall paralellt berätta den övergripande storyn om hur hon prejade till sig sin korvett
+
+Kryss = formen sitter i questen. Tre blad av blad 5 (I–III). Nyckeln till skiffern sitter på gymbladet. Tillsättning och gästtext inte gjorda.
+
+---
+
 ## 2026-08-24, slumpa om två mullvadar
 
 Källa: Gustaf, i chatt. Utfallet står i [`forradare.yaml`](forradare.yaml). Läs inte upp `a` för home 2 och 3 för Gustaf.
@@ -54,7 +69,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/`](quests/
 - [x] Det finns en dagbok som är placerad på synlig plats. Denna kommer ha de flesta sidor utrivna. Dessa dagbokssidor är sedan vad som hittas som en del av olika quests.
 - [x] Alla dagbokssidor skall ha en kronologisk ordning (som inte är den ordning de hittas i quests).
 
-Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-3 och Q-4 får blad när de har form.
+Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-3 har tre blad av blad 5. Q-4 får blad när den har form.
 
 ---
 
@@ -224,7 +239,7 @@ Källa: Gustaf, i chatt. Parkerade i [`pussel.md`](pussel.md). Inte beslutade.
 - [ ] En karta, som delas i flera delar och man måste ha alla för att hitta rätt.
 - [ ] En ledtråd kan ligga i segelbåten (Tvåkronan) och ledtråden kan vara ett faktiskt svenskt 2-kronorsmynt.
 - [ ] Vissa ledtrådar kan planteras hos en karaktär, så att någon annan måste få dem att berätta detta.
-- [ ] Vi kan använda oss av caesarskiffer eller liknande, för att lämna ut en ledtråd på ett ställe, men som kräver skifferlösningen från en annan plats/person för att läsa.
+- [x] Vi kan använda oss av caesarskiffer eller liknande, för att lämna ut en ledtråd på ett ställe, men som kräver skifferlösningen från en annan plats/person för att läsa.
 - [x] Förslag på Svarta Malins halsband som avslöjar sista ledtråden: XII (en referens till att hon har en affär med kungen).
 - [ ] Förslag på lösenord till cryptex: HKHXII. (Hans Kungliga Höghet XII)
 - [ ] Cryptexlösenord delas ut i form av ledtrådar där det står 1H, 2K, 3H osv. Dessa kan finnas i flera exemplar. Men man kan inte lösa helheten förrän man ser ledtråden XII på Malin i slutet.
