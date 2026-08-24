@@ -796,7 +796,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
-    status: pending
+    status: done
 
   - id: 64
     beat: B-16
@@ -808,7 +808,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
-    status: pending
+    status: done
 
   - id: 65
     beat: B-16
@@ -820,7 +820,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
-    status: pending
+    status: done
 
   - id: 66
     beat: B-17

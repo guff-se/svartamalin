@@ -16,12 +16,8 @@ related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa]
 
 **Kapten Barnsben** var med då, och minns honom bättre än han önskar. Sök upp henne, gärna vid hennes sy- och broderihörna, och fråga vad hon vet. Hittar du inte henne kan **Kapten Nykter** svara istället, fast hans svar färgas av hans eget nöje av att se andra desperata. Fråga innan festen är över. Du förtjänar att veta vem du älskar.
 
-## Kurtisanens hemlighet {slug:malintadaa}
+## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 
-Innan hon bar kaptenstiteln sålde **Svarta Malin** sin närhet för guld. Hamnen viskar att hennes allra första kärlek var en greve som svek henne för hennes låga stånd, och att hon svarade genom att göra sängen till sitt vapen: sälja sig till hans krets, stjäla deras hemligheter, ta allt han ägde. Hennes skuta bär hans lärdom i sitt namn.
+Vid festbordet går ett rykte som ingen vågar säga rakt ut framför skepparen: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det på ett blad. Bladet ska vara rivet i två, säger man, en halva gömd vid **Gubben i stubben**, den andra vid **Gumman på udden**. Ingen har lyckats sätta ihop dem än.
 
-Du vet själv hur det känns när ett falskt rykte klistrar sig fast, sedan **Kapten Fuling** en gång spred ett om dig efter en förlorad auktion. Nu vill du veta vad som faktiskt är sant i Malins eget rykte, innan det stormar förbi som allt annat gör på den här ön.
-
-Ett dagboksblad om hennes första år som kurtisan ligger rivet i två halvor: en vid **Gubben i stubben**, en vid **Gumman på udden**. Hämta båda innan en annan skuta hinner före dig. Håll dem ihop, läs, och vänd. Baksidan pekar vidare.
-
-Du seglar på **Korvetten Kurtisanen**, hennes egen skuta, och delar koj och köl med henne hela helgen. Det gör jakten farligare för dig än för de andra två skutorna: låt henne aldrig se dig läsa bladet eller gå mot uddarna. Kommer hon runt hörnet, göm det undan och le som om ingenting.
+Du seglar på hennes egen köl, delar koj och köl med henne hela helgen, och det gör den här jakten farligare för dig än för någon annan skuta. Att gräva i hennes förflutna är att gräva under fötterna på din egen kapten: kommer hon runt hörnet med halvorna i din hand är festen slut på ett annat sätt än ni tänkt er. Kalla ihop din besättning i smyg och sök upp båda platserna, men låt Malin aldrig ana vad ni letar efter.

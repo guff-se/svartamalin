@@ -14,10 +14,8 @@ Din kärlek till **Kapten Rödskägg** är förbjuden och hemlig: era släkter o
 
 **Kapten Blodig** bär ett gammalt groll mot dig, en stulen kapitulation och ett blodstämplat storsegel, och hon snubblar gärna över ett tecken på er kärlek om hon får chansen. Förneka högljutt, muta henne, eller fly tillsammans med Rödskägg, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över.
 
-## Kurtisanens hemlighet {slug:malintadaa}
+## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 
-Innan hon bar kaptenstiteln sålde **Svarta Malin** sin närhet för guld. Hamnen viskar att hennes allra första kärlek var en greve som svek henne för hennes låga stånd, och att hon svarade genom att göra sängen till sitt vapen: sälja sig till hans krets, stjäla deras hemligheter, ta allt han ägde. Hennes skuta bär hans lärdom i sitt namn.
+Vid festbordet viskas ett rykte som får även de mest skvallersugna att sänka rösten: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det på papper. Bladet ska vara rivet i två halvor, en gömd vid **Gubben i stubben**, en vid **Gumman på udden**. Ingen har lyckats sätta ihop dem än.
 
-Du gömmer själv en kärlek som skulle bli en skandal om den kom fram. Kanske är det därför ryktet om Malins första, förlorade kärlek griper tag i dig hårdare än det borde. Ta reda på vad som faktiskt är sant, innan festen är över.
-
-Ett dagboksblad om hennes första år som kurtisan ligger rivet i två halvor: en vid **Gubben i stubben**, en vid **Gumman på udden**. Hämta båda innan en annan skuta hinner före dig. Håll dem ihop, läs, och vänd. Baksidan pekar vidare.
+Kalla på hela besättningen på **Barken Bortförklaringen** och sök upp båda platserna. Den skuta som förenar halvorna först sitter på ett rykte värt mer än guld, innan en annan skuta hinner före er.

@@ -23,13 +23,11 @@ Ditt plåthorn är ingen leksak: blås i det och alla pirater i närheten drabba
 
 **Kapten Kuling** har fått för sig att hon behöver en listig hand för att komma åt ditt horn, och Spader är känd som precis den sortens hand. Hon vet inte att han redan är din. Lita på att han väljer dig när det gäller, eller oroa dig för att spelet frestar honom mer. Det är ditt val om du säger något till honom om vad du anar, eller låter honom bevisa det själv, innan festen är över.
 
-## Kurtisanens hemlighet {slug:malintadaa}
+## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 
-Innan hon bar kaptenstiteln sålde **Svarta Malin** sin närhet för guld. Hamnen viskar att hennes allra första kärlek var en greve som svek henne för hennes låga stånd, och att hon svarade genom att göra sängen till sitt vapen: sälja sig till hans krets, stjäla deras hemligheter, ta allt han ägde. Hennes skuta bär hans lärdom i sitt namn.
+Vid festbordet går ett rykte som får hela salen att sänka rösten: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det svart på vitt. Bladet ska vara rivet i två, en halva gömd vid **Gubben i stubben**, en vid **Gumman på udden**.
 
-Du vet något om att göra en historia större än den var, om att bygga ett rykte som gör dig svårare att komma åt. Malin har gjort samma sak i stor skala, och du vill veta hur hon bar det, kanske för att stjäla lite av tricket själv.
-
-Ett dagboksblad om hennes första år som kurtisan ligger rivet i två halvor: en vid **Gubben i stubben**, en vid **Gumman på udden**. Hämta båda innan en annan skuta hinner före dig. Håll dem ihop, läs, och vänd. Baksidan pekar vidare.
+Kalla på **Galeonen Gnället** och sök upp båda platserna innan någon annan skuta hittar dem först. Den som sätter ihop halvorna vet mer om Malin än Malin själv vill dela.
 
 ## Det du vet om hans vinster {slug:gustaftadaa}
 
