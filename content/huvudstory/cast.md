@@ -14,7 +14,7 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 |-----------|--------------|------|
 | **Svarta Malin** | Malin Tadaa | `malintadaa` |
 | **Kapten Lösskägg** | Petter Wallberg | `petterwallberg` |
-| **Kapten Planka** | Linnea Appert | Q-5 (start)|
+| **Kapten Planka** | Linnea Appert | `linneaappert` |
 | **Kapten Barnsben** | Ulrika Hammar | `ulrikahammar` |
 | **Kapten Hurring** | Jesper Lindmarker | `jesperlindmarker` |
 
@@ -23,36 +23,36 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 | Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
 | **Kapten Fuling** | Louise von Bahr | `louisevonbahr` |
-| **Kapten Kuling** | Josefin Löwing | |
-| **Kapten Döver** | Navid Modiri | |
+| **Kapten Kuling** | Josefin Löwing | `josefinlowing` |
+| **Kapten Döver** | Navid Modiri | `navidmodiri` |
 | **Löjtnant Spader** | Gustaf Tadaa | `gustaftadaa` |
 | **Kapten Blodig** | Mini Macklin | `minimacklin` |
 
 ## Skuta 3: Barken Bortförklaringen
 
-| Piratnamn | Riktigt namn | Q-2 (start), Q-5 (tvärledtråd)|
+| Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
 | **Kapten Enben** | Amalia Wahlström | `amaliawahlstrom` |
-| **Kapten Nykter** | Fabian Macklin | Q-2 (start)|
+| **Kapten Nykter** | Fabian Macklin | `fabianmacklin` |
 | **Kapten Frodig** | Josefin Ansund | `josefinansund` |
-| **Kapten Klöver** | Johanna Bergman | Q-1 (start)|
+| **Kapten Klöver** | Johanna Bergman | `johannabergman` |
 | **Kapten Blåskägg** | Hampus Lindblad | `hampuslindblad` |
 
 ## Skuta 4: Fregatten Fromheten
 
-| Piratnamn | Riktigt namn | |
+| Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
 | **Kapten Hjärter** | Jesper Lejfjord | `jesperlejfjord` |
 | **Kapten Kosing** | Amanda Mungsgård | `amandamungsgard` |
-| **Kapten Rödskägg** | Viktor Ansund | Q-2 (start)|
-| **Kapten Prygel** | Minerva Löwgren | Q-5 (tvärledtråd)|
+| **Kapten Rödskägg** | Viktor Ansund | `viktoransund` |
+| **Kapten Prygel** | Minerva Löwgren | `minervalowgren` |
 
 ## Skuta 5: Galeonen Gnället
 
 | Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
 | **Kapten Dunka** | Ludvig von Bahr | `ludvigvonbahr` |
-| **Kapten Rosing** | Linnea Ekbom | Q-5 (start)|
+| **Kapten Rosing** | Linnea Ekbom | `linneaekbom` |
 | **Kapten Babord** | Alexandra Palmquist | `alexandrapalmquist` |
 | **Kapten Rötägg** | Edvin Thungren | `edvinthungren` |
 | **Kapten Plåthorn** | Elin Mårtensson | `elinmartensson` |
@@ -61,7 +61,7 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 
 ## Särställningar i berättelsen
 
-| Roll | Vem | Q-1 (start)|
+| Roll | Vem | Funktion |
 |------|-----|----------|
 | Antagonist och jubilar | **Svarta Malin** (`malintadaa`) | Osårbar. Dödar alla i finalen. Återvänder som Ran. |
 | Rans budbärare | **Löjtnant Spader** (`gustaftadaa`) | Delar ut slöjor bland de döda, sjunger *Så länge skutan kan gå*. Är i praktiken även spelledare. |
@@ -74,7 +74,7 @@ Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin
 
 ## Belastningsöversikt
 
-Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms bort. Uppdateras från [`fordelning.yaml`](fordelning.yaml).
+Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms bort. Pusselansvar speglar [`fordelning.yaml`](fordelning.yaml) och questfilerna, inte omvänd riktning. Q-4 saknar form och har ingen tillsättning.
 
 | slug | Romanser | Fiender | Sidequest i huvudstory | Pusselansvar |
 |------|----------|---------|------------------------|--------------|
@@ -84,13 +84,13 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `linneaappert` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | Q-3 (tvärledtråd) |
-| `louisevonbahr` | 1 | 1 | | Q-2 (start) |
+| `louisevonbahr` | 1 | 1 | | |
 | `josefinlowing` | 1 | 1 | | |
 | `navidmodiri` | 2 | 2 | | Q-3 (start) |
-| `minimacklin` | 1 | 2 | | Q-5 (tvärledtråd) |
+| `minimacklin` | 1 | 2 | | Q-2 (start), Q-5 (tvärledtråd) |
 | `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
 | `amaliawahlstrom` | 0 | 1 | | Q-2 (start), Q-3 (tvärledtråd) |
-| `fabianmacklin` | 1 | 3 | | Q-5 (start)|
+| `fabianmacklin` | 1 | 3 | | Q-5 (start) |
 | `josefinansund` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `johannabergman` | 1 | 1 | | |
 | `jesperlejfjord` | 1 | 1 | | |
@@ -99,6 +99,6 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `minervalowgren` | 1 | 1 | | |
 | `linneaekbom` | 1 | 1 | | Q-3 (start) |
 | `alexandrapalmquist` | 1 | 1 | | |
-| `hampuslindblad` | 1 | 3 | | Q-5 (start) |
+| `hampuslindblad` | 1 | 3 | | |
 | `edvinthungren` | 1 | 3 | | |
 | `elinmartensson` | 1 | 1 | | Q-1 (start) |
