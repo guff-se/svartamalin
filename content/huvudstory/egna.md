@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, Q-4:s dagboksblad är först i kronologin
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/Q-4.md`](quests/Q-4.md).
+
+- [x] placera dagboksbladet i Q4 först i kronologisk ordning (blad 1). innan kärleken. innan hon blev sviken. som ung och drömmande om havet och friheten.
+
+Kryss = tryck **Blad 1.** Ung, före Otto, före sveket. Kikaren och kompassen oförändrade. Övriga blad flyttade: Q-1 är 2 och 5, Q-2 är 3, 4 och 8, Q-3 är 6, Q-5 är 7.
+
+---
+
 ## 2026-08-24, Q-4 story: kärleken till Salmonellahavet
 
 Källa: Gustaf, i chatt. Införd i [`quests/Q-4.md`](quests/Q-4.md).
@@ -27,7 +37,7 @@ Källa: Gustaf, i chatt. Införd i [`quests/Q-4.md`](quests/Q-4.md).
 - [x] vi ändrar storyn i Q4 till malins kärlek till salmonellahavet, inte hur hon fick sin ö
 - [x] där blir kikaren en metafor, och dagboksbladet handlar om detta
 
-Kryss = kapitlet är kärleken till havet. Kikaren är metaforen. Blad 6 bär det. Mekaniken oförändrad. Hur hon fick ön är struket som Q-4-tema.
+Kryss = kapitlet är kärleken till havet. Kikaren är metaforen. Mekaniken oförändrad. Hur hon fick ön är struket som Q-4-tema. Kronologi samma dag: bladet är blad 1, inte blad 6.
 
 ---
 
@@ -171,7 +181,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/`](quests/
 - [x] Det finns en dagbok som är placerad på synlig plats. Denna kommer ha de flesta sidor utrivna. Dessa dagbokssidor är sedan vad som hittas som en del av olika quests.
 - [x] Alla dagbokssidor skall ha en kronologisk ordning (som inte är den ordning de hittas i quests).
 
-Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-3 har två blad av blad 5. Q-4 har blad 6 i *Tomtebobarnen*.
+Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-4 har blad 1 i *Tomtebobarnen*. Q-3 har två blad av blad 6.
 
 ---
 

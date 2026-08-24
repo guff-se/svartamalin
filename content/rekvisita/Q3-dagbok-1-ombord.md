@@ -2,16 +2,16 @@
 quest: Q-3
 beat: B-19
 prop: Q3-01
-dagbok: 5
+dagbok: 6
 ---
 
-# Dagboksblad 5 I, ombord
+# Dagboksblad 6 I, ombord
 
-Gymmet. Fastsatt. Kronologiskt efter blad 4 (hämnden klar, skutan döpt), före blad 6. Hon går ombord på sin egen korvett. Pekar mot vedhögen. Inte skiffernyckeln.
+Gymmet. Fastsatt. Kronologiskt efter blad 5 (hämnden klar, skutan döpt), före blad 7. Hon går ombord på sin egen korvett. Pekar mot vedhögen. Inte skiffernyckeln.
 
 ## Tryck
 
-Blad 5
+Blad 6
 I
 
 Jag vilar inte. Jag har aldrig vilat en hel natt i mitt liv, och den här blir inte den första. Kroppen ska hålla vad jag redan bestämt. Den som lägger sig ner och väntar på morgonen vaknar upp utan skepp.

@@ -34,16 +34,16 @@ Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, 
 | [`kista-karleksbrev.md`](kista-karleksbrev.md) | `kista`, `B-42`, `K-07` | Kärleksbrev från Karl XII. Enda plot-relevanta i kistan. | Malins kista |
 | [`kista-dressing-1-natt.md`](kista-dressing-1-natt.md) | `kista`, `B-42`, `K-06` | Lapp från kungen. Dressing. | Malins kista |
 | [`kista-dressing-2-rummet.md`](kista-dressing-2-rummet.md) | `kista`, `B-42`, `K-06` | Lapp från kungen. Dressing. | Malins kista |
-| [`Q1-dagbok-1-fore.md`](Q1-dagbok-1-fore.md) | `Q-1`, `Q1-01`, blad 1 | Dagboksblad före förräderiet | Gubben och Gumman |
-| [`Q1-dagbok-1-baksida.md`](Q1-dagbok-1-baksida.md) | `Q-1`, `Q1-01`, blad 1 | Vägvisning, baksida av samma blad. Inte bladnummer. | Gubben och Gumman |
-| [`Q1-dagbok-2-efter.md`](Q1-dagbok-2-efter.md) | `Q-1`, `Q1-04`, blad 4 | Dagboksblad efter hämnden | Klätternätet |
-| [`Q2-dagbok-1-namnet.md`](Q2-dagbok-1-namnet.md) | `Q-2`, `B-17`, `Q2-07`, blad 2 | Uppbrottet, namnet Svarta, pekar mot Ottos grav | Piratstugan |
-| [`Q2-dagbok-2-handlingen.md`](Q2-dagbok-2-handlingen.md) | `Q-2`, `B-17`, `Q2-08`, blad 3 | Bygget och rätten att preja | Piratstugan |
+| [`Q1-dagbok-1-fore.md`](Q1-dagbok-1-fore.md) | `Q-1`, `Q1-01`, blad 2 | Dagboksblad före förräderiet | Gubben och Gumman |
+| [`Q1-dagbok-1-baksida.md`](Q1-dagbok-1-baksida.md) | `Q-1`, `Q1-01`, blad 2 | Vägvisning, baksida av samma blad. Inte bladnummer. | Gubben och Gumman |
+| [`Q1-dagbok-2-efter.md`](Q1-dagbok-2-efter.md) | `Q-1`, `Q1-04`, blad 5 | Dagboksblad efter hämnden | Klätternätet |
+| [`Q2-dagbok-1-namnet.md`](Q2-dagbok-1-namnet.md) | `Q-2`, `B-17`, `Q2-07`, blad 3 | Uppbrottet, namnet Svarta, pekar mot Ottos grav | Piratstugan |
+| [`Q2-dagbok-2-handlingen.md`](Q2-dagbok-2-handlingen.md) | `Q-2`, `B-17`, `Q2-08`, blad 4 | Bygget och rätten att preja | Piratstugan |
 | [`Q2-dagbok-3-tillflykten.md`](Q2-dagbok-3-tillflykten.md) | `Q-2`, `B-17`, `Q2-09`, blad 8 | Tillflykten, nutid | Piratstugan |
-| [`Q3-dagbok-1-ombord.md`](Q3-dagbok-1-ombord.md) | `Q-3`, `B-19`, `Q3-01`, blad 5 I | Ombord på egen korvett. Fastsatt. Pekar mot vedhögen. Inte skiffernyckeln. | Gymmet |
-| [`Q3-dagbok-2-prejningen.md`](Q3-dagbok-2-prejningen.md) | `Q-3`, `B-19`, `Q3-02`, blad 5 II | Gömd lagfart i klartext. Fastsatt. Sista raden Caesar +13. Inte prejning. | Vedhögen bakom bastun |
+| [`Q3-dagbok-1-ombord.md`](Q3-dagbok-1-ombord.md) | `Q-3`, `B-19`, `Q3-01`, blad 6 I | Ombord på egen korvett. Fastsatt. Pekar mot vedhögen. Inte skiffernyckeln. | Gymmet |
+| [`Q3-dagbok-2-prejningen.md`](Q3-dagbok-2-prejningen.md) | `Q-3`, `B-19`, `Q3-02`, blad 6 II | Gömd lagfart i klartext. Fastsatt. Sista raden Caesar +13. Inte prejning. | Vedhögen bakom bastun |
 | [`Q3-agarbevis.md`](Q3-agarbevis.md) | `Q-3`, `B-19`, `Q3-03` | Malin till Malin. Piraternas lagar. Tas. | Under badbryggan |
-| [`Q4-dagbok-1-havet.md`](Q4-dagbok-1-havet.md) | `Q-4`, `B-20`, `Q4-02`, blad 6 | Kärleken till Salmonellahavet. Blicken, glaset. Fastsatt i *Tomtebobarnen*. | Hyllan i Storstugan |
+| [`Q4-dagbok-1-havet.md`](Q4-dagbok-1-havet.md) | `Q-4`, `B-20`, `Q4-02`, blad 1 | Ung. Drömmer om Salmonellahavet och om frihet. Före kärleken, före sveket. Fastsatt i *Tomtebobarnen*. | Hyllan i Storstugan |
 | [`Q4-kompass.md`](Q4-kompass.md) | `Q-4`, `B-20`, `Q4-03` | Tryckt kompassbild. Nålen är sann bäring. Sikta genom glaset. Fastsatt. Inte dagbok. | I *Tomtebobarnen* |
 | [`Q5-dagbok-1-skulderna.md`](Q5-dagbok-1-skulderna.md) | `Q-5`, `B-18`, `Q5-03`, blad 7 | Hon håller havet med mäns skulder. Kistan. | Svärdfiskens mun |
 | [`kista-skuldbrev.md`](kista-skuldbrev.md) | `kista`, `Q-5`, `B-42`, `K-10` | Tre skuldbrev, ett per manlig Q-5-start. Namn vid tillsättning. | Malins kista |

@@ -23,35 +23,35 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | K-09 | Malins halsband med XII | B-40 | Hon sätter på det till slutfesten, inte före. XII läsbart som bild på avstånd, inte liten gravyr. Referens till Karl XII. | | | saknas |
 | K-10 | Tre skuldbrev | B-42, Q-5 | Ett per Q-5-start. Tillsatt 2026-08-24: Kapten Lösskägg (`petterwallberg`), Kapten Nykter (`fabianmacklin`), Kapten Dunka (`ludvigvonbahr`). Dressing, inte plot. Text: [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md). | | | utkast |
 | D-01 | Malins dagbok | alla quests | Synlig i Storstugan. Pärm plus utrivna stubbar. Inga kvarvarande kapitel. Ingen innehållsförteckning som pekar mot gömmen. Kronologi: [`quests.md`](quests.md). | | | saknas |
-| Q1-01 | Dagboksblad 1, före, två halvor, dubbelsidigt | Q-1 | Vertikalt rivet. "Blad 1" på båda halvorna. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). | | | utkast |
+| Q1-01 | Dagboksblad 2, före, två halvor, dubbelsidigt | Q-1 | Vertikalt rivet. "Blad 2" på båda halvorna. Ingen halva läsbar ensam. Framsida: dagbok. Baksida: vägvisning. Tåla utomhus. Text: [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md). | | | utkast |
 | Q1-03 | Cryptex-lapp i påsen | Q-1 | Positionsmarkering TBD. Unik. Stealable. Reservlapp hos spelledning. | | | saknas |
-| Q1-04 | Dagboksblad 4, efter hämnden | Q-1 | Helt blad. "Blad 4" överst. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md). Avskrift hos spelledning. | | | utkast |
+| Q1-04 | Dagboksblad 5, efter hämnden | Q-1 | Helt blad. "Blad 5" överst. Ligger med Q1-03 i påsen i klätternätet. Text: [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md). Avskrift hos spelledning. | | | utkast |
 | Q2-01 | Skrin med tre cryptex-tokens och skylt "Endast en per lag" | B-17 | Synligt när man är inne i piratstugan, inte gömt under golv. Tre tokens, första bokstaven. Skylten läsbar. Reservtokens hos spelledning, inte i stugan. | | | saknas |
 | Q2-02 | Uppbrottet: sjal eller klänning, kam | B-17 | Ser ut att ha följt med från land och lagts undan. Inga namn, ingen text. | | | saknas |
 | Q2-03 | Bygget: hyvel, hammare, spån, märke i bjälke | B-17 | Handgjort, lite snett. Visar att hon byggde själv. | | | saknas |
 | Q2-04 | Rätten: flaggskärva eller skeppsklocka | B-17 | Första bytet, namnlöst. Inte Kurtisanen. Ingen lapp. Texten sitter i Q2-08. | | | saknas |
 | Q2-05 | Namnet: ljus duk med svartbränd kant | B-17 | Inget äldre namn utskrivet. Dressing till Q2-07. | | | saknas |
 | Q2-06 | Tillflykten nu: filt, kopp, ljusstump | B-17 | Ser nyligen använt ut. Dressing till Q2-09. | | | saknas |
-| Q2-07 | Dagboksblad 2, uppbrottet / namnet | B-17 | Helt blad, stannar i stugan. "Blad 2" överst. Namnger Otto. Pekar mot graven i skogen. Inte kurtisanhämnden. Text: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md). | | | utkast |
-| Q2-08 | Dagboksblad 3, handlingen | B-17 | Helt blad, stannar i stugan. "Blad 3" överst. Bygget och rätten att preja. Text: [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md). | | | utkast |
+| Q2-07 | Dagboksblad 3, uppbrottet / namnet | B-17 | Helt blad, stannar i stugan. "Blad 3" överst. Namnger Otto. Pekar mot graven i skogen. Inte kurtisanhämnden. Text: [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md). | | | utkast |
+| Q2-08 | Dagboksblad 4, handlingen | B-17 | Helt blad, stannar i stugan. "Blad 4" överst. Bygget och rätten att preja. Text: [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md). | | | utkast |
 | Q2-09 | Dagboksblad 8, tillflykten | B-17 | Helt blad, stannar i stugan. "Blad 8" överst. Nutid. Stor plan utan innehåll. Text: [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md). | | | utkast |
 | Q2-10 | Cryptex-tokens vid Ottos grav | B-17 | Tre tokens, annan bokstav än Q2-01. Skylt: Endast en per lag. Ligger vid skelettet i skogen. Reservtokens hos spelledning, inte på ön. | | | saknas |
 | Q5-01 | 24 piratporträtt, uppsatta efter skuta | B-18 | Framsida ansikte, 16 baksidor med bokstav enligt tabellen i [`quests/Q-5.md`](quests/Q-5.md). 8 tomma. Ingen Felix. Tåla att tas ner och hängas tillbaka. | | | saknas |
 | Q5-03 | Dagboksblad 7, skulderna | B-18 | Helt blad. "Blad 7" överst. I svärdfiskens mun. Text: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md). Avskrift hos spelledning. | | | utkast |
 | Q5-04 | Tre cryptex-lappar | B-18 | I svärdfiskens mun med Q5-03. Positionsmarkering TBD. Troligen one-off. Reservlappar hos spelledning. | | | saknas |
-| Q3-01 | Dagboksblad 5 I, ombord | B-19 | Fastsatt i gymmet. "Blad 5" plus I. Tåla att läsas av tre lag, inte tas. Text: [`../rekvisita/Q3-dagbok-1-ombord.md`](../rekvisita/Q3-dagbok-1-ombord.md). | | | utkast |
-| Q3-02 | Dagboksblad 5 II, lagfarten | B-19 | Fastsatt på vedhögen bakom bastun. Utomhus, vaxduk eller laminat. "Blad 5" plus II. Gömd lagfart i klartext. Sista raden versaler, Caesar +13, facit `LAGFARTEN FINNS UNDER BADBRYGGAN`. Text: [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). | | | utkast |
+| Q3-01 | Dagboksblad 6 I, ombord | B-19 | Fastsatt i gymmet. "Blad 6" plus I. Tåla att läsas av tre lag, inte tas. Text: [`../rekvisita/Q3-dagbok-1-ombord.md`](../rekvisita/Q3-dagbok-1-ombord.md). | | | utkast |
+| Q3-02 | Dagboksblad 6 II, lagfarten | B-19 | Fastsatt på vedhögen bakom bastun. Utomhus, vaxduk eller laminat. "Blad 6" plus II. Gömd lagfart i klartext. Sista raden versaler, Caesar +13, facit `LAGFARTEN FINNS UNDER BADBRYGGAN`. Text: [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). | | | utkast |
 | Q3-03 | Ägarbevis, Malin till Malin | B-19 | Tas. Under badbryggan, nåbar från bryggan utan simning, vattentät påse. Inte dagbok. Inte bladnummer. Text: [`../rekvisita/Q3-agarbevis.md`](../rekvisita/Q3-agarbevis.md). Avskrift hos spelledning. | | | utkast |
 | Q3-04 | Cryptex-lapp under badbryggan | B-19 | I samma påse som Q3-03. Positionsmarkering TBD. Engångs. Reservlapp hos spelledning. | | | saknas |
 | Q4-01 | *Tomtebobarnen*, fysisk barnbok | B-20 | Hyllan i Storstugan, synlig titel. Inte dagboken. Q4-02 och Q4-03 fastsatta inuti, går inte att ta. | | | saknas |
-| Q4-02 | Dagboksblad 6, havet | B-20 | Fastsatt i *Tomtebobarnen*. "Blad 6" överst. Kärleken till Salmonellahavet. Inte kikaren som prop. Inte bäringen. Text: [`../rekvisita/Q4-dagbok-1-havet.md`](../rekvisita/Q4-dagbok-1-havet.md). Avskrift hos spelledning. | | | utkast |
+| Q4-02 | Dagboksblad 1, havet | B-20 | Fastsatt i *Tomtebobarnen*. "Blad 1" överst. Ung. Drömmer om Salmonellahavet och om frihet. Inte kikaren som prop. Inte bäringen. Text: [`../rekvisita/Q4-dagbok-1-havet.md`](../rekvisita/Q4-dagbok-1-havet.md). Avskrift hos spelledning. | | | utkast |
 | Q4-03 | Kompassbild | B-20 | Fastsatt i *Tomtebobarnen*. Tryckt kompass, nålen visar bäringen från kikaren mot skylten. Mäts på plats före tryck. Bildtext: sikta genom glaset. Inte dagbok. Text: [`../rekvisita/Q4-kompass.md`](../rekvisita/Q4-kompass.md). | | | utkast |
 | Q4-04 | Skylt på annan ö | B-20 | En cryptex-bokstav, läsbar bara genom kikaren i rätt bäring. Tas inte. Storlek testas på plats. Reserv: Spader har bokstaven. | | | saknas |
 | Q4-05 | Kompass vid kikaren | B-20 | Fysisk kompass, avläsbar, sitter vid kikaren. Ingen mobil. | | | saknas |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
-Q-4: blad 6 är kapitlet, kompassbilden och skylten är inte dagbok. Kronologi: [`quests.md`](quests.md).
+Q-4: blad 1 är kapitlet, kompassbilden och skylten är inte dagbok. Kronologi: [`quests.md`](quests.md).
 
 ## Bygg och installation
 
@@ -117,13 +117,13 @@ Sådant som ska produceras i repot eller skickas till tryck.
 |-----|--------|-------------|--------|
 | Kärleksbrev från Karl XII (K-07) | Tryck eller handskrift, sigill, ett blad | [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md) | utkast |
 | Malins dagbok (D-01) | Pärm, utrivna stubbar, synlig i Storstugan | | saknas |
-| Malins dagboksblad 1, före (Q1-01) | Ett blad, dubbelsidigt, rives vertikalt. "Blad 1" på båda halvorna | [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md) | utkast |
-| Malins dagboksblad 4, efter (Q1-04) | Ett helt blad. "Blad 4" | [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md) | utkast |
-| Malins dagboksblad 2, namnet (Q2-07) | Ett helt blad, stannar i stugan. "Blad 2" | [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md) | utkast |
-| Malins dagboksblad 3, handlingen (Q2-08) | Ett helt blad, stannar i stugan. "Blad 3" | [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md) | utkast |
+| Malins dagboksblad 2, före (Q1-01) | Ett blad, dubbelsidigt, rives vertikalt. "Blad 2" på båda halvorna | [`../rekvisita/Q1-dagbok-1-fore.md`](../rekvisita/Q1-dagbok-1-fore.md), [`../rekvisita/Q1-dagbok-1-baksida.md`](../rekvisita/Q1-dagbok-1-baksida.md) | utkast |
+| Malins dagboksblad 5, efter (Q1-04) | Ett helt blad. "Blad 5" | [`../rekvisita/Q1-dagbok-2-efter.md`](../rekvisita/Q1-dagbok-2-efter.md) | utkast |
+| Malins dagboksblad 3, namnet (Q2-07) | Ett helt blad, stannar i stugan. "Blad 3" | [`../rekvisita/Q2-dagbok-1-namnet.md`](../rekvisita/Q2-dagbok-1-namnet.md) | utkast |
+| Malins dagboksblad 4, handlingen (Q2-08) | Ett helt blad, stannar i stugan. "Blad 4" | [`../rekvisita/Q2-dagbok-2-handlingen.md`](../rekvisita/Q2-dagbok-2-handlingen.md) | utkast |
 | Malins dagboksblad 8, tillflykten (Q2-09) | Ett helt blad, stannar i stugan. "Blad 8" | [`../rekvisita/Q2-dagbok-3-tillflykten.md`](../rekvisita/Q2-dagbok-3-tillflykten.md) | utkast |
 | Malins dagboksblad 7, skulderna (Q5-03) | Ett helt blad. "Blad 7" | [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md) | utkast |
-| Malins dagboksblad 6, havet (Q4-02) | Ett helt blad, fastsatt i *Tomtebobarnen*. "Blad 6" | [`../rekvisita/Q4-dagbok-1-havet.md`](../rekvisita/Q4-dagbok-1-havet.md) | utkast |
+| Malins dagboksblad 1, havet (Q4-02) | Ett helt blad, fastsatt i *Tomtebobarnen*. "Blad 1" | [`../rekvisita/Q4-dagbok-1-havet.md`](../rekvisita/Q4-dagbok-1-havet.md) | utkast |
 | Kompassbild (Q4-03) | Tryckt bild, nålen mäts på plats | [`../rekvisita/Q4-kompass.md`](../rekvisita/Q4-kompass.md) | utkast |
 | *Tomtebobarnen* (Q4-01) | Fysisk barnbok, hyllan i Storstugan | | saknas |
 | Miniatyr av Karl XII | Bild, liten, dressing i kistan | | utkast saknas |

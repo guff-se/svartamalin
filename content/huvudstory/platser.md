@@ -17,19 +17,19 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Södra Ovanan** | Egen ö. Nås med motordriven eka (5 personer, 2 min), kajak, SUP eller simning. Aldrig ensam. | Ekan tar fem åt gången, minst två ombord. Kajaker och SUP minst två farkoster. | Q-2. Vägen till piratstugan och Ottos grav. | II |
 | **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Huset hon byggde som tillflykt. Minnen plus skrin med tokens. Namnbladet pekar mot graven. Inte escape-rum. | II |
 | **Skelettet i skogen** (Södra Ovanan) | Ottos grav. Befintlig prop. | Liten grupp | Q-2. Andra cryptex-ledtråden. Namnbladet i stugan pekar hit. Inte en identitetsgåta. | II |
-| **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. Q-4: *Tomtebobarnen* i hyllan, blad 6 och kompassbild. Inte dagboken. | II |
+| **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. Q-4: *Tomtebobarnen* i hyllan, blad 1 och kompassbild. Inte dagboken. | II |
 | **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD. Inte Q-3: vedhögen bakom bastun är ett annat ställe. | III, efterspel |
-| **Vedhögen bakom bastun** | Vedtrave bakom bastun, utomhus | 2 till 5 personer | Q-3. Andra pit stop. Blad 5 II fastsatt, Caesar +13. | II |
+| **Vedhögen bakom bastun** | Vedtrave bakom bastun, utomhus | 2 till 5 personer | Q-3. Andra pit stop. Blad 6 II fastsatt, Caesar +13. | II |
 | **Hopptornet** | Hopptorn vid vattnet | Liten grupp | TBD. Inte Q-3. | |
 | **Badbryggan** | Badbrygga vid vattnet, skild från ankomstbryggan. Skatten sitter under, nåbar från bryggan. Inte i vattnet. Inte simning. | Liten grupp | Q-3. Skatt: ägarbevis och cryptex-lapp. | II |
 | **Verkstaden** | Verkstad med förrådsrum som kan byggas om | Förråden tar 3 till 6 personer | TBD | |
 | **Segelbåten vid bojen** (Tvåkronan) | Båt en bit ut, kräver simning eller eka. Aldrig ensam. | 2 till 4 personer, hög tröskel | TBD. Parkerad idé: 2-kronorsmynt ombord, se [`pussel.md`](pussel.md) | |
 | **Kikaren** | Väldigt bra kikare, ser andra öar | 1 person i taget, kö uppstår | Q-4. Slutdestination. En fysisk kompass sitter där. | II |
 | **Skylt på annan ö** | Text läsbar bara genom kikaren, i rätt bäring. En cryptex-bokstav. | Envägsinformation | Q-4. Skatten. Tas inte. Kräver förarbete: tillstånd, installation, läsbarhet. | II |
-| **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1. Vänster halva av blad 1. | II |
-| **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1. Höger halva av blad 1. | II |
-| **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1. Påsen med blad 4 och cryptex-lappen, högt i nätet. | II |
-| **Gymmet** | Styrketräningsgym i egen byggnad | 4 till 8 personer | Q-3. Första pit stop. Blad 5 I fastsatt. Starten pekar hit. | II |
+| **Gubben i stubben** | Bänk vid en stubbe, norra ändan av Ovanan. Trägubbe och spritflaska gömda i stubben | 2 till 5 personer | Q-1. Vänster halva av blad 2. | II |
+| **Gumman på udden** | Bänk på södra ändan av Ovanan (huvudön, inte Södra Ovanan). Trägumma och spritflaska | 2 till 5 personer | Q-1. Höger halva av blad 2. | II |
+| **Klätternätet** | Klätternät | Fysisk aktivitet, flera samtidigt | Q-1. Påsen med blad 5 och cryptex-lappen, högt i nätet. | II |
+| **Gymmet** | Styrketräningsgym i egen byggnad | 4 till 8 personer | Q-3. Första pit stop. Blad 6 I fastsatt. Starten pekar hit. | II |
 | **Bryggan och storbåten** | Ankomst och avfärd | Alla | Ankomst fredag, avfärd söndag | Ram |
 | **Matsal och festplats** | Middag fredag, brunch lördag, festen 20.00 | Alla | Överdåd fredag, brunch 14.00, kaviar och rom, kistan öppnas | I, III, IV |
 | **Malins kista** | Låst kista, väl synlig. Ska se ut att innehålla skatt. | Alla ser den. En i taget vid låset. | Konvergenspunkten. Frö fredag, jakt lördag, tändning 20.40. | I, II, IV |

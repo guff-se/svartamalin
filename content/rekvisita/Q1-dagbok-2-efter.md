@@ -1,16 +1,16 @@
 ---
 quest: Q-1
 prop: Q1-04
-dagbok: 4
+dagbok: 5
 ---
 
-# Dagboksblad 4, efter hämnden
+# Dagboksblad 5, efter hämnden
 
-Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med cryptex-lappen i klätternätet. Bara dagbok. Kronologiskt efter blad 2 och 3.
+Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med cryptex-lappen i klätternätet. Bara dagbok. Kronologiskt efter blad 3 och 4.
 
 ## Tryck
 
-Blad 4
+Blad 5
 
 Otto.
 

@@ -46,22 +46,22 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 
 En fysisk bok i **Storstugan**. Synlig. Inte ett gömme. Inte en karta till bladen. Off-regel: den som inte söker något i boken lämnar den.
 
-De utrivna bladen bär kapitlen. Cryptex-lappar, tokens, kompassbilder och vägvisning på baksidor är inte dagbok. Q-4: blad 6 i *Tomtebobarnen*, fastsatt. Kapitlet är ett dagboksblad, inte en proklamation eller en ed som bär storyn. Kompassbilden och skylten är inte dagbok. Q-3: två fysiska blad av blad 5, samma natt, läsordning I–II. Ägarbeviset under badbryggan är inte dagbok.
+De utrivna bladen bär kapitlen. Cryptex-lappar, tokens, kompassbilder och vägvisning på baksidor är inte dagbok. Q-4: blad 1 i *Tomtebobarnen*, fastsatt. Ung, före kärleken, före sveket. Kapitlet är ett dagboksblad, inte en proklamation eller en ed som bär storyn. Kompassbilden och skylten är inte dagbok. Q-3: två fysiska blad av blad 6, samma natt, läsordning I–II. Ägarbeviset under badbryggan är inte dagbok.
 
 Talet **Blad N** ska stå på papperet, så den som samlar flera kan lägga dem i tidsordning. Inte i questordning. Inte som lösenord.
 
 | Blad | Liv | Quest | Prop | Hittas |
 |------|-----|-------|------|--------|
-| 1 | Första kärleken, före förräderiet | [Q-1](quests/Q-1.md) | Q1-01 | Gubben och Gumman, itu |
-| 2 | Förrådd. Tar namnet Svarta. Ska begrava Otto. | [Q-2](quests/Q-2.md) | Q2-07 | Piratstugan. Stannar. |
-| 3 | Bygget. Rätten att preja. | [Q-2](quests/Q-2.md) | Q2-08 | Piratstugan. Stannar. |
-| 4 | Hämnden klar. Otto begraven. Skutan döpt. | [Q-1](quests/Q-1.md) | Q1-04 | Klätternätet |
-| 5 | Hon "tar" korvetten. Lögnen. Samma natt, två blad, I–II. | [Q-3](quests/Q-3.md) | Q3-01, Q3-02 | Gymmet (I, stannar), vedhögen (II, stannar) |
-| 6 | Hon älskar Salmonellahavet. | [Q-4](quests/Q-4.md) | Q4-02 | *Tomtebobarnen*, hyllan i Storstugan. Stannar. |
+| 1 | Ung. Drömmer om havet och friheten. | [Q-4](quests/Q-4.md) | Q4-02 | *Tomtebobarnen*, hyllan i Storstugan. Stannar. |
+| 2 | Första kärleken, före förräderiet | [Q-1](quests/Q-1.md) | Q1-01 | Gubben och Gumman, itu |
+| 3 | Förrådd. Tar namnet Svarta. Ska begrava Otto. | [Q-2](quests/Q-2.md) | Q2-07 | Piratstugan. Stannar. |
+| 4 | Bygget. Rätten att preja. | [Q-2](quests/Q-2.md) | Q2-08 | Piratstugan. Stannar. |
+| 5 | Hämnden klar. Otto begraven. Skutan döpt. | [Q-1](quests/Q-1.md) | Q1-04 | Klätternätet |
+| 6 | Hon "tar" korvetten. Lögnen. Samma natt, två blad, I–II. | [Q-3](quests/Q-3.md) | Q3-01, Q3-02 | Gymmet (I, stannar), vedhögen (II, stannar) |
 | 7 | Skulderna. Hon håller havet. | [Q-5](quests/Q-5.md) | Q5-03 | Svärdfiskens mun |
 | 8 | Nutid. Tillflykten. En stor plan. | [Q-2](quests/Q-2.md) | Q2-09 | Piratstugan. Stannar. |
 
-Hittordning är en annan sak. Q-1 ger blad 1, sedan blad 4. Q-2 ger blad 2, 3 och 8 i samma rum, utan krav på ordning. Q-3 ger blad 5 I, sedan II. Ägarbeviset är inte blad. Q-4 ger blad 6 i *Tomtebobarnen*. Q-5 ger blad 7. En gäst som bara springer en quest ska ändå förstå sitt kapitel. Kronologin är för den som får flera blad i handen.
+Hittordning är en annan sak. Q-4 ger blad 1 i *Tomtebobarnen*. Q-1 ger blad 2, sedan blad 5. Q-2 ger blad 3, 4 och 8 i samma rum, utan krav på ordning. Q-3 ger blad 6 I, sedan II. Ägarbeviset är inte blad. Q-5 ger blad 7. En gäst som bara springer en quest ska ändå förstå sitt kapitel. Kronologin är för den som får flera blad i handen.
 
 Boken i Storstugan: pärm, titel, utrivna stubbar. Inga kvarvarande kapitel. Ingen innehållsförteckning som pekar mot gömmen. Inga namn på kungen.
 
@@ -95,7 +95,7 @@ Mönster, redan skrivna:
 - Q-1: ett rivet dagboksblad om hennes första kärlek, två uddar. Inte kurtisanen, inte hämnden, inte Ottos namn, inte att skutan är döpt efter yrket.
 - Q-2: ryktet om huset hon byggde. Inte hur hon blev pirat. Kapitlet sitter i stugan.
 - Q-3: hon vilar aldrig, bladet sitter i gymmet. Inte prejningen, inte att skutan är tagen. Tvärledtråd: tretton steg framåt, inte var bladen sitter.
-- Q-4: *Tomtebobarnen* var hennes favoritbok som barn, hyllan i Storstugan. Inte havet. Inte kärleken. Inte kikaren. Inte kompassen.
+- Q-4: *Tomtebobarnen* var hennes favoritbok som barn, hyllan i Storstugan. Inte havet. Inte friheten. Inte kikaren. Inte kompassen.
 - Q-5: du är skyldig henne, hon för logg. Inte var loggen sitter.
 
 När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet. **Q-2 får ingen tvärledtråd.** Samma tre hårda regler: inte kapitlet, inte mottagarens övriga relationer, uppmana att ta laget om tråden ska spelas.
@@ -109,7 +109,7 @@ När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråd
 | [Q-1](quests/Q-1.md) | Första kärleken | Malin var kurtisan. Sängen är underrättelse och hämnd. Skutan är döpt efter yrket. | Yrket är kanon. Första personen är Greve Otto von Pälspung, inte kungen. Hon är fortfarande kurtisan: det sitter bakom kulisserna. |
 | [Q-2](quests/Q-2.md) | Hur hon blev pirat | Hon tog namnet Svarta ur sorgen. Hon byggde själv. Hon begravde von Pälspung i skogen. Stugan är tillflykten. | Stugan och graven är kanon. Planen i tillflyktsbladet är kungen, osagt. |
 | [Q-3](quests/Q-3.md) | Korvetten | Hon prejade sin egen korvett. | **Lögn.** Sanningen: kungen satte den på hennes namn som belöning. Sitter i kistan. |
-| [Q-4](quests/Q-4.md) | Havet | Hon älskar Salmonellahavet. Hon tar det med blicken, genom glas. Kikaren är metaforen. | Kärleken får vara sann. Hur hon fick ön sitter inte här. Får inte säga att kajen är en fälla. |
+| [Q-4](quests/Q-4.md) | Havet | Som ung drömde hon om Salmonellahavet och om frihet. Hon tittade. Kikaren är den blicken. | Längtan får vara sann. Före Otto. Före sveket. Hur hon fick ön sitter inte här. Får inte säga att kajen är en fälla. |
 | [Q-5](quests/Q-5.md) | Skuldboken | Hon samlar andras skulder. Lojalitet går att skriva upp. | Metoden är sann nog. Kistan bär inte hennes arkiv. |
 
 ---
@@ -123,7 +123,7 @@ När locket går upp ska de fem kapitlen omtolkas utan ny logik. Skriv inte omto
 | [Q-1](quests/Q-1.md) | Samma recept. Ny kund. Kunden i kistan är kungen. |
 | [Q-2](quests/Q-2.md) | Planen i tillflykten var att vila. Priset var de andra. |
 | [Q-3](quests/Q-3.md) | Prejningen var kungens gåva. |
-| [Q-4](quests/Q-4.md) | Kärleken till havet var sann. Därför samlade hon dem vid vattnet. |
+| [Q-4](quests/Q-4.md) | Längtan till havet var sann, redan som ung. Därför samlade hon dem vid vattnet. |
 | [Q-5](quests/Q-5.md) | Ni har sett hur hon håller havet. Tre skuldbrev ligger kvar. Brevet visar att hon ville sluta. |
 
 ---

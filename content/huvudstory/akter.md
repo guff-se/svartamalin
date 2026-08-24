@@ -252,7 +252,7 @@ Plats:          Gubben i stubben, Gumman på udden, klätternätet
 Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i [`quests.md`](quests.md), hon jagar bladen bakom Malins rygg.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
-Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 1, vänder, följer baksidan till klätternätet. I påsen: blad 4 (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen. Kronologi: [`quests.md`](quests.md). Inte samma som hittordningen.
+Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 2, vänder, följer baksidan till klätternätet. I påsen: blad 5 (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen. Kronologi: [`quests.md`](quests.md). Inte samma som hittordningen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 
@@ -273,7 +273,7 @@ Plats:          Södra Ovanan, piratstugan, skelettet i skogen
 Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Inte Malin.
 Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
 
-Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 2 namnet, blad 3 handlingen, blad 8 tillflykten), tar en token ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra token där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
+Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten), tar en token ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra token där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
 
 Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten själv, tog namnet Svarta, begravde Otto i skogen, och fortfarande behöver en plats att vara ifred. Inte Ran. Inte kungen.
 
@@ -315,7 +315,7 @@ Plats:          Gymmet, vedhögen bakom bastun, under badbryggan
 Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Kapten Döver (`navidmodiri`), Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd: Kapten Enben (`amaliawahlstrom`) och Kapten Frodig (`josefinansund`) på skuta 3, Kapten Hurring (`jesperlindmarker`) och Kapten Planka (`linneaappert`) på skuta 1. Inte mullvad, inte Malin, inte Spader.
 Publik:         den som ser folk i gymmet läsa väggen, vid veden, eller böja sig under badbryggan
 
-Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 5 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 5 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: två personer per av de två skutorna utan Q-3 vet tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och cryptex-lappen, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
+Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 6 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 6 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: två personer per av de två skutorna utan Q-3 vet tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och cryptex-lappen, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
 
 Vad ändras:     rummet vet att hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Inte att kungen gav henne skutan.
 
@@ -336,9 +336,9 @@ Plats:          Storstugan hyllan, kikaren, skylt på annan ö
 Inblandade:     Skuta 1, 2, 4. Startpersoner öppna. Inte skuta 3, inte skuta 5 (båda fulla). Inte Malin, inte Spader, inte mullvad.
 Publik:         den som ser folk bläddra i barnboken, och den som står i kö vid kikaren
 
-Vad händer:     tre skutor jagar vad Malin älskar. Starten pekar mot *Tomtebobarnen* i hyllan i Storstugan, hennes favoritbok som barn. Inte dagboken. Inte havet. I boken: blad 6 (kärleken till Salmonellahavet, fastsatt) och en kompassbild med sann bäring (fastsatt). Kikaren är slutdestination och metafor. I rätt bäring: skylt på annan ö med en cryptex-bokstav. Tas inte. Pit stop och skatt återanvändbara. Bäring mäts på plats.
+Vad händer:     tre skutor jagar vad Malin längtar efter. Starten pekar mot *Tomtebobarnen* i hyllan i Storstugan, hennes favoritbok som barn. Inte dagboken. Inte havet. I boken: blad 1 (ung, havet och friheten, fastsatt) och en kompassbild med sann bäring (fastsatt). Kikaren är slutdestination och metafor. I rätt bäring: skylt på annan ö med en cryptex-bokstav. Tas inte. Pit stop och skatt återanvändbara. Bäring mäts på plats.
 
-Vad ändras:     rummet vet att hon älskar Salmonellahavet, att hon tar det med blicken, genom glas. Inte hur hon fick ön. Inte att kajen är en fälla.
+Vad ändras:     rummet vet att hon som ung drömde om Salmonellahavet och om frihet, att hon tittade, genom glas. Inte Otto. Inte sveket. Inte hur hon fick ön. Inte att kajen är en fälla.
 
 Trigger:        Q-4-start skriven i tre individintriger, när de är tillsatta
 Väg 1:          tre lag läser boken, siktar kikaren, ser bokstaven

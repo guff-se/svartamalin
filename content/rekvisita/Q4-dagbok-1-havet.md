@@ -2,21 +2,23 @@
 quest: Q-4
 beat: B-20
 prop: Q4-02
-dagbok: 6
+dagbok: 1
 ---
 
-# Dagboksblad 6, havet
+# Dagboksblad 1, havet
 
-I *Tomtebobarnen*. Fastsatt. Kikaren är metaforen, inte en pekare i texten. Inte bäringen.
+Ung Malin. Före kärleken. Före sveket. Drömmen om Salmonellahavet och friheten. I *Tomtebobarnen* tillsammans med kompassbilden (Q4-03). Sidorna stannar. Inte Otto. Inte namnet Svarta. Inte hur hon fick ön.
 
 ## Tryck
 
-Blad 6
+Blad 1
 
-De frågar vem. De menar en man. De menar ett skepp.
+De andra leker i skogen. Jag tittar på vattnet.
 
-Salmonellahavet. Saltet. Horisonten som inte tar slut hur nära jag seglar.
+Salmonellahavet. Det tar inte slut. Det frågar inte vem jag är.
 
-Jag tittar tills ögonen bränner. Jag älskar det på avstånd. Genom luft. Genom glas. Inte med kanon. Inte med kajplank. Med blicken.
+En dag seglar jag. Inte mot någon. Bara ut. Fri som linjen där vattnet möter himlen.
 
-Det går inte att äga. Det går att älska. Det är värre, och det är nog.
+Jag tittar tills ögonen svider. Genom luften. Genom glaset i fönstret. Havet är stort nog. Jag ska bli stor nog.
+
+Det går inte att hålla fast. Det går att längta efter. Det räcker.
