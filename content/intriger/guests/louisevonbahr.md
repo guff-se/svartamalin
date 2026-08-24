@@ -22,4 +22,4 @@ Du har länge anat att **Kapten Döver**s dövhet är påhitt, men du har aldrig
 
 Ett rykte har landat i ditt öra utan avsändare, det slaget du annars alltid vet varifrån det kommer. Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
 
-Ett rykte utan ägare är sällsynt, och du kan inte låta bli att undra vem som egentligen vet, och varför ingen vill kännas vid det. Ta dig över till den öde ön innan helgen är över och se om huset finns på riktigt.
+Ett rykte utan ägare är sällsynt, och du kan inte låta bli att undra vem som egentligen vet, och varför ingen vill kännas vid det. Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.

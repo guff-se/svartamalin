@@ -30,4 +30,4 @@ Fasanskålen och den kapade skiffen räcker inte längre. Du vill se **Svarta Ma
 
 Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
 
-Du vill veta var hon gömmer sig när garden är nere. En kvinna utan sitt sällskap och sin charm är lättare att komma åt, och du har redan ett horn i sidan till henne. Ta dig över till den öde ön innan helgen är över och se om huset finns på riktigt.
+Du vill veta var hon gömmer sig när garden är nere. En kvinna utan sitt sällskap och sin charm är lättare att komma åt, och du har redan ett horn i sidan till henne. Kalla ihop **Barken Bortförklaringen** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.
