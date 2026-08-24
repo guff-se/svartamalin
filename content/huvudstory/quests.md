@@ -18,7 +18,7 @@ Använd den här filen för gemensamma regler och för hur ingångstext skrivs i
 
 Status: **story låst 2026-08-20. Q-1 relåst 2026-08-22. Q-2 relåst 2026-08-23. Q-5 form låst 2026-08-23.** Mekanik delvis: Q-1 har form och är engångsquest. Q-2 har form utan pussel och utan pit stops. Q-3 och Q-4 saknar form. Q-5 har form. Lediga pusselbyggstenar: [`pussel.md`](pussel.md). När en byggsten tillsätts en quest flyttas den till questens fil och stryks där.
 
-**Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom.
+**Tillsätt inte här.** Vilken skuta som har vilken quest, vem som bär start, vem som bär tvärledtråd, och vem som är mullvad: det väljs i [`fordelning.yaml`](fordelning.yaml) och [`forradare.yaml`](forradare.yaml) **när questsen är färdigskrivna** (story plus uppgifter). Inte tvärtom. En start per gäst. Inte till mullvad, inte till Malin, inte till Spader. Se regel 11-13.
 
 ---
 
@@ -34,8 +34,11 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.
 7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på questens fil. Bygg inte noder som motsäger den. Q-2 har inget pussel.
 8. **Korvetten Kurtisanens egna quest-trådar spelas bakom Malins rygg.** Malin är skuta 1:s egen kapten. En quest-start till en medlem av **Korvetten Kurtisanen** (`malintadaa` undantagen, hon bär aldrig sin egen jakt) ska instruera att uppdraget måste lösas utan att Malin ser eller anar det. Hon delar koj, köl och vardag med dem hela helgen: att gräva i hennes förflutna är farligare för en Kurtisan än för någon annan skutas medlem. Skriv in det som en konkret risk i gästtexten (hon kan komma runt hörnet när som helst), inte som en spelledningsvarning.
-9. **Löjtnant Spader (`gustaftadaa`) får varken start eller tvärledtråd.** Han är fullt spelbar i övrigt. Han ska inte sitta och lösa huvudquesten.
+9. **Löjtnant Spader (`gustaftadaa`) får varken start eller tvärledtråd.** Han är fullt spelbar i övrigt. Han ska inte sitta och lösa huvudquesten. Se också regel 13.
 10. **En dagbok, utrivna blad.** Malins dagbok står synlig i Storstugan. De flesta sidorna är utrivna. De utrivna bladen är det gästerna hittar i questsen. Kronologisk ordning står i tabellen nedan. Den är inte samma som hittordningen. Skriv inte in bokens plats som ett sökuppdrag i gästtext. Boken är dressing: den som råkar öppna den ser stubbar, inte kapitel.
+11. **Max en ingång per gäst.** En `login_slug` bär start till högst en quest. Inte två. Tvärledtråd räknas inte som ingång: samma person får bära start i en quest och tvärledtråd i en annan. Kontrollera [`fordelning.yaml`](fordelning.yaml) innan en ny start skrivs.
+12. **Förrädare får inte ingång.** Mullvad i [`forradare.yaml`](forradare.yaml) bär inte quest-start. Kontaktpersonen får. Tvärledtråd till en mullvad är tillåten, det är inte ingång.
+13. **Svarta Malin och Löjtnant Spader får inte ingång.** Inte `malintadaa`, inte `gustaftadaa`. Malin bär aldrig sin egen jakt (regel 8). Spader får inte heller tvärledtråd (regel 9).
 
 ---
 
@@ -66,7 +69,7 @@ Boken i Storstugan: pärm, titel, utrivna stubbar. Inga kvarvarande kapitel. Ing
 
 ## Ingångstext i `content/intriger/`
 
-Gäller startstycket i `content/intriger/guests/{slug}.md`. Inte lagfilen. Inte tvärledtråd (den har egen regel längst ner). Skriv först när questen är färdig och personen är tillsatt i [`fordelning.yaml`](fordelning.yaml). Röst enligt [`../intriger/STYLE.md`](../intriger/STYLE.md). Innehåll enligt questens fält **Cirkulerande version, start**.
+Gäller startstycket i `content/intriger/guests/{slug}.md`. Inte lagfilen. Inte tvärledtråd (den har egen regel längst ner). Skriv först när questen är färdig och personen är tillsatt i [`fordelning.yaml`](fordelning.yaml). Mottagaren måste klara regel 11-13: högst en start, inte mullvad, inte Malin, inte Spader. Röst enligt [`../intriger/STYLE.md`](../intriger/STYLE.md). Innehåll enligt questens fält **Cirkulerande version, start**.
 
 Starten är **första ledtråden**, inte kapitlet. Gästen ska vilja veta mer och veta vart hen går. Hen ska inte redan ha lärt sig det questen är till för att lära. Testet: om starten redan svarar på fältet "Vad de ska ha lärt sig när questen är klar", är den för lång. Stryk svaret. Lämna frågan, ett rykte, och nästa handling.
 

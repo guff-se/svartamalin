@@ -20,6 +20,18 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-24, vem som får quest-ingång
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md) gemensamma regler 11-13.
+
+- [x] Varje gäst kan bara bli tilldelad MAX en ingångsintrig till quest.
+- [x] förrädare kan inte bli tilldelad en ingångsintrig.
+- [x] Svarta malin och löjtnant spader kan inte bli tilldelade ingångsintrig.
+
+Kryss = reglerna sitter i [`quests.md`](quests.md). Befintliga tillsättningar som bryter dem flyttas inte förrän Gustaf säger till.
+
+---
+
 ## 2026-08-24, dagboken
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/`](quests/), [`platser.md`](platser.md), [`produktion.md`](produktion.md).
