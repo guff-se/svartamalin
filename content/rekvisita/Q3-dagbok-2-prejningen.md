@@ -5,21 +5,21 @@ prop: Q3-02
 dagbok: 5
 ---
 
-# Dagboksblad 5 II, förvärvet
+# Dagboksblad 5 II, lagfarten
 
-Vedhögen bakom bastun. Fastsatt. Kronologiskt samma natt som blad 5 I. Hon ska förvärva skeppet på hederligt sätt. Sista raden Caesar +13.
+Vedhögen bakom bastun. Fastsatt. Samma natt som I. Gömd lagfart i klartext. Chiffer: var. Inte prejning.
 
 ## Tryck
 
 Blad 5
 II
 
-Jag ska förvärva skeppet på hederligt sätt. Skriv det, Malin, skriv det tydligt så du minns det i morgon när blodet lugnat sig: hederligt. Inte som en tjuv i natten med kniven i strumpan. Som den som redan har rätten, och bara sitter och väntar på att pennan ska hinna ikapp handen.
+Förvärva skeppet på hederligt sätt. Skriv det, Malin, så du minns det i morgon när blodet lugnat sig: hederligt. Inte som en tjuv i natten med kniven i strumpan. Som den som redan har rätten, och bara väntar på att papperet ska hinna ikapp handen.
 
-Vedstapeln är kall mot ryggen. Barken river genom linnet var gång jag rör mig. Jag sitter här för att ingen letar efter ett dagboksblad bland vedträ, och för att jag behöver skriva det här någonstans luften inte hör mig ändra mig igen.
+Vedstapeln är kall mot ryggen. Barken river genom linnet var gång jag rör mig. Jag sitter här för att ingen letar efter ett dagboksblad bland vedträ.
 
-Sjörövarns lag är den enda lag jag litar på, och den säger: den som går ombord och pekar på rätten har redan tagit. Jag gick ombord i natt. Alltså är rätten redan min, och har varit min längre än jag vetat om det.
+Det finns en lagfart. Gömd. Den som håller den håller skeppet i svart på vitt, och världen tror vad den läser. Ett skepp utan lagfart är bara ett rykte. Ett skepp med lagfart är ett faktum.
 
-Jag tar inte. Jag förvärvar. Skillnaden är liten för den som blir tagen och enorm för den som sedan skriver historien.
+Papperet först. I natt.
 
-ÄTNEORIVFRG SVAAF HAQRE UBCCGBEARG
+YNTSNEGRA SVAAF HAQRE UBCCGBEARG

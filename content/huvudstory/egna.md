@@ -31,6 +31,18 @@ Kryss = nyckeln sitter hos de två personerna, inte på gymbladet. Alltid framå
 
 ---
 
+## 2026-08-24, Q-3 lagfart som twist
+
+Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md) och [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). Överstyr chiffertexten i avsnittet under.
+
+- [x] skriv om blad 5 II för att inte avslöja att det handlar om en prejning
+- [x] Ägarbeviset som malin har utfärdat till sig själv skall bli en kul twist, att man tror att man hittar lagfarten
+- [x] Att det finns en gömd lagfart skall stå även i texten utanför chiffret
+
+Kryss = blad 5 II nämner den gömda lagfarten i klartext. Chiffer: `LAGFARTEN FINNS UNDER HOPPTORNET`. Punchline under tornet är ägarbeviset Malin till Malin.
+
+---
+
 ## 2026-08-24, Q-3 ägarbevis
 
 Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md). Ersätter sista dagbokssidan under hopptornet.
@@ -39,7 +51,7 @@ Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md). Ersätter s
 - [x] Det verkliga ägarbevist är bara ett dokument från Malin till Malin där hon ger sig själv äganderätten i enighet med piraternas lagar.
 - [x] Så skippar vi sista dagbokssidan.
 
-Kryss = blad 5 är I–II. Skatten är ägarbeviset plus cryptex-lappen.
+Kryss = blad 5 är I–II. Skatten är ägarbeviset plus cryptex-lappen. Chiffertexten överstyrd samma dag, se avsnittet ovan.
 
 ---
 

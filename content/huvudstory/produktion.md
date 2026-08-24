@@ -40,7 +40,7 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q5-03 | Dagboksblad 7, skulderna | B-18 | Helt blad. "Blad 7" överst. I svärdfiskens mun. Text: [`../rekvisita/Q5-dagbok-1-skulderna.md`](../rekvisita/Q5-dagbok-1-skulderna.md). Avskrift hos spelledning. | | | utkast |
 | Q5-04 | Tre cryptex-lappar | B-18 | I svärdfiskens mun med Q5-03. Positionsmarkering TBD. Troligen one-off. Reservlappar hos spelledning. | | | saknas |
 | Q3-01 | Dagboksblad 5 I, ombord | B-19 | Fastsatt i gymmet. "Blad 5" plus I. Tåla att läsas av tre lag, inte tas. Text: [`../rekvisita/Q3-dagbok-1-ombord.md`](../rekvisita/Q3-dagbok-1-ombord.md). | | | utkast |
-| Q3-02 | Dagboksblad 5 II, prejningen | B-19 | Fastsatt på vedhögen bakom bastun. Utomhus, vaxduk eller laminat. "Blad 5" plus II. Sista raden versaler, Caesar +13. Text: [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). | | | utkast |
+| Q3-02 | Dagboksblad 5 II, lagfarten | B-19 | Fastsatt på vedhögen bakom bastun. Utomhus, vaxduk eller laminat. "Blad 5" plus II. Gömd lagfart i klartext. Sista raden versaler, Caesar +13, facit `LAGFARTEN FINNS UNDER HOPPTORNET`. Text: [`../rekvisita/Q3-dagbok-2-prejningen.md`](../rekvisita/Q3-dagbok-2-prejningen.md). | | | utkast |
 | Q3-03 | Ägarbevis, Malin till Malin | B-19 | Tas. Under hopptornet, på land vid foten, vattentät påse. Inte dagbok. Inte bladnummer. Text: [`../rekvisita/Q3-agarbevis.md`](../rekvisita/Q3-agarbevis.md). Avskrift hos spelledning. | | | utkast |
 | Q3-04 | Cryptex-lapp under hopptornet | B-19 | I samma påse som Q3-03. Positionsmarkering TBD. Engångs. Reservlapp hos spelledning. | | | saknas |
 
