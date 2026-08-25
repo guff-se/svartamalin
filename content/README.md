@@ -18,7 +18,7 @@ Allt annat under `content/` läses av Gustaf och av framtida agenter. Ingen gäs
 |-----|-----|------|
 | Lagintriger | [`intriger/crews/{id}.md`](intriger/crews/) | [`intriger/STYLE.md`](intriger/STYLE.md) |
 | Individintriger | [`intriger/guests/{slug}.md`](intriger/guests/) | samma |
-| Gemensam världs-ingång | [`copy/intriger_intro.md`](copy/intriger_intro.md) | Sajtrösten. **Inte** STYLE.md. Visas först när intrigerna presenteras. |
+| Gemensam världs-ingång | [`copy/intriger_intro.md`](copy/intriger_intro.md) | Piratrevy, ni-form. Visas först när intrigerna presenteras. |
 | Sajtens brödtext | [`copy/{key}.md`](copy/README.md) | Sajtrösten. **Inte** STYLE.md. |
 | Tryckt rekvisita | [`rekvisita/`](rekvisita/README.md) | Den fiktiva avsändaren. **Inte** STYLE.md. Inte på sajten. YAML-taggar, max 10 rader meta, sedan `## Tryck`. |
 
