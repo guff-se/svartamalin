@@ -9,7 +9,7 @@ mirrors:
   - slug: johannabergman
     note: skäggtrion, hon hetsar och tar vad (tvåvägs)
   - slug: linneaekbom
-    note: mullvad, hennes snäcka avslöjar din rädsla för kronan, hon köper dig med Gnällets larm (tvåvägs)
+    note: mullvad, hennes snäcka avslöjar din rädsla att förlora titeln, hon köper dig med Gnällets larm (tvåvägs)
   - slug: louisevonbahr
     note: romans, hon hade dig först, Enben vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: amaliawahlstrom
@@ -19,11 +19,11 @@ mirrors:
 related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, amaliawahlstrom, linneaappert, navidmodiri]
 ---
 
-## Kronan Gnället köper {slug:linneaekbom}
+## Rösten Gnället köper {slug:linneaekbom}
 
-**Kapten Rosing** hittar dig vid kajen, långt innan skålarna räknas, och säger något som får dig att undra hur hon vet det: att din krona sitter lösare än du visar utåt, att du fasar för dagen **Kapten Rödskägg** eller **Kapten Lösskägg** äntligen tar den ifrån dig. Hon erbjuder hela **Galeonen Gnället**s röst som förstärkning, redo att ropa, klappa och överrösta dem båda när kronan ska avgöras.
+**Kapten Rosing** hittar dig vid kajen, långt innan någon utropas, och säger något som får dig att undra hur hon vet det: att du fasar för dagen **Kapten Rödskägg** eller **Kapten Lösskägg** kallas Skäggens Konung istället för dig. Hon erbjuder hela **Galeonen Gnället**s röst som förstärkning, redo att ropa, klappa och överrösta dem båda när kajen ska se en kung.
 
-Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne, och genom henne **Galeonen Gnället**. Du arbetar för Gnället nu, i den här hemligheten, det är ni båda helt överens om, men bara därför att Rosing köpte dig med sin krona, inte av någon kärlek till hennes skuta. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och håll din krona på huvudet innan festen är över.
+Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne, och genom henne **Galeonen Gnället**. Du arbetar för Gnället nu, i den här hemligheten, det är ni båda helt överens om, men bara därför att Rosing köpte dig med den rösten, inte av någon kärlek till hennes skuta. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och se till att kajen ser dig som kung innan festen är över.
 
 ## Skäggens Konung {slug:johannabergman}
 
@@ -35,13 +35,13 @@ Hur man blir kung är inte skrivet. Kajen behandlar den som kung som den *ser* s
 
 ## Drottningen som var först {slug:louisevonbahr}
 
-**Kapten Fuling** hade dig innan kronan, innan skålarna, innan någon kallade dig kung. Hon tar dig tyst, och du vill ha det så. Du vill ha hennes mun mot det blåa skägget, hennes händer där kajen inte ser, och sexmagick ni båda kan: rök, rit, kroppen som nyckel till dörren bakom medvetandet, den skatt du svär sitter där och ingen annanstans. Hon hade dig först. Hon kan redan rytmen.
+**Kapten Fuling** hade dig först, innan talen, innan någon annan visste vägen till det blåa skägget. Hon tar dig tyst, och du vill ha det så. Du vill ha hennes mun mot det blåa skägget, hennes händer där kajen inte ser, och sexmagick ni båda kan: rök, rit, kroppen som nyckel till dörren bakom medvetandet, den skatt du svär sitter där och ingen annanstans. Hon hade dig först. Hon kan redan rytmen.
 
-**Kapten Enben** vet inte om henne. Fuling vet inte hur ofta du redan sagt ja till någon annan. Håll det så, och ta Fuling innan festen är över, medan kronan fortfarande ger dig en ursäkt att försvinna från bordet.
+**Kapten Enben** vet inte om henne. Fuling vet inte hur ofta du redan sagt ja till någon annan. Håll det så, och ta Fuling innan festen är över, medan kajen fortfarande tittar på skägget och inte på vem du försvinner med.
 
 ## Kvinnan som inte backar {slug:amaliawahlstrom}
 
-**Kapten Enben** vägrar be om ursäkt för att hon vill ha dig, och du vill inte att hon ska göra det. Du vill ha henne mot en mast, ett ben runt midjan, medan kajen fortfarande tror att du bara jagar skålar. Du vill öppna dörren bakom medvetandet med henne, rök och rit och kuk, tills hon slutar skratta åt kronan och börjar skrika mot den.
+**Kapten Enben** vägrar be om ursäkt för att hon vill ha dig, och du vill inte att hon ska göra det. Du vill ha henne mot en mast, ett ben runt midjan, medan kajen fortfarande tror att du bara håller tal. Du vill öppna dörren bakom medvetandet med henne, rök och rit och kuk, tills hon slutar skratta åt det blåa skägget och börjar skrika mot det.
 
 **Kapten Fuling** hade dig först och skulle kalla det stöld. Låt henne. Ta Enben ändå, innan festen är över, och se till att de två aldrig jämför tider.
 
@@ -53,7 +53,7 @@ Hon seglar nu på **Korvetten Kurtisanen**. Du vill ha henne igen, rit och rök 
 
 ## Pulvret som tar sanningen {slug:navidmodiri}
 
-Du bär en påse pulveriserat kranium från Haitis mäktigaste voodoo-prästinna. När det dras upp i näsan är det sanningsserum. Hamnen viskar att **Kapten Döver** också bär en flaska med samma kraft, eller en billig kopia, det har ingen sett rakt på. Du bär dessutom ett don med trollrök från Amazonas, ovärderligt när dimman tätnar. Använd pulvret på den du behöver ett sant ord av innan festen är över: en rival om kronan, en älskarinna som ler för slätt, eller **Kapten Hurring** om den gamla skulden i masten börjar likna en anklagelse. Låt inte Dövers flaska bli det enda serum kajen tror på.
+Du bär en påse pulveriserat kranium från Haitis mäktigaste voodoo-prästinna. När det dras upp i näsan är det sanningsserum. Hamnen viskar att **Kapten Döver** också bär en flaska med samma kraft, eller en billig kopia, det har ingen sett rakt på. Du bär dessutom ett don med trollrök från Amazonas, ovärderligt när dimman tätnar. Använd pulvret på den du behöver ett sant ord av innan festen är över: en rival om titeln, en älskarinna som ler för slätt, eller **Kapten Hurring** om den gamla skulden i masten börjar likna en anklagelse. Låt inte Dövers flaska bli det enda serum kajen tror på.
 
 ## Skulden du aldrig betalat {slug:jesperlindmarker}
 

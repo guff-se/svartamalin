@@ -129,7 +129,7 @@ Deltagare:      Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktor
 Roll i storyn:  rivaler / hetsare (Klöver)
 Kopplad till:   B-15
 
-Vad de vill:    utropa sig till Skäggkonung, eller stoppa de andra. Lösskägg vill dessutom plundra de andras skägg, som han gör med alla kaptener som bär skägg i namnet. Klöver vill tjäna pengar på vadslagningen, och för det måste männen faktiskt slåss.
+Vad de vill:    utropa sig till Skäggens Konung, eller stoppa de andra. Lösskägg vill dessutom plundra de andras skägg, som han gör med alla kaptener som bär skägg i namnet. Klöver vill tjäna pengar på vadslagningen, och för det måste männen faktiskt slåss.
 Vad står i vägen: de två andra. Ingen given regel för hur titeln vinns. Utan Klövers hets kan de tre lika gärna nöja sig med att retas.
 Varför nu:      tre skäggnamn på samma fest. Folk tittar. Klöver har en bank att öppna.
 
@@ -353,8 +353,8 @@ Vad de vill:    Blodig, redan Frodigs ärkefiende (fiende 4, stulen kapitulation
 Vad står i vägen: hemligheten är väl bevarad. Deras släkter och besättningar har varit fiender i generationer (romans 8), och en upptäckt vore en skandal.
 Varför nu:      helgens närhet och alkohol gör folk vårdslösa. Ett hastigt ögonkast eller en smekning kan förråda dem inför fel person.
 
-Hur det spelas: Blodig, redan känd för att slå till hårt och redan upptagen med att jaga Malins älskare (S-01), snubblar över eller aktivt nystar i ett tecken på förhållandet: ett brev, en blick, ett smeknamn. Hon konfronterar en av dem enskilt eller sprider ett rykte utan att avslöja hela sanningen än, som hot eller utpressning. Frodig och Rödskägg måste förneka högljutt, muta Blodig, eller fly tillsammans, med risk att bekräfta ryktet genom sin egen panik. Blodig kan sälja fragmentet vidare till Lösskägg, som redan letar svagheter hos Rödskägg inför skäggtrion (S-02) och gärna river upp det på fel plats vid fel tillfälle.
-Utfall om ja:   kärleken avslöjas offentligt, skandal mellan skutorna, gammalt groll (fiende 3, fiende 18, fiende 19) blossar upp igen. Skäggtrion, striden om vem som är Skäggkonung (S-02), får extra bränsle.
+Hur det spelas: Blodig, redan känd för att slå till hårt och redan upptagen med att jaga Malins älskare (S-01), snubblar över eller aktivt nystar i ett tecken på förhållandet: ett brev, en blick, ett smeknamn. Hon konfronterar en av dem enskilt eller sprider ett rykte utan att avslöja hela sanningen än, som hot eller utpressning. Frodig och Rödskägg måste förneka högljutt, muta Blodig, eller fly tillsammans, med risk att bekräfta ryktet genom sin egen panik. Blodig kan sälja fragmentet vidare till Lösskägg, som redan letar svagheter hos Rödskägg inför striden om Skäggens Konung (S-02) och gärna river upp det på fel plats vid fel tillfälle.
+Utfall om ja:   kärleken avslöjas offentligt, skandal mellan skutorna, gammalt groll (fiende 3, fiende 18, fiende 19) blossar upp igen. Skäggtrion, striden om vem som är Skäggens Konung (S-02), får extra bränsle.
 Utfall om nej:  hemligheten överlever, men Blodig har nu ett vapen hon kan använda när som helst under kvällen.
 
 Bygger på:      fiende 4 (Blodig–Frodig). Romans 8 (Rödskägg–Frodig), med hotet redan explicit noterat i `fiender.yaml`. Matchar Rödskäggs eget rollunderlag, som uttryckligen bjuder in att den förbjudna kärleken riskerar avslöjas. Fiende 3 (Lösskägg–Rödskägg) som Lösskäggs skäl att sprida vidare.

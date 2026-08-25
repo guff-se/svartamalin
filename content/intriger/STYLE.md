@@ -62,7 +62,7 @@ Den sista versen (från “När jag nyss fyllde år…”) är **slutstriden**: 
 | Rivalitet, skuld, hemlig kärlek, stöld, ed, arv, svek, i revykostym | Byråkratisk ton, HR-språk, ironisk distans som tar udden ur spelet |
 | Övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut (när sjöfärd ska bli en scen) | En sjöfärd som *måste* gå via dem. Folk får paddla utan dem. |
 | Låt laget kännas som ett teatersällskap med gemensam mission | Platta “gör poäng i tävlingen”-uppdrag utan karaktär |
-| Bara det *den här* personen kan veta. Lyft in begrepp i *den här* filen, eller stryk dem. | “Knulla skäggkungen som krönte sig” till någon som inte är i skäggtrion |
+| Bara det *den här* personen kan veta. Lyft in begrepp i *den här* filen, eller stryk dem. | “Knulla Skäggens Konung” till någon som inte är i skäggtrion |
 
 ---
 
@@ -111,7 +111,7 @@ Vill du ändå ha brådskan i texten: namnge kvällen ("**andra kvällen**", "l�
 
 Avsluta **inte** varje gäststycke med `Fredag: …` / `Lördag: …`. Det är spelledning om hur och när de ska spela. Standard: vilja, hinder, varför det måste avgöras under helgen. Låt gästen välja när.
 
-OK **bara när tidpunkten är själva saken**: ett piller som måste tas i skymningen, en kröning vid båtarna. Då står tiden i brödtexten som fakta, inte som ett schema längst ner.
+OK **bara när tidpunkten är själva saken**: ett piller som måste tas i skymningen, ett vad som öppnar vid kajen. Då står tiden i brödtexten som fakta, inte som ett schema längst ner.
 
 ### Fredag middag och kväll: Överdåd (kväll ett)
 Ostindiefararen är hemma. Ingen talar om vad som väntar. Vi ler mot våra fiender och dricker deras vin. Kvällen innan allt brinner.
@@ -204,7 +204,7 @@ Förbjudet: intern jargong och halva historier.
 
 | Dåligt (kräver annan fil) | Bra (står själv) |
 |---------------------------|------------------|
-| "skamrand i det röda" | "Sist ni möttes rakade **Kapten Lösskägg** en rand mitt i ditt röda skägg, medan du bar det, så att hela hamnen såg skammen." |
+| "skäggtrion" | "Ni tre bär skägg i namnet, och kajen har inte utropat någon till Skäggens Konung än." |
 | "burken och skymningen" | "När mörkret faller måste **Kapten Barnsben** svälja ett piller ur en liten burk, annars slutar hon vara barn och blir stor. Det fasar hon för." |
 | "ni vet båda vad som sitter i ditt ansikte" | Säg vad som sitter där, i den här filen. |
 
@@ -234,7 +234,7 @@ Utan att det upprepas i just den här meningen får du räkna med:
 
 Hittar du en vass bild i en annan fil: antingen **lyfter du in** det mottagaren behöver veta, i *den här* texten, och **bara** om de *ska* veta det (de är med i spåret, eller `fordelning.yaml` säger `vet`), eller så **skriver du om** så bilden inte krävs.
 
-Exempel: **Kapten Enben** har romans med **Kapten Blåskägg**. Hon är inte i skäggtrion (S-02). "Knulla skäggkungen tills hamnen glömmer vem som krönte sig" förutsätter en kröning hon aldrig fått höra om. Skriv romansen som rivalitet om Blåskägg, utan trion. Låt Blåskäggs egen fil bära kröningen.
+Exempel: **Kapten Enben** har romans med **Kapten Blåskägg**. Hon är inte i skäggtrion (S-02). "Knulla Skäggens Konung tills hamnen glömmer titeln" förutsätter en titelkamp hon inte bär. Skriv romansen som lust efter Blåskägg, utan trion. Låt Blåskäggs egen fil bära Skäggens Konung.
 
 Samma fälla: "kung över tre skägg", "liggaren" som namngivet objekt, "kistan", "Karl XII", ett piller, ett svärd, ett horn. Om *den här* personen inte bär spåret: använd inte spårets ordförråd. En kroppsdel i namnet (skägg, ben, horn) är inte samma sak som spårets titel.
 
@@ -259,7 +259,7 @@ Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet at
 13. Kräver texten en sjöfärd som ska bli en scen? Primär väg: övertala **Kapten Kuling** eller **Kapten Rödskägg** att ge sig ut. Skriv inte att de *måste*. Folk får åka ut utan dem.
 14. Uppmanar texten till ransakning, att vända ön, eller att ta något man råkar hitta? → stryk. Off-regel: lös gåtor och uppdrag, låt saker som hittas av misstag få vara.
 15. Är språket prydligt eller framtid-tillsammans kring sex och romans? → skriv om. Lust, explicithet och "bunden och tagen" är rätt register. Male gaze är det inte.
-16. **Står texten för sig själv?** Läs stycket som om du bara har den här filen. Kräver någon mening `sidequests.md`, yaml, någon annans roller eller någon annans gästfil? → berätta händelsen i den här filen, eller stryk. "skamrand i det röda" och "burken och skymningen" är förbjudna som oförklarade.
+16. **Står texten för sig själv?** Läs stycket som om du bara har den här filen. Kräver någon mening `sidequests.md`, yaml, någon annans roller eller någon annans gästfil? → berätta händelsen i den här filen, eller stryk. "skäggtrion" och "burken och skymningen" är förbjudna som oförklarade.
 17. Refererar texten till en sidequest, ett objekt eller en titel från ett spår personen inte är med i? → stryk. Speglad romans räcker inte.
 18. Stämmer han/hon med civilnamnet i `anteckningar/`? Okänd person: hen, eller skriv om utan pronomen. Anta inte att kaptener är män.
 19. Slutar stycket med `Fredag:` / `Lördag:` utan att tidpunkten är själva saken? → stryk schemat. Vilja, hinder, helgen. Inte spelledning om när de ska spela.

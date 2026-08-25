@@ -39,7 +39,7 @@ Kalla på **Fregatten Fördärvet** och sök upp båda platserna innan en annan 
 
 **Kapten Lösskägg** bär skägg han skurit av kaptener han besegrat, och tre av dem kan få vem som helst att förföra den han pekar på. På dig pekade han aldrig. Du tog honom själv, i en koja efter en kuling så hård att ingen annan höll kursen, och du tänker göra om det innan helgen är över. Du vill ha skägget mot halsen, händerna i riggen, och honom under dig tills han slutar samla troféer och börjar samla på dig.
 
-**Kapten Rödskägg** delar båtarna med dig hela helgen, och han hatar Lösskägg mer än han litar på dig. Ett kyss mot en motståndare är bara ett sätt att komma nära. Ett knull med mannens värsta rival, medan ni två står vid samma rep, är ett sätt att vinna. Ta Lösskägg i skuggan av kajen, förneka högljutt, eller låt Rödskägg se precis så mycket att han tappar både kursen och kronan. Avgör det innan sista skålen.
+**Kapten Rödskägg** delar båtarna med dig hela helgen, och han hatar Lösskägg mer än han litar på dig. De slåss om vem kajen ska kalla Skäggens Konung. Ett kyss mot en motståndare är bara ett sätt att komma nära. Ett knull med mannens värsta rival, medan ni två står vid samma rep, är ett sätt att vinna. Ta Lösskägg i skuggan av kajen, förneka högljutt, eller låt Rödskägg se precis så mycket att han tappar både kursen och titeln. Avgör det innan sista skålen.
 
 ## Kapten med samma räkning {slug:amaliawahlstrom}
 

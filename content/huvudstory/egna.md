@@ -43,7 +43,7 @@ Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-02.
 - [x] skriv inte ut intrigerna än
 - [x] låt klöver vara lite drivande, hon vill tjäna pengar på vadslagningen, så hon vill hetsa männen mot varandra.
 
-Kryss = S-02 omskriven i `sidequests.md`. Klöver hetsar för bankens skull. Gästtexten orörd.
+Kryss = S-02 omskriven i `sidequests.md`. Klöver hetsar för bankens skull. Gästtext skriven. Övriga referenser i linje: ingen krona, ingen förhandskröning, ingen skamrand.
 
 ---
 

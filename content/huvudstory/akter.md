@@ -96,7 +96,7 @@ Struktur att fylla i:
 | Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
 | Förrädarspåret | Mullvad per skuta, kontakt på uppdragsgivarens lag. Cirkel två steg. | Fem par i [`forradare.yaml`](forradare.yaml) | Hemliga möten | |
 | Båtspåret | Sjöfärd som *scen*: övertala Kuling eller Rödskägg. Folk får också paddla utan dem. | Kuling, Rödskägg, plus den som vill ut | Bryggan, Södra Ovanan, bojen | B-14 |
-| Skäggspåret | Tre kaptener slåss om vem som är Skäggkonung. De listar själva ut hur. Publikt. | Lösskägg, Rödskägg, Blåskägg | Kajen eller gården, inte långt från båtarna | B-15 |
+| Skäggspåret | Tre kaptener slåss om vem som är Skäggens Konung. De listar själva ut hur. Publikt. | Lösskägg, Rödskägg, Blåskägg | Kajen eller gården, inte långt från båtarna | B-15 |
 
 **Kollision är en feature.** Spåren ovan pågår samtidigt och får krocka. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd. Designa inte isolerade banor som kräver att de andra pausas.
 
@@ -231,7 +231,7 @@ Plats:          kajen eller gården. Publikt.
 Inblandade:     Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktoransund`), Kapten Blåskägg (`hampuslindblad`), Kapten Klöver (`johannabergman`)
 Publik:         ja. Poängen är att folk ser det.
 
-Vad händer:     Klöver hetsar de tre mot varandra för att få en vadslagningskamp. De listar själva ut hur man blir Skäggkonung: förnedra, utlysa turnering, raka av motståndet, eller annat kajen köper. Lösskäggs låda, Rödskäggs pulver, Blåskäggs kraniumpåse. Det ska vara kul.
+Vad händer:     Klöver hetsar de tre mot varandra för att få en vadslagningskamp. De listar själva ut hur man blir Skäggens Konung: förnedra, utlysa turnering, raka av motståndet, eller annat kajen köper. Lösskäggs låda, Rödskäggs pulver, Blåskäggs kraniumpåse. Det ska vara kul.
 
 Vad ändras:     någon utropas, eller ingen, eller alla tre.
 

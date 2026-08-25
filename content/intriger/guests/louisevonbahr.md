@@ -30,13 +30,13 @@ Hurring förhör gamla bekanta och stämmer av deras historier. Klarar du dig un
 
 Du har länge anat att **Kapten Döver**s dövhet är påhitt, men du har aldrig sagt det högt. Det passar dig bättre att ha en skuld att kräva in senare än att avslöja honom gratis nu. Nämn det i förbifarten när det passar dig, "du har alltid undrat hur han klarar sig utan att höra", ett hot utan hot i orden, och spara resten till en dag du behöver honom mer än du behöver sanningen.
 
-## Kungen du redan tagit {slug:hampuslindblad}
+## Mannen du redan tagit {slug:hampuslindblad}
 
-**Kapten Blåskägg** krönte sig själv, färgade rivaler blå och lät kajen skåla som om kronan vore det enda som räknades. Du vet bättre. Du hade honom först, innan kronan, innan **Kapten Enben** ens viskade hans namn. Du vill ha honom igen. Du vill rida kungen i skuggan av hans lösa krona, ta honom medan hamnen fortfarande räknar skålar, och låta skägget stryka där ingen krona räcker som täckmantel.
+**Kapten Blåskägg** bär blått i ansiktet och en fåfänga stor nog att fylla en kaj. Du vet bättre. Du hade honom först, innan **Kapten Enben** ens viskade hans namn. Du vill ha honom igen. Du vill rida honom där ingen ser, ta honom medan hamnen fortfarande tittar på skägget, och låta munnen stryka där hans tal inte når.
 
-Han vill ha sexmagick. Rök, rit, kroppen som nyckel till en dörr han svär sitter bakom medvetandet. Du kan redan rytmen. Du tog honom genom den dörren innan någon kallade honom kung, och du tänker göra det igen.
+Han vill ha sexmagick. Rök, rit, kroppen som nyckel till en dörr han svär sitter bakom medvetandet. Du kan redan rytmen. Du tog honom genom den dörren innan någon annan visste vägen, och du tänker göra det igen.
 
-Enben vägrar backa, och ingen av er vet vem han valt. Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan kajen kröner någon annan och han glömmer vems koja han kröp till först.
+Enben vägrar backa, och ingen av er vet vem han valt. Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan han glömmer vems koja han kröp till först.
 
 ## Kvinnan som kom efter {slug:amaliawahlstrom}
 

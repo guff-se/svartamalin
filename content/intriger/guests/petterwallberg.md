@@ -30,8 +30,8 @@ Hur man blir kung har ingen ristat i någon reling. Kajen behandlar den som kung
 
 **Kapten Kuling** är den enda som seglat motvind rakt in i din koja och krävt att bli tagen utan att du pekat med ett enda av dina förförarskägg. Det gråa, det vita och det blonda kan få vem som helst att förföra den du pekar ut. På henne fungerar de inte. Hon vill ha dig, inte tricket, och du har inte glömt hur hon red dig tills du glömde vilket skägg du bar.
 
-Nu delar hon båtar, rep och rigg med **Kapten Rödskägg**, mannen vars skamrand du rakade och som redan ser knivar i varje skugga hon kastar. Blir ni påkomna är det inte bara en skandal, det är ett vapen han kan använda mot er båda i jakten på kronan. Ta henne ändå, innan festen är över. Peka inte. Håll i. Låt Rödskägg gissa fel om var vinden kommer ifrån.
+Nu delar hon båtar, rep och rigg med **Kapten Rödskägg**, mannen vars skägg du redan har siktet på och som redan ser knivar i varje skugga hon kastar. Blir ni påkomna är det inte bara en skandal, det är ett vapen han kan använda mot er båda i jakten på titeln. Ta henne ändå, innan festen är över. Peka inte. Håll i. Låt Rödskägg gissa fel om var vinden kommer ifrån.
 
 ## Fragmentet du köper av Blodig {slug:viktoransund}
 
-**Kapten Blodig** kan komma med ett fragment om **Kapten Rödskägg**s hemliga liv, snappat upp mitt i sin egen jakt på jubilarens älskare. Köp det av henne om hon erbjuder, och riv upp det vid precis fel tillfälle, mitt i striden om vem som är Skäggkonung. En rival med en skandal i baksätet är lättare att kröna över.
+**Kapten Blodig** kan komma med ett fragment om **Kapten Rödskägg**s hemliga liv, snappat upp mitt i sin egen jakt på jubilarens älskare. Köp det av henne om hon erbjuder, och riv upp det vid precis fel tillfälle, mitt i striden om vem som är Skäggens Konung. En rival med en skandal i baksätet är lättare att se liten.

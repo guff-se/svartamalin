@@ -46,8 +46,8 @@ fiender:
     type: mutual
     a: petterwallberg     # Kapten Lösskägg: Korvetten Kurtisanen
     b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
-    # oförrätt: Skäggvadet (rött/blått/löst skägg). Röd kapade bogserlina; Lösskägg rakade skamrand i det röda.
-    # Del av skäggtrion med Blåskägg (#18, #19). Lösskäggs underlag: plundra kaptener med skägg i namnet.
+    # oförrätt: Lösskägg samlar skägg och har redan siktet på Rödskäggs. Rödskägg, stolt och lättkränkt, tar det som krig om Skäggens Konung.
+    # Del av skäggtrion med Blåskägg (#18, #19). Ingen förhandskröning, ingen skamrand, ingen förhandsfärgning.
     status: done
 
   - id: 4
@@ -149,13 +149,13 @@ fiender:
     # oförrätt: rivaler om Malin. Blodig gör anspråk efter gammalt svek; Hjärter bär hemlig låga (#17, #20)
     status: done
 
-  # --- Skäggtrion (rött / blått / löst skägg): bygger vidare på #3 ---
+  # --- Skäggtrion: Skäggens Konung, bygger vidare på #3 ---
 
   - id: 18
     type: mutual
     a: hampuslindblad     # Kapten Blåskägg: Barken Bortförklaringen
     b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
-    # oförrätt: Efter skäggvadet hällde Blå indigo i baljan; Röd vaknade blåstrimmig; Blå krönte sig Skäggkonung
+    # oförrätt: Båda vill kallas Skäggens Konung. Blåskägg bär blått av Galápagos-svamp och behandlar färgen som argument. Rödskägg tar det som förolämpning.
     # Rödskägg ville spela mot Frodigs skuta: Blåskägg sitter på Barken.
     status: done
 
@@ -163,7 +163,7 @@ fiender:
     type: mutual
     a: hampuslindblad     # Kapten Blåskägg: Barken Bortförklaringen
     b: petterwallberg     # Kapten Lösskägg: Korvetten Kurtisanen
-    # oförrätt: Blå hånade att Lösskäggs skägg är fejk, färgade det blått, utropade sig kung över alla tre skäggen
+    # oförrätt: Lösskägg har redan namngivit Blåskäggs skägg som nästa trofé. Blåskägg svarar att ett skägg i en låda inte är ett skägg.
     status: done
 
   # --- Namngivna i underlag (hämtade 2026-08-21/22) ---

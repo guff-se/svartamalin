@@ -36,9 +36,9 @@ Du är inte ensam om att släpa på en gammal räkning mot **Svarta Malin**. Ryk
 
 **Kapten Hurring** sitter dessutom på en osäker historia om Malin i sin svarta liggare, en rad han aldrig kunnat bekräfta men gärna säljer till den som lägger mest på bordet. Kom före Kuling till hans bord om du vill äga historien själv, i mynt eller i en tjänst han kan kräva tillbaka senare.
 
-## Kungen du tänker ta {slug:hampuslindblad}
+## Skägget du tänker ta {slug:hampuslindblad}
 
-Du bär lust för **Kapten Blåskägg** du inte tänker be om ursäkt för. Du vill ha honom mot en reling, skägget, kronan, hela den självutnämnda kungen under dig. Du vill att han ska välja med kuken, inte med skålarna.
+Du bär lust för **Kapten Blåskägg** du inte tänker be om ursäkt för. Du vill ha honom mot en reling, det blåa skägget, hela den fåfänga under dig. Du vill att han ska välja med kuken, inte med talet.
 
 Han vill öppna en dörr bakom medvetandet, rök och rit och kropp, och kallar det den största skatten. Du tänker vara den dörren. Du tänker rida honom tills riterna slutar vara hans och börjar vara era.
 
@@ -46,4 +46,4 @@ Nu har du fått höra att **Kapten Fuling** var där först, långt innan du ens
 
 ## Kvinnan som redan hade honom {slug:louisevonbahr}
 
-**Kapten Fuling** vägrar backa, och hon var där först. Hon är inte i din besättning, hon är inte din fiende av gammal vana, hon är din fiende av ett enda skäl: hon gör anspråk på den kung du tänker ta. Gör henne till åtlöje inför andra, se till att hon aldrig får ett ögonblick ensam med honom utan att du vet om det, eller ta honom så öppet att kajen slutar räkna henne. Avgör det innan festen är över.
+**Kapten Fuling** vägrar backa, och hon var där först. Hon är inte i din besättning, hon är inte din fiende av gammal vana, hon är din fiende av ett enda skäl: hon gör anspråk på den man du tänker ta. Gör henne till åtlöje inför andra, se till att hon aldrig får ett ögonblick ensam med honom utan att du vet om det, eller ta honom så öppet att kajen slutar räkna henne. Avgör det innan festen är över.

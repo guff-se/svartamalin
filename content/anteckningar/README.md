@@ -48,7 +48,7 @@ Tom body är okej. Då finns filen, men inget att läsa.
 | Båtar | **Kapten Kuling** (`josefinlowing`), **Kapten Rödskägg** (`viktoransund`). Inte mullvad. |
 | Mat | **Kapten Nykter** (`fabianmacklin`), **Kapten Hjärter** (`jesperlejfjord`). Inte mullvad. |
 | Jagar Malins hemliga älskare | **Kapten Hjärter** (`jesperlejfjord`), **Kapten Blodig** (`minimacklin`) |
-| Skäggtrion | **Kapten Lösskägg** (`petterwallberg`), **Kapten Rödskägg**, **Kapten Blåskägg** (`hampuslindblad`). Beslutad, intrigtext TBD. |
+| Skäggtrion | **Kapten Lösskägg** (`petterwallberg`), **Kapten Rödskägg**, **Kapten Blåskägg** (`hampuslindblad`). **Kapten Klöver** hetsar. S-02 skriven. Skäggens Konung. |
 
 Nykter vakt vid ritualen är TBD. Förrädare per skuta: [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml). Skriv inte gästtext som låser dem förrän status är done.
 
