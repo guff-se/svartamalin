@@ -8,12 +8,20 @@ mirrors:
     note: gammal röta, han köper inte omvändelsen (tvåvägs)
   - slug: louisevonbahr
     note: hon anar sanningen och sparar den som skuld (tvåvägs, asymmetrisk kunskap)
-related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr, malintadaa]
+  - slug: fabianmacklin
+    note: enväg hat, frieriet du sålde för skratt i tavernan (han hatar dig, du vet om det)
+related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr, malintadaa, fabianmacklin]
 ---
 
 ## Det du hör vid syhörnan {slug:ulrikahammar}
 
 Din dövhet är påhitt, ett sätt att slippa strunt och tjuvlyssna ostört, och ingen vid **Kapten Barnsben**s sy- och broderihörna anar att du hör varenda viskning som passerar. Där uppvaktar både **Kapten Nykter** och **Kapten Rosing** henne, var för sig, i hopp om att bli den hon litar på när mörkret faller och krumelurpillret ska tas. Du vet redan, innan någon av dem gör det, vem hon egentligen väljer. Du väljer själv om du någonsin säger det högt, eller sparar det, innan festen är över, till något som är värt mer än ett skvaller.
+
+## Frieriet du sålde för skratt {slug:fabianmacklin}
+
+**Kapten Nykter** trodde han var ensam med **Kapten Barnsben** vid hennes syhörna kvällen han sa vad han kände, uppriktigt och utan reträttväg. Du stod bara någon meter bort, och han tänkte inte på dig, ingen tänker på den som inte hör. Nästa kväll gav du hela tavernan hans frieri, ord för ord, som den bästa skrönan på länge.
+
+Han har aldrig kunnat bevisa att din dövhet är påhitt, men han anar det, och han hatar dig för det du gjorde mot honom mer än för misstanken själv. Håll masken lika rak mot honom som mot alla andra, och akta dig särskilt för hans blick den dagen sanningen om dina öron riskerar att komma ut, för han väntar bara på den dagen. Håll dig undan honom, eller vänd förnedringen tillbaka på honom om chansen kommer, innan festen är över.
 
 ## Workshopen som gömmer sanningen {slug:alexandrapalmquist}
 

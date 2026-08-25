@@ -7,7 +7,9 @@ mirrors:
     note: skäggtrion, blåfärgad och avkrönt (tvåvägs)
   - slug: josefinansund
     note: förbjuden hemlig kärlek (tvåvägs)
-related: [petterwallberg, hampuslindblad, johannabergman, josefinansund, minimacklin, malintadaa]
+  - slug: josefinlowing
+    note: mutual fiende, skottet i ryggen på Paradisets ö, båtarna tillsammans (tvåvägs)
+related: [petterwallberg, hampuslindblad, johannabergman, josefinansund, minimacklin, malintadaa, josefinlowing]
 ---
 
 ## Randen han rakade {slug:petterwallberg}
@@ -27,6 +29,12 @@ Han och **Kapten Lösskägg** gör båda anspråk på samma titel. Kajen kröner
 Din kärlek till **Kapten Frodig** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa.
 
 **Kapten Blodig** bär ett gammalt groll mot Frodig och snubblar gärna över ett tecken på er kärlek om hon får chansen. Förneka högljutt, muta henne, eller fly tillsammans, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över.
+
+## Skottet i ryggen {slug:josefinlowing}
+
+Ett år sedan sköt **Kapten Kuling** dig i ryggen på Paradisets ö och försvann med en del av din Piratpulver-last i mörkret, ett proffsjobb, kallt och rent, för en klient du aldrig fått namnet på. Du överlevde. Din misstänksamhet gjorde det inte.
+
+Nu delar ni båtarna hela helgen, samma rep, samma rigg, samma kaj, och varje gång hon ler mot dig undrar du om det är ett nytt jobb hon planerar eller bara hennes vanliga sätt att vara. Kräv tillbaka lastens värde, testa henne med en fälla av eget snitt, eller håll ett öga på henne varje sekund ni tvingas arbeta ihop. Lita inte på henne förrän helgen är över, och kanske inte då heller.
 
 ## Aldrig vila {slug:malintadaa}
 

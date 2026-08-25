@@ -101,14 +101,14 @@ fiender:
     a: linneaekbom        # Kapten Rosing: Galeonen Gnället
     b: fabianmacklin      # Kapten Nykter: Barken Bortförklaringen
     # oförrätt: Nykter tog sista dansen med Barnsben efter gemensamt nej (+ påstådd viskning)
-    status: pending
+    status: done
 
   - id: 11
     type: one_way
     a: fabianmacklin      # Kapten Nykter: Barken Bortförklaringen
     b: navidmodiri        # Kapten Döver: Fregatten Fördärvet
     # oförrätt: Döver tjuvlyssnade på Nykters frieri till Barnsben (alla trodde han var döv) och upprepade det i tavernan
-    status: pending
+    status: done
 
   - id: 12
     type: one_way
@@ -131,7 +131,7 @@ fiender:
     b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
     # oförrätt: Rötägg fuskade i kort och vann Spaders sjökort till Plåthorns fiskegrund.
     # Gammal röta, innan omvändelsen.
-    status: pending
+    status: done
 
   - id: 17
     type: one_way
@@ -139,7 +139,7 @@ fiender:
     b: malintadaa         # Svarta Malin: Korvetten Kurtisanen
     # oförrätt: Malin avfärdade Kosings arvssyndskatt som “söt men tvåa” i en skål.
     # Låg intensitet: Kosing vill inte stå i centrum i publikt drama.
-    status: pending
+    status: done
 
   - id: 21
     type: mutual
@@ -190,7 +190,7 @@ fiender:
     b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
     # oförrätt: Kuling låg i bakhåll och sköt Rödskägg i ryggen på Paradisets ö för ett år sedan (Kulings underlag).
     # De har båtarna tillsammans: fiendskapen spelas vid kajen, inte långt från vattnet.
-    status: pending
+    status: done
 
   - id: 26
     type: mutual
@@ -198,7 +198,7 @@ fiender:
     b: louisevonbahr      # Kapten Fuling: Fregatten Fördärvet
     # oförrätt: båda älskar Kapten Blåskägg (romans 10, 23), samma mönster som Klöver/Prygel om Hurring (fiende 1).
     # Fuling hade honom först, Enben vägrar backa. Ingen av dem vet säkert om Blåskägg valt en av dem eller ingen.
-    status: pending
+    status: done
 
   # --- Korthajarna (S-11) ---
 

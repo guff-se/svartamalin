@@ -7,7 +7,9 @@ mirrors:
     note: hon anar sanningen och sparar den som skuld (tvåvägs, asymmetrisk kunskap)
   - slug: jesperlejfjord
     note: mullvad, han styr misstankar bort från henne mot hjälp från Fördärvet (tvåvägs)
-related: [jesperlindmarker, navidmodiri, jesperlejfjord]
+  - slug: amaliawahlstrom
+    note: mutual fiende, rivaler om Blåskägg, ingen vet vem han valt (tvåvägs)
+related: [jesperlindmarker, navidmodiri, jesperlejfjord, amaliawahlstrom]
 ---
 
 ## Anklagelsen du alltid nekat {slug:jesperlindmarker}
@@ -25,3 +27,9 @@ Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du
 ## Skulden du sparar {slug:navidmodiri}
 
 Du har länge anat att **Kapten Döver**s dövhet är påhitt, men du har aldrig sagt det högt. Det passar dig bättre att ha en skuld att kräva in senare än att avslöja honom gratis nu. Nämn det i förbifarten när det passar dig, "du har alltid undrat hur han klarar sig utan att höra", ett hot utan hot i orden, och spara resten till en dag du behöver honom mer än du behöver sanningen.
+
+## Kvinnan som kom efter {slug:amaliawahlstrom}
+
+Du hade **Kapten Blåskägg** först, en känsla du burit tystare och längre än **Kapten Enben** anar, och nu vägrar hon backa undan trots att hon kom efter. Ingen av er vet säkert vem han egentligen har valt, om han valt någon alls, och den ovissheten är värre att bära än ett rakt nej hade varit.
+
+Hon är ny i det här, du är inte det, och du tänker inte ge upp ett försprång du haft längre än hon vet om. Påminn honom om det ni redan haft, gör henne till den som kom för sent inför andra, eller se till att hon aldrig får ett ögonblick ensam med honom utan att du vet om det, innan festen är över.

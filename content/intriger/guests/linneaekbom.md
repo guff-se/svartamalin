@@ -5,6 +5,8 @@ mirrors:
     note: uppvaktning vid syhörnan (tvåvägs)
   - slug: hampuslindblad
     note: mullvad, snäckan avslöjar hans rädsla för kronan, du köper honom med Gnällets larm (tvåvägs)
+  - slug: fabianmacklin
+    note: enväg hat, viskningen om sista dansen (du hatar honom, han vet om det)
 # enväg vittne mot elinmartensson (snäckan hör Kuling/Prygels planer), speglas inte
 related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa, hampuslindblad]
 ---
@@ -20,6 +22,12 @@ related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa, hampuslindbla
 Din hemliga snäcka viskar mer än du bett om, och en kväll snappar den upp något ingen annan hört: att **Kapten Blåskägg**s krona vid kajens skålar sitter lösare än han låtsas, att han fasar för att förlora den nästan lika mycket som du fasar för att stå ensam kvar på en öde ö. Du vet det innan han själv erkänt det för sig, och du tänker använda det.
 
 Erbjud honom hela **Galeonen Gnället**s röst mot **Kapten Rödskägg** och **Kapten Lösskägg**, redo att ropa, klappa och överrösta dem båda när kronan ska avgöras. I utbyte begär du allt som sägs och planeras inne på **Barken Bortförklaringen**, långt innan hans egen kapten anar något. Han vet att han arbetar för ditt lag nu, i den här hemligheten, lika säkert som du gör. Du kan inte vinna **Kapten Barnsben** med charm ensam, det vet du redan, men du kan bygga en tystare seger av det han ger dig, en som ingen kan ta ifrån dig även om skymningens piller går till en annan. Håll greppet om honom och hans hemlighet innan festen är över.
+
+## Viskningen han ljuger om {slug:fabianmacklin}
+
+Ni bad henne båda om sista dansen samma kväll, och hon nekade er båda på ett och samma andetag. Det borde ha gjort er till bundsförvanter i nederlaget. Istället gick **Kapten Nykter** därifrån och lät hela hamnen höra att **Kapten Barnsben** viskat något ömt i hans öra just innan hon sa nej, ett löfte om en annan kväll, en antydan bara han fick höra. Du tror inte ett ord.
+
+Din snäcka har viskat annat till dig, saker om vad han egentligen fick höra den kvällen, saker han inte vet att du känner till. Avslöj hans lögn öppet vid syhörnan, eller spara den tills han tror sig vunnen och krossa hans uppvaktning i just det ögonblicket. Gör det innan festen är över, innan hans lögn hinner bli sanning bara av att upprepas.
 
 ## Vad snäckan viskar om hornet {slug:elinmartensson}
 

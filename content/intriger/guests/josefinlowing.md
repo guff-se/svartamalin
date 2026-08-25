@@ -7,8 +7,10 @@ mirrors:
     note: möjlig allians mot Malin, upptäcker varandras groll (tvåvägs)
   - slug: jesperlindmarker
     note: Hurring säljer en osäker rad om Malin till bästa bud (tvåvägs)
+  - slug: viktoransund
+    note: mutual fiende, skottet i ryggen på Paradisets ö, båtarna tillsammans (tvåvägs)
 # gustaftadaa: hon vet inte att han älskar Plåthorn i hemlighet, se hans fil
-related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker]
+related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker, viktoransund]
 ---
 
 ## Barnets bok på hyllan {slug:malintadaa}
@@ -30,3 +32,9 @@ En sådan detalj är för god att bara höra och glömma. Ta med dig **Fregatten
 Fördärvet har sin fordran på **Svarta Malin**, den last hon en gång tog och döpte om till rättvist delad. Men du är inte ensam om att vänta på ett tillfälle att ta tillbaka något från jubilaren. **Kapten Enben** bär sin egen, lika gamla skam hon aldrig fått upprättelse för. Hitta varandra i festvimlet, dela groll över ett glas, och slå ihop era krav till en scen ingen i hamnen glömmer. En ensam fordran är ett gnabb. Två som går samman är en dom.
 
 **Kapten Hurring** har en rad i sin svarta liggare om Malin han aldrig kunnat bekräfta, och han säljer den gärna, till den av er två som lägger mest på bordet. Var snabbare än Enben, innan helgen är över, om du vill äga historien själv.
+
+## Skottet vid Paradisets ö {slug:viktoransund}
+
+Ett år sedan låg du i bakhåll på Paradisets ö och sköt **Kapten Rödskägg** rakt i ryggen, för en klients räkning, och tog en del av lasten han bar innan du försvann i mörkret. Ett proffsjobb, kallt och rent, precis som du alltid levererar, och du tänkte inte mer på honom än på något annat uppdrag väl utfört.
+
+Han glömde inte. Nu delar ni båtarna hela helgen, rep och rigg, eka efter eka, och han litar inte på dig längre än han kan kasta en lina. Erkänn, betala tillbaka lastens värde som en gest, eller lita på att din charm och ditt handlag med rep räcker för att hålla honom lugn tills helgen är över. Bara var beredd på att en man med hans onda aningar ser en kniv i varje skugga du kastar, och du kastar många när ni står sida vid sida vid kajen.

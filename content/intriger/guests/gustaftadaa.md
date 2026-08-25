@@ -9,7 +9,9 @@ mirrors:
     note: mångårig rivalitet, ömsesidiga fuskanklagelser, hon bär hans vunna spader-ring (tvåvägs)
   - slug: jesperlejfjord
     note: mångårig rivalitet, ömsesidiga fuskanklagelser (tvåvägs)
-related: [jesperlindmarker, elinmartensson, josefinlowing, johannabergman, jesperlejfjord, minervalowgren]
+  - slug: edvinthungren
+    note: enväg hat, sjökortet till Plåthorns fiskegrund (du hatar honom, han vet om det)
+related: [jesperlindmarker, elinmartensson, josefinlowing, johannabergman, jesperlejfjord, minervalowgren, edvinthungren]
 ---
 
 ## Skulden du bär till Hurring {slug:jesperlindmarker}
@@ -33,3 +35,9 @@ En av dina spader-ringar sitter redan på hennes hand, vunnen vid ett bord för 
 Ett enda parti, vid kökskanten. **Kapten Prygel** delar, och hon hatar Klöver för en stulen vals och en bordning hon aldrig fått äran för, så räkna inte med att hon delar jämnt. Den som pekas ut som fuskaren förlorar sitt rykte som haj, inte bara en insats. Du gömmer ditt eget knep bakom pillandet med dina spader-ringar och ditt halsband, ett grepp ingen ännu lyckats avslöja. Sätt dig vid bordet, spela din hand, vinn tillbaka ringen om du kan, och låt de andra två anklaga varandra medan du sköter ditt.
 
 **Kapten Plåthorn** har sett dig vinna när du egentligen borde ha förlorat. Hon säger ingenting, än.
+
+## Sjökortet du vill ha tillbaka {slug:edvinthungren}
+
+**Kapten Rötägg** vann en gång ditt sjökort till **Kapten Plåthorn**s fiskegrund över ett bord kort, med en hand du är övertygad var lika fuskad som ditt eget rykte påstås vara. Det var innan han miste sitt skepp och bestämde sig för att bli snäll, och du har aldrig fått chansen att kräva tillbaka det som var ditt.
+
+Han sabrerar bubbel och masserar bort andras nöd numera, som om godhet kan betala en gammal skuld. Testa honom: be honom ge tillbaka kortet som en gest av sin nya vänlighet, och se om han menar det, eller sätt honom vid ett nytt bord och vinn det tillbaka med en hand lika fuskad som hans egen en gång var. Avgör det innan festen är över.

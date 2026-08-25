@@ -7,7 +7,11 @@ mirrors:
     note: gammalt hamnskämt om svärdet (tvåvägs)
   - slug: linneaappert
     note: reservsvar om Barnsben inte hittas
-related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaappert, malintadaa]
+  - slug: linneaekbom
+    note: enväg hat, viskningen om sista dansen (hon hatar dig, du vet om det)
+  - slug: navidmodiri
+    note: enväg hat, frieriet han sålde för skratt i tavernan (du hatar honom, han vet om det)
+related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaappert, malintadaa, navidmodiri]
 ---
 
 ## Den hon litar på i skymningen {slug:ulrikahammar}
@@ -21,6 +25,18 @@ related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaapper
 Din uppvaktning vid sy- och broderihörnan har gett dig mer än en plats i skymningen. **Kapten Barnsben** viskar dig allt hon hör och ser inne på **Korvetten Kurtisanen**, och det hon ger dig hjälper **Barken Bortförklaringen** vinna mark hon annars aldrig skulle unnat er. Hon gör det inte av trohet till din skuta. Hon gör det för din skull, till varje pris hennes egen besättning skulle kalla förräderi.
 
 Ta emot det hon ger utan att låta det synas, inte för **Kapten Rosing**, som fortfarande tror hon tävlar om en ärlig plats i hennes skymning, och inte för din egen skuta, som gärna skulle fira en spion men aldrig skona den som avslöjas. Ge Bortförklaringen den fördel hon bär till dig, och håll henne, och hemligheten, hela vägen till sista skålen.
+
+## Dansen du ljög om {slug:linneaekbom}
+
+Du och **Kapten Rosing** fick samma nej av **Kapten Barnsben** samma kväll, sista dansen nekad till er båda på en enda andning. Sen gick du därifrån och lät hamnen tro att hon viskat något ömt bara till dig i skymundan. Ryktet spred sig, och Rosing har aldrig förlåtit dig för det, lögn eller inte.
+
+Hon vet mer än hon borde om vad som egentligen sas den kvällen, ingen vet hur, och hon väntar bara på rätt tillfälle att ropa ut sin version inför hela din uppvaktning. Håll god min, håll din historia stående, och se till att Barnsben aldrig hör Rosings version före din egen, innan festen är över.
+
+## Frieriet han sålde för skratt {slug:navidmodiri}
+
+Du trodde dig ensam med **Kapten Barnsben** vid hennes sy- och broderihörna den kvällen du äntligen sa vad du kände, uppriktigt, utan finess, utan reträttväg. **Kapten Döver** stod bara någon meter bort, och du tänkte inte på honom, alla vet att han inte hör. Nästa kväll hörde hela tavernan ditt frieri, ord för ord, ur hans mun, framfört som den bästa skröna på länge.
+
+Du har aldrig kunnat bevisa att han ljuger om sin dövhet, men du vet vad du vet. Ta igen förnedringen på honom, avslöja honom som bedragaren du misstänker att han är inför hela ön, eller vänta på ett tillfälle där hans påstådda dövhet kostar honom mer än ditt rykte kostade dig. Gör det innan festen är över.
 
 ## Viskningen du ger Kosing {slug:amandamungsgard}
 

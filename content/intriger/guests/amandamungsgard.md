@@ -5,6 +5,8 @@ mirrors:
     note: arvssyndsskatt mot hans anor (tvåvägs, låg intensitet)
   - slug: johannabergman
     note: gemensam hemlig ätupplevelse (tvåvägs)
+  - slug: malintadaa
+    note: enväg hat, skålen "söt men tvåa", låg intensitet (du hatar henne, hon vet om det)
 related: [ludvigvonbahr, johannabergman, malintadaa]
 ---
 
@@ -15,6 +17,12 @@ Din arvssyndsskatt är enkel: den som skryter om fin börd och stora anor betala
 ## Bordet du redan planerat {slug:johannabergman}
 
 Du och **Kapten Klöver** har länge planerat en hemlig, exklusiv ätupplevelse tillsammans, och nu är det dags att öppna den för affärer. Lägg den mitt i din indrivning: den som helst vill slippa din arvssyndsskatt kan istället köpa sig en plats vid ert bord. Choklad går lika bra som mynt.
+
+## Räkningen du sänder tillbaka {slug:malintadaa}
+
+**Svarta Malin** avfärdade din arvssyndsskatt i en skål inför hela hamnen, kallade den söt men tvåa, som om ditt hantverk var en barnlek jämfört med hennes egen ståt. Du sa inget tillbaka. Du behöver inte stå mitt i ett drama för att få rätt.
+
+Res din skattebod där **Korvetten Kurtisanen** går förbi, och lägg din taxa på var och en av dem som bär hennes namn och skryter om att stå henne nära. Låt jubilarens eget folk betala för den stolthet hon själv kallade tvåa, mynt för mynt, tills din skatt med mynt och sedlar väger tyngre än hennes skål. Du behöver aldrig nämna hennes namn för att hon ska förstå vem som skickade räkningen.
 
 ## Stugan ingen pratar om {slug:malintadaa}
 
