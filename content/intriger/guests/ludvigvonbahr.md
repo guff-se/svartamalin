@@ -31,3 +31,9 @@ Ditt tveeggade svärd är en helig ko: ingen får syna det på nära håll, för
 Du är skyldig **Svarta Malin** pengar, en skuld som blivit större för varje kväll du skjutit upp att nämna den. Hon för logg över vartenda mynt, varenda ed och varenda obetald skål som dragits på någon, och ditt namn står redan där, med bläck som inte suddas. Du vill åt loggen, inte för att betala, utan för att se vad mer den håller.
 
 Var den sitter vet du inte. Kalla ihop **Galeonen Gnället** och börja leta, innan en annan skuta hinner före er.
+
+## En viskning ingen bett om {slug:malintadaa}
+
+Mitt i en av dina långa, envisa kramar hör du något viskas över axeln, riktat till ingen särskild: att en tryckt kompass aldrig visar sant håll på egen hand, bara en riktig nål hållen mot en kikares glas gör det.
+
+Det är ingenting för dig, bara ett skvaller att bära vidare. Men träffar du någon i **Galeonen Gnället** som redan jagar en syn genom glas, är raden värd att ge bort, gratis eller för en kram till.

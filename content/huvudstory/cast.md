@@ -74,7 +74,7 @@ Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin
 
 ## Belastningsöversikt
 
-Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms bort. Pusselansvar speglar [`fordelning.yaml`](fordelning.yaml) och questfilerna, inte omvänd riktning. Q-4: skuta 1, 2, 4. Startpersoner öppna.
+Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms bort. Pusselansvar speglar [`fordelning.yaml`](fordelning.yaml) och questfilerna, inte omvänd riktning. Q-4: skuta 1, 2, 4. Start: `jesperlindmarker`, `josefinlowing`, `jesperlejfjord`. Tvärledtråd: `johannabergman` (skuta 3), `ludvigvonbahr` (skuta 5).
 
 | slug | Romanser | Fiender | Sidequest i huvudstory | Pusselansvar |
 |------|----------|---------|------------------------|--------------|
@@ -83,17 +83,17 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `petterwallberg` | 1 | 2 | | Q-5 (start) |
 | `linneaappert` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `ulrikahammar` | 3 | 2 | | |
-| `jesperlindmarker` | 2 | 1 | | Q-3 (tvärledtråd) |
+| `jesperlindmarker` | 2 | 1 | | Q-3 (tvärledtråd), Q-4 (start) |
 | `louisevonbahr` | 1 | 1 | | |
-| `josefinlowing` | 1 | 1 | | |
+| `josefinlowing` | 1 | 1 | | Q-4 (start) |
 | `navidmodiri` | 2 | 2 | | Q-3 (start) |
 | `minimacklin` | 1 | 2 | | Q-2 (start), Q-5 (tvärledtråd) |
-| `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
+| `ludvigvonbahr` | 1 | 1 | | Q-5 (start), Q-4 (tvärledtråd) |
 | `amaliawahlstrom` | 0 | 1 | | Q-2 (start), Q-3 (tvärledtråd) |
 | `fabianmacklin` | 1 | 3 | | Q-5 (start) |
 | `josefinansund` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
-| `johannabergman` | 1 | 1 | | |
-| `jesperlejfjord` | 1 | 1 | | |
+| `johannabergman` | 1 | 1 | | Q-4 (tvärledtråd) |
+| `jesperlejfjord` | 1 | 1 | | Q-4 (start) |
 | `amandamungsgard` | 1 | 1 | | Q-2 (start) |
 | `viktoransund` | 1 | 2 | | Q-3 (start), Q-5 (tvärledtråd) |
 | `minervalowgren` | 1 | 1 | | |

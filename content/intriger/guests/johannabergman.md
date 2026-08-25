@@ -10,6 +10,12 @@ mirrors:
 related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard, jesperlejfjord, gustaftadaa]
 ---
 
+## Ett rykte utan sammanhang {slug:malintadaa}
+
+Vid kökskanten, mellan givorna, snappar du upp ett löst prat som inte betyder något för dig: att en tryckt kompass ljuger om riktning, och att bara en riktig kompass hållen mot en kikares glas visar sant håll.
+
+Knepet är värt noll tills någon kommer till dig med en syn de inte kan lita på. Då är du den som vet vad som fattas.
+
 ## Boken på kajen {slug:petterwallberg}
 
 **Kapten Lösskägg**, **Kapten Rödskägg** och **Kapten Blåskägg** slåss om samma krona: vem som får kallas Skäggkonung, avgjort av vem som får högst skål vid båtarna innan festen är över. Du bryr dig inte om vem som vinner. Du bryr dig om vadet.

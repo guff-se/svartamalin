@@ -19,6 +19,12 @@ mirrors:
 related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa, amaliawahlstrom, josefinlowing, malintadaa]
 ---
 
+## En bokhylla full av barndom {slug:malintadaa}
+
+Din svarta liggare handlar mest om vuxna synder: uppblåsta skulder, gamla svek, namn som borde skämmas. I kväll viskar hamnen något som inte passar in bland dem. Att **Svarta Malin**, som barn, hade en favoritbok hon aldrig ville lägga ifrån sig. *Tomtebobarnen*, säger de som minns henne från förr, står visst kvar än i dag på en hylla i Storstugan, som om ingen någonsin vågat rensa bort den.
+
+En sådan rad känns för liten för din liggare. Just därför är den för god att lämna. Ta med dig **Korvetten Kurtisanen** och gå och se efter, men gör det tyst. Hon är er egen kapten, hon delar koj och köl med er hela helgen, och den som bläddrar i hennes barndom vill helst inte att hon kommer runt hörnet mitt i bläddrandet.
+
 ## Boken som ska fyllas {slug:louisevonbahr}
 
 Din svarta liggare bär skulder, namn och gamla oförrätter, en del sanna, en del uppblåsta, en del du själv glömt bakgrunden till. Men en rad saknas fortfarande: du vet aldrig vem som en gång angav dig och satte dig bakom galler i flera år. Nu är alla från den tiden samlade på samma ö, för första gången, och boken behöver en ny sida innan festen är över.

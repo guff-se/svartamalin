@@ -11,6 +11,12 @@ mirrors:
 related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker]
 ---
 
+## Barnets bok på hyllan {slug:malintadaa}
+
+Innan hon var jubilarens namn på alla läppar var **Svarta Malin** bara ett barn med en favoritbok. *Tomtebobarnen*, säger de äldsta vid kajen, en sliten liten volym hon aldrig ville släppa taget om. Den ska visst stå kvar än i dag, på en hylla i Storstugan, omgiven av allt hon senare blev.
+
+En sådan detalj är för god att bara höra och glömma. Ta med dig **Fregatten Fördärvet** och gå och leta upp den, innan en annan skuta hinner före er.
+
 ## Hornet du redan hånat {slug:elinmartensson}
 
 **Kapten Plåthorn**s "varning" sålde en gång din position och lät dig bli tagen på bar gärning, en förnedring du svarade på med en hånfull skål om hennes plåthorn inför hela hamnen. Nu vill du ha hornet själv, för skojs skull, för taktiskt bruk, eller för att sälja det vidare till någon som vill mer illa än du. Lura, stjäl, eller locka henne att blåsa i det vid fel tillfälle så hon förlorar greppet om det. Gör det innan festen är över.

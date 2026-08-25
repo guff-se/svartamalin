@@ -9,6 +9,12 @@ mirrors:
 related: [malintadaa, minimacklin, johannabergman, gustaftadaa]
 ---
 
+## Hyllan hon aldrig rensade {slug:malintadaa}
+
+Mellan grytorna och doften av kaviar och rom hör du något du inte väntat dig: att **Svarta Malin**, som liten, hade en favoritbok, *Tomtebobarnen*, och att den fortfarande står kvar på en hylla i Storstugan, som om ingen någonsin vågat flytta den.
+
+Det är knappast en hemlighet värd namnet. Men något i tanken på jubilaren som barn river i dig mer än du vill erkänna, och du vill se den med egna ögon. Ta med dig **Fregatten Fromheten** dit innan festen är över, och se efter själv.
+
 ## Hjärtat som inte gett upp {slug:malintadaa}
 
 Du har stängt ditt hjärta så många gånger att du numera bara säger dig öppna det för katten. Lögnen sitter risigt löst: du är fortfarande en blödig jävel, öm under all den påstådda hårdheten, och det är **Svarta Malin** som får den sidan att röra på sig igen, i hemlighet, utan att du tänker erkänna det för någon.
