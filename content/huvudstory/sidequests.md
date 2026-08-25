@@ -133,7 +133,7 @@ Vad de vill:    utropa sig till Skäggkonung, eller se till att de andra inte f�
 Vad står i vägen: de två andra. Ingen given räknare. Ingen av dem är redan kung. De måste själva hitta ett sätt som ön köper.
 Varför nu:      tre skäggnamn på samma ö. Festen. Folk som tittar.
 
-Hur det spelas: titeln är målet, inte en förutbestämd gren. Kajen kröner den som får ön att behandla hen som kung. De tre får själva lista ut hur. Gästtexten ger tre exempelvägar, inte en meny de måste välja ur: förnedra motståndarna offentligt, utlysa en skäggturnering och vinna den, eller raka av motståndet (lek, med samtycke: en tofs, en skamrand, hela skägget). Andra påhitt räknas om folk ser det.
+Hur det spelas: titeln är målet, inte en förutbestämd gren. Kajen kröner den som får ön att behandla hen som kung. De tre får själva lista ut hur. Gästtexten ger tre exempelvägar, inte en meny de måste välja ur: förnedra motståndarna offentligt, utlysa en skäggturnering och vinna den, eller raka av motståndet. Andra påhitt räknas om folk ser det.
 
 Lösskäggs låda är motorn, inte en extra gren. Han sätter skägg på folk, pekar ut vem som ska förföras, håller tal och skålar, och vill plundra kaptener med skägg i namnet. Ett stulet skägg fungerar för tjuven, och då har hen Lösskägg efter sig. Rödskägg är stolt och lättkränkt och kan muta med Piratpulver. Blåskägg har inget eget föremål: tal, stöld ur lådan, eller att haka på de andras grepp. Klöver öppnar vad på person *och* metod, choklad lika bra som mynt. Inte bärande balk. Inte en lång scen långt från kajen.
 
