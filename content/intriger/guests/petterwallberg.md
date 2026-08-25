@@ -1,5 +1,6 @@
 ---
 # Skuta: **Korvetten Kurtisanen** (crew_id: 1)
+# enväg vittne mot malintadaa (skiffer +13), speglas inte
 mirrors:
   - slug: viktoransund
     note: skäggtrion, Skäggens Konung (tvåvägs)
@@ -17,6 +18,10 @@ related: [viktoransund, hampuslindblad, johannabergman, minimacklin, malintadaa,
 Du är skyldig **Svarta Malin** pengar, en summa du lånade för att köpa dig in i ett vad du var säker på att vinna, och förlorade stort. Hon glömmer aldrig en skuld: hon för logg över vartenda mynt, varenda ed och varenda obetald skål någon någonsin dragit på sig, och ditt namn står redan där. Du vill åt den loggen, inte för att betala tillbaka, utan för att se vad mer den håller, om dig och om andra.
 
 Var den sitter vet du inte, bara att den finns. Jaga den med **Korvetten Kurtisanen** vid din sida, men gör det tyst. Hon är er egen kapten, hon delar koj och köl med er hela helgen, och den som grävt i hennes förflutna vill helst inte att hon kommer runt hörnet mitt i grävandet.
+
+## Bokstäver som flyttar sig {slug:malintadaa}
+
+När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, förskjuter hon bokstäverna tretton steg framåt. A blir N. Knepet är värt noll tills någon kommer med ett blad de inte kan tyda. Då är du den som kan läsa.
 
 ## Skäggens Konung {slug:johannabergman}
 

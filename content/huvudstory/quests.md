@@ -144,7 +144,7 @@ Snapshot av [`fordelning.yaml`](fordelning.yaml). Ändra där, sedan här. Fet =
 
 | Skuta | Q-1 Första kärleken | Q-2 Pirat | Q-3 Korvetten | Q-4 Havet | Q-5 Skuldboken |
 |-------|---------------------|-----------|---------------|-----------|----------------|
-| 1 Korvetten Kurtisanen | **Planka** | — | *tvär: Hurring, Planka* | **Hurring** | **Lösskägg** |
+| 1 Korvetten Kurtisanen | **Planka** | — | *tvär: Lösskägg, Planka* | **Hurring** | **Lösskägg** |
 | 2 Fregatten Fördärvet | **Kuling** | **Blodig** | **Döver** | — | *tvär: Blodig* |
 | 3 Barken Bortförklaringen | **Frodig** | **Enben** | *tvär: Enben, Frodig* | — | **Nykter** |
 | 4 Fregatten Fromheten | — | **Kosing** | **Rödskägg** | **Hjärter** | *tvär: Rödskägg* |

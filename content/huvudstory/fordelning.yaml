@@ -996,7 +996,7 @@ fordelning:
 
 # B-19 Q-3-tillsättning (2026-08-24): skuta 2, 4, 5. Start: Kapten Döver (`navidmodiri`),
 # Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd (skiffer +13 framåt):
-# Kapten Enben (`amaliawahlstrom`, skuta 3), Kapten Hurring (`jesperlindmarker`, skuta 1).
+# Kapten Enben (`amaliawahlstrom`, skuta 3), Kapten Lösskägg (`petterwallberg`, skuta 1).
 # Inte mullvad, inte Malin, inte Spader. Skuta 1 och 3 utan ingång.
 # Ytterligare tvärledtråd (2026-08-24): Planka (`linneaappert`, skuta 1), Frodig (`josefinansund`, skuta 3).
 
@@ -1051,7 +1051,7 @@ fordelning:
   - id: 83
     beat: B-19
     akt: II
-    till: [jesperlindmarker]
+    till: [petterwallberg]
     roll: vittne
     vet: "att Svarta Malin förskjuter bokstäverna tretton steg framåt när hon skriver så att bara den som känner knepet kan läsa, och att A blir N"
     vet_inte: "gymmet, vedhögen, badbryggan, ägarbeviset, kapitlet, kungen, att kistan öppnas"

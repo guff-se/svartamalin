@@ -1,6 +1,5 @@
 ---
 # Skuta: **Korvetten Kurtisanen** (crew_id: 1)
-# enväg vittne mot malintadaa (skiffer +13), speglas inte
 mirrors:
   - slug: louisevonbahr
     note: gammalt angiveri, hon nekar, han misstänker (tvåvägs)
@@ -21,13 +20,9 @@ related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaft
 
 ## En bokhylla full av barndom {slug:malintadaa}
 
-Din svarta liggare handlar mest om vuxna synder: uppblåsta skulder, gamla svek, namn som borde skämmas. I kväll viskar hamnen något som inte passar in bland dem. Att **Svarta Malin**, som barn, hade en favoritbok hon aldrig ville lägga ifrån sig. *Tomtebobarnen*, säger de som minns henne från förr, står visst kvar än i dag på en hylla i Storstugan, som om ingen någonsin vågat rensa bort den.
+Din svarta liggare handlar mest om vuxna synder: uppblåsta skulder, gamla svek, namn som borde skämmas. I kväll viskar hamnen något som inte passar in bland dem. Att **Svarta Malin**, som barn, hade en favoritbok hon aldrig ville lägga ifrån sig. *Tomtebobarnen*, säger de som minns henne från förr, står visst kvar än i dag på en hylla, som om ingen någonsin vågat rensa bort den.
 
 En sådan rad känns för liten för din liggare. Just därför är den för god att lämna. Ta med dig **Korvetten Kurtisanen** och gå och se efter, men gör det tyst. Hon är er egen kapten, hon delar koja och köl med er hela helgen, och den som bläddrar i hennes barndom vill helst inte att hon kommer runt hörnet mitt i bläddrandet.
-
-## Bokstäver som flyttar sig {slug:malintadaa}
-
-En annan rad i liggaren är inte rykte. Den är hantverk. När **Svarta Malin** inte vill att vem som helst ska läsa, förskjuter hon bokstäverna tretton steg framåt. A blir N. Sälj knepet till den som redan har ett blad de stirrar sig blinda på, eller behåll det tills budet är högt nog. Utan bladet är raden bara bläck.
 
 ## Handen som viskar från Fromheten {slug:minervalowgren}
 

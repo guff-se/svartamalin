@@ -80,10 +80,10 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 |------|----------|---------|------------------------|--------------|
 | `malintadaa` | 0 | 2 | | |
 | `gustaftadaa` | 1 | 1 | | |
-| `petterwallberg` | 1 | 2 | | Q-5 (start) |
+| `petterwallberg` | 1 | 2 | | Q-5 (start), Q-3 (tvärledtråd) |
 | `linneaappert` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `ulrikahammar` | 3 | 2 | | |
-| `jesperlindmarker` | 2 | 1 | | Q-3 (tvärledtråd), Q-4 (start) |
+| `jesperlindmarker` | 2 | 1 | | Q-4 (start) |
 | `louisevonbahr` | 1 | 1 | | |
 | `josefinlowing` | 1 | 1 | | Q-1 (start) |
 | `navidmodiri` | 2 | 2 | | Q-3 (start) |
