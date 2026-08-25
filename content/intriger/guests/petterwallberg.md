@@ -2,9 +2,11 @@
 # Skuta: **Korvetten Kurtisanen** (crew_id: 1)
 mirrors:
   - slug: viktoransund
-    note: skäggtrion, skamranden (tvåvägs)
+    note: skäggtrion, Skäggens Konung (tvåvägs)
   - slug: hampuslindblad
-    note: skäggtrion, kallad fejk och färgad blå (tvåvägs)
+    note: skäggtrion, Skäggens Konung (tvåvägs)
+  - slug: johannabergman
+    note: skäggtrion, hon hetsar och tar vad (tvåvägs)
   - slug: josefinlowing
     note: romans, hon tar utan förförarskägg (tvåvägs)
 related: [viktoransund, hampuslindblad, johannabergman, minimacklin, malintadaa, josefinlowing]
@@ -16,17 +18,13 @@ Du är skyldig **Svarta Malin** pengar, en summa du lånade för att köpa dig i
 
 Var den sitter vet du inte, bara att den finns. Jaga den med **Korvetten Kurtisanen** vid din sida, men gör det tyst. Hon är er egen kapten, hon delar koj och köl med er hela helgen, och den som grävt i hennes förflutna vill helst inte att hon kommer runt hörnet mitt i grävandet.
 
-## Skammens rand {slug:viktoransund}
+## Skäggens Konung {slug:johannabergman}
 
-Du har fyra skägg i din låda, skurna av kaptener du besegrat medan de ännu andades. Vartenda ett bär en historia du kan utantill, och den som förlorar sitt skägg till dig förlorar sitt rykte på köpet.
+**Kapten Rödskägg** och **Kapten Blåskägg** bär skägg i namnet, precis som du, och nu ligger ni tre vid samma kaj. Du samlar skägg. Fyra stycken i din låda, skurna av kaptener du besegrat medan de ännu andades, vart och ett med en historia du kan utantill. Den som förlorar sitt skägg till dig förlorar sitt rykte. De två som fortfarande seglar är just de två, och du vill plundra dem. Du vill utropa dig till Skäggens Konung innan festen är över.
 
-Sist du och **Kapten Rödskägg** möttes rakade du en skamrand mitt i hans röda skägg, medan han bar det, så att hela hamnen såg. Han har inte förlåtit dig, och du tänker inte be om ursäkt. Ni två, plus **Kapten Blåskägg**, strider om vem som är Skäggkonung. Kajen kröner den som får högst skål vid båtarna, inför folk, innan festen är över. Gå runt och sätt vunna tofsar på dem som duger, håll tal, skåla i tid och otid, och låt Rödskägg se att skammens rand fortfarande sitter kvar där du lämnade den.
+Hur man blir kung har ingen ristat i någon reling. Kajen behandlar den som kung som den *ser* som kung. Förnedra dem inför folk. Utlys en skäggturnering och vinn den. Raka av motståndet. Eller hitta på värre. Du sätter skägg på den som duger, pekar ut vem som ska förföras, håller tal och skålar tills hamnen skriker ditt namn. Stjäl någon ur din låda fungerar skägget för tjuven, och då har du hen efter dig resten av helgen.
 
-## Kungen som kallade dig fejk {slug:hampuslindblad}
-
-**Kapten Blåskägg** har redan krönt sig Skäggkonung, efter att ha kallat ditt skägg fejk inför hela hamnen och färgat det blått i en tvättbalja medan du sov. Ett skägg du vunnit i strid, kallat påhittat av en man som bara ärvt sitt.
-
-Han och **Kapten Rödskägg** delar samma anspråk på kronan som du gör. Kajen kröner den som får högst skål vid båtarna, innan festen är över. Sätt en av dina vunna skäggtofsar på någon som förtjänar den, håll ett tal om äkta skägg och falska kungar, och se till att Blåskäggs krona sitter löst innan sista skålen.
+**Kapten Klöver** har redan öppnat vad. Hon hetsar er mot varandra, mynt och choklad i samma bok, och hon bryr sig inte om vem som vinner, bara att ni slåss. Låt henne ropa. Ta skägget. Ta titeln.
 
 ## Stormen du vill ha om igen {slug:josefinlowing}
 

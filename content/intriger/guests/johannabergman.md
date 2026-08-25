@@ -1,6 +1,12 @@
 ---
 # Skuta: **Barken Bortförklaringen** (crew_id: 3)
 mirrors:
+  - slug: petterwallberg
+    note: skäggtrion, Skäggens Konung, du hetsar och tar vad (tvåvägs)
+  - slug: viktoransund
+    note: skäggtrion, Skäggens Konung, du hetsar och tar vad (tvåvägs)
+  - slug: hampuslindblad
+    note: skäggtrion, Skäggens Konung, du hetsar och tar vad (tvåvägs)
   - slug: jesperlindmarker
     note: hemlig romans, han vet om Prygel, du vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: jesperlejfjord
@@ -10,11 +16,11 @@ mirrors:
 related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard, jesperlejfjord, gustaftadaa]
 ---
 
-## Boken på kajen {slug:petterwallberg}
+## Skäggens Konung {slug:petterwallberg}
 
-**Kapten Lösskägg**, **Kapten Rödskägg** och **Kapten Blåskägg** slåss om samma krona: vem som får kallas Skäggkonung, avgjort av vem som får högst skål vid båtarna innan festen är över. Du bryr dig inte om vem som vinner. Du bryr dig om vadet.
+**Kapten Lösskägg**, **Kapten Rödskägg** och **Kapten Blåskägg** bär samma slags namn och samma slags fåfänga. Tre skägg på en kaj är en bank som väntar. Du vill tjäna på vadslagningen, och för det måste de faktiskt slåss.
 
-Öppna din bok redan innan de tre ens ställt upp. Ta insatser i mynt eller choklad, ingen skillnad för dig, och se till att din procent är räknad innan sista skålen slås. Tre skäggkonungar som slåss om en krona är den bästa sortens affär: ingen av dem ser dig som annat än en oskyldig åskådare, medan du går plus oavsett vem som till slut bär tofsen.
+Hetsa dem. Viska till den lättkränkte att de andra redan skrattat. Säg till samlaren att de andras skägg är nästa i lådan. Säg till den med det blånade skägget att färgen inte räcker. Öppna vad på vem som vinner och hur: förnedring, turnering, rakning, eller vad de själva hittar på. Choklad går lika bra som mynt. Du bryr dig inte om vem som blir Skäggens Konung. Du bryr dig om att kajen slår vad, och att din procent är räknad när sista skålen faller.
 
 ## Fragmentet du säljer dyrt {slug:jesperlindmarker}
 

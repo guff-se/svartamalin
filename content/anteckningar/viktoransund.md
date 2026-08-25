@@ -12,6 +12,6 @@ Skrivna sjöintriger går gärna via att övertala honom eller Kuling att ge sig
 
 Förbjuden hemlig kärlek med **Kapten Frodig** (`josefinansund`), romans 8. Inte Mini. Inte en lång scen långt från kajen: han har båtarna.
 
-Skäggtrion med **Kapten Lösskägg** och **Kapten Blåskägg** (S-02, B-15). Beslutad. De tre strider om vem som är Skäggkonung. De listar själva ut hur. Publikt, kul, tre skutor. Gästtext skrivs senare.
+Skäggtrion med **Kapten Lösskägg** och **Kapten Blåskägg** (S-02, B-15). De tre strider om vem som är Skäggens Konung. De listar själva ut hur. Klöver hetsar. Gästtext skriven.
 
 S-12 enväg: Blodig skyller bakhållet på Frodig. Han får inte veta att klienten var Rötägg.

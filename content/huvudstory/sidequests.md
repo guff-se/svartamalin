@@ -38,7 +38,7 @@ Status:         idé / beslutad / skriven
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
 | S-01 | Jakten på älskaren | Hjärter, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | skriven |
-| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / hetsare | beslutad |
+| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / hetsare | skriven |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver, Babord | II | jägare / bärare / vittne | skriven |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
 | S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
@@ -152,7 +152,7 @@ Utfall om nej:  de tre retas vidare utan att utropa någon. Huvudstoryn går.
 
 Bygger på:      Lösskäggs underlag (lådan, förförarskäggen, plundra skäggnamn). Rödskäggs stolthet och Piratpulver. Blåskäggs blåa skägg, kraniumpulver, dimdon. Klövers svartklubb.
 Speglas hos:    de tre, och Klöver. Hon hetsar, de tre får veta att hon tar vad.
-Status:         beslutad. Gästtext skrivs senare.
+Status:         skriven.
 
 Obs: Inte bärande balk. Inte en lång scen långt från kajen. Klöver bär också S-04, S-05 och S-11. Här hetsar hon skäggkampen för bankens skull, inte samma mekanik som de andra. Blåskägg bär också S-04. Rödskägg och Lösskägg bär också S-09. Ingen delad mekanik.
 

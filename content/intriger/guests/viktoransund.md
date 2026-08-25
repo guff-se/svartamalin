@@ -2,9 +2,11 @@
 # Skuta: **Fregatten Fromheten** (crew_id: 4)
 mirrors:
   - slug: petterwallberg
-    note: skäggtrion, skamranden (tvåvägs)
+    note: skäggtrion, Skäggens Konung (tvåvägs)
   - slug: hampuslindblad
-    note: skäggtrion, blåfärgad och avkrönt (tvåvägs)
+    note: skäggtrion, Skäggens Konung (tvåvägs)
+  - slug: johannabergman
+    note: skäggtrion, hon hetsar och tar vad (tvåvägs)
   - slug: josefinansund
     note: förbjuden hemlig kärlek (tvåvägs)
   - slug: josefinlowing
@@ -24,17 +26,13 @@ Det viskas att **Svarta Malin** håller räkning på alla som är skyldiga henne
 
 Hör du någon leta efter var loggen sitter, kan du peka dit utan att fråga varför. Ta med dig **Fregatten Fromheten** om du vill sälja tipset dyrt, eller behåll det som ett skämt bara du känner till.
 
-## Randen han rakade {slug:petterwallberg}
+## Skäggens Konung {slug:johannabergman}
 
-**Kapten Lösskägg** rakade en skamrand mitt i ditt röda skägg, medan du bar det och inte kunde stoppa honom, så att hela hamnen fick se. Han samlar skägg som troféer från kaptener han besegrat, och din rand är hans sätt att göra anspråk utan att ta hela skägget.
+Du är stolt, lättkränkt och vill inget hellre än att framstå som Salmonellahavets störste kapten. En förolämpning mot dig är redan ett drama. **Kapten Lösskägg** samlar skägg som troféer och har siktet på ditt. **Kapten Blåskägg** bär blått i ansiktet som om färgen vore ett argument. Ni tre har skägg i namnet, och nu ligger ni vid samma kaj. Titeln Skäggens Konung är inte given. Den ska tas, innan festen är över, inför folk.
 
-Ni två, plus **Kapten Blåskägg**, strider om vem som ska kallas Skäggkonung. Kajen kröner den som får högst skål vid båtarna, inför folk, innan festen är över. Du är stolt, lättkränkt och har svårt att sitta still med en förolämpning obesvarad. Skåla högre, håll tal längre, och se till att ingen glömmer vem som egentligen är farligast av de tre.
+Ingen har skrivit hur. Kajen behandlar den som kung som den *ser* som kung. Förnedra dem tills de ser små ut. Utlys en skäggturnering och vinn den. Raka av motståndet. Gör vad som helst, bara du inte ser rädd ut.
 
-## Blå i tvättbaljan {slug:hampuslindblad}
-
-**Kapten Blåskägg** hällde indigo i tvättbaljan medan du sov och lät dig vakna blåstrimmig inför hela besättningen, sen krönte han sig Skäggkonung på stående fot, som om saken redan var avgjord. Den kronan tänker du inte låta honom behålla.
-
-Han och **Kapten Lösskägg** gör båda anspråk på samma titel. Kajen kröner den som får högst skål vid båtarna, innan festen är över. Ta tillbaka kronan med en skål så stor att hamnen glömmer färgen på ditt skägg, och låt Blåskägg känna att tronen alltid satt löst.
+I väskan ligger Piratpulver, förbjudet och hett, värt en halv brigg. Muta, hota, handla. **Kapten Klöver** hetsar er tre mot varandra och tar vad i mynt och choklad. Hon vill se er slåss. Låt henne se vem som inte viker.
 
 ## Kärleken ni håller hemlig {slug:josefinansund}
 

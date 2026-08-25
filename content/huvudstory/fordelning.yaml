@@ -184,10 +184,10 @@ fordelning:
     akt: II
     till: [petterwallberg]
     roll: jagare
-    vet: "att han, Kapten Rödskägg och Kapten Blåskägg strider om vem som är Skäggkonung, att kajen kröner den som får högst skål vid båtarna, att han samlar skägg skurna från levande kaptener, och att Kapten Klöver tar vad"
+    vet: "att han, Kapten Rödskägg och Kapten Blåskägg strider om vem som är Skäggens Konung, att de själva listar ut hur (förnedra, utlysa turnering, raka av motståndet, eller annat kajen köper), att han samlar skägg skurna från levande kaptener och vill plundra de andras, och att Kapten Klöver hetsar dem och tar vad"
     vet_inte: "inget av kistan eller kontraktet"
-    speglas: [viktoransund, hampuslindblad]
-    bygger_pa: "fiende: 3, 19"
+    speglas: [viktoransund, hampuslindblad, johannabergman]
+    bygger_pa: null
     pussel: null
     status: done
 
@@ -196,10 +196,10 @@ fordelning:
     akt: II
     till: [viktoransund]
     roll: jagare
-    vet: "att han, Kapten Lösskägg och Kapten Blåskägg strider om vem som är Skäggkonung, att kajen kröner den som får högst skål vid båtarna, att Lösskägg rakade en rand i hans röda skägg medan han bar det, att Blåskägg färgade honom blå i tvättbaljan och krönte sig, och att Kapten Klöver tar vad"
+    vet: "att han, Kapten Lösskägg och Kapten Blåskägg strider om vem som är Skäggens Konung, att de själva listar ut hur (förnedra, utlysa turnering, raka av motståndet, eller annat kajen köper), att Lösskägg samlar skägg och har siktet på hans, och att Kapten Klöver hetsar dem och tar vad"
     vet_inte: "inget av kistan eller kontraktet"
-    speglas: [petterwallberg, hampuslindblad]
-    bygger_pa: "fiende: 3, 18"
+    speglas: [petterwallberg, hampuslindblad, johannabergman]
+    bygger_pa: null
     pussel: null
     status: done
 
@@ -208,10 +208,10 @@ fordelning:
     akt: II
     till: [hampuslindblad]
     roll: jagare
-    vet: "att han, Kapten Lösskägg och Kapten Rödskägg strider om vem som är Skäggkonung, att han redan har krönt sig efter att ha färgat Rödskägg, att kajen kröner den som får högst skål vid båtarna, och att Kapten Klöver tar vad"
+    vet: "att han, Kapten Lösskägg och Kapten Rödskägg strider om vem som är Skäggens Konung, att de själva listar ut hur (förnedra, utlysa turnering, raka av motståndet, eller annat kajen köper), att hans skägg blånade på Galápagos, och att Kapten Klöver hetsar dem och tar vad"
     vet_inte: "inget av kistan eller kontraktet"
-    speglas: [petterwallberg, viktoransund]
-    bygger_pa: "fiende: 18, 19"
+    speglas: [petterwallberg, viktoransund, johannabergman]
+    bygger_pa: null
     pussel: null
     status: done
 
@@ -370,11 +370,11 @@ fordelning:
     beat: S-02
     akt: II
     till: [johannabergman]
-    roll: grindvakt
-    vet: "att Lösskägg, Rödskägg och Blåskägg slåss om vem som ska kallas Skäggkonung, att kajen kröner den som får högst skål vid båtarna, och att hon ska öppna vadslagning och ta procent, choklad lika bra som mynt"
+    roll: hetsare
+    vet: "att Lösskägg, Rödskägg och Blåskägg slåss om vem som ska kallas Skäggens Konung, att de själva listar ut hur, att hon ska hetsa dem mot varandra och ta vad på person och metod, choklad lika bra som mynt, och att hon inte bryr sig om vem som vinner"
     vet_inte: "inget av kistan eller kontraktet"
-    speglas: []
-    bygger_pa: "fiende: 3, 18, 19"
+    speglas: [petterwallberg, viktoransund, hampuslindblad]
+    bygger_pa: null
     pussel: null
     status: done
 

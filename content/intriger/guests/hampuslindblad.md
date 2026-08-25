@@ -3,9 +3,11 @@
 # navidmodiri: enväg rykte att Döver också har sanningsserum, speglas inte
 mirrors:
   - slug: viktoransund
-    note: skäggtrion, blåfärgad och avkrönt (tvåvägs)
+    note: skäggtrion, Skäggens Konung (tvåvägs)
   - slug: petterwallberg
-    note: skäggtrion, kallad fejk och färgad blå (tvåvägs)
+    note: skäggtrion, Skäggens Konung (tvåvägs)
+  - slug: johannabergman
+    note: skäggtrion, hon hetsar och tar vad (tvåvägs)
   - slug: linneaekbom
     note: mullvad, hennes snäcka avslöjar din rädsla för kronan, hon köper dig med Gnällets larm (tvåvägs)
   - slug: louisevonbahr
@@ -23,15 +25,13 @@ related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linnea
 
 Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne, och genom henne **Galeonen Gnället**. Du arbetar för Gnället nu, i den här hemligheten, det är ni båda helt överens om, men bara därför att Rosing köpte dig med sin krona, inte av någon kärlek till hennes skuta. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och håll din krona på huvudet innan festen är över.
 
-## Kronan du redan tagit {slug:viktoransund}
+## Skäggens Konung {slug:johannabergman}
 
-Du hällde indigo i **Kapten Rödskägg**s tvättbalja medan han sov och lät honom vakna blåstrimmig inför hela besättningen. Sen krönte du dig själv Skäggkonung, utan att fråga någon om lov. Han har inte förlåtit dig, och han tänker ta tillbaka kronan innan festen är över.
+Ditt skägg blånade av svamp och skeppsbrott på Galápagos, år av dörrar bakom medvetandet. **Kapten Lösskägg** samlar andras skägg i en låda och kallar det seger. **Kapten Rödskägg** är stolt nog att spricka vid en viskning. Ni tre har skägg i namnet. Titeln Skäggens Konung ligger lös på kajen, och du tänker ta den innan festen är över.
 
-## Det fejkade skägget {slug:petterwallberg}
+Hur man blir kung är inte skrivet. Kajen behandlar den som kung som den *ser* som kung. Förnedra dem. Utlys en skäggturnering. Raka av motståndet. I påsen har du kraniumpulver som tar sanningen när det dras upp i näsan. I handen ett don med trollrök mot dimma. Tvinga fram ett ja, utropa dig ur röken, eller ta deras grepp och gör dem till dina.
 
-Ditt eget skägg är inte indigo. Det blånade av svamp och skeppsbrott på Galápagos, år av dörrar bakom medvetandet, och det är därför du kallar andras blå för färg. Du kallade **Kapten Lösskägg**s skägg fejk inför hela hamnen, färgade det blått för att bevisa din poäng, och utropade dig till kung över alla tre skäggen på en och samma kväll. Han samlar riktiga skägg från kaptener han besegrat och tänker minsann bevisa att ditt anspråk är precis lika falskt som du påstod att hans skägg var.
-
-Kajen kröner den som får högst skål vid båtarna, inför folk, innan festen är över. Din krona satt löst redan innan du tog den. Håll den på huvudet med skål efter skål, och låt de andra två skrika om rättvisa så mycket de vill.
+**Kapten Klöver** hetsar er och tar vad, choklad lika bra som mynt. Hon vill ha en kamp, inte en kung. Ge henne kampen. Behåll titeln.
 
 ## Drottningen som var först {slug:louisevonbahr}
 
