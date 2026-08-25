@@ -118,7 +118,8 @@
 
 /* Crew collage — 4 kort per rad (bredare kort-container) */
 .card--crew,
-.card--practical {
+.card--practical,
+.card--intriger {
   max-width: 62rem;
 }
 
