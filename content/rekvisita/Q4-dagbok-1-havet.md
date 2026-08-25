@@ -13,12 +13,14 @@ Ung Malin. Före kärleken. Före sveket. Drömmen om Salmonellahavet och frihet
 
 Blad 1
 
-De andra leker i skogen. Jag tittar på vattnet.
+De andra leker i skogen, med pinnsvärd och rop som studsar mellan träden. Jag hör dem, men jag har redan gått ner mot vattnet.
 
-Salmonellahavet. Det tar inte slut. Det frågar inte vem jag är.
+Salmonellahavet ligger och väntar, som det alltid gör. Det tar inte slut, hur länge jag än tittar. Det frågar inte vem jag är, hur gammal jag är, om jag får. Det bara ligger där och lyser, och jag tänker att om jag är tyst nog kanske det svarar.
 
-En dag seglar jag. Inte mot någon. Bara ut. Fri som linjen där vattnet möter himlen.
+Jag räknar skutorna som går ut om morgnarna och kommer in om kvällarna, och jag undrar hur det känns att vara någon som får bestämma vilken väg man tar. Inte fråga. Inte vänta på lov. Bara vända förstäven dit man vill.
 
-Jag tittar tills ögonen svider. Genom luften. Genom glaset i fönstret. Havet är stort nog. Jag ska bli stor nog.
+En dag ska jag segla. Inte mot någon, inte mot något jag kan peka ut på en karta. Bara ut, tills linjen där himlen tar vid är den enda gränsen kvar. Jag ska vara stor då. Stor nog att ingen kan kalla mig hem till middagen.
 
-Det går inte att hålla fast. Det går att längta efter. Det räcker.
+Tills dess tittar jag. Genom luften, genom glaset i fönstret, tills ögonen svider och rummet bakom mig försvinner. Havet är så mycket större än jag. Jag tänker att om jag bara väntar och växer och väntar, blir jag till slut stor nog för det också.
+
+Man kan inte hålla fast ett hav. Det vet jag redan, ung som jag är. Men man kan längta efter det, natt efter natt, tills längtan är den enda sak som känns fullvuxen i hela kroppen. Det får duga. Just nu duger det mer än nog.
