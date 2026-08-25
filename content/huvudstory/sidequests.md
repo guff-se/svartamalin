@@ -38,7 +38,7 @@ Status:         idé / beslutad / skriven
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
 | S-01 | Jakten på älskaren | Hjärter, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | skriven |
-| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / grindvakt | skriven |
+| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / grindvakt | beslutad |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver, Babord | II | jägare / bärare / vittne | skriven |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
 | S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
@@ -129,17 +129,22 @@ Deltagare:      Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktor
 Roll i storyn:  rivaler / grindvakt (Klöver)
 Kopplad till:   B-15
 
-Vad de vill:    vara Skäggkonung. Eller åtminstone se till att de andra inte är det. Klöver vill bara ha en bra bank.
-Vad står i vägen: de två andra. Blåskägg har redan krönt sig. Lösskägg samlar skägg. Rödskägg är kränkt.
+Vad de vill:    utropa sig till Skäggkonung, eller se till att de andra inte får göra det. Klöver vill bara ha en bra bank.
+Vad står i vägen: de två andra. Ingen given räknare. Ingen av dem är redan kung. De måste själva hitta ett sätt som ön köper.
 Varför nu:      tre skäggnamn på samma ö. Festen. Folk som tittar.
 
-Hur det spelas: kajen kröner den som får högst skål vid båtarna, inför folk. Fredag: de tre retas, Klöver öppnar boken. Lördag: hyllningen ska landa innan sista skålen. Lösskägg plundrar de andras skägg och sätter vunna tofsar på folk. Rödskägg mutar med Piratpulver och stannar vid båtarna. Blåskägg försvarar den krona han redan satt på sig. Klöver tar procent, choklad lika bra som mynt. Inte bärande balk. Inte en lång scen långt från kajen.
-Utfall om ja:   någon kröns, eller ingen, eller alla tre. Folk har sett det. Klöver går plus oavsett utfall.
+Hur det spelas: titeln är målet, inte en förutbestämd gren. Kajen kröner den som får ön att behandla hen som kung. De tre får själva lista ut hur. Gästtexten ger tre exempelvägar, inte en meny de måste välja ur: förnedra motståndarna offentligt, utlysa en skäggturnering och vinna den, eller raka av motståndet (lek, med samtycke: en tofs, en skamrand, hela skägget). Andra påhitt räknas om folk ser det.
+
+Lösskäggs låda är motorn, inte en extra gren. Han sätter skägg på folk, pekar ut vem som ska förföras, håller tal och skålar, och vill plundra kaptener med skägg i namnet. Ett stulet skägg fungerar för tjuven, och då har hen Lösskägg efter sig. Rödskägg är stolt och lättkränkt och kan muta med Piratpulver. Blåskägg har inget eget föremål: tal, stöld ur lådan, eller att haka på de andras grepp. Klöver öppnar vad på person *och* metod, choklad lika bra som mynt. Inte bärande balk. Inte en lång scen långt från kajen.
+
+Ingen förhandsfärgning. Ingen fysisk krona från produktion. Fiende 3 (skamranden) och 18/19 (indigo, fejk, självkröning) är bakgrund de kan åberopa i tal, inte kostymkrav och inte startläge.
+
+Utfall om ja:   någon utropas, eller ingen, eller alla tre. Folk har sett hur det gick till. Klöver går plus oavsett utfall.
 Utfall om nej:  fiendskaperna finns kvar. Huvudstoryn går.
 
-Bygger på:      fiender 3, 18, 19. Klövers etablerade svartklubbsverksamhet i rollunderlaget.
+Bygger på:      fiender 3, 18, 19. Lösskäggs rollunderlag (lådan, förförarskäggen, plundringen). Klövers svartklubb.
 Speglas hos:    alla tre. Klöver enväg, hon bryr sig bara om vadet.
-Status:         skriven
+Status:         beslutad. Gästtexten som ligger följer den gamla mekaniken (högst skål, indigo, krona). Skrivs om i en senare omgång, inte nu.
 
 Obs: Klöver bär också S-04 och S-05, samma etablerade drag (vadslagning, skvaller mot betalning), inte samma mekanik.
 
@@ -397,7 +402,7 @@ Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att d
 Akt:            II, vid ett bord som tål kökskanten
 Deltagare:      Löjtnant Spader (`gustaftadaa`), Kapten Klöver (`johannabergman`), Kapten Hjärter (`jesperlejfjord`), Kapten Prygel (`minervalowgren`), Kapten Plåthorn (`elinmartensson`)
 Roll i storyn:  rivaler (Spader, Klöver, Hjärter) / grindvakt, dealer (Prygel) / vittne (Plåthorn)
-Kopplad till:   ingen beat. Skild från S-02 (skäggtrions kröning vid kajen) och S-04 (liggarjakten): samma personer förekommer, men annat bord, annan insats. Kökskanten på Fromheten.
+Kopplad till:   ingen beat. Skild från S-02 (skäggtrions kamp om titeln) och S-04 (liggarjakten): samma personer förekommer, men annat bord, annan insats. Kökskanten på Fromheten.
 
 Vad de vill:    sitta samma bord den här helgen och få de andra två utpekade som fuskare inför vittnen. Den som pekas ut förlorar rykte som haj. Klöver vill dessutom landa sitt episka korttrick publikt. Hjärter vill ha hemligt bus vid grytorna, nu när Katten Felix är borta. Spader vill inte bli tagen, och vill dessutom vinna tillbaka en av sina spader-ringar som Klöver vann av honom vid ett tidigare bord. Prygel vill se Klöver förlora, och ta dealerns procent. Plåthorn vill skydda Spader, eller sälja en detalj om hur han vinner, beroende på vad rummet ger.
 
