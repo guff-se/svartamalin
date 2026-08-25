@@ -54,7 +54,9 @@
 
 # B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
 # in hos jägarna. Se lagskatter.md. Id 1 bär Fördärvets ingång. Id 2 bär
-# Fördärvets påminnelse att lägga brevet. Övriga väntar på ingång.
+# Fördärvets påminnelse att lägga brevet och Bortförklaringens ingång
+# (Klöver, choklad). Id 3 bär påminnelsen att Klöver är dörren.
+# Övriga väntar på ingång.
 
 fordelning:
   - id: 1
@@ -74,7 +76,7 @@ fordelning:
     akt: II
     till: { crew: 2 }
     roll: jagare
-    vet: "att Fregatten Fördärvet ska gömma sin skatt vid ankomsten, att de lägger sitt första spår då: ett brev i soffbordet i vardagsrummet, och att de ska hitta Barken Bortförklaringens skatt"
+    vet: "att Fregatten Fördärvet ska gömma sin skatt vid ankomsten, att de lägger sitt första spår då: ett brev i soffbordet i vardagsrummet, att de ska hitta Barken Bortförklaringens skatt, och att första spåret dit är Kapten Klöver: högkvalitativ choklad gör henne uppsluppen och totalt omdömeslös, oförmögen att bevara hemligheter"
     vet_inte: "att Korvetten Kurtisanen jagar Fördärvets skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -86,7 +88,7 @@ fordelning:
     akt: II
     till: { crew: 3 }
     roll: jagare
-    vet: "att Barken Bortförklaringen ska gömma sin skatt vid ankomsten, och att de ska hitta Fregatten Fromhetens skatt"
+    vet: "att Barken Bortförklaringen ska gömma sin skatt vid ankomsten, att Kapten Klöver är dörren till gömman (högkvalitativ choklad gör henne uppsluppen och totalt omdömeslös, hon ska veta nästa steg), och att de ska hitta Fregatten Fromhetens skatt"
     vet_inte: "att Fregatten Fördärvet jagar Bortförklaringens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null

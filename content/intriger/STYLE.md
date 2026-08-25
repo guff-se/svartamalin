@@ -190,7 +190,7 @@ En deltagare kan **bara** läsa tre saker på skärmen:
 
 1. Sin egen fil: `guests/{login_slug}.md`
 2. Sin skutas fil: `crews/{crew_id}.md`
-3. Sajtens brödtext: [`../copy/`](../copy/)
+3. Sajtens brödtext: [`../copy/`](../copy/), inklusive världs-ingången [`../copy/intriger_intro.md`](../copy/intriger_intro.md) (år 1702, Karl XII är kung, pirater och kapare). De har läst den innan de kommer till sin egen intrig.
 
 De ser inte andra gästers filer, inte andra skutors lagfiler, inte `huvudstory/`, inte yaml-källistor, inte `anteckningar/`, och inte någon annans `roller/`. Sidequests, beats och andras hemligheter **existerar inte** för dem förrän de står i *deras* läsbara text.
 
@@ -221,7 +221,7 @@ Utan att det upprepas i just den här meningen får du räkna med:
 - Piratnamn och skutor. De är offentliga (sången, sajten, festen).
 - Mottagarens *egen* `roller/{slug}.md`. De skrev underlaget, de minns det. Tom roller-fil = inget extra.
 - Övriga `##`-stycken i *samma* gästfil, plus lagfilen, plus copy.
-- För huvudstory-bitar: fältet `vet` i *deras* post i [`../huvudstory/fordelning.yaml`](../huvudstory/fordelning.yaml). Fältet `vet_inte` får inte läcka in. **Quest-start:** `vet` är första ledtråden, inte kapitlet. Skriv inte in "Vad de ska ha lärt sig när questen är klar" från questens fil under [`../huvudstory/quests/`](../huvudstory/quests/). Hur ingångstext skrivs: [`../huvudstory/quests.md`](../huvudstory/quests.md).
+- För huvudstory-bitar: fältet `vet` i *deras* post i [`../huvudstory/fordelning.yaml`](../huvudstory/fordelning.yaml). Fältet `vet_inte` får inte läcka in. **Quest-start:** `vet` är första ledtråden, inte kapitlet. Skriv inte in "Vad de ska ha lärt sig när questen är klar" från questens fil under [`../huvudstory/quests/`](../huvudstory/quests/). Hur ingångstext skrivs: [`../huvudstory/quests.md`](../huvudstory/quests.md). **Lagskatt-ingång:** `vet` är första ledtråden till den jagade skatten, inskickad av gömmarna. Inte var skatten ligger. Hur den vävs in: [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md) Ingång.
 
 ### Vad som inte är känt
 
@@ -265,3 +265,5 @@ Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet at
 19. Slutar stycket med `Fredag:` / `Lördag:` utan att tidpunkten är själva saken? → stryk schemat. Vilja, hinder, helgen. Inte spelledning om när de ska spela.
 20. Blandas klöver (kortfärg), klubb (sällskap) och fyrklöver (växt/amulett)? → stryk vitsen. Färgen heter klöver. Fyrklöver har inget med kortspel att göra.
 21. Är det en **quest-start** (Q-1 till Q-5)? Då bara första ledtråden, inte kapitlet. Inte andra intriger eller relationer i samma stycke. Uppmana att ta laget till hjälp. Om stycket redan svarar på vad gästen ska ha lärt sig när questen är klar: stryk svaret. Se [`../huvudstory/quests.md`](../huvudstory/quests.md) Ingångstext.
+22. **Ordning i `guests/`:** 1. mullvadsintrig, 2. questintriger (start före tvärledtråd), 3. kontaktpersonintrig, 4. övriga. Mullvad och kontakt är olika personer. Saknas en typ: hoppa över den.
+23. Är det en **lagskatt-ingång** i `crews/`? Då bara första ledtråden, inskickad av gömmarna, skriven in hos jägarna. Inte var skatten ligger. Inte resten av spåret. Inte cirkeln. Inte vem som jagar dem. Fysisk (plats, föremål) eller social (namngiven person och metod). Gömmarens fil: kort påminnelse. Social: personen på skutan ska kunna släppa nästa steg, inte stängas ute. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md) Ingång.

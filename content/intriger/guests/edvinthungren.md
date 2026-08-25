@@ -42,4 +42,4 @@ Innan du miste skeppet och blev den snälla mannen du numera försöker vara, k�
 
 Den här helgen jagar folk namnet. **Kapten Blodig** svär redan att det var **Kapten Frodig**, för att deras släkter slåss om pulvret och för att Blodig redan hatar henne. Lögnen skulle rädda dig. Den skulle sänka en kvinna som inte skjutit någon.
 
-Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Köp hennes tystnad. Bekänn för Rödskägg med egna ord, som bevis på att du ändrat dig. Låt Blodigs lögn stå och se om din nya snällhet tål att någon annan hänger för din räkning. Välj innan festen är över. En sabrerad flaska köper inget här. Inte den här gången.
+Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Köp hennes tystnad. Eller bekänn för Rödskägg med egna ord, som bevis på att du ändrat dig. Välj innan festen är över. En sabrerad flaska köper inget här. Inte den här gången.

@@ -11,6 +11,7 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 | Vad | Var | Publiceras |
 |-----|-----|-----------|
 | Individuella och lagintriger | `content/intriger/{guests,crews}/*.md` | Ja, i UI per inloggad gäst |
+| Gemensam världs-ingång | [`../copy/intriger_intro.md`](../copy/intriger_intro.md) | Ja, först när intrigerna visas |
 | Sajtens brödtext | [`../copy/`](../copy/README.md) (bundlas vid build) | Ja |
 | Tryckt rekvisita | [`../rekvisita/`](../rekvisita/README.md) | Ja på papper. Nej på sajten |
 | Gästens eget underlag | `content/roller/` | Nej |
@@ -24,13 +25,13 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 ## Läsordning
 
 1. [`premiss.md`](premiss.md) vad storyn handlar om, tema och den centrala hemligheten
-2. [`kanon.md`](kanon.md) världens fakta som allt annat måste vara konsistent med
+2. [`kanon.md`](kanon.md) världens fakta som allt annat måste vara konsistent med. Publicerad ram: [`../copy/intriger_intro.md`](../copy/intriger_intro.md)
 3. [`platser.md`](platser.md) Ovanans resurser och vilken dramaturgisk funktion varje plats har
 4. [`tidslinje.md`](tidslinje.md) körschema fredag 17.15 (ankomst Ovanan) till söndag 14.00, beat för beat
 5. [`akter.md`](akter.md) huvudstoryn i akter och beats, med reveal-plan och backup
 6. [`sidequests.md`](sidequests.md) sidospår som bara rör vissa deltagare
 7. [`quests.md`](quests.md) gemensamma regler och hur ingångstext skrivs. En fil per quest under [`quests/`](quests/). Låst story. Tillsatt mekanik sitter i questens fil.
-8. [`lagskatter.md`](lagskatter.md) varje skuta gömmer en skatt, en annan skuta jagar den
+8. [`lagskatter.md`](lagskatter.md) varje skuta gömmer en skatt, en annan skuta jagar den. Ingång: första ledtråden, inskickad av gömmarna, skriven in hos jägarna.
 9. [`forradare.yaml`](forradare.yaml) mullvad och kontaktperson per skuta
 10. [`pussel.md`](pussel.md) lediga pusselbyggstenar. När en bit tillsätts flyttas den till questens fil eller platsen och stryks här. Story: [`quests.md`](quests.md)
 11. [`ritual.md`](ritual.md) lördag 15.30, ritualen
@@ -81,11 +82,11 @@ Fasta ramar. Ändras bara genom ett medvetet beslut som loggas i [`beslut.md`](b
 10. **Sista versen i sången är finalen.** Slutstriden ska eka den, aldrig citera utgången i förväg.
 11. **Allt pågår samtidigt och får kollidera.** Huvudstory, skattjakt, romanser och fiendskaper är inte isolerade spår. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd.
 12. **Gästerna vet att det finns en huvudstory innan helgen.** De vet inte vad den är. Frön får stå i intrigfiler och i gästcopy. Fredag är fortfarande utan mekanik.
-13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins sista ledtråd, som hon ger när hon serverar. All ledtrådssamling sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns brev mellan Malin och kungen, plus minnen och skatter. Det enda plot-relevanta är kärleksbrevet från Karl XII. Brevet är kontraktet och kärleksakten. Det är tändningen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
+13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins berlock (`4X`, `5I`, `6I`), som hon sätter på när hon serverar. All ledtrådssamling av `1H`, `2K`, `3H` sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns brev mellan Malin och kungen, plus minnen och skatter. Det enda plot-relevanta är kärleksbrevet från Karl XII. Brevet är kontraktet och kärleksakten. Det är tändningen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
 14. **Aldrig ensam på vattnet.** Off-regel, hela helgen. Ingen eka, kajak, paddel eller bad utan sällskap. Ingen story-bit, intrig eller pussel får kräva att någon åker ut eller badar själv.
 15. **Båtarna sköts av Kuling och Rödskägg.** Kapten Kuling (`josefinlowing`) och Kapten Rödskägg (`viktoransund`) har hand om eka, kajak och paddel. En *skriven* intrig som kräver sjöfärd går primärt genom att övertala en av dem att ge sig ut, för spel och interaktion. Man **får** åka ut utan dem. Off-regeln är bara: aldrig ensam.
 16. **Låt saker som hittas av misstag få vara.** Off-regel, sägs i genomgången. Gäster löser gåtor och uppdrag, inte brute force. Ingen story-bit, skatt eller pussel får kräva att ön ransakas. Den som råkar hitta något de inte söker lämnar det.
-17. **Fem parallella quests.** Inte en linjär kedja. Varje skuta har ingång till tre. Varje quest har tre skutor. Start i en spelares intrig. **Starten är första ledtråden, inte kapitlet.** Normalt ett eller två pit stops. **Q-2 är undantag: inga pit stops, inget pussel.** Skatt med bokstav. Tre quests plus Malins XII räcker till cryptexen. Varje quest har både storyline och uppgift. Q-2:s uppgift är att åka till stugan, läsa minnena, ta en token, och följa namnbladet till Ottos grav. Storyn lär något om Malins historia och får ljuga. Den får inte röja affären eller förräderiet med Karl XII. Stories och tillsatt mekanik: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Lediga byggstenar: [`pussel.md`](pussel.md).
+17. **Fem parallella quests.** Inte en linjär kedja. Varje skuta har ingång till tre. Varje quest har tre skutor. Start i en spelares intrig. **Starten är första ledtråden, inte kapitlet.** Normalt ett eller två pit stops. **Q-2 är undantag: inga pit stops, inget pussel.** Skatt med cryptex-token. Tre quests ger `1H`, `2K`, `3H`. Malins berlock ger `4X`, `5I`, `6I`. Tillsammans: `HKHXII`. Varje quest har både storyline och uppgift. Q-2:s uppgift är att åka till stugan, läsa minnena, ta en token `1H`, och följa namnbladet till Ottos grav (`2K`). Storyn lär något om Malins historia och får ljuga. Den får inte röja affären eller förräderiet med Karl XII. Stories och tillsatt mekanik: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Lediga byggstenar: [`pussel.md`](pussel.md).
 18. **Sexpositiv fest, inte på sajten.** Alla deltagare är vana vid sexpositiva rum. Inget avgränsat play space: sex tillåtet överallt och när som helst. Sägs i genomgången. Får inte stå i `../copy/`. Intriger och rekvisita får vara explicita. Register: lust och sex, inte romankärlek. Se [`../intriger/STYLE.md`](../intriger/STYLE.md) och [`spelledning.md`](spelledning.md).
 19. **Korvetten Kurtisanens quest-trådar är hemliga för Malin.** Hon är skutans egen kapten. En quest-start (Q-1 till Q-5) som ges till en av hennes skutkamrater (`petterwallberg`, `linneaappert`, `ulrikahammar`, `jesperlindmarker`, inte henne själv) ska instruera att uppdraget löses utan att Malin ser eller anar det, eftersom hon delar koj, köl och vardag med dem hela helgen. Se [`quests.md`](quests.md) regel 8.
 

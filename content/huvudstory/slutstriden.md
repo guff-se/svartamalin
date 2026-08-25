@@ -88,7 +88,7 @@ Att bestämma:
 
 - [ ] Vad slåss man med? Teaterrekvisita, skumgummi, ingenting alls?
 - [ ] Slöjor: antal, material, hur många behövs, vem bär dem
-- [ ] Kaviar och rom: faktiskt kaviar och faktisk rom, eller motsvarande. Måste finnas. Sista ledtråden till cryptexen ges här: Malins halsband med XII, när hon serverar.
+- [ ] Kaviar och rom: faktiskt kaviar och faktisk rom, eller motsvarande. Måste finnas. Sista tokens till cryptexen syns här: Malins berlock med `4X`, `5I`, `6I`, när hon serverar.
 - [ ] Kistan, på plats vid festen, fortfarande låst tills ledtråden är given
 - [ ] Cryptexen, i omlopp. Spelledning vet ungefär var den är, eller har reservnyckel
 - [ ] Dressing i kistan: övriga brev, minnen, skatter. Inte plot. Inte en läsuppgift.

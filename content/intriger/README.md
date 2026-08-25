@@ -14,7 +14,7 @@ Karta för hela `content/`: [`../README.md`](../README.md).
 
 Parallella spår som också designas där, inte här:
 
-- Lagskatter: [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md). Jakten står i `crews/`. Cirkeln och vem som jagas står inte i gästtext.
+- Lagskatter: [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md). Jakten står i `crews/`. Ingången (första ledtråden, inskickad av gömmarna) skrivs in i **jagarens** lagfil. Cirkeln och vem som jagas står inte i gästtext.
 - Förrädare: [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml). Mullvad och kontakt skrivs i `guests/` när status är done. Aldrig i lagfilen.
 
 ## Filnamn
@@ -29,6 +29,7 @@ Gästlistan är stängd: en fil per gäst med `attending = true` i Supabase, ing
 ## Format
 
 Valfri frontmatter (för agenten, syns inte för gästen), sedan 2–3 intriger som `##`-rubriker.
+**Ordning i `guests/`:** 1. mullvadsintrig om personen är mullvad, 2. questintriger (start före tvärledtråd), 3. kontaktpersonintrig om personen är kontakt, 4. övriga. En person är mullvad, kontakt eller ingen av delarna, aldrig båda.
 Varje rubrik annoteras med `{slug:login_slug}` för personen intrigens porträtt ska visa (syns inte i UI):
 
 ```md
@@ -58,7 +59,7 @@ Innan gryningen ska ni …
 - Lagfil → alla i laget (`crew_id`).
 - Gästfil → endast den gästen.
 - Lagkamrater ser **inte** varandras individuella intriger.
-- Sajtens [`../copy/`](../copy/) läser alla. Inget mer på skärmen (andras gästfiler, andra lagfiler, `huvudstory/`, yaml: osynligt).
+- Sajtens [`../copy/`](../copy/) läser alla. Världs-ingången [`../copy/intriger_intro.md`](../copy/intriger_intro.md) visas **först** när intrigerna presenteras. Inget mer på skärmen (andras gästfiler, andra lagfiler, `huvudstory/`, yaml: osynligt).
 - Skrivregeln: karaktären vet bara det som står i de tre. Se [STYLE.md](STYLE.md) ("Vad karaktären vet"). Lyft in det de *ska* veta, eller referera inte.
 - Inte Fredag/Lördag som standardavslut. Se STYLE.md. Tid i texten bara när tidpunkten är själva saken.
 

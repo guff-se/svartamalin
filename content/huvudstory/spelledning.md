@@ -30,7 +30,7 @@ Samma innehåll, andra gången kortare. Ordning:
 1. Play to lift. Häng på andras initiativ. Ge folk deras segrar. Mullvad som aldrig tar kontakt: strunt. Mullvad som vill ur: cut, ingen ersättare.
 2. Lookdown, largo, OK-check, cut.
 3. Aldrig ensam på vattnet. Gäller onsen. Kuling och Rödskägg har båtarna. Man får åka utan dem.
-4. Låt saker som hittas av misstag få vara. Ingen ransakning.
+4. Låt saker som hittas av misstag få vara. Ingen ransakning. Skattjakten börjar i lagintrigen, vid första spåret, inte vid att vända rum.
 5. Fredag är fest. Ingen pussellösning, ingen jakt på gömmen. Spelet startar lördag 10.30.
 6. Sexpositiv fest. Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Samma cut, largo, lookdown, OK-check som resten av spelet. Står inte på sajten.
 

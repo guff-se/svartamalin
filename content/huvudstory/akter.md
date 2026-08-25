@@ -88,7 +88,7 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. Q-3 är gym, vedhög, badbrygga, B-19. Q-4 är Tomtebobarnen, kikare, skylt, B-20. Q-5 är väggen och svärdfisken, B-18. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-3: gymmet, vedhögen bakom bastun, under badbryggan. Q-4: Storstugan hyllan, kikaren, skylt på annan ö. Q-5: Storstugan, porträttväggen, svärdfiskens mun. | cryptexen vid festen |
+| Escape-spåret | Fem parallella quests till cryptex-tokens. Varje skuta har tre ingångar. Olösligt utan berlocken (`4X`, `5I`, `6I`) vid 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16, token `3H`. Q-2 är stuga och grav utan pussel, B-17, `1H` + `2K`. Q-3 är gym, vedhög, badbrygga, B-19, token `3H`. Q-4 är Tomtebobarnen, kikare, skylt, B-20, token `1H`. Q-5 är väggen och svärdfisken, B-18, token `2K`. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-3: gymmet, vedhögen bakom bastun, under badbryggan. Q-4: Storstugan hyllan, kikaren, skylt på annan ö. Q-5: Storstugan, porträttväggen, svärdfiskens mun. | cryptexen vid festen |
 | Optiska spåret | Q-4. Kikaren mot skylten. | skuta 1, 4, 5 | Kikaren, skylt på annan ö | cryptexen |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. Gymmet är taget av Q-3. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
@@ -96,7 +96,7 @@ Struktur att fylla i:
 | Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
 | Förrädarspåret | Mullvad per skuta, kontakt på uppdragsgivarens lag. Cirkel två steg. | Fem par i [`forradare.yaml`](forradare.yaml) | Hemliga möten | |
 | Båtspåret | Sjöfärd som *scen*: övertala Kuling eller Rödskägg. Folk får också paddla utan dem. | Kuling, Rödskägg, plus den som vill ut | Bryggan, Södra Ovanan, bojen | B-14 |
-| Skäggspåret | Tre kaptener slåss om vem som är Skäggkonung. Publikt. Intrigtext TBD. | Lösskägg, Rödskägg, Blåskägg | Kajen eller gården, inte långt från båtarna | B-15 |
+| Skäggspåret | Tre kaptener slåss om vem som är Skäggkonung. De listar själva ut hur. Publikt. | Lösskägg, Rödskägg, Blåskägg | Kajen eller gården, inte långt från båtarna | B-15 |
 
 **Kollision är en feature.** Spåren ovan pågår samtidigt och får krocka. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd. Designa inte isolerade banor som kräver att de andra pausas.
 
@@ -147,17 +147,17 @@ Plats:          hela ön utom sovplatser
 Inblandade:     alla fem skutor. Vem som jagar vem: [`lagskatter.md`](lagskatter.md).
 Publik:         jakten syns. Målet är hemligt för den jagade.
 
-Vad händer:     lagen får jaga den skatt deras lagintrig pekar ut. Gömmena ligger sedan fredag 17.30. Ingen poäng. Funnen skatt får bäras, mutas bort, stjälas tillbaka.
+Vad händer:     lagen får jaga den skatt deras lagintrig pekar ut. Jakten startar från en ingång, första ledtråden inskickad av gömmarna, skriven in hos jägarna. Se [`lagskatter.md`](lagskatter.md). Gömmena och första steget ligger sedan fredag 17.30. Ingen poäng. Funnen skatt får bäras, mutas bort, stjälas tillbaka.
 
 Vad ändras:     skattjakten är i spel samtidigt som cryptexen. De får krocka.
 
 Trigger:        ceremonin 10.30 släpper spelet
 Väg 1:          lagen gör det själva, de har läst lagintrigen
 Väg 2:          någon frågar Spader vad de ska göra. Han pekar på deras eget uppdrag.
-Spelledarväg:   behövs inte. Uppdraget står i lagfilen.
+Spelledarväg:   behövs inte. Uppdraget står i lagfilen. Saknas ingång: peka inte ut gömmet, säg åt dem att vänta eller hitta spåret som redan står i texten.
 
 Pusselnod:      ingen, om inte en skatt senare bär en ledtråd
-Props:          fem lagskatter, lagen tar med dem
+Props:          fem lagskatter, lagen tar med dem. Första steget i varje spår är gömmarnas. Fördärvet: brev i soffbordet i Storstugan. Bortförklaringen: **Kapten Klöver** och högkvalitativ choklad, social, ingen utläggning. Inte vår tryck.
 Om det floppar: om ingen hittar något: strunt. Huvudstoryn vilar inte på det.
 
 #### B-12: Mullvadarna tar kontakt
@@ -231,9 +231,9 @@ Plats:          kajen eller gården. Publikt.
 Inblandade:     Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktoransund`), Kapten Blåskägg (`hampuslindblad`)
 Publik:         ja. Poängen är att folk ser det.
 
-Vad händer:     de tre med skägg i namnet tar upp kröningsstriden. Blåskägg har redan utropat sig Skäggkonung. Lösskägg samlar skägg. Rödskägg är kränkt och blåstrimmig. Hur det avgörs skrivs i S-02 senare. Det ska vara kul.
+Vad händer:     de tre med skägg i namnet tar upp kampen om vem som är Skäggkonung. De listar själva ut hur: förnedra, utlysa turnering, raka av motståndet, eller annat kajen köper. Lösskäggs låda, Rödskäggs pulver, Blåskäggs kraniumpåse. Det ska vara kul.
 
-Vad ändras:     någon kröns, eller ingen, eller alla tre. Fiendskaperna 3, 18, 19 är i spel som scen, inte bara bakgrund.
+Vad ändras:     någon utropas, eller ingen, eller alla tre.
 
 Trigger:        deras individintriger, när de är skrivna
 Väg 1:          de tre gör det själva
@@ -241,7 +241,7 @@ Väg 2:          någon annan hetsar dem
 Spelledarväg:   behövs inte. Inte bärande balk.
 
 Pusselnod:      ingen
-Props:          TBD med S-02. Lösskäggs skäggsäck finns redan i underlaget.
+Props:          Lösskäggs låda, Rödskäggs Piratpulver, Blåskäggs kraniumpåse och dimdon. De tar med dem.
 Om det floppar: de tre hatar varandra ändå. Huvudstoryn stannar inte.
 
 #### B-16: Q-1, kurtisanen
@@ -252,7 +252,7 @@ Plats:          Gubben i stubben, Gumman på udden, klätternätet
 Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen). Start: Kapten Planka (`linneaappert`), Kapten Kuling (`josefinlowing`), Kapten Frodig (`josefinansund`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i [`quests.md`](quests.md), hon jagar bladen bakom Malins rygg.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
-Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 2, vänder, följer baksidan till klätternätet. I påsen: blad 5 (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen. Kronologi: [`quests.md`](quests.md). Inte samma som hittordningen.
+Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 2, vänder, följer baksidan till klätternätet. I påsen: blad 5 (hämnden) och token `3H`. Engångs: första laget bär föremålen. Kronologi: [`quests.md`](quests.md). Inte samma som hittordningen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 
@@ -263,7 +263,7 @@ Spelledarväg:   se [`quests/Q-1.md`](quests/Q-1.md). Avskrift bara om halvorna 
 
 Pusselnod:      Q-1
 Props:          Q1-01, Q1-03, Q1-04
-Om det floppar: tre andra quests plus XII räcker fortfarande för de skutor som inte hade Q-1. En Q-1-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
+Om det floppar: tre andra quests plus berlocken räcker fortfarande för de skutor som inte hade Q-1. En Q-1-skuta utan token `3H` måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
 #### B-17: Q-2, stugan och graven
 
@@ -273,7 +273,7 @@ Plats:          Södra Ovanan, piratstugan, skelettet i skogen
 Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Inte Malin.
 Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
 
-Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten), tar en token ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Andra token där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
+Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten), tar en token `1H` ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Token `2K` där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
 
 Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten själv, tog namnet Svarta, begravde Otto i skogen, och fortfarande behöver en plats att vara ifred. Inte Ran. Inte kungen.
 
@@ -284,7 +284,7 @@ Spelledarväg:   se [`quests/Q-2.md`](quests/Q-2.md).
 
 Pusselnod:      ingen
 Props:          Q2-01 till Q2-10
-Om det floppar: tre andra quests plus XII räcker för skutor som inte hade Q-2. En Q-2-skuta utan token måste stjäla eller få spelledar-reserv. Spelet stannar inte. Södra Ovanan stänger 13.30.
+Om det floppar: tre andra quests plus berlocken räcker för skutor som inte hade Q-2. En Q-2-skuta utan token måste stjäla eller få spelledar-reserv. Spelet stannar inte. Södra Ovanan stänger 13.30.
 
 #### B-18: Q-5, skuldboken
 
@@ -294,7 +294,7 @@ Plats:          Storstugan, porträttväggen, svärdfiskens mun
 Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Lösskägg (`petterwallberg`), Kapten Nykter (`fabianmacklin`), Kapten Dunka (`ludvigvonbahr`). Tvärledtråd: Kapten Blodig (`minimacklin`, skuta 2), Kapten Rödskägg (`viktoransund`, skuta 4). Inte Malin, inte Spader.
 Publik:         den som ser väggen tas ner, och den som ser någon fiska i gapet
 
-Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre cryptex-lappar. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.
+Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre tokens `2K`. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.
 
 Vad ändras:     rummet vet att hon håller havet med mäns skulder, och att de ligger i kistan. Inte kungen. Inte att hon är skuldsatt.
 
@@ -305,7 +305,7 @@ Spelledarväg:   se [`quests/Q-5.md`](quests/Q-5.md). Inte extra uppsättning i 
 
 Pusselnod:      Q-5
 Props:          Q5-01, Q5-03, Q5-04. K-10 i kistan, namn vid tillsättning.
-Om det floppar: tre andra quests plus XII räcker. En Q-5-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
+Om det floppar: tre andra quests plus berlocken räcker. En Q-5-skuta utan token `2K` måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
 #### B-19: Q-3, korvetten
 
@@ -315,7 +315,7 @@ Plats:          Gymmet, vedhögen bakom bastun, under badbryggan
 Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Kapten Döver (`navidmodiri`), Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd: Kapten Enben (`amaliawahlstrom`) och Kapten Frodig (`josefinansund`) på skuta 3, Kapten Hurring (`jesperlindmarker`) och Kapten Planka (`linneaappert`) på skuta 1. Inte mullvad, inte Malin, inte Spader.
 Publik:         den som ser folk i gymmet läsa väggen, vid veden, eller böja sig under badbryggan
 
-Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 6 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 6 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: två personer per av de två skutorna utan Q-3 vet tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och cryptex-lappen, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
+Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 6 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 6 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: två personer per av de två skutorna utan Q-3 vet tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och token `3H`, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
 
 Vad ändras:     rummet vet att hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Inte att kungen gav henne skutan.
 
@@ -326,7 +326,7 @@ Spelledarväg:   se [`quests/Q-3.md`](quests/Q-3.md). Inte extra uppsättning un
 
 Pusselnod:      Q-3
 Props:          Q3-01, Q3-02, Q3-03, Q3-04
-Om det floppar: tre andra quests plus XII räcker. En Q-3-skuta utan lapp måste stjäla eller få spelledar-reserv. Spelet stannar inte.
+Om det floppar: tre andra quests plus berlocken räcker. En Q-3-skuta utan token `3H` måste stjäla eller få spelledar-reserv. Spelet stannar inte.
 
 #### B-20: Q-4, havet
 
@@ -336,18 +336,18 @@ Plats:          Storstugan hyllan, kikaren, skylt på annan ö
 Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Kapten Hurring (`jesperlindmarker`), Kapten Hjärter (`jesperlejfjord`), Kapten Plåthorn (`elinmartensson`). Inte skuta 2, inte skuta 3. Inte Malin, inte Spader, inte mullvad. Hurring är Kurtisanen: quests.md punkt 8.
 Publik:         den som ser folk bläddra i barnboken, och den som står i kö vid kikaren
 
-Vad händer:     tre skutor jagar vad Malin längtar efter. Starten pekar mot *Tomtebobarnen* i hyllan i Storstugan, hennes favoritbok som barn. Inte dagboken. Inte havet. I boken: blad 1 (ung, havet och friheten, fastsatt) och en kompassbild med sann bäring (fastsatt). Kikaren är slutdestination och metafor. I rätt bäring: skylt på annan ö med en cryptex-bokstav. Tas inte. Pit stop och skatt återanvändbara. Bäring mäts på plats.
+Vad händer:     tre skutor jagar vad Malin längtar efter. Starten pekar mot *Tomtebobarnen* i hyllan i Storstugan, hennes favoritbok som barn. Inte dagboken. Inte havet. I boken: blad 1 (ung, havet och friheten, fastsatt) och en kompassbild med sann bäring (fastsatt). Kikaren är slutdestination och metafor. I rätt bäring: skylt på annan ö med token `1H`. Tas inte. Pit stop och skatt återanvändbara. Bäring mäts på plats.
 
 Vad ändras:     rummet vet att hon som ung drömde om Salmonellahavet och om frihet, att hon tittade, genom glas. Inte Otto. Inte sveket. Inte hur hon fick ön. Inte att kajen är en fälla.
 
 Trigger:        Q-4-start skriven i tre individintriger, när de är tillsatta
-Väg 1:          tre lag läser boken, siktar kikaren, ser bokstaven
-Väg 2:          dimma eller oläsbar skylt, Spader har bokstaven
+Väg 1:          tre lag läser boken, siktar kikaren, ser token `1H`
+Väg 2:          dimma eller oläsbar skylt, Spader har token `1H`
 Spelledarväg:   se [`quests/Q-4.md`](quests/Q-4.md). Inte extra skylt.
 
 Pusselnod:      Q-4
 Props:          Q4-01 till Q4-05
-Om det floppar: tre andra quests plus XII räcker. En Q-4-skuta utan bokstaven måste höra den, titta själva, eller få spelledar-reserv. Spelet stannar inte.
+Om det floppar: tre andra quests plus berlocken räcker. En Q-4-skuta utan token `1H` måste höra den, titta själva, eller få spelledar-reserv. Spelet stannar inte.
 
 ---
 
@@ -390,18 +390,18 @@ Plats:          festplatsen
 Inblandade:     Malin (`malintadaa`), alla
 Publik:         alla
 
-Vad händer:     Malin serverar kaviar och rom. I samband med det syns **XII** på hennes halsband, den sista ledtråden till cryptexen. Utan den går lösenordet inte att kläcka. Hon ger den inte som gåta. Hon sätter på halsbandet till festen, inte före.
+Vad händer:     Malin serverar kaviar och rom. I samband med det syns tokens `4X`, `5I` och `6I` på hennes berlock, de tre sista ledtrådarna till cryptexen. Utan dem går lösenordet inte att kläcka. Hon ger dem inte som gåta. Hon sätter på berlocken till festen, inte före.
 
 Vad ändras:     gåtan är nu lösbar. Inte förrän nu.
 
 Trigger:        serveringen
 Väg 1:          hon säger eller gör det som en del av värdinneskapet
 Väg 2:          TBD, beroende på hur medveten hon är
-Spelledarväg:   hon ger ledtråden oavsett. Den är inte spelarbaserad.
+Spelledarväg:   hon bär berlocken oavsett. Den är inte spelarbaserad.
 
 Pusselnod:      cryptexen, sista nödvändiga input
-Props:          kaviar, rom, Malins halsband med XII.
-Om det floppar: ingen hör. Hon upprepar det som skål, kortare, högre.
+Props:          kaviar, rom, Malins berlock med `4X`, `5I`, `6I`.
+Om det floppar: ingen ser. Hon höjer armen, kortare, högre, så tokens syns.
 
 #### B-41: Kistan öppnas
 
@@ -455,7 +455,7 @@ Den centrala sanningen delas i bitar. Varje bit får en rad. Regeln från [`RESE
 |------------------|--------|-------|-------|--------------|-----------------|
 | Malin har en skattkista på ön | Kistan själv | Alla ser den | Malin nämner den | behövs inte | fredag |
 | Nyckeln ligger i en cryptex som cirkulerar | Cryptexen + lappen | Hitta den | Se den byta ägare | Spader sätter den i någons hand | lördag 11-ish |
-| Lösenordet (kandidat `HKHXII`) | Tre av fem quests + Malins XII | Questskatter | Tvärledtrådar mellan lag | XII syns på Malin vid serveringen | **20.00, inte tidigare** |
+| Lösenordet `HKHXII` | Tre av fem quests + Malins berlock | Questtokens `1H`, `2K`, `3H` | Tvärledtrådar mellan lag | `4X`, `5I`, `6I` syns på berlocken vid serveringen | **20.00, inte tidigare** |
 | Ingen skatt. Kärleksbrevet. Festen är fällan. Ensam makt mot förräderiet. | Kistans innehåll | Öppna kistan | Någon skriker innebörden | Malin/Spader tvingar upp 20.45 | 20.40 |
 | Malin har en hemlig älskare | Hjärter, Blodig | deras intrig | Malins undanflykter | behövs inte | lördag dag |
 | Älskaren är Karl XII | Brevets hälsning och sista rad | Öppna kistan | Hålla upp brevet | samma som B-42, 20.45 | 20.40 |

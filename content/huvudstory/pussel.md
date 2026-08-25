@@ -10,8 +10,8 @@ Tillsatta, inte här:
 - Q-2 (stuga, grav, tokens, inget pussel): [`quests/Q-2.md`](quests/Q-2.md)
 - Q-3 (gym, vedhög, badbrygga, Caesar +13 framåt hos fyra tvärledtrådar): [`quests/Q-3.md`](quests/Q-3.md)
 - Q-4 (Tomtebobarnen, kompassbild, kikare mot skylt): [`quests/Q-4.md`](quests/Q-4.md)
-- Q-5 (porträttvägg, svärdfiskens mun, tre lappar): [`quests/Q-5.md`](quests/Q-5.md)
-- Cryptex, kista, XII, lösenordskandidat: [`kanon.md`](kanon.md). Runtime: [`spelledning.md`](spelledning.md)
+- Q-5 (porträttvägg, svärdfiskens mun, tre tokens `2K`): [`quests/Q-5.md`](quests/Q-5.md)
+- Cryptex, kista, berlock (`4X`, `5I`, `6I`), lösenord `HKHXII`: [`kanon.md`](kanon.md). Tokens per quest: [`quests.md`](quests.md). Runtime: [`spelledning.md`](spelledning.md)
 - Platser som redan har funktion: [`platser.md`](platser.md)
 
 Story och får-inte: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Graf och invarianter: [`README.md`](README.md).

@@ -17,17 +17,17 @@ Mellan grytorna och doften av kaviar och rom hör du något du inte väntat dig:
 
 Det är knappast en hemlighet värd namnet. Men något i tanken på jubilaren som barn river i dig mer än du vill erkänna, och du vill se den med egna ögon. Ta med dig **Fregatten Fromheten** dit innan festen är över, och se efter själv.
 
-## Hjärtat som inte gett upp {slug:malintadaa}
-
-Du har stängt ditt hjärta så många gånger att du numera bara säger dig öppna det för katten. Lögnen sitter risigt löst: du är fortfarande en blödig jävel, öm under all den påstådda hårdheten, och det är **Svarta Malin** som får den sidan att röra på sig igen, i hemlighet, utan att du tänker erkänna det för någon. Du vill ha henne. Du vill bli tagen av jubilaren, knäböja vid grytorna om det så krävs, och smaka den mun hamnen bara skålar mot.
-
-Hamnen viskar att jubilaren gömmer en älskare. Du vill veta vem, men inte högljutt. Inte för att du drömmer om en framtid. För att du vill vara den som tar henne, eller åtminstone den som vet vem som gör det. Fråga vid grytorna, mellan såserna, en blick i taget, aldrig inför publik. **Kapten Blodig** letar efter samma svar av egna, äldre skäl, och ni två känner igen varandra som två som letar efter samma sak utan att erkänna det för varandra: ett hjärta bland spader och klöver, men bara ett som räknas för dig. Ta reda på namnet innan skutorna skingras. Malin kommer varken bekräfta eller neka, hur många gånger ni än frågar.
-
 ## Ryktet du styr {slug:louisevonbahr}
 
 Vid grytorna hör du mer än du låtsas om, och du har länge anat att **Kapten Fuling** vet mer om gamla rykten än hon erkänner, kanske till och med om den angivelse som en gång satte **Kapten Hurring** bakom galler. Du säger ingenting om det, det ligger inte för dig att slå någon på fingrarna. Istället erbjuder du henne en tjänst, lika mycket av gammal vana att hjälpa som av lust till eget hemligt bus: styr misstankarna åt ett annat håll när det behövs, ett viskat namn vid rätt eld, i utbyte mot allt hon kan höra inne på **Fregatten Fördärvet**.
 
 Hon ger dig det, plan för plan, gömma för gömma, och hon vet precis att det hjälper **Fregatten Fromheten**, inte bara dig. Men det är inte av kärlek till din skuta hon gör det, bara för att hålla sig själv fri från Hurrings liggare. Utnyttja det hon vet så länge det gynnar dig, men glöm inte att en kvinna som köper sin frihet med rykten också kan sälja dig, om priset blir rätt. Håll henne nära och misstänksam på samma gång, innan festen är över.
+
+## Hjärtat som inte gett upp {slug:malintadaa}
+
+Du har stängt ditt hjärta så många gånger att du numera bara säger dig öppna det för katten. Lögnen sitter risigt löst: du är fortfarande en blödig jävel, öm under all den påstådda hårdheten, och det är **Svarta Malin** som får den sidan att röra på sig igen, i hemlighet, utan att du tänker erkänna det för någon. Du vill ha henne. Du vill bli tagen av jubilaren, knäböja vid grytorna om det så krävs, och smaka den mun hamnen bara skålar mot.
+
+Hamnen viskar att jubilaren gömmer en älskare. Du vill veta vem, men inte högljutt. Inte för att du drömmer om en framtid. För att du vill vara den som tar henne, eller åtminstone den som vet vem som gör det. Fråga vid grytorna, mellan såserna, en blick i taget, aldrig inför publik. **Kapten Blodig** letar efter samma svar av egna, äldre skäl, och ni två känner igen varandra som två som letar efter samma sak utan att erkänna det för varandra: ett hjärta bland spader och klöver, men bara ett som räknas för dig. Ta reda på namnet innan skutorna skingras. Malin kommer varken bekräfta eller neka, hur många gånger ni än frågar.
 
 ## Busets bord {slug:johannabergman}
 

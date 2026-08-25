@@ -24,6 +24,17 @@ Detta är givet av Povel Ramels text och kan inte ändras.
 
 Punkt 6 till 9 är **finalen** och får inte omnämnas som framtida faktum i gästtext.
 
+## Fast kanon: tiden och havet
+
+Beslutat 2026-08-25. Källa: [`egna.md`](egna.md). Publicerad gästtext: [`../copy/intriger_intro.md`](../copy/intriger_intro.md). Visas först när intrigerna presenteras. Röst: piratrevy, ni-form. Inte du-form. Inte affären.
+
+1. Året är 1702. Karl XII är kung.
+2. På Salmonellahavet har det utkämpats kamper i många år.
+3. Det finns pirater och kapare. En kapare har fått välsignelse av kungen, en greve, baron eller general att röva. De flesta pirater har kapat någon gång. Ingen litar på någon.
+4. Det mest ökända namnet är Svarta Malin. Hon är havets fasa.
+5. Gästerna är bjudna på fest.
+6. Karl XII som kung är världsfakta och får stå i sajtcopy. Affären med Malin, sängen och att festen är en fälla är det inte. Queststories får fortfarande inte nämna de tre. Se [`quests.md`](quests.md) regel 3.
+
 ## Fast kanon: metaregeln
 
 Får aldrig stå i gästtext. Se `../intriger/STYLE.md`.
@@ -38,7 +49,7 @@ Får aldrig stå i gästtext. Se `../intriger/STYLE.md`.
 ## Fast kanon: skutorna
 
 1. Fem skutor: **Korvetten Kurtisanen**, **Fregatten Fördärvet**, **Barken Bortförklaringen**, **Fregatten Fromheten**, **Galeonen Gnället**.
-2. Varje skuta gömmer en skatt. Varje skatt eftersöks av en annan skuta, i cirkel ett steg framåt: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1. Register och vad gästerna får veta: [`lagskatter.md`](lagskatter.md). Gästtext: `../intriger/crews/`.
+2. Varje skuta gömmer en skatt. Varje skatt eftersöks av en annan skuta, i cirkel ett steg framåt: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1. Jakten startar från en ingång inskickad av gömmarna. Register och vad gästerna får veta: [`lagskatter.md`](lagskatter.md). Gästtext: `../intriger/crews/`.
 3. Varje skuta har exakt en mullvad och exakt en kontaktperson, två olika personer. Mullvaden arbetar för en annan skuta. Kontaktpersonen där är den enda som vet att mullvaden finns och vem det är. Cirkel två steg framåt: 1→3→5→2→4→1. Register: [`forradare.yaml`](forradare.yaml).
 4. Malin seglar med Korvetten Kurtisanen.
 
@@ -65,12 +76,12 @@ Beslutat 2026-08-18. Källa: [`beslut.md`](beslut.md), [`premiss.md`](premiss.md
 2. Kistan är låst med en nyckel.
 3. Nyckeln ligger i en cryptex med sex bokstävers kombination.
 4. På cryptexen sitter en lapp: "Denna tappas lätt bort." Den som hittar den kommer snart att förlora den, genom slagsmål, vadslagning, stöld eller slarv.
-5. Cryptexens lösenord går inte att kläcka utan XII. XII sitter på Malins halsband, som hon sätter på till slutfesten. Den syns när hon serverar kaviar och rom. Tre parallella quests per skuta ger de andra bokstäverna. Kandidat: `HKHXII` (Hans Kungliga Höghet XII). Inte antaget. Questen före 15.30 ger positionsmarkering (`1H`, `2K`, `3H`), inte helheten. `XII` syns först 20.00. Lösenordet får inte vara MALINS, SKATT, PIRAT, KUNGEN, KISTAN, KARLXII, eller något från sången, ön, Malins namn eller kontraktets parter. Inte ett ord som sitter ihop med fem av sex bokstäver. Inte en sista ledtråd som bara bekräftar. Om kistan är stängd 20.45 tvingas den upp i roll. Runtime: [`spelledning.md`](spelledning.md).
+5. Cryptexens lösenord är `HKHXII` (Hans Kungliga Höghet XII). Antaget 2026-08-25. Varje ledtråd är en token: siffra plus bokstav. Siffran är positionen. De tre första (`1H`, `2K`, `3H`) delas ut i questen före 15.30. De tre sista (`4X`, `5I`, `6I`) sitter på Malins berlock, som hon sätter på till slutfesten. De syns när hon serverar kaviar och rom, inte före 20.00. Fördelning per quest: [`quests.md`](quests.md). Lösenordet går inte att kläcka utan berlocken. Inte MALINS, SKATT, PIRAT, KUNGEN, KISTAN, KARLXII, eller något från sången, ön, Malins namn eller kontraktets parter. Inte ett ord som sitter ihop med fem av sex bokstäver. Inte en sista ledtråd som bara bekräftar. Om kistan är stängd 20.45 tvingas den upp i roll. Runtime: [`spelledning.md`](spelledning.md).
 6. I kistan finns ingen skatt. Där ligger brev mellan Malin och kungen, plus minnen och skatter, plus **tre skuldbrev** (Q-5, ett per manlig start, namn vid tillsättning). Det enda plot-relevanta är kärleksbrevet från Karl XII till Svarta Malin. Brevet *är* kontraktet. Inget separat juridiskt papper för tändningen. Övriga brev, miniatyr, de tre skuldbreven och skatter är dressing. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md), [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md).
 7. Kungen i brevet är **Karl XII**.
 8. I brevet står att Svarta Malin har lovat att samla Salmonellahavets kaptener till födelsedagsfest och fylla dem med kaviar och rom, så att konungens män kan slå till i gryningen och arrestera dem alla. Festen är fällan. I gengäld blir hon ensam härskare över Salmonellahavet, Korvetten Kurtisanen står på hennes namn, och hon får guld nog att sluta slåss. Hon är inte skuldsatt. Affären är sängvägen.
 9. Upptäckten av brevet är det som tänder slutstriden. Kungens män kommer aldrig. Gryningen spelas inte.
-10. Brevets hälsning och sista rad är intima (`min hjärtans`, `Din till döden`). Sängen läses ur brevet. Miniatyr och övriga brev är dressing, inte plot. Kistans exakta plats förblir öppen. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins XII. Queststories: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Lediga pusselbyggstenar: [`pussel.md`](pussel.md).
+10. Brevets hälsning och sista rad är intima (`min hjärtans`, `Din till döden`). Sängen läses ur brevet. Miniatyr och övriga brev är dressing, inte plot. Kistans exakta plats förblir öppen. Cryptexens form är kanon: fem parallella quests, tre per skuta, plus Malins berlock. Queststories: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Lediga pusselbyggstenar: [`pussel.md`](pussel.md).
 
 ### Malin och Karl XII
 
@@ -91,11 +102,12 @@ Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.yaml`
 1. Varje skuta gömmer en skatt fredag ca 17.30. Jakten öppnar lördag 10.30.
 2. Jaktcirkel ett steg: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1.
 3. Gästerna får veta vilken skuta *de* jagar. Inte vem som jagar dem. Inte att det är en sluten cirkel.
-4. Ingen poäng. Funnen skatt får bäras, mutas, stjälas tillbaka. Drama vinner vid krock med huvudstoryn.
-5. Sovplatser är inte gömställen. Malins kista är inte gömställe för lagskatt.
-6. Varje skuta har en mullvad och en kontaktperson, olika personer.
-7. Förrädarcirkel två steg: 1→3→5→2→4→1. Kontaktpersonen är den enda som vet mullvadens existens och identitet.
-8. Paren är tillsatta i [`forradare.yaml`](forradare.yaml). Malin och Spader är inte mullvad. Spader är inte kontakt. Spader är i övrigt fullt spelbar och får inte ledtrådar till huvudquesten.
+4. Jakten startar från en ingång: första ledtråden, inskickad av gömmarna, skriven in hos jägarna. Inte ransakning. Register: [`lagskatter.md`](lagskatter.md).
+5. Ingen poäng. Funnen skatt får bäras, mutas, stjälas tillbaka. Drama vinner vid krock med huvudstoryn.
+6. Sovplatser är inte gömställen. Malins kista är inte gömställe för lagskatt.
+7. Varje skuta har en mullvad och en kontaktperson, olika personer.
+8. Förrädarcirkel två steg: 1→3→5→2→4→1. Kontaktpersonen är den enda som vet mullvadens existens och identitet.
+9. Paren är tillsatta i [`forradare.yaml`](forradare.yaml). Malin och Spader är inte mullvad. Spader är inte kontakt. Spader är i övrigt fullt spelbar och får inte ledtrådar till huvudquesten.
 
 ### Skelettet på Södra Ovanan
 
@@ -104,7 +116,7 @@ Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.yaml`
 | Vem är det? | Greve Otto von Pälspung. Malin begravde honom i skogen. | 2026-08-23 |
 | När dog personen? | Efter hämnden, när hon redan byggt stugan. | 2026-08-23 |
 | Vem vet det? | Namnbladet i stugan. Malin. | 2026-08-23 |
-| Vad finns kvar på kroppen? | Andra cryptex-ledtråden, tre tokens, en per lag. | 2026-08-23 |
+| Vad finns kvar på kroppen? | Token `2K`, tre exemplar, en per lag. | 2026-08-25 |
 | Vad lär gästerna? | Att Otto ligger i skogen. Q-2 är klar. Inte kistan. Inte kungen. | 2026-08-23 |
 
 Detta är Q-2. Inte ett separat bakgrundsspår. Södra Ovanan är stugan och Ottos grav.
@@ -115,7 +127,7 @@ Detta är Q-2. Inte ett separat bakgrundsspår. Södra Ovanan är stugan och Ott
 |-------|------|----------|
 | Vems stuga är det? | Malin byggde den med egna händer efter att hon flyttade hemifrån. Inte barndomshemmet. Q-2. | 2026-08-23 |
 | Varför står den där? | Tillflykt. Dit flyr hon när världen blir för överväldigande. Hon använder den fortfarande. | 2026-08-23 |
-| Vad finns kvar där inne? | Tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten) plus fysiska minnen och skrin med tre tokens. Namnbladet pekar mot Ottos grav i skogen. Boken de kom ur står i Storstugan. Lista: [`quests/Q-2.md`](quests/Q-2.md). Kronologi: [`quests.md`](quests.md). Tryck i `content/rekvisita/`. | 2026-08-24 |
+| Vad finns kvar där inne? | Tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten) plus fysiska minnen och skrin med tre tokens `1H`. Namnbladet pekar mot Ottos grav i skogen. Boken de kom ur står i Storstugan. Lista: [`quests/Q-2.md`](quests/Q-2.md). Kronologi: [`quests.md`](quests.md). Tryck i `content/rekvisita/`. | 2026-08-25 |
 
 ### Segelbåten vid bojen
 

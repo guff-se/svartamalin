@@ -20,6 +20,48 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-25, världs-ingången är piratrevy, skriv om från scratch
+
+Källa: Gustaf, i chatt. Införd i [`../copy/intriger_intro.md`](../copy/intriger_intro.md).
+
+- [x] Skriv om från scratch. Det jag skrev var bara några bulletpoints som jag tänkte kanske vore bra att ha med.
+- [x] Jag vill att du tänker från grunden, skriv öppningstexten till en piratrevy a povel ramel. Bygg ut världen.
+
+Kryss = `intriger_intro.md` omskriven som revyouvertyr, ni-form. Bulletpunkterna är inte disposition. De får sitta i texten om de tjänar världen.
+
+---
+
+## 2026-08-25, S-02 lösare: de listar ut hur man blir kung
+
+Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-02.
+
+- [x] jag gillar inte att ett skägg skall ha färgats i förväg, eftersom jag inte vet om vi kan få deltagarna att göra detta
+- [x] produktionsteamet har inte bandbredd att bygga rekvisita för side quests, så tanken är att de bara skall bygga på de som deltagarna tar in
+- [x] vi gör det lösare, de får själva lista ut hur de skall kunna utropa sig till skäggens konung
+- [x] Ge dem olika val: Skall de förnedra sina motståndare? Utlysa en skäggturnering? Eller kanske raka av motsåndet?
+- [x] inte "raka av motståndet i lek". jag menar raka av det på riktigt. Det räcker att skriva "raka av motståndet".
+- [x] skriv inte ut intrigerna än
+
+Kryss = S-02 omskriven i `sidequests.md`. Status beslutad. Gästtexten orörd, skrivs om senare.
+
+---
+
+## 2026-08-25, gemensam världs-ingång före intrigerna
+
+Källa: Gustaf, i chatt. Införd i [`../copy/intriger_intro.md`](../copy/intriger_intro.md), [`kanon.md`](kanon.md).
+
+- [x] Vi skall skriva en gemensam ingångstext som skall ligga först när intrigerna presenteras. detta blir ett nytt dokument, som är extern webcopy men en del av huvudstory.
+- [x] Denna text skall beskriva "världen" som allt utsplar sig i.
+- [x] Året är 1702 och Karl XII är kung.
+- [x] Under många år har det utkämpas kamper på salmonellahavet.
+- [x] Det finns pirater och det finns kapare (de som fått välsignelse av kungen, nån greve, baron eller general att röva). De flesta pirater har kapat någon gång. Ingen litar på någon.
+- [x] Det mest ökända namnet är svarta malin.
+- [x] Ni är bjudna på fest.
+
+Kryss = publicerad i `content/copy/intriger_intro.md`. Visas först i intrig-UI (`my-crew`). Karl XII som kung är världsfakta. Affären är det inte.
+
+---
+
 ## 2026-08-24, Q-4:s dagboksblad är först i kronologin
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/Q-4.md`](quests/Q-4.md).
@@ -61,7 +103,7 @@ Källa: Gustaf, i chatt. Införd i [`quests/Q-4.md`](quests/Q-4.md).
 - [x] Det var malins favoritbok som barn
 - [x] när man pekar kikaren i rätt rikting så kommer man se en skylt uppsatt på en ö, med en kryptex-bokstav
 
-Kryss = formen sitter i questen. Bäring, vilken ö och bokstav mäts på plats. Tillsättning och gästtext inte gjorda.
+Kryss = formen sitter i questen. Token på skylten är `1H`. Bäring och vilken ö mäts på plats. Tillsättning och gästtext gjorda 2026-08-25.
 
 ---
 
@@ -128,7 +170,7 @@ Källa: Gustaf, i chatt. Införd i [`quests/Q-3.md`](quests/Q-3.md). Ersätter s
 - [x] Det verkliga ägarbevist är bara ett dokument från Malin till Malin där hon ger sig själv äganderätten i enighet med piraternas lagar.
 - [x] Så skippar vi sista dagbokssidan.
 
-Kryss = blad 5 är I–II. Skatten är ägarbeviset plus cryptex-lappen. Chiffertexten överstyrd samma dag, se avsnittet ovan.
+Kryss = blad 6 är I–II. Skatten är ägarbeviset plus token `3H`. Chiffertexten överstyrd samma dag, se avsnittet ovan.
 
 ---
 
@@ -353,8 +395,8 @@ Källa: Gustaf, i chatt. Parkerade i [`pussel.md`](pussel.md). Inte beslutade.
 - [ ] Vissa ledtrådar kan planteras hos en karaktär, så att någon annan måste få dem att berätta detta.
 - [x] Vi kan använda oss av caesarskiffer eller liknande, för att lämna ut en ledtråd på ett ställe, men som kräver skifferlösningen från en annan plats/person för att läsa.
 - [x] Förslag på Svarta Malins halsband som avslöjar sista ledtråden: XII (en referens till att hon har en affär med kungen).
-- [ ] Förslag på lösenord till cryptex: HKHXII. (Hans Kungliga Höghet XII)
-- [ ] Cryptexlösenord delas ut i form av ledtrådar där det står 1H, 2K, 3H osv. Dessa kan finnas i flera exemplar. Men man kan inte lösa helheten förrän man ser ledtråden XII på Malin i slutet.
+- [x] Förslag på lösenord till cryptex: HKHXII. (Hans Kungliga Höghet XII)
+- [x] Cryptexlösenord delas ut i form av ledtrådar där det står 1H, 2K, 3H osv. Dessa kan finnas i flera exemplar. Men man kan inte lösa helheten förrän man ser ledtråden XII på Malin i slutet.
 - [ ] På en prominent plats skall bilder på alla 25 pirater vara uppsatta, sorterade efter skuta. På baksidan finns bokstäver. Om man sorterar bilderna i samma ordning som namnen nämns i sångtexten, så bildar bokstäverna på baksidan en mening, en ledtråd.
 
 ---
@@ -363,11 +405,11 @@ Källa: Gustaf, i chatt. Parkerade i [`pussel.md`](pussel.md). Inte beslutade.
 
 Källa: Gustaf, i chatt. Införd som ram i [`quests.md`](quests.md) och [`beslut.md`](beslut.md). Story låst 2026-08-20, se avsnittet nedan. Kryss när Q-1 till Q-5 har mekanik i questen, inte som fria noder i [`pussel.md`](pussel.md).
 
-- [ ] Det finns 5 separata quests som alla leder fram till en eller två cryptex-bokstäver.
+- [x] Det finns 5 separata quests som alla leder fram till en eller två cryptex-bokstäver.
 - [ ] Varje quest har en startpunkt i en spelares intrig. Den har ett eller två pit stops på vägen, samt en sista skatt i slutet som innehåller bokstaven.
 - [ ] Ett sådant pit stop kan vara beroende av information som finns hos en annan spelare.
 - [ ] Varje lag har bland sina spelares intriger ingångar till 3 olika quests. Det betyder att alla lag kommer att ha 3 quests och varje quest kommer att ha 3 lag som försöker lösa det.
-- [ ] Det skall räcka med att lösa dessa 3 quests + ledtråden XII från Malin i slutet, för att knäcka lösenordet till cryptexen.
+- [x] Det skall räcka med att lösa dessa 3 quests + ledtråden XII från Malin i slutet, för att knäcka lösenordet till cryptexen.
 - [ ] Deltagare kan dessutom i sina intriger få ledtrådar som är essentiella för en pit stop i de 2 quests som de inte har ingångar i. Denna ledtråd får inte ha relevans om du inte känner till questet, utan är bara meningsfull för deltagarna i andra lag.
 - [ ] Målet för denna utformning är att ge alla lag 3 olika ändor att börja nysta i, så att de själva blir tvungna att prioritera. Detta förhindrar också köbildning, eftersom vi ersätter en lång quest-kedja mot slutet, med 5 stycken parallella kedjor.
 - [ ] Quests skall ha både en storyline och en eller flera uppgifter/utmaningar/pussel.
@@ -440,3 +482,42 @@ Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-11 och [`.
 Källa: Gustaf, i chatt. Införd i [`forradare.yaml`](forradare.yaml), [`cast.md`](cast.md), [`../anteckningar/gustaftadaa.md`](../anteckningar/gustaftadaa.md), [`sidequests.md`](sidequests.md), [`beslut.md`](beslut.md), [`kanon.md`](kanon.md).
 
 - [x] ta bort allt som säger att "spader inte kan lämna spelledningen". Det är skitsnack. Spader är en fullt spelbar karaktär, som deltar i sidequests, romanser, rivaliteter som vanligt. Den enda begränsningen är att han inte kan tilldelas ledtrådar för att försöka lösa main quests, samt att han inte kan vara mullvad/kontaktperson i forradare.yaml. tydliggör detta.
+
+---
+
+## 2026-08-25, lagskatt-ingång
+
+Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
+
+- [x] varje lagskatt skall ha en "ingång", en första ledtråd som lämnats in av lagen
+- [x] Den första ingången som skickats in är från Fördärvet: "Det ligger ett brev i soffbordet i vardagsrummet"
+- [x] Borförklaringens ingång är: "Kapten Klövers akilleshäl är högkvalitativ choklad som gör henne uppsluppen och totalt omdömeslös, oförmögen att bevara hemligheter."
+
+Kryss = strukturen sitter i [`lagskatter.md`](lagskatter.md). Fördärvets ingång är skriven in i Kurtisanens lagfil (de jagar Fördärvet). Brevet är Fördärvets prop, inte vår tryck. Bortförklaringens ingång är skriven in i Fördärvets lagfil (de jagar barken). Social, inte ett gömme: **Kapten Klöver** (`johannabergman`) är dörren. Hon sitter på barken. Hennes `roller/` säger redan att choklad lossar tungan. Ingången skärper det till högkvalitativ choklad och totalt omdöme.
+
+---
+
+## 2026-08-25, S-12 bakhållet, fjärde person
+
+Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-12.
+
+- [x] 2. bakhållet är bra. involvera en person till. väl en av Kapten Prygel eller Kapten Blodig
+
+Kryss = S-12 beslutad. Fjärde är Blodig, inte Prygel. Facit: Rötägg betalade. Gästtext skriven.
+
+---
+
+## 2026-08-25, cryptex-tokens
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`kanon.md`](kanon.md), per quest i [`quests/`](quests/).
+
+- [x] Uppdatera vilka cryptex-bokstäver som skall finnas i slutet av varje quest.
+- [x] De 3 första bokstäverna delas ut genom quest, de 3 sista via malins berlock.
+- [x] bokstäverna är en token där det står siffra+bokstav, där siffran är vilken bokstav i ordningen det är.
+- [x] Alla tokens är 1H, 2K, 3H, 4X, 5I, 6I
+- [x] Dessa tokens finns i slutet av respektive quest:
+  - Q1 - 3H
+  - Q2 - 1H (i stugan) + 2K (på skelettet)
+  - Q3 - 3H
+  - Q4 - 1H
+  - Q5 - 2K
