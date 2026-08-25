@@ -2,7 +2,7 @@
 # Skuta: **Fregatten Fromheten** (crew_id: 4)
 mirrors:
   - slug: jesperlindmarker
-    note: hemlig romans, han vet om Klöver, du vet inte (tvåvägs, asymmetrisk kunskap)
+    note: hemlig romans, han vet om Klöver, du vet inte + du är hans mullvad på Fromheten (tvåvägs, asymmetrisk kunskap)
   - slug: elinmartensson
     note: vill se hornet krossat (tvåvägs)
   - slug: gustaftadaa
@@ -17,6 +17,12 @@ related: [jesperlindmarker, johannabergman, elinmartensson, gustaftadaa, jesperl
 Du delar din kärlek till **Kapten Hurring** utan att ana att han samtidigt delar säng med **Kapten Klöver**. Nu vill han ha hjälp att hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld ingen ännu löst.
 
 **Kapten Klöver** har hört ett skvaller som pekar mot en ryktesspridare, men vill ha betalt i choklad eller mynt innan hon delar det, helst av dig än gratis. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, och du vägrar be henne om hjälp rakt ut. Fuska med din lilla kortlek om du måste, men lös gåtan själv innan festen är över, och låt Hurring se vem av er två som egentligen förtjänar honom.
+
+## Given du ger honom {slug:jesperlindmarker}
+
+Din kärlek till **Kapten Hurring** har gjort dig till mer än hans hemliga älskarinna. Allt du hör och ser inne på **Fregatten Fromheten**, dina egna skeppskamraters planer, deras svaga punkter, deras gömmen, bär du rakt till honom på **Korvetten Kurtisanen**. Du gör det utan att tveka, inte för att du svurit hans skuta någon trohet, utan för att det är honom du svurit. Det räcker för att göra din egen besättning till ett pris du gärna betalar.
+
+Ge honom det han ber om, plan för plan, gömma för gömma, och lita på att kärleken bär tyngre än skutan du föddes in i. Håll det dolt för både din egen kapten och hans, innan festen är över.
 
 ## Hornet som ska krossas {slug:elinmartensson}
 

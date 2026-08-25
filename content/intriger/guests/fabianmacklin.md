@@ -2,7 +2,7 @@
 # Skuta: **Barken Bortförklaringen** (crew_id: 3)
 mirrors:
   - slug: ulrikahammar
-    note: uppvaktning vid syhörnan (tvåvägs)
+    note: uppvaktning vid syhörnan + hon blir din mullvad på Kurtisanen (tvåvägs)
   - slug: ludvigvonbahr
     note: gammalt hamnskämt om svärdet (tvåvägs)
   - slug: linneaappert
@@ -15,6 +15,12 @@ related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaapper
 **Kapten Barnsben** håller en sy- och broderihörna öppen som ett stilla nav mellan varven, och där uppvaktar du henne, dag efter dag, i hopp om att bli den hon väljer att lita på när mörkret faller. Hon bär på en hemlighet hon bara delar med sina finaste förtroenden: en liten burk piller hon måste svälja i skymningen, annars slutar hon vara barnslig och blir stor, ett öde hon fasar för.
 
 **Kapten Rosing** vill ha samma plats hos henne som du gör, och tävlar om samma förtroende utan att veta att du redan ligger risigt nära Barnsben av skäl som är helt dina egna. Vinn hennes tillit innan festen är över, och håll henne kvar vid din sida när mörkret faller.
+
+## Handen som viskar från Kurtisanen {slug:ulrikahammar}
+
+Din uppvaktning vid sy- och broderihörnan har gett dig mer än en plats i skymningen. **Kapten Barnsben** viskar dig allt hon hör och ser inne på **Korvetten Kurtisanen**, inte för att hon svurit **Barken Bortförklaringen** sin trohet, hon bryr sig inte ett uns om er skuta, utan för att det är dig hon vill hålla kvar, till varje pris hennes egen besättning skulle kalla förräderi.
+
+Ta emot det hon ger utan att låta det synas, inte för **Kapten Rosing**, som fortfarande tror hon tävlar om en ärlig plats i hennes skymning, och inte för din egen skuta, som gärna skulle fira en spion men aldrig skona den som avslöjas. Ge Bortförklaringen den fördel hon bär till dig, och håll henne, och hemligheten, hela vägen till sista skålen.
 
 ## Viskningen du ger Kosing {slug:amandamungsgard}
 

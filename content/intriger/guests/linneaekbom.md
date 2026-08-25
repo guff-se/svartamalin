@@ -3,8 +3,10 @@
 mirrors:
   - slug: ulrikahammar
     note: uppvaktning vid syhörnan (tvåvägs)
+  - slug: hampuslindblad
+    note: mullvad, du köper hans krona med Gnällets larm (tvåvägs)
 # enväg vittne mot elinmartensson (snäckan hör Kuling/Prygels planer), speglas inte
-related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa]
+related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa, hampuslindblad]
 ---
 
 ## Den du vill bli vald av {slug:ulrikahammar}
@@ -12,6 +14,12 @@ related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa]
 **Kapten Barnsben**s sy- och broderihörna är den enda plats på ön där någon sitter still länge nog för dig att uppvakta ordentligt. Du vill bli den hon litar mest på när mörkret faller, den hon anförtror sin krumelurburk och sitt piller, hellre än någon annan. Att fråga henne rakt ut vem hon egentligen litar på vågar du inte, av rädsla för svaret. Så du gör det på ditt eget sätt: smicker, en dramatisk entré, en påminnelse om att dåligt organiserade hjärtan är den värsta sortens oordning.
 
 **Kapten Nykter** vill ha samma plats som du. Du vet inte om honom. Vinn henne innan festen är över.
+
+## Rösten du köpt vid kajen {slug:hampuslindblad}
+
+Du kan inte vinna **Kapten Barnsben** med charm ensam, det vet du redan, för skymningen väljer sin egen favorit oavsett hur ivrigt du uppvaktar. Men du kan vinna någon annanstans, tyst och grundligt, där ingen anar att du spelar. **Kapten Blåskägg** kämpar för sin krona vid kajens skålar, mot både **Kapten Rödskägg** och **Kapten Lösskägg**, och du erbjöd honom hela **Galeonen Gnället**s larm som förstärkning. I utbyte får du allt som sägs och planeras inne på **Barken Bortförklaringen**, långt innan hans egen kapten anar något.
+
+Låt honom tro att det bara handlar om en krona. Bygg din egen tysta seger av det han ger dig, en som ingen kan ta ifrån dig även om skymningens piller går till en annan. Håll greppet om honom och hans hemlighet innan festen är över.
 
 ## Vad snäckan viskar om hornet {slug:elinmartensson}
 

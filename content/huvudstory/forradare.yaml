@@ -39,7 +39,7 @@ forradare:
     works_for: 3
     bygger_pa: "romans: 5"
     note: Nykter värvade den han uppvaktar. Barnsben brinner för Döver (romans 6) på Fördärvet, som Barken gömmer sig för. Tvekan.
-    status: pending
+    status: done
 
   - id: 3
     type: mole
@@ -49,7 +49,7 @@ forradare:
     works_for: 5
     bygger_pa: null
     note: Omslumpad 2026-08-24. Läs inte upp a för Gustaf.
-    status: pending
+    status: done
 
 
   - id: 5
@@ -60,7 +60,7 @@ forradare:
     works_for: 2
     bygger_pa: "romans: 7"
     note: Mutual-par. Kurtisanen jagar Fördärvet; Babords fiende Barnsben sitter där (fiende 12). Tvekan mot skeppskamraten Rötägg, Dövers fiende (fiende 6).
-    status: pending
+    status: done
 
   - id: 2
     type: mole
@@ -70,7 +70,7 @@ forradare:
     works_for: 4
     bygger_pa: null
     note: Omslumpad 2026-08-24. Läs inte upp a för Gustaf.
-    status: pending
+    status: done
 
 
   - id: 4
@@ -81,4 +81,4 @@ forradare:
     works_for: 1
     bygger_pa: "romans: 13"
     note: Mutual-par. Gnället jagar Kurtisanen; Prygels fiende Plåthorn sitter där (fiende 24). Klöver älskar också Hurring (romans 12) och vet inte om mullvaden.
-    status: pending
+    status: done
