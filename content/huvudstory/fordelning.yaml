@@ -1092,10 +1092,9 @@ fordelning:
     status: done
 
 # B-20 Q-4-tillsättning (2026-08-25): skuta 1, 2, 4. Start: Kapten Hurring (`jesperlindmarker`),
-# Kapten Kuling (`josefinlowing`), Kapten Hjärter (`jesperlejfjord`). Tvärledtråd: skuta 3
-# (Kapten Klöver, `johannabergman`), skuta 5 (Kapten Dunka, `ludvigvonbahr`). Skuta 1:s start
-# landar på Kurtisanen (quests.md punkt 8): jesperlindmarker, inte ulrikahammar (mullvad, se
-# forradare.yaml) och inte malintadaa/petterwallberg/linneaappert (undantag/redan starter).
+# Kapten Kuling (`josefinlowing`), Kapten Hjärter (`jesperlejfjord`). Ingen tvärledtråd (2026-08-25).
+# Skuta 1:s start landar på Kurtisanen (quests.md punkt 8): jesperlindmarker, inte ulrikahammar
+# (mullvad, se forradare.yaml) och inte malintadaa/petterwallberg/linneaappert (undantag/redan starter).
 # Inte mullvad, inte Malin, inte Spader.
 
   - id: 87
@@ -1129,30 +1128,6 @@ fordelning:
     roll: jagare
     vet: "att Svarta Malin som barn hade en favoritbok, Tomtebobarnen, som ska stå kvar på en hylla i Storstugan"
     vet_inte: "havet, friheten, kikaren, kompassen, dagboksbladet, skylten, bäringen, kungen, att kistan öppnas"
-    speglas: []
-    bygger_pa: null
-    pussel: "Q-4"
-    status: done
-
-  - id: 90
-    beat: B-20
-    akt: II
-    till: [johannabergman]
-    roll: vittne
-    vet: "att en tryckt kompass ljuger om riktning, och att bara en riktig kompass hållen mot en kikares glas visar sant håll"
-    vet_inte: "havet, friheten, dagboksbladet, Tomtebobarnen, skylten, bäringen, kungen, att kistan öppnas"
-    speglas: []
-    bygger_pa: null
-    pussel: "Q-4"
-    status: done
-
-  - id: 91
-    beat: B-20
-    akt: II
-    till: [ludvigvonbahr]
-    roll: vittne
-    vet: "att en tryckt kompass ljuger om riktning, och att bara en riktig kompass hållen mot en kikares glas visar sant håll"
-    vet_inte: "havet, friheten, dagboksbladet, Tomtebobarnen, skylten, bäringen, kungen, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-4"
