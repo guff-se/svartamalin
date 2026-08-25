@@ -30,8 +30,8 @@ Din lust till **Kapten Rödskägg** är förbjuden och hemlig: era släkter och 
 
 ## Namnet som inte får vara ditt {slug:josefinlowing}
 
-Ett år sedan låg **Kapten Kuling** i bakhåll på Paradisets ö och sköt **Kapten Rödskägg** i ryggen, för en klients räkning, och försvann med en del av hans Piratpulver-last. Klienten har inget namn i hamnen. Än.
+Ett år sedan låg **Kapten Kuling** i bakhåll på Paradisets ö och sköt **Kapten Rödskägg** i ryggen, för en klients räkning, och försvann med en del av hans Piratpulver: det förbjudna rus era släkter slåss om i generationer, det som gör en kapten modig nog att tro sig störst. Klienten har inget namn i hamnen. Än.
 
-**Kapten Blodig** har redan ett groll mot dig, och hon svär att namnet är ditt: era släkter slåss ju om pulvret i generationer, så vem annars? Om Rödskägg tror henne är det inte bara en skandal. Det är ett skott han kan lägga på din kropp nästa gång ni ska knulla i hemlighet.
+**Kapten Blodig** har redan ett groll mot dig, en stulen kapitulation och ett blodstämplat storsegel, och nu svär hon att namnet är ditt. Vem annars, säger hon, när pulversläkter hatar varandra så det ryker? Om Rödskägg tror henne är det inte bara en skandal. Det är ett skott han kan lägga på din kropp nästa gång ni ska knulla i hemlighet, med det röda skägget mot halsen och hans paranoia ett rum bort.
 
-Kuling bar namnet då och bär det fortfarande, vid båtarna. Köp det, hota till det, eller dra värja mot Blodig innan lögnen stelnar till sanning. **Kapten Rötägg** nosar i samma jakt med en vänlighet som kommer för snabbt, och du vet inte vems ärende han gör. Gör det innan festen är över. Du vet att det inte var du. Hamnen vet ingenting.
+Kuling bar namnet då och bär det fortfarande, vid båtarna. Köp det. Hota till det. Eller dra värja mot Blodig innan lögnen stelnar till sanning, för du är inte den som sitter tyst när någon spottar i ditt namn. **Kapten Rötägg** nosar i samma jakt med en vänlighet som kommer för snabbt, och du vet inte vems ärende han gör. Gör det innan festen är över. Du vet att det inte var du. Hamnen vet ingenting.

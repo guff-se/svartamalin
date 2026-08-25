@@ -38,8 +38,8 @@ Ge tillbaka kortet som en gest, ett bevis på att du menar allvar med din snäll
 
 ## Skottet du betalade {slug:josefinlowing}
 
-Innan du miste skeppet och blev den snälla mannen du numera försöker vara, betalade du **Kapten Kuling** för ett bakhåll. Hon sköt **Kapten Rödskägg** i ryggen på Paradisets ö och lyfte en del av hans Piratpulver. Du ville ha en rival mindre. Du stod inte själv med geväret. Namnet på klienten är ditt, och Kuling har inte glömt vem som betalade.
+Innan du miste skeppet och blev den snälla mannen du numera försöker vara, köpte du ett bakhåll. **Kapten Kuling** tog pengarna, sköt **Kapten Rödskägg** i ryggen på Paradisets ö och lyfte en del av hans Piratpulver, Salmonellahavets förbjudna rus som gör en kapten modig nog att tro sig oövervinnelig. Du ville ha en rival mindre. Du stod inte bakom geväret. Du stod bakom räkningen. Namnet på klienten är ditt, och Kuling har inte glömt vem som betalade.
 
-Den här helgen jagar folk namnet. **Kapten Blodig** svär att det var **Kapten Frodig**, för att deras släkter slåss om pulvret och för att Blodig redan hatar henne. Lögnen skulle rädda dig. Den skulle sänka en kvinna som inte skjutit någon.
+Den här helgen jagar folk namnet. **Kapten Blodig** svär redan att det var **Kapten Frodig**, för att deras släkter slåss om pulvret och för att Blodig redan hatar henne. Lögnen skulle rädda dig. Den skulle sänka en kvinna som inte skjutit någon.
 
-Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Du kan köpa hennes tystnad, bekänna för Rödskägg med egna ord som bevis på att du ändrat dig, eller låta Blodigs lögn stå. Välj innan festen är över. En sabrerad flaska köper inget här. Inte den här gången.
+Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Köp hennes tystnad. Bekänn för Rödskägg med egna ord, som bevis på att du ändrat dig. Låt Blodigs lögn stå och se om din nya snällhet tål att någon annan hänger för din räkning. Välj innan festen är över. En sabrerad flaska köper inget här. Inte den här gången.

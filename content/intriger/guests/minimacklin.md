@@ -35,8 +35,8 @@ Konfrontera en av dem enskilt, eller sprid ett rykte utan att avslöja hela sann
 
 ## Klienten du redan dömt {slug:josefinansund}
 
-**Kapten Kuling**, din egen skutkamrat, låg i bakhåll på Paradisets ö för ett år sedan och sköt **Kapten Rödskägg** i ryggen, för en betalande klient, och tog en del av hans Piratpulver. Hon har aldrig gett **Fregatten Fördärvet** ett namn. Hon är sån. Proffs.
+**Kapten Kuling**, din egen skutkamrat, låg i bakhåll på Paradisets ö för ett år sedan och sköt **Kapten Rödskägg** i ryggen, för en betalande klient, och tog en del av hans Piratpulver. Hon har aldrig gett **Fregatten Fördärvet** ett namn. Hon är sån. Proffs. Blod stänker, munnen hålls.
 
-Du behöver inget namn. **Kapten Frodig**s släkt har i generationer slagits om pulvret med Rödskäggs, och Frodig stal din kapitulation. Vem annars betalar för ett skott i ryggen på en pulverlangare? Säg det högt. Säg det till Rödskägg. Säg det till den som betalar för ett rykte. Kuling kan sälja en annan sanning om hon vill. Din är redan klar.
+Du behöver inget namn. **Kapten Frodig** stal din kapitulation, du stämplade hennes storsegel i blod, och hennes släkt har i generationer slagits om pulvret med Rödskäggs. Vem annars betalar för ett skott i ryggen på en pulverlangare? Säg det högt. Säg det till Rödskägg. Säg det till den som betalar för ett rykte. Kuling kan sälja en annan sanning om hon vill. Din är redan klar, och du tänker inte vänta på bevis.
 
-Gör det innan festen är över. Ett skott och en kyss kan vara samma krig. Du tänker inte vänta på bevis.
+Gör det innan festen är över. Ett skott och en kyss kan vara samma krig, och du har redan blod i ansiktet för mindre.

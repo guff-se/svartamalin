@@ -55,8 +55,8 @@ Han glömde inte. Nu delar ni båtarna hela helgen, rep och rigg, eka efter eka,
 
 ## Namnet du fortfarande bär {slug:edvinthungren}
 
-Uppdraget på Paradisets ö var betalt. Klienten var **Kapten Rötägg**, då ännu röta, innan han miste sitt skepp och började tala om vänlighet. Han stod inte bakom geväret. Han betalade för att du skulle göra det.
+Uppdraget på Paradisets ö var betalt. Klienten var **Kapten Rötägg**, då ännu röta in i märgen, innan han miste sitt skepp och började tala om vänlighet som om vänlighet kunde tvätta krut. Han stod inte bakom geväret. Han betalade för att du skulle göra det. Du levererade, kallt och rent, precis som du alltid gör.
 
-Du har inte nämnt namnet för **Fregatten Fördärvet**. **Kapten Blodig** har ändå fyllt i **Kapten Frodig**, för att pulversläkter är lätta att hata och för att Blodig redan gör det. Du rättar henne inte gratis.
+Du har inte nämnt namnet för **Fregatten Fördärvet**. Proffs skvallrar inte med kojjen. **Kapten Blodig** har ändå fyllt i **Kapten Frodig**, för att pulversläkter är lätta att hata och för att Blodig redan gör det. Du rättar henne inte gratis.
 
-Nu kommer de till kajen: Frodig, som vill ha sanningen innan lögnen når **Kapten Rödskägg**. Rötägg, som vill ha tystnad eller en bekännelse på sina villkor. Blodig, som vill att hennes namn ska vara det som fastnar. Sälj, tig, eller peka. Namnet är din sista last från det jobbet. Ta betalt innan festen är över.
+Vid båtarna, där **Kapten Rödskägg** redan ser en kniv i varje leende, kommer de tre: Frodig, som vill ha sanningen innan Blodigs lögn når honom. Rötägg, som vill ha tystnad eller en bekännelse på sina villkor. Blodig, som vill att Frodigs namn ska vara det som fastnar. Sälj. Tig. Peka. Namnet är din sista last från det jobbet, värt mer än det pulver du redan lyfte. Ta betalt innan festen är över.

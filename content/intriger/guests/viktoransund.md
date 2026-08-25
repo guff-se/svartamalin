@@ -9,6 +9,8 @@ mirrors:
     note: förbjuden hemlig kärlek (tvåvägs)
   - slug: josefinlowing
     note: mutual fiende, skottet i ryggen på Paradisets ö, båtarna tillsammans (tvåvägs)
+  - slug: minimacklin
+    note: enväg, hon svär att Frodig köpte bakhållet (du vet om anklagelsen, inte om hon har rätt)
 related: [petterwallberg, hampuslindblad, johannabergman, josefinansund, minimacklin, malintadaa, josefinlowing]
 ---
 
@@ -46,4 +48,8 @@ Ett år sedan sköt **Kapten Kuling** dig i ryggen på Paradisets ö och försva
 
 Nu delar ni båtarna hela helgen, samma rep, samma rigg, samma kaj, och varje gång hon ler mot dig undrar du om det är ett nytt jobb hon planerar eller bara hennes vanliga sätt att vara. Kräv tillbaka lastens värde, testa henne med en fälla av eget snitt, eller håll ett öga på henne varje sekund ni tvingas arbeta ihop. Lita inte på henne förrän helgen är över, och kanske inte då heller.
 
-**Kapten Blodig** svär redan att klienten var **Kapten Frodig**, för att deras släkter slåss om pulvret. Om det är sant har du knullat kvinnan som betalade för att du skulle dö. Om det är lögn tänker hon sänka er hemlighet med någon annans skott. Kräv namnet av Kuling vid båtarna, eller slå Blodigs rykte ur henne, innan festen är över.
+## Namnet Blodig redan sagt {slug:minimacklin}
+
+**Kapten Blodig** svär redan att klienten bakom bakhållet var **Kapten Frodig**, för att deras släkter slåss om pulvret och för att Blodig redan hatar henne. Om det är sant har du knullat kvinnan som betalade för att du skulle dö, med skägget mellan hennes lår och ett skott i ryggen som hemgift. Om det är lögn tänker hon sänka er hemliga lust med någon annans krut.
+
+Kräv namnet av **Kapten Kuling** vid båtarna, där hon fortfarande kan sälja det, eller slå Blodigs rykte ur henne innan festen är över. Ett okänt namn är en kniv i mörkret. Fel namn på din älskarinna är en kniv du själv lagt i hennes hand.
