@@ -190,6 +190,7 @@ fiender:
     b: viktoransund       # Kapten Rödskägg: Fregatten Fromheten
     # oförrätt: Kuling låg i bakhåll och sköt Rödskägg i ryggen på Paradisets ö för ett år sedan (Kulings underlag).
     # De har båtarna tillsammans: fiendskapen spelas vid kajen, inte långt från vattnet.
+    # Klienten var Rötägg (`edvinthungren`), före omvändelsen. Bara Kuling och Rötägg vet. S-12.
     status: done
 
   - id: 26

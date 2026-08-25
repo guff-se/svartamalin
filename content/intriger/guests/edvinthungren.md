@@ -9,7 +9,15 @@ mirrors:
     note: gammal röta, han köper inte omvändelsen (tvåvägs)
   - slug: gustaftadaa
     note: enväg hat, sjökortet till Plåthorns fiskegrund (han hatar dig, du vet om det)
-related: [linneaappert, ulrikahammar, navidmodiri, gustaftadaa]
+  - slug: josefinlowing
+    note: du betalade hennes bakhåll, hon kan sälja namnet (tvåvägs)
+  - slug: josefinansund
+    note: Blodig skyller bakhållet på henne, du vet att det var du (enväg, hon utreder, hon vet inte att det var du)
+  - slug: minimacklin
+    note: hon svär att Frodig betalade, du vet att lögnen räddar dig (enväg)
+  - slug: viktoransund
+    note: du betalade bakhållet mot honom, han vet inte att det var du (enväg)
+related: [linneaappert, ulrikahammar, navidmodiri, gustaftadaa, josefinlowing, josefinansund, minimacklin, viktoransund]
 ---
 
 ## Beviset du vill ge Planka {slug:linneaappert}
@@ -27,3 +35,11 @@ Du var röta mot **Kapten Döver** en gång, innan du miste ditt skepp och best�
 Innan du miste ditt skepp och blev den snälla mannen du numera försöker vara, vann du **Löjtnant Spader**s sjökort till **Kapten Plåthorn**s fiskegrund över ett bord kort, med en hand som inte var ärligare än ryktet om hans egen. Han har aldrig glömt det, och han litar inte på din omvändelse mer än på ditt gamla jag.
 
 Ge tillbaka kortet som en gest, ett bevis på att du menar allvar med din snällhet, eller sätt dig vid ett nytt bord med honom och försvara vinsten som om den fortfarande var ärlig. Välj innan festen är över, och räkna med att han testar dig oavsett vad du väljer.
+
+## Skottet du betalade {slug:josefinlowing}
+
+Innan du miste skeppet och blev den snälla mannen du numera försöker vara, betalade du **Kapten Kuling** för ett bakhåll. Hon sköt **Kapten Rödskägg** i ryggen på Paradisets ö och lyfte en del av hans Piratpulver. Du ville ha en rival mindre. Du stod inte själv med geväret. Namnet på klienten är ditt, och Kuling har inte glömt vem som betalade.
+
+Den här helgen jagar folk namnet. **Kapten Blodig** svär att det var **Kapten Frodig**, för att deras släkter slåss om pulvret och för att Blodig redan hatar henne. Lögnen skulle rädda dig. Den skulle sänka en kvinna som inte skjutit någon.
+
+Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Du kan köpa hennes tystnad, bekänna för Rödskägg med egna ord som bevis på att du ändrat dig, eller låta Blodigs lögn stå. Välj innan festen är över. En sabrerad flaska köper inget här. Inte den här gången.

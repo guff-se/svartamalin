@@ -22,7 +22,9 @@
 #   roll          barare | jagare | grindvakt | vittne   (se premiss.md)
 #   vet           vad personen faktiskt vet efter att ha läst sin intrig.
 #                 Quest-start: bara första ledtråden, inte kapitlet.
+#                 Lagskatt-ingång: bara första ledtråden, inskickad av gömmarna.
 #                 Se quests.md, "Ingångstext". Per quest: quests/Q-n.md.
+#                 Lagskatter: lagskatter.md, avsnittet Ingång.
 #   vet_inte      vad personen uttryckligen inte får veta
 #   speglas       slugs som behöver motsvarande text för att världen ska hålla
 #   bygger_pa     romans: N eller fiende: N ur romanser.yaml / fiender.yaml
@@ -50,13 +52,17 @@
 #   * gustaftadaa (Löjtnant Spader) får inte quest-starter eller tvärledtrådar
 #     till huvudquesten. I övrigt fullt spelbar. Inte mullvad, inte kontakt.
 
+# B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
+# in hos jägarna. Se lagskatter.md. Id 1 bär Fördärvets ingång. Id 2 bär
+# Fördärvets påminnelse att lägga brevet. Övriga väntar på ingång.
+
 fordelning:
   - id: 1
     beat: B-11
     akt: II
     till: { crew: 1 }
     roll: jagare
-    vet: "att Korvetten Kurtisanen ska gömma sin skatt vid ankomsten, och att de ska hitta Fregatten Fördärvets skatt"
+    vet: "att Korvetten Kurtisanen ska gömma sin skatt vid ankomsten, att de ska hitta Fregatten Fördärvets skatt, och att första spåret är ett brev i soffbordet i vardagsrummet (Storstugan)"
     vet_inte: "att Galeonen Gnället jagar Kurtisanens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -68,7 +74,7 @@ fordelning:
     akt: II
     till: { crew: 2 }
     roll: jagare
-    vet: "att Fregatten Fördärvet ska gömma sin skatt vid ankomsten, och att de ska hitta Barken Bortförklaringens skatt"
+    vet: "att Fregatten Fördärvet ska gömma sin skatt vid ankomsten, att de lägger sitt första spår då: ett brev i soffbordet i vardagsrummet, och att de ska hitta Barken Bortförklaringens skatt"
     vet_inte: "att Korvetten Kurtisanen jagar Fördärvets skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -796,7 +802,7 @@ fordelning:
     till: [linneaappert]
     roll: jagare
     vet: "att det ryktas att Svarta Malin skrev om sin första kärlek i ett dagboksblad, att bladet ligger rivet i två halvor vid Gubben i stubben och Gumman på udden, och att hon måste hämta båda utan att Malin, hennes egen kapten på Korvetten Kurtisanen, ser eller anar det"
-    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, cryptex-lappen, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
+    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, token 3H, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
@@ -808,7 +814,7 @@ fordelning:
     till: [josefinansund]
     roll: jagare
     vet: "att det ryktas att Svarta Malin skrev om sin första kärlek i ett dagboksblad, och att bladet ligger rivet i två halvor vid Gubben i stubben och Gumman på udden"
-    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, cryptex-lappen, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
+    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, token 3H, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
@@ -820,7 +826,7 @@ fordelning:
     till: [josefinlowing]
     roll: jagare
     vet: "att det ryktas att Svarta Malin skrev om sin första kärlek i ett dagboksblad, och att bladet ligger rivet i två halvor vid Gubben i stubben och Gumman på udden"
-    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, cryptex-lappen, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
+    vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, token 3H, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-1"
@@ -932,7 +938,7 @@ fordelning:
     till: [petterwallberg]
     roll: jagare
     vet: "att han är skyldig Svarta Malin pengar, att hon för en logg över alla sådana skulder, och att han vill komma åt loggen"
-    vet_inte: "var loggen sitter, porträttväggen, svärdfiskens mun, cryptex-lapparna, dagboksblad 7, kungen, att festen är en fälla, att kistan öppnas"
+    vet_inte: "var loggen sitter, porträttväggen, svärdfiskens mun, tokens 2K, dagboksblad 7, kungen, att festen är en fälla, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-5"
@@ -944,7 +950,7 @@ fordelning:
     till: [fabianmacklin]
     roll: jagare
     vet: "att han är skyldig Svarta Malin pengar, att hon för en logg över alla sådana skulder, och att han vill komma åt loggen"
-    vet_inte: "var loggen sitter, porträttväggen, svärdfiskens mun, cryptex-lapparna, dagboksblad 7, kungen, att festen är en fälla, att kistan öppnas"
+    vet_inte: "var loggen sitter, porträttväggen, svärdfiskens mun, tokens 2K, dagboksblad 7, kungen, att festen är en fälla, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-5"
@@ -956,7 +962,7 @@ fordelning:
     till: [ludvigvonbahr]
     roll: jagare
     vet: "att han är skyldig Svarta Malin pengar, att hon för en logg över alla sådana skulder, och att han vill komma åt loggen"
-    vet_inte: "var loggen sitter, porträttväggen, svärdfiskens mun, cryptex-lapparna, dagboksblad 7, kungen, att festen är en fälla, att kistan öppnas"
+    vet_inte: "var loggen sitter, porträttväggen, svärdfiskens mun, tokens 2K, dagboksblad 7, kungen, att festen är en fälla, att kistan öppnas"
     speglas: []
     bygger_pa: null
     pussel: "Q-5"
@@ -1132,5 +1138,68 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-4"
+    status: done
+
+# S-12 Klienten på Paradisets ö. Facit: Rötägg betalade. Blodig, inte Prygel.
+# Rödskägg enväg: anklagelsen, inte namnet.
+
+  - id: 90
+    beat: S-12
+    akt: II-IV
+    till: [josefinansund]
+    roll: jagare
+    vet: "att Kapten Kuling för ett år sedan sköt Kapten Rödskägg i ryggen på Paradisets ö för en klients räkning och tog en del av hans Piratpulver, att klienten saknar publikt namn, att Kapten Blodig svär att namnet är Frodigs för att släkterna slåss om pulvret, och att Kuling fortfarande bär det riktiga namnet vid kajen"
+    vet_inte: "att klienten var Kapten Rötägg, kistan, kontraktet"
+    speglas: [josefinlowing, minimacklin, viktoransund]
+    bygger_pa: "fiende: 4, romans: 8"
+    pussel: null
+    status: done
+
+  - id: 91
+    beat: S-12
+    akt: II-IV
+    till: [edvinthungren]
+    roll: barare
+    vet: "att han före omvändelsen betalade Kapten Kuling för bakhållet på Paradisets ö, att hon sköt Kapten Rödskägg och lyfte pulver, att Kuling fortfarande kan sälja hans namn, och att Kapten Blodig svär att klienten var Kapten Frodig"
+    vet_inte: "kistan, kontraktet"
+    speglas: [josefinlowing]
+    bygger_pa: "fiende: 25"
+    pussel: null
+    status: done
+
+  - id: 92
+    beat: S-12
+    akt: II-IV
+    till: [josefinlowing]
+    roll: grindvakt
+    vet: "att klienten på Paradisets ö var Kapten Rötägg, att hon aldrig nämnt namnet för Fregatten Fördärvet, att Kapten Blodig fyllt i Kapten Frodig på egen hand, och att Frodig och Rötägg kommer till kajen för namnet respektive tystnaden"
+    vet_inte: "kistan, kontraktet"
+    speglas: [edvinthungren, josefinansund, minimacklin]
+    bygger_pa: "fiende: 25"
+    pussel: null
+    status: done
+
+  - id: 93
+    beat: S-12
+    akt: II-IV
+    till: [minimacklin]
+    roll: jagare
+    vet: "att Kapten Kuling, hennes skutkamrat, sköt Kapten Rödskägg för en betalande klient för ett år sedan och aldrig gav besättningen ett namn, och att Blodig själv har fyllt i Kapten Frodig för att pulversläkter slåss och för att Frodig stal hennes kapitulation"
+    vet_inte: "att klienten var Kapten Rötägg, kistan, kontraktet"
+    speglas: [josefinansund, josefinlowing, viktoransund]
+    bygger_pa: "fiende: 4"
+    pussel: null
+    status: done
+
+  - id: 94
+    beat: S-12
+    akt: II-IV
+    till: [viktoransund]
+    roll: vittne
+    vet: "att Kapten Blodig svär att klienten bakom bakhållet var Kapten Frodig, och att det vore värre än ett okänt namn om det är lögn, och värre än allt om det är sant"
+    vet_inte: "att klienten var Kapten Rötägg, kistan, kontraktet"
+    speglas: [minimacklin, josefinansund]
+    bygger_pa: "fiende: 25, romans: 8"
+    pussel: null
     status: done
 

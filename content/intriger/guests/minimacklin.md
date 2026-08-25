@@ -3,9 +3,23 @@
 # S-01: oläkt kärlek till malintadaa, enväg, speglas inte
 mirrors:
   - slug: josefinansund
-    note: gammalt groll, kapitulationen och storseglet (tvåvägs)
-related: [malintadaa, jesperlejfjord, josefinansund]
+    note: gammalt groll, kapitulationen och storseglet, du svär att hon köpte bakhållet (tvåvägs)
+  - slug: josefinlowing
+    note: skutkamrat, hon bar namnet, du har redan fyllt i Frodig (tvåvägs)
+related: [malintadaa, jesperlejfjord, josefinansund, josefinlowing, viktoransund]
 ---
+
+## Stugan ingen pratar om {slug:malintadaa}
+
+Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
+
+Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.
+
+## Väggen du aldrig behöver frukta {slug:malintadaa}
+
+Det viskas att **Svarta Malin** för en logg över alla som är skyldiga henne, och att loggen hänger rätt upp och ner i Storstugan: en vägg av porträtt, döpt "de värsta kaptener som finns", uppsatt skuta för skuta. Ditt eget porträtt hänger där som allas gör, men du vet, obekymrat, att ditt namn är skuldfritt. Du är inte skyldig henne ett öre.
+
+Hör du någon fråga sig var Malins skuldlogg sitter, vet du svaret utan att behöva jaga det själv. Dela det med **Fregatten Fördärvet** om priset känns rätt, eller håll det för dig själv och se vem som kommer krypande.
 
 ## Ögonen som fortfarande fångar dig {slug:malintadaa}
 
@@ -19,14 +33,10 @@ Nu viskar hamnen att jubilaren gömmer en älskare. Du vill veta vem, inte av ar
 
 Konfrontera en av dem enskilt, eller sprid ett rykte utan att avslöja hela sanningen än, som ett hot eller en utpressning. Fragmentet kan du sälja vidare till **Kapten Lösskägg**, som redan letar svagheter hos Rödskägg inför skäggtrion. Gör det innan festen är över, mitt i din egen jakt på jubilarens älskare.
 
-## Stugan ingen pratar om {slug:malintadaa}
+## Klienten du redan dömt {slug:josefinansund}
 
-Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
+**Kapten Kuling**, din egen skutkamrat, låg i bakhåll på Paradisets ö för ett år sedan och sköt **Kapten Rödskägg** i ryggen, för en betalande klient, och tog en del av hans Piratpulver. Hon har aldrig gett **Fregatten Fördärvet** ett namn. Hon är sån. Proffs.
 
-Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.
+Du behöver inget namn. **Kapten Frodig**s släkt har i generationer slagits om pulvret med Rödskäggs, och Frodig stal din kapitulation. Vem annars betalar för ett skott i ryggen på en pulverlangare? Säg det högt. Säg det till Rödskägg. Säg det till den som betalar för ett rykte. Kuling kan sälja en annan sanning om hon vill. Din är redan klar.
 
-## Väggen du aldrig behöver frukta {slug:malintadaa}
-
-Det viskas att **Svarta Malin** för en logg över alla som är skyldiga henne, och att loggen hänger rätt upp och ner i Storstugan: en vägg av porträtt, döpt "de värsta kaptener som finns", uppsatt skuta för skuta. Ditt eget porträtt hänger där som allas gör, men du vet, obekymrat, att ditt namn är skuldfritt. Du är inte skyldig henne ett öre.
-
-Hör du någon fråga sig var Malins skuldlogg sitter, vet du svaret utan att behöva jaga det själv. Dela det med **Fregatten Fördärvet** om priset känns rätt, eller håll det för dig själv och se vem som kommer krypande.
+Gör det innan festen är över. Ett skott och en kyss kan vara samma krig. Du tänker inte vänta på bevis.

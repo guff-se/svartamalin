@@ -11,8 +11,14 @@ mirrors:
     note: mutual fiende, skottet i ryggen på Paradisets ö, båtarna tillsammans (tvåvägs)
   - slug: petterwallberg
     note: romans, hon tar utan förförarskägg (tvåvägs)
+  - slug: edvinthungren
+    note: han var klienten, du säljer namnet (tvåvägs)
+  - slug: josefinansund
+    note: hon kräver namnet, Blodig har redan fyllt i henne (tvåvägs)
+  - slug: minimacklin
+    note: skutkamrat, hon har gissat fel namn, du rättar inte gratis (tvåvägs)
 # gustaftadaa: hon vet inte att han älskar Plåthorn i hemlighet, se hans fil
-related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker, viktoransund, petterwallberg, malintadaa]
+related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker, viktoransund, petterwallberg, malintadaa, edvinthungren, josefinansund, minimacklin]
 ---
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
@@ -46,3 +52,11 @@ Fördärvet har sin fordran på **Svarta Malin**, den last hon en gång tog och 
 Ett år sedan låg du i bakhåll på Paradisets ö och sköt **Kapten Rödskägg** rakt i ryggen, för en klients räkning, och tog en del av lasten han bar innan du försvann i mörkret. Ett proffsjobb, kallt och rent, precis som du alltid levererar, och du tänkte inte mer på honom än på något annat uppdrag väl utfört.
 
 Han glömde inte. Nu delar ni båtarna hela helgen, rep och rigg, eka efter eka, och han litar inte på dig längre än han kan kasta en lina. Erkänn, betala tillbaka lastens värde som en gest, eller lita på att din charm och ditt handlag med rep räcker för att hålla honom lugn tills helgen är över. Bara var beredd på att en man med hans onda aningar ser en kniv i varje skugga du kastar, och du kastar många när ni står sida vid sida vid kajen.
+
+## Namnet du fortfarande bär {slug:edvinthungren}
+
+Uppdraget på Paradisets ö var betalt. Klienten var **Kapten Rötägg**, då ännu röta, innan han miste sitt skepp och började tala om vänlighet. Han stod inte bakom geväret. Han betalade för att du skulle göra det.
+
+Du har inte nämnt namnet för **Fregatten Fördärvet**. **Kapten Blodig** har ändå fyllt i **Kapten Frodig**, för att pulversläkter är lätta att hata och för att Blodig redan gör det. Du rättar henne inte gratis.
+
+Nu kommer de till kajen: Frodig, som vill ha sanningen innan lögnen når **Kapten Rödskägg**. Rötägg, som vill ha tystnad eller en bekännelse på sina villkor. Blodig, som vill att hennes namn ska vara det som fastnar. Sälj, tig, eller peka. Namnet är din sista last från det jobbet. Ta betalt innan festen är över.

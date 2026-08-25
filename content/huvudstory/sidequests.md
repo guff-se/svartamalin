@@ -48,6 +48,7 @@ Status:         idé / beslutad / skriven
 | S-09 | Blodigs hot | Blodig, Frodig, Rödskägg, Lösskägg | II–IV | jägare / bärare | skriven |
 | S-10 | Teckenspråket | Döver, Babord, Rötägg, Fuling. Hjärter är målet, enväg. | II | jägare / grindvakt / vittne | skriven |
 | S-11 | Korthajarna | Spader, Klöver, Hjärter, Prygel, Plåthorn | II | rivaler / grindvakt / vittne | skriven |
+| S-12 | Klienten på Paradisets ö | Frodig, Rötägg, Kuling, Blodig. Rödskägg enväg. | II–IV | jägare / bärare / grindvakt | skriven |
 
 ---
 
@@ -78,11 +79,11 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `louisevonbahr` | 2 | bärare, vittne | II |
 | `josefinlowing` | 3 | grindvakt, jägare | II–IV |
 | `navidmodiri` | 2 | jägare, vittne | II |
-| `minimacklin` | 2 | jägare | II–IV |
+| `minimacklin` | 3 | jägare | II–IV |
 | `ludvigvonbahr` | 2 | bärare | II |
 | `amaliawahlstrom` | 2 | jägare, vittne | II–IV |
 | `fabianmacklin` | 3 | jägare, vittne | II |
-| `josefinansund` | 1 | bärare | II–IV |
+| `josefinansund` | 2 | bärare, jägare | II–IV |
 | `johannabergman` | 4 | vittne, grindvakt | II |
 | `jesperlejfjord` | 2 | jägare | II |
 | `amandamungsgard` | 1 | grindvakt | II |
@@ -91,14 +92,14 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `linneaekbom` | 2 | jägare, vittne | II–IV |
 | `alexandrapalmquist` | 2 | grindvakt, jägare | II |
 | `hampuslindblad` | 2 | rival, vittne | II |
-| `edvinthungren` | 2 | bärare, vittne | II |
+| `edvinthungren` | 3 | bärare, vittne | II–IV |
 | `elinmartensson` | 2 | grindvakt | II–IV |
 
 **Spridningsregel:** alla toppar får inte ligga i akt IV. Sikta på ungefär en fjärdedel i akt II, en fjärdedel vid brunchen och ritualen, resten i akt IV. Ingen av S-03 till S-10 toppar rent i akt IV: de sträcker sig som mest in i kvällens kaos (II–IV), vilket håller spridningen på rätt sida om regeln.
 
 **Utökning 2026-08-23:** varje sidequest fick en eller två extra deltagare, enligt regeln att fler ska ha fyra eller fem inblandade, inte bara det minsta av tre. Tillägget är genomgående enkelt: en person som redan bär ett etablerat drag (skvaller mot betalning, tjuvlyssning, en gammal skuld, en rivalitet) får samma ledtråd eller bakgrundsinfo som huvuddeltagarna, oftast som enväg-vittne, sällan som ny aktiv jägare. Ingen sidequest fick ny mekanik för att rymma fler, se "Hur det spelas" i respektive avsnitt.
 
-S-01 till S-11 är nu alla **beslutade** (S-11 2026-08-23, kväll). Gästfilerna nollställdes 2026-08-23: ingen gästtext är skriven, utskrift är pending. Sidequest-poster som redan ligger i [`fordelning.yaml`](fordelning.yaml) är tillbaka på pending. Skriv ett i taget enligt arbetsordningen i [`README.md`](README.md).
+S-01 till S-12 är **beslutade**. S-12 2026-08-25. Gästtext för S-12 skriven samma kväll.
 
 ## S-01: Jakten på älskaren
 
@@ -170,22 +171,23 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `ulrikahammar` | S-03, S-07 | krumelurpiller, syhörna. Scarfen mot Babord (fiende 12). Redan mullvad mot Nykter (annan hemlighet). |
 | `jesperlindmarker` | S-04, S-06 | svart liggare, vem angav honom. Redan Prygels mullvadskontakt (annan hemlighet). |
 | `louisevonbahr` | S-04, S-10 | tom rollfil. Fiende 5: planterade rykte mot Planka. Redan mullvad mot Hjärter (annan hemlighet). |
-| `josefinlowing` | S-06, S-08 | familjesmycke, båtar, egen oförrätt mot Malin, bakhåll mot Rödskägg |
+| `josefinlowing` | S-06, S-08, S-12 | familjesmycke, båtar, egen oförrätt mot Malin, bakhåll mot Rödskägg, namnet på klienten |
 | `navidmodiri` | S-03, S-10 | fejkdöv, sanningsserum, workshop, nemesis Hjärter. Redan Babords mullvadskontakt (annan hemlighet). |
 | `ludvigvonbahr` | S-05 | tvåeggat svärd med lögnig historia, långa kramar |
 | `amaliawahlstrom` | S-01, S-06 | tom rollfil. Fiende 2 mot Malin, sannolikt viktigaste ingången till huvudstoryn |
+| `minimacklin` | S-01, S-09, S-12 | magiskt halsband. Jakten på Malins älskare, tecknet mot Frodig, falskt klientnamn. |
 | `fabianmacklin` | S-03, S-05, S-07 | njutningsstatyett, frieri till Barnsben. Redan Barnsbens mullvadskontakt (annan hemlighet). |
-| `josefinansund` | S-09 | förbjuden kärlek med Rödskägg. |
+| `josefinansund` | S-09, S-12 | förbjuden kärlek med Rödskägg. Namn-jakt: Blodig anklagar henne för bakhållet. |
 | `johannabergman` | S-02, S-04, S-05, S-11 | svartklubb, kristallfyrklöver, skvaller mot choklad, korthajbordet |
 | `amandamungsgard` | S-05 | arvssyndskatt, mynt, låg intensitet, vill spela med Dunka |
 | `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa hornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). |
 | `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
 | `alexandrapalmquist` | S-03, S-10 | sjökort, mild ordning, romans med Döver, fiende 12 mot Barnsben (scarfen). Redan mullvad mot Döver (annan hemlighet). |
-| `edvinthungren` | S-07, S-10 | vill vara snäll, enhörningsmanschetter från Planka |
+| `edvinthungren` | S-07, S-10, S-12 | vill vara snäll, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
 | `elinmartensson` | S-08, S-11 | plåthorn, klagomur, vet hur Spader vinner när han borde förlora |
 | `gustaftadaa` | S-04, S-08, S-11 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14), korthajbordet. Fullt spelbar. Inga huvudquest-ledtrådar, inte mullvad/kontakt. |
 
-Nio personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `amaliawahlstrom`, `jesperlejfjord`, `linneaekbom`, `elinmartensson`, `alexandrapalmquist`. Tre bär tre: `fabianmacklin`, `gustaftadaa`, `minervalowgren`. En bär fyra: `johannabergman`. S-11 är Klövers fjärde, medvetet, och har annan mekanik än S-02, S-04 och S-05: hon spelar, hon håller inte boken. Ingen last delar mekanik mellan sidequests, se "Obs"-raden under respektive.
+Nio personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `amaliawahlstrom`, `jesperlejfjord`, `linneaekbom`, `elinmartensson`, `alexandrapalmquist`. `josefinansund` bär två efter S-12. Tre bär tre sedan tidigare: `fabianmacklin`, `gustaftadaa`, `minervalowgren`. S-12 gör tre till tre: `edvinthungren`, `minimacklin`, `josefinlowing`. En bär fyra: `johannabergman`. S-11 är Klövers fjärde, medvetet, och har annan mekanik än S-02, S-04 och S-05: hon spelar, hon håller inte boken. Ingen last delar mekanik mellan sidequests, se "Obs"-raden under respektive.
 
 ---
 
@@ -300,7 +302,7 @@ Bygger på:      romans 3 (Planka–Rötägg). Fiende 13 (Barnsben–Rötägg).
 Speglas hos:    Rötägg, Planka, Barnsben, Nykter.
 Status:         skriven
 
-Obs: Barnsben bär också S-03, Rötägg bär också S-10, Nykter bär också S-03 och S-05. Ingen delad mekanik med någon av dem.
+Obs: Barnsben bär också S-03, Rötägg bär också S-10 och S-12, Nykter bär också S-03 och S-05. Ingen delad mekanik med någon av dem. S-12 är namnet på ett bakhåll, inte omvändelsen mot Planka.
 
 ---
 
@@ -323,7 +325,7 @@ Bygger på:      fiende 7 (Kuling–Plåthorn). Fiende 24 (Prygel–Plåthorn). 
 Speglas hos:    Plåthorn, Kuling, Prygel, Spader. Rosing enväg, hon lyssnar men väljer själv om hon agerar.
 Status:         skriven
 
-Obs: Prygel bär redan mullvadskontakten mot Hurring (annan hemlighet, se mullvadstabellen) plus S-04 och S-11. Kuling bär redan grindvaktsrollen för båtarna plus S-06. Rosing bär också S-03 och mullvadskontakten mot Frodig. Spader bär också S-04 och S-11: skulden till Hurring, romansen och korthajbordet delar ingen mekanik. Plåthorn bär också S-11: här hornet, där att hon vet hur han vinner. Inget av det delar mekanik med det här.
+Obs: Prygel bär redan mullvadskontakten mot Hurring (annan hemlighet, se mullvadstabellen) plus S-04 och S-11. Kuling bär redan grindvaktsrollen för båtarna plus S-06 och S-12. Rosing bär också S-03 och en mullvadskontakt (forradare 3, omsjumpad, namnge inte a). Spader bär också S-04 och S-11: skulden till Hurring, romansen och korthajbordet delar ingen mekanik. Plåthorn bär också S-11: här hornet, där att hon vet hur han vinner. Inget av det delar mekanik med det här.
 
 ---
 
@@ -346,7 +348,7 @@ Bygger på:      fiende 4 (Blodig–Frodig). Romans 8 (Rödskägg–Frodig), med
 Speglas hos:    Blodig, Frodig, Rödskägg, Lösskägg.
 Status:         skriven
 
-Obs: Håll den förbjudna kärleken isär från förrädarspåret i forradare.yaml. De två uppdragen delar ingen mekanik. Blodig bär också S-01, Rödskägg och Lösskägg bär också S-02.
+Obs: Håll den förbjudna kärleken isär från förrädarspåret i forradare.yaml. De två uppdragen delar ingen mekanik. Blodig bär också S-01 och S-12: här en blick och ett smeknamn, där ett namn på en klient. Rödskägg och Lösskägg bär också S-02. Frodig bär också S-12.
 
 ---
 
@@ -369,7 +371,7 @@ Bygger på:      romans 7 (Döver–Babord). Fiender 6 (Döver–Rötägg), 23 (
 Speglas hos:    Döver, Babord, Rötägg, Fuling. Hjärter enväg, ingen ny egen jakt åt honom.
 Status:         skriven
 
-Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlighet, se mullvadstabellen): hon är hans handlerkontakt och hans romans i samma andetag, vilket redan är sant i `forradare.yaml`. Hon bär också S-03 (scarfen mot Barnsben). Håll teckenspråksbluffen, scarfen och förräderiet isär i gästtexten. Rötägg bär också S-07, Fuling bär också S-04. Samma personer, olika relationer, ingen delad mekanik.
+Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlighet, se mullvadstabellen): hon är hans handlerkontakt och hans romans i samma andetag, vilket redan är sant i `forradare.yaml`. Hon bär också S-03 (scarfen mot Barnsben). Håll teckenspråksbluffen, scarfen och förräderiet isär i gästtexten. Rötägg bär också S-07 och S-12, Fuling bär också S-04. Samma personer, olika relationer, ingen delad mekanik.
 
 ---
 
@@ -381,8 +383,8 @@ Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att d
 - **Blodig och Hjärter om Malin** (romanser 17, 20 och fiende 21). Två anspråk på jubilaren. De jagar hennes hemliga älskare i hamnen. Sanningen är Karl XII, först i kistan. **S-01, beslutad.**
 - **Enben mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Sannolikt vår viktigaste ingång till huvudstoryn. **S-06, beslutad.**
 - **Hjärter, hemligt förälskad i Malin** (romans 17). Jagar rivalen privat, vid kökskanten. **S-01, beslutad.**
-- **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Adresserad via fiende 13 i **S-07** och fiende 6 i **S-10**. Mullvad väljs när questsen är färdigskrivna.
-- **Frodig och Rödskägg, förbjuden kärlek** (romans 8, fiende 25). Hotet från Blodig, redan noterat i `fiender.yaml` fiende 4, adresserat i **S-09, beslutad.** Fiende 25 (Kuling–Rödskägg) fortfarande obesökt: kan bli en egen sidequest senare om vattnet ska in.
+- **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Adresserad via fiende 13 i **S-07**, fiende 6 i **S-10**, och som namnlös klient i **S-12** (fiende 25:s lucka). Fiende 14 förblir obesökt som motor.
+- **Frodig och Rödskägg, förbjuden kärlek** (romans 8, fiende 25). Hotet från Blodig, redan noterat i `fiender.yaml` fiende 4, adresserat i **S-09, beslutad.** Fiende 25 (Kuling–Rödskägg) adresserad i **S-12, beslutad:** namnet på klienten, inte vattnet.
 - **Hurring, Fuling, Klöver, Prygel** (romanser 12, 13, fiende 1, 5). **S-04, beslutad.**
 - **Plåthorns horn mot Kuling och Prygel** (fiender 7, 24). **S-08, beslutad.**
 - **Kosing och Dunka** (romans 19, låg intensitet, fiende 20 som garnering). **S-05, beslutad.**
@@ -429,3 +431,36 @@ Obs: Klöver bär S-02, S-04, S-05 och S-11. De tre första är bank och procent
 Ord: kortfärgen heter klöver. Klubb är sällskap. Fyrklöver är växten och amuletten. Inga vitsar som blandar dem.
 
 Gästtext skriven 2026-08-23. Posterna 69–73 i `fordelning.yaml` markerade done, liksom fiender 27–29.
+
+---
+
+## S-12: Klienten på Paradisets ö
+
+Akt:            II–IV
+Deltagare:      Kapten Frodig (`josefinansund`), Kapten Rötägg (`edvinthungren`), Kapten Kuling (`josefinlowing`), Kapten Blodig (`minimacklin`). Kapten Rödskägg (`viktoransund`) enväg.
+Roll i storyn:  jägare (Frodig) / bärare (Rötägg) / grindvakt (Kuling) / jägare, falsk ledtråd (Blodig) / vittne (Rödskägg, enväg)
+Kopplad till:   fiende 25. Kajen, där Kuling och Rödskägg redan delar båtarna.
+
+Vad de vill:    Frodig vill ha det riktiga namnet på den som betalade bakhållet, innan Blodig får Rödskägg att tro att det var hon. Rötägg vill att namnet stannar i Kulings mun, eller att han själv får bekänna som bevis på att han ändrat sig. Kuling vill ha betalt för namnet, inte ge det till sin egen skuta gratis. Blodig vill att namnet ska vara Frodig, högt, nu.
+Vad står i vägen: sanningen sitter bara i två munnar. Kuling nämnde aldrig klienten för Fördärvet. Blodig har fyllt i Frodig själv, för att pulversläkter är lätta att hata och för att fiende 4 redan sitter där. Rötägg kan låta lögnen stå. Frodig vet att det inte var hon, men har inget papper.
+Varför nu:      alla från den tiden är på samma ö. Rödskägg och Kuling står vid samma rep hela helgen. Ett namn sagt vid kajen landar.
+
+Hur det spelas: ingen ny prop. Inget kontrakt, ingen kula, ingen lapp. Rödskäggs pulverväska är redan hans rollföremål, den stulna lasten är bakgrund, inte något Kuling bär. Namnet finns i Kulings mun. Frodig kommer till kajen och kräver det. Rötägg kommer för tystnad eller för en bekännelse på sina villkor. Blodig säger Frodigs namn till Rödskägg och till den som lyssnar, utan att fråga Kuling först. Kuling säljer, tiger, rättar Blodig, eller pekar. Efter 15.30 fungerar fortfarande ett namn, en anklagelse, en värja, en bekännelse.
+
+Sanningen, bara här, inte i Frodigs eller Blodigs gästtext:
+
+Rötägg betalade, före omvändelsen, för att Kuling skulle skjuta Rödskägg i ryggen på Paradisets ö och lyfta pulver. Han stod inte bakom geväret. Kuling vet. Rötägg vet. Ingen annan får det i förhandstexten.
+
+Utfall om ja:   namnet kommer ut, sant eller falskt. Frodig drar värja mot Blodig, eller mot Rötägg. Rödskägg får veta att han knullat kvinnan som anklagas för att ha köpt hans död, eller att den snälla mannen på Gnället betalade. Kuling tar sin procent.
+Utfall om nej:  Blodigs lögn är det som fastnar, eller inget namn alls. Fiende 25 och romans 8 finns kvar. Huvudstoryn går.
+
+Bygger på:      fiende 25 (Kuling–Rödskägg, klienten utan namn). Fiende 4 (Blodig–Frodig). Romans 8 (Frodig–Rödskägg). Rötäggs etablerade röta före omvändelsen. Frodigs släktfejd om Piratpulver, redan i hennes rollfil.
+Speglas hos:    Frodig, Rötägg, Kuling, Blodig. Rödskägg enväg: han får Blodigs anklagelse, inte facit.
+Status:         skriven
+
+Objekt:         inga nya. Rödskäggs väska med Piratpulver (hans rollfil) får pekas på som det som blev kvar. Kulings familjesmycke är inte betalning och inte ledtråd. Blodigs halsband likaså. Rötäggets manschettknappar hör till S-07, inte hit.
+
+Obs: Prygel valdes bort. Hon bär redan S-08 med Kuling vid samma kaj, och tre sidequests. En fjärde mot samma grindvakt hade blandat hornet och namnet. Blodig har fiende 4, fel säkerhet, och annan mekanik än S-09: här åtal, där nystande i en affär. Kuling bär S-06 och S-08: Malin respektive hornet. Här säljer hon ett årsgammalt namn. Rötägg bär S-07 och S-10: omvändelsen mot Planka, hjälpen Döver inte vill ha. Här ett skott han betalade. Frodig är inte mullvad (forradare 3 omsjumpad 2026-08-24). Håll isär från S-09 och från förrädarspåret.
+
+Gästtext skriven 2026-08-25. Posterna 90–94 i `fordelning.yaml`.
+

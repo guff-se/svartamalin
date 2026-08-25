@@ -4,15 +4,13 @@ mirrors:
   - slug: viktoransund
     note: förbjuden hemlig kärlek (tvåvägs)
   - slug: minimacklin
-    note: gammalt groll, kapitulationen och storseglet (tvåvägs)
-related: [viktoransund, minimacklin, malintadaa]
+    note: gammalt groll, kapitulationen och storseglet, hon skyller bakhållet på dig (tvåvägs)
+  - slug: josefinlowing
+    note: hon bar klientens namn, du behöver det (tvåvägs)
+  - slug: edvinthungren
+    note: han jagar samma namn, du vet inte att det är hans (enväg)
+related: [viktoransund, minimacklin, malintadaa, josefinlowing, edvinthungren]
 ---
-
-## Kärleken ni håller hemlig {slug:viktoransund}
-
-Din lust till **Kapten Rödskägg** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa, och ett hastigt ögonkast kan förråda er inför fel person. Du vill rida den stolta, lättkränkta mannen tills skalet spricker. Du vill ta honom där era släkter skulle dra värja för mindre, med det röda skägget mot halsen och hans paranoia ett rum bort.
-
-**Kapten Blodig** bär ett gammalt groll mot dig, en stulen kapitulation och ett blodstämplat storsegel, och hon snubblar gärna över ett tecken på er affär om hon får chansen. Förneka högljutt, muta henne, eller ta Rödskägg ändå och fly tillsammans, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över. Hemligheten är inte att ni håller av varandra. Hemligheten är hur ofta ni redan knullat.
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 
@@ -23,3 +21,17 @@ Kalla på **Barken Bortförklaringen** och sök upp båda platserna innan en ann
 ## Bokstäver som flyttar sig {slug:malintadaa}
 
 När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, förskjuter hon bokstäverna tretton steg framåt. A blir N. Knepet är värt noll tills någon kommer med ett blad de inte kan tyda. Då är du den som kan läsa.
+
+## Kärleken ni håller hemlig {slug:viktoransund}
+
+Din lust till **Kapten Rödskägg** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa, och ett hastigt ögonkast kan förråda er inför fel person. Du vill rida den stolta, lättkränkta mannen tills skalet spricker. Du vill ta honom där era släkter skulle dra värja för mindre, med det röda skägget mot halsen och hans paranoia ett rum bort.
+
+**Kapten Blodig** bär ett gammalt groll mot dig, en stulen kapitulation och ett blodstämplat storsegel, och hon snubblar gärna över ett tecken på er affär om hon får chansen. Förneka högljutt, muta henne, eller ta Rödskägg ändå och fly tillsammans, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över. Hemligheten är inte att ni håller av varandra. Hemligheten är hur ofta ni redan knullat.
+
+## Namnet som inte får vara ditt {slug:josefinlowing}
+
+Ett år sedan låg **Kapten Kuling** i bakhåll på Paradisets ö och sköt **Kapten Rödskägg** i ryggen, för en klients räkning, och försvann med en del av hans Piratpulver-last. Klienten har inget namn i hamnen. Än.
+
+**Kapten Blodig** har redan ett groll mot dig, och hon svär att namnet är ditt: era släkter slåss ju om pulvret i generationer, så vem annars? Om Rödskägg tror henne är det inte bara en skandal. Det är ett skott han kan lägga på din kropp nästa gång ni ska knulla i hemlighet.
+
+Kuling bar namnet då och bär det fortfarande, vid båtarna. Köp det, hota till det, eller dra värja mot Blodig innan lögnen stelnar till sanning. **Kapten Rötägg** nosar i samma jakt med en vänlighet som kommer för snabbt, och du vet inte vems ärende han gör. Gör det innan festen är över. Du vet att det inte var du. Hamnen vet ingenting.
