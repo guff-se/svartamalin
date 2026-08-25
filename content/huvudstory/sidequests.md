@@ -129,30 +129,36 @@ Deltagare:      Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktor
 Roll i storyn:  rivaler / grindvakt (Klöver)
 Kopplad till:   B-15
 
-Vad de vill:    utropa sig till Skäggkonung, eller se till att de andra inte får göra det. Klöver vill bara ha en bra bank.
-Vad står i vägen: de två andra. Ingen given räknare. Ingen av dem är redan kung. De måste själva hitta ett sätt som ön köper.
-Varför nu:      tre skäggnamn på samma ö. Festen. Folk som tittar.
+Vad de vill:    utropa sig till Skäggkonung, eller stoppa de andra. Lösskägg vill dessutom plundra de andras skägg, som han gör med alla kaptener som bär skägg i namnet. Klöver vill ha en bank på utfallet.
+Vad står i vägen: de två andra. Ingen given regel för hur titeln vinns.
+Varför nu:      tre skäggnamn på samma fest. Folk tittar.
 
-Hur det spelas: titeln är målet, inte en förutbestämd gren. Kajen kröner den som får ön att behandla hen som kung. De tre får själva lista ut hur. Gästtexten ger tre exempelvägar, inte en meny de måste välja ur: förnedra motståndarna offentligt, utlysa en skäggturnering och vinna den, eller raka av motståndet. Andra påhitt räknas om folk ser det.
+Hur det spelas: de tre listar själva ut hur man blir kung. Den ön behandlar som kung är kung. Gästtexten ger tre exempel, inte en meny: förnedra motståndarna, utlysa en skäggturnering, eller raka av motståndet. Andra sätt räknas om kajen ser det.
 
-Lösskäggs låda är motorn, inte en extra gren. Han sätter skägg på folk, pekar ut vem som ska förföras, håller tal och skålar, och vill plundra kaptener med skägg i namnet. Ett stulet skägg fungerar för tjuven, och då har hen Lösskägg efter sig. Rödskägg är stolt och lättkränkt och kan muta med Piratpulver. Blåskägg har inget eget föremål: tal, stöld ur lådan, eller att haka på de andras grepp. Klöver öppnar vad på person *och* metod, choklad lika bra som mynt. Inte bärande balk. Inte en lång scen långt från kajen.
+Lösskägg samlar skägg. Han har fyra i en låda, skurna av kaptener han besegrat medan de ännu andades. Han sätter dem på folk, pekar ut vem som ska förföras, backar och tittar. Det bruna bär spindelförbannelse. Det gråa, det vita och det blonda ger förförelsekraft så länge han pekar. Stjäl någon ett skägg fungerar det för tjuven, och då har hen Lösskägg efter sig. Han håller tal, skålar och dansar på bord.
 
-Ingen förhandsfärgning. Ingen fysisk krona från produktion. Fiende 3 (skamranden) och 18/19 (indigo, fejk, självkröning) är bakgrund de kan åberopa i tal, inte kostymkrav och inte startläge.
+Rödskägg är stolt och lättkränkt. En förolämpning blir snabbt ett drama om vem som är Salmonellahavets störste kapten. Han gör nästan vad som helst för att inte se rädd ut. Han har en väska Piratpulver: mutor, handel, stöld, utpressning.
 
-Utfall om ja:   någon utropas, eller ingen, eller alla tre. Folk har sett hur det gick till. Klöver går plus oavsett utfall.
-Utfall om nej:  fiendskaperna finns kvar. Huvudstoryn går.
+Blåskägg har blånat skägg av psilocybin på Galápagos. Han bär en påse kraniumpulver som sanningsserum vid insufflering, och ett don med trollrök mot dimma. Han kan tvinga fram ett erkännande, utropa sig, eller ta de andras grepp.
 
-Bygger på:      fiender 3, 18, 19. Lösskäggs rollunderlag (lådan, förförarskäggen, plundringen). Klövers svartklubb.
-Speglas hos:    alla tre. Klöver enväg, hon bryr sig bara om vadet.
-Status:         beslutad. Gästtexten som ligger följer den gamla mekaniken (högst skål, indigo, krona). Skrivs om i en senare omgång, inte nu.
+Klöver tar vad på vem som vinner och hur. Choklad lika bra som mynt. Hon bryr sig inte om titeln.
 
-Obs: Klöver bär också S-04 och S-05, samma etablerade drag (vadslagning, skvaller mot betalning), inte samma mekanik.
+Rekvisita: Lösskäggs låda, Rödskäggs pulver, Blåskäggs kraniumpåse och dimdon. Inget mer.
+
+Utfall om ja:   någon utropas, eller ingen, eller alla tre. Folk har sett hur. Klöver går plus.
+Utfall om nej:  de tre finns kvar som rivaler. Huvudstoryn går.
+
+Bygger på:      Lösskäggs underlag (lådan, förförarskäggen, plundra skäggnamn). Rödskäggs stolthet och Piratpulver. Blåskäggs blåa skägg, kraniumpulver, dimdon. Klövers svartklubb.
+Speglas hos:    de tre. Klöver enväg.
+Status:         beslutad. Gästtext skrivs senare.
+
+Obs: Inte bärande balk. Inte en lång scen långt från kajen. Klöver bär också S-04, S-05 och S-11. Blåskägg bär också S-04. Rödskägg och Lösskägg bär också S-09. Ingen delad mekanik.
 
 ## S-03 till S-10: bakgrund och tabeller
 
 Beslutade 2026-08-23. Ingen gästtext skriven än. Inte i `fordelning.yaml`. Huvudstoryn går ändå i mål om någon enskild inte spelas, som alla sidequests.
 
-Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Planka, Fuling, Enben, Blåskägg) får ändå kort via yaml och andras föremål. Kosing vill uttryckligen inte stå i centrum av ett högintensivt drama.
+Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Fuling, Enben) får ändå kort via yaml och andras föremål. Blåskägg och Planka har underlag 2026-08-25. Kosing vill uttryckligen inte stå i centrum av ett högintensivt drama.
 
 **Löjtnant Spader (`gustaftadaa`) är fullt spelbar.** Sidequests, romanser, rivaliteter som vilken gäst som helst. Två undantag, bara de: inga ledtrådar till huvudquesten, och inte mullvad eller kontakt. Se [`forradare.yaml`](forradare.yaml). Han bär S-04 (spelskuld till Hurring), S-08 (hemlig romans med Plåthorn, romans 14, som Kuling drar in honom i utan att veta om den) och S-11 (korthajbordet mot Klöver och Hjärter).
 
@@ -172,7 +178,7 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 
 | slug | Sidequests | Rollerobjekt som bär handlingen |
 |------|-------|--------------------------------|
-| `linneaappert` | S-07 | tom rollfil. Romans 3: fick manschettknapparna hon gav bort. |
+| `linneaappert` | S-07 | tom rollfil. Romans 3 med Rötägg. Romans 25 med Blåskägg (hjärta krossat för en skuta). |
 | `ulrikahammar` | S-03, S-07 | krumelurpiller, syhörna. Scarfen mot Babord (fiende 12). Redan mullvad mot Nykter (annan hemlighet). |
 | `jesperlindmarker` | S-04, S-06 | svart liggare, vem angav honom. Redan Prygels mullvadskontakt (annan hemlighet). |
 | `louisevonbahr` | S-04, S-10 | tom rollfil. Fiende 5: planterade rykte mot Planka. Redan mullvad mot Hjärter (annan hemlighet). |
@@ -185,7 +191,7 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `josefinansund` | S-09, S-12 | förbjuden kärlek med Rödskägg. Namn-jakt: Blodig anklagar henne för bakhållet. |
 | `johannabergman` | S-02, S-04, S-05, S-11 | svartklubb, kristallfyrklöver, skvaller mot choklad, korthajbordet |
 | `amandamungsgard` | S-05 | arvssyndskatt, mynt, låg intensitet, vill spela med Dunka |
-| `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa hornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). |
+| `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa hornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). Frompiraterna ligger i lagintrigen, inte här. |
 | `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
 | `alexandrapalmquist` | S-03, S-10 | sjökort, mild ordning, romans med Döver, fiende 12 mot Barnsben (scarfen). Redan mullvad mot Döver (annan hemlighet). |
 | `edvinthungren` | S-07, S-10, S-12 | vill vara snäll, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
