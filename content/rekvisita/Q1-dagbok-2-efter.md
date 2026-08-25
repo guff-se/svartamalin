@@ -6,7 +6,7 @@ dagbok: 5
 
 # Dagboksblad 5, efter hämnden
 
-Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med cryptex-lappen i klätternätet. Bara dagbok. Kronologiskt efter blad 3 och 4.
+Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med token `3H` i klätternätet. Bara dagbok. Kronologiskt efter blad 3 och 4.
 
 ## Tryck
 

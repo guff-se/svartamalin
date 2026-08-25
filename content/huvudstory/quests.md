@@ -28,7 +28,7 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 
 1. Storyn handlar om Svarta Malins dåtid.
 2. Berättaren får ljuga. Gästerna får den cirkulerande versionen **genom questen**, inte i första ledtråden. Om sanningen skiljer sig sitter den i questens fil och i kistan.
-3. Får inte nämna Karl XII, kungen, affären, sängen med makten, eller att festen är en fälla.
+3. Får inte nämna Karl XII, kungen, affären, sängen med makten, eller att festen är en fälla. **Undantag för världen, inte för questen:** att Karl XII är kung år 1702 står i [`../copy/intriger_intro.md`](../copy/intriger_intro.md) och är kanon. Queststories, startintriger, props och pit stops får fortfarande inte nämna affären, sängen eller fällan.
 4. Får inte citera sista versen som framtid. Får inte spoila metaregeln (alla dör, Malin blir Ran).
 5. Gästtext: piratnamn, du-form, [`../intriger/STYLE.md`](../intriger/STYLE.md). "Ton i gästtext" under skrivstöd är en instruktion till agenten, inte text att klistra in.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.
@@ -42,11 +42,35 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 
 ---
 
+## Cryptex-tokens
+
+Lösenord: `HKHXII`. Antaget 2026-08-25, [`kanon.md`](kanon.md). Varje token är siffra plus bokstav. Siffran är positionen i lösenordet. Inte bara bokstaven.
+
+De tre första delas ut i questen. De tre sista sitter på Malins berlock och syns först 20.00. Tre quests per skuta räcker till `HKH`. Inte till `XII`.
+
+| Position | Token | Var | Antal | Tas |
+|----------|-------|-----|-------|-----|
+| 1 | `1H` | Q-2 skrinet i piratstugan | 3 | ja, en per quest-lag |
+| 1 | `1H` | Q-4 skylten på annan ö | 1 | nej. Tre skutor läser. |
+| 2 | `2K` | Q-2 skelettet i skogen | 3 | ja, en per quest-lag |
+| 2 | `2K` | Q-5 svärdfiskens mun | 3 | ja. Troligen one-off: första laget tar. |
+| 3 | `3H` | Q-1 påsen i klätternätet | 1 | ja. Engångs. |
+| 3 | `3H` | Q-3 under badbryggan | 1 | ja. Engångs. |
+| 4 | `4X` | Malins berlock | 1 | nej. Syns 20.00. |
+| 5 | `5I` | Malins berlock | 1 | nej. Syns 20.00. |
+| 6 | `6I` | Malins berlock | 1 | nej. Syns 20.00. |
+
+Tryck: [`../rekvisita/Q1-cryptex-3H.md`](../rekvisita/Q1-cryptex-3H.md), [`../rekvisita/Q2-cryptex-1H.md`](../rekvisita/Q2-cryptex-1H.md), [`../rekvisita/Q2-cryptex-2K.md`](../rekvisita/Q2-cryptex-2K.md), [`../rekvisita/Q3-cryptex-3H.md`](../rekvisita/Q3-cryptex-3H.md), [`../rekvisita/Q4-cryptex-1H.md`](../rekvisita/Q4-cryptex-1H.md), [`../rekvisita/Q5-cryptex-2K.md`](../rekvisita/Q5-cryptex-2K.md). Berlocken är smycke, inte papper: [`produktion.md`](produktion.md) K-09.
+
+Skriv inte ut token-texten i gästintrig. Inte i starten. Inte som facit.
+
+---
+
 ## Dagboken
 
 En fysisk bok i **Storstugan**. Synlig. Inte ett gömme. Inte en karta till bladen. Off-regel: den som inte söker något i boken lämnar den.
 
-De utrivna bladen bär kapitlen. Cryptex-lappar, tokens, kompassbilder och vägvisning på baksidor är inte dagbok. Q-4: blad 1 i *Tomtebobarnen*, fastsatt. Ung, före kärleken, före sveket. Kapitlet är ett dagboksblad, inte en proklamation eller en ed som bär storyn. Kompassbilden och skylten är inte dagbok. Q-3: två fysiska blad av blad 6, samma natt, läsordning I–II. Ägarbeviset under badbryggan är inte dagbok.
+De utrivna bladen bär kapitlen. Cryptex-tokens, kompassbilder och vägvisning på baksidor är inte dagbok. Q-4: blad 1 i *Tomtebobarnen*, fastsatt. Ung, före kärleken, före sveket. Kapitlet är ett dagboksblad, inte en proklamation eller en ed som bär storyn. Kompassbilden och skylten (`1H`) är inte dagbok. Q-3: två fysiska blad av blad 6, samma natt, läsordning I–II. Ägarbeviset under badbryggan är inte dagbok. Tokens: se tabellen ovan.
 
 Talet **Blad N** ska stå på papperet, så den som samlar flera kan lägga dem i tidsordning. Inte i questordning. Inte som lösenord.
 
