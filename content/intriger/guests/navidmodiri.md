@@ -23,7 +23,7 @@ Ditt hittepå-teckenspråk är precis lika påhittat som din dövhet. Håll en w
 
 ## Lasten hon bär åt dig {slug:alexandrapalmquist}
 
-**Kapten Babord** ger dig mer än ett rakt ansikte när du "tecknar" på gården. Hon för allt hon hör inne på **Galeonen Gnället** rakt till dig: planer, gömmen, viskningar, allt som kan ge **Fregatten Fördärvet** ett grepp om en skuta ni annars inte skulle ana något om. Hon gör det för din skull, inte för din skutas, och skillnaden gör henne farligt lätt att förlora om du någonsin tar det för givet.
+**Kapten Babord** ger dig mer än ett rakt ansikte när du "tecknar" på gården. Hon för allt hon hör inne på **Galeonen Gnället** rakt till dig, och därmed till hela **Fregatten Fördärvet**: planer, gömmen, viskningar, ett grepp om en skuta ni annars aldrig skulle ana något om. Hon vet precis vems lag hon hjälper, det är ingen tvekan mellan er om det. Men skälet hon gör det av är bara du, inte flaggan, och det gör henne farligt lätt att förlora om du någonsin tar det för givet.
 
 Be henne inte om det som rör **Kapten Rötägg** utan att veta vad du ber om. Han seglar vid hennes sida hela helgen, ovetande om att hon redan valt din sida i den gamla röta som aldrig läkt mellan er. Skydda henne från att avslöjas som spion lika hårt som du skyddar din egen påhittade dövhet, innan festen är över.
 

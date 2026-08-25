@@ -20,7 +20,7 @@ Du delar din kärlek till **Kapten Hurring** utan att ana att han samtidigt dela
 
 ## Given du ger honom {slug:jesperlindmarker}
 
-Din kärlek till **Kapten Hurring** har gjort dig till mer än hans hemliga älskarinna. Allt du hör och ser inne på **Fregatten Fromheten**, dina egna skeppskamraters planer, deras svaga punkter, deras gömmen, bär du rakt till honom på **Korvetten Kurtisanen**. Du gör det utan att tveka, inte för att du svurit hans skuta någon trohet, utan för att det är honom du svurit. Det räcker för att göra din egen besättning till ett pris du gärna betalar.
+Din kärlek till **Kapten Hurring** har gjort dig till mer än hans hemliga älskarinna. Allt du hör och ser inne på **Fregatten Fromheten**, dina egna skeppskamraters planer, deras svaga punkter, deras gömmen, bär du rakt till honom, och genom honom till **Korvetten Kurtisanen**. Du vet precis vem det gynnar, och han vet att du vet det. Men du gör det inte för att du svurit hans skuta någon trohet. Du gör det för att det är honom du svurit, och det räcker för att göra din egen besättning till ett pris du gärna betalar.
 
 Ge honom det han ber om, plan för plan, gömma för gömma, och lita på att kärleken bär tyngre än skutan du föddes in i. Håll det dolt för både din egen kapten och hans, innan festen är över.
 

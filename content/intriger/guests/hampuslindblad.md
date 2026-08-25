@@ -6,7 +6,7 @@ mirrors:
   - slug: petterwallberg
     note: skäggtrion, kallad fejk och färgad blå (tvåvägs)
   - slug: linneaekbom
-    note: mullvad, hon köper din krona med Gnällets larm (tvåvägs)
+    note: mullvad, hennes snäcka avslöjar din rädsla för kronan, hon köper dig med Gnällets larm (tvåvägs)
 related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom]
 ---
 
@@ -22,9 +22,9 @@ Kajen kröner den som får högst skål vid båtarna, inför folk, innan festen 
 
 ## Kronan Gnället köper {slug:linneaekbom}
 
-**Kapten Rosing** hittar dig vid kajen, långt innan skålarna räknas, och erbjuder något ingen annan bjuder: hela **Galeonen Gnället**s röst, redo att ropa, klappa och överrösta både **Kapten Rödskägg** och **Kapten Lösskägg** när kronan ska avgöras. En hel skutas larm för din räkning väger tyngre än ditt eget skrål.
+**Kapten Rosing** hittar dig vid kajen, långt innan skålarna räknas, och säger något som får dig att undra hur hon vet det: att din krona sitter lösare än du visar utåt, att du fasar för dagen **Kapten Rödskägg** eller **Kapten Lösskägg** äntligen tar den ifrån dig. Hon erbjuder hela **Galeonen Gnället**s röst som förstärkning, redo att ropa, klappa och överrösta dem båda när kronan ska avgöras.
 
-Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne innan din egen kapten anar något. Du gömmer inte kronan åt Bortförklaringen längre. Du gömmer den åt dig själv, med Gnället som ditt tysta gäng vid kajen. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och håll kronan på huvudet innan festen är över.
+Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne, och genom henne **Galeonen Gnället**. Du arbetar för Gnället nu, i den här hemligheten, det är ni båda helt överens om, men bara därför att Rosing köpte dig med sin krona, inte av någon kärlek till hennes skuta. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och håll din krona på huvudet innan festen är över.
 
 ## Skulden du aldrig betalat {slug:jesperlindmarker}
 

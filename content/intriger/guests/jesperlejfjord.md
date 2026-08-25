@@ -25,9 +25,9 @@ Hamnen viskar att jubilaren gömmer en älskare. Du vill veta vem, men inte hög
 
 ## Ryktet du styr {slug:louisevonbahr}
 
-Vid grytorna hör du mer än du låtsas om, och du har länge anat att **Kapten Fuling** vet mer om gamla rykten än hon erkänner, kanske till och med om den angivelse som en gång satte **Kapten Hurring** bakom galler. Du säger ingenting om det. Istället erbjuder du henne en tjänst: styr misstankarna åt ett annat håll när det behövs, ett viskat namn vid rätt eld, i utbyte mot allt hon kan höra inne på **Fregatten Fördärvet**.
+Vid grytorna hör du mer än du låtsas om, och du har länge anat att **Kapten Fuling** vet mer om gamla rykten än hon erkänner, kanske till och med om den angivelse som en gång satte **Kapten Hurring** bakom galler. Du säger ingenting om det, det ligger inte för dig att slå någon på fingrarna. Istället erbjuder du henne en tjänst, lika mycket av gammal vana att hjälpa som av lust till eget hemligt bus: styr misstankarna åt ett annat håll när det behövs, ett viskat namn vid rätt eld, i utbyte mot allt hon kan höra inne på **Fregatten Fördärvet**.
 
-Hon ger dig det, plan för plan, gömma för gömma, inte av kärlek till **Fregatten Fromheten**, bara för att hålla sig själv fri från Hurrings liggare. Utnyttja det hon vet så länge det gynnar dig, men glöm inte att en kvinna som köper sin frihet med rykten också kan sälja dig, om priset blir rätt. Håll henne nära och misstänksam på samma gång, innan festen är över.
+Hon ger dig det, plan för plan, gömma för gömma, och hon vet precis att det hjälper **Fregatten Fromheten**, inte bara dig. Men det är inte av kärlek till din skuta hon gör det, bara för att hålla sig själv fri från Hurrings liggare. Utnyttja det hon vet så länge det gynnar dig, men glöm inte att en kvinna som köper sin frihet med rykten också kan sälja dig, om priset blir rätt. Håll henne nära och misstänksam på samma gång, innan festen är över.
 
 ## Busets bord {slug:johannabergman}
 

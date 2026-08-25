@@ -18,7 +18,7 @@ related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaapper
 
 ## Handen som viskar från Kurtisanen {slug:ulrikahammar}
 
-Din uppvaktning vid sy- och broderihörnan har gett dig mer än en plats i skymningen. **Kapten Barnsben** viskar dig allt hon hör och ser inne på **Korvetten Kurtisanen**, inte för att hon svurit **Barken Bortförklaringen** sin trohet, hon bryr sig inte ett uns om er skuta, utan för att det är dig hon vill hålla kvar, till varje pris hennes egen besättning skulle kalla förräderi.
+Din uppvaktning vid sy- och broderihörnan har gett dig mer än en plats i skymningen. **Kapten Barnsben** viskar dig allt hon hör och ser inne på **Korvetten Kurtisanen**, och det hon ger dig hjälper **Barken Bortförklaringen** vinna mark hon annars aldrig skulle unnat er. Hon gör det inte av trohet till din skuta. Hon gör det för din skull, till varje pris hennes egen besättning skulle kalla förräderi.
 
 Ta emot det hon ger utan att låta det synas, inte för **Kapten Rosing**, som fortfarande tror hon tävlar om en ärlig plats i hennes skymning, och inte för din egen skuta, som gärna skulle fira en spion men aldrig skona den som avslöjas. Ge Bortförklaringen den fördel hon bär till dig, och håll henne, och hemligheten, hela vägen till sista skålen.
 
