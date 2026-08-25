@@ -14,9 +14,9 @@ related: [ludvigvonbahr, amaliawahlstrom, josefinlowing, amandamungsgard]
 
 ## Den som sitter vid ditt bord {slug:ludvigvonbahr}
 
-Du har redan den enda älskare som räknas, och hans namn får hamnen aldrig höra ur din mun. Inte en stavelse. Inte en krona.
+Du har redan den enda älskare som räknas, och hans namn får hamnen aldrig höra ur din mun. Inte en stavelse. Inte en krona. Det är honom du vill ha i koja, honom du vill rida när värdinnerollen äntligen kan släppas, och det är den munnen ingen annan får.
 
-Festen är din fälla och romen är linan du själv drar i. Namnet Svarta Malin väger tungt, tyngre än du visar, och du är trött på att slåss om platsen på hamnens topp. Låt dem tro att din hemliga håller till vid faten. **Kapten Dunka** sitter redan där, diskret nog att kunna förnekas, tydlig nog att fylla ut ryktet. Du får gärna ha fler samtidigt. Bekräfta ingenting. Neka ingenting. Le, försvinn, och låt hamnen jaga varandra istället för sanningen.
+Festen är din fälla och romen är linan du själv drar i. Namnet Svarta Malin väger tungt, tyngre än du visar, och du är trött på att slåss om platsen på hamnens topp. Låt dem tro att din hemliga håller till vid faten. **Kapten Dunka** sitter redan där, diskret nog att kunna förnekas, tydlig nog att fylla ut ryktet. Du får gärna ta honom också. En kropp i ljuset, en i mörkret. Bekräfta ingenting. Neka ingenting. Le, försvinn, och låt hamnen jaga varandra istället för sanningen.
 
 ## Skålen hon aldrig glömde {slug:amaliawahlstrom}
 

@@ -27,7 +27,9 @@ Han har aldrig kunnat bevisa att din dövhet är påhitt, men han anar det, och 
 
 Ditt hittepå-teckenspråk är precis lika påhittat som din dövhet. Håll en workshop i det på gården, gärna nära köket där **Kapten Hjärter** lagar mat och samtidigt jagar jubilarens hemliga älskare, en plats där det alltid lönar sig att "inte höra".
 
-**Kapten Babord** älskar dig och täcker för dig: hon översätter ditt hittepå-tecken med rak min, utan att blinka. Ditt flaskade sanningsserum kan hamna i en kopp nära Hjärter, eller nära den som hotar avslöja dig. Håll det dolt innan festen är över: någon på ön kan riktigt teckenspråk, och Hjärter har redan sett dig reagera på ljud du "inte kan höra".
+**Kapten Babord** täcker för dig: hon översätter ditt hittepå-tecken med rak min, utan att blinka. Hon gör det för att hon vill ha dig, inte för att hon tror på din dövhet. Du vill ha henne tillbaka. Du vill att de händer hon "översätter" ska sluta i hennes kläder, i en koja där teckenspråk är överflödigt och munnen får göra jobbet.
+
+Ditt flaskade sanningsserum kan hamna i en kopp nära Hjärter, eller nära den som hotar avslöja dig. Håll det dolt innan festen är över: någon på ön kan riktigt teckenspråk, och Hjärter har redan sett dig reagera på ljud du "inte kan höra".
 
 ## Lasten hon bär åt dig {slug:alexandrapalmquist}
 

@@ -10,9 +10,9 @@ related: [viktoransund, minimacklin, malintadaa]
 
 ## Kärleken ni håller hemlig {slug:viktoransund}
 
-Din kärlek till **Kapten Rödskägg** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa, och ett hastigt ögonkast kan förråda er inför fel person.
+Din lust till **Kapten Rödskägg** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa, och ett hastigt ögonkast kan förråda er inför fel person. Du vill rida den stolta, lättkränkta mannen tills skalet spricker. Du vill ta honom där era släkter skulle dra värja för mindre, med det röda skägget mot halsen och hans paranoia ett rum bort.
 
-**Kapten Blodig** bär ett gammalt groll mot dig, en stulen kapitulation och ett blodstämplat storsegel, och hon snubblar gärna över ett tecken på er kärlek om hon får chansen. Förneka högljutt, muta henne, eller fly tillsammans med Rödskägg, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över.
+**Kapten Blodig** bär ett gammalt groll mot dig, en stulen kapitulation och ett blodstämplat storsegel, och hon snubblar gärna över ett tecken på er affär om hon får chansen. Förneka högljutt, muta henne, eller ta Rödskägg ändå och fly tillsammans, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över. Hemligheten är inte att ni håller av varandra. Hemligheten är hur ofta ni redan knullat.
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 

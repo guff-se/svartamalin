@@ -12,9 +12,9 @@ related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa]
 
 ## Kärleken du vill pröva {slug:edvinthungren}
 
-**Kapten Rötägg** gav dig manschettknappar med enhörningar för kärlekens skull, och han säger att han lämnat sin röta bakom sig, från tiden han miste sitt eget skepp genom att vara grym mot sin besättning. Du vill veta om det är sant.
+**Kapten Rötägg** gav dig manschettknappar med enhörningar för kärlekens skull, och han säger att han lämnat sin röta bakom sig, från tiden han miste sitt eget skepp genom att vara grym mot sin besättning. Du vill veta om det är sant, inte med ord, utan med kroppen. Du vill rida den mjuka mannen tills den gamla rötan syns, eller tills du är säker på att den är död. Enhörningen på knapparna är söt. Hornet du vill ha sitter lägre.
 
-**Kapten Barnsben** var med då, och minns honom bättre än han önskar. Sök upp henne, gärna vid hennes sy- och broderihörna, och fråga vad hon vet. Hittar du inte henne kan **Kapten Nykter** svara istället, fast hans svar färgas av hans eget nöje av att se andra desperata. Fråga innan festen är över. Du förtjänar att veta vem du älskar.
+**Kapten Barnsben** var med då, och minns honom bättre än han önskar. Sök upp henne, gärna vid hennes sy- och broderihörna, och fråga vad hon vet. Hittar du inte henne kan **Kapten Nykter** svara istället, fast hans svar färgas av hans eget nöje av att se andra desperata. Fråga innan festen är över. Du förtjänar att veta vem du tar i säng, och om han tål att bli tagen på allvar.
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 

@@ -9,8 +9,10 @@ mirrors:
     note: Hurring säljer en osäker rad om Malin till bästa bud (tvåvägs)
   - slug: viktoransund
     note: mutual fiende, skottet i ryggen på Paradisets ö, båtarna tillsammans (tvåvägs)
+  - slug: petterwallberg
+    note: romans, hon tar utan förförarskägg (tvåvägs)
 # gustaftadaa: hon vet inte att han älskar Plåthorn i hemlighet, se hans fil
-related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker, viktoransund]
+related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker, viktoransund, petterwallberg]
 ---
 
 ## Barnets bok på hyllan {slug:malintadaa}
@@ -26,6 +28,12 @@ En sådan detalj är för god att bara höra och glömma. Ta med dig **Fregatten
 ## Handen du vill låna {slug:gustaftadaa}
 
 **Löjtnant Spader** är känd som en kortspelare utan like, och ryktet om att han fuskar har aldrig kunnat bevisas. Precis den sortens listiga hand du behöver för att komma åt **Kapten Plåthorn**s horn. Övertyga honom att hjälpa dig lura henne, med mynt, med en tjänst, eller med smicker om hans rykte. Gör det innan festen är över.
+
+## Medvinden du vill rida {slug:petterwallberg}
+
+**Kapten Lösskägg** bär skägg han skurit av kaptener han besegrat, och tre av dem kan få vem som helst att förföra den han pekar på. På dig pekade han aldrig. Du tog honom själv, i en koja efter en kuling så hård att ingen annan höll kursen, och du tänker göra om det innan helgen är över. Du vill ha skägget mot halsen, händerna i riggen, och honom under dig tills han slutar samla troféer och börjar samla på dig.
+
+**Kapten Rödskägg** delar båtarna med dig hela helgen, och han hatar Lösskägg mer än han litar på dig. Ett kyss mot en motståndare är bara ett sätt att komma nära. Ett knull med mannens värsta rival, medan ni två står vid samma rep, är ett sätt att vinna. Ta Lösskägg i skuggan av kajen, förneka högljutt, eller låt Rödskägg se precis så mycket att han tappar både kursen och kronan. Avgör det innan sista skålen.
 
 ## Kapten med samma räkning {slug:amaliawahlstrom}
 

@@ -13,9 +13,9 @@ related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa, hampuslindbla
 
 ## Den du vill bli vald av {slug:ulrikahammar}
 
-**Kapten Barnsben**s sy- och broderihörna är den enda plats på ön där någon sitter still länge nog för dig att uppvakta ordentligt. Du vill bli den hon litar mest på när mörkret faller, den hon anförtror sin krumelurburk och sitt piller, hellre än någon annan. Att fråga henne rakt ut vem hon egentligen litar på vågar du inte, av rädsla för svaret. Så du gör det på ditt eget sätt: smicker, en dramatisk entré, en påminnelse om att dåligt organiserade hjärtan är den värsta sortens oordning.
+**Kapten Barnsben**s sy- och broderihörna är den enda plats på ön där någon sitter still länge nog för dig att uppvakta ordentligt. Du vill bli den hon litar mest på när mörkret faller, den hon anförtror sin krumelurburk och sitt piller, hellre än någon annan. Du vill också bli den hon knäpper upp. Du vill ha hennes mun, hennes skratt mot halsen, och en plats i skymningen som inte bara smakar tillit. Att fråga henne rakt ut vem hon egentligen litar på vågar du inte, av rädsla för svaret. Så du gör det på ditt eget sätt: smicker, en dramatisk entré, en påminnelse om att dåligt organiserade hjärtan är den värsta sortens oordning, och en hand som stannar för länge i hennes tyg.
 
-**Kapten Nykter** vill ha samma plats som du. Du vet inte om honom. Vinn henne innan festen är över.
+**Kapten Nykter** vill ha samma plats som du. Du vet inte om honom. Vinn henne innan festen är över. Ta henne, eller förlora henne till en man som ljuger bättre än du uppvaktar.
 
 ## Rösten du köpt vid kajen {slug:hampuslindblad}
 

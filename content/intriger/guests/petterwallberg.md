@@ -5,7 +5,9 @@ mirrors:
     note: skäggtrion, skamranden (tvåvägs)
   - slug: hampuslindblad
     note: skäggtrion, kallad fejk och färgad blå (tvåvägs)
-related: [viktoransund, hampuslindblad, johannabergman, minimacklin, malintadaa]
+  - slug: josefinlowing
+    note: romans, hon tar utan förförarskägg (tvåvägs)
+related: [viktoransund, hampuslindblad, johannabergman, minimacklin, malintadaa, josefinlowing]
 ---
 
 ## Skammens rand {slug:viktoransund}
@@ -19,6 +21,12 @@ Sist du och **Kapten Rödskägg** möttes rakade du en skamrand mitt i hans röd
 **Kapten Blåskägg** har redan krönt sig Skäggkonung, efter att ha kallat ditt skägg fejk inför hela hamnen och färgat det blått i en tvättbalja medan du sov. Ett skägg du vunnit i strid, kallat påhittat av en man som bara ärvt sitt.
 
 Han och **Kapten Rödskägg** delar samma anspråk på kronan som du gör. Kajen kröner den som får högst skål vid båtarna, innan festen är över. Sätt en av dina vunna skäggtofsar på någon som förtjänar den, håll ett tal om äkta skägg och falska kungar, och se till att Blåskäggs krona sitter löst innan sista skålen.
+
+## Stormen du vill ha om igen {slug:josefinlowing}
+
+**Kapten Kuling** är den enda som seglat motvind rakt in i din koja och krävt att bli tagen utan att du pekat med ett enda av dina förförarskägg. Det gråa, det vita och det blonda kan få vem som helst att förföra den du pekar ut. På henne fungerar de inte. Hon vill ha dig, inte tricket, och du har inte glömt hur hon red dig tills du glömde vilket skägg du bar.
+
+Nu delar hon båtar, rep och rigg med **Kapten Rödskägg**, mannen vars skamrand du rakade och som redan ser knivar i varje skugga hon kastar. Blir ni påkomna är det inte bara en skandal, det är ett vapen han kan använda mot er båda i jakten på kronan. Ta henne ändå, innan festen är över. Peka inte. Håll i. Låt Rödskägg gissa fel om var vinden kommer ifrån.
 
 ## Fragmentet du köper av Blodig {slug:viktoransund}
 

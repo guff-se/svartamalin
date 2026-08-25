@@ -14,9 +14,9 @@ related: [linneaappert, ulrikahammar, navidmodiri, gustaftadaa]
 
 ## Beviset du vill ge Planka {slug:linneaappert}
 
-Du ärvde en gång ett skepp och miste det för att du var röta in i märgen mot din egen besättning. Sen dess har du försökt ta revansch genom att vara snäll, hjälpa där du kan, sabrera bubbel för andras skull och massera bort andras nöd. **Kapten Planka** gav dig manschettknapparna med enhörningarna för kärlekens skull, och hon vill veta om den kärleken vilar på sanning eller på ett skådespel.
+Du ärvde en gång ett skepp och miste det för att du var röta in i märgen mot din egen besättning. Sen dess har du försökt ta revansch genom att vara snäll, hjälpa där du kan, sabrera bubbel för andras skull och massera bort andras nöd. **Kapten Planka** gav dig manschettknapparna med enhörningarna för kärlekens skull, och hon vill veta om den kärleken vilar på sanning eller på ett skådespel. Du vill bevisa det med händerna, inte med ännu en sabrerad flaska. Du vill ha henne mot en mast, massera tills hon slutar fråga, och låta henne rida ut svaret själv.
 
-**Kapten Barnsben** minns fortfarande parfymspratten du en gång ställde till, ett byte av doft som saboterade hennes uppvaktning av **Kapten Döver**, och hon tror inte ett ögonblick på din omvändelse. Blidka henne innan Planka hinner fråga henne rakt ut: en massage, en sabrerad bubbel, en gest som väger tyngre än ditt gamla rykte.
+**Kapten Barnsben** minns fortfarande parfymspratten du en gång ställde till, ett byte av doft som saboterade hennes uppvaktning av **Kapten Döver**, och hon tror inte ett ögonblick på din omvändelse. Blidka henne innan Planka hinner fråga henne rakt ut: en massage, en sabrerad bubbel, en gest som väger tyngre än ditt gamla rykte. Gör det innan festen är över, annars får du bevisa din snällhet i en tom koja.
 
 ## Vänligheten han inte vill ha {slug:navidmodiri}
 

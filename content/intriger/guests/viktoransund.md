@@ -26,9 +26,9 @@ Han och **Kapten Lösskägg** gör båda anspråk på samma titel. Kajen kröner
 
 ## Kärleken ni håller hemlig {slug:josefinansund}
 
-Din kärlek till **Kapten Frodig** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa.
+Din lust till **Kapten Frodig** är förbjuden och hemlig: era släkter och besättningar har varit fiender i generationer, och en upptäckt vore en skandal utan like. Ni gömmer den bakom artighet och avstånd, men romens frikostighet gör folk vårdslösa, och du vill ha henne mot ett skott, i en koja, med det röda skägget mellan hennes lår tills hon slutar kunna förneka något alls.
 
-**Kapten Blodig** bär ett gammalt groll mot Frodig och snubblar gärna över ett tecken på er kärlek om hon får chansen. Förneka högljutt, muta henne, eller fly tillsammans, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över.
+**Kapten Blodig** bär ett gammalt groll mot Frodig och snubblar gärna över ett tecken på er affär om hon får chansen. Förneka högljutt, muta henne, eller ta Frodig ändå och fly tillsammans, men vet att panik kan bekräfta ryktet lika säkert som ett erkännande. Håll det dolt innan festen är över. Hemligheten är inte att ni håller av varandra. Hemligheten är hur ofta ni redan knullat.
 
 ## Skottet i ryggen {slug:josefinlowing}
 

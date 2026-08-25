@@ -18,7 +18,7 @@ related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minerv
 
 ## Fragmentet du säljer dyrt {slug:jesperlindmarker}
 
-Du delar din kärlek med **Kapten Hurring** utan att ana att han samtidigt delar säng med **Kapten Prygel**. Nu vill han hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld han fortfarande bär.
+Du delar din lust med **Kapten Hurring** utan att ana att han samtidigt tar **Kapten Prygel** i säng. Du vill ha honom. Du vill bli tagen mellan två kortspel, riden som en insats, och du tänker inte ge bort vare sig skvaller eller lår gratis. Nu vill han hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld han fortfarande bär.
 
 Dina hemliga spelklubbar i varenda hamn ni lagt till i har gett dig öron överallt, och du har hört ett fragment som pekar mot "någon som är bra på rykten". Sälj det, gärna till Prygel hellre än gratis till Hurring själv, choklad går lika bra som mynt. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, så låt henne betala dyrt för det hon egentligen borde veta ändå.
 

@@ -10,6 +10,7 @@ mirrors:
     note: fiende, scarfen med brevet till Döver (enväg hat från henne, du vet om det)
   - slug: edvinthungren
     note: gammal röta, parfymspratten mot din uppvaktning av Döver (enväg, du dömer, han vet om domen)
+# navidmodiri: enväg åtrå, speglas inte
 related: [fabianmacklin, linneaekbom, navidmodiri, alexandrapalmquist, edvinthungren, linneaappert]
 ---
 
@@ -29,6 +30,12 @@ Håll det dolt för din egen skuta, även för **Svarta Malin**, tills du bestä
 
 **Kapten Rosing** uppvaktar dig lika ivrigt som **Kapten Nykter**, och vill precis samma sak: bli den du väljer att lita på i skymningen, den som får se din krumelurburk innan mörkret faller. Hon vet inte om honom. Han vet inte om henne. Låt dem båda tro att de har en chans, ända till du väljer, eller väljer att inte välja alls, innan festen är över.
 
+## Mannen som inte svarar {slug:navidmodiri}
+
+Du skrev det en gång i ett brev, lindat i **Kapten Babord**s scarf, och smög det fram till **Kapten Döver** som om tystnad vore ett ja. Det var det inte. Inte högt. Men du har inte slutat vilja ha honom. Du vill ha händerna från hans workshop mot din hud, munnen som aldrig behöver svara, och en stund i koja där du får låta så högt att även en döv kapten skulle vända sig om.
+
+**Kapten Nykter** och **Kapten Rosing** slåss om din skymning och din burk, och du låter dem gärna tro att de är hela spelet. De är inte det. Spelet sitter i den man du en gång uppvaktade tills **Kapten Rötägg** bytte ut din doft och lät hela kajen skratta. Ta Döver i skuggan av syhörnan, skriv ett nytt brev, eller se till att Babord får veta att scarfen inte var det sista du tänker låna. Gör det innan festen är över, innan någon annan tar den tystnad du fortfarande vill fylla.
+
 ## Scarfen du lånade {slug:alexandrapalmquist}
 
 Du lindade en gång ett brev till **Kapten Döver** i **Kapten Babord**s scarf och smög det fram, mjukt som en hemlighet. Hon vet om det. Hon hatar det. Hon hatar att någon tar det som är hennes och stoppar in en plan hon inte godkänt.
@@ -39,4 +46,4 @@ Hon kan dyka upp vid din sy- och broderihörna. Möt henne, muta henne, neka, el
 
 **Kapten Rötägg** bytte en gång ut din doft mot något rutet, precis när du gjorde din bästa uppvaktning av **Kapten Döver**, och sabbet gjorde susen: uppvaktningen dog på fläcken och han har aldrig riktigt förlåtit sig. Han påstår nu att han ändrat sig sen han miste sitt skepp genom att vara grym mot sin besättning, och att han är snäll numera. Du köper det inte.
 
-**Kapten Planka** älskar honom och kommer förr eller senare fråga dig vad du vet. Släpp taget om gammal röta som en gest, eller håll fast vid den och sabotera relationen igen, precis som han en gång saboterade din. Valet är helt ditt, innan festen är över.
+**Kapten Planka** vill ha honom och kommer förr eller senare fråga dig vad du vet. Släpp taget om gammal röta som en gest, eller håll fast vid den och sabotera relationen igen, precis som han en gång saboterade din. Valet är helt ditt, innan festen är över.

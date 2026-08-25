@@ -19,9 +19,9 @@ Det är knappast en hemlighet värd namnet. Men något i tanken på jubilaren so
 
 ## Hjärtat som inte gett upp {slug:malintadaa}
 
-Du har stängt ditt hjärta så många gånger att du numera bara säger dig öppna det för katten. Lögnen sitter risigt löst: du är fortfarande en blödig jävel, öm under all den påstådda hårdheten, och det är **Svarta Malin** som får den sidan att röra på sig igen, i hemlighet, utan att du tänker erkänna det för någon.
+Du har stängt ditt hjärta så många gånger att du numera bara säger dig öppna det för katten. Lögnen sitter risigt löst: du är fortfarande en blödig jävel, öm under all den påstådda hårdheten, och det är **Svarta Malin** som får den sidan att röra på sig igen, i hemlighet, utan att du tänker erkänna det för någon. Du vill ha henne. Du vill bli tagen av jubilaren, knäböja vid grytorna om det så krävs, och smaka den mun hamnen bara skålar mot.
 
-Hamnen viskar att jubilaren gömmer en älskare. Du vill veta vem, men inte högljutt. Fråga vid grytorna, mellan såserna, en blick i taget, aldrig inför publik. **Kapten Blodig** letar efter samma svar av egna, äldre skäl, och ni två känner igen varandra som två som letar efter samma sak utan att erkänna det för varandra: ett hjärta bland spader och klöver, men bara ett som räknas för dig. Ta reda på namnet innan skutorna skingras. Malin kommer varken bekräfta eller neka, hur många gånger ni än frågar.
+Hamnen viskar att jubilaren gömmer en älskare. Du vill veta vem, men inte högljutt. Inte för att du drömmer om en framtid. För att du vill vara den som tar henne, eller åtminstone den som vet vem som gör det. Fråga vid grytorna, mellan såserna, en blick i taget, aldrig inför publik. **Kapten Blodig** letar efter samma svar av egna, äldre skäl, och ni två känner igen varandra som två som letar efter samma sak utan att erkänna det för varandra: ett hjärta bland spader och klöver, men bara ett som räknas för dig. Ta reda på namnet innan skutorna skingras. Malin kommer varken bekräfta eller neka, hur många gånger ni än frågar.
 
 ## Ryktet du styr {slug:louisevonbahr}
 

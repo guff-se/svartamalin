@@ -7,7 +7,11 @@ mirrors:
     note: skäggtrion, kallad fejk och färgad blå (tvåvägs)
   - slug: linneaekbom
     note: mullvad, hennes snäcka avslöjar din rädsla för kronan, hon köper dig med Gnällets larm (tvåvägs)
-related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom]
+  - slug: louisevonbahr
+    note: romans, hon hade dig först, Enben vet inte (tvåvägs, asymmetrisk kunskap)
+  - slug: amaliawahlstrom
+    note: romans, hon kom efter, Fuling vet inte (tvåvägs, asymmetrisk kunskap)
+related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, amaliawahlstrom]
 ---
 
 ## Kronan du redan tagit {slug:viktoransund}
@@ -19,6 +23,14 @@ Du hällde indigo i **Kapten Rödskägg**s tvättbalja medan han sov och lät ho
 Du kallade **Kapten Lösskägg**s skägg fejk inför hela hamnen, färgade det blått för att bevisa din poäng, och utropade dig till kung över alla tre skäggen på en och samma kväll. Han samlar riktiga skägg från kaptener han besegrat och tänker minsann bevisa att ditt anspråk är precis lika falskt som du påstod att hans skägg var.
 
 Kajen kröner den som får högst skål vid båtarna, inför folk, innan festen är över. Din krona satt löst redan innan du tog den. Håll den på huvudet med skål efter skål, och låt de andra två skrika om rättvisa så mycket de vill.
+
+## Drottningen som var först {slug:louisevonbahr}
+
+**Kapten Fuling** hade dig innan kronan, innan skålarna, innan någon kallade dig kung. Hon tar dig tyst, och du vill ha det så. Du vill ha hennes mun mot det blåa skägget, hennes händer där kajen inte ser, och en skuld ni båda gärna betalar med kroppen. **Kapten Enben** vet inte om henne. Fuling vet inte hur ofta du redan sagt ja till någon annan. Håll det så, och ta Fuling innan festen är över, medan kronan fortfarande ger dig en ursäkt att försvinna från bordet.
+
+## Kvinnan som inte backar {slug:amaliawahlstrom}
+
+**Kapten Enben** vägrar be om ursäkt för att hon vill ha dig, och du vill inte att hon ska göra det. Du vill ha henne mot en mast, ett ben runt midjan, medan kajen fortfarande tror att du bara jagar skålar. **Kapten Fuling** hade dig först och skulle kalla det stöld. Låt henne. Ta Enben ändå, innan festen är över, och se till att de två aldrig jämför tider.
 
 ## Kronan Gnället köper {slug:linneaekbom}
 

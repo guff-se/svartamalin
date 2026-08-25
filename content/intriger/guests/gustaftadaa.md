@@ -5,13 +5,15 @@ mirrors:
     note: gammal spelskuld (tvåvägs)
   - slug: elinmartensson
     note: hemlig romans (tvåvägs)
+  - slug: alexandrapalmquist
+    note: romans, han vill ha henne också, Plåthorn vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: johannabergman
     note: mångårig rivalitet, ömsesidiga fuskanklagelser, hon bär hans vunna spader-ring (tvåvägs)
   - slug: jesperlejfjord
     note: mångårig rivalitet, ömsesidiga fuskanklagelser (tvåvägs)
   - slug: edvinthungren
     note: enväg hat, sjökortet till Plåthorns fiskegrund (du hatar honom, han vet om det)
-related: [jesperlindmarker, elinmartensson, josefinlowing, johannabergman, jesperlejfjord, minervalowgren, edvinthungren]
+related: [jesperlindmarker, elinmartensson, josefinlowing, johannabergman, jesperlejfjord, minervalowgren, edvinthungren, alexandrapalmquist]
 ---
 
 ## Skulden du bär till Hurring {slug:jesperlindmarker}
@@ -22,9 +24,9 @@ Betala med mynt om du kan avvara det. Betala med ett namn om du hellre behåller
 
 ## Kärleken du gömmer och handen du blir ombedd att låna {slug:elinmartensson}
 
-Du älskar **Kapten Plåthorn** i hemlighet, dold även för din egen besättning på Fördärvet. Bara hon vet hur ofta du vinner vid korten när du egentligen borde förlora, och bara hon bär din ring och ditt halsband i spader nära sitt hjärta.
+Du tar **Kapten Plåthorn** i hemlighet, dold även för din egen besättning på Fördärvet. Bara hon vet hur ofta du vinner vid korten när du egentligen borde förlora, och bara hon bär din ring och ditt halsband i spader nära sitt hjärta. Du vill ha hornet tyst mot hennes hud och händerna där korten inte räcker. Du vill knulla henne mellan given, och du vill att hon ska be om det.
 
-**Kapten Kuling** har hört ryktet om din listiga hand och vill värva dig för att hjälpa henne komma åt Plåthorns plåthorn. Hon vet inte vem du älskar. Välj: spela med henne på låtsas och skydda din älskade i det tysta, eller låt kärleken styra helt och varna Plåthorn själv, innan festen är över.
+**Kapten Kuling** har hört ryktet om din listiga hand och vill värva dig för att hjälpa henne komma åt Plåthorns plåthorn. Hon vet inte vem du tar i säng. Välj: spela med henne på låtsas och skydda din älskade i det tysta, eller låt lusten styra helt och varna Plåthorn själv, innan festen är över.
 
 ## Bordet vid grytorna {slug:johannabergman}
 
@@ -35,6 +37,12 @@ En av dina spader-ringar sitter redan på hennes hand, vunnen vid ett bord för 
 Ett enda parti, vid kökskanten. **Kapten Prygel** delar, och hon hatar Klöver för en stulen vals och en bordning hon aldrig fått äran för, så räkna inte med att hon delar jämnt. Den som pekas ut som fuskaren förlorar sitt rykte som haj, inte bara en insats. Du gömmer ditt eget knep bakom pillandet med dina spader-ringar och ditt halsband, ett grepp ingen ännu lyckats avslöja. Sätt dig vid bordet, spela din hand, vinn tillbaka ringen om du kan, och låt de andra två anklaga varandra medan du sköter ditt.
 
 **Kapten Plåthorn** har sett dig vinna när du egentligen borde ha förlorat. Hon säger ingenting, än.
+
+## Babord du inte kan lägga {slug:alexandrapalmquist}
+
+**Kapten Babord** seglar på **Galeonen Gnället**, samma köl som **Kapten Plåthorn**, kvinnan som redan bär din ring och ditt halsband mot hjärtat. Det stoppar dig inte. Du vill ha Babord också. Du vill ha hennes sjökort skrynklade under ryggen, hennes ordning upplöst, hennes babord mot madrassen tills hon slutar klaga på att du slutar.
+
+Plåthorn vet inte. Babord vet inte om Plåthorn. Håll det så. Två kvinnor på samma galeon är ett parti du inte har råd att förlora öppet. Ta Babord i skuggan av korten, innan festen är över, och se till att de aldrig jämför smycken.
 
 ## Sjökortet du vill ha tillbaka {slug:edvinthungren}
 

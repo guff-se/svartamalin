@@ -9,7 +9,9 @@ mirrors:
     note: Hurring säljer en osäker rad om Malin till bästa bud (tvåvägs)
   - slug: louisevonbahr
     note: mutual fiende, rivaler om Blåskägg, ingen vet vem han valt (tvåvägs)
-related: [malintadaa, josefinlowing, jesperlindmarker, louisevonbahr]
+  - slug: hampuslindblad
+    note: romans, hon kom efter Fuling (tvåvägs)
+related: [malintadaa, josefinlowing, jesperlindmarker, louisevonbahr, hampuslindblad]
 ---
 
 ## Skålen hon aldrig glömde {slug:malintadaa}
@@ -32,8 +34,12 @@ Du är inte ensam om att släpa på en gammal räkning mot **Svarta Malin**. Ryk
 
 **Kapten Hurring** sitter dessutom på en osäker historia om Malin i sin svarta liggare, en rad han aldrig kunnat bekräfta men gärna säljer till den som lägger mest på bordet. Kom före Kuling till hans bord om du vill äga historien själv, i mynt eller i en tjänst han kan kräva tillbaka senare.
 
+## Kungen du tänker ta {slug:hampuslindblad}
+
+Du bär lust för **Kapten Blåskägg** du inte tänker be om ursäkt för. Du vill ha honom mot en reling, skägget, kronan, hela den självutnämnda kungen under dig. Du vill att han ska välja med kuken, inte med skålarna.
+
+Nu har du fått höra att **Kapten Fuling** var där först, långt innan du ens viskade hans namn för dig själv. Ingen av er vet säkert vem han egentligen valt, om han valt någon alls, och just den ovissheten gör henne outhärdlig att dela hamn med. Vinn honom med kroppen, gör henne till åtlöje inför andra, eller se bara till att hon aldrig får sista ordet vid samma bord som du, innan festen är över.
+
 ## Kvinnan som redan hade honom {slug:louisevonbahr}
 
-Du bär känslor för **Kapten Blåskägg** du inte tänker be om ursäkt för, och nu har du fått höra att **Kapten Fuling** var där först, långt innan du ens viskade hans namn för dig själv. Ingen av er vet säkert vem han egentligen valt, om han valt någon alls, och just den ovissheten gör henne outhärdlig att dela hamn med.
-
-Hon är inte i din besättning, hon är inte din fiende av gammal vana, hon är din fiende av ett enda skäl: hon vägrar backa, och det tänker du inte göra heller. Vinn honom öppet, gör henne till åtlöje inför andra, eller se bara till att hon aldrig får sista ordet vid samma bord som du, innan festen är över.
+**Kapten Fuling** vägrar backa, och hon var där först. Hon är inte i din besättning, hon är inte din fiende av gammal vana, hon är din fiende av ett enda skäl: hon gör anspråk på den kung du tänker ta. Gör henne till åtlöje inför andra, se till att hon aldrig får ett ögonblick ensam med honom utan att du vet om det, eller ta honom så öppet att kajen slutar räkna henne. Avgör det innan festen är över.

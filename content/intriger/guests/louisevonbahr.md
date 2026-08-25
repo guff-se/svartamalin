@@ -9,7 +9,9 @@ mirrors:
     note: mullvad, han styr misstankar bort från henne mot hjälp från Fördärvet (tvåvägs)
   - slug: amaliawahlstrom
     note: mutual fiende, rivaler om Blåskägg, ingen vet vem han valt (tvåvägs)
-related: [jesperlindmarker, navidmodiri, jesperlejfjord, amaliawahlstrom]
+  - slug: hampuslindblad
+    note: romans, hon hade honom först (tvåvägs)
+related: [jesperlindmarker, navidmodiri, jesperlejfjord, amaliawahlstrom, hampuslindblad]
 ---
 
 ## Anklagelsen du alltid nekat {slug:jesperlindmarker}
@@ -27,6 +29,12 @@ Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du
 ## Skulden du sparar {slug:navidmodiri}
 
 Du har länge anat att **Kapten Döver**s dövhet är påhitt, men du har aldrig sagt det högt. Det passar dig bättre att ha en skuld att kräva in senare än att avslöja honom gratis nu. Nämn det i förbifarten när det passar dig, "du har alltid undrat hur han klarar sig utan att höra", ett hot utan hot i orden, och spara resten till en dag du behöver honom mer än du behöver sanningen.
+
+## Kungen du redan tagit {slug:hampuslindblad}
+
+**Kapten Blåskägg** krönte sig själv, färgade rivaler blå och lät kajen skåla som om kronan vore det enda som räknades. Du vet bättre. Du hade honom först, innan kronan, innan **Kapten Enben** ens viskade hans namn. Du vill ha honom igen. Du vill rida kungen i skuggan av hans lösa krona, ta honom medan hamnen fortfarande räknar skålar, och låta skägget stryka där ingen krona räcker som täckmantel.
+
+Enben vägrar backa, och ingen av er vet vem han valt. Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan kajen kröner någon annan och han glömmer vems koja han kröp till först.
 
 ## Kvinnan som kom efter {slug:amaliawahlstrom}
 

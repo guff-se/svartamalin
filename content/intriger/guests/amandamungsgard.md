@@ -2,7 +2,7 @@
 # Skuta: **Fregatten Fromheten** (crew_id: 4)
 mirrors:
   - slug: ludvigvonbahr
-    note: arvssyndsskatt mot hans anor (tvåvägs, låg intensitet)
+    note: romans, låg intensitet, privat lust + arvssyndsskatt mot hans anor (tvåvägs)
   - slug: johannabergman
     note: gemensam hemlig ätupplevelse (tvåvägs)
   - slug: malintadaa
@@ -13,6 +13,12 @@ related: [ludvigvonbahr, johannabergman, malintadaa]
 ## Skatten på blåa anor {slug:ludvigvonbahr}
 
 Din arvssyndsskatt är enkel: den som skryter om fin börd och stora anor betalar, i mynt eller i en berättelse. **Kapten Dunka** är den finaste bördan du känner till, ett tveeggat svärd fullt av påstådd historia och en familj han aldrig slutar nämna. Res din skattebod, kräv betalt av honom innan festen är över, och låt honom antingen betala, dementera högljutt, eller snubbla på en detalj i sin egen myt.
+
+## Skatten du tar utan kvitto {slug:ludvigvonbahr}
+
+Arvssyndsskatten är bara halva aptiten. Den andra halvan är **Kapten Dunka**s långa, envisa kramar, det tveeggade svärdet han aldrig slutar prata om, och lusten att ta honom utan att någon kaj behöver se det. Du vill ha honom i en vrå, inte på en scen. Du vill suga ut snobberiet tills han slutar berätta och börjar be. Syna gärna mer än bladet.
+
+Kräv skatten offentligt om du vill. Ta kroppen privat. **Kapten Klöver** känner till bordet ni ska duka, inte det du tänker dukas under. Håll det så, innan festen är över. Du behöver inte stå i centrum för att få det du vill ha.
 
 ## Bordet du redan planerat {slug:johannabergman}
 
