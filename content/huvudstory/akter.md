@@ -228,16 +228,16 @@ Om det floppar: ingen övertalning sker. Folk åker ändå. Kuling och Rödskäg
 Akt:            II
 Tid:            lördag, när de tre möts. Inte en lång scen långt från kajen.
 Plats:          kajen eller gården. Publikt.
-Inblandade:     Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktoransund`), Kapten Blåskägg (`hampuslindblad`)
+Inblandade:     Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktoransund`), Kapten Blåskägg (`hampuslindblad`), Kapten Klöver (`johannabergman`)
 Publik:         ja. Poängen är att folk ser det.
 
-Vad händer:     de tre med skägg i namnet tar upp kampen om vem som är Skäggkonung. De listar själva ut hur: förnedra, utlysa turnering, raka av motståndet, eller annat kajen köper. Lösskäggs låda, Rödskäggs pulver, Blåskäggs kraniumpåse. Det ska vara kul.
+Vad händer:     Klöver hetsar de tre mot varandra för att få en vadslagningskamp. De listar själva ut hur man blir Skäggkonung: förnedra, utlysa turnering, raka av motståndet, eller annat kajen köper. Lösskäggs låda, Rödskäggs pulver, Blåskäggs kraniumpåse. Det ska vara kul.
 
 Vad ändras:     någon utropas, eller ingen, eller alla tre.
 
-Trigger:        deras individintriger, när de är skrivna
-Väg 1:          de tre gör det själva
-Väg 2:          någon annan hetsar dem
+Trigger:        Klöver sätter igång, eller de tre gör det själva
+Väg 1:          Klöver hetsar
+Väg 2:          de tre tar upp det utan henne
 Spelledarväg:   behövs inte. Inte bärande balk.
 
 Pusselnod:      ingen

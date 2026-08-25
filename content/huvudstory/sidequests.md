@@ -38,7 +38,7 @@ Status:         idé / beslutad / skriven
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
 | S-01 | Jakten på älskaren | Hjärter, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | skriven |
-| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / grindvakt | beslutad |
+| S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / hetsare | beslutad |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver, Babord | II | jägare / bärare / vittne | skriven |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
 | S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
@@ -126,14 +126,16 @@ Obs: Enben bär också S-06, samma måltavla (Malin) men en annan handling: här
 
 Akt:            II
 Deltagare:      Kapten Lösskägg (`petterwallberg`), Kapten Rödskägg (`viktoransund`), Kapten Blåskägg (`hampuslindblad`), Kapten Klöver (`johannabergman`)
-Roll i storyn:  rivaler / grindvakt (Klöver)
+Roll i storyn:  rivaler / hetsare (Klöver)
 Kopplad till:   B-15
 
-Vad de vill:    utropa sig till Skäggkonung, eller stoppa de andra. Lösskägg vill dessutom plundra de andras skägg, som han gör med alla kaptener som bär skägg i namnet. Klöver vill ha en bank på utfallet.
-Vad står i vägen: de två andra. Ingen given regel för hur titeln vinns.
-Varför nu:      tre skäggnamn på samma fest. Folk tittar.
+Vad de vill:    utropa sig till Skäggkonung, eller stoppa de andra. Lösskägg vill dessutom plundra de andras skägg, som han gör med alla kaptener som bär skägg i namnet. Klöver vill tjäna pengar på vadslagningen, och för det måste männen faktiskt slåss.
+Vad står i vägen: de två andra. Ingen given regel för hur titeln vinns. Utan Klövers hets kan de tre lika gärna nöja sig med att retas.
+Varför nu:      tre skäggnamn på samma fest. Folk tittar. Klöver har en bank att öppna.
 
-Hur det spelas: de tre listar själva ut hur man blir kung. Den ön behandlar som kung är kung. Gästtexten ger tre exempel, inte en meny: förnedra motståndarna, utlysa en skäggturnering, eller raka av motståndet. Andra sätt räknas om kajen ser det.
+Hur det spelas: Klöver hetsar de tre mot varandra. Hon öppnar vad, sprider att en av dem redan gjort anspråk, retar den lättkränkte, viskar till den andre att hans skägg är nästa. Choklad lika bra som mynt. Ju mer de slåss, desto mer rullar boken. Hon bryr sig inte om vem som blir kung, bara att det blir en kamp värd att slå vad på.
+
+De tre listar själva ut hur man blir kung. Den ön behandlar som kung är kung. Gästtexten ger tre exempel, inte en meny: förnedra motståndarna, utlysa en skäggturnering, eller raka av motståndet. Andra sätt räknas om kajen ser det.
 
 Lösskägg samlar skägg. Han har fyra i en låda, skurna av kaptener han besegrat medan de ännu andades. Han sätter dem på folk, pekar ut vem som ska förföras, backar och tittar. Det bruna bär spindelförbannelse. Det gråa, det vita och det blonda ger förförelsekraft så länge han pekar. Stjäl någon ett skägg fungerar det för tjuven, och då har hen Lösskägg efter sig. Han håller tal, skålar och dansar på bord.
 
@@ -141,18 +143,18 @@ Rödskägg är stolt och lättkränkt. En förolämpning blir snabbt ett drama o
 
 Blåskägg har blånat skägg av psilocybin på Galápagos. Han bär en påse kraniumpulver som sanningsserum vid insufflering, och ett don med trollrök mot dimma. Han kan tvinga fram ett erkännande, utropa sig, eller ta de andras grepp.
 
-Klöver tar vad på vem som vinner och hur. Choklad lika bra som mynt. Hon bryr sig inte om titeln.
+Klöver tar vad och ser till att det finns något att vadslå om. Hon är den som sätter igång, inte en åskådare.
 
 Rekvisita: Lösskäggs låda, Rödskäggs pulver, Blåskäggs kraniumpåse och dimdon. Inget mer.
 
-Utfall om ja:   någon utropas, eller ingen, eller alla tre. Folk har sett hur. Klöver går plus.
-Utfall om nej:  de tre finns kvar som rivaler. Huvudstoryn går.
+Utfall om ja:   någon utropas, eller ingen, eller alla tre. Folk har sett hur. Klöver går plus, för att hon hetsade fram en kamp.
+Utfall om nej:  de tre retas vidare utan att utropa någon. Huvudstoryn går.
 
 Bygger på:      Lösskäggs underlag (lådan, förförarskäggen, plundra skäggnamn). Rödskäggs stolthet och Piratpulver. Blåskäggs blåa skägg, kraniumpulver, dimdon. Klövers svartklubb.
-Speglas hos:    de tre. Klöver enväg.
+Speglas hos:    de tre, och Klöver. Hon hetsar, de tre får veta att hon tar vad.
 Status:         beslutad. Gästtext skrivs senare.
 
-Obs: Inte bärande balk. Inte en lång scen långt från kajen. Klöver bär också S-04, S-05 och S-11. Blåskägg bär också S-04. Rödskägg och Lösskägg bär också S-09. Ingen delad mekanik.
+Obs: Inte bärande balk. Inte en lång scen långt från kajen. Klöver bär också S-04, S-05 och S-11. Här hetsar hon skäggkampen för bankens skull, inte samma mekanik som de andra. Blåskägg bär också S-04. Rödskägg och Lösskägg bär också S-09. Ingen delad mekanik.
 
 ## S-03 till S-10: bakgrund och tabeller
 

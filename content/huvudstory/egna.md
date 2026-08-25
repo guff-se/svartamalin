@@ -41,8 +41,9 @@ Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-02.
 - [x] Ge dem olika val: Skall de förnedra sina motståndare? Utlysa en skäggturnering? Eller kanske raka av motsåndet?
 - [x] inte "raka av motståndet i lek". jag menar raka av det på riktigt. Det räcker att skriva "raka av motståndet".
 - [x] skriv inte ut intrigerna än
+- [x] låt klöver vara lite drivande, hon vill tjäna pengar på vadslagningen, så hon vill hetsa männen mot varandra.
 
-Kryss = S-02 omskriven i `sidequests.md`. Status beslutad. Gästtexten orörd, skrivs om senare.
+Kryss = S-02 omskriven i `sidequests.md`. Klöver hetsar för bankens skull. Gästtexten orörd.
 
 ---
 
