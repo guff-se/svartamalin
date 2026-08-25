@@ -18,7 +18,7 @@ Tufft namn, öm själ, blödigt hjärta. När hon ännu blott var däckskurare g
 
 Vad ingen av dem vet är att Prygel aldrig var riktigt så ädel som de trodde.
 
-Hon tyckte om det.
+Hon tyckte om det (smärtan alltså).
 
 ## Föremål
 
@@ -30,4 +30,14 @@ Knep och knåp, gos och mys, stim och stoj
 
 ## Övrigt
 
-_Tomt._
+Jag seglar med Fregatten Fromheten och företräder Frompiraterna — Salmonellahavets enda parti med rena händer, rakt kors och blanka siffror.
+
+Vi har tröttnat på envälde, kaviar och en självutnämnd härskarinna som aldrig betalat skatt. Därför utlyser vi VÄRLDENS FÖRSTA PIRATVAL på Ovanan. Malins tid är räknad. Salmonellahavet ska ha en folkvald piratledare.
+
+Vår plattform: piratsocialism och allmän välfärd. Piratskatt efter bärkraft. Sanering av Salmonellahavet. Och full förlåtelse — den som ber om ursäkt får sin skatt blankad och sitt register struket i räkenskaperna.
+
+Vi stjäl inte. Vi omfördelar.
+
+Fråga mig om valsedlar. Fråga mig om avlatsbrev. Fråga mig inte var vi gömt vår skatt.
+
+Skatt är inne. Rösta Fromt.

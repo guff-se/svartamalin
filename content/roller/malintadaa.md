@@ -22,9 +22,7 @@ Hon behöll kanonen. Den blev hennes första vapen och symbolen för hennes frih
 
 ## Göra / inte göra
 
-Göra: vara värdinnan. Låta hamnen gissa fel om älskaren. Flirta. Försvinna. Bära att namnet Svarta Malin tynger, utan att säga varför.
-
-Inte: namnge kungen som älskare före kistan. Inte spela skuldsatt. Inte nämna kontraktet, fällan eller att hon vill bli av med de andra. Inte veta att kistan ska öppnas.
+_Tomt._
 
 ## Övrigt
 
