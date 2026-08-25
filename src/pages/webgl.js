@@ -6,7 +6,7 @@ import { mountWebglMap, unmountWebglMap } from '../components/webgl-map/index.js
 import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
 import { renderMyCrew } from '../components/my-crew.js'
-import { renderMyCharacter } from '../components/my-character.js'
+import { renderMyIntriger } from '../components/my-intriger.js'
 import { renderMySleeping } from '../components/my-sleeping.js'
 import { hasGivenAnswer } from '../lib/guest.js'
 import { openRsvpFlow } from '../components/rsvp-modal.js'
@@ -72,8 +72,8 @@ export async function renderWebgl(app) {
           </div>
         </section>
 
-        <section class="card-section" id="my-character-section" hidden>
-          <div class="card card--character" id="my-character"></div>
+        <section class="card-section" id="my-intriger-section" hidden>
+          <div class="card card--intriger" id="my-intriger"></div>
         </section>
 
         <section class="card-section">
@@ -146,7 +146,7 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('manifest-play'),     { key: 'manifest_play' })
   renderNarrative(document.getElementById('manifest-prep'),     { key: 'manifest_prep' })
   renderMyCrew(document.getElementById('my-crew'))
-  renderMyCharacter(document.getElementById('my-character'))
+  renderMyIntriger(document.getElementById('my-intriger'))
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
   renderNarrative(document.getElementById('practical-ovanan'), { key: 'ovanan' })
@@ -165,7 +165,7 @@ export async function renderWebgl(app) {
     btn.addEventListener('click', async () => {
       await openRsvpFlow()
       refreshAnswerState()
-      renderMyCharacter(document.getElementById('my-character'))
+      renderMyIntriger(document.getElementById('my-intriger'))
     })
   })
 }

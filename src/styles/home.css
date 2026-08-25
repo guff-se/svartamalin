@@ -652,78 +652,32 @@
   text-decoration: underline;
 }
 
-/* Din karaktär — gästens eget underlag till intrigerna */
-.card--character h2 {
+/* Personliga intriger — eget kort + relationer */
+.intriger-hero {
+  display: flex;
+  justify-content: center;
   margin: 0 0 1rem;
+}
+.intriger-hero .pirate-card {
+  width: 19rem;
+  max-width: 72%;
+  cursor: pointer;
+}
+.card--intriger h2 {
+  margin: 0 0 0.35rem;
   text-align: center;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--gold);
 }
-.character-hero {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 0.5rem;
-}
-.character-hero .pirate-card {
-  width: 15rem;
-  max-width: 60%;
-  cursor: pointer;
-}
-.character-intro {
-  margin: 0 0 1.25rem;
-  text-align: left;
-}
-.character-intro h3 {
-  margin: 0 0 0.6rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-size: 1rem;
-  color: var(--gold);
-}
-.character-intro h4 {
-  margin: 0.8rem 0 0.4rem;
-  letter-spacing: 0.06em;
-  font-size: 0.95rem;
-  color: var(--gold);
-}
-.character-intro p {
-  margin: 0 0 0.5rem;
-}
-.character-intro p:last-child {
-  margin-bottom: 0;
-}
-.card--character .info-form {
-  margin-top: 0;
-}
-.card--character .info-field > span {
-  text-transform: none;
-  letter-spacing: 0.04em;
-  font-size: 0.95rem;
-}
-.card--character .row {
-  display: flex;
-  justify-content: center;
-  margin-top: 0.5rem;
-}
-.card--character .row button {
-  background: var(--accent);
-  color: var(--paper);
-  border: 1px solid var(--gold);
+.intriger-sub {
+  margin: 0 0 1.1rem;
+  text-align: center;
   font-family: var(--font-display);
-  font-size: 1rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  padding: 0.7rem 1.5rem;
-  cursor: pointer;
-}
-.card--character .row button:hover {
-  background: var(--gold);
-  color: var(--ink);
-}
-.card--character .row button[disabled] {
-  opacity: 0.5;
-  cursor: default;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: var(--paper-dark);
+  opacity: 0.75;
 }
 
 /* Gemensam världs-ingång — först i intrigpresentationen */
