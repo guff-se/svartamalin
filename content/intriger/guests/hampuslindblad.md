@@ -14,6 +14,12 @@ mirrors:
 related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, amaliawahlstrom]
 ---
 
+## Kronan Gnället köper {slug:linneaekbom}
+
+**Kapten Rosing** hittar dig vid kajen, långt innan skålarna räknas, och säger något som får dig att undra hur hon vet det: att din krona sitter lösare än du visar utåt, att du fasar för dagen **Kapten Rödskägg** eller **Kapten Lösskägg** äntligen tar den ifrån dig. Hon erbjuder hela **Galeonen Gnället**s röst som förstärkning, redo att ropa, klappa och överrösta dem båda när kronan ska avgöras.
+
+Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne, och genom henne **Galeonen Gnället**. Du arbetar för Gnället nu, i den här hemligheten, det är ni båda helt överens om, men bara därför att Rosing köpte dig med sin krona, inte av någon kärlek till hennes skuta. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och håll din krona på huvudet innan festen är över.
+
 ## Kronan du redan tagit {slug:viktoransund}
 
 Du hällde indigo i **Kapten Rödskägg**s tvättbalja medan han sov och lät honom vakna blåstrimmig inför hela besättningen. Sen krönte du dig själv Skäggkonung, utan att fråga någon om lov. Han har inte förlåtit dig, och han tänker ta tillbaka kronan innan festen är över.
@@ -31,12 +37,6 @@ Kajen kröner den som får högst skål vid båtarna, inför folk, innan festen 
 ## Kvinnan som inte backar {slug:amaliawahlstrom}
 
 **Kapten Enben** vägrar be om ursäkt för att hon vill ha dig, och du vill inte att hon ska göra det. Du vill ha henne mot en mast, ett ben runt midjan, medan kajen fortfarande tror att du bara jagar skålar. **Kapten Fuling** hade dig först och skulle kalla det stöld. Låt henne. Ta Enben ändå, innan festen är över, och se till att de två aldrig jämför tider.
-
-## Kronan Gnället köper {slug:linneaekbom}
-
-**Kapten Rosing** hittar dig vid kajen, långt innan skålarna räknas, och säger något som får dig att undra hur hon vet det: att din krona sitter lösare än du visar utåt, att du fasar för dagen **Kapten Rödskägg** eller **Kapten Lösskägg** äntligen tar den ifrån dig. Hon erbjuder hela **Galeonen Gnället**s röst som förstärkning, redo att ropa, klappa och överrösta dem båda när kronan ska avgöras.
-
-Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne, och genom henne **Galeonen Gnället**. Du arbetar för Gnället nu, i den här hemligheten, det är ni båda helt överens om, men bara därför att Rosing köpte dig med sin krona, inte av någon kärlek till hennes skuta. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och håll din krona på huvudet innan festen är över.
 
 ## Skulden du aldrig betalat {slug:jesperlindmarker}
 

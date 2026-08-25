@@ -10,6 +10,12 @@ mirrors:
 related: [ludvigvonbahr, johannabergman, malintadaa]
 ---
 
+## Stugan ingen pratar om {slug:malintadaa}
+
+Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
+
+Ett hus som ingen pratar om kan gömma vad som helst, och du har alltid haft ett öga för vad folk håller undan. Kalla ihop **Fregatten Fromheten** och ta er över till den öde ön innan helgen är över, lugnt och utan drama, och se om huset finns på riktigt.
+
 ## Skatten på blåa anor {slug:ludvigvonbahr}
 
 Din arvssyndsskatt är enkel: den som skryter om fin börd och stora anor betalar, i mynt eller i en berättelse. **Kapten Dunka** är den finaste bördan du känner till, ett tveeggat svärd fullt av påstådd historia och en familj han aldrig slutar nämna. Res din skattebod, kräv betalt av honom innan festen är över, och låt honom antingen betala, dementera högljutt, eller snubbla på en detalj i sin egen myt.
@@ -29,9 +35,3 @@ Du och **Kapten Klöver** har länge planerat en hemlig, exklusiv ätupplevelse 
 **Svarta Malin** avfärdade din arvssyndsskatt i en skål inför hela hamnen, kallade den söt men tvåa, som om ditt hantverk var en barnlek jämfört med hennes egen ståt. Du sa inget tillbaka. Du behöver inte stå mitt i ett drama för att få rätt.
 
 Res din skattebod där **Korvetten Kurtisanen** går förbi, och lägg din taxa på var och en av dem som bär hennes namn och skryter om att stå henne nära. Låt jubilarens eget folk betala för den stolthet hon själv kallade tvåa, mynt för mynt, tills din skatt med mynt och sedlar väger tyngre än hennes skål. Du behöver aldrig nämna hennes namn för att hon ska förstå vem som skickade räkningen.
-
-## Stugan ingen pratar om {slug:malintadaa}
-
-Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
-
-Ett hus som ingen pratar om kan gömma vad som helst, och du har alltid haft ett öga för vad folk håller undan. Kalla ihop **Fregatten Fromheten** och ta er över till den öde ön innan helgen är över, lugnt och utan drama, och se om huset finns på riktigt.

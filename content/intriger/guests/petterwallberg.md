@@ -10,6 +10,12 @@ mirrors:
 related: [viktoransund, hampuslindblad, johannabergman, minimacklin, malintadaa, josefinlowing]
 ---
 
+## Skulden du inte vågar nämna {slug:malintadaa}
+
+Du är skyldig **Svarta Malin** pengar, en summa du lånade för att köpa dig in i ett vad du var säker på att vinna, och förlorade stort. Hon glömmer aldrig en skuld: hon för logg över vartenda mynt, varenda ed och varenda obetald skål någon någonsin dragit på sig, och ditt namn står redan där. Du vill åt den loggen, inte för att betala tillbaka, utan för att se vad mer den håller, om dig och om andra.
+
+Var den sitter vet du inte, bara att den finns. Jaga den med **Korvetten Kurtisanen** vid din sida, men gör det tyst. Hon är er egen kapten, hon delar koj och köl med er hela helgen, och den som grävt i hennes förflutna vill helst inte att hon kommer runt hörnet mitt i grävandet.
+
 ## Skammens rand {slug:viktoransund}
 
 Du har fyra skägg i din låda, skurna av kaptener du besegrat medan de ännu andades. Vartenda ett bär en historia du kan utantill, och den som förlorar sitt skägg till dig förlorar sitt rykte på köpet.
@@ -31,9 +37,3 @@ Nu delar hon båtar, rep och rigg med **Kapten Rödskägg**, mannen vars skamran
 ## Fragmentet du köper av Blodig {slug:viktoransund}
 
 **Kapten Blodig** kan komma med ett fragment om **Kapten Rödskägg**s hemliga liv, snappat upp mitt i sin egen jakt på jubilarens älskare. Köp det av henne om hon erbjuder, och riv upp det vid precis fel tillfälle, mitt i striden om vem som är Skäggkonung. En rival med en skandal i baksätet är lättare att kröna över.
-
-## Skulden du inte vågar nämna {slug:malintadaa}
-
-Du är skyldig **Svarta Malin** pengar, en summa du lånade för att köpa dig in i ett vad du var säker på att vinna, och förlorade stort. Hon glömmer aldrig en skuld: hon för logg över vartenda mynt, varenda ed och varenda obetald skål någon någonsin dragit på sig, och ditt namn står redan där. Du vill åt den loggen, inte för att betala tillbaka, utan för att se vad mer den håller, om dig och om andra.
-
-Var den sitter vet du inte, bara att den finns. Jaga den med **Korvetten Kurtisanen** vid din sida, men gör det tyst. Hon är er egen kapten, hon delar koj och köl med er hela helgen, och den som grävt i hennes förflutna vill helst inte att hon kommer runt hörnet mitt i grävandet.

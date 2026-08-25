@@ -12,17 +12,17 @@ mirrors:
 related: [jesperlindmarker, johannabergman, elinmartensson, gustaftadaa, jesperlejfjord]
 ---
 
-## Vad du inte vet om Hurring {slug:jesperlindmarker}
-
-Du ger **Kapten Hurring** mer än din hemlighet. Du ger honom ryggen, munnen, allt du en gång erbjöd piskan, och du gör det för att du vill, inte för att någon dömt dig. Du anar inte att han samtidigt tar **Kapten Klöver** i säng. Nu vill han ha hjälp att hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld ingen ännu löst.
-
-**Kapten Klöver** har hört ett skvaller som pekar mot en ryktesspridare, men vill ha betalt i choklad eller mynt innan hon delar det, helst av dig än gratis. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, och du vägrar be henne om hjälp rakt ut. Fuska med din lilla kortlek om du måste, men lös gåtan själv innan festen är över, och låt Hurring se vem av er två som egentligen förtjänar att bli knullad av honom.
-
 ## Given du ger honom {slug:jesperlindmarker}
 
 Din lust till **Kapten Hurring** har gjort dig till mer än hans hemliga älskarinna. Allt du hör och ser inne på **Fregatten Fromheten**, dina egna skeppskamraters planer, deras svaga punkter, deras gömmen, bär du rakt till honom, och genom honom till **Korvetten Kurtisanen**. Du vet precis vem det gynnar, och han vet att du vet det. Men du gör det inte för att du svurit hans skuta någon trohet. Du gör det för att det är honom du vill ha i säng, och det räcker för att göra din egen besättning till ett pris du gärna betalar.
 
 Ge honom det han ber om, plan för plan, gömma för gömma, och lita på att kuken bär tyngre än skutan du föddes in i. Håll det dolt för både din egen kapten och hans, innan festen är över.
+
+## Vad du inte vet om Hurring {slug:jesperlindmarker}
+
+Du ger **Kapten Hurring** mer än din hemlighet. Du ger honom ryggen, munnen, allt du en gång erbjöd piskan, och du gör det för att du vill, inte för att någon dömt dig. Du anar inte att han samtidigt tar **Kapten Klöver** i säng. Nu vill han ha hjälp att hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld ingen ännu löst.
+
+**Kapten Klöver** har hört ett skvaller som pekar mot en ryktesspridare, men vill ha betalt i choklad eller mynt innan hon delar det, helst av dig än gratis. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, och du vägrar be henne om hjälp rakt ut. Fuska med din lilla kortlek om du måste, men lös gåtan själv innan festen är över, och låt Hurring se vem av er två som egentligen förtjänar att bli knullad av honom.
 
 ## Hornet som ska krossas {slug:elinmartensson}
 

@@ -13,6 +13,16 @@ mirrors:
 related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr, malintadaa, fabianmacklin]
 ---
 
+## Aldrig vila {slug:malintadaa}
+
+**Svarta Malin** vilar aldrig. Det ryktas att hon skrev om just det, om att kämpa utan paus tills kroppen tar vad den redan slitit för, och att bladet sitter i gymmet. Ingen har läst det än. Ta **Fregatten Fördärvet** med dig och hämta det innan en annan skuta gör det.
+
+## Lasten hon bär åt dig {slug:alexandrapalmquist}
+
+**Kapten Babord** ger dig mer än ett rakt ansikte när du "tecknar" på gården. Hon för allt hon hör inne på **Galeonen Gnället** rakt till dig, och därmed till hela **Fregatten Fördärvet**: planer, gömmen, viskningar, ett grepp om en skuta ni annars aldrig skulle ana något om. Hon vet precis vems lag hon hjälper, det är ingen tvekan mellan er om det. Men skälet hon gör det av är bara du, inte flaggan, och det gör henne farligt lätt att förlora om du någonsin tar det för givet.
+
+Be henne inte om det som rör **Kapten Rötägg** utan att veta vad du ber om. Han seglar vid hennes sida hela helgen, ovetande om att hon redan valt din sida i den gamla röta som aldrig läkt mellan er. Skydda henne från att avslöjas som spion lika hårt som du skyddar din egen påhittade dövhet, innan festen är över.
+
 ## Det du hör vid syhörnan {slug:ulrikahammar}
 
 Din dövhet är påhitt, ett sätt att slippa strunt och tjuvlyssna ostört, och ingen vid **Kapten Barnsben**s sy- och broderihörna anar att du hör varenda viskning som passerar. Där uppvaktar både **Kapten Nykter** och **Kapten Rosing** henne, var för sig, i hopp om att bli den hon litar på när mörkret faller och krumelurpillret ska tas. Du vet redan, innan någon av dem gör det, vem hon egentligen väljer. Du väljer själv om du någonsin säger det högt, eller sparar det, innan festen är över, till något som är värt mer än ett skvaller.
@@ -31,12 +41,6 @@ Ditt hittepå-teckenspråk är precis lika påhittat som din dövhet. Håll en w
 
 Ditt flaskade sanningsserum kan hamna i en kopp nära Hjärter, eller nära den som hotar avslöja dig. Håll det dolt innan festen är över: någon på ön kan riktigt teckenspråk, och Hjärter har redan sett dig reagera på ljud du "inte kan höra".
 
-## Lasten hon bär åt dig {slug:alexandrapalmquist}
-
-**Kapten Babord** ger dig mer än ett rakt ansikte när du "tecknar" på gården. Hon för allt hon hör inne på **Galeonen Gnället** rakt till dig, och därmed till hela **Fregatten Fördärvet**: planer, gömmen, viskningar, ett grepp om en skuta ni annars aldrig skulle ana något om. Hon vet precis vems lag hon hjälper, det är ingen tvekan mellan er om det. Men skälet hon gör det av är bara du, inte flaggan, och det gör henne farligt lätt att förlora om du någonsin tar det för givet.
-
-Be henne inte om det som rör **Kapten Rötägg** utan att veta vad du ber om. Han seglar vid hennes sida hela helgen, ovetande om att hon redan valt din sida i den gamla röta som aldrig läkt mellan er. Skydda henne från att avslöjas som spion lika hårt som du skyddar din egen påhittade dövhet, innan festen är över.
-
 ## Röta som inte glöms {slug:edvinthungren}
 
 **Kapten Rötägg** var röta mot dig en gång, innan han påstod sig ändra sig, och du teg då av skäl som var dina egna. Nu vill han vara snäll, hjälpa till med workshopen av ren vänlighet, och det är det sista du önskar dig: han kan råka avslöja mer om dig än han anar, inför alla, bara genom att hjälpa för mycket. Du köper inte hans omvändelse. Håll honom på avstånd om du kan, innan festen är över.
@@ -44,7 +48,3 @@ Be henne inte om det som rör **Kapten Rötägg** utan att veta vad du ber om. H
 ## Skulden Fuling håller tyst om {slug:louisevonbahr}
 
 **Kapten Fuling**, din egen skeppskamrat, har länge anat att din dövhet är påhitt men sagt ingenting. Det passar henne bättre att ha en skuld att kräva in senare än att avslöja dig gratis nu. Hon kan när som helst nämna, i förbifarten, att hon "alltid undrat" hur du klarar dig utan att höra, ett hot utan hot i orden. Räkna med att den dagen kommer innan festen är över.
-
-## Aldrig vila {slug:malintadaa}
-
-**Svarta Malin** vilar aldrig. Det ryktas att hon skrev om just det, om att kämpa utan paus tills kroppen tar vad den redan slitit för, och att bladet sitter i gymmet. Ingen har läst det än. Ta **Fregatten Fördärvet** med dig och hämta det innan en annan skuta gör det.

@@ -10,6 +10,12 @@ mirrors:
 related: [malintadaa, amandamungsgard, fabianmacklin]
 ---
 
+## Skulden under bordet {slug:malintadaa}
+
+Du är skyldig **Svarta Malin** pengar, en skuld som blivit större för varje kväll du skjutit upp att nämna den. Hon för logg över vartenda mynt, varenda ed och varenda obetald skål som dragits på någon, och ditt namn står redan där, med bläck som inte suddas. Du vill åt loggen, inte för att betala, utan för att se vad mer den håller.
+
+Var den sitter vet du inte. Kalla ihop **Galeonen Gnället** och börja leta, innan en annan skuta hinner före er.
+
 ## Erövraren vid hennes bord {slug:malintadaa}
 
 Hamnen har underskattat dig länge nog. Nu har **Svarta Malin** äntligen fått syn på måttet: en romans, synlig för den som tittar, diskret nog att kunna förnekas om det krävs. En skål med dubbel botten. En hand som stannar en sekund för länge. En av dina långa, envisa kramar som får hela kajen att tappa räkningen. Du vill ha mer än ryktet. Du vill ha jubilaren mot bordet, under dig, runt dig, tills namnet Svarta Malin smakar svett och inte bara rom.
@@ -27,9 +33,3 @@ Du hatar hur rätt hon har. Du hatar det inte nog för att sluta vilja ha henne.
 ## Hamnskämtet som aldrig dör {slug:fabianmacklin}
 
 **Kapten Nykter** gjorde en gång din svärdshistoria till ett stående hamnskämt, upprepat vid varje bord där du själv inte är. Du svarade som du alltid gör: en av dina långa, envisa kramar, tills andan och äran gick ur honom. Det är inte glömt av någon av er, minst av allt av dig.
-
-## Skulden under bordet {slug:malintadaa}
-
-Du är skyldig **Svarta Malin** pengar, en skuld som blivit större för varje kväll du skjutit upp att nämna den. Hon för logg över vartenda mynt, varenda ed och varenda obetald skål som dragits på någon, och ditt namn står redan där, med bläck som inte suddas. Du vill åt loggen, inte för att betala, utan för att se vad mer den håller.
-
-Var den sitter vet du inte. Kalla ihop **Galeonen Gnället** och börja leta, innan en annan skuta hinner före er.

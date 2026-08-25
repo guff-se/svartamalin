@@ -10,12 +10,6 @@ mirrors:
 related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa]
 ---
 
-## Kärleken du vill pröva {slug:edvinthungren}
-
-**Kapten Rötägg** gav dig manschettknappar med enhörningar för kärlekens skull, och han säger att han lämnat sin röta bakom sig, från tiden han miste sitt eget skepp genom att vara grym mot sin besättning. Du vill veta om det är sant, inte med ord, utan med kroppen. Du vill rida den mjuka mannen tills den gamla rötan syns, eller tills du är säker på att den är död. Enhörningen på knapparna är söt. Hornet du vill ha sitter lägre.
-
-**Kapten Barnsben** var med då, och minns honom bättre än han önskar. Sök upp henne, gärna vid hennes sy- och broderihörna, och fråga vad hon vet. Hittar du inte henne kan **Kapten Nykter** svara istället, fast hans svar färgas av hans eget nöje av att se andra desperata. Fråga innan festen är över. Du förtjänar att veta vem du tar i säng, och om han tål att bli tagen på allvar.
-
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 
 Vid festbordet går ett rykte som ingen vågar säga rakt ut framför skepparen: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det på ett blad. Bladet ska vara rivet i två, säger man, en halva gömd vid **Gubben i stubben**, den andra vid **Gumman på udden**. Ingen har lyckats sätta ihop dem än.
@@ -25,3 +19,9 @@ Du seglar på hennes egen köl, delar koja och köl med henne hela helgen, och d
 ## Bokstäver som flyttar sig {slug:malintadaa}
 
 När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, förskjuter hon bokstäverna tretton steg framåt. A blir N. Knepet är värt noll tills någon kommer med ett blad de inte kan tyda. Då är du den som kan läsa.
+
+## Kärleken du vill pröva {slug:edvinthungren}
+
+**Kapten Rötägg** gav dig manschettknappar med enhörningar för kärlekens skull, och han säger att han lämnat sin röta bakom sig, från tiden han miste sitt eget skepp genom att vara grym mot sin besättning. Du vill veta om det är sant, inte med ord, utan med kroppen. Du vill rida den mjuka mannen tills den gamla rötan syns, eller tills du är säker på att den är död. Enhörningen på knapparna är söt. Hornet du vill ha sitter lägre.
+
+**Kapten Barnsben** var med då, och minns honom bättre än han önskar. Sök upp henne, gärna vid hennes sy- och broderihörna, och fråga vad hon vet. Hittar du inte henne kan **Kapten Nykter** svara istället, fast hans svar färgas av hans eget nöje av att se andra desperata. Fråga innan festen är över. Du förtjänar att veta vem du tar i säng, och om han tål att bli tagen på allvar.

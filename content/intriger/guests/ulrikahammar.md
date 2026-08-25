@@ -14,17 +14,17 @@ mirrors:
 related: [fabianmacklin, linneaekbom, navidmodiri, alexandrapalmquist, edvinthungren, linneaappert]
 ---
 
-## Skymningens piller {slug:fabianmacklin}
-
-När mörkret faller måste du svälja ett piller ur din lilla krumelurburk, annars slutar du vara barn och blir stor, ett öde du fasar mer för än något annat på ön. Ingen vet, och du vill hålla det så: bara den du verkligen litar på får se burken, eller en klick av den i en drink hos någon du tycker blivit alltför allvarlig och vuxen under dagen.
-
-**Kapten Nykter** har lagt märke till dig och uppvaktar dig varmt, gärna precis vid din sy- och broderihörna där du håller till mellan varven. Han vill vara den du anförtror dig åt i skymningen, den som håller burken när mörkret kommer. Du bestämmer själv vem du litar på mest innan festen är över. Dela ut ett piller, eller lägg en klick i en drink, till vem du vill.
-
 ## Lasten du redan lämnat {slug:fabianmacklin}
 
 Du har inte valt vem som ska hålla din burk när mörkret faller, inte offentligt, inte än. Men **Kapten Nykter** har redan fått det som betyder mer än ett val vid syhörnan: din hjälp. Allt du hör och ser inne på **Korvetten Kurtisanen**, vem som viskar med vem och vart faten bärs, för du vidare till honom, i utbyte mot ett löfte du tar på blodigt allvar: att ingen, inte **Kapten Rosing**, inte hela hans egen besättning, ska stå mellan er den kväll du väljer att lita på honom helt. Det du faktiskt gör är att hjälpa **Barken Bortförklaringen** vinna mark, på din egen skutas bekostnad. Du gör det inte av kärlek till Bortförklaringen. Du gör det för honom, och han vet precis vad han fått av dig.
 
 Håll det dolt för din egen skuta, även för **Svarta Malin**, tills du bestämt dig för gott. Ett enda felsteg och du blir den kurtisan som sålde sin egen kapten, inte den som räddade sitt hjärta. Välj hur mycket du ger honom, och när, innan festen är över.
+
+## Skymningens piller {slug:fabianmacklin}
+
+När mörkret faller måste du svälja ett piller ur din lilla krumelurburk, annars slutar du vara barn och blir stor, ett öde du fasar mer för än något annat på ön. Ingen vet, och du vill hålla det så: bara den du verkligen litar på får se burken, eller en klick av den i en drink hos någon du tycker blivit alltför allvarlig och vuxen under dagen.
+
+**Kapten Nykter** har lagt märke till dig och uppvaktar dig varmt, gärna precis vid din sy- och broderihörna där du håller till mellan varven. Han vill vara den du anförtror dig åt i skymningen, den som håller burken när mörkret kommer. Du bestämmer själv vem du litar på mest innan festen är över. Dela ut ett piller, eller lägg en klick i en drink, till vem du vill.
 
 ## Den andra uppvaktaren {slug:linneaekbom}
 
