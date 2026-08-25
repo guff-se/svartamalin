@@ -89,7 +89,7 @@ Struktur att fylla i:
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
 | Escape-spåret | Fem parallella quests till cryptex-bokstäver. Varje skuta har tre ingångar. Olösligt utan XII vid 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16. Q-2 är stuga och grav utan pussel, B-17. Q-3 är gym, vedhög, badbrygga, B-19. Q-4 är Tomtebobarnen, kikare, skylt, B-20. Q-5 är väggen och svärdfisken, B-18. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-3: gymmet, vedhögen bakom bastun, under badbryggan. Q-4: Storstugan hyllan, kikaren, skylt på annan ö. Q-5: Storstugan, porträttväggen, svärdfiskens mun. | cryptexen vid festen |
-| Optiska spåret | Q-4. Kikaren mot skylten. | skuta 1, 2, 4 | Kikaren, skylt på annan ö | cryptexen |
+| Optiska spåret | Q-4. Kikaren mot skylten. | skuta 1, 4, 5 | Kikaren, skylt på annan ö | cryptexen |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. Gymmet är taget av Q-3. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
 | Älskarspåret | Malin gömmer någon. Hjärter och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
@@ -249,7 +249,7 @@ Om det floppar: de tre hatar varandra ändå. Huvudstoryn stannar inte.
 Akt:            II
 Tid:            10.30 till 13.30
 Plats:          Gubben i stubben, Gumman på udden, klätternätet
-Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Planka (`linneaappert`), Kapten Frodig (`josefinansund`), Kapten Plåthorn (`elinmartensson`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i [`quests.md`](quests.md), hon jagar bladen bakom Malins rygg.
+Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen). Start: Kapten Planka (`linneaappert`), Kapten Kuling (`josefinlowing`), Kapten Frodig (`josefinansund`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i [`quests.md`](quests.md), hon jagar bladen bakom Malins rygg.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
 Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 2, vänder, följer baksidan till klätternätet. I påsen: blad 5 (hämnden) och cryptex-lappen. Engångs: första laget bär föremålen. Kronologi: [`quests.md`](quests.md). Inte samma som hittordningen.
@@ -333,7 +333,7 @@ Om det floppar: tre andra quests plus XII räcker. En Q-3-skuta utan lapp måste
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
 Plats:          Storstugan hyllan, kikaren, skylt på annan ö
-Inblandade:     Skuta 1, 2, 4. Startpersoner öppna. Inte skuta 3, inte skuta 5 (båda fulla). Inte Malin, inte Spader, inte mullvad.
+Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Kapten Hurring (`jesperlindmarker`), Kapten Hjärter (`jesperlejfjord`), Kapten Plåthorn (`elinmartensson`). Inte skuta 2, inte skuta 3. Inte Malin, inte Spader, inte mullvad. Hurring är Kurtisanen: quests.md punkt 8.
 Publik:         den som ser folk bläddra i barnboken, och den som står i kö vid kikaren
 
 Vad händer:     tre skutor jagar vad Malin längtar efter. Starten pekar mot *Tomtebobarnen* i hyllan i Storstugan, hennes favoritbok som barn. Inte dagboken. Inte havet. I boken: blad 1 (ung, havet och friheten, fastsatt) och en kompassbild med sann bäring (fastsatt). Kikaren är slutdestination och metafor. I rätt bäring: skylt på annan ö med en cryptex-bokstav. Tas inte. Pit stop och skatt återanvändbara. Bäring mäts på plats.

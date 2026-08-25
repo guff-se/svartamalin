@@ -11,6 +11,12 @@ mirrors:
 related: [josefinlowing, minervalowgren, linneaekbom, gustaftadaa, malintadaa]
 ---
 
+## Barnets bok på hyllan {slug:malintadaa}
+
+Innan hon var jubilarens namn på alla läppar var **Svarta Malin** bara ett barn med en favoritbok. *Tomtebobarnen*, säger de äldsta vid kajen, en sliten liten volym hon aldrig ville släppa taget om. Den ska visst stå kvar än i dag, på en hylla i Storstugan, omgiven av allt hon senare blev.
+
+En sådan detalj är för god att bara höra och glömma. Ta med dig **Galeonen Gnället** och gå och leta upp den, innan en annan skuta hinner före er.
+
 ## Hornet de vill ta ifrån dig {slug:minervalowgren}
 
 Ditt plåthorn är ingen leksak: blås i det och alla pirater i närheten drabbas av en ohämmad upphetsning så våldsam att striden avstannar, vilket ger dig precis den lucka du behöver för att smita undan när det blir på allvar. Du släpper det aldrig frivilligt och bär det tätt inpå kroppen jämt.
@@ -22,12 +28,6 @@ Ditt plåthorn är ingen leksak: blås i det och alla pirater i närheten drabba
 **Löjtnant Spader** är din hemliga lust, dold även för dina egna skutkamrater på Gnället. Han bär spader i ring och halsband, spelar kort som ingen annan kan, och ryktas fuska utan att någon någonsin bevisat hur. Bara du vet hur ofta han vinner när han egentligen borde förlora. Du vill ha de händerna. Du vill bli blandad, tagen, satt som en insats bara ni två känner till.
 
 **Kapten Kuling** har fått för sig att hon behöver en listig hand för att komma åt ditt horn, och Spader är känd som precis den sortens hand. Hon vet inte att han redan är din. Lita på att han väljer dig när det gäller, eller oroa dig för att spelet frestar honom mer. Det är ditt val om du säger något till honom om vad du anar, eller låter honom bevisa det själv, innan festen är över.
-
-## Ett rivet blad om en glömd kärlek {slug:malintadaa}
-
-Vid festbordet går ett rykte som får hela salen att sänka rösten: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det svart på vitt. Bladet ska vara rivet i två, en halva gömd vid **Gubben i stubben**, en vid **Gumman på udden**.
-
-Kalla på **Galeonen Gnället** och sök upp båda platserna innan någon annan skuta hittar dem först. Den som sätter ihop halvorna vet mer om Malin än Malin själv vill dela.
 
 ## Det du vet om hans vinster {slug:gustaftadaa}
 

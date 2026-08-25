@@ -121,19 +121,19 @@ Snapshot av [`fordelning.yaml`](fordelning.yaml). Ändra där, sedan här. Fet =
 | Skuta | Q-1 Första kärleken | Q-2 Pirat | Q-3 Korvetten | Q-4 Havet | Q-5 Skuldboken |
 |-------|---------------------|-----------|---------------|-----------|----------------|
 | 1 Korvetten Kurtisanen | **Planka** | — | *tvär: Hurring, Planka* | **Hurring** | **Lösskägg** |
-| 2 Fregatten Fördärvet | — | **Blodig** | **Döver** | **Kuling** | *tvär: Blodig* |
+| 2 Fregatten Fördärvet | **Kuling** | **Blodig** | **Döver** | — | *tvär: Blodig* |
 | 3 Barken Bortförklaringen | **Frodig** | **Enben** | *tvär: Enben, Frodig* | — | **Nykter** |
 | 4 Fregatten Fromheten | — | **Kosing** | **Rödskägg** | **Hjärter** | *tvär: Rödskägg* |
-| 5 Galeonen Gnället | **Plåthorn** | — | **Rosing** | — | **Dunka** |
+| 5 Galeonen Gnället | — | — | **Rosing** | **Plåthorn** | **Dunka** |
 
 Per quest, tre starter:
 
 | Quest | Skutor | Start |
 |-------|--------|-------|
-| Q-1 | 1, 3, 5 | Planka (`linneaappert`), Frodig (`josefinansund`), Plåthorn (`elinmartensson`) |
+| Q-1 | 1, 2, 3 | Planka (`linneaappert`), Kuling (`josefinlowing`), Frodig (`josefinansund`) |
 | Q-2 | 2, 3, 4 | Blodig (`minimacklin`), Enben (`amaliawahlstrom`), Kosing (`amandamungsgard`) |
 | Q-3 | 2, 4, 5 | Döver (`navidmodiri`), Rödskägg (`viktoransund`), Rosing (`linneaekbom`) |
-| Q-4 | 1, 2, 4 | Hurring (`jesperlindmarker`), Kuling (`josefinlowing`), Hjärter (`jesperlejfjord`) |
+| Q-4 | 1, 4, 5 | Hurring (`jesperlindmarker`), Hjärter (`jesperlejfjord`), Plåthorn (`elinmartensson`) |
 | Q-5 | 1, 3, 5 | Lösskägg (`petterwallberg`), Nykter (`fabianmacklin`), Dunka (`ludvigvonbahr`) |
 
 Tvärledtråd: Q-3 Caesar till skuta 1 och 3. Q-5 porträttväggen till skuta 2 och 4. Q-1 och Q-4 har ingen. Q-2 får ingen.

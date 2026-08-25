@@ -12,14 +12,14 @@ mirrors:
   - slug: petterwallberg
     note: romans, hon tar utan förförarskägg (tvåvägs)
 # gustaftadaa: hon vet inte att han älskar Plåthorn i hemlighet, se hans fil
-related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker, viktoransund, petterwallberg]
+related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker, viktoransund, petterwallberg, malintadaa]
 ---
 
-## Barnets bok på hyllan {slug:malintadaa}
+## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 
-Innan hon var jubilarens namn på alla läppar var **Svarta Malin** bara ett barn med en favoritbok. *Tomtebobarnen*, säger de äldsta vid kajen, en sliten liten volym hon aldrig ville släppa taget om. Den ska visst stå kvar än i dag, på en hylla i Storstugan, omgiven av allt hon senare blev.
+Vid festbordet viskas ett rykte som får även de mest skvallersugna att sänka rösten: att **Svarta Malin**, långt innan hon bar kaptenstiteln, en gång älskade så hett att hon skrev det på papper. Bladet ska vara rivet i två halvor, en gömd vid **Gubben i stubben**, en vid **Gumman på udden**. Ingen har lyckats sätta ihop dem än.
 
-En sådan detalj är för god att bara höra och glömma. Ta med dig **Fregatten Fördärvet** och gå och leta upp den, innan en annan skuta hinner före er.
+Kalla på **Fregatten Fördärvet** och sök upp båda platserna innan en annan skuta hinner före. Den som förenar halvorna först sitter på ett rykte värt mer än guld.
 
 ## Hornet du redan hånat {slug:elinmartensson}
 

@@ -817,7 +817,7 @@ fordelning:
   - id: 65
     beat: B-16
     akt: II
-    till: [elinmartensson]
+    till: [josefinlowing]
     roll: jagare
     vet: "att det ryktas att Svarta Malin skrev om sin första kärlek i ett dagboksblad, och att bladet ligger rivet i två halvor vid Gubben i stubben och Gumman på udden"
     vet_inte: "att hon var kurtisan, hämnden, Ottos namn, att skutan är döpt efter yrket, klätternätet, cryptex-lappen, att älskaren nu är kungen, hur hon fick skutan (Q-3), hur hon blev pirat (Q-2), att kistan öppnas"
@@ -1091,10 +1091,11 @@ fordelning:
     pussel: null
     status: done
 
-# B-20 Q-4-tillsättning (2026-08-25): skuta 1, 2, 4. Start: Kapten Hurring (`jesperlindmarker`),
-# Kapten Kuling (`josefinlowing`), Kapten Hjärter (`jesperlejfjord`). Ingen tvärledtråd (2026-08-25).
-# Skuta 1:s start landar på Kurtisanen (quests.md punkt 8): jesperlindmarker, inte ulrikahammar
-# (mullvad, se forradare.yaml) och inte malintadaa/petterwallberg/linneaappert (undantag/redan starter).
+# B-20 Q-4-tillsättning: skuta 1, 4, 5. Start: Kapten Hurring (`jesperlindmarker`),
+# Kapten Hjärter (`jesperlejfjord`), Kapten Plåthorn (`elinmartensson`). Ingen tvärledtråd.
+# 2026-08-25: Q-4 byttes mot Q-1 mellan Kuling (skuta 2) och Plåthorn (skuta 5) så skuta 2
+# och 4 inte längre överlappar helt. Skuta 1:s start landar på Kurtisanen (quests.md punkt 8):
+# jesperlindmarker, inte ulrikahammar (mullvad) och inte malintadaa/petterwallberg/linneaappert.
 # Inte mullvad, inte Malin, inte Spader.
 
   - id: 87
@@ -1112,7 +1113,7 @@ fordelning:
   - id: 88
     beat: B-20
     akt: II
-    till: [josefinlowing]
+    till: [elinmartensson]
     roll: jagare
     vet: "att Svarta Malin som barn hade en favoritbok, Tomtebobarnen, som ska stå kvar på en hylla i Storstugan"
     vet_inte: "havet, friheten, kikaren, kompassen, dagboksbladet, skylten, bäringen, kungen, att kistan öppnas"

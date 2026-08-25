@@ -74,7 +74,7 @@ Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin
 
 ## Belastningsöversikt
 
-Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms bort. Pusselansvar speglar [`fordelning.yaml`](fordelning.yaml) och questfilerna, inte omvänd riktning. Q-4: skuta 1, 2, 4. Start: `jesperlindmarker`, `josefinlowing`, `jesperlejfjord`. Ingen tvärledtråd.
+Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms bort. Pusselansvar speglar [`fordelning.yaml`](fordelning.yaml) och questfilerna, inte omvänd riktning. Q-4: skuta 1, 4, 5. Start: `jesperlindmarker`, `jesperlejfjord`, `elinmartensson`. Ingen tvärledtråd.
 
 | slug | Romanser | Fiender | Sidequest i huvudstory | Pusselansvar |
 |------|----------|---------|------------------------|--------------|
@@ -85,7 +85,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | Q-3 (tvärledtråd), Q-4 (start) |
 | `louisevonbahr` | 1 | 1 | | |
-| `josefinlowing` | 1 | 1 | | Q-4 (start) |
+| `josefinlowing` | 1 | 1 | | Q-1 (start) |
 | `navidmodiri` | 2 | 2 | | Q-3 (start) |
 | `minimacklin` | 1 | 2 | | Q-2 (start), Q-5 (tvärledtråd) |
 | `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
@@ -101,4 +101,4 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `alexandrapalmquist` | 1 | 1 | | |
 | `hampuslindblad` | 1 | 3 | | |
 | `edvinthungren` | 1 | 3 | | |
-| `elinmartensson` | 1 | 1 | | Q-1 (start) |
+| `elinmartensson` | 1 | 1 | | Q-4 (start) |
