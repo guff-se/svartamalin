@@ -4,7 +4,7 @@ Två slags gästtext på skärm, en på papper, och intern text. Blanda inte iho
 
 Gäster läser:
 
-- **Intriger** i `intriger/crews/` och `intriger/guests/` (inloggad, per person/lag). En gäst ser **bara** sin egen gästfil och sin lagfil, plus copy. Inte andras.
+- **Intriger** i `intriger/crews/` och `intriger/guests/` (inloggad, per person/lag). En gäst ser **bara** sin egen gästfil och sin lagfil, plus copy. Inte andras. Gemensam världs-ingång först: [`copy/intriger_intro.md`](copy/intriger_intro.md).
 - **Sajtcopy** i `copy/` (all brödtext på webbsidan)
 - **Rekvisita** i `rekvisita/` (på papper, på ön, inte på sajten)
 
@@ -18,6 +18,7 @@ Allt annat under `content/` läses av Gustaf och av framtida agenter. Ingen gäs
 |-----|-----|------|
 | Lagintriger | [`intriger/crews/{id}.md`](intriger/crews/) | [`intriger/STYLE.md`](intriger/STYLE.md) |
 | Individintriger | [`intriger/guests/{slug}.md`](intriger/guests/) | samma |
+| Gemensam världs-ingång | [`copy/intriger_intro.md`](copy/intriger_intro.md) | Sajtrösten. **Inte** STYLE.md. Visas först när intrigerna presenteras. |
 | Sajtens brödtext | [`copy/{key}.md`](copy/README.md) | Sajtrösten. **Inte** STYLE.md. |
 | Tryckt rekvisita | [`rekvisita/`](rekvisita/README.md) | Den fiktiva avsändaren. **Inte** STYLE.md. Inte på sajten. YAML-taggar, max 10 rader meta, sedan `## Tryck`. |
 

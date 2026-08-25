@@ -7,6 +7,7 @@ import { sortByPirateNameId } from '../lib/pirate-name-order.js'
 import { getCrewIntriger, intrigerListHtml } from '../lib/intriger.js'
 import { pirateCardHtml } from './pirate-card.js'
 import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
+import { renderNarrative } from './narrative-section.js'
 
 export async function renderMyCrew(el) {
   const guestId = getGuestId()
@@ -23,10 +24,12 @@ export async function renderMyCrew(el) {
 
   if (!me || me.crew_id === null) {
     el.innerHTML = `
+      <div class="intriger-intro"></div>
       <p class="crew-empty">
         Lagen seglas fortfarande ihop. Du får besked när din besättning är klar.
       </p>
     `
+    await renderNarrative(el.querySelector('.intriger-intro'), { key: 'intriger_intro' })
     return
   }
 
@@ -60,12 +63,15 @@ export async function renderMyCrew(el) {
     : ''
 
   el.innerHTML = `
+    <div class="intriger-intro"></div>
     <h2 class="crew-name">${escapeHtml(crewName)}</h2>
     <p class="crew-sub">Din skuta</p>
     ${crewIntrigerHtml}
     <h3 class="my-crew-members-heading">Besättningen</h3>
     <div class="crew-collage" id="my-crew-collage"></div>
   `
+
+  await renderNarrative(el.querySelector('.intriger-intro'), { key: 'intriger_intro' })
 
   const grid = el.querySelector('#my-crew-collage')
   wirePirateCardGrid(grid)

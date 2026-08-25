@@ -22,4 +22,6 @@ Hårdkoda inte brödtext i komponenter. Underrubriker i Praktiskt (`### Överfar
 
 `{key}.md`. Exempel: `boat_friday.md` → nyckeln `boat_friday`, som `renderNarrative(..., { key: 'boat_friday' })`.
 
+**Världs-ingång:** [`intriger_intro.md`](intriger_intro.md) är huvudstoryns gemensamma ram (år 1702, kapare och pirater, Svarta Malin) men publiceras som copy. Den visas först när intrigerna presenteras, i `src/components/my-crew.js`. Inte STYLE.md. Inte affären med kungen. Kanon: [`../huvudstory/kanon.md`](../huvudstory/kanon.md).
+
 Markdown som sajten förstår: `##`/`###`/`####`-rubriker, `**fet**`, `[länk](https://…)`, radbrytningar.

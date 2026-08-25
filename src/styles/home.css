@@ -726,6 +726,27 @@
   cursor: default;
 }
 
+/* Gemensam världs-ingång — först i intrigpresentationen */
+.intriger-intro {
+  margin: 0 0 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.25);
+  text-align: left;
+}
+.intriger-intro h2 {
+  margin: 0 0 0.85rem;
+  text-align: center;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.intriger-intro p {
+  margin: 0 0 0.85rem;
+}
+.intriger-intro p:last-child {
+  margin-bottom: 0;
+}
+
 /* Intriger — under lagnamn, ovanför medlemsraden */
 .crew-intriger {
   margin: 0 0 1.5rem;
