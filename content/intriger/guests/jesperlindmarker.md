@@ -23,7 +23,17 @@ related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaft
 
 Din svarta liggare handlar mest om vuxna synder: uppblåsta skulder, gamla svek, namn som borde skämmas. I kväll viskar hamnen något som inte passar in bland dem. Att **Svarta Malin**, som barn, hade en favoritbok hon aldrig ville lägga ifrån sig. *Tomtebobarnen*, säger de som minns henne från förr, står visst kvar än i dag på en hylla i Storstugan, som om ingen någonsin vågat rensa bort den.
 
-En sådan rad känns för liten för din liggare. Just därför är den för god att lämna. Ta med dig **Korvetten Kurtisanen** och gå och se efter, men gör det tyst. Hon är er egen kapten, hon delar koj och köl med er hela helgen, och den som bläddrar i hennes barndom vill helst inte att hon kommer runt hörnet mitt i bläddrandet.
+En sådan rad känns för liten för din liggare. Just därför är den för god att lämna. Ta med dig **Korvetten Kurtisanen** och gå och se efter, men gör det tyst. Hon är er egen kapten, hon delar koja och köl med er hela helgen, och den som bläddrar i hennes barndom vill helst inte att hon kommer runt hörnet mitt i bläddrandet.
+
+## Bokstäver som flyttar sig {slug:malintadaa}
+
+En annan rad i liggaren är inte rykte. Den är hantverk. När **Svarta Malin** inte vill att vem som helst ska läsa, förskjuter hon bokstäverna tretton steg framåt. A blir N. Sälj knepet till den som redan har ett blad de stirrar sig blinda på, eller behåll det tills budet är högt nog. Utan bladet är raden bara bläck.
+
+## Handen som viskar från Fromheten {slug:minervalowgren}
+
+**Kapten Prygel** ger dig allt hon hör inne på **Fregatten Fromheten**, sina egna skeppskamraters planer och gömmen, för att hon vill ha dig mer än hon värnar sin egen besättnings ära. Hennes skuta utlyser piratval mot **Svarta Malin** och predikar rena händer. Hon står i predikan. Hon bär hemligheterna till dig. Ta emot det hon ger, och ge **Korvetten Kurtisanen** fördelen det ger, men var försiktig med hur du belönar henne: samma natt kan **Kapten Klöver** kräva din tid, och Prygel får aldrig ana att hon delar dig, precis lika lite som hon anar att kuken hon riskerar allt för inte är din enda.
+
+Två kvinnor ger dig allt, och bara du vet hur nära den ena är att upptäcka den andra. Håll balansen, ta emot vad Prygel ger, och håll dig undan misstankar, innan festen är över och någon av dem räknar efter.
 
 ## Boken som ska fyllas {slug:louisevonbahr}
 
@@ -34,12 +44,6 @@ Din svarta liggare bär skulder, namn och gamla oförrätter, en del sanna, en d
 ## Två som inte vet om varandra {slug:johannabergman}
 
 Du delar säng med både **Kapten Klöver** och **Kapten Prygel**, var för sig, och ingen av dem vet om den andra. Du vill ha det så. Du vill ha Klöver mot madrassen och Prygel på knä, två munnar som båda tror att de är den enda, och du tänker mjölka den villfarelsen så länge den ger både knull och tjänster. Nu vill du utnyttja det: Klöver har hört ett fragment som pekar mot "någon som är bra på rykten", men vill ha betalt innan hon delar det, helst av Prygel än gratis av dig. Prygel har sin lilla kortlek och kan fuska tillbaka, men vägrar be Klöver om hjälp rakt ut. De två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning de aldrig gjort upp om, och deras groll gör att de hellre motarbetar varandra än går samman för din skull. Låt dem tävla om att lösa gåtan åt dig, var och en ovetande om att den andra delar din säng.
-
-## Handen som viskar från Fromheten {slug:minervalowgren}
-
-**Kapten Prygel** ger dig allt hon hör inne på **Fregatten Fromheten**, sina egna skeppskamraters planer och gömmen, för att hon vill ha dig mer än hon värnar sin egen besättnings ära. Ta emot det hon bär till dig, och ge **Korvetten Kurtisanen** fördelen det ger, men var försiktig med hur du belönar henne: samma natt kan **Kapten Klöver** kräva din tid, och Prygel får aldrig ana att hon delar dig, precis lika lite som hon anar att kuken hon riskerar allt för inte är din enda.
-
-Två kvinnor ger dig allt, och bara du vet hur nära den ena är att upptäcka den andra. Håll balansen, ta emot vad Prygel ger, och håll dig undan misstankar, innan festen är över och någon av dem räknar efter.
 
 ## Skulden i masten {slug:hampuslindblad}
 
@@ -52,7 +56,3 @@ Två kvinnor ger dig allt, och bara du vet hur nära den ena är att upptäcka d
 ## En rad som säljer sig själv {slug:amaliawahlstrom}
 
 Din svarta liggare rymmer mer än frågan om vem som en gång angav dig. Där finns också en gammal, aldrig bekräftad historia om **Svarta Malin** själv, den sortens rad som blir sannare för var gång den upprepas. Nu vill både **Kapten Enben** och **Kapten Kuling** ha den, var för sig, av var sitt gamla groll mot jubilaren. Du behöver inte veta vem som har mest rätt att klaga. Du behöver bara veta vem som betalar bäst, i mynt eller i en tjänst du kan kräva tillbaka senare. Sälj raden innan helgen är över, till den som bjuder högst, och låt de två slåss om vad den egentligen betyder.
-
-## Bokstäver som flyttar sig {slug:malintadaa}
-
-En annan rad i liggaren är inte rykte. Den är hantverk. När **Svarta Malin** inte vill att vem som helst ska läsa, förskjuter hon bokstäverna tretton steg framåt. A blir N. Sälj knepet till den som redan har ett blad de stirrar sig blinda på, eller behåll det tills budet är högt nog. Utan bladet är raden bara bläck.

@@ -63,6 +63,7 @@ fiender:
     a: louisevonbahr      # Kapten Fuling: Fregatten Fördärvet
     b: linneaappert       # Kapten Planka: Korvetten Kurtisanen
     # oförrätt: Planka vann auktion med Fulings börs; Fuling planterade silverrykte
+    # Inte samma som romans 25: Fuling vet inte att Planka tar Blåskägg.
     status: done
 
   - id: 6

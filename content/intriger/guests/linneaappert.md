@@ -7,7 +7,9 @@ mirrors:
     note: hon frågar vad Barnsben vet om Rötägg
   - slug: fabianmacklin
     note: reservsvar om Barnsben inte hittas
-related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa]
+  - slug: hampuslindblad
+    note: romans, hon krossade hans hjärta för en skuta, Fuling och Enben vet inte (tvåvägs, asymmetrisk kunskap)
+related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa, hampuslindblad]
 ---
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
@@ -25,3 +27,9 @@ När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, fö
 **Kapten Rötägg** gav dig manschettknappar med enhörningar för kärlekens skull, och han säger att han lämnat sin röta bakom sig, från tiden han miste sitt eget skepp genom att vara grym mot sin besättning. Du vill veta om det är sant, inte med ord, utan med kroppen. Du vill rida den mjuka mannen tills den gamla rötan syns, eller tills du är säker på att den är död. Enhörningen på knapparna är söt. Hornet du vill ha sitter lägre.
 
 **Kapten Barnsben** var med då, och minns honom bättre än han önskar. Sök upp henne, gärna vid hennes sy- och broderihörna, och fråga vad hon vet. Hittar du inte henne kan **Kapten Nykter** svara istället, fast hans svar färgas av hans eget nöje av att se andra desperata. Fråga innan festen är över. Du förtjänar att veta vem du tar i säng, och om han tål att bli tagen på allvar.
+
+## Vraket du lämnade {slug:hampuslindblad}
+
+**Kapten Blåskägg** lät dig använda hans lust som landgång. Du klev ombord på en annan kaptens skuta, tog besättningen, och lämnade honom i vraket. Han strandade. Skägget blånade. Han kallar det Galápagos. Du kallar det en lyckad bordning.
+
+Nu seglar ni båda mot samma fest, och lusten dog aldrig. Han vill ha sexmagick, rök och rit och dörren bakom medvetandet, och du vill ta honom genom den igen, samma kropp du en gång stal ett skepp med. Ta honom innan festen är över. **Kapten Rötägg** ger dig manschettknappar och svär att han ändrat sig. Låt inte de två jämföra tider, och låt inte Rötägg få veta vems hjärta du redan krossat för en köls skull.

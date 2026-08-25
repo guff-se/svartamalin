@@ -1,5 +1,6 @@
 ---
 # Skuta: **Barken Bortförklaringen** (crew_id: 3)
+# navidmodiri: enväg rykte att Döver också har sanningsserum, speglas inte
 mirrors:
   - slug: viktoransund
     note: skäggtrion, blåfärgad och avkrönt (tvåvägs)
@@ -11,7 +12,9 @@ mirrors:
     note: romans, hon hade dig först, Enben vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: amaliawahlstrom
     note: romans, hon kom efter, Fuling vet inte (tvåvägs, asymmetrisk kunskap)
-related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, amaliawahlstrom]
+  - slug: linneaappert
+    note: romans, hon krossade hjärtat för en skuta, Fuling och Enben vet inte (tvåvägs, asymmetrisk kunskap)
+related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, amaliawahlstrom, linneaappert, navidmodiri]
 ---
 
 ## Kronan Gnället köper {slug:linneaekbom}
@@ -26,17 +29,31 @@ Du hällde indigo i **Kapten Rödskägg**s tvättbalja medan han sov och lät ho
 
 ## Det fejkade skägget {slug:petterwallberg}
 
-Du kallade **Kapten Lösskägg**s skägg fejk inför hela hamnen, färgade det blått för att bevisa din poäng, och utropade dig till kung över alla tre skäggen på en och samma kväll. Han samlar riktiga skägg från kaptener han besegrat och tänker minsann bevisa att ditt anspråk är precis lika falskt som du påstod att hans skägg var.
+Ditt eget skägg är inte indigo. Det blånade av svamp och skeppsbrott på Galápagos, år av dörrar bakom medvetandet, och det är därför du kallar andras blå för färg. Du kallade **Kapten Lösskägg**s skägg fejk inför hela hamnen, färgade det blått för att bevisa din poäng, och utropade dig till kung över alla tre skäggen på en och samma kväll. Han samlar riktiga skägg från kaptener han besegrat och tänker minsann bevisa att ditt anspråk är precis lika falskt som du påstod att hans skägg var.
 
 Kajen kröner den som får högst skål vid båtarna, inför folk, innan festen är över. Din krona satt löst redan innan du tog den. Håll den på huvudet med skål efter skål, och låt de andra två skrika om rättvisa så mycket de vill.
 
 ## Drottningen som var först {slug:louisevonbahr}
 
-**Kapten Fuling** hade dig innan kronan, innan skålarna, innan någon kallade dig kung. Hon tar dig tyst, och du vill ha det så. Du vill ha hennes mun mot det blåa skägget, hennes händer där kajen inte ser, och en skuld ni båda gärna betalar med kroppen. **Kapten Enben** vet inte om henne. Fuling vet inte hur ofta du redan sagt ja till någon annan. Håll det så, och ta Fuling innan festen är över, medan kronan fortfarande ger dig en ursäkt att försvinna från bordet.
+**Kapten Fuling** hade dig innan kronan, innan skålarna, innan någon kallade dig kung. Hon tar dig tyst, och du vill ha det så. Du vill ha hennes mun mot det blåa skägget, hennes händer där kajen inte ser, och sexmagick ni båda kan: rök, rit, kroppen som nyckel till dörren bakom medvetandet, den skatt du svär sitter där och ingen annanstans. Hon hade dig först. Hon kan redan rytmen.
+
+**Kapten Enben** vet inte om henne. Fuling vet inte hur ofta du redan sagt ja till någon annan. Håll det så, och ta Fuling innan festen är över, medan kronan fortfarande ger dig en ursäkt att försvinna från bordet.
 
 ## Kvinnan som inte backar {slug:amaliawahlstrom}
 
-**Kapten Enben** vägrar be om ursäkt för att hon vill ha dig, och du vill inte att hon ska göra det. Du vill ha henne mot en mast, ett ben runt midjan, medan kajen fortfarande tror att du bara jagar skålar. **Kapten Fuling** hade dig först och skulle kalla det stöld. Låt henne. Ta Enben ändå, innan festen är över, och se till att de två aldrig jämför tider.
+**Kapten Enben** vägrar be om ursäkt för att hon vill ha dig, och du vill inte att hon ska göra det. Du vill ha henne mot en mast, ett ben runt midjan, medan kajen fortfarande tror att du bara jagar skålar. Du vill öppna dörren bakom medvetandet med henne, rök och rit och kuk, tills hon slutar skratta åt kronan och börjar skrika mot den.
+
+**Kapten Fuling** hade dig först och skulle kalla det stöld. Låt henne. Ta Enben ändå, innan festen är över, och se till att de två aldrig jämför tider.
+
+## Skeppet hon tog {slug:linneaappert}
+
+**Kapten Planka** krossade ditt hjärta för att ta en annan kaptens skuta och besättning. Hon använde din lust som landgång, klev ombord, och lämnade dig i vraket som blev Galápagos. Skägget blånade där. Dörren bakom medvetandet lärde du dig där. Sexmagicket är hur du fortfarande når henne, och hur hon fortfarande tar dig.
+
+Hon seglar nu på **Korvetten Kurtisanen**. Du vill ha henne igen, rit och rök och det hjärta hon redan en gång stal, innan festen är över. **Kapten Fuling** hade dig först. **Kapten Enben** kom efter. Ingen av dem vet om Planka. Låt det förbli så. Hon tar också **Kapten Rötägg**. Låt inte de två jämföra tider med dig.
+
+## Pulvret som tar sanningen {slug:navidmodiri}
+
+Du bär en påse pulveriserat kranium från Haitis mäktigaste voodoo-prästinna. När det dras upp i näsan är det sanningsserum. Hamnen viskar att **Kapten Döver** också bär en flaska med samma kraft, eller en billig kopia, det har ingen sett rakt på. Du bär dessutom ett don med trollrök från Amazonas, ovärderligt när dimman tätnar. Använd pulvret på den du behöver ett sant ord av innan festen är över: en rival om kronan, en älskarinna som ler för slätt, eller **Kapten Hurring** om den gamla skulden i masten börjar likna en anklagelse. Låt inte Dövers flaska bli det enda serum kajen tror på.
 
 ## Skulden du aldrig betalat {slug:jesperlindmarker}
 

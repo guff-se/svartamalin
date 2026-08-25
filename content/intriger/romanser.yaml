@@ -29,6 +29,8 @@
 #   * elinmartensson: Prygel vill krossa hornet (fiende 24)
 #   * amaliawahlstrom: saknade romans (var bara fiende 2 mot Malin), ny mutual med hampuslindblad (#23).
 #     Gör henne till rival med louisevonbahr i fiender.yaml, samma Hampus.
+#   * hampuslindblad: underlag 2026-08-25. Romans med Planka (#25), sexmagick i alla tre. Ville också
+#     konspiration med Planka, Kosing och Barnsben mot Malin: skippad, ingen ny sidequest.
 #   * ludvigvonbahr: utöver Kosing (#19) även ny mutual med Malin (#24), gömma/krock för B-13
 #   * chriskummelstedt tackade nej: inga poster
 #   * elinamelakoski tackade nej 2026-08-23: inga poster. Katten Felix obesatt.
@@ -44,7 +46,7 @@ romanser:
     type: mutual
     a: linneaappert        # Kapten Planka (Linnea Appert)
     b: edvinthungren       # Kapten Rötägg (Edvin Thungren)
-    note: Rötäggs manschettknappar med enhörningar, fått för kärlekens skull (Planka). Han vill vara snäll nu; Plankas underlag fortfarande tomt.
+    note: Rötäggs manschettknappar med enhörningar, fått för kärlekens skull (Planka). Han vill vara snäll nu. Planka har också Blåskägg (#25). Rötägg vet inte.
     status: done
 
   - id: 4
@@ -82,7 +84,7 @@ romanser:
     type: mutual
     a: louisevonbahr       # Kapten Fuling (Louise von Bahr)
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
-    note: Blåskägg får senare även Enben (#23), ovetande om varandra till en början. Ger Fuling fiende 26 mot Enben.
+    note: Blåskägg har också Enben (#23) och Planka (#25). Fuling och Enben vet inte om varandra. Ingen av dem vet om Planka. Ger Fuling fiende 26 mot Enben. Sexmagick i gästtext, hans underlag.
     status: done
 
   - id: 12
@@ -142,7 +144,7 @@ romanser:
     type: mutual
     a: amaliawahlstrom     # Kapten Enben (Amalia Wahlström)
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
-    note: Enben saknade romans, bara fiende 2 mot Malin. Blåskägg har redan Fuling (#10): Enben är hans andra kärlek, ovetande om varandra till en början. Gör Enben till rival med louisevonbahr i fiender.yaml, samma mönster som Klöver/Prygel om Hurring (fiende 1, romanser 12/13).
+    note: Enben saknade romans, bara fiende 2 mot Malin. Blåskägg har Fuling (#10) och Planka (#25). Enben och Fuling ovetande om varandra. Ingen av dem vet om Planka. Gör Enben till rival med louisevonbahr i fiender.yaml. Sexmagick i gästtext.
     status: done
 
   - id: 24
@@ -150,4 +152,11 @@ romanser:
     a: malintadaa          # Svarta Malin (Malin Tadaa)
     b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
     note: ytterligare synlig romans som gömmer den hemliga (#17/#20/#22), bränsle för jakten på älskaren (huvudstory B-13/S-01). Krockar med Dunkas romans med Kosing (#19): håll den här diskret så Kosing inte dras in i centrum-drama mot sin vilja.
+    status: done
+
+  - id: 25
+    type: mutual
+    a: linneaappert        # Kapten Planka (Linnea Appert)
+    b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
+    note: Hans underlag 2026-08-25. Hon krossade hans hjärta för att ta en annan kaptens skuta och besättning. Han strandade på Galápagos. Sexmagick. Han har redan Fuling (#10) och Enben (#23); de vet inte om Planka. Hon har redan Rötägg (#3); han vet inte om Blåskägg. Ingen ny sidequest, ingen konspiration med Kosing/Barnsben.
     status: done

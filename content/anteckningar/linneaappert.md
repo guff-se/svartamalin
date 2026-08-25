@@ -6,5 +6,4 @@ real_name: Linnea Appert
 
 # Kapten Planka
 
-Inga extra anteckningar. Romans 3 med **Kapten Rötägg**. Fiende 5 mot **Kapten Fuling**.
-
+Romans 3 med **Kapten Rötägg**. Romans 25 med **Kapten Blåskägg**: hon krossade hans hjärta för att ta en annan kaptens skuta och besättning. Rötägg vet inte om Blåskägg. Fuling och Enben vet inte om Planka. Fiende 5 mot **Kapten Fuling** (auktionen, inte Blåskägg).

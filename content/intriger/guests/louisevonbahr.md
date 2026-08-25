@@ -34,6 +34,8 @@ Du har länge anat att **Kapten Döver**s dövhet är påhitt, men du har aldrig
 
 **Kapten Blåskägg** krönte sig själv, färgade rivaler blå och lät kajen skåla som om kronan vore det enda som räknades. Du vet bättre. Du hade honom först, innan kronan, innan **Kapten Enben** ens viskade hans namn. Du vill ha honom igen. Du vill rida kungen i skuggan av hans lösa krona, ta honom medan hamnen fortfarande räknar skålar, och låta skägget stryka där ingen krona räcker som täckmantel.
 
+Han vill ha sexmagick. Rök, rit, kroppen som nyckel till en dörr han svär sitter bakom medvetandet. Du kan redan rytmen. Du tog honom genom den dörren innan någon kallade honom kung, och du tänker göra det igen.
+
 Enben vägrar backa, och ingen av er vet vem han valt. Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan kajen kröner någon annan och han glömmer vems koja han kröp till först.
 
 ## Kvinnan som kom efter {slug:amaliawahlstrom}
