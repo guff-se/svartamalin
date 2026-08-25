@@ -21,6 +21,6 @@ Jag räknar skutorna som går ut om morgnarna och kommer in om kvällarna, och j
 
 En dag ska jag segla. Inte mot någon, inte mot något jag kan peka ut på en karta. Bara ut, tills linjen där himlen tar vid är den enda gränsen kvar. Jag ska vara stor då. Stor nog att ingen kan kalla mig hem till middagen.
 
-Tills dess tittar jag. Genom luften, genom glaset i fönstret, tills ögonen svider och rummet bakom mig försvinner. Havet är så mycket större än jag. Jag tänker att om jag bara väntar och växer och väntar, blir jag till slut stor nog för det också.
+Tills dess tittar jag. Genom luften, genom kikaren i fönstret, tills ögonen svider och rummet bakom mig försvinner. Havet är så mycket större än jag. Jag tänker att om jag bara väntar och växer och väntar, blir jag till slut stor nog för det också.
 
 Man kan inte hålla fast ett hav. Det vet jag redan, ung som jag är. Men man kan längta efter det, natt efter natt, tills längtan är den enda sak som känns fullvuxen i hela kroppen. Det får duga. Just nu duger det mer än nog.
