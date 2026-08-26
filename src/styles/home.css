@@ -702,7 +702,8 @@
   opacity: 0.75;
 }
 .intriger-note {
-  margin: 0 0 1.5rem;
+  width: 50%;
+  margin: 0 auto 1.5rem;
   padding: 0.9rem 1.15rem;
   border: 1px solid rgba(201, 162, 39, 0.45);
   background: rgba(201, 162, 39, 0.08);
