@@ -139,7 +139,7 @@ Alla fem skutor får samma två fakta, i skutans röst:
 
 Behåll oförrätten mot Malin och punchlinen *Hur får man Svarta Malin på fall?* (Kurtisanen har ingen punchline: de är hennes skuta). Inte första ledtråden. Inte kapitlet. Inte en plats. Inte att några i besättningen redan har ett spår.
 
-**Korvetten Kurtisanen:** Malin läser lagfilen. Skriv inte "bakom hennes rygg" där. Kistan är hennes, hamnen ska se den, rivalerna vill åt berättelsen, ni ska känna den så ingen annan skuta hinner före, utan att glansen mattas. Gräv-tyst sitter i gäststarterna (regel 8). Malin vet inte att kistan kommer att öppnas.
+**Korvetten Kurtisanen:** samma jakt, bakom hennes rygg. Malin är spelledning och läser filen ändå: skriv för de fyra andra. Hon är deras kapten, hon delar koja och köl, hon prejar sin egen korvett om hon anar. Ta skutan till hjälp, men inte henne. Gäststarterna bär fortfarande regel 8 mot konkret quest. Malin vet inte att kistan kommer att öppnas.
 
 ---
 

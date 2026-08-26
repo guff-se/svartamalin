@@ -30,8 +30,9 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`../intriger/crews
 - [x] En jakt: den som känner hennes historia kommer åt kistan. Questsen är kapitlen, kistan målet.
 - [x] Korvetten Kurtisanen: samma jakt, men tyst. Kistan och berättelsen bakom hennes rygg. Hon prejar er om hon anar.
 - [x] Rykte + kista + ta reda på hennes berättelse tillsammans. Ingen plats, ingen quest, inget att några i besättningen redan har ett spår.
+- [x] det gör inget att malin läser lagfilen, hon är ändå med i spelledningen. se till att den är skriven som bäst för de 4 andra, så inkludera "bakom ryggen"
 
-Kryss = första `##` i `crews/1.md`–`5.md` omskriven. Malin läser Kurtisanens lagfil, så "bakom ryggen" sitter kvar i gäststarterna (regel 8), inte i `crews/1.md`.
+Kryss = första `##` i `crews/1.md`–`5.md` omskriven. Kurtisanen: bakom hennes rygg, skrivet för de fyra andra. Malin är spelledning.
 
 ---
 
@@ -529,7 +530,7 @@ Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md). Inte i gäs
 
 - [x] Kurtisanens skatt kommer att vara lätt att hitta men svår att knäcka. För att knäcka koden behöver du en siffra var från alla kurisanens kaptener.
 
-Kryss = verbatim i registret. Jagas av Gnället. Social: de fyra kaptenerna är dörren, en siffra var. Inte Malin. Ingen gästtext skriven i den här omgången.
+Kryss = verbatim i registret. Jagas av Gnället. Social: alla fem ombord är dörren, en siffra var, inklusive Malin. Inte bara de fyra med Kapten i namnet. Gästtext fanns redan i `crews/5.md` och `crews/1.md`. Inte omskriven i den här omgången.
 
 ---
 

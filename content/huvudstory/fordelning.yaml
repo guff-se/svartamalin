@@ -1209,15 +1209,15 @@ fordelning:
 
   # B-01 kistan och hennes berättelse. Generell varför i första
   # stycket i crews/. Inte första ledtråden. Se quests.md
-  # "Lagfilens första stycke". Id 95 är Kurtisanen: Malin läser
-  # filen, ingen "bakom ryggen" där.
+  # "Lagfilens första stycke". Id 95 är Kurtisanen: bakom
+  # hennes rygg, skrivet för de fyra andra. Malin är spelledning.
 
   - id: 95
     beat: B-01
     akt: I
     till: { crew: 1 }
-    roll: barare
-    vet: "att Svarta Malin har en låst kista som följer med till Ovanan, att hamnen ska stirra på den som om där låg skatten, att rivalerna kommer vilja veta mer, att den som känner hennes berättelse kommer åt kistan, och att Korvetten Kurtisanen ska ta reda på berättelsen tillsammans så ingen annan skuta hinner före, utan att glansen mattas"
+    roll: jagare
+    vet: "att Svarta Malin har en låst kista som följer med till Ovanan, att hamnen ska stirra på den som om där låg skatten, att den som känner hennes berättelse kommer åt kistan, och att Korvetten Kurtisanen ska ta reda på berättelsen tillsammans bakom hennes rygg, utan att ta med henne, eftersom hon prejar sin egen korvett om hon anar"
     vet_inte: "att kistan är tom, att den kommer att öppnas, kärleksbrevet, att älskaren är Karl XII, cryptexen, att festen är fällan"
     speglas: []
     bygger_pa: null
