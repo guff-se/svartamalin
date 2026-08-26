@@ -18,7 +18,7 @@ Löjtnant Spader är en kortspelare av rang. Han har både tjänat och förlorat
 
 ## Föremål
 
-Löjtnant Spader har en ring och ett halsband med spader-märket. Båda lämnas ifrån honom innan spelet: halsbandet till Kapten Plåthorn (hemlig romans), ringen till Kapten Klöver (vunnen vid ett tidigare bord). Han bär inget av dem under helgen.
+Löjtnant Spader bär en ring och ett halsband med spader-märket. Det kan också vara så att han redan innan spelet har lämnat ifrån sig t.ex. ett halsband för att indikera en hemlig relation eller liknade.
 
 ## Göra / inte göra
 
