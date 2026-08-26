@@ -38,7 +38,7 @@ Du är inte ensam om att släpa på en gammal räkning mot **Svarta Malin**. Ryk
 
 ## Skägget du tänker ta {slug:hampuslindblad}
 
-Du bär lust för **Kapten Blåskägg** du inte tänker be om ursäkt för. Du vill ha honom mot en reling, det blåa skägget, hela den fåfänga under dig. Du vill att han ska välja med kuken, inte med talet.
+Du bär på en lust efter **Kapten Blåskägg** som inte tänker be om lov. Relingen i ryggen på honom, det blåa skägget i näven, hela den blånade fåfängan platt under dig. Talet kan han hålla för kajen. Kuken ska välja dig.
 
 Han vill öppna en dörr bakom medvetandet, rök och rit och kropp, och kallar det den största skatten. Du tänker vara den dörren. Du tänker rida honom tills riterna slutar vara hans och börjar vara era.
 
