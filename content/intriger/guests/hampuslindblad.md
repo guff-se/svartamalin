@@ -25,7 +25,7 @@ related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linnea
 
 Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne, och genom henne **Galeonen Gnället**. Du arbetar för Gnället nu, i den här hemligheten, det är ni båda helt överens om, men bara därför att Rosing köpte dig med den rösten, inte av någon kärlek till hennes skuta. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och se till att kajen ser dig som kung innan festen är över.
 
-## Skäggens Konung {slug:johannabergman}
+## Skäggens Konung {slug:viktoransund}
 
 Ditt skägg blånade av svamp och skeppsbrott på Galápagos, år av dörrar bakom medvetandet. **Kapten Lösskägg** samlar andras skägg i en låda och kallar det seger. **Kapten Rödskägg** är stolt nog att spricka vid en viskning. Ni tre har skägg i namnet. Titeln Skäggens Konung ligger lös på kajen, och du tänker ta den innan festen är över.
 

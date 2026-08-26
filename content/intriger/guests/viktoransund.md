@@ -26,7 +26,7 @@ Det viskas att **Svarta Malin** håller räkning på alla som är skyldiga henne
 
 Hör du någon leta efter var loggen sitter, kan du peka dit utan att fråga varför. Ta med dig **Fregatten Fromheten** om du vill sälja tipset dyrt, eller behåll det som ett skämt bara du känner till.
 
-## Skäggens Konung {slug:johannabergman}
+## Skäggens Konung {slug:petterwallberg}
 
 Du är stolt, lättkränkt och vill inget hellre än att framstå som Salmonellahavets störste kapten. En förolämpning mot dig är redan ett drama. **Kapten Lösskägg** samlar skägg som troféer och har siktet på ditt. **Kapten Blåskägg** bär blått i ansiktet som om färgen vore ett argument. Ni tre har skägg i namnet, och nu ligger ni vid samma kaj. Titeln Skäggens Konung är inte given. Den ska tas, innan festen är över, inför folk.
 

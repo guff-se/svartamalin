@@ -23,7 +23,7 @@ Var den sitter vet du inte, bara att den finns. Jaga den med **Korvetten Kurtisa
 
 När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, förskjuter hon bokstäverna tretton steg framåt. A blir N. Knepet är värt noll tills någon kommer med ett blad de inte kan tyda. Då är du den som kan läsa.
 
-## Skäggens Konung {slug:johannabergman}
+## Skäggens Konung {slug:hampuslindblad}
 
 **Kapten Rödskägg** och **Kapten Blåskägg** bär skägg i namnet, precis som du, och nu ligger ni tre vid samma kaj. Du samlar skägg. Fyra stycken i din låda, skurna av kaptener du besegrat medan de ännu andades, vart och ett med en historia du kan utantill. Den som förlorar sitt skägg till dig förlorar sitt rykte. De två som fortfarande seglar är just de två, och du vill plundra dem. Du vill utropa dig till Skäggens Konung innan festen är över.
 
