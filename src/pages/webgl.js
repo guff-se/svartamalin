@@ -29,6 +29,33 @@ export async function renderWebgl(app) {
         </section>
 
         <section class="card-section">
+          <div class="card card--intriger card--world" id="intriger-intro">Laddar…</div>
+        </section>
+
+        <section class="card-section" id="crew-intriger-section" hidden>
+          <div class="card card--intriger card--crew-intriger" id="crew-intriger"></div>
+        </section>
+
+        <section class="card-section">
+          <div class="card card--crew card--my-crew" id="my-crew">Laddar…</div>
+        </section>
+
+        <section class="card-section osa-section" id="osa-section-top" hidden>
+          <div class="card card--osa">
+            <h2>OSA</h2>
+            <div class="osa-facts"></div>
+            <div id="sec-osa-top">Laddar…</div>
+            <div class="row osa-actions">
+              <button class="osa-respond" type="button">Mönstra på</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="card-section" id="my-intriger-section" hidden>
+          <div class="card card--intriger" id="my-intriger"></div>
+        </section>
+
+        <section class="card-section">
           <div class="card card--manifest" id="sec-manifest">
             <div id="manifest-intro">Laddar…</div>
             <div class="manifest-block">
@@ -56,33 +83,6 @@ export async function renderWebgl(app) {
               <div class="manifest-body" id="manifest-prep">Laddar…</div>
             </div>
           </div>
-        </section>
-
-        <section class="card-section">
-          <div class="card card--intriger card--world" id="intriger-intro">Laddar…</div>
-        </section>
-
-        <section class="card-section" id="crew-intriger-section" hidden>
-          <div class="card card--intriger card--crew-intriger" id="crew-intriger"></div>
-        </section>
-
-        <section class="card-section">
-          <div class="card card--crew card--my-crew" id="my-crew">Laddar…</div>
-        </section>
-
-        <section class="card-section osa-section" id="osa-section-top" hidden>
-          <div class="card card--osa">
-            <h2>OSA</h2>
-            <div class="osa-facts"></div>
-            <div id="sec-osa-top">Laddar…</div>
-            <div class="row osa-actions">
-              <button class="osa-respond" type="button">Mönstra på</button>
-            </div>
-          </div>
-        </section>
-
-        <section class="card-section" id="my-intriger-section" hidden>
-          <div class="card card--intriger" id="my-intriger"></div>
         </section>
 
         <section class="card-section">
