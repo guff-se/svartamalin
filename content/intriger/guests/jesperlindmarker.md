@@ -26,7 +26,7 @@ En sådan rad känns för liten för din liggare. Just därför är den för god
 
 ## Handen som viskar från Fromheten {slug:minervalowgren}
 
-**Kapten Prygel** ger dig allt hon hör inne på **Fregatten Fromheten**, sina egna skeppskamraters planer och gömmen, för att hon vill ha dig mer än hon värnar sin egen besättnings ära. Hennes skuta utlyser piratval mot **Svarta Malin** och predikar rena händer. Hon står i predikan. Hon bär hemligheterna till dig. Ta emot det hon ger, och ge **Korvetten Kurtisanen** fördelen det ger, men var försiktig med hur du belönar henne: samma natt kan **Kapten Klöver** kräva din tid, och Prygel får aldrig ana att hon delar dig, precis lika lite som hon anar att kuken hon riskerar allt för inte är din enda.
+**Kapten Prygel** ger dig allt hon hör inne på **Fregatten Fromheten**, sina egna skeppskamraters planer och gömmen, för att hon vill ha dig mer än hon värnar sin egen besättnings ära. Hennes skuta utlyser piratval mot **Svarta Malin** och predikar rena händer. Hon står i predikan. Hon bär hemligheterna till dig. Ta emot det hon ger, och ge **Korvetten Kurtisanen** fördelen det ger, men var försiktig med hur du belönar henne: samma natt kan **Kapten Klöver** kräva din tid, och Prygel får aldrig ana att hon delar dig, precis lika lite som hon anar att masten hon rider också reser sig i annan kaj.
 
 Två kvinnor ger dig allt, och bara du vet hur nära den ena är att upptäcka den andra. Håll balansen, ta emot vad Prygel ger, och håll dig undan misstankar, innan festen är över och någon av dem räknar efter.
 
