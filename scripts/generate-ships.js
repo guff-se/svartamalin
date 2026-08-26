@@ -38,13 +38,18 @@ FORBIDDEN: sailing away, stern-on, transom facing the camera, hull wrenched arou
 
 NAME ON THE BOW ONLY: paint the ship's name in large readable letters on the bow / forecastle / under the bowsprit. NOT on the transom, NOT on the stern gallery.`
 
+const STERN_AWAY = `HIGHEST PRIORITY — EXCEPTION SHIP, SAILING AWAY:
+Honest geometry, not a twisted display model. The ship is leaving. Stern nearer the camera than the bow. Three-quarter from behind or nearly stern-on. Bowsprit and bow recede into fog / distance. The hull is not wrenched around.
+
+NAME ON THE STERN / TRANSOM, large and readable — that is the side you see when a ship slips away. Not on the bow.`
+
 const SHARED = `PORTRAIT OF A SINGLE PIRATE SHIP as the hero of the image. Landscape marine painting, 3:2 frame. The ENTIRE ship fits inside the frame with generous sky and water margin — nothing cropped. Empty decks: no people, no faces, no silhouettes on board. Painted theatrical sea-and-sky backdrop, foxed paper, soft vignette. The ship is a stage prop built a little too grand — slightly wrong proportions, slightly over-decorated, charmingly imperfect.`
 
 const NO_PEOPLE = `CRITICAL: Absolutely no people, no faces, no hands, no crew, no silhouettes, no body parts, no mermaids, no figurehead with a realistic human face (stylised carved wood only). Empty ship — vessel and atmosphere only.`
 
-const NEG = `No people, no person, no face, no crew, no crowd, no portrait subject, no modern ship, no steam, no steel hull, no container ship, no yacht, no motorboat, no Pirates of the Caribbean look, no Disney pirate aesthetic, no Jack Sparrow, no glossy CGI, no photorealistic naval photography, no bright saturated neon, no clean digital vector, no watermark text, no UI, no logo, no picture frame around the image, no other ships in the scene. No stern-first view, no ship sailing away from the camera, no transom nameplate, no name on the stern, no twisted hull posed only to show the back.`
+const NEG = `No people, no person, no face, no crew, no crowd, no portrait subject, no modern ship, no steam, no steel hull, no container ship, no yacht, no motorboat, no Pirates of the Caribbean look, no Disney pirate aesthetic, no Jack Sparrow, no glossy CGI, no photorealistic naval photography, no bright saturated neon, no clean digital vector, no watermark text, no UI, no logo, no picture frame around the image, no other ships in the scene. No hull wrenched around only to display a nameplate. No two-masted brig unless the ship is explicitly a barque. No sails printed with playing cards, card suits, aces, or repeating card patterns.`
 
-/** @type {{ id: number, stem: string, aliases: string[], size: string, prompt: string }[]} */
+/** @type {{ id: number, stem: string, aliases: string[], size: string, heading?: 'bow' | 'away', prompt: string }[]} */
 const SHIPS = [
   {
     id: 1,
@@ -53,25 +58,34 @@ const SHIPS = [
     size: '1536x1024',
     prompt: `Korvetten Kurtisanen — Svarta Malin's own small, fast, show-off corvette.
 
-A sleek 18th-century CORVETTE (smaller than a frigate, two masts, low elegant hull) dressed like a courtesan's parlour gone to sea. Pearl and jewel-like ornaments along the bow, rust-red silk banners and gold braid, cream sails with gold trim, lanterns glowing, a carved wooden fan or peacock as figurehead (stylised wood, not a person). Jolly Roger with a theatrical skull-and-crossbones. The hull is painted a warm dark wine-brown with gold scrollwork. Mood: ostentatious harbour flagship — caviar and rum, every rival meant to feel underdressed. Name "KURTISANEN" lettered large on the BOW in slightly wobbly gold.`,
+A sleek 18th-century CORVETTE: EXACTLY THREE MASTS, ship-rigged (square sails on all three), like a small frigate but smaller and lower in the hull. Count the masts: foremast, mainmast, mizzen — three, not two, not a brig. Dressed like a courtesan's parlour gone to sea. Pearl and jewel-like ornaments along the bow, rust-red silk banners and gold braid, cream sails with gold trim, lanterns glowing, a carved wooden fan or peacock as figurehead (stylised wood, not a person). Jolly Roger with a theatrical skull-and-crossbones. The hull is painted a warm dark wine-brown with gold scrollwork. Mood: ostentatious harbour flagship — caviar and rum, every rival meant to feel underdressed. Name "KURTISANEN" lettered large on the BOW in slightly wobbly gold.`,
   },
   {
     id: 2,
     stem: 'ship-2-fordarvet',
     aliases: ['2', 'fordarvet', 'fördärvet', 'fregatten-fordarvet'],
     size: '1536x1024',
-    prompt: `Fregatten Fördärvet — a frigate of vice: sin, gluttony and rotten habits, not death.
+    prompt: `Fregatten Fördärvet.
 
-An 18th-century FRIGATE (three masts) dressed as a floating tavern of excess gone sour. Wine-dark hull stained with spilled grog, greasy gold trim, rum barrels and empty bottles lashed to the rails, dice and playing-card motifs on the sails, a stained velvet banner, overflowing carved wooden goblet or hog as figurehead (stylised wood, not a person — no skull). Cream sails blotched with wine and grease. Mood: frosseri, dåliga vanor, synd — hungover splendour, too much of everything, perdition as appetite not as a grave. Warm tavern-lantern light, ochre and faded rust-red, no storm-of-the-dead, no lightning, no bones. Name "FÖRDÄRVET" lettered on the BOW in wine-stained gold.`,
+THE SUBJECT IS OVERFLOW. The ship is almost hidden under stuff. If the decks look tidy, the image is wrong. If the sails are empty canvas, the image is wrong. If the masts are bare poles, the image is wrong.
+
+WHERE THE JUNK GOES — all three at once, densely:
+
+1. IN THE SAILS: the sails are used as laundry-lines and nets. Strings of sausages (korvar), bunches of grapes, rum bottles, cigarettes, silk restraints, spanking paddles and wooden dildos are stuffed INTO the sail folds and hung ACROSS the canvas like bunting. The sailcloth is still plain cream (wine-stained is fine) — objects ON and IN the sails, not card-prints ON the cloth.
+2. IN THE MASTS: every mast is a pole of clutter. Nets of roast pig, hanging korvar, wine casks, opium pipes, tobacco pouches and paddles lashed up the mast from deck to truck, like a Christmas tree of vice. Yards dripping with bottles on strings.
+3. OVER THE RAIL (relingen): a waterfall of excess pouring overboard into the sea — platters, sausages, bottles, grapes, paddles, cigarettes sliding off the gunwale. The waterline is full of floating junk.
+
+MORE, not less. Piles so high the hull looks stuffed. Theatrical costume-shop props, no people, no faces. Hog figurehead (carved wood). Tiny gambling: one die somewhere. NO playing-card prints on sails. Warm tavern light, ochre, rust-red, wine. No skulls, no lightning, no bones. Name "FÖRDÄRVET" on the BOW, half-buried under sausages.`,
   },
   {
     id: 3,
     stem: 'ship-3-bortforklaringen',
     aliases: ['3', 'bortforklaringen', 'bortförklaringen', 'barken'],
     size: '1536x1024',
-    prompt: `Barken Bortförklaringen — the barque of elegant excuses, prejad three times and always blaming the weather.
+    heading: 'away',
+    prompt: `Barken Bortförklaringen — the barque of elegant excuses, prejad three times and always blaming the weather. THIS SHIP IS LEAVING: sailing AWAY from the viewer, slipping into fog, the one exception that does not come toward the camera.
 
-An 18th-century BARQUE (three masts, the aftermost mast fore-and-aft rigged) half-lost in theatrical fog. Mismatched patched sails (stripes, polka dots, different cloth as if every excuse is a different patch), slightly listing hull, drooping flags, rain-streaked deck. Soft grey-cream and muted teal fog, no storm drama — just weather as an alibi. A carved wooden weather-vane or apologetic shrug of a figurehead (stylised wood, not a person). Mood: fog, drift, the last elegant excuse. Name "BORTFÖRKLARINGEN" lettered on the BOW, a little crooked, as if the letters themselves are hedging.`,
+An 18th-century BARQUE (THREE masts, the aftermost mast fore-and-aft rigged) half-lost in theatrical fog, seen from behind as it goes. Mismatched patched sails (stripes, polka dots, different cloth as if every excuse is a different patch) — cloth patches only, NO playing cards, NO card suits. Slightly listing hull, drooping flags, rain-streaked deck. Soft grey-cream and muted teal fog, no storm drama — just weather as an alibi. A carved wooden weather-vane figurehead receding in the distance (stylised wood, not a person). Mood: fog, drift, the last elegant excuse, already almost gone. Name "BORTFÖRKLARINGEN" lettered on the STERN / transom, a little crooked, as if the letters themselves are hedging.`,
   },
   {
     id: 4,
@@ -94,7 +108,8 @@ A large 18th-century GALLEON (high ornate stern castle receding behind, bulky hu
 ]
 
 function buildFullPrompt(ship) {
-  return `${BOW_COMPOSITION} ${NO_PEOPLE} ${SHARED} ${ship.prompt} ${STYLE_GUIDE} ${NEG} ${BOW_COMPOSITION}`
+  const heading = ship.heading === 'away' ? STERN_AWAY : BOW_COMPOSITION
+  return `${heading} ${NO_PEOPLE} ${SHARED} ${ship.prompt} ${STYLE_GUIDE} ${NEG} ${heading}`
 }
 
 function escapeRegex(s) {
