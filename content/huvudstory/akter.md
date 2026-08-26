@@ -70,6 +70,8 @@ Pusselnod:      ingen på fredag. Cryptexen först lördag.
 Props:          kista, hänglås. Cryptexen är inte i spel än.
 Om det floppar: om den står undanskymd har akt I misslyckats. Flytta den.
 
+Gästtext:       första `##` i `crews/` etablerar kistan och jakten på hennes berättelse, före helgen. Inte öppna. Inte cryptex. Se [`quests.md`](quests.md) Lagfilens första stycke. Fordelning id 95–99.
+
 ---
 
 ## Akt II: Svek (lördag 10.30 till 14.00)
@@ -157,7 +159,7 @@ Väg 2:          någon frågar Spader vad de ska göra. Han pekar på deras ege
 Spelledarväg:   behövs inte. Uppdraget står i lagfilen. Saknas ingång: peka inte ut gömmet, säg åt dem att vänta eller hitta spåret som redan står i texten.
 
 Pusselnod:      ingen, om inte en skatt senare bär en ledtråd
-Props:          fem lagskatter, lagen tar med dem. Första steget i varje spår är gömmarnas. Fördärvet: brev i soffbordet i Storstugan. Bortförklaringen: **Kapten Klöver** och högkvalitativ choklad, social, ingen utläggning. Inte vår tryck.
+Props:          fem lagskatter, lagen tar med dem. Första steget i varje spår är gömmarnas. Fördärvet: brev i soffbordet i Storstugan. Bortförklaringen: **Kapten Klöver** och högkvalitativ choklad, social, ingen utläggning. Kurtisanen: alla fem ombord och en siffra var, social, ingen utläggning. Inte vår tryck.
 Om det floppar: om ingen hittar något: strunt. Huvudstoryn vilar inte på det.
 
 #### B-12: Mullvadarna tar kontakt

@@ -63,7 +63,7 @@ Verbatim är lagets formulering. Tom ruta: ingången har inte kommit in. Skriv *
 
 | Skuta (gömmer) | Jagas av | Ingång, verbatim | Första steget | Lägger ut | Gästtext jagare | Gästtext gömmare |
 |----------------|----------|------------------|---------------|-----------|-----------------|------------------|
-| 1 Kurtisanen | 5 Gnället | | | | väntar | väntar |
+| 1 Kurtisanen | 5 Gnället | Kurtisanens skatt kommer att vara lätt att hitta men svår att knäcka. För att knäcka koden behöver du en siffra var från alla kurisanens kaptener. | **alla fem ombord** + en siffra var till koden | ingen utläggning. Kaptenerna är dörren. Var och en ska veta sin siffra. | skriven, `crews/5.md` | påminnelse skriven, `crews/1.md` |
 | 2 Fördärvet | 1 Kurtisanen | Det ligger ett brev i soffbordet i vardagsrummet | brev i soffbordet, Storstugan | Fördärvet, fredag ca 17.30 | skriven, `crews/1.md` | påminnelse skriven, `crews/2.md` |
 | 3 Bortförklaringen | 2 Fördärvet | Kapten Klövers akilleshäl är högkvalitativ choklad som gör henne uppsluppen och totalt omdömeslös, oförmögen att bevara hemligheter. | **Kapten Klöver** (`johannabergman`) + högkvalitativ choklad | ingen utläggning. Klöver är dörren. Hon ska veta nästa steg. | skriven, `crews/2.md` | påminnelse skriven, `crews/3.md` |
 | 4 Fromheten | 3 Bortförklaringen | | | | väntar | väntar |
@@ -72,6 +72,8 @@ Verbatim är lagets formulering. Tom ruta: ingången har inte kommit in. Skriv *
 Brevet i soffbordet är Fördärvets papper. Inte vår tryck. Inte rekvisitafil. Inte Q-4-boken, inte svärdfisken, inte dagboken. Samma rum som de tre, annan yta. Se [`platser.md`](platser.md).
 
 Klöver sitter på Bortförklaringen. Hennes `roller/` säger redan att choklad lossar tungan (S-04: skvaller mot choklad). Ingången skärper det: högkvalitativ choklad, totalt omdöme. Önskad krock med S-04 och ätupplevelsen i S-05. Inte samma föremål som kristallfyrklövern. Jägarna (Fördärvet) tar med eller hittar chokladen. Inte vår tryck.
+
+Kurtisanens kaptener är de fem ombord, inklusive Malin: **Svarta Malin** (`malintadaa`), **Kapten Lösskägg** (`petterwallberg`), **Kapten Planka** (`linneaappert`), **Kapten Barnsben** (`ulrikahammar`), **Kapten Hurring** (`jesperlindmarker`). Inte bara de fyra med Kapten i namnet. Var och en bär en siffra till koden. Siffrorna är lagets. Inte vår tryck. Skatten är lätt att hitta men låst. Vi skriver inte var den ligger. Barnsben är mullvad. Malin är dörr. Önskad krock: jägarna måste prata med hela skutan.
 
 ### När en ny ingång kommer in
 
@@ -103,6 +105,7 @@ Testet: om stycket redan säger var skatten är, är det för långt. Stryk svar
 Dåligt: "Fördärvet gömde skatten under bryggan. Titta i soffbordet, sen i gymmet, sen under bryggan."
 Bra: "Målet är **Fregatten Fördärvet**s skatt. Börja i Storstugan: det ligger ett brev i soffbordet i vardagsrummet. Läs det. Följ det."
 Bra, social: "Målet är **Barken Bortförklaringen**s skatt. Börja med **Kapten Klöver**. Högkvalitativ choklad gör henne uppsluppen och totalt omdömeslös. Bjud henne. Följ det hon släpper."
+Bra, social: "Målet är **Korvetten Kurtisanen**s skatt. Den är lätt att hitta men svår att knäcka. För att knäcka koden behöver ni en siffra var från alla kurtisanens kaptener. Ta siffrorna. Knäck koden."
 
 ### Skrivregler: gömmarens lagfil
 
@@ -181,6 +184,7 @@ Tillåtet och önskvärt:
 - mullvaden läcker, skyddar eller stjäl enligt [`forradare.yaml`](forradare.yaml)
 - en skatt används som muta i en romans eller ett fiendskap
 - Bortförklaringens ingång går via **Kapten Klöver** och choklad. Krockar med S-04 (skvaller mot choklad) och S-05 (ätupplevelsen). Önskat.
+- Kurtisanens ingång går via alla fem ombord och en siffra var. Krockar med att jägarna måste prata med Malin och med mullvaden Barnsben. Önskat.
 
 Otillåtet:
 
@@ -194,13 +198,13 @@ Otillåtet:
 
 | Skuta | Fil | Jagar | Ingång i jaktstycket | Status |
 |-------|-----|-------|----------------------|--------|
-| 1 | `content/intriger/crews/1.md` | Fördärvet | ja, Fördärvets brev | skriven |
+| 1 | `content/intriger/crews/1.md` | Fördärvet | ja, Fördärvets brev | skriven. Göm-påminnelse: siffrorna |
 | 2 | `content/intriger/crews/2.md` | Bortförklaringen | ja, Klöver och choklad | skriven |
 | 3 | `content/intriger/crews/3.md` | Fromheten | nej, väntar | skriven, jakt utan ingång. Göm-påminnelse: Klöver |
 | 4 | `content/intriger/crews/4.md` | Gnället | nej, väntar | skriven, jakt utan ingång |
-| 5 | `content/intriger/crews/5.md` | Kurtisanen | nej, väntar | skriven, jakt utan ingång |
+| 5 | `content/intriger/crews/5.md` | Kurtisanen | ja, kaptenerna och siffrorna | skriven |
 
-Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11. Id 1:s `vet` bär Fördärvets ingång. Id 2:s `vet` bär påminnelsen att lägga brevet *och* Bortförklaringens ingång (Klöver, choklad). Id 3:s `vet` bär påminnelsen att Klöver är dörren. Övriga uppdateras när deras ingång kommer in.
+Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11. Id 1:s `vet` bär Fördärvets ingång *och* påminnelsen att varje kapten ombord bär en siffra. Id 2:s `vet` bär påminnelsen att lägga brevet *och* Bortförklaringens ingång (Klöver, choklad). Id 3:s `vet` bär påminnelsen att Klöver är dörren. Id 5:s `vet` bär Kurtisanens ingång (lätt att hitta, siffra var från kaptenerna). Övriga uppdateras när deras ingång kommer in.
 
 Hur texten skrivs: avsnittet **Ingång** ovan. STYLE.md punkt 23.
 
@@ -209,6 +213,6 @@ Hur texten skrivs: avsnittet **Ingång** ovan. STYLE.md punkt 23.
 ## Öppna frågor
 
 - [ ] Vad är varje lags fysiska skatt? Fylls i här när de valt, eller på plats fredag.
-- [ ] Ingång från Kurtisanen, Fromheten, Gnället. Skrivs in här verbatim, sedan i jagarens lagfil.
+- [ ] Ingång från Fromheten, Gnället. Skrivs in här verbatim, sedan i jagarens lagfil.
 - [ ] Ska en funnen skatt visas publikt (skryt) eller gömmas om (stöld)? Lämnas till lagen. Vi tvingar ingen redovisning.
 - [ ] Får en skatt bära en ledtråd till cryptexen? Nej tills en quest i [`quests.md`](quests.md) säger ja, med bypass.
