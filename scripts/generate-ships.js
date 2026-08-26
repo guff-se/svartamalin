@@ -65,17 +65,15 @@ A sleek 18th-century CORVETTE: EXACTLY THREE MASTS, ship-rigged (square sails on
     stem: 'ship-2-fordarvet',
     aliases: ['2', 'fordarvet', 'fördärvet', 'fregatten-fordarvet'],
     size: '1536x1024',
-    prompt: `Fregatten Fördärvet.
+    prompt: `Fregatten Fördärvet — a readable three-masted FRIGATE dressed with vice, not buried under it.
 
-THE SUBJECT IS OVERFLOW. The ship is almost hidden under stuff. If the decks look tidy, the image is wrong. If the sails are empty canvas, the image is wrong. If the masts are bare poles, the image is wrong.
+MODERATE excess. The hull, masts and cream sails must stay clearly visible. A handful of sinful props as garnish, not a cargo spill.
 
-WHERE THE JUNK GOES — all three at once, densely:
+ON THE SHIP (sparse, countable): a few strings of sausages (korvar) on the rail, one roast or carved hog figurehead, a cluster of wine bottles and a cask on deck, grapes in a bowl, cigarettes and a clay pipe on a tray, two or three theatrical sex props (a wooden dildo, a spanking paddle) hanging near the rail — costume-shop, no bodies. Maybe one bottle or sausage garland on a stay. The sea is mostly clear, only a couple of bottles in the water at most.
 
-1. IN THE SAILS: the sails are used as laundry-lines and nets. Strings of sausages (korvar), bunches of grapes, rum bottles, cigarettes, silk restraints, spanking paddles and wooden dildos are stuffed INTO the sail folds and hung ACROSS the canvas like bunting. The sailcloth is still plain cream (wine-stained is fine) — objects ON and IN the sails, not card-prints ON the cloth.
-2. IN THE MASTS: every mast is a pole of clutter. Nets of roast pig, hanging korvar, wine casks, opium pipes, tobacco pouches and paddles lashed up the mast from deck to truck, like a Christmas tree of vice. Yards dripping with bottles on strings.
-3. OVER THE RAIL (relingen): a waterfall of excess pouring overboard into the sea — platters, sausages, bottles, grapes, paddles, cigarettes sliding off the gunwale. The waterline is full of floating junk.
+NOT a waterfall over the gunwale. NOT laundry-lines covering the sails. NOT objects stuffed into every sail fold. NOT every yard dripping. NOT masts used as Christmas trees of junk. NOT piles so high the ship disappears.
 
-MORE, not less. Piles so high the hull looks stuffed. Theatrical costume-shop props, no people, no faces. Hog figurehead (carved wood). Tiny gambling: one die somewhere. NO playing-card prints on sails. Warm tavern light, ochre, rust-red, wine. No skulls, no lightning, no bones. Name "FÖRDÄRVET" on the BOW, half-buried under sausages.`,
+Cream canvas sails, maybe a wine stain or two — still sails. NO playing-card prints. Warm tavern light, ochre, rust-red. No skulls, no lightning, no bones. Name "FÖRDÄRVET" clearly lettered on the BOW.`,
   },
   {
     id: 3,
