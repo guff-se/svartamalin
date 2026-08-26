@@ -18,7 +18,7 @@ Löjtnant Spader är en kortspelare av rang. Han har både tjänat och förlorat
 
 ## Föremål
 
-Löjtnant Spader bär båder ringar och halsband med spader-märket. Det kan också vara så att han redan innan spelet har lämnat ifrån sig t.ex. ett halsband för att indikera en hemlig relation eller liknade.
+Löjtnant Spader bär en ring och ett halsband med spader-märket. Det kan också vara så att han redan innan spelet har lämnat ifrån sig t.ex. ett halsband för att indikera en hemlig relation eller liknade.
 
 ## Göra / inte göra
 
@@ -27,3 +27,4 @@ Lägg inte till ytterligare praktiskt ansvar, eftersom jag redan är engagerad i
 ## Övrigt
 
 Att Löjtnant Spader fuskar i kort är det många som hävdar... men exakt hur går det till är ett mysterium för någon att lösa!
+(Jag har med mig en hel kortlek med bara spaderess.)
