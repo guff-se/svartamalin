@@ -383,7 +383,7 @@ fordelning:
     akt: II
     till: [ulrikahammar]
     roll: barare
-    vet: "att hon måste svälja ett krumelurpiller varje skymning för att inte sluta vara barnslig, att Kapten Nykter och Kapten Rosing båda uppvaktar henne vid hennes sy- och broderihörna för att bli den hon litar på då, att hon själv väljer vem hon anförtror sig åt, och att Kapten Babord hatar henne för att hon en gång smög ett brev till Kapten Döver lindat i Babords scarf och kan dyka upp vid hörnan"
+    vet: "att hon måste svälja ett krumelurpiller varje skymning för att inte sluta vara barnslig, att Kapten Nykter och Kapten Rosing båda uppvaktar henne vid hennes sy- och broderihörna för att bli den hon litar på då, att hon själv väljer vem hon anförtror sig åt, och att Kapten Babord hatar henne för att hon en gång smög ett brev till Kapten Döver lindat i Babords scarf och kan dyka upp vid hörnan och kräva upprättelse, inte tyget tillbaka"
     vet_inte: "att Nykter håller henne nära av andra, egna skäl, att Döver tjuvlyssnar vid hörnan, att Babord inte känner till pillren"
     speglas: [fabianmacklin, linneaekbom, alexandrapalmquist]
     bygger_pa: "romans: 4, 5, fiende: 12"
@@ -1084,15 +1084,15 @@ fordelning:
     pussel: "Q-3"
     status: done
 
-# S-03 tillägg 2026-08-24: Babord jagar Barnsben via fiende 12 (scarfen).
-# Inte S-10, inte mullvaden. Gästtext skriven.
+# S-03 tillägg 2026-08-24: Babord jagar Barnsben via fiende 12 (brevet i scarfen).
+# Inte S-10, inte mullvaden. Ingen fysisk scarf. Gästtext omskriven 2026-08-26.
 
   - id: 86
     beat: S-03
     akt: II
     till: [alexandrapalmquist]
     roll: jagare
-    vet: "att Kapten Barnsben en gång smög ett brev till Kapten Döver lindat i Babords scarf, att Barnsben håller en sy- och broderihörna öppen där folk landar och lämnar lappar, och att Babord kan ta tillbaka scarfen, fånga henne med ännu ett brev, eller tala om för Döver vems händer som rörde tyget"
+    vet: "att Kapten Barnsben en gång smög ett brev till Kapten Döver lindat i Babords scarf, att tyget är borta, att Barnsben håller en sy- och broderihörna öppen där folk landar och lämnar lappar, och att Babord kan kräva en ursäkt högt, fånga henne med ännu ett brev, eller tala om för Döver vems händer som rörde det som var hennes"
     vet_inte: "krumelurpillren, att Döver tjuvlyssnar vid samma hörna, Nykters och Rosings uppvaktning som uppdrag, mullvaden mot Döver (annan hemlighet), teckenspråksbluffen som del av den här biten"
     speglas: [ulrikahammar]
     bygger_pa: "fiende: 12"

@@ -8,7 +8,7 @@ real_name: Alexandra Palmquist
 
 Romans 7, mutual, med **Kapten Döver** (`navidmodiri`). Romans 21, pending, med **Löjtnant Spader** (`gustaftadaa`).
 
-Fiende 12, one_way, mot **Kapten Barnsben** (scarfen med brevet till Döver). Spelas i S-03.
+Fiende 12, one_way, mot **Kapten Barnsben** (brevet lindat i Babords scarf, dåtid). Spelas i S-03 som upprättelse, inte som jakt på ett tyg. Ingen fysisk scarf.
 
-Mullvad för Fördärvet, kontakt **Kapten Döver** (forradare 5, romans 7). S-10 är teckenspråket, skilt från scarfen och från mullvaden.
+Mullvad för Fördärvet, kontakt **Kapten Döver** (forradare 5, romans 7). S-10 är teckenspråket, skilt från fiende 12 och från mullvaden.
 

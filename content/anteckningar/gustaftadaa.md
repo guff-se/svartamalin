@@ -18,3 +18,5 @@ Två undantag, bara de:
 2. Tillsätts **inte** som mullvad och **inte** som kontakt. Se [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml).
 
 Romans med Plåthorn (#14) och pending med Babord (#21) är vanliga scener, inte runtime-undantag.
+
+Fiende 14 mot Rötägg: fuskad vinst om Plåthorns fiskegrund. Dåtid. Inget fysiskt sjökort. Spelas som erkännande eller revansch vid bordet. Spader-ringen på Klöver tar Gustaf med.

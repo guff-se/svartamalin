@@ -6,7 +6,7 @@ mirrors:
   - slug: gustaftadaa
     note: romans, hon vill ha hans händer, Döver vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: ulrikahammar
-    note: fiende, scarfen med brevet till Döver (enväg hat, hon vet om det)
+    note: fiende, brevet i din scarf till Döver (enväg hat, hon vet om det; ingen fysisk scarf)
 related: [navidmodiri, ulrikahammar, gustaftadaa]
 ---
 
@@ -28,8 +28,8 @@ Håll ditt lugn även när någon tvivlar. Någon på ön kan riktigt teckenspr�
 
 Låt inte Döver se er. Låt inte din egen **Galeonen Gnället** räkna ut varför du försvinner mot fel reling. Ta Spader mellan given, innan festen är över, och håll de två hungrarna i varsin ficka.
 
-## Scarfen som inte var hennes {slug:ulrikahammar}
+## Ordningen hon stal {slug:ulrikahammar}
 
-**Kapten Barnsben** snodde din scarf en gång, lindade ett brev till **Kapten Döver** i den och smög det fram som om tyget vore hennes. Du vill ha honom, och du tål inte att någon tar det som är ditt, stoppar in en plan du inte godkänt och lämnar vecken i oordning.
+**Kapten Barnsben** snodde din scarf en gång, lindade ett brev till **Kapten Döver** i den och smög det fram som om tyget vore hennes. Tyget är borta. Oordningen är kvar. Du vill ha honom, och du tål inte att någon tar det som är ditt, stoppar in en plan du inte godkänt och lämnar vecken i oordning.
 
-Hon håller en sy- och broderihörna öppen mellan varven, där folk landar, viskar och lämnar lappar. Där kan du ta tillbaka scarfen, fånga henne med ännu ett brev, eller se till att Döver får veta vems händer som rörde ditt tyg. Gör det innan festen är över, innan hon tar något mer som inte är hennes.
+Hon håller en sy- och broderihörna öppen mellan varven, där folk landar, viskar och lämnar lappar. Där kan du kräva en ursäkt högt, fånga henne med ännu ett brev, eller se till att Döver får veta vems händer som rörde det som var ditt. Gör det innan festen är över, innan hon tar något mer som inte är hennes.

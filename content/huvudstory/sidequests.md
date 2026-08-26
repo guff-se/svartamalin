@@ -195,7 +195,7 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `amandamungsgard` | S-05 | arvssyndskatt, mynt, låg intensitet, vill spela med Dunka |
 | `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa hornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). Frompiraterna ligger i lagintrigen, inte här. |
 | `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
-| `alexandrapalmquist` | S-03, S-10 | sjökort, mild ordning, romans med Döver, fiende 12 mot Barnsben (scarfen). Redan mullvad mot Döver (annan hemlighet). |
+| `alexandrapalmquist` | S-03, S-10 | sjökort (Mälaren, hennes föremål), mild ordning, romans med Döver, fiende 12 mot Barnsben (brevet i scarfen, dåtid). Redan mullvad mot Döver (annan hemlighet). |
 | `edvinthungren` | S-07, S-10, S-12 | vill vara snäll, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
 | `elinmartensson` | S-08, S-11 | plåthorn, klagomur, vet hur Spader vinner när han borde förlora |
 | `gustaftadaa` | S-04, S-08, S-11 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14), korthajbordet. Fullt spelbar. Inga huvudquest-ledtrådar, inte mullvad/kontakt. |
@@ -211,19 +211,19 @@ Deltagare:      Kapten Barnsben (`ulrikahammar`), Kapten Nykter (`fabianmacklin`
 Roll i storyn:  bärare (Barnsben) / jägare (Nykter, Rosing, Babord) / vittne (Döver, enväg)
 Kopplad till:   ingen beat än. Korsar kökskanten, Nykter har maten.
 
-Vad de vill:    Barnsben måste ta ett av sina krumelurpiller när mörkret faller, annars slutar hon vara barnslig och börjar bli stor, vilket hon fasar för. Ingen ska se. Nykter vill vara den hon litar på i skymningen och gärna den som håller burken. Rosing vill detsamma, utan att veta att Nykter redan ligger risigt nära henne av ett annat skäl. Babord vill ta tillbaka scarfen Barnsben en gång lindade ett brev till Döver i, och fånga Barnsben om hon gör om det.
-Vad står i vägen: Barnsben bjuder bara särskilt invigda, och burken är liten och lätt att sno. Nykters uppvaktning av Barnsben är redan hans täckmantel för att hålla henne som mullvad (se mullvadstabellen ovan): han vet mer om henne än han visar, vilket gör hans intresse svårare att läsa för både Barnsben och Rosing. Rosing vågar inte fråga rakt ut vem Barnsben egentligen litar på, av rädsla för svaret. Babord vet om scarfen, inte om pillren, och Döver vet inte att hon kommer till hörnan för scarfen.
-Varför nu:      första skymningen som räknas är lördag. Fredag är off-story. Efter ritualen är det kropp, inte pussel: att gömma en burk, smyga i en klick, ta ett piller, eller ta tillbaka en scarf, går fortfarande att spela utan logik.
+Vad de vill:    Barnsben måste ta ett av sina krumelurpiller när mörkret faller, annars slutar hon vara barnslig och börjar bli stor, vilket hon fasar för. Ingen ska se. Nykter vill vara den hon litar på i skymningen och gärna den som håller burken. Rosing vill detsamma, utan att veta att Nykter redan ligger risigt nära henne av ett annat skäl. Babord vill ha upprättelse för att Barnsben en gång lindade ett brev till Döver i hennes scarf, och fånga Barnsben om hon gör om det. Ingen fysisk scarf. Oförrätten är dåtid.
+Vad står i vägen: Barnsben bjuder bara särskilt invigda, och burken är liten och lätt att sno. Nykters uppvaktning av Barnsben är redan hans täckmantel för att hålla henne som mullvad (se mullvadstabellen ovan): han vet mer om henne än han visar, vilket gör hans intresse svårare att läsa för både Barnsben och Rosing. Rosing vågar inte fråga rakt ut vem Barnsben egentligen litar på, av rädsla för svaret. Babord vet om brevet i scarfen, inte om pillren, och Döver vet inte att hon kommer till hörnan för upprättelse.
+Varför nu:      första skymningen som räknas är lördag. Fredag är off-story. Efter ritualen är det kropp, inte pussel: att gömma en burk, smyga i en klick, ta ett piller, eller kräva en ursäkt vid hörnan, går fortfarande att spela utan logik.
 
-Hur det spelas: Barnsben håller sin sy- och broderihörna öppen som naturlig samlingsplats. Nykter och Rosing uppvaktar henne var för sig under dagen, i hopp om att bli den hon anförtror sig åt när mörkret faller. Barnsben kan dela ut ett piller till den hon litar mest på, eller lägga ett i en drink hos någon hon tycker blivit för allvarlig och vuxen under dagen. Döver, som av gammal vana tjuvlyssnar bakom sin fejkade dövhet, hör mer av syhörnans viskningar än någon anar och vet redan vem Barnsben egentligen litar på, utan att säga något. Babord kommer till samma hörna för scarfen: hon kan kräva den tillbaka, leta efter ett nytt brev, eller tala om för Döver vems händer som rörde hennes tyg. Hon täcker inte hans dövhet här.
-Utfall om ja:   någon får burken, någon ser intaget, ett piller hamnar hos fel person. Svartsjuka mellan Nykter och Rosing vid syhörnan. Döver kan, om han vill, avslöja vem Barnsben valde, eller hålla tyst och spara det. Scarfen byter händer eller blir en scen just när Barnsben minst vill ha folk vid hörnan.
+Hur det spelas: Barnsben håller sin sy- och broderihörna öppen som naturlig samlingsplats. Nykter och Rosing uppvaktar henne var för sig under dagen, i hopp om att bli den hon anförtror sig åt när mörkret faller. Barnsben kan dela ut ett piller till den hon litar mest på, eller lägga ett i en drink hos någon hon tycker blivit för allvarlig och vuxen under dagen. Döver, som av gammal vana tjuvlyssnar bakom sin fejkade dövhet, hör mer av syhörnans viskningar än någon anar och vet redan vem Barnsben egentligen litar på, utan att säga något. Babord kommer till samma hörna för oförrätten: hon kan kräva en ursäkt högt, fånga ett nytt brev, eller tala om för Döver vems händer som rörde det som var hennes. Hon täcker inte hans dövhet här. Ingen scarf byter händer.
+Utfall om ja:   någon får burken, någon ser intaget, ett piller hamnar hos fel person. Svartsjuka mellan Nykter och Rosing vid syhörnan. Döver kan, om han vill, avslöja vem Barnsben valde, eller hålla tyst och spara det. En scen om det stulna tyget, eller ett nytt brev som fångas, just när Barnsben minst vill ha folk vid hörnan.
 Utfall om nej:  Barnsben tar sitt piller privat och ensam. Romanserna 4 och 5 finns kvar oförlösta. Fiende 12 likaså.
 
-Bygger på:      romanser 4, 5. Fiende 12 (Babord–Barnsben, scarfen). Samma underliggande relation som mullvad 1 (Nykter–Barnsben), men en annan konsekvens av den: uppvaktningen syns här, förräderiet syns inte.
-Speglas hos:    Barnsben, Nykter, Rosing, Babord. Döver enväg, han lyssnar men agerar inte. Babord enväg mot Döver i den här biten: hon talar om scarfen för honom om hon vill, han har ingen egen S-03-text om den.
+Bygger på:      romanser 4, 5. Fiende 12 (Babord–Barnsben, brevet i scarfen, dåtid). Samma underliggande relation som mullvad 1 (Nykter–Barnsben), men en annan konsekvens av den: uppvaktningen syns här, förräderiet syns inte.
+Speglas hos:    Barnsben, Nykter, Rosing, Babord. Döver enväg, han lyssnar men agerar inte. Babord enväg mot Döver i den här biten: hon talar om oförrätten för honom om hon vill, han har ingen egen S-03-text om den.
 Status:         skriven
 
-Obs: Tidigare hållen utanför, se S-10. Tillagd 2026-08-24 på Gustafs begäran, via fiende 12. S-10 är teckenspråksbluffen, S-03 är scarfen mot Barnsben, mullvaden är en tredje hemlighet. Håll isär i gästtexten. Nykter bär också S-05 och S-07, Barnsben bär också S-07, Döver och Babord bär också S-10. Ingen av dem delar mekanik mellan sidequesterna.
+Obs: Tidigare hållen utanför, se S-10. Tillagd 2026-08-24 på Gustafs begäran, via fiende 12. S-10 är teckenspråksbluffen, S-03 är upprättelsen mot Barnsben, mullvaden är en tredje hemlighet. Håll isär i gästtexten. Ingen fysisk scarf, ingen SL-prop. Nykter bär också S-05 och S-07, Barnsben bär också S-07, Döver och Babord bär också S-10. Ingen av dem delar mekanik mellan sidequesterna.
 
 ---
 
@@ -384,7 +384,7 @@ Bygger på:      romans 7 (Döver–Babord). Fiender 6 (Döver–Rötägg), 23 (
 Speglas hos:    Döver, Babord, Rötägg, Fuling. Hjärter enväg, ingen ny egen jakt åt honom.
 Status:         skriven
 
-Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlighet, se mullvadstabellen): hon är hans handlerkontakt och hans romans i samma andetag, vilket redan är sant i `forradare.yaml`. Hon bär också S-03 (scarfen mot Barnsben). Håll teckenspråksbluffen, scarfen och förräderiet isär i gästtexten. Rötägg bär också S-07 och S-12, Fuling bär också S-04. Samma personer, olika relationer, ingen delad mekanik.
+Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlighet, se mullvadstabellen): hon är hans handlerkontakt och hans romans i samma andetag, vilket redan är sant i `forradare.yaml`. Hon bär också S-03 (upprättelsen mot Barnsben). Håll teckenspråksbluffen, fiende 12 och förräderiet isär i gästtexten. Rötägg bär också S-07 och S-12, Fuling bär också S-04. Samma personer, olika relationer, ingen delad mekanik.
 
 ---
 
@@ -392,7 +392,7 @@ Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlig
 
 Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att dras in i huvudstoryn, eftersom de redan har tryck och redan korsar skutor:
 
-- **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fem personer i ett nät. **S-03, beslutad**, med Rosing och Nykter som jägare, Döver som enväg-vittne, Babord som jägare via fiende 12 (scarfen). S-10 förblir teckenspråket, inte scarfen.
+- **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fem personer i ett nät. **S-03, beslutad**, med Rosing och Nykter som jägare, Döver som enväg-vittne, Babord som jägare via fiende 12 (brevet i scarfen, dåtid, ingen fysisk scarf). S-10 förblir teckenspråket, inte scarfen.
 - **Blodig och Hjärter om Malin** (romanser 17, 20 och fiende 21). Två anspråk på jubilaren. De jagar hennes hemliga älskare i hamnen. Sanningen är Karl XII, först i kistan. **S-01, beslutad.**
 - **Enben mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Sannolikt vår viktigaste ingång till huvudstoryn. **S-06, beslutad.**
 - **Hjärter, hemligt förälskad i Malin** (romans 17). Jagar rivalen privat, vid kökskanten. **S-01, beslutad.**

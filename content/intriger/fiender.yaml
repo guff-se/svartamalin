@@ -115,7 +115,8 @@ fiender:
     type: one_way
     a: alexandrapalmquist # Kapten Babord: Galeonen Gnället
     b: ulrikahammar       # Kapten Barnsben: Korvetten Kurtisanen
-    # oförrätt: Barnsben smög brev till Döver lindat i Babords scarf
+    # oförrätt: Barnsben smög brev till Döver lindat i Babords scarf.
+    # Dåtid. Ingen fysisk scarf på ön. Spelas som upprättelse, scen eller nytt brev.
     status: done
 
   - id: 13
@@ -131,7 +132,8 @@ fiender:
     a: gustaftadaa        # Löjtnant Spader: Fregatten Fördärvet
     b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
     # oförrätt: Rötägg fuskade i kort och vann Spaders sjökort till Plåthorns fiskegrund.
-    # Gammal röta, innan omvändelsen.
+    # Gammal röta, innan omvändelsen. Dåtid. Inget fysiskt sjökort på ön.
+    # Spelas som erkännande eller revansch vid ett nytt bord.
     status: done
 
   - id: 17

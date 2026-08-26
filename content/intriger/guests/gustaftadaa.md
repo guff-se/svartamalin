@@ -12,7 +12,7 @@ mirrors:
   - slug: jesperlejfjord
     note: mångårig rivalitet, ömsesidiga fuskanklagelser (tvåvägs)
   - slug: edvinthungren
-    note: enväg hat, sjökortet till Plåthorns fiskegrund (du hatar honom, han vet om det)
+    note: enväg hat, fuskad vinst om Plåthorns fiskegrund (du hatar honom, han vet om det; inget fysiskt sjökort)
 related: [jesperlindmarker, elinmartensson, josefinlowing, johannabergman, jesperlejfjord, minervalowgren, edvinthungren, alexandrapalmquist]
 ---
 
@@ -44,8 +44,8 @@ Ett enda parti, vid kökskanten. **Kapten Prygel** delar, och hon hatar Klöver 
 
 Plåthorn vet inte. Babord vet inte om Plåthorn. Håll det så. Två kvinnor på samma galeon är ett parti du inte har råd att förlora öppet. Ta Babord i skuggan av korten, innan festen är över, och se till att de aldrig jämför smycken.
 
-## Sjökortet du vill ha tillbaka {slug:edvinthungren}
+## Fusket du aldrig smält {slug:edvinthungren}
 
-**Kapten Rötägg** vann en gång ditt sjökort till **Kapten Plåthorn**s fiskegrund över ett bord kort, med en hand du är övertygad var lika fuskad som ditt eget rykte påstås vara. Det var innan han miste sitt skepp och bestämde sig för att bli snäll, och du har aldrig fått chansen att kräva tillbaka det som var ditt.
+**Kapten Rötägg** vann en gång ditt sjökort till **Kapten Plåthorn**s fiskegrund över ett bord kort, med en hand du är övertygad var lika fuskad som ditt eget rykte påstås vara. Det var innan han miste sitt skepp och bestämde sig för att bli snäll. Kortet är borta sen länge. Det du aldrig fått tillbaka är äran.
 
-Han sabrerar bubbel och masserar bort andras nöd numera, som om godhet kan betala en gammal skuld. Testa honom: be honom ge tillbaka kortet som en gest av sin nya vänlighet, och se om han menar det, eller sätt honom vid ett nytt bord och vinn det tillbaka med en hand lika fuskad som hans egen en gång var. Avgör det innan festen är över.
+Han sabrerar bubbel och masserar bort andras nöd numera, som om godhet kan betala en gammal skuld. Testa honom: kräv ett erkännande av fusket som gest av hans nya vänlighet, och se om han menar det, eller sätt honom vid ett nytt bord och slå honom tills kajen ser vem som fuskar. Avgör det innan festen är över.

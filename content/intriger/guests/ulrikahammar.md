@@ -7,7 +7,7 @@ mirrors:
     note: uppvaktning vid syhörnan (tvåvägs)
 # navidmodiri lyssnar i smyg vid syhörnan, enväg, speglas inte
   - slug: alexandrapalmquist
-    note: fiende, scarfen med brevet till Döver (enväg hat från henne, du vet om det)
+    note: fiende, brevet i hennes scarf till Döver (enväg hat från henne, du vet om det; ingen fysisk scarf)
   - slug: edvinthungren
     note: gammal röta, parfymspratten mot din uppvaktning av Döver (enväg, du dömer, han vet om domen)
 # navidmodiri: enväg åtrå, speglas inte
@@ -34,13 +34,13 @@ När mörkret faller måste du svälja ett piller ur din lilla krumelurburk, ann
 
 Du skrev det en gång i ett brev, lindat i **Kapten Babord**s scarf, och smög det fram till **Kapten Döver** som om tystnad vore ett ja. Det var det inte. Inte högt. Men du har inte slutat vilja ha honom. Du vill ha händerna från hans workshop mot din hud, munnen som aldrig behöver svara, och en stund i koja där du får låta så högt att även en döv kapten skulle vända sig om.
 
-**Kapten Nykter** och **Kapten Rosing** slåss om din skymning och din burk, och du låter dem gärna tro att de är hela spelet. De är inte det. Spelet sitter i den man du en gång uppvaktade tills **Kapten Rötägg** bytte ut din doft och lät hela kajen skratta. Ta Döver i skuggan av syhörnan, skriv ett nytt brev, eller se till att Babord får veta att scarfen inte var det sista du tänker låna. Gör det innan festen är över, innan någon annan tar den tystnad du fortfarande vill fylla.
+**Kapten Nykter** och **Kapten Rosing** slåss om din skymning och din burk, och du låter dem gärna tro att de är hela spelet. De är inte det. Spelet sitter i den man du en gång uppvaktade tills **Kapten Rötägg** bytte ut din doft och lät hela kajen skratta. Ta Döver i skuggan av syhörnan, skriv ett nytt brev, eller se till att Babord får veta att brevet i hennes scarf inte var det sista du tänker skicka. Gör det innan festen är över, innan någon annan tar den tystnad du fortfarande vill fylla.
 
-## Scarfen du lånade {slug:alexandrapalmquist}
+## Brevet i hennes tyg {slug:alexandrapalmquist}
 
 Du lindade en gång ett brev till **Kapten Döver** i **Kapten Babord**s scarf och smög det fram, mjukt som en hemlighet. Hon vet om det. Hon hatar det. Hon hatar att någon tar det som är hennes och stoppar in en plan hon inte godkänt.
 
-Hon kan dyka upp vid din sy- och broderihörna. Möt henne, muta henne, neka, eller sy fast scarfen i hennes knä som om ingenting hänt. Välj innan festen är över: Döver är värd mer än en scarf, men en scarf kan räcka för att hon ska ställa till en scen just när du minst vill ha folk över axeln.
+Hon kan dyka upp vid din sy- och broderihörna. Möt henne, muta henne, neka, eller be om ursäkt så högt att hela hörnan hör. Välj innan festen är över: Döver är värd mer än en scen, men hon ställer gärna till en just när du minst vill ha folk över axeln.
 
 ## Parfymen som förstörde allt {slug:edvinthungren}
 
