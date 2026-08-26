@@ -6,6 +6,7 @@ import { mountWebglMap, unmountWebglMap } from '../components/webgl-map/index.js
 import { renderNarrative } from '../components/narrative-section.js'
 import { renderCrewCollage } from '../components/crew-collage.js'
 import { renderMyCrew } from '../components/my-crew.js'
+import { renderCrewIntriger } from '../components/crew-intriger.js'
 import { renderMyIntriger } from '../components/my-intriger.js'
 import { renderMySleeping } from '../components/my-sleeping.js'
 import { hasGivenAnswer } from '../lib/guest.js'
@@ -55,6 +56,14 @@ export async function renderWebgl(app) {
               <div class="manifest-body" id="manifest-prep">Laddar…</div>
             </div>
           </div>
+        </section>
+
+        <section class="card-section">
+          <div class="card card--intriger card--world" id="intriger-intro">Laddar…</div>
+        </section>
+
+        <section class="card-section" id="crew-intriger-section" hidden>
+          <div class="card card--intriger card--crew-intriger" id="crew-intriger"></div>
         </section>
 
         <section class="card-section">
@@ -145,6 +154,8 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('manifest-saturday'), { key: 'manifest_saturday' })
   renderNarrative(document.getElementById('manifest-play'),     { key: 'manifest_play' })
   renderNarrative(document.getElementById('manifest-prep'),     { key: 'manifest_prep' })
+  renderNarrative(document.getElementById('intriger-intro'), { key: 'intriger_intro' })
+  renderCrewIntriger(document.getElementById('crew-intriger'))
   renderMyCrew(document.getElementById('my-crew'))
   renderMyIntriger(document.getElementById('my-intriger'))
   renderCrewCollage(document.getElementById('crew-collage'))
@@ -165,6 +176,8 @@ export async function renderWebgl(app) {
     btn.addEventListener('click', async () => {
       await openRsvpFlow()
       refreshAnswerState()
+      renderCrewIntriger(document.getElementById('crew-intriger'))
+      renderMyCrew(document.getElementById('my-crew'))
       renderMyIntriger(document.getElementById('my-intriger'))
     })
   })
