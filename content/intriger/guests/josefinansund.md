@@ -35,3 +35,9 @@ Ett år sedan låg **Kapten Kuling** i bakhåll på Paradisets ö och sköt **Ka
 **Kapten Blodig** har redan ett groll mot dig, en stulen kapitulation och ett blodstämplat storsegel, och nu svär hon att namnet är ditt. Vem annars, säger hon, när pulversläkter hatar varandra så det ryker? Om Rödskägg tror henne är det inte bara en skandal. Det är ett skott han kan lägga på din kropp nästa gång ni ska knulla i hemlighet, med det röda skägget mot halsen och hans paranoia ett rum bort.
 
 Kuling bar namnet då och bär det fortfarande, vid båtarna. Köp det. Hota till det. Eller dra värja mot Blodig innan lögnen stelnar till sanning, för du är inte den som sitter tyst när någon spottar i ditt namn. **Kapten Rötägg** nosar i samma jakt med en vänlighet som kommer för snabbt, och du vet inte vems ärende han gör. Gör det innan festen är över. Du vet att det inte var du. Hamnen vet ingenting.
+
+## Kapitulationen du stal {slug:minimacklin}
+
+**Kapten Blodig** har aldrig förlåtit dig för kapitulationen du tog ifrån henne, ett papper hon svettades blod för, och hon stämplade sitt eget storsegel rött som svar, ett tecken hon fortfarande bär med stolthet. Du ångrar ingenting. Segern var din lika mycket som skammen är hennes att bära.
+
+Nu svär hon dessutom att du köpte bakhållet mot **Kapten Rödskägg** på Paradisets ö, en lögn som kan avslöja mer om dig än du vågar erkänna om den sprids fel väg. Möt hennes anklagelse med samma hårda min som du mötte förlusten av kapitulationen, eller vänd sanningen mot henne innan hon hinner sprida den vidare. Gör det innan festen är över: en gammal seger ska inte kosta dig en ny skandal.
