@@ -1,4 +1,4 @@
-## Salmonellahavet
+## Välkommen till Salmonellahavet
 
 Året är 1702. Karl XII är kung över is, krut och en karta där Salmonellahavet är en klick bläck i hörnet. Här är bläcket djup, och det går i vågor. Skutorna ligger så tätt att man kan gå från skandal till skål utan att blöta strumporna.
 
