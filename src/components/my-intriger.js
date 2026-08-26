@@ -2,7 +2,7 @@ import { supabase } from '../lib/supabase.js'
 import { getGuestId } from '../lib/state.js'
 import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
-import { fetchIntrigerGuests, getGuestIntriger, intrigerListHtml } from '../lib/intriger.js'
+import { fetchIntrigerGuests, fetchPirateGuests, getGuestIntriger, intrigerListHtml } from '../lib/intriger.js'
 import { pirateCardHtml } from './pirate-card.js'
 import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
 import { renderNarrative } from './narrative-section.js'
@@ -36,12 +36,13 @@ export async function renderMyIntriger(el) {
     return
   }
 
-  const [{ data: pname }, guestsBySlug] = await Promise.all([
+  const [{ data: pname }, pirates] = await Promise.all([
     me?.pirate_name_id
       ? supabase.from('pirate_names').select('name').eq('id', me.pirate_name_id).maybeSingle()
       : Promise.resolve({ data: null }),
-    fetchIntrigerGuests(intrigues),
+    fetchPirateGuests(),
   ])
+  const guestsBySlug = await fetchIntrigerGuests(intrigues, pirates)
 
   const pirateName = pname?.name || '…'
   const heroCard = me
@@ -57,9 +58,9 @@ export async function renderMyIntriger(el) {
     <div class="intriger-hero">
       ${heroCard}
     </div>
-    <p class="intriger-sub">Dina relationer</p>
+    <p class="intriger-sub">Din roll</p>
     <div class="intriger-note"></div>
-    ${intrigerListHtml(intrigues, guestsBySlug)}
+    ${intrigerListHtml(intrigues, guestsBySlug, { pirates })}
   `
 
   await renderNarrative(el.querySelector('.intriger-note'), { key: 'intriger_personal' })

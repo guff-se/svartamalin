@@ -34,11 +34,60 @@ function fileKey(path) {
   return base.replace(/\.md$/i, '')
 }
 
-/** Minimal markdown — **bold** + radbrytningar (samma som content/copy). */
-function formatMd(s) {
-  return escapeHtml(s)
+/** @typedef {{ id: string, real_name: string, pirate_name: string | null, pirate_name_id: number | null }} IntrigerGuest */
+
+function escapeRegExp(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+/**
+ * Minimal markdown — **bold** + radbrytningar (samma som content/copy).
+ * Kända piratnamn får hover-porträtt.
+ * @param {string} s
+ * @param {IntrigerGuest[]} [pirates]
+ */
+function formatMd(s, pirates = []) {
+  const html = escapeHtml(s)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\n/g, '<br />')
+  return wrapPirateNames(html, pirates)
+}
+
+/**
+ * @param {string} html  redan escapad
+ * @param {IntrigerGuest[]} pirates
+ */
+function wrapPirateNames(html, pirates) {
+  const named = (pirates ?? []).filter((g) => g.pirate_name)
+  if (!named.length) return html
+
+  /** @type {Map<string, IntrigerGuest>} */
+  const byNorm = new Map()
+  for (const g of named) {
+    byNorm.set(normalizePirateName(g.pirate_name), g)
+  }
+  const patterns = [...new Set(named.map((g) => g.pirate_name))]
+    .sort((a, b) => b.length - a.length)
+    .map((name) => escapeRegExp(name).replace(/[–—\-]/g, '[-–—]'))
+  if (!patterns.length) return html
+
+  const re = new RegExp(`(<[^>]*>)|(${patterns.join('|')})`, 'gi')
+  return html.replace(re, (full, tag, name) => {
+    if (tag) return tag
+    const g = byNorm.get(normalizePirateName(name))
+    if (!g) return name
+    return pirateHoverHtml(name, g)
+  })
+}
+
+function normalizePirateName(s) {
+  return String(s).toLowerCase().replace(/[–—]/g, '-')
+}
+
+/** @param {string} visibleHtml redan escapad text @param {IntrigerGuest} guest */
+function pirateHoverHtml(visibleHtml, guest) {
+  const src = escapeHtml(portraitPath(guest.real_name))
+  return `<span class="pirate-hover">${visibleHtml}<span class="pirate-hover__pop" aria-hidden="true"><img class="pirate-hover__photo" src="${src}" alt="" width="180" height="240" loading="lazy" decoding="async" /></span></span>`
 }
 
 /**
@@ -149,11 +198,25 @@ export function getGuestIntriger(loginSlug) {
 }
 
 /**
+ * Alla mönstrade gäster med piratnamn (för hover-porträtt i intrigtext).
+ * @returns {Promise<IntrigerGuest[]>}
+ */
+export async function fetchPirateGuests() {
+  const { data } = await supabase
+    .from('public_guests')
+    .select('id, real_name, pirate_name, pirate_name_id')
+    .not('pirate_name_id', 'is', null)
+  return (data ?? []).filter((g) => g.pirate_name)
+}
+
+/**
  * Hämta gäst+piratnamn för intrig-slugs (via real_name — exponerar inte login_slug).
  * @param {Intrig[]} intrigues
- * @returns {Promise<Record<string, { id: string, real_name: string, pirate_name: string | null, pirate_name_id: number | null }>>}
+ * @param {IntrigerGuest[]} [pirates]  återanvänd lista från fetchPirateGuests()
+ * @returns {Promise<Record<string, IntrigerGuest>>}
  */
-export async function fetchIntrigerGuests(intrigues) {
+export async function fetchIntrigerGuests(intrigues, pirates) {
+  const roster = pirates ?? await fetchPirateGuests()
   /** @type {Record<string, string>} */
   const realToSlug = {}
   for (const i of intrigues ?? []) {
@@ -161,31 +224,11 @@ export async function fetchIntrigerGuests(intrigues) {
     const rn = GUEST_REAL_NAMES[i.slug]
     if (rn) realToSlug[rn] = i.slug
   }
-  const names = Object.keys(realToSlug)
-  /** @type {Record<string, { id: string, real_name: string, pirate_name: string | null, pirate_name_id: number | null }>} */
+  /** @type {Record<string, IntrigerGuest>} */
   const bySlug = {}
-  if (!names.length) return bySlug
-
-  const { data: guests } = await supabase
-    .from('guests')
-    .select('id, real_name, pirate_name_id')
-    .in('real_name', names)
-
-  const ids = (guests ?? []).map((g) => g.pirate_name_id).filter(Boolean)
-  const { data: pnames } = ids.length
-    ? await supabase.from('pirate_names').select('id, name').in('id', ids)
-    : { data: [] }
-  const nameMap = Object.fromEntries((pnames ?? []).map((n) => [n.id, n.name]))
-
-  for (const g of guests ?? []) {
+  for (const g of roster) {
     const slug = realToSlug[g.real_name]
-    if (!slug) continue
-    bySlug[slug] = {
-      id: g.id,
-      real_name: g.real_name,
-      pirate_name_id: g.pirate_name_id,
-      pirate_name: g.pirate_name_id != null ? (nameMap[g.pirate_name_id] ?? null) : null,
-    }
+    if (slug) bySlug[slug] = g
   }
   return bySlug
 }
@@ -194,11 +237,12 @@ export async function fetchIntrigerGuests(intrigues) {
  * HTML för en lista intriger (redan filtrerad).
  * @param {Intrig[]} intrigues
  * @param {Record<string, { id: string, real_name: string, pirate_name: string | null, pirate_name_id: number | null }>} [guestsBySlug]
- * @param {{ showCards?: boolean }} [opts] — `showCards: false` för lagintriger (ingen mini-porträtt)
+ * @param {{ showCards?: boolean, pirates?: IntrigerGuest[] }} [opts] — `showCards: false` för lagintriger (ingen mini-porträtt)
  */
 export function intrigerListHtml(intrigues, guestsBySlug = {}, opts = {}) {
   if (!intrigues?.length) return ''
   const showCards = opts.showCards !== false
+  const pirates = opts.pirates ?? Object.values(guestsBySlug)
   return `
     <ul class="intriger-list${showCards ? '' : ' intriger-list--text-only'}">
       ${intrigues.map((i) => {
@@ -220,8 +264,8 @@ export function intrigerListHtml(intrigues, guestsBySlug = {}, opts = {}) {
         <li class="intrig">
           ${card}
           <div class="intrig__text">
-            <h3 class="intrig__title">${formatMd(i.title)}</h3>
-            <div class="intrig__body">${formatMd(i.body)}</div>
+            <h3 class="intrig__title">${formatMd(i.title, pirates)}</h3>
+            <div class="intrig__body">${formatMd(i.body, pirates)}</div>
           </div>
         </li>`
       }).join('')}

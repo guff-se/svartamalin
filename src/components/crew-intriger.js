@@ -4,7 +4,7 @@ import { escapeHtml } from '../lib/escape.js'
 import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { sortByPirateNameId } from '../lib/pirate-name-order.js'
-import { getCrewIntriger, intrigerListHtml } from '../lib/intriger.js'
+import { fetchPirateGuests, getCrewIntriger, intrigerListHtml } from '../lib/intriger.js'
 import { crewShip } from '../lib/ships.js'
 import { pirateCardHtml } from './pirate-card.js'
 import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
@@ -41,13 +41,14 @@ export async function renderCrewIntriger(el) {
     return
   }
 
-  const [{ data: crew }, { data: mates }] = await Promise.all([
+  const [{ data: crew }, { data: mates }, pirates] = await Promise.all([
     supabase.from('crews').select('id, name').eq('id', me.crew_id).maybeSingle(),
     supabase
       .from('guests')
       .select('id, real_name, phone, email, pirate_name_id')
       .eq('crew_id', me.crew_id)
       .not('pirate_name_id', 'is', null),
+    fetchPirateGuests(),
   ])
 
   const ids = (mates ?? []).map((m) => m.pirate_name_id).filter(Boolean)
@@ -81,7 +82,7 @@ export async function renderCrewIntriger(el) {
     ${shipHtml}
     <h2 class="crew-name">${escapeHtml(crewName)}</h2>
     <p class="crew-sub">Din skuta</p>
-    ${crewIntriger.length ? intrigerListHtml(crewIntriger, {}, { showCards: false }) : ''}
+    ${crewIntriger.length ? intrigerListHtml(crewIntriger, {}, { showCards: false, pirates }) : ''}
     <div class="crew-members">
       <h3 class="my-crew-members-heading">Besättningen</h3>
       <div class="crew-collage" id="my-crew-collage"></div>
