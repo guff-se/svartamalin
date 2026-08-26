@@ -24,7 +24,7 @@ Håll ditt lugn även när någon tvivlar. Någon på ön kan riktigt teckenspr�
 
 ## Handen som fuskar åt babord {slug:gustaftadaa}
 
-**Löjtnant Spader** bär spader i ring och halsband och vinner när han borde förlora, och du har redan låtit de händerna hamna fel mer än en gång. Du vill ha dem igen. Du vill bli blandad, knäppt upp, tagen som en insats han inte kan bluffa bort. Hans skuta är **Fregatten Fördärvet**, samma köl som **Kapten Döver**, mannen vars tecken du redan översätter med kroppen. Två män på samma skuta är ett fel du redan har räknat ut. Du vet. Du vill ändå.
+**Löjtnant Spader** är spader från namn till nagel och vinner när han borde förlora, och du har redan låtit de händerna hamna fel mer än en gång. Du vill ha dem igen. Du vill bli blandad, knäppt upp, tagen som en insats han inte kan bluffa bort. Hans skuta är **Fregatten Fördärvet**, samma köl som **Kapten Döver**, mannen vars tecken du redan översätter med kroppen. Två män på samma skuta är ett fel du redan har räknat ut. Du vet. Du vill ändå.
 
 Låt inte Döver se er. Låt inte din egen **Galeonen Gnället** räkna ut varför du försvinner mot fel reling. Ta Spader mellan given, innan festen är över, och håll de två hungrarna i varsin ficka.
 

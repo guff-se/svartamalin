@@ -21,4 +21,9 @@ Romans med Plåthorn (#14) och pending med Babord (#21) är vanliga scener, inte
 
 Största hemlighet i fiktionen: en hel kortlek med bara spaderess. Bara Plåthorn vet. Inte SL-rekvisita. Gustaf har med en sådan lek.
 
-Fiende 14 mot Rötägg: fuskad vinst om Plåthorns fiskegrund. Dåtid. Inget fysiskt sjökort. Spelas som erkännande eller revansch vid bordet. Spader-ringen på Klöver tar Gustaf med.
+Fiende 14 mot Rötägg: fuskad vinst om Plåthorns fiskegrund. Dåtid. Inget fysiskt sjökort. Spelas som erkännande eller revansch vid bordet.
+
+Rekvisita, delas ut innan spelet. Gustaf tar med båda:
+- Halsband med spader → Elin / Kapten Plåthorn. Romans 14, token.
+- Ring med spader → Johanna / Kapten Klöver. Vunnen trofé, S-11. Inte "en av flera ringar".
+Spader bär inget av dem under helgen. Elin vet om halsbandet, inte om ringen. Johanna vet om ringen, inte om halsbandet.

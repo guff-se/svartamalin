@@ -103,7 +103,7 @@ romanser:
     type: mutual
     a: gustaftadaa         # Löjtnant Spader (Gustaf Tadaa)
     b: elinmartensson      # Kapten Plåthorn (Elin Mårtensson)
-    note: Hemlig. Hon är den enda som vet om hans lek med bara spaderess, hans största hemlighet.
+    note: Hemlig. Hon är den enda som vet om hans lek med bara spaderess, hans största hemlighet. Hon bär hans halsband i spader (utdelat före spelet). Inte ringen, den sitter på Klöver.
     status: done
 
   - id: 17

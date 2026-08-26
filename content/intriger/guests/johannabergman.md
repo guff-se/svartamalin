@@ -12,7 +12,7 @@ mirrors:
   - slug: jesperlejfjord
     note: stal hans kristallfyrklöver, mångårig fuskrivalitet (tvåvägs)
   - slug: gustaftadaa
-    note: mångårig rivalitet, ömsesidiga fuskanklagelser (tvåvägs)
+    note: mångårig rivalitet, ömsesidiga fuskanklagelser, du bär hans ring med spader (tvåvägs)
 related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard, jesperlejfjord, gustaftadaa]
 ---
 
@@ -34,6 +34,6 @@ Du och **Kapten Kosing** har länge planerat en hemlig, exklusiv ätupplevelse, 
 
 ## Fyrklövern han inte fått tillbaka {slug:jesperlejfjord}
 
-Du lurade en gång till dig **Kapten Hjärter**s kristallfyrklöver vid ett bord, en riktig tur-amulett, inte kortfärgen du själv är uppkallad efter, och kallade honom speltorsk rakt i ansiktet. Han har inte glömt. Inte heller **Löjtnant Spader**, som du och Hjärter båda anklagat för fusk lika länge som ni anklagat varandra, i hamn efter hamn, utan att någon bevisat något. En av hans spader-ringar sitter dessutom på din hand sen ett annat bord för länge sedan, en trofé du bär utan att blinka.
+Du lurade en gång till dig **Kapten Hjärter**s kristallfyrklöver vid ett bord, en riktig tur-amulett, inte kortfärgen du själv är uppkallad efter, och kallade honom speltorsk rakt i ansiktet. Han har inte glömt. Inte heller **Löjtnant Spader**, som du och Hjärter båda anklagat för fusk lika länge som ni anklagat varandra, i hamn efter hamn, utan att någon bevisat något. Hans ring med spader sitter dessutom på din hand sen ett annat bord för länge sedan, själva märket i guldet, en trofé du bär utan att blinka.
 
 I år sitter ni äntligen samma bord, vid kökskanten, ett enda parti. **Kapten Prygel** delar, med sin egen lilla lek om hon vill. Du har ditt episka trick klart: byt hela leken mitt i given, så snyggt att rummet ser trolleri, inte fusk. Den som pekas ut som hajen som faktiskt fuskade förlorar mer än insatsen. Se till att det inte blir du, och håll ett öga på Spader: han vill åt ringen, och en man som spelar för att vinna tillbaka något spelar hårdare än en som bara spelar för rykte.

@@ -212,8 +212,9 @@ fiender:
     b: johannabergman     # Kapten Klöver: Barken Bortförklaringen
     # oförrätt: år vid samma bord. Spader har förlorat förmögenheter i hennes svartklubbar
     # och svär att hon byter lek. Hon svär att han palmerar. Båda har utpekat den andra
-    # som fuskare i hamn efter hamn. Klöver vann en av Spaders spader-ringar vid ett
-    # tidigare bord, han vill ha den tillbaka. S-11.
+    # som fuskare i hamn efter hamn. Klöver vann Spaders ring med spader vid ett
+    # tidigare bord (utdelad före spelet), han vill ha den tillbaka. Inte halsbandet.
+    # S-11.
     status: done
 
   - id: 28

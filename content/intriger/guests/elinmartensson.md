@@ -6,7 +6,7 @@ mirrors:
   - slug: minervalowgren
     note: vill se hornet krossat (tvåvägs)
   - slug: gustaftadaa
-    note: hemlig romans (tvåvägs); hon ensam vet om hans lek med bara spaderess
+    note: hemlig romans (tvåvägs); hon bär hans halsband i spader; hon ensam vet om hans lek med bara spaderess
 # linneaekbom kan varna dig i smyg, enväg, speglas inte
 related: [josefinlowing, minervalowgren, linneaekbom, gustaftadaa, malintadaa]
 ---
@@ -25,7 +25,7 @@ Ditt plåthorn är ingen leksak: blås i det och alla pirater i närheten drabba
 
 ## Den du tar i hemlighet {slug:gustaftadaa}
 
-**Löjtnant Spader** är din hemliga lust, dold även för dina egna skutkamrater på Gnället. Han bär spader i ring och halsband, spelar kort som ingen annan kan, och ryktas fuska utan att någon någonsin bevisat hur. Bara du vet hur ofta han vinner när han egentligen borde förlora. Bara du, i hela världen, känner till hans största hemlighet: han har en hel kortlek där vartenda kort är ett spaderess. Kort efter kort, samma svarta ess, samma fusk i varje vändning. Ingen annan har sett den. Ingen annan ska. Du vill ha de händerna. Du vill bli blandad, tagen, satt som en insats bara ni två känner till.
+**Löjtnant Spader** är din hemliga lust, dold även för dina egna skutkamrater på Gnället. Han gav dig sitt halsband i spader, och du bär det nära hjärtat: svart märke mot din hud, så ingen på galeonen ska se vems tecken du går med. Han spelar kort som ingen annan kan, och ryktas fuska utan att någon någonsin bevisat hur. Bara du vet hur ofta han vinner när han egentligen borde förlora. Bara du, i hela världen, känner till hans största hemlighet: han har en hel kortlek där vartenda kort är ett spaderess. Kort efter kort, samma svarta ess, samma fusk i varje vändning. Ingen annan har sett den. Ingen annan ska. Du vill ha de händerna. Du vill bli blandad, tagen, satt som en insats bara ni två känner till.
 
 **Kapten Kuling** har fått för sig att hon behöver en listig hand för att komma åt ditt horn, och Spader är känd som precis den sortens hand. Hon vet inte att han redan är din. Lita på att han väljer dig när det gäller, eller oroa dig för att spelet frestar honom mer. Det är ditt val om du säger något till honom om vad du anar, eller låter honom bevisa det själv, innan festen är över.
 
