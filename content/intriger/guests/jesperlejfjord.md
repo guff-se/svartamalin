@@ -8,7 +8,9 @@ mirrors:
     note: mångårig rivalitet, ömsesidiga fuskanklagelser (tvåvägs)
   - slug: louisevonbahr
     note: mullvad, du styr misstankar bort från henne mot hjälp från Fördärvet (tvåvägs)
-related: [malintadaa, minimacklin, johannabergman, gustaftadaa, louisevonbahr]
+  - slug: navidmodiri
+    note: nemesis, ömsesidig misstro kring hans fejkade dövhet (tvåvägs)
+related: [malintadaa, minimacklin, johannabergman, gustaftadaa, louisevonbahr, navidmodiri]
 ---
 
 ## Hyllan hon aldrig rensade {slug:malintadaa}
@@ -34,3 +36,9 @@ Hamnen viskar att jubilaren gömmer en älskare. Du vill veta vem, men inte hög
 Med **Katten Felix** ur spel den här helgen får du leta upp annat sällskap för ditt hemliga bus. **Kapten Klöver** lurade dig en gång på din kristallfyrklöver, en riktig tur-amulett, inte kortfärgen hon själv är uppkallad efter, vid ett bord, och kallade dig speltorsk. Du har burit skammen sedan dess. **Löjtnant Spader** har ni båda anklagat för fusk lika länge som ni anklagat varandra, hamn efter hamn, utan bevis.
 
 I år sitter ni äntligen samma bord, vid kökskanten där du ändå står med grytorna. **Kapten Prygel** delar. Ditt eget knep: märkta baksidor, ristade med lite kökssmet mellan såserna, redo att smygas in i given när ingen tittar. Det är bus, inte en razzia. Låt Klöver och Spader anklaga varandra medan du håller din egen hand ren i allas ögon.
+
+## Mannen som hör allt {slug:navidmodiri}
+
+**Kapten Döver** låtsas vara döv, ett spratt så inbitet att han håller egna workshops i hittepå-teckenspråk för att bevisa det. Du köper det inte för ett ögonblick: du har sett honom rycka till av ljud han borde vara stendöv för, och du svär att avslöja honom innan festen är över.
+
+Han vet att du vet, och han sabbar gärna dina planer i förväg om han anar vad du håller på med: ett falskt rykte vid grytorna, en sked som försvinner just när du behöver den mest. Ge tillbaka med samma mynt. Kökskanten är din arena ändå, du lämnar den knappt hela helgen, så låt honom komma till dig.

@@ -10,7 +10,9 @@ mirrors:
     note: hon anar sanningen och sparar den som skuld (tvåvägs, asymmetrisk kunskap)
   - slug: fabianmacklin
     note: enväg hat, frieriet du sålde för skratt i tavernan (han hatar dig, du vet om det)
-related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr, malintadaa, fabianmacklin]
+  - slug: jesperlejfjord
+    note: nemesis, ömsesidig misstro kring din fejkade dövhet (tvåvägs)
+related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr, malintadaa, fabianmacklin, jesperlejfjord]
 ---
 
 ## Aldrig vila {slug:malintadaa}
@@ -48,3 +50,9 @@ Ditt flaskade sanningsserum kan hamna i en kopp nära Hjärter, eller nära den 
 ## Skulden Fuling håller tyst om {slug:louisevonbahr}
 
 **Kapten Fuling**, din egen skeppskamrat, har länge anat att din dövhet är påhitt men sagt ingenting. Det passar henne bättre att ha en skuld att kräva in senare än att avslöja dig gratis nu. Hon kan när som helst nämna, i förbifarten, att hon "alltid undrat" hur du klarar dig utan att höra, ett hot utan hot i orden. Räkna med att den dagen kommer innan festen är över.
+
+## Mannen vid grytorna som inte tror dig {slug:jesperlejfjord}
+
+**Kapten Hjärter** står vid grytorna hela helgen och har länge undrat hur en döv man ändå rycker till av ljud han inte borde höra. Han litar inte ett uns på ditt hittepå-teckenspråk, hur många workshops du än håller, och han har svurit att avslöja dig innan festen är över.
+
+Ge honom aldrig anledning att bevisa det. Sabba hellre hans egna planer när tillfället ges, ett falskt rykte vid grytorna, ett spår du drar ut i onödan, en sked som "råkar" försvinna precis när han behöver den mest. Han gör detsamma mot dig utan att blinka. Scenerna spelas gärna vid kökskanten, han lämnar den ändå aldrig.
