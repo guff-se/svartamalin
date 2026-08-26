@@ -6,7 +6,8 @@
  * Default backend: ChatGPT subscription via Codex OAuth (`codex login`).
  * Optional API billing: SHIPS_USE_API_KEY=1 (requires OPENAI_API_KEY).
  *
- * Output: images/ships-generated/<file>.png
+ * Output: images/ships-generated/<stem>.png (första editionen)
+ *         images/ships-generated/<stem>-v2.png, -v3.png, … (aldrig overwrite)
  *
  * Usage:
  *   node scripts/generate-ships.js
@@ -14,7 +15,7 @@
  *   node scripts/generate-ships.js 3 fromheten
  */
 
-import { writeFile, mkdir } from 'node:fs/promises'
+import { writeFile, mkdir, readdir } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { generateImageWithCodex, hasCodexSubscriptionAuth } from './lib/codex-image.js'
@@ -43,11 +44,11 @@ const NO_PEOPLE = `CRITICAL: Absolutely no people, no faces, no hands, no crew, 
 
 const NEG = `No people, no person, no face, no crew, no crowd, no portrait subject, no modern ship, no steam, no steel hull, no container ship, no yacht, no motorboat, no Pirates of the Caribbean look, no Disney pirate aesthetic, no Jack Sparrow, no glossy CGI, no photorealistic naval photography, no bright saturated neon, no clean digital vector, no watermark text, no UI, no logo, no picture frame around the image, no other ships in the scene. No stern-first view, no ship sailing away from the camera, no transom nameplate, no name on the stern, no twisted hull posed only to show the back.`
 
-/** @type {{ id: number, file: string, aliases: string[], size: string, prompt: string }[]} */
+/** @type {{ id: number, stem: string, aliases: string[], size: string, prompt: string }[]} */
 const SHIPS = [
   {
     id: 1,
-    file: 'ship-1-kurtisanen.png',
+    stem: 'ship-1-kurtisanen',
     aliases: ['1', 'kurtisanen', 'korvetten'],
     size: '1536x1024',
     prompt: `Korvetten Kurtisanen — Svarta Malin's own small, fast, show-off corvette.
@@ -56,7 +57,7 @@ A sleek 18th-century CORVETTE (smaller than a frigate, two masts, low elegant hu
   },
   {
     id: 2,
-    file: 'ship-2-fordarvet.png',
+    stem: 'ship-2-fordarvet',
     aliases: ['2', 'fordarvet', 'fördärvet', 'fregatten-fordarvet'],
     size: '1536x1024',
     prompt: `Fregatten Fördärvet — a frigate of vice: sin, gluttony and rotten habits, not death.
@@ -65,7 +66,7 @@ An 18th-century FRIGATE (three masts) dressed as a floating tavern of excess gon
   },
   {
     id: 3,
-    file: 'ship-3-bortforklaringen.png',
+    stem: 'ship-3-bortforklaringen',
     aliases: ['3', 'bortforklaringen', 'bortförklaringen', 'barken'],
     size: '1536x1024',
     prompt: `Barken Bortförklaringen — the barque of elegant excuses, prejad three times and always blaming the weather.
@@ -74,7 +75,7 @@ An 18th-century BARQUE (three masts, the aftermost mast fore-and-aft rigged) hal
   },
   {
     id: 4,
-    file: 'ship-4-fromheten.png',
+    stem: 'ship-4-fromheten',
     aliases: ['4', 'fromheten', 'fregatten-fromheten'],
     size: '1536x1024',
     prompt: `Fregatten Fromheten — the pious pirates' frigate: clean hands, hymn-book bow, pirate socialism at sea.
@@ -83,7 +84,7 @@ A tidy 18th-century FRIGATE (three masts) whitewashed and over-clean for a pirat
   },
   {
     id: 5,
-    file: 'ship-5-gnallet.png',
+    stem: 'ship-5-gnallet',
     aliases: ['5', 'gnallet', 'gnället', 'galeonen'],
     size: '1536x1024',
     prompt: `Galeonen Gnället — the loudest galleon in Salmonellahavet, invited as the orchestra of complaints.
@@ -96,14 +97,34 @@ function buildFullPrompt(ship) {
   return `${BOW_COMPOSITION} ${NO_PEOPLE} ${SHARED} ${ship.prompt} ${STYLE_GUIDE} ${NEG} ${BOW_COMPOSITION}`
 }
 
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 function matchShip(token) {
-  const t = token.toLowerCase().replace(/\.png$/, '')
+  const t = token.toLowerCase().replace(/\.png$/, '').replace(/-v\d+$/, '')
   return SHIPS.find(
     (s) =>
-      s.file.replace(/\.png$/, '') === t ||
-      s.file.startsWith(t) ||
+      s.stem === t ||
+      s.stem.startsWith(t) ||
       s.aliases.some((a) => a.toLowerCase() === t),
   )
+}
+
+/** Next non-colliding path: <stem>.png, then <stem>-v2.png, -v3.png, … */
+async function resolveOutputPath(stem) {
+  const names = await readdir(OUT_DIR).catch(() => [])
+  const versionRe = new RegExp(`^${escapeRegex(stem)}-v(\\d+)\\.png$`)
+
+  let maxVersion = names.includes(`${stem}.png`) ? 1 : 0
+  for (const n of names) {
+    const m = n.match(versionRe)
+    if (m) maxVersion = Math.max(maxVersion, Number(m[1]))
+  }
+
+  const version = maxVersion + 1
+  const filename = version === 1 ? `${stem}.png` : `${stem}-v${version}.png`
+  return { version, filename, path: join(OUT_DIR, filename) }
 }
 
 async function generateImageWithApi(fullPrompt, size = '1536x1024', retries = 3) {
@@ -183,7 +204,7 @@ async function main() {
     ? only.map((token) => {
         const ship = matchShip(token)
         if (!ship) {
-          console.error(`Unknown ship "${token}". Try: ${SHIPS.map((s) => s.aliases[1] ?? s.file).join(', ')}`)
+          console.error(`Unknown ship "${token}". Try: ${SHIPS.map((s) => s.aliases[1] ?? s.stem).join(', ')}`)
           process.exit(1)
         }
         return ship
@@ -194,11 +215,10 @@ async function main() {
   console.log(`Generating ${queue.length} ship(s) → ${OUT_DIR}\n`)
 
   for (const ship of queue) {
-    const outPath = join(OUT_DIR, ship.file)
+    const { filename, path: outPath } = await resolveOutputPath(ship.stem)
     const fullPrompt = buildFullPrompt(ship)
     const size = ship.size || '1536x1024'
-
-    process.stdout.write(`🎨 ${ship.file} (${size}) … `)
+    process.stdout.write(`🎨 ${filename} (${size}) … `)
     const start = Date.now()
     try {
       const png = await backend.generate(fullPrompt, size)
