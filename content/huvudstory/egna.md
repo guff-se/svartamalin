@@ -20,6 +20,31 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-26, första skeppsintrigen är generell ingång till main quests
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`../intriger/crews/`](../intriger/crews/).
+
+- [x] Denna text skall också funka som en generell ingång till main quests. Den skall etablera att hon har en kista och om att de skall försöka ta reda på hennes berättelse.
+- [x] Behåll oförrätt och punchline. Lägg kista + berättelse som metoden att fälla henne.
+- [x] Bara veta att hon har en låst skattkista. Öppnandet får växa ur quests och lördagen.
+- [x] En jakt: den som känner hennes historia kommer åt kistan. Questsen är kapitlen, kistan målet.
+- [x] Korvetten Kurtisanen: samma jakt, men tyst. Kistan och berättelsen bakom hennes rygg. Hon prejar er om hon anar.
+- [x] Rykte + kista + ta reda på hennes berättelse tillsammans. Ingen plats, ingen quest, inget att några i besättningen redan har ett spår.
+
+Kryss = första `##` i `crews/1.md`–`5.md` omskriven. Malin läser Kurtisanens lagfil, så "bakom ryggen" sitter kvar i gäststarterna (regel 8), inte i `crews/1.md`.
+
+---
+
+## 2026-08-26, Kurtisanens lagskatt-ingång
+
+Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
+
+- [x] Ingångledtråd för kurtisanen är: "Kurtisanens skatt kommer att vara lätt att hitta men svår att knäcka. För att knäcka koden behöver du en siffra var från alla kurisanens kaptener. "
+
+Kryss = social ingång, skriven in i Gnällets lagfil (de jagar Kurtisanen). Dörren är alla fem ombord, inklusive Malin. Inte bara de fyra med Kapten i namnet. Siffrorna är lagets. Inte vår tryck.
+
+---
+
 ## 2026-08-25, världs-ingången är piratrevy, skriv om från scratch
 
 Källa: Gustaf, i chatt. Införd i [`../copy/intriger_intro.md`](../copy/intriger_intro.md).
@@ -495,6 +520,16 @@ Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
 - [x] Borförklaringens ingång är: "Kapten Klövers akilleshäl är högkvalitativ choklad som gör henne uppsluppen och totalt omdömeslös, oförmögen att bevara hemligheter."
 
 Kryss = strukturen sitter i [`lagskatter.md`](lagskatter.md). Fördärvets ingång är skriven in i Kurtisanens lagfil (de jagar Fördärvet). Brevet är Fördärvets prop, inte vår tryck. Bortförklaringens ingång är skriven in i Fördärvets lagfil (de jagar barken). Social, inte ett gömme: **Kapten Klöver** (`johannabergman`) är dörren. Hon sitter på barken. Hennes `roller/` säger redan att choklad lossar tungan. Ingången skärper det till högkvalitativ choklad och totalt omdöme.
+
+---
+
+## 2026-08-26, Kurtisanens lagskatt-ingång
+
+Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md). Inte i gästtext i den här omgången.
+
+- [x] Kurtisanens skatt kommer att vara lätt att hitta men svår att knäcka. För att knäcka koden behöver du en siffra var från alla kurisanens kaptener.
+
+Kryss = verbatim i registret. Jagas av Gnället. Social: de fyra kaptenerna är dörren, en siffra var. Inte Malin. Ingen gästtext skriven i den här omgången.
 
 ---
 

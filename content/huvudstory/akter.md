@@ -70,6 +70,8 @@ Pusselnod:      ingen på fredag. Cryptexen först lördag.
 Props:          kista, hänglås. Cryptexen är inte i spel än.
 Om det floppar: om den står undanskymd har akt I misslyckats. Flytta den.
 
+Gästtext:       första `##` i `crews/` etablerar kistan och jakten på hennes berättelse, före helgen. Inte öppna. Inte cryptex. Se [`quests.md`](quests.md) Lagfilens första stycke. Fordelning id 95–99.
+
 ---
 
 ## Akt II: Svek (lördag 10.30 till 14.00)
