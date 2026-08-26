@@ -17,6 +17,7 @@
     "generate-portraits": "node scripts/generate-portraits.js",
     "generate-svarta-malin": "node scripts/generate-svarta-malin-portrait.js",
     "generate-ovanan-map": "node scripts/generate-ovanan-map.js",
+    "generate-ships": "node scripts/generate-ships.js",
     "optimize-theatre-props": "node scripts/optimize-theatre-props.js"
   },
   "dependencies": {
