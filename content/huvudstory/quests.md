@@ -93,7 +93,11 @@ Boken i Storstugan: pärm, titel, utrivna stubbar. Inga kvarvarande kapitel. Ing
 
 ## Ingångstext i `content/intriger/`
 
-Gäller startstycket i `content/intriger/guests/{slug}.md`. Inte lagfilen. Inte tvärledtråd (den har egen regel längst ner). Skriv först när questen är färdig och personen är tillsatt i [`fordelning.yaml`](fordelning.yaml). Mottagaren måste klara regel 11-13: högst en start, inte mullvad, inte Malin, inte Spader. Kontaktperson i [`forradare.yaml`](forradare.yaml) får start. Röst enligt [`../intriger/STYLE.md`](../intriger/STYLE.md). Innehåll enligt questens fält **Cirkulerande version, start**.
+Två lager. Blanda inte ihop dem.
+
+**Lagfilens första stycke** är den gemensamma varför. Alla på skutan läser den. Den etablerar att Svarta Malin har en låst kista, och att de ska ta reda på hennes berättelse tillsammans. Den som känner historien kommer åt kistan. Inte första ledtråden. Inte kapitlet. Inte plats. Inte cryptex. Inte "öppna". Inte att kistan är tom. Inte att några i besättningen redan har ett spår. Punchline och oförrätt mot Malin är kvar. Se avsnittet nedan.
+
+**Gäststarten** är första ledtråden. Den sitter i `content/intriger/guests/{slug}.md`. Inte lagfilen. Inte tvärledtråd (den har egen regel längst ner). Skriv först när questen är färdig och personen är tillsatt i [`fordelning.yaml`](fordelning.yaml). Mottagaren måste klara regel 11-13: högst en start, inte mullvad, inte Malin, inte Spader. Kontaktperson i [`forradare.yaml`](forradare.yaml) får start. Röst enligt [`../intriger/STYLE.md`](../intriger/STYLE.md). Innehåll enligt questens fält **Cirkulerande version, start**.
 
 Starten är **första ledtråden**, inte kapitlet. Gästen ska vilja veta mer och veta vart hen går. Hen ska inte redan ha lärt sig det questen är till för att lära. Testet: om starten redan svarar på fältet "Vad de ska ha lärt sig när questen är klar", är den för lång. Stryk svaret. Lämna frågan, ett rykte, och nästa handling.
 
@@ -106,7 +110,7 @@ Tre hårda regler, utöver listan nedan:
 Övrigt:
 
 - Ge **en** första ledtråd ur den cirkulerande versionen: ett rykte, en fråga, ett namn på ett föremål. Berätta den ledtråden som om den vore sann.
-- Peka mot nästa konkreta handling: en plats, ett föremål, två uddar. Inte "ta reda på sanningen om Malin".
+- Peka mot nästa konkreta handling: en plats, ett föremål, två uddar. Inte "ta reda på sanningen om Malin". Den meningen sitter i lagfilens första stycke.
 - Kapitlet sitter i props, pit stops och skatten. Inte i starten.
 - Skriv inte ut fältet "Får inte" som varning till gästen.
 - Är mottagaren från **Korvetten Kurtisanen**: lägg till regel 8 ovan som en risk i berättelsen, inte som en instruktion till spelaren. Hen tar skutan till hjälp, men inte Malin.
@@ -123,6 +127,19 @@ Mönster, redan skrivna:
 - Q-5: du är skyldig henne, hon för logg. Inte var loggen sitter.
 
 När du skriver **tvärledtråd** till en skuta som inte har ingången: ledtråden ska vara meningslös om mottagaren inte redan känner till questet. **Q-2 får ingen tvärledtråd.** Samma tre hårda regler: inte kapitlet, inte mottagarens övriga relationer, uppmana att ta laget om tråden ska spelas.
+
+### Lagfilens första stycke
+
+Gäller första `##` i `content/intriger/crews/{id}.md`. Inte gäststarten. Inte lagskattstycket.
+
+Alla fem skutor får samma två fakta, i skutans röst:
+
+1. Svarta Malin har en kista. Den är låst. Hamnen ska se den. Inte cryptex. Inte "öppna". Inte att den är tom.
+2. De ska ta reda på hennes berättelse tillsammans. Den som känner historien kommer åt kistan.
+
+Behåll oförrätten mot Malin och punchlinen *Hur får man Svarta Malin på fall?* (Kurtisanen har ingen punchline: de är hennes skuta). Inte första ledtråden. Inte kapitlet. Inte en plats. Inte att några i besättningen redan har ett spår.
+
+**Korvetten Kurtisanen:** Malin läser lagfilen. Skriv inte "bakom hennes rygg" där. Kistan är hennes, hamnen ska se den, rivalerna vill åt berättelsen, ni ska känna den så ingen annan skuta hinner före, utan att glansen mattas. Gräv-tyst sitter i gäststarterna (regel 8). Malin vet inte att kistan kommer att öppnas.
 
 ---
 

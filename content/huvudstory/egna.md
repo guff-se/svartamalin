@@ -20,16 +20,6 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
-## 2026-08-26, Kurtisanens lagskatt-ingång
-
-Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
-
-- [x] Ingångledtråd för kurtisanen är: "Kurtisanens skatt kommer att vara lätt att hitta men svår att knäcka. För att knäcka koden behöver du en siffra var från alla kurisanens kaptener. "
-
-Kryss = social ingång, skriven in i Gnällets lagfil (de jagar Kurtisanen). Dörren är alla fem ombord, inklusive Malin. Inte bara de fyra med Kapten i namnet. Siffrorna är lagets. Inte vår tryck.
-
----
-
 ## 2026-08-25, världs-ingången är piratrevy, skriv om från scratch
 
 Källa: Gustaf, i chatt. Införd i [`../copy/intriger_intro.md`](../copy/intriger_intro.md).

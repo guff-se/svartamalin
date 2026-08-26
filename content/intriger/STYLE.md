@@ -155,7 +155,7 @@ Lagintriger: `crews/{crew_id}.md`. Källa: tabellen `crews` i Supabase (kan byta
 
 En intrig är en liten berättelse, backstory, drivkraft eller fakta som **binder** en person/grupp till en annan person/grupp, eller ger ett uppdrag/relation med dramatisk udd.
 
-- **Lagintriger** (`crews/{id}.md`): gemensamma uppdrag + hur laget/skutan står mot andra skutor.
+- **Lagintriger** (`crews/{id}.md`): första stycket är oförrätt mot Malin plus generell varför till huvudjakten (låst kista, ta reda på hennes berättelse tillsammans). Andra stycket är lagskatt och hur skutan står mot den de jagar.
 - **Individuella** (`guests/{login_slug}.md`): personliga band, hemligheter, envägsfixationer, privata uppdrag.
 
 ### Kortaste formen
@@ -236,7 +236,7 @@ Hittar du en vass bild i en annan fil: antingen **lyfter du in** det mottagaren 
 
 Exempel: **Kapten Enben** har romans med **Kapten Blåskägg**. Hon är inte i skäggtrion (S-02). "Knulla Skäggens Konung tills hamnen glömmer titeln" förutsätter en titelkamp hon inte bär. Skriv romansen som lust efter Blåskägg, utan trion. Låt Blåskäggs egen fil bära Skäggens Konung.
 
-Samma fälla: "kung över tre skägg", "liggaren" som namngivet objekt, "kistan", "Karl XII", ett piller, ett svärd, ett horn. Om *den här* personen inte bär spåret: använd inte spårets ordförråd. En kroppsdel i namnet (skägg, ben, horn) är inte samma sak som spårets titel.
+Samma fälla: "kung över tre skägg", "liggaren" som namngivet objekt, "Karl XII", ett piller, ett svärd, ett horn. Om *den här* personen inte bär spåret: använd inte spårets ordförråd. En kroppsdel i namnet (skägg, ben, horn) är inte samma sak som spårets titel. **Undantag:** ordet "kistan" i första stycket i `crews/` är den gemensamma ingången till huvudjakten. Alla på skutan bär det. Inte i gästfilen, om personen inte bär ett spår som redan nämner den.
 
 Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet att B är hens romans. A vet inte vad B har i sina andra `##`-stycken, om det inte också står i A:s fil.
 
@@ -267,3 +267,4 @@ Tvåvägs spegling speglar **relationen**, inte den andras övriga liv. A vet at
 21. Är det en **quest-start** (Q-1 till Q-5)? Då bara första ledtråden, inte kapitlet. Inte andra intriger eller relationer i samma stycke. Uppmana att ta laget till hjälp. Om stycket redan svarar på vad gästen ska ha lärt sig när questen är klar: stryk svaret. Se [`../huvudstory/quests.md`](../huvudstory/quests.md) Ingångstext.
 22. **Ordning i `guests/`:** 1. mullvadsintrig, 2. questintriger (start före tvärledtråd), 3. kontaktpersonintrig, 4. övriga. Mullvad och kontakt är olika personer. Saknas en typ: hoppa över den.
 23. Är det en **lagskatt-ingång** i `crews/`? Då bara första ledtråden, inskickad av gömmarna, skriven in hos jägarna. Inte var skatten ligger. Inte resten av spåret. Inte cirkeln. Inte vem som jagar dem. Fysisk (plats, föremål) eller social (namngiven person och metod). Gömmarens fil: kort påminnelse. Social: personen på skutan ska kunna släppa nästa steg, inte stängas ute. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md) Ingång.
+24. Är det **första stycket i `crews/`**? Då generell varför till huvudjakten: hon har en låst kista, ta reda på hennes berättelse tillsammans, den som känner historien kommer åt kistan. Behåll oförrätt och punchline. Inte första ledtråden. Inte plats. Inte cryptex. Inte "öppna". Inte att kistan är tom. Inte att några redan har ett spår. Kurtisanen: Malin läser filen, ingen "bakom ryggen" där. Se [`../huvudstory/quests.md`](../huvudstory/quests.md) Lagfilens första stycke.

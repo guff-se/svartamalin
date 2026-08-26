@@ -53,11 +53,9 @@
 #     till huvudquesten. I övrigt fullt spelbar. Inte mullvad, inte kontakt.
 
 # B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
-# in hos jägarna. Se lagskatter.md. Id 1 bär Fördärvets ingång och
-# påminnelsen att varje kapten ombord bär en siffra. Id 2 bär
+# in hos jägarna. Se lagskatter.md. Id 1 bär Fördärvets ingång. Id 2 bär
 # Fördärvets påminnelse att lägga brevet och Bortförklaringens ingång
 # (Klöver, choklad). Id 3 bär påminnelsen att Klöver är dörren.
-# Id 5 bär Kurtisanens ingång (kaptenerna och siffrorna).
 # Övriga väntar på ingång.
 
 fordelning:
@@ -66,7 +64,7 @@ fordelning:
     akt: II
     till: { crew: 1 }
     roll: jagare
-    vet: "att Korvetten Kurtisanen ska gömma sin skatt vid ankomsten, att varje kapten ombord bär en siffra till gömmans kod och ingen får stängas ute, att de ska hitta Fregatten Fördärvets skatt, och att första spåret är ett brev i soffbordet i vardagsrummet (Storstugan)"
+    vet: "att Korvetten Kurtisanen ska gömma sin skatt vid ankomsten, att de ska hitta Fregatten Fördärvets skatt, och att första spåret är ett brev i soffbordet i vardagsrummet (Storstugan)"
     vet_inte: "att Galeonen Gnället jagar Kurtisanens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -114,7 +112,7 @@ fordelning:
     akt: II
     till: { crew: 5 }
     roll: jagare
-    vet: "att Galeonen Gnället ska gömma sin skatt vid ankomsten, att de ska hitta Korvetten Kurtisanens skatt, och att första spåret är att skatten är lätt att hitta men svår att knäcka: en siffra var från alla kurtisanens kaptener"
+    vet: "att Galeonen Gnället ska gömma sin skatt vid ankomsten, och att de ska hitta Korvetten Kurtisanens skatt"
     vet_inte: "att Fregatten Fromheten jagar Gnällets skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
