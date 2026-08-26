@@ -9,7 +9,9 @@ mirrors:
     note: reservsvar om Barnsben inte hittas
   - slug: hampuslindblad
     note: romans, hon krossade hans hjärta för en skuta, Fuling och Enben vet inte (tvåvägs, asymmetrisk kunskap)
-related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa, hampuslindblad]
+  - slug: louisevonbahr
+    note: fiende 5, auktionen och silverryktet (tvåvägs)
+related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa, hampuslindblad, louisevonbahr]
 ---
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
@@ -24,12 +26,20 @@ När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, fö
 
 ## Kärleken du vill pröva {slug:edvinthungren}
 
-**Kapten Rötägg** gav dig manschettknappar med enhörningar för kärlekens skull, och han säger att han lämnat sin röta bakom sig, från tiden han miste sitt eget skepp genom att vara grym mot sin besättning. Du vill veta om det är sant, inte med ord, utan med kroppen. Du vill rida den mjuka mannen tills den gamla rötan syns, eller tills du är säker på att den är död. Enhörningen på knapparna är söt. Hornet du vill ha sitter lägre.
+**Kapten Rötägg** gav dig manschettknappar med enhörningar för kärlekens skull, och han säger att han lämnat sin röta bakom sig, från tiden han miste sitt eget skepp genom att vara grym mot sin besättning. Du vill veta om det är sant, inte med ord, utan med kroppen. Du vill rida den mjuka mannen tills den gamla rötan syns, eller tills du är säker på att den är död, och du vill att han ger tillbaka lika hårt som du tar: ger han bara efter är det tystnad, inte förändring. Enhörningen på knapparna är söt. Hornet du vill ha sitter lägre.
 
 **Kapten Barnsben** var med då, och minns honom bättre än han önskar. Sök upp henne, gärna vid hennes sy- och broderihörna, och fråga vad hon vet. Hittar du inte henne kan **Kapten Nykter** svara istället, fast hans svar färgas av hans eget nöje av att se andra desperata. Fråga innan festen är över. Du förtjänar att veta vem du tar i säng, och om han tål att bli tagen på allvar.
 
 ## Vraket du lämnade {slug:hampuslindblad}
 
-**Kapten Blåskägg** lät dig använda hans lust som landgång. Du klev ombord på en annan kaptens skuta, tog besättningen, och lämnade honom i vraket. Han strandade. Skägget blånade. Han kallar det Galápagos. Du kallar det en lyckad bordning.
+**Kapten Blåskägg** lät dig använda hans lust som landgång. Du klev ombord på en annan kaptens skuta och dansade dig rakt in i besättningens hjärtan innan någon av dem hann tänka klart, en show ingen kunde sluta titta på, och när de väl var trollbundna var det ingen konst att vända dem mot honom. Han strandade. Skägget blånade. Han kallar det Galápagos. Du kallar det en lyckad bordning.
 
 Nu seglar ni båda mot samma fest, och lusten dog aldrig. Han vill ha sexmagick, rök och rit och dörren bakom medvetandet, och du vill ta honom genom den igen, samma kropp du en gång stal ett skepp med. Ta honom innan festen är över. **Kapten Rötägg** ger dig manschettknappar och svär att han ändrat sig. Låt inte de två jämföra tider, och låt inte Rötägg få veta vems hjärta du redan krossat för en köls skull.
+
+## Silvret hon aldrig lät dö {slug:louisevonbahr}
+
+**Kapten Fuling** förlorade en auktion mot dig för länge sen, och det som stack värst var inte förlusten utan hur den kom: du läste var hon bar sin börs och la sista budet med hennes eget silver. Hon svarade som hon alltid svarar på ett nederlag, med ett rykte, ett silverrykte som fortfarande går runt på kajen och vägrar dö.
+
+Det är precis den sortens trick du är bäst på, läsa någon och vända det som är deras mot dem själva, och precis den sortens rykte som gräver för djupt om det får gro ostört: inte bara vem som vann en auktion, utan vem du egentligen var innan du blev Planka. Tysta det innan det växer sig till en sanning ingen längre ifrågasätter.
+
+Du har oljan från sirenerna kvar i din koja, den som väcker en lust ingen kan tygla medan du själv står helt orörd av den. Smörj in Fuling vid honnörsbordet och låt hela hamnen se en kapten som inte längre kan hålla värdigheten. Efter det minns ingen silverryktet som något annat än ett dåligt skämt. Gör det innan festen är över, innan Fuling hinner så ett nytt.

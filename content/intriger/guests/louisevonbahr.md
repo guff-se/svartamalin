@@ -11,7 +11,9 @@ mirrors:
     note: mutual fiende, rivaler om Blåskägg, ingen vet vem han valt (tvåvägs)
   - slug: hampuslindblad
     note: romans, hon hade honom först (tvåvägs)
-related: [jesperlindmarker, navidmodiri, jesperlejfjord, amaliawahlstrom, hampuslindblad]
+  - slug: linneaappert
+    note: fiende 5, auktionen och silverryktet (tvåvägs)
+related: [jesperlindmarker, navidmodiri, jesperlejfjord, amaliawahlstrom, hampuslindblad, linneaappert]
 ---
 
 ## Rösten som pekar bort från dig {slug:jesperlejfjord}
@@ -43,3 +45,9 @@ Enben vägrar backa, och ingen av er vet vem han valt. Påminn honom med kroppen
 Du hade **Kapten Blåskägg** först, en känsla du burit tystare och längre än **Kapten Enben** anar, och nu vägrar hon backa undan trots att hon kom efter. Ingen av er vet säkert vem han egentligen har valt, om han valt någon alls, och den ovissheten är värre att bära än ett rakt nej hade varit.
 
 Hon är ny i det här, du är inte det, och du tänker inte ge upp ett försprång du haft längre än hon vet om. Påminn honom om det ni redan haft, gör henne till den som kom för sent inför andra, eller se till att hon aldrig får ett ögonblick ensam med honom utan att du vet om det, innan festen är över.
+
+## Silvret du sådde {slug:linneaappert}
+
+Du la ett silverrykte om **Kapten Planka** efter att hon slog dig på en auktion med din egen börs, ett trick så oförskämt att du fortfarande rodnar av avund mer än ilska. Ryktet var din hämnd, och det har vägrat dö sen dess: kajen viskar det fortfarande, och du har aldrig behövt neka något så länge.
+
+Planka har inte glömt. Hon seglar på **Svarta Malin**s egen köl nu och har råd att slå tillbaka hårdare än en auktion, och du vet inte vad hon planerar innan hon gör det. Håll ryktet levande, plantera det på nytt om det börjar dö, eller så tystnar det för gott och du blir kvinnan som förlorade två gånger. Vinn den här gången, innan festen är över.
