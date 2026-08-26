@@ -69,12 +69,11 @@ A sleek 18th-century CORVETTE: EXACTLY THREE MASTS, ship-rigged (square sails on
 
 MIDDLE GROUND. The hull and cream sails must still read as a ship. There should be clearly more garnish than a tidy warship, clearly less than a garbage barge.
 
-YES — a solid helping, not a sprinkle:
-- Several sausage (korv) garlands on the rail AND a couple draped from the lower yards / bowsprit, like festive bunting — not covering the whole sail area.
-- A carved hog figurehead, a roast or platter on deck, a bowl of grapes.
-- Wine casks and a cluster of bottles on deck; a few bottles hanging from stays; a few bobbing near the hull.
-- Cigarettes, a clay pipe, an opium pipe or two as small deck still-life.
-- A handful of theatrical sex props (wooden dildos, spanking paddles) on the rail or hung from one stay — costume-shop, no bodies.
+YES — a solid helping, not a sprinkle. FOUR vices equally visible:
+- FOOD: sausage (korv) garlands on the rail and bowsprit; grapes; AND several birthday cakes / cream cakes on deck and the rail — frosting, candles, theatrical bakery props.
+- WINE: casks and bottles on deck; a few hanging from stays.
+- DRUGS: opium pipes, clay pipes, cigarettes, apothecary bottles on the rail — as visible as the food.
+- SEX / BDSM: MANY carved wooden dildos hung along the rail and stays, like obscene bunting. Spanking paddles, riding crops, leather cuffs, collars, coiled rope, a harness draped on the rail — costume-shop BDSM props, empty, no bodies, no people.
 
 NO: sails used as laundry-lines stuffed into every fold. NO Christmas-tree masts from deck to truck. NO waterfall of junk hiding the gunwale. NO sea carpeted with debris. NO piles so high the ship disappears. NO empty-looking decks with one lonely sausage.
 
