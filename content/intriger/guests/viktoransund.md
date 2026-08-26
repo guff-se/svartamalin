@@ -42,7 +42,7 @@ Din lust till **Kapten Frodig** är förbjuden och hemlig: era släkter och bes�
 
 ## Skottet i ryggen {slug:josefinlowing}
 
-Ett år sedan sköt **Kapten Kuling** dig i ryggen på Paradisets ö och försvann med en del av din Piratpulver-last i mörkret, ett proffsjobb, kallt och rent, för en klient du aldrig fått namnet på. Du överlevde. Din misstänksamhet gjorde det inte.
+Ett år sedan sköt **Kapten Kuling** dig i ryggen i bakhåll på Paradisets ö och försvann med en del av din Piratpulver-last i mörkret, ett proffsjobb, kallt och rent, för en klient du aldrig fått namnet på. Du överlevde. Din misstänksamhet gjorde det inte.
 
 Nu delar ni båtarna hela helgen, samma rep, samma rigg, samma kaj, och varje gång hon ler mot dig undrar du om det är ett nytt jobb hon planerar eller bara hennes vanliga sätt att vara. Kräv tillbaka lastens värde, testa henne med en fälla av eget snitt, eller håll ett öga på henne varje sekund ni tvingas arbeta ihop. Lita inte på henne förrän helgen är över, och kanske inte då heller.
 

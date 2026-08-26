@@ -1,3 +1,3 @@
-Detta är dina personliga intriger, som beskriver dina relationer och information du har om story och andra deltagare.
+Den här delen är endast för dig. Här beskrivs dina relationer samt den information du har om berättelsen och de andra deltagarna.
 
-Denna information är bara för dig. Vänta med att dela det som står här till andra deltagare innan ni träffas i karaktär på fredagkvällen.
+Kontakta gärna de du ska spela mot, men avslöja inte några hemligheter i denna text innan vi ses på Ovanan.

@@ -16,7 +16,7 @@ related: [jesperlindmarker, johannabergman, elinmartensson, gustaftadaa, jesperl
 
 Din lust till **Kapten Hurring** har gjort dig till mer än hans hemliga älskarinna. **Fregatten Fromheten** predikar piratval och avlat mot **Svarta Malin**, rena händer och blanka siffror, och du står gärna där med valsedeln som om psalmen fortfarande vore din. Den är det inte. Du är inte så from längre. Allt du hör och ser inne på din egen skuta, skeppskamraternas planer, deras svaga punkter, deras gömmen, bär du rakt till honom, och genom honom till **Korvetten Kurtisanen**. Du vet precis vem det gynnar, och han vet att du vet det. Men du gör det inte för att du svurit hans skuta någon trohet. Du gör det för att det är honom du vill ha i säng, och det räcker för att göra din egen besättning till ett pris du gärna betalar.
 
-Ge honom det han ber om, plan för plan, gömma för gömma, och lita på att kuken bär tyngre än skutan du föddes in i. Håll det dolt för din egen besättning och för hans kapten, innan festen är över.
+Ge honom det han ber om, plan för plan, gömma för gömma. Hans kropp är din betalning. Håll det dolt för din egen besättning och för hans kapten, innan festen är över.
 
 ## Vad du inte vet om Hurring {slug:jesperlindmarker}
 
