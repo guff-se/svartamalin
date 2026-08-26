@@ -5,6 +5,7 @@ import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { fetchIntrigerGuests, getGuestIntriger, intrigerListHtml } from '../lib/intriger.js'
 import { pirateCardHtml } from './pirate-card.js'
 import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
+import { renderNarrative } from './narrative-section.js'
 
 /**
  * Personliga intriger — egen card. Döljer hela section om det inte finns något att visa.
@@ -57,8 +58,11 @@ export async function renderMyIntriger(el) {
       ${heroCard}
     </div>
     <p class="intriger-sub">Dina relationer</p>
+    <div class="intriger-note"></div>
     ${intrigerListHtml(intrigues, guestsBySlug)}
   `
+
+  await renderNarrative(el.querySelector('.intriger-note'), { key: 'intriger_personal' })
 
   const hero = el.querySelector('.intriger-hero')
   if (hero) {

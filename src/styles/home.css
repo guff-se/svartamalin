@@ -693,13 +693,27 @@
   color: var(--gold);
 }
 .intriger-sub {
-  margin: 0 0 1.1rem;
+  margin: 0 0 0.85rem;
   text-align: center;
   font-family: var(--font-display);
   font-size: 0.95rem;
   letter-spacing: 0.08em;
   color: var(--paper-dark);
   opacity: 0.75;
+}
+.intriger-note {
+  margin: 0 0 1.5rem;
+  padding: 0.9rem 1.15rem;
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  background: rgba(201, 162, 39, 0.08);
+  text-align: left;
+}
+.intriger-note p {
+  margin: 0 0 0.65rem;
+  font-size: 0.95rem;
+}
+.intriger-note p:last-child {
+  margin-bottom: 0;
 }
 
 /* Världs-ingång — eget kort */
