@@ -30,11 +30,18 @@ Theatrical "dress-up" feel: stage costume and theatrical props rather than histo
 
 Treatment: sepia / warm brown / antique photographic finish — scratches, film grain, faint watermark, tintype / wet-plate texture, slightly faded and tarnished. Antique hand-coloured engraving / vintage cigarette-card chromolithograph of a tall ship. Limited palette: sepia, warm browns, cream, muted gold, faded rust-red, faded teal water — often slightly faded.`
 
-const SHARED = `PORTRAIT OF A SINGLE PIRATE SHIP as the hero of the image. Landscape marine painting, 3:2 frame. Three-quarter broadside view so hull, masts and stern are all readable. The ENTIRE ship fits inside the frame with generous sky and water margin — nothing cropped. Empty decks: no people, no faces, no silhouettes on board. Painted theatrical sea-and-sky backdrop, foxed paper, soft vignette. The ship is a stage prop built a little too grand — slightly wrong proportions, slightly over-decorated, charmingly imperfect.`
+const BOW_COMPOSITION = `HIGHEST PRIORITY — HONEST SHIP GEOMETRY, BOW TOWARD THE VIEWER:
+The ship must look like a real hull, not a twisted display model. Bow (front) nearer the camera than the stern. Choose ONE of: (A) sailing TOWARD the viewer, bow-on / three-quarter approaching, or (B) true SIDEWAYS profile, hull parallel to the picture plane, sailing left-to-right or right-to-left. The bowsprit points into or across the frame, never away.
+
+FORBIDDEN: sailing away, stern-on, transom facing the camera, hull wrenched around so the back of the ship is shown, "twisted" perspective that displays the nameplate by rotating the stern toward us. The stern may recede or sit in profile — it must not be the hero of the pose.
+
+NAME ON THE BOW ONLY: paint the ship's name in large readable letters on the bow / forecastle / under the bowsprit. NOT on the transom, NOT on the stern gallery.`
+
+const SHARED = `PORTRAIT OF A SINGLE PIRATE SHIP as the hero of the image. Landscape marine painting, 3:2 frame. The ENTIRE ship fits inside the frame with generous sky and water margin — nothing cropped. Empty decks: no people, no faces, no silhouettes on board. Painted theatrical sea-and-sky backdrop, foxed paper, soft vignette. The ship is a stage prop built a little too grand — slightly wrong proportions, slightly over-decorated, charmingly imperfect.`
 
 const NO_PEOPLE = `CRITICAL: Absolutely no people, no faces, no hands, no crew, no silhouettes, no body parts, no mermaids, no figurehead with a realistic human face (stylised carved wood only). Empty ship — vessel and atmosphere only.`
 
-const NEG = `No people, no person, no face, no crew, no crowd, no portrait subject, no modern ship, no steam, no steel hull, no container ship, no yacht, no motorboat, no Pirates of the Caribbean look, no Disney pirate aesthetic, no Jack Sparrow, no glossy CGI, no photorealistic naval photography, no bright saturated neon, no clean digital vector, no watermark text, no UI, no logo, no picture frame around the image, no other ships in the scene.`
+const NEG = `No people, no person, no face, no crew, no crowd, no portrait subject, no modern ship, no steam, no steel hull, no container ship, no yacht, no motorboat, no Pirates of the Caribbean look, no Disney pirate aesthetic, no Jack Sparrow, no glossy CGI, no photorealistic naval photography, no bright saturated neon, no clean digital vector, no watermark text, no UI, no logo, no picture frame around the image, no other ships in the scene. No stern-first view, no ship sailing away from the camera, no transom nameplate, no name on the stern, no twisted hull posed only to show the back.`
 
 /** @type {{ id: number, file: string, aliases: string[], size: string, prompt: string }[]} */
 const SHIPS = [
@@ -45,16 +52,16 @@ const SHIPS = [
     size: '1536x1024',
     prompt: `Korvetten Kurtisanen — Svarta Malin's own small, fast, show-off corvette.
 
-A sleek 18th-century CORVETTE (smaller than a frigate, two masts, low elegant hull) dressed like a courtesan's parlour gone to sea. Gilded stern gallery, pearl and jewel-like ornaments, rust-red silk banners and gold braid, cream sails with gold trim, lanterns glowing, a carved wooden fan or peacock as figurehead (stylised wood, not a person). Jolly Roger with a theatrical skull-and-crossbones. The hull is painted a warm dark wine-brown with gold scrollwork. Mood: ostentatious harbour flagship — caviar and rum, every rival meant to feel underdressed. Name "KURTISANEN" lettered on the transom in slightly wobbly gold.`,
+A sleek 18th-century CORVETTE (smaller than a frigate, two masts, low elegant hull) dressed like a courtesan's parlour gone to sea. Pearl and jewel-like ornaments along the bow, rust-red silk banners and gold braid, cream sails with gold trim, lanterns glowing, a carved wooden fan or peacock as figurehead (stylised wood, not a person). Jolly Roger with a theatrical skull-and-crossbones. The hull is painted a warm dark wine-brown with gold scrollwork. Mood: ostentatious harbour flagship — caviar and rum, every rival meant to feel underdressed. Name "KURTISANEN" lettered large on the BOW in slightly wobbly gold.`,
   },
   {
     id: 2,
     file: 'ship-2-fordarvet.png',
     aliases: ['2', 'fordarvet', 'fördärvet', 'fregatten-fordarvet'],
     size: '1536x1024',
-    prompt: `Fregatten Fördärvet — the ruined frigate that boarded the same prize as Svarta Malin and was left with nothing.
+    prompt: `Fregatten Fördärvet — a frigate of vice: sin, gluttony and rotten habits, not death.
 
-A battered 18th-century FRIGATE (three masts, more guns) in charcoal, soot and faded rust-red. Torn and patched sails, blackened hull, smoking cannon ports, cracked timber, a lopsided carved wooden skull figurehead (stylised, not a person). Tattered Jolly Roger. The ship looks expensive once, now wrecked on purpose — ruin shared unevenly. Moody storm-grey water, ochre lightning far off. Mood: vengeance at anchor, still dangerous. Name "FÖRDÄRVET" lettered on the transom in worn iron-gall.`,
+An 18th-century FRIGATE (three masts) dressed as a floating tavern of excess gone sour. Wine-dark hull stained with spilled grog, greasy gold trim, rum barrels and empty bottles lashed to the rails, dice and playing-card motifs on the sails, a stained velvet banner, overflowing carved wooden goblet or hog as figurehead (stylised wood, not a person — no skull). Cream sails blotched with wine and grease. Mood: frosseri, dåliga vanor, synd — hungover splendour, too much of everything, perdition as appetite not as a grave. Warm tavern-lantern light, ochre and faded rust-red, no storm-of-the-dead, no lightning, no bones. Name "FÖRDÄRVET" lettered on the BOW in wine-stained gold.`,
   },
   {
     id: 3,
@@ -63,16 +70,16 @@ A battered 18th-century FRIGATE (three masts, more guns) in charcoal, soot and f
     size: '1536x1024',
     prompt: `Barken Bortförklaringen — the barque of elegant excuses, prejad three times and always blaming the weather.
 
-An 18th-century BARQUE (three masts, the aftermost mast fore-and-aft rigged) half-lost in theatrical fog. Mismatched patched sails (stripes, polka dots, different cloth as if every excuse is a different patch), slightly listing hull, drooping flags, rain-streaked deck. Soft grey-cream and muted teal fog, no storm drama — just weather as an alibi. A carved wooden weather-vane or apologetic shrug of a figurehead (stylised wood, not a person). Mood: fog, drift, the last elegant excuse. Name "BORTFÖRKLARINGEN" lettered on the transom, a little crooked, as if the letters themselves are hedging.`,
+An 18th-century BARQUE (three masts, the aftermost mast fore-and-aft rigged) half-lost in theatrical fog. Mismatched patched sails (stripes, polka dots, different cloth as if every excuse is a different patch), slightly listing hull, drooping flags, rain-streaked deck. Soft grey-cream and muted teal fog, no storm drama — just weather as an alibi. A carved wooden weather-vane or apologetic shrug of a figurehead (stylised wood, not a person). Mood: fog, drift, the last elegant excuse. Name "BORTFÖRKLARINGEN" lettered on the BOW, a little crooked, as if the letters themselves are hedging.`,
   },
   {
     id: 4,
     file: 'ship-4-fromheten.png',
     aliases: ['4', 'fromheten', 'fregatten-fromheten'],
     size: '1536x1024',
-    prompt: `Fregatten Fromheten — the pious pirates' frigate: clean hands, hymn-book stern, pirate socialism at sea.
+    prompt: `Fregatten Fromheten — the pious pirates' frigate: clean hands, hymn-book bow, pirate socialism at sea.
 
-A tidy 18th-century FRIGATE (three masts) whitewashed and over-clean for a pirate ship — cream and bone-white sails, pale hull with faded rust-red crosses mixed into the Jolly Roger, a carved wooden hymn-book or haloed skull as figurehead (stylised wood, not a person). Ledger-neat rigging that is still slightly wrong, theatrical holiness. Soft church-candle light on the stern gallery. Mood: fake sanctimony, räkenskaper and psalms, rena händer that hide a treasure. Name "FROMHETEN" lettered on the transom in careful but imperfect serif.`,
+A tidy 18th-century FRIGATE (three masts) whitewashed and over-clean for a pirate ship — cream and bone-white sails, pale hull with faded rust-red crosses mixed into the Jolly Roger, a carved wooden hymn-book or haloed skull as figurehead (stylised wood, not a person). Ledger-neat rigging that is still slightly wrong, theatrical holiness. Soft church-candle light on the bow lanterns. Mood: fake sanctimony, räkenskaper and psalms, rena händer that hide a treasure. Name "FROMHETEN" lettered on the BOW in careful but imperfect serif.`,
   },
   {
     id: 5,
@@ -81,12 +88,12 @@ A tidy 18th-century FRIGATE (three masts) whitewashed and over-clean for a pirat
     size: '1536x1024',
     prompt: `Galeonen Gnället — the loudest galleon in Salmonellahavet, invited as the orchestra of complaints.
 
-A large 18th-century GALLEON (high ornate stern castle, bulky hull, three or four masts) overloaded with too many pennants, bells, rattles and mismatched flags — visual noise. Cheap gold that flakes, a carved wooden open-mouth / shouting figurehead (stylised wood, not a person). Cluttered empty decks piled with theatrical props: drums, horns, a megaphone, tangled rope. Palette: faded rust-red, ochre, cream, too much trim. Mood: complaint as performance — they were invited because they are heard. Name "GNÄLLET" lettered large on the high stern, slightly shouting.`,
+A large 18th-century GALLEON (high ornate stern castle receding behind, bulky hull, three or four masts) overloaded with too many pennants, bells, rattles and mismatched flags — visual noise. Cheap gold that flakes, a carved wooden open-mouth / shouting figurehead (stylised wood, not a person). Cluttered empty decks piled with theatrical props: drums, horns, a megaphone, tangled rope. Palette: faded rust-red, ochre, cream, too much trim. Mood: complaint as performance — they were invited because they are heard. Name "GNÄLLET" lettered large on the BOW, slightly shouting.`,
   },
 ]
 
 function buildFullPrompt(ship) {
-  return `${NO_PEOPLE} ${SHARED} ${ship.prompt} ${STYLE_GUIDE} ${NEG}`
+  return `${BOW_COMPOSITION} ${NO_PEOPLE} ${SHARED} ${ship.prompt} ${STYLE_GUIDE} ${NEG} ${BOW_COMPOSITION}`
 }
 
 function matchShip(token) {
