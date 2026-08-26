@@ -65,15 +65,20 @@ A sleek 18th-century CORVETTE: EXACTLY THREE MASTS, ship-rigged (square sails on
     stem: 'ship-2-fordarvet',
     aliases: ['2', 'fordarvet', 'fördärvet', 'fregatten-fordarvet'],
     size: '1536x1024',
-    prompt: `Fregatten Fördärvet — a readable three-masted FRIGATE dressed with vice, not buried under it.
+    prompt: `Fregatten Fördärvet — a readable three-masted FRIGATE with a generous but not crushing load of vice.
 
-MODERATE excess. The hull, masts and cream sails must stay clearly visible. A handful of sinful props as garnish, not a cargo spill.
+MIDDLE GROUND. The hull and cream sails must still read as a ship. There should be clearly more garnish than a tidy warship, clearly less than a garbage barge.
 
-ON THE SHIP (sparse, countable): a few strings of sausages (korvar) on the rail, one roast or carved hog figurehead, a cluster of wine bottles and a cask on deck, grapes in a bowl, cigarettes and a clay pipe on a tray, two or three theatrical sex props (a wooden dildo, a spanking paddle) hanging near the rail — costume-shop, no bodies. Maybe one bottle or sausage garland on a stay. The sea is mostly clear, only a couple of bottles in the water at most.
+YES — a solid helping, not a sprinkle:
+- Several sausage (korv) garlands on the rail AND a couple draped from the lower yards / bowsprit, like festive bunting — not covering the whole sail area.
+- A carved hog figurehead, a roast or platter on deck, a bowl of grapes.
+- Wine casks and a cluster of bottles on deck; a few bottles hanging from stays; a few bobbing near the hull.
+- Cigarettes, a clay pipe, an opium pipe or two as small deck still-life.
+- A handful of theatrical sex props (wooden dildos, spanking paddles) on the rail or hung from one stay — costume-shop, no bodies.
 
-NOT a waterfall over the gunwale. NOT laundry-lines covering the sails. NOT objects stuffed into every sail fold. NOT every yard dripping. NOT masts used as Christmas trees of junk. NOT piles so high the ship disappears.
+NO: sails used as laundry-lines stuffed into every fold. NO Christmas-tree masts from deck to truck. NO waterfall of junk hiding the gunwale. NO sea carpeted with debris. NO piles so high the ship disappears. NO empty-looking decks with one lonely sausage.
 
-Cream canvas sails, maybe a wine stain or two — still sails. NO playing-card prints. Warm tavern light, ochre, rust-red. No skulls, no lightning, no bones. Name "FÖRDÄRVET" clearly lettered on the BOW.`,
+Cream canvas sails, maybe a wine stain. NO playing-card prints. Warm tavern light, ochre, rust-red. No skulls, no lightning, no bones. Name "FÖRDÄRVET" clearly on the BOW.`,
   },
   {
     id: 3,
