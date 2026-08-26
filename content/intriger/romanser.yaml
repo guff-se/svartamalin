@@ -103,6 +103,7 @@ romanser:
     type: mutual
     a: gustaftadaa         # Löjtnant Spader (Gustaf Tadaa)
     b: elinmartensson      # Kapten Plåthorn (Elin Mårtensson)
+    note: Hemlig. Hon är den enda som vet om hans lek med bara spaderess, hans största hemlighet.
     status: done
 
   - id: 17

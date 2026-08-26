@@ -6,5 +6,5 @@ real_name: Elin Mårtensson
 
 # Kapten Plåthorn
 
-Inga extra anteckningar. Romans 14 med **Löjtnant Spader**. Inte mullvad-par med Spader. Fiende 7 mot **Kapten Kuling**.
+Inga extra anteckningar. Romans 14 med **Löjtnant Spader**. Hon är den enda som vet om hans största hemlighet: en hel kortlek med bara spaderess. Inte mullvad-par med Spader. Fiende 7 mot **Kapten Kuling**.
 

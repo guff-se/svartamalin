@@ -19,4 +19,6 @@ Två undantag, bara de:
 
 Romans med Plåthorn (#14) och pending med Babord (#21) är vanliga scener, inte runtime-undantag.
 
+Största hemlighet i fiktionen: en hel kortlek med bara spaderess. Bara Plåthorn vet. Inte SL-rekvisita. Gustaf har med en sådan lek.
+
 Fiende 14 mot Rötägg: fuskad vinst om Plåthorns fiskegrund. Dåtid. Inget fysiskt sjökort. Spelas som erkännande eller revansch vid bordet. Spader-ringen på Klöver tar Gustaf med.

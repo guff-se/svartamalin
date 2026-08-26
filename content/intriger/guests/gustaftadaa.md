@@ -4,7 +4,7 @@ mirrors:
   - slug: jesperlindmarker
     note: gammal spelskuld (tvåvägs)
   - slug: elinmartensson
-    note: hemlig romans (tvåvägs)
+    note: hemlig romans (tvåvägs); hon ensam vet om leken med bara spaderess
   - slug: alexandrapalmquist
     note: romans, han vill ha henne också, Plåthorn vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: johannabergman
@@ -24,7 +24,7 @@ Betala med mynt om du kan avvara det. Betala med ett namn om du hellre behåller
 
 ## Kärleken du gömmer och handen du blir ombedd att låna {slug:elinmartensson}
 
-Du tar **Kapten Plåthorn** i hemlighet, dold även för din egen besättning på Fördärvet. Bara hon vet hur ofta du vinner vid korten när du egentligen borde förlora, och bara hon bär din ring och ditt halsband i spader nära sitt hjärta. Du vill ha hornet tyst mot hennes hud och händerna där korten inte räcker. Du vill knulla henne mellan given, och du vill att hon ska be om det.
+Du tar **Kapten Plåthorn** i hemlighet, dold även för din egen besättning på Fördärvet. Bara hon vet hur ofta du vinner vid korten när du egentligen borde förlora, och bara hon bär din ring och ditt halsband i spader nära sitt hjärta. Bara hon, i hela världen, har sett din största hemlighet: den lek där vartenda kort är ett spaderess. En hel värld av svarta ess, bara för den som får ligga tillräckligt nära. Ingen annan får veta. Du vill ha hornet tyst mot hennes hud och händerna där korten inte räcker. Du vill knulla henne mellan given, och du vill att hon ska be om det.
 
 **Kapten Kuling** har hört ryktet om din listiga hand och vill värva dig för att hjälpa henne komma åt Plåthorns plåthorn. Hon vet inte vem du tar i säng. Välj: spela med henne på låtsas och skydda din älskade i det tysta, eller låt lusten styra helt och varna Plåthorn själv, innan festen är över.
 
@@ -36,7 +36,7 @@ En av dina spader-ringar sitter redan på hennes hand, vunnen vid ett bord för 
 
 Ett enda parti, vid kökskanten. **Kapten Prygel** delar, och hon hatar Klöver för en stulen vals och en bordning hon aldrig fått äran för, så räkna inte med att hon delar jämnt. Den som pekas ut som fuskaren förlorar sitt rykte som haj, inte bara en insats. Du gömmer ditt eget knep bakom pillandet med dina spader-ringar och ditt halsband, ett grepp ingen ännu lyckats avslöja. Sätt dig vid bordet, spela din hand, vinn tillbaka ringen om du kan, och låt de andra två anklaga varandra medan du sköter ditt.
 
-**Kapten Plåthorn** har sett dig vinna när du egentligen borde ha förlorat. Hon säger ingenting, än.
+**Kapten Plåthorn** har sett dig vinna när du egentligen borde ha förlorat, och hon bär hemligheten om leken med bara spaderess. Hon säger ingenting, än.
 
 ## Babord du inte kan lägga {slug:alexandrapalmquist}
 
