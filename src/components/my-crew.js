@@ -8,6 +8,8 @@ import { getCrewIntriger, intrigerListHtml } from '../lib/intriger.js'
 import { pirateCardHtml } from './pirate-card.js'
 import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
 import { renderNarrative } from './narrative-section.js'
+import { crewShip } from '../lib/ships.js'
+import { openLightbox } from '../lib/image-lightbox.js'
 
 export async function renderMyCrew(el) {
   const guestId = getGuestId()
@@ -62,7 +64,22 @@ export async function renderMyCrew(el) {
     `
     : ''
 
+  const ship = crewShip(me.crew_id)
+  const shipHtml = ship
+    ? `
+      <figure class="crew-ship">
+        <img
+          src="${escapeHtml(ship.src)}"
+          alt="${escapeHtml(ship.alt)}"
+          width="${ship.width}"
+          height="${ship.height}"
+        />
+      </figure>
+    `
+    : ''
+
   el.innerHTML = `
+    ${shipHtml}
     <div class="intriger-intro"></div>
     <h2 class="crew-name">${escapeHtml(crewName)}</h2>
     <p class="crew-sub">Din skuta</p>
@@ -70,6 +87,9 @@ export async function renderMyCrew(el) {
     <h3 class="my-crew-members-heading">Besättningen</h3>
     <div class="crew-collage" id="my-crew-collage"></div>
   `
+
+  const shipFig = el.querySelector('.crew-ship')
+  if (shipFig && ship) wireShipLightbox(shipFig, ship)
 
   await renderNarrative(el.querySelector('.intriger-intro'), { key: 'intriger_intro' })
 
@@ -93,6 +113,26 @@ export async function renderMyCrew(el) {
   `).join('')
 
   makeCardsInteractive(grid)
+}
+
+function wireShipLightbox(fig, ship) {
+  fig.setAttribute('tabindex', '0')
+  fig.setAttribute('role', 'button')
+  fig.setAttribute('aria-label', `Visa ${ship.alt} i fullskärm`)
+  const open = () => {
+    const big = document.createElement('img')
+    big.src = ship.src
+    big.alt = ship.alt
+    big.className = 'lightbox-image'
+    openLightbox({ ariaLabel: ship.alt, content: big, returnFocus: fig })
+  }
+  fig.addEventListener('click', open)
+  fig.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault()
+      open()
+    }
+  })
 }
 
 function contactHtml({ phone, email }) {

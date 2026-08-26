@@ -569,6 +569,21 @@
   color: var(--paper-dark);
   text-align: center;
 }
+.card--my-crew {
+  overflow: hidden;
+}
+.crew-ship {
+  margin: -2rem -2rem 1.25rem;
+  cursor: pointer;
+}
+.crew-ship img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center;
+}
 .crew-name {
   margin: 0 0 0.35rem;
   text-align: center;

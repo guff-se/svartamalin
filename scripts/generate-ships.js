@@ -9,6 +9,10 @@
  * Output: images/ships-generated/<stem>.png (första editionen)
  *         images/ships-generated/<stem>-v2.png, -v3.png, … (aldrig overwrite)
  *
+ * Chosen web editions (`npm run optimize-ships` → public/images/ships/):
+ *   1 kurtisanen-v4, 2 fordarvet-v14, 3 bortforklaringen-v5,
+ *   4 fromheten, 5 gnallet
+ *
  * Usage:
  *   node scripts/generate-ships.js
  *   node scripts/generate-ships.js kurtisanen
@@ -70,18 +74,15 @@ A sleek 18th-century CORVETTE: EXACTLY THREE MASTS, ship-rigged (square sails on
 MIDDLE GROUND. The hull and cream sails must still read as a ship. There should be clearly more garnish than a tidy warship, clearly less than a garbage barge.
 
 YES — only these props, all visible, theatrical costume-shop, no people:
-- sausage (korv) garlands on the rail and bowsprit
+- sausage (korv) garlands on the bowsprit
 - frosted cakes on deck and rail
 - bunches of grapes
 - joints of meat / a roast
 - wine bottles and wooden barrels
-- carved wooden dildos hung on the rail
-- spanking paddles and leather floggers
-- figurehead: a carved pig's head wearing a leather gimp harness (straps, rings) — wood and leather, not a person
+- spanking paddles and leather floggers (realistic size)
+- figurehead: a carved pig's head wearing a leather gimp harness. straps, rings, red gag ball in mouth (attached to harness).  — wood and leather, not a person
 
-NO pipes, NO cigarettes, NO opium pipes, NO tobacco. NO other clutter.
-
-NO: sails used as laundry-lines stuffed into every fold. NO Christmas-tree masts from deck to truck. NO waterfall of junk hiding the gunwale. NO sea carpeted with debris. NO piles so high the ship disappears. NO empty-looking decks with one lonely sausage.
+NO piles so high the ship disappears. NO empty-looking decks with one lonely sausage.
 
 Cream canvas sails, maybe a wine stain. NO playing-card prints. Warm tavern light, ochre, rust-red. No skulls, no lightning, no bones. Name "FÖRDÄRVET" clearly on the BOW.`,
   },
