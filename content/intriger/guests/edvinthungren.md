@@ -43,3 +43,9 @@ Innan du miste skeppet och blev den snälla mannen du numera försöker vara, k�
 Den här helgen jagar folk namnet. **Kapten Blodig** svär redan att det var **Kapten Frodig**, för att deras släkter slåss om pulvret och för att Blodig redan hatar henne. Lögnen skulle rädda dig. Den skulle sänka en kvinna som inte skjutit någon.
 
 Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Köp hennes tystnad. Eller bekänn för Rödskägg med egna ord, som bevis på att du ändrat dig. Välj innan festen är över. En sabrerad flaska köper inget här. Inte den här gången.
+
+## Doften du bytte ut {slug:ulrikahammar}
+
+**Kapten Barnsben** har aldrig glömt spratten du en gång ställde till, doften du bytte ut mot något rutet just när hon gjorde sin bästa uppvaktning av **Kapten Döver**. Uppvaktningen dog på fläcken, och hon dömer dig för det fortfarande, med en blick lika kall som den var innan du miste ditt skepp och blev den snälla mannen du numera försöker vara.
+
+Du vet om domen. Du erbjuder henne gärna en gest av gottgörelse, en sabrerad flaska, en hjälpande hand vid din workshop, men hon tar inte emot den lika lätt som andra. **Kapten Planka** kan fråga henne vad hon vet om dig, och du vet inte om Barnsben väljer att skydda dig eller sänka dig den dagen. Vinn hennes förtroende, eller ge upp försöket, innan festen är över.
