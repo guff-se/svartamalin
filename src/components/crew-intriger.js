@@ -7,7 +7,7 @@ import { sortByPirateNameId } from '../lib/pirate-name-order.js'
 import { fetchPirateGuests, getCrewIntriger, intrigerListHtml } from '../lib/intriger.js'
 import { crewShip } from '../lib/ships.js'
 import { pirateCardHtml } from './pirate-card.js'
-import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
+import { makeCardsInteractive, wirePirateCardGrid, wirePirateNameLightbox } from './crew-collage.js'
 import { openLightbox } from '../lib/image-lightbox.js'
 
 /**
@@ -91,6 +91,9 @@ export async function renderCrewIntriger(el) {
 
   const shipFig = el.querySelector('.crew-ship')
   if (shipFig && ship) wireShipLightbox(shipFig, ship)
+
+  const intrigList = el.querySelector('.intriger-list')
+  if (intrigList) wirePirateNameLightbox(intrigList)
 
   const grid = el.querySelector('#my-crew-collage')
   wirePirateCardGrid(grid)

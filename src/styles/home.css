@@ -750,12 +750,16 @@
 .pirate-hover {
   position: relative;
   color: var(--gold);
-  cursor: help;
+  cursor: pointer;
   white-space: nowrap;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 0.18em;
   text-decoration-thickness: 1px;
+}
+.pirate-hover:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
 }
 .intrig__title .pirate-hover {
   color: inherit;

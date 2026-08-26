@@ -87,7 +87,8 @@ function normalizePirateName(s) {
 /** @param {string} visibleHtml redan escapad text @param {IntrigerGuest} guest */
 function pirateHoverHtml(visibleHtml, guest) {
   const src = escapeHtml(portraitPath(guest.real_name))
-  return `<span class="pirate-hover">${visibleHtml}<span class="pirate-hover__pop" aria-hidden="true"><img class="pirate-hover__photo" src="${src}" alt="" width="180" height="240" loading="lazy" decoding="async" /></span></span>`
+  const name = escapeHtml(guest.pirate_name || '')
+  return `<span class="pirate-hover" role="button" tabindex="0" aria-label="Visa ${name} i fullskärm" data-photo="${src}" data-pirate-name="${name}">${visibleHtml}<span class="pirate-hover__pop" aria-hidden="true"><img class="pirate-hover__photo" src="${src}" alt="" width="180" height="240" loading="lazy" decoding="async" /></span></span>`
 }
 
 /**

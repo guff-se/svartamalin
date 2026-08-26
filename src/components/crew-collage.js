@@ -2,7 +2,7 @@ import { supabase } from '../lib/supabase.js'
 import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { sortByPirateNameId } from '../lib/pirate-name-order.js'
-import { bindLightboxTriggers } from '../lib/image-lightbox.js'
+import { bindLightboxTriggers, openLightbox } from '../lib/image-lightbox.js'
 import { escapeHtml } from '../lib/escape.js'
 import { getGuestId } from '../lib/state.js'
 import { pirateCardHtml } from './pirate-card.js'
@@ -24,6 +24,36 @@ export async function renderCrewCollage(el) {
 export function wirePirateCardGrid(el) {
   el.addEventListener('error', onPortraitError, true)
   bindCardLightbox(el)
+}
+
+/** Klick på piratnamn i intrigtext → porträtt i lightbox. */
+export function wirePirateNameLightbox(el) {
+  if (!el || el.dataset.pirateHoverBound) return
+  el.dataset.pirateHoverBound = '1'
+
+  const openFrom = (trigger) => {
+    const src = trigger.dataset.photo
+    if (!src) return
+    const name = trigger.dataset.pirateName || 'Porträtt'
+    const big = document.createElement('img')
+    big.src = src
+    big.alt = name
+    big.className = 'lightbox-image'
+    openLightbox({ ariaLabel: name, content: big, returnFocus: trigger })
+  }
+
+  el.addEventListener('click', (e) => {
+    const trigger = e.target.closest('.pirate-hover')
+    if (!trigger || !el.contains(trigger)) return
+    openFrom(trigger)
+  })
+  el.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return
+    const trigger = e.target.closest('.pirate-hover')
+    if (!trigger || !el.contains(trigger)) return
+    e.preventDefault()
+    openFrom(trigger)
+  })
 }
 
 /** Fill a container with pirate cards (same markup as Besättningen). */

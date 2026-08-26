@@ -4,7 +4,7 @@ import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { fetchIntrigerGuests, fetchPirateGuests, getGuestIntriger, intrigerListHtml } from '../lib/intriger.js'
 import { pirateCardHtml } from './pirate-card.js'
-import { makeCardsInteractive, wirePirateCardGrid } from './crew-collage.js'
+import { makeCardsInteractive, wirePirateCardGrid, wirePirateNameLightbox } from './crew-collage.js'
 import { renderNarrative } from './narrative-section.js'
 
 /**
@@ -75,5 +75,6 @@ export async function renderMyIntriger(el) {
   if (list) {
     wirePirateCardGrid(list)
     makeCardsInteractive(list)
+    wirePirateNameLightbox(list)
   }
 }
