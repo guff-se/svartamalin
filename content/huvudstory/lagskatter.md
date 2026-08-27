@@ -30,7 +30,49 @@ Kolumnen **Jagas av** är bara för oss. Gästtexten talar om vilken skuta *de* 
 
 Detta är **inte** samma cirkel som förrädarna. Förrädare går två steg (`1 → 3 → 5 → 2 → 4 → 1`). Se [`forradare.yaml`](forradare.yaml). En mullvad som säljer sitt lags gömställe hjälper alltså inte sin uppdragsgivare direkt. Hen måste arbeta aktivt.
 
-Jakten startar från en **ingång**, se nästa avsnitt. Inte från ransakning.
+Jakten startar från en **ingång**, se avsnittet Ingång. Inte från ransakning. **Varför** de jagar sitter i nästa avsnitt. Ingången är första steget, inte skälet.
+
+---
+
+## Varför de jagar
+
+Första `##` i varje `crews/{id}.md` är oförrätt mot Malin plus kistan. Den får stå. Jaktstycket (andra `##`) är ett annat spår. Det får **inte** återberätta den jagade skutans första stycke.
+
+Fällan: de fyra skutorna utan eget material har bara Malin-relationen som lagporträtt. Om jägaren beskriver målet med den texten blir jakten "Malin prejade dem, ta deras skatt" i stället för en konflikt mellan två skutor. Fromheten är undantaget: de skrev Frompiraterna, valet, omfördelning. Därför håller jakten mot dem. De andra behöver skäl som sitter i **skutans metod**, inte i hennes oförrätt mot dem.
+
+### Skutornas metod (utan Malin)
+
+Hur skutan tar. Det jägaren får använda när de beskriver *målet*. Inte vad hon gjorde mot dem.
+
+| Skuta | Metod | Inte (det sitter i deras första `##`) |
+|-------|-------|----------------------------------------|
+| 1 Kurtisanen | Bordet. Ler, häller upp, behåller det bästa. Tar genom gästfrihet. | Att de är hennes skuta, att festen är deras för att hon skryter, att de bär in faten åt henne. |
+| 2 Fördärvet | Värjan. Bordar, ruinerar, tar med kraft. | Att de bordade samma skepp som hon, att hon tog lasten, "fördärv delas ojämnt", att de har en fordran på henne. |
+| 3 Bortförklaringen | Munnen. En ursäkt för allt, en last de inte erkänt. Prata i stället för att betala. | De tre prejningarna (dimman, drevet, vinden), att hon sa att deras enda last är undanflykter. |
+| 4 Fromheten | Böckerna. Frompiraterna: rena händer, rakt kors, blanka siffror. Stjäl inte, omfördelar. Val, piratskatt, avlat. | "Mina frommaste rivaler", att valet är metoden mot *henne*. (Valet och Frompiraterna får användas. Hennes hån och hennes hamn får inte.) |
+| 5 Gnället | Ljudet. Gnäller om heder, om andras last, om att ingen lyssnar. Vill tas på allvar. | Att hon bjöd in dem som orkester, att oväsendet är de, att gnället ska sönder hennes storhet. |
+
+Jägaren får låta **sin egen** metod färga stycket. Kurtisanen tar vid bordet, Fördärvet bordar, Fromheten tar ut skatt. Det är deras fil. Det de inte får göra är att sätta den jagades Malin-stycke som målbeskrivning.
+
+### De fem skälen
+
+Ingångarna oförändrade. Bara varför.
+
+| Jagar | Mål | Skäl | Inte |
+|-------|-----|------|------|
+| 1 Kurtisanen | 2 Fördärvet | Värja vid kurtisanbord. De ruinerar och kallar det rätt. Vid bordet tar värdinnan. Deras skatt är det de klamrar vid när glasen redan är fyllda. Ta den så de sitter som gäster, inte som bordsgrannar med egen last. | Fordran på Malin. Gemensam bordning. Hon tog deras last. |
+| 2 Fördärvet | 3 Bortförklaringen | Bordning mot munväder. De har en ursäkt för allt och en last de aldrig erkänt. Prata är inte betalning. Ta skatten så förklaringarna tar slut. | De tre prejningarna. Hennes citat om undanflykter. Att ni betalar för *hennes* nöje. |
+| 3 Bortförklaringen | 4 Fromheten | Ursäkt mot helgonfana. Frompiraterna stjäl inte, de omfördelar, de utlyser val. Omfördela då deras skatt. En from gömma är bara en till bortförklaring barken inte köper. | Valet mitt i *hennes* hamn. Att Fromheten tröttnat på *henne*. |
+| 4 Fromheten | 5 Gnället | Blank bok mot oljud. De gnäller om heder och andras last, och sitter på en skatt de inte fört in. Frompirater tar ut piratskatt. Dunkas svärd (ingången) är hur jakten börjar, inte varför: skälet är obokförd last bakom gnäll, inte kopian i sig. | Inbjudna som orkester. Att hon kallade dem oväsen. |
+| 5 Gnället | 1 Kurtisanen | Gnäll mot leende. De häller upp och behåller det bästa under duken. De kallar det gästfrihet. Gnället kallar det gömma. Ta klenoden. Ett leende med kodlås är värre än ett ärligt gnäll. | Att de bär in faten åt henne. Att hamnen är *hennes*. Värdinnan som Malin. Varje kaviar en örfil från henne. |
+
+### Test innan gästtext
+
+1. Stryk varje mening om målet som fortfarande fungerar om skutan byts ut mot Malin. Om stycket kollapsar: fel skäl.
+2. Om målbeskrivningen kan klistras in i den jagades första `##` utan att skava: du har stulit deras Malin-oförrätt. Skriv om.
+3. Frompiraterna, valet, omfördelning får stå när Fromheten är **mål**. "Malins hamn" och hennes hån får inte.
+
+Ingången läggs till efter skälet. Den ersätter inte skälet.
 
 ---
 
@@ -51,7 +93,7 @@ Resten av spåret är gömmarnas. Vi trycker det inte. Vi skriver inte in var sk
 | Roll | Skuta | I gästtext | Inte i gästtext |
 |------|-------|------------|-----------------|
 | **Gömmare** | den vars skatt det är | Social dörr: kort intrig i **den personens** `guests/`. Inte i lagfilen. Inte gömma-instruktion. | vem som jagar dem, cirkeln, jägarens revyformulering, att de ska gömma |
-| **Jagare** | den som jagar skatten (N jagar N+1) | skatten de ska hitta, plus ingången: ett konkret nästa steg | var skatten ligger, resten av spåret, vem som jagar *dem*, att det är en sluten cirkel, skatten de själva gömmer |
+| **Jagare** | den som jagar skatten (N jagar N+1) | skatten de ska hitta, **varför** (skuta mot skuta, se Varför de jagar), plus ingången: ett konkret nästa steg | var skatten ligger, resten av spåret, vem som jagar *dem*, att det är en sluten cirkel, skatten de själva gömmer, den jagades Malin-oförrätt |
 
 Gömmarna vet redan spåret. De ritade det. Påminnelsen finns så första steget faktiskt finns i spel före lördag 10.30: ett brev på plats, eller en person på skutan som kan släppa nästa steg.
 
@@ -103,14 +145,17 @@ Gäller jaktstycket i `content/intriger/crews/{id}.md`. Inte individfilen. Inte 
 6. **Inte ransakning och inte spelledning mot ransakning.** Peka på spåret. Genomgången säger att man lämnar det man råkar hitta.
 7. **Inte andra intriger.** Inte quests, inte mullvad, inte romanser. Stycket ska stå för sig själv.
 8. Röst: [`../intriger/STYLE.md`](../intriger/STYLE.md). Piratnamn. Ingen em dash.
+9. **Skuta mot skuta, inte mot Malin.** Skälet är den jagade skutans metod (tabellen **Varför de jagar**). Inte deras första `##`. Jägarens egen metod får färga. Målets Malin-oförrätt får inte. Frompiraterna får användas när Fromheten är mål.
 
-Testet: om stycket redan säger var skatten är, är det för långt. Stryk svaret. Lämna första steget.
+Testet: om stycket redan säger var skatten är, är det för långt. Stryk svaret. Lämna första steget. Andra testet: om målet fortfarande är hon, är skälet fel. Skriv om från tabellen.
 
 Dåligt: "Fördärvet gömde skatten under bryggan. Titta i soffbordet, sen i gymmet, sen under bryggan."
-Bra: "Målet är **Fregatten Fördärvet**s skatt. Börja i Storstugan: det ligger ett brev i soffbordet i vardagsrummet. Läs det. Följ det."
-Bra, social: "Målet är **Barken Bortförklaringen**s skatt. Börja med **Kapten Klöver**. Högkvalitativ choklad gör henne uppsluppen och totalt omdömeslös. Bjud henne. Följ det hon släpper."
-Bra, social: "Målet är **Fregatten Fromheten**s skatt. Börja med **Kapten Hjärter**. Smicker lossar tungan. Fjäska. Följ det han släpper."
-Bra, social: "Målet är **Galeonen Gnället**s skatt. Börja med **Kapten Dunka**. Hans tveeggade svärd är inte anrikt, det är en kinesisk kopia. Hota att säga det. Följ det han släpper."
+Dåligt, skäl: "De bordade samma skepp som Svarta Malin, hon tog lasten, ni tar fordran." Det är deras första `##`, inte ett skäl att jaga skutan.
+Bra, skäl: "Fördärvet tar med värja. Vid ert bord tar ni. Deras skatt är det de klamrar vid när glasen är fyllda. Ta den."
+Bra, ingång: "Börja i Storstugan: det ligger ett brev i soffbordet i vardagsrummet. Läs det. Följ det."
+Bra, social: "Börja med **Kapten Klöver**. Högkvalitativ choklad gör henne uppsluppen och totalt omdömeslös. Bjud henne. Följ det hon släpper."
+Bra, social: "Börja med **Kapten Hjärter**. Smicker lossar tungan. Fjäska. Följ det han släpper."
+Bra, social: "Börja med **Kapten Dunka**. Hans tveeggade svärd är inte anrikt, det är en kinesisk kopia. Hota att säga det. Följ det han släpper."
 
 ### Skrivregler: gömmarens dörr
 
@@ -214,15 +259,15 @@ Otillåtet:
 
 | Skuta | Fil | Jagar | Ingång i jaktstycket | Status |
 |-------|-----|-------|----------------------|--------|
-| 1 | `content/intriger/crews/1.md` | Fördärvet | ja, Fördärvets brev | skriven. Dörr: de fem `guests/` (en siffra var) |
+| 1 | `content/intriger/crews/1.md` | Fördärvet | ja, Fördärvets brev | skriven. Fysisk dörr, ingen i `guests/`. |
 | 2 | `content/intriger/crews/2.md` | Bortförklaringen | ja, Klöver och choklad | skriven. Dörr: `guests/johannabergman.md` |
-| 3 | `content/intriger/crews/3.md` | Fromheten | ja, Hjärter och smicker | skriven. Dörr: `guests/johannabergman.md` |
-| 4 | `content/intriger/crews/4.md` | Gnället | ja, Dunka och svärdet | skriven. Dörr: `guests/jesperlejfjord.md` |
-| 5 | `content/intriger/crews/5.md` | Kurtisanen | ja, kaptenernas siffror | skriven. Dörr: `guests/ludvigvonbahr.md` |
+| 3 | `content/intriger/crews/3.md` | Fromheten | ja, Hjärter och smicker | skriven. Dörr: `guests/jesperlejfjord.md` |
+| 4 | `content/intriger/crews/4.md` | Gnället | ja, Dunka och svärdet | skriven. Dörr: `guests/ludvigvonbahr.md` |
+| 5 | `content/intriger/crews/5.md` | Kurtisanen | ja, kaptenernas siffror | skriven. Dörr: de fem `guests/` (en siffra var) |
 
 Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11, jägarna. Bara skatten de ska hitta, plus ingången. Social dörr: id 100 Dunka, 101 Hjärter, 102 Klöver, 103 kurtisanernas fem siffror. Inte gömma i lagfilen.
 
-Hur texten skrivs: avsnittet **Ingång** ovan. STYLE.md punkt 23.
+Hur texten skrivs: avsnitten **Varför de jagar** och **Ingång** ovan. STYLE.md punkt 23.
 
 ---
 

@@ -20,6 +20,19 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-27, lagskattjakten ska inte vara Malin-oförrätten om igen
+
+Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
+
+- [x] Lagskatt-texterna är inte så bra. De är omskrivningar av äldre texter som inte har blivit en bra helhet.
+- [x] Jag tror att problemet är att den primära texten för varje skepp är deras relation till svarta malin. Så när lagskattstexten skall skrivas, så handlar texten om målet för jakten om svarta malin istället för skeppet.
+- [x] Fromheten har ju skrivit lite egen info, så där håller det, men för de andra blir det konstigt.
+- [x] Skriv om lagskatter.md och hitta nya skäl för varför varje lag jagar respektive skatt.
+
+Kryss = avsnittet **Varför de jagar** i [`lagskatter.md`](lagskatter.md). Jaktstyckena i `crews/1.md`–`5.md` omskrivna efter det. Första `##` (Malin-oförrätt) orörd.
+
+---
+
 ## 2026-08-26, första skeppsintrigen är generell ingång till main quests
 
 Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`../intriger/crews/`](../intriger/crews/).
