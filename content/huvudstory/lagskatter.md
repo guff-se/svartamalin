@@ -47,7 +47,7 @@ Hur skutan tar. Det jägaren får använda när de beskriver *målet*. Inte vad 
 | Skuta | Metod | Inte (det sitter i deras första `##`) |
 |-------|-------|----------------------------------------|
 | 1 Kurtisanen | Bordet. Ler, häller upp, behåller det bästa. Tar genom gästfrihet. | Att de är hennes skuta, att festen är deras för att hon skryter, att de bär in faten åt henne. |
-| 2 Fördärvet | Värjan. Bordar, ruinerar, tar med kraft. | Att de bordade samma skepp som hon, att hon tog lasten, "fördärv delas ojämnt", att de har en fordran på henne. |
+| 2 Fördärvet | Värjan och aptiten. Bordar, ruinerar, slukar. Synden är frosseri. | Att de bordade samma skepp som hon, att hon tog lasten, "fördärv delas ojämnt", att de har en fordran på henne. |
 | 3 Bortförklaringen | Munnen. En ursäkt för allt, en last de inte erkänt. Prata i stället för att betala. | De tre prejningarna (dimman, drevet, vinden), att hon sa att deras enda last är undanflykter. |
 | 4 Fromheten | Böckerna. Frompiraterna: rena händer, rakt kors, blanka siffror. Stjäl inte, omfördelar. Val, piratskatt, avlat. | "Mina frommaste rivaler", att valet är metoden mot *henne*. (Valet och Frompiraterna får användas. Hennes hån och hennes hamn får inte.) |
 | 5 Gnället | Ljudet. Gnäller om heder, om andras last, om att ingen lyssnar. Vill tas på allvar. | Att hon bjöd in dem som orkester, att oväsendet är de, att gnället ska sönder hennes storhet. |
@@ -60,7 +60,7 @@ Ingångarna oförändrade. Bara varför.
 
 | Jagar | Mål | Skäl | Inte |
 |-------|-----|------|------|
-| 1 Kurtisanen | 2 Fördärvet | Värja vid kurtisanbord. De ruinerar och kallar det rätt. Vid bordet tar värdinnan. Deras skatt är det de klamrar vid när glasen redan är fyllda. Ta den så de sitter som gäster, inte som bordsgrannar med egen last. | Fordran på Malin. Gemensam bordning. Hon tog deras last. |
+| 1 Kurtisanen | 2 Fördärvet | Värja och frosseri vid kurtisanbord. De ruinerar, slukar och kallar det rätt. Vid bordet tar värdinnan. Deras skatt är det de klamrar vid när magen redan är full. Ta den så frossarna sitter som gäster, inte som bordsgrannar med eget fat. | Fordran på Malin. Gemensam bordning. Hon tog deras last. |
 | 2 Fördärvet | 3 Bortförklaringen | Bordning mot munväder. De har en ursäkt för allt och en last de aldrig erkänt. Prata är inte betalning. Ta skatten så förklaringarna tar slut. | De tre prejningarna. Hennes citat om undanflykter. Att ni betalar för *hennes* nöje. |
 | 3 Bortförklaringen | 4 Fromheten | Ursäkt mot helgonfana. Frompiraterna stjäl inte, de omfördelar, de utlyser val. Omfördela då deras skatt. En from gömma är bara en till bortförklaring barken inte köper. | Valet mitt i *hennes* hamn. Att Fromheten tröttnat på *henne*. |
 | 4 Fromheten | 5 Gnället | Blank bok mot oljud. De gnäller om heder och andras last, och sitter på en skatt de inte fört in. Frompirater tar ut piratskatt. Dunkas svärd (ingången) är hur jakten börjar, inte varför: skälet är obokförd last bakom gnäll, inte kopian i sig. | Inbjudna som orkester. Att hon kallade dem oväsen. |

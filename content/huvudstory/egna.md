@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-27, Fördärvets synd är frosseri
+
+Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md) och `../intriger/crews/1.md`.
+
+- [x] Fregatten Fördärvets synd är frosseri. Lägg in något om det i texten i crews/1.md
+
+Kryss = jaktstycket **Fördärvets fat**. Synden är skutans metod (aptit, sluka, eget fat), inte en Malin-oförrätt.
+
+---
+
 ## 2026-08-27, lagskattjakten ska inte vara Malin-oförrätten om igen
 
 Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
