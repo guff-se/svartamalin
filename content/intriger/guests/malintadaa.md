@@ -34,5 +34,5 @@ Du får aldrig se henne kräva det rakt av dig. Det är inte hennes stil. Men h�
 
 ## Siffran du bär {slug:malintadaa}
 
-Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. Du är värdinna, inte flaskhals. En siffra som stannar i fickan knäcker ingenting.
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem.
 

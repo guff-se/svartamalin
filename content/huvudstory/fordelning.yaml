@@ -1311,7 +1311,7 @@ fordelning:
     akt: II
     till: [malintadaa, petterwallberg, linneaappert, ulrikahammar, jesperlindmarker]
     roll: door
-    vet: "att de bär en siffra var till Korvetten Kurtisanens kod, att skatten är lätt att hitta och koden är låset, och att de ska ge sin siffra om någon frågar"
+    vet: "att de bär en siffra var till Korvetten Kurtisanens kod, att skatten är lätt att hitta och koden är låset"
     vet_inte: "att Galeonen Gnället jagar Kurtisanens skatt, att jakten är en sluten cirkel, koden, vilka siffror de andra bär"
     speglas: []
     bygger_pa: null

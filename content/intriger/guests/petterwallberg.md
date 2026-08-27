@@ -43,4 +43,4 @@ Nu delar hon båtar, rep och rigg med **Kapten Rödskägg**, mannen vars skägg 
 
 ## Siffran du bär {slug:petterwallberg}
 
-Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. En siffra som stannar bakom skägget knäcker ingenting.
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem.

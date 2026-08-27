@@ -52,4 +52,4 @@ Din svarta liggare rymmer mer än frågan om vem som en gång angav dig. Där fi
 
 ## Siffran du bär {slug:jesperlindmarker}
 
-Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. En siffra som stannar i fickan knäcker ingenting.
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem.

@@ -50,4 +50,4 @@ Hon kan dyka upp vid din sy- och broderihörna. Möt henne, muta henne, neka, el
 
 ## Siffran du bär {slug:ulrikahammar}
 
-Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. En siffra som stannar i fickan knäcker ingenting.
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem.

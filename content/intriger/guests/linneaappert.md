@@ -46,4 +46,4 @@ Du har oljan från sirenerna kvar i din koja, den som väcker en lust ingen kan 
 
 ## Siffran du bär {slug:linneaappert}
 
-Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. En siffra som stannar i planket knäcker ingenting.
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem.
