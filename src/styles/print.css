@@ -147,7 +147,7 @@
   }
 
   .intriger-print-name {
-    display: block;
+    display: block !important;
     margin: 0 0 0.35rem;
     text-align: center;
     text-transform: uppercase;
