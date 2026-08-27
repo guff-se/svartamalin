@@ -28,6 +28,7 @@
   .webgl-page,
   .content-overlay,
   .home {
+    display: block !important;
     position: static !important;
     background: #fff !important;
     min-height: 0 !important;
@@ -50,9 +51,8 @@
   }
 
   .js-print-block ~ .js-print-block {
-    margin-top: 1.5rem;
-    padding-top: 1.25rem !important;
-    border-top: 0.5pt solid #000;
+    break-before: page;
+    page-break-before: always;
   }
 
   .print-anchor {
