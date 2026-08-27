@@ -38,12 +38,12 @@ Kryss = första `##` i `crews/1.md`–`5.md` omskriven. Kurtisanen: bakom hennes
 
 ## 2026-08-27, Fromhetens och Gnällets lagskatt-ingångar
 
-Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md). Inte i gästtext i den här omgången.
+Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
 
 - [x] För Fromheten: Kapten Hjärter är svag för smicker, så att om man fjäskar för honom så läcker han hemlighter direkt.
 - [x] För Gnället: Hota Kapten Dunka om att avslöja att hans svärd faktiskt inte alls är anrikt, det är en kinesisk kopia.
 
-Kryss = verbatim i registret. Fromheten jagas av Bortförklaringen: Hjärter är dörren. Gnället jagas av Fromheten: Dunka är dörren. Sociala, ingen utläggning. Gästtext väntar.
+Kryss = verbatim i registret. Fromheten jagas av Bortförklaringen: Hjärter är dörren. Gnället jagas av Fromheten: Dunka är dörren. Sociala, ingen utläggning. Gästtext skriven: jägarna i `crews/3.md` och `crews/4.md`, göm-påminnelse i `crews/4.md` och `crews/5.md`.
 
 ---
 

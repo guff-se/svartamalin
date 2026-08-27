@@ -11,3 +11,5 @@ Har hand om maten tillsammans med **Kapten Nykter** (`fabianmacklin`). Praktiskt
 Jägare i huvudstoryn (B-13): hemlig kärlek till **Svarta Malin**. Vet att hon gömmer en älskare, och tror att det är någon på ön. Vet **inte** att det är Karl XII. Jakten är privat, vid kökskanten. Rival om Malin: **Kapten Blodig** (fiende 21).
 
 Räkna med att han är i köket. Lägg inte tunga pussel eller scener som kräver att han är på andra sidan ön samtidigt som maten ska fram. Jakt-scenerna tål kökskanten.
+
+Lagskatt: han är Fromhetens ingång. Smicker lossar tungan, fjäsk gör att han läcker hemligheter direkt. Jägarna (Bortförklaringen) läser det i `crews/3.md`. Han och fregatten läser påminnelsen i `crews/4.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md). Inte i hans gästfil.

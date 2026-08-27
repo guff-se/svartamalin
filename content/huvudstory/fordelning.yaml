@@ -60,7 +60,7 @@
 # Fromhetens ingång (Hjärter, smicker). Id 4 bär påminnelsen att Hjärter
 # är dörren och Gnällets ingång (Dunka, svärdet). Id 5 bär Kurtisanens
 # ingång (kaptenerna och siffrorna) och påminnelsen att Dunka är dörren.
-# Gästtext för Hjärter och Dunka väntar: id 3–5 pending.
+# Gästtext skriven, inklusive Hjärter och Dunka: id 1–5 done.
 
 fordelning:
   - id: 1
@@ -97,7 +97,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: null
-    status: pending
+    status: done
 
   - id: 4
     beat: B-11
@@ -109,7 +109,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: null
-    status: pending
+    status: done
 
   - id: 5
     beat: B-11
@@ -121,7 +121,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: null
-    status: pending
+    status: done
 
   - id: 6
     beat: B-13
