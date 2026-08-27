@@ -114,10 +114,15 @@ Bra, social: "Målet är **Galeonen Gnället**s skatt. Börja med **Kapten Dunka
 
 ### Skrivregler: gömmarens lagfil
 
+Egen kort `##` i `content/intriger/crews/{id}.md`. Inte en mening inne i jaktstycket. Inte individfilen.
+
 1. Behåll att de gömmer vid ankomsten. Kojen fredad.
-2. En mening om **första steget**, med samma substantiv som de skickade in. Fysiskt: lägg ut det när skatten går ner. Socialt: personen på skutan ska veta nästa steg, inte stängas ute från gömman.
-3. Inte "ni jagas av Kurtisanen". Inte "cirkeln". Inte jägarens punchlines.
-4. Inte hur resten av spåret ser ut. De vet det. Vi upprepar det inte.
+2. Första steget, med samma substantiv som de skickade in. Fysiskt: lägg ut det när skatten går ner. Socialt: personen på skutan ska veta nästa steg, inte stängas ute från gömman.
+3. Kort intrig: vilja (behåll skatten), hinder (hamnen letar, dörren måste stå öppen), helgen. Punchline efter skutan.
+4. Inte "ni jagas av Kurtisanen". Inte "cirkeln". Inte jägarens punchlines ("hota", "fjäska", "ta siffrorna").
+5. Inte hur resten av spåret ser ut. De vet det. Vi upprepar det inte.
+
+Social dörr: `{slug:login_slug}` på rubriken, så mini-porträttet visar personen. Fysisk dörr: ingen slug.
 
 ### Vad skutorna vet
 
@@ -205,11 +210,11 @@ Otillåtet:
 
 | Skuta | Fil | Jagar | Ingång i jaktstycket | Status |
 |-------|-----|-------|----------------------|--------|
-| 1 | `content/intriger/crews/1.md` | Fördärvet | ja, Fördärvets brev | skriven. Göm-påminnelse: varje kapten ombord bär en siffra |
-| 2 | `content/intriger/crews/2.md` | Bortförklaringen | ja, Klöver och choklad | skriven |
-| 3 | `content/intriger/crews/3.md` | Fromheten | ja, Hjärter och smicker | skriven. Göm-påminnelse: Klöver |
-| 4 | `content/intriger/crews/4.md` | Gnället | ja, Dunka och svärdet | skriven. Göm-påminnelse: Hjärter |
-| 5 | `content/intriger/crews/5.md` | Kurtisanen | ja, kaptenernas siffror | skriven. Göm-påminnelse: Dunka. Göm-påminnelse i `crews/1.md`: skriven |
+| 1 | `content/intriger/crews/1.md` | Fördärvet | ja, Fördärvets brev | skriven. Göm-intrig: koden, varje kapten en siffra |
+| 2 | `content/intriger/crews/2.md` | Bortförklaringen | ja, Klöver och choklad | skriven. Göm-intrig: brevet i soffbordet |
+| 3 | `content/intriger/crews/3.md` | Fromheten | ja, Hjärter och smicker | skriven. Göm-intrig: Klöver |
+| 4 | `content/intriger/crews/4.md` | Gnället | ja, Dunka och svärdet | skriven. Göm-intrig: Hjärter |
+| 5 | `content/intriger/crews/5.md` | Kurtisanen | ja, kaptenernas siffror | skriven. Göm-intrig: Dunka |
 
 Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11. Id 1:s `vet` bär Fördärvets ingång *och* påminnelsen att varje kapten ombord bär en siffra (alla fem, inklusive Malin). Id 2:s `vet` bär påminnelsen att lägga brevet *och* Bortförklaringens ingång (Klöver, choklad). Id 3:s `vet` bär påminnelsen att Klöver är dörren *och* Fromhetens ingång (Hjärter, smicker). Id 4:s `vet` bär påminnelsen att Hjärter är dörren *och* Gnällets ingång (Dunka, svärdet). Id 5:s `vet` bär Kurtisanens ingång (kaptenernas siffror) *och* påminnelsen att Dunka är dörren. Gästtext skriven. Id 1–5 done.
 
