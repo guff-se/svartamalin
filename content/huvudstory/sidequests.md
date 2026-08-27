@@ -119,7 +119,7 @@ Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl
 Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig enväg. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
 Status:         skriven
 
-Obs: Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom. Enbens vittnespekning struken 2026-08-27 (återbud).
+Obs: Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom. Enbens vittnespekning struken 2026-08-27 (återbud). Lagskatt: Hjärter är Fromhetens dörr (smicker), Dunka är Gnällets dörr (svärdet). Hjärter seglar på Fromheten som jagar Dunkas skuta. Två skäl att gå på Dunka. Inte samma uppdrag. Malin-affären är inte jaktens hävstång.
 
 ## S-02: Skäggtrion
 
@@ -267,7 +267,7 @@ Bygger på:      fiende 20 (Dunka–Nykter). Romans 19 (Kosing–Dunka), i den l
 Speglas hos:    Dunka, Kosing, Nykter, Klöver.
 Status:         skriven
 
-Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok.
+Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt: Gnällets ingång går via samma svärd, skärpt till kinesisk kopia. Önskad krock. Inte samma uppdrag. Kosing är inte enda jägaren där.
 
 ---
 

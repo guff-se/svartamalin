@@ -51,6 +51,8 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | LS1-01 | Siffror från Kurtisanens kaptener, Kurtisanens ingång | B-11 | Social. Ingen utläggning. Alla fem ombord är dörren, inklusive Malin. En siffra var. Siffrorna är lagets. Inte vår tryck. Ingen stängs ute. | Kurtisanen (siffror), Gnället (jakt) | lör 10.30 | lagets |
 | LS2-01 | Brev i soffbordet, Fördärvets ingång | B-11 | Fördärvet skriver och lägger. Inte vår tryck. Soffbordet i Storstugan, på plats före lördag 10.30. Inte *Tomtebobarnen*, inte svärdfisken, inte dagboken. | Fördärvet | fre 17.30 | lagets |
 | LS3-01 | Choklad till Kapten Klöver, Bortförklaringens ingång | B-11 | Social. Ingen utläggning. **Kapten Klöver** (`johannabergman`) är dörren. Högkvalitativ choklad, jägarna (Fördärvet) tar med eller hittar. Inte vår tryck. Inte kristallfyrklövern. Klöver ska veta nästa steg. | Fördärvet (choklad), Klöver (dörr) | lör 10.30 | lagets |
+| LS4-01 | Smicker till Kapten Hjärter, Fromhetens ingång | B-11 | Social. Ingen utläggning. **Kapten Hjärter** (`jesperlejfjord`) är dörren. Fjäsk lossar tungan. Köket. Inte vår tryck. Inte kristallfyrklövern. Hjärter ska veta nästa steg. Ingen stängs ute. | Bortförklaringen (jakt), Hjärter (dörr) | lör 10.30 | lagets |
+| LS5-01 | Hot om Kapten Dunkas svärd, Gnällets ingång | B-11 | Social. Ingen utläggning. **Kapten Dunka** (`ludvigvonbahr`) är dörren. Svärdet är hans, kinesisk kopia, inte anrikt. Inte vår tryck. Inte questprop. Dunka ska veta nästa steg. Ingen stängs ute. | Fromheten (jakt), Dunka (dörr) | lör 10.30 | lagets |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 

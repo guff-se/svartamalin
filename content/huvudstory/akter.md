@@ -159,7 +159,7 @@ Väg 2:          någon frågar Spader vad de ska göra. Han pekar på deras ege
 Spelledarväg:   behövs inte. Uppdraget står i lagfilen. Saknas ingång: peka inte ut gömmet, säg åt dem att vänta eller hitta spåret som redan står i texten.
 
 Pusselnod:      ingen, om inte en skatt senare bär en ledtråd
-Props:          fem lagskatter, lagen tar med dem. Första steget i varje spår är gömmarnas. Fördärvet: brev i soffbordet i Storstugan. Bortförklaringen: **Kapten Klöver** och högkvalitativ choklad, social, ingen utläggning. Kurtisanen: alla fem ombord, en siffra var, social, ingen utläggning. Inte vår tryck.
+Props:          fem lagskatter, lagen tar med dem. Första steget i varje spår är gömmarnas. Fördärvet: brev i soffbordet i Storstugan. Bortförklaringen: **Kapten Klöver** och högkvalitativ choklad, social, ingen utläggning. Kurtisanen: alla fem ombord, en siffra var, social, ingen utläggning. Fromheten: **Kapten Hjärter** och smicker, social, ingen utläggning. Gnället: **Kapten Dunka** och hotet om svärdet (kinesisk kopia), social, ingen utläggning. Inte vår tryck.
 Om det floppar: om ingen hittar något: strunt. Huvudstoryn vilar inte på det.
 
 #### B-12: Mullvadarna tar kontakt
