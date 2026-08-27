@@ -98,7 +98,7 @@ Gäller jaktstycket i `content/intriger/crews/{id}.md`. Inte individfilen. Inte 
 1. **Bara ingången.** Verbatimets substantiv (brev, soffbord, vardagsrum) eller den namngivna personen och metoden (Klöver, choklad). Inte ledtråd två. Inte var skatten ligger. Inte hur lång kedjan är.
 2. **En konkret nästa handling.** En plats, ett föremål, eller en person att bjuda. Inte "hitta den någonstans på ön".
 3. **Behåll vem de jagar.** Det stod redan. Ingången läggs *till*, den ersätter inte målet.
-4. **Jakten öppnar på lördagen.** De läser intrigerna före helgen. Skriv inte som om de redan öppnat brevet. Fredag är fortfarande utan jakt.
+4. **Inte off-game om när jakten öppnar.** Skriv inte "spelet", "lördagen", eller att de ska vänta. För karaktären är jakten blodigt allvar. De läser intrigerna före helgen: skriv inte som om de redan öppnat brevet. Fredag utan jakt sägs i genomgången, inte i intrigtext.
 5. **Inte cirkeln.** Inte vem som jagar dem. Inte att gömmarna "skickade in" något till oss.
 6. **Inte ransakning och inte spelledning mot ransakning.** Peka på spåret. Genomgången säger att man lämnar det man råkar hitta.
 7. **Inte andra intriger.** Inte quests, inte mullvad, inte romanser. Stycket ska stå för sig själv.
