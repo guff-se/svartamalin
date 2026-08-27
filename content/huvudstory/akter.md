@@ -272,7 +272,7 @@ Om det floppar: tre andra quests plus berlocken räcker fortfarande för de skut
 Akt:            II
 Tid:            10.30 till 13.30
 Plats:          Södra Ovanan, piratstugan, skelettet i skogen
-Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`), Kapten Kosing (`amandamungsgard`). Inte Malin.
+Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Blodig (`minimacklin`), Kapten Klöver (`johannabergman`), Kapten Kosing (`amandamungsgard`). Inte Malin.
 Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
 
 Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten), tar en token `1H` ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Token `2K` där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
@@ -296,7 +296,7 @@ Plats:          Storstugan, porträttväggen, svärdfiskens mun
 Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Lösskägg (`petterwallberg`), Kapten Nykter (`fabianmacklin`), Kapten Dunka (`ludvigvonbahr`). Tvärledtråd: Kapten Blodig (`minimacklin`, skuta 2), Kapten Rödskägg (`viktoransund`, skuta 4). Inte Malin, inte Spader.
 Publik:         den som ser väggen tas ner, och den som ser någon fiska i gapet
 
-Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt, 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre tokens `2K`. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.
+Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 24 porträtt (Enben hänger obesatt, bokstav I), 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre tokens `2K`. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.
 
 Vad ändras:     rummet vet att hon håller havet med mäns skulder, och att de ligger i kistan. Inte kungen. Inte att hon är skuldsatt.
 
@@ -314,16 +314,16 @@ Om det floppar: tre andra quests plus berlocken räcker. En Q-5-skuta utan token
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
 Plats:          Gymmet, vedhögen bakom bastun, under badbryggan
-Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Kapten Döver (`navidmodiri`), Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd: Kapten Enben (`amaliawahlstrom`) och Kapten Frodig (`josefinansund`) på skuta 3, Kapten Lösskägg (`petterwallberg`) och Kapten Planka (`linneaappert`) på skuta 1. Inte mullvad, inte Malin, inte Spader.
+Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Kapten Döver (`navidmodiri`), Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd: Kapten Frodig (`josefinansund`) på skuta 3, Kapten Lösskägg (`petterwallberg`) och Kapten Planka (`linneaappert`) på skuta 1. Inte mullvad, inte Malin, inte Spader.
 Publik:         den som ser folk i gymmet läsa väggen, vid veden, eller böja sig under badbryggan
 
-Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 6 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 6 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: två personer per av de två skutorna utan Q-3 vet tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och token `3H`, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
+Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 6 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 6 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: Frodig på skuta 3, Lösskägg och Planka på skuta 1, tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och token `3H`, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
 
 Vad ändras:     rummet vet att hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Inte att kungen gav henne skutan.
 
 Trigger:        Q-3-start skriven i de tre individintrigerna ovan
 Väg 1:          tre lag läser I och II efter varandra, ett tar skatten, de andra stjäl eller avskriver
-Väg 2:          alla fyra nyckelbärarna tysta, Spader har meningen
+Väg 2:          alla tre nyckelbärarna tysta, Spader har meningen
 Spelledarväg:   se [`quests/Q-3.md`](quests/Q-3.md). Inte extra uppsättning under bryggan.
 
 Pusselnod:      Q-3

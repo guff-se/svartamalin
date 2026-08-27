@@ -8,7 +8,7 @@ mirrors:
   - slug: fabianmacklin
     note: reservsvar om Barnsben inte hittas
   - slug: hampuslindblad
-    note: romans, hon krossade hans hjärta för en skuta, Fuling och Enben vet inte (tvåvägs, asymmetrisk kunskap)
+    note: romans, hon krossade hans hjärta för en skuta, Fuling vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: louisevonbahr
     note: fiende 5, auktionen och silverryktet (tvåvägs)
 related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa, hampuslindblad, louisevonbahr]

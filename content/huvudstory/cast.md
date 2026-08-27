@@ -1,10 +1,10 @@
-# Cast: 24 deltagare, 5 skutor
+# Cast: 23 deltagare, 5 skutor
 
 Intern text för Gustaf och agenten. Gäster läser inte detta.
 
 Referenstabell för story-arbetet. Källa: tabellerna `guests` och `pirate_names` i Supabase, filtrerat på `attending = true`. Alla andra rader i `guests` ignoreras. De städas inte ur seed. Uppdatera om piratnamn eller lagindelning ändras.
 
-Verifierad mot databasen 2026-08-23. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta: återbud, ingen gäst bär namnen.
+Verifierad mot databasen 2026-08-27. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta sedan tidigare. **Kapten Enben** (`pirate_names.id` 1) obesatt 2026-08-27: Amalia Wahlström (`amaliawahlstrom`) återbud. Porträttet hänger ändå på Q-5-väggen, bokstav I. Annars faller "I SVÄRDFISKENS MUN".
 
 I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Piratnamn (slug)`.
 
@@ -32,7 +32,6 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 
 | Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
-| **Kapten Enben** | Amalia Wahlström | `amaliawahlstrom` |
 | **Kapten Nykter** | Fabian Macklin | `fabianmacklin` |
 | **Kapten Frodig** | Josefin Ansund | `josefinansund` |
 | **Kapten Klöver** | Johanna Bergman | `johannabergman` |
@@ -89,16 +88,15 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `navidmodiri` | 2 | 2 | | Q-3 (start) |
 | `minimacklin` | 1 | 2 | | Q-2 (start), Q-5 (tvärledtråd) |
 | `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
-| `amaliawahlstrom` | 0 | 1 | | Q-2 (start), Q-3 (tvärledtråd) |
 | `fabianmacklin` | 1 | 3 | | Q-5 (start) |
 | `josefinansund` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
-| `johannabergman` | 1 | 1 | | |
+| `johannabergman` | 1 | 1 | | Q-2 (start) |
 | `jesperlejfjord` | 1 | 1 | | Q-4 (start) |
 | `amandamungsgard` | 1 | 1 | | Q-2 (start) |
 | `viktoransund` | 1 | 2 | | Q-3 (start), Q-5 (tvärledtråd) |
 | `minervalowgren` | 1 | 1 | | |
 | `linneaekbom` | 1 | 1 | | Q-3 (start) |
 | `alexandrapalmquist` | 1 | 1 | | |
-| `hampuslindblad` | 1 | 3 | | |
+| `hampuslindblad` | 2 | 3 | | |
 | `edvinthungren` | 1 | 3 | | |
-| `elinmartensson` | 1 | 1 | | Q-4 (start) |
+| `elinmartensson` | 1 | 3 | | Q-4 (start) |

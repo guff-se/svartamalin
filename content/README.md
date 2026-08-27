@@ -32,7 +32,7 @@ Format och gästlista för intriger: [`intriger/README.md`](intriger/README.md).
 
 ## Intern text (Gustaf + agent)
 
-Högsta prioritet: **en framtida agent ska kunna läsa filen och förstå den**. Tydligt före vackert. Säg vad som är sant, vem som vet vad, vad som händer om ingen fattar. Civilnamn och `login_slug` är tillåtna. Piratnamn skrivs som `Kapten Enben (amaliawahlstrom)` när båda behövs.
+Högsta prioritet: **en framtida agent ska kunna läsa filen och förstå den**. Tydligt före vackert. Säg vad som är sant, vem som vet vad, vad som händer om ingen fattar. Civilnamn och `login_slug` är tillåtna. Piratnamn skrivs som `Kapten Klöver (johannabergman)` när båda behövs.
 
 Skriv inte som om gästen läser. Ingen revyröst, ingen du-form till deltagaren, inga punchlines.
 

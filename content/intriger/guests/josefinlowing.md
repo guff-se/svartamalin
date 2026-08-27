@@ -3,10 +3,10 @@
 mirrors:
   - slug: elinmartensson
     note: gammal förnedring, hånad i skål (tvåvägs)
-  - slug: amaliawahlstrom
-    note: möjlig allians mot Malin, upptäcker varandras groll (tvåvägs)
   - slug: jesperlindmarker
     note: Hurring säljer en osäker rad om Malin till bästa bud (tvåvägs)
+  - slug: malintadaa
+    note: Fördärvets fordran, gammal oförrätt (tvåvägs)
   - slug: viktoransund
     note: mutual fiende, skottet i ryggen på Paradisets ö, båtarna tillsammans (tvåvägs)
   - slug: petterwallberg
@@ -18,7 +18,7 @@ mirrors:
   - slug: minimacklin
     note: skutkamrat, hon har gissat fel namn, du rättar inte gratis (tvåvägs)
 # gustaftadaa: hon vet inte att han älskar Plåthorn i hemlighet, se hans fil
-related: [elinmartensson, gustaftadaa, amaliawahlstrom, jesperlindmarker, viktoransund, petterwallberg, malintadaa, edvinthungren, josefinansund, minimacklin]
+related: [elinmartensson, gustaftadaa, jesperlindmarker, viktoransund, petterwallberg, malintadaa, edvinthungren, josefinansund, minimacklin]
 ---
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
@@ -41,11 +41,11 @@ Kalla på **Fregatten Fördärvet** och sök upp båda platserna innan en annan 
 
 **Kapten Rödskägg** delar båtarna med dig hela helgen, och han hatar Lösskägg mer än han litar på dig. De slåss om vem kajen ska kalla Skäggens Konung. Ett kyss mot en motståndare är bara ett sätt att komma nära. Ett knull med mannens värsta rival, medan ni två står vid samma rep, är ett sätt att vinna. Ta Lösskägg i skuggan av kajen, förneka högljutt, eller låt Rödskägg se precis så mycket att han tappar både kursen och titeln. Avgör det innan sista skålen.
 
-## Kapten med samma räkning {slug:amaliawahlstrom}
+## Fördärvets fordran {slug:malintadaa}
 
-Fördärvet har sin fordran på **Svarta Malin**, den last hon en gång tog och döpte om till rättvist delad. Men du är inte ensam om att vänta på ett tillfälle att ta tillbaka något från jubilaren. **Kapten Enben** bär sin egen, lika gamla skam hon aldrig fått upprättelse för. Hitta varandra i festvimlet, dela groll över ett glas, och slå ihop era krav till en scen ingen i hamnen glömmer. En ensam fordran är ett gnabb. Två som går samman är en dom.
+Fördärvet har sin fordran på **Svarta Malin**, den last hon en gång tog och döpte om till rättvist delad. Du har aldrig släppt den. En ensam fordran är ett gnabb hon charmar sig förbi med ett skratt och ett fyllt glas. En fordran som kräver betalt inför hela hamnen är en dom.
 
-**Kapten Hurring** har en rad i sin svarta liggare om Malin han aldrig kunnat bekräfta, och han säljer den gärna, till den av er två som lägger mest på bordet. Var snabbare än Enben, innan helgen är över, om du vill äga historien själv.
+**Kapten Hurring** har en rad i sin svarta liggare om Malin han aldrig kunnat bekräfta, och han säljer den gärna till den som lägger mest på bordet. Köp den, i mynt eller i en tjänst han kan kräva tillbaka senare, och slå till offentligt innan helgen är över.
 
 ## Skottet vid Paradisets ö {slug:viktoransund}
 

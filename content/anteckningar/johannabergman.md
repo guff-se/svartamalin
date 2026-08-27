@@ -10,3 +10,5 @@ Inga extra anteckningar. Romans 12 med **Kapten Hurring**. Fiende 1 mot **Kapten
 
 Rekvisita: Spaders ring med spader, utdelad före spelet. Hon bär den som trofé från ett tidigare bord. Inte halsbandet (det sitter på Plåthorn). Gustaf tar med ringen.
 
+Q-2-start (stugan) 2026-08-27, ersatte Enben. Inte mer sidequest: hon bär redan S-02, S-04, S-05, S-11.
+

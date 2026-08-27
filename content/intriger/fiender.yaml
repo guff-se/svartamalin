@@ -20,6 +20,7 @@
 #   * elinmartensson: Prygel vill krossa plåthornet (#24)
 #   * minimacklin blir mjuk 1 min av skeppskatt: inte en fiendepost
 #   * elinamelakoski tackade nej 2026-08-23: inga poster
+#   * amaliawahlstrom tackade nej 2026-08-27: #26 struken. #2 flyttad till elinmartensson.
 #
 # status: pending | done | skipped
 # done = brödtext skriven i guests/. Inte förrän den omgången.
@@ -38,8 +39,9 @@ fiender:
   - id: 2
     type: mutual
     a: malintadaa         # Svarta Malin: Korvetten Kurtisanen
-    b: amaliawahlstrom    # Kapten Enben: Barken Bortförklaringen
-    # oförrätt: Malins skål, hon kallade Enben “en fasa till kapten”; Malin kapade hennes skiff i dimman
+    b: elinmartensson     # Kapten Plåthorn: Galeonen Gnället
+    # oförrätt: Malins skål, hon kallade Plåthorn “en fasa till kapten”; Malin kapade hennes skiff i dimman
+    # Flyttad från amaliawahlstrom (Enben) 2026-08-27, återbud.
     status: done
 
   - id: 3
@@ -198,11 +200,10 @@ fiender:
 
   - id: 26
     type: mutual
-    a: amaliawahlstrom    # Kapten Enben: Barken Bortförklaringen
+    a: amaliawahlstrom    # Kapten Enben: Barken Bortförklaringen, återbud 2026-08-27
     b: louisevonbahr      # Kapten Fuling: Fregatten Fördärvet
-    # oförrätt: båda älskar Kapten Blåskägg (romans 10, 23), samma mönster som Klöver/Prygel om Hurring (fiende 1).
-    # Fuling hade honom först, Enben vägrar backa. Ingen av dem vet säkert om Blåskägg valt en av dem eller ingen.
-    status: done
+    # Struken. Rivaler om Blåskägg (romans 10, 23). Romans 23 skippad samma dag.
+    status: skipped
 
   # --- Korthajarna (S-11) ---
 

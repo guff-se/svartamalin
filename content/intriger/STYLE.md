@@ -234,7 +234,7 @@ Utan att det upprepas i just den här meningen får du räkna med:
 
 Hittar du en vass bild i en annan fil: antingen **lyfter du in** det mottagaren behöver veta, i *den här* texten, och **bara** om de *ska* veta det (de är med i spåret, eller `fordelning.yaml` säger `vet`), eller så **skriver du om** så bilden inte krävs.
 
-Exempel: **Kapten Enben** har romans med **Kapten Blåskägg**. Hon är inte i skäggtrion (S-02). "Knulla Skäggens Konung tills hamnen glömmer titeln" förutsätter en titelkamp hon inte bär. Skriv romansen som lust efter Blåskägg, utan trion. Låt Blåskäggs egen fil bära Skäggens Konung.
+Exempel: **Kapten Fuling** har romans med **Kapten Blåskägg**. Hon är inte i skäggtrion (S-02). "Knulla Skäggens Konung tills hamnen glömmer titeln" förutsätter en titelkamp hon inte bär. Skriv romansen som lust efter Blåskägg, utan trion. Låt Blåskäggs egen fil bära Skäggens Konung.
 
 Samma fälla: "kung över tre skägg", "liggaren" som namngivet objekt, "Karl XII", ett piller, ett svärd, ett horn. Om *den här* personen inte bär spåret: använd inte spårets ordförråd. En kroppsdel i namnet (skägg, ben, horn) är inte samma sak som spårets titel. **Undantag:** ordet "kistan" i första stycket i `crews/` är den gemensamma ingången till huvudjakten. Alla på skutan bär det. Inte i gästfilen, om personen inte bär ett spår som redan nämner den.
 

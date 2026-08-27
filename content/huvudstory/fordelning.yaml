@@ -345,12 +345,12 @@ fordelning:
     status: pending
 
   - id: 25
-    beat: S-01
+    beat: S-06
     akt: II
-    till: [amaliawahlstrom]
-    roll: vittne
-    vet: "att Malin skålade och kallade henne en fasa till kapten, att Malin kapade hennes båt i dimman, att hamnen viskar att Malin gömmer en älskare, och att hon ska sätta ett namn på ett bord så Malin ser skyldig ut"
-    vet_inte: "vem den hemliga älskaren är, att Dunka är utlagd som avledning, kistan, Karl XII"
+    till: [elinmartensson]
+    roll: jagare
+    vet: "att Malin skålade och kallade henne en fasa till kapten, att Malin kapade hennes båt i dimman, och att hon ska se Malin bära samma skam innan helgen är över"
+    vet_inte: "vem den hemliga älskaren är, att Dunka är utlagd som avledning, kistan, Karl XII, att Kapten Kuling bär en egen fordran"
     speglas: [malintadaa]
     bygger_pa: "fiende: 2"
     pussel: null
@@ -546,16 +546,16 @@ fordelning:
     speglas: [josefinlowing, malintadaa, jesperlindmarker]
     bygger_pa: "fiende: 2"
     pussel: null
-    status: done
+    status: skipped
 
   - id: 42
     beat: S-06
     akt: II-IV
     till: [josefinlowing]
     roll: jagare
-    vet: "att hon aldrig släppt förlusten Svarta Malin en gång orsakade henne och att Fördärvet ska kräva tillbaka det som är dess innan festen är över, att Kapten Enben bär ett eget, äldre groll mot Malin och att de kan gå samman om de upptäcker varandra, och att Kapten Hurring säljer en osäker historia om Malin till den som betalar bäst"
+    vet: "att hon aldrig släppt förlusten Svarta Malin en gång orsakade henne och att Fördärvet ska kräva tillbaka det som är dess innan festen är över, och att Kapten Hurring säljer en osäker historia om Malin till den som betalar bäst"
     vet_inte: "att kistan öppnas, att brevet läses högt"
-    speglas: [amaliawahlstrom, malintadaa]
+    speglas: [malintadaa, jesperlindmarker]
     bygger_pa: null
     pussel: null
     status: done
@@ -565,9 +565,9 @@ fordelning:
     akt: II-IV
     till: [malintadaa]
     roll: barare
-    vet: "att Kapten Enben och Kapten Kuling båda bär gammalt groll mot henne och letar efter ett tillfälle att få henne att förlora något inför alla"
+    vet: "att Kapten Plåthorn bär skålen och skiffen mot henne, och att Kapten Kuling bär en egen fordran och letar efter ett tillfälle att få henne att förlora något inför alla"
     vet_inte: "att kistan öppnas, att brevet läses högt"
-    speglas: [amaliawahlstrom, josefinlowing]
+    speglas: [elinmartensson, josefinlowing]
     bygger_pa: null
     pussel: null
     status: done
@@ -577,9 +577,9 @@ fordelning:
     akt: II-IV
     till: [jesperlindmarker]
     roll: vittne
-    vet: "att han sitter på en osäker, aldrig bekräftad historia om Svarta Malin i sin svarta liggare, och att han kan sälja den till Kapten Enben eller Kapten Kuling mot mynt eller en framtida tjänst"
+    vet: "att han sitter på en osäker, aldrig bekräftad historia om Svarta Malin i sin svarta liggare, och att han kan sälja den till Kapten Kuling mot mynt eller en framtida tjänst"
     vet_inte: "att kistan öppnas, att brevet läses högt"
-    speglas: [amaliawahlstrom]
+    speglas: [josefinlowing]
     bygger_pa: null
     pussel: null
     status: done
@@ -851,7 +851,7 @@ fordelning:
   - id: 67
     beat: B-17
     akt: II
-    till: [amaliawahlstrom]
+    till: [johannabergman]
     roll: jagare
     vet: "att Svarta Malin, långt innan hon blev kapten, byggde ett hus med egna händer på en öde ö i närheten, och att hon fortfarande flyr dit när världen blir för mycket"
     vet_inte: "att stugan är Q-2:s ursprung, att hon begravde någon i skogen, namnet Svarta, kungen, kistan"
@@ -998,7 +998,7 @@ fordelning:
 
 # B-19 Q-3-tillsättning (2026-08-24): skuta 2, 4, 5. Start: Kapten Döver (`navidmodiri`),
 # Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd (skiffer +13 framåt):
-# Kapten Enben (`amaliawahlstrom`, skuta 3), Kapten Lösskägg (`petterwallberg`, skuta 1).
+# Kapten Frodig (`josefinansund`, skuta 3), Kapten Lösskägg (`petterwallberg`, skuta 1).
 # Inte mullvad, inte Malin, inte Spader. Skuta 1 och 3 utan ingång.
 # Ytterligare tvärledtråd (2026-08-24): Planka (`linneaappert`, skuta 1), Frodig (`josefinansund`, skuta 3).
 
@@ -1048,7 +1048,7 @@ fordelning:
     speglas: []
     bygger_pa: null
     pussel: "Q-3"
-    status: done
+    status: skipped
 
   - id: 83
     beat: B-19

@@ -27,9 +27,8 @@
 #   * navidmodiri: nemesis är Kapten Hjärter (fiende 23, inte romans)
 #   * josefinlowing: onåd från Rödskägg, bakhåll på Paradisets ö (fiende 25)
 #   * elinmartensson: Prygel vill krossa hornet (fiende 24)
-#   * amaliawahlstrom: saknade romans (var bara fiende 2 mot Malin), ny mutual med hampuslindblad (#23).
-#     Gör henne till rival med louisevonbahr i fiender.yaml, samma Hampus.
-#   * hampuslindblad: underlag 2026-08-25. Romans med Planka (#25), sexmagick i alla tre. Ville också
+#   * amaliawahlstrom tackade nej 2026-08-27: #23 struken. Fiende 2 flyttad till elinmartensson.
+#   * hampuslindblad: underlag 2026-08-25. Romans med Planka (#25), sexmagick i Fuling (#10) och Planka. Ville också
 #     konspiration med Planka, Kosing och Barnsben mot Malin: skippad, ingen ny sidequest.
 #   * ludvigvonbahr: utöver Kosing (#19) även ny mutual med Malin (#24), gömma/krock för B-13
 #   * chriskummelstedt tackade nej: inga poster
@@ -84,7 +83,7 @@ romanser:
     type: mutual
     a: louisevonbahr       # Kapten Fuling (Louise von Bahr)
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
-    note: Blåskägg har också Enben (#23) och Planka (#25). Fuling och Enben vet inte om varandra. Ingen av dem vet om Planka. Ger Fuling fiende 26 mot Enben. Sexmagick i gästtext, hans underlag.
+    note: Blåskägg har också Planka (#25). Fuling vet inte om Planka. Sexmagick i gästtext, hans underlag. #23 (Enben) struken 2026-08-27.
     status: done
 
   - id: 12
@@ -143,10 +142,10 @@ romanser:
 
   - id: 23
     type: mutual
-    a: amaliawahlstrom     # Kapten Enben (Amalia Wahlström)
+    a: amaliawahlstrom     # Kapten Enben (Amalia Wahlström), återbud 2026-08-27
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
-    note: Enben saknade romans, bara fiende 2 mot Malin. Blåskägg har Fuling (#10) och Planka (#25). Enben och Fuling ovetande om varandra. Ingen av dem vet om Planka. Gör Enben till rival med louisevonbahr i fiender.yaml. Sexmagick i gästtext.
-    status: done
+    note: Struken. Enben–Blåskägg. Amalia attending=false. Blåskägg har Fuling (#10) och Planka (#25).
+    status: skipped
 
   - id: 24
     type: mutual
@@ -159,5 +158,5 @@ romanser:
     type: mutual
     a: linneaappert        # Kapten Planka (Linnea Appert)
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
-    note: Hans underlag 2026-08-25. Hon krossade hans hjärta för att ta en annan kaptens skuta och besättning. Han strandade på Galápagos. Sexmagick. Han har redan Fuling (#10) och Enben (#23); de vet inte om Planka. Hon har redan Rötägg (#3); han vet inte om Blåskägg. Ingen ny sidequest, ingen konspiration med Kosing/Barnsben.
+    note: Hans underlag 2026-08-25. Hon krossade hans hjärta för att ta en annan kaptens skuta och besättning. Han strandade på Galápagos. Sexmagick. Han har Fuling (#10); Fuling vet inte om Planka. Hon har redan Rötägg (#3); han vet inte om Blåskägg. Ingen ny sidequest, ingen konspiration med Kosing/Barnsben.
     status: done

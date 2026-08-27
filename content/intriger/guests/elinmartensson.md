@@ -7,6 +7,8 @@ mirrors:
     note: vill se hornet krossat (tvåvägs)
   - slug: gustaftadaa
     note: hemlig romans (tvåvägs); hon bär hans halsband i spader; hon ensam vet om hans lek med bara spaderess
+  - slug: malintadaa
+    note: gammalt groll, fasa-skålen och skiffen (tvåvägs)
 # linneaekbom kan varna dig i smyg, enväg, speglas inte
 related: [josefinlowing, minervalowgren, linneaekbom, gustaftadaa, malintadaa]
 ---
@@ -16,6 +18,12 @@ related: [josefinlowing, minervalowgren, linneaekbom, gustaftadaa, malintadaa]
 Innan hon var jubilarens namn på alla läppar var **Svarta Malin** bara ett barn med en favoritbok. *Tomtebobarnen*, säger de äldsta vid kajen, en sliten liten volym hon aldrig ville släppa taget om. Den ska visst stå kvar än i dag, på en hylla i Storstugan, omgiven av allt hon senare blev.
 
 En sådan detalj är för god att bara höra och glömma. Ta med dig **Galeonen Gnället** och gå och leta upp den, innan en annan skuta hinner före er.
+
+## Skålen hon aldrig glömde {slug:malintadaa}
+
+**Svarta Malin** skålade en gång, inför öppen hamn, för "en fasa till kapten" och menade dig. Sen kapade hon din lilla skiff i dimman och lät dig simma hem i skammen, medan hela Salmonellahavet skrattade med henne. Det glömmer du aldrig, och du tänker inte låta henne glömma det heller.
+
+Nu är det hennes fest, hennes rom, hennes garde nere mitt i firandet. Du vill att hon ska bära samma skam du en gång fick bära. Låt en skål slå fel. Låt kajen skratta åt jubilaren. Ta tillbaka namnet hon spottade ur sig, innan helgen är över.
 
 ## Hornet de vill ta ifrån dig {slug:minervalowgren}
 

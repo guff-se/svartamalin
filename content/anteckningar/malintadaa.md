@@ -16,5 +16,5 @@ Antagonist och jubilar. Skuta 1, **Korvetten Kurtisanen**. Osårbar. Dödar alla
 
 **Inte** mullvad. Default: inte kontakt heller. Mindre utrymme för egen pusselintrig.
 
-Romanser mot henne (enväg, de vet inte om kungen): Hjärter #17, Blodig #20. NPC: Karl XII #22. Fiender: Enben #2, Kosing #17.
+Romanser mot henne (enväg, de vet inte om kungen): Hjärter #17, Blodig #20. NPC: Karl XII #22. Fiender: Plåthorn #2, Kosing #17.
 

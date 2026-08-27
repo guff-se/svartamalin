@@ -11,11 +11,9 @@ mirrors:
     note: obetald skuld och gammalt skämt (tvåvägs)
   - slug: gustaftadaa
     note: gammal spelskuld (tvåvägs)
-  - slug: amaliawahlstrom
-    note: säljer en osäker rad om Malin till bästa bud (tvåvägs)
   - slug: josefinlowing
     note: säljer en osäker rad om Malin till bästa bud (tvåvägs)
-related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa, amaliawahlstrom, josefinlowing, malintadaa]
+related: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa, josefinlowing, malintadaa]
 ---
 
 ## En bokhylla full av barndom {slug:malintadaa}
@@ -48,6 +46,6 @@ Du delar säng med både **Kapten Klöver** och **Kapten Prygel**, var för sig,
 
 **Löjtnant Spader** sitter på en gammal spelskuld till dig, från år av kort ni delat vid samma bord i olika hamnar, och du tänker driva in den nu när alla ändå är samlade på samma ö. Han hör mer vid sina spelbord än de flesta anar. Kräv betalt i mynt, eller i ett namn: någon han hört viska om vem som en gång angav dig. Vilket han än väljer att ge dig, ta det som en ny rad i liggaren.
 
-## En rad som säljer sig själv {slug:amaliawahlstrom}
+## En rad som säljer sig själv {slug:josefinlowing}
 
-Din svarta liggare rymmer mer än frågan om vem som en gång angav dig. Där finns också en gammal, aldrig bekräftad historia om **Svarta Malin** själv, den sortens rad som blir sannare för var gång den upprepas. Nu vill både **Kapten Enben** och **Kapten Kuling** ha den, var för sig, av var sitt gamla groll mot jubilaren. Du behöver inte veta vem som har mest rätt att klaga. Du behöver bara veta vem som betalar bäst, i mynt eller i en tjänst du kan kräva tillbaka senare. Sälj raden innan helgen är över, till den som bjuder högst, och låt de två slåss om vad den egentligen betyder.
+Din svarta liggare rymmer mer än frågan om vem som en gång angav dig. Där finns också en gammal, aldrig bekräftad historia om **Svarta Malin** själv, den sortens rad som blir sannare för var gång den upprepas. Nu vill **Kapten Kuling** ha den, av ett gammalt groll mot jubilaren som Fördärvet fortfarande bär. Du behöver inte veta om hon har rätt att klaga. Du behöver bara veta vad hon betalar, i mynt eller i en tjänst du kan kräva tillbaka senare. Sälj raden innan helgen är över, och låt henne slåss om vad den egentligen betyder.

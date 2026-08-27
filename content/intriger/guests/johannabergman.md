@@ -13,8 +13,14 @@ mirrors:
     note: stal hans kristallfyrklöver, mångårig fuskrivalitet (tvåvägs)
   - slug: gustaftadaa
     note: mångårig rivalitet, ömsesidiga fuskanklagelser, du bär hans ring med spader (tvåvägs)
-related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard, jesperlejfjord, gustaftadaa]
+related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard, jesperlejfjord, gustaftadaa, malintadaa]
 ---
+
+## Stugan ingen pratar om {slug:malintadaa}
+
+Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
+
+Kalla ihop **Barken Bortförklaringen** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.
 
 ## Skäggens Konung {slug:petterwallberg}
 

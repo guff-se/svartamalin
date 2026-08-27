@@ -15,7 +15,6 @@ from (values
   ('Ludvig von Bahr',     'Södra Toppstugan', 'Madrass'),
   ('Linnea Ekbom',        'Familjerummet',    'Dubbelsäng'),
   ('Louise von Bahr',     'Familjerummet',    'Dubbelsäng'),
-  ('Amalia Wahlström',    'Familjerummet',    'Våningssäng'),
   ('Johanna Bergman',     'Familjerummet',    'Våningssäng'),
   ('Hampus Lindblad',     'Sälenrummet',      'Dubbelsäng'),
   ('Linnea Appert',       'Sälenrummet',      'Dubbelsäng'),

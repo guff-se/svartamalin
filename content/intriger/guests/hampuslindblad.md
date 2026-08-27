@@ -11,12 +11,10 @@ mirrors:
   - slug: linneaekbom
     note: mullvad, hennes snäcka avslöjar din rädsla att förlora titeln, hon köper dig med Gnällets larm (tvåvägs)
   - slug: louisevonbahr
-    note: romans, hon hade dig först, Enben vet inte (tvåvägs, asymmetrisk kunskap)
-  - slug: amaliawahlstrom
-    note: romans, hon kom efter, Fuling vet inte (tvåvägs, asymmetrisk kunskap)
+    note: romans, hon hade dig först (tvåvägs, asymmetrisk kunskap)
   - slug: linneaappert
-    note: romans, hon krossade hjärtat för en skuta, Fuling och Enben vet inte (tvåvägs, asymmetrisk kunskap)
-related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, amaliawahlstrom, linneaappert, navidmodiri]
+    note: romans, hon krossade hjärtat för en skuta, Fuling vet inte (tvåvägs, asymmetrisk kunskap)
+related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, linneaappert, navidmodiri]
 ---
 
 ## Rösten Gnället köper {slug:linneaekbom}
@@ -37,19 +35,13 @@ Hur man blir kung är inte skrivet. Kajen behandlar den som kung som den *ser* s
 
 **Kapten Fuling** hade dig först, innan talen, innan någon annan visste vägen till det blåa skägget. Hon tar dig tyst, och du vill ha det så. Du vill ha hennes mun mot det blåa skägget, hennes händer där kajen inte ser, och sexmagick ni båda kan: rök, rit, kroppen som nyckel till dörren bakom medvetandet, den skatt du svär sitter där och ingen annanstans. Hon hade dig först. Hon kan redan rytmen.
 
-**Kapten Enben** vet inte om henne. Fuling vet inte hur ofta du redan sagt ja till någon annan. Håll det så, och ta Fuling innan festen är över, medan kajen fortfarande tittar på skägget och inte på vem du försvinner med.
-
-## Kvinnan som inte backar {slug:amaliawahlstrom}
-
-**Kapten Enben** vägrar be om ursäkt för att hon vill ha dig, och du vill inte att hon ska göra det. Du vill ha henne mot en mast, ett ben runt midjan, medan kajen fortfarande tror att du bara håller tal. Du vill öppna dörren bakom medvetandet med henne, rök och rit och kuk, tills hon slutar skratta åt det blåa skägget och börjar skrika mot det.
-
-**Kapten Fuling** hade dig först och skulle kalla det stöld. Låt henne. Ta Enben ändå, innan festen är över, och se till att de två aldrig jämför tider.
+Fuling vet inte hur ofta du redan sagt ja till någon annan. Håll det så, och ta Fuling innan festen är över, medan kajen fortfarande tittar på skägget och inte på vem du försvinner med.
 
 ## Skeppet hon tog {slug:linneaappert}
 
 **Kapten Planka** krossade ditt hjärta för att ta en annan kaptens skuta och besättning. Hon använde din lust som landgång, klev ombord, och lämnade dig i vraket som blev Galápagos. Skägget blånade där. Dörren bakom medvetandet lärde du dig där. Sexmagicket är hur du fortfarande når henne, och hur hon fortfarande tar dig.
 
-Hon seglar nu på **Korvetten Kurtisanen**. Du vill ha henne igen, rit och rök och det hjärta hon redan en gång stal, innan festen är över. **Kapten Fuling** hade dig först. **Kapten Enben** kom efter. Ingen av dem vet om Planka. Låt det förbli så. Hon tar också **Kapten Rötägg**. Låt inte de två jämföra tider med dig.
+Hon seglar nu på **Korvetten Kurtisanen**. Du vill ha henne igen, rit och rök och det hjärta hon redan en gång stal, innan festen är över. **Kapten Fuling** hade dig först. Fuling vet inte om Planka. Låt det förbli så. Hon tar också **Kapten Rötägg**. Låt inte de två jämföra tider med dig.
 
 ## Pulvret som tar sanningen {slug:navidmodiri}
 

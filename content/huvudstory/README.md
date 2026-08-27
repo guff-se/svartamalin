@@ -110,7 +110,7 @@ En story-bit är klar när allt nedan är sant:
 
 ## Tonregler även här
 
-De här filerna läses av Gustaf och agenten, inte av gäster. Högsta prioritet: tydlighet. Säg vad som är sant. Namnge personer med `Kapten Enben (amaliawahlstrom)` så både piratnamn och slug syns.
+De här filerna läses av Gustaf och agenten, inte av gäster. Högsta prioritet: tydlighet. Säg vad som är sant. Namnge personer med `Kapten Klöver (johannabergman)` så både piratnamn och slug syns.
 
 - **Aldrig em dash.** Komma, kolon eller punkt istället.
 - **Ingen STYLE.md här.** Revyröst, du-form och punchlines hör hemma i `content/intriger/crews/` och `content/intriger/guests/` efter att biten finns i `fordelning.yaml`.

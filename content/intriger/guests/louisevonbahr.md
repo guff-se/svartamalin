@@ -7,13 +7,11 @@ mirrors:
     note: hon anar sanningen och sparar den som skuld (tvåvägs, asymmetrisk kunskap)
   - slug: jesperlejfjord
     note: mullvad, han styr misstankar bort från henne mot hjälp från Fördärvet (tvåvägs)
-  - slug: amaliawahlstrom
-    note: mutual fiende, rivaler om Blåskägg, ingen vet vem han valt (tvåvägs)
   - slug: hampuslindblad
     note: romans, hon hade honom först (tvåvägs)
   - slug: linneaappert
     note: fiende 5, auktionen och silverryktet (tvåvägs)
-related: [jesperlindmarker, navidmodiri, jesperlejfjord, amaliawahlstrom, hampuslindblad, linneaappert]
+related: [jesperlindmarker, navidmodiri, jesperlejfjord, hampuslindblad, linneaappert]
 ---
 
 ## Rösten som pekar bort från dig {slug:jesperlejfjord}
@@ -34,17 +32,11 @@ Du har länge anat att **Kapten Döver**s dövhet är påhitt, men du har aldrig
 
 ## Mannen du redan tagit {slug:hampuslindblad}
 
-**Kapten Blåskägg** bär blått i ansiktet och en fåfänga stor nog att fylla en kaj. Du vet bättre. Du hade honom först, innan **Kapten Enben** ens viskade hans namn. Du vill ha honom igen. Du vill rida honom där ingen ser, ta honom medan hamnen fortfarande tittar på skägget, och låta munnen stryka där hans tal inte når.
+**Kapten Blåskägg** bär blått i ansiktet och en fåfänga stor nog att fylla en kaj. Du vet bättre. Du hade honom först. Du vill ha honom igen. Du vill rida honom där ingen ser, ta honom medan hamnen fortfarande tittar på skägget, och låta munnen stryka där hans tal inte når.
 
 Han vill ha sexmagick. Rök, rit, kroppen som nyckel till en dörr han svär sitter bakom medvetandet. Du kan redan rytmen. Du tog honom genom den dörren innan någon annan visste vägen, och du tänker göra det igen.
 
-Enben vägrar backa, och ingen av er vet vem han valt. Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan han glömmer vems koja han kröp till först.
-
-## Kvinnan som kom efter {slug:amaliawahlstrom}
-
-Du hade **Kapten Blåskägg** först, en känsla du burit tystare och längre än **Kapten Enben** anar, och nu vägrar hon backa undan trots att hon kom efter. Ingen av er vet säkert vem han egentligen har valt, om han valt någon alls, och den ovissheten är värre att bära än ett rakt nej hade varit.
-
-Hon är ny i det här, du är inte det, och du tänker inte ge upp ett försprång du haft längre än hon vet om. Påminn honom om det ni redan haft, gör henne till den som kom för sent inför andra, eller se till att hon aldrig får ett ögonblick ensam med honom utan att du vet om det, innan festen är över.
+Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan han glömmer vems koja han kröp till först.
 
 ## Silvret du sådde {slug:linneaappert}
 

@@ -37,12 +37,12 @@ Status:         idé / beslutad / skriven
 
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
-| S-01 | Jakten på älskaren | Hjärter, Blodig, Enben, Dunka. Malin leder fel. | II | jägare / bärare | skriven |
+| S-01 | Jakten på älskaren | Hjärter, Blodig, Dunka. Malin leder fel. | II | jägare / bärare | skriven |
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / hetsare | skriven |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver, Babord | II | jägare / bärare / vittne | skriven |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
 | S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
-| S-06 | Enbens räkning | Enben, Kuling, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
+| S-06 | Räkningen mot Malin | Kuling, Plåthorn, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
 | S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | skriven |
 | S-08 | Jakten på Plåthornet | Plåthorn, Kuling, Prygel, Rosing, Spader | II–IV | grindvakt / jägare / vittne | skriven |
 | S-09 | Blodigs hot | Blodig, Frodig, Rödskägg, Lösskägg | II–IV | jägare / bärare | skriven |
@@ -81,7 +81,6 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `navidmodiri` | 2 | jägare, vittne | II |
 | `minimacklin` | 3 | jägare | II–IV |
 | `ludvigvonbahr` | 2 | bärare | II |
-| `amaliawahlstrom` | 2 | jägare, vittne | II–IV |
 | `fabianmacklin` | 3 | jägare, vittne | II |
 | `josefinansund` | 2 | bärare, jägare | II–IV |
 | `johannabergman` | 4 | vittne, grindvakt | II |
@@ -93,7 +92,7 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `alexandrapalmquist` | 2 | grindvakt, jägare | II |
 | `hampuslindblad` | 2 | rival, vittne | II |
 | `edvinthungren` | 3 | bärare, vittne | II–IV |
-| `elinmartensson` | 2 | grindvakt | II–IV |
+| `elinmartensson` | 3 | grindvakt, jägare | II–IV |
 
 **Spridningsregel:** alla toppar får inte ligga i akt IV. Sikta på ungefär en fjärdedel i akt II, en fjärdedel vid brunchen och ritualen, resten i akt IV. Ingen av S-03 till S-10 toppar rent i akt IV: de sträcker sig som mest in i kvällens kaos (II–IV), vilket håller spridningen på rätt sida om regeln.
 
@@ -104,23 +103,23 @@ S-01 till S-12 är **beslutade**. S-12 2026-08-25. Gästtext för S-12 skriven s
 ## S-01: Jakten på älskaren
 
 Akt:            II
-Deltagare:      Kapten Hjärter (`jesperlejfjord`), Kapten Blodig (`minimacklin`), Kapten Enben (`amaliawahlstrom`), Kapten Dunka (`ludvigvonbahr`). Svarta Malin (`malintadaa`) bär sanningen.
-Roll i storyn:  jägare / bärare / vittne (Enben) / bärare, falsk ledtråd (Dunka)
+Deltagare:      Kapten Hjärter (`jesperlejfjord`), Kapten Blodig (`minimacklin`), Kapten Dunka (`ludvigvonbahr`). Svarta Malin (`malintadaa`) bär sanningen.
+Roll i storyn:  jägare / bärare / bärare, falsk ledtråd (Dunka)
 Kopplad till:   B-13, B-42
 
-Vad de vill:    ta reda på vem Malin gömmer. Enben vill inget hellre än att Malin ska se skyldig ut för något, vad som helst (fiende 2), och sprider gärna eget namn på ett bord. Dunka vill bli sedd som mannen som fick Svarta Malin, sant eller inte.
+Vad de vill:    ta reda på vem Malin gömmer. Dunka vill bli sedd som mannen som fick Svarta Malin, sant eller inte.
 Vad står i vägen: hon leder fel. Rivalen ser ut att sitta vid bordet, och nu sitter han också där på riktigt: Dunka och Malin har en synlig, om än diskret, romans (romans 24) som ser ut precis som det jägarna letar efter. Sanningen är Karl XII, och den sitter i kistan.
 Varför nu:      festen, närheten, att hon försvinner. Innan sista skålen.
 
-Hur det spelas: Hjärter och Blodig jagar bland kaptenerna. Hjärter privat, vid kökskanten. Malin varken bekräftar eller förnekar ett namn i hamnen. Enben, som redan hatar Malin, plockar upp jakten i förbifarten och pekar gärna ut ett namn hon själv ogillar, utan att bry sig om det stämmer. Dunka gör jägarnas jobb åt dem: han låter sig ses vid Malins bord, låter en skål bli tvetydig, och dementerar aldrig ett rykte som får honom att verka som erövraren av jubilaren. Han vet inte att han är en avledning, han tror bara att han äntligen får den status han alltid velat ha. Flera romanser samtidigt är tillåtna och gömmer den hemliga.
-Utfall om ja:   fel person utpekas, scener, svartsjuka. Enbens falska pekning gör förvirringen värre, och Dunka blir den mest övertygande fel-utpekningen av alla, eftersom han själv aldrig förnekar den. Punchlinen vid kistan blir personlig, och särskilt pinsam för Dunka.
+Hur det spelas: Hjärter och Blodig jagar bland kaptenerna. Hjärter privat, vid kökskanten. Malin varken bekräftar eller förnekar ett namn i hamnen. Dunka gör jägarnas jobb åt dem: han låter sig ses vid Malins bord, låter en skål bli tvetydig, och dementerar aldrig ett rykte som får honom att verka som erövraren av jubilaren. Han vet inte att han är en avledning, han tror bara att han äntligen får den status han alltid velat ha. Flera romanser samtidigt är tillåtna och gömmer den hemliga.
+Utfall om ja:   fel person utpekas, scener, svartsjuka. Dunka blir den mest övertygande fel-utpekningen, eftersom han själv aldrig förnekar den. Punchlinen vid kistan blir personlig, och särskilt pinsam för Dunka.
 Utfall om nej:  kistan bär det ändå. Brevet.
 
-Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl att vara med. Fiende 21 (Hjärter–Blodig) om den spelas. Fiende 2 (Enben–Malin) som Enbens skäl att blanda sig i.
-Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig enväg. Enben enväg, hon bryr sig inte om vem som är skyldig, bara att Malin ser dålig ut. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
+Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl att vara med. Fiende 21 (Hjärter–Blodig) om den spelas.
+Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig enväg. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
 Status:         skriven
 
-Obs: Enben bär också S-06, samma måltavla (Malin) men en annan handling: här sprider hon en falsk ledtråd, i S-06 tar hon eller Kuling något ifrån henne. Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom.
+Obs: Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom. Enbens vittnespekning struken 2026-08-27 (återbud).
 
 ## S-02: Skäggtrion
 
@@ -160,7 +159,7 @@ Obs: Inte bärande balk. Inte en lång scen långt från kajen. Klöver bär ock
 
 Beslutade 2026-08-23. Ingen gästtext skriven än. Inte i `fordelning.yaml`. Huvudstoryn går ändå i mål om någon enskild inte spelas, som alla sidequests.
 
-Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Fuling, Enben) får ändå kort via yaml och andras föremål. Blåskägg och Planka har underlag 2026-08-25. Kosing vill uttryckligen inte stå i centrum av ett högintensivt drama.
+Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Fuling) får ändå kort via yaml och andras föremål. Blåskägg och Planka har underlag 2026-08-25. Kosing vill uttryckligen inte stå i centrum av ett högintensivt drama.
 
 **Löjtnant Spader (`gustaftadaa`) är fullt spelbar.** Sidequests, romanser, rivaliteter som vilken gäst som helst. Två undantag, bara de: inga ledtrådar till huvudquesten, och inte mullvad eller kontakt. Se [`forradare.yaml`](forradare.yaml). Han bär S-04 (spelskuld till Hurring), S-08 (hemlig romans med Plåthorn, romans 14, som Kuling drar in honom i utan att veta om den) och S-11 (korthajbordet mot Klöver och Hjärter).
 
@@ -187,7 +186,6 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `josefinlowing` | S-06, S-08, S-12 | familjesmycke, båtar, egen oförrätt mot Malin, bakhåll mot Rödskägg, namnet på klienten |
 | `navidmodiri` | S-03, S-10 | fejkdöv, sanningsserum, workshop, nemesis Hjärter. Redan Babords mullvadskontakt (annan hemlighet). |
 | `ludvigvonbahr` | S-05 | tvåeggat svärd med lögnig historia, långa kramar |
-| `amaliawahlstrom` | S-01, S-06 | tom rollfil. Fiende 2 mot Malin, sannolikt viktigaste ingången till huvudstoryn |
 | `minimacklin` | S-01, S-09, S-12 | magiskt halsband. Jakten på Malins älskare, tecknet mot Frodig, falskt klientnamn. |
 | `fabianmacklin` | S-03, S-05, S-07 | njutningsstatyett, frieri till Barnsben. Redan Barnsbens mullvadskontakt (annan hemlighet). |
 | `josefinansund` | S-09, S-12 | förbjuden kärlek med Rödskägg. Namn-jakt: Blodig anklagar henne för bakhållet. |
@@ -197,10 +195,10 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
 | `alexandrapalmquist` | S-03, S-10 | sjökort (Mälaren, hennes föremål), mild ordning, romans med Döver, fiende 12 mot Barnsben (brevet i scarfen, dåtid). Redan mullvad mot Döver (annan hemlighet). |
 | `edvinthungren` | S-07, S-10, S-12 | vill vara snäll, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
-| `elinmartensson` | S-08, S-11 | plåthorn, klagomur, ensam om att veta att Spader har en lek med bara spaderess |
+| `elinmartensson` | S-06, S-08, S-11 | plåthorn, klagomur, ensam om att veta att Spader har en lek med bara spaderess. Fiende 2 mot Malin (skålen och skiffen), flyttad från Enben 2026-08-27. |
 | `gustaftadaa` | S-04, S-08, S-11 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14), korthajbordet. Fullt spelbar. Inga huvudquest-ledtrådar, inte mullvad/kontakt. |
 
-Nio personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `amaliawahlstrom`, `jesperlejfjord`, `linneaekbom`, `elinmartensson`, `alexandrapalmquist`. `josefinansund` bär två efter S-12. Tre bär tre sedan tidigare: `fabianmacklin`, `gustaftadaa`, `minervalowgren`. S-12 gör tre till tre: `edvinthungren`, `minimacklin`, `josefinlowing`. En bär fyra: `johannabergman`. S-11 är Klövers fjärde, medvetet, och har annan mekanik än S-02, S-04 och S-05: hon spelar, hon håller inte boken. Ingen last delar mekanik mellan sidequests, se "Obs"-raden under respektive.
+Nio personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `jesperlejfjord`, `linneaekbom`, `alexandrapalmquist`. `josefinansund` bär två efter S-12. Tre bär tre sedan tidigare: `fabianmacklin`, `gustaftadaa`, `minervalowgren`. S-12 gör tre till tre: `edvinthungren`, `minimacklin`, `josefinlowing`. `elinmartensson` bär tre efter att fiende 2 flyttades till henne (S-06, S-08, S-11). En bär fyra: `johannabergman`. S-11 är Klövers fjärde, medvetet, och har annan mekanik än S-02, S-04 och S-05: hon spelar, hon håller inte boken. Ingen last delar mekanik mellan sidequests, se "Obs"-raden under respektive.
 
 ---
 
@@ -273,26 +271,26 @@ Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, 
 
 ---
 
-## S-06: Enbens räkning
+## S-06: Räkningen mot Malin
 
 Akt:            II–IV
-Deltagare:      Kapten Enben (`amaliawahlstrom`), Kapten Kuling (`josefinlowing`), Svarta Malin (`malintadaa`), Kapten Hurring (`jesperlindmarker`)
-Roll i storyn:  jägare (Enben, Kuling) / antagonist, bärare (Malin, redan tillsatt) / vittne (Hurring)
+Deltagare:      Kapten Kuling (`josefinlowing`), Kapten Plåthorn (`elinmartensson`), Svarta Malin (`malintadaa`), Kapten Hurring (`jesperlindmarker`)
+Roll i storyn:  jägare (Kuling; Plåthorn oberoende) / antagonist, bärare (Malin, redan tillsatt) / vittne (Hurring)
 Kopplad till:   fiende 2. Inte bärande balk mot kistan (huvudstoryns kärlekskista, öppnas vid kaviar och rom, se akter.md), men sannolikt vår viktigaste ingång till huvudstoryn utanför Malins egna scener.
 
-Vad de vill:    Enben och Kuling vill båda, av olika skäl, offentligt förödmjuka eller ta tillbaka något från Malin innan helgen är slut. Enben är ute efter upprättelse för två saker Malin gjorde henne: en skål där Malin kallade henne "en fasa till kapten" inför alla, och en gång då Malin kapade Enbens skiff i dimman. Kuling är ute efter en gammal, egen oförrätt hon aldrig släppt, en skuld hon anser att hennes besättning Fördärvet har rätt att kräva tillbaka. Hurring, som redan misstänker att Malin kan vara den som en gång angav honom och satte honom i fängelse (hans olösta fråga från S-04, Liggaren), vill gärna se någon annan gräva i henne, så länge det inte är han själv som står främst.
-Vad står i vägen: Malin är svår att komma åt, alltid charmig, och just nu generös värdinna på sin egen fest. Att slå till nu ser ut som otacksamhet mot en jubilar. Enben, Kuling och Hurring känner inte till varandras groll från början.
+Vad de vill:    Kuling och Plåthorn vill båda, av olika skäl, offentligt förödmjuka eller ta tillbaka något från Malin innan helgen är slut. De vet inte om varandra i gästtexten. Plåthorn är ute efter upprättelse för två saker Malin gjorde henne: en skål där Malin kallade henne "en fasa till kapten" inför alla, och en gång då Malin kapade hennes skiff i dimman (fiende 2, flyttad från Enben 2026-08-27). Kuling är ute efter en gammal, egen oförrätt hon aldrig släppt, en skuld hon anser att hennes besättning Fördärvet har rätt att kräva tillbaka. Hurring, som redan misstänker att Malin kan vara den som en gång angav honom och satte honom i fängelse (hans olösta fråga från S-04, Liggaren), säljer sin osäkra rad bara till Kuling.
+Vad står i vägen: Malin är svår att komma åt, alltid charmig, och just nu generös värdinna på sin egen fest. Att slå till nu ser ut som otacksamhet mot en jubilar. Plåthorn, Kuling och Hurring känner inte till varandras groll från början.
 Varför nu:      det är Malins helg, hennes fest, hennes garde nere mitt i firandet och romen, den enda gången hon går att komma åt.
 
-Hur det spelas: Enben och Kuling provocerar, retar eller försöker lura ut något av Malin var för sig: en skål som slår fel, ett föremål som "lånas tillbaka" med en giftig kommentar, en duellutmaning. Upptäcker de varandras groll, till exempel via Klövers skvaller, kan de gå samman om en större publik aktion, som att rigga en skål eller tvinga fram en pinsam utmaning inför alla. Hurring säljer en rad ur sin svarta liggare (boken där han samlar allt han vet om folk som kan ha svikit honom) till den av de två som betalar bäst, en gammal historia om Malin han aldrig kunnat bekräfta, som ammunition till nästa provokation.
+Hur det spelas: Kuling och Plåthorn provocerar, retar eller försöker lura ut något av Malin var för sig: en skål som slår fel, ett föremål som "lånas tillbaka" med en giftig kommentar, en duellutmaning. Upptäcker de varandras groll i spel, till exempel via Klövers skvaller, kan de gå samman. Gästtexten uppmanar dem inte att leta. Hurring säljer en rad ur sin svarta liggare till Kuling mot mynt eller en framtida tjänst, en gammal historia om Malin han aldrig kunnat bekräfta.
 Utfall om ja:   Malin nålas offentligt, kanske förlorar hon kort och tillfälligt cryptexen (huvudstoryns kodlås, se akter.md) som hämnd, en scen som sår tvivel om henne inför kvällen.
 Utfall om nej:  inget landar, Malin charmar sig undan som vanligt, ingen kostnad för huvudstoryn.
 
-Bygger på:      fiende 2 (Enben–Malin). Kulings etablerade personliga oförrätt mot Malin, i rollunderlaget, inte en formell fiendepost. Hurrings hemlighet från S-04 (Liggaren): han vet inte vem som angav honom, och misstänker Malin.
-Speglas hos:    Enben, Kuling, Malin, Hurring.
+Bygger på:      fiende 2 (Plåthorn–Malin). Kulings etablerade personliga oförrätt mot Malin, i rollunderlaget, inte en formell fiendepost. Hurrings hemlighet från S-04 (Liggaren): han vet inte vem som angav honom, och misstänker Malin.
+Speglas hos:    Plåthorn, Kuling, Malin, Hurring.
 Status:         skriven
 
-Obs: Hurring bär också S-04 (Liggaren, samma misstanke mot Malin där han själv är den som söker svaret). Enben bär också S-01 (Jakten på älskaren, där hon sprider en falsk ledtråd om Malin snarare än att ta något ifrån henne). Ingen delad mekanik.
+Obs: Hurring bär också S-04 (Liggaren, samma misstanke mot Malin där han själv är den som söker svaret). Plåthorn bär också S-08 och S-11. Ingen delad mekanik. Enben (`amaliawahlstrom`) bar jakten till 2026-08-27, återbud.
 
 ---
 
@@ -394,7 +392,7 @@ Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att d
 
 - **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fem personer i ett nät. **S-03, beslutad**, med Rosing och Nykter som jägare, Döver som enväg-vittne, Babord som jägare via fiende 12 (brevet i scarfen, dåtid, ingen fysisk scarf). S-10 förblir teckenspråket, inte scarfen.
 - **Blodig och Hjärter om Malin** (romanser 17, 20 och fiende 21). Två anspråk på jubilaren. De jagar hennes hemliga älskare i hamnen. Sanningen är Karl XII, först i kistan. **S-01, beslutad.**
-- **Enben mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Sannolikt vår viktigaste ingång till huvudstoryn. **S-06, beslutad.**
+- **Plåthorn mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Flyttad från Enben 2026-08-27. Sannolikt vår viktigaste ingång till huvudstoryn. **S-06, beslutad.**
 - **Hjärter, hemligt förälskad i Malin** (romans 17). Jagar rivalen privat, vid kökskanten. **S-01, beslutad.**
 - **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Adresserad via fiende 13 i **S-07**, fiende 6 i **S-10**, och som namnlös klient i **S-12** (fiende 25:s lucka). Fiende 14 förblir obesökt som motor.
 - **Frodig och Rödskägg, förbjuden kärlek** (romans 8, fiende 25). Hotet från Blodig, redan noterat i `fiender.yaml` fiende 4, adresserat i **S-09, beslutad.** Fiende 25 (Kuling–Rödskägg) adresserad i **S-12, beslutad:** namnet på klienten, inte vattnet.

@@ -26,7 +26,7 @@ De flesta oklarheter från runda 1 — skutnamn, kaptensnamn, "vem är jag själ
 
 ### 🔴 Rött: malintadaa (oförändrat från runda 1)
 
-**Kvarstående problem:** Textens centrala instruktion — dölj identiteten på din enda riktiga älskare ("honom", "den munnen") från hamnen, medan Kapten Dunka används som synlig avledning — går fortfarande inte att agera på. Älskaren namnges aldrig, varken i gästtexten, lagintrigen, den egna rollen eller rostern. Allt annat i filen löser sig fint med den nya kontexten (Dunka/Enben/Kuling/Kosing identifieras via rostern, lagintrigens skattjakt matchar hennes roll som värdinna/kapten).
+**Kvarstående problem:** Textens centrala instruktion — dölj identiteten på din enda riktiga älskare ("honom", "den munnen") från hamnen, medan Kapten Dunka används som synlig avledning — går fortfarande inte att agera på. Älskaren namnges aldrig, varken i gästtexten, lagintrigen, den egna rollen eller rostern. Allt annat i filen löser sig fint med den nya kontexten (Dunka/Plåthorn/Kuling/Kosing identifieras via rostern, lagintrigens skattjakt matchar hennes roll som värdinna/kapten).
 
 **Åtgärd:** Antingen namnge älskaren någonstans läsaren har tillgång till, eller skriv om avsnittet så att det går att spela utan ett namn (t.ex. tydliggör att identiteten är okänd även för spelaren och ska improviseras/väljas fritt på plats).
 

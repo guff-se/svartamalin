@@ -58,5 +58,4 @@ Korta flaggor i personfilerna, inte beslut:
 
 | Uppslag | Vem |
 |---------|-----|
-| Enben mot Malin | **Kapten Enben** (`amaliawahlstrom`) |
 | Rötägg som skurk | **Kapten Rötägg** (`edvinthungren`) |
