@@ -32,3 +32,7 @@ Du kallade en gång **Kapten Kosing**s arvssyndsskatt söt men tvåa, i en skål
 
 Du får aldrig se henne kräva det rakt av dig. Det är inte hennes stil. Men hör du dina egna kurtisaner klaga över en oväntad taxa vid festen, vet du precis varifrån den kom, och varför. Låt dem betala, eller varna dem, innan festen är över. Kosing kommer aldrig fråga dig om ursäkt, och du kommer aldrig behöva ge en.
 
+## Siffran du bär {slug:malintadaa}
+
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. Du är värdinna, inte flaskhals. En siffra som stannar i fickan knäcker ingenting.
+

@@ -53,14 +53,10 @@
 #     till huvudquesten. I övrigt fullt spelbar. Inte mullvad, inte kontakt.
 
 # B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
-# in hos jägarna. Se lagskatter.md. Id 1 bär Fördärvets ingång och
-# påminnelsen att varje kapten ombord bär en siffra. Id 2 bär
-# Fördärvets påminnelse att lägga brevet och Bortförklaringens ingång
-# (Klöver, choklad). Id 3 bär påminnelsen att Klöver är dörren och
-# Fromhetens ingång (Hjärter, smicker). Id 4 bär påminnelsen att Hjärter
-# är dörren och Gnällets ingång (Dunka, svärdet). Id 5 bär Kurtisanens
-# ingång (kaptenerna och siffrorna) och påminnelsen att Dunka är dörren.
-# Gästtext skriven, inklusive Hjärter och Dunka: id 1–5 done.
+# in hos jägarna. Se lagskatter.md. Id 1–5 är jägarna (plus gömma vid
+# ankomsten, koja fredad). Social dörr ligger inte i lagfilen: id 100 Dunka,
+# 101 Hjärter, 102 Klöver, 103 kurtisanernas fem siffror. Id 2 bär brevet
+# (fysisk dörr, hela Fördärvet).
 
 fordelning:
   - id: 1
@@ -68,7 +64,7 @@ fordelning:
     akt: II
     till: { crew: 1 }
     roll: jagare
-    vet: "att Korvetten Kurtisanen ska gömma sin skatt vid ankomsten, att varje kapten ombord bär en siffra till gömmans kod och ingen får stängas ute, att de ska hitta Fregatten Fördärvets skatt, och att första spåret är ett brev i soffbordet i vardagsrummet (Storstugan)"
+    vet: "att Korvetten Kurtisanen ska gömma sin skatt vid ankomsten, att de ska hitta Fregatten Fördärvets skatt, och att första spåret är ett brev i soffbordet i vardagsrummet (Storstugan)"
     vet_inte: "att Galeonen Gnället jagar Kurtisanens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -92,7 +88,7 @@ fordelning:
     akt: II
     till: { crew: 3 }
     roll: jagare
-    vet: "att Barken Bortförklaringen ska gömma sin skatt vid ankomsten, att Kapten Klöver är dörren till gömman (högkvalitativ choklad gör henne uppsluppen och totalt omdömeslös, hon ska veta nästa steg), att de ska hitta Fregatten Fromhetens skatt, och att första spåret dit är Kapten Hjärter: han är svag för smicker, fjäsk gör att han läcker hemligheter direkt"
+    vet: "att Barken Bortförklaringen ska gömma sin skatt vid ankomsten, att de ska hitta Fregatten Fromhetens skatt, och att första spåret dit är Kapten Hjärter: han är svag för smicker, fjäsk gör att han läcker hemligheter direkt"
     vet_inte: "att Fregatten Fördärvet jagar Bortförklaringens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -104,7 +100,7 @@ fordelning:
     akt: II
     till: { crew: 4 }
     roll: jagare
-    vet: "att Fregatten Fromheten ska gömma sin skatt vid ankomsten, att Kapten Hjärter är dörren till gömman (smicker lossar tungan, han ska veta nästa steg), att de ska hitta Galeonen Gnällets skatt, och att första spåret dit är Kapten Dunka: hota att avslöja att hans svärd inte är anrikt, det är en kinesisk kopia"
+    vet: "att Fregatten Fromheten ska gömma sin skatt vid ankomsten, att de ska hitta Galeonen Gnällets skatt, och att första spåret dit är Kapten Dunka: hota att avslöja att hans svärd inte är anrikt, det är en kinesisk kopia"
     vet_inte: "att Barken Bortförklaringen jagar Fromhetens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -116,7 +112,7 @@ fordelning:
     akt: II
     till: { crew: 5 }
     roll: jagare
-    vet: "att Galeonen Gnället ska gömma sin skatt vid ankomsten, att Kapten Dunka är dörren till gömman (svärdet är en kinesisk kopia, inte anrikt, han ska veta nästa steg), att de ska hitta Korvetten Kurtisanens skatt, och att första spåret är att skatten är lätt att hitta men svår att knäcka: en siffra var från alla kurtisanens kaptener"
+    vet: "att Galeonen Gnället ska gömma sin skatt vid ankomsten, att de ska hitta Korvetten Kurtisanens skatt, och att första spåret är att skatten är lätt att hitta men svår att knäcka: en siffra var från alla kurtisanens kaptener"
     vet_inte: "att Fregatten Fromheten jagar Gnällets skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -1269,6 +1265,54 @@ fordelning:
     roll: jagare
     vet: "att Svarta Malin har en låst kista, att hamnen ska stirra på den, att den som känner hennes berättelse kommer åt kistan, och att Galeonen Gnället ska ta reda på berättelsen tillsammans"
     vet_inte: "att kistan är tom, att den kommer att öppnas, kärleksbrevet, att älskaren är Karl XII, cryptexen, att festen är fällan"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 100
+    beat: B-11
+    akt: II
+    till: [ludvigvonbahr]
+    roll: door
+    vet: "att hans tveeggade svärd inte är anrikt utan en kinesisk kopia, och att om någon hotar att säga det högt ska han släppa nästa ledtråd till Galeonen Gnällets skatt"
+    vet_inte: "att Fregatten Fromheten jagar Gnällets skatt, att jakten är en sluten cirkel, var skatten ligger, ledtråd två"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 101
+    beat: B-11
+    akt: II
+    till: [jesperlejfjord]
+    roll: door
+    vet: "att smicker lossar hans tunga, att fjäsk gör att han läcker hemligheter direkt, och att om någon smeker hans ego ska han släppa nästa ledtråd till Fregatten Fromhetens skatt"
+    vet_inte: "att Barken Bortförklaringen jagar Fromhetens skatt, att jakten är en sluten cirkel, var skatten ligger, ledtråd två"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 102
+    beat: B-11
+    akt: II
+    till: [johannabergman]
+    roll: door
+    vet: "att högkvalitativ choklad gör henne uppsluppen och totalt omdömeslös, oförmögen att bevara hemligheter, och att om någon bjuder ska hon släppa nästa ledtråd till Barken Bortförklaringens skatt"
+    vet_inte: "att Fregatten Fördärvet jagar Bortförklaringens skatt, att jakten är en sluten cirkel, var skatten ligger, ledtråd två"
+    speglas: []
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 103
+    beat: B-11
+    akt: II
+    till: [malintadaa, petterwallberg, linneaappert, ulrikahammar, jesperlindmarker]
+    roll: door
+    vet: "att de bär en siffra var till Korvetten Kurtisanens kod, att skatten är lätt att hitta och koden är låset, och att de ska ge sin siffra om någon frågar"
+    vet_inte: "att Galeonen Gnället jagar Kurtisanens skatt, att jakten är en sluten cirkel, koden, vilka siffror de andra bär"
     speglas: []
     bygger_pa: null
     pussel: null

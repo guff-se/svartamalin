@@ -40,3 +40,7 @@ Nu delar hon båtar, rep och rigg med **Kapten Rödskägg**, mannen vars skägg 
 ## Fragmentet du köper av Blodig {slug:viktoransund}
 
 **Kapten Blodig** kan komma med ett fragment om **Kapten Rödskägg**s hemliga liv, snappat upp mitt i sin egen jakt på jubilarens älskare. Köp det av henne om hon erbjuder, och riv upp det vid precis fel tillfälle, mitt i striden om vem som är Skäggens Konung. En rival med en skandal i baksätet är lättare att se liten.
+
+## Siffran du bär {slug:petterwallberg}
+
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. En siffra som stannar bakom skägget knäcker ingenting.

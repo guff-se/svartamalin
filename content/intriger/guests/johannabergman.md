@@ -43,3 +43,7 @@ Du och **Kapten Kosing** har länge planerat en hemlig, exklusiv ätupplevelse, 
 Du lurade en gång till dig **Kapten Hjärter**s kristallfyrklöver vid ett bord, en riktig tur-amulett, inte kortfärgen du själv är uppkallad efter, och kallade honom speltorsk rakt i ansiktet. Han har inte glömt. Inte heller **Löjtnant Spader**, som du och Hjärter båda anklagat för fusk lika länge som ni anklagat varandra, i hamn efter hamn, utan att någon bevisat något. Hans ring med spader sitter dessutom på din hand sen ett annat bord för länge sedan, själva märket i guldet, en trofé du bär utan att blinka.
 
 I år sitter ni äntligen samma bord, vid kökskanten, ett enda parti. **Kapten Prygel** delar, med sin egen lilla lek om hon vill. Du har ditt episka trick klart: byt hela leken mitt i given, så snyggt att rummet ser trolleri, inte fusk. Den som pekas ut som hajen som faktiskt fuskade förlorar mer än insatsen. Se till att det inte blir du, och håll ett öga på Spader: han vill åt ringen, och en man som spelar för att vinna tillbaka något spelar hårdare än en som bara spelar för rykte.
+
+## Akilleshälen i asken {slug:johannabergman}
+
+Högkvalitativ choklad gör dig uppsluppen och totalt omdömeslös, oförmögen att bevara hemligheter. Om någon bjuder: släpp nästa ledtråd till **Barken Bortförklaringen**s skatt. En akilleshäl är en dörr. Låt den stå öppen.

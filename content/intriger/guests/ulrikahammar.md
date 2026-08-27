@@ -47,3 +47,7 @@ Hon kan dyka upp vid din sy- och broderihörna. Möt henne, muta henne, neka, el
 **Kapten Rötägg** bytte en gång ut din doft mot något rutet, precis när du gjorde din bästa uppvaktning av **Kapten Döver**, och sabbet gjorde susen: uppvaktningen dog på fläcken och han har aldrig riktigt förlåtit sig. Han påstår nu att han ändrat sig sen han miste sitt skepp genom att vara grym mot sin besättning, och att han är snäll numera. Du köper det inte.
 
 **Kapten Planka** vill ha honom och kommer förr eller senare fråga dig vad du vet. Släpp taget om gammal röta som en gest, eller håll fast vid den och sabotera relationen igen, precis som han en gång saboterade din. Valet är helt ditt, innan festen är över.
+
+## Siffran du bär {slug:ulrikahammar}
+
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. En siffra som stannar i fickan knäcker ingenting.

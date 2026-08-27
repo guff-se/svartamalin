@@ -43,3 +43,7 @@ Nu seglar ni båda mot samma fest, och lusten dog aldrig. Han vill ha sexmagick,
 Det är precis den sortens trick du är bäst på, läsa någon och vända det som är deras mot dem själva, och precis den sortens rykte som gräver för djupt om det får gro ostört: inte bara vem som vann en auktion, utan vem du egentligen var innan du blev Planka. Tysta det innan det växer sig till en sanning ingen längre ifrågasätter.
 
 Du har oljan från sirenerna kvar i din koja, den som väcker en lust ingen kan tygla medan du själv står helt orörd av den. Smörj in Fuling vid honnörsbordet och låt hela hamnen se en kapten som inte längre kan hålla värdigheten. Efter det minns ingen silverryktet som något annat än ett dåligt skämt. Gör det innan festen är över, innan Fuling hinner så ett nytt.
+
+## Siffran du bär {slug:linneaappert}
+
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem. Om någon frågar: ge den. En siffra som stannar i planket knäcker ingenting.

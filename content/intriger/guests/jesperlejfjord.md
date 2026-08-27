@@ -42,3 +42,7 @@ I år sitter ni äntligen samma bord, vid kökskanten där du ändå står med g
 **Kapten Döver** låtsas vara döv, ett spratt så inbitet att han håller egna workshops i hittepå-teckenspråk för att bevisa det. Du köper det inte för ett ögonblick: du har sett honom rycka till av ljud han borde vara stendöv för, och du svär att avslöja honom innan festen är över.
 
 Han vet att du vet, och han sabbar gärna dina planer i förväg om han anar vad du håller på med: ett falskt rykte vid grytorna, en sked som försvinner just när du behöver den mest. Ge tillbaka med samma mynt. Kökskanten är din arena ändå, du lämnar den knappt hela helgen, så låt honom komma till dig.
+
+## Tungans pris {slug:jesperlejfjord}
+
+Smicker lossar din tunga. Fjäsk gör att du läcker hemligheter direkt, och du vet det. Om någon smeker ditt ego tills det slår knut: släpp nästa ledtråd till **Fregatten Fromheten**s skatt. En from kapten som inte kan hålla tätt ska åtminstone hålla spåret vid liv.

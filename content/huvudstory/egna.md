@@ -43,7 +43,7 @@ Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
 - [x] För Fromheten: Kapten Hjärter är svag för smicker, så att om man fjäskar för honom så läcker han hemlighter direkt.
 - [x] För Gnället: Hota Kapten Dunka om att avslöja att hans svärd faktiskt inte alls är anrikt, det är en kinesisk kopia.
 
-Kryss = verbatim i registret. Fromheten jagas av Bortförklaringen: Hjärter är dörren. Gnället jagas av Fromheten: Dunka är dörren. Sociala, ingen utläggning. Gästtext skriven: jägarna i `crews/3.md` och `crews/4.md`, göm-påminnelse i `crews/4.md` och `crews/5.md`.
+Kryss = verbatim i registret. Fromheten jagas av Bortförklaringen: Hjärter är dörren. Gnället jagas av Fromheten: Dunka är dörren. Sociala, ingen utläggning. Gästtext: jägarna i `crews/3.md` och `crews/4.md`. Dörr: Hjärter i `guests/jesperlejfjord.md`, Dunka i `guests/ludvigvonbahr.md`. Inte i lagfilen.
 
 ---
 
@@ -53,7 +53,7 @@ Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
 
 - [x] Ingångledtråd för kurtisanen är: "Kurtisanens skatt kommer att vara lätt att hitta men svår att knäcka. För att knäcka koden behöver du en siffra var från alla kurisanens kaptener. "
 
-Kryss = social ingång, skriven in i Gnällets lagfil (de jagar Kurtisanen). Dörren är alla fem ombord, inklusive Malin. Inte bara de fyra med Kapten i namnet. Siffrorna är lagets. Inte vår tryck.
+Kryss = social ingång, skriven in i Gnällets lagfil (de jagar Kurtisanen). Dörren är alla fem ombord, inklusive Malin. Inte bara de fyra med Kapten i namnet. Siffrorna är lagets. Inte vår tryck. Dörrpåminnelse i de fem `guests/`, inte i `crews/1.md`.
 
 ---
 
