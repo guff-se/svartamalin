@@ -21,10 +21,13 @@
   -webkit-backface-visibility: hidden;
 }
 
-#webgl-stage canvas {
+#webgl-stage canvas,
+#webgl-stage .webgl-snapshot {
   display: block;
   width: 100% !important;
   height: 100% !important;
+  object-fit: cover;
+  pointer-events: none;
 }
 
 /* Vignette ovanpå canvas, under hero/skip */
@@ -57,10 +60,9 @@ body.webgl-revealed #webgl-hero-tint { opacity: 0.2; }
    mount, tas bort i finishReveal. */
 body.webgl-revealing { overflow: hidden; touch-action: none; }
 
-/* Chromium (Arc/Chrome) flicker:ade på korten under scroll: backdrop-filter
-   måste re-blurra canvas-content varje frame medan Pixi ambient-animationer
-   uppdaterar canvasen → stale-snapshot-flicker. Tvinga varje kort till sitt
-   eget GPU-lager så blur cachas där, oberoende av canvas-uppdateringar. */
+/* Efter reveal byts WebGL mot en statisk JPEG (replaceBackgroundWithSnapshot).
+   Korten har fortfarande backdrop-filter; eget GPU-lager hjälper Chromium
+   cache:a blurren mot den stilla bilden. */
 .webgl-page .card {
   transform: translateZ(0);
   will-change: transform;

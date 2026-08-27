@@ -15,6 +15,10 @@ let camAnimId = 0
 let tiltStage = null
 let revealRafId = 0
 let sceneFrozen = false
+let staticBg = false
+let snapshotUrl = null
+let onWindowResize = null
+let resizeTimer = 0
 
 /** En sista render av världen → mesh, sen stoppa tickern så bakgrunden fryser. */
 function freezeBackground() {
@@ -32,6 +36,87 @@ function renderFrozenFrame() {
   app.render()
 }
 
+/** Riv Pixi men lämna #webgl-stage (snapshot ligger kvar). */
+function teardownPixiKeepSnapshot() {
+  if (onWindowResize) {
+    window.removeEventListener('resize', onWindowResize)
+    onWindowResize = null
+  }
+  if (resizeTimer) {
+    clearTimeout(resizeTimer)
+    resizeTimer = 0
+  }
+  if (tiltStage) {
+    tiltStage.destroy()
+    tiltStage = null
+  }
+  if (app) {
+    app.destroy({ removeView: true }, { children: true, texture: false })
+    app = null
+  }
+}
+
+/**
+ * Byt den frysta WebGL-canvasen mot en statisk bild så backdrop-filter
+ * på korten inte längre samplar en WebGL-yta under scroll (Chromium-flicker).
+ * 2D-canvas läggs in samma tick (pixel-identisk), därefter JPEG-img.
+ */
+function replaceBackgroundWithSnapshot() {
+  if (!app || !hostEl || staticBg) return
+  const gl = app.canvas
+  const w = gl.width
+  const h = gl.height
+  if (w < 2 || h < 2) return
+
+  const snap = document.createElement('canvas')
+  snap.className = 'webgl-snapshot'
+  snap.width = w
+  snap.height = h
+  const ctx = snap.getContext('2d', { alpha: false })
+  try {
+    ctx.drawImage(gl, 0, 0)
+  } catch (err) {
+    console.warn('WebGL snapshot failed:', err)
+    return
+  }
+  try {
+    const { data } = ctx.getImageData(w >> 1, h >> 1, 1, 1)
+    if (data[0] + data[1] + data[2] < 12) {
+      console.warn('WebGL snapshot was empty, keeping canvas')
+      return
+    }
+  } catch (err) {
+    console.warn('WebGL snapshot sample failed:', err)
+    return
+  }
+
+  hostEl.appendChild(snap)
+  staticBg = true
+  teardownPixiKeepSnapshot()
+
+  snap.toBlob((blob) => {
+    if (!blob || !hostEl || !hostEl.contains(snap)) return
+    const url = URL.createObjectURL(blob)
+    const img = new Image()
+    img.className = 'webgl-snapshot'
+    img.alt = ''
+    const show = () => {
+      if (!hostEl || !hostEl.contains(snap)) {
+        URL.revokeObjectURL(url)
+        return
+      }
+      hostEl.replaceChild(img, snap)
+      snapshotUrl = url
+    }
+    img.onload = () => {
+      if (img.decode) img.decode().then(show, show)
+      else show()
+    }
+    img.onerror = () => URL.revokeObjectURL(url)
+    img.src = url
+  }, 'image/jpeg', 0.92)
+}
+
 export async function mountWebglMap(el) {
   if (!el) {
     hideLoading()
@@ -39,12 +124,12 @@ export async function mountWebglMap(el) {
   }
   // Redan monterad på samma element (t.ex. dubbel route) — dölj loading,
   // men starta om ljudet om reveal kördes om utan ny mount.
-  if (app && hostEl === el) {
+  if (hostEl === el && (app || staticBg)) {
     hideLoading()
     startShowAudio()
     return
   }
-  if (app) unmountWebglMap()
+  if (app || hostEl) unmountWebglMap()
 
   const mountStart = performance.now()
   hostEl = el
@@ -67,6 +152,8 @@ export async function mountWebglMap(el) {
     background: '#3a2410',
     antialias: true,
     autoDensity: true,
+    // Behåll sista framen så drawImage() i snapshot inte får en tom buffer.
+    preserveDrawingBuffer: true,
     resolution: window.devicePixelRatio || 1,
   })
   el.appendChild(app.canvas)
@@ -83,10 +170,10 @@ export async function mountWebglMap(el) {
   let lastW = el.clientWidth
   let lastH = el.clientHeight
   const initialPortrait = lastH > lastW
-  let resizeTimer = 0
-  window.addEventListener('resize', () => {
+  onWindowResize = () => {
     if (resizeTimer) clearTimeout(resizeTimer)
     resizeTimer = setTimeout(() => {
+      if (!app) return
       const w = el.clientWidth
       const h = el.clientHeight
       if (Math.abs(w - lastW) < 4 && Math.abs(h - lastH) < 140) return
@@ -98,7 +185,8 @@ export async function mountWebglMap(el) {
       app.renderer.resize(w, h)
       renderFrozenFrame()
     }, 250)
-  })
+  }
+  window.addEventListener('resize', onWindowResize)
 
 
   const scene = await buildScene()
@@ -156,6 +244,7 @@ export async function mountWebglMap(el) {
     scene.routes.boat.draw()
     app.ticker.remove(routeTick)
     freezeBackground()
+    replaceBackgroundWithSnapshot()
     document.body.classList.remove('webgl-revealing')
     document.body.classList.add('webgl-revealed')
   }
@@ -193,17 +282,20 @@ export async function mountWebglMap(el) {
 }
 
 export function unmountWebglMap() {
-  if (!app) return
+  if (!app && !hostEl) return
   if (camAnimId) cancelAnimationFrame(camAnimId)
   camAnimId = 0
   if (revealRafId) cancelAnimationFrame(revealRafId)
   revealRafId = 0
   sceneFrozen = false
-  if (tiltStage) { tiltStage.destroy(); tiltStage = null }
+  staticBg = false
+  teardownPixiKeepSnapshot()
   document.body.classList.remove('webgl-revealed')
   document.body.classList.remove('webgl-revealing')
-  app.destroy({ removeView: true }, { children: true, texture: false })
-  app = null
+  if (snapshotUrl) {
+    URL.revokeObjectURL(snapshotUrl)
+    snapshotUrl = null
+  }
   if (hostEl) {
     hostEl.innerHTML = ''
     hostEl = null
