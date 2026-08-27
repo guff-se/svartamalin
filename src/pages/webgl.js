@@ -8,6 +8,7 @@ import { renderCrewCollage } from '../components/crew-collage.js'
 import { renderCrewIntriger } from '../components/crew-intriger.js'
 import { renderMyIntriger } from '../components/my-intriger.js'
 import { renderMySleeping } from '../components/my-sleeping.js'
+import { bindPrintIntriger } from '../components/print-intriger.js'
 import { hasGivenAnswer } from '../lib/guest.js'
 import { openRsvpFlow } from '../components/rsvp-modal.js'
 import { openLightbox } from '../lib/image-lightbox.js'
@@ -27,11 +28,14 @@ export async function renderWebgl(app) {
           <img class="scroll-cue" src="/images/map/arrow-down.png" alt="" aria-hidden="true" width="36" height="72" />
         </section>
 
-        <section class="card-section">
-          <div class="card card--intriger card--world" id="intriger-intro">Laddar…</div>
+        <section class="card-section js-print-block">
+          <div class="print-anchor">
+            <button type="button" class="print-intriger-btn" id="print-intriger-btn">Skriv ut</button>
+            <div class="card card--intriger card--world" id="intriger-intro">Laddar…</div>
+          </div>
         </section>
 
-        <section class="card-section" id="crew-intriger-section">
+        <section class="card-section js-print-block" id="crew-intriger-section">
           <div class="card card--intriger card--crew-intriger card--my-crew" id="crew-intriger">Laddar…</div>
         </section>
 
@@ -46,7 +50,7 @@ export async function renderWebgl(app) {
           </div>
         </section>
 
-        <section class="card-section" id="my-intriger-section" hidden>
+        <section class="card-section js-print-block" id="my-intriger-section" hidden>
           <div class="card card--intriger" id="my-intriger"></div>
         </section>
 
@@ -152,6 +156,7 @@ export async function renderWebgl(app) {
   renderNarrative(document.getElementById('intriger-intro'), { key: 'intriger_intro' })
   renderCrewIntriger(document.getElementById('crew-intriger'))
   renderMyIntriger(document.getElementById('my-intriger'))
+  bindPrintIntriger()
   renderCrewCollage(document.getElementById('crew-collage'))
   renderNarrative(document.getElementById('practical-body'),  { key: 'practical_body' })
   renderNarrative(document.getElementById('practical-ovanan'), { key: 'ovanan' })

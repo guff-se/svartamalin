@@ -1,0 +1,146 @@
+/* Utskrift av välkomsttext, skuta och roll — svartvitt, utan bilder. */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    background-image: none !important;
+    color: #000 !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    touch-action: auto !important;
+  }
+
+  body > *:not(#app),
+  .webgl-page > *:not(.content-overlay),
+  .home > *:not(.js-print-block),
+  .print-intriger-btn,
+  #loading-screen,
+  .returning-splash {
+    display: none !important;
+  }
+
+  .webgl-page,
+  .content-overlay,
+  .home {
+    position: static !important;
+    background: #fff !important;
+    min-height: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .js-print-block {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    justify-content: stretch !important;
+  }
+
+  .js-print-block[hidden] {
+    display: none !important;
+  }
+
+  .js-print-block ~ .js-print-block {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem !important;
+    border-top: 0.5pt solid #000;
+  }
+
+  .print-anchor {
+    max-width: none;
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: none !important;
+    background: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    filter: none !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    transform: none !important;
+    will-change: auto !important;
+  }
+
+  .card h2,
+  .card h3,
+  .card p,
+  .card li,
+  .card a,
+  .crew-name,
+  .crew-sub,
+  .intriger-sub,
+  .intrig__title,
+  .intrig__body,
+  .pirate-hover {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    opacity: 1 !important;
+  }
+
+  .card a {
+    text-decoration: none !important;
+  }
+
+  a[href]::after {
+    content: none !important;
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg,
+  figure,
+  .pirate-card,
+  .crew-ship,
+  .intriger-hero,
+  .intrig__card,
+  .pirate-hover__pop,
+  .crew-members {
+    display: none !important;
+  }
+
+  .intriger-note {
+    width: auto;
+    margin: 0 0 1rem;
+    padding: 0;
+    border: none;
+    background: transparent !important;
+  }
+
+  .intriger-list,
+  .intrig {
+    display: block;
+  }
+
+  .intrig {
+    break-inside: avoid;
+    margin: 0 0 0.9rem;
+  }
+
+  .intrig__text {
+    padding-top: 0;
+  }
+
+  .card--world h2,
+  .crew-name,
+  .crew-sub,
+  .intriger-sub,
+  .intrig__title {
+    letter-spacing: 0.04em;
+    break-after: avoid;
+  }
+}
