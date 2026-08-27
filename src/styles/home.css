@@ -732,6 +732,9 @@
   color: var(--paper-dark);
   opacity: 0.75;
 }
+.intriger-print-name {
+  display: none;
+}
 .intriger-note {
   width: 50%;
   margin: 0 auto 1.5rem;

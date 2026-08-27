@@ -81,6 +81,7 @@
   .crew-name,
   .crew-sub,
   .intriger-sub,
+  .intriger-print-name,
   .intrig__title,
   .intrig__body,
   .pirate-hover {
@@ -139,8 +140,17 @@
   .crew-name,
   .crew-sub,
   .intriger-sub,
+  .intriger-print-name,
   .intrig__title {
     letter-spacing: 0.04em;
     break-after: avoid;
+  }
+
+  .intriger-print-name {
+    display: block;
+    margin: 0 0 0.35rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
   }
 }

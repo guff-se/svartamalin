@@ -1,5 +1,6 @@
 import { supabase } from '../lib/supabase.js'
 import { getGuestId } from '../lib/state.js'
+import { escapeHtml } from '../lib/escape.js'
 import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { fetchIntrigerGuests, fetchPirateGuests, getGuestIntriger, intrigerListHtml } from '../lib/intriger.js'
@@ -58,6 +59,7 @@ export async function renderMyIntriger(el) {
     <div class="intriger-hero">
       ${heroCard}
     </div>
+    <h2 class="intriger-print-name">${escapeHtml(pirateName)}</h2>
     <p class="intriger-sub">Din roll</p>
     <div class="intriger-note"></div>
     ${intrigerListHtml(intrigues, guestsBySlug, { pirates })}
