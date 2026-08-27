@@ -5,7 +5,7 @@ import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { sortByPirateNameId } from '../lib/pirate-name-order.js'
 import { fetchPirateGuests, getCrewIntriger, intrigerListHtml } from '../lib/intriger.js'
-import { crewShip } from '../lib/ships.js'
+import { crewShip, huntedCrewShip } from '../lib/ships.js'
 import { pirateCardHtml } from './pirate-card.js'
 import { makeCardsInteractive, wirePirateCardGrid, wirePirateNameLightbox } from './crew-collage.js'
 import { openLightbox } from '../lib/image-lightbox.js'
@@ -62,7 +62,11 @@ export async function renderCrewIntriger(el) {
     .map((m) => ({ ...m, pirate_name: nameMap[m.pirate_name_id] }))
     .filter((m) => m.pirate_name)
 
-  const crewIntriger = getCrewIntriger(me.crew_id)
+  // Sista ## är jakten på en annan skuta (STYLE.md). Mini-bilden = den jagade skutan.
+  const huntShip = huntedCrewShip(me.crew_id)
+  const crewIntriger = getCrewIntriger(me.crew_id).map((intrig, i, arr) =>
+    huntShip && i === arr.length - 1 ? { ...intrig, ship: huntShip } : intrig,
+  )
   const ship = crewShip(me.crew_id)
   const shipHtml = ship
     ? `
@@ -91,6 +95,9 @@ export async function renderCrewIntriger(el) {
 
   const shipFig = el.querySelector('.crew-ship')
   if (shipFig && ship) wireShipLightbox(shipFig, ship)
+
+  const huntFig = el.querySelector('.intrig__ship')
+  if (huntFig && huntShip) wireShipLightbox(huntFig, huntShip)
 
   const intrigList = el.querySelector('.intriger-list')
   if (intrigList) wirePirateNameLightbox(intrigList)

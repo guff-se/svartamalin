@@ -36,3 +36,19 @@ export const CREW_SHIPS = {
 export function crewShip(crewId) {
   return CREW_SHIPS[crewId] ?? null
 }
+
+/**
+ * Skuta N jagar N+1:s skatt (5 jagar 1). Se content/huvudstory/lagskatter.md.
+ * @param {number | string | null | undefined} crewId
+ * @returns {number | null}
+ */
+export function huntedCrewId(crewId) {
+  const n = Number(crewId)
+  if (!Number.isInteger(n) || n < 1 || n > 5) return null
+  return n === 5 ? 1 : n + 1
+}
+
+/** @param {number | string | null | undefined} crewId */
+export function huntedCrewShip(crewId) {
+  return crewShip(huntedCrewId(crewId))
+}

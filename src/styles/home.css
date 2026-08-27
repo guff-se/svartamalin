@@ -801,6 +801,22 @@
   flex: 0 0 auto;
   width: 8.625rem; /* 5.75rem × 1.5 */
 }
+.intrig__ship {
+  margin: 0;
+  cursor: pointer;
+}
+.intrig__ship img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid var(--gold);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+  filter: sepia(0.25) contrast(1.05) brightness(0.95);
+  background: #2a1810;
+}
 .intrig__card .pirate-card {
   max-width: none;
   width: 100%;

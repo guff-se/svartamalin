@@ -21,7 +21,8 @@ const guestRaw = import.meta.glob('../../content/intriger/guests/*.md', {
 })
 
 /**
- * @typedef {{ title: string, body: string, slug?: string | null, portraitSrc?: string | null }} Intrig
+ * @typedef {{ src: string, alt: string, width: number, height: number }} ShipImage
+ * @typedef {{ title: string, body: string, slug?: string | null, portraitSrc?: string | null, ship?: ShipImage | null }} Intrig
  * @typedef {{ meta: Record<string, unknown>, intrigues: Intrig[] }} IntrigDoc
  */
 
@@ -244,12 +245,15 @@ export function intrigerListHtml(intrigues, guestsBySlug = {}, opts = {}) {
   if (!intrigues?.length) return ''
   const showCards = opts.showCards !== false
   const pirates = opts.pirates ?? Object.values(guestsBySlug)
+  const anyVisual = showCards || intrigues.some((i) => i.ship)
   return `
-    <ul class="intriger-list${showCards ? '' : ' intriger-list--text-only'}">
+    <ul class="intriger-list${anyVisual ? '' : ' intriger-list--text-only'}">
       ${intrigues.map((i) => {
         const g = i.slug ? guestsBySlug[i.slug] : null
-        const card = showCards
-          ? `
+        const card = i.ship
+          ? shipCardHtml(i.ship)
+          : showCards
+            ? `
           <div class="intrig__card">
             ${pirateCardHtml({
               photoSrc: i.portraitSrc ?? undefined,
@@ -260,7 +264,7 @@ export function intrigerListHtml(intrigues, guestsBySlug = {}, opts = {}) {
                 : DEFAULT_OVERLAY,
             })}
           </div>`
-          : ''
+            : ''
         return `
         <li class="intrig">
           ${card}
@@ -272,4 +276,21 @@ export function intrigerListHtml(intrigues, guestsBySlug = {}, opts = {}) {
       }).join('')}
     </ul>
   `
+}
+
+/** @param {ShipImage} ship */
+function shipCardHtml(ship) {
+  return `
+          <div class="intrig__card intrig__card--ship">
+            <figure class="intrig__ship">
+              <img
+                src="${escapeHtml(ship.src)}"
+                alt="${escapeHtml(ship.alt)}"
+                width="${ship.width}"
+                height="${ship.height}"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+          </div>`
 }
