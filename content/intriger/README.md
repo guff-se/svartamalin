@@ -14,7 +14,7 @@ Karta för hela `content/`: [`../README.md`](../README.md).
 
 Parallella spår som också designas där, inte här:
 
-- Lagskatter: [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md). Jakten står i `crews/`. Ingången (första ledtråden, inskickad av gömmarna) skrivs in i **jagarens** lagfil. Social dörr: kort intrig i **den personens** `guests/`. Cirkeln och vem som jagas står inte i gästtext.
+- Lagskatter: [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md). Jakten står i `crews/`: skatten de ska hitta, plus ingången. Inte skatten de gömmer. Social dörr: kort intrig i **den personens** `guests/`. Cirkeln och vem som jagas står inte i gästtext.
 - Huvudjakt, generell varför: första `##` i `crews/`. Hon har en låst kista. Ta reda på hennes berättelse tillsammans. Första ledtråden sitter i gäststarten, inte här.
 - Förrädare: [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml). Mullvad och kontakt skrivs i `guests/` när status är done. Aldrig i lagfilen.
 

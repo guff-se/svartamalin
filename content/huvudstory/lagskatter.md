@@ -50,8 +50,8 @@ Resten av spåret är gömmarnas. Vi trycker det inte. Vi skriver inte in var sk
 
 | Roll | Skuta | I gästtext | Inte i gästtext |
 |------|-------|------------|-----------------|
-| **Gömmare** | den vars skatt det är | gömma vid ankomsten, koja fredad. Fysisk dörr: lägg ut första steget (brev). Social dörr: **inte** i lagfilen, bara i den personens `guests/` | vem som jagar dem, cirkeln, jägarens revyformulering |
-| **Jagare** | den som jagar skatten (N jagar N+1) | ingången i jaktstycket: ett konkret nästa steg | var skatten ligger, resten av spåret, vem som jagar *dem*, att det är en sluten cirkel |
+| **Gömmare** | den vars skatt det är | Social dörr: kort intrig i **den personens** `guests/`. Inte i lagfilen. Inte gömma-instruktion. | vem som jagar dem, cirkeln, jägarens revyformulering, att de ska gömma |
+| **Jagare** | den som jagar skatten (N jagar N+1) | skatten de ska hitta, plus ingången: ett konkret nästa steg | var skatten ligger, resten av spåret, vem som jagar *dem*, att det är en sluten cirkel, skatten de själva gömmer |
 
 Gömmarna vet redan spåret. De ritade det. Påminnelsen finns så första steget faktiskt finns i spel före lördag 10.30: ett brev på plats, eller en person på skutan som kan släppa nästa steg.
 
@@ -64,7 +64,7 @@ Verbatim är lagets formulering. Tom ruta: ingången har inte kommit in. Skriv *
 | Skuta (gömmer) | Jagas av | Ingång, verbatim | Första steget | Lägger ut | Gästtext jagare | Gästtext gömmare |
 |----------------|----------|------------------|---------------|-----------|-----------------|------------------|
 | 1 Kurtisanen | 5 Gnället | Kurtisanens skatt kommer att vara lätt att hitta men svår att knäcka. För att knäcka koden behöver du en siffra var från alla kurisanens kaptener. | **Alla fem ombord** + en siffra var. Malin (`malintadaa`), Lösskägg (`petterwallberg`), Planka (`linneaappert`), Barnsben (`ulrikahammar`), Hurring (`jesperlindmarker`). Skatten är lättfunnen, koden är låset. Inte bara de fyra med Kapten i namnet. | ingen utläggning. De fem är dörren. Var och en ska veta sin siffra. Ingen stängs ute. | skriven, `crews/5.md` | skriven, de fem `guests/` |
-| 2 Fördärvet | 1 Kurtisanen | Det ligger ett brev i soffbordet i vardagsrummet | brev i soffbordet, Storstugan | Fördärvet, fredag ca 17.30 | skriven, `crews/1.md` | skriven, `crews/2.md` (brev, hela laget) |
+| 2 Fördärvet | 1 Kurtisanen | Det ligger ett brev i soffbordet i vardagsrummet | brev i soffbordet, Storstugan | Fördärvet, fredag ca 17.30 | skriven, `crews/1.md` | ingen i lagfilen. De ritade spåret. |
 | 3 Bortförklaringen | 2 Fördärvet | Kapten Klövers akilleshäl är högkvalitativ choklad som gör henne uppsluppen och totalt omdömeslös, oförmögen att bevara hemligheter. | **Kapten Klöver** (`johannabergman`) + högkvalitativ choklad | ingen utläggning. Klöver är dörren. Hon ska veta nästa steg. | skriven, `crews/2.md` | skriven, `guests/johannabergman.md` |
 | 4 Fromheten | 3 Bortförklaringen | Kapten Hjärter är svag för smicker, så att om man fjäskar för honom så läcker han hemlighter direkt. | **Kapten Hjärter** (`jesperlejfjord`) + smicker/fjäsk. Köket. | ingen utläggning. Hjärter är dörren. Han ska veta nästa steg. | skriven, `crews/3.md` | skriven, `guests/jesperlejfjord.md` |
 | 5 Gnället | 4 Fromheten | Hota Kapten Dunka om att avslöja att hans svärd faktiskt inte alls är anrikt, det är en kinesisk kopia. | **Kapten Dunka** (`ludvigvonbahr`) + hotet om svärdet (kinesisk kopia, inte anrikt) | ingen utläggning. Dunka är dörren. Han ska veta nästa steg. Svärdet är hans. Inte vår tryck. | skriven, `crews/4.md` | skriven, `guests/ludvigvonbahr.md` |
@@ -86,7 +86,7 @@ Dunka sitter på Gnället. Svärdet är hans föremål, redan i `roller/`. Ingå
 3. Kolla krock mot [`platser.md`](platser.md) och mot personens övriga spår. Ingången får sitta i ett rum som redan har quest. Den får inte vara samma föremål som en questprop. Social ingång får krocka med personens sidequests. Den får inte kräva att hen stängs ute från gömman.
 4. Uppdatera `vet` i [`fordelning.yaml`](fordelning.yaml) för **jagaren** (och gömmarens påminnelse).
 5. Skriv in i jagarens `content/intriger/crews/{id}.md` enligt skrivreglerna nedan. STYLE.md.
-6. Social dörr: skriv kort intrig i **den personens** `guests/{slug}.md`. Inte i lagfilen. Inte jägarens formulering. Inte vem som jagar dem. Fysisk dörr: en mening i gömmarens jaktstycke.
+6. Social dörr: skriv kort intrig i **den personens** `guests/{slug}.md`. Inte i lagfilen. Inte jägarens formulering. Inte vem som jagar dem. Inte gömma-instruktion i jaktstycket.
 7. Produktion: vem lägger, när. Inte rekvisita om lagen trycker själva. Social: ingen utläggning, notera vem som är dörren.
 
 Ingen gästtext förrän steg 1–4 är gjorda. Samma tvåstegsordning som resten av huvudstoryn.
@@ -121,22 +121,25 @@ Inte en egen `##` i lagfilen. Inte hela skutan.
 Bra: "Om någon hotar att säga att svärdet är en kinesisk kopia: släpp nästa ledtråd till **Galeonen Gnället**s skatt."
 Dåligt: "Fromheten kommer hota dig. De jagar er skatt. Låt hela galeonen veta att svärdet är en kopia."
 
-**Fysisk dörr:** en mening i gömmarens jaktstycke, med samma substantiv som de skickade in. Lägg ut det när skatten går ner.
+**Fysisk dörr:** inte i jaktstycket. Gömmarna ritade spåret. Gömma vid ankomsten och koja fredad sägs i genomgången, inte i intrigtext.
 
-Lagfilen behåller: gömma vid ankomsten, koja fredad. Inte dörrpersonens hemlighet (svärdet är kopia, smicker lossar tungan, choklad, den egna siffran).
+Lagfilens jaktstycke bär bara skatten de ska *hitta*, plus ingången. Inte skatten de gömmer.
 
 ### Vad skutorna vet
 
 Står i lagintrigen:
 
-- att de har en egen skatt att gömma vid ankomsten
 - vilken annan skuta de ska plundra
 - första ledtråden till den jakten, när gömmarna skickat in den
-- att kojjen är fredad (sovplatser är inte spel)
-- gömmarna: att de ska gömma vid ankomsten. Fysisk dörr: lägga ut första steget. Social dörr står i den personens gästfil, inte här.
 
-De vet **inte**:
+Står i den personens gästfil, om hen är social dörr:
 
+- att hen släpper nästa ledtråd om hen utpressas, fjäskas eller bjuds
+
+De vet **inte** via intrigtext:
+
+- att de ska gömma vid ankomsten (sägs i genomgången)
+- att kojjen är fredad (sägs i genomgången)
 - vem som jagar deras skatt
 - att jakten är en sluten cirkel
 - att det finns en mullvad i laget
@@ -212,12 +215,12 @@ Otillåtet:
 | Skuta | Fil | Jagar | Ingång i jaktstycket | Status |
 |-------|-----|-------|----------------------|--------|
 | 1 | `content/intriger/crews/1.md` | Fördärvet | ja, Fördärvets brev | skriven. Dörr: de fem `guests/` (en siffra var) |
-| 2 | `content/intriger/crews/2.md` | Bortförklaringen | ja, Klöver och choklad | skriven. Dörr: brev i lagfilen (fysisk) |
+| 2 | `content/intriger/crews/2.md` | Bortförklaringen | ja, Klöver och choklad | skriven. Dörr: `guests/johannabergman.md` |
 | 3 | `content/intriger/crews/3.md` | Fromheten | ja, Hjärter och smicker | skriven. Dörr: `guests/johannabergman.md` |
 | 4 | `content/intriger/crews/4.md` | Gnället | ja, Dunka och svärdet | skriven. Dörr: `guests/jesperlejfjord.md` |
 | 5 | `content/intriger/crews/5.md` | Kurtisanen | ja, kaptenernas siffror | skriven. Dörr: `guests/ludvigvonbahr.md` |
 
-Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11, jägarna. Social dörr: id 100 Dunka, 101 Hjärter, 102 Klöver, 103 kurtisanernas fem siffror. Id 2 bär brevet i lagfilen (fysisk). Gästtext skriven.
+Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11, jägarna. Bara skatten de ska hitta, plus ingången. Social dörr: id 100 Dunka, 101 Hjärter, 102 Klöver, 103 kurtisanernas fem siffror. Inte gömma i lagfilen.
 
 Hur texten skrivs: avsnittet **Ingång** ovan. STYLE.md punkt 23.
 
