@@ -801,14 +801,19 @@
   flex: 0 0 auto;
   width: 8.625rem; /* 5.75rem × 1.5 */
 }
-.intrig__card--ship {
-  width: 17.25rem; /* dubbla porträtten */
-  max-width: 100%;
+.intrig:has(.intrig__card--ship) {
+  display: block;
 }
-@media (max-width: 720px) {
-  .intrig:has(.intrig__card--ship) {
-    flex-direction: column;
-  }
+.intrig:has(.intrig__card--ship)::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.intrig__card--ship {
+  float: left;
+  width: 21rem;
+  max-width: 58%;
+  margin: 0.15rem 1.15rem 0.75rem 0;
 }
 .intrig__ship {
   margin: 0;
