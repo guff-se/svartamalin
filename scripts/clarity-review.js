@@ -158,12 +158,23 @@ KNOWN TO THE READER (everyone at the party; names and teams are known; do not fl
 
 ${roster}
 
-TASK: After reading those two files, evaluate how well YOU can understand your character and what is going on. Look for concepts, items, events, places, or mechanics that are MENTIONED but not EXPLAINED (the text incorrectly assumes you already understand them). Pirate names and team names from the roster need no explanation.
+TASK: After reading those two files, evaluate how well YOU can understand your character and what is going on.
+
+Look for two kinds of gap. Both belong in TERMS.
+
+1. Unexplained mentions: concepts, items, events, places, or mechanics that are named but never explained. The text incorrectly assumes you already understand them. Pirate names and team names from the roster need no explanation.
+
+2. Empty knowledge (more serious than an unexplained prop): the text asserts that YOU already know, have heard, have seen, or have already chosen a specific fact, but the two documents never state the content of that fact. Search the body for claims like "du vet", "du vet redan", "du känner till", "du har sett", "bara du vet", "du är den enda som vet", "du har hört". Then ask: can I, from these two files alone, say WHAT it is that I know? If no, it is empty knowledge.
+   - Flag it even if the surrounding plot is otherwise playable.
+   - Do not flag "du vet inte" / "du anar inte" (those tell you that you lack knowledge).
+   - Do not flag knowledge the same paragraph just stated (e.g. "din dövhet är påhitt … du vet att den är påhitt").
+   - If the text then tells you to act on that fact (say it, withhold it, use it, choose based on it), the rating is red. You cannot play "I already know X" when X is missing.
 
 OUTPUT exactly this structure, in Swedish:
 RATING: green | yellow | red
-(green = can act on everything; leftover questions are flavor. yellow = can play but some mentioned things lack explanation. red = cannot understand a central plot/instruction without guessing)
-TERMS: comma-separated list of unexplained terms/concepts/items/events, or "none"
+(green = can act on everything; leftover questions are flavor. yellow = can play but some mentioned things lack explanation. red = cannot understand a central plot/instruction without guessing, including any empty-knowledge claim you are told to act on)
+TERMS: comma-separated list of unexplained terms/concepts/items/events AND empty-knowledge claims, or "none"
+EMPTY-KNOWLEDGE: each claim where the text says you already know something but never states what; quote a short phrase and say what is missing. or "none"
 UNDERSTANDING: 4-8 sentences: who you are, what you want this weekend, what is unclear.
 Do not suggest rewrites.
 `

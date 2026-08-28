@@ -4,6 +4,13 @@ Intern. Inte gästcopy. Resultat landar i [`clarity-audit.md`](clarity-audit.md)
 
 Syftet: varje `guests/{slug}.md` ska stå för sig själv tillsammans med läsarens lagfil. En gäst har inte andras gästfiler, inte `huvudstory/`, inte yaml. Om texten nämner något som den läsaren inte kan förstå: det är en lucka.
 
+Två sorters luckor, den andra är värre:
+
+1. **Oförklarad mention.** Ett föremål, en plats, en mekanik namnges som om läsaren redan visste vad det är (`krumelurpillret`, `Gubben i stubben`).
+2. **Tom kunskap.** Texten säger att *du* redan vet, har sett, har hört eller har valt en specifik sak, men säger aldrig vad saken är. Typiskt: "Du vet redan … vem hon egentligen väljer" utan att namnge valet. Läsaren kan inte spela "jag vet X" när X saknas. Sök i brödtexten efter `du vet`, `du vet redan`, `du känner till`, `du har sett`, `bara du vet`, `du är den enda som vet`, `du har hört`. Fråga: kan jag, bara från de två filerna, säga *vad* det är jag vet? Om nej: tom kunskap. Inte `du vet inte` / `du anar inte` (det är avsiktlig okunskap). Inte kunskap som samma stycke just har sagt. Om texten sen säger åt läsaren att agera på faktumet (säga, tiga, använda, välja): **rött**.
+
+Verifierat 2026-08-28 mot `navidmodiri` ("Det du hör vid syhörnan"): rött, EMPTY-KNOWLEDGE på Barnsbens val.
+
 ## Vad en granskare får
 
 En subagent per gäst. Inget mer i kontextfönstret.
@@ -26,13 +33,14 @@ Inga andra filer. Ingen `roller/`, `anteckningar/`, `copy/`, `huvudstory/`, yaml
 |---|---|
 | green | Läsaren kan agera på allt. Kvarvarande frågor är smak, inte blockerare. |
 | yellow | Går att spela, men nämnda saker saknar förklaring. |
-| red | En central handling/instruktion går inte att förstå utan att gissa. |
+| red | En central handling/instruktion går inte att förstå utan att gissa. Tom kunskap som läsaren ska agera på är rött. |
 
 Output per gäst, på svenska, exakt:
 
 ```
 RATING: green | yellow | red
 TERMS: kommaseparerad lista, eller "none"
+EMPTY-KNOWLEDGE: varje påstående där texten säger att du redan vet något utan att säga vad, eller "none"
 UNDERSTANDING: 4-8 meningar. Vem du är, vad du vill i helgen, vad som är oklart.
 ```
 
@@ -61,8 +69,8 @@ Ny runda överst, med datum och metod (vad subagenterna faktiskt fick). Sedan:
 
 - Antal green / yellow / red.
 - Rött: vad som blockerar, och en åtgärd.
-- Tabell per gäst: slug, piratnamn, lag, betyg, termer.
-- Mönster: verkliga luckor (fix i gästtexten) vs jakt som är tänkt att vara ofullständig vs världsnamn som copy redan täcker.
+- Tabell per gäst: slug, piratnamn, lag, betyg, termer, tom kunskap.
+- Mönster: tom kunskap (du-vet utan innehåll) vs oförklarade mentions vs jakt som är tänkt att vara ofullständig vs världsnamn som copy redan täcker.
 
 Runda 3 (2026-08-28) är mallen: gästfil + lagfil + roster. Runda 2 gav också `roller/`. Runda 1 var bara gästfil. Kör inte runda 1 eller 2 om ingen ber om det.
 
