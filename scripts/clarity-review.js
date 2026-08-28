@@ -143,7 +143,7 @@ const DEFINITE_SKIP = new Set([
   'sanningen', 'lögnen', 'ryktet', 'namnet', 'hemligheten',
   'gymmet', 'storstugan', 'ovanan', 'salmonellahavet',
   'siffran', 'koden', 'skatten', 'låset', 'kistan', 'ledtråden',
-  'korvetten', 'fregatten', 'barken', 'galeonen', 'kurtisanen',
+  'korvetten', 'fregatten', 'barken', 'galeonen', 'kurtisanen', 'kapten',
 ])
 
 function definiteStems(word) {
