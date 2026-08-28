@@ -4,12 +4,21 @@ Intern. Inte gästcopy. Resultat landar i [`clarity-audit.md`](clarity-audit.md)
 
 Syftet: varje `guests/{slug}.md` ska stå för sig själv tillsammans med läsarens lagfil och världs-ingången. En gäst har inte andras gästfiler, inte `huvudstory/`, inte yaml. Om texten nämner något som den läsaren inte kan förstå: det är en lucka.
 
-Fyra sorters luckor. Den andra är värre än den första. Den tredje är samma lucka i grammatiken. Den fjärde är samma lucka i dramaturgi: en händelse som förutsätts känd.
+Fyra sorters luckor, plus en ordinnebörd-scan. Den andra luckan är värre än den första. Den tredje är samma lucka i grammatiken. Den fjärde är samma lucka i dramaturgi: en händelse som förutsätts känd. Scanen är inte en femte lucka: orden får användas, men innebörden ska stämma.
 
 1. **Oförklarad mention.** Ett föremål, en plats, en mekanik namnges som om läsaren redan visste vad det är (`krumelurpillret`).
 2. **Tom kunskap.** Texten säger att *du* redan vet, har sett, har hört eller har valt en specifik sak, men säger aldrig vad saken är. Typiskt: "Du vet redan … vem hon egentligen väljer" utan att namnge valet. Läsaren kan inte spela "jag vet X" när X saknas. Sök i brödtexten efter `du vet`, `du vet redan`, `du känner till`, `du har sett`, `bara du vet`, `du är den enda som vet`, `du har hört`. Fråga: kan jag, bara från de tre filerna, säga *vad* det är jag vet? Om nej: tom kunskap. Inte `du vet inte` / `du anar inte` (det är avsiktlig okunskap). Inte kunskap som samma stycke just har sagt. Inte lagskatternas dörrar (lagen byggde dem). Om texten sen säger åt läsaren att agera på faktumet (säga, tiga, använda, välja): **rött**.
 3. **Bestämd form utan intro.** Första nämnandet av en sak i bestämd form (`skålen`, `jollen`) som om läsaren redan visste vilken. Typiskt med relativsats: `jollen du kapade i dimman`, `skålen där du kallade henne…`. Flagga även då, när det är första gången saken nämns. Inte: festen, hamnen, ön, kajen, gymmet, Storstugan, lagskattdörrar, kroppsdelar, eller något som redan presenterats som `en X` / `ett X`. Scriptet listar kandidater via `--scan` (bestämd form + där/som/du/hon/han) och stoppar in dem i prompten. Auditorn avgör.
 4. **Händelse utan återberättelse.** Texten nämner en dåtida händelse vid utfall, täckhistoria eller smeknamn, men återberättar aldrig scenen. Karaktären var där; spelaren var det inte. Typiskt: "Hon tappade värdigheten vid förra kaptensskålen och har sen dess svurit att det var feber." Läsaren vet att värdighet tappades och att feber är ursäkten, inte *vad som gjordes mot henne vid skålen*. Att namnge tillfället (`förra kaptensskålen`) räcker inte. Fråga: kan jag, bara från de tre filerna, säga *vad som hände* (vem gjorde vad mot vem, med vad)? Om du bara har ett resultat, en täckhistoria eller en etikett: flagga händelsen, även om substantivet redan är flaggat som bestämd form. Inte: händelser samma stycke sedan berättar (vem, vad, med vad). Inte: gåtor texten säger att du inte vet (vem som angav dig). Inte: jakter som ska förbli ofullständiga (Malins kista, den namnlösa älskaren). Inte: scener läsaren ska spela den här helgen.
+
+5. **Ordinnebörd / syftningsfel.** Inte oförklarade mentions. Orden **fasa/fasan**, **skatt**, **klöver/klubb/fyrklöver** och **prejudikat** får gärna stå i texten. Scriptet listar träffar i gästfil + lagfil (som `--scan` för bestämd form). Auditorn dubbelkollar innebörden mot reglerna i [`STYLE.md`](STYLE.md) (inbakade i prompten; subagenten läser inte STYLE.md). Flagga bara fel innebörd eller syftning, inte att ordet finns. Inte: verbet *fasar*, *fasad/fasaden*, piratnamnet **Kapten Klöver**, *skatt* som tydligt är antingen gömt föremål eller avgift i sin egen mening.
+
+| Ord | Rätt | Fel att flagga |
+|-----|------|----------------|
+| fasa / fasan | skräck, "en fasa till kapten"; bestämd form av fasa är **fasan** | **fasanen** (alltid fågeln); flyg-/fjäder-/näbbmetafor när ordet är skräck |
+| skatt | både gömt föremål och avgift; skriv *skatt*, inte avgift/taxa/klenod | "ta den" eller en mening som kan fästa vid fel skatt när båda sinnena ligger intill |
+| klöver / klubb / fyrklöver | klöver = kortfärg; klubb = sällskap; fyrklöver = amulett | vits eller mening som blandar dem; kristallfyrklövern behandlad som kortfärg |
+| prejudikat | rättfärdigar prejning ("hänvisar till prejudikat") | "plundrar med prejudikat"; generell juridik; fysiskt bevis |
 
 Verifierat 2026-08-28 mot `malintadaa` ("Skålen hon aldrig glömde"): `skålen`, `jollen`. Verifierat mot `jesperlindmarker` ("tappade värdigheten vid förra kaptensskålen"): händelsen, inte bara skålen.
 
@@ -42,15 +51,16 @@ Inga andra filer. Ingen `roller/`, `anteckningar/`, övrig `copy/`, `huvudstory/
 | Betyg | Betydelse |
 |---|---|
 | green | Läsaren kan agera på allt. Kvarvarande frågor är smak, inte blockerare. |
-| yellow | Går att spela, men nämnda saker saknar förklaring. |
-| red | En central handling/instruktion går inte att förstå utan att gissa. Tom kunskap som läsaren ska agera på är rött. |
+| yellow | Går att spela, men nämnda saker saknar förklaring, eller ett laddat ord syftar fel utan att blockera. |
+| red | En central handling/instruktion går inte att förstå utan att gissa. Tom kunskap som läsaren ska agera på är rött. En central instruktion som hänger på fel innebörd av fasa/skatt/klöver/prejudikat är rött. |
 
 Output per gäst, på svenska, exakt:
 
 ```
 RATING: green | yellow | red
-TERMS: kommaseparerad lista (oförklarade mentions, tom kunskap, bestämd form utan intro, händelse utan återberättelse), eller "none"
+TERMS: kommaseparerad lista (oförklarade mentions, tom kunskap, bestämd form utan intro, händelse utan återberättelse, fel ordinnebörd), eller "none"
 EMPTY-KNOWLEDGE: varje påstående där texten säger att du redan vet något utan att säga vad, eller "none"
+SENSE: varje träff där fasa/skatt/klöver/prejudikat syftar fel; kort citat och vilken innebörd som användes vs vilken som avsågs, eller "none"
 UNDERSTANDING: 4-8 meningar. Vem du är, vad du vill i helgen, vad som är oklart.
 ```
 
@@ -63,13 +73,13 @@ Parent-agenten (den här chatten) gör jobbet. Subagenterna läser bara tre file
 1. Kör `npm run clarity-review -- --write-prompts`. Scriptet läser `guests/`, `crews/` och `roller/` och skriver en promptfil per gäst under `tmp/clarity-review/` (gitignoreras). Prompttexten ägs av [`scripts/clarity-review.js`](../../scripts/clarity-review.js). Ändra den där, inte här.
 2. Spawna **en** Task-subagent per slug. `subagent_type: generalPurpose`. Prompt = innehållet i `tmp/clarity-review/{slug}.txt`. En karaktär per agent. Parallellt. Ge inte extra text i prompten.
 3. Subagenten får bara använda Read på de tre sökvägar som står i prompten. Inget Grep, inget Glob, inga andra filer.
-4. Samla `RATING`, `TERMS`, `UNDERSTANDING` från varje agent.
+4. Samla `RATING`, `TERMS`, `EMPTY-KNOWLEDGE`, `SENSE`, `UNDERSTANDING` från varje agent.
 5. Skriv en **ny runda** överst i [`clarity-audit.md`](clarity-audit.md). Behåll äldre rundor som arkiv. Rör inte gästtexterna i samma svep (granskning och omskrivning är två uppgifter).
 6. Committa audit-filen när rundan är klar.
 
 En gäst: `node scripts/clarity-review.js --prompt malintadaa`.
 
-Bestämd form (heuristik): `node scripts/clarity-review.js --scan malintadaa`.
+Heuristik (bestämd form + ordinnebörd): `node scripts/clarity-review.js --scan malintadaa`.
 
 Lista: `npm run clarity-review`.
 
@@ -81,10 +91,10 @@ Ny runda överst, med datum och metod (vad subagenterna faktiskt fick). Sedan:
 
 - Antal green / yellow / red.
 - Rött: vad som blockerar, och en åtgärd.
-- Tabell per gäst: slug, piratnamn, lag, betyg, termer, tom kunskap.
-- Mönster: tom kunskap (du-vet utan innehåll) vs oförklarade mentions vs händelse utan återberättelse vs jakt som är tänkt att vara ofullständig (Malins kista). Flagga inte undantagen.
+- Tabell per gäst: slug, piratnamn, lag, betyg, termer, tom kunskap, ordinnebörd.
+- Mönster: tom kunskap (du-vet utan innehåll) vs oförklarade mentions vs händelse utan återberättelse vs jakt som är tänkt att vara ofullständig (Malins kista) vs ordinnebörd (fel syftning av fasa/skatt/klöver/prejudikat). Flagga inte undantagen. Flagga inte korrekta användningar av de fyra orden.
 
-Aktuell mall: gästfil + lagfil + `intriger_intro.md` + roster + undantagen. Äldre rundor (1-4) är arkiv. Kör inte dem om ingen ber om det.
+Aktuell mall: gästfil + lagfil + `intriger_intro.md` + roster + undantagen + ordinnebörd-scan (fasa, skatt, klöver, prejudikat). Äldre rundor (1-4) är arkiv. Kör inte dem om ingen ber om det.
 
 ## Vem som ingår
 

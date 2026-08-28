@@ -10,6 +10,7 @@
  *   node scripts/clarity-review.js --json
  *   node scripts/clarity-review.js --prompt navidmodiri
  *   node scripts/clarity-review.js --scan malintadaa
+ *     (bestämd form + ordinnebörd: fasa/fasan, skatt, klöver, prejudikat)
  *   node scripts/clarity-review.js --write-prompts
  *
  * Promptfilerna är input till Cursor Task-subagenter. Rutin:
@@ -220,6 +221,92 @@ function definiteCandidates(guest) {
   return scanDefiniteForm(guestText, known)
 }
 
+const SENSE_SKIP_SKATT = /^(under|över|upp)skatt/i
+
+const SENSE_PATTERNS = [
+  {
+    key: 'fasa',
+    re: /\b(fasa|fasan|fasanen|fasans|fasanens|fasor|fasorna)\b/gi,
+  },
+  {
+    key: 'skatt',
+    re: /\b(\p{L}*skatt(?:en|er|erna|ens)?)\b/giu,
+  },
+  {
+    key: 'klöver',
+    re: /\b((?:kristall)?fyrklöver(?:n|ns|s)?|klöver(?:n|ns|s)?|\p{L}*klubb(?:en|ar|arna|ens)?)\b/giu,
+  },
+  {
+    key: 'prejudikat',
+    re: /\b(prejudikat(?:et|en|ets)?)\b/gi,
+  },
+]
+
+function snippetAround(body, index, length) {
+  let start = Math.max(0, index - 40)
+  let end = Math.min(body.length, index + length + 40)
+  if (start > 0) {
+    const sp = body.indexOf(' ', start)
+    if (sp !== -1 && sp < index) start = sp + 1
+  }
+  const nextSp = body.lastIndexOf(' ', end)
+  if (nextSp > index + length) end = nextSp
+  return body.slice(start, end).replace(/\s+/g, ' ').trim()
+}
+
+/**
+ * Träffar av fasa/fasan, skatt, klöver/klubb/fyrklöver, prejudikat
+ * i gästfil + lagfil. Orden får användas. Auditorn avgör innebörd.
+ */
+function scanSenseWords(guestText, crewText = '') {
+  const sources = [
+    { label: 'gäst', body: guestBody(guestText) },
+    { label: 'lag', body: crewText ? guestBody(crewText) : '' },
+  ]
+  const byKey = { fasa: [], skatt: [], klöver: [], prejudikat: [] }
+
+  for (const { key, re } of SENSE_PATTERNS) {
+    const seen = new Set()
+    for (const { label, body } of sources) {
+      if (!body) continue
+      re.lastIndex = 0
+      let m
+      while ((m = re.exec(body))) {
+        const word = m[1]
+        if (key === 'skatt' && SENSE_SKIP_SKATT.test(word)) continue
+        const snip = snippetAround(body, m.index, word.length)
+        const dedupe = `${label}:${snip.toLowerCase()}`
+        if (seen.has(dedupe)) continue
+        seen.add(dedupe)
+        byKey[key].push({ word, snippet: snip, source: label })
+      }
+    }
+  }
+
+  return byKey
+}
+
+function formatSenseHits(byKey) {
+  const lines = []
+  for (const key of ['fasa', 'skatt', 'klöver', 'prejudikat']) {
+    const hits = byKey[key]
+    if (!hits.length) {
+      lines.push(`${key}: none`)
+      continue
+    }
+    const listed = hits.slice(0, 10).map((h) => `"${h.snippet}" (${h.source})`)
+    const extra = hits.length > 10 ? ` … +${hits.length - 10}` : ''
+    lines.push(`${key}: ${listed.join('; ')}${extra}`)
+  }
+  return lines.join('\n')
+}
+
+function senseCandidates(guest) {
+  const guestText = read(guest.guestPath)
+  const crewText = guest.crewPath ? read(guest.crewPath) : ''
+  return scanSenseWords(guestText, crewText)
+}
+
 function buildPrompt(guest, crewMeta) {
   if (!guest.crewPath) {
     throw new Error(`${guest.slug}: saknar crew_id, kan inte bygga prompt`)
@@ -228,6 +315,7 @@ function buildPrompt(guest, crewMeta) {
   const roster = formatRoster(guest, crewMeta)
   const definite = definiteCandidates(guest)
   const definiteLine = definite.length ? definite.join(', ') : 'none'
+  const senseLine = formatSenseHits(senseCandidates(guest))
 
   return `You are a clarity auditor. Evaluate whether one larp character briefing can stand on its own.
 
@@ -256,7 +344,7 @@ Also known:
 
 TASK: After reading those three files, evaluate how well YOU can understand your character and what is going on.
 
-Look for four kinds of gap. All belong in TERMS.
+Look for four kinds of gap, then a loaded-word sense check. Gaps 1–4 and any wrong sense belong in TERMS.
 
 1. Unexplained mentions: concepts, items, events, places, or mechanics that are named but never explained. The text incorrectly assumes you already understand them. Pirate names, team names, Salmonellahavet, Ovanan, Piratpulver, Paradisets ö, Gymmet, Storstugan, Gubben i stubben, Gumman på udden, and team-treasure doors need no explanation.
 
@@ -277,11 +365,25 @@ Look for four kinds of gap. All belong in TERMS.
    - Do not flag hunts meant to stay incomplete (Malin's chest, the unnamed lover).
    - Do not flag scenes the reader is supposed to play this weekend.
 
+5. Loaded-word sense (the words are allowed — flag only a wrong or mixed sense). Agents have mixed these up before. For each heuristic hit below, check that the meaning matches the rule. If the word is used correctly, do not flag it and do not list it in TERMS.
+
+   fasa / fasan: FASA (en fasa, definite form fasan) means terror or a terrifying being: "Svarta Malin är dess fasa", "en fasa till kapten" (a terrible captain). FASAN (en fasan, definite form fasanen) is the bird pheasant. The form "fasanen" is always the bird, never terror. Do not mix them. No flying, feather, or beak metaphors when the word means terror. The verb "fasar" (fears) and "fasad/fasaden" (facade) are different words — ignore them.
+
+   skatt: In this briefing, skatt is the correct word for BOTH a hidden object/treasure AND a levy/tax. Do not flag the word for existing. Do not suggest replacing it with avgift, taxa, or klenod. Flag only a mixed referent: a mention, or a pronoun/instruction ("ta den"), that could attach to the wrong sense when both appear nearby. Locally clear uses are fine even in the same file (betala / blankad / räkenskaper / efter bärkraft = tax; gömt / ta / kista / föremål / bakom fanan = treasure).
+
+   klöver / klubb / fyrklöver: Three different words. Klöver is the card suit (Clubs). Klubb is a society (e.g. spelklubb). Fyrklöver is the four-leaf-clover plant, a luck amulet — it has nothing to do with cards. Kapten Klöver is named after the suit: do not flag the pirate name. Kristallfyrklövern is the amulet, not the suit. Flag puns or sentences that mix them.
+
+   prejudikat: Here the word is the joke that pirates have always boarded ships and therefore have the right to plunder onward. It justifies boarding; it is not a tool you board WITH. Correct: "hänvisar till prejudikat", "rättfärdigar med prejudikat". Wrong: "plundrar med prejudikat", or treating it as general law, two-way justice, origin history, or a physical token. Do not flag a correct justifying use. Do not flag mere presence.
+
+   Heuristic hits in this briefing (guest + crew). Verify each; skip correct uses:
+${senseLine}
+
 OUTPUT exactly this structure, in Swedish:
 RATING: green | yellow | red
-(green = can act on everything; leftover questions are flavor. yellow = can play but some mentioned things lack explanation. red = cannot understand a central plot/instruction without guessing, including any empty-knowledge claim you are told to act on)
-TERMS: comma-separated list of unexplained terms/concepts/items/events AND empty-knowledge claims AND definite-form-without-intro AND referenced events without retelling, or "none"
+(green = can act on everything; leftover questions are flavor. yellow = can play but some mentioned things lack explanation, or a loaded word points at the wrong sense without blocking play. red = cannot understand a central plot/instruction without guessing, including any empty-knowledge claim you are told to act on, or a central instruction that hangs on the wrong sense of skatt/fasa/klöver/prejudikat)
+TERMS: comma-separated list of unexplained terms/concepts/items/events AND empty-knowledge claims AND definite-form-without-intro AND referenced events without retelling AND wrong/mixed loaded-word senses, or "none"
 EMPTY-KNOWLEDGE: each claim where the text says you already know something but never states what; quote a short phrase and say what is missing. or "none"
+SENSE: each loaded-word hit whose meaning is wrong or mixed; quote a short phrase and say which sense was used vs which was meant. or "none"
 UNDERSTANDING: 4-8 sentences: who you are, what you want this weekend, what is unclear.
 Do not suggest rewrites.
 `
@@ -300,7 +402,8 @@ function printList({ guests, crewMeta }) {
   console.log(`
 Rutin: content/intriger/clarity-review.md
 Prompt för en gäst: node scripts/clarity-review.js --prompt <slug>
-Bestämd form:       node scripts/clarity-review.js --scan <slug>
+Heuristik:          node scripts/clarity-review.js --scan <slug>
+                    (bestämd form + ordinnebörd: fasa, skatt, klöver, prejudikat)
 Alla promptfiler:   node scripts/clarity-review.js --write-prompts
 JSON:               node scripts/clarity-review.js --json`)
 }
@@ -347,7 +450,9 @@ if (flag('--json')) {
     process.exit(1)
   }
   const found = definiteCandidates(guest)
-  console.log(found.length ? found.join(', ') : 'none')
+  console.log('Bestämd form:', found.length ? found.join(', ') : 'none')
+  console.log('Ordinnebörd:')
+  console.log(formatSenseHits(senseCandidates(guest)))
 } else if (flag('--write-prompts')) {
   writePrompts(data)
 } else {
