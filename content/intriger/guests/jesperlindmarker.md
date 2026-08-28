@@ -6,7 +6,7 @@ mirrors:
   - slug: johannabergman
     note: hemlig romans, han vet om Prygel, hon vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: minervalowgren
-    note: hemlig romans, han vet om Klöver, hon vet inte + hon är din mullvad på Fromheten (tvåvägs, asymmetrisk kunskap)
+    note: hemlig romans (hennes register är lätt attraktion, inte åtrå), han vet om Klöver, hon vet inte + hon är din mullvad på Fromheten (tvåvägs, asymmetrisk kunskap)
   - slug: hampuslindblad
     note: obetald skuld och gammalt skämt (tvåvägs)
   - slug: gustaftadaa
@@ -24,7 +24,7 @@ En sådan rad känns för liten för din liggare. Just därför är den för god
 
 ## Handen som viskar från Fromheten {slug:minervalowgren}
 
-**Kapten Prygel** ger dig allt hon hör inne på **Fregatten Fromheten**, sina egna skeppskamraters planer och gömmen, för att hon vill ha dig mer än hon värnar sin egen besättnings ära. Hennes skuta utlyser piratval mot **Svarta Malin** och predikar rena händer. Hon står i predikan. Hon bär hemligheterna till dig. Ta emot det hon ger, och ge **Korvetten Kurtisanen** fördelen det ger, men var försiktig med hur du belönar henne: samma natt kan **Kapten Klöver** kräva din tid, och Prygel får aldrig ana att hon delar dig, precis lika lite som hon anar att masten hon rider också reser sig i annan kaj.
+**Kapten Prygel** ger dig allt hon hör inne på **Fregatten Fromheten**, sina egna skeppskamraters planer och gömmen, för att hon vill ha dig nära mer än hon värnar sin egen besättnings ära. Hennes skuta utlyser piratval mot **Svarta Malin** och predikar rena händer. Hon står i predikan. Hon bär hemligheterna till dig. Ta emot det hon ger, och ge **Korvetten Kurtisanen** fördelen det ger, men var försiktig med hur nära du låter henne komma: samma natt kan **Kapten Klöver** kräva din tid, och Prygel får aldrig ana att hon delar dig, precis lika lite som hon anar att den hon håller nära också hålls i annan kaj.
 
 Två kvinnor ger dig allt, och bara du vet hur nära den ena är att upptäcka den andra. Håll balansen, ta emot vad Prygel ger, och håll dig undan misstankar, innan festen är över och någon av dem räknar efter.
 
@@ -36,9 +36,9 @@ Din svarta liggare bär skulder, namn och gamla oförrätter, en del sanna, en d
 
 ## Två som inte vet om varandra {slug:johannabergman}
 
-Du delar säng med både **Kapten Klöver** och **Kapten Prygel**, var för sig, och ingen av dem vet om den andra. Du vill ha det så. Du vill ha Klöver mot madrassen och Prygel på knä, två munnar som båda tror att de är den enda, och du tänker mjölka den villfarelsen så länge den ger både kärlek och tjänster. Nu vill du utnyttja det: Klöver har hört ett namn, vem som angav dig, men vill ha betalt innan hon delar det.
+Du delar hemlighet med både **Kapten Klöver** och **Kapten Prygel**, var för sig, och ingen av dem vet om den andra. Du vill ha det så. Du vill ha Klöver mot madrassen och Prygel i famnen, två som båda tror att de är den enda, och du tänker mjölka den villfarelsen så länge den ger både kärlek och tjänster. Nu vill du utnyttja det: Klöver har hört ett namn, vem som angav dig, men vill ha betalt innan hon delar det.
 
-De två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning de aldrig gjort upp om, och deras groll gör att de hellre motarbetar varandra än går samman för din skull. Låt dem tävla om att lösa gåtan åt dig, var och en ovetande om att den andra delar din säng.
+De två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning de aldrig gjort upp om, och deras groll gör att de hellre motarbetar varandra än går samman för din skull. Låt dem tävla om att lösa gåtan åt dig, var och en ovetande om att den andra delar din hemlighet.
 
 ## Skulden i masten {slug:hampuslindblad}
 
