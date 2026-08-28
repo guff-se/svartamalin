@@ -10,7 +10,7 @@ mirrors:
   - slug: hampuslindblad
     note: romans, hon krossade hans hjärta för en skuta, Fuling vet inte (tvåvägs, asymmetrisk kunskap)
   - slug: louisevonbahr
-    note: fiende 5, auktionen och ryktet att du stal namnet (tvåvägs)
+    note: fiende 5, oljan vid förra skålen (tvåvägs)
 related: [edvinthungren, ulrikahammar, fabianmacklin, malintadaa, hampuslindblad, louisevonbahr]
 ---
 
@@ -36,13 +36,11 @@ När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, fö
 
 Nu seglar ni båda mot samma fest, och lusten dog aldrig. Han vill ha sexmagick, rök och rit och dörren bakom medvetandet, och du vill ta honom genom den igen, samma kropp du en gång stal ett skepp med. Ta honom innan festen är över. **Kapten Rötägg** ger dig manschettknappar och svär att han ändrat sig. Låt inte de två jämföra tider, och låt inte Rötägg få veta vems hjärta du redan krossat för en köls skull.
 
-## Namnet hon inte får låta gro {slug:louisevonbahr}
+## Oljan hon kallade feber {slug:louisevonbahr}
 
-**Kapten Fuling** förlorade en auktion mot dig för länge sen, och det som stack värst var inte förlusten utan hur den kom: du läste var hon bar sin börs och la sista budet med hennes eget silver. Hon svarade som hon alltid svarar på ett nederlag, med ett rykte. Kajen viskar fortfarande att du dansade på salongen Den Gyllene Sirenen, vände den förre Kapten Plankas besättning, lät honom gå plankan och stal hans namn.
+Vid förra kaptensskålen smorde du in **Kapten Fuling** med oljan från sirenerna, den som väcker en lust ingen kan tygla medan du själv står helt orörd av den. Kajen såg henne tappa värdigheten, höfterna före huvudet, och du log. Hon har i ett år kallat det feber. Aldrig olja.
 
-Det är precis den sortens trick du är bäst på, läsa någon och vända det som är deras mot dem själva, och precis den sortens rykte som gräver för djupt om det får gro ostört. Inte vem som vann en auktion. Vem du var innan du bar namnet. Tysta det innan det växer sig till en sanning ingen längre ifrågasätter.
-
-Du har oljan från sirenerna kvar i din koja, den som väcker en lust ingen kan tygla medan du själv står helt orörd av den. Smörj in Fuling vid honnörsbordet, där kaptenerna sitter i allas åsyn, och låt hela hamnen se en kapten som inte längre kan hålla värdigheten. Efter det minns ingen ryktet om plankan och namnet som något annat än ett dåligt skämt. Gör det innan festen är över, innan Fuling hinner så det på nytt.
+Gör om det vid honnörsbordet, bordet där **Svarta Malin** och de andra kaptenerna sitter först och skålar först, så ingen längre kan kalla det feber. Fuling kommer efter flaskan. Låt henne. En kapten som häller din olja på dig inför hamnen bevisar antingen att du är immun, eller att hon visste precis vad hon tog. Vinn den här gången också, innan festen är över.
 
 ## Siffran du bär {slug:linneaappert}
 

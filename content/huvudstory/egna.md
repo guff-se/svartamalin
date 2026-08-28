@@ -20,6 +20,20 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-28, fiende 5: oljan vid förra skålen
+
+Källa: Gustaf, i chatt.
+
+- [x] kör på 1.
+- [x] ta bort det påhittade ryktesordet ur projektet.
+- [x] gör om S-04 så att detta passar in.
+- [x] uppdatera alla projektfiler och intrigerna.
+- [x] ändra inte i clarity-audit.md och clarity-review.md
+
+Kryss = fiende 5 är oljan vid förra kaptensskålen, inte auktion och rykte. S-04 pekar på Fulings feberlögn, inte på sådda rykten. Det gamla ryktesordet borta ur källor och gästtext. Klarhetsfilerna orörda.
+
+---
+
 ## 2026-08-27, Fördärvets synd är frosseri
 
 Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md) och `../intriger/crews/1.md`.

@@ -430,7 +430,7 @@ fordelning:
     akt: II
     till: [jesperlindmarker]
     roll: jagare
-    vet: "att han vill veta vem som en gång angav honom och satte honom i fängelse, att hans svarta liggare behöver en ny rad, att Kapten Fuling alltid nekat att hon planterar rykten trots att kajen viskar att Kapten Planka dansade på Den Gyllene Sirenen, lät den förre kaptenen gå plankan och stal hans namn, att Kapten Klöver och Kapten Prygel båda delar säng med honom utan att veta om varandra och att han kan spela ut dem mot varandra, att Kapten Blåskägg bär en obetald skuld och ett gammalt skämt som gör honom till ett bekvämt mål för misstanke, och att Löjtnant Spader bär en gammal spelskuld till honom som han kan kräva in i mynt eller i ett rykte från spelborden"
+    vet: "att han vill veta vem som en gång angav honom och satte honom i fängelse, att hans svarta liggare behöver en ny rad, att Kapten Fuling tappade värdigheten vid förra kaptensskålen och sen dess svurit att det var feber, att Kapten Klöver har hört ett fragment om den som fortfarande kallar förra skålen för feber och att Kapten Prygel båda delar säng med honom utan att veta om varandra och att han kan spela ut dem mot varandra, att Kapten Blåskägg bär en obetald skuld och ett gammalt skämt som gör honom till ett bekvämt mål för misstanke, och att Löjtnant Spader bär en gammal spelskuld till honom som han kan kräva in i mynt eller i ett rykte från spelborden"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa]
     bygger_pa: "fiende: 5, 1, 8"
@@ -442,7 +442,7 @@ fordelning:
     akt: II
     till: [louisevonbahr]
     roll: barare
-    vet: "att Kapten Hurring letar efter vem som en gång angav honom, att hon alltid nekat att hon planterar rykten trots att hon efter en förlorad auktion sådde att Kapten Planka dansade på Den Gyllene Sirenen, vände den förre kaptenens besättning, lät honom gå plankan och stal hans namn, och att hon kan plantera samma rykte på nytt för att peka bort från sig själv"
+    vet: "att Kapten Hurring letar efter vem som en gång angav honom, att hon tappade värdigheten vid förra kaptensskålen när Kapten Planka smorde in henne och att hon sen dess svurit att det var feber, att hon kan peka bort från sig själv mot Planka, och att hon vill åt Plankas flaska och hälla oljan på henne vid honnörsbordet"
     vet_inte: "att hon själv är mullvad för Fromheten (skild hemlighet)"
     speglas: [jesperlindmarker]
     bygger_pa: "fiende: 5"
@@ -454,7 +454,7 @@ fordelning:
     akt: II
     till: [johannabergman]
     roll: vittne
-    vet: "att hon delar säng med Kapten Hurring utan att veta om Kapten Prygel, att hon hört ett skvallerfragment om en ryktesspridare, och att hon kan sälja det till Prygel mot choklad eller mynt"
+    vet: "att hon delar säng med Kapten Hurring utan att veta om Kapten Prygel, att hon hört ett skvallerfragment om den som fortfarande kallar förra skålen för feber, och att hon kan sälja det till Prygel mot choklad eller mynt"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [jesperlindmarker]
     bygger_pa: "romans: 12"
@@ -466,7 +466,7 @@ fordelning:
     akt: II
     till: [minervalowgren]
     roll: vittne
-    vet: "att hon delar sin kärlek till Kapten Hurring utan att veta om Kapten Klöver, att Klöver har ett skvallerfragment hon vill sälja dyrt, och att hon kan fuska med sin lilla kortlek för att lösa gåtan själv"
+    vet: "att hon delar sin kärlek till Kapten Hurring utan att veta om Kapten Klöver, att Klöver har ett skvallerfragment om den som fortfarande kallar förra skålen för feber som hon vill sälja dyrt, och att hon kan fuska med sin lilla kortlek för att lösa gåtan själv"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [jesperlindmarker]
     bygger_pa: "romans: 13"
