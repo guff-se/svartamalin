@@ -32,7 +32,7 @@ När mörkret faller måste du svälja ett piller ur din lilla krumelurburk, ann
 
 ## Mannen som inte svarar {slug:navidmodiri}
 
-Du skrev det en gång i ett brev, lindat i **Kapten Babord**s scarf, och smög det fram till **Kapten Döver** som om tystnad vore ett ja. Det var det inte. Inte högt. Men du har inte slutat vilja ha honom. Du vill ha händerna från hans workshop mot din hud, munnen som aldrig behöver svara, och en stund i koja där du får låta så högt att även en döv kapten skulle vända sig om.
+Du skrev det en gång i ett brev, lindat i **Kapten Babord**s scarf, och smög det fram till **Kapten Döver** som om tystnad vore ett ja. Det var det inte. Inte högt. Men du har inte slutat vilja ha honom. Du vill ha de talande händerna mot din hud, munnen som aldrig behöver svara, och en stund i koja där du får låta så högt att även en döv kapten skulle vända sig om.
 
 **Kapten Nykter** och **Kapten Rosing** slåss om din skymning och din burk, och du låter dem gärna tro att de är hela spelet. De är inte det. Spelet sitter i den man du en gång uppvaktade tills **Kapten Rötägg** bytte ut din doft och lät hela kajen skratta. Ta Döver i skuggan av syhörnan, skriv ett nytt brev, eller se till att Babord får veta att brevet i hennes scarf inte var det sista du tänker skicka. Gör det innan festen är över, innan någon annan tar den tystnad du fortfarande vill fylla.
 

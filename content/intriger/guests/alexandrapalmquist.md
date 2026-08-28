@@ -18,7 +18,7 @@ Din svåraste stund kommer när det gäller din egen skeppskamrat **Kapten Röt�
 
 ## Tecknen du översätter {slug:navidmodiri}
 
-**Kapten Döver** har hittat på ett eget teckenspråk och en påstådd dövhet, och du är den enda som håller masken helt rak när du "översätter" hans hittepåtecken inför andra. Du gör det för att du vill ha honom, och för att hans workshop på gården ger er båda ett skäl att stå så nära att hans händer kan hamna fel utan att någon blinkar. Du vill översätta mer än tecken. Du vill ha de händerna på bröstet, i håret, där ingen workshop räcker som täckmantel.
+**Kapten Döver** har hittat på ett eget teckenspråk och en påstådd dövhet, och du är den enda som håller masken helt rak när du "översätter" hans hittepåtecken inför andra. Du gör det för att du vill ha honom, och söker efter ursäkter att stå så nära att hans händer kan hamna fel utan att någon blinkar. Du vill översätta mer än tecken. Du vill ha de händerna på bröstet, i håret, där ingen workshop räcker som täckmantel.
 
 Håll ditt lugn även när någon tvivlar. Någon på ön kan riktigt teckenspråk och skulle kunna avslöja er båda med en enda felaktig gest. Skydda honom innan festen är över, precis som han skyddar sig själv. Ta honom i skuggan av gården, innan någon översätter er först.
 

@@ -256,7 +256,7 @@ Also known:
 
 TASK: After reading those three files, evaluate how well YOU can understand your character and what is going on.
 
-Look for three kinds of gap. All belong in TERMS.
+Look for four kinds of gap. All belong in TERMS.
 
 1. Unexplained mentions: concepts, items, events, places, or mechanics that are named but never explained. The text incorrectly assumes you already understand them. Pirate names, team names, Salmonellahavet, Ovanan, Piratpulver, Paradisets ö, Gymmet, Storstugan, Gubben i stubben, Gumman på udden, and team-treasure doors need no explanation.
 
@@ -270,10 +270,17 @@ Look for three kinds of gap. All belong in TERMS.
 3. Definite form without introduction (Swedish bestämd form). The first mention of a specific object or event is in definite form (-en, -et, -na) as if you already knew which one. Example: "jollen du kapade i dimman" without first establishing that there was a dinghy and that you cut it. Flag even when a relative clause is attached ("skålen där du kallade henne en fasa till kapten") if that is the first mention of the thing. Do not flag festen, hamnen, ön, kajen, gymmet, Storstugan, team-treasure doors, body parts, or a thing already introduced as "en X" / "ett X".
    Heuristic candidates in this file (verify each; skip flavor and anything already introduced): ${definiteLine}
 
+4. Referenced event without retelling. The text names a past incident by its outcome, excuse, or nickname, but never tells the scene. The character was supposedly there; the player was not. Ask: can I, from these three files alone, say WHAT happened — who did what to whom, with what? If you only have a result ("tappade värdigheten"), a cover story ("svurit att det var feber"), or a label ("det gamla sveket") without the incident, flag it.
+   Example: "Hon tappade värdigheten vid förra kaptensskålen och har sen dess svurit att det var feber." You know dignity was lost and fever is the excuse. You do not know what was done to her at the toast. Flag the untold incident even if you already flagged "kaptensskålen" as definite form. Naming the occasion is not the same as retelling the event.
+   - Do not flag an event the same paragraph then narrates (who, what, with what).
+   - Do not flag a mystery the text tells you you do not know (e.g. you still do not know who informed on you). That is a hunt, not a missing scene.
+   - Do not flag hunts meant to stay incomplete (Malin's chest, the unnamed lover).
+   - Do not flag scenes the reader is supposed to play this weekend.
+
 OUTPUT exactly this structure, in Swedish:
 RATING: green | yellow | red
 (green = can act on everything; leftover questions are flavor. yellow = can play but some mentioned things lack explanation. red = cannot understand a central plot/instruction without guessing, including any empty-knowledge claim you are told to act on)
-TERMS: comma-separated list of unexplained terms/concepts/items/events AND empty-knowledge claims AND definite-form-without-intro, or "none"
+TERMS: comma-separated list of unexplained terms/concepts/items/events AND empty-knowledge claims AND definite-form-without-intro AND referenced events without retelling, or "none"
 EMPTY-KNOWLEDGE: each claim where the text says you already know something but never states what; quote a short phrase and say what is missing. or "none"
 UNDERSTANDING: 4-8 sentences: who you are, what you want this weekend, what is unclear.
 Do not suggest rewrites.

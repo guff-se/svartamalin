@@ -24,7 +24,7 @@ related: [petterwallberg, hampuslindblad, johannabergman, josefinansund, minimac
 
 Det viskas att **Svarta Malin** håller räkning på alla som är skyldiga henne, och att räkenskapen hänger i Storstugan: en vägg full av porträtt, döpt "de värsta kaptener som finns". Ditt eget porträtt hänger där som allas gör, men ditt namn är skuldfritt. Du står inte i skuld till henne, och det vet du med gott samvete.
 
-Hör du någon leta efter var loggen sitter, kan du peka dit utan att fråga varför. Ta med dig **Fregatten Fromheten** om du vill sälja tipset dyrt, eller behåll det som ett skämt bara du känner till.
+Hör du någon leta efter var skuldbreven sitter, kan du peka dit utan att fråga varför. Kommer du sälja tipset dyrt, eller för bara smicker?
 
 ## Skäggens Konung {slug:petterwallberg}
 

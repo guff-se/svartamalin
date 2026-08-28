@@ -4,13 +4,14 @@ Intern. Inte gästcopy. Resultat landar i [`clarity-audit.md`](clarity-audit.md)
 
 Syftet: varje `guests/{slug}.md` ska stå för sig själv tillsammans med läsarens lagfil och världs-ingången. En gäst har inte andras gästfiler, inte `huvudstory/`, inte yaml. Om texten nämner något som den läsaren inte kan förstå: det är en lucka.
 
-Två sorters luckor, den andra är värre. En tredje fångar samma slags lucka i grammatiken:
+Fyra sorters luckor. Den andra är värre än den första. Den tredje är samma lucka i grammatiken. Den fjärde är samma lucka i dramaturgi: en händelse som förutsätts känd.
 
 1. **Oförklarad mention.** Ett föremål, en plats, en mekanik namnges som om läsaren redan visste vad det är (`krumelurpillret`).
 2. **Tom kunskap.** Texten säger att *du* redan vet, har sett, har hört eller har valt en specifik sak, men säger aldrig vad saken är. Typiskt: "Du vet redan … vem hon egentligen väljer" utan att namnge valet. Läsaren kan inte spela "jag vet X" när X saknas. Sök i brödtexten efter `du vet`, `du vet redan`, `du känner till`, `du har sett`, `bara du vet`, `du är den enda som vet`, `du har hört`. Fråga: kan jag, bara från de tre filerna, säga *vad* det är jag vet? Om nej: tom kunskap. Inte `du vet inte` / `du anar inte` (det är avsiktlig okunskap). Inte kunskap som samma stycke just har sagt. Inte lagskatternas dörrar (lagen byggde dem). Om texten sen säger åt läsaren att agera på faktumet (säga, tiga, använda, välja): **rött**.
 3. **Bestämd form utan intro.** Första nämnandet av en sak i bestämd form (`skålen`, `jollen`) som om läsaren redan visste vilken. Typiskt med relativsats: `jollen du kapade i dimman`, `skålen där du kallade henne…`. Flagga även då, när det är första gången saken nämns. Inte: festen, hamnen, ön, kajen, gymmet, Storstugan, lagskattdörrar, kroppsdelar, eller något som redan presenterats som `en X` / `ett X`. Scriptet listar kandidater via `--scan` (bestämd form + där/som/du/hon/han) och stoppar in dem i prompten. Auditorn avgör.
+4. **Händelse utan återberättelse.** Texten nämner en dåtida händelse vid utfall, täckhistoria eller smeknamn, men återberättar aldrig scenen. Karaktären var där; spelaren var det inte. Typiskt: "Hon tappade värdigheten vid förra kaptensskålen och har sen dess svurit att det var feber." Läsaren vet att värdighet tappades och att feber är ursäkten, inte *vad som gjordes mot henne vid skålen*. Att namnge tillfället (`förra kaptensskålen`) räcker inte. Fråga: kan jag, bara från de tre filerna, säga *vad som hände* (vem gjorde vad mot vem, med vad)? Om du bara har ett resultat, en täckhistoria eller en etikett: flagga händelsen, även om substantivet redan är flaggat som bestämd form. Inte: händelser samma stycke sedan berättar (vem, vad, med vad). Inte: gåtor texten säger att du inte vet (vem som angav dig). Inte: jakter som ska förbli ofullständiga (Malins kista, den namnlösa älskaren). Inte: scener läsaren ska spela den här helgen.
 
-Verifierat 2026-08-28 mot `malintadaa` ("Skålen hon aldrig glömde"): `skålen`, `jollen`.
+Verifierat 2026-08-28 mot `malintadaa` ("Skålen hon aldrig glömde"): `skålen`, `jollen`. Verifierat mot `jesperlindmarker` ("tappade värdigheten vid förra kaptensskålen"): händelsen, inte bara skålen.
 
 ## Vad en granskare får
 
@@ -48,7 +49,7 @@ Output per gäst, på svenska, exakt:
 
 ```
 RATING: green | yellow | red
-TERMS: kommaseparerad lista (oförklarade mentions, tom kunskap, bestämd form utan intro), eller "none"
+TERMS: kommaseparerad lista (oförklarade mentions, tom kunskap, bestämd form utan intro, händelse utan återberättelse), eller "none"
 EMPTY-KNOWLEDGE: varje påstående där texten säger att du redan vet något utan att säga vad, eller "none"
 UNDERSTANDING: 4-8 meningar. Vem du är, vad du vill i helgen, vad som är oklart.
 ```
@@ -81,7 +82,7 @@ Ny runda överst, med datum och metod (vad subagenterna faktiskt fick). Sedan:
 - Antal green / yellow / red.
 - Rött: vad som blockerar, och en åtgärd.
 - Tabell per gäst: slug, piratnamn, lag, betyg, termer, tom kunskap.
-- Mönster: tom kunskap (du-vet utan innehåll) vs oförklarade mentions vs jakt som är tänkt att vara ofullständig (Malins kista). Flagga inte undantagen.
+- Mönster: tom kunskap (du-vet utan innehåll) vs oförklarade mentions vs händelse utan återberättelse vs jakt som är tänkt att vara ofullständig (Malins kista). Flagga inte undantagen.
 
 Aktuell mall: gästfil + lagfil + `intriger_intro.md` + roster + undantagen. Äldre rundor (1-4) är arkiv. Kör inte dem om ingen ber om det.
 
