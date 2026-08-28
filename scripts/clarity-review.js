@@ -25,6 +25,7 @@ const GUESTS_DIR = join(ROOT, 'content/intriger/guests')
 const CREWS_DIR = join(ROOT, 'content/intriger/crews')
 const ROLLER_DIR = join(ROOT, 'content/roller')
 const ANTECK_DIR = join(ROOT, 'content/anteckningar')
+const INTRO_PATH = join(ROOT, 'content/copy/intriger_intro.md')
 const PROMPTS_DIR = join(ROOT, 'tmp/clarity-review')
 
 const args = process.argv.slice(2)
@@ -145,29 +146,36 @@ function buildPrompt(guest, crewMeta) {
   return `You are a clarity auditor. Evaluate whether one larp character briefing can stand on its own.
 
 STRICT RULES:
-- Use the Read tool ONLY on these two files, then stop. No other files. No Grep, Glob, or exploration.
+- Use the Read tool ONLY on these three files, then stop. No other files. No Grep, Glob, or exploration.
   1. ${guest.guestPath}
   2. ${guest.crewPath}
+  3. ${INTRO_PATH}
 - Do not use any outside knowledge of this larp or this project. Do not infer from training data.
 - YAML between --- fences and \`{slug:...}\` tags in headings are metadata the guest does not see. Ignore them.
 - Do not invent explanations for unexplained terms.
 
 READER IDENTITY: You are **${guest.pirateName}** of **${guest.crewName}**. This is YOU. This is YOUR TEAM.
 
-KNOWN TO THE READER (everyone at the party; names and teams are known; do not flag these as unexplained):
+KNOWN TO THE READER (do not flag these as unexplained):
 
 ${roster}
 
-TASK: After reading those two files, evaluate how well YOU can understand your character and what is going on.
+Also known:
+- Salmonellahavet and Ovanan are known words (the sea and the island). The intro names them.
+- Gubben i stubben and Gumman på udden are clues you can work out from the names (a stump, a point of land). Do not ask for a further explanation of what they are.
+- Team-treasure doors (lagskatter): each crew built its own doors. They already know how to handle them. Intrigue text about a code digit, "nästa ledtråd", an achilles heel, or the first step toward another crew's treasure is a reminder, not a new mechanic. Do not flag those as unexplained.
+
+TASK: After reading those three files, evaluate how well YOU can understand your character and what is going on.
 
 Look for two kinds of gap. Both belong in TERMS.
 
-1. Unexplained mentions: concepts, items, events, places, or mechanics that are named but never explained. The text incorrectly assumes you already understand them. Pirate names and team names from the roster need no explanation.
+1. Unexplained mentions: concepts, items, events, places, or mechanics that are named but never explained. The text incorrectly assumes you already understand them. Pirate names, team names, Salmonellahavet, Ovanan, Gubben i stubben, Gumman på udden, and team-treasure doors need no explanation.
 
-2. Empty knowledge (more serious than an unexplained prop): the text asserts that YOU already know, have heard, have seen, or have already chosen a specific fact, but the two documents never state the content of that fact. Search the body for claims like "du vet", "du vet redan", "du känner till", "du har sett", "bara du vet", "du är den enda som vet", "du har hört". Then ask: can I, from these two files alone, say WHAT it is that I know? If no, it is empty knowledge.
+2. Empty knowledge (more serious than an unexplained prop): the text asserts that YOU already know, have heard, have seen, or have already chosen a specific fact, but the three documents never state the content of that fact. Search the body for claims like "du vet", "du vet redan", "du känner till", "du har sett", "bara du vet", "du är den enda som vet", "du har hört". Then ask: can I, from these three files alone, say WHAT it is that I know? If no, it is empty knowledge.
    - Flag it even if the surrounding plot is otherwise playable.
    - Do not flag "du vet inte" / "du anar inte" (those tell you that you lack knowledge).
    - Do not flag knowledge the same paragraph just stated (e.g. "din dövhet är påhitt … du vet att den är påhitt").
+   - Do not flag team-treasure doors (the crew already knows those).
    - If the text then tells you to act on that fact (say it, withhold it, use it, choose based on it), the rating is red. You cannot play "I already know X" when X is missing.
 
 OUTPUT exactly this structure, in Swedish:
@@ -212,6 +220,7 @@ function writePrompts({ guests, crewMeta }) {
       promptFile: file,
       guestPath: g.guestPath,
       crewPath: g.crewPath,
+      introPath: INTRO_PATH,
     })
   }
   writeFileSync(join(PROMPTS_DIR, 'index.json'), JSON.stringify(index, null, 2) + '\n')

@@ -2,12 +2,12 @@
 
 Intern. Inte gästcopy. Resultat landar i [`clarity-audit.md`](clarity-audit.md).
 
-Syftet: varje `guests/{slug}.md` ska stå för sig själv tillsammans med läsarens lagfil. En gäst har inte andras gästfiler, inte `huvudstory/`, inte yaml. Om texten nämner något som den läsaren inte kan förstå: det är en lucka.
+Syftet: varje `guests/{slug}.md` ska stå för sig själv tillsammans med läsarens lagfil och världs-ingången. En gäst har inte andras gästfiler, inte `huvudstory/`, inte yaml. Om texten nämner något som den läsaren inte kan förstå: det är en lucka.
 
 Två sorters luckor, den andra är värre:
 
-1. **Oförklarad mention.** Ett föremål, en plats, en mekanik namnges som om läsaren redan visste vad det är (`krumelurpillret`, `Gubben i stubben`).
-2. **Tom kunskap.** Texten säger att *du* redan vet, har sett, har hört eller har valt en specifik sak, men säger aldrig vad saken är. Typiskt: "Du vet redan … vem hon egentligen väljer" utan att namnge valet. Läsaren kan inte spela "jag vet X" när X saknas. Sök i brödtexten efter `du vet`, `du vet redan`, `du känner till`, `du har sett`, `bara du vet`, `du är den enda som vet`, `du har hört`. Fråga: kan jag, bara från de två filerna, säga *vad* det är jag vet? Om nej: tom kunskap. Inte `du vet inte` / `du anar inte` (det är avsiktlig okunskap). Inte kunskap som samma stycke just har sagt. Om texten sen säger åt läsaren att agera på faktumet (säga, tiga, använda, välja): **rött**.
+1. **Oförklarad mention.** Ett föremål, en plats, en mekanik namnges som om läsaren redan visste vad det är (`krumelurpillret`).
+2. **Tom kunskap.** Texten säger att *du* redan vet, har sett, har hört eller har valt en specifik sak, men säger aldrig vad saken är. Typiskt: "Du vet redan … vem hon egentligen väljer" utan att namnge valet. Läsaren kan inte spela "jag vet X" när X saknas. Sök i brödtexten efter `du vet`, `du vet redan`, `du känner till`, `du har sett`, `bara du vet`, `du är den enda som vet`, `du har hört`. Fråga: kan jag, bara från de tre filerna, säga *vad* det är jag vet? Om nej: tom kunskap. Inte `du vet inte` / `du anar inte` (det är avsiktlig okunskap). Inte kunskap som samma stycke just har sagt. Inte lagskatternas dörrar (lagen byggde dem). Om texten sen säger åt läsaren att agera på faktumet (säga, tiga, använda, välja): **rött**.
 
 Verifierat 2026-08-28 mot `navidmodiri` ("Det du hör vid syhörnan"): rött, EMPTY-KNOWLEDGE på Barnsbens val.
 
@@ -17,15 +17,20 @@ En subagent per gäst. Inget mer i kontextfönstret.
 
 1. Den gästens `guests/{slug}.md`.
 2. Den gästens lags `crews/{crew_id}.md`.
-3. En roster: de fem lagnamnen och alla piratnamn + lag. Läsarens eget namn och lag är utmärkta. Rostern är känd för läsaren. Flagga inte namnen som oförklarade.
+3. [`../copy/intriger_intro.md`](../copy/intriger_intro.md) (världs-ingången, samma för alla).
+4. En roster: de fem lagnamnen och alla piratnamn + lag. Läsarens eget namn och lag är utmärkta. Rostern är känd för läsaren. Flagga inte namnen som oförklarade.
 
 YAML mellan `---` och `{slug:…}` i rubriker syns inte för gästen. Subagenten ska ignorera dem.
 
+### Undantag (flagga inte)
+
+- **Gubben i stubben / Gumman på udden.** Ledtrådar som går att lista ut från namnen. Ingen ytterligare förklaring.
+- **Dörrar till lagskatter.** Lagen byggde dem själva och vet hur de ska hanteras. Det som står i intrigerna (siffra till kod, nästa ledtråd, akilleshäl, första steget mot en annan skutas skatt) är en påminnelse, inte en ny mekanik. Malins låsta kista är inte en lagskatt.
+- **Salmonellahavet, Ovanan.** Kända ord.
+
 ## Vad en granskare inte får
 
-Inga andra filer. Ingen `roller/`, `anteckningar/`, `copy/`, `huvudstory/`, yaml, STYLE.md, tidigare audit, andras gästfiler. Ingen worldbuilding utöver rostern. Subagenten får inte gissa från träning.
-
-`copy/intriger_intro.md` läser en verklig gäst. Den här rundan ger den **inte**. Världsnamn som `Salmonellahavet` och `Ovanan` kommer därför ofta som gult. I rapporten: lista dem, men skilj dem från luckor i *den här* personens handling.
+Inga andra filer. Ingen `roller/`, `anteckningar/`, övrig `copy/`, `huvudstory/`, yaml, STYLE.md, tidigare audit, andras gästfiler. Ingen worldbuilding utöver rostern, introt och undantagen. Subagenten får inte gissa från träning.
 
 ## Betyg
 
@@ -48,11 +53,11 @@ Inga omskrivningsförslag från subagenten.
 
 ## Kör om (Cursor)
 
-Parent-agenten (den här chatten) gör jobbet. Subagenterna läser bara två filer.
+Parent-agenten (den här chatten) gör jobbet. Subagenterna läser bara tre filer.
 
 1. Kör `npm run clarity-review -- --write-prompts`. Scriptet läser `guests/`, `crews/` och `roller/` och skriver en promptfil per gäst under `tmp/clarity-review/` (gitignoreras). Prompttexten ägs av [`scripts/clarity-review.js`](../../scripts/clarity-review.js). Ändra den där, inte här.
 2. Spawna **en** Task-subagent per slug. `subagent_type: generalPurpose`. Prompt = innehållet i `tmp/clarity-review/{slug}.txt`. En karaktär per agent. Parallellt. Ge inte extra text i prompten.
-3. Subagenten får bara använda Read på de två sökvägar som står i prompten. Inget Grep, inget Glob, inga andra filer.
+3. Subagenten får bara använda Read på de tre sökvägar som står i prompten. Inget Grep, inget Glob, inga andra filer.
 4. Samla `RATING`, `TERMS`, `UNDERSTANDING` från varje agent.
 5. Skriv en **ny runda** överst i [`clarity-audit.md`](clarity-audit.md). Behåll äldre rundor som arkiv. Rör inte gästtexterna i samma svep (granskning och omskrivning är två uppgifter).
 6. Committa audit-filen när rundan är klar.
@@ -70,9 +75,9 @@ Ny runda överst, med datum och metod (vad subagenterna faktiskt fick). Sedan:
 - Antal green / yellow / red.
 - Rött: vad som blockerar, och en åtgärd.
 - Tabell per gäst: slug, piratnamn, lag, betyg, termer, tom kunskap.
-- Mönster: tom kunskap (du-vet utan innehåll) vs oförklarade mentions vs jakt som är tänkt att vara ofullständig vs världsnamn som copy redan täcker.
+- Mönster: tom kunskap (du-vet utan innehåll) vs oförklarade mentions vs jakt som är tänkt att vara ofullständig (Malins kista). Flagga inte undantagen.
 
-Runda 3 (2026-08-28) är mallen: gästfil + lagfil + roster. Runda 2 gav också `roller/`. Runda 1 var bara gästfil. Kör inte runda 1 eller 2 om ingen ber om det.
+Aktuell mall: gästfil + lagfil + `intriger_intro.md` + roster + undantagen. Äldre rundor (1-3) är arkiv. Kör inte dem om ingen ber om det.
 
 ## Vem som ingår
 
