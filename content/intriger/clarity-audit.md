@@ -129,7 +129,7 @@ Noll grönt beror till stor del på att den här rundan **inte** ger `roller/` e
 
 | Slug | Piratnamn | Lag | Betyg | Termer som behöver förklaring |
 |---|---|---|---|---|
-| malintadaa | Svarta Malin | Kurtisanen | 🔴 | den hemliga älskaren; arvssyndsskatt; Korvetten Kurtisanens kod; siffran; skatten; kistan; Salmonellahavet; Ovanan; skiffen i dimman; Kapten Kulings last; Fördärvets fat |
+| malintadaa | Svarta Malin | Kurtisanen | 🔴 | den hemliga älskaren; arvssyndsskatt; Korvetten Kurtisanens kod; siffran; skatten; kistan; Salmonellahavet; Ovanan; jollen i dimman; Kapten Kulings last; Fördärvets fat |
 | navidmodiri | Kapten Döver | Fördärvet | 🟡 | krumelurpillret; vem Kapten Barnsben väljer; jubilarens hemliga älskare; sanningsserum |
 | alexandrapalmquist | Kapten Babord | Gnället | 🟡 | Dövers workshop; Malins kista; historien; Barnsbens brev |
 | jesperlindmarker | Kapten Hurring | Kurtisanen | 🟡 | piratval; koden; siffran; kistan; skatten; Ovanan; Salmonellahavet |

@@ -8,7 +8,7 @@ mirrors:
   - slug: gustaftadaa
     note: hemlig romans (tvåvägs); hon bär hans halsband i spader; hon ensam vet om hans lek med bara spaderess
   - slug: malintadaa
-    note: gammalt groll, fasa-skålen och skiffen (tvåvägs)
+    note: gammalt groll, fasa-skålen och jollen (tvåvägs)
 # linneaekbom kan varna dig i smyg, enväg, speglas inte
 related: [josefinlowing, minervalowgren, linneaekbom, gustaftadaa, malintadaa]
 ---
@@ -21,7 +21,7 @@ En sådan detalj är för god att bara höra och glömma. Ta med dig **Galeonen 
 
 ## Skålen hon aldrig glömde {slug:malintadaa}
 
-**Svarta Malin** skålade en gång, inför öppen hamn, för "en fasa till kapten" och menade dig. Sen kapade hon din lilla skiff i dimman och lät dig simma hem i skammen, medan hela Salmonellahavet skrattade med henne. Det glömmer du aldrig, och du tänker inte låta henne glömma det heller.
+**Svarta Malin** skålade en gång, inför öppen hamn, för "en fasa till kapten" och menade dig. Sen kapade hon din lilla jolle i dimman och lät dig simma hem i skammen, medan hela Salmonellahavet skrattade med henne. Det glömmer du aldrig, och du tänker inte låta henne glömma det heller.
 
 Nu är det hennes fest, hennes rom, hennes garde nere mitt i firandet. Du vill att hon ska bära samma skam du en gång fick bära. Låt en skål slå fel. Låt kajen skratta åt jubilaren. Ta tillbaka namnet hon spottade ur sig, innan helgen är över.
 

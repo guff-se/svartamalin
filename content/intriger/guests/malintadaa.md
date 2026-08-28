@@ -4,7 +4,7 @@ mirrors:
   - slug: ludvigvonbahr
     note: synlig diskret romans, avledning för hamnen (tvåvägs)
   - slug: elinmartensson
-    note: gammalt groll, fasa-skålen och skiffen (tvåvägs)
+    note: gammalt groll, fasa-skålen och jollen (tvåvägs)
   - slug: josefinlowing
     note: gammal oförrätt, Fördärvets fordran (tvåvägs)
   - slug: amandamungsgard
@@ -20,7 +20,7 @@ Festen är din fälla och romen är linan du själv drar i. Namnet Svarta Malin 
 
 ## Skålen hon aldrig glömde {slug:elinmartensson}
 
-**Kapten Plåthorn** bär fortfarande skålen där du kallade henne en fasa till kapten, och skiffen du kapade i dimman. Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig till något, vad som helst. Låt henne. Skyldig till fel sak är den bästa sortens skyldig. Nicka inte. Neka inte. Skål med henne som om ingenting, och låt hennes eget groll göra resten av jobbet åt dig.
+**Kapten Plåthorn** bär fortfarande skålen där du kallade henne en fasa till kapten, och jollen du kapade i dimman. Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig till något, vad som helst. Låt henne. Skyldig till fel sak är den bästa sortens skyldig. Nicka inte. Neka inte. Skål med henne som om ingenting, och låt hennes eget groll göra resten av jobbet åt dig.
 
 ## Två som väntar på sitt tillfälle {slug:josefinlowing}
 
