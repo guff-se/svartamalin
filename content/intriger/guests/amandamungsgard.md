@@ -35,3 +35,9 @@ Du och **Kapten Klöver** har länge planerat en hemlig, exklusiv ätupplevelse 
 **Svarta Malin** avfärdade din arvssyndsskatt i en skål inför hela hamnen, kallade den söt men tvåa, som om ditt hantverk var en barnlek jämfört med hennes egen ståt. Du sa inget tillbaka. Du behöver inte stå mitt i ett drama för att få rätt.
 
 Ta upp skatten där **Korvetten Kurtisanen** går förbi, och lägg din taxa på var och en av dem som bär hennes namn och skryter om att stå henne nära. Låt jubilarens eget folk betala för den stolthet hon själv kallade tvåa, mynt för mynt, tills din skatt med mynt och sedlar väger tyngre än hennes skål. Du behöver aldrig nämna hennes namn för att hon ska förstå vem som skickade räkningen.
+
+## Brevet som blankar boken {slug:ludvigvonbahr}
+
+Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick straffet efterskänkt och registret struket, som om ingenting någonsin hänt. Frompiraterna säljer samma sak, bara utan mynt. Den som knäböjer och ber om ursäkt får brevet, sin skatt blankad och sitt namn raderat ur räkenskaperna. Du skriver det. Du stryker boken.
+
+**Kapten Dunka** kan betala din arvssyndsskatt i mynt eller i en berättelse. Han kan också knäböja. Han kommer inte knäböja. **Svarta Malin** har aldrig betalat skatt och tänker inte be. Låt hamnen se vem som går blank ur boken och vem som står kvar. Utfärda avlat där du tar in skatten, utan scen, innan sista skålen: Frompiraterna förlåter, och förlåtelsen har ett papper.

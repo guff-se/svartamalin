@@ -20,13 +20,17 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
-## 2026-08-28, avlatsbrev hos Hjärter och Rödskägg
+## 2026-08-28, avlatsbrev även för Kosing
 
 Källa: Gustaf, i chatt.
 
-- [x] se till att ordet förklaras ordentligt i Hjärter och Rödskäggs intriger.
+- [x] fixa avlatsbrev även för kosing, så som det beskrivits i andra intriger.
 
-Kryss = ordet avlatsbrev förklaras i `../intriger/guests/jesperlejfjord.md` och `../intriger/guests/viktoransund.md`: papperet som efterskänker straff, kyrkans handel mot mynt, Frompiraternas version mot ursäkt, att de utfärdar det.
+Kryss = samma förklaring som hos Hjärter och Rödskägg står i `../intriger/guests/amandamungsgard.md`: papperet som efterskänker straff, kyrkans handel mot mynt, Frompiraternas version mot ursäkt, att hon skriver brevet och stryker boken.
+
+---
+
+## 2026-08-28, avlatsbrev hos Hjärter och Rödskägg
 
 ---
 
