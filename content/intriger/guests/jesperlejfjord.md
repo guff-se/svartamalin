@@ -39,9 +39,9 @@ I år sitter ni äntligen samma bord, vid kökskanten där du ändå står med g
 
 ## Brevet som blankar boken {slug:johannabergman}
 
-Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick straffet efterskänkt och registret struket, som om ingenting någonsin hänt. Frompiraterna säljer samma sak, bara utan mynt. Den som knäböjer och ber om ursäkt får brevet, sin piratskatt blankad och sitt namn raderat ur räkenskaperna. Du skriver det. Du stryker boken.
+Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick straffet efterskänkt och registret struket, som om ingenting någonsin hänt. Frompiraterna säljer samma sak, bara utan mynt. Den som knäböjer och ber om ursäkt får brevet, sin skatt blankad och sitt namn raderat ur räkenskaperna. Du skriver det. Du stryker boken.
 
-**Svarta Malin** har aldrig betalat piratskatt och tänker inte be. **Kapten Klöver** bar din kristallfyrklöver från bordet: hon kan få brevet om hon ber, och hon kommer inte be. Låt hamnen se vem som går blank ur boken och vem som står kvar. Utfärda avlat från grytorna innan sista skålen, så kajen förstår att Frompiraterna förlåter, och att förlåtelsen har ett papper.
+**Svarta Malin** har aldrig betalat skatt och tänker inte be. **Kapten Klöver** bar din kristallfyrklöver från bordet: hon kan få brevet om hon ber, och hon kommer inte be. Låt hamnen se vem som går blank ur boken och vem som står kvar. Utfärda avlat från grytorna innan sista skålen, så kajen förstår att Frompiraterna förlåter, och att förlåtelsen har ett papper.
 
 ## Mannen som hör allt {slug:navidmodiri}
 
@@ -51,4 +51,4 @@ Han vet att du vet, och han sabbar gärna dina planer i förväg om han anar vad
 
 ## Tungans pris {slug:jesperlejfjord}
 
-Smicker lossar din tunga. Fjäsk gör att du läcker hemligheter direkt, och du vet det. Om någon smeker ditt ego tills det slår knut: släpp nästa ledtråd till **Fregatten Fromheten**s gömda skatt. En from kapten som inte kan hålla tätt ska åtminstone hålla spåret vid liv.
+Smicker lossar din tunga. Fjäsk gör att du läcker hemligheter direkt, och du vet det. Om någon smeker ditt ego tills det slår knut: släpp nästa ledtråd till **Fregatten Fromheten**s skatt. En from kapten som inte kan hålla tätt ska åtminstone hålla spåret vid liv.

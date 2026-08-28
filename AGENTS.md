@@ -100,7 +100,7 @@ curl -s "${VITE_SUPABASE_URL}/rest/v1/guests?select=login_slug,real_name,crew_id
 - Vad vet karaktären? De läser bara egen `guests/`-fil, egen `crews/`-fil och `content/copy/`. Referera inte till andras intriger eller sidequests de inte är med i, om det inte lyfts in i *deras* text.
 - Inte Fredag/Lördag som standardavslut. Schema längst ner bara om tidpunkten är själva saken. Annars: vilja, hinder, helgen. Inte spelledning om när de ska spela.
 - Han/hon/hen: slå upp `real_name` i `content/anteckningar/{slug}.md`. Piratnamn styr inte kön. Okänd person: hen, eller skriv om utan pronomen. Anta inte att kaptener är män.
-- **Skatt är två engelska ord.** Treasure: lagskatt, klenod, kistans loot. Tax: piratskatt, arvssyndsskatt. Gästtext får båda. Intern text märker vilken: [`content/huvudstory/skatt.md`](content/huvudstory/skatt.md). Jämför inte Malins treasure med Kosings tax.
+- **skatt (treasure) och skatt (tax).** Gästtext skriver "skatt" för båda. Intern text märker alltid vilken: [`content/huvudstory/skatt.md`](content/huvudstory/skatt.md). Jämför inte Malins treasure med Kosings tax.
 
 ## Huvudstory (lajvets övergripande berättelse)
 
@@ -111,7 +111,7 @@ Arbetsordningen är tvåstegs och får inte kortslutas:
 1. **Designa** i `content/huvudstory/` (premiss, kanon, akter, pussel, sidequests). Rak teknisk prosa, ingen revyröst.
 2. **Distribuera** via `content/huvudstory/fordelning.yaml`, som är bryggan till gästtexten. Först när en story-bit har en post där skrivs text i `content/intriger/guests/{slug}.md` eller `crews/{id}.md` enligt `STYLE.md`, varefter status sätts till `done`.
 
-Läs `content/huvudstory/README.md` för filkarta, invarianter och definition of done, [`content/huvudstory/skatt.md`](content/huvudstory/skatt.md) för treasure vs tax, samt `content/huvudstory/RESEARCH.md` för de designprinciper (lajvintriger, escape rooms, säkerhetsmekanik) som besluten vilar på.
+Läs `content/huvudstory/README.md` för filkarta, invarianter och definition of done, [`content/huvudstory/skatt.md`](content/huvudstory/skatt.md) för treasure mot tax, samt `content/huvudstory/RESEARCH.md` för de designprinciper (lajvintriger, escape rooms, säkerhetsmekanik) som besluten vilar på.
 
 ## Innehållstexter (`content/copy`)
 

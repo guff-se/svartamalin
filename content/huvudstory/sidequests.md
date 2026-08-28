@@ -255,19 +255,19 @@ Deltagare:      Kapten Dunka (`ludvigvonbahr`), Kapten Kosing (`amandamungsgard`
 Roll i storyn:  bärare (Dunka) / grindvakt (Kosing) / jägare (Nykter) / vittne (Klöver)
 Kopplad till:   ingen beat än. Låg intensitet för Kosing: ingen ring, ingen kidnappning, inget centrum.
 
-Vad de vill:    Kosing vill lägga sin påhittade arvssyndsskatt (tax, inte treasure) just på Dunka, som kommer från överklassen. Nykter, som redan gjort Dunkas svärdhistoria till ett hamnskämt (fiende 20), vill se honom svettas en gång till, men gör det indirekt: han pekar ut det svaga stället åt Kosing istället för att själv stå i vägen för Dunka. Klöver, som redan planerat en hemlig ätupplevelse med Kosing, vill se den bli lönsam.
+Vad de vill:    Kosing vill lägga sin påhittade arvssyndsskatt (tax) just på Dunka, som kommer från överklassen. Nykter, som redan gjort Dunkas svärdhistoria till ett hamnskämt (fiende 20), vill se honom svettas en gång till, men gör det indirekt: han pekar ut det svaga stället åt Kosing istället för att själv stå i vägen för Dunka. Klöver, som redan planerat en hemlig ätupplevelse med Kosing, vill se den bli lönsam.
 Vad står i vägen: Dunka vaktar sitt tveeggade svärd svartsjukt och låter aldrig någon granska det på nära håll, av skräck för att avslöjas som falsk under fasaden. Samtidigt njuter han i hemlighet av ryktet att han setts vid Malins bord (den synliga romansen med Malin som Dunka bär i S-01, jakten på hennes älskare), vilket gör honom svårare att skrämma: han känner sig redan som en stor man den här helgen.
-Varför nu:      festens skålande och skryt ger den naturliga scenen, och Kosing tar upp tax (avgift) hela helgen.
+Varför nu:      festens skålande och skryt ger den naturliga scenen, och Kosing tar upp skatt (tax) hela helgen.
 
-Hur det spelas: Nykter viskar åt Kosing att Dunkas svaga punkt är det tveeggade svärdets påhittade historia, den spricker om hon kräver den ord för ord, utan att själv synas i det. Kosing riktar sin arvssyndsskatt (tax) mot Dunka som kommer från överklassen och kräver betalt i mynt eller en berättelse. Dunka kan betala, dementera högljutt, eller dra igång svärdets "historia" en gång för mycket och snubbla på en detalj. Spricker myten svarar han med en av sina långa, envisa kramar, som tröst åt sig själv snarare än andra. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå taxen kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
-Utfall om ja:   Dunka betalar eller förödmjukas inför båda besättningarna, Kosing kammar hem mynt (tax-kassan, inte Fromhetens lagskatt), Nykter njuter osedd av segern, Klöver tar sin procent.
-Utfall om nej:  Dunka bluffar sig igenom, myten lever vidare, taxen förblir obetald.
+Hur det spelas: Nykter viskar åt Kosing att Dunkas svaga punkt är det tveeggade svärdets påhittade historia, den spricker om hon kräver den ord för ord, utan att själv synas i det. Kosing riktar sin arvssyndsskatt (tax) mot Dunka som kommer från överklassen och kräver betalt i mynt eller en berättelse. Dunka kan betala, dementera högljutt, eller dra igång svärdets "historia" en gång för mycket och snubbla på en detalj. Spricker myten svarar han med en av sina långa, envisa kramar, som tröst åt sig själv snarare än andra. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå skatten (tax) kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
+Utfall om ja:   Dunka betalar eller förödmjukas inför båda besättningarna, Kosing kammar hem indriven skatt (tax), Nykter njuter osedd av segern, Klöver tar sin procent.
+Utfall om nej:  Dunka bluffar sig igenom, myten lever vidare, skatten (tax) förblir obetald.
 
 Bygger på:      fiende 20 (Dunka–Nykter). Romans 19 (Kosing–Dunka), i den lågintensiva, icke-centrala form Kosing själv bett om. Kosings och Klövers gemensamma matplan, redan nämnd i båda rollunderlagen.
 Speglas hos:    Dunka, Kosing, Nykter, Klöver.
 Status:         skriven
 
-Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt (treasure): Gnällets ingång går inte via svärdet (minst tre ombord plus stormraden, 2026-08-28). S-05 är bara arvssyndsskatten (tax). Inte samma uppdrag. Inte Malins kista. Inte Fromhetens gömda klenod. Kosings föremål i `roller/` ("skatt med mynt och sedlar") är tax-kassan. Fiende 17 mot Malin är en annan oförrätt: hon kallade taxen tiggeri med psalm, inte tvåa efter sin treasure. Se [`skatt.md`](skatt.md).
+Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt (treasure): Gnällets ingång går inte via svärdet (minst tre ombord plus stormraden, 2026-08-28). S-05 är bara arvssyndsskatten (tax). Inte samma uppdrag. Fiende 17 (Kosing mot Malin) är en annan oförrätt om samma skatt (tax): Malin skålade att jubileet inte betalar, se [`../intriger/fiender.yaml`](../intriger/fiender.yaml) och [`skatt.md`](skatt.md).
 
 ---
 

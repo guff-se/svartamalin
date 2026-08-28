@@ -60,7 +60,7 @@ Cryptexen som cirkulerar ger en extra roll till den som just då har den: **inne
 
 Skriv ut det, så vi kan säga nej till bra idéer som inte hör hit.
 
-- Inte en tävling med poäng. Lagens skattjakt är redan tävlingen, och den pågår **samtidigt** som huvudstoryn. De får kollidera. Designa inte isolerade spår.
+- Inte en tävling med poäng. Lagens skattjakt (treasure) är redan tävlingen, och den pågår **samtidigt** som huvudstoryn. De får kollidera. Designa inte isolerade spår.
 - Inte en story som kan ignoreras. Alla andra storys kan gå åt skogen, men denna måste sluta med att kistan öppnas. Om det inte görs naturligt så skall finnas fallbacks.
 - Inte beroende av att alla 25 förstår den. Det räcker med att 10 försöker och det räcker att 1 person öppnar kistan.
 - Inte något som kräver att en enskild person orkar hålla ihop den.

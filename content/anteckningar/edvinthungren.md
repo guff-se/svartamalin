@@ -12,4 +12,4 @@ S-12: han var klienten bakom Kulings bakhåll mot Rödskägg, före omvändelsen
 
 Fiende 14 (Spader): fuskad kortvinst om Plåthorns fiskegrund. Dåtid. Inget fysiskt sjökort på ön.
 
-Lagskatt: han är en av fem dörrar. Minst tre av galeonen samlade plus stormraden. Påminnelse i `guests/edvinthungren.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).
+Lagskatt (treasure): han är en av fem dörrar. Minst tre av galeonen samlade plus stormraden. Påminnelse i `guests/edvinthungren.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).

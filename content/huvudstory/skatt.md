@@ -1,62 +1,65 @@
-# Skatt: två betydelser
+# Skatt: två ord
 
 Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
 
-Svenskans **skatt** är två engelska ord. Agenter blandar ihop dem. Gästtext får använda båda. Intern text ska alltid märka vilken.
+Svenska **skatt** är två engelska ord. Agenter blandar ihop dem. Gäster gör det inte.
 
-| Svenska i gästtext | Engelska | Vad det är | Inte |
-|--------------------|----------|------------|------|
-| **lagskatt**, klenod, gömma, föremålet lagen tar med | treasure | Fysiskt festföremål. En per skuta. Göms fredag, jagas lördag. | Inte en avgift. Inte Malins kista. Inte Kosings mynt. |
-| **piratskatt**, **arvssyndsskatt**, taxa, avgift, kolekt | tax | Fromhetens påhittade avgift. Betalas i mynt eller berättelse. Avlat blankar den. | Inte lagens gömda föremål. Inte kistans innehåll. |
+| Märkning i den här mappen | Engelska | Vad det är här |
+|--------------------------|----------|----------------|
+| **skatt (treasure)** | treasure | Gömt föremål, klenod, byte, kistans påstådda innehåll, questfynd |
+| **skatt (tax)** | tax | Avgift som tas ut, indrivning, piratskatt, arvssyndsskatt, avlat som blankar boken |
 
-I den här mappen, i `anteckningar/`, i yaml-kommentarer och i `fordelning.yaml`: skriv `(treasure)` eller `(tax)` när ordet *skatt* står, eller använd de disambiguerande namnen ovan. Gissa inte från sammanhanget. Fromheten har **båda**.
+**I gästtext** (`content/intriger/crews/`, `content/intriger/guests/`, `content/copy/`): skriv **skatt**. Inte avgift, taxa, klenod, kollekt som ersättningsord. Svenskar ser skillnaden i meningen.
 
-Gästtext (`intriger/`, `copy/`): båda orden får heta skatt. Kontexten måste bära. Jämför aldrig Malins treasure med Kosings tax. Det var buggen i fiende 17 (struken 2026-08-28).
+**I intern text** (den här mappen, `anteckningar/`, yaml-kommentarer, README): skriv alltid `skatt (treasure)` eller `skatt (tax)` vid varje omnämnande. Fil som bara handlar om det ena (till exempel [`lagskatter.md`](lagskatter.md)) får en filrubrik att allt omarkerat är treasure, och måste märka varje tax-rad.
+
+Rör inte `content/roller/`. Spegling av Supabase.
 
 ---
 
-## Register: vad som är vad
+## Inventering
 
-### Treasure
+### skatt (treasure)
 
-- **Lagskatterna.** Fem föremål. Cirkel ett steg. Fil: [`lagskatter.md`](lagskatter.md).
-- **Malins kista.** Hamnen tror att där ligger hennes skatt (treasure). Kistan är tom på loot. Brev och dressing. Kanon: [`kanon.md`](kanon.md).
-- **Quest-skatter.** Ägarbevis, tokens, dagboksgömmen. Fysiska. Inte avgift.
-- **Kosings föremål i `roller/`**, "En skatt med mynt och sedlar": mynten hon *samlar in* via tax. Fysiskt kassaskrin. **Inte** Fromhetens lagskatt (treasure). Inte samma föremål som galeonens gömma.
+- **Lagskatter.** Varje skuta gömmer ett fysiskt föremål. Cirkel 1→2→3→4→5→1. [`lagskatter.md`](lagskatter.md).
+- **Malins kista.** Hamnen tror att där ligger skatt (treasure). Där ligger ingen. Kanon: [`kanon.md`](kanon.md).
+- **Questfynd.** Q-3 under badbryggan, tokens, dressing i kistan. Inte lagskatt.
+- **Kosings föremål** i `roller/amandamungsgard.md` ("en skatt med mynt och sedlar"): lådan hon fyller när hon driver in skatt (tax). Föremålet är treasure. Innehållet är indriven tax.
 
-### Tax
+### skatt (tax)
 
-- **Piratskatt.** Frompiraternas plattform i `crews/4.md`: avgift efter bärkraft, omfördelning, avlat. Slogan "Skatt är inne" = tax är inne, inte "göm klenoden".
-- **Arvssyndsskatt.** Kapten Kosing (`amandamungsgard`). S-05. Avgift på dem som kommer från överklassen. Primärt mål: Kapten Dunka. Hämnd mot Malin: taxan följer Kurtisanens namn. Inte en tävling mot Malins loot.
-- **Avlat.** Knäböj, be, piratskatten (tax) blankas i boken. Inte att lagskatten (treasure) lämnas tillbaka.
+- **Fromhetens piratskatt.** Plattform i `crews/4.md`: skatt efter bärkraft, avlat blankar den. Metod: omfördela, inte stjäla.
+- **Kosings arvssyndsskatt.** S-05. En skatt (tax) på dem som kommer från överklassen, riktad mot Kapten Dunka (`ludvigvonbahr`). Betalas i mynt eller berättelse. [`sidequests.md`](sidequests.md).
+- **Avlat.** Den som ber får sin skatt (tax) blankad. Inte samma sak som att lämna tillbaka en lagskatt (treasure).
+
+### Fällor (här blandade agenten ihop dem)
+
+1. **Fiende 17, Malin–Kosing.** Före 2026-08-28: Malin skålade att Kosings arvssyndsskatt (tax) var "söt men tvåa" efter Malins egen skatt (treasure). Det är två olika saker och går inte att rangordna. **Ny oförrätt:** Malin skålade att jubileet inte betalar skatt (tax). Hon kallade arvssyndsskatten (tax) en kyrkkollekt under piratflagg. Kosing driver in skatt (tax) på Kurtisanen som tyst svar. Inte en jämförelse med Malins treasure. [`../intriger/fiender.yaml`](../intriger/fiender.yaml) #17.
+2. **Fromheten jagar Gnället.** Fromheten tar ut piratskatt (tax) som metod. Föremålet de ska *hitta* är galeonens skatt (treasure). I gästtext får båda heta skatt. Här: metod = tax, byte = treasure.
+3. **Barken jagar Fromheten.** "Ta deras skatt" i `crews/3.md` är Fromhetens lagskatt (treasure) bakom helgonfanan. Inte piratskatten (tax). "Val utan skatt" i samma stycke: valet utan lagskatten (treasure).
+4. **Q-3 "skatt under badbryggan".** Questfynd (treasure), inte en lagskatt (treasure) och inte tax.
+
+`skeppskatt` hos Kapten Blodig (`minimacklin`) är katmynta. Varken tax eller treasure.
 
 ### Fromheten har båda i samma filer
 
 Det är den vanliga fällan.
 
-| Yta | Tax | Treasure |
-|-----|-----|----------|
-| `crews/4.md` första `##` | piratskatt, aldrig betalat, blankad i räkenskaperna, "Skatt är inne" | "var ni gömt er klenod" |
-| `crews/4.md` jaktstycket | metod: ta ut piratskatt (tax) på det gömda | målet: Gnällets lagskatt (treasure) |
-| `crews/3.md` jaktstycket | Fromhetens retorik (omfördela) | målet: Fromhetens lagskatt (treasure), "gömd klenod" |
-| Hjärter (`jesperlejfjord.md`) | avlat blankar piratskatt (tax) | dörr: nästa ledtråd till Fromhetens gömda skatt (treasure) |
-| Kosing (`amandamungsgard.md`) | arvssyndsskatt (tax) mot Dunka och mot Kurtisanen | Fromhetens lagskatt sitter i lagfilen, inte här |
+| Yta | skatt (tax) | skatt (treasure) |
+|-----|-------------|-----------------|
+| `crews/4.md` första `##` | aldrig betalat skatt, blankad i räkenskaperna, "Skatt är inne" | "var ni gömt er skatt" |
+| `crews/4.md` jaktstycket | metod: ta ut piratskatt | målet: Gnällets lagskatt. "Ta den." |
+| `crews/3.md` jaktstycket | Fromhetens retorik (omfördela) | målet: Fromhetens lagskatt bakom helgonfanan |
+| Hjärter (`jesperlejfjord.md`) | avlat blankar skatt | dörr: nästa ledtråd till Fromhetens skatt |
+| Kosing (`amandamungsgard.md`) | arvssyndsskatt mot Dunka och mot Kurtisanen | Fromhetens lagskatt sitter i lagfilen, inte här |
 
-Jaktens skäl "Frompirater tar ut piratskatt, ta den" betyder: de *ramar in stölden* som tax. Föremålet de tar är treasure. Två steg, inte ett.
-
----
-
-## Fiende 17 (Kosing → Malin)
-
-**Inte:** Malin jämförde Kosings tax med sin egen treasure och satte taxen på andraplats. Treasure och tax är inte samma tävling.
-
-**Är:** Malin avfärdade arvssyndsskatten (tax) i en skål, kallade den tiggeri med psalm (kolekt, inte kaptens rätt), och vägrade betala. Kosing sa inget. Hämnd: taxan (tax) följer dem i Kurtisanen som skryter om att stå Malin nära. Låg intensitet, ingen scen.
+Jaktens skäl "Frompirater tar ut piratskatt. Ta den." betyder: de ramar in stölden som tax. Föremålet de tar är treasure. Två steg, inte ett.
 
 ---
 
-## Test innan du skriver
+## Test innan du skriver intern text
 
-1. Kan meningen byta ut *skatt* mot *klenod* utan att bli fel? Då är det treasure.
-2. Kan den byta mot *avgift* eller *taxa* utan att bli fel? Då är det tax.
-3. Om båda passar, eller ingen: du har blandat ihop dem. Skriv om.
-4. Intern fil utan `(treasure)` / `(tax)` / disambiguerande namn: lägg till märkningen.
+1. Kan meningen byta *skatt* mot *gömt föremål* utan att bli fel? Då är det skatt (treasure).
+2. Kan den byta mot *avgift* utan att bli fel? Då är det skatt (tax).
+3. Om båda passar, eller ingen: du har blandat ihop dem. Skriv om och märk.
+4. Gästtext: skriv **skatt** ändå. Byt inte in klenod, taxa eller avgift.

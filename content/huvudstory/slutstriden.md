@@ -30,7 +30,7 @@ Given av sången och av metaregeln. Ändras inte.
 
 Vad får helvetet att bryta ut? Det får inte vara ett utrop från arrangören.
 
-**Beslutat 2026-08-18:** kistan öppnas. Där ligger ingen skatt. Upptäckten att festen är fällan, att Malin sålt dem, är tändningen. Man flyger på jubilaren.
+**Beslutat 2026-08-18:** kistan öppnas. Där ligger ingen skatt (treasure). Upptäckten att festen är fällan, att Malin sålt dem, är tändningen. Man flyger på jubilaren.
 
 **Beslutat 2026-08-20:** samma öppning bär den andra punchlinen. Brevets hälsning och sista rad är intima. De som jagat Malins hemliga älskare bland kaptenerna förstår att hon är i säng med kungen. Tändningen är fortfarande förräderiet. Affären är den personliga örfilen ovanpå.
 

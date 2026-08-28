@@ -2,7 +2,7 @@
 
 Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
 
-Huvudstoryns dramaturgi. Här utvecklas berättelsen. Klockslagen kommer från [`tidslinje.md`](tidslinje.md), platserna från [`platser.md`](platser.md).
+Huvudstoryns dramaturgi. Här utvecklas berättelsen. Klockslagen kommer från [`tidslinje.md`](tidslinje.md), platserna från [`platser.md`](platser.md). **skatt (treasure)** mot **skatt (tax):** [`skatt.md`](skatt.md).
 
 En **beat** är den minsta enheten: en sak som händer, på en plats, med namngivna personer, som ändrar läget.
 
@@ -57,7 +57,7 @@ Plats:          TBD, väl synlig för alla
 Inblandade:     alla ser den. Ingen rör den som pussel.
 Publik:         hela ön
 
-Vad händer:     Malins skattkista står framme. Den är låst. Den ser ut att innehålla skatt.
+Vad händer:     Malins skattkista står framme. Den är låst. Den ser ut att innehålla skatt (treasure).
 
 Vad ändras:     alla har sett objektet som lördagen kretsar kring.
 
@@ -95,12 +95,12 @@ Struktur att fylla i:
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. Gymmet är taget av Q-3. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
 | Älskarspåret | Malin gömmer någon. Hjärter och Blodig jagar en rival i hamnen. Sanningen är kungen, först i kistan. | Hjärter, Blodig. Malin vet och leder fel. | Hela ön | B-42 |
-| Skattspåret | Skuta N jagar N+1:s skatt. Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
+| Skattspåret | Skuta N jagar N+1:s skatt (treasure). Gömmen från fredag. | Alla, se [`lagskatter.md`](lagskatter.md) | Hela ön utom sovplatser | |
 | Förrädarspåret | Mullvad per skuta, kontakt på uppdragsgivarens lag. Cirkel två steg. | Fem par i [`forradare.yaml`](forradare.yaml) | Hemliga möten | |
 | Båtspåret | Sjöfärd som *scen*: övertala Kuling eller Rödskägg. Folk får också paddla utan dem. | Kuling, Rödskägg, plus den som vill ut | Bryggan, Södra Ovanan, bojen | B-14 |
 | Skäggspåret | Tre kaptener slåss om vem som är Skäggens Konung. De listar själva ut hur. Publikt. | Lösskägg, Rödskägg, Blåskägg | Kajen eller gården, inte långt från båtarna | B-15 |
 
-**Kollision är en feature.** Spåren ovan pågår samtidigt och får krocka. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd. Designa inte isolerade banor som kräver att de andra pausas.
+**Kollision är en feature.** Spåren ovan pågår samtidigt och får krocka. En skatt (treasure) kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt (treasure) mot en ledtråd. Designa inte isolerade banor som kräver att de andra pausas.
 
 ### Den gemensamma tävlingsaktiviteten
 
@@ -149,7 +149,7 @@ Plats:          hela ön utom sovplatser
 Inblandade:     alla fem skutor. Vem som jagar vem: [`lagskatter.md`](lagskatter.md).
 Publik:         jakten syns. Målet är hemligt för den jagade.
 
-Vad händer:     lagen får jaga den skatt deras lagintrig pekar ut. Jakten startar från en ingång, första ledtråden inskickad av gömmarna, skriven in hos jägarna. Se [`lagskatter.md`](lagskatter.md). Gömmena och första steget ligger sedan fredag 17.30. Ingen poäng. Funnen skatt får bäras, mutas bort, stjälas tillbaka.
+Vad händer:     lagen får jaga den skatt (treasure) deras lagintrig pekar ut. Jakten startar från en ingång, första ledtråden inskickad av gömmarna, skriven in hos jägarna. Se [`lagskatter.md`](lagskatter.md). Gömmena och första steget ligger sedan fredag 17.30. Ingen poäng. Funnen skatt (treasure) får bäras, mutas bort, stjälas tillbaka.
 
 Vad ändras:     skattjakten är i spel samtidigt som cryptexen. De får krocka.
 
@@ -434,7 +434,7 @@ Plats:          samma
 Inblandade:     den som öppnade eller den som skriker först. Sedan alla.
 Publik:         alla
 
-Vad händer:     i kistan ligger ingen skatt, utan brev mellan Malin och kungen, plus minnen och skatter. Det enda plot-relevanta är kärleksbrevet från Karl XII. Brevet läses högt: Malin har sålt dem. Festen är fällan. Kungens män ska slå till i gryningen. Hon blir ensam härskare och rikligt belönad. Hälsning och sista rad gör sängen omöjlig att missa. De som jagat en rival i hamnen förstår vem de jagat. Man flyger på jubilaren.
+Vad händer:     i kistan ligger ingen skatt (treasure), utan brev mellan Malin och kungen, plus minnen och skatter (treasure, dressing). Det enda plot-relevanta är kärleksbrevet från Karl XII. Brevet läses högt: Malin har sålt dem. Festen är fällan. Kungens män ska slå till i gryningen. Hon blir ensam härskare och rikligt belönad. Hälsning och sista rad gör sängen omöjlig att missa. De som jagat en rival i hamnen förstår vem de jagat. Man flyger på jubilaren.
 
 Vad ändras:     slutstriden har börjat. Den hemliga älskaren är inte någon på ön.
 
@@ -458,7 +458,7 @@ Den centrala sanningen delas i bitar. Varje bit får en rad. Regeln från [`RESE
 | Malin har en skattkista på ön | Kistan själv | Alla ser den | Malin nämner den | behövs inte | fredag |
 | Nyckeln ligger i en cryptex som cirkulerar | Cryptexen + lappen | Hitta den | Se den byta ägare | Spader sätter den i någons hand | lördag 11-ish |
 | Lösenordet `HKHXII` | Tre av fem quests + Malins berlock | Questtokens `1H`, `2K`, `3H` | Tvärledtrådar mellan lag | `4X`, `5I`, `6I` syns på berlocken vid serveringen | **20.00, inte tidigare** |
-| Ingen skatt. Kärleksbrevet. Festen är fällan. Ensam makt mot förräderiet. | Kistans innehåll | Öppna kistan | Någon skriker innebörden | Malin/Spader tvingar upp 20.45 | 20.40 |
+| Ingen skatt (treasure). Kärleksbrevet. Festen är fällan. Ensam makt mot förräderiet. | Kistans innehåll | Öppna kistan | Någon skriker innebörden | Malin/Spader tvingar upp 20.45 | 20.40 |
 | Malin har en hemlig älskare | Hjärter, Blodig | deras intrig | Malins undanflykter | behövs inte | lördag dag |
 | Älskaren är Karl XII | Brevets hälsning och sista rad | Öppna kistan | Hålla upp brevet | samma som B-42, 20.45 | 20.40 |
 

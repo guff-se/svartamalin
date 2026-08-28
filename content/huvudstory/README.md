@@ -31,7 +31,7 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 5. [`akter.md`](akter.md) huvudstoryn i akter och beats, med reveal-plan och backup
 6. [`sidequests.md`](sidequests.md) sidospår som bara rör vissa deltagare
 7. [`quests.md`](quests.md) gemensamma regler och hur ingångstext skrivs. En fil per quest under [`quests/`](quests/). Låst story. Tillsatt mekanik sitter i questens fil.
-8. [`lagskatter.md`](lagskatter.md) varje skuta gömmer en skatt (treasure), en annan skuta jagar den. Ingång: första ledtråden, inskickad av gömmarna, skriven in hos jägarna. **Inte** Fromhetens piratskatt (tax). Ordlista: [`skatt.md`](skatt.md).
+8. [`lagskatter.md`](lagskatter.md) varje skuta gömmer en skatt (treasure), en annan skuta jagar den. Ingång: första ledtråden, inskickad av gömmarna, skriven in hos jägarna. Ord: [`skatt.md`](skatt.md) (treasure mot tax).
 9. [`forradare.yaml`](forradare.yaml) mullvad och kontaktperson per skuta
 10. [`pussel.md`](pussel.md) lediga pusselbyggstenar. När en bit tillsätts flyttas den till questens fil eller platsen och stryks här. Story: [`quests.md`](quests.md)
 11. [`ritual.md`](ritual.md) lördag 15.30, ritualen
@@ -42,8 +42,7 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 16. [`beslut.md`](beslut.md) beslutslogg och öppna frågor
 17. [`egna.md`](egna.md) checklista: saker Gustaf sagt själv, skilt från agentpåhitt
 18. [`cast.md`](cast.md) referenstabell: slug, riktigt namn, piratnamn, skuta
-19. [`skatt.md`](skatt.md) **treasure vs tax.** Svenskans *skatt* är två engelska ord. Intern text märker vilken. Gästtext får båda. Läs innan du skriver Fromheten, Kosing eller lagskattjakt.
-20. [`RESEARCH.md`](RESEARCH.md) destillerad best practice för lajvintriger och escape rooms
+19. [`RESEARCH.md`](RESEARCH.md) destillerad best practice för lajvintriger och escape rooms
 
 ---
 
@@ -81,7 +80,7 @@ Fasta ramar. Ändras bara genom ett medvetet beslut som loggas i [`beslut.md`](b
 8. **Alla existerande intriger är kanon.** Huvudstoryn får bygga på romanser och fiendskaper i `romanser.yaml` och `fiender.yaml`, men inte motsäga dem.
 9. **Ingen story-bit får kräva mobil, nätuppkoppling eller att någon läser en skärm.** Fysiska props, skyltar, sång och prat.
 10. **Sista versen i sången är finalen.** Slutstriden ska eka den, aldrig citera utgången i förväg.
-11. **Allt pågår samtidigt och får kollidera.** Huvudstory, skattjakt (treasure), romanser och fiendskaper är inte isolerade spår. En lagskatt (treasure) kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt (treasure) mot en ledtråd. Inte piratskatt (tax). Se [`skatt.md`](skatt.md).
+11. **Allt pågår samtidigt och får kollidera.** Huvudstory, skattjakt, romanser och fiendskaper är inte isolerade spår. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd.
 12. **Gästerna vet att det finns en huvudstory innan helgen.** De vet inte vad den är. Frön får stå i intrigfiler och i gästcopy. Fredag är fortfarande utan mekanik.
 13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins berlock (`4X`, `5I`, `6I`), som hon sätter på när hon serverar. All ledtrådssamling av `1H`, `2K`, `3H` sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns brev mellan Malin och kungen, plus minnen och skatter. Det enda plot-relevanta är kärleksbrevet från Karl XII. Brevet är kontraktet och kärleksakten. Det är tändningen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
 14. **Aldrig ensam på vattnet.** Off-regel, hela helgen. Ingen eka, kajak, paddel eller bad utan sällskap. Ingen story-bit, intrig eller pussel får kräva att någon åker ut eller badar själv.
@@ -115,3 +114,4 @@ De här filerna läses av Gustaf och agenten, inte av gäster. Högsta prioritet
 
 - **Aldrig em dash.** Komma, kolon eller punkt istället.
 - **Ingen STYLE.md här.** Revyröst, du-form och punchlines hör hemma i `content/intriger/crews/` och `content/intriger/guests/` efter att biten finns i `fordelning.yaml`.
+- **skatt (treasure) och skatt (tax) är två ord.** Märk alltid vilken. Gästtext skriver bara "skatt". Ordlista: [`skatt.md`](skatt.md).

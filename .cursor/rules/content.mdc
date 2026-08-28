@@ -14,6 +14,6 @@ Läs [content/README.md](../../content/README.md) innan du skriver eller ändrar
 
 **Gästtext på papper, rekvisita:** `content/rekvisita/*.md`. Trycks och används som props på ön. Inte på sajten. Inte STYLE.md. Röst: den fiktiva avsändaren. YAML-taggar (`quest`, `pussel`, `story`, `beat`, `prop`), **max 10 rader meta**, sedan `## Tryck` med papperstexten. Ingen spelledning, högläsning eller får-inte-lista i filen. Karta: [rekvisita/README.md](../../content/rekvisita/README.md).
 
-**Intern text:** `huvudstory/`, `anteckningar/`, yaml-källistor och README. Gäster ska inte läsa det. Högsta prioritet är att en framtida agent förstår filen. Tydligt, inte poetiskt. Ingen revyröst, ingen du-form till deltagaren. Civilnamn och slug är tillåtna. **Skatt är två ord:** treasure (lagskatt, klenod) vs tax (piratskatt, arvssyndsskatt). Märk vilken. [huvudstory/skatt.md](../../content/huvudstory/skatt.md).
+**Intern text:** `huvudstory/`, `anteckningar/`, yaml-källistor och README. Gäster ska inte läsa det. Högsta prioritet är att en framtida agent förstår filen. Tydligt, inte poetiskt. Ingen revyröst, ingen du-form till deltagaren. Civilnamn och slug är tillåtna. **skatt (treasure)** och **skatt (tax)** är två ord: märk alltid vilken, se [`huvudstory/skatt.md`](huvudstory/skatt.md). I intrigfiler skriv bara "skatt".
 
 **Roller:** `content/roller/` är bara spegling av Supabase. Rör aldrig gästfilerna. Inga handanteckningar. Uppdatera med `npm run fetch-roller`. Meta hör hemma i `anteckningar/`.

@@ -16,7 +16,7 @@ Tre filer per gäst, tre källor:
 
 Läs både `roller/` och den här filen innan du skriver eller ändrar en gästintrig. Skriv det som inte hör hemma i underlaget (gästens röst) och inte i intrigerna (gästens ögon): praktiskt ansvar, designbeslut, gästnamn på mekanik, saker att undvika. **Aldrig i `roller/`.** De filerna är bara spegling av Supabase.
 
-**Skatt:** två engelska ord. Märk `(treasure)` eller `(tax)` här. Fromheten och Kosing har båda. [`../huvudstory/skatt.md`](../huvudstory/skatt.md).
+**skatt:** två engelska ord. Märk `skatt (treasure)` eller `skatt (tax)` här. Fromheten och Kosing har båda. Gästtext skriver bara "skatt". [`../huvudstory/skatt.md`](../huvudstory/skatt.md).
 
 Civilnamn får stå här. I gästvänd intrigtext används bara piratnamn.
 

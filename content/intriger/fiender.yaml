@@ -18,7 +18,7 @@
 #   * edvinthungren: vill vara snäll nu; gamla oförrätter är röta från före omvändelsen
 #   * josefinlowing: bakhåll mot Rödskägg på Paradisets ö (#25). De har båtarna tillsammans: scener vid kajen
 #   * elinmartensson: Prygel vill krossa kåthornet (#24)
-#   * minimacklin blir mjuk 1 min av skeppskatt: inte en fiendepost
+#   * minimacklin blir mjuk 1 min av skeppskatt (katmynta, varken tax eller treasure): inte en fiendepost
 #   * elinamelakoski tackade nej 2026-08-23: inga poster
 #   * amaliawahlstrom tackade nej 2026-08-27: #26 struken. #2 flyttad till elinmartensson.
 #
@@ -144,7 +144,9 @@ fiender:
     type: one_way
     a: amandamungsgard    # Kapten Kosing: Fregatten Fromheten
     b: malintadaa         # Svarta Malin: Korvetten Kurtisanen
-    # oförrätt: Malin avfärdade Kosings arvssyndsskatt (tax) i en skål, kallade den tiggeri med psalm (kolekt, inte kaptens rätt) och vägrade betala. Inte en jämförelse med Malins skatt (treasure).
+    # oförrätt: Malin skålade att jubileet inte betalar Kosings arvssyndsskatt (tax).
+    # Hon kallade skatten (tax) en kyrkkollekt under piratflagg. Inte en rangordning
+    # mot Malins skatt (treasure). Kosing driver in skatt (tax) på Kurtisanen som tyst svar.
     # Låg intensitet: Kosing vill inte stå i centrum i publikt drama.
     status: done
 

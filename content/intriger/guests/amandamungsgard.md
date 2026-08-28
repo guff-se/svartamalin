@@ -2,11 +2,11 @@
 # Skuta: **Fregatten Fromheten** (crew_id: 4)
 mirrors:
   - slug: ludvigvonbahr
-    note: romans, låg intensitet, privat lust + arvssyndsskatt (tax) mot honom som kommer från överklassen (tvåvägs)
+    note: romans, låg intensitet, privat lust + arvssyndsskatt mot honom som kommer från överklassen (tvåvägs)
   - slug: johannabergman
     note: gemensam hemlig ätupplevelse (tvåvägs)
   - slug: malintadaa
-    note: enväg hat, skålen som kallade arvssyndsskatten (tax) tiggeri med psalm, låg intensitet (du hatar henne, hon vet om det)
+    note: enväg hat, skålen att jubileet inte betalar skatt, låg intensitet (du hatar henne, hon vet om det)
 related: [ludvigvonbahr, johannabergman, malintadaa]
 ---
 
@@ -18,13 +18,13 @@ Ett hus som ingen pratar om kan gömma vad som helst, och du har alltid haft ett
 
 ## Arvssyndsskatten {slug:ludvigvonbahr}
 
-Din arvssyndsskatt är en avgift på dem som kommer från överklassen: de betalar, i mynt eller i en berättelse. **Kapten Dunka** är den du siktar på, ett tveeggat svärd fullt av påstådd historia och en familj han aldrig slutar nämna. Kräv betalt av honom innan festen är över, och låt honom antingen betala, dementera högljutt, eller snubbla på en detalj i sin egen myt.
+Din arvssyndsskatt är en skatt på dem som kommer från överklassen: de betalar, i mynt eller i en berättelse. **Kapten Dunka** är den du siktar på, ett tveeggat svärd fullt av påstådd historia och en familj han aldrig slutar nämna. Kräv betalt av honom innan festen är över, och låt honom antingen betala, dementera högljutt, eller snubbla på en detalj i sin egen myt.
 
-## Kroppen du tar utan kvitto {slug:ludvigvonbahr}
+## Skatten du tar utan kvitto {slug:ludvigvonbahr}
 
 Arvssyndsskatten är bara halva aptiten. Den andra halvan är **Kapten Dunka**s långa, envisa kramar, det tveeggade svärdet han aldrig slutar prata om, och lusten att ta honom utan att någon kaj behöver se det. Du vill ha honom i en vrå, inte på en scen. Du vill suga ut snobberiet tills han slutar berätta och börjar be. Syna gärna mer än bladet.
 
-Kräv taxan offentligt om du vill. Ta kroppen privat. **Kapten Klöver** känner till bordet ni ska duka, inte det du tänker dukas under. Håll det så, innan festen är över. Du behöver inte stå i centrum för att få det du vill ha.
+Kräv skatten offentligt om du vill. Ta kroppen privat. **Kapten Klöver** känner till bordet ni ska duka, inte det du tänker dukas under. Håll det så, innan festen är över. Du behöver inte stå i centrum för att få det du vill ha.
 
 ## Bordet du redan planerat {slug:johannabergman}
 
@@ -32,12 +32,12 @@ Du och **Kapten Klöver** har länge planerat en hemlig, exklusiv ätupplevelse 
 
 ## Räkningen du sänder tillbaka {slug:malintadaa}
 
-**Svarta Malin** avfärdade din arvssyndsskatt i en skål inför hela hamnen, kallade den tiggeri med psalm, som om Frompiraternas räkenskaper vore en kolekt för stackare. Du sa inget tillbaka. Du behöver inte stå mitt i ett drama för att få rätt.
+**Svarta Malin** avfärdade din arvssyndsskatt i en skål inför hela hamnen. Hon kallade den en kyrkkollekt under piratflagg, söt när psalmen sjungs, tom när hatten kommer runt, och drack för att jubileet inte betalar skatt. Du sa inget tillbaka. Du behöver inte stå mitt i ett drama för att få rätt.
 
-Ta upp taxan där **Korvetten Kurtisanen** går förbi, och lägg din avgift på var och en av dem som bär hennes namn och skryter om att stå henne nära. Låt jubilarens eget folk betala den piratskatt hon själv vägrade, mynt för mynt, tills mynten du drivit in väger tyngre än hennes skål. Du behöver aldrig nämna hennes namn för att hon ska förstå vem som skickade räkningen.
+Ta upp skatten där **Korvetten Kurtisanen** går förbi, och lägg den på var och en av dem som bär hennes namn och skryter om att stå henne nära. Låt jubilarens eget folk betala för den befrielse hon själv utropade, mynt för mynt, tills din skatt med mynt och sedlar väger tyngre än hennes skål. Du behöver aldrig nämna hennes namn för att hon ska förstå vem som skickade räkningen.
 
 ## Brevet som blankar boken {slug:ludvigvonbahr}
 
-Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick straffet efterskänkt och registret struket, som om ingenting någonsin hänt. Frompiraterna säljer samma sak, bara utan mynt. Den som knäböjer och ber om ursäkt får brevet, sin piratskatt blankad och sitt namn raderat ur räkenskaperna. Du skriver det. Du stryker boken.
+Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick straffet efterskänkt och registret struket, som om ingenting någonsin hänt. Frompiraterna säljer samma sak, bara utan mynt. Den som knäböjer och ber om ursäkt får brevet, sin skatt blankad och sitt namn raderat ur räkenskaperna. Du skriver det. Du stryker boken.
 
-**Kapten Dunka** kan betala din arvssyndsskatt i mynt eller i en berättelse. Han kan också knäböja. Han kommer inte knäböja. **Svarta Malin** har aldrig betalat piratskatt och tänker inte be. Låt hamnen se vem som går blank ur boken och vem som står kvar. Utfärda avlat där du tar in taxan, utan scen, innan sista skålen: Frompiraterna förlåter, och förlåtelsen har ett papper.
+**Kapten Dunka** kan betala din arvssyndsskatt i mynt eller i en berättelse. Han kan också knäböja. Han kommer inte knäböja. **Svarta Malin** har aldrig betalat skatt och tänker inte be. Låt hamnen se vem som går blank ur boken och vem som står kvar. Utfärda avlat där du tar in skatten, utan scen, innan sista skålen: Frompiraterna förlåter, och förlåtelsen har ett papper.
