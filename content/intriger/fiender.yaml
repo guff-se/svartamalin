@@ -56,7 +56,10 @@ fiender:
     type: mutual
     a: minimacklin        # Kapten Blodig: Fregatten Fördärvet
     b: josefinansund      # Kapten Frodig: Barken Bortförklaringen
-    # oförrätt: Frodig stal kapitulationen; Blodig stämplade storseglet i blod
+    # oförrätt: Blodig hade prejat, seglen strukna, lasten hennes. Frodig stal
+    # lasten och seglade in som segrare. Blodig tryckte en blodig hand i
+    # Frodigs storsegel. Inte "kapitulation" (en handling, inte ett föremål).
+    # Inte Blodigs eget segel.
     # Behålls: hot mot Rödskägg–Frodigs hemliga kärlek (#8) om Blodig nystar.
     status: done
 

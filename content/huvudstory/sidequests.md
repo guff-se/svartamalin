@@ -349,7 +349,7 @@ Deltagare:      Kapten Blodig (`minimacklin`), Kapten Frodig (`josefinansund`), 
 Roll i storyn:  jägare (Blodig, Lösskägg) / bärare (Frodig, Rödskägg)
 Kopplad till:   fiende 4, där hotet redan står explicit noterat.
 
-Vad de vill:    Blodig, redan Frodigs ärkefiende (fiende 4, stulen kapitulation mot blodstämplat storsegel), får nys om den förbjudna kärleken mellan Frodig och Rödskägg och vill använda den, dels för att hämnas den gamla oförrätten, dels för att elda på kaos. Lösskägg, redan Rödskäggs rival i skäggtrion (fiende 3), vill ha vad som helst som gör Rödskägg mindre stor inför de andra två skäggen.
+Vad de vill:    Blodig, redan Frodigs ärkefiende (fiende 4: stulet byte efter Blodigs prejning, blodig hand i Frodigs storsegel), får nys om den förbjudna kärleken mellan Frodig och Rödskägg och vill använda den, dels för att hämnas den gamla oförrätten, dels för att elda på kaos. Lösskägg, redan Rödskäggs rival i skäggtrion (fiende 3), vill ha vad som helst som gör Rödskägg mindre stor inför de andra två skäggen.
 Vad står i vägen: hemligheten är väl bevarad. Deras släkter och besättningar har varit fiender i generationer (romans 8), och en upptäckt vore en skandal.
 Varför nu:      helgens närhet och alkohol gör folk vårdslösa. Ett hastigt ögonkast eller en smekning kan förråda dem inför fel person.
 

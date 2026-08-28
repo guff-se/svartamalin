@@ -3,7 +3,7 @@
 # S-01: oläkt kärlek till malintadaa, enväg, speglas inte
 mirrors:
   - slug: josefinansund
-    note: gammalt groll, kapitulationen och storseglet, du svär att hon köpte bakhållet (tvåvägs)
+    note: gammalt groll, stulet byte och blod i storseglet, du svär att hon köpte bakhållet (tvåvägs)
   - slug: josefinlowing
     note: skutkamrat, hon bar namnet, du har redan fyllt i Frodig (tvåvägs)
 related: [malintadaa, jesperlejfjord, josefinansund, josefinlowing, viktoransund]
@@ -29,7 +29,9 @@ Nu viskar hamnen att jubilaren gömmer en älskare. Du vill veta vem, inte av ar
 
 ## Tecknet du snubblar över {slug:josefinansund}
 
-**Kapten Frodig** stal en gång din kapitulation, och du stämplade hennes storsegel i blod som svar, ett groll som aldrig läkt. Nu snubblar du över, eller nystar aktivt i, ett tecken på att hon har något ihop med **Kapten Rödskägg**: ett brev, en blick, ett smeknamn som inte passar två familjer som varit fiender i generationer.
+Du hade prejat skeppet. Seglen var strukna. Lasten var din. **Kapten Frodig** kom i din kölvatten, lyfte bytet och seglade in i nästa hamn som segrare. Du bordade henne efteråt och tryckte din blodiga hand mitt i hennes storsegel, så att hela Salmonellahavet skulle se vems seger det var. Grollet har aldrig läkt.
+
+Nu snubblar du över, eller nystar aktivt i, ett tecken på att hon har något ihop med **Kapten Rödskägg**: ett brev, en blick, ett smeknamn som inte passar två familjer som varit fiender i generationer.
 
 Konfrontera en av dem enskilt, eller sprid ett rykte utan att avslöja hela sanningen än, som ett hot eller en utpressning. Fragmentet kan du sälja vidare till **Kapten Lösskägg**, som redan slåss med Rödskägg om vem som ska kallas Skäggens Konung, och som gärna river upp en skandal mitt i den striden. Gör det innan festen är över, mitt i din egen jakt på jubilarens älskare.
 
@@ -37,6 +39,6 @@ Konfrontera en av dem enskilt, eller sprid ett rykte utan att avslöja hela sann
 
 **Kapten Kuling**, din egen skutkamrat, låg i bakhåll på Paradisets ö för ett år sedan och sköt **Kapten Rödskägg** i ryggen, för en betalande klient, och tog en del av hans Piratpulver. Hon har aldrig gett **Fregatten Fördärvet** ett namn. Hon är sån. Proffs. Blod stänker, munnen hålls.
 
-Du behöver inget namn. **Kapten Frodig** stal din kapitulation, du stämplade hennes storsegel i blod, och hennes släkt har i generationer slagits om pulvret med Rödskäggs. Vem annars betalar för ett skott i ryggen på en pulverlangare? Säg det högt. Säg det till Rödskägg. Säg det till den som betalar för ett rykte. Kuling kan sälja en annan sanning om hon vill. Din är redan klar, och du tänker inte vänta på bevis.
+Du behöver inget namn. **Kapten Frodig** stal bytet du redan vunnit, du tryckte din blodiga hand i hennes storsegel, och hennes släkt har i generationer slagits om pulvret med Rödskäggs. Vem annars betalar för ett skott i ryggen på en pulverlangare? Säg det högt. Säg det till Rödskägg. Säg det till den som betalar för ett rykte. Kuling kan sälja en annan sanning om hon vill. Din är redan klar, och du tänker inte vänta på bevis.
 
 Gör det innan festen är över. Ett skott och en kyss kan vara samma krig, och du har redan blod i ansiktet för mindre.
