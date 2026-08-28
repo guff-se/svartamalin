@@ -22,9 +22,7 @@ related: [linneaappert, ulrikahammar, navidmodiri, gustaftadaa, josefinlowing, j
 
 ## Beviset du vill ge Planka {slug:linneaappert}
 
-Du ärvde en gång ett skepp och miste det för att du var röta in i märgen mot din egen besättning. Sen dess har du försökt ta revansch genom att vara snäll, hjälpa där du kan, sabrera bubbel för andras skull och massera bort andras nöd. **Kapten Planka** gav dig manschettknapparna med enhörningarna för kärlekens skull, och hon vill veta om den kärleken vilar på sanning eller på ett skådespel. Du vill bevisa det med händerna, inte med ännu en sabrerad flaska. Du vill ha henne mot en mast, massera tills hon slutar fråga, och låta henne rida ut svaret själv.
-
-**Kapten Barnsben** minns fortfarande parfymspratten du en gång ställde till, ett byte av doft som saboterade hennes uppvaktning av **Kapten Döver**, och hon tror inte ett ögonblick på din omvändelse. Blidka henne innan Planka hinner fråga henne rakt ut: en massage, en sabrerad bubbel, en gest som väger tyngre än ditt gamla rykte. Gör det innan festen är över, annars får du bevisa din snällhet i en tom koja.
+Du ärvde en gång ett skepp och miste det för att du var röta in i märgen mot din egen besättning. Sen dess har du försökt ta revansch genom att vara snäll, hjälpa där du kan, sabrera bubbel för andras skull och massera bort andras nöd. **Kapten Planka** gav dig manschettknapparna med enhörningarna för kärlekens skull, och hon vill veta om den kärleken vilar på sanning eller på ett skådespel. Du vill bevisa det med händerna, inte med ännu en sabrerad flaska.
 
 ## Vänligheten han inte vill ha {slug:navidmodiri}
 
@@ -46,7 +44,7 @@ Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Köp he
 
 ## Doften du bytte ut {slug:ulrikahammar}
 
-**Kapten Barnsben** har aldrig glömt spratten du en gång ställde till, doften du bytte ut mot något rutet just när hon gjorde sin bästa uppvaktning av **Kapten Döver**. Uppvaktningen dog på fläcken, och hon dömer dig för det fortfarande, med en blick lika kall som den var innan du miste ditt skepp och blev den snälla mannen du numera försöker vara.
+Innan du miste ditt skepp och blev den snälla mannen du numera försöker vara, bytte du ut **Kapten Barnsben**s blomsterparfym mot doften av rötägg. Hon hade sprutat sig med blommor för att uppvakta **Kapten Döver**, och du lät henne stinka av det hon minst ville lukta just när hon stod som närmast. Uppvaktningen dog på fläcken. Kajen skrattade. Hon har aldrig glömt det, och hon dömer dig fortfarande.
 
 Du vet om domen. Du erbjuder henne gärna en gest av gottgörelse, en sabrerad flaska, en hjälpande hand vid Dövers workshop på gården, men hon tar inte emot den lika lätt som andra. **Kapten Planka** kan fråga henne vad hon vet om dig, och du vet inte om Barnsben väljer att skydda dig eller sänka dig den dagen. Vinn hennes förtroende, eller ge upp försöket, innan festen är över.
 
