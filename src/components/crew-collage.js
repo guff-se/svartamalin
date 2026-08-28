@@ -4,7 +4,6 @@ import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { sortByPirateNameId } from '../lib/pirate-name-order.js'
 import { bindLightboxTriggers, openLightbox } from '../lib/image-lightbox.js'
 import { escapeHtml } from '../lib/escape.js'
-import { getGuestId } from '../lib/state.js'
 import { pirateCardHtml } from './pirate-card.js'
 
 const CREWLESS_HEADING = 'Lösdrivare'
@@ -81,13 +80,12 @@ function onPortraitError(e) {
 }
 
 async function refresh(el) {
-  const [{ data, error }, { data: crews }, myCrewId] = await Promise.all([
+  const [{ data, error }, { data: crews }] = await Promise.all([
     supabase
       .from('public_guests')
       .select('id, real_name, pirate_name, pirate_name_id, crew_id')
       .not('pirate_name_id', 'is', null),
     supabase.from('crews').select('id, name').order('id'),
-    fetchMyCrewId(),
   ])
 
   if (error) {
@@ -99,7 +97,7 @@ async function refresh(el) {
   el.classList.remove('crew-collage')
   el.classList.add('crew-groups')
 
-  const groups = groupByCrew(data ?? [], crews ?? [], myCrewId)
+  const groups = groupByCrew(data ?? [], crews ?? [])
 
   if (!groups.length) {
     el.innerHTML = `<p class="crew-empty">Ingen har mönstrat på än.</p>`
@@ -116,27 +114,12 @@ async function refresh(el) {
   makeCardsInteractive(el)
 }
 
-async function fetchMyCrewId() {
-  const guestId = getGuestId()
-  if (!guestId) return null
-
-  const { data } = await supabase
-    .from('guests')
-    .select('crew_id')
-    .eq('id', guestId)
-    .maybeSingle()
-
-  return data?.crew_id ?? null
-}
-
-/** Ett block per lag i lagordning; den inloggades eget lag utelämnas. */
-function groupByCrew(guests, crews, myCrewId) {
-  const groups = crews
-    .filter((crew) => crew.id !== myCrewId)
-    .map((crew) => ({
-      name: crew.name,
-      guests: guests.filter((g) => g.crew_id === crew.id),
-    }))
+/** Ett block per lag i lagordning. */
+function groupByCrew(guests, crews) {
+  const groups = crews.map((crew) => ({
+    name: crew.name,
+    guests: guests.filter((g) => g.crew_id === crew.id),
+  }))
 
   const crewIds = new Set(crews.map((c) => c.id))
   const crewless = guests.filter((g) => !crewIds.has(g.crew_id))
