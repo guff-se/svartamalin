@@ -16,7 +16,7 @@ Antagonist och jubilar. Skuta 1, **Korvetten Kurtisanen**. Osårbar. Dödar alla
 
 **Inte** mullvad. Default: inte kontakt heller. Mindre utrymme för egen pusselintrig.
 
-Romanser mot henne (enväg, de vet inte om kungen): Hjärter #17, Blodig #20. NPC: Karl XII #22. Fiender: Plåthorn #2, Kosing #17 (enväg från Kosing: Malin skålade att jubileet inte betalar arvssyndsskatt (tax); inte en jämförelse med Malins skatt (treasure)).
+Romanser mot henne (enväg, de vet inte om kungen): Hjärter #17, Blodig #20. NPC: Karl XII #22. Fiender: Plåthorn #2, Kosing #17 (enväg från Kosing: Malin skålade och kallade arvssyndsskatten (tax) tiggeri och kyrkkollekt; inte en jämförelse med Malins skatt (treasure)).
 
 Lagskatt (treasure): hon är en av fem dörrar till Kurtisanens kod. Siffra i `guests/malintadaa.md`. Jägarna är Gnället. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md) och [`../huvudstory/skatt.md`](../huvudstory/skatt.md).
 

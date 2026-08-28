@@ -8,7 +8,7 @@ mirrors:
   - slug: josefinlowing
     note: gammal oförrätt, Fördärvets fordran (tvåvägs)
   - slug: amandamungsgard
-    note: enväg hat, skålen att jubileet inte betalar skatt, låg intensitet (hon hatar dig, du vet om det)
+    note: enväg hat, skålen "tiggeri och kyrkkollekt", låg intensitet (hon hatar dig, du vet om det)
 related: [ludvigvonbahr, elinmartensson, josefinlowing, amandamungsgard]
 ---
 
@@ -30,7 +30,7 @@ Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig 
 
 ## Skatten som följer ditt namn {slug:amandamungsgard}
 
-Du skålade en gång, inför hela hamnen, för att jubileet inte betalar **Kapten Kosing**s arvssyndsskatt, en skatt på dem som kommer från överklassen. Du höjde glaset och kallade den en kyrkkollekt under piratflagg: söt när psalmen sjungs, tom när hatten kommer runt. Du tänkte inte mer på det. Hon sa inget tillbaka då, och hon kommer inte göra en scen av det nu heller, men hennes skatt har börjat följa ditt namn: var och en i **Korvetten Kurtisanen** som skryter om att stå dig nära får betala, mynt för mynt, som ett tyst svar på din skål.
+Du skålade en gång, inför hela hamnen, för **Kapten Kosing**s arvssyndsskatt, en skatt på dem som kommer från överklassen, och kallade den tiggeri och kyrkkollekt. Du tänkte inte mer på det. Hon sa inget tillbaka då, och hon kommer inte göra en scen av det nu heller, men hennes skatt har börjat följa ditt namn: var och en i **Korvetten Kurtisanen** som skryter om att stå dig nära får betala, mynt för mynt, som ett tyst svar på din skål.
 
 Du får aldrig se henne kräva det rakt av dig. Det är inte hennes stil. Men hör du dina egna kurtisaner klaga över en oväntad skatt vid festen, vet du precis varifrån den kom, och varför. Låt dem betala, eller varna dem, innan festen är över. Kosing kommer aldrig fråga dig om ursäkt, och du kommer aldrig behöva ge en.
 

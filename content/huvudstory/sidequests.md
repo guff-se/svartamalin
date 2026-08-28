@@ -267,7 +267,7 @@ Bygger på:      fiende 20 (Dunka–Nykter). Romans 19 (Kosing–Dunka), i den l
 Speglas hos:    Dunka, Kosing, Nykter, Klöver.
 Status:         skriven
 
-Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt (treasure): Gnällets ingång går inte via svärdet (minst tre ombord plus stormraden, 2026-08-28). S-05 är bara arvssyndsskatten (tax). Inte samma uppdrag. Fiende 17 (Kosing mot Malin) är en annan oförrätt om samma skatt (tax): Malin skålade att jubileet inte betalar, se [`../intriger/fiender.yaml`](../intriger/fiender.yaml) och [`skatt.md`](skatt.md).
+Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt (treasure): Gnällets ingång går inte via svärdet (minst tre ombord plus stormraden, 2026-08-28). S-05 är bara arvssyndsskatten (tax). Inte samma uppdrag. Fiende 17 (Kosing mot Malin) är en annan oförrätt om samma skatt (tax): Malin kallade den tiggeri och kyrkkollekt, se [`../intriger/fiender.yaml`](../intriger/fiender.yaml) och [`skatt.md`](skatt.md).
 
 ---
 

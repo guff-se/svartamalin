@@ -144,9 +144,9 @@ fiender:
     type: one_way
     a: amandamungsgard    # Kapten Kosing: Fregatten Fromheten
     b: malintadaa         # Svarta Malin: Korvetten Kurtisanen
-    # oförrätt: Malin skålade att jubileet inte betalar Kosings arvssyndsskatt (tax).
-    # Hon kallade skatten (tax) en kyrkkollekt under piratflagg. Inte en rangordning
-    # mot Malins skatt (treasure). Kosing driver in skatt (tax) på Kurtisanen som tyst svar.
+    # oförrätt: Malin skålade och kallade Kosings arvssyndsskatt (tax) tiggeri och kyrkkollekt.
+    # Inte en rangordning mot Malins skatt (treasure). Kosing driver in skatt (tax)
+    # på Kurtisanen som tyst svar.
     # Låg intensitet: Kosing vill inte stå i centrum i publikt drama.
     status: done
 

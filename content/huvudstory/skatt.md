@@ -34,7 +34,7 @@ Rör inte `content/roller/`. Spegling av Supabase.
 
 ### Fällor (här blandade agenten ihop dem)
 
-1. **Fiende 17, Malin–Kosing.** Före 2026-08-28: Malin skålade att Kosings arvssyndsskatt (tax) var "söt men tvåa" efter Malins egen skatt (treasure). Det är två olika saker och går inte att rangordna. **Ny oförrätt:** Malin skålade att jubileet inte betalar skatt (tax). Hon kallade arvssyndsskatten (tax) en kyrkkollekt under piratflagg. Kosing driver in skatt (tax) på Kurtisanen som tyst svar. Inte en jämförelse med Malins treasure. [`../intriger/fiender.yaml`](../intriger/fiender.yaml) #17.
+1. **Fiende 17, Malin–Kosing.** Före 2026-08-28: Malin skålade att Kosings arvssyndsskatt (tax) var "söt men tvåa" efter Malins egen skatt (treasure). Det är två olika saker och går inte att rangordna. **Ny oförrätt:** Malin skålade och kallade arvssyndsskatten (tax) tiggeri och kyrkkollekt. Kosing driver in skatt (tax) på Kurtisanen som tyst svar. Inte en jämförelse med Malins treasure. [`../intriger/fiender.yaml`](../intriger/fiender.yaml) #17.
 2. **Fromheten jagar Gnället.** Fromheten tar ut piratskatt (tax) som metod. Föremålet de ska *hitta* är galeonens skatt (treasure). I gästtext får båda heta skatt. Här: metod = tax, byte = treasure.
 3. **Barken jagar Fromheten.** "Ta deras skatt" i `crews/3.md` är Fromhetens lagskatt (treasure) bakom helgonfanan. Inte piratskatten (tax). "Val utan skatt" i samma stycke: valet utan lagskatten (treasure).
 4. **Q-3 "skatt under badbryggan".** Questfynd (treasure), inte en lagskatt (treasure) och inte tax.

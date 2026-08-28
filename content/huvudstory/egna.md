@@ -30,7 +30,7 @@ Källa: Gustaf, i chatt.
 - [x] detta gör också att svarta malins premiss för fiendeskap med kosings skatt faller helt. hitta på en ny.
 - [x] notera att det finns fler fall av detta, som t.ex. alla lagskatter (treasures) och fromhetens krav på skatt (tax). Se till att du i dina anteckingar håller reda på vilken du pratar om.
 
-Kryss = ordlista i [`skatt.md`](skatt.md). Intern text märker `skatt (treasure)` / `skatt (tax)`. Gästtext skriver bara "skatt", inga ersättningsord. Fiende 17 är ny: Malin skålade att jubileet inte betalar arvssyndsskatt (tax), kallade den kyrkkollekt under piratflagg. Inte en rangordning mot hennes skatt (treasure). Fromheten: metod piratskatt (tax), jaktbyte Gnällets skatt (treasure).
+Kryss = ordlista i [`skatt.md`](skatt.md). Intern text märker `skatt (treasure)` / `skatt (tax)`. Gästtext skriver bara "skatt", inga ersättningsord. Fiende 17 är ny: Malin skålade och kallade arvssyndsskatten (tax) tiggeri och kyrkkollekt. Inte en rangordning mot hennes skatt (treasure). Fromheten: metod piratskatt (tax), jaktbyte Gnällets skatt (treasure).
 
 ---
 
