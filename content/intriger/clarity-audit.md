@@ -2,9 +2,97 @@
 
 Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format. **Att köra om:** [`clarity-review.md`](clarity-review.md).
 
-Kördes i tre omgångar med olika mängd kontext given till granskningsagenterna. **Runda 3 är den relevanta bilden** av vad en gäst förstår från just de två publicerade intrigfilerna plus kända namn. Runda 2 gav också `roller/` (gästens eget karaktärsunderlag); runda 1 var helt isolerad brödtext.
+Kördes i fyra omgångar. **Runda 4 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag. Äldre rundor är arkiv.
 
-## Runda 3 — gästfil + lagintrig + roster (aktuell bild)
+## Runda 4 — gästfil + lag + intro + undantag (aktuell bild)
+
+**Datum:** 2026-08-28.
+
+**Metod:** 23 isolerade agenter, en per gäst. Varje agent fick:
+1. sin egen `guests/{slug}.md` (YAML och `{slug:…}` osynliga),
+2. sitt eget lags `crews/{crew_id}.md`,
+3. `content/copy/intriger_intro.md`,
+4. roster med lagnamn och piratnamn, eget namn/lag utmärkt.
+
+Undantag i prompten (flagga inte): Gubben i stubben / Gumman på udden; dörrar till lagskatter; Salmonellahavet och Ovanan. Extra check: tom kunskap (`du vet` utan innehåll).
+
+### Resultat
+
+| Betyg | Antal | Runda 3 → Runda 4 |
+|---|---|---|
+| 🟢 Grönt | 2 | 0 → 2 |
+| 🟡 Gult | 16 | 22 → 16 |
+| 🔴 Rött | 5 | 1 → 5 |
+
+Fler röda än runda 3 eftersom tom kunskap som läsaren ska agera på nu är rött, inte gult. Undantagen tog bort Gubben/Gumman, Ovanan, Salmonellahavet och lagskattdörrarna från termlistorna.
+
+### 🔴 Rött (5)
+
+| Gäst | Tom kunskap som blockerar | Åtgärd |
+|---|---|---|
+| malintadaa | «Du har redan den enda älskare som räknas» utan namn. Dunka är avledning. | Namnge, eller skriv att spelaren väljer/improviserar. |
+| navidmodiri | «Du vet redan … vem hon egentligen väljer» (Barnsben). Säg eller spara. | Skriv vem hon väljer, i *hans* fil. |
+| linneaekbom | Snäckan har hört vad Nykter «egentligen fick höra», men inte vad. Avslöja eller spara. | Skriv vad som sades (eller att det var tystnad). |
+| fabianmacklin | «Du vet vad Barnsben vet» om Rötägg, utan innehållet. Plus Dunkas svaga punkt att viska till Kosing, utan var den sitter. | Lyft in vad Barnsben minns, och att svärdet är kopian/svaga punkten. |
+| jesperlindmarker | Sälj «en gammal, aldrig bekräftad historia om Svarta Malin» i liggaren, utan vad raden säger. | Skriv en mening om vad raden påstår, eller att Kuling köper osäkerheten. |
+
+### Per gäst
+
+| Slug | Piratnamn | Lag | Betyg | Termer | Tom kunskap |
+|---|---|---|---|---|---|
+| josefinlowing | Kapten Kuling | Fördärvet | 🟢 | none | none |
+| ulrikahammar | Kapten Barnsben | Kurtisanen | 🟢 | Dövers workshop (smak) | none |
+| alexandrapalmquist | Kapten Babord | Gnället | 🟡 | Dövers workshop; gården; Barnsbens brev/plan | none |
+| amandamungsgard | Kapten Kosing | Fromheten | 🟡 | avlatsbrev | none |
+| edvinthungren | Kapten Rötägg | Gnället | 🟡 | Paradisets ö; din workshop | none |
+| elinmartensson | Kapten Plåthorn | Gnället | 🟡 | Storstugan | none |
+| gustaftadaa | Löjtnant Spader | Fördärvet | 🟡 | Plåthorns plåthorn; stulen vals | none |
+| hampuslindblad | Kapten Blåskägg | Bortförklaringen | 🟡 | dörren bakom medvetandet | none |
+| jesperlejfjord | Kapten Hjärter | Fromheten | 🟡 | Storstugan; Katten Felix | none |
+| johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | samlaren; den lättkränkte | none |
+| josefinansund | Kapten Frodig | Bortförklaringen | 🟡 | Paradisets ö | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenerna; silverryktet; vem du var innan Planka; honnörsbordet; dörren bakom medvetandet | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | silverrykte | none |
+| ludvigvonbahr | Kapten Dunka | Gnället | 🟡 | svärdets påhittade historia | historien du berättar om och om igen (innehållet saknas) |
+| minervalowgren | Kapten Prygel | Fromheten | 🟡 | hans kapten | none |
+| minimacklin | Kapten Blodig | Fördärvet | 🟡 | Piratpulver; Paradisets ö | none |
+| petterwallberg | Kapten Lösskägg | Kurtisanen | 🟡 | jubilaren; de fyra skäggens historier | historier du kan utantill, utan innehåll |
+| viktoransund | Kapten Rödskägg | Fromheten | 🟡 | gymmet; Paradisets ö | none |
+| malintadaa | Svarta Malin | Kurtisanen | 🔴 | den hemliga älskaren; Kulings last | älskarens namn |
+| navidmodiri | Kapten Döver | Fördärvet | 🔴 | krumelurpillret; jubilarens älskare; rötan mot Rötägg | vem Barnsben väljer |
+| linneaekbom | Kapten Rosing | Gnället | 🔴 | gymmet; krumelurburk; skymningens piller; Skäggens Konung | vad Nykter egentligen fick höra |
+| fabianmacklin | Kapten Nykter | Bortförklaringen | 🔴 | Dunkas svärdshistoria | vad Barnsben vet om Rötägg; var Dunkas svaga punkt sitter |
+| jesperlindmarker | Kapten Hurring | Kurtisanen | 🔴 | piratval | liggarraden om Malin |
+
+### Mönster
+
+**Tom kunskap (fix i den personens fil):**
+1. Malins namnlösa älskare.
+2. Barnsbens val, läckt till Döver utan innehållet.
+3. Vad Nykter hörde, läckt till Rosing via snäckan.
+4. Vad Barnsben vet om Rötägg, och Dunkas svaga punkt, hos Nykter.
+5. Hurrings liggarrad om Malin.
+
+**Oförklarade mentions som fortfarande är värda en rad** (inte undantag, inte kistan):
+- `krumelurburk` / skymningens piller hos Rosing (förklaras hos Barnsben, inte hos henne).
+- Silveryktets *innehåll* hos Fuling och Planka.
+- `dörren bakom medvetandet` (Blåskägg, Planka).
+- `Piratpulver` (Blodig).
+- `Paradisets ö`, `Storstugan`, `gymmet`, `gården`, `honnörsbordet` som fysiska platser.
+- `avlatsbrev` hos Fromheten.
+- Skäggvadet: vem som är samlaren vs den lättkränkte (Klöver).
+- Dunkas påhittade svärdshistoria (han ska kunna köra igång den).
+
+**Inte buggar:** Malins låsta kista / «den som känner historien». Lagskattdörrar. Gubben/Gumman. Salmonellahavet, Ovanan.
+
+### Rekommendation
+
+Skriv de fem röda tom-kunskap-luckorna först. Därefter en rad där ett föremål från *någon annans* fil nämns (krumelurpiller, plåthorn, silverykte). Platser som någon ska gå till (`Storstugan`, `gymmet`) kan vara landmärken på plats.
+
+---
+
+## Runda 3 — gästfil + lagintrig + roster (arkiverad)
+
 
 **Datum:** 2026-08-28.
 
