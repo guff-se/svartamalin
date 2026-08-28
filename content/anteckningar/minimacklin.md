@@ -8,6 +8,8 @@ real_name: Mini Macklin
 
 Jägare i huvudstoryn (B-13): oläkt kärlek efter sveket i tonåren. Vet att **Svarta Malin** gömmer en älskare, och tror att det är någon på ön. Vet **inte** att det är Karl XII.
 
+Q-2-start och Q-5-tvärledtråd: hon vet om stugan och skuldväggen från den gamla närheten, inte som rykte. Romans 20 är skälet. Klöver, Kosing och Rödskägg får rykteversionen.
+
 Fiende 21 mot **Kapten Hjärter** (rivaler om Malin) är pending. Får krocka med Hjärter i jakten.
 
 Fiende 4 mot **Kapten Frodig**: Blodig hade prejat, seglen strukna, lasten hennes. Frodig stal lasten och seglade in som segrare. Blodig tryckte en blodig hand i Frodigs storsegel. Inte kapitulation.

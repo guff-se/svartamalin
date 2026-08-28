@@ -9,23 +9,23 @@ mirrors:
 related: [malintadaa, jesperlejfjord, josefinansund, josefinlowing, viktoransund]
 ---
 
-## Stugan ingen pratar om {slug:malintadaa}
-
-Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde sig ett hus med sina egna händer, på en öde ö inte långt härifrån. Dit ska hon fortfarande fly, när världen blir för mycket och hon behöver vara för sig själv.
-
-Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.
-
-## Väggen du aldrig behöver frukta {slug:malintadaa}
-
-Det viskas att **Svarta Malin** för en logg över alla som är skyldiga henne, och att loggen hänger rätt upp och ner i Storstugan: en vägg av porträtt, döpt "de värsta kaptener som finns", uppsatt skuta för skuta. Ditt eget porträtt hänger där som allas gör, men du vet, obekymrat, att ditt namn är skuldfritt. Du är inte skyldig henne ett öre.
-
-Hör du någon fråga sig var Malins skuldlogg sitter, vet du svaret utan att behöva jaga det själv. Dela det med **Fregatten Fördärvet** om priset känns rätt, eller håll det för dig själv och se vem som kommer krypande.
-
 ## Ögonen som fortfarande fångar dig {slug:malintadaa}
 
 Ditt rykte är blodigt: fler dräpta kaptener i sömnen än hamnen vågar räkna högt, blodstänk kvar i ansiktet som en signatur ingen tvättar bort. Men det var **Svarta Malin** som gjorde dig kall som sten, sveket i era tidiga år, det partnerskap och den plundring över sju hav ni aldrig fick uppleva tillsammans. Hennes ögon är fortfarande din svaghet: möt dem rakt och du stelnar en hel minut, förstummad som en unge katt, innan garden hittar tillbaka. Därför solglasögonen. Därför att du aldrig tar av dig dem när hon är i rummet. Därför att du fortfarande vill bli tagen av henne, bunden och använd, tills sveket äntligen tar slut eller börjar om.
 
 Nu viskar hamnen att jubilaren gömmer en älskare. Du vill veta vem, inte av artighet utan för att det gamla suget aldrig läkt. Du vill att det ska vara du. **Kapten Hjärter** letar efter samma svar av egna skäl, och ni två kommer att krocka i jakten förr eller senare, två anspråk på samma jubilar, oavsett om ni erkänner det för varandra. Ta reda på namnet innan festen är över och skutorna skingras. Malin kommer varken bekräfta eller neka. Låt det reta dig ännu mer.
+
+## Stugan ingen pratar om {slug:malintadaa}
+
+Det är inget rykte för dig. I de tidiga åren, innan hon förrådde dig, släppte **Svarta Malin** en hemlighet i koja som kajen fortfarande inte har: hon byggde sig ett hus med egna händer, långt innan hon blev kapten, på en öde ö inte långt härifrån. Dit flyr hon fortfarande när världen blir för mycket och hon behöver vara för sig själv. Du vet det för att du en gång var den hon släppte garden för.
+
+Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.
+
+## Väggen du aldrig behöver frukta {slug:malintadaa}
+
+Samma närhet gav dig mer. Du vet hur **Svarta Malin** för räkning, inte för att hamnen viskat utan för att du en gång låg tillräckligt nära för att få se det: hon för logg över alla som är skyldiga henne, och loggen hänger rätt upp och ner i Storstugan, en vägg av porträtt döpt "de värsta kaptener som finns", uppsatt skuta för skuta. Ditt eget porträtt hänger där som allas gör, men du vet, obekymrat, att ditt namn är skuldfritt. Sveket tog partnerskapet. Det tog inte din plats ur hennes bok. Du är inte skyldig henne ett öre.
+
+Hör du någon fråga sig var Malins skuldlogg sitter, vet du svaret utan att behöva jaga det själv. Dela det med **Fregatten Fördärvet** om priset känns rätt, eller håll det för dig själv och se vem som kommer krypande.
 
 ## Tecknet du snubblar över {slug:josefinansund}
 

@@ -843,10 +843,10 @@ fordelning:
     akt: II
     till: [minimacklin]
     roll: jagare
-    vet: "att Svarta Malin, långt innan hon blev kapten, byggde ett hus med egna händer på en öde ö i närheten, och att hon fortfarande flyr dit när världen blir för mycket"
+    vet: "att Svarta Malin, långt innan hon blev kapten, byggde ett hus med egna händer på en öde ö i närheten, att hon fortfarande flyr dit när världen blir för mycket, och att Blodig vet det från de tidiga åren innan sveket, inte som rykte"
     vet_inte: "att stugan är Q-2:s ursprung, att hon begravde någon i skogen, namnet Svarta, kungen, kistan"
     speglas: []
-    bygger_pa: null
+    bygger_pa: "romans: 20"
     pussel: "Q-2"
     status: done
 
@@ -979,10 +979,10 @@ fordelning:
     akt: II
     till: [minimacklin]
     roll: vittne
-    vet: "att Svarta Malins skuldlogg sitter på porträttväggen i Storstugan, och att hon själv är obrydd, hon står inte skyldig i den"
+    vet: "att Svarta Malins skuldlogg sitter på porträttväggen i Storstugan, att hon själv är obrydd och inte står skyldig i den, och att hon vet det från den gamla närheten med Malin, inte som rykte"
     vet_inte: "sångordningen som ger bokstavsordningen, att baksidorna ska vändas, svärdfiskens mun, vilka tre kaptener som är skyldiga, kungen, att festen är en fälla"
     speglas: []
-    bygger_pa: null
+    bygger_pa: "romans: 20"
     pussel: "Q-5"
     status: done
 
