@@ -48,7 +48,7 @@ Du delar säng med både **Kapten Klöver** och **Kapten Prygel**, var för sig,
 
 ## En rad som säljer sig själv {slug:josefinlowing}
 
-Din svarta liggare rymmer mer än frågan om vem som en gång angav dig. Där finns också en gammal, aldrig bekräftad historia om **Svarta Malin** själv, den sortens rad som blir sannare för var gång den upprepas. Nu vill **Kapten Kuling** ha den, av ett gammalt groll mot jubilaren som Fördärvet fortfarande bär. Du behöver inte veta om hon har rätt att klaga. Du behöver bara veta vad hon betalar, i mynt eller i en tjänst du kan kräva tillbaka senare. Sälj raden innan helgen är över, och låt henne slåss om vad den egentligen betyder.
+Din svarta liggare rymmer mer än frågan om vem som en gång angav dig. Där finns också en gammal, aldrig bekräftad rad om **Svarta Malin** själv: att hon tog last från en skuta som litade på henne, döpte om stölden till rättvis delning, och att skutan aldrig såg ett mynt tillbaka. Den sortens rad blir sannare för var gång den upprepas. Nu vill **Kapten Kuling** ha den, av ett gammalt groll mot jubilaren som Fördärvet fortfarande bär. Du behöver inte veta om hon har rätt att klaga. Du behöver bara veta vad hon betalar, i mynt eller i en tjänst du kan kräva tillbaka senare. Sälj raden innan helgen är över, och låt henne slåss om vad den egentligen betyder.
 
 ## Siffran du bär {slug:jesperlindmarker}
 

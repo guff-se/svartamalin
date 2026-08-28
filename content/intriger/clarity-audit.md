@@ -85,6 +85,10 @@ Fler röda än runda 3 eftersom tom kunskap som läsaren ska agera på nu är r�
 
 **Inte buggar:** Malins låsta kista / «den som känner historien». Lagskattdörrar. Gubben/Gumman. Salmonellahavet, Ovanan.
 
+### Efter runda 4 (2026-08-28)
+
+Malins namnlösa älskare är undantag: hemlighet hon redan bär, namnet ska inte stå i gästtext. De andra fyra röda fylldes i gästfilerna: Döver hörde att burken går till Nykter; Rosing hörde att Barnsben viskade inget ömt; Nykter vet parfymspratten och att Dunkas svärdshistoria är påhitt; Hurring säljer raden om last som döptes om till rättvis delning. Ingen ny runda här. Kör om vid behov.
+
 ### Rekommendation
 
 Skriv de fem röda tom-kunskap-luckorna först. Därefter en rad där ett föremål från *någon annans* fil nämns (krumelurpiller, plåthorn, silverykte). Platser som någon ska gå till (`Storstugan`, `gymmet`) kan vara landmärken på plats.

@@ -31,7 +31,7 @@ Erbjud honom hela **Galeonen Gnället**s röst mot de två, redo att ropa, klapp
 
 Ni bad henne båda om sista dansen samma kväll, och hon nekade er båda på ett och samma andetag. Det borde ha gjort er till bundsförvanter i nederlaget. Istället gick **Kapten Nykter** därifrån och lät hela hamnen höra att **Kapten Barnsben** viskat något ömt i hans öra just innan hon sa nej, ett löfte om en annan kväll, en antydan bara han fick höra. Du tror inte ett ord.
 
-Din snäcka har viskat annat till dig, saker om vad han egentligen fick höra den kvällen, saker han inte vet att du känner till. Avslöj hans lögn öppet vid syhörnan, eller spara den tills han tror sig vunnen och krossa hans uppvaktning i just det ögonblicket. Gör det innan festen är över, innan hans lögn hinner bli sanning bara av att upprepas.
+Din snäcka har viskat sanningen, och den är torrare än hans rykte: hon viskade ingenting ömt. Hon sa nej, sen "gå nu, båda två", och inget löfte om någon annan kväll. Det han sålde till hamnen var påhitt, rakt av. Han vet inte att du känner till det. Avslöj hans lögn öppet vid syhörnan, eller spara den tills han tror sig vunnen och krossa hans uppvaktning i just det ögonblicket. Gör det innan festen är över, innan hans lögn hinner bli sanning bara av att upprepas.
 
 ## Vad snäckan viskar om hornet {slug:elinmartensson}
 

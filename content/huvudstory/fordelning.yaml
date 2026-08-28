@@ -406,7 +406,7 @@ fordelning:
     akt: II
     till: [linneaekbom]
     roll: jagare
-    vet: "att hon uppvaktar Kapten Barnsben vid hennes sy- och broderihörna för att bli den hon litar på i skymningen, och att Kapten Nykter gör detsamma utan att hon vet om honom"
+    vet: "att hon uppvaktar Kapten Barnsben vid hennes sy- och broderihörna för att bli den hon litar på i skymningen, att Kapten Nykter gör detsamma utan att hon vet om honom, och att hennes snäcka hörde sanningen om sista dansen: Barnsben viskade inget ömt, sa nej sen gå nu båda två, och Nykters löfte om en annan kväll var påhitt"
     vet_inte: "att Döver tjuvlyssnar vid hörnan, Nykters egna skäl att stå Barnsben nära"
     speglas: [ulrikahammar]
     bygger_pa: "romans: 4"
@@ -418,7 +418,7 @@ fordelning:
     akt: II
     till: [navidmodiri]
     roll: vittne
-    vet: "att han tjuvlyssnar i smyg vid Kapten Barnsbens sy- och broderihörna bakom sin fejkade dövhet, och redan vet vem hon litar mest på i skymningen"
+    vet: "att han tjuvlyssnar i smyg vid Kapten Barnsbens sy- och broderihörna bakom sin fejkade dövhet, att hon måste svälja ett krumelurpiller i skymningen för att inte bli stor, och att han redan hört henne säga att burken går till Kapten Nykter, inte till Kapten Rosing"
     vet_inte: "inget särskilt av huvudstoryns lösning"
     speglas: []
     bygger_pa: null
@@ -514,7 +514,7 @@ fordelning:
     akt: II
     till: [fabianmacklin]
     roll: jagare
-    vet: "att han en gång gjorde Kapten Dunkas svärdshistoria till ett hamnskämt och fick en kram tillbaka som pressade andan ur honom, att Kapten Kosing driver in en arvssyndsskatt mot Dunkas anor, och att han kan viska Dunkas svaga punkt till henne utan att synas i det"
+    vet: "att han en gång gjorde Kapten Dunkas svärdshistoria till ett hamnskämt och fick en kram tillbaka som pressade andan ur honom, att Kapten Kosing driver in en arvssyndsskatt mot Dunkas anor, att Dunkas svaga punkt är att svärdet inte är anrikt och historien påhitt, och att han kan viska just det till Kosing utan att synas i det"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [ludvigvonbahr]
     bygger_pa: "fiende: 20"
@@ -574,7 +574,7 @@ fordelning:
     akt: II-IV
     till: [jesperlindmarker]
     roll: vittne
-    vet: "att han sitter på en osäker, aldrig bekräftad historia om Svarta Malin i sin svarta liggare, och att han kan sälja den till Kapten Kuling mot mynt eller en framtida tjänst"
+    vet: "att han sitter på en osäker, aldrig bekräftad rad om Svarta Malin i sin svarta liggare: att hon tog last från en skuta som litade på henne, döpte om stölden till rättvis delning, och att skutan aldrig såg ett mynt tillbaka, och att han kan sälja raden till Kapten Kuling mot mynt eller en framtida tjänst"
     vet_inte: "att kistan öppnas, att brevet läses högt"
     speglas: [josefinlowing]
     bygger_pa: null
@@ -622,7 +622,7 @@ fordelning:
     akt: II
     till: [fabianmacklin]
     roll: vittne
-    vet: "att Kapten Planka kan fråga honom om Kapten Rötäggs omvändelse är sann, om hon inte hittar Kapten Barnsben, och att han tycker om att se andra desperata efter sanning"
+    vet: "att Kapten Planka kan fråga honom om Kapten Rötäggs omvändelse är sann, om hon inte hittar Kapten Barnsben, att Barnsben redan sagt honom att Rötägg bytte ut hennes doft mot något rutet när hon uppvaktade Kapten Döver och att hon inte tror på omvändelsen, och att han tycker om att se andra desperata efter sanning"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: []
     bygger_pa: null

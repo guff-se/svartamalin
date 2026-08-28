@@ -103,7 +103,9 @@ fiender:
     type: one_way
     a: linneaekbom        # Kapten Rosing: Galeonen Gnället
     b: fabianmacklin      # Kapten Nykter: Barken Bortförklaringen
-    # oförrätt: Nykter tog sista dansen med Barnsben efter gemensamt nej (+ påstådd viskning)
+    # oförrätt: Nykter tog sista dansen med Barnsben efter gemensamt nej (+ påstådd viskning).
+    # Facit för Rosings snäcka: Barnsben viskade inget ömt. Hon sa nej, sen "gå nu, båda två".
+    # Nykter sålde ett löfte om en annan kväll. Han vet inte att snäckan hörde sanningen.
     status: done
 
   - id: 11

@@ -46,10 +46,10 @@ Du har aldrig kunnat bevisa att han ljuger om sin dövhet, men du vet vad du vet
 
 ## Viskningen du ger Kosing {slug:amandamungsgard}
 
-Du gjorde en gång **Kapten Dunka**s svärdshistoria till ett stående hamnskämt, och han svarade med en av sina långa, envisa kramar som pressade andan och äran ur dig samtidigt. Sen dess håller du dig på behörigt avstånd från honom, men inte från hans svaga punkt.
+Du gjorde en gång **Kapten Dunka**s svärdshistoria till ett stående hamnskämt, och han svarade med en av sina långa, envisa kramar som pressade andan och äran ur dig samtidigt. Sen dess håller du dig på behörigt avstånd från honom, men inte från hans svaga punkt: det tveeggade svärdet är inte anrikt, historien om bladet är påhitt, och tvingar man honom att berätta den i detalj snubblar han.
 
-**Kapten Kosing** driver in en arvssyndsskatt mot uppblåsta anor, och Dunkas är den finaste hon känner till. Viska åt henne var hans svaga punkt sitter, utan att själv synas i det. Se honom svettas en gång till, från säkert avstånd den här gången.
+**Kapten Kosing** driver in en arvssyndsskatt mot uppblåsta anor, och Dunkas är den finaste hon känner till. Viska åt henne just det, att myten spricker om hon kräver historien ord för ord, utan att själv synas i det. Se honom svettas en gång till, från säkert avstånd den här gången.
 
 ## Svaret du ger om Rötägg {slug:linneaappert}
 
-Hittar **Kapten Planka** inte **Kapten Barnsben** kan hon fråga dig istället om **Kapten Rötägg** verkligen ändrat sig sen han miste sitt skepp genom att vara grym mot sin besättning. Du vet vad Barnsben vet, och du tycker om att se andra desperata efter sanning. Färga ditt svar precis så mycket som roar dig mest.
+Hittar **Kapten Planka** inte **Kapten Barnsben** kan hon fråga dig istället om **Kapten Rötägg** verkligen ändrat sig sen han miste sitt skepp genom att vara grym mot sin besättning. Barnsben har redan sagt det till dig: han bytte en gång ut hennes doft mot något rutet, precis när hon uppvaktade **Kapten Döver**, och hon köper inte ett uns av hans omvändelse. Du tycker om att se andra desperata efter sanning. Färga ditt svar precis så mycket som roar dig mest.
