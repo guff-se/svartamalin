@@ -370,7 +370,7 @@ fordelning:
     akt: II
     till: [johannabergman]
     roll: hetsare
-    vet: "att Lösskägg, Rödskägg och Blåskägg slåss om vem som ska kallas Skäggens Konung, att de själva listar ut hur, att hon ska hetsa dem mot varandra och ta vad på person och metod, choklad lika bra som mynt, och att hon inte bryr sig om vem som vinner"
+    vet: "att Lösskägg, Rödskägg och Blåskägg slåss om vem som ska kallas Skäggens Konung, att Lösskägg är samlaren med skägg i lådan, Rödskägg den lättkränkte och Blåskägg den med det blånade skägget, att de själva listar ut hur, att hon ska hetsa dem mot varandra och ta vad på person och metod, choklad lika bra som mynt, och att hon inte bryr sig om vem som vinner"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [petterwallberg, viktoransund, hampuslindblad]
     bygger_pa: null

@@ -132,7 +132,7 @@ Vad de vill:    utropa sig till Skäggens Konung, eller stoppa de andra. Lössk�
 Vad står i vägen: de två andra. Ingen given regel för hur titeln vinns. Utan Klövers hets kan de tre lika gärna nöja sig med att retas.
 Varför nu:      tre skäggnamn på samma fest. Folk tittar. Klöver har en bank att öppna.
 
-Hur det spelas: Klöver hetsar de tre mot varandra. Hon öppnar vad, sprider att en av dem redan gjort anspråk, retar den lättkränkte, viskar till den andre att hans skägg är nästa. Choklad lika bra som mynt. Ju mer de slåss, desto mer rullar boken. Hon bryr sig inte om vem som blir kung, bara att det blir en kamp värd att slå vad på.
+Hur det spelas: Klöver hetsar de tre mot varandra. Hon öppnar vad, sprider att en av dem redan gjort anspråk, retar Rödskägg (lättkränkt), viskar till Lösskägg (samlaren) att hans nästa skägg ligger löst, säger till Blåskägg att färgen inte räcker. Choklad lika bra som mynt. Ju mer de slåss, desto mer rullar boken. Hon bryr sig inte om vem som blir kung, bara att det blir en kamp värd att slå vad på.
 
 De tre listar själva ut hur man blir kung. Den ön behandlar som kung är kung. Gästtexten ger tre exempel, inte en meny: förnedra motståndarna, utlysa en skäggturnering, eller raka av motståndet. Andra sätt räknas om kajen ser det.
 

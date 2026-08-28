@@ -24,9 +24,9 @@ Kalla ihop **Barken Bortförklaringen** och ta er över till den öde ön innan 
 
 ## Skäggens Konung {slug:petterwallberg}
 
-**Kapten Lösskägg**, **Kapten Rödskägg** och **Kapten Blåskägg** bär samma slags namn och samma slags fåfänga. Tre skägg på en kaj är en bank som väntar. Du vill tjäna på vadslagningen, och för det måste de faktiskt slåss.
+**Kapten Lösskägg** samlar skägg i en låda och kallar det seger. **Kapten Rödskägg** är stolt nog att spricka vid en viskning. **Kapten Blåskägg** bär blått i ansiktet som om färgen vore ett argument. Tre skägg på en kaj är en bank som väntar. Du vill tjäna på vadslagningen, och för det måste de faktiskt slåss.
 
-Hetsa dem. Viska till den lättkränkte att de andra redan skrattat. Säg till samlaren att de andras skägg är nästa i lådan. Säg till den med det blånade skägget att färgen inte räcker. Öppna vad på vem som vinner och hur: förnedring, turnering, rakning, eller vad de själva hittar på. Choklad går lika bra som mynt. Du bryr dig inte om vem som blir Skäggens Konung. Du bryr dig om att kajen slår vad, och att din procent är räknad när sista skålen faller.
+Hetsa dem. Viska till Rödskägg att de andra redan skrattat. Säg till Lösskägg att de andras skägg är nästa i lådan. Säg till Blåskägg att färgen inte räcker. Öppna vad på vem som vinner och hur: förnedring, turnering, rakning, eller vad de själva hittar på. Choklad går lika bra som mynt. Du bryr dig inte om vem som blir Skäggens Konung. Du bryr dig om att kajen slår vad, och att din procent är räknad när sista skålen faller.
 
 ## Fragmentet du säljer dyrt {slug:jesperlindmarker}
 
