@@ -4,9 +4,95 @@ Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format. 
 
 **VIKTIGT** Ändra inte resultatet av granskningen i detta dokument, förutom genom att faktiskt köra granskningsscriptet.
 
-Kördes i sju omgångar. **Runda 7 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag (inkl. gymmet, Storstugan, Malins älskare, Piratpulver, Paradisets ö) + tom kunskap + bestämd form. Äldre rundor är arkiv.
+Kördes i åtta omgångar. **Runda 8 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag (inkl. gymmet, Storstugan, Malins älskare, Piratpulver, Paradisets ö) + tom kunskap + bestämd form. Äldre rundor är arkiv.
 
-## Runda 7 — gästfil + lag + intro + undantag + bestämd form (aktuell bild)
+## Runda 8 — gästfil + lag + intro + undantag + bestämd form (aktuell bild)
+
+**Datum:** 2026-08-28.
+
+**Metod:** 23 isolerade agenter, en per gäst. Varje agent fick:
+1. sin egen `guests/{slug}.md` (YAML och `{slug:…}` osynliga),
+2. sitt eget lags `crews/{crew_id}.md`,
+3. `content/copy/intriger_intro.md`,
+4. roster med lagnamn och piratnamn, eget namn/lag utmärkt.
+
+Undantag i prompten (flagga inte): Gubben i stubben / Gumman på udden; dörrar till lagskatter; Salmonellahavet, Ovanan och Piratpulver; Paradisets ö; gymmet och Storstugan; Svarta Malins hemliga älskare (Dunka som avledning). Extra check: tom kunskap (`du vet` utan innehåll) och bestämd form utan intro (`skålen`/`jollen`-mönstret). Heuristiska kandidater från `--scan` låg i prompten; auditorn avgjorde.
+
+Sedan runda 7: avlatsbrev ifyllt hos Kosing; kåthornets funktion utskrivet hos Kuling, Prygel, Spader och Rosing.
+
+### Resultat
+
+| Betyg | Antal | Runda 7 → Runda 8 |
+|---|---|---|
+| 🟢 Grönt | 10 | 5 → 10 |
+| 🟡 Gult | 13 | 18 → 13 |
+| 🔴 Rött | 0 | 0 → 0 |
+
+Inga röda. Ingen gick från grönt till gult. Nya gröna: Babord, Kosing, Nykter, Kuling och Dunka. Kvar gröna: Plåthorn, Spader, Frodig, Malin, Barnsben.
+
+### 🔴 Rött (0)
+
+Inget. Ingen tom kunskap som läsaren måste agera på utan innehåll.
+
+### Per gäst
+
+| Slug | Piratnamn | Lag | Betyg | Termer | Tom kunskap |
+|---|---|---|---|---|---|
+| alexandrapalmquist | Kapten Babord | Gnället | 🟢 | none | none |
+| amandamungsgard | Kapten Kosing | Fromheten | 🟢 | none | none |
+| elinmartensson | Kapten Plåthorn | Gnället | 🟢 | none | none |
+| fabianmacklin | Kapten Nykter | Bortförklaringen | 🟢 | none | none |
+| gustaftadaa | Löjtnant Spader | Fördärvet | 🟢 | none | none |
+| josefinansund | Kapten Frodig | Bortförklaringen | 🟢 | none | none |
+| josefinlowing | Kapten Kuling | Fördärvet | 🟢 | none | none |
+| ludvigvonbahr | Kapten Dunka | Gnället | 🟢 | none | none |
+| malintadaa | Svarta Malin | Kurtisanen | 🟢 | none | none |
+| ulrikahammar | Kapten Barnsben | Kurtisanen | 🟢 | none | none |
+| edvinthungren | Kapten Rötägg | Gnället | 🟡 | manschettknapparna; din workshop; röta mot Döver | none |
+| hampuslindblad | Kapten Blåskägg | Bortförklaringen | 🟡 | dörren bakom medvetandet | none |
+| jesperlejfjord | Kapten Hjärter | Fromheten | 🟡 | grytorna; kökskanten; Katten Felix; jubilaren; angivelsen; Hurrings liggare | none |
+| jesperlindmarker | Kapten Hurring | Kurtisanen | 🟡 | masten; jubilaren; förra kaptensskålen; gammalt skämt | skämtets innehåll |
+| johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | svärdshistoria; förra skålen; drevet; Fragmentet; kortfärgen; asken | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenerna; oljan från sirenerna; förra kaptensskålen; flaskan | none |
+| linneaekbom | Kapten Rosing | Gnället | 🟡 | snäckan; Rösten du köpt; bladet; Skäggens Konung; skymningens piller; krumelurburk | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | Anklagelsen; förra kaptensskålen; flaskan | none |
+| minervalowgren | Kapten Prygel | Fromheten | 🟡 | förra skålen för feber | none |
+| minimacklin | Kapten Blodig | Fördärvet | 🟡 | kapitulation; Väggen; Ögonen; Tecknet; Klienten; solglasögonen; Fragmentet | none |
+| navidmodiri | Kapten Döver | Fördärvet | 🟡 | jubilaren | none |
+| petterwallberg | Kapten Lösskägg | Kurtisanen | 🟡 | Fragmentet | historier du kan utantill |
+| viktoransund | Kapten Rödskägg | Fromheten | 🟡 | bladet; skuldbreven | none |
+
+### Mönster
+
+**Inte buggar:** Malins låsta kista / «den som känner historien». Lagskattdörrar. Gubben/Gumman. Salmonellahavet, Ovanan. Gymmet, Storstugan. Älskarens namn hos Malin. Piratpulver. Paradisets ö. `jubilaren` är Malins fest (introt säger «festen är hennes» men inte ordet). Kosing/Nykter/Barnsben-agenterna flaggade `bordet`, `sy- och broderihörnan`, `Lasten`/`syhörnan`/`Parfymen` men satte grönt — rubrik eller nästa stycke fyller i.
+
+**Återkommande gula mentions** (värda en rad i *den personens* fil, inte undantag):
+- `workshop` / `din workshop` (Rötägg) — Dövers täckmantel, nämns som om den redan fanns. Borta hos Babord den här rundan.
+- `dörren bakom medvetandet` (Blåskägg).
+- `krumelurburk` / skymningens piller / snäckan / Rösten du köpt hos Rosing (förklaras hos Barnsben, inte hos henne).
+- `bladet` i gymmet (Rosing, Rödskägg).
+- `förra kaptensskålen` / feber / flaskan (Hurring, Planka, Fuling, Prygel, Klöver).
+- `sirenerna` hos Planka (oljan kommer därifrån).
+- Dunkas `svärdshistoria` (Klöver nämner den; Dunka själv är grön).
+- `kapitulation` hos Blodig.
+- `Katten Felix` / `Hurrings liggare` / `angivelsen` (Hjärter).
+- `skuldbreven` (Rödskägg) — texten har porträttvägg, inte brev.
+
+**Tom kunskap som inte är röd** (går att spela runt):
+- Hurring: skämtet mot Blåskägg («ett gammalt skämt du aldrig låtit dö»).
+- Lösskäggs fyra skägghistorier.
+
+Borta mot runda 7: Nykters statyett-sätt; Hurrings «hur nära Prygel och Klöver»; Dövers skäl att tiga.
+
+**Rubriker i bestämd form** (smak, inte blocker): `Fragmentet`, `Väggen`, `Ögonen`, `Tecknet`, `Klienten`, `Anklagelsen`, `Lasten`, `Parfymen` — första nämnandet är rubriken, stycket under fyller i.
+
+### Rekommendation
+
+Inget måste. Om nästa svep: en rad om Dövers workshop hos Rötägg, krumelurburken/snäckan hos Rosing, vad «förra kaptensskålen»/feber var för Fuling/Prygel/Hurring/Planka, och sirenerna/oljan hos Planka.
+
+---
+
+## Runda 7 — gästfil + lag + intro + undantag + bestämd form (arkiverad)
 
 **Datum:** 2026-08-28.
 
