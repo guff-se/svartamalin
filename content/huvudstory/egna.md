@@ -20,6 +20,27 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-28, Fuling tappade värdigheten vid förra kaptensskålen
+
+Källa: Gustaf, i chatt.
+
+- [x] fixa problemet med "Kapten Fuling tappade värdigheten vid förra kaptensskålen"
+
+Kryss = `../intriger/guests/jesperlindmarker.md` återberättar scenen: Planka smorde in Fuling vid förra kaptensskålen, kajen såg höfterna före huvudet, Fuling svor att det var feber. Inte bara utfallet.
+
+---
+
+## 2026-08-28, man kan inte stjäla en kapitulation
+
+Källa: Gustaf, i chatt.
+
+- [x] I `content/intriger/guests/minimacklin.md` står det "**Kapten Frodig** stal en gång din kapitulation, och du stämplade hennes storsegel i blod som svar, ett groll som aldrig läkt"
+- [x] Man kan inte själa en "kapitulation". Hitta källan till detta, skriv en ny tydligare premiss och uppdatera alla intriger det påverkar.
+
+Kryss = källan var fiende 4 i [`../intriger/fiender.yaml`](../intriger/fiender.yaml). Ny oförrätt: Blodig hade prejat, seglen var strukna, lasten var hennes. Frodig stal **lasten** och seglade in som segrare. Blodig tryckte en blodig hand i Frodigs storsegel. Inte ordet kapitulation. Se [`beslut.md`](beslut.md).
+
+---
+
 ## 2026-08-28, skatt är två ord
 
 Källa: Gustaf, i chatt.

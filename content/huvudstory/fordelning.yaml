@@ -435,7 +435,7 @@ fordelning:
     akt: II
     till: [jesperlindmarker]
     roll: jagare
-    vet: "att han vill veta vem som en gång angav honom och satte honom i fängelse, att hans svarta liggare behöver en ny rad, att Kapten Fuling tappade värdigheten vid förra kaptensskålen och sen dess svurit att det var feber, att Kapten Klöver har hört ett fragment om den som fortfarande kallar förra skålen för feber och att Kapten Prygel båda delar säng med honom utan att veta om varandra och att han kan spela ut dem mot varandra, att Kapten Blåskägg bär en obetald skuld och ett gammalt skämt som gör honom till ett bekvämt mål för misstanke, och att Löjtnant Spader bär en gammal spelskuld till honom som han kan kräva in i mynt eller i ett rykte från spelborden"
+    vet: "att han vill veta vem som en gång angav honom och satte honom i fängelse, att hans svarta liggare behöver en ny rad, att Kapten Planka smorde in Kapten Fuling vid förra kaptensskålen inför kajen och att Fuling sen dess svurit att det var feber, att Kapten Klöver har hört ett fragment om den som fortfarande kallar förra skålen för feber och att Kapten Prygel båda delar säng med honom utan att veta om varandra och att han kan spela ut dem mot varandra, att Kapten Blåskägg bär en obetald skuld och ett gammalt skämt som gör honom till ett bekvämt mål för misstanke, och att Löjtnant Spader bär en gammal spelskuld till honom som han kan kräva in i mynt eller i ett rykte från spelborden"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [louisevonbahr, johannabergman, minervalowgren, hampuslindblad, gustaftadaa]
     bygger_pa: "fiende: 5, 1, 8"
@@ -687,7 +687,7 @@ fordelning:
     akt: II-IV
     till: [minimacklin]
     roll: jagare
-    vet: "att hon och Kapten Frodig bär ett gammalt groll, en stulen kapitulation och ett blodstämplat storsegel, att hon kan snubbla över eller nysta i ett tecken på att Frodig har något ihop med Kapten Rödskägg, och att hon kan konfrontera dem eller sälja fragmentet vidare till Kapten Lösskägg"
+    vet: "att hon och Kapten Frodig bär ett gammalt groll: Blodig hade prejat och tvingat seglen strukna, Frodig stal lasten och seglade in som segrare, Blodig tryckte en blodig hand i Frodigs storsegel, att hon kan snubbla över eller nysta i ett tecken på att Frodig har något ihop med Kapten Rödskägg, och att hon kan konfrontera dem eller sälja fragmentet vidare till Kapten Lösskägg"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [josefinansund, viktoransund, petterwallberg]
     bygger_pa: "fiende: 4"
@@ -699,7 +699,7 @@ fordelning:
     akt: II-IV
     till: [josefinansund]
     roll: barare
-    vet: "att hennes förbjudna kärlek till Kapten Rödskägg måste hållas hemlig, att Kapten Blodig bär ett gammalt groll mot henne och gärna snubblar över ett tecken på kärleken, och att panik kan bekräfta ryktet lika säkert som ett erkännande"
+    vet: "att hennes förbjudna kärlek till Kapten Rödskägg måste hållas hemlig, att Kapten Blodig bär ett gammalt groll mot henne (Frodig stal lasten efter Blodigs prejning, Blodig tryckte en blodig hand i Frodigs storsegel) och gärna snubblar över ett tecken på kärleken, och att panik kan bekräfta ryktet lika säkert som ett erkännande"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [viktoransund, minimacklin]
     bygger_pa: "romans: 8"
@@ -1190,7 +1190,7 @@ fordelning:
     akt: II-IV
     till: [minimacklin]
     roll: jagare
-    vet: "att Kapten Kuling, hennes skutkamrat, sköt Kapten Rödskägg för en betalande klient för ett år sedan och aldrig gav besättningen ett namn, och att Blodig själv har fyllt i Kapten Frodig för att pulversläkter slåss och för att Frodig stal hennes kapitulation"
+    vet: "att Kapten Kuling, hennes skutkamrat, sköt Kapten Rödskägg för en betalande klient för ett år sedan och aldrig gav besättningen ett namn, och att Blodig själv har fyllt i Kapten Frodig för att pulversläkter slåss och för att Frodig stal lasten efter Blodigs prejning"
     vet_inte: "att klienten var Kapten Rötägg, kistan, kontraktet"
     speglas: [josefinansund, josefinlowing, viktoransund]
     bygger_pa: "fiende: 4"
