@@ -27,7 +27,13 @@ from (values
   ('Jesper Lejfjord',     'Bollen',           'Våningssäng'),
   ('Josefin Ansund',      'Bollen',           'Dubbelsäng'),
   ('Viktor Ansund',       'Bollen',           'Dubbelsäng'),
-  ('Chris Kummelstedt',   'Bollen',           'Våningssäng'),
   ('Edvin Thungren',      'Bollen',           'Våningssäng')
 ) as s(name, room, bed)
 where lower(g.real_name) = lower(s.name);
+
+-- Återbud: ingen sovplats.
+update guests
+set sleeping_room = null,
+    sleeping_bed  = null
+where attending is not true
+  and (sleeping_room is not null or sleeping_bed is not null);
