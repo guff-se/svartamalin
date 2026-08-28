@@ -43,6 +43,7 @@ Skriv inte som om gästen läser. Ingen revyröst, ingen du-form till deltagaren
 | Gästens eget karaktärsunderlag | [`roller/`](roller/README.md) | Nej |
 | Meta-anteckningar per person | [`anteckningar/`](anteckningar/README.md) | Nej |
 | Romanser, fiender, förrädare (källistor) | [`intriger/romanser.yaml`](intriger/romanser.yaml), [`intriger/fiender.yaml`](intriger/fiender.yaml), [`huvudstory/forradare.yaml`](huvudstory/forradare.yaml) | Nej |
+| Klarhetsgranskning av gästintriger | [`intriger/clarity-review.md`](intriger/clarity-review.md), resultat i [`intriger/clarity-audit.md`](intriger/clarity-audit.md) | Nej |
 
 Gäller överallt i `content/`:
 

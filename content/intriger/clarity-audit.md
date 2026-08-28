@@ -1,6 +1,6 @@
 # Klarhetsgranskning — gästintriger (guests/*.md)
 
-Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format.
+Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format. **Att köra om:** [`clarity-review.md`](clarity-review.md).
 
 Kördes i tre omgångar med olika mängd kontext given till granskningsagenterna. **Runda 3 är den relevanta bilden** av vad en gäst förstår från just de två publicerade intrigfilerna plus kända namn. Runda 2 gav också `roller/` (gästens eget karaktärsunderlag); runda 1 var helt isolerad brödtext.
 
