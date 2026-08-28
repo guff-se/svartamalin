@@ -4,7 +4,7 @@ mirrors:
   - slug: jesperlindmarker
     note: hemlig romans, han vet om Klöver, du vet inte + du är hans mullvad på Fromheten (tvåvägs, asymmetrisk kunskap)
   - slug: elinmartensson
-    note: vill se hornet krossat (tvåvägs)
+    note: vill se kåthornet krossat (tvåvägs)
   - slug: gustaftadaa
     note: delar vid korthajarnas parti
   - slug: jesperlejfjord
@@ -24,9 +24,9 @@ Du ger **Kapten Hurring** mer än din hemlighet. Du ger honom ryggen, munnen, al
 
 **Kapten Klöver** har hört ett skvaller som pekar mot den som fortfarande kallar förra skålen för feber, men vill ha betalt i choklad eller mynt innan hon delar det, helst av dig än gratis. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, och du vägrar be henne om hjälp rakt ut. Fuska med din lilla kortlek om du måste, men lös gåtan själv innan festen är över, och låt Hurring se vem av er två som egentligen förtjänar att bli tagen av honom.
 
-## Hornet som ska krossas {slug:elinmartensson}
+## Kåthornet som ska krossas {slug:elinmartensson}
 
-**Kapten Plåthorn**s plåthorn stör din stridslystna heder mer än något annat på ön: en enda blåsning i det sätter hela slagfältet i en ohämmad upphetsning och låter henne smita undan striden precis när den blir som hetast. Du vill se det krossat, en gång för alla, på allvar. Lura eller stjäl det från henne, ensam eller tillsammans med **Kapten Kuling** som har egna skäl att vilja åt samma horn, innan festen är över.
+**Kapten Plåthorn**s kåthorn stör din stridslystna heder mer än något annat på ön. En enda blåsning sätter hela slagfältet i kåttrans, så våldsam att piraterna tvingas släppa striden för att sniffa i fiendens nacke, och hon smiter precis när det blir som hetast. Du vill se det krossat, en gång för alla, på allvar. Lura eller stjäl det från henne, ensam eller tillsammans med **Kapten Kuling** som har egna skäl att vilja åt samma kåthorn, innan festen är över.
 
 ## Given du delar {slug:johannabergman}
 

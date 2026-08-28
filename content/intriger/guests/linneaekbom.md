@@ -23,7 +23,7 @@ Erbjud honom hela **Galeonen Gnället**s röst mot de två, redo att ropa, klapp
 
 ## Den du vill bli vald av {slug:ulrikahammar}
 
-**Kapten Barnsben**s sy- och broderihörna är den enda plats på ön där någon sitter still länge nog för dig att uppvakta ordentligt. Du vill bli den hon litar mest på när mörkret faller, den hon anförtror sin krumelurburk och sitt piller, hellre än någon annan. Du vill också bli den hon knäpper upp. Du vill ha hennes mun, hennes skratt mot halsen, och en plats i skymningen som inte bara smakar tillit. Att fråga henne rakt ut vem hon egentligen litar på vågar du inte, av rädsla för svaret. Så du gör det på ditt eget sätt: smicker, en dramatisk entré, en påminnelse om att dåligt organiserade hjärtan är den värsta sortens oordning, och en hand som stannar för länge i hennes tyg.
+**Kapten Barnsben**s sy- och broderihörna är den enda plats på ön där någon sitter still länge nog för dig att uppvakta ordentligt. Du vill bli den hon litar mest på när mörkret faller, den hon anförtror sin hemliga krumelurburk och sitt piller, hellre än någon annan. Du vill också bli den hon knäpper upp. Du vill ha hennes mun, hennes skratt mot halsen, och en plats i skymningen som inte bara smakar tillit. Att fråga henne rakt ut vem hon egentligen litar på vågar du inte, av rädsla för svaret. Så du gör det på ditt eget sätt: smicker, en dramatisk entré, en påminnelse om att dåligt organiserade hjärtan är den värsta sortens oordning, och en hand som stannar för länge i hennes tyg.
 
 **Kapten Nykter** vill ha samma plats som du. Du vet inte om honom. Vinn henne innan festen är över. Ta henne, eller förlora henne till en man som ljuger bättre än du uppvaktar.
 
@@ -33,6 +33,6 @@ Ni bad henne båda om sista dansen samma kväll, och hon nekade er båda på ett
 
 Din snäcka har viskat sanningen, och den är torrare än hans rykte: hon viskade ingenting ömt. Hon sa nej, sen "gå nu, båda två", och inget löfte om någon annan kväll. Det han sålde till hamnen var påhitt, rakt av. Han vet inte att du känner till det. Avslöj hans lögn öppet vid syhörnan, eller spara den tills han tror sig vunnen och krossa hans uppvaktning i just det ögonblicket. Gör det innan festen är över, innan hans lögn hinner bli sanning bara av att upprepas.
 
-## Vad snäckan viskar om hornet {slug:elinmartensson}
+## Vad snäckan viskar om kåthornet {slug:elinmartensson}
 
-Din hemliga snäcka hör mer än du bett om, och den har snappat upp **Kapten Kuling**s och **Kapten Prygel**s planer på att lura eller stjäla **Kapten Plåthorn**s plåthorn. Du kan varna henne, i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid du ändå inte kan simma ifrån. Välj innan festen är över.
+Din hemliga snäcka hör mer än du bett om, och den har snappat upp **Kapten Kuling**s och **Kapten Prygel**s planer på att lura eller stjäla **Kapten Plåthorn**s kåthorn: det hon blåser i för att sätta hela slaget i kåttrans, så våldsam att piraterna sniffar i fiendens nacke medan hon själv smiter. Du kan varna henne, i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid du ändå inte kan simma ifrån. Välj innan festen är över.

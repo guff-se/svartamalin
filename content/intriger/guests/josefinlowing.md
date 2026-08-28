@@ -27,13 +27,13 @@ Vid festbordet viskas ett rykte som får även de mest skvallersugna att sänka 
 
 Kalla på **Fregatten Fördärvet** och sök upp båda platserna innan en annan skuta hinner före. Den som förenar halvorna först sitter på ett rykte värt mer än guld.
 
-## Hornet du redan hånat {slug:elinmartensson}
+## Kåthornet du redan hånat {slug:elinmartensson}
 
-**Kapten Plåthorn**s "varning" sålde en gång din position och lät dig bli tagen på bar gärning, en förnedring du svarade på med en hånfull skål om hennes plåthorn inför hela hamnen. Nu vill du ha hornet själv, för skojs skull, för taktiskt bruk, eller för att sälja det vidare till någon som vill mer illa än du. Lura, stjäl, eller locka henne att blåsa i det vid fel tillfälle så hon förlorar greppet om det. Gör det innan festen är över.
+**Kapten Plåthorn**s "varning" sålde en gång din position och lät dig bli tagen på bar gärning, en förnedring du svarade på med en hånfull skål om hennes kåthorn inför hela hamnen. Kåthornet är hennes flykt: blås i det och alla pirater i närheten går i kåttrans, så våldsam att de mitt i striden tvingas sniffa i fiendens nacke medan hon själv smiter. Nu vill du ha det själv, för skojs skull, för taktiskt bruk, eller för att sälja det vidare till någon som vill mer illa än du. Lura, stjäl, eller locka henne att blåsa i det vid fel tillfälle så hon förlorar greppet om det. Gör det innan festen är över.
 
 ## Handen du vill låna {slug:gustaftadaa}
 
-**Löjtnant Spader** är känd som en kortspelare utan like, och ryktet om att han fuskar har aldrig kunnat bevisas. Precis den sortens listiga hand du behöver för att komma åt **Kapten Plåthorn**s horn. Övertyga honom att hjälpa dig lura henne, med mynt, med en tjänst, eller med smicker om hans rykte. Gör det innan festen är över.
+**Löjtnant Spader** är känd som en kortspelare utan like, och ryktet om att han fuskar har aldrig kunnat bevisas. Precis den sortens listiga hand du behöver för att komma åt **Kapten Plåthorn**s kåthorn. Övertyga honom att hjälpa dig lura henne, med mynt, med en tjänst, eller med smicker om hans rykte. Gör det innan festen är över.
 
 ## Medvinden du vill rida {slug:petterwallberg}
 

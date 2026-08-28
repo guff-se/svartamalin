@@ -44,7 +44,7 @@ Status:         idé / beslutad / skriven
 | S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
 | S-06 | Räkningen mot Malin | Kuling, Plåthorn, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
 | S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | skriven |
-| S-08 | Jakten på Plåthornet | Plåthorn, Kuling, Prygel, Rosing, Spader | II–IV | grindvakt / jägare / vittne | skriven |
+| S-08 | Jakten på kåthornet | Plåthorn, Kuling, Prygel, Rosing, Spader | II–IV | grindvakt / jägare / vittne | skriven |
 | S-09 | Blodigs hot | Blodig, Frodig, Rödskägg, Lösskägg | II–IV | jägare / bärare | skriven |
 | S-10 | Teckenspråket | Döver, Babord, Rötägg, Fuling. Hjärter är målet, enväg. | II | jägare / grindvakt / vittne | skriven |
 | S-11 | Korthajarna | Spader, Klöver, Hjärter, Prygel, Plåthorn | II | rivaler / grindvakt / vittne | skriven |
@@ -191,11 +191,11 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `josefinansund` | S-09, S-12 | förbjuden kärlek med Rödskägg. Namn-jakt: Blodig anklagar henne för bakhållet. |
 | `johannabergman` | S-02, S-04, S-05, S-11 | svartklubb, kristallfyrklöver, skvaller mot choklad, korthajbordet |
 | `amandamungsgard` | S-05 | arvssyndskatt, mynt, låg intensitet, vill spela med Dunka |
-| `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa hornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). Frompiraterna ligger i lagintrigen, inte här. |
+| `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa kåthornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). Frompiraterna ligger i lagintrigen, inte här. |
 | `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
 | `alexandrapalmquist` | S-03, S-10 | sjökort (Mälaren, hennes föremål), mild ordning, romans med Döver, fiende 12 mot Barnsben (brevet i scarfen, dåtid). Redan mullvad mot Döver (annan hemlighet). |
 | `edvinthungren` | S-07, S-10, S-12 | vill vara snäll, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
-| `elinmartensson` | S-06, S-08, S-11 | plåthorn, klagomur, ensam om att veta att Spader har en lek med bara spaderess. Fiende 2 mot Malin (skålen och jollen), flyttad från Enben 2026-08-27. |
+| `elinmartensson` | S-06, S-08, S-11 | kåthorn, klagomur, ensam om att veta att Spader har en lek med bara spaderess. Fiende 2 mot Malin (skålen och jollen), flyttad från Enben 2026-08-27. |
 | `gustaftadaa` | S-04, S-08, S-11 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14), korthajbordet. Fullt spelbar. Inga huvudquest-ledtrådar, inte mullvad/kontakt. |
 
 Nio personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `jesperlejfjord`, `linneaekbom`, `alexandrapalmquist`. `josefinansund` bär två efter S-12. Tre bär tre sedan tidigare: `fabianmacklin`, `gustaftadaa`, `minervalowgren`. S-12 gör tre till tre: `edvinthungren`, `minimacklin`, `josefinlowing`. `elinmartensson` bär tre efter att fiende 2 flyttades till henne (S-06, S-08, S-11). En bär fyra: `johannabergman`. S-11 är Klövers fjärde, medvetet, och har annan mekanik än S-02, S-04 och S-05: hon spelar, hon håller inte boken. Ingen last delar mekanik mellan sidequests, se "Obs"-raden under respektive.
@@ -317,26 +317,28 @@ Obs: Barnsben bär också S-03, Rötägg bär också S-10 och S-12, Nykter bär 
 
 ---
 
-## S-08: Jakten på Plåthornet
+## S-08: Jakten på kåthornet
 
-Akt:            II–IV, betalar sig bäst efter ritualen 15.30: ett hornstöt mitt i kvällens kaos kräver ingen logik, bara kropp och skratt
+Akt:            II–IV, betalar sig bäst efter ritualen 15.30: ett kåthornsstöt mitt i kvällens kaos kräver ingen logik, bara kropp och skratt
 Deltagare:      Kapten Plåthorn (`elinmartensson`), Kapten Kuling (`josefinlowing`), Kapten Prygel (`minervalowgren`), Kapten Rosing (`linneaekbom`), Löjtnant Spader (`gustaftadaa`)
 Roll i storyn:  grindvakt (Plåthorn) / jägare (Kuling, Prygel) / vittne (Rosing, enväg) / vittne, bärare (Spader)
 Kopplad till:   klagomuren på Gnället.
 
-Vad de vill:    Prygel vill se hornet krossat en gång för alla, på allvar, för att det stör hennes stridslystna heder (fiende 24). Kuling, som redan hånat hornet i en skål (fiende 7), vill komma över det för skojs skull, kanske använda det taktiskt eller sälja det vidare. Spader vill, framför allt, skydda Plåthorn utan att avslöja att han älskar henne.
-Vad står i vägen: Plåthorn släpper aldrig hornet frivilligt. Det är hennes enda pålitliga flyktväg när det blir på allvar, och hon bär det nära sig hela tiden. Kuling har fått för sig att hon behöver en listig hand för att komma åt hornet, och har fäst blicken på Spader, känd kortfuskare, utan att ana att han redan är Plåthorns hemliga romans (romans 14).
-Varför nu:      den samlade festen och stridsstämningen gör hornet extra farligt att använda, och båda jägarna vet att fel tillfälle blir kaos.
+Föremål:        kåthorn. Blås i det och alla pirater i närheten går i kåttrans, så våldsam att de mitt i striden tvingas sniffa i fiendens nacke. Striden stannar. Plåthorn smiter.
 
-Hur det spelas: Kuling och Prygel försöker, var för sig eller tillsammans, locka fram, stjäla eller lura Plåthorn att blåsa i hornet vid fel tillfälle, så att hon förlorar kontrollen över det eller avslöjas. Plåthorn försvarar sig genom att fly, muta, eller blåsa i hornet i självförsvar och sprida kaos som täckmantel. Rosing, vars viskande snäcka hör mer än hon bett om, snappar upp planerna i förbifarten och kan varna Plåthorn i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid hon inte kan simma ifrån. Kuling övertalar Spader att hjälpa henne komma åt hornet, med mynt eller smicker om hans rykte. Spader väljer om han spelar med på låtsas och skyddar Plåthorn i det tysta, eller varnar henne rakt ut och riskerar att avslöja sin hemliga kärlek för att göra det.
-Utfall om ja:   hornet byter händer eller krossas, ett kaosmoln av upphetsning bryter ut runt bytet, publikt och pinsamt. Spaders dubbelspel kan avslöjas i samma veva som hornet.
-Utfall om nej:  Plåthorn behåller hornet, grälet fortsätter, ingen konsekvens för huvudstoryn.
+Vad de vill:    Prygel vill se kåthornet krossat en gång för alla, på allvar, för att det stör hennes stridslystna heder (fiende 24). Kuling, som redan hånat kåthornet i en skål (fiende 7), vill komma över det för skojs skull, kanske använda det taktiskt eller sälja det vidare. Spader vill, framför allt, skydda Plåthorn utan att avslöja att han älskar henne.
+Vad står i vägen: Plåthorn släpper aldrig kåthornet frivilligt. Det är hennes enda pålitliga flyktväg när det blir på allvar, och hon bär det nära sig hela tiden. Kuling har fått för sig att hon behöver en listig hand för att komma åt kåthornet, och har fäst blicken på Spader, känd kortfuskare, utan att ana att han redan är Plåthorns hemliga romans (romans 14).
+Varför nu:      den samlade festen och stridsstämningen gör kåthornet extra farligt att använda, och båda jägarna vet att fel tillfälle blir kaos.
+
+Hur det spelas: Kuling och Prygel försöker, var för sig eller tillsammans, locka fram, stjäla eller lura Plåthorn att blåsa i kåthornet vid fel tillfälle, så att hon förlorar kontrollen över det eller avslöjas. Plåthorn försvarar sig genom att fly, muta, eller blåsa i kåthornet i självförsvar och sprida kaos som täckmantel. Rosing, vars viskande snäcka hör mer än hon bett om, snappar upp planerna i förbifarten och kan varna Plåthorn i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid hon inte kan simma ifrån. Kuling övertalar Spader att hjälpa henne komma åt kåthornet, med mynt eller smicker om hans rykte. Spader väljer om han spelar med på låtsas och skyddar Plåthorn i det tysta, eller varnar henne rakt ut och riskerar att avslöja sin hemliga kärlek för att göra det.
+Utfall om ja:   kåthornet byter händer eller krossas, ett kaosmoln av upphetsning bryter ut runt bytet, publikt och pinsamt. Spaders dubbelspel kan avslöjas i samma veva som kåthornet.
+Utfall om nej:  Plåthorn behåller kåthornet, grälet fortsätter, ingen konsekvens för huvudstoryn.
 
 Bygger på:      fiende 7 (Kuling–Plåthorn). Fiende 24 (Prygel–Plåthorn). Romans 14 (Spader–Plåthorn), hemlig och mutual.
 Speglas hos:    Plåthorn, Kuling, Prygel, Spader. Rosing enväg, hon lyssnar men väljer själv om hon agerar.
 Status:         skriven
 
-Obs: Prygel bär redan mullvadskontakten mot Hurring (annan hemlighet, se mullvadstabellen) plus S-04 och S-11. Kuling bär redan grindvaktsrollen för båtarna plus S-06 och S-12. Rosing bär också S-03 och en mullvadskontakt (forradare 3, omsjumpad, namnge inte a). Spader bär också S-04 och S-11: skulden till Hurring, romansen och korthajbordet delar ingen mekanik. Plåthorn bär också S-11: här hornet, där att hon ensam vet om leken med bara spaderess. Inget av det delar mekanik med det här.
+Obs: Prygel bär redan mullvadskontakten mot Hurring (annan hemlighet, se mullvadstabellen) plus S-04 och S-11. Kuling bär redan grindvaktsrollen för båtarna plus S-06 och S-12. Rosing bär också S-03 och en mullvadskontakt (forradare 3, omsjumpad, namnge inte a). Spader bär också S-04 och S-11: skulden till Hurring, romansen och korthajbordet delar ingen mekanik. Plåthorn bär också S-11: här kåthornet, där att hon ensam vet om leken med bara spaderess. Inget av det delar mekanik med det här.
 
 ---
 
@@ -397,7 +399,7 @@ Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att d
 - **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Adresserad via fiende 13 i **S-07**, fiende 6 i **S-10**, och som namnlös klient i **S-12** (fiende 25:s lucka). Fiende 14 förblir obesökt som motor.
 - **Frodig och Rödskägg, förbjuden kärlek** (romans 8, fiende 25). Hotet från Blodig, redan noterat i `fiender.yaml` fiende 4, adresserat i **S-09, beslutad.** Fiende 25 (Kuling–Rödskägg) adresserad i **S-12, beslutad:** namnet på klienten, inte vattnet.
 - **Hurring, Fuling, Klöver, Prygel** (romanser 12, 13, fiende 1, 5). **S-04, beslutad.**
-- **Plåthorns horn mot Kuling och Prygel** (fiender 7, 24). **S-08, beslutad.**
+- **Plåthorns kåthorn mot Kuling och Prygel** (fiender 7, 24). **S-08, beslutad.**
 - **Kosing och Dunka** (romans 19, låg intensitet, fiende 20 som garnering). **S-05, beslutad.**
 - **Korthajarna Spader, Klöver, Hjärter.** Rivaliteten sitter i rollfilerna och nu i fiender 27–29. Spader palmerar, Klöver byter lek i tricket, Hjärter märker kort i köket. Insatsen är rykte, inte kristallfyrklövern. **S-11, beslutad.** Fiende 14 (Spader–Rötägg) förblir obesökt som motor.
 
@@ -437,7 +439,7 @@ Bygger på:      fiender 27 (Spader–Klöver, nu även den vunna ringen), 28 (S
 Speglas hos:    Spader, Klöver, Hjärter. Prygel. Plåthorn.
 Status:         skriven
 
-Obs: Klöver bär S-02, S-04, S-05 och S-11. De tre första är bank och procent. Här spelar hon, och här bär hon dessutom Hjärters kristallfyrklöver och Spaders ring med spader som troféer. Inte halsbandet. Håll isär i gästtexten. Prygel bär S-04 och S-08: där liten lek mot Klöver i liggarjakten respektive jakten på hornet. Här dealer vid hajbordet. Spader bär S-04 och S-08: skuld till Hurring, skydd av Plåthorn. Här sitter han och palmerar utan smycken, och vill ha sin ring tillbaka från Klöver. Plåthorn bär S-08: hornet. Här vet hon om leken med bara spaderess, inte om hornet. Hon bär hans halsband, inte ringen, och vet inte att Klöver har ringen. Hjärter bär S-01 och är envägsmål i S-10: jakten på Malins älskare och teckenspråket. Här bus vid grytorna. Rötägg är inte med. Fiende 14 förblir bakgrund. Klövers svartklubbar nämns inte som insats: det är sällskap, inte färgen, och det är Outline C som ströks.
+Obs: Klöver bär S-02, S-04, S-05 och S-11. De tre första är bank och procent. Här spelar hon, och här bär hon dessutom Hjärters kristallfyrklöver och Spaders ring med spader som troféer. Inte halsbandet. Håll isär i gästtexten. Prygel bär S-04 och S-08: där liten lek mot Klöver i liggarjakten respektive jakten på kåthornet. Här dealer vid hajbordet. Spader bär S-04 och S-08: skuld till Hurring, skydd av Plåthorn. Här sitter han och palmerar utan smycken, och vill ha sin ring tillbaka från Klöver. Plåthorn bär S-08: kåthornet. Här vet hon om leken med bara spaderess, inte om kåthornet. Hon bär hans halsband, inte ringen, och vet inte att Klöver har ringen. Hjärter bär S-01 och är envägsmål i S-10: jakten på Malins älskare och teckenspråket. Här bus vid grytorna. Rötägg är inte med. Fiende 14 förblir bakgrund. Klövers svartklubbar nämns inte som insats: det är sällskap, inte färgen, och det är Outline C som ströks.
 
 Ord: kortfärgen heter klöver. Klubb är sällskap. Fyrklöver är växten och amuletten. Inga vitsar som blandar dem.
 
@@ -471,7 +473,7 @@ Status:         skriven
 
 Objekt:         inga nya. Rödskäggs väska med Piratpulver (hans rollfil) får pekas på som det som blev kvar. Kulings familjesmycke är inte betalning och inte ledtråd. Blodigs halsband likaså. Rötäggets manschettknappar hör till S-07, inte hit.
 
-Obs: Prygel valdes bort. Hon bär redan S-08 med Kuling vid samma kaj, och tre sidequests. En fjärde mot samma grindvakt hade blandat hornet och namnet. Blodig har fiende 4, fel säkerhet, och annan mekanik än S-09: här åtal, där nystande i en affär. Kuling bär S-06 och S-08: Malin respektive hornet. Här säljer hon ett årsgammalt namn. Rötägg bär S-07 och S-10: omvändelsen mot Planka, hjälpen Döver inte vill ha. Här ett skott han betalade. Frodig är inte mullvad (forradare 3 omsjumpad 2026-08-24). Håll isär från S-09 och från förrädarspåret.
+Obs: Prygel valdes bort. Hon bär redan S-08 med Kuling vid samma kaj, och tre sidequests. En fjärde mot samma grindvakt hade blandat kåthornet och namnet. Blodig har fiende 4, fel säkerhet, och annan mekanik än S-09: här åtal, där nystande i en affär. Kuling bär S-06 och S-08: Malin respektive kåthornet. Här säljer hon ett årsgammalt namn. Rötägg bär S-07 och S-10: omvändelsen mot Planka, hjälpen Döver inte vill ha. Här ett skott han betalade. Frodig är inte mullvad (forradare 3 omsjumpad 2026-08-24). Håll isär från S-09 och från förrädarspåret.
 
 Gästtext skriven 2026-08-25. Posterna 90–94 i `fordelning.yaml`.
 

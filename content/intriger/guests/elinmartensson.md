@@ -4,7 +4,7 @@ mirrors:
   - slug: josefinlowing
     note: gammal förnedring, hånad i skål (tvåvägs)
   - slug: minervalowgren
-    note: vill se hornet krossat (tvåvägs)
+    note: vill se kåthornet krossat (tvåvägs)
   - slug: gustaftadaa
     note: hemlig romans (tvåvägs); hon bär hans halsband i spader; hon ensam vet om hans lek med bara spaderess
   - slug: malintadaa
@@ -25,17 +25,17 @@ En sådan detalj är för god att bara höra och glömma. Ta med dig **Galeonen 
 
 Nu är det hennes fest, hennes rom, hennes garde nere mitt i firandet. Du vill att hon ska bära samma skam du en gång fick bära. Låt en skål slå fel. Låt kajen skratta åt jubilaren. Ta tillbaka namnet hon spottade ur sig, innan helgen är över.
 
-## Hornet de vill ta ifrån dig {slug:minervalowgren}
+## Kåthornet de vill ta ifrån dig {slug:minervalowgren}
 
-Ditt plåthorn är ingen leksak: blås i det och alla pirater i närheten drabbas av en ohämmad upphetsning så våldsam att striden avstannar, vilket ger dig precis den lucka du behöver för att smita undan när det blir på allvar. Du släpper det aldrig frivilligt och bär det tätt inpå kroppen jämt.
+Ditt kåthorn är ingen leksak. Blås i det och alla pirater i närheten drabbas av en ohämmad upphetsning så våldsam att de mitt i striden tvingas släppa värjan för att sniffa i fiendens nacke. Striden avstannar. Du smiter. Du släpper det aldrig frivilligt och bär det tätt inpå kroppen jämt.
 
-**Kapten Prygel** vill se det krossat en gång för alla: hon är stridslysten och avskyr att du kan fly striden med en enda blåsning. **Kapten Kuling** har redan hånat hornet öppet i en skål, efter att din "varning" en gång sålde hennes position och lät henne bli tagen på bar gärning. Båda vill åt dig nu, var för sig eller tillsammans. Försvara dig genom att fly, muta, eller blåsa i hornet i självförsvar och sprida kaos som täckmantel, innan festen är över.
+**Kapten Prygel** vill se det krossat en gång för alla: hon är stridslysten och avskyr att du kan fly striden med en enda blåsning. **Kapten Kuling** har redan hånat kåthornet öppet i en skål, efter att din "varning" en gång sålde hennes position och lät henne bli tagen på bar gärning. Båda vill åt dig nu, var för sig eller tillsammans. Försvara dig genom att fly, muta, eller blåsa i kåthornet i självförsvar och sprida kaos som täckmantel, innan festen är över.
 
 ## Den du tar i hemlighet {slug:gustaftadaa}
 
 **Löjtnant Spader** är den du vill ha, så hemligt att inte ens dina egna skutkamrater på Gnället får veta vems händer du går och tänker på. Inte kärlek att visa vid relingen. Lust att ta i skuggan. Han gav dig sitt halsband i spader, och du bär det mot huden under allt: svart märke mot bröstet, så ingen på galeonen ska se vems tecken du redan går med. Du vill ha de händerna där halsbandet ligger, och där korten inte räcker. De som spelar som ingen annan kan, som ryktas fuska utan att någon någonsin bevisat hur. Bara du vet hur ofta han vinner när han egentligen borde förlora. Bara du, i hela världen, har sett hans största hemlighet: en hel kortlek där vartenda kort är ett spaderess. Kort efter kort, samma svarta ess, visad bara för den som får ligga tillräckligt nära. Ingen annan har sett den. Ingen annan ska. Du vill bli blandad, knäppt upp, tagen som en insats bara ni två känner till. Du vill borda hans kropp, och du vill att han ska höra dig be om det.
 
-**Kapten Kuling** har fått för sig att hon behöver en listig hand för att komma åt ditt horn, och Spader är känd som precis den sortens hand. Hon vet inte att han redan är din. Lita på att han väljer dig när det gäller, eller oroa dig för att spelet frestar honom mer. Det är ditt val om du säger något till honom om vad du anar, eller låter honom bevisa det själv, innan festen är över.
+**Kapten Kuling** har fått för sig att hon behöver en listig hand för att komma åt ditt kåthorn, och Spader är känd som precis den sortens hand. Hon vet inte att han redan är din. Lita på att han väljer dig när det gäller, eller oroa dig för att spelet frestar honom mer. Det är ditt val om du säger något till honom om vad du anar, eller låter honom bevisa det själv, innan festen är över.
 
 ## Det du vet om hans vinster {slug:gustaftadaa}
 
