@@ -20,6 +20,20 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-28, skatt är två ord
+
+Källa: Gustaf, i chatt.
+
+- [x] svarta malin har en skatt (engelska "treasure"), men kosing tar ut en skatt (engelska: "tax").
+- [x] Gå igenom hela projektet efter omnämnande av ordet skatt och se till att du inte har blandat ihop dessa två betydelser.
+- [x] du kan fortfarande använda båda betydelserna för skatt i intrigtexter, men eftersom du som AI-agent har lätt att blanda ihop dem, så måste du tydliggöra för dig själv vilken du pratar om i antecknignar.
+- [x] detta gör också att svarta malins premiss för fiendeskap med kosings skatt faller helt. hitta på en ny.
+- [x] notera att det finns fler fall av detta, som t.ex. alla lagskatter (treasures) och fromhetens krav på skatt (tax). Se till att du i dina anteckingar håller reda på vilken du pratar om.
+
+Kryss = ordlista i `[skatt.md](skatt.md)`. Intern text märker `(treasure)` / `(tax)`. Fiende 17 är ny: Malin kallade arvssyndsskatten (tax) tiggeri med psalm, inte tvåa efter sin treasure. Fromhetens lagfil skiljer klenod (treasure) från piratskatt (tax).
+
+---
+
 ## 2026-08-28, Dövers workshop hos Rötägg
 
 Källa: Gustaf, i chatt.

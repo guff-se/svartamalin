@@ -8,7 +8,7 @@ mirrors:
   - slug: josefinlowing
     note: gammal oförrätt, Fördärvets fordran (tvåvägs)
   - slug: amandamungsgard
-    note: enväg hat, skålen som satte arvssyndsskatten på andraplats, låg intensitet (hon hatar dig, du vet om det)
+    note: enväg hat, skålen som kallade arvssyndsskatten (tax) tiggeri med psalm, låg intensitet (hon hatar dig, du vet om det)
 related: [ludvigvonbahr, elinmartensson, josefinlowing, amandamungsgard]
 ---
 
@@ -28,13 +28,13 @@ Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig 
 
 **Kapten Plåthorn** är inte ensam om att vänta på ett tillfälle att se dig svaja. **Kapten Kuling** bär **Fregatten Fördärvet**s fordran: en last du tog och döpte om till rättvist delad, och som hon aldrig slutat sakna. Var för sig är de ett gnabb du charmar dig förbi med ett skratt och ett fyllt glas. Upptäcker de varandra blir de en publik, och en publik som väntar på ditt nästa felsteg är farligare än vilken enskild fiende som helst. Håll leendet på plats, håll värdinnerollen fast om ratten, och se till att ingen av dem får sin scen innan helgen är över.
 
-## Skatten som följer ditt namn {slug:amandamungsgard}
+## Taxan som följer ditt namn {slug:amandamungsgard}
 
-Du skålade en gång, inför hela hamnen, för **Kapten Kosing**s arvssyndsskatt: söt, visst, men tvåa efter din egen, en charmig andraplats, aldrig i klass med din ståt. En skatt på dem som kommer från överklassen. Du tänkte inte mer på det. Hon sa inget tillbaka då, och hon kommer inte göra en scen av det nu heller, men hennes taxa har börjat följa ditt namn: var och en i **Korvetten Kurtisanen** som skryter om att stå dig nära får betala hennes skatt, mynt för mynt, som ett tyst svar på din skål.
+Du skålade en gång, inför hela hamnen, för **Kapten Kosing**s arvssyndsskatt och kallade den tiggeri med psalm: en kolekt, inte en kaptens rätt. En avgift på dem som kommer från överklassen. Du tänkte inte mer på det. Hon sa inget tillbaka då, och hon kommer inte göra en scen av det nu heller, men hennes taxa har börjat följa ditt namn: var och en i **Korvetten Kurtisanen** som skryter om att stå dig nära får betala hennes avgift, mynt för mynt, som ett tyst svar på din skål.
 
 Du får aldrig se henne kräva det rakt av dig. Det är inte hennes stil. Men hör du dina egna kurtisaner klaga över en oväntad taxa vid festen, vet du precis varifrån den kom, och varför. Låt dem betala, eller varna dem, innan festen är över. Kosing kommer aldrig fråga dig om ursäkt, och du kommer aldrig behöva ge en.
 
 ## Siffran du bär {slug:malintadaa}
 
-Du bär en siffra till **Korvetten Kurtisanen**s kod. Skatten är lätt att hitta, koden är låset, och din siffra är en av fem.
+Du bär en siffra till **Korvetten Kurtisanen**s kod. Klenoden är lätt att hitta, koden är låset, och din siffra är en av fem.
 

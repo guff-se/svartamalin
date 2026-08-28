@@ -49,7 +49,7 @@ Får aldrig stå i gästtext. Se `../intriger/STYLE.md`.
 ## Fast kanon: skutorna
 
 1. Fem skutor: **Korvetten Kurtisanen**, **Fregatten Fördärvet**, **Barken Bortförklaringen**, **Fregatten Fromheten**, **Galeonen Gnället**.
-2. Varje skuta gömmer en skatt. Varje skatt eftersöks av en annan skuta, i cirkel ett steg framåt: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1. Jakten startar från en ingång inskickad av gömmarna. Register och vad gästerna får veta: [`lagskatter.md`](lagskatter.md). Gästtext: `../intriger/crews/`.
+2. Varje skuta gömmer en skatt (treasure). Varje skatt (treasure) eftersöks av en annan skuta, i cirkel ett steg framåt: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1. Jakten startar från en ingång inskickad av gömmarna. Register och vad gästerna får veta: [`lagskatter.md`](lagskatter.md). Gästtext: `../intriger/crews/`. Inte samma sak som Fromhetens piratskatt (tax). Ordlista: [`skatt.md`](skatt.md).
 3. Varje skuta har exakt en mullvad och exakt en kontaktperson, två olika personer. Mullvaden arbetar för en annan skuta. Kontaktpersonen där är den enda som vet att mullvaden finns och vem det är. Cirkel två steg framåt: 1→3→5→2→4→1. Register: [`forradare.yaml`](forradare.yaml).
 4. Malin seglar med Korvetten Kurtisanen.
 
@@ -72,12 +72,12 @@ Fylls i löpande. Varje post ska ha ett datum och en källa, alltså vilket doku
 
 Beslutat 2026-08-18. Källa: [`beslut.md`](beslut.md), [`premiss.md`](premiss.md).
 
-1. På ön står en kista, väl synlig. Den sägs innehålla Svarta Malins skatt.
+1. På ön står en kista, väl synlig. Den sägs innehålla Svarta Malins skatt (treasure). Inte piratskatt (tax).
 2. Kistan är låst med en nyckel.
 3. Nyckeln ligger i en cryptex med sex bokstävers kombination.
 4. På cryptexen sitter en lapp: "Denna tappas lätt bort." Den som hittar den kommer snart att förlora den, genom slagsmål, vadslagning, stöld eller slarv.
 5. Cryptexens lösenord är `HKHXII` (Hans Kungliga Höghet XII). Antaget 2026-08-25. Varje ledtråd är en token: siffra plus bokstav. Siffran är positionen. De tre första (`1H`, `2K`, `3H`) delas ut i questen före 15.30. De tre sista (`4X`, `5I`, `6I`) sitter på Malins berlock, som hon sätter på till slutfesten. De syns när hon serverar kaviar och rom, inte före 20.00. Fördelning per quest: [`quests.md`](quests.md). Lösenordet går inte att kläcka utan berlocken. Inte MALINS, SKATT, PIRAT, KUNGEN, KISTAN, KARLXII, eller något från sången, ön, Malins namn eller kontraktets parter. Inte ett ord som sitter ihop med fem av sex bokstäver. Inte en sista ledtråd som bara bekräftar. Om kistan är stängd 20.45 tvingas den upp i roll. Runtime: [`spelledning.md`](spelledning.md).
-6. I kistan finns ingen skatt. Där ligger brev mellan Malin och kungen, plus minnen och skatter, plus **tre skuldbrev** (Q-5, ett per manlig start, namn vid tillsättning). Det enda plot-relevanta är kärleksbrevet från Karl XII till Svarta Malin. Brevet *är* kontraktet. Inget separat juridiskt papper för tändningen. Övriga brev, miniatyr, de tre skuldbreven och skatter är dressing. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md), [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md).
+6. I kistan finns ingen skatt (treasure). Där ligger brev mellan Malin och kungen, plus minnen och skatter (treasure, dressing), plus **tre skuldbrev** (Q-5, ett per manlig start, namn vid tillsättning). Det enda plot-relevanta är kärleksbrevet från Karl XII till Svarta Malin. Brevet *är* kontraktet. Inget separat juridiskt papper för tändningen. Övriga brev, miniatyr, de tre skuldbreven och skatter är dressing. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md), [`../rekvisita/kista-skuldbrev.md`](../rekvisita/kista-skuldbrev.md).
 7. Kungen i brevet är **Karl XII**.
 8. I brevet står att Svarta Malin har lovat att samla Salmonellahavets kaptener till födelsedagsfest och fylla dem med kaviar och rom, så att konungens män kan slå till i gryningen och arrestera dem alla. Festen är fällan. I gengäld blir hon ensam härskare över Salmonellahavet, Korvetten Kurtisanen står på hennes namn, och hon får guld nog att sluta slåss. Hon är inte skuldsatt. Affären är sängvägen.
 9. Upptäckten av brevet är det som tänder slutstriden. Kungens män kommer aldrig. Gryningen spelas inte.
@@ -97,9 +97,9 @@ Beslutat 2026-08-20. Källa: [`beslut.md`](beslut.md).
 
 ### Lagskatter och förrädare
 
-Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.yaml`](forradare.yaml).
+Beslutat 2026-08-18. Källa: [`lagskatter.md`](lagskatter.md), [`forradare.yaml`](forradare.yaml). Alla *skatt* i det här avsnittet är treasure, utom när piratskatt (tax) nämns. Ordlista: [`skatt.md`](skatt.md).
 
-1. Varje skuta gömmer en skatt fredag ca 17.30. Jakten öppnar lördag 10.30.
+1. Varje skuta gömmer en skatt (treasure) fredag ca 17.30. Jakten öppnar lördag 10.30.
 2. Jaktcirkel ett steg: 1 jagar 2, 2 jagar 3, 3 jagar 4, 4 jagar 5, 5 jagar 1.
 3. Gästerna får veta vilken skuta *de* jagar. Inte vem som jagar dem. Inte att det är en sluten cirkel.
 4. Jakten startar från en ingång: första ledtråden, inskickad av gömmarna, skriven in hos jägarna. Inte ransakning. Register: [`lagskatter.md`](lagskatter.md).

@@ -48,6 +48,7 @@ Skriv inte som om gästen läser. Ingen revyröst, ingen du-form till deltagaren
 Gäller överallt i `content/`:
 
 - **Aldrig em dash.** Komma, kolon eller punkt.
+- **Skatt är två ord.** Treasure (lagskatt, klenod, kista) vs tax (piratskatt, arvssyndsskatt). Intern text märker vilken. Gästtext får båda. [`huvudstory/skatt.md`](huvudstory/skatt.md).
 - **Inga lösningar i gästfilerna.** Hemligheter, facit och spelledning stannar i `huvudstory/`. Det gäller intrigfiler och `copy/`. Rekvisita i kistan får bära sanningen, det är därför den ligger där.
 - **Sexpositiv fest, inte på sajten.** Alla är vana vid sexpositiva rum. Inget play space: sex överallt, när som helst. Sägs i genomgången på plats. Får inte stå i `copy/`. Intriger och rekvisita får vara explicita. Register och exempel: [`intriger/STYLE.md`](intriger/STYLE.md).
 

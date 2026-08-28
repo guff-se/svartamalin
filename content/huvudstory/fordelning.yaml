@@ -52,9 +52,9 @@
 #   * gustaftadaa (Löjtnant Spader) får inte quest-starter eller tvärledtrådar
 #     till huvudquesten. I övrigt fullt spelbar. Inte mullvad, inte kontakt.
 
-# B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
-# in hos jägarna. Se lagskatter.md. Id 1–5 är jägarna: skatten de ska hitta,
-# plus ingången. Inte skatten de gömmer. Social dörr ligger inte i lagfilen:
+# B-11 lagskatter (treasure, inte tax). Ingång = första ledtråden, inskickad av gömmarna, skriven
+# in hos jägarna. Se lagskatter.md och skatt.md. Id 1–5 är jägarna: lagskatten (treasure) de ska hitta,
+# plus ingången. Inte skatten de gömmer. Inte piratskatt (tax). Social dörr ligger inte i lagfilen:
 # id 100 Gnällets fem (minst tre + stormraden), 101 Hjärter, 102 Klöver,
 # 103 kurtisanernas fem siffror.
 
@@ -491,7 +491,7 @@ fordelning:
     akt: II
     till: [ludvigvonbahr]
     roll: barare
-    vet: "att Kapten Kosing driver in en arvssyndsskatt, en skatt på dem som kommer från överklassen, riktad mot honom, att han kan betala i mynt eller berättelse eller dementera eller snubbla på en detalj, och att Kapten Nykter en gång gjorde hans svärdshistoria till ett hamnskämt som han svarade på med en kram"
+    vet: "att Kapten Kosing driver in en arvssyndsskatt (tax), en avgift på dem som kommer från överklassen, riktad mot honom, att han kan betala i mynt eller berättelse eller dementera eller snubbla på en detalj, och att Kapten Nykter en gång gjorde hans svärdshistoria till ett hamnskämt som han svarade på med en kram"
     vet_inte: "att Nykter viskar hans svaghet till Kosing i hemlighet"
     speglas: [amandamungsgard, fabianmacklin]
     bygger_pa: "romans: 19, fiende: 20"
@@ -503,7 +503,7 @@ fordelning:
     akt: II
     till: [amandamungsgard]
     roll: grindvakt
-    vet: "att hennes arvssyndsskatt är en skatt på dem som kommer från överklassen, riktad mot Kapten Dunka och hans svärdshistoria, att hon kan kräva betalt i mynt eller berättelse, och att hon och Kapten Klöver har planerat en hemlig ätupplevelse som kan säljas som ett sätt att slippa skatten"
+    vet: "att hennes arvssyndsskatt (tax) är en avgift på dem som kommer från överklassen, riktad mot Kapten Dunka och hans svärdshistoria, att hon kan kräva betalt i mynt eller berättelse, och att hon och Kapten Klöver har planerat en hemlig ätupplevelse som kan säljas som ett sätt att slippa taxen"
     vet_inte: "att Kapten Nykter viskar Dunkas svaghet till henne"
     speglas: [ludvigvonbahr, johannabergman]
     bygger_pa: "romans: 19"
@@ -515,7 +515,7 @@ fordelning:
     akt: II
     till: [fabianmacklin]
     roll: jagare
-    vet: "att han en gång gjorde Kapten Dunkas svärdshistoria till ett hamnskämt och fick en kram tillbaka som pressade andan ur honom, att Kapten Kosing driver in en arvssyndsskatt, en skatt på dem som kommer från överklassen, riktad mot Dunka, att Dunkas svaga punkt är att svärdet inte är anrikt och historien påhitt, och att han kan viska just det till Kosing utan att synas i det"
+    vet: "att han en gång gjorde Kapten Dunkas svärdshistoria till ett hamnskämt och fick en kram tillbaka som pressade andan ur honom, att Kapten Kosing driver in en arvssyndsskatt (tax), en avgift på dem som kommer från överklassen, riktad mot Dunka, att Dunkas svaga punkt är att svärdet inte är anrikt och historien påhitt, och att han kan viska just det till Kosing utan att synas i det"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [ludvigvonbahr]
     bygger_pa: "fiende: 20"
@@ -527,7 +527,7 @@ fordelning:
     akt: II
     till: [johannabergman]
     roll: vittne
-    vet: "att hon och Kapten Kosing har planerat en hemlig ätupplevelse tillsammans, och att den kan öppnas för affärer mitt i Kosings arvssyndsskatt mot Kapten Dunka"
+    vet: "att hon och Kapten Kosing har planerat en hemlig ätupplevelse tillsammans, och att den kan öppnas för affärer mitt i Kosings arvssyndsskatt (tax) mot Kapten Dunka"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [amandamungsgard]
     bygger_pa: null

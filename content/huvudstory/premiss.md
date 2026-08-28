@@ -32,7 +32,7 @@ Kandidater, rangordnade efter hur väl de nu bär:
 
 Den enda faktan i världen som allt annat hänger på. Den ska gästerna **inte** veta från början, och den ska kunna avslöjas gradvis under lördagen.
 
-> Malins skatt är en lögn. I kistan ligger ett kärleksbrev från Kung Karl XII. Hon har sålt kollegorna mot ensam makt över Salmonellahavet och rätten att sluta vara hon. Festen är fällan. Brevet är kontraktet och kärleksakten. Före kistan ska det se ut som att hennes hemliga älskare är någon på ön.
+> Malins skatt (treasure) är en lögn. I kistan ligger ett kärleksbrev från Kung Karl XII. Hon har sålt kollegorna mot ensam makt över Salmonellahavet och rätten att sluta vara hon. Festen är fällan. Brevet är kontraktet och kärleksakten. Före kistan ska det se ut som att hennes hemliga älskare är någon på ön.
 
 Krav på sanningen:
 

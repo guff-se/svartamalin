@@ -29,6 +29,7 @@ Skriv som **klassisk svensk revy à la Povel Ramel**:
 - **Aldrig em dash (—).** Det ser AI-skrivet ut och låter konstigt på svenska. Använd komma, kolon, punkt eller omskrivning istället.
 - **Klöver, klubb, fyrklöver är tre olika ord.** Kortfärgen (eng. Clubs) heter **klöver**. **Klubb** är ett sällskap, till exempel svartklubb. **Fyrklöver** är växten med fyra blad, en tur-amulett. Den har inget med kortspel att göra. Kapten Klöver heter efter färgen. Kristallfyrklövern hon bar från Hjärter är amuletten, inte färgen. Inga ordvitsar som blandar dem.
 - **Fasa och fasan är olika ord.** **Fasa** (en fasa, bestämd form **fasan**) betyder skräck/skräckinjagande väsen: "Svarta Malin är dess fasa" (sångcitat, [`../huvudstory/kanon.md`](../huvudstory/kanon.md)), "en fasa till kapten" (idiomatiskt: urdålig kapten). **Fasan** (en fasan, bestämd form **fasanen**) är fågeln pheasant. Formen **"fasanen"** (med extra -en) är alltid fågeln, aldrig skräcken, och ska inte förekomma i skräck-sammanhang. Blanda inte ihop dem: ingen ska "kallas fasanen som inte kan flyga" (fågelbild av misstag) när avsikten är skräck/skam, det heter i så fall "en fasa till kapten" eller liknande. Inga flyg-, fjäder- eller näbbmetaforer när ordet syftar på skräck.
+- **Skatt är två engelska ord.** Treasure: lagskatt, klenod, gömma, kistans påstådda loot. Tax: piratskatt, arvssyndsskatt, taxa, avgift. Gästtext får båda. Jämför inte Malins treasure med Kosings tax. Fromheten har båda. Intern text märker vilken: [`../huvudstory/skatt.md`](../huvudstory/skatt.md).
 
 ### Sexpositiv fest
 

@@ -12,6 +12,6 @@ Jägare i huvudstoryn (B-13): hemlig kärlek till **Svarta Malin**. Vet att hon 
 
 Räkna med att han är i köket. Lägg inte tunga pussel eller scener som kräver att han är på andra sidan ön samtidigt som maten ska fram. Jakt-scenerna tål kökskanten.
 
-Lagskatt: han är Fromhetens ingång. Smicker lossar tungan, fjäsk gör att han läcker hemligheter direkt. Jägarna (Bortförklaringen) läser det i `crews/3.md`. Han läser påminnelsen i `guests/jesperlejfjord.md`. Inte i `crews/4.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).
+Lagskatt (treasure): han är Fromhetens ingång. Smicker lossar tungan, fjäsk gör att han läcker hemligheter direkt. Jägarna (Bortförklaringen) läser det i `crews/3.md`. Han läser påminnelsen i `guests/jesperlejfjord.md`. Inte i `crews/4.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md). Dörren släpper ledtråd till Fromhetens gömda skatt (treasure).
 
-Avlatsbrev förklaras i hans gästfil: kyrkans papper mot synd, Frompiraterna tar ursäkt i stället för mynt, han utfärdar från grytorna. Klöver och Malin som de som inte ber. Inte SL-tryck.
+Avlatsbrev förklaras i hans gästfil: kyrkans papper mot synd, Frompiraterna tar ursäkt i stället för mynt, han utfärdar från grytorna. **Piratskatt (tax)** blankas, inte lagskatten. Klöver och Malin som de som inte ber. Inte SL-tryck. Ordlista: [`../huvudstory/skatt.md`](../huvudstory/skatt.md).

@@ -2,9 +2,11 @@
 
 Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
 
+**Varje *skatt* i den här filen är treasure** (fysiskt föremål), utom där piratskatt eller arvssyndsskatt nämns: de är tax. Svenskans *skatt* är två engelska ord. Ordlista: [`skatt.md`](skatt.md).
+
 Parallellt spår med huvudstoryn. Gästtexten för jakten ligger i `content/intriger/crews/{id}.md`. Vem som jagar vem får **inte** stå samlat i någon gästfil.
 
-Skatterna är **inte** Malins kista. Kistan ljuger. Lagens skatter är fysiska, festliga föremål som skutorna tar med sig. Se `content/copy/manifest_prep.md`.
+Skatterna (treasure) är **inte** Malins kista. Kistan ljuger. Lagens skatter (treasure) är fysiska, festliga föremål som skutorna tar med sig. Se `content/copy/manifest_prep.md`. Inte Fromhetens piratskatt (tax).
 
 ---
 
@@ -49,10 +51,10 @@ Hur skutan tar. Det jägaren får använda när de beskriver *målet*. Inte vad 
 | 1 Kurtisanen | Bordet. Ler, häller upp, behåller det bästa. Tar genom gästfrihet. | Att de är hennes skuta, att festen är deras för att hon skryter, att de bär in faten åt henne. |
 | 2 Fördärvet | Värjan och aptiten. Bordar, ruinerar, slukar. Synden är frosseri. | Att de bordade samma skepp som hon, att hon tog lasten, "fördärv delas ojämnt", att de har en fordran på henne. |
 | 3 Bortförklaringen | Munnen. En ursäkt för allt, en last de inte erkänt. Prata i stället för att betala. | De tre prejningarna (dimman, drevet, vinden), att hon sa att deras enda last är undanflykter. |
-| 4 Fromheten | Böckerna. Frompiraterna: rena händer, rakt kors, blanka siffror. Stjäl inte, omfördelar. Val, piratskatt, avlat. | "Mina frommaste rivaler", att valet är metoden mot *henne*. (Valet och Frompiraterna får användas. Hennes hån och hennes hamn får inte.) |
+| 4 Fromheten | Böckerna. Frompiraterna: rena händer, rakt kors, blanka siffror. Stjäl inte, omfördelar. Val, piratskatt (tax), avlat. | "Mina frommaste rivaler", att valet är metoden mot *henne*. (Valet och Frompiraterna får användas. Hennes hån och hennes hamn får inte.) |
 | 5 Gnället | Ljudet. Gnäller om heder, om andras last, om att ingen lyssnar. Vill tas på allvar. | Att hon bjöd in dem som orkester, att oväsendet är de, att gnället ska sönder hennes storhet. |
 
-Jägaren får låta **sin egen** metod färga stycket. Kurtisanen tar vid bordet, Fördärvet bordar, Fromheten tar ut skatt. Det är deras fil. Det de inte får göra är att sätta den jagades Malin-stycke som målbeskrivning.
+Jägaren får låta **sin egen** metod färga stycket. Kurtisanen tar vid bordet, Fördärvet bordar, Fromheten tar ut piratskatt (tax) som ram för att ta en lagskatt (treasure). Det är deras fil. Det de inte får göra är att sätta den jagades Malin-stycke som målbeskrivning.
 
 ### De fem skälen
 
@@ -63,7 +65,7 @@ Ingångarna oförändrade. Bara varför.
 | 1 Kurtisanen | 2 Fördärvet | Värja och frosseri vid kurtisanbord. De ruinerar, slukar och kallar det rätt. Vid bordet tar värdinnan. Deras skatt är det de klamrar vid när magen redan är full. Ta den så frossarna sitter som gäster, inte som bordsgrannar med eget fat. | Fordran på Malin. Gemensam bordning. Hon tog deras last. |
 | 2 Fördärvet | 3 Bortförklaringen | Bordning mot munväder. De har en ursäkt för allt och en last de aldrig erkänt. Prata är inte betalning. Ta skatten så förklaringarna tar slut. | De tre prejningarna. Hennes citat om undanflykter. Att ni betalar för *hennes* nöje. |
 | 3 Bortförklaringen | 4 Fromheten | Ursäkt mot helgonfana. Frompiraterna stjäl inte, de omfördelar, de utlyser val. Omfördela då deras skatt. En from gömma är bara en till bortförklaring barken inte köper. | Valet mitt i *hennes* hamn. Att Fromheten tröttnat på *henne*. |
-| 4 Fromheten | 5 Gnället | Blank bok mot oljud. De gnäller om heder och andras last, och sitter på en skatt de inte fört in. Frompirater tar ut piratskatt. Minst tre av galeonen plus smicker om skeppen (ingången) är hur jakten börjar, inte varför: skälet är obokförd last bakom gnäll, inte stormen i sig. | Inbjudna som orkester. Att hon kallade dem oväsen. |
+| 4 Fromheten | 5 Gnället | Blank bok mot oljud. De gnäller om heder och andras last, och sitter på en lagskatt (treasure) de inte fört in. Frompirater tar ut piratskatt (tax) som *ram*: de kallar stölden för avgift. Målet är klenoden, inte att galeonen betalar arvssyndsskatt. Minst tre av galeonen plus smicker om skeppen (ingången) är hur jakten börjar, inte varför: skälet är obokförd last bakom gnäll, inte stormen i sig. | Inbjudna som orkester. Att hon kallade dem oväsen. |
 | 5 Gnället | 1 Kurtisanen | Gnäll mot leende. De häller upp och behåller det bästa under duken. De kallar det gästfrihet. Gnället kallar det gömma. Ta klenoden. Ett leende med kodlås är värre än ett ärligt gnäll. | Att de bär in faten åt henne. Att hamnen är *hennes*. Värdinnan som Malin. Varje kaviar en örfil från henne. |
 
 ### Test innan gästtext
