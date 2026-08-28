@@ -22,7 +22,7 @@ Festen är din fälla och romen är linan du själv drar i. Namnet Svarta Malin 
 
 Du skålade en gång, inför öppen hamn, för "en fasa till kapten" och menade **Kapten Plåthorn**. Sen kapade du en jolle hon rodde i dimman och lät henne simma hem i skammen, medan hela Salmonellahavet skrattade med dig. Hon har inte glömt. Hon tänker inte låta dig glömma det heller.
 
-Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig till något, vad som helst. Låt henne. Skyldig till fel sak är den bästa sortens skyldig. Nicka inte. Neka inte. Skål med henne som om ingenting, och låt hennes eget groll göra resten av jobbet åt dig.
+Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig till något, vad som helst. Låt henne. Skyldig till fel sak är den bästa sortens skyldig. Nicka inte. Neka inte. Skåla med henne som om ingenting, och låt hennes eget groll göra resten av jobbet åt dig.
 
 ## Två som väntar på sitt tillfälle {slug:josefinlowing}
 
@@ -30,7 +30,7 @@ Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig 
 
 ## Skatten som följer ditt namn {slug:amandamungsgard}
 
-Du kallade en gång **Kapten Kosing**s arvssyndsskatt söt men tvåa, i en skål inför hela hamnen, och tänkte inte mer på det. Hon sa inget tillbaka då, och hon kommer inte göra en scen av det nu heller, men hennes taxa har börjat följa ditt namn: var och en i **Korvetten Kurtisanen** som skryter om att stå dig nära får betala hennes skatt, mynt för mynt, som ett tyst svar på din skål.
+Du kallade en gång **Kapten Kosing**s skrytskatt söt men tvåa, i en skål inför hela hamnen, och tänkte inte mer på det. En skatt på dem som kommer från överklassen. Hon sa inget tillbaka då, och hon kommer inte göra en scen av det nu heller, men hennes taxa har börjat följa ditt namn: var och en i **Korvetten Kurtisanen** som skryter om att stå dig nära får betala hennes skatt, mynt för mynt, som ett tyst svar på din skål.
 
 Du får aldrig se henne kräva det rakt av dig. Det är inte hennes stil. Men hör du dina egna kurtisaner klaga över en oväntad taxa vid festen, vet du precis varifrån den kom, och varför. Låt dem betala, eller varna dem, innan festen är över. Kosing kommer aldrig fråga dig om ursäkt, och du kommer aldrig behöva ge en.
 

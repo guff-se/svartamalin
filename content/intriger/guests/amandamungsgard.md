@@ -2,7 +2,7 @@
 # Skuta: **Fregatten Fromheten** (crew_id: 4)
 mirrors:
   - slug: ludvigvonbahr
-    note: romans, låg intensitet, privat lust + arvssyndsskatt mot hans anor (tvåvägs)
+    note: romans, låg intensitet, privat lust + skrytskatt mot honom som kommer från överklassen (tvåvägs)
   - slug: johannabergman
     note: gemensam hemlig ätupplevelse (tvåvägs)
   - slug: malintadaa
@@ -16,22 +16,22 @@ Det sägs att **Svarta Malin**, långt innan hon blev kapten, en gång byggde si
 
 Ett hus som ingen pratar om kan gömma vad som helst, och du har alltid haft ett öga för vad folk håller undan. Kalla ihop **Fregatten Fromheten** och ta er över till den öde ön innan helgen är över, lugnt och utan drama, och se om huset finns på riktigt.
 
-## Skatten på blåa anor {slug:ludvigvonbahr}
+## Skrytskatten {slug:ludvigvonbahr}
 
-Din arvssyndsskatt är enkel: den som skryter om fin börd och stora anor betalar, i mynt eller i en berättelse. **Kapten Dunka** är den finaste bördan du känner till, ett tveeggat svärd fullt av påstådd historia och en familj han aldrig slutar nämna. Res din skattebod, kräv betalt av honom innan festen är över, och låt honom antingen betala, dementera högljutt, eller snubbla på en detalj i sin egen myt.
+Din skrytskatt är en skatt på dem som kommer från överklassen: de betalar, i mynt eller i en berättelse. **Kapten Dunka** är den du siktar på, ett tveeggat svärd fullt av påstådd historia och en familj han aldrig slutar nämna. Res din skattebod, kräv betalt av honom innan festen är över, och låt honom antingen betala, dementera högljutt, eller snubbla på en detalj i sin egen myt.
 
 ## Skatten du tar utan kvitto {slug:ludvigvonbahr}
 
-Arvssyndsskatten är bara halva aptiten. Den andra halvan är **Kapten Dunka**s långa, envisa kramar, det tveeggade svärdet han aldrig slutar prata om, och lusten att ta honom utan att någon kaj behöver se det. Du vill ha honom i en vrå, inte på en scen. Du vill suga ut snobberiet tills han slutar berätta och börjar be. Syna gärna mer än bladet.
+Skrytskatten är bara halva aptiten. Den andra halvan är **Kapten Dunka**s långa, envisa kramar, det tveeggade svärdet han aldrig slutar prata om, och lusten att ta honom utan att någon kaj behöver se det. Du vill ha honom i en vrå, inte på en scen. Du vill suga ut snobberiet tills han slutar berätta och börjar be. Syna gärna mer än bladet.
 
 Kräv skatten offentligt om du vill. Ta kroppen privat. **Kapten Klöver** känner till bordet ni ska duka, inte det du tänker dukas under. Håll det så, innan festen är över. Du behöver inte stå i centrum för att få det du vill ha.
 
 ## Bordet du redan planerat {slug:johannabergman}
 
-Du och **Kapten Klöver** har länge planerat en hemlig, exklusiv ätupplevelse tillsammans, och nu är det dags att öppna den för affärer. Lägg den mitt i din indrivning: den som helst vill slippa din arvssyndsskatt kan istället köpa sig en plats vid ert bord. Choklad går lika bra som mynt.
+Du och **Kapten Klöver** har länge planerat en hemlig, exklusiv ätupplevelse tillsammans, och nu är det dags att öppna den för affärer. Lägg den mitt i din indrivning: den som helst vill slippa din skrytskatt kan istället köpa sig en plats vid ert bord. Choklad går lika bra som mynt.
 
 ## Räkningen du sänder tillbaka {slug:malintadaa}
 
-**Svarta Malin** avfärdade din arvssyndsskatt i en skål inför hela hamnen, kallade den söt men tvåa, som om ditt hantverk var en barnlek jämfört med hennes egen ståt. Du sa inget tillbaka. Du behöver inte stå mitt i ett drama för att få rätt.
+**Svarta Malin** avfärdade din skrytskatt i en skål inför hela hamnen, kallade den söt men tvåa, som om ditt hantverk var en barnlek jämfört med hennes egen ståt. Du sa inget tillbaka. Du behöver inte stå mitt i ett drama för att få rätt.
 
 Res din skattebod där **Korvetten Kurtisanen** går förbi, och lägg din taxa på var och en av dem som bär hennes namn och skryter om att stå henne nära. Låt jubilarens eget folk betala för den stolthet hon själv kallade tvåa, mynt för mynt, tills din skatt med mynt och sedlar väger tyngre än hennes skål. Du behöver aldrig nämna hennes namn för att hon ska förstå vem som skickade räkningen.

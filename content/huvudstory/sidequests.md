@@ -41,7 +41,7 @@ Status:         idé / beslutad / skriven
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / hetsare | skriven |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver, Babord | II | jägare / bärare / vittne | skriven |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
-| S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
+| S-05 | Svärdet och skrytskatten | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
 | S-06 | Räkningen mot Malin | Kuling, Plåthorn, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
 | S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | skriven |
 | S-08 | Jakten på kåthornet | Plåthorn, Kuling, Prygel, Rosing, Spader | II–IV | grindvakt / jägare / vittne | skriven |
@@ -190,7 +190,7 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `fabianmacklin` | S-03, S-05, S-07 | njutningsstatyett, frieri till Barnsben. Redan Barnsbens mullvadskontakt (annan hemlighet). |
 | `josefinansund` | S-09, S-12 | förbjuden kärlek med Rödskägg. Namn-jakt: Blodig anklagar henne för bakhållet. |
 | `johannabergman` | S-02, S-04, S-05, S-11 | svartklubb, kristallfyrklöver, skvaller mot choklad, korthajbordet |
-| `amandamungsgard` | S-05 | arvssyndskatt, mynt, låg intensitet, vill spela med Dunka |
+| `amandamungsgard` | S-05 | skrytskatt, mynt, låg intensitet, vill spela med Dunka |
 | `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa kåthornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). Frompiraterna ligger i lagintrigen, inte här. |
 | `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
 | `alexandrapalmquist` | S-03, S-10 | sjökort (Mälaren, hennes föremål), mild ordning, romans med Döver, fiende 12 mot Barnsben (brevet i scarfen, dåtid). Redan mullvad mot Döver (annan hemlighet). |
@@ -248,18 +248,18 @@ Obs: Håll angiveriet isär från förrädarspåret i forradare.yaml. De delar i
 
 ---
 
-## S-05: Svärdet och arvssynden
+## S-05: Svärdet och skrytskatten
 
 Akt:            II, gärna vid brunchens skålar
 Deltagare:      Kapten Dunka (`ludvigvonbahr`), Kapten Kosing (`amandamungsgard`), Kapten Nykter (`fabianmacklin`), Kapten Klöver (`johannabergman`)
 Roll i storyn:  bärare (Dunka) / grindvakt (Kosing) / jägare (Nykter) / vittne (Klöver)
 Kopplad till:   ingen beat än. Låg intensitet för Kosing: ingen ring, ingen kidnappning, inget centrum.
 
-Vad de vill:    Kosing vill lägga sin påhittade arvssyndsskatt just på Dunkas uppblåsta anor och historier. Nykter, som redan gjort Dunkas svärdhistoria till ett hamnskämt (fiende 20), vill se honom svettas en gång till, men gör det indirekt: han pekar ut det svaga stället åt Kosing istället för att själv stå i vägen för Dunka. Klöver, som redan planerat en hemlig ätupplevelse med Kosing, vill se den bli lönsam.
+Vad de vill:    Kosing vill lägga sin påhittade skrytskatt just på Dunka, som kommer från överklassen. Nykter, som redan gjort Dunkas svärdhistoria till ett hamnskämt (fiende 20), vill se honom svettas en gång till, men gör det indirekt: han pekar ut det svaga stället åt Kosing istället för att själv stå i vägen för Dunka. Klöver, som redan planerat en hemlig ätupplevelse med Kosing, vill se den bli lönsam.
 Vad står i vägen: Dunka vaktar sitt tveeggade svärd svartsjukt och låter aldrig någon granska det på nära håll, av skräck för att avslöjas som falsk under fasaden. Samtidigt njuter han i hemlighet av ryktet att han setts vid Malins bord (den synliga romansen med Malin som Dunka bär i S-01, jakten på hennes älskare), vilket gör honom svårare att skrämma: han känner sig redan som en stor man den här helgen.
 Varför nu:      festens skålande och skryt ger den naturliga scenen, och Kosings skattebod är öppen hela helgen.
 
-Hur det spelas: Nykter viskar åt Kosing att Dunkas svaga punkt är det tveeggade svärdets påhittade historia, den spricker om hon kräver den ord för ord, utan att själv synas i det. Inte att bladet är en kinesisk kopia: det är Dunkas lagskattshemlighet, inte Nykters. Kosing riktar sin arvssyndsskatt mot Dunkas anspråk på fin börd och kräver betalt i mynt eller en berättelse. Dunka kan betala, dementera högljutt, eller dra igång svärdets "historia" en gång för mycket och snubbla på en detalj. Spricker myten svarar han med en av sina långa, envisa kramar, som tröst åt sig själv snarare än andra. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå skatten kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
+Hur det spelas: Nykter viskar åt Kosing att Dunkas svaga punkt är det tveeggade svärdets påhittade historia, den spricker om hon kräver den ord för ord, utan att själv synas i det. Inte att bladet är en kinesisk kopia: det är Dunkas lagskattshemlighet, inte Nykters. Kosing riktar sin skrytskatt mot Dunka som kommer från överklassen och kräver betalt i mynt eller en berättelse. Dunka kan betala, dementera högljutt, eller dra igång svärdets "historia" en gång för mycket och snubbla på en detalj. Spricker myten svarar han med en av sina långa, envisa kramar, som tröst åt sig själv snarare än andra. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå skatten kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
 Utfall om ja:   Dunka betalar eller förödmjukas inför båda besättningarna, Kosing kammar hem en fin skatt, Nykter njuter osedd av segern, Klöver tar sin procent.
 Utfall om nej:  Dunka bluffar sig igenom, myten lever vidare, skatten förblir obetald.
 

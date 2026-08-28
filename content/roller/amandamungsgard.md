@@ -14,6 +14,8 @@ Amanda Mungsgård · Fregatten Fromheten
 
 kapten kosing kommer att införa någon slags korruption av betalning på ön där folk ska betala arvssynd skatt
 
+Gästnamn: skrytskatt. Skatt på dem som kommer från överklassen, i mynt eller berättelse. Sikta på Dunka.
+
 ## Föremål
 
 En skatt med mynt och sedlar
