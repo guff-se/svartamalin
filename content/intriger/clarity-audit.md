@@ -4,9 +4,103 @@ Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format. 
 
 **VIKTIGT** Ändra inte resultatet av granskningen i detta dokument, förutom genom att faktiskt köra granskningsscriptet.
 
-Kördes i nio omgångar. **Runda 9 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag + tom kunskap + bestämd form + händelse utan återberättelse + ordinnebörd (fasa/skatt/klöver/prejudikat). Äldre rundor är arkiv.
+Kördes i tio omgångar. **Runda 10 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag + tom kunskap + bestämd form + händelse utan återberättelse + ordinnebörd (fasa/skatt/klöver/prejudikat). Äldre rundor är arkiv.
 
-## Runda 9 — gästfil + lag + intro + undantag + bestämd form + händelse + ordinnebörd (aktuell bild)
+## Runda 10 — gästfil + lag + intro + undantag + bestämd form + händelse + ordinnebörd (aktuell bild)
+
+**Datum:** 2026-08-28.
+
+**Metod:** 23 isolerade agenter, en per gäst. Varje agent fick:
+1. sin egen `guests/{slug}.md` (YAML och `{slug:…}` osynliga),
+2. sitt eget lags `crews/{crew_id}.md`,
+3. `content/copy/intriger_intro.md`,
+4. roster med lagnamn och piratnamn, eget namn/lag utmärkt.
+
+Undantag i prompten (flagga inte): Gubben i stubben / Gumman på udden; dörrar till lagskatter; Salmonellahavet, Ovanan och Piratpulver; Paradisets ö; gymmet och Storstugan; Svarta Malins hemliga älskare (Dunka som avledning). Extra check: tom kunskap (`du vet` utan innehåll), bestämd form utan intro, händelse utan återberättelse, och ordinnebörd (fasa/skatt/klöver/prejudikat). Heuristiska kandidater från `--scan` låg i prompten; auditorn avgjorde.
+
+Sedan runda 9: samma mall. Dunkas svärdsmyt är fortfarande inte utskriven.
+
+### Resultat
+
+| Betyg | Antal | Runda 9 → Runda 10 |
+|---|---|---|
+| 🟢 Grönt | 4 | 4 → 4 |
+| 🟡 Gult | 18 | 18 → 18 |
+| 🔴 Rött | 1 | 1 → 1 |
+
+Ett rött: Dunka, samma blocker som runda 9. Nytt grönt: Plåthorn (varningen mot Kuling räknas som återberättad). Från grönt till gult: Planka (kaptensskålen, sirenoljan och flaskan i bestämd form). Kvar gröna: Spader, Malin, Barnsben.
+
+### 🔴 Rött (1)
+
+**ludvigvonbahr (Kapten Dunka).** Texten säger att svärdet bär «en historia du berättar om och om igen» och instruerar sedan: «kör igång svärdets historia en gång för mycket och snubbla på en detalj». Filerna säger aldrig vad historien går ut på. Läsaren kan inte spela «jag berättar myten och snubblar» när myten saknas. Hamnskämtet med Nykter och «kopian» ingen får se hänger på samma tomma innehåll.
+
+Åtgärd: en rad i Dunkas fil med vad han brukar påstå om svärdet (lögnens handling, en detalj att snubbla på, vad kopian är). Spegla kort hos Kosing och Nykter om de ska kunna syna den.
+
+### Per gäst
+
+| Slug | Piratnamn | Lag | Betyg | Termer | Tom kunskap | Ordinnebörd |
+|---|---|---|---|---|---|---|
+| elinmartensson | Kapten Plåthorn | Gnället | 🟢 | none | none | none |
+| gustaftadaa | Löjtnant Spader | Fördärvet | 🟢 | none | none | none |
+| malintadaa | Svarta Malin | Kurtisanen | 🟢 | none | none | none |
+| ulrikahammar | Kapten Barnsben | Kurtisanen | 🟢 | none | none | none |
+| alexandrapalmquist | Kapten Babord | Gnället | 🟡 | planen i brevet till Döver | none | none |
+| amandamungsgard | Kapten Kosing | Fromheten | 🟡 | tveeggade svärdet; bladet; jubilaren | none | piratskatt / Ta den |
+| edvinthungren | Kapten Rötägg | Gnället | 🟡 | manschettknapparna; parfymspratten; skeppet du miste | none | none |
+| fabianmacklin | Kapten Nykter | Bortförklaringen | 🟡 | drevet; sy- och broderihörnan; ädelstenens njutningssätt | vilket sätt du vill visa henne | none |
+| hampuslindblad | Kapten Blåskägg | Bortförklaringen | 🟡 | dörren bakom medvetandet; vraket; masten | none | none |
+| jesperlejfjord | Kapten Hjärter | Fromheten | 🟡 | grytorna; jubilaren; Hurrings liggare; Katten Felix; kökskanten | none | piratskatt / Ta den |
+| jesperlindmarker | Kapten Hurring | Kurtisanen | 🟡 | jubilaren; masten; stulen vals; gemensam bordning | none | none |
+| johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | svärdshistoria; stulen vals; gemensam bordning | none | none |
+| josefinansund | Kapten Frodig | Bortförklaringen | 🟡 | lasten; skeppet | none | none |
+| josefinlowing | Kapten Kuling | Fördärvet | 🟡 | Kåthornet | none | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | kaptensskålen; oljan från sirenerna; flaskan | none | none |
+| linneaekbom | Kapten Rosing | Gnället | 🟡 | snäckan; Rösten; krumelurburken; skymningens piller; kaptensskålen; flaskan; honnörsbordet | none | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | Anklagelsen; kaptensskålen; honnörsbordet; angiveriet | none | none |
+| minervalowgren | Kapten Prygel | Fromheten | 🟡 | gemensam bordning | none | none |
+| minimacklin | Kapten Blodig | Fördärvet | 🟡 | sveket; skeppet | none | none |
+| navidmodiri | Kapten Döver | Fördärvet | 🟡 | tunnorna | none | none |
+| petterwallberg | Kapten Lösskägg | Kurtisanen | 🟡 | det gråa/vita/blonda; prejat sina egna förr | historier du kan utantill | none |
+| viktoransund | Kapten Rödskägg | Fromheten | 🟡 | psalmen; räkenskaperna; skuldbreven | none | piratskatt / Ta den |
+| ludvigvonbahr | Kapten Dunka | Gnället | 🔴 | kopian; svärdets historia; hamnskämtet | svärdshistoriens innehåll | skatt / kopian |
+
+### Mönster
+
+**Inte buggar:** Malins låsta kista / «den som känner historien». Lagskattdörrar. Gubben/Gumman. Salmonellahavet, Ovanan. Gymmet, Storstugan. Älskarens namn hos Malin. Piratpulver. Paradisets ö. `jubilaren` är Malins fest (introt säger «festen är hennes» men inte ordet). `drevet` i Bortförklaringens lagfil är en i en lista ursäkter (dimman, drevet, vinden), inte en saknad scen. Kuling-agenten flaggade `Kåthornet` men stycket under fyller i (rubrik i bestämd form). Döver-agenten flaggade `tunnorna` två avsnitt innan lastningen berättas i samma fil.
+
+**Händelse utan återberättelse:**
+- Dunkas svärdshistoria (rött: ska köras; kopian och hamnskämtet hänger på densamma).
+- Stulen vals / gemensam bordning (Hurring, Klöver, Prygel).
+- Angiveriet mot Hurring (Fuling: sålde honom, ingen scen).
+- Blodigs svek mot Malin i de tidiga åren.
+- Skeppet Rötägg miste; lasten/skeppet Frodig stal av Blodig.
+- Plankas kaptensskål / sirenolja / flaska (runda 9 räknade dem som återberättade hos henne; den här rundans agent flaggade bestämd form).
+
+**Ordinnebörd:** Fromhetens lagfil, stycket «Gnällets gömma»: «Frompirater med blanka siffror tar ut piratskatt. Ta den.» «Tar ut piratskatt» är avgift; nästa meningar (öppna kistor, föremålet) är galeonens gömma. Tre Frompirater flaggade det (Kosing, Hjärter, Rödskägg). Prygel flaggade det inte den här rundan. Dunka: «glömmer både skatt och överklass. Låt kajen se skatten. Låt ingen se kopian» kan fästa vid arvssyndsskatten eller vid ett föremål.
+
+**Tom kunskap som inte är röd** (går att spela runt):
+- Nykter: vilket sätt statyetten ger njutning.
+- Lösskäggs fyra skägghistorier.
+
+**Återkommande gula mentions:**
+- `dörren bakom medvetandet` (Blåskägg).
+- `krumelurburk` / skymningens piller / snäckan hos Rosing.
+- `bladet` / tveeggade svärdet (Kosing).
+- `skuldbreven` (Rödskägg) — texten har porträttvägg, inte brev.
+- `Katten Felix` / `Hurrings liggare` (Hjärter).
+- `masten` (Hurring, Blåskägg).
+
+**Rubriker i bestämd form** (smak, inte blocker): `Kåthornet`, `Anklagelsen`, `Rösten`, `Fragmentet` — första nämnandet är rubriken, stycket under fyller i.
+
+### Rekommendation
+
+Måste: en rad om Dunkas svärdsmyt i hans fil (vad han påstår, en detalj att snubbla på, vad kopian är).
+
+Om nästa svep: en rad om vals/bordning hos dem som bär grollet, angiveriet hos Fuling, sveket Blodig–Malin, och «tar ut piratskatt. Ta den» i Fromhetens lagfil så pronomenet inte kan fästa vid avgiften.
+
+---
+
+## Runda 9 — gästfil + lag + intro + undantag + bestämd form + händelse + ordinnebörd (arkiverad)
 
 **Datum:** 2026-08-28.
 
