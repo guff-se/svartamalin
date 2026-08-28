@@ -42,3 +42,7 @@ Ditt kåthorn är ingen leksak. Blås i det och alla pirater i närheten drabbas
 Du tar **Löjtnant Spader** i hemlighet, och du är den enda som sett honom vinna vid korten gång på gång när han egentligen borde ha förlorat. Du är också den enda som vet om leken med bara spaderess. Nu ska han sätta sig vid ett bord med **Kapten Klöver** och **Kapten Hjärter**, två andra korthajar som anklagat honom för fusk lika länge som de anklagat varandra.
 
 Du vet inte hur Klöver eller Hjärter fuskar, bara att alla tre gör det på sitt eget sätt. Vad du gör med det du vet om Spader är ditt val: täck honom tyst från åskådarplats, eller sälj det du bär på, vinsterna, leken med bara spaderess, till någon som skulle betala bra för att se honom avslöjad. Välj innan partiet är slut.
+
+## Stormen ni överlevde {slug:elinmartensson}
+
+Om minst tre av **Galeonen Gnället** står samlade och någon säger insmickrande: "Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?": släpp nästa ledtråd till galeonens skatt. En legend är en dörr. Låt den stå öppen.

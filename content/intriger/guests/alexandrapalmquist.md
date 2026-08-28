@@ -33,3 +33,7 @@ Låt inte Döver se er. Låt inte din egen **Galeonen Gnället** räkna ut varf�
 **Kapten Barnsben** snodde din scarf en gång, lindade ett brev till **Kapten Döver** i den och smög det fram som om tyget vore hennes. Tyget är borta. Oordningen är kvar. Du vill ha honom, och du tål inte att någon tar det som är ditt, stoppar in en plan du inte godkänt och lämnar vecken i oordning.
 
 Hon håller en sy- och broderihörna öppen mellan varven, där folk landar, viskar och lämnar lappar. Där kan du kräva en ursäkt högt, fånga henne med ännu ett brev, eller se till att Döver får veta vems händer som rörde det som var ditt. Gör det innan festen är över, innan hon tar något mer som inte är hennes.
+
+## Stormen ni överlevde {slug:alexandrapalmquist}
+
+Om minst tre av **Galeonen Gnället** står samlade och någon säger insmickrande: "Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?": släpp nästa ledtråd till galeonens skatt. En legend är en dörr. Låt den stå öppen.

@@ -34,6 +34,6 @@ Du hatar hur rätt hon har. Du hatar det inte nog för att sluta vilja ha henne.
 
 **Kapten Nykter** gjorde en gång din svärdshistoria till ett stående hamnskämt, upprepat vid varje bord där du själv inte är. Du svarade som du alltid gör: en av dina långa, envisa kramar, tills andan och äran gick ur honom. Det är inte glömt av någon av er, minst av allt av dig.
 
-## Kopian i skidan {slug:ludvigvonbahr}
+## Stormen ni överlevde {slug:ludvigvonbahr}
 
-Ditt tveeggade svärd är inte anrikt. Det är en kinesisk kopia, och den sanningen är värd mer än du vill erkänna. Om någon hotar att säga det högt: släpp nästa ledtråd till **Galeonen Gnället**s skatt. Bättre en ledtråd än en naken skida inför hela hamnen.
+Om minst tre av **Galeonen Gnället** står samlade och någon säger insmickrande: "Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?": släpp nästa ledtråd till galeonens skatt. En legend är en dörr. Låt den stå öppen.

@@ -113,14 +113,24 @@ Kryss = första `##` i `crews/1.md`–`5.md` omskriven. Kurtisanen: bakom hennes
 
 ---
 
+## 2026-08-28, Gnällets lagskatt-ingång byts
+
+Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md). Överstyr 2026-08-27 (Dunkas svärd, kinesisk kopia).
+
+- [x] För att få den första ledtråden måste de som söker skatten samla ihop minst 3 av Galeonen Gnället på samma gång. När vi är samlade säger de, insmickrande: "Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?"
+
+Kryss = verbatim i registret. Gnället jagas av Fromheten. Social, ingen utläggning. Inte Dunkas svärd. Inte kinesisk kopia. Gästtext: jägarna i `crews/4.md`. Dörr: de fem `guests/` på Gnället. Inte i `crews/5.md`.
+
+---
+
 ## 2026-08-27, Fromhetens och Gnällets lagskatt-ingångar
 
-Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md).
+Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md). Gnället överstyrd 2026-08-28.
 
 - [x] För Fromheten: Kapten Hjärter är svag för smicker, så att om man fjäskar för honom så läcker han hemlighter direkt.
 - [x] För Gnället: Hota Kapten Dunka om att avslöja att hans svärd faktiskt inte alls är anrikt, det är en kinesisk kopia.
 
-Kryss = verbatim i registret. Fromheten jagas av Bortförklaringen: Hjärter är dörren. Gnället jagas av Fromheten: Dunka är dörren. Sociala, ingen utläggning. Gästtext: jägarna i `crews/3.md` och `crews/4.md`. Dörr: Hjärter i `guests/jesperlejfjord.md`, Dunka i `guests/ludvigvonbahr.md`. Inte i lagfilen.
+Kryss = verbatim i registret. Fromheten jagas av Bortförklaringen: Hjärter är dörren, oförändrad. Gnället jagas av Fromheten: Dunka-ingången struken 2026-08-28, se avsnittet ovan. Sociala, ingen utläggning. Gästtext Fromheten: jägarna i `crews/3.md`. Dörr: Hjärter i `guests/jesperlejfjord.md`. Inte i lagfilen.
 
 ---
 

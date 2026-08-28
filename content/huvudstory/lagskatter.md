@@ -63,7 +63,7 @@ Ingångarna oförändrade. Bara varför.
 | 1 Kurtisanen | 2 Fördärvet | Värja och frosseri vid kurtisanbord. De ruinerar, slukar och kallar det rätt. Vid bordet tar värdinnan. Deras skatt är det de klamrar vid när magen redan är full. Ta den så frossarna sitter som gäster, inte som bordsgrannar med eget fat. | Fordran på Malin. Gemensam bordning. Hon tog deras last. |
 | 2 Fördärvet | 3 Bortförklaringen | Bordning mot munväder. De har en ursäkt för allt och en last de aldrig erkänt. Prata är inte betalning. Ta skatten så förklaringarna tar slut. | De tre prejningarna. Hennes citat om undanflykter. Att ni betalar för *hennes* nöje. |
 | 3 Bortförklaringen | 4 Fromheten | Ursäkt mot helgonfana. Frompiraterna stjäl inte, de omfördelar, de utlyser val. Omfördela då deras skatt. En from gömma är bara en till bortförklaring barken inte köper. | Valet mitt i *hennes* hamn. Att Fromheten tröttnat på *henne*. |
-| 4 Fromheten | 5 Gnället | Blank bok mot oljud. De gnäller om heder och andras last, och sitter på en skatt de inte fört in. Frompirater tar ut piratskatt. Dunkas svärd (ingången) är hur jakten börjar, inte varför: skälet är obokförd last bakom gnäll, inte kopian i sig. | Inbjudna som orkester. Att hon kallade dem oväsen. |
+| 4 Fromheten | 5 Gnället | Blank bok mot oljud. De gnäller om heder och andras last, och sitter på en skatt de inte fört in. Frompirater tar ut piratskatt. Minst tre av galeonen plus smicker om skeppen (ingången) är hur jakten börjar, inte varför: skälet är obokförd last bakom gnäll, inte stormen i sig. | Inbjudna som orkester. Att hon kallade dem oväsen. |
 | 5 Gnället | 1 Kurtisanen | Gnäll mot leende. De häller upp och behåller det bästa under duken. De kallar det gästfrihet. Gnället kallar det gömma. Ta klenoden. Ett leende med kodlås är värre än ett ärligt gnäll. | Att de bär in faten åt henne. Att hamnen är *hennes*. Värdinnan som Malin. Varje kaviar en örfil från henne. |
 
 ### Test innan gästtext
@@ -97,7 +97,7 @@ Resten av spåret är gömmarnas. Vi trycker det inte. Vi skriver inte in var sk
 
 Gömmarna vet redan spåret. De ritade det. Påminnelsen finns så första steget faktiskt finns i spel före lördag 10.30: ett brev på plats, eller en person på skutan som kan släppa nästa steg.
 
-Ingången får vara **fysisk** (ett föremål, en plats) eller **social** (en namngiven person och en metod). Social ingång: personen sitter typiskt på gömmarnas skuta. Hen måste känna till nästa steg. Gömmarna får inte låsa hen ute från gömman, då dör spåret.
+Ingången får vara **fysisk** (ett föremål, en plats) eller **social** (en namngiven person och en metod, eller flera ombord på en gång). Social ingång: personen eller personerna sitter typiskt på gömmarnas skuta. De måste känna till nästa steg. Gömmarna får inte låsa dem ute från gömman, då dör spåret.
 
 ### Register
 
@@ -109,7 +109,7 @@ Verbatim är lagets formulering. Tom ruta: ingången har inte kommit in. Skriv *
 | 2 Fördärvet | 1 Kurtisanen | Det ligger ett brev i soffbordet i vardagsrummet | brev i soffbordet, Storstugan | Fördärvet, fredag ca 17.30 | skriven, `crews/1.md` | ingen i lagfilen. De ritade spåret. |
 | 3 Bortförklaringen | 2 Fördärvet | Kapten Klövers akilleshäl är högkvalitativ choklad som gör henne uppsluppen och totalt omdömeslös, oförmögen att bevara hemligheter. | **Kapten Klöver** (`johannabergman`) + högkvalitativ choklad | ingen utläggning. Klöver är dörren. Hon ska veta nästa steg. | skriven, `crews/2.md` | skriven, `guests/johannabergman.md` |
 | 4 Fromheten | 3 Bortförklaringen | Kapten Hjärter är svag för smicker, så att om man fjäskar för honom så läcker han hemlighter direkt. | **Kapten Hjärter** (`jesperlejfjord`) + smicker/fjäsk. Köket. | ingen utläggning. Hjärter är dörren. Han ska veta nästa steg. | skriven, `crews/3.md` | skriven, `guests/jesperlejfjord.md` |
-| 5 Gnället | 4 Fromheten | Hota Kapten Dunka om att avslöja att hans svärd faktiskt inte alls är anrikt, det är en kinesisk kopia. | **Kapten Dunka** (`ludvigvonbahr`) + hotet om svärdet (kinesisk kopia, inte anrikt) | ingen utläggning. Dunka är dörren. Han ska veta nästa steg. Svärdet är hans. Inte vår tryck. | skriven, `crews/4.md` | skriven, `guests/ludvigvonbahr.md` |
+| 5 Gnället | 4 Fromheten | Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten? (minst tre av galeonen samlade, insmickrande) | **Minst tre av Galeonen Gnället** + raden om skeppen och stormen | ingen utläggning. De fem är dörren tillsammans. Minst tre. Var och en ska veta nästa steg. Ingen stängs ute. | skriven, `crews/4.md` | skriven, de fem `guests/` på Gnället |
 
 Brevet i soffbordet är Fördärvets papper. Inte vår tryck. Inte rekvisitafil. Inte Q-4-boken, inte svärdfisken, inte dagboken. Samma rum som de tre, annan yta. Se [`platser.md`](platser.md).
 
@@ -119,7 +119,7 @@ Kurtisanens dörrar är alla fem ombord, inklusive **Svarta Malin** (`malintadaa
 
 Hjärter sitter på Fromheten. Köket. Matansvar med Nykter. Verbatimets "hemlighter" är Gustafs stavning, vi rättar den inte i registret. Social: fjäsk lossar tungan, han läcker nästa steg. Inte ransakning. Inte samma föremål som kristallfyrklövern (den sitter hos Klöver). Krockar med S-01 (älskarjakten, privat vid grytorna), S-11 (korthajbordet vid kökskanten) och att han är Fulings mullvadskontakt. Önskat: jägarna (Bortförklaringen) hittar honom där han ändå står. Klöver sitter hos jägarna och spelar redan mot honom i S-11. Hon är inte enda vägen. Vilken som helst ombord på barken kan fjäska. Inte låsa honom ute från gömman. Play to lose om maten tar honom. Q-4 har två andra starter. Gästtext: jägarna i `crews/3.md`. Dörren i `guests/jesperlejfjord.md`. Inte i `crews/4.md`.
 
-Dunka sitter på Gnället. Svärdet är hans föremål, redan i `roller/`. Ingången skärper S-05: inte bara påhittad historia, utan kinesisk kopia. Önskad krock med S-05 (Kosings arvssyndsskatt) och S-01 (Dunka som synlig avledning vid Malins bord). Inte samma sak som Malin-affären. Inte "fråga Kosing, hon har honom". Kosing vill inte stå i centrum. Jägarna (Fromheten) som lag hotar om kopian. Vilken som helst ombord kan göra det. Inte vår tryck. Inte questprop. Inte låsa honom ute från gömman. Play to lose om han kramar sig undan. Q-5 har två andra starter. Gästtext: jägarna i `crews/4.md`. Dörren i `guests/ludvigvonbahr.md`. Inte i `crews/5.md`.
+Galeonen Gnället är dörren tillsammans. Minst tre ombord samtidigt. Verbatim: "Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?" Insmickrande. Stormen och de förlorade skeppen är galeonens ursprung, redan i flera `roller/` (Plåthorn, Babord, Rosing). Inte ett föremål. Inte ransakning. Inte samma sak som Dunkas svärd (det sitter kvar i S-05 som påhittad historia, inte som jaktens hävstång). Inte Malin-affären. Jägarna (Fromheten) samlar tre och säger raden. Vilken som helst ombord på Fromheten kan göra det. Ingen utläggning. Inte vår tryck. Inte låsa någon ute från gömman. Play to lose om de släpper när tre står där och raden sägs. Q-3, Q-4 och Q-5 har starter på galeonen: de tre kan vara bland de tre. Gästtext: jägarna i `crews/4.md`. Dörren i de fem `guests/` på Gnället. Inte i `crews/5.md`.
 
 ### När en ny ingång kommer in
 
@@ -137,8 +137,8 @@ Ingen gästtext förrän steg 1–4 är gjorda. Samma tvåstegsordning som reste
 
 Gäller jaktstycket i `content/intriger/crews/{id}.md`. Inte individfilen. Inte gömmarens fil.
 
-1. **Bara ingången.** Verbatimets substantiv (brev, soffbord, vardagsrum) eller den namngivna personen och metoden (Klöver, choklad). Inte ledtråd två. Inte var skatten ligger. Inte hur lång kedjan är.
-2. **En konkret nästa handling.** En plats, ett föremål, eller en person att bjuda. Inte "hitta den någonstans på ön".
+1. **Bara ingången.** Verbatimets substantiv (brev, soffbord, vardagsrum), den namngivna personen och metoden (Klöver, choklad), eller minst tre ombord plus en rad. Inte ledtråd två. Inte var skatten ligger. Inte hur lång kedjan är.
+2. **En konkret nästa handling.** En plats, ett föremål, en person att bjuda, eller minst tre samlade plus en rad. Inte "hitta den någonstans på ön".
 3. **Behåll vem de jagar.** Det stod redan. Ingången läggs *till*, den ersätter inte målet.
 4. **Inte off-game om när jakten öppnar.** Skriv inte "spelet", "lördagen", eller att de ska vänta. För karaktären är jakten blodigt allvar. De läser intrigerna före helgen: skriv inte som om de redan öppnat brevet. Fredag utan jakt sägs i genomgången, inte i intrigtext.
 5. **Inte cirkeln.** Inte vem som jagar dem. Inte att gömmarna "skickade in" något till oss.
@@ -155,16 +155,16 @@ Bra, skäl: "Fördärvet tar med värja. Vid ert bord tar ni. Deras skatt är de
 Bra, ingång: "Börja i Storstugan: det ligger ett brev i soffbordet i vardagsrummet. Läs det. Följ det."
 Bra, social: "Börja med **Kapten Klöver**. Högkvalitativ choklad gör henne uppsluppen och totalt omdömeslös. Bjud henne. Följ det hon släpper."
 Bra, social: "Börja med **Kapten Hjärter**. Smicker lossar tungan. Fjäska. Följ det han släpper."
-Bra, social: "Börja med **Kapten Dunka**. Hans tveeggade svärd är inte anrikt, det är en kinesisk kopia. Hota att säga det. Följ det han släpper."
+Bra, social: "Samla minst tre av **Galeonen Gnället**. När ni står där, säg insmickrande: \"Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?\" Följ det de släpper."
 
 ### Skrivregler: gömmarens dörr
 
 Inte en egen `##` i lagfilen. Inte hela skutan.
 
-**Social dörr:** kort intrig i `content/intriger/guests/{slug}.md` för **den personen**. Om hen utpressas, fjäskas eller bjuds: släpp nästa ledtråd till skutans skatt. Inte vem som jagar. Inte ledtråd två. Inte jägarens punchlines till resten av laget. Play to lose.
+**Social dörr:** kort intrig i `content/intriger/guests/{slug}.md` för **den personen**. Om hen utpressas, fjäskas, bjuds, eller om minst tre ombord samlas och smickras: släpp nästa ledtråd till skutans skatt. Inte vem som jagar. Inte ledtråd två. Inte jägarens punchlines till resten av laget. Play to lose.
 
-Bra: "Om någon hotar att säga att svärdet är en kinesisk kopia: släpp nästa ledtråd till **Galeonen Gnället**s skatt."
-Dåligt: "Fromheten kommer hota dig. De jagar er skatt. Låt hela galeonen veta att svärdet är en kopia."
+Bra: "Om minst tre av **Galeonen Gnället** står samlade och någon säger insmickrande att de hört legenden om era magnifika skepp och frågar om ni är de enda som överlevde stormen den natten: släpp nästa ledtråd till galeonens skatt."
+Dåligt: "Fromheten kommer fjäska. De jagar er skatt. Låt hela galeonen veta att Fromheten är jägarna."
 
 **Fysisk dörr:** inte i jaktstycket. Gömmarna ritade spåret. Gömma vid ankomsten och koja fredad sägs i genomgången, inte i intrigtext.
 
@@ -245,7 +245,7 @@ Tillåtet och önskvärt:
 - Bortförklaringens ingång går via **Kapten Klöver** och choklad. Krockar med S-04 (skvaller mot choklad) och S-05 (ätupplevelsen). Önskat.
 - Kurtisanens ingång går via **alla fem ombord**, inklusive Malin, och en siffra var. Skatten är lättfunnen, koden är låset. Barnsben är mullvad mot Bortförklaringen, inte mot jägarna. Social jakt, inte ransakning. Önskat. Malin är en dörr bland fem, inte ensam flaskhals.
 - Fromhetens ingång går via **Kapten Hjärter** och smicker. Krockar med S-01 (älskarjakten vid grytorna) och S-11 (korthajbordet). Önskat. Köket är platsen, inte en flaskhals för cryptexen.
-- Gnällets ingång går via **Kapten Dunka** och hotet om svärdet (kinesisk kopia). Krockar med S-05 (arvssyndsskatten). Önskat. Inte Malin-affären. Inte Kosing ensam.
+- Gnällets ingång går via **minst tre ombord** och smicker om de förlorade skeppen och stormen. Krockar med galeonens ursprung (Plåthorn pratar gärna om sitt skepp). Önskat. Inte Dunkas svärd. Inte S-05. Inte Malin-affären.
 
 Otillåtet:
 
@@ -262,10 +262,10 @@ Otillåtet:
 | 1 | `content/intriger/crews/1.md` | Fördärvet | ja, Fördärvets brev | skriven. Fysisk dörr, ingen i `guests/`. |
 | 2 | `content/intriger/crews/2.md` | Bortförklaringen | ja, Klöver och choklad | skriven. Dörr: `guests/johannabergman.md` |
 | 3 | `content/intriger/crews/3.md` | Fromheten | ja, Hjärter och smicker | skriven. Dörr: `guests/jesperlejfjord.md` |
-| 4 | `content/intriger/crews/4.md` | Gnället | ja, Dunka och svärdet | skriven. Dörr: `guests/ludvigvonbahr.md` |
+| 4 | `content/intriger/crews/4.md` | Gnället | ja, minst tre och stormraden | skriven. Dörr: de fem `guests/` på Gnället |
 | 5 | `content/intriger/crews/5.md` | Kurtisanen | ja, kaptenernas siffror | skriven. Dörr: de fem `guests/` (en siffra var) |
 
-Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11, jägarna. Bara skatten de ska hitta, plus ingången. Social dörr: id 100 Dunka, 101 Hjärter, 102 Klöver, 103 kurtisanernas fem siffror. Inte gömma i lagfilen.
+Poster i [`fordelning.yaml`](fordelning.yaml): id 1 till 5, beat B-11, jägarna. Bara skatten de ska hitta, plus ingången. Social dörr: id 100 Gnällets fem (minst tre + stormraden), 101 Hjärter, 102 Klöver, 103 kurtisanernas fem siffror. Inte gömma i lagfilen.
 
 Hur texten skrivs: avsnitten **Varför de jagar** och **Ingång** ovan. STYLE.md punkt 23.
 
@@ -274,6 +274,6 @@ Hur texten skrivs: avsnitten **Varför de jagar** och **Ingång** ovan. STYLE.md
 ## Öppna frågor
 
 - [ ] Vad är varje lags fysiska skatt? Fylls i här när de valt, eller på plats fredag.
-- [x] Ingång från Fromheten, Gnället. Verbatim i registret. Gästtext skriven: jägarna i `crews/3.md` och `crews/4.md`. Dörr: Hjärter och Dunka i sina `guests/`.
+- [x] Ingång från Fromheten, Gnället. Verbatim i registret. Gästtext skriven: jägarna i `crews/3.md` och `crews/4.md`. Dörr: Hjärter i `guests/jesperlejfjord.md`. Gnället: minst tre ombord + stormraden, de fem `guests/`. Dunkas svärd struket 2026-08-28.
 - [ ] Ska en funnen skatt visas publikt (skryt) eller gömmas om (stöld)? Lämnas till lagen. Vi tvingar ingen redovisning.
 - [ ] Får en skatt bära en ledtråd till cryptexen? Nej tills en quest i [`quests.md`](quests.md) säger ja, med bypass.

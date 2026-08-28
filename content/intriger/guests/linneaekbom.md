@@ -36,3 +36,7 @@ Din snäcka har viskat sanningen, och den är torrare än hans rykte: hon viskad
 ## Vad snäckan viskar om kåthornet {slug:elinmartensson}
 
 Din hemliga snäcka hör mer än du bett om, och den har snappat upp **Kapten Kuling**s och **Kapten Prygel**s planer på att lura eller stjäla **Kapten Plåthorn**s **kåthorn**. Ett flykthorn: blås i det och alla pirater i närheten går i kåttrans, så våldsam att de mitt i striden tvingas sniffa i fiendens nacke. Striden stannar. Hon smiter. Du kan varna henne, i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid du ändå inte kan simma ifrån. Välj innan festen är över.
+
+## Stormen ni överlevde {slug:linneaekbom}
+
+Om minst tre av **Galeonen Gnället** står samlade och någon säger insmickrande: "Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?": släpp nästa ledtråd till galeonens skatt. En legend är en dörr. Låt den stå öppen.

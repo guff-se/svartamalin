@@ -119,7 +119,7 @@ Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl
 Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig enväg. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
 Status:         skriven
 
-Obs: Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom. Enbens vittnespekning struken 2026-08-27 (återbud). Lagskatt: Hjärter är Fromhetens dörr (smicker), Dunka är Gnällets dörr (svärdet). Hjärter seglar på Fromheten som jagar Dunkas skuta. Två skäl att gå på Dunka. Inte samma uppdrag. Malin-affären är inte jaktens hävstång.
+Obs: Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom. Enbens vittnespekning struken 2026-08-27 (återbud). Lagskatt: Hjärter är Fromhetens dörr (smicker). Gnällets dörr är minst tre ombord plus stormraden, inte Dunkas svärd. Hjärter seglar på Fromheten som jagar Gnället, men jakten går mot galeonen, inte mot Dunka ensam. Inte samma uppdrag. Malin-affären är inte jaktens hävstång.
 
 ## S-02: Skäggtrion
 
@@ -259,7 +259,7 @@ Vad de vill:    Kosing vill lägga sin påhittade arvssyndsskatt just på Dunka,
 Vad står i vägen: Dunka vaktar sitt tveeggade svärd svartsjukt och låter aldrig någon granska det på nära håll, av skräck för att avslöjas som falsk under fasaden. Samtidigt njuter han i hemlighet av ryktet att han setts vid Malins bord (den synliga romansen med Malin som Dunka bär i S-01, jakten på hennes älskare), vilket gör honom svårare att skrämma: han känner sig redan som en stor man den här helgen.
 Varför nu:      festens skålande och skryt ger den naturliga scenen, och Kosing tar upp skatt hela helgen.
 
-Hur det spelas: Nykter viskar åt Kosing att Dunkas svaga punkt är det tveeggade svärdets påhittade historia, den spricker om hon kräver den ord för ord, utan att själv synas i det. Inte att bladet är en kinesisk kopia: det är Dunkas lagskattshemlighet, inte Nykters. Kosing riktar sin arvssyndsskatt mot Dunka som kommer från överklassen och kräver betalt i mynt eller en berättelse. Dunka kan betala, dementera högljutt, eller dra igång svärdets "historia" en gång för mycket och snubbla på en detalj. Spricker myten svarar han med en av sina långa, envisa kramar, som tröst åt sig själv snarare än andra. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå skatten kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
+Hur det spelas: Nykter viskar åt Kosing att Dunkas svaga punkt är det tveeggade svärdets påhittade historia, den spricker om hon kräver den ord för ord, utan att själv synas i det. Kosing riktar sin arvssyndsskatt mot Dunka som kommer från överklassen och kräver betalt i mynt eller en berättelse. Dunka kan betala, dementera högljutt, eller dra igång svärdets "historia" en gång för mycket och snubbla på en detalj. Spricker myten svarar han med en av sina långa, envisa kramar, som tröst åt sig själv snarare än andra. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå skatten kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
 Utfall om ja:   Dunka betalar eller förödmjukas inför båda besättningarna, Kosing kammar hem en fin skatt, Nykter njuter osedd av segern, Klöver tar sin procent.
 Utfall om nej:  Dunka bluffar sig igenom, myten lever vidare, skatten förblir obetald.
 
@@ -267,7 +267,7 @@ Bygger på:      fiende 20 (Dunka–Nykter). Romans 19 (Kosing–Dunka), i den l
 Speglas hos:    Dunka, Kosing, Nykter, Klöver.
 Status:         skriven
 
-Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt: Gnällets ingång går via samma svärd, skärpt till kinesisk kopia. Önskad krock. Inte samma uppdrag. Kosing är inte enda jägaren där.
+Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt: Gnällets ingång går inte via svärdet (minst tre ombord plus stormraden, 2026-08-28). S-05 är bara arvssyndsskatten. Inte samma uppdrag.
 
 ---
 

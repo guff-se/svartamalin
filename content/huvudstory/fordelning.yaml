@@ -55,7 +55,8 @@
 # B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
 # in hos jägarna. Se lagskatter.md. Id 1–5 är jägarna: skatten de ska hitta,
 # plus ingången. Inte skatten de gömmer. Social dörr ligger inte i lagfilen:
-# id 100 Dunka, 101 Hjärter, 102 Klöver, 103 kurtisanernas fem siffror.
+# id 100 Gnällets fem (minst tre + stormraden), 101 Hjärter, 102 Klöver,
+# 103 kurtisanernas fem siffror.
 
 fordelning:
   - id: 1
@@ -99,7 +100,7 @@ fordelning:
     akt: II
     till: { crew: 4 }
     roll: jagare
-    vet: "att de ska hitta Galeonen Gnällets skatt, och att första spåret dit är Kapten Dunka: hota att avslöja att hans svärd inte är anrikt, det är en kinesisk kopia"
+    vet: "att de ska hitta Galeonen Gnällets skatt, och att första spåret dit är att samla minst tre av galeonen och säga insmickrande: Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?"
     vet_inte: "att Barken Bortförklaringen jagar Fromhetens skatt, att jakten är en sluten cirkel, att det finns en mullvad i laget"
     speglas: []
     bygger_pa: null
@@ -1272,9 +1273,9 @@ fordelning:
   - id: 100
     beat: B-11
     akt: II
-    till: [ludvigvonbahr]
+    till: [ludvigvonbahr, elinmartensson, alexandrapalmquist, linneaekbom, edvinthungren]
     roll: door
-    vet: "att hans tveeggade svärd inte är anrikt utan en kinesisk kopia, och att om någon hotar att säga det högt ska han släppa nästa ledtråd till Galeonen Gnällets skatt"
+    vet: "att om minst tre av Galeonen Gnället står samlade och någon säger insmickrande att de hört legenden om era magnifika skepp och frågar om ni är de enda som överlevde stormen den natten, ska de släppa nästa ledtråd till galeonens skatt"
     vet_inte: "att Fregatten Fromheten jagar Gnällets skatt, att jakten är en sluten cirkel, var skatten ligger, ledtråd två"
     speglas: []
     bygger_pa: null
