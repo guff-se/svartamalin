@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-28, avlatsbrev hos Hjärter och Rödskägg
+
+Källa: Gustaf, i chatt.
+
+- [x] se till att ordet förklaras ordentligt i Hjärter och Rödskäggs intriger.
+
+Kryss = ordet avlatsbrev förklaras i `../intriger/guests/jesperlejfjord.md` och `../intriger/guests/viktoransund.md`: papperet som efterskänker straff, kyrkans handel mot mynt, Frompiraternas version mot ursäkt, att de utfärdar det.
+
+---
+
 ## 2026-08-28, fiende 5: oljan vid förra skålen
 
 Källa: Gustaf, i chatt.

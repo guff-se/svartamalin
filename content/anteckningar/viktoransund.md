@@ -15,3 +15,5 @@ Förbjuden hemlig kärlek med **Kapten Frodig** (`josefinansund`), romans 8. Int
 Skäggtrion med **Kapten Lösskägg** och **Kapten Blåskägg** (S-02, B-15). De tre strider om vem som är Skäggens Konung. De listar själva ut hur. Klöver hetsar. Gästtext skriven.
 
 S-12 enväg: Blodig skyller bakhållet på Frodig. Han får inte veta att klienten var Rötägg.
+
+Avlatsbrev förklaras i hans gästfil: kyrkans papper mot synd, Frompiraterna tar ursäkt i stället för mynt, han utfärdar för att stå över den som ber. Kuling och Malin som de som inte knäböjer. Ironin: han har Piratpulver och borde själv be. Inte SL-tryck.

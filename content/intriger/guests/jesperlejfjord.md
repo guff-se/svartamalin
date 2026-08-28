@@ -37,6 +37,12 @@ Med **Katten Felix** ur spel den här helgen får du leta upp annat sällskap f�
 
 I år sitter ni äntligen samma bord, vid kökskanten där du ändå står med grytorna. **Kapten Prygel** delar. Ditt eget knep: märkta baksidor, ristade med lite kökssmet mellan såserna, redo att smygas in i given när ingen tittar. Det är bus, inte en razzia. Låt Klöver och Spader anklaga varandra medan du håller din egen hand ren i allas ögon.
 
+## Brevet som blankar boken {slug:johannabergman}
+
+Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick straffet efterskänkt och registret struket, som om ingenting någonsin hänt. Frompiraterna säljer samma sak, bara utan mynt. Den som knäböjer och ber om ursäkt får brevet, sin skatt blankad och sitt namn raderat ur räkenskaperna. Du skriver det. Du stryker boken.
+
+**Svarta Malin** har aldrig betalat skatt och tänker inte be. **Kapten Klöver** bar din kristallfyrklöver från bordet: hon kan få brevet om hon ber, och hon kommer inte be. Låt hamnen se vem som går blank ur boken och vem som står kvar. Utfärda avlat från grytorna innan sista skålen, så kajen förstår att Frompiraterna förlåter, och att förlåtelsen har ett papper.
+
 ## Mannen som hör allt {slug:navidmodiri}
 
 **Kapten Döver** låtsas vara döv, ett spratt så inbitet att han håller egna workshops i hittepå-teckenspråk för att bevisa det. Du köper det inte för ett ögonblick: du har sett honom rycka till av ljud han borde vara stendöv för, och du svär att avslöja honom innan festen är över.

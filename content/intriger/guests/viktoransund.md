@@ -46,6 +46,12 @@ Ett år sedan sköt **Kapten Kuling** dig i ryggen i bakhåll på Paradisets ö 
 
 Nu delar ni båtarna hela helgen, samma rep, samma rigg, samma kaj, och varje gång hon ler mot dig undrar du om det är ett nytt jobb hon planerar eller bara hennes vanliga sätt att vara. Kräv tillbaka lastens värde, testa henne med en fälla av eget snitt, eller håll ett öga på henne varje sekund ni tvingas arbeta ihop. Lita inte på henne förrän helgen är över, och kanske inte då heller.
 
+## Brevet som blankar boken {slug:josefinlowing}
+
+Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick straffet efterskänkt och registret struket, som om ingenting någonsin hänt. Frompiraterna säljer samma sak mot ursäkt, inte mot guld. Den som ber får brevet. Du utfärdar det. Den som förlåter står över den som ber, och du tänker synas.
+
+**Svarta Malin** ber aldrig. **Kapten Kuling** sköt dig i ryggen på Paradisets ö och kommer inte knäböja. Låt hamnen se vem som kan förlåta och vem som vägrar. I väskan ligger Piratpulver: det är du som borde be. Det är du som blankar andras böcker. Utfärda avlat innan sista skålen, högt, så ingen tar Salmonellahavets störste kapten för den som knäböjer.
+
 ## Namnet Blodig redan sagt {slug:minimacklin}
 
 **Kapten Blodig** svär redan att klienten bakom bakhållet var **Kapten Frodig**, för att deras släkter slåss om pulvret och för att Blodig redan hatar henne. Om det är sant har du knullat kvinnan som betalade för att du skulle dö, med skägget mellan hennes lår och ett skott i ryggen som hemgift. Om det är lögn tänker hon sänka er hemliga lust med någon annans krut.
