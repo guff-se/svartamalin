@@ -144,7 +144,7 @@ fiender:
     type: one_way
     a: amandamungsgard    # Kapten Kosing: Fregatten Fromheten
     b: malintadaa         # Svarta Malin: Korvetten Kurtisanen
-    # oförrätt: Malin avfärdade Kosings arvssyndsskatt som “söt men tvåa” i en skål.
+    # oförrätt: Malin avfärdade Kosings arvssyndsskatt i en skål: söt, men tvåa efter Malins egen (andraplats).
     # Låg intensitet: Kosing vill inte stå i centrum i publikt drama.
     status: done
 
