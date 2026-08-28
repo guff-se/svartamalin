@@ -6,7 +6,7 @@ real_name: Johanna Bergman
 
 # Kapten Klöver
 
-Romans 12 med **Kapten Hurring**. Fiende 1 mot **Kapten Prygel**. S-02: hon hetsar skäggtrion för bankens skull. Gästtext skriven.
+Romans 12 med **Kapten Hurring**. Fiende 1 mot **Kapten Prygel**. S-02: hon hetsar skäggtrion för bankens skull. S-04: hon vet att **Kapten Fuling** angav Hurring och säljer namnet, inte skålen. Inte fiende 5. Gästtext skriven.
 
 Lagskatt (treasure): hon är Bortförklaringens ingång. Högkvalitativ choklad gör henne totalt omdömeslös. Jägarna (Fördärvet) läser det i `crews/2.md`. Hon läser påminnelsen i `guests/johannabergman.md`. Inte i `crews/3.md`. S-05: Kosings arvssyndsskatt (tax) mot Dunka, ätupplevelsen som sätt att slippa skatten (tax). Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md) och [`../huvudstory/skatt.md`](../huvudstory/skatt.md).
 

@@ -13,7 +13,8 @@ mirrors:
     note: stal hans kristallfyrklöver, mångårig fuskrivalitet (tvåvägs)
   - slug: gustaftadaa
     note: mångårig rivalitet, ömsesidiga fuskanklagelser, du bär hans ring med spader (tvåvägs)
-related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard, jesperlejfjord, gustaftadaa, malintadaa]
+# enväg: louisevonbahr (vet att Fuling angav Hurring, säljer namnet, speglas inte)
+related: [petterwallberg, viktoransund, hampuslindblad, jesperlindmarker, minervalowgren, amandamungsgard, jesperlejfjord, gustaftadaa, malintadaa, louisevonbahr]
 ---
 
 ## Stugan ingen pratar om {slug:malintadaa}
@@ -28,11 +29,11 @@ Kalla ihop **Barken Bortförklaringen** och ta er över till den öde ön innan 
 
 Hetsa dem. Viska till Rödskägg att de andra redan skrattat. Säg till Lösskägg att de andras skägg är nästa i lådan. Säg till Blåskägg att färgen inte räcker. Öppna vad på vem som vinner och hur: förnedring, turnering, rakning, eller vad de själva hittar på. Choklad går lika bra som mynt. Du bryr dig inte om vem som blir Skäggens Konung. Du bryr dig om att kajen slår vad, och att din procent är räknad när sista skålen faller.
 
-## Fragmentet du säljer dyrt {slug:jesperlindmarker}
+## Namnet du säljer dyrt {slug:jesperlindmarker}
 
 Du delar din lust med **Kapten Hurring** utan att ana att han samtidigt tar **Kapten Prygel** i säng. Du vill ha honom. Du vill bli tagen mellan två kortspel, riden som en insats, och du tänker inte ge bort vare sig skvaller eller lår gratis. Nu vill han hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld han fortfarande bär.
 
-Dina hemliga spelklubbar i varenda hamn ni lagt till i har gett dig öron överallt, och du har hört ett fragment som pekar mot "den som fortfarande kallar förra skålen för feber". Sälj det, gärna till Prygel hellre än gratis till Hurring själv, choklad går lika bra som mynt. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, så låt henne betala dyrt för det hon egentligen borde veta ändå.
+Dina hemliga spelklubbar i varenda hamn ni lagt till i har gett dig öron överallt, och du vet vem det var: **Kapten Fuling**. Sälj namnet, gärna till Prygel hellre än gratis till Hurring själv, choklad går lika bra som mynt. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, så låt henne betala dyrt för det hon egentligen borde veta ändå.
 
 ## Bordet ni planerat tillsammans {slug:amandamungsgard}
 

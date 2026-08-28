@@ -179,10 +179,10 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 
 | slug | Sidequests | Rollerobjekt som bär handlingen |
 |------|-------|--------------------------------|
-| `linneaappert` | S-07 | tom rollfil. Romans 3 med Rötägg. Romans 25 med Blåskägg (hjärta krossat för en skuta). Fiende 5: oljan vid förra skålen. |
+| `linneaappert` | S-07 | tom rollfil. Romans 3 med Rötägg. Romans 25 med Blåskägg (hjärta krossat för en skuta). Fiende 5: oljan, Fuling kastade sig på Rosing som skrattade. |
 | `ulrikahammar` | S-03, S-07 | krumelurpiller, syhörna. Scarfen mot Babord (fiende 12). Redan mullvad mot Nykter (annan hemlighet). |
 | `jesperlindmarker` | S-04, S-06 | svart liggare, vem angav honom. Redan Prygels mullvadskontakt (annan hemlighet). |
-| `louisevonbahr` | S-04, S-10 | tom rollfil. Fiende 5: oljan vid förra skålen, kallade det feber. Redan mullvad mot Hjärter (annan hemlighet). |
+| `louisevonbahr` | S-04, S-10 | tom rollfil. Fiende 5: oljan, kastade sig på Rosing som skrattade. S-04: hon angav Hurring, nekar. Redan mullvad mot Hjärter (annan hemlighet). |
 | `josefinlowing` | S-06, S-08, S-12 | familjesmycke, båtar, egen oförrätt mot Malin, bakhåll mot Rödskägg, namnet på klienten |
 | `navidmodiri` | S-03, S-10 | fejkdöv, sanningsserum, workshop, nemesis Hjärter. Redan Babords mullvadskontakt (annan hemlighet). |
 | `ludvigvonbahr` | S-05 | tvåeggat svärd med lögnig historia, långa kramar |
@@ -192,7 +192,7 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `johannabergman` | S-02, S-04, S-05, S-11 | svartklubb, kristallfyrklöver, skvaller mot choklad, korthajbordet |
 | `amandamungsgard` | S-05 | arvssyndsskatt (tax), mynt, låg intensitet, vill spela med Dunka |
 | `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa kåthornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). Frompiraterna ligger i lagintrigen, inte här. |
-| `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
+| `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Fiende 5: vittne, Fuling kastade sig på henne vid skålen, hon skrattade. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
 | `alexandrapalmquist` | S-03, S-10 | sjökort (Mälaren, hennes föremål), mild ordning, romans med Döver, fiende 12 mot Barnsben (brevet i scarfen, dåtid). Redan mullvad mot Döver (annan hemlighet). |
 | `edvinthungren` | S-07, S-10, S-12 | vill vara snäll, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
 | `elinmartensson` | S-06, S-08, S-11 | kåthorn, klagomur, ensam om att veta att Spader har en lek med bara spaderess. Fiende 2 mot Malin (skålen och jollen), flyttad från Enben 2026-08-27. |
@@ -233,18 +233,43 @@ Roll i storyn:  jägare (Hurring) / bärare (Fuling) / vittne (Klöver, Prygel, 
 Kopplad till:   ingen beat än. Inte samma sak som S-01 (jakten på Malins hemliga älskare). Hjärters kristallfyrklöver sitter redan hos Klöver från ett kortspel. Hjärter jagar inte tillbaka amuletten här, och inte i S-11 (korthajarnas bord) heller: där är insatsen rykte, inte amuletten.
 
 Vad de vill:    Hurring vill äntligen veta vem som angav honom för många år sedan och satte honom i fängelse, och skriva en ny rad i sin svarta liggare den här helgen.
-Vad står i vägen: sanningen ligger begravd. Fuling har alltid nekat. Kajen såg henne tappa värdigheten vid förra kaptensskålen, då Planka smorde in henne med sirenolja, och Fuling har sen dess svurit att det var feber (fiende 5). Ingen misstänker den som själv blev till åtlöje för något så allvarligt som ett angiveri. Klöver och Prygel, båda ihop med Hurring samtidigt (romanser 12 och 13, han vet, de vet inte om varandra) och sedan länge ovänner (fiende 1, en stulen vals och äran för en gemensam bordning), hjälper honom helst var för sig och tävlar om att vara den som löser gåtan, inte om att slå sig samman.
+Vad står i vägen: sanningen ligger begravd. Fuling har alltid nekat. Klöver vet att det var Fuling (öron från hemliga spelklubbar) och säljer namnet, gärna till Prygel hellre än gratis till Hurring. Prygel vet att Klöver har ett namn, inte vilket. Klöver och Prygel, båda ihop med Hurring samtidigt (romanser 12 och 13, han vet, de vet inte om varandra) och sedan länge ovänner (fiende 1, en stulen vals och äran för en gemensam bordning), hjälper honom helst var för sig och tävlar om att vara den som löser gåtan, inte om att slå sig samman.
 Varför nu:      alla från den tiden är samlade på samma ö för första gången, och liggaren behöver en ny sida.
 
-Hur det spelas: Hurring förhör gamla bekanta och driver in skulder, och stämmer av deras historier mot liggaren. Klöver, som driver hemliga spelklubbar och byter skvaller mot choklad, har hört ett fragment som pekar mot "den som fortfarande kallar förra skålen för feber" men vill ha betalt för att dela det, gärna av Prygel snarare än gratis. Prygel har sin lilla kortlek och kan fuska tillbaka, och vägrar be Klöver om hjälp rakt ut. Deras gamla groll gör att de hellre motarbetar varandra än samarbetar, vilket bromsar Hurring mer än Fuling gör. Fuling ljuger, håller fast vid febern, och pekar bort från sig själv, gärna mot Planka: kvinnan som gör kaptener till spektakel vid skålar. Samtidigt jagar hon Plankas flaska (fiende 5, annan scen, samma helg). Blåskägg, som redan har en obetald skuld och ett gammalt skämt liggande hos Hurring (fiende 8, IOU:er naglade i masten), bär sin egen rad i liggaren och kan lika gärna bli den Hurring vänder sin misstanke mot när Fuling nekar för övertygande. Spader, känd kortspelare med spelskulder åt båda hållen, har en gammal spelskuld till Hurring: Hurring kräver in den mitt i utredningen, i mynt eller i ett rykte Spader kan ha snappat upp vid något av alla spelbord han suttit vid. Spader väljer själv om han betalar, eller köper sig fri med ett namn, sant eller påhittat.
+Hur det spelas: Hurring förhör gamla bekanta och driver in skulder, och stämmer av deras historier mot liggaren. Fuling seglade i samma vatten då och har alltid nekat: han kan titta på henne utan att veta. Klöver säljer namnet Fuling mot choklad eller mynt, gärna till Prygel. Prygel har sin lilla kortlek och kan fuska tillbaka, och vägrar be Klöver om hjälp rakt ut. Deras gamla groll gör att de hellre motarbetar varandra än samarbetar, vilket bromsar Hurring mer än Fuling gör. Fuling nekar. Hon pekar inte bort mot Planka och blandar inte in skålen. Blåskägg, som redan har en obetald skuld och ett gammalt skämt liggande hos Hurring (fiende 8, IOU:er naglade i masten), bär sin egen rad i liggaren och kan lika gärna bli den Hurring vänder sin misstanke mot när Fuling nekar för övertygande. Spader, känd kortspelare med spelskulder åt båda hållen, har en gammal spelskuld till Hurring: Hurring kräver in den mitt i utredningen, i mynt eller i ett rykte Spader kan ha snappat upp vid något av alla spelbord han suttit vid. Spader väljer själv om han betalar, eller köper sig fri med ett namn, sant eller påhittat.
 Utfall om ja:   Hurring får bekräftelse, eller stark cirkumstantiell bevisning, att Fuling ligger bakom. En ny sida i liggaren, kanske en offentlig konfrontation. Klöver och Prygel upptäcker kanske att de delar Hurring, vilket öppnar ett helt annat drama. Spaders rykte kan peka åt vilket håll som helst, sant eller inte.
 Utfall om nej:  mysteriet förblir olöst, Fulings hemlighet överlever, och Hurrings paranoia om andra möjliga angivare, kanske Malin eller Blåskägg, fortsätter.
 
-Bygger på:      fiende 5 (Fuling–Planka, oljan och feberlögnen). Romanser 12, 13 (Hurring–Klöver, Hurring–Prygel). Fiende 1 (Klöver–Prygel). Fiende 8 (Hurring–Blåskägg). Hurrings egen etablerade hemlighet: han vet inte vem som angav honom. Spaders etablerade rykte som kortfuskare och spelskuldsatt (rollunderlag).
+Bygger på:      Fulings angiveri (hon nekar, han vet inte). Romanser 12, 13 (Hurring–Klöver, Hurring–Prygel). Fiende 1 (Klöver–Prygel). Fiende 8 (Hurring–Blåskägg). Spaders etablerade rykte som kortfuskare och spelskuldsatt (rollunderlag). Inte fiende 5.
 Speglas hos:    Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader.
 Status:         skriven
 
-Obs: Håll angiveriet isär från förrädarspåret i forradare.yaml. De delar ingen mekanik. Blåskägg bär också S-02. Klöver bär också S-02, S-05 och S-11: här skvallerbank, där spelare vid bordet. Spader bär också S-08 och S-11: skulden till Hurring, romansen med Plåthorn och korthajbordet delar ingen mekanik. Prygel bär också S-08 och S-11: här liten lek mot Klöver i liggarjakten, där dealer vid hajbordet.
+Obs: Håll angiveriet isär från fiende 5 (oljan, kastet mot Rosing) och från förrädarspåret i forradare.yaml. De tre delar ingen mekanik. Klöver säljer namnet, inte skålen. Blåskägg bär också S-02. Klöver bär också S-02, S-05 och S-11: här skvallerbank, där spelare vid bordet. Spader bär också S-08 och S-11: skulden till Hurring, romansen med Plåthorn och korthajbordet delar ingen mekanik. Prygel bär också S-08 och S-11: här liten lek mot Klöver i liggarjakten, där dealer vid hajbordet.
+
+---
+
+## Fiende 5: Oljan och skrattet (inte S-04)
+
+Inte en sidequest. Mutual fiendskap Fuling–Planka. Rosing är vittne, den Fuling kastade sig på.
+
+Akt:            II, gärna vid honnörsbordet
+Deltagare:      Kapten Fuling (`louisevonbahr`), Kapten Planka (`linneaappert`), Kapten Rosing (`linneaekbom`)
+Roll i storyn:  jägare (Fuling vill åt flaskan) / bärare (Planka har oljan) / vittne (Rosing)
+Kopplad till:   ingen beat. Inte S-04. Inte Klövers försäljning av angiveriet.
+
+Vad de vill:    Fuling vill åt Plankas flaska och hälla oljan på henne vid honnörsbordet, så hamnen ser vem som tål sin egen medicin. Planka vill göra om insmörjningen vid samma bord. Rosing vill behålla sista skrattet och inte bli den Fuling landar på igen.
+Vad står i vägen: Vid förra kaptensskålen smorde Planka in Fuling med sirenolja. Okontrollerad lust. Fuling kastade sig på Rosing. Rosing skrattade. Kajen såg. Fuling skyller Planka, inte Rosing. Ingen feber. Ingen täckhistoria.
+Varför nu:      honnörsbordet den här helgen, bordet där kaptenerna sitter först och skålar först. Flaskan sitter fortfarande i Plankas koja.
+
+Hur det spelas: Planka smörjer in Fuling igen, gärna siktad mot Rosing. Fuling jagar flaskan. Rosing kan dra sig undan eller stå kvar och skratta. Inte en ledtråd till vem som angav Hurring.
+Utfall om ja:   oljan på Planka, eller Fuling mot Rosing igen, eller båda.
+Utfall om nej:  fiendskapet finns kvar olöst.
+
+Bygger på:      fiende 5. Plankas sirenolja (rollunderlag). Inte S-04.
+Speglas hos:    Fuling, Planka. Rosing minns kastet med Fuling (tvåvägs minne), men är inte part i yaml-fiendskapet.
+Status:         skriven
+
+Obs: Ordet feber förekommer inte. Klöver får inte den här scenen. Hurring får den inte som tell för angiveriet.
 
 ---
 
@@ -380,7 +405,7 @@ Hur det spelas: Döver håller sin workshop på gården som täckmantel för att
 Utfall om ja:   någon får bevis för att Döver hör allt. Hjärters jakt i S-01 störs eller får en falsk ledtråd, planterad av Döver. Fuling kan välja att kräva in sin tystnad som en tjänst, inte avslöja den.
 Utfall om nej:  fiende 6 och 23 och romans 7 finns kvar olösta. Workshopen blir bara fest.
 
-Bygger på:      romans 7 (Döver–Babord). Fiender 6 (Döver–Rötägg), 23 (Döver–Hjärter). Fulings vana att sitta på andras skam (fiende 5, oljan; S-04, tystnad) tillämpad här på sin egen skeppskamrat.
+Bygger på:      romans 7 (Döver–Babord). Fiender 6 (Döver–Rötägg), 23 (Döver–Hjärter). Fulings vana att spara en skuld (S-10, Dövers dövhet) istället för att avslöja gratis. Inte fiende 5, inte S-04.
 Speglas hos:    Döver, Babord, Rötägg, Fuling. Hjärter enväg, ingen ny egen jakt åt honom.
 Status:         skriven
 

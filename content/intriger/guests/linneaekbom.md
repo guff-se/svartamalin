@@ -7,8 +7,10 @@ mirrors:
     note: mullvad, snäckan avslöjar hans rädsla att förlora titeln, du köper honom med Gnällets larm (tvåvägs)
   - slug: fabianmacklin
     note: enväg hat, viskningen om sista dansen (du hatar honom, han vet om det)
+  - slug: louisevonbahr
+    note: kastet vid skålen, du skrattade (tvåvägs minne, inte yaml-fiende)
 # enväg vittne mot elinmartensson (snäckan hör Kuling/Prygels planer), speglas inte
-related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa, hampuslindblad]
+related: [ulrikahammar, fabianmacklin, elinmartensson, malintadaa, hampuslindblad, louisevonbahr, linneaappert]
 ---
 
 ## Aldrig vila {slug:malintadaa}
@@ -36,6 +38,12 @@ Din snäcka har viskat sanningen, och den är torrare än hans rykte: hon viskad
 ## Vad snäckan viskar om kåthornet {slug:elinmartensson}
 
 Din hemliga snäcka hör mer än du bett om, och den har snappat upp **Kapten Kuling**s och **Kapten Prygel**s planer på att lura eller stjäla **Kapten Plåthorn**s **kåthorn**. Ett flykthorn: blås i det och alla pirater i närheten går i kåttrans, så våldsam att de mitt i striden tvingas sniffa i fiendens nacke. Striden stannar. Hon smiter. Du kan varna henne, i utbyte mot en tjänst, eller hålla tyst för att slippa dras in i en strid du ändå inte kan simma ifrån. Välj innan festen är över.
+
+## Skrattet vid skålen {slug:louisevonbahr}
+
+Vid förra kaptensskålen, skålen där kaptenerna skålar först, kastade **Kapten Fuling** sig på dig inför kajen, lusten okontrollerad efter att **Kapten Planka** smort in henne med något. Du skrattade. Du tänker inte låtsas att du inte gjorde det.
+
+Planka har flaskan kvar och gör gärna om det vid honnörsbordet, bordet där kaptenerna sitter först och skålar först. Fuling kommer efter hämnd på Planka, inte på dig, men höfterna minns var de landade sist. Behåll sista skrattet. Dra dig undan, eller stå kvar och låt kajen se att du fortfarande inte tar emot det hon inte kan styra. Bli inte hennes tröstpris innan festen är över.
 
 ## Stormen ni överlevde {slug:linneaekbom}
 

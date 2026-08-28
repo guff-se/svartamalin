@@ -10,8 +10,10 @@ mirrors:
   - slug: hampuslindblad
     note: romans, hon hade honom först (tvåvägs)
   - slug: linneaappert
-    note: fiende 5, oljan vid förra skålen (tvåvägs)
-related: [jesperlindmarker, navidmodiri, jesperlejfjord, hampuslindblad, linneaappert]
+    note: fiende 5, oljan, kastet mot Rosing (tvåvägs)
+  - slug: linneaekbom
+    note: kastet vid skålen, hon skrattade (tvåvägs minne, inte yaml-fiende)
+related: [jesperlindmarker, navidmodiri, jesperlejfjord, hampuslindblad, linneaappert, linneaekbom]
 ---
 
 ## Rösten som pekar bort från dig {slug:jesperlejfjord}
@@ -22,9 +24,9 @@ Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du
 
 ## Anklagelsen du alltid nekat {slug:jesperlindmarker}
 
-**Kapten Hurring** vet fortfarande inte vem som en gång angav honom och fick honom fängslad, och nu är alla från den tiden samlade på samma ö. Kajen såg dig tappa värdigheten vid förra kaptensskålen, när **Kapten Planka** smorde in dig, och du har sen dess svurit att det var feber. Ingen misstänker den som själv blev till åtlöje för något så allvarligt som ett angiveri, och du tänker hålla det så.
+Det var du som en gång angav **Kapten Hurring** och fick honom fängslad. Han vet det inte. Han anar, han förhör, han har ingen bevisning. Du har alltid nekat. Nu är alla från den tiden samlade på samma ö, och hans svarta liggare behöver en ny rad.
 
-Hurring förhör gamla bekanta och stämmer av deras historier. Peka bort från dig själv, gärna mot Planka, kvinnan som gör kaptener till spektakel vid skålar. Klarar du dig undan honom innan festen är över kan du fortfarande vara den som blev förödmjukad, inte den som sålde.
+Hurring stämmer av gamla bekantas historier mot boken. Neka. Håll tungan bakom tänderna. Klarar du dig undan honom innan festen är över kan du fortfarande vara vem som helst utom den som sålde.
 
 ## Skulden du sparar {slug:navidmodiri}
 
@@ -38,8 +40,8 @@ Han vill ha sexmagick. Rök, rit, kroppen som nyckel till en dörr han svär sit
 
 Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan han glömmer vems koja han kröp till först.
 
-## Febern du svor på {slug:linneaappert}
+## Skålen hon smorde in {slug:linneaappert}
 
-Vid förra kaptensskålen smorde **Kapten Planka** in dig med något som tände kroppen mot din vilja, höfterna före huvudet, medan hon själv stod orörd och log. Kajen såg allt. Du har i ett år kallat det feber. Aldrig olja.
+Vid förra kaptensskålen, skålen där kaptenerna skålar först, smorde **Kapten Planka** in dig med något som tände kroppen mot din vilja, höfterna före huvudet, medan hon själv stod orörd och log. Du kastade dig på **Kapten Rosing**. Kajen såg. Rosing skrattade åt dig. Det är förnedringen du skyller Planka för.
 
 Hon har flaskan kvar i sin koja. Du vill ha den. Häll den på henne vid honnörsbordet, bordet där kaptenerna sitter först och skålar först, så hamnen ser vem som egentligen tål sin egen medicin. Faller hon är hon en lögnare. Vägrar hon har hon erkänt att flaskan är hennes. Ta den innan festen är över, innan hon gör om det mot dig.

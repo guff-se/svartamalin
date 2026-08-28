@@ -67,7 +67,12 @@ fiender:
     type: mutual
     a: louisevonbahr      # Kapten Fuling: Fregatten Fördärvet
     b: linneaappert       # Kapten Planka: Korvetten Kurtisanen
-    # oförrätt: Planka smorde Fuling med sirenolja vid förra kaptensskålen; Fuling kallade det feber; hon vill åt flaskan
+    # oförrätt: Planka smorde Fuling med sirenolja vid förra kaptensskålen.
+    # Okontrollerad lust. Fuling kastade sig på Kapten Rosing. Rosing skrattade.
+    # Förnedringen Fuling skyller Planka för. Ingen feber. Ingen täckhistoria.
+    # Helgen: Planka gör om det vid honnörsbordet. Fuling vill åt flaskan.
+    # Rosing är vittne (den Fuling landade på), inte part i fiendskapet.
+    # Inte S-04: Klöver säljer Fulings angiveri av Hurring utan att blanda in skålen.
     # Inte samma som romans 25: Fuling vet inte att Planka tar Blåskägg.
     status: done
 

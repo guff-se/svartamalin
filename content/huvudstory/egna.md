@@ -20,6 +20,19 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-28, fiende 5: Fuling kastade sig på Rosing
+
+Källa: Gustaf, i chatt.
+
+- [x] vi skriver om hela premissen: Planka smorde in Fuling med sirenolja under en kaptensskål, som gjorde att hon fick en okontrollerad lust och kastade sig på Kapten Rosing som skrattade åt henne. Detta är förnedringen som Fuling skyller Planka för.
+- [x] Börja med att uppdatera fiendeskapet, skriv sedan om S-04 för att matcha detta.
+- [x] Blanda inte ihop detta med Klövers kunskap om Fulings angiveri av Hurring. Det kan hon sälja utan att trassla ihop det med förnedringen.
+- [x] Gå igenom alla intriger för att hitta referenser till detta fiendskap, S-04, ordet feber och se till att allt ligger i linje med nya premissen.
+
+Kryss = fiende 5 är oljan, kastet mot Rosing, skrattet. Ingen feber. Ingen täckhistoria. S-04 är angiveriet. Klöver säljer namnet Fuling, inte ett fragment om skålen. Rosing vet att hon var den Fuling landade på. Clarity-filerna orörda (historik).
+
+---
+
 ## 2026-08-28, Fuling tappade värdigheten vid förra kaptensskålen
 
 Källa: Gustaf, i chatt.
