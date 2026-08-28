@@ -5,7 +5,7 @@ mirrors:
   - slug: alexandrapalmquist
     note: romans, hon täcker för hans fejkade dövhet + hon är din mullvad på Gnället (tvåvägs)
   - slug: edvinthungren
-    note: gammal röta, han köper inte omvändelsen (tvåvägs)
+    note: Rötägg lastade ruttna tunnor på hans skepp, han köper inte omvändelsen (tvåvägs)
   - slug: louisevonbahr
     note: hon anar sanningen och sparar den som skuld (tvåvägs, asymmetrisk kunskap)
   - slug: fabianmacklin
@@ -23,7 +23,7 @@ related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr, malint
 
 **Kapten Babord** ger dig mer än ett rakt ansikte när du "tecknar" på gården. Hon för allt hon hör inne på **Galeonen Gnället** rakt till dig, och därmed till hela **Fregatten Fördärvet**: planer, gömmen, viskningar, ett grepp om en skuta ni annars aldrig skulle ana något om. Hon vet precis vems lag hon hjälper, det är ingen tvekan mellan er om det. Men skälet hon gör det av är bara du, inte flaggan, och det gör henne farligt lätt att förlora om du någonsin tar det för givet.
 
-Be henne inte om det som rör **Kapten Rötägg** utan att veta vad du ber om. Han seglar vid hennes sida hela helgen, ovetande om att hon redan valt din sida i den gamla röta som aldrig läkt mellan er. Skydda henne från att avslöjas som spion lika hårt som du skyddar din egen påhittade dövhet, innan festen är över.
+Be henne inte om det som rör **Kapten Rötägg** utan att veta vad du ber om. Han seglar vid hennes sida hela helgen, ovetande om att hon redan valt din sida efter tunnorna han lastade på ditt skepp. Skydda henne från att avslöjas som spion lika hårt som du skyddar din egen påhittade dövhet, innan festen är över.
 
 ## Det du hör vid syhörnan {slug:ulrikahammar}
 
@@ -45,9 +45,9 @@ Ditt hittepå-teckenspråk är precis lika påhittat som din dövhet. Håll en w
 
 Ditt flaskade sanningsserum kan hamna i en kopp nära Hjärter, eller nära den som hotar avslöja dig. Håll det dolt innan festen är över: någon på ön kan riktigt teckenspråk, och Hjärter har redan sett dig reagera på ljud du "inte kan höra".
 
-## Röta som inte glöms {slug:edvinthungren}
+## Tunnorna han lastade {slug:edvinthungren}
 
-**Kapten Rötägg** var röta mot dig en gång, innan han påstod sig ändra sig, och du teg då av skäl som var dina egna. Nu vill han vara snäll, hjälpa till med workshopen av ren vänlighet, och det är det sista du önskar dig: han kan råka avslöja mer om dig än han anar, inför alla, bara genom att hjälpa för mycket. Du köper inte hans omvändelse. Håll honom på avstånd om du kan, innan festen är över.
+**Kapten Rötägg** lastade ditt skepp med tunnor mat som redan stank. Han räknade med att du var döv och inte skulle höra besättningen klaga förrän det var för sent. Du hörde. Du teg, så att dövheten skulle hålla. Locket gick av. Maten var rutten. Han påstår nu att han ändrat sig och vill hjälpa till med workshopen av ren vänlighet, och det är det sista du önskar dig: han kan råka avslöja mer om dig än han anar, inför alla, bara genom att hjälpa för mycket. Du köper inte att han blivit snäll. Håll honom på avstånd om du kan, innan festen är över.
 
 ## Skulden Fuling håller tyst om {slug:louisevonbahr}
 

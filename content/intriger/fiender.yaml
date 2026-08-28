@@ -72,8 +72,9 @@ fiender:
     type: mutual
     a: navidmodiri        # Kapten Döver: Fregatten Fördärvet
     b: edvinthungren      # Kapten Rötägg: Galeonen Gnället
-    # oförrätt: Rötäggs röta mot den "döve" (ruttna förråd, före omvändelsen). Döver teg då;
-    # nu tjuvlyssnar han och släpper inte Rötäggs nya snällhet. Rötägg vill vara snäll; Döver köper det inte.
+    # oförrätt: Rötägg lastade Dövers skepp med tunnor mat som redan stank, räknade med
+    # att den "döve" inte skulle höra klagomålen i tid. Döver hörde, teg för att dövheten
+    # skulle hålla. Nu vill Rötägg vara snäll vid workshopen; Döver köper det inte.
     status: done
 
   - id: 7

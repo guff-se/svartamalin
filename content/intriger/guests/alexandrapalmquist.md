@@ -14,7 +14,7 @@ related: [navidmodiri, ulrikahammar, gustaftadaa]
 
 Att hålla masken rak när du "översätter" hans hittepåtecken är bara hälften av vad du gör för **Kapten Döver**. Den andra hälften är allt du för vidare från din egen skuta: vad **Galeonen Gnället** planerar, gömmer och viskar, rakt in i **Fregatten Fördärvet**s väntande händer. Du hjälper hela hans skuta med det, inte bara honom, och det vet ni båda fullt ut. Men skälet du gör det av är bara han. Du vill ha honom mer än du någonsin svor din egen besättning trohet, och det räcker för att göra dig till hans spion, inte till Fördärvets vän.
 
-Din svåraste stund kommer när det gäller din egen skeppskamrat **Kapten Rötägg**. Han är Dövers gamla fiende, mannen som en gång var ren röta mot honom när alla trodde han var döv, och Döver har aldrig släppt det. Vet du var Rötägg gömmer sig eller vad han planerar, för det vidare, även om han seglat vid din sida hela helgen utan att ana vems hemligheter du bär. Välj hur långt du går, innan festen är över.
+Din svåraste stund kommer när det gäller din egen skeppskamrat **Kapten Rötägg**. Han lastade en gång **Kapten Döver**s skepp med tunnor mat som redan stank, räknade med att en döv kapten inte skulle höra klagomålen i tid, och Döver har aldrig släppt det. Vet du var Rötägg gömmer sig eller vad han planerar, för det vidare, även om han seglat vid din sida hela helgen utan att ana vems hemligheter du bär. Välj hur långt du går, innan festen är över.
 
 ## Tecknen du översätter {slug:navidmodiri}
 

@@ -6,7 +6,7 @@ mirrors:
   - slug: ulrikahammar
     note: gammal röta, parfymspratten mot hennes uppvaktning av Döver (enväg, hon dömer, han vet om domen)
   - slug: navidmodiri
-    note: gammal röta, han köper inte omvändelsen (tvåvägs)
+    note: lastade ruttna tunnor på Dövers skepp, han köper inte omvändelsen (tvåvägs)
   - slug: gustaftadaa
     note: enväg hat, fuskad vinst om Plåthorns fiskegrund (han hatar dig, du vet om det; inget fysiskt sjökort)
   - slug: josefinlowing
@@ -28,7 +28,7 @@ Du ärvde en gång ett skepp och miste det för att du var röta in i märgen mo
 
 ## Vänligheten han inte vill ha {slug:navidmodiri}
 
-Du var röta mot **Kapten Döver** en gång, innan du miste ditt skepp och bestämde dig för att bli snäll. Han håller en workshop i teckenspråk på gården, ett öppet pass där kajen får lära sig hans tecken. Nu vill du gottgöra det genom att hjälpa till där, av ren vänlighet, utan baktankar. Han vill inte ha din hjälp, och du förstår inte riktigt varför. Hjälp ändå, om du vill bevisa din omvändelse ännu en gång, men var beredd på att din iver kan avslöja mer om honom än du anar, inför alla.
+Du lastade en gång **Kapten Döver**s skepp med tunnor mat som redan stank. Du räknade med att en döv kapten inte skulle höra besättningen klaga förrän locket redan var av. Sen miste du ditt skepp och bestämde dig för att bli snäll. Han håller en workshop i teckenspråk på gården, ett öppet pass där kajen får lära sig hans tecken. Nu vill du gottgöra det genom att hjälpa till där, av ren vänlighet, utan baktankar. Han vill inte ha din hjälp, och du förstår inte riktigt varför. Hjälp ändå, om du vill bevisa att du ändrat dig ännu en gång, men var beredd på att din iver kan avslöja mer om honom än du anar, inför alla.
 
 ## Vinsten han aldrig förlåtit {slug:gustaftadaa}
 
