@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-28, Dövers workshop hos Rötägg
+
+Källa: Gustaf, i chatt.
+
+- [x] lägg in en rad om Dövers workshop hos Rötägg.
+
+Kryss = `../intriger/guests/edvinthungren.md` säger att Döver håller en workshop i teckenspråk på gården, innan texten talar om att hjälpa till där. Inte Rötäggs egen workshop.
+
+---
+
 ## 2026-08-28, kåthornets funktion i gästtexten
 
 Källa: Gustaf, i chatt.

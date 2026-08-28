@@ -28,7 +28,7 @@ Du ärvde en gång ett skepp och miste det för att du var röta in i märgen mo
 
 ## Vänligheten han inte vill ha {slug:navidmodiri}
 
-Du var röta mot **Kapten Döver** en gång, innan du miste ditt skepp och bestämde dig för att bli snäll. Nu vill du gottgöra det genom att hjälpa honom med hans workshop i teckenspråk, av ren vänlighet, utan baktankar. Han vill inte ha din hjälp, och du förstår inte riktigt varför. Hjälp ändå, om du vill bevisa din omvändelse ännu en gång, men var beredd på att din iver kan avslöja mer om honom än du anar, inför alla.
+Du var röta mot **Kapten Döver** en gång, innan du miste ditt skepp och bestämde dig för att bli snäll. Han håller en workshop i teckenspråk på gården, ett öppet pass där kajen får lära sig hans tecken. Nu vill du gottgöra det genom att hjälpa till där, av ren vänlighet, utan baktankar. Han vill inte ha din hjälp, och du förstår inte riktigt varför. Hjälp ändå, om du vill bevisa din omvändelse ännu en gång, men var beredd på att din iver kan avslöja mer om honom än du anar, inför alla.
 
 ## Vinsten han aldrig förlåtit {slug:gustaftadaa}
 
@@ -48,4 +48,4 @@ Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Köp he
 
 **Kapten Barnsben** har aldrig glömt spratten du en gång ställde till, doften du bytte ut mot något rutet just när hon gjorde sin bästa uppvaktning av **Kapten Döver**. Uppvaktningen dog på fläcken, och hon dömer dig för det fortfarande, med en blick lika kall som den var innan du miste ditt skepp och blev den snälla mannen du numera försöker vara.
 
-Du vet om domen. Du erbjuder henne gärna en gest av gottgörelse, en sabrerad flaska, en hjälpande hand vid din workshop, men hon tar inte emot den lika lätt som andra. **Kapten Planka** kan fråga henne vad hon vet om dig, och du vet inte om Barnsben väljer att skydda dig eller sänka dig den dagen. Vinn hennes förtroende, eller ge upp försöket, innan festen är över.
+Du vet om domen. Du erbjuder henne gärna en gest av gottgörelse, en sabrerad flaska, en hjälpande hand vid Dövers workshop på gården, men hon tar inte emot den lika lätt som andra. **Kapten Planka** kan fråga henne vad hon vet om dig, och du vet inte om Barnsben väljer att skydda dig eller sänka dig den dagen. Vinn hennes förtroende, eller ge upp försöket, innan festen är över.
