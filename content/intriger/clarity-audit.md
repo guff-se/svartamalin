@@ -2,9 +2,98 @@
 
 Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format. **Att köra om:** [`clarity-review.md`](clarity-review.md).
 
-Kördes i fem omgångar. **Runda 5 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag (inkl. gymmet, Storstugan, Malins älskare) + tom kunskap + bestämd form. Äldre rundor är arkiv.
+**VIKTIGT** Ändra inte resultatet av granskningen i detta dokument, förutom genom att faktiskt köra granskningsscriptet.
 
-## Runda 5 — gästfil + lag + intro + undantag + bestämd form (aktuell bild)
+Kördes i sex omgångar. **Runda 6 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag (inkl. gymmet, Storstugan, Malins älskare) + tom kunskap + bestämd form. Äldre rundor är arkiv.
+
+## Runda 6 — gästfil + lag + intro + undantag + bestämd form (aktuell bild)
+
+**Datum:** 2026-08-28.
+
+**Metod:** 23 isolerade agenter, en per gäst. Varje agent fick:
+1. sin egen `guests/{slug}.md` (YAML och `{slug:…}` osynliga),
+2. sitt eget lags `crews/{crew_id}.md`,
+3. `content/copy/intriger_intro.md`,
+4. roster med lagnamn och piratnamn, eget namn/lag utmärkt.
+
+Undantag i prompten (flagga inte): Gubben i stubben / Gumman på udden; dörrar till lagskatter; Salmonellahavet och Ovanan; gymmet och Storstugan; Svarta Malins hemliga älskare (Dunka som avledning). Extra check: tom kunskap (`du vet` utan innehåll) och bestämd form utan intro (`skålen`/`jollen`-mönstret). Heuristiska kandidater från `--scan` låg i prompten; auditorn avgjorde.
+
+Rutinens undantagslista i `clarity-review.md` nämner också **Piratpulver** och **Paradisets ö**. De två saknades i prompten den här rundan, så flera agenter flaggade dem. De räknas inte som luckor nedan.
+
+### Resultat
+
+| Betyg | Antal | Runda 5 → Runda 6 |
+|---|---|---|
+| 🟢 Grönt | 4 | 4 → 4 |
+| 🟡 Gult | 19 | 19 → 19 |
+| 🔴 Rött | 0 | 0 → 0 |
+
+Inga röda. Plåthorn är fortfarande grön. Nya gröna: Babord, Fuling och Frodig (ryktet mot Planka ifyllt; Paradisets ö är undantag). Malin, Prygel och Lösskägg gick från grönt till gult på smak/bestämd form, inte på blockers.
+
+### 🔴 Rött (0)
+
+Inget. Ingen tom kunskap som läsaren måste agera på utan innehåll.
+
+### Per gäst
+
+| Slug | Piratnamn | Lag | Betyg | Termer | Tom kunskap |
+|---|---|---|---|---|---|
+| alexandrapalmquist | Kapten Babord | Gnället | 🟢 | none | none |
+| elinmartensson | Kapten Plåthorn | Gnället | 🟢 | none | none |
+| josefinansund | Kapten Frodig | Bortförklaringen | 🟢 | none | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟢 | none | none |
+| amandamungsgard | Kapten Kosing | Fromheten | 🟡 | skattebod | none |
+| edvinthungren | Kapten Rötägg | Gnället | 🟡 | parfymspratten; manschettknapparna; Vinsten; Skottet; din workshop | none |
+| fabianmacklin | Kapten Nykter | Bortförklaringen | 🟡 | syhörnan; Dansen; Frieriet | none |
+| gustaftadaa | Löjtnant Spader | Fördärvet | 🟡 | hornet; grytorna; Plåthorns plåthorn; Kärleken; Fusket | none |
+| hampuslindblad | Kapten Blåskägg | Bortförklaringen | 🟡 | vraket; dörren bakom medvetandet | none |
+| jesperlejfjord | Kapten Hjärter | Fromheten | 🟡 | Katten Felix; angivelsen mot Hurring; liggaren; kökskanten; avlatsbrev | none |
+| jesperlindmarker | Kapten Hurring | Kurtisanen | 🟡 | piratval; jubilaren; masten; förra kaptensskålen | skämtet mot Blåskägg |
+| johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | Fragmentet; samlaren; den lättkränkte | none |
+| josefinlowing | Kapten Kuling | Fördärvet | 🟡 | Hornet; Plåthorns varning; pulversläkter | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenerna; förra kaptensskålen; flaskan | none |
+| linneaekbom | Kapten Rosing | Gnället | 🟡 | snäckan; Rösten du köpt; bladet; Skäggens Konung; skymningens piller; krumelurburk | none |
+| ludvigvonbahr | Kapten Dunka | Gnället | 🟡 | jubilaren; skattebod | none |
+| malintadaa | Svarta Malin | Kurtisanen | 🟡 | arvssyndsskatt | none |
+| minervalowgren | Kapten Prygel | Fromheten | 🟡 | hans kapten; förra skålen; feber | none |
+| minimacklin | Kapten Blodig | Fördärvet | 🟡 | kapitulationen | none |
+| navidmodiri | Kapten Döver | Fördärvet | 🟡 | bladet; sanningsserumet; den gamla rötan; tavernan | skälen du teg av |
+| petterwallberg | Kapten Lösskägg | Kurtisanen | 🟡 | de fyra skäggens historier; det gråa/vita/blonda | historier du kan utantill |
+| ulrikahammar | Kapten Barnsben | Kurtisanen | 🟡 | syhörnan | none |
+| viktoransund | Kapten Rödskägg | Fromheten | 🟡 | bladet; loggen; väskan; psalmen; avlatsbrev | none |
+
+### Mönster
+
+**Inte buggar:** Malins låsta kista / «den som känner historien». Lagskattdörrar. Gubben/Gumman. Salmonellahavet, Ovanan. Gymmet, Storstugan. Älskarens namn hos Malin. Piratpulver. Paradisets ö. `jubilaren` är Malins fest (introt säger «festen är hennes» men inte ordet).
+
+**Återkommande gula mentions** (värda en rad i *den personens* fil, inte undantag):
+- `skattebod` (Kosing reser den; Dunka möter den).
+- Hornet / Plåthorns plåthorn hos den som inte är Plåthorn (Kuling, Spader).
+- `dörren bakom medvetandet` (Blåskägg).
+- `krumelurburk` / skymningens piller / snäckan hos Rosing (förklaras hos Barnsben, inte hos henne).
+- `bladet` i gymmet (Döver, Rosing, Rödskägg).
+- Skäggvadet: vem som är samlaren vs den lättkränkte (Klöver).
+- `syhörnan` (Nykter, Barnsben) — platsen nämns i bestämd form.
+- `förra kaptensskålen` / feber (Hurring, Planka, Prygel).
+- `arvssyndsskatt` hos Malin (Fromheten har mekaniken; hon hånade den).
+- `avlatsbrev` (Hjärter, Rödskägg).
+
+**Tom kunskap som inte är röd** (går att spela runt):
+- Hurring: skämtet mot Blåskägg («ett gammalt skämt du aldrig låtit dö»).
+- Döver: skälen han teg av.
+- Lösskäggs fyra skägghistorier.
+
+**Rubriker i bestämd form** (smak, inte blocker): `Kärleken`, `Fusket`, `Dansen`, `Frieriet`, `Fragmentet`, `Vinsten`, `Skottet` — första nämnandet är rubriken, stycket under fyller i.
+
+### Rekommendation
+
+Inget måste. Om nästa svep: en rad om skatteboden hos Kosing (och Dunka om hon ska mötas där), hornet hos Kuling/Spader, krumelurburken/snäckan hos Rosing, och vad «förra kaptensskålen» var för den som bär den som ledtråd.
+
+Prompten i `scripts/clarity-review.js` bör lista Piratpulver och Paradisets ö bland undantagen, så de inte flaggas igen.
+
+---
+
+## Runda 5 — gästfil + lag + intro + undantag + bestämd form (arkiverad)
 
 **Datum:** 2026-08-28.
 
