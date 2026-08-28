@@ -80,7 +80,10 @@ fiender:
     type: mutual
     a: josefinlowing      # Kapten Kuling: Fregatten Fördärvet
     b: elinmartensson     # Kapten Plåthorn: Galeonen Gnället
-    # oförrätt: Plåthorns “varning” sålde Kulings position; Kuling hånade kåthornet i skål
+    # oförrätt: Under en bordning låg Kuling hukad bakom en tunna, väntade på hugg.
+    # Plåthorn blåste i kåthornet och skrek att det var en varning. Stöten sålde gömman.
+    # Kuling togs på bar gärning med näsan i nacken på den hon skulle ha stuckit.
+    # Plåthorn smet. Kuling hånade kåthornet i skål.
     status: done
 
   - id: 8

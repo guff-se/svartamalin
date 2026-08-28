@@ -639,7 +639,7 @@ fordelning:
     akt: II-IV
     till: [elinmartensson]
     roll: grindvakt
-    vet: "att hon aldrig släpper sitt kåthorn frivilligt eftersom det är hennes flyktväg när det blir på allvar (blås i det och piraterna går i kåttrans, sniffar i fiendens nacke, striden stannar, hon smiter), att Kapten Prygel vill se det krossat och Kapten Kuling redan hånat det i en skål efter en gammal förnedring, att hon kan fly, muta eller blåsa i kåthornet i självförsvar, att Löjtnant Spader är hennes hemliga romans, att hon är den enda i världen som vet om hans största hemlighet (en hel kortlek med bara spaderess), och att Kuling försökt värva honom för att komma åt kåthornet utan att veta om kärleken"
+    vet: "att hon aldrig släpper sitt kåthorn frivilligt eftersom det är hennes flyktväg när det blir på allvar (blås i det och piraterna går i kåttrans, sniffar i fiendens nacke, striden stannar, hon smiter), att Kapten Prygel vill se det krossat, att hon under en bordning såg Kapten Kuling hukad bakom en tunna, blåste i kåthornet och skrek att det var en varning, sålde gömman och smet medan kajen såg Kuling komma fram med näsan i nacken på den hon skulle ha stuckit, att Kuling sen hånat kåthornet i en skål, att hon kan fly, muta eller blåsa i kåthornet i självförsvar, att Löjtnant Spader är hennes hemliga romans, att hon är den enda i världen som vet om hans största hemlighet (en hel kortlek med bara spaderess), och att Kuling försökt värva honom för att komma åt kåthornet utan att veta om kärleken"
     vet_inte: "att Kapten Rosing hör deras planer via sin snäcka"
     speglas: [josefinlowing, minervalowgren, gustaftadaa]
     bygger_pa: "fiende: 7, 24, romans: 14"
@@ -651,7 +651,7 @@ fordelning:
     akt: II-IV
     till: [josefinlowing]
     roll: jagare
-    vet: "att Kapten Plåthorns 'varning' en gång sålde hennes position och att hon hånat kåthornet i en skål sen dess, att kåthornet sätter slaget i kåttrans så Plåthorn kan smita, att hon nu vill ha det för skojs skull, taktiskt bruk eller för att sälja det vidare, och att Löjtnant Spader, känd kortfuskare, kan värvas att hjälpa henne komma åt det"
+    vet: "att hon låg hukad bakom en tunna under en bordning och väntade på hugg när Kapten Plåthorn blåste i kåthornet och skrek att det var en varning, att stöten sålde gömman och kajen såg henne komma fram med näsan i nacken på den hon skulle ha stuckit, tagen på bar gärning, medan Plåthorn redan var borta, att hon sen hånat kåthornet i en skål, att kåthornet sätter slaget i kåttrans så Plåthorn kan smita, att hon nu vill ha det för skojs skull, taktiskt bruk eller för att sälja det vidare, och att Löjtnant Spader, känd kortfuskare, kan värvas att hjälpa henne komma åt det"
     vet_inte: "att Kapten Rosing hör planerna via sin snäcka, att Spader älskar Plåthorn i hemlighet"
     speglas: [elinmartensson]
     bygger_pa: "fiende: 7"

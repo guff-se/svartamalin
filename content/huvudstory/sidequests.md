@@ -326,7 +326,7 @@ Kopplad till:   klagomuren på Gnället.
 
 Föremål:        kåthorn. Blås i det och alla pirater i närheten går i kåttrans, så våldsam att de mitt i striden tvingas sniffa i fiendens nacke. Striden stannar. Plåthorn smiter.
 
-Vad de vill:    Prygel vill se kåthornet krossat en gång för alla, på allvar, för att det stör hennes stridslystna heder (fiende 24). Kuling, som redan hånat kåthornet i en skål (fiende 7), vill komma över det för skojs skull, kanske använda det taktiskt eller sälja det vidare. Spader vill, framför allt, skydda Plåthorn utan att avslöja att han älskar henne.
+Vad de vill:    Prygel vill se kåthornet krossat en gång för alla, på allvar, för att det stör hennes stridslystna heder (fiende 24). Kuling, som redan hånat kåthornet i en skål (fiende 7: Plåthorn blåste, kallade det varning, sålde Kulings bakhåll bakom en tunna; Kuling togs med näsan i nacken på den hon skulle ha stuckit), vill komma över det för skojs skull, kanske använda det taktiskt eller sälja det vidare. Spader vill, framför allt, skydda Plåthorn utan att avslöja att han älskar henne.
 Vad står i vägen: Plåthorn släpper aldrig kåthornet frivilligt. Det är hennes enda pålitliga flyktväg när det blir på allvar, och hon bär det nära sig hela tiden. Kuling har fått för sig att hon behöver en listig hand för att komma åt kåthornet, och har fäst blicken på Spader, känd kortfuskare, utan att ana att han redan är Plåthorns hemliga romans (romans 14).
 Varför nu:      den samlade festen och stridsstämningen gör kåthornet extra farligt att använda, och båda jägarna vet att fel tillfälle blir kaos.
 

@@ -29,7 +29,7 @@ Nu är det hennes fest, hennes rom, hennes garde nere mitt i firandet. Du vill a
 
 Ditt kåthorn är ingen leksak. Blås i det och alla pirater i närheten drabbas av en ohämmad upphetsning så våldsam att de mitt i striden tvingas släppa värjan för att sniffa i fiendens nacke. Striden avstannar. Du smiter. Du släpper det aldrig frivilligt och bär det tätt inpå kroppen jämt.
 
-**Kapten Prygel** vill se det krossat en gång för alla: hon är stridslysten och avskyr att du kan fly striden med en enda blåsning. **Kapten Kuling** har redan hånat kåthornet öppet i en skål, efter att din "varning" en gång sålde hennes position och lät henne bli tagen på bar gärning. Båda vill åt dig nu, var för sig eller tillsammans. Försvara dig genom att fly, muta, eller blåsa i kåthornet i självförsvar och sprida kaos som täckmantel, innan festen är över.
+**Kapten Prygel** vill se det krossat en gång för alla: hon är stridslysten och avskyr att du kan fly striden med en enda blåsning. **Kapten Kuling** har redan hånat kåthornet öppet i en skål. Det var efter den bordning där du såg henne hukad bakom en tunna, väntande på hugg. Du blåste i kåthornet och skrek att det var en varning. Stöten sålde hennes gömma. Kajen såg henne komma fram med näsan i nacken på den hon skulle ha stuckit, tagen på bar gärning, medan du redan var borta. Båda vill åt dig nu, var för sig eller tillsammans. Försvara dig genom att fly, muta, eller blåsa i kåthornet i självförsvar och sprida kaos som täckmantel, innan festen är över.
 
 ## Den du tar i hemlighet {slug:gustaftadaa}
 
