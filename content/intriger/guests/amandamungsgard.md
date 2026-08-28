@@ -18,7 +18,7 @@ Ett hus som ingen pratar om kan gömma vad som helst, och du har alltid haft ett
 
 ## Arvssyndsskatten {slug:ludvigvonbahr}
 
-Din arvssyndsskatt är en skatt på dem som kommer från överklassen: de betalar, i mynt eller i en berättelse. **Kapten Dunka** är den du siktar på, ett tveeggat svärd fullt av påstådd historia och en familj han aldrig slutar nämna. Res din skattebod, kräv betalt av honom innan festen är över, och låt honom antingen betala, dementera högljutt, eller snubbla på en detalj i sin egen myt.
+Din arvssyndsskatt är en skatt på dem som kommer från överklassen: de betalar, i mynt eller i en berättelse. **Kapten Dunka** är den du siktar på, ett tveeggat svärd fullt av påstådd historia och en familj han aldrig slutar nämna. Kräv betalt av honom innan festen är över, och låt honom antingen betala, dementera högljutt, eller snubbla på en detalj i sin egen myt.
 
 ## Skatten du tar utan kvitto {slug:ludvigvonbahr}
 
@@ -34,4 +34,4 @@ Du och **Kapten Klöver** har länge planerat en hemlig, exklusiv ätupplevelse 
 
 **Svarta Malin** avfärdade din arvssyndsskatt i en skål inför hela hamnen, kallade den söt men tvåa, som om ditt hantverk var en barnlek jämfört med hennes egen ståt. Du sa inget tillbaka. Du behöver inte stå mitt i ett drama för att få rätt.
 
-Res din skattebod där **Korvetten Kurtisanen** går förbi, och lägg din taxa på var och en av dem som bär hennes namn och skryter om att stå henne nära. Låt jubilarens eget folk betala för den stolthet hon själv kallade tvåa, mynt för mynt, tills din skatt med mynt och sedlar väger tyngre än hennes skål. Du behöver aldrig nämna hennes namn för att hon ska förstå vem som skickade räkningen.
+Ta upp skatten där **Korvetten Kurtisanen** går förbi, och lägg din taxa på var och en av dem som bär hennes namn och skryter om att stå henne nära. Låt jubilarens eget folk betala för den stolthet hon själv kallade tvåa, mynt för mynt, tills din skatt med mynt och sedlar väger tyngre än hennes skål. Du behöver aldrig nämna hennes namn för att hon ska förstå vem som skickade räkningen.

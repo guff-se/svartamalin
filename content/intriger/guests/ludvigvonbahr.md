@@ -28,7 +28,7 @@ Ditt tveeggade svärd är en helig ko: ingen får syna det på nära håll, för
 
 **Kapten Kosing** har infört en arvssyndsskatt, en skatt på dem som kommer från överklassen, och du är den hon siktar på. Betala i mynt eller i en berättelse, dementera högljutt, eller kör igång svärdets historia en gång för mycket och snubbla på en detalj inför fel publik. Spricker myten är dina långa, envisa kramar allt du har kvar, tröst åt dig själv snarare än åt andra.
 
-Du hatar hur rätt hon har. Du hatar det inte nog för att sluta vilja ha henne. Du vill ha hennes skattebod stängd och hennes mun öppen. Du vill dunka i något annat än bordet, länge, envist, tills hon glömmer både taxa och överklass. Låt kajen se skatten. Låt ingen se kojan. **Svarta Malin** sitter redan vid ett annat av dina bord, och den historien ska Kosing aldrig dras in i. Ta Kosing i skuggan, betala om du måste, och håll de två rummen isär innan festen är över.
+Du hatar hur rätt hon har. Du hatar det inte nog för att sluta vilja ha henne. Du vill ha hennes skatt tystad och hennes mun öppen. Du vill dunka i något annat än bordet, länge, envist, tills hon glömmer både taxa och överklass. Låt kajen se skatten. Låt ingen se kojan. **Svarta Malin** sitter redan vid ett annat av dina bord, och den historien ska Kosing aldrig dras in i. Ta Kosing i skuggan, betala om du måste, och håll de två rummen isär innan festen är över.
 
 ## Hamnskämtet som aldrig dör {slug:fabianmacklin}
 
