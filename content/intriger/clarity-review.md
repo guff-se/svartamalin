@@ -27,7 +27,8 @@ YAML mellan `---` och `{slug:…}` i rubriker syns inte för gästen. Subagenten
 
 - **Gubben i stubben / Gumman på udden.** Ledtrådar som går att lista ut från namnen. Ingen ytterligare förklaring.
 - **Dörrar till lagskatter.** Lagen byggde dem själva och vet hur de ska hanteras. Det som står i intrigerna (siffra till kod, nästa ledtråd, akilleshäl, första steget mot en annan skutas skatt) är en påminnelse, inte en ny mekanik. Malins låsta kista är inte en lagskatt.
-- **Salmonellahavet, Ovanan.** Kända ord.
+- **Salmonellahavet, Ovanan, Piratpulver.** Kända ord.
+- **Paradisets ö** Arbiträr plats som inte behöver mer förklaring än vad som har hänt där.
 - **Gymmet, Storstugan.** Byggnader på ön. Inga förklaringar.
 - **Svarta Malins hemliga älskare.** Identiteten är en hemlighet `malintadaa` redan bär. Namnet ska inte stå i gästtext. Flagga inte att älskaren är namnlös, varken hos Malin eller hos den som jagar namnet. **Kapten Dunka** som synlig avledning är avsiktlig.
 

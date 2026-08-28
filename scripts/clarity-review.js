@@ -247,7 +247,8 @@ KNOWN TO THE READER (do not flag these as unexplained):
 ${roster}
 
 Also known:
-- Salmonellahavet and Ovanan are known words (the sea and the island). The intro names them.
+- Salmonellahavet, Ovanan, and Piratpulver are known words. The intro names the first two; Piratpulver needs no further explanation.
+- Paradisets ö is an arbitrary place. Do not ask for more explanation than what already happened there.
 - Gymmet and Storstugan are buildings on the island. Do not flag them as unexplained.
 - Gubben i stubben and Gumman på udden are clues you can work out from the names (a stump, a point of land). Do not ask for a further explanation of what they are.
 - Team-treasure doors (lagskatter): each crew built its own doors. They already know how to handle them. Intrigue text about a code digit, "nästa ledtråd", an achilles heel, or the first step toward another crew's treasure is a reminder, not a new mechanic. Do not flag those as unexplained.
@@ -257,7 +258,7 @@ TASK: After reading those three files, evaluate how well YOU can understand your
 
 Look for three kinds of gap. All belong in TERMS.
 
-1. Unexplained mentions: concepts, items, events, places, or mechanics that are named but never explained. The text incorrectly assumes you already understand them. Pirate names, team names, Salmonellahavet, Ovanan, Gymmet, Storstugan, Gubben i stubben, Gumman på udden, and team-treasure doors need no explanation.
+1. Unexplained mentions: concepts, items, events, places, or mechanics that are named but never explained. The text incorrectly assumes you already understand them. Pirate names, team names, Salmonellahavet, Ovanan, Piratpulver, Paradisets ö, Gymmet, Storstugan, Gubben i stubben, Gumman på udden, and team-treasure doors need no explanation.
 
 2. Empty knowledge (more serious than an unexplained prop): the text asserts that YOU already know, have heard, have seen, or have already chosen a specific fact, but the three documents never state the content of that fact. Search the body for claims like "du vet", "du vet redan", "du känner till", "du har sett", "bara du vet", "du är den enda som vet", "du har hört". Then ask: can I, from these three files alone, say WHAT it is that I know? If no, it is empty knowledge.
    - Flag it even if the surrounding plot is otherwise playable.
