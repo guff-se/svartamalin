@@ -2,9 +2,94 @@
 
 Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format. **Att köra om:** [`clarity-review.md`](clarity-review.md).
 
-Kördes i fyra omgångar. **Runda 4 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag. Äldre rundor är arkiv.
+Kördes i fem omgångar. **Runda 5 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag (inkl. gymmet, Storstugan, Malins älskare) + tom kunskap + bestämd form. Äldre rundor är arkiv.
 
-## Runda 4 — gästfil + lag + intro + undantag (aktuell bild)
+## Runda 5 — gästfil + lag + intro + undantag + bestämd form (aktuell bild)
+
+**Datum:** 2026-08-28.
+
+**Metod:** 23 isolerade agenter, en per gäst. Varje agent fick:
+1. sin egen `guests/{slug}.md` (YAML och `{slug:…}` osynliga),
+2. sitt eget lags `crews/{crew_id}.md`,
+3. `content/copy/intriger_intro.md`,
+4. roster med lagnamn och piratnamn, eget namn/lag utmärkt.
+
+Undantag i prompten (flagga inte): Gubben i stubben / Gumman på udden; dörrar till lagskatter; Salmonellahavet och Ovanan; gymmet och Storstugan; Svarta Malins hemliga älskare (Dunka som avledning). Extra check: tom kunskap (`du vet` utan innehåll) och bestämd form utan intro (`skålen`/`jollen`-mönstret). Heuristiska kandidater från `--scan` låg i prompten; auditorn avgjorde.
+
+Efter runda 4: de fyra röda tom-kunskap-luckorna (Döver, Rosing, Nykter, Hurring) fylldes i. Malins älskare blev undantag. Skålen, jollen och Fördärvets last skrevs in hos Malin.
+
+### Resultat
+
+| Betyg | Antal | Runda 4 → Runda 5 |
+|---|---|---|
+| 🟢 Grönt | 4 | 2 → 4 |
+| 🟡 Gult | 19 | 16 → 19 |
+| 🔴 Rött | 0 | 5 → 0 |
+
+Inga röda. Malin, Plåthorn och Prygel är gröna. Lösskägg är grön med smaklucka i skägghistorierna. Fler gula än runda 4 eftersom bestämd form och oförklarade mentions nu fångas striktare; det är inte nya blockers.
+
+### 🔴 Rött (0)
+
+Inget. Ingen tom kunskap som läsaren måste agera på utan innehåll.
+
+### Per gäst
+
+| Slug | Piratnamn | Lag | Betyg | Termer | Tom kunskap |
+|---|---|---|---|---|---|
+| elinmartensson | Kapten Plåthorn | Gnället | 🟢 | none | none |
+| malintadaa | Svarta Malin | Kurtisanen | 🟢 | none | none |
+| minervalowgren | Kapten Prygel | Fromheten | 🟢 | none | none |
+| petterwallberg | Kapten Lösskägg | Kurtisanen | 🟢 | de fyra skäggens historier; fragmentet | historier du kan utantill (smak) |
+| alexandrapalmquist | Kapten Babord | Gnället | 🟡 | gården; Dövers workshop | none |
+| amandamungsgard | Kapten Kosing | Fromheten | 🟡 | avlatsbrev; Dunkas svärd | none |
+| edvinthungren | Kapten Rötägg | Gnället | 🟡 | manschettknapparna; parfymspratten; Paradisets ö; din workshop | none |
+| fabianmacklin | Kapten Nykter | Bortförklaringen | 🟡 | syhörnan; ädelstenens njutningssätt | vilket sätt statyetten ger njutning |
+| gustaftadaa | Löjtnant Spader | Fördärvet | 🟡 | Plåthorns horn; grytorna | none |
+| hampuslindblad | Kapten Blåskägg | Bortförklaringen | 🟡 | dörren bakom medvetandet; vraket | none |
+| jesperlejfjord | Kapten Hjärter | Fromheten | 🟡 | Katten Felix; angivelsen mot Hurring; liggaren | none |
+| jesperlindmarker | Kapten Hurring | Kurtisanen | 🟡 | piratval; jubilaren; masten | hur nära Prygel och Klöver är att upptäcka varandra |
+| johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | samlaren; den lättkränkte; svärdshistoria | none |
+| josefinansund | Kapten Frodig | Bortförklaringen | 🟡 | Paradisets ö | none |
+| josefinlowing | Kapten Kuling | Fördärvet | 🟡 | hornet | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenoljan; honnörsbordet; silverryktets innehåll | none |
+| linneaekbom | Kapten Rosing | Gnället | 🟡 | hemliga snäckan; krumelurburk; skymningens piller | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | silverryktets innehåll | none |
+| ludvigvonbahr | Kapten Dunka | Gnället | 🟡 | svärdets påhittade historia; hamnskämtets innehåll | none |
+| minimacklin | Kapten Blodig | Fördärvet | 🟡 | Paradisets ö; Piratpulver; kapitulation; sveket | none |
+| navidmodiri | Kapten Döver | Fördärvet | 🟡 | bladet; sanningsserumet; den gamla rötan | vad Rötägg gjorde; skälen du teg av |
+| ulrikahammar | Kapten Barnsben | Kurtisanen | 🟡 | Dövers workshop | none |
+| viktoransund | Kapten Rödskägg | Fromheten | 🟡 | bladet; loggen; väskan; Piratpulver; Paradisets ö | none |
+
+### Mönster
+
+**Inte buggar:** Malins låsta kista / «den som känner historien». Lagskattdörrar. Gubben/Gumman. Salmonellahavet, Ovanan. Gymmet, Storstugan. Älskarens namn hos Malin.
+
+**Återkommande gula mentions** (värda en rad i *den personens* fil, inte undantag):
+- `Paradisets ö` (Rötägg, Frodig, Blodig, Rödskägg).
+- `Piratpulver` (Blodig, Rödskägg).
+- Silveryktets *innehåll* (Fuling, Planka).
+- `dörren bakom medvetandet` (Blåskägg).
+- Dövers workshop / gården (Babord, Barnsben).
+- `krumelurburk` / skymningens piller hos Rosing (förklaras hos Barnsben, inte hos henne).
+- `avlatsbrev` (Kosing).
+- Skäggvadet: vem som är samlaren vs den lättkränkte (Klöver).
+- Hornet hos den som inte är Plåthorn (Kuling, Spader).
+- Dunkas påhittade svärdshistoria (han ska kunna köra igång den).
+
+**Tom kunskap som inte är röd** (går att spela runt):
+- Nykters statyett: «du vet precis vilket sätt».
+- Hurring: hur nära Prygel och Klöver är att upptäcka varandra.
+- Döver: vad Rötäggs röta var, och varför han teg.
+- Lösskäggs fyra skägghistorier (betygsatt grönt).
+
+### Rekommendation
+
+Inget måste. Om nästa svep: en rad om Paradisets ö och Piratpulver där bakhållet spelas, silveryktets innehåll hos Fuling och Planka, och krumelurburken hos Rosing. Hornet hos Kuling/Spader. Dunkas skröna så han kan köra igång den.
+
+---
+
+## Runda 4 — gästfil + lag + intro + undantag (arkiverad)
+
 
 **Datum:** 2026-08-28.
 

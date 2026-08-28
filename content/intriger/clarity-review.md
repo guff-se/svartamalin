@@ -82,7 +82,7 @@ Ny runda överst, med datum och metod (vad subagenterna faktiskt fick). Sedan:
 - Tabell per gäst: slug, piratnamn, lag, betyg, termer, tom kunskap.
 - Mönster: tom kunskap (du-vet utan innehåll) vs oförklarade mentions vs jakt som är tänkt att vara ofullständig (Malins kista). Flagga inte undantagen.
 
-Aktuell mall: gästfil + lagfil + `intriger_intro.md` + roster + undantagen. Äldre rundor (1-3) är arkiv. Kör inte dem om ingen ber om det.
+Aktuell mall: gästfil + lagfil + `intriger_intro.md` + roster + undantagen. Äldre rundor (1-4) är arkiv. Kör inte dem om ingen ber om det.
 
 ## Vem som ingår
 
