@@ -30,7 +30,7 @@ Hon kommer, förr eller senare innan helgen är över, att vilja se dig skyldig 
 
 ## Skatten som följer ditt namn {slug:amandamungsgard}
 
-Du kallade en gång **Kapten Kosing**s skrytskatt söt men tvåa, i en skål inför hela hamnen, och tänkte inte mer på det. En skatt på dem som kommer från överklassen. Hon sa inget tillbaka då, och hon kommer inte göra en scen av det nu heller, men hennes taxa har börjat följa ditt namn: var och en i **Korvetten Kurtisanen** som skryter om att stå dig nära får betala hennes skatt, mynt för mynt, som ett tyst svar på din skål.
+Du kallade en gång **Kapten Kosing**s arvssyndsskatt söt men tvåa, i en skål inför hela hamnen, och tänkte inte mer på det. En skatt på dem som kommer från överklassen. Hon sa inget tillbaka då, och hon kommer inte göra en scen av det nu heller, men hennes taxa har börjat följa ditt namn: var och en i **Korvetten Kurtisanen** som skryter om att stå dig nära får betala hennes skatt, mynt för mynt, som ett tyst svar på din skål.
 
 Du får aldrig se henne kräva det rakt av dig. Det är inte hennes stil. Men hör du dina egna kurtisaner klaga över en oväntad taxa vid festen, vet du precis varifrån den kom, och varför. Låt dem betala, eller varna dem, innan festen är över. Kosing kommer aldrig fråga dig om ursäkt, och du kommer aldrig behöva ge en.
 

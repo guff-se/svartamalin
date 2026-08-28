@@ -119,7 +119,7 @@ Kurtisanens dörrar är alla fem ombord, inklusive **Svarta Malin** (`malintadaa
 
 Hjärter sitter på Fromheten. Köket. Matansvar med Nykter. Verbatimets "hemlighter" är Gustafs stavning, vi rättar den inte i registret. Social: fjäsk lossar tungan, han läcker nästa steg. Inte ransakning. Inte samma föremål som kristallfyrklövern (den sitter hos Klöver). Krockar med S-01 (älskarjakten, privat vid grytorna), S-11 (korthajbordet vid kökskanten) och att han är Fulings mullvadskontakt. Önskat: jägarna (Bortförklaringen) hittar honom där han ändå står. Klöver sitter hos jägarna och spelar redan mot honom i S-11. Hon är inte enda vägen. Vilken som helst ombord på barken kan fjäska. Inte låsa honom ute från gömman. Play to lose om maten tar honom. Q-4 har två andra starter. Gästtext: jägarna i `crews/3.md`. Dörren i `guests/jesperlejfjord.md`. Inte i `crews/4.md`.
 
-Dunka sitter på Gnället. Svärdet är hans föremål, redan i `roller/`. Ingången skärper S-05: inte bara påhittad historia, utan kinesisk kopia. Önskad krock med S-05 (Kosings skrytskatt) och S-01 (Dunka som synlig avledning vid Malins bord). Inte samma sak som Malin-affären. Inte "fråga Kosing, hon har honom". Kosing vill inte stå i centrum. Jägarna (Fromheten) som lag hotar om kopian. Vilken som helst ombord kan göra det. Inte vår tryck. Inte questprop. Inte låsa honom ute från gömman. Play to lose om han kramar sig undan. Q-5 har två andra starter. Gästtext: jägarna i `crews/4.md`. Dörren i `guests/ludvigvonbahr.md`. Inte i `crews/5.md`.
+Dunka sitter på Gnället. Svärdet är hans föremål, redan i `roller/`. Ingången skärper S-05: inte bara påhittad historia, utan kinesisk kopia. Önskad krock med S-05 (Kosings arvssyndsskatt) och S-01 (Dunka som synlig avledning vid Malins bord). Inte samma sak som Malin-affären. Inte "fråga Kosing, hon har honom". Kosing vill inte stå i centrum. Jägarna (Fromheten) som lag hotar om kopian. Vilken som helst ombord kan göra det. Inte vår tryck. Inte questprop. Inte låsa honom ute från gömman. Play to lose om han kramar sig undan. Q-5 har två andra starter. Gästtext: jägarna i `crews/4.md`. Dörren i `guests/ludvigvonbahr.md`. Inte i `crews/5.md`.
 
 ### När en ny ingång kommer in
 
@@ -245,7 +245,7 @@ Tillåtet och önskvärt:
 - Bortförklaringens ingång går via **Kapten Klöver** och choklad. Krockar med S-04 (skvaller mot choklad) och S-05 (ätupplevelsen). Önskat.
 - Kurtisanens ingång går via **alla fem ombord**, inklusive Malin, och en siffra var. Skatten är lättfunnen, koden är låset. Barnsben är mullvad mot Bortförklaringen, inte mot jägarna. Social jakt, inte ransakning. Önskat. Malin är en dörr bland fem, inte ensam flaskhals.
 - Fromhetens ingång går via **Kapten Hjärter** och smicker. Krockar med S-01 (älskarjakten vid grytorna) och S-11 (korthajbordet). Önskat. Köket är platsen, inte en flaskhals för cryptexen.
-- Gnällets ingång går via **Kapten Dunka** och hotet om svärdet (kinesisk kopia). Krockar med S-05 (skrytskatten). Önskat. Inte Malin-affären. Inte Kosing ensam.
+- Gnällets ingång går via **Kapten Dunka** och hotet om svärdet (kinesisk kopia). Krockar med S-05 (arvssyndsskatten). Önskat. Inte Malin-affären. Inte Kosing ensam.
 
 Otillåtet:
 

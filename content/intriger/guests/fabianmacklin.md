@@ -48,7 +48,7 @@ Du har aldrig kunnat bevisa att han ljuger om sin dövhet, men du vet vad du vet
 
 Du gjorde en gång **Kapten Dunka**s svärdshistoria till ett stående hamnskämt, och han svarade med en av sina långa, envisa kramar som pressade andan och äran ur dig samtidigt. Sen dess håller du dig på behörigt avstånd från honom, men inte från hans svaga punkt: det tveeggade svärdet är inte anrikt, historien om bladet är påhitt, och tvingar man honom att berätta den i detalj snubblar han.
 
-**Kapten Kosing** driver in en skrytskatt, en skatt på dem som kommer från överklassen, och Dunka är den hon siktar på. Viska åt henne just det, att myten spricker om hon kräver historien ord för ord, utan att själv synas i det. Se honom svettas en gång till, från säkert avstånd den här gången.
+**Kapten Kosing** driver in en arvssyndsskatt, en skatt på dem som kommer från överklassen, och Dunka är den hon siktar på. Viska åt henne just det, att myten spricker om hon kräver historien ord för ord, utan att själv synas i det. Se honom svettas en gång till, från säkert avstånd den här gången.
 
 ## Svaret du ger om Rötägg {slug:linneaappert}
 
