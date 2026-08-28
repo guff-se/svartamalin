@@ -4,7 +4,7 @@ mirrors:
   - slug: fabianmacklin
     note: uppvaktning vid syhörnan + mullvad för hans skuta (tvåvägs)
   - slug: linneaekbom
-    note: uppvaktning vid syhörnan (tvåvägs)
+    note: uppvaktning vid syhörnan, hon vet inte om Nykter, han vet om henne (tvåvägs, asymmetrisk kunskap)
 # navidmodiri lyssnar i smyg vid syhörnan, enväg, speglas inte
   - slug: alexandrapalmquist
     note: fiende, brevet i hennes scarf till Döver (enväg hat från henne, du vet om det; ingen fysisk scarf)
@@ -28,7 +28,7 @@ När mörkret faller måste du svälja ett piller ur din lilla krumelurburk, ann
 
 ## Den andra uppvaktaren {slug:linneaekbom}
 
-**Kapten Rosing** uppvaktar dig lika ivrigt som **Kapten Nykter**, och vill precis samma sak: bli den du väljer att lita på i skymningen, den som får se din krumelurburk innan mörkret faller. Hon vet inte om honom. Han vet inte om henne. Låt dem båda tro att de har en chans, ända till du väljer, eller väljer att inte välja alls, innan festen är över.
+**Kapten Rosing** uppvaktar dig lika ivrigt som **Kapten Nykter**, och vill precis samma sak: bli den du väljer att lita på i skymningen, den som får se din krumelurburk innan mörkret faller. Hon vet inte om honom. Han vet om henne, och håller tyst om det. Låt Rosing tro att hon är ensam i spelet. Låt Nykter tävla med öppna ögon. Välj, eller välj att inte välja alls, innan festen är över.
 
 ## Mannen som inte svarar {slug:navidmodiri}
 

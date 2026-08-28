@@ -18,11 +18,11 @@ Du är förälskad i **Kapten Hurring**. Inte lagom. Inte med måtta. Den sorten
 
 Ge honom det han ber om, plan för plan, gömma för gömma. En blick tillbaka är hela din lön. Håll det dolt för din egen besättning och för hans kapten, innan festen är över.
 
-## Vad du inte vet om Hurring {slug:jesperlindmarker}
+## Namnet du vill ge honom {slug:jesperlindmarker}
 
-Du ger **Kapten Hurring** mer än din hemlighet. Du ger honom hjärtat du gömmer bakom kaptenstiteln, och du gör det för att du inte kan låta bli. Du anar inte att han samtidigt håller **Kapten Klöver** lika hemligt nära. Nu vill han ha hjälp att hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld ingen ännu löst.
+Du ger **Kapten Hurring** mer än din hemlighet. Du ger honom hjärtat du gömmer bakom kaptenstiteln, och du gör det för att du inte kan låta bli. Nu vill han ha hjälp att hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld ingen ännu löst.
 
-**Kapten Klöver** har hört ett namn, vem som en gång angav Hurring, men vill ha betalt i choklad eller mynt innan hon delar det, helst av dig än gratis. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, och du vägrar be henne om hjälp rakt ut. Fuska med din lilla kortlek om du måste, men lös gåtan själv innan festen är över, och låt Hurring se vem av er två som egentligen är den han tänker på.
+**Kapten Klöver** har hört ett namn, vem som en gång angav Hurring, men vill ha betalt i choklad eller mynt innan hon delar det, helst av dig än gratis. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, och du vägrar be henne om hjälp rakt ut. Fuska med din lilla kortlek om du måste, men lös gåtan själv innan festen är över, och låt Hurring se vem av er två som faktiskt kan lägga svaret i hans hand.
 
 ## Kåthornet som ska krossas {slug:elinmartensson}
 

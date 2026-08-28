@@ -27,7 +27,7 @@ Erbjud honom hela **Galeonen Gnället**s röst mot de två, redo att ropa, klapp
 
 **Kapten Barnsben**s sy- och broderihörna är den enda plats på ön där någon sitter still länge nog för dig att uppvakta ordentligt. Du vill bli den hon litar mest på när mörkret faller, den hon anförtror sin hemliga krumelurburk och sitt piller, hellre än någon annan. Du vill också bli den hon knäpper upp. Du vill ha hennes mun, hennes skratt mot halsen, och en plats i skymningen som inte bara smakar tillit. Att fråga henne rakt ut vem hon egentligen litar på vågar du inte, av rädsla för svaret. Så du gör det på ditt eget sätt: smicker, en dramatisk entré, en påminnelse om att dåligt organiserade hjärtan är den värsta sortens oordning, och en hand som stannar för länge i hennes tyg.
 
-**Kapten Nykter** vill ha samma plats som du. Du vet inte om honom. Vinn henne innan festen är över. Ta henne, eller förlora henne till en man som ljuger bättre än du uppvaktar.
+Vinn henne innan festen är över. Ta henne, eller stå kvar med smickret i näven och ingen burk i sikte.
 
 ## Viskningen han ljuger om {slug:fabianmacklin}
 
