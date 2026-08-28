@@ -40,7 +40,7 @@ Skriv inte som om gästen läser. Ingen revyröst, ingen du-form till deltagaren
 |-----|-----|-----------|
 | Huvudstory, pussel, spelledning | [`huvudstory/`](huvudstory/README.md) | Nej |
 | Tryckt rekvisita (källtext) | [`rekvisita/`](rekvisita/README.md) | Nej på sajten. Ja på papper, på ön. |
-| Gästens eget karaktärsunderlag | [`roller/`](roller/README.md) | Nej |
+| Gästens eget karaktärsunderlag | [`roller/`](roller/README.md) | Nej. Spegling av Supabase. Rör inte. `npm run fetch-roller`. |
 | Meta-anteckningar per person | [`anteckningar/`](anteckningar/README.md) | Nej |
 | Romanser, fiender, förrädare (källistor) | [`intriger/romanser.yaml`](intriger/romanser.yaml), [`intriger/fiender.yaml`](intriger/fiender.yaml), [`huvudstory/forradare.yaml`](huvudstory/forradare.yaml) | Nej |
 | Klarhetsgranskning av gästintriger | [`intriger/clarity-review.md`](intriger/clarity-review.md), resultat i [`intriger/clarity-audit.md`](intriger/clarity-audit.md) | Nej |

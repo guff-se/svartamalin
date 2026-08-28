@@ -1,8 +1,10 @@
 # Roller
 
-Gästernas **eget karaktärsunderlag**, hämtat från Supabase. Intern källa för Gustaf och agenten. Publiceras aldrig. Gäster ska inte läsa de här filerna.
+Spegling av gästernas karaktärsunderlag i Supabase. Intern källa. Publiceras aldrig.
 
-Karta: [`../README.md`](../README.md). STYLE.md gäller inte här. Filerna är **gästens egna ord** från formuläret. Skriv inte om dem till revy, du-form eller "tydligare" agentprosa. Nästa `npm run fetch-roller` skriver över handändringar. `src/lib/intriger.js` globbar bara `content/intriger/crews/` och `content/intriger/guests/`.
+**Rör aldrig gästfilerna.** Inga handanteckningar, namnbyten, förtydliganden eller extra stycken. Filerna ska vara identiska med databasen. Vill du anteckna: [`../anteckningar/{slug}.md`](../anteckningar/). Gästtext: [`../intriger/`](../intriger/).
+
+Karta: [`../README.md`](../README.md). STYLE.md gäller inte här. Filerna är **gästens egna ord** från formuläret. Skriv inte om dem till revy, du-form eller "tydligare" agentprosa. `src/lib/intriger.js` globbar bara `content/intriger/crews/` och `content/intriger/guests/`.
 
 Läs dessa innan du skriver eller ändrar en gästintrig i [`../intriger/guests/`](../intriger/guests/). Läs också [`../anteckningar/{slug}.md`](../anteckningar/) för meta-anteckningar. Civilnamn får stå här (fältet Övrigt nämner ofta personer vid riktigt namn). I gästvänd intrigtext används bara piratnamn, se [`../intriger/STYLE.md`](../intriger/STYLE.md).
 
@@ -12,7 +14,7 @@ Läs dessa innan du skriver eller ändrar en gästintrig i [`../intriger/guests/
 npm run fetch-roller
 ```
 
-Skriptet (`scripts/fetch-roller.js`) hämtar live-data, **diffar varje `{login_slug}.md`** mot det som redan ligger på disk, och skriver bara om filer som faktiskt ändrats. Tomma fält betyder att deltagaren inte fyllt i något. Redigera inte gästfilerna för hand: nästa körning skriver över dem.
+Skriptet (`scripts/fetch-roller.js`) hämtar live-data, **diffar varje `{login_slug}.md`** mot det som redan ligger på disk, och skriver bara om filer som faktiskt ändrats. Tomma fält betyder att deltagaren inte fyllt i något.
 
 Bara gäster med `attending = true`. Gäster som tackat nej eller inte svarat får ingen fil; stale filer tas bort vid nästa körning.
 

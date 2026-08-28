@@ -74,7 +74,9 @@ Karta: [`content/README.md`](content/README.md).
 
 **Gästtext, sajtens brödtext:** [`content/copy/`](content/copy/README.md). All brödtext på webbsidan. Inte STYLE.md. Inte Supabase. Bundlas vid build via `import.meta.glob` i `practical-info.js`. Inga story-hemligheter. Nämn inte att festen är sexpositiv. Det sägs på plats.
 
-**Intern text:** `huvudstory/`, `roller/`, `anteckningar/`, yaml-källistor, README. Gäster ska inte läsa det. Högsta prioritet är att en framtida agent förstår filen. Tydligt, inte poetiskt. Ingen revyröst, ingen du-form till deltagaren. Civilnamn och slug är tillåtna.
+**Intern text:** `huvudstory/`, `anteckningar/`, yaml-källistor, README. Gäster ska inte läsa det. Högsta prioritet är att en framtida agent förstår filen. Tydligt, inte poetiskt. Ingen revyröst, ingen du-form till deltagaren. Civilnamn och slug är tillåtna.
+
+**Roller:** [`content/roller/`](content/roller/) är bara spegling av Supabase. Rör aldrig gästfilerna. Inga handanteckningar. Uppdatera med `npm run fetch-roller`. Meta hör hemma i [`content/anteckningar/`](content/anteckningar/).
 
 ## Intriger (lajv) — skrivregler
 

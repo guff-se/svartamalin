@@ -14,7 +14,7 @@ Tre filer per gäst, tre källor:
 | Färdiga intriger | [`../intriger/guests/{slug}.md`](../intriger/guests/) | Arrangör/agent, enligt STYLE.md | Ja |
 | **Meta-anteckningar** | **`{slug}.md` här** | Arrangör och agent, för hand | **Nej** |
 
-Läs både `roller/` och den här filen innan du skriver eller ändrar en gästintrig. Skriv det som inte hör hemma i underlaget (gästens röst) och inte i intrigerna (gästens ögon): praktiskt ansvar, designbeslut, saker att undvika.
+Läs både `roller/` och den här filen innan du skriver eller ändrar en gästintrig. Skriv det som inte hör hemma i underlaget (gästens röst) och inte i intrigerna (gästens ögon): praktiskt ansvar, designbeslut, gästnamn på mekanik, saker att undvika. **Aldrig i `roller/`.** De filerna är bara spegling av Supabase.
 
 Civilnamn får stå här. I gästvänd intrigtext används bara piratnamn.
 

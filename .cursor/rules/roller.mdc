@@ -1,0 +1,15 @@
+---
+description: content/roller är bara spegling av Supabase — inga handanteckningar
+globs: content/roller/**
+alwaysApply: false
+---
+
+# Roller = spegling av Supabase
+
+`content/roller/{slug}.md` är output från `npm run fetch-roller`. Inte en scratchpad.
+
+**Rör aldrig gästfilerna.** Inga handanteckningar, namnbyten, förtydliganden, "gästnamn:", "sikta på", extra stycken eller kommentarer. Nästa fetch skriver över dem, och de ska redan vara identiska med databasen.
+
+Uppdatera: `npm run fetch-roller`.
+
+Vill du anteckna (designbeslut, gästnamn på mekanik, saker att undvika): skriv i [`content/anteckningar/{slug}.md`](content/anteckningar/). Gästtext: [`content/intriger/`](content/intriger/).

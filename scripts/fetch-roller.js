@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 // Hämtar gästernas karaktärsunderlag från Supabase → content/roller/{login_slug}.md
 //
+// content/roller/ är BARA en spegling. Inga handanteckningar i gästfilerna.
+// Meta hör hemma i content/anteckningar/.
+//
 // Kör: `npm run fetch-roller`  (eller `node scripts/fetch-roller.js`)
 // Kräver VITE_SUPABASE_URL + VITE_SUPABASE_ANON_KEY i .env.local.
 

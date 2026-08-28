@@ -10,7 +10,7 @@ Karta för hela `content/`: [`../README.md`](../README.md).
 
 **Klarhetsgranskning:** varje gästfil ska stå för sig själv med sin lagfil och `copy/intriger_intro.md`. Rutin: [`clarity-review.md`](clarity-review.md). Senaste resultatet: [`clarity-audit.md`](clarity-audit.md). Kör om: `npm run clarity-review -- --write-prompts`, sedan en isolerad subagent per gäst.
 
-**Karaktärsunderlag** från gästerna ligger i [`../roller/`](../roller/README.md) (`npm run fetch-roller`). **Meta-anteckningar** (praktiskt ansvar, designbeslut) ligger i [`../anteckningar/`](../anteckningar/README.md). Läs båda innan du skriver deras intrig. Skriv inte revy tillbaka in i dem.
+**Karaktärsunderlag** från gästerna ligger i [`../roller/`](../roller/README.md) (`npm run fetch-roller`). Spegling av Supabase, rör inte. **Meta-anteckningar** (praktiskt ansvar, designbeslut) ligger i [`../anteckningar/`](../anteckningar/README.md). Läs båda innan du skriver deras intrig. Skriv inte revy tillbaka in i dem.
 
 **Huvudstoryn** designas i [`../huvudstory/`](../huvudstory/README.md) och landar här via [`../huvudstory/fordelning.yaml`](../huvudstory/fordelning.yaml). Skriv aldrig in en huvudstory-bit i en intrigfil innan den har en post där. Lösningar, hemligheter och spelledningsinfo hör inte hit: filerna i `crews/` och `guests/` publiceras till gästerna.
 

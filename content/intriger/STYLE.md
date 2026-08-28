@@ -8,7 +8,7 @@ Gäller **inte** sajtcopy i [`../copy/`](../copy/README.md) (gästerna läser de
 
 Tekniskt filformat: se [README.md](README.md). Varje `##`-rubrik ska ha `{slug:login_slug}` för personen mini-porträttet visar.
 
-Läs också, för den person du skriver till: [`../roller/{slug}.md`](../roller/) (gästens underlag) och [`../anteckningar/{slug}.md`](../anteckningar/) (arrangörens meta-anteckningar). Skriv inte tillbaka revy in i de filerna.
+Läs också, för den person du skriver till: [`../roller/{slug}.md`](../roller/) (gästens underlag, spegling av Supabase, rör inte) och [`../anteckningar/{slug}.md`](../anteckningar/) (arrangörens meta-anteckningar). Skriv inte tillbaka revy in i de filerna. Anteckna aldrig i `roller/`.
 
 **Vad vet karaktären?** Deltagaren läser bara sin egen `guests/`-fil, sin skutas `crews/`-fil och sajtens [`../copy/`](../copy/). Allt annat är osynligt. Skriv aldrig som om de läst en annan spelares intrig, en sidequest de inte är med i, eller intern design. Se avsnittet nedan.
 
