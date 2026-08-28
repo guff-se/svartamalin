@@ -17,7 +17,7 @@ Nu viskar hamnen att jubilaren gömmer en älskare. Du vill veta vem, inte av ar
 
 ## Stugan ingen pratar om {slug:malintadaa}
 
-Det är inget rykte för dig. I de tidiga åren, innan hon förrådde dig, släppte **Svarta Malin** en hemlighet i koja som kajen fortfarande inte har: hon byggde sig ett hus med egna händer, långt innan hon blev kapten, på en öde ö inte långt härifrån. Dit flyr hon fortfarande när världen blir för mycket och hon behöver vara för sig själv. Du vet det för att du en gång var den hon släppte garden för.
+I de tidiga åren, innan hon förrådde dig, släppte **Svarta Malin** en hemlighet i koja som kajen fortfarande inte har: hon byggde sig ett hus med egna händer, långt innan hon blev kapten, på en öde ö inte långt härifrån. Dit flyr hon fortfarande när världen blir för mycket och hon behöver vara för sig själv. Du vet det för att du en gång var den hon släppte garden för.
 
 Kalla ihop **Fregatten Fördärvet** och ta er över till den öde ön innan helgen är över, och se om huset finns på riktigt.
 

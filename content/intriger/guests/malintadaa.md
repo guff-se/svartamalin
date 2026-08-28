@@ -14,9 +14,9 @@ related: [ludvigvonbahr, elinmartensson, josefinlowing, amandamungsgard]
 
 ## Den som sitter vid ditt bord {slug:ludvigvonbahr}
 
-Du har redan den enda älskare som räknas, och hans namn får hamnen aldrig höra ur din mun. Inte en stavelse. Inte en krona. Det är honom du vill ha i koja, honom du vill rida när värdinnerollen äntligen kan släppas, och det är den munnen ingen annan får.
+Du har redan den enda älskare som räknas, och hans namn får hamnen aldrig höra ur din mun. Inte en stavelse. Inte en krona. Men när Karl inte är här så kan man väl få leka? Om inte annat så för att stävja de rykten som går om din hemlige älskare?
 
-Festen är din fälla och romen är linan du själv drar i. Namnet Svarta Malin väger tungt, tyngre än du visar, och du är trött på att slåss om platsen på hamnens topp. Låt dem tro att din hemliga håller till vid faten. **Kapten Dunka** sitter redan där, diskret nog att kunna förnekas, tydlig nog att fylla ut ryktet. Du får gärna ta honom också. En kropp i ljuset, en i mörkret. Bekräfta ingenting. Neka ingenting. Le, försvinn, och låt hamnen jaga varandra istället för sanningen.
+Låt dem tro att din hemliga håller till vid faten. **Kapten Dunka** sitter redan där, diskret nog att kunna förnekas, tydlig nog att fylla ut ryktet. Du får gärna ta honom också. En kropp i ljuset, en i mörkret. Bekräfta ingenting. Neka ingenting. Le, försvinn, och låt hamnen jaga varandra istället för sanningen.
 
 ## En fasa till kapten {slug:elinmartensson}
 

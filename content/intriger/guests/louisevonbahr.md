@@ -24,7 +24,7 @@ Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du
 
 ## Anklagelsen du alltid nekat {slug:jesperlindmarker}
 
-Det var du som en gång angav **Kapten Hurring** och fick honom fängslad. Han vet det inte. Han anar, han förhör, han har ingen bevisning. Du har alltid nekat. Nu är alla från den tiden samlade på samma ö, och hans svarta liggare behöver en ny rad.
+Det var du som en gång angav **Kapten Hurring** för sjöröveri och fick honom fängslad. Han vet det inte. Han anar, han förhör, han har ingen bevisning. Du har alltid nekat. Nu är alla från den tiden samlade på samma ö, och hans svarta liggare behöver en ny rad.
 
 Hurring stämmer av gamla bekantas historier mot boken. Neka. Håll tungan bakom tänderna. Klarar du dig undan honom innan festen är över kan du fortfarande vara vem som helst utom den som sålde.
 
@@ -42,6 +42,6 @@ Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan 
 
 ## Skålen hon smorde in {slug:linneaappert}
 
-Vid förra kaptensskålen, skålen där kaptenerna skålar först, smorde **Kapten Planka** in dig med något som tände kroppen mot din vilja, höfterna före huvudet, medan hon själv stod orörd och log. Du kastade dig på **Kapten Rosing**. Kajen såg. Rosing skrattade åt dig. Det är förnedringen du skyller Planka för.
+Vid förra kaptensskålen, skålen där kaptenerna skålar först, smorde **Kapten Planka** in dig med något som tände kroppen mot din vilja, livmodern gick före huvudet, medan hon själv stod orörd och log. Du kastade dig på **Kapten Rosing**. Kajen såg. Rosing skrattade åt dig. Det är förnedringen du skyller Planka för.
 
 Hon har flaskan kvar i sin koja. Du vill ha den. Häll den på henne vid honnörsbordet, bordet där kaptenerna sitter först och skålar först, så hamnen ser vem som egentligen tål sin egen medicin. Faller hon är hon en lögnare. Vägrar hon har hon erkänt att flaskan är hennes. Ta den innan festen är över, innan hon gör om det mot dig.
