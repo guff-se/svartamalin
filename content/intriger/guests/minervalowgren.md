@@ -2,7 +2,7 @@
 # Skuta: **Fregatten Fromheten** (crew_id: 4)
 mirrors:
   - slug: jesperlindmarker
-    note: hemlig romans (lätt attraktion, inte åtrå), han vet om Klöver, du vet inte + du är hans mullvad på Fromheten (tvåvägs, asymmetrisk kunskap)
+    note: hemlig romans (tonårskärlek, inte åtrå), han vet om Klöver, du vet inte + du är hans mullvad på Fromheten (tvåvägs, asymmetrisk kunskap)
   - slug: elinmartensson
     note: vill se kåthornet krossat (tvåvägs)
   - slug: gustaftadaa
@@ -14,15 +14,15 @@ related: [jesperlindmarker, johannabergman, elinmartensson, gustaftadaa, jesperl
 
 ## Given du ger honom {slug:jesperlindmarker}
 
-Din dragning till **Kapten Hurring** har gjort dig till mer än hans hemliga sällskap. **Fregatten Fromheten** predikar piratval och avlat mot **Svarta Malin**, rena händer och blanka siffror, och du står gärna där med valsedeln som om psalmen fortfarande vore din. Den är det inte. Du är inte så from längre. Allt du hör och ser inne på din egen skuta, skeppskamraternas planer, deras svaga punkter, deras gömmen, bär du rakt till honom, och genom honom till **Korvetten Kurtisanen**. Du vet precis vem det gynnar, och han vet att du vet det. Men du gör det inte för att du svurit hans skuta någon trohet. Du gör det för att ett enda av hans leenden väger tyngre än en hel skutas fromhet, och det räcker för att göra din egen besättning till ett pris du gärna betalar.
+Du är förälskad i **Kapten Hurring**. Inte lagom. Inte med måtta. Den sortens kärlek som gör att Fromhetens psalmer låter falska i din mun och valsedeln darrar när han går förbi. **Fregatten Fromheten** predikar piratval och avlat mot **Svarta Malin**, rena händer och blanka siffror, och du står gärna där som om psalmen fortfarande vore din. Den är det inte. Du är inte så from längre. Allt du hör och ser inne på din egen skuta, skeppskamraternas planer, deras svaga punkter, deras gömmen, bär du rakt till honom, och genom honom till **Korvetten Kurtisanen**. Du vet precis vem det gynnar, och han vet att du vet det. Du gör det inte för hans skuta. Du gör det för att han ska se att du valt honom, och för att du är rädd att han slutar se dig om du slutar ge.
 
-Ge honom det han ber om, plan för plan, gömma för gömma. Hans sällskap är din betalning. Håll det dolt för din egen besättning och för hans kapten, innan festen är över.
+Ge honom det han ber om, plan för plan, gömma för gömma. En blick tillbaka är hela din lön. Håll det dolt för din egen besättning och för hans kapten, innan festen är över.
 
 ## Vad du inte vet om Hurring {slug:jesperlindmarker}
 
-Du ger **Kapten Hurring** mer än din hemlighet. Du ger honom din mjuka sida, den du gömmer bakom kaptenstiteln, och du gör det för att du vill, inte för att någon dömt dig. Du anar inte att han samtidigt håller **Kapten Klöver** lika hemligt nära. Nu vill han ha hjälp att hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld ingen ännu löst.
+Du ger **Kapten Hurring** mer än din hemlighet. Du ger honom hjärtat du gömmer bakom kaptenstiteln, och du gör det för att du inte kan låta bli. Du anar inte att han samtidigt håller **Kapten Klöver** lika hemligt nära. Nu vill han ha hjälp att hitta vem som en gång angav honom och satte honom bakom galler, en gammal skuld ingen ännu löst.
 
-**Kapten Klöver** har hört ett namn, vem som en gång angav Hurring, men vill ha betalt i choklad eller mynt innan hon delar det, helst av dig än gratis. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, och du vägrar be henne om hjälp rakt ut. Fuska med din lilla kortlek om du måste, men lös gåtan själv innan festen är över, och låt Hurring se vem av er två som egentligen förtjänar hans blick.
+**Kapten Klöver** har hört ett namn, vem som en gång angav Hurring, men vill ha betalt i choklad eller mynt innan hon delar det, helst av dig än gratis. Ni två är sedan länge ovänner, en stulen vals och äran för en gemensam bordning ni aldrig gjort upp om, och du vägrar be henne om hjälp rakt ut. Fuska med din lilla kortlek om du måste, men lös gåtan själv innan festen är över, och låt Hurring se vem av er två som egentligen är den han tänker på.
 
 ## Kåthornet som ska krossas {slug:elinmartensson}
 
