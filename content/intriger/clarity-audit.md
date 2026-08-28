@@ -51,9 +51,9 @@ Inget. Ingen tom kunskap som läsaren måste agera på utan innehåll.
 | johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | samlaren; den lättkränkte; svärdshistoria | none |
 | josefinansund | Kapten Frodig | Bortförklaringen | 🟡 | Paradisets ö | none |
 | josefinlowing | Kapten Kuling | Fördärvet | 🟡 | hornet | none |
-| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenoljan; honnörsbordet; silverryktets innehåll | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenoljan; honnörsbordet; ryktets innehåll | none |
 | linneaekbom | Kapten Rosing | Gnället | 🟡 | hemliga snäckan; krumelurburk; skymningens piller | none |
-| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | silverryktets innehåll | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | ryktets innehåll | none |
 | ludvigvonbahr | Kapten Dunka | Gnället | 🟡 | svärdets påhittade historia; hamnskämtets innehåll | none |
 | minimacklin | Kapten Blodig | Fördärvet | 🟡 | Paradisets ö; Piratpulver; kapitulation; sveket | none |
 | navidmodiri | Kapten Döver | Fördärvet | 🟡 | bladet; sanningsserumet; den gamla rötan | vad Rötägg gjorde; skälen du teg av |
@@ -67,7 +67,7 @@ Inget. Ingen tom kunskap som läsaren måste agera på utan innehåll.
 **Återkommande gula mentions** (värda en rad i *den personens* fil, inte undantag):
 - `Paradisets ö` (Rötägg, Frodig, Blodig, Rödskägg).
 - `Piratpulver` (Blodig, Rödskägg).
-- Silveryktets *innehåll* (Fuling, Planka).
+- Ryktet mot Planka, då utan innehåll (Fuling, Planka). *Ifyllt efter runda 5:* hon dansade på Den Gyllene Sirenen, lät den förre kaptenen gå plankan och stal namnet.
 - `dörren bakom medvetandet` (Blåskägg).
 - Dövers workshop / gården (Babord, Barnsben).
 - `krumelurburk` / skymningens piller hos Rosing (förklaras hos Barnsben, inte hos henne).
@@ -84,7 +84,9 @@ Inget. Ingen tom kunskap som läsaren måste agera på utan innehåll.
 
 ### Rekommendation
 
-Inget måste. Om nästa svep: en rad om Paradisets ö och Piratpulver där bakhållet spelas, silveryktets innehåll hos Fuling och Planka, och krumelurburken hos Rosing. Hornet hos Kuling/Spader. Dunkas skröna så han kan köra igång den.
+Inget måste. Om nästa svep: en rad om Paradisets ö och Piratpulver där bakhållet spelas, och krumelurburken hos Rosing. Hornet hos Kuling/Spader. Dunkas skröna så han kan köra igång den.
+
+Efter runda 5 skrevs ryktet mot Planka ut i Fuling, Planka och Hurring: Den Gyllene Sirenen, plankan, det stulna namnet.
 
 ---
 
@@ -136,8 +138,8 @@ Fler röda än runda 3 eftersom tom kunskap som läsaren ska agera på nu är r�
 | jesperlejfjord | Kapten Hjärter | Fromheten | 🟡 | Storstugan; Katten Felix | none |
 | johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | samlaren; den lättkränkte | none |
 | josefinansund | Kapten Frodig | Bortförklaringen | 🟡 | Paradisets ö | none |
-| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenerna; silverryktet; vem du var innan Planka; honnörsbordet; dörren bakom medvetandet | none |
-| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | silverrykte | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenerna; ryktet om namnet; vem du var innan Planka; honnörsbordet; dörren bakom medvetandet | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | ryktet om Plankas namn | none |
 | ludvigvonbahr | Kapten Dunka | Gnället | 🟡 | svärdets påhittade historia | historien du berättar om och om igen (innehållet saknas) |
 | minervalowgren | Kapten Prygel | Fromheten | 🟡 | hans kapten | none |
 | minimacklin | Kapten Blodig | Fördärvet | 🟡 | Piratpulver; Paradisets ö | none |
@@ -160,7 +162,7 @@ Fler röda än runda 3 eftersom tom kunskap som läsaren ska agera på nu är r�
 
 **Oförklarade mentions som fortfarande är värda en rad** (inte undantag, inte kistan):
 - `krumelurburk` / skymningens piller hos Rosing (förklaras hos Barnsben, inte hos henne).
-- Silveryktets *innehåll* hos Fuling och Planka.
+- Ryktet mot Planka, då utan innehåll, hos Fuling och Planka.
 - `dörren bakom medvetandet` (Blåskägg, Planka).
 - `Piratpulver` (Blodig).
 - `Paradisets ö`, `Storstugan`, `gymmet`, `gården`, `honnörsbordet` som fysiska platser.
@@ -176,7 +178,7 @@ Malins namnlösa älskare är undantag: hemlighet hon redan bär, namnet ska int
 
 ### Rekommendation
 
-Skriv de fem röda tom-kunskap-luckorna först. Därefter en rad där ett föremål från *någon annans* fil nämns (krumelurpiller, plåthorn, silverykte). Platser som någon ska gå till (`Storstugan`, `gymmet`) kan vara landmärken på plats.
+Skriv de fem röda tom-kunskap-luckorna först. Därefter en rad där ett föremål från *någon annans* fil nämns (krumelurpiller, plåthorn, ryktet mot Planka). Platser som någon ska gå till (`Storstugan`, `gymmet`) kan vara landmärken på plats.
 
 ---
 
@@ -221,7 +223,7 @@ Noll grönt beror till stor del på att den här rundan **inte** ger `roller/` e
 | edvinthungren | Kapten Rötägg | Gnället | 🟡 | din workshop; Paradisets ö; Salmonellahavet; Svarta Malins kista |
 | josefinlowing | Kapten Kuling | Fördärvet | 🟡 | Gubben i stubben; Gumman på udden |
 | elinmartensson | Kapten Plåthorn | Gnället | 🟡 | Storstugan; kistan; klenoden |
-| linneaappert | Kapten Planka | Kurtisanen | 🟡 | Gubben i stubben; Gumman på udden; Ovanan; kistan; skatten; koden; siffran; oljan från sirenerna; honnörsbordet; Fördärvets fat; silverryktet |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | Gubben i stubben; Gumman på udden; Ovanan; kistan; skatten; koden; siffran; oljan från sirenerna; honnörsbordet; Fördärvets fat; ryktet om namnet |
 | viktoransund | Kapten Rödskägg | Fromheten | 🟡 | gymmet; bladet; loggen; Malins kista; valsedlar; avlatsbrev; Gnällets gömda föremål; Ovanan |
 | ulrikahammar | Kapten Barnsben | Kurtisanen | 🟡 | Ovanan; Salmonellahavet; Korvetten Kurtisanens kod; siffran; workshop |
 | minervalowgren | Kapten Prygel | Fromheten | 🟡 | föremålet (Gnällets skatt); din lilla kortlek; avlatsbrev |
@@ -234,7 +236,7 @@ Noll grönt beror till stor del på att den här rundan **inte** ger `roller/` e
 | ludvigvonbahr | Kapten Dunka | Gnället | 🟡 | Galeonen Gnällets skatt; nästa ledtråd |
 | minimacklin | Kapten Blodig | Fördärvet | 🟡 | Piratpulver; kapitulationen; Storstugan; Paradisets ö; den öde ön; kistan |
 | petterwallberg | Kapten Lösskägg | Kurtisanen | 🟡 | Ovanan; Salmonellahavet; jubilaren; koden (din siffra) |
-| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | silverrykte; Salmonellahavet |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | ryktet om Plankas namn; Salmonellahavet |
 | fabianmacklin | Kapten Nykter | Bortförklaringen | 🟡 | Salmonellahavets fasa; helgonfana; klenod; Fromhetens val; arvssyndsskatt; Dunkas svärdshistoria; Dunkas svaga punkt; vad Barnsben vet om Rötägg |
 | linneaekbom | Kapten Rosing | Gnället | 🟡 | snäckan; Skäggens Konung; skymningens piller; krumelurburk; vad snäckan hörde om Nykters kväll; plåthornet |
 
@@ -245,7 +247,7 @@ Saker som nämns som om läsaren redan visste, och som behövs för att spela *d
 1. **Namnlös älskare (`malintadaa`).** Enda röda. Se ovan.
 2. **Barnsbens piller/burk läcker oförklarat till andra.** `ulrikahammar` förklarar krumelurburken och skymningens piller fint i *sin* fil. `navidmodiri` får `krumelurpillret` utan förklaring; `linneaekbom` får `krumelurburk` + `skymningens piller` utan förklaring. Döver sägs dessutom redan veta vem Barnsben väljer, men valet står inte i hans text.
 3. **Gubben i stubben / Gumman på udden.** `linneaappert`, `josefinlowing`, `josefinansund` ska söka halvor där. Ingen av de tre filerna (eller lagfilen) säger vad platserna är. Sannolikt fysiska landmärken på festplatsen — då räcker en rad i texten ("stubben vid …", "udden mot …") eller att de syns på kartan.
-4. **Silveryktets innehåll.** `louisevonbahr` sådde det och ska kunna plantera om det; `linneaappert` ska tysta det. Ingen av filerna säger vad ryktet påstår om vem Planka var innan hon blev Planka.
+4. **Ryktet mot Planka, då utan innehåll.** `louisevonbahr` sådde det och ska kunna plantera om det; `linneaappert` ska tysta det. Ingen av filerna sade då vad ryktet påstår. *Ifyllt senare:* Den Gyllene Sirenen, plankan, det stulna namnet.
 5. **Egen lagskatt + "nästa ledtråd".** Social dörr: den jagade ska släppa en ledtråd under press. `ludvigvonbahr`, `johannabergman` och `jesperlejfjord` får instruktionen men inte vad skatten är eller vilken ledtråd de bär. De kan spela "jag släpper något" bara om de har något att släppa — antingen en konkret ledtråd i *deras* text, eller ett tydligt "du vet inte vad de är ute efter, improvisera en lös tunga".
 6. **Rosings snäcka.** `linneaekbom` behandlar snäckan som redan ägd och redan hörd (`vad Nykter egentligen fick höra`). Varken vad snäckan är eller vad den hörde står i hennes fil.
 7. **Kurtisanens siffra.** Alla fem på Kurtisanen (`malintadaa`, `jesperlindmarker`, `ulrikahammar`, `linneaappert`, `petterwallberg`) får "du bär en siffra … en av fem" utan siffran. Om siffran är rekvisita på plats: säg det. Om den ska sitta i texten: skriv den.
@@ -271,7 +273,7 @@ Platser som *inte* står i introt och som någon faktiskt ska gå till: `Storstu
 Gäst + lag + roster räcker för *vem man är och vad man vill*. Det som fortfarande kräver skrivning:
 
 1. **`malintadaa`:** namnge eller släpp den hemliga älskaren.
-2. **Lyft in en rad** där ett föremål/detalj från *någon annans* fil nämns i din: krumelurpiller, plåthorn, Dövers workshop, silveryktets innehåll, snäckan.
+2. **Lyft in en rad** där ett föremål/detalj från *någon annans* fil nämns i din: krumelurpiller, plåthorn, Dövers workshop, ryktet mot Planka, snäckan.
 3. **Gömmor och siffror:** Gubben/Gumman, Kurtisanens siffra, "nästa ledtråd" till egen skatt — antingen konkret i texten, eller ett uttryckligt "det här får du på plats".
 4. **Inte:** förklara Malins kista, motståndarens skatt, eller världsnamn som redan står i copy.
 

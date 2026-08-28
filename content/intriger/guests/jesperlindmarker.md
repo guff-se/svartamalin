@@ -32,7 +32,7 @@ Två kvinnor ger dig allt, och bara du vet hur nära den ena är att upptäcka d
 
 Din svarta liggare bär skulder, namn och gamla oförrätter, en del sanna, en del uppblåsta, en del du själv glömt bakgrunden till. Men en rad saknas fortfarande: du vet aldrig vem som en gång angav dig och satte dig bakom galler i flera år. Nu är alla från den tiden samlade på samma ö, för första gången, och boken behöver en ny sida innan festen är över.
 
-**Kapten Fuling** har alltid nekat att hon planterar rykten. Ingen misstänker den tysta ryktesspridaren för något så allvarligt som ett angiveri, och det är precis vad som gör henne intressant. Stäm av hennes historia mot din liggare. Förhör gamla bekanta. Se vem som svettas.
+**Kapten Fuling** har alltid nekat att hon planterar rykten. Kajen viskar ändå att **Kapten Planka** dansade på salongen Den Gyllene Sirenen, lät den förre kaptenen gå plankan och stal hans namn, och Fulings nekande är det enda som står mellan viskningen och ett erkännande. Ingen misstänker den tysta ryktesspridaren för något så allvarligt som ett angiveri, och det är precis vad som gör henne intressant. Stäm av hennes historia mot din liggare. Förhör gamla bekanta. Se vem som svettas.
 
 ## Två som inte vet om varandra {slug:johannabergman}
 

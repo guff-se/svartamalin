@@ -10,7 +10,7 @@ mirrors:
   - slug: hampuslindblad
     note: romans, hon hade honom först (tvåvägs)
   - slug: linneaappert
-    note: fiende 5, auktionen och silverryktet (tvåvägs)
+    note: fiende 5, auktionen och ryktet att Planka stal namnet (tvåvägs)
 related: [jesperlindmarker, navidmodiri, jesperlejfjord, hampuslindblad, linneaappert]
 ---
 
@@ -22,9 +22,9 @@ Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du
 
 ## Anklagelsen du alltid nekat {slug:jesperlindmarker}
 
-**Kapten Hurring** vet fortfarande inte vem som en gång angav honom och fick honom fängslad, och nu är alla från den tiden samlade på samma ö. Du har alltid nekat att du planterar rykten, trots att det är precis vad du gjorde mot **Kapten Planka** efter en förlorad auktion, ett silverrykte du själv sådde och lät gro. Ingen misstänker den tysta ryktesspridaren för något så allvarligt som ett angiveri, och du tänker hålla det så.
+**Kapten Hurring** vet fortfarande inte vem som en gång angav honom och fick honom fängslad, och nu är alla från den tiden samlade på samma ö. Du har alltid nekat att du planterar rykten, trots att det är precis vad du gjorde mot **Kapten Planka** efter en förlorad auktion. Kajen viskar fortfarande det du sådde: att hon dansade på salongen Den Gyllene Sirenen, vände den förre kaptenens besättning, lät honom gå plankan och tog namnet som låg kvar på däck. Ingen misstänker den tysta ryktesspridaren för något så allvarligt som ett angiveri, och du tänker hålla det så.
 
-Hurring förhör gamla bekanta och stämmer av deras historier. Klarar du dig undan honom innan festen är över kan du plantera ett nytt rykte, gärna riktat mot Planka igen, för att peka bort från dig själv en gång till.
+Hurring förhör gamla bekanta och stämmer av deras historier. Klarar du dig undan honom innan festen är över kan du plantera ryktet på nytt, samma viskning om plankan och namnet, för att peka bort från dig själv en gång till.
 
 ## Skulden du sparar {slug:navidmodiri}
 
@@ -38,8 +38,8 @@ Han vill ha sexmagick. Rök, rit, kroppen som nyckel till en dörr han svär sit
 
 Påminn honom med kroppen, inte med tal. Ta honom innan festen är över, innan han glömmer vems koja han kröp till först.
 
-## Silvret du sådde {slug:linneaappert}
+## Namnet du sådde {slug:linneaappert}
 
-Du la ett silverrykte om **Kapten Planka** efter att hon slog dig på en auktion med din egen börs, ett trick så oförskämt att du fortfarande rodnar av avund mer än ilska. Ryktet var din hämnd, och det har vägrat dö sen dess: kajen viskar det fortfarande, och du har aldrig behövt neka något så länge.
+Du la ett rykte om **Kapten Planka** efter att hon slog dig på en auktion med din egen börs, ett trick så oförskämt att du fortfarande rodnar av avund mer än ilska. Ryktet var din hämnd: att hon aldrig var kapten förrän hon dansade på Den Gyllene Sirenen, vände den förre kaptenens besättning, lät honom gå plankan och stal hans namn. Kajen viskar det fortfarande, och du har aldrig behövt neka något så länge.
 
-Planka har inte glömt. Hon seglar på **Svarta Malin**s egen köl nu och har råd att slå tillbaka hårdare än en auktion, och du vet inte vad hon planerar innan hon gör det. Håll ryktet levande, plantera det på nytt om det börjar dö, eller så tystnar det för gott och du blir kvinnan som förlorade två gånger. Vinn den här gången, innan festen är över.
+Planka har inte glömt. Hon seglar på **Svarta Malin**s egen köl nu och har råd att slå tillbaka hårdare än en auktion, och du vet inte vad hon planerar innan hon gör det. Håll viskningen vid liv, samma mening om salongen, plankan och namnet, eller så tystnar den för gott och du blir kvinnan som förlorade två gånger. Vinn den här gången, innan festen är över.

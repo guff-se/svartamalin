@@ -64,7 +64,9 @@ fiender:
     type: mutual
     a: louisevonbahr      # Kapten Fuling: Fregatten Fördärvet
     b: linneaappert       # Kapten Planka: Korvetten Kurtisanen
-    # oförrätt: Planka vann auktion med Fulings börs; Fuling planterade silverrykte
+    # oförrätt: Planka vann auktion med Fulings börs. Fuling planterade ryktet
+    # att Planka dansade på Den Gyllene Sirenen, vände den förre kaptenens
+    # besättning, lät honom gå plankan och stal hans namn.
     # Inte samma som romans 25: Fuling vet inte att Planka tar Blåskägg.
     status: done
 
