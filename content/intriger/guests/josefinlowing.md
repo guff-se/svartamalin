@@ -29,7 +29,7 @@ Kalla på **Fregatten Fördärvet** och sök upp båda platserna innan en annan 
 
 ## Kåthornet du redan hånat {slug:elinmartensson}
 
-**Kapten Plåthorn**s "varning" sålde en gång din position och lät dig bli tagen på bar gärning, en förnedring du svarade på med en hånfull skål om hennes kåthorn inför hela hamnen. Kåthornet är hennes flykt: blås i det och alla pirater i närheten går i kåttrans, så våldsam att de mitt i striden tvingas sniffa i fiendens nacke medan hon själv smiter. Nu vill du ha det själv, för skojs skull, för taktiskt bruk, eller för att sälja det vidare till någon som vill mer illa än du. Lura, stjäl, eller locka henne att blåsa i det vid fel tillfälle så hon förlorar greppet om det. Gör det innan festen är över.
+**Kapten Plåthorn**s "varning" sålde en gång din position och lät dig bli tagen på bar gärning, en förnedring du svarade på med en hånfull skål inför hela hamnen. Skålen gällde hennes **kåthorn**: ett flykthorn. Blås i det och alla pirater i närheten går i kåttrans, så våldsam att de mitt i striden tvingas sniffa i fiendens nacke. Striden stannar. Hon smiter. Nu vill du ha det själv, för skojs skull, för taktiskt bruk, eller för att sälja det vidare till någon som vill mer illa än du. Lura, stjäl, eller locka henne att blåsa i det vid fel tillfälle så hon förlorar greppet om det. Gör det innan festen är över.
 
 ## Handen du vill låna {slug:gustaftadaa}
 

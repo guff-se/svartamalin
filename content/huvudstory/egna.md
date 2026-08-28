@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-28, kåthornets funktion i gästtexten
+
+Källa: Gustaf, i chatt.
+
+- [x] förklara kåthornets funktion för de personer som har detta nämnt i sin intrig.
+
+Kryss = funktionen (blås, kåttrans, sniffa i nacken, striden stannar, Plåthorn smiter) står utskriven i `../intriger/guests/` hos Plåthorn, Kuling, Prygel, Rosing och Spader, inte bara namnet.
+
+---
+
 ## 2026-08-28, avlatsbrev även för Kosing
 
 Källa: Gustaf, i chatt.
@@ -31,6 +41,12 @@ Kryss = samma förklaring som hos Hjärter och Rödskägg står i `../intriger/g
 ---
 
 ## 2026-08-28, avlatsbrev hos Hjärter och Rödskägg
+
+Källa: Gustaf, i chatt.
+
+- [x] se till att ordet förklaras ordentligt i Hjärter och Rödskäggs intriger.
+
+Kryss = ordet avlatsbrev förklaras i `../intriger/guests/jesperlejfjord.md` och `../intriger/guests/viktoransund.md`: papperet som efterskänker straff, kyrkans handel mot mynt, Frompiraternas version mot ursäkt, att de utfärdar det.
 
 ---
 

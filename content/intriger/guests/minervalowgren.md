@@ -26,7 +26,7 @@ Du ger **Kapten Hurring** mer än din hemlighet. Du ger honom ryggen, munnen, al
 
 ## Kåthornet som ska krossas {slug:elinmartensson}
 
-**Kapten Plåthorn**s kåthorn stör din stridslystna heder mer än något annat på ön. En enda blåsning sätter hela slagfältet i kåttrans, så våldsam att piraterna tvingas släppa striden för att sniffa i fiendens nacke, och hon smiter precis när det blir som hetast. Du vill se det krossat, en gång för alla, på allvar. Lura eller stjäl det från henne, ensam eller tillsammans med **Kapten Kuling** som har egna skäl att vilja åt samma kåthorn, innan festen är över.
+**Kapten Plåthorn** bär ett **kåthorn** som stör din stridslystna heder mer än något annat på ön. Blås i det och alla pirater i närheten går i kåttrans, så våldsam att de tvingas släppa striden för att sniffa i fiendens nacke. Striden stannar. Hon smiter precis när det blir som hetast. Du vill se det krossat, en gång för alla, på allvar. Lura eller stjäl det från henne, ensam eller tillsammans med **Kapten Kuling** som har egna skäl att vilja åt samma kåthorn, innan festen är över.
 
 ## Given du delar {slug:johannabergman}
 
