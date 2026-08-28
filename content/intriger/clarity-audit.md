@@ -4,9 +4,94 @@ Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format. 
 
 **VIKTIGT** Ändra inte resultatet av granskningen i detta dokument, förutom genom att faktiskt köra granskningsscriptet.
 
-Kördes i sex omgångar. **Runda 6 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag (inkl. gymmet, Storstugan, Malins älskare) + tom kunskap + bestämd form. Äldre rundor är arkiv.
+Kördes i sju omgångar. **Runda 7 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag (inkl. gymmet, Storstugan, Malins älskare, Piratpulver, Paradisets ö) + tom kunskap + bestämd form. Äldre rundor är arkiv.
 
-## Runda 6 — gästfil + lag + intro + undantag + bestämd form (aktuell bild)
+## Runda 7 — gästfil + lag + intro + undantag + bestämd form (aktuell bild)
+
+**Datum:** 2026-08-28.
+
+**Metod:** 23 isolerade agenter, en per gäst. Varje agent fick:
+1. sin egen `guests/{slug}.md` (YAML och `{slug:…}` osynliga),
+2. sitt eget lags `crews/{crew_id}.md`,
+3. `content/copy/intriger_intro.md`,
+4. roster med lagnamn och piratnamn, eget namn/lag utmärkt.
+
+Undantag i prompten (flagga inte): Gubben i stubben / Gumman på udden; dörrar till lagskatter; Salmonellahavet, Ovanan och Piratpulver; Paradisets ö; gymmet och Storstugan; Svarta Malins hemliga älskare (Dunka som avledning). Extra check: tom kunskap (`du vet` utan innehåll) och bestämd form utan intro (`skålen`/`jollen`-mönstret). Heuristiska kandidater från `--scan` låg i prompten; auditorn avgjorde.
+
+Prompten listar nu Piratpulver och Paradisets ö bland undantagen (saknades i runda 6).
+
+### Resultat
+
+| Betyg | Antal | Runda 6 → Runda 7 |
+|---|---|---|
+| 🟢 Grönt | 5 | 4 → 5 |
+| 🟡 Gult | 18 | 19 → 18 |
+| 🔴 Rött | 0 | 0 → 0 |
+
+Inga röda. Plåthorn och Frodig är fortfarande gröna. Nya gröna: Spader, Malin och Barnsben (arvssyndsskatt och syhörnan borta ur flaggorna). Babord och Fuling gick från grönt till gult (workshop; förra kaptensskålen/flaskan).
+
+### 🔴 Rött (0)
+
+Inget. Ingen tom kunskap som läsaren måste agera på utan innehåll.
+
+### Per gäst
+
+| Slug | Piratnamn | Lag | Betyg | Termer | Tom kunskap |
+|---|---|---|---|---|---|
+| elinmartensson | Kapten Plåthorn | Gnället | 🟢 | none | none |
+| gustaftadaa | Löjtnant Spader | Fördärvet | 🟢 | none | none |
+| josefinansund | Kapten Frodig | Bortförklaringen | 🟢 | none | none |
+| malintadaa | Svarta Malin | Kurtisanen | 🟢 | none | none |
+| ulrikahammar | Kapten Barnsben | Kurtisanen | 🟢 | none | none |
+| alexandrapalmquist | Kapten Babord | Gnället | 🟡 | workshop | none |
+| amandamungsgard | Kapten Kosing | Fromheten | 🟡 | avlatsbrev; jubilaren; Räkningen | none |
+| edvinthungren | Kapten Rötägg | Gnället | 🟡 | manschettknapparna; din workshop | none |
+| fabianmacklin | Kapten Nykter | Bortförklaringen | 🟡 | guldig statyett med ädelsten | vilket sätt du vill visa henne |
+| hampuslindblad | Kapten Blåskägg | Bortförklaringen | 🟡 | dörren bakom medvetandet; skatten bakom dörren | none |
+| jesperlejfjord | Kapten Hjärter | Fromheten | 🟡 | Katten Felix; jubilaren; angivelsen mot Hurring; liggaren | none |
+| jesperlindmarker | Kapten Hurring | Kurtisanen | 🟡 | masten; jubilaren; ett gammalt skämt | hur nära Prygel och Klöver är att upptäcka varandra |
+| johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | svärdshistoria | none |
+| josefinlowing | Kapten Kuling | Fördärvet | 🟡 | Kåthornet; pulversläkter | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | sirenerna; oljan från sirenerna | none |
+| linneaekbom | Kapten Rosing | Gnället | 🟡 | snäckan; Rösten du köpt; bladet; Skäggens Konung; skymningens piller; krumelurburk | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | förra kaptensskålen; flaskan | none |
+| ludvigvonbahr | Kapten Dunka | Gnället | 🟡 | svärdets historia | none |
+| minervalowgren | Kapten Prygel | Fromheten | 🟡 | förra skålen; feber | none |
+| minimacklin | Kapten Blodig | Fördärvet | 🟡 | kapitulation; sveket; jubilaren; solglasögonen | none |
+| navidmodiri | Kapten Döver | Fördärvet | 🟡 | bladet; sanningsserumet | skälen du teg av |
+| petterwallberg | Kapten Lösskägg | Kurtisanen | 🟡 | det gråa/vita/blonda | historier du kan utantill |
+| viktoransund | Kapten Rödskägg | Fromheten | 🟡 | bladet; loggen | none |
+
+### Mönster
+
+**Inte buggar:** Malins låsta kista / «den som känner historien». Lagskattdörrar. Gubben/Gumman. Salmonellahavet, Ovanan. Gymmet, Storstugan. Älskarens namn hos Malin. Piratpulver. Paradisets ö. `jubilaren` är Malins fest (introt säger «festen är hennes» men inte ordet). Kosing-agenten flaggade också `föremålet` (Gnällets skatt); det är lagskatt.
+
+**Återkommande gula mentions** (värda en rad i *den personens* fil, inte undantag):
+- `workshop` / `din workshop` (Babord, Rötägg) — Dövers täckmantel, nämns som om den redan fanns.
+- Hornet / kåthornet hos den som inte är Plåthorn (Kuling; första nämnandet i bestämd form).
+- `dörren bakom medvetandet` (Blåskägg).
+- `krumelurburk` / skymningens piller / snäckan hos Rosing (förklaras hos Barnsben, inte hos henne).
+- `bladet` i gymmet (Döver, Rosing, Rödskägg).
+- `förra kaptensskålen` / feber / flaskan (Fuling, Prygel; oljan hos Planka).
+- `avlatsbrev` (Kosing).
+- Dunkas svärdshistoria (han ska kunna köra igång den; Klöver nämner den också).
+- `sirenerna` hos Planka (oljan kommer därifrån).
+
+**Tom kunskap som inte är röd** (går att spela runt):
+- Nykter: vilket sätt statyetten ger njutning.
+- Hurring: hur nära Prygel och Klöver är att upptäcka varandra; skämtet mot Blåskägg.
+- Döver: skälen han teg av.
+- Lösskäggs fyra skägghistorier.
+
+**Rubriker i bestämd form** (smak, inte blocker): `Räkningen`, `Viskningen`, `Rösten` — första nämnandet är rubriken, stycket under fyller i.
+
+### Rekommendation
+
+Inget måste. Om nästa svep: en rad om Dövers workshop hos Babord/Rötägg, krumelurburken/snäckan hos Rosing, vad «förra kaptensskålen»/feber var för Fuling/Prygel, och svärdshistorien hos Dunka så han kan köra igång den.
+
+---
+
+## Runda 6 — gästfil + lag + intro + undantag + bestämd form (arkiverad)
 
 **Datum:** 2026-08-28.
 
