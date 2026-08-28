@@ -9,6 +9,7 @@
  *   npm run clarity-review              lista + pekare till rutinen
  *   node scripts/clarity-review.js --json
  *   node scripts/clarity-review.js --prompt navidmodiri
+ *   node scripts/clarity-review.js --scan malintadaa
  *   node scripts/clarity-review.js --write-prompts
  *
  * Promptfilerna är input till Cursor Task-subagenter. Rutin:
@@ -116,6 +117,82 @@ function loadRoster() {
   return { guests, crewMeta }
 }
 
+/** Brödtexten gästen ser: YAML och {slug:…} räknas inte. */
+function guestBody(text) {
+  return text
+    .replace(/^---\n[\s\S]*?\n---\n?/, '')
+    .replace(/\{slug:[^}]+\}/g, '')
+}
+
+/**
+ * Bestämd form (-en/-et/-na) som första nämnande, utan att saken först
+ * presenterats som "en jolle" / "ett svärd". Heuristik: överflaggar hellre
+ * än missar. Auditorn avgör. Se clarity-review.md.
+ */
+const DEFINITE_SKIP = new Set([
+  'redan', 'sedan', 'igen', 'utan', 'mellan', 'nästan', 'varken',
+  'festen', 'hamnen', 'ön', 'kajen', 'helgen', 'natten', 'morgonen',
+  'kvällen', 'dagen', 'mörkret', 'skymningen', 'dimman', 'världen',
+  'tiden', 'stället', 'platsen', 'sidan', 'sättet', 'resten',
+  'tillfället', 'ögonblicket', 'jobbet', 'saken', 'någon',
+  'kroppen', 'munnen', 'handen', 'halsen', 'hjärtat', 'blicken',
+  'leendet', 'andan', 'huden', 'fötterna', 'öronen',
+  'romen', 'vinet', 'glaset', 'bordet', 'faten', 'kojan', 'sängen',
+  'skutan', 'skeppet', 'besättningen', 'kölen', 'flaggan', 'ratten',
+  'havet', 'vattnet', 'listan', 'kaptenerna',
+  'sanningen', 'lögnen', 'ryktet', 'namnet', 'hemligheten',
+  'gymmet', 'storstugan', 'ovanan', 'salmonellahavet',
+  'siffran', 'koden', 'skatten', 'låset', 'kistan', 'ledtråden',
+  'korvetten', 'fregatten', 'barken', 'galeonen', 'kurtisanen',
+])
+
+function definiteStems(word) {
+  const w = word.toLowerCase()
+  const stems = new Set()
+  if (w.endsWith('na') && w.length > 5) stems.add(w.slice(0, -2))
+  if (w.endsWith('et') && w.length > 5) stems.add(w.slice(0, -2))
+  if (w.endsWith('en') && w.length > 5) {
+    stems.add(w.slice(0, -2))
+    stems.add(w.slice(0, -1))
+  }
+  return [...stems]
+}
+
+function escapeRe(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+function introducedIndefinite(haystack, stems) {
+  const lower = haystack.toLowerCase()
+  const det = 'en|ett|sin|sitt|sina|din|ditt|dina|min|mitt|mina|hans|hennes|deras'
+  return stems.some((stem) => {
+    const s = escapeRe(stem)
+    return new RegExp(`\\b(?:${det})\\s+${s}\\b`).test(lower)
+  })
+}
+
+function scanDefiniteForm(guestText, knownTexts = []) {
+  const body = guestBody(guestText)
+  const known = knownTexts.map((t) => guestBody(t)).join('\n')
+  const re =
+    /([A-Za-zÅÄÖåäö]{3,}(?:en|et|na))\s+(där|som|du|hon|han|ni|jag|hen)\b/gi
+  const found = []
+  const seen = new Set()
+  let m
+  while ((m = re.exec(body))) {
+    const word = m[1]
+    const key = word.toLowerCase()
+    if (DEFINITE_SKIP.has(key) || seen.has(key)) continue
+    const stems = definiteStems(word)
+    if (!stems.length) continue
+    const before = known + '\n' + body.slice(0, m.index)
+    if (introducedIndefinite(before, stems)) continue
+    seen.add(key)
+    found.push(word)
+  }
+  return found
+}
+
 function formatRoster(guest, crewMeta) {
   const skutor = crewMeta
     .map((c) => (c.id === guest.crewId ? `${c.name} ← YOU` : c.name))
@@ -136,12 +213,21 @@ PIRATNAMN:
 ${pirateLines.join('\n')}`
 }
 
+function definiteCandidates(guest) {
+  const guestText = read(guest.guestPath)
+  const known = [read(INTRO_PATH)]
+  if (guest.crewPath) known.push(read(guest.crewPath))
+  return scanDefiniteForm(guestText, known)
+}
+
 function buildPrompt(guest, crewMeta) {
   if (!guest.crewPath) {
     throw new Error(`${guest.slug}: saknar crew_id, kan inte bygga prompt`)
   }
 
   const roster = formatRoster(guest, crewMeta)
+  const definite = definiteCandidates(guest)
+  const definiteLine = definite.length ? definite.join(', ') : 'none'
 
   return `You are a clarity auditor. Evaluate whether one larp character briefing can stand on its own.
 
@@ -164,13 +250,12 @@ Also known:
 - Salmonellahavet and Ovanan are known words (the sea and the island). The intro names them.
 - Gymmet and Storstugan are buildings on the island. Do not flag them as unexplained.
 - Gubben i stubben and Gumman på udden are clues you can work out from the names (a stump, a point of land). Do not ask for a further explanation of what they are.
-- Gubben i stubben and Gumman på udden are clues you can work out from the names (a stump, a point of land). Do not ask for a further explanation of what they are.
 - Team-treasure doors (lagskatter): each crew built its own doors. They already know how to handle them. Intrigue text about a code digit, "nästa ledtråd", an achilles heel, or the first step toward another crew's treasure is a reminder, not a new mechanic. Do not flag those as unexplained.
 - Svarta Malin's secret lover: the identity is a secret Malin already knows. The name must not appear in guest text. Do not flag that the lover is unnamed, for Malin or for anyone hunting the name. Kapten Dunka as a visible decoy is intentional.
 
 TASK: After reading those three files, evaluate how well YOU can understand your character and what is going on.
 
-Look for two kinds of gap. Both belong in TERMS.
+Look for three kinds of gap. All belong in TERMS.
 
 1. Unexplained mentions: concepts, items, events, places, or mechanics that are named but never explained. The text incorrectly assumes you already understand them. Pirate names, team names, Salmonellahavet, Ovanan, Gymmet, Storstugan, Gubben i stubben, Gumman på udden, and team-treasure doors need no explanation.
 
@@ -181,10 +266,13 @@ Look for two kinds of gap. Both belong in TERMS.
    - Do not flag team-treasure doors (the crew already knows those).
    - If the text then tells you to act on that fact (say it, withhold it, use it, choose based on it), the rating is red. You cannot play "I already know X" when X is missing.
 
+3. Definite form without introduction (Swedish bestämd form). The first mention of a specific object or event is in definite form (-en, -et, -na) as if you already knew which one. Example: "jollen du kapade i dimman" without first establishing that there was a dinghy and that you cut it. Flag even when a relative clause is attached ("skålen där du kallade henne en fasa till kapten") if that is the first mention of the thing. Do not flag festen, hamnen, ön, kajen, gymmet, Storstugan, team-treasure doors, body parts, or a thing already introduced as "en X" / "ett X".
+   Heuristic candidates in this file (verify each; skip flavor and anything already introduced): ${definiteLine}
+
 OUTPUT exactly this structure, in Swedish:
 RATING: green | yellow | red
 (green = can act on everything; leftover questions are flavor. yellow = can play but some mentioned things lack explanation. red = cannot understand a central plot/instruction without guessing, including any empty-knowledge claim you are told to act on)
-TERMS: comma-separated list of unexplained terms/concepts/items/events AND empty-knowledge claims, or "none"
+TERMS: comma-separated list of unexplained terms/concepts/items/events AND empty-knowledge claims AND definite-form-without-intro, or "none"
 EMPTY-KNOWLEDGE: each claim where the text says you already know something but never states what; quote a short phrase and say what is missing. or "none"
 UNDERSTANDING: 4-8 sentences: who you are, what you want this weekend, what is unclear.
 Do not suggest rewrites.
@@ -204,6 +292,7 @@ function printList({ guests, crewMeta }) {
   console.log(`
 Rutin: content/intriger/clarity-review.md
 Prompt för en gäst: node scripts/clarity-review.js --prompt <slug>
+Bestämd form:       node scripts/clarity-review.js --scan <slug>
 Alla promptfiler:   node scripts/clarity-review.js --write-prompts
 JSON:               node scripts/clarity-review.js --json`)
 }
@@ -242,6 +331,15 @@ if (flag('--json')) {
     process.exit(1)
   }
   process.stdout.write(buildPrompt(guest, data.crewMeta))
+} else if (flag('--scan')) {
+  const slug = after('--scan')
+  const guest = data.guests.find((g) => g.slug === slug)
+  if (!guest) {
+    console.error(`Okänd slug: ${slug}`)
+    process.exit(1)
+  }
+  const found = definiteCandidates(guest)
+  console.log(found.length ? found.join(', ') : 'none')
 } else if (flag('--write-prompts')) {
   writePrompts(data)
 } else {

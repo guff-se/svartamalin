@@ -4,12 +4,13 @@ Intern. Inte gästcopy. Resultat landar i [`clarity-audit.md`](clarity-audit.md)
 
 Syftet: varje `guests/{slug}.md` ska stå för sig själv tillsammans med läsarens lagfil och världs-ingången. En gäst har inte andras gästfiler, inte `huvudstory/`, inte yaml. Om texten nämner något som den läsaren inte kan förstå: det är en lucka.
 
-Två sorters luckor, den andra är värre:
+Två sorters luckor, den andra är värre. En tredje fångar samma slags lucka i grammatiken:
 
 1. **Oförklarad mention.** Ett föremål, en plats, en mekanik namnges som om läsaren redan visste vad det är (`krumelurpillret`).
 2. **Tom kunskap.** Texten säger att *du* redan vet, har sett, har hört eller har valt en specifik sak, men säger aldrig vad saken är. Typiskt: "Du vet redan … vem hon egentligen väljer" utan att namnge valet. Läsaren kan inte spela "jag vet X" när X saknas. Sök i brödtexten efter `du vet`, `du vet redan`, `du känner till`, `du har sett`, `bara du vet`, `du är den enda som vet`, `du har hört`. Fråga: kan jag, bara från de tre filerna, säga *vad* det är jag vet? Om nej: tom kunskap. Inte `du vet inte` / `du anar inte` (det är avsiktlig okunskap). Inte kunskap som samma stycke just har sagt. Inte lagskatternas dörrar (lagen byggde dem). Om texten sen säger åt läsaren att agera på faktumet (säga, tiga, använda, välja): **rött**.
+3. **Bestämd form utan intro.** Första nämnandet av en sak i bestämd form (`skålen`, `jollen`) som om läsaren redan visste vilken. Typiskt med relativsats: `jollen du kapade i dimman`, `skålen där du kallade henne…`. Flagga även då, när det är första gången saken nämns. Inte: festen, hamnen, ön, kajen, gymmet, Storstugan, lagskattdörrar, kroppsdelar, eller något som redan presenterats som `en X` / `ett X`. Scriptet listar kandidater via `--scan` (bestämd form + där/som/du/hon/han) och stoppar in dem i prompten. Auditorn avgör.
 
-Verifierat 2026-08-28 mot `navidmodiri` ("Det du hör vid syhörnan"): rött, EMPTY-KNOWLEDGE på Barnsbens val.
+Verifierat 2026-08-28 mot `malintadaa` ("Skålen hon aldrig glömde"): `skålen`, `jollen`.
 
 ## Vad en granskare får
 
@@ -29,7 +30,6 @@ YAML mellan `---` och `{slug:…}` i rubriker syns inte för gästen. Subagenten
 - **Salmonellahavet, Ovanan.** Kända ord.
 - **Gymmet, Storstugan.** Byggnader på ön. Inga förklaringar.
 - **Svarta Malins hemliga älskare.** Identiteten är en hemlighet `malintadaa` redan bär. Namnet ska inte stå i gästtext. Flagga inte att älskaren är namnlös, varken hos Malin eller hos den som jagar namnet. **Kapten Dunka** som synlig avledning är avsiktlig.
-- **Svarta Malins hemliga älskare.** Identiteten är en hemlighet `malintadaa` redan bär. Namnet ska inte stå i gästtext. Flagga inte att älskaren är namnlös, varken hos Malin eller hos den som jagar namnet. **Kapten Dunka** som synlig avledning är avsiktlig.
 
 ## Vad en granskare inte får
 
@@ -47,7 +47,7 @@ Output per gäst, på svenska, exakt:
 
 ```
 RATING: green | yellow | red
-TERMS: kommaseparerad lista, eller "none"
+TERMS: kommaseparerad lista (oförklarade mentions, tom kunskap, bestämd form utan intro), eller "none"
 EMPTY-KNOWLEDGE: varje påstående där texten säger att du redan vet något utan att säga vad, eller "none"
 UNDERSTANDING: 4-8 meningar. Vem du är, vad du vill i helgen, vad som är oklart.
 ```
@@ -65,7 +65,9 @@ Parent-agenten (den här chatten) gör jobbet. Subagenterna läser bara tre file
 5. Skriv en **ny runda** överst i [`clarity-audit.md`](clarity-audit.md). Behåll äldre rundor som arkiv. Rör inte gästtexterna i samma svep (granskning och omskrivning är två uppgifter).
 6. Committa audit-filen när rundan är klar.
 
-En gäst: `node scripts/clarity-review.js --prompt navidmodiri`.
+En gäst: `node scripts/clarity-review.js --prompt malintadaa`.
+
+Bestämd form (heuristik): `node scripts/clarity-review.js --scan malintadaa`.
 
 Lista: `npm run clarity-review`.
 
