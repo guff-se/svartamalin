@@ -36,6 +36,18 @@ create table if not exists guests (
   sleeping_bed text                 -- bäddtyp, t.ex. "Dubbelsäng", "Madrass"
 );
 
+-- Inloggning (lösenord) och "Sätt segel"-klick. Skrivs via log_guest_visit().
+create table if not exists login_events (
+  id uuid primary key default uuid_generate_v4(),
+  created_at timestamptz not null default now(),
+  guest_id uuid references guests(id) on delete set null,
+  real_name text not null,
+  source text not null           -- 'login' | 'satt_segel'
+);
+
+create index if not exists login_events_created_at_idx
+  on login_events (created_at desc);
+
 -- OANVÄND av sajten. Brödtext ligger i content/copy/, inte här.
 create table if not exists practical_info (
   key text primary key,
@@ -83,6 +95,39 @@ $$;
 revoke all on function validate_guest_login(text) from public;
 grant execute on function validate_guest_login(text) to anon, authenticated, service_role;
 
+-- Logga besök utan att klienten kan skriva godtyckligt namn.
+create or replace function log_guest_visit(p_guest_id uuid, p_source text)
+returns void
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_name text;
+  v_source text;
+begin
+  v_source := case p_source
+    when 'login' then 'login'
+    when 'satt_segel' then 'satt_segel'
+    else null
+  end;
+  if v_source is null or p_guest_id is null then
+    return;
+  end if;
+
+  select real_name into v_name from guests where id = p_guest_id;
+  if v_name is null then
+    return;
+  end if;
+
+  insert into login_events (guest_id, real_name, source)
+  values (p_guest_id, v_name, v_source);
+end;
+$$;
+
+revoke all on function log_guest_visit(uuid, text) from public;
+grant execute on function log_guest_visit(uuid, text) to anon, authenticated, service_role;
+
 -- Byt lagnamn för gästens eget lag (inte byta lag).
 create or replace function update_my_crew_name(p_guest_id uuid, p_name text)
 returns void
@@ -121,6 +166,7 @@ alter table pirate_names enable row level security;
 alter table crews enable row level security;
 alter table guests enable row level security;
 alter table practical_info enable row level security;
+alter table login_events enable row level security;
 
 -- Pirate names: alla kan läsa
 drop policy if exists "pirate_names_read" on pirate_names;
@@ -171,6 +217,13 @@ create policy "guests_update_own" on guests
 drop policy if exists "guests_select_own" on guests;
 create policy "guests_select_own" on guests
   for select using (true);
+
+-- Login-logg: anon läser (admin-UI); insert bara via log_guest_visit().
+drop policy if exists "login_events_select" on login_events;
+create policy "login_events_select" on login_events
+  for select using (true);
+
+grant select on login_events to anon, authenticated;
 
 -- Publik vy: anonymiserar känsliga fält (telefon, email, notes).
 create or replace view public_guests

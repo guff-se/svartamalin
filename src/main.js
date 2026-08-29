@@ -1,6 +1,7 @@
 import { renderUnlock } from './pages/unlock.js'
 import { bindMuteButton, hideTopControls, pauseShowAudio, prepareAudioForReturningSession, primeAudioAutoplay, isAudioUnlocked } from './lib/audio.js'
 import { clearSession, getGuestId } from './lib/state.js'
+import { logVisit } from './lib/visit-log.js'
 import { showLoading, hideLoading } from './lib/loading.js'
 import { initPerf } from './lib/perf.js'
 import { preloadAssets, preloadCrewPortraits } from './lib/preload.js'
@@ -72,6 +73,7 @@ function showReturningSplash() {
     `
     const go = () => {
       primeAudioAutoplay()   // synkront i gesturen — välsignar audio-elementet
+      logVisit('satt_segel')
       el.removeEventListener('click', go)
       el.remove()
       resolve()
@@ -113,6 +115,7 @@ async function route() {
     document.body.classList.add('locked')
     renderUnlock(app, async () => {
       markUnlocked()
+      logVisit('login')
       route()
     })
     return
