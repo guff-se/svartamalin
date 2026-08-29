@@ -2,9 +2,7 @@
 /**
  * Optimize chosen skuta portraits → WebP for web delivery.
  *
- * Chosen sources (images/ships-generated/):
- *   1 kurtisanen-v4, 2 fordarvet-v14, 3 bortforklaringen-v5,
- *   4 fromheten, 5 gnallet
+ * Chosen sources (images/ships-generated/*-final.png).
  *
  * Output: public/images/ships/*.webp
  *
@@ -26,11 +24,11 @@ const QUALITY = 82
 
 /** @type {{ src: string, out: string }[]} */
 const CHOSEN = [
-  { src: 'ship-1-kurtisanen-v4.png', out: 'kurtisanen.webp' },
-  { src: 'ship-2-fordarvet-v14.png', out: 'fordarvet.webp' },
-  { src: 'ship-3-bortforklaringen-v5.png', out: 'bortforklaringen.webp' },
-  { src: 'ship-4-fromheten.png', out: 'fromheten.webp' },
-  { src: 'ship-5-gnallet.png', out: 'gnallet.webp' },
+  { src: 'kurtisanen-final.png', out: 'kurtisanen.webp' },
+  { src: 'fordarvet-final.png', out: 'fordarvet.webp' },
+  { src: 'bortforklaringen-final.png', out: 'bortforklaringen.webp' },
+  { src: 'fromheten-final.png', out: 'fromheten.webp' },
+  { src: 'gnallet-final.png', out: 'gnallet.webp' },
 ]
 
 async function main() {

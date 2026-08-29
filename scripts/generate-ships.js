@@ -9,9 +9,8 @@
  * Output: images/ships-generated/<stem>.png (första editionen)
  *         images/ships-generated/<stem>-v2.png, -v3.png, … (aldrig overwrite)
  *
- * Chosen web editions (`npm run optimize-ships` → public/images/ships/):
- *   1 kurtisanen-v4, 2 fordarvet-v14, 3 bortforklaringen-v5,
- *   4 fromheten, 5 gnallet
+ * Chosen print/web sources: images/ships-generated/*-final.png
+ * (`npm run optimize-ships` → public/images/ships/*.webp)
  *
  * Usage:
  *   node scripts/generate-ships.js
