@@ -2,7 +2,9 @@
 
 Intern text för Gustaf och agenten. Gäster läser inte detta. Tydlig prosa, ingen STYLE.md.
 
-Allt fysiskt som måste finnas på plats. Ett pussel som inte har sina props är inte designat, det är önsketänkande.
+Allt fysiskt **spelledningen** tillverkar, trycker eller tar med. Ett pussel som inte har sina props är inte designat, det är önsketänkande.
+
+Inte här: lagskatter (lagen tar med och gömmer, se [`lagskatter.md`](lagskatter.md)), sidequests/romans/fiende (gästerna tar in, beslut 2026-08-26), sociala ingångar (personer, inte tryck).
 
 Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig blir inte gjorda.
 
@@ -48,11 +50,6 @@ Regel: varje post får en **ansvarig** och en **deadline**. Poster utan ansvarig
 | Q4-03 | Kompassbild | B-20 | Fastsatt i *Tomtebobarnen*. Tryckt kompass, nålen visar bäringen från kikaren mot skylten. Mäts på plats före tryck. Bildtext: sikta genom glaset. Inte dagbok. Text: [`../rekvisita/Q4-kompass.md`](../rekvisita/Q4-kompass.md). | | | utkast |
 | Q4-04 | Skylt på annan ö | B-20 | Token `1H`, läsbar bara genom kikaren i rätt bäring. Tas inte. Storlek testas på plats. Reserv: Spader har `1H`. Tryck: [`../rekvisita/Q4-cryptex-1H.md`](../rekvisita/Q4-cryptex-1H.md). | | | utkast |
 | Q4-05 | Kompass vid kikaren | B-20 | Fysisk kompass, avläsbar, sitter vid kikaren. Ingen mobil. | | | saknas |
-| LS1-01 | Siffror från Kurtisanens kaptener, Kurtisanens ingång | B-11 | Social. Ingen utläggning. Alla fem ombord är dörren, inklusive Malin. En siffra var. Siffrorna är lagets. Inte vår tryck. Ingen stängs ute. | Kurtisanen (siffror), Gnället (jakt) | lör 10.30 | lagets |
-| LS2-01 | Brev i soffbordet, Fördärvets ingång | B-11 | Fördärvet skriver och lägger. Inte vår tryck. Soffbordet i Storstugan, på plats före lördag 10.30. Inte *Tomtebobarnen*, inte svärdfisken, inte dagboken. | Fördärvet | fre 17.30 | lagets |
-| LS3-01 | Choklad till Kapten Klöver, Bortförklaringens ingång | B-11 | Social. Ingen utläggning. **Kapten Klöver** (`johannabergman`) är dörren. Högkvalitativ choklad, jägarna (Fördärvet) tar med eller hittar. Inte vår tryck. Inte kristallfyrklövern. Klöver ska veta nästa steg. | Fördärvet (choklad), Klöver (dörr) | lör 10.30 | lagets |
-| LS4-01 | Smicker till Kapten Hjärter, Fromhetens ingång | B-11 | Social. Ingen utläggning. **Kapten Hjärter** (`jesperlejfjord`) är dörren. Fjäsk lossar tungan. Köket. Inte vår tryck. Inte kristallfyrklövern. Hjärter ska veta nästa steg. Ingen stängs ute. | Bortförklaringen (jakt), Hjärter (dörr) | lör 10.30 | lagets |
-| LS5-01 | Minst tre av galeonen plus stormraden, Gnällets ingång | B-11 | Social. Ingen utläggning. De fem ombord är dörren tillsammans. Minst tre samlade. Raden, insmickrande: "Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?" Inte vår tryck. Inte questprop. Inte Dunkas svärd. Var och en ska veta nästa steg. Ingen stängs ute. | Fromheten (jakt), Gnällets fem (dörr) | lör 10.30 | lagets |
 
 Kolumnen "Måste vara" är för de fysiska kraven: tåla regn, gå att läsa i eldsken, tåla att tappas i vatten, gå att bära av en påverkad person, och så vidare.
 
@@ -78,7 +75,6 @@ Saker som kräver arbete på ön, inte bara inköp.
 | Q-3 skatten under badbryggan | Under badbryggan, från däcket | kort | Lördag före 10.30. Q3-03 och Q3-04 i vattentät påse. Inte i vattnet. Inte hopptornet. Inte fredag. | |
 | Q-4 Tomtebobarnen | Hyllan i Storstugan | kort | Boken synlig från fredag. Q4-02 och Q4-03 i boken lördag före 10.30. Inte dagboken. Inte fredag. | |
 | Q-4 kompass vid kikaren | Kikaren | kort | Q4-05 på plats lördag före 10.30. | |
-| Fördärvets brev i soffbordet | Storstugan | kort | Fredag ca 17.30. Fördärvet lägger LS2-01. Inte spelledning. Inte hyllan, inte gapet. | Fördärvet |
 | Segelbåten laddas | Bojen | | Fredag, i dagsljus | |
 
 ---
@@ -142,7 +138,4 @@ Sådant som ska produceras i repot eller skickas till tryck.
 | *Tomtebobarnen* (Q4-01) | Fysisk barnbok, hyllan i Storstugan | | saknas |
 | Miniatyr av Karl XII | Bild, liten, dressing i kistan | | utkast saknas |
 | Övriga brev i kistan (K-06) | Två korta lappar, dressing | [`../rekvisita/kista-dressing-1-natt.md`](../rekvisita/kista-dressing-1-natt.md), [`../rekvisita/kista-dressing-2-rummet.md`](../rekvisita/kista-dressing-2-rummet.md) | utkast |
-| Kaptenslistan som fysiskt dokument | Tryck | | |
-| Intrigtexter i UI | Redan byggt | `content/intriger/` | löpande |
-| Praktisk info och program | Markdown, bundlas | `content/copy/` | löpande |
 

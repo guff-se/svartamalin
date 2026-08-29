@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-29, rekvisita-listan är bara spelledningens
+
+Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md).
+
+- [x] Uppdatera rekvisita-listan. Inkludera bara rekvisita som spelledningen skall producera.
+
+Kryss = Propslistan i [`produktion.md`](produktion.md) är bara det spelledningen tillverkar, trycker eller tar med. Lagskatt-ingångar (LS1–LS5) strukna. Fördärvets brev inte i bygg. Digitalt utan UI, copy och kaptenslista.
+
+---
+
 ## 2026-08-28, fiende 5: Fuling kastade sig på Rosing
 
 Källa: Gustaf, i chatt.

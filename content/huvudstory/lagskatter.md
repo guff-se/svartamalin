@@ -131,7 +131,7 @@ Galeonen Gnället är dörren tillsammans. Minst tre ombord samtidigt. Verbatim:
 4. Uppdatera `vet` i [`fordelning.yaml`](fordelning.yaml) för **jagaren** (och gömmarens påminnelse).
 5. Skriv in i jagarens `content/intriger/crews/{id}.md` enligt skrivreglerna nedan. STYLE.md.
 6. Social dörr: skriv kort intrig i **den personens** `guests/{slug}.md`. Inte i lagfilen. Inte jägarens formulering. Inte vem som jagar dem. Inte gömma-instruktion i jaktstycket.
-7. Produktion: vem lägger, när. Inte rekvisita om lagen trycker själva. Social: ingen utläggning, notera vem som är dörren.
+7. Produktion: vem lägger, när. Inte i [`produktion.md`](produktion.md):s propslista. Inte rekvisitafil om lagen trycker själva. Social: ingen utläggning, notera vem som är dörren.
 
 Ingen gästtext förrän steg 1–4 är gjorda. Samma tvåstegsordning som resten av huvudstoryn.
 
