@@ -90,7 +90,7 @@ Att bestämma:
 
 - [ ] Vad slåss man med? Teaterrekvisita, skumgummi, ingenting alls?
 - [ ] Slöjor: antal, material, hur många behövs, vem bär dem
-- [ ] Kaviar och rom: faktiskt kaviar och faktisk rom, eller motsvarande. Måste finnas. Sista tokens till cryptexen syns här: Malins berlock med `4X`, `5I`, `6I`, när hon serverar.
+- [ ] Kaviar och rom: faktiskt kaviar och faktisk rom, eller motsvarande. Måste finnas. Berlocken sitter på sedan 17.00. Tokens `4X`, `5I`, `6I` dialas in här, när hon serverar.
 - [ ] Kistan, på plats vid festen, fortfarande låst tills ledtråden är given
 - [ ] Cryptexen, i omlopp. Spelledning vet ungefär var den är, eller har reservnyckel
 - [ ] Dressing i kistan: övriga brev, minnen, skatter. Inte plot. Inte en läsuppgift.
@@ -118,7 +118,7 @@ Att bestämma:
 | Tid | Vad | Ansvarig |
 |-----|-----|----------|
 | 19.45 | Kallelse till festen | |
-| 20.00 | Kaviar och rom, Malin tar emot. Sista ledtråden till cryptexen, i samband med serveringen. | `malintadaa` |
+| 20.00 | Kaviar och rom, Malin tar emot. Cryptexen dialas. Berlocken sitter på sedan 17.00. | `malintadaa` |
 | 20.15 | Hyllningarna, skuta för skuta | |
 | 20.40 | Kistan öppnas. Kontraktet. Tändningen | deltagare; backup Malin/Spader 20.45 om den fortfarande är stängd |
 | 20.50 | Striden | |

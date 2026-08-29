@@ -24,7 +24,7 @@ Utåt kommuniceras bara **16.00** (samling och avfärd från Enhörna). Båten a
 | 16.00 | Avfärd från Enhörna Varf. Svarta Malin hälsar gästerna välkomna på båten. Svarta Malin är i roll, men inte gästerna. Hon sitter ner en stund med varje lag. Det bjuds på fördrink och snacks. |
 | **17.15** | Ankomst med storbåten, bryggan | Flytta packning och annat praktiskt. |
 | 17.30 | Rumsfördelning, installation, ombyte | Lagen gömmer sina skatter (treasure). Detta är enda skattgömningsfönstret. Kistan ska redan stå framme, väl synlig. |
-| 18.30 | Mingel, välkomstskål. **Praktisk genomgång:** play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, låt saker som hittas av misstag få vara, fredag är fest inte pussellösning, och sexpositiv fest (inget play space, sex överallt). Cut är okränkbar. Se [`spelledning.md`](spelledning.md). | Piratnamn används från nu. Mjuk drift in i roll, ingen startsignal. |
+| 18.30 | Mingel, välkomstskål. **Praktisk genomgång.** Punkterna 1–6. Se [`genomgang.md`](genomgang.md). | Piratnamn används från nu. Mjuk drift in i roll, ingen startsignal. |
 | 19.30 | Middag | Malins tal. Här planteras **frön** till huvudstoryn, muntligt, utan att något ska lösas. Kistan är redan synlig. |
 | 21.00 | Bastu, onsen, bad | Bekännelsescener. Individuella intriger och romanser tar plats. |
 | Sent | Fri fest | Ingen story-mekanik. |
@@ -38,13 +38,14 @@ Utåt kommuniceras bara **16.00** (samling och avfärd från Enhörna). Båten a
 | Tid | Ram | Story |
 |-----|-----|-------|
 | 09.00 | Frukost, off live | Ingen roll, inget spel. Medvetet vardagligt. |
-| 10.30 | **Transition.** Börjar med repris av den praktiska genomgången (play to lift, cut, aldrig ensam på vattnet, låt saker som hittas av misstag få vara, sexpositiv fest). Därefter gemensam ceremoni, form TBD. | Gemensam ceremoni som startar spelet. Kort, fysisk, tydlig. Se nedan. |
-| 11.00 | Förmiddagsspel | Akt II: cryptexen i omlopp (B-10), skattjakten (B-11), mullvadarna tar kontakt (B-12). Escape, tävling och skattjakt samtidigt. De får krocka. Lösenordet går inte att kläcka än. |
+| 10.30 | **Transition.** Börjar med repris av den praktiska genomgången (punkterna 1–6 plus cryptex-lappen). Se [`genomgang.md`](genomgang.md). Därefter gemensam ceremoni, form TBD. | Gemensam ceremoni som startar spelet. Kort, fysisk, tydlig. Se nedan. |
+| 11.00 | Förmiddagsspel | Akt II: skattjakten (B-11), mullvadarna tar kontakt (B-12), quests. Escape och tävling samtidigt. De får krocka. Cryptexen är inte i spel än. Lösenordet går inte att kläcka. |
 | 13.30 | Sista chansen Södra Ovanan | Södra Ovanan stänger. Allt vatteninnehåll klart. |
-| **14.00** | **Brunch** | Ordentlig mat, alla äter. Story pausar men roll behålls. Malins bordsscen sätter upp ritualen. |
+| **14.00** | **Brunch** | Ordentlig mat, alla äter. Story pausar men roll behålls. Malin har cryptexen med sig (B-10). Därifrån i omlopp. Malins bordsscen sätter upp ritualen. |
 | 15.00 | Förberedelse ritual | Klädsel, plats. |
 | **15.30** | **Ritualen** | Akt III: kollektiv ritual, LSD. Se [`ritual.md`](ritual.md). |
 | 16.30 | Efterspel ritual. Bastu och onsen **öppna, med tillsyn.** | Kroppsligt, musikaliskt, vandrande. Inga pussel. Inga texter. |
+| **17.00** | Mat framme | Peak. Malin tar på berlocken (`4X`, `5I`, `6I`). Tokens syns som bild. Ingen pusseljakt. Kistan öppnas inte. |
 | 18.00 | Mat och vila | Enkel mat, tillgänglig hela kvällen. Nu ska ingen behöva vänta på en sittning. |
 | **20.00** | **Malins födelsedagsfest** | Akt IV: kaviar och rom, sista ledtråden, kistan öppnas, kontraktet, slutstriden. Se [`slutstriden.md`](slutstriden.md). |
 | 21.30 | Slutet på lajvet | Alla döda. Spader delar ut slöjor, sjunger *Så länge skutan kan gå*. Malin återvänder som Ran. |
@@ -76,7 +77,7 @@ Frukost off live, sedan spel. Övergången måste vara **fysisk och kollektiv**,
 - [ ] En gemensam sång som avslutas med att alla är i roll
 - [ ] En kort workshop i roll, alltså tre minuters övning i att vara sin pirat
 
-Krav på lösningen: max 15 minuter, ska rymma 25 personer, ska sluta med att varje lag har något konkret att göra direkt. Den praktiska genomgången (play to lift + cut) är redan låst som **inledning** till 10.30. Det som saknas är ceremonin som sätter alibi.
+Krav på lösningen: max 15 minuter, ska rymma 25 personer, ska sluta med att varje lag har något konkret att göra direkt. Den praktiska genomgången är redan låst som **inledning** till 10.30. Se [`genomgang.md`](genomgang.md). Det som saknas är ceremonin som sätter alibi.
 
 ### 14.00 Brunchen mitt i spelet
 
@@ -84,6 +85,7 @@ Farligaste punkten. En sittning på 25 personer dödar allt momentum om den inte
 
 - [ ] Maten ska vara riktig och riklig, ingen ska gå hungrig in i ritualen
 - [ ] Rollen behålls, men ingen ska behöva lösa något medan de äter
+- [ ] Malin har cryptexen med sig. Den kommer in i omlopp vid bordet, inte gömd i en ficka
 - [ ] Brunchen ska **sluta** med något som gör ritualen oundviklig, alltså ett tal, ett hot, en kallelse
 - [ ] Bestäm hur laghemligheter får diskuteras vid bordet, alltså vem sitter med vem
 

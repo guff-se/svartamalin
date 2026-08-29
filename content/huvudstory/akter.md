@@ -90,7 +90,7 @@ Struktur att fylla i:
 
 | Spår | Vad | Vilka | Plats | Konvergerar i |
 |------|-----|-------|-------|---------------|
-| Escape-spåret | Fem parallella quests till cryptex-tokens. Varje skuta har tre ingångar. Olösligt utan berlocken (`4X`, `5I`, `6I`) vid 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16, token `3H`. Q-2 är stuga och grav utan pussel, B-17, `1H` + `2K`. Q-3 är gym, vedhög, badbrygga, B-19, token `3H`. Q-4 är Tomtebobarnen, kikare, skylt, B-20, token `1H`. Q-5 är väggen och svärdfisken, B-18, token `2K`. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-3: gymmet, vedhögen bakom bastun, under badbryggan. Q-4: Storstugan hyllan, kikaren, skylt på annan ö. Q-5: Storstugan, porträttväggen, svärdfiskens mun. | cryptexen vid festen |
+| Escape-spåret | Fem parallella quests till cryptex-tokens. Varje skuta har tre ingångar. Olösligt utan berlocken (`4X`, `5I`, `6I`), på från 17.00, dialas 20.00. Story: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Q-1 är engångs, B-16, token `3H`. Q-2 är stuga och grav utan pussel, B-17, `1H` + `2K`. Q-3 är gym, vedhög, badbrygga, B-19, token `3H`. Q-4 är Tomtebobarnen, kikare, skylt, B-20, token `1H`. Q-5 är väggen och svärdfisken, B-18, token `2K`. | tre skutor per quest, start i namngivna intrigfiler | Q-1: Gubben, Gumman, klätternätet. Q-2: Södra Ovanan, piratstugan, skelettet i skogen. Q-3: gymmet, vedhögen bakom bastun, under badbryggan. Q-4: Storstugan hyllan, kikaren, skylt på annan ö. Q-5: Storstugan, porträttväggen, svärdfiskens mun. | cryptexen från lunchen, dialas vid festen |
 | Optiska spåret | Q-4. Kikaren mot skylten. | skuta 1, 4, 5 | Kikaren, skylt på annan ö | cryptexen |
 | Kropps- och tävlingsspåret | TBD. Klätternätet är taget av Q-1. Gymmet är taget av Q-3. | | Vattnet, Södra Ovanan | |
 | Sociala spåret | Cryptexen cirkulerar: stöld, vadslagning, slagsmål, slarv | Alla som får tag i den | Hela ön | cryptexen |
@@ -123,19 +123,19 @@ Idéer att utvärdera:
 #### B-10: Cryptexen i omlopp
 
 Akt:            II
-Tid:            från 10.30
-Plats:          cirkulerar
-Inblandade:     den som just då har den. Byts.
-Publik:         den som ser bytet
+Tid:            från 14.00, lunchen
+Plats:          brunchbordet, sedan cirkulerar
+Inblandade:     Malin (`malintadaa`) tar med den. Därefter den som just då har den. Byts.
+Publik:         de vid bordet, sedan den som ser bytet
 
-Vad händer:     cryptexen kommer in i spelet. På den sitter lappen "Denna tappas lätt bort." Den som har den förlorar den snart.
+Vad händer:     Malin har cryptexen med sig till lunchen. Där kommer den in i spelet. På den sitter lappen "Denna tappas lätt bort." Den som har den förlorar den snart.
 
 Vad ändras:     nyckeln till kistan är i spel som föremål, inte som lösning. Lösenordet går fortfarande inte att kläcka.
 
-Trigger:        TBD: var den dyker upp första gången
-Väg 1:          någon hittar den
-Väg 2:          Malin "tappar" den, eller den ligger i ett gömställe som en ledtråd pekar på
-Spelledarväg:   Spader sätter den i någons hand
+Trigger:        lunchen. Malin tar med den. Hon lägger den, tappar den, eller någon tar den vid bordet. Inte gömd i en ficka genom måltiden.
+Väg 1:          någon tar den vid bordet
+Väg 2:          Malin lämnar den synlig när hon reser sig
+Spelledarväg:   hon har den med sig. Glömd: hämta, lägg synlig.
 
 Pusselnod:      cryptexen, olöst
 Props:          cryptex, lapp, nyckel inuti
@@ -151,7 +151,7 @@ Publik:         jakten syns. Målet är hemligt för den jagade.
 
 Vad händer:     lagen får jaga den skatt (treasure) deras lagintrig pekar ut. Jakten startar från en ingång, första ledtråden inskickad av gömmarna, skriven in hos jägarna. Se [`lagskatter.md`](lagskatter.md). Gömmena och första steget ligger sedan fredag 17.30. Ingen poäng. Funnen skatt (treasure) får bäras, mutas bort, stjälas tillbaka.
 
-Vad ändras:     skattjakten är i spel samtidigt som cryptexen. De får krocka.
+Vad ändras:     skattjakten är i spel. Cryptexen kommer in vid lunchen. De får krocka efter 14.00.
 
 Trigger:        ceremonin 10.30 släpper spelet
 Väg 1:          lagen gör det själva, de har läst lagintrigen
@@ -366,7 +366,26 @@ Vad akt III måste åstadkomma:
 
 ### Beats
 
-Ingen ännu.
+#### B-30: Berlocken på
+
+Akt:            III
+Tid:            17.00, peak
+Plats:          där Malin är, synligt
+Inblandade:     Malin (`malintadaa`)
+Publik:         den som ser henne under peak. Inte en kallelse.
+
+Vad händer:     Malin tar på berlocken med tokens `4X`, `5I`, `6I`. Hon ger dem inte som gåta. Det är smycke under peak, bild, inte pusseljakt. De som läste `Hon bär 4, 5 och 6.` på en tagbar token vet att titta på henne.
+
+Vad ändras:     de tre sista ledtrådarna är synliga. Gåtan är lösbar som bild. Kistan öppnas inte.
+
+Trigger:        klockan 17.00. Mat framme. Peak.
+Väg 1:          de som har token-raden tittar på henne
+Väg 2:          samma märken som questtokens, utan att ha läst raden
+Spelledarväg:   hon tar på den oavsett. Glömd: så fort det märks. Inte vänta till 20.00.
+
+Pusselnod:      ingen. Efter 15.30 är det inte ett pussel.
+Props:          Malins berlock med `4X`, `5I`, `6I`.
+Om det floppar: ingen ser. Hon höjer armen senare, vid serveringen.
 
 ---
 
@@ -392,18 +411,18 @@ Plats:          festplatsen
 Inblandade:     Malin (`malintadaa`), alla
 Publik:         alla
 
-Vad händer:     Malin serverar kaviar och rom. I samband med det syns tokens `4X`, `5I` och `6I` på hennes berlock, de tre sista ledtrådarna till cryptexen. Utan dem går lösenordet inte att kläcka. Hon ger dem inte som gåta. Hon sätter på berlocken till festen, inte före.
+Vad händer:     Malin serverar kaviar och rom. Berlocken sitter på sedan 17.00 (B-30). Tokens `4X`, `5I` och `6I` dialas in nu, de tre sista ledtrådarna till cryptexen. Utan dem går lösenordet inte att kläcka. Hon ger dem inte som gåta.
 
-Vad ändras:     gåtan är nu lösbar. Inte förrän nu.
+Vad ändras:     sex kända bokstäver slås in. Kistan kan öppnas.
 
 Trigger:        serveringen
-Väg 1:          hon säger eller gör det som en del av värdinneskapet
-Väg 2:          TBD, beroende på hur medveten hon är
-Spelledarväg:   hon bär berlocken oavsett. Den är inte spelarbaserad.
+Väg 1:          de som läste token-raden, eller såg berlocken under peak, slår in
+Väg 2:          hon höjer armen vid brickan, tokens syns nära
+Spelledarväg:   hon bär berlocken oavsett. Den är inte spelarbaserad. Ingen kopplar: Spader, "titta på halsen." Ingen kopplar: höj armen. Sedan Spader: "titta på halsen."
 
-Pusselnod:      cryptexen, sista nödvändiga input
+Pusselnod:      cryptexen, sista nödvändiga input. Undantaget vid 20.00: slå in sex redan kända bokstäver.
 Props:          kaviar, rom, Malins berlock med `4X`, `5I`, `6I`.
-Om det floppar: ingen ser. Hon höjer armen, kortare, högre, så tokens syns.
+Om det floppar: ingen kopplar. Hon höjer armen, kortare, högre, så tokens syns.
 
 #### B-41: Kistan öppnas
 
@@ -456,8 +475,8 @@ Den centrala sanningen delas i bitar. Varje bit får en rad. Regeln från [`RESE
 | Bit av sanningen | Bärare | Väg 1 | Väg 2 | Spelledarväg | Senast avslöjad |
 |------------------|--------|-------|-------|--------------|-----------------|
 | Malin har en skattkista på ön | Kistan själv | Alla ser den | Malin nämner den | behövs inte | fredag |
-| Nyckeln ligger i en cryptex som cirkulerar | Cryptexen + lappen | Hitta den | Se den byta ägare | Spader sätter den i någons hand | lördag 11-ish |
-| Lösenordet `HKHXII` | Tre av fem quests + Malins berlock | Questtokens `1H`, `2K`, `3H` | Tvärledtrådar mellan lag | `4X`, `5I`, `6I` syns på berlocken vid serveringen | **20.00, inte tidigare** |
+| Nyckeln ligger i en cryptex som cirkulerar | Cryptexen + lappen | Malin tar med den till lunchen | Se den byta ägare | Spader sätter den i någons hand | lördag 14.00 |
+| Lösenordet `HKHXII` | Tre av fem quests + Malins berlock | Questtokens `1H`, `2K`, `3H` | Tvärledtrådar mellan lag | `4X`, `5I`, `6I` syns på berlocken från 17.00, dialas vid serveringen | **på 17.00, dialas 20.00** |
 | Ingen skatt (treasure). Kärleksbrevet. Festen är fällan. Ensam makt mot förräderiet. | Kistans innehåll | Öppna kistan | Någon skriker innebörden | Malin/Spader tvingar upp 20.45 | 20.40 |
 | Malin har en hemlig älskare | Hjärter, Blodig | deras intrig | Malins undanflykter | behövs inte | lördag dag |
 | Älskaren är Karl XII | Brevets hälsning och sista rad | Öppna kistan | Hålla upp brevet | samma som B-42, 20.45 | 20.40 |
@@ -469,4 +488,4 @@ Fallback-versionen av lördagen. Måste finnas skriven innan helgen, annars impr
 - **Kl 13.00, inget löst:** TBD
 - **Kl 14.00, brunchen:** Malin säger sanningen delvis själv, i tal. TBD. Inte kontraktet, inte kistans innehåll.
 - **Kl 15.30, ritualen:** ritualen fungerar oavsett vad som lösts. TBD
-- **Kl 20.00:** sista ledtråden ges oavsett. Kistan öppnas av deltagarna, eller tvingas upp 20.45. Tändningen sker. Slutstriden fungerar.
+- **Kl 20.00:** berlocken sitter på sedan 17.00. Dialas oavsett. Kistan öppnas av deltagarna, eller tvingas upp 20.45. Tändningen sker. Slutstriden fungerar.

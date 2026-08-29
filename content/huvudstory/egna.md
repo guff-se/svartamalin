@@ -20,6 +20,27 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-29, sista tokens på berlocken
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`beslut.md`](beslut.md).
+
+- [x] Hur kommunicerar vi att sista 3 siffrorna i kryptexkoden är i malins berlock
+
+Kryss = två vägar plus spelledarväg. Tagbar token, andra raden `Hon bär 4, 5 och 6.` Berlocken från 17.00 i samma format. Inte gästintrig. Inte ordet berlock på lappen.
+
+---
+
+## 2026-08-29, klockslag under spelet
+
+Källa: Gustaf, i chatt. Införd i [`spelledning.md`](spelledning.md).
+
+- [x] Malin skall ha med kryptex till lunchen på Lördag
+- [x] Malin skall ta på sin berlock under peak, vid kl. 17.
+
+Kryss = två hårda runtime-klockslag. Cryptexen kommer in vid lunchen 14.00. Berlocken på 17.00, under peak. Kistan öppnas fortfarande 20.00.
+
+---
+
 ## 2026-08-29, lapp i kistan: konfrontera Malin
 
 Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md), [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).

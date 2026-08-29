@@ -46,7 +46,13 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 
 Lösenord: `HKHXII`. Antaget 2026-08-25, [`kanon.md`](kanon.md). Varje token är siffra plus bokstav. Siffran är positionen i lösenordet. Inte bara bokstaven.
 
-De tre första delas ut i questen. De tre sista sitter på Malins berlock och syns först 20.00. Tre quests per skuta räcker till `HKH`. Inte till `XII`.
+De tre första delas ut i questen. De tre sista sitter på Malins berlock. Hon tar på den 17.00 under peak. Tokens syns då som bild. De dialas in 20.00. Tre quests per skuta räcker till `HKH`. Inte till `XII`.
+
+Hur de vet att 4–6 sitter på henne: inte gästintrig, inte lagfil, inte genomgången, inte kistan, inte cryptex-lappen. Två vägar plus spelledarväg, [`beslut.md`](beslut.md) 2026-08-29.
+
+1. **Tagbar token, före 15.30.** Andra raden, samma på alla som tas: `Hon bär 4, 5 och 6.` Inte bokstäverna. Inte ordet berlock. Inte "leta i koja". "Bär" är kroppen. Hon sätter på berlocken 17.00, så dagsjakt ger inget. Q-4-skylten har bara `1H`: kikaren tål inte extra rad. Alla fem skutor får minst en tagbar token från annan quest.
+2. **Berlocken, från 17.00.** Tre hängen i samma format som questtokens, läsbara på avstånd. Peak, mat, hon är i rummet. Ingen ny logik: de läser `4X`, `5I`, `6I` som bild. Berlocken har ingen andra rad. Den *är* 4, 5 och 6. Dialas 20.00.
+3. **Spelledarväg.** Hon tar på den 17.00 oavsett. Ingen ser: höj armen vid serveringen. Fortfarande inget: Spader, "titta på halsen." 20.45: reservnyckel.
 
 | Position | Token | Var | Antal | Tas |
 |----------|-------|-----|-------|-----|
@@ -56,13 +62,13 @@ De tre första delas ut i questen. De tre sista sitter på Malins berlock och sy
 | 2 | `2K` | Q-5 svärdfiskens mun | 3 | ja. Troligen one-off: första laget tar. |
 | 3 | `3H` | Q-1 påsen i klätternätet | 1 | ja. Engångs. |
 | 3 | `3H` | Q-3 under badbryggan | 1 | ja. Engångs. |
-| 4 | `4X` | Malins berlock | 1 | nej. Syns 20.00. |
-| 5 | `5I` | Malins berlock | 1 | nej. Syns 20.00. |
-| 6 | `6I` | Malins berlock | 1 | nej. Syns 20.00. |
+| 4 | `4X` | Malins berlock | 1 | nej. På 17.00. Dialas 20.00. |
+| 5 | `5I` | Malins berlock | 1 | nej. På 17.00. Dialas 20.00. |
+| 6 | `6I` | Malins berlock | 1 | nej. På 17.00. Dialas 20.00. |
 
 Tryck: [`../rekvisita/Q1-cryptex-3H.md`](../rekvisita/Q1-cryptex-3H.md), [`../rekvisita/Q2-cryptex-1H.md`](../rekvisita/Q2-cryptex-1H.md), [`../rekvisita/Q2-cryptex-2K.md`](../rekvisita/Q2-cryptex-2K.md), [`../rekvisita/Q3-cryptex-3H.md`](../rekvisita/Q3-cryptex-3H.md), [`../rekvisita/Q4-cryptex-1H.md`](../rekvisita/Q4-cryptex-1H.md), [`../rekvisita/Q5-cryptex-2K.md`](../rekvisita/Q5-cryptex-2K.md). Berlocken är smycke, inte papper: [`produktion.md`](produktion.md) K-09.
 
-Skriv inte ut token-texten i gästintrig. Inte i starten. Inte som facit.
+Skriv inte ut token-texten i gästintrig. Inte i starten. Inte som facit. Inte andra raden.
 
 ---
 

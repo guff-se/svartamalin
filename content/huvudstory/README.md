@@ -37,7 +37,7 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 11. [`ritual.md`](ritual.md) lördag 15.30, ritualen
 12. [`slutstriden.md`](slutstriden.md) lördag ca 20.00, finalen
 13. [`genomgang.md`](genomgang.md) vad som sägs i de praktiska genomgångarna
-14. [`spelledning.md`](spelledning.md) runtime: hint, bypass, cryptex, Malin i roll, efter 15.30
+14. [`spelledning.md`](spelledning.md) runtime: klockslag under spelet, hint, bypass, cryptex, Malin i roll, efter 15.30
 15. [`produktion.md`](produktion.md) props, inköp, bygg, deadlines
 16. [`fordelning.yaml`](fordelning.yaml) vilken deltagare som får vilken story-bit, med skrivstatus
 17. [`beslut.md`](beslut.md) beslutslogg och öppna frågor
@@ -83,7 +83,7 @@ Fasta ramar. Ändras bara genom ett medvetet beslut som loggas i [`beslut.md`](b
 10. **Sista versen i sången är finalen.** Slutstriden ska eka den, aldrig citera utgången i förväg.
 11. **Allt pågår samtidigt och får kollidera.** Huvudstory, skattjakt, romanser och fiendskaper är inte isolerade spår. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd.
 12. **Gästerna vet att det finns en huvudstory innan helgen.** De vet inte vad den är. Frön får stå i intrigfiler och i gästcopy. Fredag är fortfarande utan mekanik.
-13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins berlock (`4X`, `5I`, `6I`), som hon sätter på när hon serverar. All ledtrådssamling av `1H`, `2K`, `3H` sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns brev mellan Malin och kungen, plus minnen och skatter, plus en orderlapp: konfrontera Malin efter kaviar och rom. Tändningens innehåll är kärleksbrevet från Karl XII. Brevet är kontraktet och kärleksakten. Lappen är ordern att flyga på henne efter serveringen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md), [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
+13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins berlock (`4X`, `5I`, `6I`), som hon sätter på under peak kl. 17.00. Cryptexen kommer in vid lunchen 14.00: Malin har den med sig. All ledtrådssamling av `1H`, `2K`, `3H` sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns brev mellan Malin och kungen, plus minnen och skatter, plus en orderlapp: konfrontera Malin efter kaviar och rom. Tändningens innehåll är kärleksbrevet från Karl XII. Brevet är kontraktet och kärleksakten. Lappen är ordern att flyga på henne efter serveringen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md), [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
 14. **Aldrig ensam på vattnet.** Off-regel, hela helgen. Ingen eka, kajak, paddel eller bad utan sällskap. Ingen story-bit, intrig eller pussel får kräva att någon åker ut eller badar själv.
 15. **Båtarna sköts av Kuling och Rödskägg.** Kapten Kuling (`josefinlowing`) och Kapten Rödskägg (`viktoransund`) har hand om eka, kajak och paddel. En *skriven* intrig som kräver sjöfärd går primärt genom att övertala en av dem att ge sig ut, för spel och interaktion. Man **får** åka ut utan dem. Off-regeln är bara: aldrig ensam.
 16. **Låt saker som hittas av misstag få vara.** Off-regel, sägs i genomgången. Gäster löser gåtor och uppdrag, inte brute force. Ingen story-bit, skatt eller pussel får kräva att ön ransakas. Den som råkar hitta något de inte söker lämnar det. Se [`genomgang.md`](genomgang.md).
