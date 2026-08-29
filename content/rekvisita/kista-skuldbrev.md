@@ -11,11 +11,14 @@ En per Q-5-start. Tre män. Namn vid tillsättning. Tre identiska mallar.
 
 ## Tryck
 
-Skyldig Svarta Malin.
+SKULDSEDEL
 
-Namn: _______________
-Belopp: _______________
+Jag, _______________, kapten,
+bekänner härmedelst att jag är skyldig
+Svarta Malin summan _______________.
 
-Krävs in när hon kallar. Annars slutar du vara kapten.
+Samma summa erlägges när hon kallar.
+I brist därav förverkas kaptenstiteln.
 
-Antecknat av Svarta Malin
+_________________
+(underskrift)
