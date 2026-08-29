@@ -88,6 +88,21 @@ body.webgl-revealed .webgl-hero {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* Skriv-ut sitter translateY(-100%) ovanför första kortet och sticker
+   annars in i herons underkant medan heron är transparent under intro. */
+.webgl-page .print-intriger-btn {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 1.2s, visibility 1.2s;
+}
+body.webgl-revealed .webgl-page .print-intriger-btn {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .webgl-content {
   position: relative;
   z-index: 10;
