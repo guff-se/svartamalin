@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-29, sångblad Så länge skutan kan gå
+
+Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md).
+
+- [x] vi behöver skriva ut texten till så länge skutan kan gå
+
+Kryss = R-01 i propslistan. Sångblad till Spader vid slöjorna. Originaltexten ligger inte i repot (upphovsrätt). Tryck från visbok.
+
+---
+
 ## 2026-08-29, genomgång av slutstriden 15.28
 
 Källa: Gustaf, i chatt. Införd i [`genomgang.md`](genomgang.md), [`beslut.md`](beslut.md).
@@ -42,9 +52,11 @@ Kryss = struket ur genomgång, spelledning, ritual, platser, RESEARCH. Tre verkt
 
 ## 2026-08-29, sista tokens på berlocken
 
-Källa: Gustaf, i chatt. Olöst, [`beslut.md`](beslut.md) Öppna frågor.
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`beslut.md`](beslut.md).
 
-- [ ] Hur kommunicerar vi att sista 3 siffrorna i kryptexkoden är i malins berlock
+- [x] Hur kommunicerar vi att sista 3 siffrorna i kryptexkoden är i malins berlock
+
+Kryss = två vägar plus spelledarväg. Tagbar token, andra raden `Hon bär 4, 5 och 6.` Berlocken från 17.00 i samma format. Inte gästintrig. Inte ordet berlock på lappen.
 
 ---
 

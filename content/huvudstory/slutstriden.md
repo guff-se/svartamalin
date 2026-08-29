@@ -107,6 +107,7 @@ Att bestämma:
 
 - [ ] Hur lång är tystnaden mellan sista slaget och sången?
 - [ ] Sjunger Spader ensam eller får alla falla in? Sannolikt: börjar ensam, alla faller in
+- [ ] Sångblad R-01: *Så länge skutan kan gå*, utskrift från visbok. Hos Spader. Inte i `content/rekvisita/`. Se [`produktion.md`](produktion.md).
 - [ ] Var är Malin under sången? Frånvarande, eller synlig i förvandling?
 - [ ] Hur markeras att lajvet är **slut**? Ett explicit ord behövs, annars vet ingen när man får vara sig själv igen
 - [ ] Vad händer direkt efter? Musik, dryck, dans. Ingen får stå i ett tomrum
