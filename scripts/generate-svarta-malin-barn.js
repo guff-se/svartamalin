@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Iterative portrait generator for Svarta Malin as a child — ~10, innocent, not yet a pirate.
- * Nautical tattered clothes; varies medium, prop (rope / toy boat / telescope), and place.
+ * Iterative portrait generator for Svarta Malin as a child — age 6–13, innocent, not yet a pirate.
+ * Always keeps the source photo's facial expression. Age is picked per image.
  * Same pipeline as generate-svarta-malin-portrait.js; no weapons; never overwrites.
  *
  * Input:  images/malin-barn/IMG_5372.JPG … IMG_5376.JPG
@@ -17,7 +17,6 @@
  *   npm run generate-svarta-malin-barn                 # all 5 sources
  *   npm run generate-svarta-malin-barn -- --times 3    # three full passes
  *   npm run generate-svarta-malin-barn -- IMG_5374     # specific source
- *   npm run generate-svarta-malin-barn -- --keep-expression
  */
 
 import { readFile, writeFile, mkdir, readdir, unlink, appendFile, access } from 'node:fs/promises'
@@ -41,15 +40,11 @@ const USE_API_KEY = process.env.PORTRAIT_USE_API_KEY === '1'
 
 // ── Fixed child identity ────────────────────────────────────────────────────
 
-const LIKENESS = `HIGHEST PRIORITY — FACIAL IDENTITY: This must be unmistakably the same girl as in the input photo, aged to about ten. Preserve bone structure, jawline, cheekbones, nose shape, eye shape and spacing, ears, hairline, hair colour, skin tone, and distinctive features (freckles, dimples, gap between front teeth if present). Do NOT invent a new face, do NOT beautify into a different child, do NOT swap ethnicity. If the source looks younger than ten, age her up modestly into a 10-year-old — longer face, slightly less baby-round cheeks, still clearly a child. If she already looks around ten, keep that age. NEVER age her into a teenager or adult.`
+const LIKENESS = `HIGHEST PRIORITY — FACIAL IDENTITY: This must be unmistakably the same girl as in the input photo, aged to the named age (between 6 and 13). Preserve bone structure, jawline, cheekbones, nose shape, eye shape and spacing, ears, hairline, hair colour, skin tone, and distinctive features (freckles, dimples, gap between front teeth if present). Do NOT invent a new face, do NOT beautify into a different child, do NOT swap ethnicity. Age up or down from the source as needed to hit the named age. NEVER make her 14 or older. NEVER make her an adult.`
 
-const AGE = `AGE — ABOUT TEN YEARS OLD: A real 10-year-old girl. Child proportions: larger head relative to body, soft cheeks, small nose, no adult makeup, no adult jaw, no developed figure. She has not yet become a pirate. Innocent, open, still a child.`
+const KEEP_EXPRESSION = `FACIAL EXPRESSION — PRESERVE FROM SOURCE, NON-NEGOTIABLE: Keep the exact expression from the input photo. Same smile or mouth, same eye openness, same eyebrow position, same gaze direction as far as the new pose allows. Do NOT invent a new expression. Body and setting may change; the face stays the same.`
 
-const KEEP_EXPRESSION = `FACIAL EXPRESSION — PRESERVE FROM SOURCE: Keep the exact expression from the input photo. Same smile or mouth, same eye openness, same eyebrow position. Do NOT invent a new expression.`
-
-const VARY_EXPRESSION = `FACIAL EXPRESSION — INNOCENT CHILD: Soft, genuine, unguarded. A shy half-smile, a curious open look, a gap-toothed grin, quiet wonder, or a candid glance — never fierce, never commanding, never a villain smirk, never adult glamour. Same girl, child-honest.`
-
-const CHILD = `SVARTA MALIN AS A CHILD: This is Malin before the legend — about ten, a sailor's daughter. Innocent, curious, wind in her hair. She may be aboard or ashore on the Swedish coast. Not a captain, not dangerous, not posing in a photographer's studio.`
+const CHILD = `SVARTA MALIN AS A CHILD: This is Malin before the legend — a sailor's daughter at the named age. Innocent, curious. She may be aboard or ashore on the Swedish coast. Not a captain, not dangerous, not posing in a photographer's studio.`
 
 const INNOCENT = `INNOCENCE — NON-NEGOTIABLE: She is a child. No weapons of any kind. No flintlock, cutlass, dagger, axe, pistol, sword, hook, eyepatch, Jolly Roger, skull-and-crossbones, pirate hat, tricorn, parrot-as-pirate-prop, treasure-chest loot, rum bottle, or boarding gear. No adult sexuality, no glamour makeup, no lipstick, no smoky kohl, no beauty spot, no hoop-earring pirate jewellery, no feather boa. Nautical child clothes only — striped sailor kit, not a pirate captain's coat. A telescope is a child's brass spyglass, never a weapon.`
 
@@ -63,7 +58,7 @@ const BODY = `BODY & POSTURE: Follow the named pose. A child's body — unguarde
 
 const PLACE = `SETTING — COASTAL CHILDHOOD, NEVER A STUDIO: Follow the named place, weather, and light. Outdoors, nautical, Swedish coast. Never a photographer's studio, never a painted backdrop curtain, never a stool in front of a cyclorama, never a garden, never a cottage porch.`
 
-const NEG = `No studio photograph, no photographer's backdrop, no painted kuliss curtain, no stool-and-cyclorama, no garden, no cottage, no school portrait, no pirate, no captain, no tricorn, no skull-and-crossbones, no Jolly Roger, no flintlock, no pistol, no cutlass, no sword, no dagger, no axe, no hook, no eyepatch, no parrot, no rum, no treasure chest of loot, no adult woman, no teenager, no aged-up face, no different person, no face swap, no generic model child, no altered bone structure, no adult makeup, no lipstick, no smoky kohl, no beauty spot, no hoop pirate earrings, no feather boa, no sexy pose, no glamour stare, no hammy villain expression, no power stance, no Pirates of the Caribbean, no Jack Sparrow, no Disney pirate, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no cartoon, no text, no watermark, no playing card overlay.`
+const NEG = `No studio photograph, no photographer's backdrop, no painted kuliss curtain, no stool-and-cyclorama, no garden, no cottage, no school portrait, no pirate, no captain, no tricorn, no skull-and-crossbones, no Jolly Roger, no flintlock, no pistol, no cutlass, no sword, no dagger, no axe, no hook, no eyepatch, no parrot, no rum, no treasure chest of loot, no adult woman, no 14-or-older teen, no aged-up adult face, no different person, no face swap, no generic model child, no altered bone structure, no adult makeup, no lipstick, no smoky kohl, no beauty spot, no hoop pirate earrings, no feather boa, no sexy pose, no glamour stare, no hammy villain expression, no new facial expression, no power stance, no Pirates of the Caribbean, no Jack Sparrow, no Disney pirate, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no cartoon, no text, no watermark, no playing card overlay.`
 
 const LOCATIONS = [
   {
@@ -335,16 +330,26 @@ const PALETTE = [
   'chalky pastels: grey-blue, sand, white',
 ]
 
+const AGES = [
+  { years: 6, note: 'six years old — round cheeks, short stature, large head relative to body, small hands, milk teeth or a gap, clearly a little child' },
+  { years: 7, note: 'seven years old — still very small, slightly less baby-round, child proportions, skinny limbs' },
+  { years: 8, note: 'eight years old — schoolchild, missing front teeth possible, not yet lanky' },
+  { years: 9, note: 'nine years old — longer legs than a six-year-old, still a child, no teen features' },
+  { years: 10, note: 'ten years old — middle childhood, no developed figure, no adult jaw' },
+  { years: 11, note: 'eleven years old — preteen child, slightly longer face, still no developed figure' },
+  { years: 12, note: 'twelve years old — older child, not a teen model, no makeup, no adult glamour' },
+  { years: 13, note: 'thirteen years old — oldest in this range, still a child not 14+, no developed figure, no adult jaw' },
+]
+
 function pickRandom(pool) {
   return pool[Math.floor(Math.random() * pool.length)]
 }
 
-function buildPrompt({ keepExpression = false } = {}) {
+function buildPrompt() {
   const location = pickRandom(LOCATIONS)
   const pose = pickRandom(location.poses)
-  const gaze = keepExpression
-    ? 'exact same facial expression as the input photo — unchanged smile, mouth, and eyes'
-    : pickRandom(GAZE)
+  const age = pickRandom(AGES)
+  const gaze = 'exact same facial expression as the input photo — unchanged smile, mouth, eyes, and eyebrows'
   const media = pickRandom(MEDIA)
   const costume = pickRandom(COSTUME)
   const props = pickRandom(PROPS)
@@ -354,25 +359,23 @@ function buildPrompt({ keepExpression = false } = {}) {
   const hair = pickRandom(HAIR)
   const palette = pickRandom(PALETTE)
 
-  const subject = `Make a well-made portrait of this girl as Svarta Malin at about ten — innocent, not yet a pirate. Portrait orientation, aspect ratio 63:88 (playing card proportions), vertical composition.
+  const ageBlock = `AGE — ${age.years} YEARS OLD: ${age.note}. Child body for that age. No adult makeup, no adult jaw, no developed figure. She has not yet become a pirate.`
 
-Medium: ${media}. Palette: ${palette}. Framing: ${framing}. Place: ${location.place}. Weather: ${weather}. Light: ${light}. Pose: ${pose}. ${gaze}. Hair: ${hair}. Costume (nautical, a bit tattered): ${costume}. Prop (must be visible): ${props}. No studio, no weapons, no pirate captain costume, no adult glamour.`
+  const subject = `Make a well-made portrait of this girl as Svarta Malin at ${age.years} years old — innocent, not yet a pirate. Portrait orientation, aspect ratio 63:88 (playing card proportions), vertical composition.
 
-  const blocks = [LIKENESS, AGE, CHILD, INNOCENT, COSTUME_CHILD, PLACE]
-  if (keepExpression) {
-    blocks.push(KEEP_EXPRESSION)
-  } else {
-    blocks.push(VARY_EXPRESSION)
-  }
-  blocks.push(BODY, CRAFT, subject, STYLE, NEG)
+Medium: ${media}. Palette: ${palette}. Framing: ${framing}. Place: ${location.place}. Weather: ${weather}. Light: ${light}. Pose: ${pose}. Facial expression: ${gaze}. Hair: ${hair}. Costume (nautical, a bit tattered): ${costume}. Prop (must be visible): ${props}. No studio, no weapons, no pirate captain costume, no adult glamour.`
+
+  const blocks = [LIKENESS, ageBlock, CHILD, INNOCENT, COSTUME_CHILD, PLACE, KEEP_EXPRESSION, BODY, CRAFT, subject, STYLE, NEG]
 
   const summary = [
-    keepExpression ? 'keep expr' : 'innocent expr',
-    `age ~10 · ${location.id} · ${media.split(',')[0].slice(0, 18)}`,
+    'keep expr',
+    `age ${age.years} · ${location.id} · ${media.split(',')[0].slice(0, 18)}`,
     pose.split(/[,.]/)[0].slice(0, 22),
   ].join(' · ')
 
   const picks = {
+    age: age.years,
+    ageNote: age.note,
     location: location.id,
     place: location.place,
     pose,
@@ -608,14 +611,12 @@ async function resolveBackend() {
 
 function parseArgs(argv) {
   let filterStem = null
-  let keepExpression = false
   let all = false
   let times = 1
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i]
     if (arg === '--keep-expression' || arg === '-k') {
-      keepExpression = true
       continue
     }
     if (arg === '--all') {
@@ -635,16 +636,17 @@ function parseArgs(argv) {
   }
 
   if (all) filterStem = '--all'
-  return { filterStem, keepExpression, times }
+  return { filterStem, times }
 }
 
 async function main() {
   const backend = await resolveBackend()
-  const { filterStem, keepExpression, times } = parseArgs(process.argv.slice(2))
+  const { filterStem, times } = parseArgs(process.argv.slice(2))
   const queue = await listSources(filterStem)
 
   console.log(`Backend: ${backend.name}`)
-  console.log(`Expression: ${keepExpression ? 'keep (from source photo)' : 'innocent child (vary)'}`)
+  console.log(`Expression: keep (from source photo)`)
+  console.log(`Age: 6–13 (picked per image)`)
   console.log(`Sources: ${queue.map((f) => basename(f)).join(', ')}`)
   console.log(`Passes: ${times} (${queue.length * times} portraits)`)
   console.log(`Output → ${OUT_DIR}`)
@@ -657,7 +659,7 @@ async function main() {
       const stem = basename(file, extname(file))
       const inPath = join(IN_DIR, file)
       const { version, filename, path: outPath } = await resolveOutputPath(stem)
-      const { prompt, summary, picks } = buildPrompt({ keepExpression })
+      const { prompt, summary, picks } = buildPrompt()
 
       const versionLabel = version > 1 ? ` v${version}` : ''
       process.stdout.write(`🌱 ${file}${versionLabel} → ${filename} (${summary}) … `)
@@ -668,7 +670,7 @@ async function main() {
         output: filename,
         version,
         backend: backend.name,
-        keepExpression,
+        keepExpression: true,
         summary,
         picks,
         prompt,
