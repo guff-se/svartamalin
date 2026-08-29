@@ -11,3 +11,4 @@ Under badbryggan, med ägarbeviset. Ett exemplar. Tas.
 ## Tryck
 
 3H
+Hon bär 4, 5 och 6.

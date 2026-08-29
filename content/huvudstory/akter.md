@@ -418,7 +418,7 @@ Vad ändras:     sex kända bokstäver slås in. Kistan kan öppnas.
 Trigger:        serveringen
 Väg 1:          de som läste token-raden, eller såg berlocken under peak, slår in
 Väg 2:          hon höjer armen vid brickan, tokens syns nära
-Spelledarväg:   hon bär berlocken oavsett. Den är inte spelarbaserad. Ingen kopplar: Spader, "titta på halsen." Ingen kopplar: höj armen. Sedan Spader: "titta på halsen."
+Spelledarväg:   hon bär berlocken oavsett. Den är inte spelarbaserad. Ingen kopplar: höj armen. Fortfarande inget: Spader, "titta på halsen."
 
 Pusselnod:      cryptexen, sista nödvändiga input. Undantaget vid 20.00: slå in sex redan kända bokstäver.
 Props:          kaviar, rom, Malins berlock med `4X`, `5I`, `6I`.

@@ -11,3 +11,4 @@ I svärdfiskens mun, med blad 7. Tre exemplar.
 ## Tryck
 
 2K
+Hon bär 4, 5 och 6.
