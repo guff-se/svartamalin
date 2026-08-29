@@ -142,7 +142,7 @@ body.q5-cards-page #song-subtitles {
 @media print {
   @page {
     size: A4 portrait;
-    margin: 8mm;
+    margin: 6mm;
   }
 
   html,
@@ -220,12 +220,12 @@ body.q5-cards-page #song-subtitles {
   }
 
   .q5-sheet__grid {
-    --q5-card-w: 90mm;
-    --q5-card-h: 125.7mm;
+    --q5-card-w: 97.5mm;
+    --q5-card-h: 136.2mm;
     display: grid;
     grid-template-columns: repeat(2, var(--q5-card-w));
     grid-template-rows: repeat(2, var(--q5-card-h));
-    gap: 4mm;
+    gap: 3mm;
     justify-content: start;
     align-content: start;
   }

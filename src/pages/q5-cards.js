@@ -192,7 +192,7 @@ export async function renderQ5Cards(app) {
         <div>
           <h1>Q-5 piratkort</h1>
           <p class="q5-cards__hint">
-            24 kort, fyra per A4 (90×126&nbsp;mm). Skriv ut framsidor i färg, vänd pappret längs långsidan, skriv ut baksidor.
+            24 kort, fyra per A4 (så stora som arket tillåter). Skriv ut framsidor i färg, vänd pappret längs långsidan, skriv ut baksidor.
             Dubbelsidigt: långsida (long-edge). Klipp längs kortkanten. Häng efter skuta, bokstäverna mot väggen.
             ${overlaysOk ? '' : 'Varning: någon ram saknas.'}
           </p>
