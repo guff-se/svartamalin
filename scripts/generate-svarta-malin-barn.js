@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * Iterative portrait generator for Svarta Malin as a child — ~10, innocent, not yet a pirate.
- * On a ship, nautical tattered clothes, hand-drawn / watercolor portrait (not a studio photo).
- * Same pipeline as generate-svarta-malin-portrait.js; no weapons.
+ * Nautical tattered clothes; varies medium, prop (rope / toy boat / telescope), and place.
+ * Same pipeline as generate-svarta-malin-portrait.js; no weapons; never overwrites.
  *
  * Input:  images/malin-barn/IMG_5372.JPG … IMG_5376.JPG
  * Output: images/malin-barn-generated/<stem>.jpg, <stem>-v2.jpg, … (never overwrites)
@@ -15,6 +15,7 @@
  *
  * Usage:
  *   npm run generate-svarta-malin-barn                 # all 5 sources
+ *   npm run generate-svarta-malin-barn -- --times 3    # three full passes
  *   npm run generate-svarta-malin-barn -- IMG_5374     # specific source
  *   npm run generate-svarta-malin-barn -- --keep-expression
  */
@@ -48,35 +49,83 @@ const KEEP_EXPRESSION = `FACIAL EXPRESSION — PRESERVE FROM SOURCE: Keep the ex
 
 const VARY_EXPRESSION = `FACIAL EXPRESSION — INNOCENT CHILD: Soft, genuine, unguarded. A shy half-smile, a curious open look, a gap-toothed grin, quiet wonder, or a candid glance — never fierce, never commanding, never a villain smirk, never adult glamour. Same girl, child-honest.`
 
-const CHILD = `SVARTA MALIN AS A CHILD: This is Malin before the legend — about ten, a sailor's daughter living aboard a wooden ship. Innocent, curious, wind in her hair. She belongs on deck, not in a studio. Not a captain, not dangerous, not posing for a photographer. A well-made painted portrait of a ship-child.`
+const CHILD = `SVARTA MALIN AS A CHILD: This is Malin before the legend — about ten, a sailor's daughter. Innocent, curious, wind in her hair. She may be aboard or ashore on the Swedish coast. Not a captain, not dangerous, not posing in a photographer's studio.`
 
-const INNOCENT = `INNOCENCE — NON-NEGOTIABLE: She is a child. No weapons of any kind. No flintlock, cutlass, dagger, axe, pistol, sword, hook, eyepatch, Jolly Roger, skull-and-crossbones, pirate hat, tricorn, parrot-as-pirate-prop, treasure-chest loot, rum bottle, or boarding gear. No adult sexuality, no glamour makeup, no lipstick, no smoky kohl, no beauty spot, no hoop-earring pirate jewellery, no feather boa. Nautical child clothes only — striped sailor kit, not a pirate captain's coat.`
+const INNOCENT = `INNOCENCE — NON-NEGOTIABLE: She is a child. No weapons of any kind. No flintlock, cutlass, dagger, axe, pistol, sword, hook, eyepatch, Jolly Roger, skull-and-crossbones, pirate hat, tricorn, parrot-as-pirate-prop, treasure-chest loot, rum bottle, or boarding gear. No adult sexuality, no glamour makeup, no lipstick, no smoky kohl, no beauty spot, no hoop-earring pirate jewellery, no feather boa. Nautical child clothes only — striped sailor kit, not a pirate captain's coat. A telescope is a child's brass spyglass, never a weapon.`
 
-const STYLE = `A well-made hand-drawn watercolor portrait — skilled illustrator, not a photograph, not amateur theatre. Transparent pigment washes on textured paper, visible brushwork, ink line with watercolor fill, or gouache portrait. Warm earth and sea palette: ochre, umber, salt-grey, faded navy, cream paper. Careful likeness, painterly edges, paper grain. NOT a studio photo, NOT tintype, NOT film grain photograph, NOT CGI, NOT hyperrealistic, NOT neon, NOT clean digital vector, NOT children's-book cartoon, NOT Disney.`
+const STYLE = `Vintage Svarta Malin portrait — weathered, nostalgic, faintly melancholic. Warm earth and sea palette: ochre, umber, salt-grey, faded navy, cream, a touch of faded red or moss green if the medium allows. The chosen medium must read clearly and look well-made. NOT a photographer's studio, NOT CGI, NOT neon, NOT Disney, NOT a children's-book cartoon, NOT glossy digital, NOT hyperrealistic photography.`
 
-const CRAFT = `PORTRAIT CRAFT — WELL MADE: This should look like a finished gallery watercolor or a commissioned ink-and-wash portrait. Confident drawing, considered composition, pigment that sits on paper. Handmade, but skilled — not clumsy, not a school-play poster, not a snapshot.`
+const CRAFT = `PORTRAIT CRAFT — WELL MADE: A finished commissioned portrait in the stated medium. Confident composition, careful likeness, handmade and skilled — not clumsy, not a school-play poster, not a snapshot, not a studio cyclorama.`
 
 const COSTUME_CHILD = `COSTUME — NAUTICAL, TATTERED CHILD: She wears a child's sailor kit that has seen weather. Breton stripes or navy sailor collar, rope belt, too-big pea coat or salt-stained smock, patched knees, frayed cuffs, a tear mended with mismatched thread, hem coming down, scuffed bare feet or worn deck shoes. Clothes a bit tattered — lived-in, salt and wind, not costume-shop new, not gold-braid captain finery. Never a pirate coat with epaulettes, never a sash with weapons.`
 
-const BODY = `BODY & POSTURE: A child's pose on a working ship — small against the rail and rigging. Unguarded, not filling the frame with adult swagger. Shoulders relaxed, hands visible, no power stance, no hip cock, no chin-up captain address.`
+const BODY = `BODY & POSTURE: A child's pose — unguarded, small in the place. Shoulders relaxed, hands visible, no power stance, no hip cock, no chin-up captain address.`
 
-const ON_SHIP = `SETTING — ON A SHIP, NOT A STUDIO: She is physically on the deck of a wooden sailing ship. Planks underfoot, rail, mast, shrouds, coiled rope, canvas sails, sea and sky beyond. Wind, salt air, open weather. Never a photographer's studio, never a painted backdrop curtain, never a stool in front of a cyclorama, never a garden, never a cottage porch.`
+const PLACE = `SETTING — COASTAL CHILDHOOD, NEVER A STUDIO: She is outdoors in a real nautical place — ship, dock, rock, shore, harbour. Wind, salt air, open weather. Never a photographer's studio, never a painted backdrop curtain, never a stool in front of a cyclorama, never a garden, never a cottage porch.`
 
-const NEG = `No studio photograph, no photographer's backdrop, no painted kuliss curtain, no stool-and-cyclorama, no tintype, no wet-plate photo, no film grain photo, no garden, no cottage, no school portrait, no pirate, no captain, no tricorn, no skull-and-crossbones, no Jolly Roger, no flintlock, no pistol, no cutlass, no sword, no dagger, no axe, no hook, no eyepatch, no parrot, no rum, no treasure chest of loot, no adult woman, no teenager, no aged-up face, no different person, no face swap, no generic model child, no altered bone structure, no adult makeup, no lipstick, no smoky kohl, no beauty spot, no hoop pirate earrings, no feather boa, no sexy pose, no glamour stare, no hammy villain expression, no power stance, no Pirates of the Caribbean, no Jack Sparrow, no Disney pirate, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no cartoon, no text, no watermark, no playing card overlay.`
+const NEG = `No studio photograph, no photographer's backdrop, no painted kuliss curtain, no stool-and-cyclorama, no garden, no cottage, no school portrait, no pirate, no captain, no tricorn, no skull-and-crossbones, no Jolly Roger, no flintlock, no pistol, no cutlass, no sword, no dagger, no axe, no hook, no eyepatch, no parrot, no rum, no treasure chest of loot, no adult woman, no teenager, no aged-up face, no different person, no face swap, no generic model child, no altered bone structure, no adult makeup, no lipstick, no smoky kohl, no beauty spot, no hoop pirate earrings, no feather boa, no sexy pose, no glamour stare, no hammy villain expression, no power stance, no Pirates of the Caribbean, no Jack Sparrow, no Disney pirate, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no cartoon, no text, no watermark, no playing card overlay.`
 
-const POSE = [
-  'standing at the ship\'s rail, small hands on the wood, sea behind her',
-  'sitting on a coil of rope on deck, knees up, looking toward the viewer',
-  'holding a shroud line, leaning slightly with the ship\'s heel',
-  'perched on a deck crate, feet dangling, wind in her hair',
-  'crouched by the scuppers looking at a seashell, deck planks around her',
-  'standing amidships, one hand on a mast hoop, curious not commanding',
-  'sitting on the companionway step, elbows on knees, chin in hands',
-  'three-quarter turn at the rail, looking back over her shoulder',
-  'leaning on the gunwale watching the wake, hair blown aside',
-  'cross-legged on the deck beside coiled hawser, a wooden toy boat in her lap',
-  'standing in the bow, small against the bowsprit and stays',
-  'sitting with her back against the mast, picture book closed in her lap',
+const LOCATIONS = [
+  {
+    id: 'ship',
+    place: 'on the deck of a wooden sailing ship — rail, mast, shrouds, canvas, sea beyond',
+    poses: [
+      'standing at the ship\'s rail, small hands on the wood, sea behind her',
+      'sitting on a coil of rope on deck, knees up, looking toward the viewer',
+      'holding a shroud line, leaning slightly with the ship\'s heel',
+      'perched on a deck crate, feet dangling, wind in her hair',
+      'three-quarter turn at the rail, looking back over her shoulder',
+      'standing in the bow, small against the bowsprit and stays',
+    ],
+  },
+  {
+    id: 'dock',
+    place: 'on a weathered wooden dock / jetty, pilings and still harbour water, moored boats behind',
+    poses: [
+      'sitting on the dock edge, heels kicking above the water',
+      'standing on the jetty, one hand on a mooring post',
+      'cross-legged on sun-bleached planks, harbour behind her',
+      'leaning on a piling, looking back toward the viewer',
+      'walking the dock, small against the quay and masts',
+    ],
+  },
+  {
+    id: 'rock',
+    place: 'on a granite rock by the water, Swedish skerries, waves at the foot of the stone',
+    poses: [
+      'sitting on a sun-warmed rock, knees drawn up, sea behind',
+      'standing on a low skerry boulder, wind in her hair',
+      'perched on a cliff-edge rock, water far below, not dangerous-looking',
+      'crouched on wet stone at the waterline, spray on her shins',
+    ],
+  },
+  {
+    id: 'shore',
+    place: 'on a pebble beach / shoreline, seaweed and driftwood, a quiet bay',
+    poses: [
+      'standing barefoot at the water\'s edge, small waves at her feet',
+      'sitting on driftwood, the bay opening behind her',
+      'crouched on pebbles, looking up from the shore',
+    ],
+  },
+  {
+    id: 'harbour',
+    place: 'on a stone harbour wall / quay, ladders, iron rings, fishing boats at rest',
+    poses: [
+      'sitting on the harbour wall, legs hanging toward the water',
+      'standing by an iron mooring ring, stone quay and masts behind',
+      'leaning over the quay edge, curious, not commanding',
+    ],
+  },
+  {
+    id: 'rowboat',
+    place: 'in or beside a small wooden rowboat pulled up on shore or tied at a dock',
+    poses: [
+      'sitting in the stern of a beached rowboat, oars shipped',
+      'standing in the shallows beside the rowboat, one hand on the gunwale',
+      'perched on the thwart of a tied dinghy at the dock',
+    ],
+  },
 ]
 
 const GAZE = [
@@ -99,29 +148,33 @@ const COSTUME = [
 ]
 
 const PROPS = [
-  'a worn picture book (Elsie Beskow / Tomtebobarnen energy) held gently',
-  'a single seashell in her open palm',
-  'a small unpainted wooden toy boat',
-  'nothing in her hands — empty child hands on the rail',
-  'a bit of spare marline / thin rope she is fidgeting with',
-  'a tin cup of water, no rum',
-]
-
-const BACKGROUND = [
-  'wooden deck of a sailing ship, rail and sea beyond, fair weather',
-  'amidships: mast, shrouds, coiled rope, canvas above, open sky',
-  'the bow: bowsprit, stays, water rushing below, no battle',
-  'beside the companionway hatch, deck planks and a coiled hawser',
-  'at the rail with sails and a quiet horizon, no storm, no kraken',
-  'sitting against the mast, rigging and pale sky, salt air',
-  'near the stern rail, wake and gulls, timber and rope in the foreground',
+  'a coil of thick hawser rope in her lap, one end in her hands',
+  'a length of worn rope slung over her shoulder like a sash',
+  'thin marline / spare line she is fidgeting into a knot',
+  'sitting against a coil of dock rope, one strand in her fingers',
+  'a small unpainted wooden toy boat held in both hands',
+  'a carved pine toy boat with a paper sail, in her lap',
+  'a wooden toy boat she is about to set on the water',
+  'a toy dinghy tucked under one arm',
+  'a small brass spyglass held to one eye — a child\'s telescope, not a captain\'s',
+  'a closed brass telescope held in both hands like something precious',
+  'a spyglass tucked under her arm, looking toward the horizon without using it',
+  'a short brass telescope pointed at a distant island, seated',
 ]
 
 const MEDIA = [
-  'finished watercolor portrait on textured paper, visible washes',
+  'finished watercolor on rag paper, transparent washes, visible paper grain',
   'ink line and watercolor wash, skilled illustrator\'s portrait',
-  'gouache on cream paper, painterly but careful likeness',
-  'hand-drawn watercolor on rag paper, pigment pooling in the folds of cloth',
+  'gouache on cream board, opaque pigment, painterly but careful likeness',
+  'antique hand-coloured copper engraving — fine etched line, later tinted in muted earth and sea colours',
+  'vintage chromolithograph, cabinet-card / cigarette-card print, limited bold palette slightly faded',
+  'sepia bistre ink wash drawing, warm brown monochrome, paper showing through',
+  'soft pastel on toned paper, chalky strokes, sea-air light',
+  'oil sketch on canvas, alla prima, visible brush, unfinished edges around a finished face',
+  'conté crayon portrait on cream paper, warm brown and black, a little white chalk',
+  'hand-coloured lithograph, 19th-century print, slightly off-register tints',
+  'Swedish picture-book illustration in the spirit of Bauer or Beskow — lyrical, not cartoon, not Disney',
+  'pencil underdrawing with watercolor, Sargent-like wet paper, careful child likeness',
 ]
 
 function pickRandom(pool) {
@@ -129,20 +182,20 @@ function pickRandom(pool) {
 }
 
 function buildPrompt({ keepExpression = false } = {}) {
-  const pose = pickRandom(POSE)
+  const location = pickRandom(LOCATIONS)
+  const pose = pickRandom(location.poses)
   const gaze = keepExpression
     ? 'exact same facial expression as the input photo — unchanged smile, mouth, and eyes'
     : pickRandom(GAZE)
   const media = pickRandom(MEDIA)
   const costume = pickRandom(COSTUME)
   const props = pickRandom(PROPS)
-  const background = pickRandom(BACKGROUND)
 
-  const subject = `Paint a well-made watercolor / hand-drawn portrait of this girl as Svarta Malin at about ten — innocent, not yet a pirate, standing on a wooden sailing ship. Portrait orientation, aspect ratio 63:88 (playing card proportions), vertical composition.
+  const subject = `Make a well-made portrait of this girl as Svarta Malin at about ten — innocent, not yet a pirate. Portrait orientation, aspect ratio 63:88 (playing card proportions), vertical composition.
 
-Render as a ${media}. Half- or three-quarter-length portrait of a child on deck. ${pose}. ${gaze}. Costume (nautical, a bit tattered): ${costume}. Prop: ${props}. She is on a ship: ${background}. No studio, no photograph, no weapons, no pirate captain costume, no adult glamour.`
+Medium: ${media}. Half- or three-quarter-length. Place: ${location.place}. Pose: ${pose}. ${gaze}. Costume (nautical, a bit tattered): ${costume}. Prop (must be visible): ${props}. No studio, no weapons, no pirate captain costume, no adult glamour.`
 
-  const blocks = [LIKENESS, AGE, CHILD, INNOCENT, COSTUME_CHILD, ON_SHIP]
+  const blocks = [LIKENESS, AGE, CHILD, INNOCENT, COSTUME_CHILD, PLACE]
   if (keepExpression) {
     blocks.push(KEEP_EXPRESSION)
   } else {
@@ -152,17 +205,18 @@ Render as a ${media}. Half- or three-quarter-length portrait of a child on deck.
 
   const summary = [
     keepExpression ? 'keep expr' : 'innocent expr',
-    'age ~10 · ship · watercolor',
-    pose.split(/[,.]/)[0].slice(0, 28),
+    `age ~10 · ${location.id} · ${media.split(',')[0].slice(0, 22)}`,
+    pose.split(/[,.]/)[0].slice(0, 24),
   ].join(' · ')
 
   const picks = {
+    location: location.id,
+    place: location.place,
     pose,
     gaze,
     media,
     costume,
     props,
-    background,
   }
 
   return { prompt: blocks.join(' '), summary, picks }
@@ -388,8 +442,10 @@ function parseArgs(argv) {
   let filterStem = null
   let keepExpression = false
   let all = false
+  let times = 1
 
-  for (const arg of argv) {
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i]
     if (arg === '--keep-expression' || arg === '-k') {
       keepExpression = true
       continue
@@ -398,61 +454,74 @@ function parseArgs(argv) {
       all = true
       continue
     }
+    if (arg === '--times' || arg === '-n') {
+      times = Math.max(1, Number(argv[++i]) || 1)
+      continue
+    }
+    if (arg.startsWith('--times=')) {
+      times = Math.max(1, Number(arg.slice(8)) || 1)
+      continue
+    }
     if (arg.startsWith('-')) continue
     filterStem = arg.replace(/\.(jpe?g|png|webp)$/i, '')
   }
 
   if (all) filterStem = '--all'
-  return { filterStem, keepExpression }
+  return { filterStem, keepExpression, times }
 }
 
 async function main() {
   const backend = await resolveBackend()
-  const { filterStem, keepExpression } = parseArgs(process.argv.slice(2))
+  const { filterStem, keepExpression, times } = parseArgs(process.argv.slice(2))
   const queue = await listSources(filterStem)
 
   console.log(`Backend: ${backend.name}`)
   console.log(`Expression: ${keepExpression ? 'keep (from source photo)' : 'innocent child (vary)'}`)
   console.log(`Sources: ${queue.map((f) => basename(f)).join(', ')}`)
+  console.log(`Passes: ${times} (${queue.length * times} portraits)`)
   console.log(`Output → ${OUT_DIR}`)
   console.log(`Prompt log → ${PROMPT_LOG}\n`)
 
-  for (const file of queue) {
-    const stem = basename(file, extname(file))
-    const inPath = join(IN_DIR, file)
-    const { version, filename, path: outPath } = await resolveOutputPath(stem)
-    const { prompt, summary, picks } = buildPrompt({ keepExpression })
+  for (let pass = 1; pass <= times; pass++) {
+    if (times > 1) console.log(`── pass ${pass}/${times} ──`)
 
-    const versionLabel = version > 1 ? ` v${version}` : ''
-    process.stdout.write(`🌱 ${file}${versionLabel} → ${filename} (${summary}) … `)
+    for (const file of queue) {
+      const stem = basename(file, extname(file))
+      const inPath = join(IN_DIR, file)
+      const { version, filename, path: outPath } = await resolveOutputPath(stem)
+      const { prompt, summary, picks } = buildPrompt({ keepExpression })
 
-    const start = Date.now()
-    const logBase = {
-      source: file,
-      output: filename,
-      version,
-      backend: backend.name,
-      keepExpression,
-      summary,
-      picks,
-      prompt,
-    }
+      const versionLabel = version > 1 ? ` v${version}` : ''
+      process.stdout.write(`🌱 ${file}${versionLabel} → ${filename} (${summary}) … `)
 
-    try {
-      const jpeg = await backend.generate(inPath, prompt)
-      if (await fileExists(outPath)) {
-        throw new Error(`refusing to overwrite existing file: ${filename}`)
+      const start = Date.now()
+      const logBase = {
+        source: file,
+        output: filename,
+        version,
+        backend: backend.name,
+        keepExpression,
+        summary,
+        picks,
+        prompt,
       }
-      await writeFile(outPath, jpeg, { flag: 'wx' })
-      const durationSec = ((Date.now() - start) / 1000).toFixed(1)
-      await logPrompt({ ...logBase, status: 'ok', durationSec })
-      console.log(`done (${durationSec}s, ${(jpeg.length / 1024).toFixed(0)} KB)`)
-      console.log(`   → ${filename}`)
-    } catch (err) {
-      await logPrompt({ ...logBase, status: 'failed', error: err.message })
-      console.log('FAILED')
-      console.error(`   ${err.message}`)
-      process.exitCode = 1
+
+      try {
+        const jpeg = await backend.generate(inPath, prompt)
+        if (await fileExists(outPath)) {
+          throw new Error(`refusing to overwrite existing file: ${filename}`)
+        }
+        await writeFile(outPath, jpeg, { flag: 'wx' })
+        const durationSec = ((Date.now() - start) / 1000).toFixed(1)
+        await logPrompt({ ...logBase, status: 'ok', durationSec })
+        console.log(`done (${durationSec}s, ${(jpeg.length / 1024).toFixed(0)} KB)`)
+        console.log(`   → ${filename}`)
+      } catch (err) {
+        await logPrompt({ ...logBase, status: 'failed', error: err.message })
+        console.log('FAILED')
+        console.error(`   ${err.message}`)
+        process.exitCode = 1
+      }
     }
   }
 
