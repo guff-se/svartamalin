@@ -73,7 +73,35 @@ async function renderAdmin() {
   await Promise.all([renderGuests(), renderCrews()])
 }
 
-/** @type {{ key: 'name' | 'pirate' | 'crew', dir: 1 | -1 }} */
+function formatLastLogin(iso) {
+  const d = new Date(iso)
+  if (Number.isNaN(d.getTime())) return '—'
+  return d.toLocaleString('sv-SE', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  })
+}
+
+function attachLoginStats(guests, visits) {
+  const stats = new Map()
+  for (const v of visits ?? []) {
+    if (!v.guest_id) continue
+    const cur = stats.get(v.guest_id) ?? { count: 0, last: null }
+    cur.count += 1
+    if (!cur.last || v.created_at > cur.last) cur.last = v.created_at
+    stats.set(v.guest_id, cur)
+  }
+  for (const g of guests ?? []) {
+    const s = stats.get(g.id)
+    g.login_count = s?.count ?? 0
+    g.last_login = s?.last ?? null
+  }
+}
+
+/** @type {{ key: 'name' | 'pirate' | 'crew' | 'last_login' | 'login_count', dir: 1 | -1 }} */
 let guestSort = { key: 'crew', dir: 1 }
 
 function compareNullable(a, b, dir, { string = false } = {}) {
@@ -113,6 +141,10 @@ function sortGuests(guests, crews, names) {
       if (cmp === 0 && a.crew_id != null && b.crew_id != null) {
         cmp = (a.crew_id - b.crew_id) * dir
       }
+    } else if (key === 'last_login') {
+      cmp = compareNullable(a.last_login, b.last_login, dir)
+    } else if (key === 'login_count') {
+      cmp = (a.login_count - b.login_count) * dir
     }
     if (cmp === 0) cmp = a.real_name.localeCompare(b.real_name, 'sv')
     return cmp
@@ -182,7 +214,7 @@ function characterDetailHtml(guest) {
   }).join('')
   return `
     <tr class="admin-character-detail">
-      <td colspan="6">
+      <td colspan="8">
         <dl class="admin-character-fields">${fields}</dl>
       </td>
     </tr>
@@ -191,14 +223,16 @@ function characterDetailHtml(guest) {
 
 async function renderGuests() {
   const characterCols = CHARACTER_FIELDS.map((f) => f.col).join(', ')
-  const [{ data: guests }, { data: crews }, { data: names }] = await Promise.all([
+  const [{ data: guests }, { data: crews }, { data: names }, { data: visits }] = await Promise.all([
     supabase
       .from('guests')
       .select(`id, real_name, pirate_name_id, crew_id, phone, email, ${characterCols}`)
       .eq('attending', true),
     supabase.from('crews').select('id, name').order('id'),
     supabase.from('pirate_names').select('id, name, position').order('position'),
+    supabase.from('login_events').select('guest_id, created_at'),
   ])
+  attachLoginStats(guests, visits)
   const crewOpts = (crews ?? []).map((c) => `<option value="${c.id}">${escapeHtml(c.name)}</option>`).join('')
   const sorted = sortGuests(guests, crews, names)
 
@@ -213,6 +247,8 @@ async function renderGuests() {
           ${sortHeader('Namn', 'name')}
           ${sortHeader('Piratnamn', 'pirate')}
           ${sortHeader('Lag', 'crew')}
+          ${sortHeader('Senast', 'last_login')}
+          ${sortHeader('Besök', 'login_count')}
           <th>Kontakt</th>
           <th>Karaktär</th>
         </tr>
@@ -229,6 +265,8 @@ async function renderGuests() {
                 ${crewOpts.replace(`value="${g.crew_id}"`, `value="${g.crew_id}" selected`)}
               </select>
             </td>
+            <td class="admin-login-time">${g.last_login ? escapeHtml(formatLastLogin(g.last_login)) : '—'}</td>
+            <td class="admin-login-count">${g.login_count}</td>
             <td style="font-size:0.8rem; color:var(--paper-dark)">
               ${g.phone ? escapeHtml(g.phone) + '<br/>' : ''}
               ${g.email ? escapeHtml(g.email) : ''}
@@ -247,7 +285,8 @@ async function renderGuests() {
       if (guestSort.key === key) {
         guestSort = { key, dir: guestSort.dir === 1 ? -1 : 1 }
       } else {
-        guestSort = { key, dir: 1 }
+        const descFirst = key === 'last_login' || key === 'login_count'
+        guestSort = { key, dir: descFirst ? -1 : 1 }
       }
       renderGuests()
     })

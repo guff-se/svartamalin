@@ -156,3 +156,13 @@
   font-size: 0.85rem;
   line-height: 1.45;
 }
+.admin-login-time {
+  white-space: nowrap;
+  color: var(--paper-dark);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.8rem;
+}
+.admin td.admin-login-count {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
