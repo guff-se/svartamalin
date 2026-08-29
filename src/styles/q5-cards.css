@@ -225,9 +225,9 @@ body.q5-cards-page #song-subtitles {
     display: grid;
     grid-template-columns: repeat(2, var(--q5-card-w));
     grid-template-rows: repeat(2, var(--q5-card-h));
-    justify-content: space-between;
-    align-content: space-between;
-    height: 277mm;
+    gap: 4mm;
+    justify-content: start;
+    align-content: start;
   }
 
   .q5-slot {
