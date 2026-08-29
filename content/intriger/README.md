@@ -32,7 +32,7 @@ Gästlistan är stängd: en fil per gäst med `attending = true` i Supabase, ing
 ## Format
 
 Valfri frontmatter (för agenten, syns inte för gästen), sedan 2–3 intriger som `##`-rubriker.
-**Ordning i `guests/`:** 1. mullvadsintrig om personen är mullvad, 2. questintriger (start före tvärledtråd), 3. kontaktpersonintrig om personen är kontakt, 4. övriga. En person är mullvad, kontakt eller ingen av delarna, aldrig båda.
+**Ordning i `guests/`:** 1. mullvadsintrig om personen är mullvad, 2. questintriger (start före tvärledtråd), 3. kontaktpersonintrig om personen är kontakt, 4. övriga. En person är mullvad, kontakt eller ingen av delarna, aldrig båda. Förrädarstycket (1 eller 3) ska bära drivkraften, så att varken mullvad eller kontakt behöver en senare romanssektion för att förstå varför skutan säljs.
 Varje rubrik annoteras med `{slug:login_slug}` för personen intrigens porträtt ska visa (syns inte i UI):
 
 ```md

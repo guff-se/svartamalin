@@ -12,7 +12,9 @@ related: [navidmodiri, ulrikahammar, gustaftadaa]
 
 ## Faten du bär åt Döver {slug:navidmodiri}
 
-Att hålla masken rak när du "översätter" hans hittepåtecken är bara hälften av vad du gör för **Kapten Döver**. Den andra hälften är allt du för vidare från din egen skuta: vad **Galeonen Gnället** planerar, gömmer och viskar, rakt in i **Fregatten Fördärvet**s väntande händer. Du hjälper hela hans skuta med det, inte bara honom, och det vet ni båda fullt ut. Men skälet du gör det av är bara han. Du vill ha honom mer än du någonsin svor din egen besättning trohet, och det räcker för att göra dig till hans spion, inte till Fördärvets vän.
+Du vill ha **Kapten Döver**. De talande händerna mot huden, munnen som aldrig behöver svara, en koja där teckenspråk är överflödigt. Det är därför du gör mer än att hålla masken rak när du "översätter" hans hittepåtecken. Allt du för vidare från **Galeonen Gnället**, vad er skuta planerar, gömmer och viskar, går rakt in i **Fregatten Fördärvet**.
+
+Ni båda vet vems lag du hjälper. Skälet är bara han. Inte Fördärvet. Inte flaggan. Du säljer din egen skuta för att få honom, och det räcker.
 
 Din svåraste stund kommer när det gäller din egen skeppskamrat **Kapten Rötägg**. Han lastade en gång **Kapten Döver**s skepp med tunnor mat som redan stank, räknade med att en döv kapten inte skulle höra klagomålen i tid, och Döver har aldrig släppt det. Vet du var Rötägg gömmer sig eller vad han planerar, för det vidare, även om han seglat vid din sida hela helgen utan att ana vems hemligheter du bär. Välj hur långt du går, innan festen är över.
 

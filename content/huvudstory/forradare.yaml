@@ -13,6 +13,9 @@
 #   * kontakt får inte vara mullvadens fiende (fiender.yaml)
 #   * bygg på romans när cirkeln tillåter (romanser.yaml)
 #   * mullvaden ska vilja något av uppdragsgivaren, inte bara "var förrädare"
+#   * drivkraften ska stå i förrädarstycket hos både A och B. Inte bara i en
+#     senare romans- eller sidosektion. Romans när cirkeln tillåter: gör den
+#     tydlig redan där. Inte romans: säg den andra drivkraften (titel, skuld).
 #   * inte mullvad: malintadaa, gustaftadaa, josefinlowing, viktoransund,
 #     fabianmacklin, jesperlejfjord
 #   * inte kontakt: gustaftadaa. malintadaa default inte (stjäl från antagonisten)
@@ -48,7 +51,7 @@ forradare:
     home: 3
     works_for: 5
     bygger_pa: null
-    note: Omslumpad 2026-08-24. Läs inte upp a för Gustaf.
+    note: Omslumpad 2026-08-24. Läs inte upp a för Gustaf. Drivkraft: Skäggens Konung. Rosing köper honom med Gnällets röst. Inte romans.
     status: done
 
 
@@ -69,7 +72,7 @@ forradare:
     home: 2
     works_for: 4
     bygger_pa: null
-    note: Omslumpad 2026-08-24. Läs inte upp a för Gustaf.
+    note: Omslumpad 2026-08-24. Läs inte upp a för Gustaf. Drivkraft: Hurrings jakt efter angivaren landar på Fuling. Hjärter styr ryktet bort mot Fördärvets hemligheter. Inte romans. Hjärter anar skam, vet inte att hon angav.
     status: done
 
 

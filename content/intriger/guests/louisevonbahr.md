@@ -18,9 +18,9 @@ related: [jesperlindmarker, navidmodiri, jesperlejfjord, hampuslindblad, linneaa
 
 ## Rösten som pekar bort från dig {slug:jesperlejfjord}
 
-**Kapten Hurring** letar fortfarande efter vem som en gång angav honom, och ju längre han frågar runt, desto oftare landar blicken på dig. **Kapten Hjärter** hör allt vid sin gryta, mer än han låtsas, och han vet precis hur lätt ett rykte kan styras åt ett annat håll om bara rätt person viskar det vid rätt eld.
+**Kapten Hurring** letar fortfarande efter vem som en gång angav honom, och ju längre han frågar runt, desto oftare landar blicken på dig. Neka hur högt du vill. Blicken stannar. **Kapten Hjärter** hör allt vid sin gryta, mer än han låtsas, och han vet precis hur lätt ett rykte kan styras åt ett annat håll om bara rätt person viskar det vid rätt eld.
 
-Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du hör och ser inne på **Fregatten Fördärvet**, planer, gömmen, svaga punkter, buret rakt till **Fregatten Fromheten** innan din egen skuta anar något. Du arbetar för Fromheten nu, i allt som rör den här hemligheten, och han vet precis vad han köpt av dig. Men det är inte av lojalitet till hans skuta du gör det. Det är för att han håller Hurrings misstankar borta från din dörr. Ge honom det han begär, och håll det dolt, innan festen är över och Hurring bestämmer sig ändå.
+Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du hör och ser inne på **Fregatten Fördärvet**, planer, gömmen, svaga punkter, buret rakt till **Fregatten Fromheten** innan din egen skuta anar något. Du arbetar för Fromheten nu, i allt som rör den här hemligheten. Inte av lojalitet till hans skuta. För att han håller Hurrings misstankar borta från din dörr. Ge honom det han begär, och håll det dolt, innan festen är över och Hurring bestämmer sig ändå.
 
 ## Anklagelsen du alltid nekat {slug:jesperlindmarker}
 

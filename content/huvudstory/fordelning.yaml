@@ -227,7 +227,7 @@ fordelning:
     akt: II
     till: [ulrikahammar]
     roll: barare
-    vet: "att hon arbetar i hemlighet för Barken Bortförklaringen, och att Kapten Nykter är hennes enda länk. Hemmalaget vet ingenting."
+    vet: "att hon arbetar i hemlighet för Barken Bortförklaringen, och att Kapten Nykter är hennes enda länk. Hon gör det för hans uppvaktning och löftet att hålla Rosing borta, inte för Barken. Hon har inte släppt Döver."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt (treasure) utöver den egna jakten"
     speglas: [fabianmacklin]
     bygger_pa: "romans: 5"
@@ -239,7 +239,7 @@ fordelning:
     akt: II
     till: [fabianmacklin]
     roll: grindvakt
-    vet: "att Kapten Barnsben på Korvetten Kurtisanen är hans mullvad. Ingen annan ombord vet."
+    vet: "att Kapten Barnsben på Korvetten Kurtisanen är hans mullvad. Ingen annan ombord vet. Hon gör det för uppvaktningen och löftet, inte för Barken."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
     speglas: [ulrikahammar]
     bygger_pa: "romans: 5"
@@ -251,7 +251,7 @@ fordelning:
     akt: II
     till: [hampuslindblad]
     roll: barare
-    vet: "att han arbetar i hemlighet för Galeonen Gnället, och att Kapten Rosing är hans enda länk. Hemmalaget vet ingenting."
+    vet: "att han arbetar i hemlighet för Galeonen Gnället, och att Kapten Rosing är hans enda länk. Hemmalaget vet ingenting. Han gör det för titeln Skäggens Konung, inte av kärlek till Gnället."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt (treasure) utöver den egna jakten"
     speglas: [linneaekbom]
     bygger_pa: null
@@ -264,7 +264,7 @@ fordelning:
     akt: II
     till: [linneaekbom]
     roll: grindvakt
-    vet: "att Kapten Blåskägg på Barken Bortförklaringen är hennes mullvad. Ingen annan ombord vet."
+    vet: "att Kapten Blåskägg på Barken Bortförklaringen är hennes mullvad. Ingen annan ombord vet. Hon köpte honom med Gnällets röst mot titeln Skäggens Konung, inte med romans."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
     speglas: [hampuslindblad]
     bygger_pa: null
@@ -277,7 +277,7 @@ fordelning:
     akt: II
     till: [alexandrapalmquist]
     roll: barare
-    vet: "att hon arbetar i hemlighet för Fregatten Fördärvet, och att Kapten Döver är hennes enda länk. Hemmalaget vet ingenting."
+    vet: "att hon arbetar i hemlighet för Fregatten Fördärvet, och att Kapten Döver är hennes enda länk. Hemmalaget vet ingenting. Hon gör det för att hon vill ha honom, inte för Fördärvet."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt (treasure) utöver den egna jakten"
     speglas: [navidmodiri]
     bygger_pa: "romans: 7"
@@ -289,7 +289,7 @@ fordelning:
     akt: II
     till: [navidmodiri]
     roll: grindvakt
-    vet: "att Kapten Babord på Galeonen Gnället är hans mullvad. Ingen annan ombord vet."
+    vet: "att Kapten Babord på Galeonen Gnället är hans mullvad. Ingen annan ombord vet. Hon gör det för att hon vill ha honom, inte för flaggan."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
     speglas: [alexandrapalmquist]
     bygger_pa: "romans: 7"
@@ -301,7 +301,7 @@ fordelning:
     akt: II
     till: [louisevonbahr]
     roll: barare
-    vet: "att hon arbetar i hemlighet för Fregatten Fromheten, och att Kapten Hjärter är hennes enda länk. Hemmalaget vet ingenting."
+    vet: "att hon arbetar i hemlighet för Fregatten Fromheten, och att Kapten Hjärter är hennes enda länk. Hemmalaget vet ingenting. Hon gör det för att han håller Hurrings jakt bort från henne, inte för Fromheten."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt (treasure) utöver den egna jakten"
     speglas: [jesperlejfjord]
     bygger_pa: null
@@ -314,7 +314,7 @@ fordelning:
     akt: II
     till: [jesperlejfjord]
     roll: grindvakt
-    vet: "att Kapten Fuling på Fregatten Fördärvet är hans mullvad. Ingen annan ombord vet."
+    vet: "att Kapten Fuling på Fregatten Fördärvet är hans mullvad. Ingen annan ombord vet. Hon gör det för att hålla Hurrings liggare borta, inte för Fromheten. Han anar skam kring angiveriet, vet inte att hon angav."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
     speglas: [louisevonbahr]
     bygger_pa: null
@@ -327,7 +327,7 @@ fordelning:
     akt: II
     till: [minervalowgren]
     roll: barare
-    vet: "att hon arbetar i hemlighet för Korvetten Kurtisanen, och att Kapten Hurring är hennes enda länk. Hemmalaget vet ingenting."
+    vet: "att hon arbetar i hemlighet för Korvetten Kurtisanen, och att Kapten Hurring är hennes enda länk. Hemmalaget vet ingenting. Hon gör det för att hon är förälskad i honom, rädd att han slutar se henne om hon slutar ge."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt (treasure) utöver den egna jakten"
     speglas: [jesperlindmarker]
     bygger_pa: "romans: 13"
@@ -339,7 +339,7 @@ fordelning:
     akt: II
     till: [jesperlindmarker]
     roll: grindvakt
-    vet: "att Kapten Prygel på Fregatten Fromheten är hans mullvad. Ingen annan ombord vet."
+    vet: "att Kapten Prygel på Fregatten Fromheten är hans mullvad. Ingen annan ombord vet. Hon gör det för att hon är förälskad i honom, inte för Kurtisanen."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
     speglas: [minervalowgren]
     bygger_pa: "romans: 13"

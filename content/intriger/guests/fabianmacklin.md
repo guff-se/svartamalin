@@ -22,9 +22,9 @@ Var den sitter vet du inte än. Ta med dig **Barken Bortförklaringen** och bör
 
 ## Handen som viskar från Kurtisanen {slug:ulrikahammar}
 
-Din uppvaktning vid sy- och broderihörnan har gett dig mer än en plats i skymningen. **Kapten Barnsben** viskar dig allt hon hör och ser inne på **Korvetten Kurtisanen**, och det hon ger dig hjälper **Barken Bortförklaringen** vinna mark hon annars aldrig skulle unnat er. Hon gör det inte av trohet till din skuta. Hon gör det för din skull, till varje pris hennes egen besättning skulle kalla förräderi.
+Du uppvaktar **Kapten Barnsben** vid sy- och broderihörnan, och du vill ha henne: tilliten i skymningen, låren, burken, munnen. Det är därför hon redan viskar dig allt hon hör inne på **Korvetten Kurtisanen**. Hon gör det för din skull, för uppvaktningen, för löftet att ingen, inte **Kapten Rosing**, inte din egen besättning, ska stå mellan er den kväll hon väljer att lita på dig helt. Inte av trohet till **Barken Bortförklaringen**. Det hon ger hjälper din skuta vinna mark hon annars aldrig skulle unnat er, till varje pris hennes egen besättning skulle kalla förräderi.
 
-Ta emot det hon ger utan att låta det synas, inte för **Kapten Rosing**, som fortfarande tror hon tävlar om en ärlig plats i hennes skymning, och inte för din egen skuta, som gärna skulle fira en spion men aldrig skona den som avslöjas. Ge Bortförklaringen den fördel hon bär till dig, och håll henne, och hemligheten, hela vägen till sista skålen.
+Ta emot det hon ger utan att låta det synas, inte för Rosing, som fortfarande tror hon tävlar om en ärlig plats i hennes skymning, och inte för din egen skuta, som gärna skulle fira en spion men aldrig skona den som avslöjas. Ge Bortförklaringen den fördel hon bär till dig, och håll henne, och hemligheten, hela vägen till sista skålen.
 
 ## Den hon litar på i skymningen {slug:ulrikahammar}
 

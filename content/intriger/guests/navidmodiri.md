@@ -21,7 +21,7 @@ related: [ulrikahammar, alexandrapalmquist, edvinthungren, louisevonbahr, malint
 
 ## Lasten hon bär åt dig {slug:alexandrapalmquist}
 
-**Kapten Babord** ger dig mer än ett rakt ansikte när du "tecknar" på gården. Hon för allt hon hör inne på **Galeonen Gnället** rakt till dig, och därmed till hela **Fregatten Fördärvet**: planer, gömmen, viskningar, ett grepp om en skuta ni annars aldrig skulle ana något om. Hon vet precis vems lag hon hjälper, det är ingen tvekan mellan er om det. Men skälet hon gör det av är bara du, inte flaggan, och det gör henne farligt lätt att förlora om du någonsin tar det för givet.
+**Kapten Babord** vill ha dig. Händerna hon "översätter" ska sluta i hennes kläder, inte i luften över gården. Det är därför hon ger dig mer än ett rakt ansikte när du tecknar. Hon för allt hon hör inne på **Galeonen Gnället** rakt till dig, och därmed till **Fregatten Fördärvet**: planer, gömmen, viskningar, ett grepp om en skuta ni annars aldrig skulle ana något om. Hon vet precis vems lag hon hjälper. Hon gör det för att hon vill ha dig, inte för flaggan, och det gör henne farligt lätt att förlora om du någonsin tar det för givet.
 
 Be henne inte om det som rör **Kapten Rötägg** utan att veta vad du ber om. Han seglar vid hennes sida hela helgen, ovetande om att hon redan valt din sida efter tunnorna han lastade på ditt skepp. Skydda henne från att avslöjas som spion lika hårt som du skyddar din egen påhittade dövhet, innan festen är över.
 

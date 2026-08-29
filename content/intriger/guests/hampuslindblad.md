@@ -19,9 +19,9 @@ related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linnea
 
 ## Rösten Gnället köper {slug:linneaekbom}
 
-**Kapten Rosing** hittar dig vid kajen, långt innan någon utropas, och säger något som får dig att undra hur hon vet det: att du fasar för dagen **Kapten Rödskägg** eller **Kapten Lösskägg** kallas Skäggens Konung istället för dig. Hon erbjuder hela **Galeonen Gnället**s röst som förstärkning, redo att ropa, klappa och överrösta dem båda när kajen ska se en kung.
+Du tänker bli Skäggens Konung innan festen är över. **Kapten Rödskägg** och **Kapten Lösskägg** är de enda som kan ta titeln från dig, och du fasar för den dagen. **Kapten Rosing** hittade dig vid kajen, långt innan någon utropas, och sa precis det, som om hon hört det inifrån ditt eget skägg. Hon erbjuder hela **Galeonen Gnället**s röst som förstärkning, redo att ropa, klappa och överrösta dem båda när kajen ska se en kung.
 
-Priset är enkelt. Allt du hör inifrån **Barken Bortförklaringen**, vem som viskar med vem, vart faten bärs, vilka planer som läggs vid din egen mässa, ska nå henne, och genom henne **Galeonen Gnället**. Du arbetar för Gnället nu, i den här hemligheten, det är ni båda helt överens om, men bara därför att Rosing köpte dig med den rösten, inte av någon kärlek till hennes skuta. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och se till att kajen ser dig som kung innan festen är över.
+Priset är **Barken Bortförklaringen**. Allt du hör inifrån din egen mässa, vem som viskar med vem, vart faten bärs, vilka planer som läggs, ska nå henne, och genom henne Gnället. Du arbetar för hennes lag nu, i den här hemligheten. Inte för att du älskar hennes skuta. För att hon köpte dig med den rösten, och för att titeln väger tyngre än din egen köl. Ge Rosing det hon vill veta, håll tyst om varifrån hjälpen kommer, och se till att kajen ser dig som kung innan festen är över.
 
 ## Skäggens Konung {slug:viktoransund}
 

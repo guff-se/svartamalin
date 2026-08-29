@@ -20,6 +20,17 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-29, förrädarintriger och drivkraft
+
+Källa: Gustaf, i chatt. Införd i gästintrigerna för de fem paren, [`forradare.yaml`](forradare.yaml), [`../intriger/STYLE.md`](../intriger/STYLE.md).
+
+- [x] vi har bytt ordningen på intriger så att förrädar-intriger hamnar längst upp. det har i vissa fall gjort att romansen som är mullvadens drivkraft till förrädreriet inte kommer förrän efter texten om förräderiet.
+- [x] gå igenom alla mullvadar och kontaktpersoner, gå igenom intriger och förtydliga drivkraften, så att båda vet om varför mullvaden väljer att förråda sitt skepp. i de fall de är romanser, gör romansen tydlig.
+
+Kryss = förrädarstycket bär varför. Kontaktpersonens stycke säger samma varför. Romans 5, 7, 13 är tydliga i själva förräderiet. Blåskägg/Rosing: titeln. Fuling/Hjärter: Hurrings jakt.
+
+---
+
 ## 2026-08-29, sångblad Så länge skutan kan gå
 
 Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md).

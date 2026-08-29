@@ -14,7 +14,9 @@ related: [jesperlindmarker, johannabergman, elinmartensson, gustaftadaa, jesperl
 
 ## Given du ger honom {slug:jesperlindmarker}
 
-Du är förälskad i **Kapten Hurring**. Inte lagom. Inte med måtta. Den sortens kärlek som gör att Fromhetens psalmer låter falska i din mun och valsedeln darrar när han går förbi. **Fregatten Fromheten** predikar piratval och avlat mot **Svarta Malin**, rena händer och blanka siffror, och du står gärna där som om psalmen fortfarande vore din. Den är det inte. Du är inte så from längre. Allt du hör och ser inne på din egen skuta, skeppskamraternas planer, deras svaga punkter, deras gömmen, bär du rakt till honom, och genom honom till **Korvetten Kurtisanen**. Du vet precis vem det gynnar, och han vet att du vet det. Du gör det inte för hans skuta. Du gör det för att han ska se att du valt honom, och för att du är rädd att han slutar se dig om du slutar ge.
+Du är förälskad i **Kapten Hurring**. Inte lagom. Inte med måtta. Den sortens kärlek som gör att Fromhetens psalmer låter falska i din mun och valsedeln darrar när han går förbi. Det är därför du förråder **Fregatten Fromheten**. Inte för **Korvetten Kurtisanen**. För honom.
+
+Din skuta predikar piratval och avlat mot **Svarta Malin**, rena händer och blanka siffror, och du står gärna där som om psalmen fortfarande vore din. Den är det inte. Du är inte så from längre. Allt du hör och ser inne på din egen skuta, skeppskamraternas planer, deras svaga punkter, deras gömmen, bär du rakt till honom, och genom honom till Kurtisanen. Du vet precis vem det gynnar, och han vet att du vet det. Du gör det för att han ska se att du valt honom, och för att du är rädd att han slutar se dig om du slutar ge.
 
 Ge honom det han ber om, plan för plan, gömma för gömma. En blick tillbaka är hela din lön. Håll det dolt för din egen besättning och för hans kapten, innan festen är över.
 
