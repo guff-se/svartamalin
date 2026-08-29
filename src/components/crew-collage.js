@@ -3,6 +3,7 @@ import { portraitPath } from '../lib/portraits.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { sortByPirateNameId } from '../lib/pirate-name-order.js'
 import { bindLightboxTriggers, openLightbox } from '../lib/image-lightbox.js'
+import { withPirateBlurb } from '../lib/karaktarer.js'
 import { escapeHtml } from '../lib/escape.js'
 import { pirateCardHtml } from './pirate-card.js'
 
@@ -38,7 +39,11 @@ export function wirePirateNameLightbox(el) {
     big.src = src
     big.alt = name
     big.className = 'lightbox-image'
-    openLightbox({ ariaLabel: name, content: big, returnFocus: trigger })
+    openLightbox({
+      ariaLabel: name,
+      content: withPirateBlurb(big, name),
+      returnFocus: trigger,
+    })
   }
 
   el.addEventListener('click', (e) => {
@@ -133,7 +138,8 @@ function cloneCardForLightbox(card) {
   clone.removeAttribute('tabindex')
   clone.removeAttribute('role')
   clone.removeAttribute('aria-label')
-  return clone
+  const name = card.querySelector('.pirate-card__name')?.textContent?.trim()
+  return withPirateBlurb(clone, name)
 }
 
 function cardLightboxState(card, cards, index) {

@@ -209,6 +209,46 @@ body.pirate-card-lightbox-open {
   max-height: 90vh;
 }
 
+.pirate-card-lightbox__card:has(> .pirate-card-lightbox__figure) {
+  width: min(90vw, calc((90vh - 5.5rem) * 63 / 88), 26rem);
+  max-height: 90vh;
+}
+
+.pirate-card-lightbox__figure {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.85rem;
+  max-height: 90vh;
+}
+
+.pirate-card-lightbox__figure > .pirate-card {
+  width: 100%;
+  min-height: 0;
+}
+
+.pirate-card-lightbox__figure > .lightbox-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: calc(90vh - 5.5rem);
+  object-fit: contain;
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+}
+
+.pirate-card-lightbox__blurb {
+  margin: 0;
+  padding: 0 0.15rem;
+  color: var(--paper);
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 2.4vw, 1rem);
+  line-height: 1.4;
+  text-align: center;
+  text-wrap: pretty;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.65);
+}
+
 .pirate-card-lightbox__image {
   width: min(90vw, calc(90vh * var(--lightbox-aspect, 2 / 3)));
   max-height: 90vh;
