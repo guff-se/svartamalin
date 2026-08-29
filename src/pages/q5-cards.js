@@ -4,7 +4,7 @@ import { GUEST_REAL_NAMES } from '../lib/guest-real-names.js'
 import { overlayForGuest } from '../lib/card-frame-assignments.js'
 import { CARD_OVERLAYS, pirateCardHtml, overlayForId, frameIdFromOverlay } from '../components/pirate-card.js'
 import { escapeHtml } from '../lib/escape.js'
-import { Q5_WALL, Q5_CREWS, Q5_PER_PAGE } from '../lib/q5-wall.js'
+import { Q5_WALL, Q5_CREWS, Q5_COLS, Q5_PER_PAGE } from '../lib/q5-wall.js'
 import '../styles/q5-cards.css'
 
 function chunk(arr, size) {
@@ -13,12 +13,12 @@ function chunk(arr, size) {
   return out
 }
 
-/** Mirror each row of a 3-col sheet so duplex (long-edge) backs line up. */
+/** Mirror each row so duplex (long-edge) backs line up. */
 function mirrorSheet(cards) {
-  const rows = chunk(cards, 3)
+  const rows = chunk(cards, Q5_COLS)
   return rows.flatMap((row) => {
     const padded = [...row]
-    while (padded.length < 3) padded.push(null)
+    while (padded.length < Q5_COLS) padded.push(null)
     return padded.reverse()
   })
 }
@@ -192,7 +192,7 @@ export async function renderQ5Cards(app) {
         <div>
           <h1>Q-5 piratkort</h1>
           <p class="q5-cards__hint">
-            24 kort, pokerstorlek 63×88&nbsp;mm. Skriv ut framsidor i färg, vänd pappret längs långsidan, skriv ut baksidor.
+            24 kort, fyra per A4 (90×126&nbsp;mm). Skriv ut framsidor i färg, vänd pappret längs långsidan, skriv ut baksidor.
             Dubbelsidigt: långsida (long-edge). Klipp längs kortkanten. Häng efter skuta, bokstäverna mot väggen.
             ${overlaysOk ? '' : 'Varning: någon ram saknas.'}
           </p>

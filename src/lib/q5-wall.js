@@ -40,4 +40,5 @@ export const Q5_WALL = [
   { slug: 'linneaappert', pirateName: 'Kapten Planka', pirateNameId: 57, letter: '', crewId: 1 },
 ]
 
-export const Q5_PER_PAGE = 9
+export const Q5_COLS = 2
+export const Q5_PER_PAGE = 4

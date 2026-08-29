@@ -220,9 +220,11 @@ body.q5-cards-page #song-subtitles {
   }
 
   .q5-sheet__grid {
+    --q5-card-w: 90mm;
+    --q5-card-h: 125.7mm;
     display: grid;
-    grid-template-columns: repeat(3, 63mm);
-    grid-template-rows: repeat(3, 88mm);
+    grid-template-columns: repeat(2, var(--q5-card-w));
+    grid-template-rows: repeat(2, var(--q5-card-h));
     justify-content: space-between;
     align-content: space-between;
     height: 277mm;
@@ -230,8 +232,8 @@ body.q5-cards-page #song-subtitles {
 
   .q5-slot {
     position: relative;
-    width: 63mm;
-    height: 88mm;
+    width: var(--q5-card-w);
+    height: var(--q5-card-h);
   }
 
   .q5-slot--empty {
@@ -244,16 +246,16 @@ body.q5-cards-page #song-subtitles {
   }
 
   body.q5-cards-page .q5-slot .pirate-card {
-    width: 63mm;
+    width: var(--q5-card-w);
     max-width: none;
-    height: 88mm;
+    height: var(--q5-card-h);
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
   body.q5-cards-page .q5-slot .pirate-card__inner {
-    width: 63mm;
-    height: 88mm;
+    width: var(--q5-card-w);
+    height: var(--q5-card-h);
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
