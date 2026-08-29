@@ -14,6 +14,14 @@ body.q5-cards-page #song-subtitles {
   display: none !important;
 }
 
+/* Skarpa hörn för klippning — inte spelkortsradie */
+body.q5-cards-page .pirate-card__inner,
+body.q5-cards-page .pirate-card__photo,
+body.q5-cards-page .pirate-card__photo-img {
+  border-radius: 0;
+  clip-path: none;
+}
+
 .q5-cards {
   max-width: 72rem;
   margin: 0 auto;
