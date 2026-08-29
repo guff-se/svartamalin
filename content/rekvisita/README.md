@@ -31,7 +31,8 @@ Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, 
 
 | Fil | Taggar | Vad | Var |
 |-----|--------|-----|-----|
-| [`kista-karleksbrev.md`](kista-karleksbrev.md) | `kista`, `B-42`, `K-07` | Kärleksbrev från Karl XII. Enda plot-relevanta i kistan. | Malins kista |
+| [`kista-karleksbrev.md`](kista-karleksbrev.md) | `kista`, `B-42`, `K-07` | Kärleksbrev från Karl XII. Tändningens innehåll. | Malins kista |
+| [`kista-konfrontera.md`](kista-konfrontera.md) | `kista`, `B-42`, `K-11` | Order: konfrontera Malin efter kaviar och rom. | Malins kista |
 | [`kista-dressing-1-natt.md`](kista-dressing-1-natt.md) | `kista`, `B-42`, `K-06` | Lapp från kungen. Dressing. | Malins kista |
 | [`kista-dressing-2-rummet.md`](kista-dressing-2-rummet.md) | `kista`, `B-42`, `K-06` | Lapp från kungen. Dressing. | Malins kista |
 | [`Q1-dagbok-1-fore.md`](Q1-dagbok-1-fore.md) | `Q-1`, `Q1-01`, blad 2 | Dagboksblad före förräderiet | Gubben och Gumman |

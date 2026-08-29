@@ -36,13 +36,14 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 10. [`pussel.md`](pussel.md) lediga pusselbyggstenar. När en bit tillsätts flyttas den till questens fil eller platsen och stryks här. Story: [`quests.md`](quests.md)
 11. [`ritual.md`](ritual.md) lördag 15.30, ritualen
 12. [`slutstriden.md`](slutstriden.md) lördag ca 20.00, finalen
-13. [`spelledning.md`](spelledning.md) runtime: signaler, säkerhet, nödbromsar, vem gör vad
-14. [`produktion.md`](produktion.md) props, inköp, bygg, deadlines
-15. [`fordelning.yaml`](fordelning.yaml) vilken deltagare som får vilken story-bit, med skrivstatus
-16. [`beslut.md`](beslut.md) beslutslogg och öppna frågor
-17. [`egna.md`](egna.md) checklista: saker Gustaf sagt själv, skilt från agentpåhitt
-18. [`cast.md`](cast.md) referenstabell: slug, riktigt namn, piratnamn, skuta
-19. [`RESEARCH.md`](RESEARCH.md) destillerad best practice för lajvintriger och escape rooms
+13. [`genomgang.md`](genomgang.md) vad som sägs i de praktiska genomgångarna
+14. [`spelledning.md`](spelledning.md) runtime: hint, bypass, cryptex, Malin i roll, efter 15.30
+15. [`produktion.md`](produktion.md) props, inköp, bygg, deadlines
+16. [`fordelning.yaml`](fordelning.yaml) vilken deltagare som får vilken story-bit, med skrivstatus
+17. [`beslut.md`](beslut.md) beslutslogg och öppna frågor
+18. [`egna.md`](egna.md) checklista: saker Gustaf sagt själv, skilt från agentpåhitt
+19. [`cast.md`](cast.md) referenstabell: slug, riktigt namn, piratnamn, skuta
+20. [`RESEARCH.md`](RESEARCH.md) destillerad best practice för lajvintriger och escape rooms
 
 ---
 
@@ -82,12 +83,12 @@ Fasta ramar. Ändras bara genom ett medvetet beslut som loggas i [`beslut.md`](b
 10. **Sista versen i sången är finalen.** Slutstriden ska eka den, aldrig citera utgången i förväg.
 11. **Allt pågår samtidigt och får kollidera.** Huvudstory, skattjakt, romanser och fiendskaper är inte isolerade spår. En skatt kan vara en pusselnyckel. Ett svek kan vara att sälja lagets skatt mot en ledtråd.
 12. **Gästerna vet att det finns en huvudstory innan helgen.** De vet inte vad den är. Frön får stå i intrigfiler och i gästcopy. Fredag är fortfarande utan mekanik.
-13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins berlock (`4X`, `5I`, `6I`), som hon sätter på när hon serverar. All ledtrådssamling av `1H`, `2K`, `3H` sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns brev mellan Malin och kungen, plus minnen och skatter. Det enda plot-relevanta är kärleksbrevet från Karl XII. Brevet är kontraktet och kärleksakten. Det är tändningen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md).
+13. **Kistan öppnas vid kaviar och rom.** Cryptexens lösenord går inte att kläcka utan Malins berlock (`4X`, `5I`, `6I`), som hon sätter på när hon serverar. All ledtrådssamling av `1H`, `2K`, `3H` sker före 15.30. Öppnandet vid 20.00 är ceremoni. I kistan finns brev mellan Malin och kungen, plus minnen och skatter, plus en orderlapp: konfrontera Malin efter kaviar och rom. Tändningens innehåll är kärleksbrevet från Karl XII. Brevet är kontraktet och kärleksakten. Lappen är ordern att flyga på henne efter serveringen. Trycktext: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md), [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
 14. **Aldrig ensam på vattnet.** Off-regel, hela helgen. Ingen eka, kajak, paddel eller bad utan sällskap. Ingen story-bit, intrig eller pussel får kräva att någon åker ut eller badar själv.
 15. **Båtarna sköts av Kuling och Rödskägg.** Kapten Kuling (`josefinlowing`) och Kapten Rödskägg (`viktoransund`) har hand om eka, kajak och paddel. En *skriven* intrig som kräver sjöfärd går primärt genom att övertala en av dem att ge sig ut, för spel och interaktion. Man **får** åka ut utan dem. Off-regeln är bara: aldrig ensam.
-16. **Låt saker som hittas av misstag få vara.** Off-regel, sägs i genomgången. Gäster löser gåtor och uppdrag, inte brute force. Ingen story-bit, skatt eller pussel får kräva att ön ransakas. Den som råkar hitta något de inte söker lämnar det.
+16. **Låt saker som hittas av misstag få vara.** Off-regel, sägs i genomgången. Gäster löser gåtor och uppdrag, inte brute force. Ingen story-bit, skatt eller pussel får kräva att ön ransakas. Den som råkar hitta något de inte söker lämnar det. Se [`genomgang.md`](genomgang.md).
 17. **Fem parallella quests.** Inte en linjär kedja. Varje skuta har ingång till tre. Varje quest har tre skutor. Start i en spelares intrig. **Starten är första ledtråden, inte kapitlet.** Normalt ett eller två pit stops. **Q-2 är undantag: inga pit stops, inget pussel.** Skatt med cryptex-token. Tre quests ger `1H`, `2K`, `3H`. Malins berlock ger `4X`, `5I`, `6I`. Tillsammans: `HKHXII`. Varje quest har både storyline och uppgift. Q-2:s uppgift är att åka till stugan, läsa minnena, ta en token `1H`, och följa namnbladet till Ottos grav (`2K`). Storyn lär något om Malins historia och får ljuga. Den får inte röja affären eller förräderiet med Karl XII. Stories och tillsatt mekanik: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Lediga byggstenar: [`pussel.md`](pussel.md).
-18. **Sexpositiv fest, inte på sajten.** Alla deltagare är vana vid sexpositiva rum. Inget avgränsat play space: sex tillåtet överallt och när som helst. Sägs i genomgången. Får inte stå i `../copy/`. Intriger och rekvisita får vara explicita. Register: lust och sex, inte romankärlek. Se [`../intriger/STYLE.md`](../intriger/STYLE.md) och [`spelledning.md`](spelledning.md).
+18. **Sexpositiv fest, inte på sajten.** Alla deltagare är vana vid sexpositiva rum. Inget avgränsat play space: sex tillåtet överallt och när som helst. Sägs i genomgången. Får inte stå i `../copy/`. Intriger och rekvisita får vara explicita. Register: lust och sex, inte romankärlek. Se [`../intriger/STYLE.md`](../intriger/STYLE.md) och [`genomgang.md`](genomgang.md).
 19. **Korvetten Kurtisanens quest-trådar är hemliga för Malin.** Hon är skutans egen kapten. En quest-start (Q-1 till Q-5) som ges till en av hennes skutkamrater (`petterwallberg`, `linneaappert`, `ulrikahammar`, `jesperlindmarker`, inte henne själv) ska instruera att uppdraget löses utan att Malin ser eller anar det, eftersom hon delar koj, köl och vardag med dem hela helgen. Se [`quests.md`](quests.md) regel 8.
 
 ---

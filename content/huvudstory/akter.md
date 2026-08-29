@@ -434,7 +434,7 @@ Plats:          samma
 Inblandade:     den som öppnade eller den som skriker först. Sedan alla.
 Publik:         alla
 
-Vad händer:     i kistan ligger ingen skatt (treasure), utan brev mellan Malin och kungen, plus minnen och skatter (treasure, dressing). Det enda plot-relevanta är kärleksbrevet från Karl XII. Brevet läses högt: Malin har sålt dem. Festen är fällan. Kungens män ska slå till i gryningen. Hon blir ensam härskare och rikligt belönad. Hälsning och sista rad gör sängen omöjlig att missa. De som jagat en rival i hamnen förstår vem de jagat. Man flyger på jubilaren.
+Vad händer:     i kistan ligger ingen skatt (treasure), utan brev mellan Malin och kungen, plus minnen och skatter (treasure, dressing), plus en orderlapp. Tändningens innehåll är kärleksbrevet från Karl XII. Brevet läses högt: Malin har sålt dem. Festen är fällan. Kungens män ska slå till i gryningen. Hon blir ensam härskare och rikligt belönad. Hälsning och sista rad gör sängen omöjlig att missa. De som jagat en rival i hamnen förstår vem de jagat. Lappen (K-11) säger att konfrontationen sker efter kaviar och rom. Man flyger på jubilaren då, inte under serveringen.
 
 Vad ändras:     slutstriden har börjat. Den hemliga älskaren är inte någon på ön.
 
@@ -444,7 +444,7 @@ Väg 2:          någon håller upp brevet och skriker innebörden
 Spelledarväg:   Malin erkänner, eller Spader läser. Samma innehåll.
 
 Pusselnod:      ingen. Detta är inte ett pussel.
-Props:          kärleksbrevet (K-07, trettio sekunder högt). Dressing: övriga brev, minnen, skatter, miniatyr (K-06, K-08).
+Props:          kärleksbrevet (K-07, trettio sekunder högt). Orderlapp K-11: konfrontera Malin efter kaviar och rom. Dressing: övriga brev, minnen, skatter, miniatyr (K-06, K-08).
 Om det floppar: innehållet missas i tumult. Någon ställer sig på en bänk och läser brevet igen. Striden får inte starta utan att rummet vet varför.
 
 ---

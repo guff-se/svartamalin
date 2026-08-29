@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-29, lapp i kistan: konfrontera Malin
+
+Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md), [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
+
+- [x] lägg in att det skall ligga en lapp i kistan där det står "konfrontera malin efter kaviar och rom"
+
+Kryss = K-11, en lapp i kistan. Tryck verbatim. Inte från kungen. Inte dressing. Ordern: konfrontera efter kaviar och rom, inte under serveringen.
+
+---
+
 ## 2026-08-29, rekvisita-listan är bara spelledningens
 
 Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md).
@@ -485,7 +495,7 @@ Kryss = inlagt i kanon, premiss, quests, kistbrev och tändning. Q-3:s cirkulera
 
 ## 2026-08-23, sexpositiv fest
 
-Källa: Gustaf, i chatt. Införd i [`../intriger/STYLE.md`](../intriger/STYLE.md), [`../copy/README.md`](../copy/README.md), [`spelledning.md`](spelledning.md), [`tidslinje.md`](tidslinje.md), [`beslut.md`](beslut.md), [`platser.md`](platser.md).
+Källa: Gustaf, i chatt. Införd i [`../intriger/STYLE.md`](../intriger/STYLE.md), [`../copy/README.md`](../copy/README.md), [`genomgang.md`](genomgang.md), [`tidslinje.md`](tidslinje.md), [`beslut.md`](beslut.md), [`platser.md`](platser.md).
 
 - [x] Detta är en sexpositiv fest. Även om det inte bjuds in som en sådan så är alla deltagare vana vid sexpositiva rum, så det är inget konstigt bland deltagarna.
 - [x] Vi har inget bestämt play space, utan det är tillåtet med sex över allt och när som helst.
@@ -634,7 +644,7 @@ Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`forradare.yaml`](
 
 ## 2026-08-20, off-regel: inget brute force
 
-Källa: Gustaf, i chatt. Införd i genomgången, [`spelledning.md`](spelledning.md).
+Källa: Gustaf, i chatt. Införd i genomgången, [`genomgang.md`](genomgang.md).
 
 - [x] Låt saker som hittas av misstag få vara. Lös gåtor och uppdrag, inte bara brute force.
 

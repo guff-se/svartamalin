@@ -2,44 +2,14 @@
 
 Intern text för Gustaf och agenten. Gäster läser inte detta.
 
-Runtime på ön. Design, quests, pussel och platser står inte här.
+Runtime på ön. Design, quests, pussel och platser står inte här. Vad som sägs i de praktiska genomgångarna: [`genomgang.md`](genomgang.md).
 
 - Story och beats: [`akter.md`](akter.md)
 - Quests: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Hint och bypass sitter i questens fil. Lediga byggstenar: [`pussel.md`](pussel.md)
 - Platser, båtar, vatten: [`platser.md`](platser.md)
 - Ritualen: [`ritual.md`](ritual.md). Finalen: [`slutstriden.md`](slutstriden.md)
 - Vem som gör vad: [`cast.md`](cast.md), [`../anteckningar/README.md`](../anteckningar/README.md)
-
----
-
-## Säkerhetsverktyg
-
-Fyra. Inte på sajten. Lärs ut i genomgångarna.
-
-| Verktyg | Så gör man | Så svarar omgivningen |
-|---------|-----------|----------------------|
-| **Cut** | Säg "cut" | Allt spel stannar. Ingen frågar varför. Någon checkar in. |
-| **Largo** | Säg "largo" | Ett steg tillbaka, lägre intensitet. Spelet fortsätter. |
-| **Lookdown** | Handen som solskydd, backa och gå | Ingen reagerar. Fungerar också för att kliva in obemärkt. |
-| **OK-check** | OK-tecken, ögonkontakt | Tumme upp: okej. Tumme ner eller vaggande hand: bryt roll, hjälp. |
-
-## Praktiska genomgångar
-
-Samma innehåll, andra gången kortare. Ordning:
-
-1. Play to lift. Häng på andras initiativ. Ge folk deras segrar. Mullvad som aldrig tar kontakt: strunt. Mullvad som vill ur: cut, ingen ersättare.
-2. Lookdown, largo, OK-check, cut.
-3. Aldrig ensam på vattnet. Gäller onsen. Kuling och Rödskägg har båtarna. Man får åka utan dem.
-4. Låt saker som hittas av misstag få vara. Ingen ransakning. Skattjakten börjar i lagintrigen, vid första spåret, inte vid att vända rum.
-5. Fredag är fest. Ingen pussellösning, ingen jakt på gömmen. Spelet startar lördag 10.30.
-6. Sexpositiv fest. Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Samma cut, largo, lookdown, OK-check som resten av spelet. Står inte på sajten.
-
-När:
-
-- Fredag 18.30, välkomstskålen. Full version, 5–10 min. Alla gör gesterna en gång.
-- Lördag 10.30, inledning till transitionen. Kort repris, sedan ceremonin.
-- Lördag 15.28, innan ritualen. Bara cut, largo, lookdown.
-- Lördag 20.45, innan striden. Bara cut.
+- Praktisk genomgång (vad som sägs, säkerhetsverktygen): [`genomgang.md`](genomgang.md)
 
 ---
 
@@ -57,7 +27,7 @@ Hint och bypass: i questens fil under [`quests/`](quests/). Lediga byggstenar: [
 
 ## Cryptexen
 
-Lappen är en order om play to lose.
+Lappen är en order om play to lose. Säg det i genomgången lördag 10.30 (punkt 7). Se [`genomgang.md`](genomgang.md). Runtime om den hamstras:
 
 1. Den ska byta ägare. Gömd i en ficka mer än en scen: Malin lånar den, någon tar den, eller Spader ser till att den tappas.
 2. Vet ungefär var den är. Inte GPS. Borta: sök, sedan reservnyckel vid festen.
@@ -78,7 +48,7 @@ Hon vet att älskaren är Karl XII. Hon vet att festen är fällan. Hon är trö
 - Hon får vara trött på att kallas Svarta Malin. Inte varför. Inte planen.
 - Hon får flirta och försvinna med gäster. Det gömmer den hemliga, det motbevisar den inte.
 - Hjärter och Blodig får jaga fel person. Ge dem en scen, inte sanningen.
-- Vid B-42: brevet upp. Då får hon erkänna.
+- Vid B-42: brevet upp. Lappen i kistan: konfrontera efter kaviar och rom. Då får hon erkänna.
 
 Om hon tillfrågas om Otto, stugan eller graven: vad hon får säga står i [`quests/Q-2.md`](quests/Q-2.md). Hon ger inte tokens. Hon säger inte att hon gör om det nu.
 
