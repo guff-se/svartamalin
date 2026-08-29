@@ -53,15 +53,15 @@ const CHILD = `SVARTA MALIN AS A CHILD: This is Malin before the legend — abou
 
 const INNOCENT = `INNOCENCE — NON-NEGOTIABLE: She is a child. No weapons of any kind. No flintlock, cutlass, dagger, axe, pistol, sword, hook, eyepatch, Jolly Roger, skull-and-crossbones, pirate hat, tricorn, parrot-as-pirate-prop, treasure-chest loot, rum bottle, or boarding gear. No adult sexuality, no glamour makeup, no lipstick, no smoky kohl, no beauty spot, no hoop-earring pirate jewellery, no feather boa. Nautical child clothes only — striped sailor kit, not a pirate captain's coat. A telescope is a child's brass spyglass, never a weapon.`
 
-const STYLE = `Vintage Svarta Malin portrait — weathered, nostalgic, faintly melancholic. Warm earth and sea palette: ochre, umber, salt-grey, faded navy, cream, a touch of faded red or moss green if the medium allows. The chosen medium must read clearly and look well-made. NOT a photographer's studio, NOT CGI, NOT neon, NOT Disney, NOT a children's-book cartoon, NOT glossy digital, NOT hyperrealistic photography.`
+const STYLE = `Vintage Svarta Malin portrait — weathered, nostalgic, faintly melancholic. Use the named palette. The chosen medium must read clearly and look well-made. NOT a photographer's studio, NOT CGI, NOT neon, NOT Disney, NOT a children's-book cartoon, NOT glossy digital, NOT hyperrealistic photography.`
 
 const CRAFT = `PORTRAIT CRAFT — WELL MADE: A finished commissioned portrait in the stated medium. Confident composition, careful likeness, handmade and skilled — not clumsy, not a school-play poster, not a snapshot, not a studio cyclorama.`
 
-const COSTUME_CHILD = `COSTUME — NAUTICAL, TATTERED CHILD: She wears a child's sailor kit that has seen weather. Breton stripes or navy sailor collar, rope belt, too-big pea coat or salt-stained smock, patched knees, frayed cuffs, a tear mended with mismatched thread, hem coming down, scuffed bare feet or worn deck shoes. Clothes a bit tattered — lived-in, salt and wind, not costume-shop new, not gold-braid captain finery. Never a pirate coat with epaulettes, never a sash with weapons.`
+const COSTUME_CHILD = `COSTUME — NAUTICAL, TATTERED CHILD: Wear the specific outfit named below. Lived-in, salt and wind, a bit tattered — not costume-shop new, not gold-braid captain finery. Never a pirate coat with epaulettes, never a sash with weapons, never a tricorn.`
 
-const BODY = `BODY & POSTURE: A child's pose — unguarded, small in the place. Shoulders relaxed, hands visible, no power stance, no hip cock, no chin-up captain address.`
+const BODY = `BODY & POSTURE: Follow the named pose. A child's body — unguarded, no power stance, no hip cock, no chin-up captain address.`
 
-const PLACE = `SETTING — COASTAL CHILDHOOD, NEVER A STUDIO: She is outdoors in a real nautical place — ship, dock, rock, shore, harbour. Wind, salt air, open weather. Never a photographer's studio, never a painted backdrop curtain, never a stool in front of a cyclorama, never a garden, never a cottage porch.`
+const PLACE = `SETTING — COASTAL CHILDHOOD, NEVER A STUDIO: Follow the named place, weather, and light. Outdoors, nautical, Swedish coast. Never a photographer's studio, never a painted backdrop curtain, never a stool in front of a cyclorama, never a garden, never a cottage porch.`
 
 const NEG = `No studio photograph, no photographer's backdrop, no painted kuliss curtain, no stool-and-cyclorama, no garden, no cottage, no school portrait, no pirate, no captain, no tricorn, no skull-and-crossbones, no Jolly Roger, no flintlock, no pistol, no cutlass, no sword, no dagger, no axe, no hook, no eyepatch, no parrot, no rum, no treasure chest of loot, no adult woman, no teenager, no aged-up face, no different person, no face swap, no generic model child, no altered bone structure, no adult makeup, no lipstick, no smoky kohl, no beauty spot, no hoop pirate earrings, no feather boa, no sexy pose, no glamour stare, no hammy villain expression, no power stance, no Pirates of the Caribbean, no Jack Sparrow, no Disney pirate, no modern clothing, no bright saturated colors, no clean digital look, no neon, no glossy CGI, no hyperrealistic skin, no cartoon, no text, no watermark, no playing card overlay.`
 
@@ -76,6 +76,9 @@ const LOCATIONS = [
       'perched on a deck crate, feet dangling, wind in her hair',
       'three-quarter turn at the rail, looking back over her shoulder',
       'standing in the bow, small against the bowsprit and stays',
+      'sitting at the capstan, one boot on a spoke',
+      'lying on her stomach on warm deck planks, chin in hands',
+      'climbing the first ratlines, only a few rungs up, not high',
     ],
   },
   {
@@ -87,6 +90,8 @@ const LOCATIONS = [
       'cross-legged on sun-bleached planks, harbour behind her',
       'leaning on a piling, looking back toward the viewer',
       'walking the dock, small against the quay and masts',
+      'lying on the dock on her side, looking down at the water',
+      'sitting with her back against a cleat, knees to chest',
     ],
   },
   {
@@ -97,6 +102,8 @@ const LOCATIONS = [
       'standing on a low skerry boulder, wind in her hair',
       'perched on a cliff-edge rock, water far below, not dangerous-looking',
       'crouched on wet stone at the waterline, spray on her shins',
+      'lying back on flat granite, sky and a gull above',
+      'standing one-footed on a stepping-stone in a rock pool',
     ],
   },
   {
@@ -106,6 +113,8 @@ const LOCATIONS = [
       'standing barefoot at the water\'s edge, small waves at her feet',
       'sitting on driftwood, the bay opening behind her',
       'crouched on pebbles, looking up from the shore',
+      'walking away along the tideline, looking back over her shoulder',
+      'kneeling to pick something from the wrack line',
     ],
   },
   {
@@ -115,6 +124,8 @@ const LOCATIONS = [
       'sitting on the harbour wall, legs hanging toward the water',
       'standing by an iron mooring ring, stone quay and masts behind',
       'leaning over the quay edge, curious, not commanding',
+      'sitting on a stone bollard, swinging one foot',
+      'halfway down a quay ladder, paused, looking up',
     ],
   },
   {
@@ -124,6 +135,62 @@ const LOCATIONS = [
       'sitting in the stern of a beached rowboat, oars shipped',
       'standing in the shallows beside the rowboat, one hand on the gunwale',
       'perched on the thwart of a tied dinghy at the dock',
+      'lying in the bottom of the boat looking at the sky',
+      'pushing the bow off the pebbles, both hands on the stem',
+    ],
+  },
+  {
+    id: 'lighthouse',
+    place: 'at the foot of a whitewashed lighthouse on granite, door ajar, sea and sky huge',
+    poses: [
+      'standing small against the lighthouse wall, looking toward the viewer',
+      'sitting on the lighthouse doorstep, knees together',
+      'leaning in the open lighthouse doorway, half in shadow',
+    ],
+  },
+  {
+    id: 'nets',
+    place: 'among fishing nets hung to dry on poles, cork floats, a glimpse of harbour beyond',
+    poses: [
+      'standing half-hidden in hanging nets, face catching light',
+      'sitting under the nets as under a tent, looking out',
+      'reaching up to touch a cork float on a drying net',
+    ],
+  },
+  {
+    id: 'slipway',
+    place: 'on a wooden boat slipway / båtslipp, wet boards, keel-blocks, a hull nearby',
+    poses: [
+      'walking down the wet slipway toward the water',
+      'sitting on a keel-block, slip and hull behind her',
+      'crouched on the slip, looking at the water at the bottom',
+    ],
+  },
+  {
+    id: 'reeds',
+    place: 'in tall reeds at a sheltered inlet, water glinting between the stems',
+    poses: [
+      'standing among reeds, only her upper half visible',
+      'sitting at the reed-edge with her feet in the shallows',
+      'parting the reeds to look out at a small boat',
+    ],
+  },
+  {
+    id: 'sandbar',
+    place: 'on a sandbar at low tide, tidal pools, the mainland a dark strip',
+    poses: [
+      'standing in a tidal pool up to her shins',
+      'crouched over a pool, reflection beside her',
+      'running a few steps on wet sand, looking back',
+    ],
+  },
+  {
+    id: 'beached',
+    place: 'among several beached fishing boats on a strand, keels in the sand',
+    poses: [
+      'sitting in the shade under a beached hull',
+      'standing between two keels, looking toward the viewer',
+      'climbing onto a beached boat\'s gunwale, not high',
     ],
   },
 ]
@@ -134,6 +201,15 @@ const GAZE = [
   'curious direct gaze, as if she has just been called by name',
   'quiet wonder, a small genuine smile',
   'candid glance, gap-toothed if the source has it, completely unguarded',
+  'looking down at the water, then catching the viewer from under her brow',
+  'squinting slightly in wind or sun, still a child, not fierce',
+  'laughing with her mouth open, unposed',
+  'serious and quiet, thinking, not sad',
+  'looking at her prop, absorbed, not at the viewer',
+  'looking past the viewer at a distant sail',
+  'biting her lower lip, concentrating',
+  'eyes almost closed against spray, smiling',
+  'profile, looking out to sea, we see the side of her face',
 ]
 
 const COSTUME = [
@@ -145,6 +221,16 @@ const COSTUME = [
   'salt-bleached sailor collar and rope-tied waist, clothes wind-worn not costume-new',
   'oversized striped shirt as a dress, knotted at the side, tattered hem, tar stain on the sleeve',
   'worn sailor kit: navy wool, cream stripe, a tear at the shoulder carefully darned',
+  'yellowed oilskin three sizes too big, sleeves rolled, striped dress underneath',
+  'thick knitted fisherman\'s jumper, sagging, patched elbows, bare legs',
+  'patched canvas dungarees over a striped vest, one strap unbuttoned',
+  'faded red flannel undershirt and a too-long navy skirt, hem wet',
+  'grey wool socks with holes, wooden clogs, short smock, wind at the hem',
+  'sou\'wester rain hat (not a tricorn) and a dripping oilskin, hair stuck to her cheeks',
+  'cream Guernsey knit gone out at the cuffs, rope belt, no shoes',
+  'checked skirt and a sailor blouse, one cuff unbuttoned and flapping',
+  'only a striped singlet and rolled trousers, sun on her shoulders, salt on her skin',
+  'a faded kerchief tied under her chin (not a pirate bandana), pea coat open',
 ]
 
 const PROPS = [
@@ -160,6 +246,14 @@ const PROPS = [
   'a closed brass telescope held in both hands like something precious',
   'a spyglass tucked under her arm, looking toward the horizon without using it',
   'a short brass telescope pointed at a distant island, seated',
+  'a single oar taller than she is, held upright',
+  'a cork fishing float on a bit of net, in her palms',
+  'a wooden bucket, empty, the rope handle in one hand',
+  'a child\'s compass on a string around her neck, she is looking at it',
+  'a tin lantern (unlit), not a weapon, hanging from her fingers',
+  'a starfish or large shell, not a treasure chest',
+  'a folded paper boat she has just made',
+  'a coil of netting with a few corks, trailing at her feet',
 ]
 
 const MEDIA = [
@@ -175,6 +269,70 @@ const MEDIA = [
   'hand-coloured lithograph, 19th-century print, slightly off-register tints',
   'Swedish picture-book illustration in the spirit of Bauer or Beskow — lyrical, not cartoon, not Disney',
   'pencil underdrawing with watercolor, Sargent-like wet paper, careful child likeness',
+  'charcoal and white chalk on grey paper, smudged sea air',
+  'sanguine red-chalk drawing, cream paper, a little graphite',
+  'drypoint etching, velvety burr, a faint hand-tint in the sky',
+  'aquatint in two greys and a warm ochre',
+  'egg tempera on gesso panel, matte, small careful strokes',
+  'woodcut with hand-colour, bold simplified shapes, still a likeness not a cartoon',
+  'coloured pencil on warm paper, layered, slightly waxy',
+  'limited three-colour letterpress-style print, cream, navy, rust',
+  'Prussian-blue cyanotype look, then hand-tinted cheeks and hair — still handmade, not a studio photo',
+  'mezzotint, dark velvety ground, her face emerging in light',
+]
+
+const WEATHER = [
+  'bright overcast Baltic light, no hard shadows',
+  'stiff breeze, clothes and hair moving, whitecaps far out',
+  'sea fog, masts and rocks half-lost, soft edges',
+  'just after rain, wet wood and stone shining',
+  'still high-summer noon, heat-haze over the water',
+  'grey chop, a little spray',
+  'dead-calm water like glass, one gull',
+  'a squall passing, a bright patch of sun on her',
+]
+
+const LIGHT = [
+  'low evening sun, long warm shadows, gold on the water',
+  'cold morning light from the east, pale',
+  'dusk, the sky still light, her face half shadow',
+  'midday glare bouncing off the water onto her chin',
+  'diffused cloud-light, even and kind',
+  'backlit, hair a bright edge, face in open shade',
+  'a shaft of sun through fog, theatrical but natural',
+  'late afternoon raking light across planks or granite',
+]
+
+const FRAMING = [
+  'close three-quarter, face large in the frame',
+  'full-length, the child small in the landscape',
+  'half-length, the named prop large in the foreground',
+  'almost profile, the place opening behind her ear',
+  'slightly high angle, she looks up',
+  'low angle from the water or the dock, she is still a small child not a hero',
+  'cropped at the knees, wind filling the rest of the frame',
+  'she is off-centre, the sea taking half the picture',
+]
+
+const HAIR = [
+  'same colour and hairline as the source; loose and windblown',
+  'same colour and hairline as the source; one messy braid',
+  'same colour and hairline as the source; wet fringe stuck to her forehead',
+  'same colour and hairline as the source; a faded ribbon half-undone',
+  'same colour and hairline as the source; tucked behind both ears',
+  'same colour and hairline as the source; salted and sticking up at the crown',
+  'same colour and hairline as the source; a single lock in her mouth',
+]
+
+const PALETTE = [
+  'ochre, umber, salt-grey, cream',
+  'cold Prussian blue, cream, a little rust',
+  'faded rust, moss green, driftwood grey',
+  'near-monochrome sepia with one note of faded red',
+  'limited green, orange, cream — slightly faded print colours',
+  'bone, tar-black, and a wash of sea-green',
+  'warm gold hour: amber, brown, pale sky',
+  'chalky pastels: grey-blue, sand, white',
 ]
 
 function pickRandom(pool) {
@@ -190,10 +348,15 @@ function buildPrompt({ keepExpression = false } = {}) {
   const media = pickRandom(MEDIA)
   const costume = pickRandom(COSTUME)
   const props = pickRandom(PROPS)
+  const weather = pickRandom(WEATHER)
+  const light = pickRandom(LIGHT)
+  const framing = pickRandom(FRAMING)
+  const hair = pickRandom(HAIR)
+  const palette = pickRandom(PALETTE)
 
   const subject = `Make a well-made portrait of this girl as Svarta Malin at about ten — innocent, not yet a pirate. Portrait orientation, aspect ratio 63:88 (playing card proportions), vertical composition.
 
-Medium: ${media}. Half- or three-quarter-length. Place: ${location.place}. Pose: ${pose}. ${gaze}. Costume (nautical, a bit tattered): ${costume}. Prop (must be visible): ${props}. No studio, no weapons, no pirate captain costume, no adult glamour.`
+Medium: ${media}. Palette: ${palette}. Framing: ${framing}. Place: ${location.place}. Weather: ${weather}. Light: ${light}. Pose: ${pose}. ${gaze}. Hair: ${hair}. Costume (nautical, a bit tattered): ${costume}. Prop (must be visible): ${props}. No studio, no weapons, no pirate captain costume, no adult glamour.`
 
   const blocks = [LIKENESS, AGE, CHILD, INNOCENT, COSTUME_CHILD, PLACE]
   if (keepExpression) {
@@ -205,8 +368,8 @@ Medium: ${media}. Half- or three-quarter-length. Place: ${location.place}. Pose:
 
   const summary = [
     keepExpression ? 'keep expr' : 'innocent expr',
-    `age ~10 · ${location.id} · ${media.split(',')[0].slice(0, 22)}`,
-    pose.split(/[,.]/)[0].slice(0, 24),
+    `age ~10 · ${location.id} · ${media.split(',')[0].slice(0, 18)}`,
+    pose.split(/[,.]/)[0].slice(0, 22),
   ].join(' · ')
 
   const picks = {
@@ -217,6 +380,11 @@ Medium: ${media}. Half- or three-quarter-length. Place: ${location.place}. Pose:
     media,
     costume,
     props,
+    weather,
+    light,
+    framing,
+    hair,
+    palette,
   }
 
   return { prompt: blocks.join(' '), summary, picks }
