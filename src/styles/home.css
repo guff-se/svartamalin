@@ -933,7 +933,8 @@
   }
 
   .intrig__card {
-    width: 7.25rem;
+    width: 9.425rem;
+    align-self: center;
   }
 
   .intrig:has(.intrig__card--ship) {
@@ -945,6 +946,7 @@
     width: 100%;
     max-width: none;
     margin: 0 0 0.35rem;
+    align-self: stretch;
   }
 
   .intrig__text {
