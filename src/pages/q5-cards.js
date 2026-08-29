@@ -140,7 +140,6 @@ function galleryHtml(cards) {
         <figcaption>
           ${card.n}. ${escapeHtml(Q5_CREWS[card.crewId])}
           ${card.letter ? ` · baksida <strong>${escapeHtml(card.letter)}</strong>` : ' · tom baksida'}
-          ${card.slug === 'amaliawahlstrom' ? ' · obesatt' : ''}
         </figcaption>
       </figure>
     `
@@ -172,7 +171,7 @@ export async function renderQ5Cards(app) {
 
   app.innerHTML = `
     <main class="q5-cards">
-      <p class="q5-cards__loading">Laddar 24 piratkort…</p>
+      <p class="q5-cards__loading">Laddar 23 piratkort…</p>
     </main>
   `
 
@@ -192,7 +191,7 @@ export async function renderQ5Cards(app) {
         <div>
           <h1>Q-5 piratkort</h1>
           <p class="q5-cards__hint">
-            24 kort, fyra per A4 (så stora som arket tillåter). Skriv ut framsidor i färg, vänd pappret längs långsidan, skriv ut baksidor.
+            23 kort (alla attending), fyra per A4. Skriv ut framsidor i färg, vänd pappret längs långsidan, skriv ut baksidor.
             Dubbelsidigt: långsida (long-edge). Klipp längs kortkanten. Häng efter skuta, bokstäverna mot väggen.
             ${overlaysOk ? '' : 'Varning: någon ram saknas.'}
           </p>

@@ -1,6 +1,6 @@
 /**
- * Q-5 porträttvägg (Q5-01). Sångordning, samma tabell som content/huvudstory/quests/Q-5.md.
- * 16 bokstäver → I SVÄRDFISKENS MUN. 8 tomma. Enben hänger obesatt.
+ * Q-5 porträttvägg (Q5-01). 23 attending. Sångordning; hoppa namn som inte hänger.
+ * 16 bokstäver → I SVÄRDFISKENS MUN. 7 tomma. Ingen Enben (Amalia återbud).
  */
 export const Q5_CREWS = {
   1: 'Korvetten Kurtisanen',
@@ -14,23 +14,22 @@ export const Q5_CREWS = {
 
 /** @type {Q5Card[]} */
 export const Q5_WALL = [
-  { slug: 'amaliawahlstrom', pirateName: 'Kapten Enben', pirateNameId: 1, letter: 'I', crewId: 3 },
-  { slug: 'minimacklin', pirateName: 'Kapten Blodig', pirateNameId: 5, letter: 'S', crewId: 2 },
-  { slug: 'josefinansund', pirateName: 'Kapten Frodig', pirateNameId: 6, letter: 'V', crewId: 3 },
-  { slug: 'alexandrapalmquist', pirateName: 'Kapten Babord', pirateNameId: 8, letter: 'Ä', crewId: 5 },
-  { slug: 'josefinlowing', pirateName: 'Kapten Kuling', pirateNameId: 9, letter: 'R', crewId: 2 },
-  { slug: 'louisevonbahr', pirateName: 'Kapten Fuling', pirateNameId: 11, letter: 'D', crewId: 2 },
-  { slug: 'fabianmacklin', pirateName: 'Kapten Nykter', pirateNameId: 18, letter: 'F', crewId: 3 },
-  { slug: 'malintadaa', pirateName: 'Svarta Malin', pirateNameId: 60, letter: 'I', crewId: 1 },
-  { slug: 'ulrikahammar', pirateName: 'Kapten Barnsben', pirateNameId: 23, letter: 'S', crewId: 1 },
-  { slug: 'navidmodiri', pirateName: 'Kapten Döver', pirateNameId: 31, letter: 'K', crewId: 2 },
-  { slug: 'jesperlejfjord', pirateName: 'Kapten Hjärter', pirateNameId: 32, letter: 'E', crewId: 4 },
-  { slug: 'gustaftadaa', pirateName: 'Löjtnant Spader', pirateNameId: 33, letter: 'N', crewId: 2 },
-  { slug: 'johannabergman', pirateName: 'Kapten Klöver', pirateNameId: 34, letter: 'S', crewId: 3 },
-  { slug: 'hampuslindblad', pirateName: 'Kapten Blåskägg', pirateNameId: 36, letter: 'M', crewId: 3 },
-  { slug: 'viktoransund', pirateName: 'Kapten Rödskägg', pirateNameId: 37, letter: 'U', crewId: 4 },
-  { slug: 'edvinthungren', pirateName: 'Kapten Rötägg', pirateNameId: 38, letter: 'N', crewId: 5 },
-  { slug: 'petterwallberg', pirateName: 'Kapten Lösskägg', pirateNameId: 39, letter: '', crewId: 1 },
+  { slug: 'minimacklin', pirateName: 'Kapten Blodig', pirateNameId: 5, letter: 'I', crewId: 2 },
+  { slug: 'josefinansund', pirateName: 'Kapten Frodig', pirateNameId: 6, letter: 'S', crewId: 3 },
+  { slug: 'alexandrapalmquist', pirateName: 'Kapten Babord', pirateNameId: 8, letter: 'V', crewId: 5 },
+  { slug: 'josefinlowing', pirateName: 'Kapten Kuling', pirateNameId: 9, letter: 'Ä', crewId: 2 },
+  { slug: 'louisevonbahr', pirateName: 'Kapten Fuling', pirateNameId: 11, letter: 'R', crewId: 2 },
+  { slug: 'fabianmacklin', pirateName: 'Kapten Nykter', pirateNameId: 18, letter: 'D', crewId: 3 },
+  { slug: 'malintadaa', pirateName: 'Svarta Malin', pirateNameId: 60, letter: 'F', crewId: 1 },
+  { slug: 'ulrikahammar', pirateName: 'Kapten Barnsben', pirateNameId: 23, letter: 'I', crewId: 1 },
+  { slug: 'navidmodiri', pirateName: 'Kapten Döver', pirateNameId: 31, letter: 'S', crewId: 2 },
+  { slug: 'jesperlejfjord', pirateName: 'Kapten Hjärter', pirateNameId: 32, letter: 'K', crewId: 4 },
+  { slug: 'gustaftadaa', pirateName: 'Löjtnant Spader', pirateNameId: 33, letter: 'E', crewId: 2 },
+  { slug: 'johannabergman', pirateName: 'Kapten Klöver', pirateNameId: 34, letter: 'N', crewId: 3 },
+  { slug: 'hampuslindblad', pirateName: 'Kapten Blåskägg', pirateNameId: 36, letter: 'S', crewId: 3 },
+  { slug: 'viktoransund', pirateName: 'Kapten Rödskägg', pirateNameId: 37, letter: 'M', crewId: 4 },
+  { slug: 'edvinthungren', pirateName: 'Kapten Rötägg', pirateNameId: 38, letter: 'U', crewId: 5 },
+  { slug: 'petterwallberg', pirateName: 'Kapten Lösskägg', pirateNameId: 39, letter: 'N', crewId: 1 },
   { slug: 'jesperlindmarker', pirateName: 'Kapten Hurring', pirateNameId: 41, letter: '', crewId: 1 },
   { slug: 'amandamungsgard', pirateName: 'Kapten Kosing', pirateNameId: 44, letter: '', crewId: 4 },
   { slug: 'linneaekbom', pirateName: 'Kapten Rosing', pirateNameId: 45, letter: '', crewId: 5 },

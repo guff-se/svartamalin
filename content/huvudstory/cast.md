@@ -4,7 +4,7 @@ Intern text för Gustaf och agenten. Gäster läser inte detta.
 
 Referenstabell för story-arbetet. Källa: tabellerna `guests` och `pirate_names` i Supabase, filtrerat på `attending = true`. Alla andra rader i `guests` ignoreras. De städas inte ur seed. Uppdatera om piratnamn eller lagindelning ändras.
 
-Verifierad mot databasen 2026-08-27. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta sedan tidigare. **Kapten Enben** (`pirate_names.id` 1) obesatt 2026-08-27: Amalia Wahlström (`amaliawahlstrom`) återbud. Porträttet hänger ändå på Q-5-väggen, bokstav I. Annars faller "I SVÄRDFISKENS MUN".
+Verifierad mot databasen 2026-08-27. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta sedan tidigare. **Kapten Enben** (`pirate_names.id` 1) obesatt 2026-08-27: Amalia Wahlström (`amaliawahlstrom`) återbud. Hänger inte på Q-5-väggen; bokstäverna börjar på Blodig.
 
 I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Piratnamn (slug)`.
 
