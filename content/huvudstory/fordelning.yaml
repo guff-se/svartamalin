@@ -903,7 +903,7 @@ fordelning:
     akt: II
     till: [jesperlejfjord]
     roll: jagare
-    vet: "att han, Löjtnant Spader och Kapten Klöver är korthajar som i år anklagat varandra för fusk, att rubbern sitter vid kökskanten så han kan spela mellan grytor, att Kapten Prygel delar, att insatsen är rykte inte kristallfyrklövern, att Katten Felix är borta och det här är buset istället, och att han märker baksidor med kökssmet"
+    vet: "att han, Löjtnant Spader och Kapten Klöver är korthajar som i år anklagat varandra för fusk, att rubbern sitter vid kökskanten så han kan spela mellan grytor, att Kapten Prygel delar, att insatsen är rykte inte kristallfyrklövern, att rubbern är hans hemliga bus, och att han märker baksidor med kökssmet"
     vet_inte: "hur Spader eller Klöver fuskar, något av kistan eller kontraktet"
     speglas: [gustaftadaa, johannabergman, minervalowgren]
     bygger_pa: "fiende: 28, 29"
