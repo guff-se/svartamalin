@@ -4,7 +4,7 @@ Intern text för Gustaf och agenten. Gäster läser inte detta.
 
 Runtime på ön. Design, quests, pussel och platser står inte här. Vad som sägs i de praktiska genomgångarna: [`genomgang.md`](genomgang.md).
 
-Klockslag Malin gör själv under spelet: avsnittet nedan.
+Klockslag spelledningen gör själv under spelet: avsnittet nedan.
 
 - Story och beats: [`akter.md`](akter.md)
 - Quests: [`quests.md`](quests.md), per quest i [`quests/`](quests/). Hint och bypass sitter i questens fil. Lediga byggstenar: [`pussel.md`](pussel.md)
@@ -17,14 +17,23 @@ Klockslag Malin gör själv under spelet: avsnittet nedan.
 
 ## Klockslag under spelet
 
-Malin gör de här två själv. Inte budbärare. Inte "någon påminner".
+Bara där Malin eller Spader måste agera själva. Inte budbärare. Inte mat, sömn eller gästdrivet. Inte TBD.
 
-| Tid | Vad | Om det glöms |
-|-----|-----|--------------|
-| Lördag **14.00**, lunchen | Cryptexen med till bordet. Därifrån i omlopp. Inte gömd i en ficka genom måltiden. | Hämta den. Lägg den synlig. |
-| Lördag **17.00**, peak | Berlocken på, med `4X`, `5I`, `6I`. | Ta på den så fort det märks. Inte vänta till 20.00. |
+| Tid | Vem | Vad | Om det glöms |
+|-----|-----|-----|--------------|
+| Fredag **18.30** | båda | Genomgång 1–6. Gesten en gång. | Säg innan folk sover. Inte vänta till lördag. |
+| Lördag **10.30** | båda | Repris 1–6 plus punkt 7, cryptex-lappen. | Punkt 7 innan lunchen. Cryptexen är inte i spel än. |
+| Lördag **13.30** | Spader, Kuling, Rödskägg | Södra Ovanan stängd. Allt vatteninnehåll inne. | Kalla hem. Ingen ute mot ritualen. |
+| Lördag **14.00** | Malin | Cryptexen med till bordet. Därifrån i omlopp. Inte gömd i en ficka genom måltiden. | Hämta den. Lägg den synlig. |
+| Lördag **15.00** | båda | Vatten stängt. Klätternätet stängt. | Stäng nu. Inte efter intag. |
+| Lördag **15.28** | båda | Cut, paus, slutstriden. Nyktra vakter vid namn. | Innan cirkeln. Folk tar in efter. |
+| Lördag **15.30** | TBD ledare | Ritualen. Cirkeln sluts och bryts explicit. | Kalla. Kortare än det känns. |
+| Lördag **17.00** | Malin | Berlocken på, med `4X`, `5I`, `6I`. | Ta på den så fort det märks. Inte vänta till 20.00. |
+| Lördag **20.00** | Malin | Kaviar och rom. Höj armen. Cryptexen fram om den är borta sen 15.30. | Servera. Kistan öppnas inte åt dem än. |
+| Lördag **20.45** | båda | Kistan stängd: reservnyckel. Innan strid: bara cut. | Tvinga upp. Säg cut. |
+| Lördag **21.20** | Spader, sedan Malin | Slöjor, sången. Ran. Lajvet är slut. | Säg det högt. Ingen ska gissa. |
 
-Kistan öppnas vid kaviar och rom **20.00**. Berlocken är bild under peak, inte en pusseljakt. Vill någon öppna kistan före festen: inte.
+Vill någon öppna kistan före 20.00: inte. Berlocken är bild under peak, inte en pusseljakt.
 
 ---
 
