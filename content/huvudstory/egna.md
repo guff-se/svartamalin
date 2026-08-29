@@ -20,6 +20,17 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-29, Malin vet om Blodig
+
+Källa: Gustaf, i chatt. Införd i [`../intriger/guests/malintadaa.md`](../intriger/guests/malintadaa.md), [`../intriger/romanser.yaml`](../intriger/romanser.yaml) #20.
+
+- [x] att kapten blodig har en kärlekshistoria med svarta malin borde vara något som malin vet.
+- [x] lägg en ny intrig för malin som beskriver deras historia.
+
+Kryss = Malin har gästtext om de tidiga åren, sveket och att hon fortfarande kan ta Blodig. Överstyr "Spegla inte deras kärlek i hennes gästtext". Hjärters kärlek förblir enväg. Q-2-stugan och Q-5-väggen läcker inte in.
+
+---
+
 ## 2026-08-29, förrädarintriger och drivkraft
 
 Källa: Gustaf, i chatt. Införd i gästintrigerna för de fem paren, [`forradare.yaml`](forradare.yaml), [`../intriger/STYLE.md`](../intriger/STYLE.md).

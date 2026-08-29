@@ -21,7 +21,7 @@
 #   * viktoransund: förbjuden kärlek med Kapten Frodig (josefinansund), inte Mini
 #   * jesperlejfjord: ville spela mot Katten Felix; Elina återbud 2026-08-23, jakten är med Blodig (fiende 21)
 #   * amandamungsgard: något med Ludvig (#19); ingenting med Mini; inte högintensivt centrum-drama
-#   * minimacklin: oläkt kärlek/svek med Svarta Malin (#20). 1 min förstummad av Malins ögon;
+#   * minimacklin: kärlekshistoria/svek med Svarta Malin (#20, mutual historia). 1 min förstummad av Malins ögon;
 #     samma tapp för skeppskatt: mjuk 1 min, inte fiendskap mot katter
 #   * edvinthungren: manschettknappar med enhörningar, fått för kärlekens skull → #3
 #   * navidmodiri: nemesis är Kapten Hjärter (fiende 23, inte romans)
@@ -121,10 +121,10 @@ romanser:
     status: done
 
   - id: 20
-    type: one_way
+    type: mutual
     a: minimacklin         # Kapten Blodig (Mini Macklin)
-    b: malintadaa          # Svarta Malin (Malin Tadaa): oläkt kärlek efter svek i tonåren
-    note: jagar hennes hemliga älskare på ön (huvudstory B-13). Sanningen är Karl XII, först i kistan. Får krocka med #17. Blodig blir förstummad 1 min om hon ser Malin i ögonen (solglasögon som garden).
+    b: malintadaa          # Svarta Malin (Malin Tadaa): kärlekshistoria i tonåren, Malin lämnade
+    note: Tvåvägs historia. Blodigs oläkta sug är tyngre. Malin vet, kan fortfarande ta henne. Jagar hennes hemliga älskare på ön (huvudstory B-13 / S-01). Sanningen är Karl XII, först i kistan. Får krocka med #17. Blodig blir förstummad 1 min om hon ser Malin i ögonen (solglasögon som garden). Inte stugan, inte skuldväggen i Malins text.
     status: done
 
   - id: 21

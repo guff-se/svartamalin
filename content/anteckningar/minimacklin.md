@@ -6,7 +6,7 @@ real_name: Mini Macklin
 
 # Kapten Blodig
 
-Jägare i huvudstoryn (B-13): oläkt kärlek efter sveket i tonåren. Vet att **Svarta Malin** gömmer en älskare, och tror att det är någon på ön. Vet **inte** att det är Karl XII.
+Jägare i huvudstoryn (B-13): oläkt kärlek efter sveket i tonåren. Malin vet om historien (gästtext 2026-08-29). Vet att **Svarta Malin** gömmer en älskare, och tror att det är någon på ön. Vet **inte** att det är Karl XII.
 
 Q-2-start och Q-5-tvärledtråd: hon vet om stugan och skuldväggen från den gamla närheten, inte som rykte. Romans 20 är skälet. Klöver, Kosing och Rödskägg får rykteversionen.
 

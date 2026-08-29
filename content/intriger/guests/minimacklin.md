@@ -1,7 +1,9 @@
 ---
 # Skuta: **Fregatten Fördärvet** (crew_id: 2)
-# S-01: oläkt kärlek till malintadaa, enväg, speglas inte
+# S-01: oläkt kärlek till malintadaa, tvåvägs historia, ditt sug tyngre
 mirrors:
+  - slug: malintadaa
+    note: kärlekshistoria i tonåren, hon lämnade, oläkt längtan (tvåvägs historia, ditt sug tyngre)
   - slug: josefinansund
     note: gammalt groll, stulet byte och blod i storseglet, du svär att hon köpte bakhållet (tvåvägs)
   - slug: josefinlowing

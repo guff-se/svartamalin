@@ -73,7 +73,7 @@ Hon vet att älskaren är Karl XII. Hon vet att festen är fällan. Hon är trö
 - Fredag: släpp inte Q-5-väggen. Lördag: låtsas inte se om någon tar ner den.
 - Hon får vara trött på att kallas Svarta Malin. Inte varför. Inte planen.
 - Hon får flirta och försvinna med gäster. Det gömmer den hemliga, det motbevisar den inte.
-- Hjärter och Blodig får jaga fel person. Ge dem en scen, inte sanningen.
+- Hjärter och Blodig får jaga fel person. Ge dem en scen, inte sanningen. Hon vet om historien med Blodig. Hon får ta henne. Inte sanningen om kungen.
 - 14.00: cryptexen med till lunchen. 17.00: berlocken på. Se klockslagen ovan.
 - Vid B-42: brevet upp. Lappen i kistan: konfrontera efter kaviar och rom. Då får hon erkänna.
 

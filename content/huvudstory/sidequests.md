@@ -116,7 +116,7 @@ Utfall om ja:   fel person utpekas, scener, svartsjuka. Dunka blir den mest öve
 Utfall om nej:  kistan bär det ändå. Brevet.
 
 Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl att vara med. Fiende 21 (Hjärter–Blodig) om den spelas.
-Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig enväg. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
+Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig tvåvägs på historien (tidiga år, sveket), hennes oläkta sug tyngre. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
 Status:         skriven
 
 Obs: Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom. Enbens vittnespekning struken 2026-08-27 (återbud). Lagskatt: Hjärter är Fromhetens dörr (smicker). Gnällets dörr är minst tre ombord plus stormraden, inte Dunkas svärd. Hjärter seglar på Fromheten som jagar Gnället, men jakten går mot galeonen, inte mot Dunka ensam. Inte samma uppdrag. Malin-affären är inte jaktens hävstång.

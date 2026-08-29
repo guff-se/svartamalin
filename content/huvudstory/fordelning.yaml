@@ -154,7 +154,7 @@ fordelning:
     roll: jagare
     vet: "att Svarta Malin gömmer en älskare efter det gamla sveket, och att allt pekar mot någon som är med på ön"
     vet_inte: "att älskaren är Karl XII, att kontraktet finns, att kistan bär sanningen"
-    speglas: []
+    speglas: [malintadaa]
     bygger_pa: "romans: 20"
     pussel: null
     status: done
@@ -1355,6 +1355,18 @@ fordelning:
     vet_inte: "inget av kistan eller kontraktet"
     speglas: []
     bygger_pa: "fiende: 5"
+    pussel: null
+    status: done
+
+  - id: 107
+    beat: S-01
+    akt: II
+    till: [malintadaa]
+    roll: barare
+    vet: "att hon och Kapten Blodig hade en kärlekshistoria i de tidiga åren, att de skulle plundra de sju haven tillsammans, att Malin lämnade henne, att sveket gjorde Blodig kall och blodig, att Blodig stelnar en minut om solglasögonen tas av, att Malin fortfarande kan ta henne, och att Kapten Hjärter cirklar utan den historien medan Blodig jagar vem Malin gömmer"
+    vet_inte: "att kistan öppnas, att Blodig bär stugan som Q-2-ingång och skuldväggen som Q-5-tvärledtråd, Otto von Pälspung i den här texten"
+    speglas: [minimacklin]
+    bygger_pa: "romans: 20"
     pussel: null
     status: done
 

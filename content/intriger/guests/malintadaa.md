@@ -3,13 +3,15 @@
 mirrors:
   - slug: ludvigvonbahr
     note: synlig diskret romans, avledning för hamnen (tvåvägs)
+  - slug: minimacklin
+    note: kärlekshistoria i tonåren, du lämnade, Blodigs längtan oläkt (tvåvägs historia, hennes sug tyngre)
   - slug: elinmartensson
     note: gammalt groll, fasa-skålen och jollen (tvåvägs)
   - slug: josefinlowing
     note: gammal oförrätt, Fördärvets fordran (tvåvägs)
   - slug: amandamungsgard
     note: enväg hat, skålen "tiggeri och kyrkkollekt", låg intensitet (hon hatar dig, du vet om det)
-related: [ludvigvonbahr, elinmartensson, josefinlowing, amandamungsgard]
+related: [ludvigvonbahr, minimacklin, elinmartensson, josefinlowing, amandamungsgard]
 ---
 
 ## Den som sitter vid ditt bord {slug:ludvigvonbahr}
@@ -17,6 +19,14 @@ related: [ludvigvonbahr, elinmartensson, josefinlowing, amandamungsgard]
 Du har redan den enda älskare som räknas, och hans namn får hamnen aldrig höra ur din mun. Inte en stavelse. Inte en krona. Men när Karl inte är här så kan man väl få leka? Om inte annat så för att stävja de rykten som går om din hemlige älskare?
 
 Låt dem tro att din hemliga håller till vid faten. **Kapten Dunka** sitter redan där, diskret nog att kunna förnekas, tydlig nog att fylla ut ryktet. Du får gärna ta honom också. En kropp i ljuset, en i mörkret. Bekräfta ingenting. Neka ingenting. Le, försvinn, och låt hamnen jaga varandra istället för sanningen.
+
+## Den du gjorde av sten {slug:minimacklin}
+
+Ni var unga, och **Kapten Blodig** var din. Ni knullade er genom kajerna, svor att plundra de sju haven tillsammans, last och kropp i samma koja. Sen lämnade du henne. Du tog din egen köl och din egen uppgång, och lät henne stå kvar med löftet i händerna. Det var inte elakt. Det var nödvändigt. En kapten som stannar för en annans dröm blir aldrig den hon ska bli.
+
+Sveket gjorde henne kall som sten och blodig som sitt namn: fler dräpta kaptener i sömnen än kajen vågar räkna, blodstänk i ansiktet som hon aldrig tvättar bort. Och ändå är dina ögon hennes akilles. Hon bär solglasögon mot just dig, en garden mot den blick hon en gång drunknade i. Ta av henne glasen och hon stelnar en hel minut, förstummad som den unga hon var innan du gick.
+
+Du vill fortfarande ta henne. Binda henne. Påminna henne vem som gjorde köttet till sten. **Kapten Hjärter** cirklar också, utan ett uns av den här historien i kroppen, och Blodig jagar redan vem du gömmer. Låt henne jaga. Bekräfta ingenting. Neka ingenting. Ta av henne glasen innan sista skålen, eller låt henne stå där blodig och förstummad medan du ler och försvinner.
 
 ## En fasa till kapten {slug:elinmartensson}
 
