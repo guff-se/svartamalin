@@ -11,4 +11,3 @@ Vid skelettet i skogen. Tre exemplar. En per lag.
 ## Tryck
 
 2K
-Hon bär 4, 5 och 6.

@@ -26,15 +26,6 @@ Malin gör de här två själv. Inte budbärare. Inte "någon påminner".
 
 Kistan öppnas vid kaviar och rom **20.00**. Berlocken är bild under peak, inte en pusseljakt. Vill någon öppna kistan före festen: inte.
 
-Hur de vet att 4–6 sitter där: andra raden på tagbar token, före 15.30. Samma märken på berlocken från 17.00. Inte i genomgången. Hint om de har `HKH` och inte tittar:
-
-1. Riktning: värdinnan, där maten är.
-2. Objekt: det hon satte på till peak.
-3. Metod: samma märken som lapparna.
-4. Lösning: `4X`, `5I`, `6I`. Slå in `HKHXII` vid 20.00. Inte före.
-
-Spader säger hinten. Malin ger den inte som gåta.
-
 ---
 
 ## Om spelet stannar
@@ -90,7 +81,7 @@ Hårda regler. Ritualens koreografi: [`ritual.md`](ritual.md).
 - Håll koll på en person var.
 - Mat framme från 17.00. Då tar Malin på berlocken. Tokens syns. Ingen pusseljakt.
 - Nyktra vakter kända vid namn, nämns högt före ritualen.
-- Vill någon ur spelet: säg det till en nykter vakt, eller lookdown till tysta rummet. Ingen följer upp i roll.
+- Vill någon ur spelet: säg det till en nykter vakt, eller gå till tysta rummet. Ingen följer upp i roll.
 
 ---
 

@@ -11,4 +11,3 @@ I skrinet i piratstugan. Tre exemplar. En per lag.
 ## Tryck
 
 1H
-Hon bär 4, 5 och 6.

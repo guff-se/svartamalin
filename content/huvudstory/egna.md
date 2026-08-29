@@ -20,13 +20,31 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-08-29, genomgång av slutstriden 15.28
+
+Källa: Gustaf, i chatt. Införd i [`genomgang.md`](genomgang.md), [`beslut.md`](beslut.md).
+
+- [x] lägg till genomgång av slutstriden för lördag 15.28
+
+Kryss = sägs innan ritualen. Mekanik och säkerhet. Inte tändningen.
+
+---
+
+## 2026-08-29, ta bort lookdown
+
+Källa: Gustaf, i chatt. Införd i [`genomgang.md`](genomgang.md), [`beslut.md`](beslut.md).
+
+- [x] ta bort lookdown ur projektet
+
+Kryss = struket ur genomgång, spelledning, ritual, platser, RESEARCH. Tre verktyg kvar: cut, paus, OK-check.
+
+---
+
 ## 2026-08-29, sista tokens på berlocken
 
-Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`beslut.md`](beslut.md).
+Källa: Gustaf, i chatt. Olöst, [`beslut.md`](beslut.md) Öppna frågor.
 
-- [x] Hur kommunicerar vi att sista 3 siffrorna i kryptexkoden är i malins berlock
-
-Kryss = två vägar plus spelledarväg. Tagbar token, andra raden `Hon bär 4, 5 och 6.` Berlocken från 17.00 i samma format. Inte gästintrig. Inte ordet berlock på lappen.
+- [ ] Hur kommunicerar vi att sista 3 siffrorna i kryptexkoden är i malins berlock
 
 ---
 
