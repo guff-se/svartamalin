@@ -1,0 +1,303 @@
+/* Q-5 wall cards — /q5-cards. Screen gallery + A4 print sheets. */
+
+body.q5-cards-page {
+  background: #12100c;
+  color: var(--paper);
+}
+
+body.q5-cards-page #party-audio,
+body.q5-cards-page #map-root,
+body.q5-cards-page #top-controls,
+body.q5-cards-page #map-vignette,
+body.q5-cards-page #hero-tint,
+body.q5-cards-page #song-subtitles {
+  display: none !important;
+}
+
+.q5-cards {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.q5-cards__header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.q5-cards h1 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.35rem;
+}
+
+.q5-cards__hint {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--paper-dark);
+  max-width: 38rem;
+  line-height: 1.5;
+}
+
+.q5-cards__loading {
+  margin: 2rem 0;
+  color: var(--paper-dark);
+}
+
+.q5-cards__facit {
+  margin: 0 0 1.25rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.q5-cards__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.q5-btn {
+  font: inherit;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--gold);
+  background: rgba(184, 146, 74, 0.15);
+  color: var(--paper);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.q5-btn:hover {
+  background: rgba(184, 146, 74, 0.28);
+}
+
+.q5-btn:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+.q5-btn--ghost {
+  border-color: var(--paper-dark);
+  background: transparent;
+  color: var(--paper-dark);
+}
+
+.q5-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 1.25rem 0.85rem;
+}
+
+.q5-gallery__item {
+  margin: 0;
+}
+
+.q5-gallery__item .pirate-card {
+  max-width: none;
+}
+
+.q5-gallery__item figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.72rem;
+  color: var(--paper-dark);
+  letter-spacing: 0.03em;
+  line-height: 1.35;
+}
+
+.q5-print {
+  display: none;
+}
+
+.q5-card-back .pirate-card__photo {
+  filter: none;
+  background: #d4c09a;
+  display: grid;
+  place-items: center;
+}
+
+.q5-letter {
+  font-family: var(--font-display);
+  font-size: 28cqw;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1;
+  letter-spacing: 0.04em;
+}
+
+@media screen {
+  .q5-print {
+    display: none !important;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
+
+  html,
+  body.q5-cards-page {
+    background: #fff !important;
+    color: #000 !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  body.q5-cards-page > *:not(#app) {
+    display: none !important;
+  }
+
+  body.q5-cards-page #app,
+  body.q5-cards-page .q5-cards {
+    display: block !important;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background: #fff !important;
+  }
+
+  body.q5-cards-page .q5-screen-only,
+  body.q5-cards-page .q5-cards__header,
+  body.q5-cards-page .q5-gallery {
+    display: none !important;
+  }
+
+  body.q5-cards-page[data-print="fronts"] .q5-print--fronts,
+  body.q5-cards-page[data-print="backs"] .q5-print--backs,
+  body.q5-cards-page[data-print="hang"] .q5-print--hang {
+    display: block !important;
+  }
+
+  body.q5-cards-page .q5-sheet,
+  body.q5-cards-page .pirate-card,
+  body.q5-cards-page .pirate-card__inner,
+  body.q5-cards-page img,
+  body.q5-cards-page .pirate-card__overlay,
+  body.q5-cards-page .pirate-card__photo,
+  body.q5-cards-page .pirate-card__photo-img,
+  body.q5-cards-page .pirate-card__label,
+  body.q5-cards-page .pirate-card__name {
+    display: block !important;
+  }
+
+  body.q5-cards-page .q5-card-back .pirate-card__photo,
+  body.q5-cards-page .q5-card-back__face {
+    display: grid !important;
+  }
+
+  body.q5-cards-page[data-print="fronts"] .q5-print--backs,
+  body.q5-cards-page[data-print="fronts"] .q5-print--hang,
+  body.q5-cards-page[data-print="backs"] .q5-print--fronts,
+  body.q5-cards-page[data-print="backs"] .q5-print--hang,
+  body.q5-cards-page[data-print="hang"] .q5-print--fronts,
+  body.q5-cards-page[data-print="hang"] .q5-print--backs {
+    display: none !important;
+  }
+
+  .q5-sheet {
+    break-after: page;
+    page-break-after: always;
+    width: 100%;
+  }
+
+  .q5-sheet:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .q5-sheet__label {
+    display: none;
+  }
+
+  .q5-sheet__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 63mm);
+    grid-template-rows: repeat(3, 88mm);
+    justify-content: space-between;
+    align-content: space-between;
+    height: 277mm;
+  }
+
+  .q5-slot {
+    position: relative;
+    width: 63mm;
+    height: 88mm;
+  }
+
+  .q5-slot--empty {
+    visibility: hidden;
+  }
+
+  .q5-slot__n,
+  .q5-slot__badge {
+    display: none !important;
+  }
+
+  body.q5-cards-page .q5-slot .pirate-card {
+    width: 63mm;
+    max-width: none;
+    height: 88mm;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body.q5-cards-page .q5-slot .pirate-card__inner {
+    width: 63mm;
+    height: 88mm;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .q5-hang {
+    color: #000;
+  }
+
+  .q5-hang h1 {
+    font-size: 16pt;
+    margin: 0 0 0.4rem;
+  }
+
+  .q5-hang p {
+    margin: 0 0 1rem;
+    font-size: 10pt;
+  }
+
+  .q5-hang__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1.5rem;
+  }
+
+  .q5-hang__crew h2 {
+    font-family: var(--font-display);
+    font-size: 12pt;
+    margin: 0 0 0.35rem;
+  }
+
+  .q5-hang__crew ol {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  .q5-hang__letter {
+    font-family: var(--font-display);
+    letter-spacing: 0.08em;
+  }
+
+  .q5-hang__empty {
+    color: #666;
+    font-style: italic;
+  }
+}

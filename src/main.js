@@ -48,6 +48,7 @@ function devRoute() {
   const path = location.pathname.replace(/\/$/, '') || '/'
   if (path === '/framefix') return 'framefix'
   if (path === '/frameselect') return 'frameselect'
+  if (path === '/q5-cards') return 'q5-cards'
   return null
 }
 
@@ -102,6 +103,14 @@ async function route() {
     document.body.classList.remove('locked')
     const { renderFrameselect } = await import('./pages/frameselect.js')
     renderFrameselect(app)
+    return
+  }
+  if (dev === 'q5-cards') {
+    hideTopControls()
+    unmountMapBackground()
+    document.body.classList.remove('locked')
+    const { renderQ5Cards } = await import('./pages/q5-cards.js')
+    renderQ5Cards(app)
     return
   }
 
