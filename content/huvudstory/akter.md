@@ -374,13 +374,13 @@ Plats:          där Malin är, synligt
 Inblandade:     Malin (`malintadaa`)
 Publik:         den som ser henne under peak. Inte en kallelse.
 
-Vad händer:     Malin tar på berlocken med tokens `4X`, `5I`, `6I`. Hon ger dem inte som gåta. Det är smycke under peak, bild, inte pusseljakt.
+Vad händer:     Malin tar på berlocken med tokens `4X`, `5I`, `6I`. Hon ger dem inte som gåta. Det är smycke under peak, bild, inte pusseljakt. De som läste `Hon bär 4, 5 och 6.` på en tagbar token vet att titta på henne.
 
 Vad ändras:     de tre sista ledtrådarna är synliga. Gåtan är lösbar som bild. Kistan öppnas inte.
 
 Trigger:        klockan 17.00. Mat framme. Peak.
-Väg 1:          hon tar på den själv
-Väg 2:          behövs inte
+Väg 1:          de som har token-raden tittar på henne
+Väg 2:          samma märken som questtokens, utan att ha läst raden
 Spelledarväg:   hon tar på den oavsett. Glömd: så fort det märks. Inte vänta till 20.00.
 
 Pusselnod:      ingen. Efter 15.30 är det inte ett pussel.
@@ -416,9 +416,9 @@ Vad händer:     Malin serverar kaviar och rom. Berlocken sitter på sedan 17.00
 Vad ändras:     sex kända bokstäver slås in. Kistan kan öppnas.
 
 Trigger:        serveringen
-Väg 1:          de som såg berlocken under peak slår in
+Väg 1:          de som läste token-raden, eller såg berlocken under peak, slår in
 Väg 2:          hon höjer armen vid brickan, tokens syns nära
-Spelledarväg:   hon bär berlocken oavsett. Den är inte spelarbaserad.
+Spelledarväg:   hon bär berlocken oavsett. Den är inte spelarbaserad. Ingen kopplar: höj armen. Fortfarande inget: Spader, "titta på halsen."
 
 Pusselnod:      cryptexen, sista nödvändiga input. Undantaget vid 20.00: slå in sex redan kända bokstäver.
 Props:          kaviar, rom, Malins berlock med `4X`, `5I`, `6I`.

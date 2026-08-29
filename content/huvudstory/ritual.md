@@ -82,7 +82,7 @@ Detta avsnitt är obligatoriskt och äger företräde över allt konstnärligt.
 - [ ] **Vattnet är stängt.** Ingen simning, ingen eka, ingen segelbåt efter 15.00. Kommuniceras som en regel, inte som en fiktion.
 - [x] **Bastu och onsen är öppna efteråt, med tillsyn.** Värme och påverkan kräver att en nykter person tittar till. Inte ensamma i vattnet, inte ensamma i bastun. Samma sällskapsregel som hela helgen: aldrig bada själv.
 - [ ] **Klätternätet är stängt** efter ritualen.
-- [ ] **Säkerhetssignalerna repeteras** precis innan cirkeln sluts, alltså cut, largo, lookdown och OK-check. Se [`spelledning.md`](spelledning.md).
+- [ ] **Säkerhetssignalerna och slutstriden** precis innan cirkeln sluts. Cut, paus, stridsreglerna. Se [`genomgang.md`](genomgang.md).
 - [ ] **Ingen får vara ensam.** Enkel regel att säga högt: håll koll på en person var.
 - [ ] **Beslut om vad som gäller för den som vill lämna spelet helt.** Var går man, vem säger man det till.
 - [ ] **Fyra timmar till slutstriden.** Kontrollera att tidsplanen håller för en fysisk final klockan 20.00. Om inte: flytta finalen, inte ritualen.

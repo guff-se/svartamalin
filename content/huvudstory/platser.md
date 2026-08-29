@@ -37,7 +37,7 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 
 ## Sex och rum
 
-Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Onsen och bastu är bra för nakenhet och intima möten, men de är inte "sexrummet". Samma cut, largo, lookdown och OK-check som resten av helgen. Säg det i genomgången, inte på sajten. Se [`spelledning.md`](spelledning.md).
+Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Onsen och bastu är bra för nakenhet och intima möten, men de är inte "sexrummet". Samma cut, paus och OK-check som resten av helgen. Säg det i genomgången, inte på sajten. Se [`genomgang.md`](genomgang.md).
 
 ---
 
@@ -89,13 +89,13 @@ Fakta, beslutat 2026-08-18:
 - Två kajaker och två stand up paddle. **10 minuter** att paddla. En person per farkost, minst två farkoster ute samtidigt.
 - Simning är en tredje väg. Aldrig ensam.
 
-**Off-regel, hela helgen:** man får aldrig åka ut på båt (kajak, paddel, eka) eller bada själv. Gäller också onsen och simning till segelbåten. Se [`spelledning.md`](spelledning.md).
+**Off-regel, hela helgen:** man får aldrig åka ut på båt (kajak, paddel, eka) eller bada själv. Gäller också onsen och simning till segelbåten. Sägs i genomgången. Se [`genomgang.md`](genomgang.md).
 
 Restiden med ekan är så kort att den **inte** är en naturlig flaskhals. **Kapten Kuling** (`josefinlowing`) och **Kapten Rödskägg** (`viktoransund`) har hand om båtarna. Skrivna sjöintriger går primärt genom att övertala en av dem att ge sig ut, för spel. Man **får** åka ut utan dem. Kajaker och SUP är långsammare och tar en person var, men de får inte gå ut ensamma.
 
 Att fortfarande bestämma:
 
-- [x] Vem har båtarna? Kuling och Rödskägg, praktiskt. Skrivna överfarter via övertalning. Folk får åka utan dem. Aldrig ensam. Se [`spelledning.md`](spelledning.md).
+- [x] Vem har båtarna? Kuling och Rödskägg, praktiskt. Skrivna överfarter via övertalning. Folk får åka utan dem. Aldrig ensam. Sägs i genomgången. Se [`genomgang.md`](genomgang.md).
 - [x] Simning: tillåtet i dagsljus, nyktert, **aldrig ensam**, aldrig efter 15.00. Samma sällskapsregel för eka, kajak och paddel hela helgen. Simning går inte via båtnycklarna.
 - [x] Efter 15.30 är Södra Ovanan **stängd**. Vatten och påverkat tillstånd hör inte ihop. Allt Södra Ovanan-innehåll måste vara avklarat innan brunchen.
 

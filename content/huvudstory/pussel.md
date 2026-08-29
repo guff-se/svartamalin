@@ -39,7 +39,7 @@ Regler som måste hålla, även efter flytt:
 4. Självvaliderande: spelaren vet själv att det är rätt.
 5. Hint-trappa och bypass.
 6. Kropp, ljus och optik framför papper och siffror.
-7. Ingen brute force. Gåtor pekar. Den som råkar hitta något de inte söker lämnar det. [`spelledning.md`](spelledning.md).
+7. Ingen brute force. Gåtor pekar. Den som råkar hitta något de inte söker lämnar det. [`genomgang.md`](genomgang.md).
 
 ---
 

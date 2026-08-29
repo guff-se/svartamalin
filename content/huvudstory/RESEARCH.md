@@ -66,7 +66,7 @@ Poängen: du kan bara ge meningsfull övergripande struktur **tidigt**. I slutet
 
 Workshoppens huvudfunktion är att göra deltagarna till ett kollektiv som kan skapa scener för varandra. Den ska också kalibrera relationer, öva mekaniker och sätta spelstil. Konkret rekommendation: låt par och grupper med förskrivna relationer få några minuter att prata igenom vad relationen innebär och var deras gränser går, särskilt för romantiska relationer. Låt folk **öva på att vara elaka** om lajvet kräver elakhet, annars kommer bra intriger aldrig igång.
 
-**Vad det betyder för oss:** vi har två praktiska genomgångar, inte en förklädd workshop. Fredag 18.30 är den fulla genomgången: play to lift, de fyra säkerhetsverktygen, aldrig ensam på vattnet, låt saker som hittas av misstag få vara, fredag är fest inte pussellösning, och sexpositiv fest. Lördag 10.30 är en kort repris, sedan den (ännu obestämda) ceremonin som sätter alibi. Därutöver:
+**Vad det betyder för oss:** vi har två praktiska genomgångar, inte en förklädd workshop. Manuset: [`genomgang.md`](genomgang.md). Fredag 18.30 är den fulla genomgången. Lördag 10.30 är en kort repris plus cryptexens lapp, sedan den (ännu obestämda) ceremonin som sätter alibi. Därutöver:
 
 - Ett tillfälle där personer med romans eller fiendskap får prata ihop sig kort, i eller ur roll
 - Transitionens ceremoni 10.30 är fortfarande den viktigaste alibi-generatorn. Genomgången räcker inte som insteg.
@@ -88,13 +88,12 @@ Etablerade verktyg, alla enkla nog att lära ut i en mening var:
 | Verktyg | Gest eller ord | Betydelse |
 |---------|----------------|-----------|
 | **OK-check** | Handen visar OK-tecknet, ögonkontakt | "Är du okej?" Svar: tummen upp betyder okej, tummen ner eller vaggande hand betyder inte okej, och då bryter man roll och hjälper |
-| **Lookdown** | Handen som solskydd över ögonen, backa och gå | Jag lämnar scenen, av vilket skäl som helst. Inga frågor, inga konsekvenser. Fungerar även för att kliva in obemärkt |
 | **Cut** | Ordet "cut" | Allt spel stannar omedelbart. Ingen frågar varför |
 | **Largo** eller **brake** | Ordet "largo" | Sänk intensiteten ett steg, alla tar ett steg tillbaka som bekräftelse. Spelet fortsätter |
 
-Lookdown är minst störande för andras spel och därför bäst som förstahandsverktyg. Cut ska vara okränkbart.
+Cut ska vara okränkbart. Vi lär ut largo som **paus**. Lookdown används inte.
 
-**Vad det betyder för oss:** vi har 25 vänner, alkohol, nakenhet, bad, en fysisk slutstrid och LSD. Det är inte ett sammanhang där vi kan hoppa över detta. De fyra verktygen lärs ut i genomgångarna på ön, inte på sajten. Detaljerad plan i [`spelledning.md`](spelledning.md).
+**Vad det betyder för oss:** vi har 25 vänner, alkohol, nakenhet, bad, en fysisk slutstrid och LSD. Det är inte ett sammanhang där vi kan hoppa över detta. Tre verktyg lärs ut i genomgångarna på ön, inte på sajten: cut, paus, OK-check. Manuset: [`genomgang.md`](genomgang.md).
 
 ## 1.10 Ritualscener som fungerar
 

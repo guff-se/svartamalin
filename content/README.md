@@ -50,7 +50,7 @@ Gäller överallt i `content/`:
 - **Aldrig em dash.** Komma, kolon eller punkt.
 - **skatt (treasure) och skatt (tax).** Intern text märker alltid vilken. Gästtext (intriger, copy) skriver bara "skatt". Ordlista: [`huvudstory/skatt.md`](huvudstory/skatt.md).
 - **Inga lösningar i gästfilerna.** Hemligheter, facit och spelledning stannar i `huvudstory/`. Det gäller intrigfiler och `copy/`. Rekvisita i kistan får bära sanningen, det är därför den ligger där.
-- **Sexpositiv fest, inte på sajten.** Alla är vana vid sexpositiva rum. Inget play space: sex överallt, när som helst. Sägs i genomgången på plats. Får inte stå i `copy/`. Intriger och rekvisita får vara explicita. Register och exempel: [`intriger/STYLE.md`](intriger/STYLE.md).
+- **Sexpositiv fest, inte på sajten.** Alla är vana vid sexpositiva rum. Inget play space: sex överallt, när som helst. Sägs i genomgången på plats. Får inte stå i `copy/`. Intriger och rekvisita får vara explicita. Register och exempel: [`intriger/STYLE.md`](intriger/STYLE.md). Manus: [`huvudstory/genomgang.md`](huvudstory/genomgang.md).
 
 ---
 

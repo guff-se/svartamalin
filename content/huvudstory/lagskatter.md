@@ -206,7 +206,7 @@ De vet **inte** via intrigtext:
 
 Gömställe: hela ön utom sovplatser och stugor. Se [`platser.md`](platser.md). Segelbåten, svärdfiskens gap, Gubben, Gumman, Södra Ovanan och verkstaden är lagliga och dramatiska. Malins kista är **inte** ett gömställe för lagskatt.
 
-**Off-regel:** den som råkar hitta en skatt hen inte jagar lämnar den. Jakten går via gåtor och uppdrag, inte ransakning. Sägs i genomgången. Se [`spelledning.md`](spelledning.md).
+**Off-regel:** den som råkar hitta en skatt hen inte jagar lämnar den. Jakten går via gåtor och uppdrag, inte ransakning. Sägs i genomgången. Se [`genomgang.md`](genomgang.md).
 
 ---
 
