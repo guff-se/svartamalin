@@ -93,13 +93,23 @@ Kryss = två hårda runtime-klockslag. Cryptexen kommer in vid lunchen 14.00. Be
 
 ---
 
+## 2026-08-30, K-11 omformulerad till kaptensskål
+
+Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md), [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
+
+- [x] lappen i kistan ska säga "konfrontera malin när hon kallar till kaptensskål"
+
+Kryss = K-11 tryck uppdaterad. Överstyr "efter kaviar och rom". Timing: vid kaptensskålen, inte under serveringen före.
+
+---
+
 ## 2026-08-29, lapp i kistan: konfrontera Malin
 
 Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md), [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
 
 - [x] lägg in att det skall ligga en lapp i kistan där det står "konfrontera malin efter kaviar och rom"
 
-Kryss = K-11, en lapp i kistan. Tryck verbatim. Inte från kungen. Inte dressing. Ordern: konfrontera efter kaviar och rom, inte under serveringen.
+Kryss = K-11, en lapp i kistan. Tryck verbatim. Inte från kungen. Inte dressing. Omformulerad 2026-08-30 till kaptensskål.
 
 ---
 

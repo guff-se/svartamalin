@@ -38,7 +38,7 @@ Vad får helvetet att bryta ut? Det får inte vara ett utrop från arrangören.
 
 **Beslutat 2026-08-23:** kistan innehåller brev mellan Malin och kungen, plus minnen och skatter, plus tre skuldbrev (Q-5, ett per start). Tändningens innehåll: kärleksbrevet. Motivet är vila och ensam makt, inte att hon är skuldsatt. Miniatyr och skuldbrev är dressing.
 
-**Beslutat 2026-08-29:** i kistan ligger också en lapp: "Konfrontera Malin efter kaviar och rom." Inte från kungen. Inte dressing. Öppnas kistan under serveringen: vänta. Öppnas den efter: konfrontera nu. Tryck: [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
+**Beslutat 2026-08-29, omformulerat 2026-08-30:** i kistan ligger också en lapp: "Konfrontera Malin när hon kallar till kaptensskål." Inte från kungen. Inte dressing. Öppnas kistan före kaptensskålen: vänta. När hon kallar: konfrontera nu. Tryck: [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
 
 Krav:
 
@@ -95,7 +95,7 @@ Att bestämma:
 - [ ] Cryptexen, i omlopp. Spelledning vet ungefär var den är, eller har reservnyckel
 - [ ] Dressing i kistan: övriga brev, minnen, skatter. Inte plot. Inte en läsuppgift.
 - [x] Kärleksbrevet från Karl XII: kort, sigill, läsbart högt på trettio sekunder. Text: [`../rekvisita/kista-karleksbrev.md`](../rekvisita/kista-karleksbrev.md)
-- [x] Lapp i kistan: "Konfrontera Malin efter kaviar och rom." K-11. Text: [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md)
+- [x] Lapp i kistan: "Konfrontera Malin när hon kallar till kaptensskål." K-11. Text: [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md)
 - [ ] Miniatyrporträtt av Karl XII, dressing bland minnena. Inte plot.
 - [ ] Malins Ran-skepnad: vad byter hon till, var byter hon om, hur lång tid tar det
 

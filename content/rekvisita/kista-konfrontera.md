@@ -10,4 +10,4 @@ En lapp. Inte från kungen. Inte dressing.
 
 ## Tryck
 
-Konfrontera Malin efter kaviar och rom
+Konfrontera Malin när hon kallar till kaptensskål
