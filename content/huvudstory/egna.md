@@ -93,6 +93,22 @@ Kryss = två hårda runtime-klockslag. Cryptexen kommer in vid lunchen 14.00. Be
 
 ---
 
+## 2026-08-31, produktionsstatus
+
+Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md).
+
+- [x] cryptex-tokens är tillverkade, de skall bara läggas i sina respektive brev/förpackingar
+- [x] fotografier på ung malin klara
+- [x] fotografi på karl XII klar
+- [x] fotovägg q5 printade och skurna, skall bara skrivas bokstäver på baksidan för hand
+- [x] skuldbrev klar
+- [x] ägarbevis klar
+- [x] kompass-riktnings-karta klar
+
+Kryss = status/action i propslistan och Digitalt och tryck uppdaterade. Tokens: Placera. Q5-01: Skriv bokstäver för hand.
+
+---
+
 ## 2026-08-30, K-11 omformulerad till kaptensskål
 
 Källa: Gustaf, i chatt. Införd i [`produktion.md`](produktion.md), [`../rekvisita/kista-konfrontera.md`](../rekvisita/kista-konfrontera.md).
