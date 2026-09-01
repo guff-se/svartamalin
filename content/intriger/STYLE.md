@@ -39,6 +39,7 @@ Konsekvens för intrigtext:
 
 - Explicit språk och grövre sexuella referenser är **tillåtna**. Kuk, fitta, knulla, suga, binda, ta: orden får användas när de tjänar revyn och lusten.
 - Registret är **lust och sex**, inte romankärlek. "Du vill bli bunden och tagen" slår "Du drömmer om en framtid tillsammans". "Du vill smaka svärdet" slår "Hen skall göra dig till drottning". Han/hon bara när civilnamnet gör könet känt.
+- **Undantag, romans #26–28:** dyrkan av jubilaren (Lösskägg, Blåskägg, Fuling mot Malin). Inte sex, inte blygsel, inte star struck. Initiativ att smickra och ta hand om henne. Speglas inte. Skriv inte om dem till lust.
 - Primärt för en kvinnlig och jämnställd publik. Ingen male gaze. Mottagaren är subjektet: hen vill, tar, suger, rids, blir tagen för att hen vill det.
 - Sexuell erövring är en giltig drivkraft. Att *måste* ligga med någon för att vinna uppdraget är det inte.
 

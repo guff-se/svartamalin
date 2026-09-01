@@ -13,7 +13,8 @@ mirrors:
     note: fiende 5, oljan, kastet mot Rosing (tvåvägs)
   - slug: linneaekbom
     note: kastet vid skålen, hon skrattade (tvåvägs minne, inte yaml-fiende)
-related: [jesperlindmarker, navidmodiri, jesperlejfjord, hampuslindblad, linneaappert, linneaekbom]
+# enväg dyrkan av jubilaren (romans 28), speglas inte
+related: [jesperlindmarker, navidmodiri, jesperlejfjord, hampuslindblad, linneaappert, linneaekbom, malintadaa]
 ---
 
 ## Rösten som pekar bort från dig {slug:jesperlejfjord}
@@ -21,6 +22,12 @@ related: [jesperlindmarker, navidmodiri, jesperlejfjord, hampuslindblad, linneaa
 **Kapten Hurring** letar fortfarande efter vem som en gång angav honom, och ju längre han frågar runt, desto oftare landar blicken på dig. Neka hur högt du vill. Blicken stannar. **Kapten Hjärter** hör allt vid sin gryta, mer än han låtsas, och han vet precis hur lätt ett rykte kan styras åt ett annat håll om bara rätt person viskar det vid rätt eld.
 
 Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du hör och ser inne på **Fregatten Fördärvet**, planer, gömmen, svaga punkter, buret rakt till **Fregatten Fromheten** innan din egen skuta anar något. Du arbetar för Fromheten nu, i allt som rör den här hemligheten. Inte av lojalitet till hans skuta. För att han håller Hurrings misstankar borta från din dörr. Ge honom det han begär, och håll det dolt, innan festen är över och Hurring bestämmer sig ändå.
+
+## Jubilaren du tänker sköta {slug:malintadaa}
+
+**Svarta Malin** bjöd **Fregatten Fördärvet**, och hon bjöd dig. Du är inte stum av det. Du är i rörelse. Hon är fantastisk, och du tänker visa det med händer och skål, inte med blickar från kajkanten.
+
+Häll. Bär. Smickra rakt i ansiktet. Se till att jubilaren inte saknar rum, rom eller sällskap, och ta initiativet innan hon hinner fråga. Inte för att vinna henne. För att hon ska känna att festen lyfter henne. Innan sista skålen ska **Kapten Fuling** ha varit den som tog hand om henne när andra bara skålade.
 
 ## Anklagelsen du alltid nekat {slug:jesperlindmarker}
 

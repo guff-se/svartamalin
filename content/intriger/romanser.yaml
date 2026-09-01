@@ -16,6 +16,7 @@
 #
 # Sexpositiv fest: explicit språk OK i gästtext. Register är lust och sex,
 # inte "framtid tillsammans". Se STYLE.md.
+# Undantag #26–28: dyrkan av jubilaren, inte sex, inte romankärlek. Speglas inte.
 #
 # Rollönskemål som styrt omparningen (content/roller/):
 #   * viktoransund: förbjuden kärlek med Kapten Frodig (josefinansund), inte Mini
@@ -163,3 +164,23 @@ romanser:
     note: Hans underlag 2026-08-25. Hon krossade hans hjärta för att ta en annan kaptens skuta och besättning. Han strandade på Galápagos. Sexmagick. Han har Fuling (#10); Fuling vet inte om Planka. Hon har redan Rötägg (#3); han vet inte om Blåskägg. Ingen ny sidequest, ingen konspiration med Kosing/Barnsben.
     status: done
 
+  - id: 26
+    type: one_way
+    a: petterwallberg      # Kapten Lösskägg (Petter Wallberg)
+    b: malintadaa          # Svarta Malin (Malin Tadaa)
+    note: Dyrkan av jubilaren. Inte sex, inte blygsel. Han tar initiativ att smickra och ta hand om henne. Off: födelsedagsbarnet ska känna sig hyllat. Speglas inte. Inte S-01, inte skuldboken.
+    status: done
+
+  - id: 27
+    type: one_way
+    a: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
+    b: malintadaa          # Svarta Malin (Malin Tadaa)
+    note: Dyrkan av jubilaren. Inte sex, inte blygsel. Han tar initiativ att smickra och ta hand om henne. Off: födelsedagsbarnet ska känna sig hyllat. Speglas inte. Inte S-01. Inte den skippade konspirationen mot Malin.
+    status: done
+
+  - id: 28
+    type: one_way
+    a: louisevonbahr       # Kapten Fuling (Louise von Bahr)
+    b: malintadaa          # Svarta Malin (Malin Tadaa)
+    note: Dyrkan av jubilaren. Inte sex, inte blygsel. Hon tar initiativ att smickra och ta hand om henne. Off: födelsedagsbarnet ska känna sig hyllat. Speglas inte. Inte S-01. Inte Fördärvets fordran (den sitter hos Kuling).
+    status: done

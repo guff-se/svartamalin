@@ -20,6 +20,19 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-09-01, kärlek till jubilaren
+
+Källa: Gustaf, i chatt. Införd i [`../intriger/romanser.yaml`](../intriger/romanser.yaml) #26–28, gästintriger Lösskägg, Blåskägg, Fuling.
+
+- [x] Vi behöver lite mer kärlek till jubelaren.
+- [x] Skapa tre nya one-way romanser från kapten lösskägg till svarta malin och från kapten blåskägg och kapten fuling till jubelaren.
+- [x] Dessa skall inte vara sexuella, kanske inte ens romantiska, utan mer att de dyrkar och vill hylla malin. att de tycker att hon är fantastisk och känner sig så lyckligt lottade att de blivit bjudna. *inte* star struck, *inte* blyga. utan så att de känner att de vill ta initaitv att smickra henne och ta hand om henne.
+- [x] off-syftet är att malin, födelsedagsbarnet skall känna sig hyllat.
+
+Kryss = tre envägsposter, dyrkan och omvårdnad, inte lust. Speglas inte hos Malin. Hon ska känna det i spelet.
+
+---
+
 ## 2026-09-01, Ludvig återbud
 
 Källa: Gustaf, i chatt. Införd i [`beslut.md`](beslut.md), [`cast.md`](cast.md), [`sidequests.md`](sidequests.md) S-01 och S-05, [`fordelning.yaml`](fordelning.yaml), gästintriger.

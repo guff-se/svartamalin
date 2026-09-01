@@ -1,6 +1,7 @@
 ---
 # Skuta: **Korvetten Kurtisanen** (crew_id: 1)
 # enväg vittne mot malintadaa (skiffer +13), speglas inte
+# enväg dyrkan av jubilaren (romans 26), speglas inte
 mirrors:
   - slug: viktoransund
     note: skäggtrion, Skäggens Konung (tvåvägs)
@@ -22,6 +23,12 @@ Var den sitter vet du inte, bara att den finns. Jaga den med **Korvetten Kurtisa
 ## Bokstäver som flyttar sig {slug:malintadaa}
 
 När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, förskjuter hon bokstäverna tretton steg framåt. A blir N. Knepet är värt noll tills någon kommer med ett blad de inte kan tyda. Då är du den som kan läsa.
+
+## Jubilaren du seglar under {slug:malintadaa}
+
+Du seglar under **Svarta Malin**. Lycka, inte plikt. Hon bjöd in er. Hon är jubilaren, kajens krona, och du tänker inte låta helgen gå utan att hon märker hur rätt hon hade som tog med **Kapten Lösskägg**.
+
+Du gloar inte. Du går. Häll i hennes glas. Ta talet när kajen tvekar. Stolen hennes, skålen först till henne, skrattet efter hennes skämt. Smickra rakt, högt, utan att be om lov. Lyft festen så hon känner vikten. Innan sista skålen ska hela Salmonellahavet ha hört att du dyrkar jubilaren, och hon ska ha känt det.
 
 ## Skäggens Konung {slug:hampuslindblad}
 

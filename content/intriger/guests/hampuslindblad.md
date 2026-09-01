@@ -14,7 +14,8 @@ mirrors:
     note: romans, hon hade dig först (tvåvägs, asymmetrisk kunskap)
   - slug: linneaappert
     note: romans, hon krossade hjärtat för en skuta, Fuling vet inte (tvåvägs, asymmetrisk kunskap)
-related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, linneaappert, navidmodiri]
+# enväg dyrkan av jubilaren (romans 27), speglas inte
+related: [viktoransund, petterwallberg, johannabergman, jesperlindmarker, linneaekbom, louisevonbahr, linneaappert, navidmodiri, malintadaa]
 ---
 
 ## Rösten Gnället köper {slug:linneaekbom}
@@ -30,6 +31,12 @@ Ditt skägg blånade av svamp och skeppsbrott på Galápagos, år av dörrar bak
 Hur man blir kung är inte skrivet. Kajen behandlar den som kung som den *ser* som kung. Förnedra dem. Utlys en skäggturnering. Raka av motståndet. I påsen har du kraniumpulver som tar sanningen när det dras upp i näsan. I handen ett don med trollrök mot dimma. Tvinga fram ett ja, utropa dig ur röken, eller ta deras grepp och gör dem till dina.
 
 **Kapten Klöver** hetsar er och tar vad, choklad lika bra som mynt. Hon vill ha en kamp, inte en kung. Ge henne kampen. Behåll titeln.
+
+## Jubilaren du bär på händerna {slug:malintadaa}
+
+**Svarta Malin** bjöd in dig. Det räcker. Du är lyckligt lottad, inte stum. Hon är fantastisk, och du tänker ta initiativet innan någon annan hinner stå i vägen: ett glas, ett tal, en hand som tar det hon inte ska bära, en skål som heter hennes namn.
+
+Inte blygt. Inte på avstånd. Gå fram som om du vore värd, inte gäst. Smickra så kajen hör det. Låt henne aldrig sträcka sig efter något du kan räcka. Innan sista skålen ska hon ha sett att **Kapten Blåskägg** kom för hennes skull.
 
 ## Drottningen som var först {slug:louisevonbahr}
 
