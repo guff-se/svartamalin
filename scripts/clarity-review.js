@@ -340,7 +340,7 @@ Also known:
 - Gymmet and Storstugan are buildings on the island. Do not flag them as unexplained.
 - Gubben i stubben and Gumman på udden are clues you can work out from the names (a stump, a point of land). Do not ask for a further explanation of what they are.
 - Team-treasure doors (lagskatter): each crew built its own doors. They already know how to handle them. Intrigue text about a code digit, "nästa ledtråd", an achilles heel, or the first step toward another crew's treasure is a reminder, not a new mechanic. Do not flag those as unexplained.
-- Svarta Malin's secret lover: the identity is a secret Malin already knows. The name must not appear in guest text. Do not flag that the lover is unnamed, for Malin or for anyone hunting the name. Kapten Dunka as a visible decoy is intentional.
+- Svarta Malin's secret lover: the identity is a secret Malin already knows. The name must not appear in guest text. Do not flag that the lover is unnamed, for Malin or for anyone hunting the name. There is no planted decoy after Dunka's cancellation.
 
 TASK: After reading those three files, evaluate how well YOU can understand your character and what is going on.
 

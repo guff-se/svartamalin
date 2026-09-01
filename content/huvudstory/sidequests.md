@@ -37,11 +37,11 @@ Status:         idé / beslutad / skriven
 
 | id | Namn | Deltagare | Akt | Roll | Status |
 |----|------|-----------|-----|------|--------|
-| S-01 | Jakten på älskaren | Hjärter, Blodig, Dunka. Malin leder fel. | II | jägare / bärare | skriven |
+| S-01 | Jakten på älskaren | Hjärter, Blodig. Malin leder fel. | II | jägare / bärare | skriven |
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / hetsare | skriven |
 | S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver, Babord | II | jägare / bärare / vittne | skriven |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
-| S-05 | Svärdet och arvssynden | Dunka, Kosing, Nykter, Klöver | II | bärare / grindvakt / jägare | skriven |
+| S-05 | Arvssyndsskatten | Kosing, Kuling, Rötägg, Nykter, Klöver | II | grindvakt / bärare / vittne | skriven |
 | S-06 | Räkningen mot Malin | Kuling, Plåthorn, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
 | S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | skriven |
 | S-08 | Jakten på kåthornet | Plåthorn, Kuling, Prygel, Rosing, Spader | II–IV | grindvakt / jägare / vittne | skriven |
@@ -77,10 +77,9 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `ulrikahammar` | 2 | bärare, vittne | II |
 | `jesperlindmarker` | 2 | jägare, vittne | II–IV |
 | `louisevonbahr` | 2 | bärare, vittne | II |
-| `josefinlowing` | 3 | grindvakt, jägare | II–IV |
+| `josefinlowing` | 4 | grindvakt, jägare | II–IV |
 | `navidmodiri` | 2 | jägare, vittne | II |
 | `minimacklin` | 3 | jägare | II–IV |
-| `ludvigvonbahr` | 2 | bärare | II |
 | `fabianmacklin` | 3 | jägare, vittne | II |
 | `josefinansund` | 2 | bärare, jägare | II–IV |
 | `johannabergman` | 4 | vittne, grindvakt | II |
@@ -91,7 +90,7 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `linneaekbom` | 2 | jägare, vittne | II–IV |
 | `alexandrapalmquist` | 2 | grindvakt, jägare | II |
 | `hampuslindblad` | 2 | rival, vittne | II |
-| `edvinthungren` | 3 | bärare, vittne | II–IV |
+| `edvinthungren` | 4 | bärare, vittne | II–IV |
 | `elinmartensson` | 3 | grindvakt, jägare | II–IV |
 
 **Spridningsregel:** alla toppar får inte ligga i akt IV. Sikta på ungefär en fjärdedel i akt II, en fjärdedel vid brunchen och ritualen, resten i akt IV. Ingen av S-03 till S-10 toppar rent i akt IV: de sträcker sig som mest in i kvällens kaos (II–IV), vilket håller spridningen på rätt sida om regeln.
@@ -103,23 +102,23 @@ S-01 till S-12 är **beslutade**. S-12 2026-08-25. Gästtext för S-12 skriven s
 ## S-01: Jakten på älskaren
 
 Akt:            II
-Deltagare:      Kapten Hjärter (`jesperlejfjord`), Kapten Blodig (`minimacklin`), Kapten Dunka (`ludvigvonbahr`). Svarta Malin (`malintadaa`) bär sanningen.
-Roll i storyn:  jägare / bärare / bärare, falsk ledtråd (Dunka)
+Deltagare:      Kapten Hjärter (`jesperlejfjord`), Kapten Blodig (`minimacklin`). Svarta Malin (`malintadaa`) bär sanningen.
+Roll i storyn:  jägare / bärare
 Kopplad till:   B-13, B-42
 
-Vad de vill:    ta reda på vem Malin gömmer. Dunka vill bli sedd som mannen som fick Svarta Malin, sant eller inte.
-Vad står i vägen: hon leder fel. Rivalen ser ut att sitta vid bordet, och nu sitter han också där på riktigt: Dunka och Malin har en synlig, om än diskret, romans (romans 24) som ser ut precis som det jägarna letar efter. Sanningen är Karl XII, och den sitter i kistan.
+Vad de vill:    ta reda på vem Malin gömmer.
+Vad står i vägen: hon leder fel. Hamnen tror att den hemliga sitter vid faten. Sanningen är Karl XII, och den sitter i kistan.
 Varför nu:      festen, närheten, att hon försvinner. Innan sista skålen.
 
-Hur det spelas: Hjärter och Blodig jagar bland kaptenerna. Hjärter privat, vid kökskanten. Malin varken bekräftar eller förnekar ett namn i hamnen. Dunka gör jägarnas jobb åt dem: han låter sig ses vid Malins bord, låter en skål bli tvetydig, och dementerar aldrig ett rykte som får honom att verka som erövraren av jubilaren. Han vet inte att han är en avledning, han tror bara att han äntligen får den status han alltid velat ha. Flera romanser samtidigt är tillåtna och gömmer den hemliga.
-Utfall om ja:   fel person utpekas, scener, svartsjuka. Dunka blir den mest övertygande fel-utpekningen, eftersom han själv aldrig förnekar den. Punchlinen vid kistan blir personlig, och särskilt pinsam för Dunka.
+Hur det spelas: Hjärter och Blodig jagar bland kaptenerna. Hjärter privat, vid kökskanten. Malin varken bekräftar eller förnekar ett namn i hamnen. Hon får ta någon i ljuset om stunden kräver det. Ingen planterad avledning: Kapten Dunka (`ludvigvonbahr`) struken 2026-09-01 (återbud). Flera romanser samtidigt är tillåtna och gömmer den hemliga.
+Utfall om ja:   fel person utpekas, scener, svartsjuka. Punchlinen vid kistan bär ändå Karl XII.
 Utfall om nej:  kistan bär det ändå. Brevet.
 
-Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) som Dunkas skäl att vara med. Fiende 21 (Hjärter–Blodig) om den spelas.
-Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig tvåvägs på historien (tidiga år, sveket), hennes oläkta sug tyngre. Dunka enväg, han spelar inte jägare, han är fångsten som visar sig själv fram.
+Bygger på:      romanser 17, 20, 22. Romans 24 (Malin–Dunka) struken 2026-09-01. Fiende 21 (Hjärter–Blodig) om den spelas.
+Speglas hos:    Hjärter enväg. Malin speglar inte hans kärlek. Blodig tvåvägs på historien (tidiga år, sveket), hennes oläkta sug tyngre.
 Status:         skriven
 
-Obs: Dunka bär också S-05, samma fåfänga (vill se stor ut) men en annan konsekvens: här gynnar den honom, i S-05 avslöjar den honom. Enbens vittnespekning struken 2026-08-27 (återbud). Lagskatt: Hjärter är Fromhetens dörr (smicker). Gnällets dörr är minst tre ombord plus stormraden, inte Dunkas svärd. Hjärter seglar på Fromheten som jagar Gnället, men jakten går mot galeonen, inte mot Dunka ensam. Inte samma uppdrag. Malin-affären är inte jaktens hävstång.
+Obs: Enbens vittnespekning struken 2026-08-27 (återbud). Dunka som avledning struken 2026-09-01 (återbud). Lagskatt: Hjärter är Fromhetens dörr (smicker). Gnällets dörr är minst tre ombord plus stormraden. Hjärter seglar på Fromheten som jagar Gnället, men jakten går mot galeonen, inte mot en ensam kapten. Inte samma uppdrag. Malin-affären är inte jaktens hävstång.
 
 ## S-02: Skäggtrion
 
@@ -183,18 +182,17 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `ulrikahammar` | S-03, S-07 | krumelurpiller, syhörna. Scarfen mot Babord (fiende 12). Redan mullvad mot Nykter (annan hemlighet). |
 | `jesperlindmarker` | S-04, S-06 | svart liggare, vem angav honom. Redan Prygels mullvadskontakt (annan hemlighet). |
 | `louisevonbahr` | S-04, S-10 | tom rollfil. Fiende 5: oljan, kastade sig på Rosing som skrattade. S-04: hon angav Hurring, nekar. Redan mullvad mot Hjärter (annan hemlighet). |
-| `josefinlowing` | S-06, S-08, S-12 | familjesmycke, båtar, egen oförrätt mot Malin, bakhåll mot Rödskägg, namnet på klienten |
+| `josefinlowing` | S-05, S-06, S-08, S-12 | familjesmycke, båtar, aristokrati, egen oförrätt mot Malin, bakhåll mot Rödskägg, namnet på klienten |
 | `navidmodiri` | S-03, S-10 | fejkdöv, sanningsserum, workshop, nemesis Hjärter. Redan Babords mullvadskontakt (annan hemlighet). |
-| `ludvigvonbahr` | S-05 | tvåeggat svärd med lögnig historia, långa kramar |
 | `minimacklin` | S-01, S-09, S-12 | magiskt halsband. Jakten på Malins älskare, tecknet mot Frodig, falskt klientnamn. |
-| `fabianmacklin` | S-03, S-05, S-07 | njutningsstatyett, frieri till Barnsben. Redan Barnsbens mullvadskontakt (annan hemlighet). |
+| `fabianmacklin` | S-03, S-05, S-07 | njutningsstatyett, frieri till Barnsben, släktens rike. Redan Barnsbens mullvadskontakt (annan hemlighet). |
 | `josefinansund` | S-09, S-12 | förbjuden kärlek med Rödskägg. Namn-jakt: Blodig anklagar henne för bakhållet. |
 | `johannabergman` | S-02, S-04, S-05, S-11 | svartklubb, kristallfyrklöver, skvaller mot choklad, korthajbordet |
-| `amandamungsgard` | S-05 | arvssyndsskatt (tax), mynt, låg intensitet, vill spela med Dunka |
+| `amandamungsgard` | S-05 | arvssyndsskatt (tax), mynt, låg intensitet. Dunka struken 2026-09-01. |
 | `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa kåthornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). Frompiraterna ligger i lagintrigen, inte här. |
 | `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Fiende 5: vittne, Fuling kastade sig på henne vid skålen, hon skrattade. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
 | `alexandrapalmquist` | S-03, S-10 | sjökort (Mälaren, hennes föremål), mild ordning, romans med Döver, fiende 12 mot Barnsben (brevet i scarfen, dåtid). Redan mullvad mot Döver (annan hemlighet). |
-| `edvinthungren` | S-07, S-10, S-12 | vill vara snäll, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
+| `edvinthungren` | S-05, S-07, S-10, S-12 | vill vara snäll, ärvt skepp, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
 | `elinmartensson` | S-06, S-08, S-11 | kåthorn, klagomur, ensam om att veta att Spader har en lek med bara spaderess. Fiende 2 mot Malin (skålen och jollen), flyttad från Enben 2026-08-27. |
 | `gustaftadaa` | S-04, S-08, S-11 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14), korthajbordet. Fullt spelbar. Inga huvudquest-ledtrådar, inte mullvad/kontakt. |
 
@@ -273,26 +271,26 @@ Obs: Ordet feber förekommer inte. Klöver får inte den här scenen. Hurring f�
 
 ---
 
-## S-05: Svärdet och arvssynden
+## S-05: Arvssyndsskatten
 
 Akt:            II, gärna vid brunchens skålar
-Deltagare:      Kapten Dunka (`ludvigvonbahr`), Kapten Kosing (`amandamungsgard`), Kapten Nykter (`fabianmacklin`), Kapten Klöver (`johannabergman`)
-Roll i storyn:  bärare (Dunka) / grindvakt (Kosing) / jägare (Nykter) / vittne (Klöver)
+Deltagare:      Kapten Kosing (`amandamungsgard`), Kapten Kuling (`josefinlowing`), Kapten Rötägg (`edvinthungren`), Kapten Nykter (`fabianmacklin`), Kapten Klöver (`johannabergman`)
+Roll i storyn:  grindvakt (Kosing) / bärare (Kuling, Rötägg, Nykter) / vittne (Klöver)
 Kopplad till:   ingen beat än. Låg intensitet för Kosing: ingen ring, ingen kidnappning, inget centrum.
 
-Vad de vill:    Kosing vill lägga sin påhittade arvssyndsskatt (tax) just på Dunka, som kommer från överklassen. Nykter, som redan gjort Dunkas svärdhistoria till ett hamnskämt (fiende 20), vill se honom svettas en gång till, men gör det indirekt: han pekar ut det svaga stället åt Kosing istället för att själv stå i vägen för Dunka. Klöver, som redan planerat en hemlig ätupplevelse med Kosing, vill se den bli lönsam.
-Vad står i vägen: Dunka vaktar sitt tveeggade svärd svartsjukt och låter aldrig någon granska det på nära håll, av skräck för att avslöjas som falsk under fasaden. Samtidigt njuter han i hemlighet av ryktet att han setts vid Malins bord (den synliga romansen med Malin som Dunka bär i S-01, jakten på hennes älskare), vilket gör honom svårare att skrämma: han känner sig redan som en stor man den här helgen.
+Vad de vill:    Kosing vill lägga sin påhittade arvssyndsskatt (tax) på dem som kommer från överklassen. Tre namn i `roller/`: Kuling föddes in i Salmonellahavets aristokrati och bär släktens smycke. Rötägg ärvde ett skepp som ung. Nykter kommer från ett släkte som ägde ett rike (han plundrade och mördade det; Kosing känner till släkten, inte morden). Klöver vill se den hemliga ätupplevelsen bli lönsam.
+Vad står i vägen: de tre kan betala, dementera, eller berätta precis så mycket att kajen hör varifrån de kommer. Nykter kan peka Kosing mot Kuling och Rötägg så ingen frågar vad som hände med riket.
 Varför nu:      festens skålande och skryt ger den naturliga scenen, och Kosing tar upp skatt (tax) hela helgen.
 
-Hur det spelas: Nykter viskar åt Kosing att Dunkas svaga punkt är det tveeggade svärdets påhittade historia, den spricker om hon kräver den ord för ord, utan att själv synas i det. Kosing riktar sin arvssyndsskatt (tax) mot Dunka som kommer från överklassen och kräver betalt i mynt eller en berättelse. Dunka kan betala, dementera högljutt, eller dra igång svärdets "historia" en gång för mycket och snubbla på en detalj. Spricker myten svarar han med en av sina långa, envisa kramar, som tröst åt sig själv snarare än andra. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå skatten (tax) kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
-Utfall om ja:   Dunka betalar eller förödmjukas inför båda besättningarna, Kosing kammar hem indriven skatt (tax), Nykter njuter osedd av segern, Klöver tar sin procent.
-Utfall om nej:  Dunka bluffar sig igenom, myten lever vidare, skatten (tax) förblir obetald.
+Hur det spelas: Kosing kräver betalt i mynt eller en berättelse. Kuling kan dölja smycket. Rötägg kan berätta om skeppet han ärvde. Nykter betalar tyst, dementerar, eller styr boken mot de andra två. Klöver lägger sin och Kosings redan planerade hemliga ätupplevelse mitt i indrivningen: den som vill undgå skatten (tax) kan istället köpa sig en plats vid bordet, choklad går lika bra som mynt.
+Utfall om ja:   någon betalar eller knäböjer för avlat, Kosing kammar hem indriven skatt (tax), Klöver tar sin procent.
+Utfall om nej:  de tre bluffar sig igenom, skatten (tax) förblir obetald mot överklassen. Kurtisanen-spåret (fiende 17) lever ändå.
 
-Bygger på:      fiende 20 (Dunka–Nykter). Romans 19 (Kosing–Dunka), i den lågintensiva, icke-centrala form Kosing själv bett om. Kosings och Klövers gemensamma matplan, redan nämnd i båda rollunderlagen.
-Speglas hos:    Dunka, Kosing, Nykter, Klöver.
+Bygger på:      Kuling, Rötägg och Nykter i `roller/`. Inte romans 19 (struken 2026-09-01). Inte fiende 20 (struken). Kosings och Klövers gemensamma matplan, redan nämnd i båda rollunderlagen.
+Speglas hos:    Kosing, Kuling, Rötägg, Nykter, Klöver.
 Status:         skriven
 
-Obs: Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Dunka bär också S-01. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt (treasure): Gnällets ingång går inte via svärdet (minst tre ombord plus stormraden, 2026-08-28). S-05 är bara arvssyndsskatten (tax). Inte samma uppdrag. Fiende 17 (Kosing mot Malin) är en annan oförrätt om samma skatt (tax): Malin kallade den tiggeri och kyrkkollekt, se [`../intriger/fiender.yaml`](../intriger/fiender.yaml) och [`skatt.md`](skatt.md).
+Obs: Dunka (`ludvigvonbahr`) var bärare till 2026-09-01, återbud. Svärdsmyt och hamnskämt strukna. Nykter bär också S-03 och S-07, Klöver bär också S-02, S-04 och S-11, Kuling bär också S-06, S-08 och S-12, Rötägg bär också S-07, S-10 och S-12. Ingen delad mekanik. S-11 är bordet, inte ännu en bankbok. Lagskatt (treasure): Gnällets ingång går inte via överklass (minst tre ombord plus stormraden). S-05 är bara arvssyndsskatten (tax). Inte samma uppdrag. Fiende 17 (Kosing mot Malin) är en annan oförrätt om samma skatt (tax): Malin kallade den tiggeri och kyrkkollekt, se [`../intriger/fiender.yaml`](../intriger/fiender.yaml) och [`skatt.md`](skatt.md).
 
 ---
 
@@ -425,7 +423,7 @@ Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att d
 - **Frodig och Rödskägg, förbjuden kärlek** (romans 8, fiende 25). Hotet från Blodig, redan noterat i `fiender.yaml` fiende 4, adresserat i **S-09, beslutad.** Fiende 25 (Kuling–Rödskägg) adresserad i **S-12, beslutad:** namnet på klienten, inte vattnet.
 - **Hurring, Fuling, Klöver, Prygel** (romanser 12, 13, fiende 1, 5). **S-04, beslutad.**
 - **Plåthorns kåthorn mot Kuling och Prygel** (fiender 7, 24). **S-08, beslutad.**
-- **Kosing och Dunka** (romans 19, låg intensitet, fiende 20 som garnering). **S-05, beslutad.**
+- **Kosings arvssyndsskatt** (tax mot Kuling, Rötägg, Nykter; romans 19 och fiende 20 strukna 2026-09-01). **S-05, beslutad.**
 - **Korthajarna Spader, Klöver, Hjärter.** Rivaliteten sitter i rollfilerna och nu i fiender 27–29. Spader palmerar, Klöver byter lek i tricket, Hjärter märker kort i köket. Insatsen är rykte, inte kristallfyrklövern. **S-11, beslutad.** Fiende 14 (Spader–Rötägg) förblir obesökt som motor.
 
 ---

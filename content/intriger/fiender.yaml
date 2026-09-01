@@ -21,6 +21,7 @@
 #   * minimacklin blir mjuk 1 min av skeppskatt (katmynta, varken tax eller treasure): inte en fiendepost
 #   * elinamelakoski tackade nej 2026-08-23: inga poster
 #   * amaliawahlstrom tackade nej 2026-08-27: #26 struken. #2 flyttad till elinmartensson.
+#   * ludvigvonbahr tackade nej 2026-09-01: #20 struken. S-05 utan hamnskämt.
 #
 # status: pending | done | skipped
 # done = brödtext skriven i guests/. Inte förrän den omgången.
@@ -104,10 +105,10 @@ fiender:
 
   - id: 20
     type: mutual
-    a: ludvigvonbahr      # Kapten Dunka: Galeonen Gnället
+    a: ludvigvonbahr      # Kapten Dunka: Galeonen Gnället, återbud 2026-09-01
     b: fabianmacklin      # Kapten Nykter: Barken Bortförklaringen
-    # oförrätt: Nykter gjorde Dunkas svärdhistoria till hamnskämt; Dunka kramade honom tills andan och äran gick ur
-    status: done
+    # Struken. Hamnskämt om svärdet. Ludvig attending=false. Nykter bär S-05 som skattepliktig (släktens rike), inte som jägare.
+    status: skipped
 
   # --- One-way ---
 

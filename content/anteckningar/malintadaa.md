@@ -12,11 +12,11 @@ Antagonist och jubilar. Skuta 1, **Korvetten Kurtisanen**. Osårbar. Dödar alla
 
 **Vet inte:** att kistan kommer att öppnas, att XII på halsbandet är en ledtråd, att någon jagar lösenordet.
 
-**S-01:** Hjärter och Blodig jagar hennes hemliga älskare och tror att det är någon i hamnen. Malin leder fel: varken bekräfta eller förneka ett namn på ön. Historien med Blodig speglas: tidiga år, hon lämnade, Blodig blev kall. Hjärters kärlek speglas inte.
+**S-01:** Hjärter och Blodig jagar hennes hemliga älskare och tror att det är någon i hamnen. Malin leder fel: varken bekräfta eller förneka ett namn på ön. Ingen planterad avledning (Dunka #24 struken 2026-09-01). Historien med Blodig speglas: tidiga år, hon lämnade, Blodig blev kall. Hjärters kärlek speglas inte.
 
 **Inte** mullvad. Default: inte kontakt heller. Mindre utrymme för egen pusselintrig.
 
-Romanser: Dunka #24 (mutual, synlig avledning), Karl XII #22 (NPC). Mot henne: Hjärter #17 (enväg), Blodig #20 (tvåvägs historia, hennes oläkta sug tyngre). Fiender: Plåthorn #2, Kosing #17 (enväg från Kosing: Malin skålade och kallade arvssyndsskatten (tax) tiggeri och kyrkkollekt; inte en jämförelse med Malins skatt (treasure)).
+Romanser: Karl XII #22 (NPC). Dunka #24 struken 2026-09-01. Mot henne: Hjärter #17 (enväg), Blodig #20 (tvåvägs historia, hennes oläkta sug tyngre). Fiender: Plåthorn #2, Kosing #17 (enväg från Kosing: Malin skålade och kallade arvssyndsskatten (tax) tiggeri och kyrkkollekt; inte en jämförelse med Malins skatt (treasure)).
 
 Lagskatt (treasure): hon är en av fem dörrar till Kurtisanens kod. Siffra i `guests/malintadaa.md`. Jägarna är Gnället. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md) och [`../huvudstory/skatt.md`](../huvudstory/skatt.md).
 

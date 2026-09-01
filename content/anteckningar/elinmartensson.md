@@ -12,5 +12,5 @@ Rekvisita: Spaders halsband med spader, utdelat före spelet. Romans-token, hon 
 
 Fiende 2 mot **Svarta Malin** (skålen "en fasa till kapten", kapad jolle). Flyttad från Enben 2026-08-27. S-06, oberoende av Kulings fordran.
 
-Lagskatt (treasure): hon är en av fem dörrar. Minst tre av galeonen samlade plus stormraden. Påminnelse i `guests/elinmartensson.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).
+Lagskatt (treasure): hon är en av fyra dörrar. Minst tre av galeonen samlade plus stormraden. Påminnelse i `guests/elinmartensson.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).
 

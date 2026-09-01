@@ -1,6 +1,6 @@
 /**
- * Q-5 porträttvägg (Q5-01). 23 attending. Sångordning; hoppa namn som inte hänger.
- * 16 bokstäver → I SVÄRDFISKENS MUN. 7 tomma. Ingen Enben (Amalia återbud).
+ * Q-5 porträttvägg (Q5-01). 22 attending. Sångordning; hoppa namn som inte hänger.
+ * 16 bokstäver → I SVÄRDFISKENS MUN. 6 tomma. Ingen Enben, ingen Dunka (återbud).
  */
 export const Q5_CREWS = {
   1: 'Korvetten Kurtisanen',
@@ -35,7 +35,6 @@ export const Q5_WALL = [
   { slug: 'linneaekbom', pirateName: 'Kapten Rosing', pirateNameId: 45, letter: '', crewId: 5 },
   { slug: 'elinmartensson', pirateName: 'Kapten Plåthorn', pirateNameId: 51, letter: '', crewId: 5 },
   { slug: 'minervalowgren', pirateName: 'Kapten Prygel', pirateNameId: 54, letter: '', crewId: 4 },
-  { slug: 'ludvigvonbahr', pirateName: 'Kapten Dunka', pirateNameId: 55, letter: '', crewId: 5 },
   { slug: 'linneaappert', pirateName: 'Kapten Planka', pirateNameId: 57, letter: '', crewId: 1 },
 ]
 

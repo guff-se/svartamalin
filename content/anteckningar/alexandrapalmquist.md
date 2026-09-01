@@ -12,5 +12,5 @@ Fiende 12, one_way, mot **Kapten Barnsben** (brevet lindat i Babords scarf, dåt
 
 Mullvad för Fördärvet, kontakt **Kapten Döver** (forradare 5, romans 7). S-10 är teckenspråket, skilt från fiende 12 och från mullvaden.
 
-Lagskatt (treasure): hon är en av fem dörrar. Minst tre av galeonen samlade plus stormraden. Påminnelse i `guests/alexandrapalmquist.md`. Mullvaden säljer gömställe, inte den här dörren. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).
+Lagskatt (treasure): hon är en av fyra dörrar. Minst tre av galeonen samlade plus stormraden. Påminnelse i `guests/alexandrapalmquist.md`. Mullvaden säljer gömställe, inte den här dörren. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).
 

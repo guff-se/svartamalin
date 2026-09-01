@@ -17,8 +17,10 @@ mirrors:
     note: hon kräver namnet, Blodig har redan fyllt i henne (tvåvägs)
   - slug: minimacklin
     note: skutkamrat, hon har gissat fel namn, du rättar inte gratis (tvåvägs)
+  - slug: amandamungsgard
+    note: arvssyndsskatt mot aristokratin (tvåvägs, tax)
 # gustaftadaa: hon vet inte att han älskar Plåthorn i hemlighet, se hans fil
-related: [elinmartensson, gustaftadaa, jesperlindmarker, viktoransund, petterwallberg, malintadaa, edvinthungren, josefinansund, minimacklin]
+related: [elinmartensson, gustaftadaa, jesperlindmarker, viktoransund, petterwallberg, malintadaa, edvinthungren, josefinansund, minimacklin, amandamungsgard]
 ---
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
@@ -60,3 +62,7 @@ Uppdraget på Paradisets ö var betalt. Klienten var **Kapten Rötägg**, då ä
 Du har inte nämnt namnet för **Fregatten Fördärvet**. Proffs skvallrar inte med kojjen. **Kapten Blodig** har ändå fyllt i **Kapten Frodig**, för att pulversläkter är lätta att hata och för att Blodig redan gör det. Du rättar henne inte gratis.
 
 Vid båtarna, där **Kapten Rödskägg** redan ser en kniv i varje leende, kommer de tre: Frodig, som vill ha sanningen innan Blodigs lögn når honom. Rötägg, som vill ha tystnad eller en bekännelse på sina villkor. Blodig, som vill att Frodigs namn ska vara det som fastnar. Sälj. Tig. Peka. Namnet är din sista last från det jobbet, värt mer än det pulver du redan lyfte. Ta betalt innan festen är över.
+
+## Arvssynden du föddes till {slug:amandamungsgard}
+
+Du föddes in i Salmonellahavets aristokrati. Familjen ägde stora skutor och stora tillgångar, och det dyrbara smycket är det sista du har kvar av det livet. **Kapten Kosing** har infört en arvssyndsskatt, en skatt på dem som kommer från överklassen, och du är född till den. Betala i mynt eller i en berättelse om släkten, dölj smycket, eller dementera högljutt att aristokrati räknas på en kaj. Avgör det innan festen är över.

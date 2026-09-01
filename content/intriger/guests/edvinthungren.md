@@ -17,8 +17,16 @@ mirrors:
     note: hon svär att Frodig betalade, du vet att lögnen räddar dig (enväg)
   - slug: viktoransund
     note: du betalade bakhållet mot honom, han vet inte att det var du (enväg)
-related: [linneaappert, ulrikahammar, navidmodiri, gustaftadaa, josefinlowing, josefinansund, minimacklin, viktoransund]
+  - slug: amandamungsgard
+    note: arvssyndsskatt mot det ärvda skeppet (tvåvägs, tax)
+related: [linneaappert, ulrikahammar, navidmodiri, gustaftadaa, josefinlowing, josefinansund, minimacklin, viktoransund, amandamungsgard]
 ---
+
+## Skulden du tog för att bli snäll {slug:malintadaa}
+
+Du är skyldig **Svarta Malin** pengar, en gammal skuld från tiden innan du bestämde dig för att bli snäll, mynt du aldrig hade när du mist skeppet. Hon för logg över vartenda mynt, varenda ed och varenda obetald skål som dragits på någon, och ditt namn står redan där. Du vill åt loggen, inte för att betala, utan för att se vad mer den håller.
+
+Var den sitter vet du inte. Kalla ihop **Galeonen Gnället** och börja leta, innan en annan skuta hinner före er.
 
 ## Beviset du vill ge Planka {slug:linneaappert}
 
@@ -47,6 +55,10 @@ Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Köp he
 Innan du miste ditt skepp och blev den snälla mannen du numera försöker vara, bytte du ut **Kapten Barnsben**s blomsterparfym mot doften av rötägg. Hon hade sprutat sig med blommor för att uppvakta **Kapten Döver**, och du lät henne stinka av det hon minst ville lukta just när hon stod som närmast. Uppvaktningen dog på fläcken. Kajen skrattade. Hon har aldrig glömt det, och hon dömer dig fortfarande.
 
 Du vet om domen. Du erbjuder henne gärna en gest av gottgörelse, en sabrerad flaska, en hjälpande hand vid Dövers workshop på gården, men hon tar inte emot den lika lätt som andra. **Kapten Planka** kan fråga henne vad hon vet om dig, och du vet inte om Barnsben väljer att skydda dig eller sänka dig den dagen. Vinn hennes förtroende, eller ge upp försöket, innan festen är över.
+
+## Arvet som räknas {slug:amandamungsgard}
+
+Du ärvde ett skepp som ung. Ett skepp gör inte en kapten, och du miste det, men **Kapten Kosing** har infört en arvssyndsskatt, en skatt på dem som kommer från överklassen, och ett arv räknas även när skutan är borta. Betala i mynt eller i berättelsen om skeppet du fick, eller dementera högljutt att ett sjunket arv fortfarande syns. Avgör det innan festen är över.
 
 ## Stormen ni överlevde {slug:edvinthungren}
 

@@ -20,7 +20,8 @@
 # Rollönskemål som styrt omparningen (content/roller/):
 #   * viktoransund: förbjuden kärlek med Kapten Frodig (josefinansund), inte Mini
 #   * jesperlejfjord: ville spela mot Katten Felix; Elina återbud 2026-08-23, jakten är med Blodig (fiende 21)
-#   * amandamungsgard: något med Ludvig (#19); ingenting med Mini; inte högintensivt centrum-drama
+#   * amandamungsgard: något med Ludvig (#19); ingenting med Mini; inte högintensivt centrum-drama.
+#     Ludvig återbud 2026-09-01: #19 struken. Ingen ersättningsromans. S-05 tax mot Kuling, Rötägg, Nykter.
 #   * minimacklin: kärlekshistoria/svek med Svarta Malin (#20, mutual historia). 1 min förstummad av Malins ögon;
 #     samma tapp för skeppskatt: mjuk 1 min, inte fiendskap mot katter
 #   * edvinthungren: manschettknappar med enhörningar, fått för kärlekens skull → #3
@@ -30,7 +31,7 @@
 #   * amaliawahlstrom tackade nej 2026-08-27: #23 struken. Fiende 2 flyttad till elinmartensson.
 #   * hampuslindblad: underlag 2026-08-25. Romans med Planka (#25), sexmagick i Fuling (#10) och Planka. Ville också
 #     konspiration med Planka, Kosing och Barnsben mot Malin: skippad, ingen ny sidequest.
-#   * ludvigvonbahr: utöver Kosing (#19) även ny mutual med Malin (#24), gömma/krock för B-13
+#   * ludvigvonbahr tackade nej 2026-09-01: #19 och #24 strukna. S-01 utan planterad avledning.
 #   * chriskummelstedt tackade nej: inga poster
 #   * elinamelakoski tackade nej 2026-08-23: inga poster. Katten Felix obesatt.
 
@@ -116,9 +117,9 @@ romanser:
   - id: 19
     type: mutual
     a: amandamungsgard     # Kapten Kosing (Amanda Mungsgård)
-    b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
-    note: Kosings önskemål att spela med Dunka; inte förankrat av honom i underlaget. Inte högintensivt publikt drama (Kosings underlag: inget centrum, ingen kidnappning). Dunka får senare även Malin (#24): håll den romansen diskret så Kosing inte dras in i centrum-drama.
-    status: done
+    b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr), återbud 2026-09-01
+    note: Struken. Kosings önskemål att spela med Dunka. Ludvig attending=false. Ingen ersättningsromans. S-05 är tax mot Kuling, Rötägg och Nykter.
+    status: skipped
 
   - id: 20
     type: mutual
@@ -151,9 +152,9 @@ romanser:
   - id: 24
     type: mutual
     a: malintadaa          # Svarta Malin (Malin Tadaa)
-    b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr)
-    note: ytterligare synlig romans som gömmer den hemliga (#17/#20/#22), bränsle för jakten på älskaren (huvudstory B-13/S-01). Krockar med Dunkas romans med Kosing (#19): håll den här diskret så Kosing inte dras in i centrum-drama mot sin vilja.
-    status: done
+    b: ludvigvonbahr       # Kapten Dunka (Ludvig von Bahr), återbud 2026-09-01
+    note: Struken. Synlig avledning för jakten på älskaren. Ludvig attending=false. S-01 utan planterad kropp vid bordet. Malin bekräftar ingenting, nekar ingenting.
+    status: skipped
 
   - id: 25
     type: mutual
@@ -161,3 +162,4 @@ romanser:
     b: hampuslindblad      # Kapten Blåskägg (Hampus Lindblad)
     note: Hans underlag 2026-08-25. Hon krossade hans hjärta för att ta en annan kaptens skuta och besättning. Han strandade på Galápagos. Sexmagick. Han har Fuling (#10); Fuling vet inte om Planka. Hon har redan Rötägg (#3); han vet inte om Blåskägg. Ingen ny sidequest, ingen konspiration med Kosing/Barnsben.
     status: done
+

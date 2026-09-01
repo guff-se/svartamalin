@@ -20,6 +20,18 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-09-01, Ludvig återbud
+
+Källa: Gustaf, i chatt. Införd i [`beslut.md`](beslut.md), [`cast.md`](cast.md), [`sidequests.md`](sidequests.md) S-01 och S-05, [`fordelning.yaml`](fordelning.yaml), gästintriger.
+
+- [x] we just had a last minute cancellation from ludvig.
+- [x] do all 1-6
+- [x] for S-05, see if you can find another person who claims noble or upper class background and retarget amandas tax. actually, everyone who has something like that in their role should be connected to the tax.
+
+Kryss = `attending = false`. Kapten Dunka obesatt. Q-5-start till Rötägg. S-05 arvssyndsskatt (tax) mot Kuling, Rötägg och Nykter, plus Kurtisanen som förut. Ingen ny romans till Kosing.
+
+---
+
 ## 2026-08-29, Malin vet om Blodig
 
 Källa: Gustaf, i chatt. Införd i [`../intriger/guests/malintadaa.md`](../intriger/guests/malintadaa.md), [`../intriger/romanser.yaml`](../intriger/romanser.yaml) #20.
@@ -286,7 +298,7 @@ Källa: Gustaf, i chatt. Införd i [`lagskatter.md`](lagskatter.md). Överstyr 2
 
 - [x] För att få den första ledtråden måste de som söker skatten samla ihop minst 3 av Galeonen Gnället på samma gång. När vi är samlade säger de, insmickrande: "Vi har hört legenden om era magnifika skepp, är det sant att ni är de enda som överlevde stormen den natten?"
 
-Kryss = verbatim i registret. Gnället jagas av Fromheten. Social, ingen utläggning. Inte Dunkas svärd. Inte kinesisk kopia. Gästtext: jägarna i `crews/4.md`. Dörr: de fem `guests/` på Gnället. Inte i `crews/5.md`.
+Kryss = verbatim i registret. Gnället jagas av Fromheten. Social, ingen utläggning. Inte Dunkas svärd. Inte kinesisk kopia. Gästtext: jägarna i `crews/4.md`. Dörr: de fyra `guests/` på Gnället (Dunka struken 2026-09-01). Inte i `crews/5.md`.
 
 ---
 

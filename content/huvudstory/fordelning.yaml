@@ -59,7 +59,7 @@
 # B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
 # in hos jägarna. Se lagskatter.md. Id 1–5 är jägarna: skatten de ska hitta,
 # plus ingången. Inte skatten de gömmer. Social dörr ligger inte i lagfilen:
-# id 100 Gnällets fem (minst tre + stormraden), 101 Hjärter, 102 Klöver,
+# id 100 Gnällets fyra (minst tre + stormraden), 101 Hjärter, 102 Klöver,
 # 103 kurtisanernas fem siffror.
 
 fordelning:
@@ -368,7 +368,7 @@ fordelning:
     speglas: [malintadaa]
     bygger_pa: "romans: 24"
     pussel: null
-    status: done
+    status: skipped
 
   - id: 27
     beat: S-02
@@ -500,17 +500,17 @@ fordelning:
     speglas: [amandamungsgard, fabianmacklin]
     bygger_pa: "romans: 19, fiende: 20"
     pussel: null
-    status: done
+    status: skipped
 
   - id: 38
     beat: S-05
     akt: II
     till: [amandamungsgard]
     roll: grindvakt
-    vet: "att hennes arvssyndsskatt (tax) är en skatt (tax) på dem som kommer från överklassen, riktad mot Kapten Dunka och hans svärdshistoria, att hon kan kräva betalt i mynt eller berättelse, och att hon och Kapten Klöver har planerat en hemlig ätupplevelse som kan säljas som ett sätt att slippa skatten (tax)"
-    vet_inte: "att Kapten Nykter viskar Dunkas svaghet till henne"
-    speglas: [ludvigvonbahr, johannabergman]
-    bygger_pa: "romans: 19"
+    vet: "att hennes arvssyndsskatt (tax) är en skatt (tax) på dem som kommer från överklassen, riktad mot Kapten Kuling (aristokrati och släktsmycke), Kapten Rötägg (ärvt skepp) och Kapten Nykter (släkte som ägde ett rike), att hon kan kräva betalt i mynt eller berättelse, och att hon och Kapten Klöver har planerat en hemlig ätupplevelse som kan säljas som ett sätt att slippa skatten (tax)"
+    vet_inte: "att Nykter mördade och plundrade släktens rike"
+    speglas: [josefinlowing, edvinthungren, fabianmacklin, johannabergman]
+    bygger_pa: null
     pussel: null
     status: done
 
@@ -518,11 +518,11 @@ fordelning:
     beat: S-05
     akt: II
     till: [fabianmacklin]
-    roll: jagare
-    vet: "att han en gång gjorde Kapten Dunkas svärdshistoria till ett hamnskämt och fick en kram tillbaka som pressade andan ur honom, att Kapten Kosing driver in en arvssyndsskatt (tax), en skatt (tax) på dem som kommer från överklassen, riktad mot Dunka, att Dunkas svaga punkt är att svärdet inte är anrikt och historien påhitt, och att han kan viska just det till Kosing utan att synas i det"
+    roll: barare
+    vet: "att han som ung plundrade och mördade hela sin släkts rike, att Kapten Kosing driver in en arvssyndsskatt (tax) på dem som kommer från överklassen, att ett rike räknas, att hon känner till släkten men inte morden, och att han kan betala, dementera, eller peka henne mot Kapten Kulings aristokrati och Kapten Rötäggs ärvda skepp"
     vet_inte: "inget av kistan eller kontraktet"
-    speglas: [ludvigvonbahr]
-    bygger_pa: "fiende: 20"
+    speglas: [amandamungsgard]
+    bygger_pa: null
     pussel: null
     status: done
 
@@ -531,7 +531,7 @@ fordelning:
     akt: II
     till: [johannabergman]
     roll: vittne
-    vet: "att hon och Kapten Kosing har planerat en hemlig ätupplevelse tillsammans, och att den kan öppnas för affärer mitt i Kosings arvssyndsskatt (tax) mot Kapten Dunka"
+    vet: "att hon och Kapten Kosing har planerat en hemlig ätupplevelse tillsammans, och att den kan öppnas för affärer mitt i Kosings arvssyndsskatt (tax) mot Kapten Kuling, Kapten Rötägg och Kapten Nykter"
     vet_inte: "inget av kistan eller kontraktet"
     speglas: [amandamungsgard]
     bygger_pa: null
@@ -934,9 +934,9 @@ fordelning:
     pussel: null
     status: done
 
-# B-18 Q-5-tillsättning (2026-08-24): skuta 1, 3, 5. Start: Kapten Lösskägg (`petterwallberg`),
-# Kapten Nykter (`fabianmacklin`), Kapten Dunka (`ludvigvonbahr`). Tvärledtråd: skuta 2 (minimacklin), skuta 4 (viktoransund).
-# Gästtext oskriven, se quests/Q-5.md.
+# B-18 Q-5-tillsättning (2026-08-24, omfördelad 2026-09-01): skuta 1, 3, 5. Start: Kapten Lösskägg (`petterwallberg`),
+# Kapten Nykter (`fabianmacklin`), Kapten Rötägg (`edvinthungren`). Tvärledtråd: skuta 2 (minimacklin), skuta 4 (viktoransund).
+# Dunka (`ludvigvonbahr`) struken 2026-09-01.
 
   - id: 74
     beat: B-18
@@ -965,7 +965,7 @@ fordelning:
   - id: 76
     beat: B-18
     akt: II
-    till: [ludvigvonbahr]
+    till: [edvinthungren]
     roll: jagare
     vet: "att han är skyldig Svarta Malin pengar, att hon för en logg över alla sådana skulder, och att han vill komma åt loggen"
     vet_inte: "var loggen sitter, porträttväggen, svärdfiskens mun, tokens 2K, dagboksblad 7, kungen, att festen är en fälla, att kistan öppnas"
@@ -1277,7 +1277,7 @@ fordelning:
   - id: 100
     beat: B-11
     akt: II
-    till: [ludvigvonbahr, elinmartensson, alexandrapalmquist, linneaekbom, edvinthungren]
+    till: [elinmartensson, alexandrapalmquist, linneaekbom, edvinthungren]
     roll: door
     vet: "att om minst tre av Galeonen Gnället står samlade och någon säger insmickrande att de hört legenden om era magnifika skepp och frågar om ni är de enda som överlevde stormen den natten, ska de släppa nästa ledtråd till galeonens skatt (treasure)"
     vet_inte: "att Fregatten Fromheten jagar Gnällets skatt (treasure), att jakten är en sluten cirkel, var skatten (treasure) ligger, ledtråd två"
@@ -1367,6 +1367,54 @@ fordelning:
     vet_inte: "att kistan öppnas, att Blodig bär stugan som Q-2-ingång och skuldväggen som Q-5-tvärledtråd, Otto von Pälspung i den här texten"
     speglas: [minimacklin]
     bygger_pa: "romans: 20"
+    pussel: null
+    status: done
+
+  - id: 108
+    beat: S-05
+    akt: II
+    till: [josefinlowing]
+    roll: barare
+    vet: "att hon föddes in i Salmonellahavets aristokrati, att familjen ägde stora skutor och tillgångar, att det dyrbara smycket är det sista hon har kvar, att Kapten Kosing driver in en arvssyndsskatt (tax) på dem som kommer från överklassen, och att hon kan betala i mynt eller berättelse, dölja smycket, eller dementera"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [amandamungsgard]
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 109
+    beat: S-05
+    akt: II
+    till: [edvinthungren]
+    roll: barare
+    vet: "att han ärvde ett skepp som ung, att Kapten Kosing driver in en arvssyndsskatt (tax) på dem som kommer från överklassen, att ett arv räknas även när skutan är borta, och att han kan betala i mynt eller i berättelsen om skeppet, eller dementera"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [amandamungsgard]
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 108
+    beat: S-05
+    akt: II
+    till: [josefinlowing]
+    roll: barare
+    vet: "att hon föddes in i Salmonellahavets aristokrati, att familjen ägde stora skutor och tillgångar, att det dyrbara smycket är det sista hon har kvar, att Kapten Kosing driver in en arvssyndsskatt (tax) på dem som kommer från överklassen, och att hon kan betala i mynt eller berättelse, dölja smycket, eller dementera"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [amandamungsgard]
+    bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 109
+    beat: S-05
+    akt: II
+    till: [edvinthungren]
+    roll: barare
+    vet: "att han ärvde ett skepp som ung, att Kapten Kosing driver in en arvssyndsskatt (tax) på dem som kommer från överklassen, att ett arv räknas även när skutan är borta, och att han kan betala i mynt eller i berättelsen om skeppet, eller dementera"
+    vet_inte: "inget av kistan eller kontraktet"
+    speglas: [amandamungsgard]
+    bygger_pa: null
     pussel: null
     status: done
 

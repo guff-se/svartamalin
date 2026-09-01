@@ -12,4 +12,6 @@ S-12: han var klienten bakom Kulings bakhåll mot Rödskägg, före omvändelsen
 
 Fiende 14 (Spader): fuskad kortvinst om Plåthorns fiskegrund. Dåtid. Inget fysiskt sjökort på ön.
 
-Lagskatt (treasure): han är en av fem dörrar. Minst tre av galeonen samlade plus stormraden. Påminnelse i `guests/edvinthungren.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).
+Lagskatt (treasure): han är en av fyra dörrar. Minst tre av galeonen samlade plus stormraden. Påminnelse i `guests/edvinthungren.md`. Se [`../huvudstory/lagskatter.md`](../huvudstory/lagskatter.md).
+
+Q-5-start 2026-09-01, efter Dunkas återbud. S-05: arvssyndsskatt (tax) på det ärvda skeppet.

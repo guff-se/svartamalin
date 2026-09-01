@@ -3,15 +3,15 @@
 mirrors:
   - slug: ulrikahammar
     note: uppvaktning vid syhörnan + hon blir din mullvad på Kurtisanen (tvåvägs)
-  - slug: ludvigvonbahr
-    note: gammalt hamnskämt om svärdet (tvåvägs)
+  - slug: amandamungsgard
+    note: arvssyndsskatt mot släktens rike (tvåvägs, tax)
   - slug: linneaappert
     note: reservsvar om Barnsben inte hittas
   - slug: linneaekbom
     note: enväg hat, viskningen om sista dansen (hon hatar dig, du vet om det)
   - slug: navidmodiri
     note: enväg hat, frieriet han sålde för skratt i tavernan (du hatar honom, han vet om det)
-related: [ulrikahammar, linneaekbom, ludvigvonbahr, amandamungsgard, linneaappert, malintadaa, navidmodiri]
+related: [ulrikahammar, linneaekbom, amandamungsgard, linneaappert, malintadaa, navidmodiri, josefinlowing, edvinthungren]
 ---
 
 ## Skulden bakom din nyktra min {slug:malintadaa}
@@ -44,11 +44,11 @@ Du trodde dig ensam med **Kapten Barnsben** vid hennes sy- och broderihörna den
 
 Du har aldrig kunnat bevisa att han ljuger om sin dövhet, men du vet vad du vet. Ta igen förnedringen på honom, avslöja honom som bedragaren du misstänker att han är inför hela ön, eller vänta på ett tillfälle där hans påstådda dövhet kostar honom mer än ditt rykte kostade dig. Gör det innan festen är över.
 
-## Viskningen du ger Kosing {slug:amandamungsgard}
+## Arvssynden som följer riket {slug:amandamungsgard}
 
-Du gjorde en gång **Kapten Dunka**s svärdshistoria till ett stående hamnskämt, och han svarade med en av sina långa, envisa kramar som pressade andan och äran ur dig samtidigt. Sen dess håller du dig på behörigt avstånd från honom, men inte från hans svaga punkt: det tveeggade svärdet är inte anrikt, historien om bladet är påhitt, och tvingar man honom att berätta den i detalj snubblar han.
+När du var ung plundrade och mördade du hela din släkts rike. Sen dess seglar du som om du hittat en ny familj. **Kapten Kosing** har infört en arvssyndsskatt, en skatt på dem som kommer från överklassen, och ett rike räknas, även ett du själv brände.
 
-**Kapten Kosing** driver in en arvssyndsskatt, en skatt på dem som kommer från överklassen, och Dunka är den hon siktar på. Viska åt henne just det, att myten spricker om hon kräver historien ord för ord, utan att själv synas i det. Se honom svettas en gång till, från säkert avstånd den här gången.
+Hon känner till släkten, inte vad du gjorde med den. Betala i mynt eller i en berättelse som stannar vid arvet. Dementera högljutt. Eller peka henne mot **Kapten Kuling**s aristokrati och **Kapten Rötägg**s ärvda skepp, så hennes bok fylls utan att någon frågar vad som hände med ditt rike. Avgör det innan festen är över.
 
 ## Svaret du ger om Rötägg {slug:linneaappert}
 

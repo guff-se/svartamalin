@@ -12,7 +12,6 @@ from (values
   ('Petter Wallberg',     'Södra Toppstugan', 'Dubbelsäng'),
   ('Elin Mårtensson',     'Södra Toppstugan', 'Dubbelsäng'),
   ('Navid Modiri',        'Södra Toppstugan', 'Enkelsäng'),
-  ('Ludvig von Bahr',     'Södra Toppstugan', 'Madrass'),
   ('Linnea Ekbom',        'Familjerummet',    'Dubbelsäng'),
   ('Louise von Bahr',     'Familjerummet',    'Dubbelsäng'),
   ('Johanna Bergman',     'Familjerummet',    'Våningssäng'),

@@ -1,8 +1,6 @@
 ---
 # Skuta: **Korvetten Kurtisanen** (crew_id: 1)
 mirrors:
-  - slug: ludvigvonbahr
-    note: synlig diskret romans, avledning för hamnen (tvåvägs)
   - slug: minimacklin
     note: kärlekshistoria i tonåren, du lämnade, Blodigs längtan oläkt (tvåvägs historia, hennes sug tyngre)
   - slug: elinmartensson
@@ -11,14 +9,14 @@ mirrors:
     note: gammal oförrätt, Fördärvets fordran (tvåvägs)
   - slug: amandamungsgard
     note: enväg hat, skålen "tiggeri och kyrkkollekt", låg intensitet (hon hatar dig, du vet om det)
-related: [ludvigvonbahr, minimacklin, elinmartensson, josefinlowing, amandamungsgard]
+related: [jesperlejfjord, minimacklin, elinmartensson, josefinlowing, amandamungsgard]
 ---
 
-## Den som sitter vid ditt bord {slug:ludvigvonbahr}
+## Den som jagar vid ditt bord {slug:jesperlejfjord}
 
 Du har redan den enda älskare som räknas, och hans namn får hamnen aldrig höra ur din mun. Inte en stavelse. Inte en krona. Men när Karl inte är här så kan man väl få leka? Om inte annat så för att stävja de rykten som går om din hemlige älskare?
 
-Låt dem tro att din hemliga håller till vid faten. **Kapten Dunka** sitter redan där, diskret nog att kunna förnekas, tydlig nog att fylla ut ryktet. Du får gärna ta honom också. En kropp i ljuset, en i mörkret. Bekräfta ingenting. Neka ingenting. Le, försvinn, och låt hamnen jaga varandra istället för sanningen.
+Hamnen tror att din hemliga håller till vid faten. Låt dem. **Kapten Hjärter** frågar vid grytorna. **Kapten Blodig** jagar med äldre skäl. Du får gärna ta någon i ljuset om stunden kräver det. En kropp de kan räkna, en de aldrig får se. Bekräfta ingenting. Neka ingenting. Le, försvinn, och låt hamnen jaga varandra istället för sanningen.
 
 ## Den du gjorde av sten {slug:minimacklin}
 

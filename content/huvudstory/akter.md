@@ -293,10 +293,10 @@ Om det floppar: tre andra quests plus berlocken räcker för skutor som inte had
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
 Plats:          Storstugan, porträttväggen, svärdfiskens mun
-Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Lösskägg (`petterwallberg`), Kapten Nykter (`fabianmacklin`), Kapten Dunka (`ludvigvonbahr`). Tvärledtråd: Kapten Blodig (`minimacklin`, skuta 2), Kapten Rödskägg (`viktoransund`, skuta 4). Inte Malin, inte Spader.
+Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 3 (Barken Bortförklaringen), Skuta 5 (Galeonen Gnället). Start: Kapten Lösskägg (`petterwallberg`), Kapten Nykter (`fabianmacklin`), Kapten Rötägg (`edvinthungren`). Tvärledtråd: Kapten Blodig (`minimacklin`, skuta 2), Kapten Rödskägg (`viktoransund`, skuta 4). Inte Malin, inte Spader.
 Publik:         den som ser väggen tas ner, och den som ser någon fiska i gapet
 
-Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 23 porträtt (attending), 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre tokens `2K`. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.
+Vad händer:     tre män är skyldiga Malin pengar och jagar hennes logg. Tvärledtråd pekar mot väggen. 22 porträtt (attending), 16 bokstäver i sångordning ger "I SVÄRDFISKENS MUN". I munnen: blad 7 och tre tokens `2K`. Troligen one-off. Boken med utrivna stubbar står synlig i samma rum. Inte en karta till munnen.
 
 Vad ändras:     rummet vet att hon håller havet med mäns skulder, och att de ligger i kistan. Inte kungen. Inte att hon är skuldsatt.
 

@@ -171,7 +171,7 @@ Snapshot av [`fordelning.yaml`](fordelning.yaml). Ändra där, sedan här. Fet =
 | 2 Fregatten Fördärvet | **Kuling** | **Blodig** | **Döver** | — | *tvär: Blodig* |
 | 3 Barken Bortförklaringen | **Frodig** | **Klöver** | *tvär: Frodig* | — | **Nykter** |
 | 4 Fregatten Fromheten | — | **Kosing** | **Rödskägg** | **Hjärter** | *tvär: Rödskägg* |
-| 5 Galeonen Gnället | — | — | **Rosing** | **Plåthorn** | **Dunka** |
+| 5 Galeonen Gnället | — | — | **Rosing** | **Plåthorn** | **Rötägg** |
 
 Per quest, tre starter:
 
@@ -181,7 +181,7 @@ Per quest, tre starter:
 | Q-2 | 2, 3, 4 | Blodig (`minimacklin`), Klöver (`johannabergman`), Kosing (`amandamungsgard`) |
 | Q-3 | 2, 4, 5 | Döver (`navidmodiri`), Rödskägg (`viktoransund`), Rosing (`linneaekbom`) |
 | Q-4 | 1, 4, 5 | Hurring (`jesperlindmarker`), Hjärter (`jesperlejfjord`), Plåthorn (`elinmartensson`) |
-| Q-5 | 1, 3, 5 | Lösskägg (`petterwallberg`), Nykter (`fabianmacklin`), Dunka (`ludvigvonbahr`) |
+| Q-5 | 1, 3, 5 | Lösskägg (`petterwallberg`), Nykter (`fabianmacklin`), Rötägg (`edvinthungren`) |
 
 Tvärledtråd: Q-3 Caesar till skuta 1 (Lösskägg, Planka) och skuta 3 (Frodig). Q-5 porträttväggen till skuta 2 och 4. Q-1 och Q-4 har ingen. Q-2 får ingen.
 

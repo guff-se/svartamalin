@@ -40,7 +40,7 @@ YAML mellan `---` och `{slug:…}` i rubriker syns inte för gästen. Subagenten
 - **Salmonellahavet, Ovanan, Piratpulver.** Kända ord.
 - **Paradisets ö** Arbiträr plats som inte behöver mer förklaring än vad som har hänt där.
 - **Gymmet, Storstugan.** Byggnader på ön. Inga förklaringar.
-- **Svarta Malins hemliga älskare.** Identiteten är en hemlighet `malintadaa` redan bär. Namnet ska inte stå i gästtext. Flagga inte att älskaren är namnlös, varken hos Malin eller hos den som jagar namnet. **Kapten Dunka** som synlig avledning är avsiktlig.
+- **Svarta Malins hemliga älskare.** Identiteten är en hemlighet `malintadaa` redan bär. Namnet ska inte stå i gästtext. Flagga inte att älskaren är namnlös, varken hos Malin eller hos den som jagar namnet. Ingen planterad avledning efter Dunkas återbud 2026-09-01.
 
 ## Vad en granskare inte får
 

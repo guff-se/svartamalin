@@ -1,10 +1,10 @@
-# Cast: 23 deltagare, 5 skutor
+# Cast: 22 deltagare, 5 skutor
 
 Intern text för Gustaf och agenten. Gäster läser inte detta.
 
 Referenstabell för story-arbetet. Källa: tabellerna `guests` och `pirate_names` i Supabase, filtrerat på `attending = true`. Alla andra rader i `guests` ignoreras. De städas inte ur seed. Uppdatera om piratnamn eller lagindelning ändras.
 
-Verifierad mot databasen 2026-08-27. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta sedan tidigare. **Kapten Enben** (`pirate_names.id` 1) obesatt 2026-08-27: Amalia Wahlström (`amaliawahlstrom`) återbud. Hänger inte på Q-5-väggen; bokstäverna börjar på Blodig.
+Verifierad mot databasen 2026-09-01. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta sedan tidigare. **Kapten Enben** (`pirate_names.id` 1) obesatt 2026-08-27: Amalia Wahlström (`amaliawahlstrom`) återbud. **Kapten Dunka** (`pirate_names.id` 55) obesatt 2026-09-01: Ludvig von Bahr (`ludvigvonbahr`) återbud. Hänger inte på Q-5-väggen. Bokstäverna oförändrade: Dunkas kort var redan tomt.
 
 I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Piratnamn (slug)`.
 
@@ -50,7 +50,6 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 
 | Piratnamn | Riktigt namn | slug |
 |-----------|--------------|------|
-| **Kapten Dunka** | Ludvig von Bahr | `ludvigvonbahr` |
 | **Kapten Rosing** | Linnea Ekbom | `linneaekbom` |
 | **Kapten Babord** | Alexandra Palmquist | `alexandrapalmquist` |
 | **Kapten Rötägg** | Edvin Thungren | `edvinthungren` |
@@ -87,16 +86,15 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `josefinlowing` | 1 | 1 | | Q-1 (start) |
 | `navidmodiri` | 2 | 2 | | Q-3 (start) |
 | `minimacklin` | 1 | 2 | | Q-2 (start), Q-5 (tvärledtråd) |
-| `ludvigvonbahr` | 1 | 1 | | Q-5 (start) |
-| `fabianmacklin` | 1 | 3 | | Q-5 (start) |
+| `fabianmacklin` | 1 | 2 | | Q-5 (start) |
 | `josefinansund` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `johannabergman` | 1 | 1 | | Q-2 (start) |
 | `jesperlejfjord` | 1 | 1 | | Q-4 (start) |
-| `amandamungsgard` | 1 | 1 | | Q-2 (start) |
+| `amandamungsgard` | 0 | 1 | | Q-2 (start) |
 | `viktoransund` | 1 | 2 | | Q-3 (start), Q-5 (tvärledtråd) |
 | `minervalowgren` | 1 | 1 | | |
 | `linneaekbom` | 1 | 1 | | Q-3 (start) |
 | `alexandrapalmquist` | 1 | 1 | | |
 | `hampuslindblad` | 2 | 3 | | |
-| `edvinthungren` | 1 | 3 | | |
+| `edvinthungren` | 1 | 3 | | Q-5 (start) |
 | `elinmartensson` | 1 | 3 | | Q-4 (start) |

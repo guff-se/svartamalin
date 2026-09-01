@@ -29,7 +29,7 @@ Rör inte `content/roller/`. Spegling av Supabase.
 ### skatt (tax)
 
 - **Fromhetens piratskatt.** Plattform i `crews/4.md`: skatt efter bärkraft, avlat blankar den. Metod: omfördela, inte stjäla.
-- **Kosings arvssyndsskatt.** S-05. En skatt (tax) på dem som kommer från överklassen, riktad mot Kapten Dunka (`ludvigvonbahr`). Betalas i mynt eller berättelse. [`sidequests.md`](sidequests.md).
+- **Kosings arvssyndsskatt.** S-05. En skatt (tax) på dem som kommer från överklassen, riktad mot Kapten Kuling (`josefinlowing`), Kapten Rötägg (`edvinthungren`) och Kapten Nykter (`fabianmacklin`). Betalas i mynt eller berättelse. [`sidequests.md`](sidequests.md). Dunka struken 2026-09-01.
 - **Avlat.** Den som ber får sin skatt (tax) blankad. Inte samma sak som att lämna tillbaka en lagskatt (treasure).
 
 ### Fällor (här blandade agenten ihop dem)
@@ -51,7 +51,7 @@ Det är den vanliga fällan.
 | `crews/4.md` jaktstycket | metod: ta ut piratskatt | målet: Gnällets lagskatt. "Ta den." |
 | `crews/3.md` jaktstycket | Fromhetens retorik (omfördela) | målet: Fromhetens lagskatt bakom helgonfanan |
 | Hjärter (`jesperlejfjord.md`) | avlat blankar skatt | dörr: nästa ledtråd till Fromhetens skatt |
-| Kosing (`amandamungsgard.md`) | arvssyndsskatt mot Dunka och mot Kurtisanen | Fromhetens lagskatt sitter i lagfilen, inte här |
+| Kosing (`amandamungsgard.md`) | arvssyndsskatt mot Kuling, Rötägg och Nykter, och mot Kurtisanen | Fromhetens lagskatt sitter i lagfilen, inte här |
 
 Jaktens skäl "Frompirater tar ut piratskatt. Ta den." betyder: de ramar in stölden som tax. Föremålet de tar är treasure. Två steg, inte ett.
 

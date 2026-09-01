@@ -37,7 +37,7 @@ Dina hemliga spelklubbar i varenda hamn ni lagt till i har gett dig öron övera
 
 ## Bordet ni planerat tillsammans {slug:amandamungsgard}
 
-Du och **Kapten Kosing** har länge planerat en hemlig, exklusiv ätupplevelse, och nu ska den bli lönsam. Hon driver in en arvssyndsskatt, en skatt på dem som kommer från överklassen, riktad mot **Kapten Dunka** och hans påstådda svärdshistoria. Den som vill slippa skatten kan istället köpa sig en plats vid ert bord. Choklad går lika bra som mynt, och du tar din procent oavsett.
+Du och **Kapten Kosing** har länge planerat en hemlig, exklusiv ätupplevelse, och nu ska den bli lönsam. Hon driver in en arvssyndsskatt, en skatt på dem som kommer från överklassen, riktad mot **Kapten Kuling**, **Kapten Rötägg** och **Kapten Nykter**. Den som vill slippa skatten kan istället köpa sig en plats vid ert bord. Choklad går lika bra som mynt, och du tar din procent oavsett.
 
 ## Fyrklövern han inte fått tillbaka {slug:jesperlejfjord}
 
