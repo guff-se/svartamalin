@@ -25,9 +25,11 @@ Han gör det gärna, för dig, om du ger honom vad han vill ha tillbaka: allt du
 
 ## Jubilaren du tänker sköta {slug:malintadaa}
 
-**Svarta Malin** bjöd **Fregatten Fördärvet**, och hon bjöd dig. Hon är fantastisk, och du tänker visa det med händer och skål, inte med blickar från kajkanten.
+**Svarta Malin** bjöd **Fregatten Fördärvet**, och hon bjöd dig. Hon är fantastisk, en sådan kvinna! Vacker, modig och stark krossar hon båda härtan och liv med sin hårda klack. Du avgudar henne! Du tänker visa det med händer och handling, inte med blickar från kajkanten.
 
-Häll. Bär. Smickra rakt i ansiktet. Se till att jubilaren inte saknar rum, rom eller sällskap, och ta initiativet innan hon hinner fråga. Inte för att vinna henne. För att hon ska känna att festen lyfter henne. Innan sista skålen ska **Kapten Fuling** ha varit den som tog hand om henne när andra bara skålade.
+Häll. Bär. Smickra rakt i ansiktet. Se till att jubilaren inte saknar rum, rom eller sällskap, och ta initiativet innan hon hinner fråga. Älska henne! Älska med henne?
+
+Innan sista skålen ska **Kapten Fuling** tagit sin plats i Svarta Malins hjärta och famn.
 
 ## Anklagelsen du alltid nekat {slug:jesperlindmarker}
 
