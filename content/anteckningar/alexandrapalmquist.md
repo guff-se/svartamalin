@@ -6,7 +6,7 @@ real_name: Alexandra Palmquist
 
 # Kapten Babord
 
-Romans 7, mutual, med **Kapten Döver** (`navidmodiri`). Romans 21, pending, med **Löjtnant Spader** (`gustaftadaa`).
+Romans 7, mutual, med **Kapten Döver** (`navidmodiri`). Romans 21, mutual, med **Löjtnant Spader** (`gustaftadaa`); Döver vet inte. Romans 29, enväg mot **Svarta Malin**: dyrkan av jubilaren, inte lust. Speglas inte.
 
 Fiende 12, one_way, mot **Kapten Barnsben** (brevet lindat i Babords scarf, dåtid). Spelas i S-03 som upprättelse, inte som jakt på ett tyg. Ingen fysisk scarf.
 

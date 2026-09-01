@@ -34,7 +34,7 @@ Hur man blir kung är inte skrivet. Kajen behandlar den som kung som den *ser* s
 
 ## Jubilaren du bär på händerna {slug:malintadaa}
 
-**Svarta Malin** bjöd in dig. Det räcker. Du är lyckligt lottad, inte stum. Hon är fantastisk, och du tänker ta initiativet innan någon annan hinner stå i vägen: ett glas, ett tal, en hand som tar det hon inte ska bära, en skål som heter hennes namn.
+**Svarta Malin** bjöd in dig. Det räcker. Du är lyckligt lottad. Hon är fantastisk, och du tänker ta initiativet innan någon annan hinner stå i vägen: ett glas, ett tal, en hand som tar det hon inte ska bära, en skål som heter hennes namn.
 
 Inte blygt. Inte på avstånd. Gå fram som om du vore värd, inte gäst. Smickra så kajen hör det. Låt henne aldrig sträcka sig efter något du kan räcka. Innan sista skålen ska hon ha sett att **Kapten Blåskägg** kom för hennes skull.
 

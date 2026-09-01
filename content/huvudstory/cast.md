@@ -94,7 +94,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | `viktoransund` | 1 | 2 | | Q-3 (start), Q-5 (tvärledtråd) |
 | `minervalowgren` | 1 | 1 | | |
 | `linneaekbom` | 1 | 1 | | Q-3 (start) |
-| `alexandrapalmquist` | 1 | 1 | | |
+| `alexandrapalmquist` | 3 | 1 | | |
 | `hampuslindblad` | 3 | 3 | | |
 | `edvinthungren` | 1 | 3 | | Q-5 (start) |
 | `elinmartensson` | 1 | 3 | | Q-4 (start) |

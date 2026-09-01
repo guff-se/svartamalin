@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-09-01, Alexandra också
+
+Källa: Gustaf, i chatt. Införd i [`../intriger/romanser.yaml`](../intriger/romanser.yaml) #29, gästintrig Babord.
+
+- [x] gör samma sak för alexandra också
+
+Kryss = fjärde envägsposten, samma dyrkan och omvårdnad som #26–28. Speglas inte hos Malin.
+
+---
+
 ## 2026-09-01, kärlek till jubilaren
 
 Källa: Gustaf, i chatt. Införd i [`../intriger/romanser.yaml`](../intriger/romanser.yaml) #26–28, gästintriger Lösskägg, Blåskägg, Fuling.

@@ -16,7 +16,7 @@
 #
 # Sexpositiv fest: explicit språk OK i gästtext. Register är lust och sex,
 # inte "framtid tillsammans". Se STYLE.md.
-# Undantag #26–28: dyrkan av jubilaren, inte sex, inte romankärlek. Speglas inte.
+# Undantag #26–29: dyrkan av jubilaren, inte sex, inte romankärlek. Speglas inte.
 #
 # Rollönskemål som styrt omparningen (content/roller/):
 #   * viktoransund: förbjuden kärlek med Kapten Frodig (josefinansund), inte Mini
@@ -183,4 +183,11 @@ romanser:
     a: louisevonbahr       # Kapten Fuling (Louise von Bahr)
     b: malintadaa          # Svarta Malin (Malin Tadaa)
     note: Dyrkan av jubilaren. Inte sex, inte blygsel. Hon tar initiativ att smickra och ta hand om henne. Off: födelsedagsbarnet ska känna sig hyllat. Speglas inte. Inte S-01. Inte Fördärvets fordran (den sitter hos Kuling).
+    status: done
+
+  - id: 29
+    type: one_way
+    a: alexandrapalmquist  # Kapten Babord (Alexandra Palmquist)
+    b: malintadaa          # Svarta Malin (Malin Tadaa)
+    note: Dyrkan av jubilaren. Inte sex, inte blygsel. Hon tar initiativ att smickra och ta hand om henne. Off: födelsedagsbarnet ska känna sig hyllat. Speglas inte. Inte S-01. Inte mullvaden mot Gnället.
     status: done

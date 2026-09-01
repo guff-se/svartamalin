@@ -26,7 +26,7 @@ När **Svarta Malin** inte vill att vem som helst ska läsa det hon skriver, fö
 
 ## Jubilaren du seglar under {slug:malintadaa}
 
-Du seglar under **Svarta Malin**. Lycka, inte plikt. Hon bjöd in er. Hon är jubilaren, kajens krona, och du tänker inte låta helgen gå utan att hon märker hur rätt hon hade som tog med **Kapten Lösskägg**.
+Du seglar under **Svarta Malin** med ära. Lycka, inte plikt. Hon bjöd in er. Hon är jubilaren, kajens krona, och du tänker inte låta helgen gå utan att hon märker hur rätt hon hade som tog med **Kapten Lösskägg**.
 
 Du gloar inte. Du går. Häll i hennes glas. Ta talet när kajen tvekar. Stolen hennes, skålen först till henne, skrattet efter hennes skämt. Smickra rakt, högt, utan att be om lov. Lyft festen så hon känner vikten. Innan sista skålen ska hela Salmonellahavet ha hört att du dyrkar jubilaren, och hon ska ha känt det.
 
