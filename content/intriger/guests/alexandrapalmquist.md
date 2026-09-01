@@ -39,9 +39,9 @@ Hon håller en sy- och broderihörna öppen mellan varven, där folk landar, vis
 
 ## Jubilaren du fyller karaffen åt {slug:malintadaa}
 
-**Svarta Malin** bjöd **Galeonen Gnället**, och hon bjöd dig. Du är lyckligt lottad, inte stum. Hon är fantastisk, och du tänker dra mer än ditt strå: hälla, bära, smickra, se till att stolen är hennes och att karaffen inte står tom.
+**Svarta Malin** bjöd **Galeonen Gnället**, och hon bjöd dig. Du är lyckligt lottad. Hon är fantastisk, och du tänker dra mer än ditt strå: hälla, bära, smickra, se till att stolen är hennes och att karaffen inte står tom.
 
-Inte blygt. Inte från kajkanten. Gå fram. Ta initiativet innan hon hinner fråga. Inte för att vinna henne. För att hon ska känna att någon faktiskt tar hand om jubilaren. Innan sista skålen ska **Kapten Babord** ha skött festen så hon kunde bära namnet.
+Inte blygt. Inte från kajkanten. Gå fram. Ta initiativet innan hon hinner fråga. Inte för att vinna henne. För att hon ska känna att någon faktiskt tar hand om jubilaren. Innan sista skålen ska hon veta att **Kapten Babord** är en festdeltagare värd att bjuda.
 
 ## Stormen ni överlevde {slug:alexandrapalmquist}
 
