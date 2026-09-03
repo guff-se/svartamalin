@@ -21,9 +21,9 @@ Fyra. Inte på sajten. Lärs ut här.
 
 Ordning. Lördag 10.30 är kortare, plus cryptex-lappen som inte sägs fredag (den är inte i spel än). Lördag 15.28 är röd, gul, arrrr och slutstriden. Inte tändningen.
 
-1. Play to lift. Häng på andras initiativ. Ge folk deras segrar.
+1. Yes, and. Häng på andras initiativ. Ge folk deras segrar.
 2. Röd, gul, arrrr, OK-check.
-3. Aldrig ensam på vattnet. Eka, kajak, paddel, simning. Kuling och Rödskägg har båtarna. Man får åka utan dem.
+3. Aldrig ensam på vattnet. Kuling och Rödskägg har båtarna. Man får åka utan dem.
 4. Låt saker som hittas av misstag få vara.
 5. Fredag är fest. Fokus på relationer och drama, inte att jaga skatter.
 6. Sexpositiv fest. Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Samtycke. Samma röd, gul, arrrr, OK-check som resten av spelet. Står inte på sajten.
