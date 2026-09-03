@@ -4,9 +4,83 @@ Intern granskning, inte gästcopy. Se `content/intriger/README.md` för format. 
 
 **VIKTIGT** Ändra inte resultatet av granskningen i detta dokument, förutom genom att faktiskt köra granskningsscriptet.
 
-Kördes i tio omgångar. **Runda 10 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag + tom kunskap + bestämd form + händelse utan återberättelse + ordinnebörd (fasa/skatt/klöver/prejudikat). Äldre rundor är arkiv.
+Kördes i elva omgångar. **Runda 11 är den relevanta bilden:** gästfil + lagfil + `intriger_intro.md` + roster + undantag + tom kunskap + bestämd form + händelse utan återberättelse + ordinnebörd (fasa/skatt/klöver/prejudikat). Äldre rundor är arkiv.
 
-## Runda 10 — gästfil + lag + intro + undantag + bestämd form + händelse + ordinnebörd (aktuell bild)
+## Runda 11 — gästfil + lag + intro + undantag + bestämd form + händelse + ordinnebörd (aktuell bild)
+
+**Datum:** 2026-09-03.
+
+**Metod:** 21 isolerade agenter, en per gäst (attending-listan; Dunka och Döver borta sedan runda 10). Varje agent fick:
+1. sin egen `guests/{slug}.md` (YAML och `{slug:…}` osynliga),
+2. sitt eget lags `crews/{crew_id}.md`,
+3. `content/copy/intriger_intro.md`,
+4. roster med lagnamn och piratnamn, eget namn/lag utmärkt.
+
+Undantag i prompten (flagga inte): Gubben i stubben / Gumman på udden; dörrar till lagskatter; Salmonellahavet, Ovanan och Piratpulver; Paradisets ö; gymmet och Storstugan; Svarta Malins hemliga älskare (ingen planterad avledning efter Dunkas återbud). Extra check: tom kunskap, bestämd form utan intro, händelse utan återberättelse, ordinnebörd (fasa/skatt/klöver/prejudikat). Heuristiska kandidater från `--scan` låg i prompten; auditorn avgjorde.
+
+Sedan runda 10: samma mall. Roster 21 (var 23). Inget rött.
+
+### Resultat
+
+| Betyg | Antal | Runda 10 → Runda 11 |
+|---|---|---|
+| 🟢 Grönt | 0 | 4 → 0 |
+| 🟡 Gult | 21 | 18 → 21 |
+| 🔴 Rött | 0 | 1 → 0 |
+
+Bort: Dunka (tidigare rött: svärdsmyt) och Döver. Tidigare gröna (Plåthorn, Spader, Malin, Barnsben) gick till gult den här rundan — mest bestämd form / oförklarade mentions, ingen ny blockerare.
+
+### 🔴 Rött (0)
+
+Inget.
+
+### Per gäst
+
+| Slug | Piratnamn | Lag | Betyg | Termer | Tom kunskap | Ordinnebörd |
+|---|---|---|---|---|---|---|
+| alexandrapalmquist | Kapten Babord | Gnället | 🟡 | Workshopen i hittepå-teckenspråk, Tecknen, grytorna | none | none |
+| amandamungsgard | Kapten Kosing | Fromheten | 🟡 | Räkningen, Brevet, skatt (blandad tax/treasure vid "Ta den") | none | piratskatt / Ta den |
+| edvinthungren | Kapten Rötägg | Gnället | 🟡 | manschettknapparna med enhörningarna, miste skeppet (förlusten utan scen) | none | none |
+| elinmartensson | Kapten Plåthorn | Gnället | 🟡 | den bordning | none | none |
+| fabianmacklin | Kapten Nykter | Bortförklaringen | 🟡 | hemligheten, sista dansen, du vet precis vilket sätt | du vet precis vilket sätt du vill visa henne | none |
+| gustaftadaa | Löjtnant Spader | Fördärvet | 🟡 | bladet, grytorna, stulen vals, bordning (Prygel aldrig fått äran för), Workshopen | none | none |
+| hampuslindblad | Kapten Blåskägg | Bortförklaringen | 🟡 | Jubilaren, Drottningen, vraket, Pulvret, masten, dörren/dörrar bakom medvetandet, den gamla skulden (IOU-ursprung) | none | none |
+| jesperlejfjord | Kapten Hjärter | Fromheten | 🟡 | jubilaren, kökskanten, workshop, flaska serum, Ta den (skatt/piratskatt) | none | piratskatt / Ta den |
+| jesperlindmarker | Kapten Hurring | Kurtisanen | 🟡 | masten, jubilaren | none | none |
+| johannabergman | Kapten Klöver | Bortförklaringen | 🟡 | stulen vals, gemensam bordning (äran ni aldrig gjort upp om med Prygel) | none | none |
+| josefinansund | Kapten Frodig | Bortförklaringen | 🟡 | lasten | none | none |
+| josefinlowing | Kapten Kuling | Fördärvet | 🟡 | Kåthornet, Arvssynden, det dyrbara smycket, Workshopen | none | none |
+| linneaappert | Kapten Planka | Kurtisanen | 🟡 | oljan från sirenerna, kaptensskålen, Vraket | none | none |
+| linneaekbom | Kapten Rosing | Gnället | 🟡 | hemliga snäckan, krumelurburk, skymningens piller, Rösten, Viskningen, kaptensskålen | none | none |
+| louisevonbahr | Kapten Fuling | Fördärvet | 🟡 | Rösten, Jubilaren, förra kaptensskålen, flaskan, Workshopen | none | none |
+| malintadaa | Svarta Malin | Kurtisanen | 🟡 | rykten | none | none |
+| minervalowgren | Kapten Prygel | Fromheten | 🟡 | Kåthornet, avlat, avlatsbrev, skatt (Ta den / piratskatt) | none | piratskatt / Ta den |
+| minimacklin | Kapten Blodig | Fördärvet | 🟡 | sveket, Väggen, Tecknet, Klienten | none | none |
+| petterwallberg | Kapten Lösskägg | Kurtisanen | 🟡 | skägghistorierna du kan utantill | vart och ett med en historia du kan utantill | none |
+| ulrikahammar | Kapten Barnsben | Kurtisanen | 🟡 | Lasten, sy- och broderihörnan, Parfymen | none | none |
+| viktoransund | Kapten Rödskägg | Fromheten | 🟡 | Kärleken, Brevet, skuldbreven, väskan, skatt (Ta den) | none | piratskatt / Ta den |
+
+### Mönster
+
+**Inte buggar:** Malins låsta kista / älskarens namn. Lagskattdörrar. Gubben/Gumman. Salmonellahavet, Ovanan, Piratpulver. Paradisets ö. Gymmet, Storstugan. `jubilaren` är Malins fest (introt säger «festen är hennes» men inte ordet) — flera flaggade det ändå. Döver som saknad är kanon efter återbud, inte en lucka i världen.
+
+**Tom kunskap (2):**
+- Nykter: «du vet precis vilket sätt» ädelstenen ska visas — sätten saknas (samma som runda 10).
+- Lösskägg: skägghistorierna «du kan utantill» — innehållet saknas (samma som runda 10). Ingen av dem instruerar en central handling som kräver innehållet i samma andetag som rött skulle kräva; båda stannar gult.
+
+**Händelse utan återberättelse:**
+- Stulen vals / gemensam bordning (Klöver; Spader nämner Prygels bordning).
+- Blodigs svek i de tidiga åren.
+- Rötägg miste skeppet (förlust utan scen).
+- Plankas / Fulings förra kaptensskål (scen återberättad hos Planka mer än hos Fuling; båda flaggade bestämd form).
+
+**Ordinnebörd:** Fromhetens lagfil, «Gnällets gömma»: «Frompirater med blanka siffror tar ut piratskatt. Ta den.» Fyra Frompirater flaggade det (Kosing, Hjärter, Prygel, Rödskägg). Samma blandning tax/treasure som runda 10.
+
+**Bestämd form / mentions som återkommer:** Workshopen (Döver, Babord/Kuling/Fuling/Hjärter), grytorna, masten, kåthornet, kaptensskålen/oljan/flaskan, snäckan/krumelurburk/piller, sy- och broderihörnan.
+
+**Jämfört med runda 10:** Rött försvann med Dunka. Grönt försvann — agenterna den här rundan var strängare med bestämd form (t.ex. Plåthorns «den bordning», Malins «rykten», Barnsbens lasten/parfymen). Spelet bedöms fortfarande som spekbart överallt; ingen central instruktion saknar innehåll.
+
+## Runda 10 — gästfil + lag + intro + undantag + bestämd form + händelse + ordinnebörd
 
 **Datum:** 2026-08-28.
 
