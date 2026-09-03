@@ -20,6 +20,12 @@ related: [jesperlindmarker, elinmartensson, josefinlowing, johannabergman, jespe
 
 **Svarta Malin** vilar aldrig. Det ryktas att hon skrev om just det, om att kämpa utan paus tills kroppen tar vad den redan slitit för, och att bladet sitter i gymmet. Ingen har läst det än. Ta **Fregatten Fördärvet** med dig och hämta det innan en annan skuta gör det.
 
+## De värsta kaptener som finns {slug:malintadaa}
+
+Det viskas att **Svarta Malin** håller räkning på alla som är skyldiga henne, och att räkenskapen hänger i Storstugan: en vägg full av porträtt, döpt "de värsta kaptener som finns". Ditt eget porträtt hänger där som allas gör, men ditt namn är skuldfritt. Du står inte i skuld till henne, och det vet du med gott samvete.
+
+Hör du någon leta efter var skuldbreven sitter, kan du peka dit utan att fråga varför. Dela det med **Fregatten Fördärvet** om priset känns rätt, sälj tipset dyrt, eller behåll det som ett ess i ärmen.
+
 ## Skulden du bär till Hurring {slug:jesperlindmarker}
 
 Du har vunnit och förlorat förmögenheter på kort i varenda hamn du lagt till i, och en av dina äldsta skulder står skriven hos **Kapten Hurring**, som aldrig glömmer en siffra. Nu vill han ha betalt, mitt i festen, i mynt eller i ett namn: han letar efter vem som en gång angav honom och satte honom bakom galler, och han tror att dina spelbord kan bära ett rykte han själv aldrig hört.

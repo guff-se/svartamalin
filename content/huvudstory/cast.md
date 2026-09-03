@@ -67,7 +67,7 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 | Båtarna | **Kapten Kuling** (`josefinlowing`), **Kapten Rödskägg** (`viktoransund`) | Vattenansvariga. Skrivna sjöintriger går gärna via att övertala dem. Man får åka ut utan dem. Aldrig ensam. |
 | Maten | **Kapten Nykter** (`fabianmacklin`), **Kapten Hjärter** (`jesperlejfjord`) | Köksansvariga. Brunch 14.00, mat framme från 17.00. |
 
-Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin har mindre utrymme för egna pussel. Spader är **fullt spelbar**: sidequests, romanser, rivaliteter som vanligt. Undantag: inte mullvad, inte kontakt. **Undantag 2026-09-03:** han bär Q-3-start efter Dövers återbud. Se [`forradare.yaml`](forradare.yaml). Båt- och matansvar är praktiskt, dokumenterat i [`../anteckningar/`](../anteckningar/). Kuling och Rödskäggs övertalningsscener är extra spel, inte ett monopol. Tillsätt inte båt- eller matansvariga som mullvad. Kuling får vara kontakt (forradare 5).
+Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin har mindre utrymme för egna pussel. Spader är **fullt spelbar**: sidequests, romanser, rivaliteter som vanligt. Undantag: inte mullvad, inte kontakt. **Undantag 2026-09-03:** han bär Q-3-start efter Dövers återbud, och Q-5-tvärledtråd. Se [`forradare.yaml`](forradare.yaml). Båt- och matansvar är praktiskt, dokumenterat i [`../anteckningar/`](../anteckningar/). Kuling och Rödskäggs övertalningsscener är extra spel, inte ett monopol. Tillsätt inte båt- eller matansvariga som mullvad. Kuling får vara kontakt (forradare 5).
 
 ---
 
@@ -78,7 +78,7 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | slug | Romanser | Fiender | Sidequest i huvudstory | Pusselansvar |
 |------|----------|---------|------------------------|--------------|
 | `malintadaa` | 0 | 2 | | |
-| `gustaftadaa` | 1 | 1 | | Q-3 (start, undantag 2026-09-03) |
+| `gustaftadaa` | 1 | 1 | | Q-3 (start, undantag 2026-09-03), Q-5 (tvärledtråd) |
 | `petterwallberg` | 2 | 2 | | Q-5 (start), Q-3 (tvärledtråd) |
 | `linneaappert` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `ulrikahammar` | 3 | 2 | | |

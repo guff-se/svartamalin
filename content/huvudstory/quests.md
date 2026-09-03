@@ -34,11 +34,11 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.
 7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på questens fil. Bygg inte noder som motsäger den. Q-2 har inget pussel.
 8. **Korvetten Kurtisanens egna quest-trådar spelas bakom Malins rygg.** Malin är skuta 1:s egen kapten. En quest-start till en medlem av **Korvetten Kurtisanen** (`malintadaa` undantagen, hon bär aldrig sin egen jakt) ska instruera att uppdraget måste lösas utan att Malin ser eller anar det. Hon delar koj, köl och vardag med dem hela helgen: att gräva i hennes förflutna är farligare för en Kurtisan än för någon annan skutas medlem. Skriv in det som en konkret risk i gästtexten (hon kan komma runt hörnet när som helst), inte som en spelledningsvarning.
-9. **Löjtnant Spader (`gustaftadaa`) får varken start eller tvärledtråd.** Han är fullt spelbar i övrigt. Han ska inte sitta och lösa huvudquesten. Se också regel 13. **Undantag 2026-09-03:** han bär Q-3-start efter Dövers återbud.
+9. **Löjtnant Spader (`gustaftadaa`) får varken start eller tvärledtråd.** Han är fullt spelbar i övrigt. Han ska inte sitta och lösa huvudquesten. Se också regel 13. **Undantag 2026-09-03:** han bär Q-3-start efter Dövers återbud, och Q-5-tvärledtråd (väggens plats).
 10. **En dagbok, utrivna blad.** Malins dagbok står synlig i Storstugan. De flesta sidorna är utrivna. De utrivna bladen är det gästerna hittar i questsen. Kronologisk ordning, boken och varje blad: [`dagbok.md`](dagbok.md). Den är inte samma som hittordningen. Skriv inte in bokens plats som ett sökuppdrag i gästtext. Boken är dressing: den som råkar öppna den ser stubbar, inte kapitel.
 11. **Max en ingång per gäst.** En `login_slug` bär start till högst en quest. Inte två. Tvärledtråd räknas inte som ingång: samma person får bära start i en quest och tvärledtråd i en annan. Kontrollera [`fordelning.yaml`](fordelning.yaml) innan en ny start skrivs.
 12. **Förrädare får inte ingång.** Bara mullvaden (`a` i [`forradare.yaml`](forradare.yaml)). Kontaktpersonen (`b`) får start. Tvärledtråd till en mullvad är tillåten, det är inte ingång.
-13. **Svarta Malin och Löjtnant Spader får inte ingång.** Inte `malintadaa`, inte `gustaftadaa`. Malin bär aldrig sin egen jakt (regel 8). Spader får inte heller tvärledtråd (regel 9). **Undantag 2026-09-03:** Spader bär Q-3-start.
+13. **Svarta Malin och Löjtnant Spader får inte ingång.** Inte `malintadaa`, inte `gustaftadaa`. Malin bär aldrig sin egen jakt (regel 8). Spader får inte heller tvärledtråd (regel 9). **Undantag 2026-09-03:** Spader bär Q-3-start och Q-5-tvärledtråd.
 
 ---
 
@@ -149,7 +149,7 @@ Snapshot av [`fordelning.yaml`](fordelning.yaml). Ändra där, sedan här. Fet =
 | Skuta | Q-1 Första kärleken | Q-2 Pirat | Q-3 Korvetten | Q-4 Havet | Q-5 Skuldboken |
 |-------|---------------------|-----------|---------------|-----------|----------------|
 | 1 Korvetten Kurtisanen | **Planka** | — | *tvär: Lösskägg, Planka* | **Hurring** | **Lösskägg** |
-| 2 Fregatten Fördärvet | **Kuling** | **Blodig** | **Spader** | — | *tvär: Blodig* |
+| 2 Fregatten Fördärvet | **Kuling** | **Blodig** | **Spader** | — | *tvär: Blodig, Spader* |
 | 3 Barken Bortförklaringen | **Frodig** | **Klöver** | *tvär: Frodig* | — | **Nykter** |
 | 4 Fregatten Fromheten | — | **Kosing** | **Rödskägg** | **Hjärter** | *tvär: Rödskägg* |
 | 5 Galeonen Gnället | — | — | **Rosing** | **Plåthorn** | **Rötägg** |
@@ -164,7 +164,7 @@ Per quest, tre starter:
 | Q-4 | 1, 4, 5 | Hurring (`jesperlindmarker`), Hjärter (`jesperlejfjord`), Plåthorn (`elinmartensson`) |
 | Q-5 | 1, 3, 5 | Lösskägg (`petterwallberg`), Nykter (`fabianmacklin`), Rötägg (`edvinthungren`) |
 
-Tvärledtråd: Q-3 Caesar till skuta 1 (Lösskägg, Planka) och skuta 3 (Frodig). Q-5 porträttväggen till skuta 2 och 4. Q-1 och Q-4 har ingen. Q-2 får ingen.
+Tvärledtråd: Q-3 Caesar till skuta 1 (Lösskägg, Planka) och skuta 3 (Frodig). Q-5 porträttväggen till skuta 2 (Blodig, Spader) och skuta 4 (Rödskägg). Q-1 och Q-4 har ingen. Q-2 får ingen.
 
 ---
 

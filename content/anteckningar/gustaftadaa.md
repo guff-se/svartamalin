@@ -12,10 +12,10 @@ I fiktionen: Rans budbärare. Efter slutstriden delar han ut slöjor bland de d�
 
 **Fullt spelbar karaktär.** Sidequests, romanser, rivaliteter som vilken gäst som helst. Han lämnar spelledningen.
 
-Två undantag, bara de:
+Undantag:
 
-1. Får **inte** ledtrådar till huvudquesten. Han ska inte sitta och lösa main quests.
-2. Tillsätts **inte** som mullvad och **inte** som kontakt. Se [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml).
+1. Tillsätts **inte** som mullvad och **inte** som kontakt. Se [`../huvudstory/forradare.yaml`](../huvudstory/forradare.yaml).
+2. Får normalt **inte** ledtrådar till huvudquesten. **Undantag 2026-09-03:** Q-3-start (Dövers återbud) och Q-5-tvärledtråd (väggens plats, viskad version som Rödskägg). Han ska fortfarande inte sitta och lösa main quests som spelledare.
 
 Romans med Plåthorn (#14) och pending med Babord (#21) är vanliga scener, inte runtime-undantag.
 

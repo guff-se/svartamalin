@@ -160,7 +160,7 @@ Beslutade 2026-08-23. Ingen gästtext skriven än. Inte i `fordelning.yaml`. Huv
 
 Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romanser.yaml` och `fiender.yaml`. Tomma rollerfiler (Fuling) får ändå kort via yaml och andras föremål. Blåskägg och Planka har underlag 2026-08-25. Kosing vill uttryckligen inte stå i centrum av ett högintensivt drama.
 
-**Löjtnant Spader (`gustaftadaa`) är fullt spelbar.** Sidequests, romanser, rivaliteter som vilken gäst som helst. Två undantag, bara de: inga ledtrådar till huvudquesten, och inte mullvad eller kontakt. Se [`forradare.yaml`](forradare.yaml). Han bär S-04 (spelskuld till Hurring), S-08 (hemlig romans med Plåthorn, romans 14, som Kuling drar in honom i utan att veta om den) och S-11 (korthajbordet mot Klöver och Hjärter).
+**Löjtnant Spader (`gustaftadaa`) är fullt spelbar.** Sidequests, romanser, rivaliteter som vilken gäst som helst. Inte mullvad eller kontakt. Se [`forradare.yaml`](forradare.yaml). **Undantag 2026-09-03:** han bär Q-3-start och Q-5-tvärledtråd. Han bär S-04 (spelskuld till Hurring), S-08 (hemlig romans med Plåthorn, romans 14, som Kuling drar in honom i utan att veta om den) och S-11 (korthajbordet mot Klöver och Hjärter).
 
 **Mullvad och sidequest är två hemligheter. Skriv dem inte som samma uppdrag**, se [`forradare.yaml`](forradare.yaml):
 

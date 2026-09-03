@@ -20,6 +20,14 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-09-03, Q-5-tvärledtråd till Spader
+
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/Q-5.md`](quests/Q-5.md), [`fordelning.yaml`](fordelning.yaml) id 110.
+
+- [x] lägg in tvärledtråd för Q5 till kapten spader också (emot tidigare regel)
+
+---
+
 ## 2026-09-03, Navid återbud / saknade Döver
 
 Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-10, [`forradare.yaml`](forradare.yaml), [`quests/Q-3.md`](quests/Q-3.md).

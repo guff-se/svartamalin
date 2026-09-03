@@ -54,8 +54,8 @@
 #   * varje quest: exakt tre skutor
 #   * tvärledtrådar bara till de två quests skutan saknar, och meningslösa utan questet
 #   * gustaftadaa (Löjtnant Spader) får normalt inte quest-starter eller tvärledtrådar
-#     till huvudquesten. Undantag 2026-09-03: Q-3-start (Dövers återbud).
-#     I övrigt fullt spelbar. Inte mullvad, inte kontakt.
+#     till huvudquesten. Undantag 2026-09-03: Q-3-start (Dövers återbud) och
+#     Q-5-tvärledtråd (väggens plats). I övrigt fullt spelbar. Inte mullvad, inte kontakt.
 
 # B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
 # in hos jägarna. Se lagskatter.md. Id 1–5 är jägarna: skatten de ska hitta,
@@ -960,8 +960,8 @@ fordelning:
     status: done
 
 # B-18 Q-5-tillsättning (2026-08-24, omfördelad 2026-09-01): skuta 1, 3, 5. Start: Kapten Lösskägg (`petterwallberg`),
-# Kapten Nykter (`fabianmacklin`), Kapten Rötägg (`edvinthungren`). Tvärledtråd: skuta 2 (minimacklin), skuta 4 (viktoransund).
-# Dunka (`ludvigvonbahr`) struken 2026-09-01.
+# Kapten Nykter (`fabianmacklin`), Kapten Rötägg (`edvinthungren`). Tvärledtråd: skuta 2 (minimacklin, gustaftadaa), skuta 4 (viktoransund).
+# Dunka (`ludvigvonbahr`) struken 2026-09-01. Spader tillagd 2026-09-03 (undantag regel 9/13).
 
   - id: 74
     beat: B-18
@@ -1015,6 +1015,18 @@ fordelning:
     beat: B-18
     akt: II
     till: [viktoransund]
+    roll: vittne
+    vet: "att Svarta Malins skuldlogg sitter på porträttväggen i Storstugan, och att han själv är obrydd, han står inte skyldig i den"
+    vet_inte: "sångordningen som ger bokstavsordningen, att baksidorna ska vändas, svärdfiskens mun, vilka tre kaptener som är skyldiga, kungen, att festen är en fälla"
+    speglas: []
+    bygger_pa: null
+    pussel: "Q-5"
+    status: done
+
+  - id: 110
+    beat: B-18
+    akt: II
+    till: [gustaftadaa]
     roll: vittne
     vet: "att Svarta Malins skuldlogg sitter på porträttväggen i Storstugan, och att han själv är obrydd, han står inte skyldig i den"
     vet_inte: "sångordningen som ger bokstavsordningen, att baksidorna ska vändas, svärdfiskens mun, vilka tre kaptener som är skyldiga, kungen, att festen är en fälla"
