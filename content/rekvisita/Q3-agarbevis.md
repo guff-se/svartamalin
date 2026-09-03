@@ -6,7 +6,7 @@ prop: Q3-03
 
 # Ägarbevis, Malin till Malin
 
-Under badbryggan. Tas med token `3H`. Inte dagbok. Twist mot blad 6 II: de tror de hittar lagfarten. Hon ger sig själv Kurtisanen.
+Under badbryggan. Tas med token `3H`. Inte dagbok. Twist mot blad 5 II: de tror de hittar lagfarten. Hon ger sig själv Kurtisanen.
 
 ## Tryck
 

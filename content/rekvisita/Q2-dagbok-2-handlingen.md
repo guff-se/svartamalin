@@ -2,16 +2,16 @@
 quest: Q-2
 beat: B-17
 prop: Q2-08
-dagbok: 4
+dagbok: 6
 ---
 
-# Dagboksblad 4, handlingen
+# Dagboksblad 6, handlingen
 
-Filosofi. Bygget och rätten att preja. Ska man göra något ska man göra det själv. Piratstugan.
+Filosofi. Bygget och rätten att preja. Ska man göra något ska man göra det själv. Piratstugan. Fyra år efter korvetten.
 
 ## Tryck
 
-Blad 4
+Blad 6
 
 Ska man göra något ska man göra det själv.
 

@@ -7,7 +7,7 @@ dagbok: 8
 
 # Dagboksblad 8, tillflykten
 
-Nutid. Enda stället hon är ifred. En stor plan för lugn. Piratstugan. Sist i boken, inte sist i rummet.
+Nutid. Enda stället hon är ifred. En stor plan för lugn. Piratstugan. Näst sist i boken, inte sist i rummet.
 
 ## Tryck
 

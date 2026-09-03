@@ -127,7 +127,7 @@ Detta är Q-2. Inte ett separat bakgrundsspår. Södra Ovanan är stugan och Ott
 |-------|------|----------|
 | Vems stuga är det? | Malin byggde den med egna händer efter att hon flyttade hemifrån. Inte barndomshemmet. Q-2. | 2026-08-23 |
 | Varför står den där? | Tillflykt. Dit flyr hon när världen blir för överväldigande. Hon använder den fortfarande. | 2026-08-23 |
-| Vad finns kvar där inne? | Tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten) plus fysiska minnen och skrin med tre tokens `1H`. Namnbladet pekar mot Ottos grav i skogen. Boken de kom ur står i Storstugan. Lista: [`quests/Q-2.md`](quests/Q-2.md). Kronologi: [`dagbok.md`](dagbok.md). Tryck i `content/rekvisita/`. | 2026-08-25 |
+| Vad finns kvar där inne? | Tre utrivna dagboksblad (blad 3 namnet, blad 6 handlingen, blad 8 tillflykten) plus fysiska minnen och skrin med tre tokens `1H`. Namnbladet pekar mot Ottos grav i skogen. Boken de kom ur står i Storstugan. Lista: [`quests/Q-2.md`](quests/Q-2.md). Kronologi: [`dagbok.md`](dagbok.md). Tryck i `content/rekvisita/`. | 2026-08-25 |
 
 ### Segelbåten vid bojen
 

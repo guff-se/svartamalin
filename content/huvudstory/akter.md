@@ -254,7 +254,7 @@ Plats:          Gubben i stubben, Gumman på udden, klätternätet
 Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen). Start: Kapten Planka (`linneaappert`), Kapten Kuling (`josefinlowing`), Kapten Frodig (`josefinansund`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i [`quests.md`](quests.md), hon jagar bladen bakom Malins rygg.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
-Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 2, vänder, följer baksidan till klätternätet. I påsen: blad 5 (hämnden) och token `3H`. Engångs: första laget bär föremålen. Kronologi: [`dagbok.md`](dagbok.md). Inte samma som hittordningen.
+Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 2, vänder, följer baksidan till klätternätet. I påsen: blad 4 (hämnden) och token `3H`. Engångs: första laget bär föremålen. Kronologi: [`dagbok.md`](dagbok.md). Inte samma som hittordningen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 
@@ -275,7 +275,7 @@ Plats:          Södra Ovanan, piratstugan, skelettet i skogen
 Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen), Skuta 4 (Fregatten Fromheten). Start: Kapten Blodig (`minimacklin`), Kapten Klöver (`johannabergman`), Kapten Kosing (`amandamungsgard`). Inte Malin.
 Publik:         den som ser överfarten, och den som möter folk som kommer tillbaka från stugan
 
-Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten), tar en token `1H` ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Token `2K` där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
+Vad händer:     tre personer har samma rykte: Malin byggde ett hus med egna händer på en öde ö i närheten, och flyr dit när världen blir för stor. Det är den enda skrivna pekaren mot stugan. De åker över, går in, läser tre utrivna dagboksblad (blad 3 namnet, blad 6 handlingen, blad 8 tillflykten), tar en token `1H` ur skrinet. Namnbladet pekar mot skogen. Skelettet är Otto von Pälspung. Token `2K` där. Skylt: endast en per lag. Inget pussel. Inga pit stops. Boken står i Storstugan.
 
 Vad ändras:     rummet vet att hon lämnade hemmet, byggde själv, tog rätten själv, tog namnet Svarta, begravde Otto i skogen, och fortfarande behöver en plats att vara ifred. Inte Ran. Inte kungen.
 
@@ -317,7 +317,7 @@ Plats:          Gymmet, vedhögen bakom bastun, under badbryggan
 Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Kapten Döver (`navidmodiri`), Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd: Kapten Frodig (`josefinansund`) på skuta 3, Kapten Lösskägg (`petterwallberg`) och Kapten Planka (`linneaappert`) på skuta 1. Inte mullvad, inte Malin, inte Spader.
 Publik:         den som ser folk i gymmet läsa väggen, vid veden, eller böja sig under badbryggan
 
-Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 6 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 6 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: Frodig på skuta 3, Lösskägg och Planka på skuta 1, tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och token `3H`, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
+Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 5 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 5 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: Frodig på skuta 3, Lösskägg och Planka på skuta 1, tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och token `3H`, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.
 
 Vad ändras:     rummet vet att hon bordade Kurtisanen, pekade på sjörövarns rätt, och seglade därifrån som ägare. Inte att kungen gav henne skutan.
 

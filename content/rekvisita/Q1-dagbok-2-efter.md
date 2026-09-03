@@ -1,16 +1,16 @@
 ---
 quest: Q-1
 prop: Q1-04
-dagbok: 5
+dagbok: 4
 ---
 
-# Dagboksblad 5, efter hämnden
+# Dagboksblad 4, efter hämnden
 
-Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med token `3H` i klätternätet. Bara dagbok. Kronologiskt efter blad 3 och 4.
+Malin efter hämnden på Otto von Pälspung. Helt blad. Ligger med token `3H` i klätternätet. Bara dagbok. Kronologiskt efter blad 3. Före korvetten.
 
 ## Tryck
 
-Blad 5
+Blad 4
 
 Otto.
 

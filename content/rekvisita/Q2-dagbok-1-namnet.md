@@ -7,7 +7,7 @@ dagbok: 3
 
 # Dagboksblad 3, uppbrottet
 
-Mellan blad 2 och blad 5. Förrådd. Tar namnet Svarta. Planerar begrava von Pälspung på ön.
+Mellan blad 2 och blad 4. Förrådd. Tar namnet Svarta. Planerar begrava von Pälspung på ön.
 
 ## Tryck
 
