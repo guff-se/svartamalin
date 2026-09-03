@@ -12,11 +12,14 @@ Både kärleksbrev och kontrakt. Tändningens innehåll.
 
 Min hjärtans Malin.
 
-Du har lovat mig Salmonellahavets kaptener. Samla dem till din födelsedagsfest. Fyll dem med kaviar och rom. I gryningen arresterar mina män dem alla.
+Dina ögon är där när jag blundar. Din doft är där när jag andas. Min längtan till din hud fyller hjärta och kropp.
 
-Havet blir ditt ensamt. Jag sätter Korvetten Kurtisanen på ditt namn. Guld nog att sluta slåss.
+Innan du seglade hem låg vi tills rummet luktade bara oss. Du hade krut under naglarna. Jag frågade vad du ville ha. Havet, sa du. Vila. Att inte heta Svarta i min säng. Jag ger dig det. Jag lät dig gå för att du skulle hålla löftet.
 
-Sedan är du bara min.
+Samla Salmonellahavets kaptener till din födelsedagsfest. Fyll dem med kaviar och rom. I gryningen arresterar mina män dem alla. Korvetten Kurtisanen står på ditt namn. Guld nog att sluta slåss.
 
-Din till döden
+Havet blir ditt.
+Du blir min.
+
+Till döden
 Karl
