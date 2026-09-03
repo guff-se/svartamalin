@@ -18,7 +18,7 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 | **Piratstugan** (Södra Ovanan) | Stuga med eldstad och kamin | 6 till 10 personer | Q-2. Huset hon byggde som tillflykt. Minnen plus skrin med tokens `1H`. Namnbladet pekar mot graven. Inte escape-rum. | II |
 | **Skelettet i skogen** (Södra Ovanan) | Ottos grav. Befintlig prop. | Liten grupp | Q-2. Token `2K`. Namnbladet i stugan pekar hit. Inte en identitetsgåta. | II |
 | **Storstugan** (vardagsrummet med svärdfisken) | Huvudhusets stora rum. Porträttvägg. Enorm svärdfisk, gap går att gömma saker i. Soffbord. | Alla, hög trafik | Q-5: porträttväggen och svärdfiskens mun. Sekundärt: Malins dagbok, synlig, de flesta sidor utrivna. Q-4: *Tomtebobarnen* i hyllan, blad 1 och kompassbild. Inte dagboken. Lagskatt: Fördärvets ingång är ett brev i soffbordet. Annan yta än hyllan och gapet. | II |
-| **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Aldrig bada ensam. | 8 till 12 personer | TBD. Inte Q-3: vedhögen bakom bastun är ett annat ställe. | III, efterspel |
+| **Onsen och bastu** | Bad och bastu. Öppna efter ritualen, med tillsyn. Man får vara ensam. | 8 till 12 personer | TBD. Inte Q-3: vedhögen bakom bastun är ett annat ställe. | III, efterspel |
 | **Vedhögen bakom bastun** | Vedtrave bakom bastun, utomhus | 2 till 5 personer | Q-3. Andra pit stop. Blad 6 II fastsatt, Caesar +13. | II |
 | **Hopptornet** | Hopptorn vid vattnet | Liten grupp | TBD. Inte Q-3. | |
 | **Badbryggan** | Badbrygga vid vattnet, skild från ankomstbryggan. Skatten sitter under, nåbar från bryggan. Inte i vattnet. Inte simning. | Liten grupp | Q-3. Skatt: ägarbevis och token `3H`. | II |
@@ -89,7 +89,7 @@ Fakta, beslutat 2026-08-18:
 - Två kajaker och två stand up paddle. **10 minuter** att paddla. En person per farkost, minst två farkoster ute samtidigt.
 - Simning är en tredje väg. Aldrig ensam.
 
-**Off-regel, hela helgen:** man får aldrig åka ut på båt (kajak, paddel, eka) eller bada själv. Gäller också onsen och simning till segelbåten. Sägs i genomgången. Se [`genomgang.md`](genomgang.md).
+**Off-regel, hela helgen:** man får aldrig åka ut på båt (kajak, paddel, eka) eller simma själv. Gäller simning till segelbåten. Gäller inte onsen och bastu. Sägs i genomgången. Se [`genomgang.md`](genomgang.md).
 
 Restiden med ekan är så kort att den **inte** är en naturlig flaskhals. **Kapten Kuling** (`josefinlowing`) och **Kapten Rödskägg** (`viktoransund`) har hand om båtarna. Skrivna sjöintriger går primärt genom att övertala en av dem att ge sig ut, för spel. Man **får** åka ut utan dem. Kajaker och SUP är långsammare och tar en person var, men de får inte gå ut ensamma.
 

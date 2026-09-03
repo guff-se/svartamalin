@@ -80,7 +80,7 @@ Detta avsnitt är obligatoriskt och äger företräde över allt konstnärligt.
 - [ ] **Vatten och mat tillgängligt** direkt efter, utan att någon behöver fråga.
 - [ ] **Ett tyst rum** med filtar som alltid är öppet, och som alla vet var det finns.
 - [ ] **Vattnet är stängt.** Ingen simning, ingen eka, ingen segelbåt efter 15.00. Kommuniceras som en regel, inte som en fiktion.
-- [x] **Bastu och onsen är öppna efteråt, med tillsyn.** Värme och påverkan kräver att en nykter person tittar till. Inte ensamma i vattnet, inte ensamma i bastun. Samma sällskapsregel som hela helgen: aldrig bada själv.
+- [x] **Bastu och onsen är öppna efteråt, med tillsyn.** Värme och påverkan kräver att en nykter person tittar till. Man får vara ensam i onsen och bastun. Aldrig ensam gäller eka, kajak, paddel och simning, inte badkaret.
 - [ ] **Klätternätet är stängt** efter ritualen.
 - [ ] **Säkerhetssignalerna och slutstriden** precis innan cirkeln sluts. Röd, gul, arrrr, stridsreglerna. Se [`genomgang.md`](genomgang.md).
 - [ ] **Ingen får vara ensam.** Enkel regel att säga högt: håll koll på en person var.
