@@ -28,7 +28,7 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 
 1. Storyn handlar om Svarta Malins dåtid.
 2. Berättaren får ljuga. Gästerna får den cirkulerande versionen **genom questen**, inte i första ledtråden. Om sanningen skiljer sig sitter den i questens fil och i kistan.
-3. Får inte nämna Karl XII, kungen, affären, sängen med makten, eller att festen är en fälla. **Undantag för världen, inte för questen:** att Karl XII är kung år 1702 står i [`../copy/intriger_intro.md`](../copy/intriger_intro.md) och är kanon. Queststories, startintriger, props och pit stops får fortfarande inte nämna affären, sängen eller fällan.
+3. Får inte nämna Karl XII, kungen, affären, sängen med makten, eller att festen är en fälla. **Undantag för världen, inte för questen:** att Karl XII är kung år 1718 står i [`../copy/intriger_intro.md`](../copy/intriger_intro.md) och är kanon. Queststories, startintriger, props och pit stops får fortfarande inte nämna affären, sängen eller fällan.
 4. Får inte citera sista versen som framtid. Får inte spoila metaregeln (alla dör, Malin blir Ran).
 5. Gästtext: piratnamn, du-form, [`../intriger/STYLE.md`](../intriger/STYLE.md). "Ton i gästtext" under skrivstöd är en instruktion till agenten, inte text att klistra in.
 6. En quest lär gästerna **en sak** om Malin. Skriv inte in de andra fyra kapitlen i samma intrig.

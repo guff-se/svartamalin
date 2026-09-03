@@ -192,7 +192,7 @@ En deltagare kan **bara** läsa tre saker på skärmen:
 
 1. Sin egen fil: `guests/{login_slug}.md`
 2. Sin skutas fil: `crews/{crew_id}.md`
-3. Sajtens brödtext: [`../copy/`](../copy/), inklusive världs-ingången [`../copy/intriger_intro.md`](../copy/intriger_intro.md) (år 1702, Karl XII är kung, pirater och kapare). De har läst den innan de kommer till sin egen intrig.
+3. Sajtens brödtext: [`../copy/`](../copy/), inklusive världs-ingången [`../copy/intriger_intro.md`](../copy/intriger_intro.md) (år 1718, Karl XII är kung, pirater och kapare). De har läst den innan de kommer till sin egen intrig.
 
 De ser inte andra gästers filer, inte andra skutors lagfiler, inte `huvudstory/`, inte yaml-källistor, inte `anteckningar/`, och inte någon annans `roller/`. Sidequests, beats och andras hemligheter **existerar inte** för dem förrän de står i *deras* läsbara text.
 

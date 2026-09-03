@@ -1,7 +1,7 @@
 ## Välkommen till Salmonellahavet
 
-Året är 1715.
-Karl XII sitter ännu på Sveriges tron och riket kallas fortfarande en stormakt. Men femton år av krig har satt sina spår. Männen är borta, kassorna tomma och ute på Salmonellahavet byter både skepp och gods ägare med oroväckande lätthet.
+Året är 1718.
+Karl XII sitter ännu på Sveriges tron och riket kallas fortfarande en stormakt. Men arton år av krig har satt sina spår. Männen är borta, kassorna tomma och ute på Salmonellahavet byter både skepp och gods ägare med oroväckande lätthet.
 
 Det är goda tider för dåligt folk.
 

@@ -20,6 +20,16 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-09-03, festens år 1718
+
+Källa: Gustaf, i chatt. Införd i [`../copy/intriger_intro.md`](../copy/intriger_intro.md), [`kanon.md`](kanon.md).
+
+- [x] ändra festens år till 1718
+
+Kryss = överstyr 1702 från 2026-08-25. Gästcopy och kanon. Karl XII är fortfarande kung.
+
+---
+
 ## 2026-09-03, safewords röd och gul, go-word arrrr
 
 Källa: Gustaf, i chatt. Införd i [`genomgang.md`](genomgang.md).

@@ -28,7 +28,7 @@ Punkt 6 till 9 är **finalen** och får inte omnämnas som framtida faktum i gä
 
 Beslutat 2026-08-25. Källa: [`egna.md`](egna.md). Publicerad gästtext: [`../copy/intriger_intro.md`](../copy/intriger_intro.md). Visas först när intrigerna presenteras. Röst: piratrevy, ni-form. Inte du-form. Inte affären.
 
-1. Året är 1702. Karl XII är kung.
+1. Året är 1718. Karl XII är kung.
 2. På Salmonellahavet har det utkämpats kamper i många år.
 3. Det finns pirater och kapare. En kapare har fått välsignelse av kungen, en greve, baron eller general att röva. De flesta pirater har kapat någon gång. Ingen litar på någon.
 4. Det mest ökända namnet är Svarta Malin. Hon är havets fasa.
