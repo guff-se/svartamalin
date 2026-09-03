@@ -19,9 +19,17 @@ mirrors:
     note: skutkamrat, hon har gissat fel namn, du rättar inte gratis (tvåvägs)
   - slug: amandamungsgard
     note: arvssyndsskatt mot aristokratin (tvåvägs, tax)
+  - slug: alexandrapalmquist
+    note: mullvad, Babord på Gnället är din länk (tvåvägs)
 # gustaftadaa: hon vet inte att han älskar Plåthorn i hemlighet, se hans fil
-related: [elinmartensson, gustaftadaa, jesperlindmarker, viktoransund, petterwallberg, malintadaa, edvinthungren, josefinansund, minimacklin, amandamungsgard]
+related: [elinmartensson, gustaftadaa, jesperlindmarker, viktoransund, petterwallberg, malintadaa, edvinthungren, josefinansund, minimacklin, amandamungsgard, alexandrapalmquist]
 ---
+
+## Handen från Gnället {slug:alexandrapalmquist}
+
+**Kapten Babord** på **Galeonen Gnället** arbetar i hemlighet för **Fregatten Fördärvet**, och du är hennes enda länk. Ingen annan ombord vet. Hon gör det för att hon litar på dig, och för att hon vill komma ifrån allt gnäll på galeonen, inte för flaggan. **Kapten Döver** skulle ha varit länken. Han är saknad. Nu är det du.
+
+Ta emot det hon ger utan att låta det synas för din egen skuta, och inte för Babords. Planer, gömmen, viskningar från Gnället. Utnyttja det så länge det gynnar Fördärvet, men glöm inte att en kvinna som säljer sin skuta för tillit också kan sälja dig, om priset blir rätt. Håll henne nära och misstänksam på samma gång, innan festen är över.
 
 ## Ett rivet blad om en glömd kärlek {slug:malintadaa}
 

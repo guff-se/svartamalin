@@ -39,14 +39,14 @@ Status:         idé / beslutad / skriven
 |----|------|-----------|-----|------|--------|
 | S-01 | Jakten på älskaren | Hjärter, Blodig. Malin leder fel. | II | jägare / bärare | skriven |
 | S-02 | Skäggtrion | Lösskägg, Rödskägg, Blåskägg, Klöver | II | rivaler / hetsare | skriven |
-| S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Döver, Babord | II | jägare / bärare / vittne | skriven |
+| S-03 | Krumelurpillren | Barnsben, Nykter, Rosing, Babord | II | jägare / bärare | skriven |
 | S-04 | Liggaren | Hurring, Fuling, Klöver, Prygel, Blåskägg, Spader | II | jägare / bärare / vittne | skriven |
 | S-05 | Arvssyndsskatten | Kosing, Kuling, Rötägg, Nykter, Klöver | II | grindvakt / bärare / vittne | skriven |
 | S-06 | Räkningen mot Malin | Kuling, Plåthorn, Malin, Hurring | II–IV | jägare / antagonist / vittne | skriven |
 | S-07 | Rötäggets bevis | Rötägg, Planka, Barnsben, Nykter | II | bärare / jägare / vittne | skriven |
 | S-08 | Jakten på kåthornet | Plåthorn, Kuling, Prygel, Rosing, Spader | II–IV | grindvakt / jägare / vittne | skriven |
 | S-09 | Blodigs hot | Blodig, Frodig, Rödskägg, Lösskägg | II–IV | jägare / bärare | skriven |
-| S-10 | Teckenspråket | Döver, Babord, Rötägg, Fuling. Hjärter är målet, enväg. | II | jägare / grindvakt / vittne | skriven |
+| S-10 | Saknade Döver | Babord, Barnsben, Rötägg, Fuling. Hjärter bär sanningen, enväg. Döver är saknad NPC. | II | jägare / bärare / vittne | skriven |
 | S-11 | Korthajarna | Spader, Klöver, Hjärter, Prygel, Plåthorn | II | rivaler / grindvakt / vittne | skriven |
 | S-12 | Klienten på Paradisets ö | Frodig, Rötägg, Kuling, Blodig. Rödskägg enväg. | II–IV | jägare / bärare / grindvakt | skriven |
 
@@ -78,7 +78,7 @@ Fylls i så att ingen får för många och ingen får noll. Målet från [`premi
 | `jesperlindmarker` | 2 | jägare, vittne | II–IV |
 | `louisevonbahr` | 2 | bärare, vittne | II |
 | `josefinlowing` | 4 | grindvakt, jägare | II–IV |
-| `navidmodiri` | 2 | jägare, vittne | II |
+| `navidmodiri` | 0 | saknad NPC (S-10), attending=false 2026-09-03 | — |
 | `minimacklin` | 3 | jägare | II–IV |
 | `fabianmacklin` | 3 | jägare, vittne | II |
 | `josefinansund` | 2 | bärare, jägare | II–IV |
@@ -168,7 +168,7 @@ Källan är gästernas eget underlag i `../roller/`, hängt på poster i `romans
 |---------|---------|-----------|
 | Barnsben (`ulrikahammar`, skuta 1) | Nykter (`fabianmacklin`, skuta 3) | romans 5. Nykter värvade den han uppvaktar. |
 | Frodig (`josefinansund`, skuta 3) | Rosing (`linneaekbom`, skuta 5) | fiende 4 |
-| Babord (`alexandrapalmquist`, skuta 5) | Döver (`navidmodiri`, skuta 2) | romans 7 |
+| Babord (`alexandrapalmquist`, skuta 5) | Kuling (`josefinlowing`, skuta 2) | litade på Kuling + fly från Gnällets gnäll (tidigare romans 7 / Döver, omsprungen 2026-09-03) |
 | Fuling (`louisevonbahr`, skuta 2) | Hjärter (`jesperlejfjord`, skuta 4) | romans 10 |
 | Prygel (`minervalowgren`, skuta 4) | Hurring (`jesperlindmarker`, skuta 1) | romans 13 |
 
@@ -181,9 +181,9 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `linneaappert` | S-07 | tom rollfil. Romans 3 med Rötägg. Romans 25 med Blåskägg (hjärta krossat för en skuta). Fiende 5: oljan, Fuling kastade sig på Rosing som skrattade. |
 | `ulrikahammar` | S-03, S-07 | krumelurpiller, syhörna. Scarfen mot Babord (fiende 12). Redan mullvad mot Nykter (annan hemlighet). |
 | `jesperlindmarker` | S-04, S-06 | svart liggare, vem angav honom. Redan Prygels mullvadskontakt (annan hemlighet). |
-| `louisevonbahr` | S-04, S-10 | tom rollfil. Fiende 5: oljan, kastade sig på Rosing som skrattade. S-04: hon angav Hurring, nekar. Redan mullvad mot Hjärter (annan hemlighet). |
-| `josefinlowing` | S-05, S-06, S-08, S-12 | familjesmycke, båtar, aristokrati, egen oförrätt mot Malin, bakhåll mot Rödskägg, namnet på klienten |
-| `navidmodiri` | S-03, S-10 | fejkdöv, sanningsserum, workshop, nemesis Hjärter. Redan Babords mullvadskontakt (annan hemlighet). |
+| `louisevonbahr` | S-04, S-10 | tom rollfil. Fiende 5: oljan, kastade sig på Rosing som skrattade. S-04: hon angav Hurring, nekar. Redan mullvad mot Hjärter (annan hemlighet). S-10: skulden mot Döver värdelös när han är saknad. |
+| `josefinlowing` | S-05, S-06, S-08, S-12 | familjesmycke, båtar, aristokrati, egen oförrätt mot Malin, bakhåll mot Rödskägg, namnet på klienten. Kontakt för Babords mullvad (forradare 5, 2026-09-03). |
+| `navidmodiri` | — | saknad NPC. S-10 handlar om honom. attending=false 2026-09-03. |
 | `minimacklin` | S-01, S-09, S-12 | magiskt halsband. Jakten på Malins älskare, tecknet mot Frodig, falskt klientnamn. |
 | `fabianmacklin` | S-03, S-05, S-07 | njutningsstatyett, frieri till Barnsben, släktens rike. Redan Barnsbens mullvadskontakt (annan hemlighet). |
 | `josefinansund` | S-09, S-12 | förbjuden kärlek med Rödskägg. Namn-jakt: Blodig anklagar henne för bakhållet. |
@@ -191,35 +191,35 @@ Nio av de sexton oberoende personerna nedan har alltså redan en hemlig relation
 | `amandamungsgard` | S-05 | arvssyndsskatt (tax), mynt, låg intensitet. Dunka struken 2026-09-01. |
 | `minervalowgren` | S-04, S-08, S-11 | liten kortlek, vill krossa kåthornet, dealer vid korthajbordet. Redan mullvad mot Hurring (annan hemlighet). Frompiraterna ligger i lagintrigen, inte här. |
 | `linneaekbom` | S-03, S-08 | duell, kan inte simma, talande snäcka. Fiende 5: vittne, Fuling kastade sig på henne vid skålen, hon skrattade. Redan Blåskäggs mullvadskontakt (annan hemlighet). |
-| `alexandrapalmquist` | S-03, S-10 | sjökort (Mälaren, hennes föremål), mild ordning, romans med Döver, fiende 12 mot Barnsben (brevet i scarfen, dåtid). Redan mullvad mot Döver (annan hemlighet). |
-| `edvinthungren` | S-05, S-07, S-10, S-12 | vill vara snäll, ärvt skepp, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. |
+| `alexandrapalmquist` | S-03, S-10 | sjökort (Mälaren, hennes föremål), mild ordning, romans med saknade Döver, fiende 12 mot Barnsben (brevet i scarfen, dåtid). Mullvad mot Kuling (forradare 5, 2026-09-03). |
+| `edvinthungren` | S-05, S-07, S-10, S-12 | vill vara snäll, ärvt skepp, enhörningsmanschetter från Planka. Klient bakom bakhållet, före omvändelsen. S-10: gottgörelse mot Döver som aldrig landar. |
 | `elinmartensson` | S-06, S-08, S-11 | kåthorn, klagomur, ensam om att veta att Spader har en lek med bara spaderess. Fiende 2 mot Malin (skålen och jollen), flyttad från Enben 2026-08-27. |
 | `gustaftadaa` | S-04, S-08, S-11 | kortspelare med spelskuld till Hurring, hemlig romans med Plåthorn (romans 14), korthajbordet. Fullt spelbar. Inga huvudquest-ledtrådar, inte mullvad/kontakt. |
 
-Nio personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `navidmodiri`, `jesperlejfjord`, `linneaekbom`, `alexandrapalmquist`. `josefinansund` bär två efter S-12. Tre bär tre sedan tidigare: `fabianmacklin`, `gustaftadaa`, `minervalowgren`. S-12 gör tre till tre: `edvinthungren`, `minimacklin`, `josefinlowing`. `elinmartensson` bär tre efter att fiende 2 flyttades till henne (S-06, S-08, S-11). En bär fyra: `johannabergman`. S-11 är Klövers fjärde, medvetet, och har annan mekanik än S-02, S-04 och S-05: hon spelar, hon håller inte boken. Ingen last delar mekanik mellan sidequests, se "Obs"-raden under respektive.
+Nio personer bär två sidequests: `ulrikahammar`, `jesperlindmarker`, `louisevonbahr`, `jesperlejfjord`, `linneaekbom`, `alexandrapalmquist`. `josefinansund` bär två efter S-12. Tre bär tre sedan tidigare: `fabianmacklin`, `gustaftadaa`, `minervalowgren`. S-12 gör tre till tre: `edvinthungren`, `minimacklin`, `josefinlowing`. `elinmartensson` bär tre efter att fiende 2 flyttades till henne (S-06, S-08, S-11). En bär fyra: `johannabergman`. S-11 är Klövers fjärde, medvetet, och har annan mekanik än S-02, S-04 och S-05: hon spelar, hon håller inte boken. `navidmodiri` (Döver) attending=false 2026-09-03: S-10 handlar om honom som saknad NPC, inte som spelare. Ingen last delar mekanik mellan sidequests, se "Obs"-raden under respektive.
 
 ---
 
 ## S-03: Krumelurpillren
 
 Akt:            II, avgörs i skymningen
-Deltagare:      Kapten Barnsben (`ulrikahammar`), Kapten Nykter (`fabianmacklin`), Kapten Rosing (`linneaekbom`), Kapten Döver (`navidmodiri`), Kapten Babord (`alexandrapalmquist`)
-Roll i storyn:  bärare (Barnsben) / jägare (Nykter, Rosing, Babord) / vittne (Döver, enväg)
+Deltagare:      Kapten Barnsben (`ulrikahammar`), Kapten Nykter (`fabianmacklin`), Kapten Rosing (`linneaekbom`), Kapten Babord (`alexandrapalmquist`)
+Roll i storyn:  bärare (Barnsben) / jägare (Nykter, Rosing, Babord)
 Kopplad till:   ingen beat än. Korsar kökskanten, Nykter har maten.
 
-Vad de vill:    Barnsben måste ta ett av sina krumelurpiller när mörkret faller, annars slutar hon vara barnslig och börjar bli stor, vilket hon fasar för. Ingen ska se. Nykter vill vara den hon litar på i skymningen och gärna den som håller burken. Rosing vill detsamma, utan att veta att Nykter redan ligger risigt nära henne av ett annat skäl. Babord vill ha upprättelse för att Barnsben en gång lindade ett brev till Döver i hennes scarf, och fånga Barnsben om hon gör om det. Ingen fysisk scarf. Oförrätten är dåtid.
-Vad står i vägen: Barnsben bjuder bara särskilt invigda, och burken är liten och lätt att sno. Nykters uppvaktning av Barnsben är redan hans täckmantel för att hålla henne som mullvad (se mullvadstabellen ovan): han vet mer om henne än han visar, vilket gör hans intresse svårare att läsa för både Barnsben och Rosing. Rosing vågar inte fråga rakt ut vem Barnsben egentligen litar på, av rädsla för svaret. Babord vet om brevet i scarfen, inte om pillren, och Döver vet inte att hon kommer till hörnan för upprättelse.
+Vad de vill:    Barnsben måste ta ett av sina krumelurpiller när mörkret faller, annars slutar hon vara barnslig och börjar bli stor, vilket hon fasar för. Ingen ska se. Nykter vill vara den hon litar på i skymningen och gärna den som håller burken. Rosing vill detsamma, utan att veta att Nykter redan ligger risigt nära henne av ett annat skäl. Babord vill ha upprättelse för att Barnsben en gång lindade ett brev till Döver i hennes scarf, och fånga Barnsben om hon gör om det. Ingen fysisk scarf. Oförrätten är dåtid. Döver är saknad (S-10): Babord kan kräva ursäkt nu när mannen brevet gällde inte syns.
+Vad står i vägen: Barnsben bjuder bara särskilt invigda, och burken är liten och lätt att sno. Nykters uppvaktning av Barnsben är redan hans täckmantel för att hålla henne som mullvad (se mullvadstabellen ovan): han vet mer om henne än han visar, vilket gör hans intresse svårare att läsa för både Barnsben och Rosing. Rosing vågar inte fråga rakt ut vem Barnsben egentligen litar på, av rädsla för svaret. Babord vet om brevet i scarfen, inte om pillren. Ingen tjuvlyssnare vid hörnan: Döver är borta (S-10, 2026-09-03).
 Varför nu:      första skymningen som räknas är lördag. Fredag är off-story. Efter ritualen är det kropp, inte pussel: att gömma en burk, smyga i en klick, ta ett piller, eller kräva en ursäkt vid hörnan, går fortfarande att spela utan logik.
 
-Hur det spelas: Barnsben håller sin sy- och broderihörna öppen som naturlig samlingsplats. Nykter och Rosing uppvaktar henne var för sig under dagen, i hopp om att bli den hon anförtror sig åt när mörkret faller. Barnsben kan dela ut ett piller till den hon litar mest på, eller lägga ett i en drink hos någon hon tycker blivit för allvarlig och vuxen under dagen. Döver, som av gammal vana tjuvlyssnar bakom sin fejkade dövhet, hör mer av syhörnans viskningar än någon anar. Han har redan hört henne, ensam vid tyget, säga att burken går till Nykter, inte till Rosing. Ingen av de två har hört det än. Han väljer själv om han säger det. Babord kommer till samma hörna för oförrätten: hon kan kräva en ursäkt högt, fånga ett nytt brev, eller tala om för Döver vems händer som rörde det som var hennes. Hon täcker inte hans dövhet här. Ingen scarf byter händer.
-Utfall om ja:   någon får burken, någon ser intaget, ett piller hamnar hos fel person. Svartsjuka mellan Nykter och Rosing vid syhörnan. Döver kan, om han vill, avslöja vem Barnsben valde, eller hålla tyst och spara det. En scen om det stulna tyget, eller ett nytt brev som fångas, just när Barnsben minst vill ha folk vid hörnan.
+Hur det spelas: Barnsben håller sin sy- och broderihörna öppen som naturlig samlingsplats. Nykter och Rosing uppvaktar henne var för sig under dagen, i hopp om att bli den hon anförtror sig åt när mörkret faller. Barnsben kan dela ut ett piller till den hon litar mest på, eller lägga ett i en drink hos någon hon tycker blivit för allvarlig och vuxen under dagen. Babord kommer till samma hörna för oförrätten: hon kan kräva en ursäkt högt, fånga ett nytt brev, eller tala om att mannen brevet gällde är saknad och att Barnsben ändå stulit det som var hennes. Ingen scarf byter händer.
+Utfall om ja:   någon får burken, någon ser intaget, ett piller hamnar hos fel person. Svartsjuka mellan Nykter och Rosing vid syhörnan. En scen om det stulna tyget, eller ett nytt brev som fångas, just när Barnsben minst vill ha folk vid hörnan.
 Utfall om nej:  Barnsben tar sitt piller privat och ensam. Romanserna 4 och 5 finns kvar oförlösta. Fiende 12 likaså.
 
 Bygger på:      romanser 4, 5. Fiende 12 (Babord–Barnsben, brevet i scarfen, dåtid). Samma underliggande relation som mullvad 1 (Nykter–Barnsben), men en annan konsekvens av den: uppvaktningen syns här, förräderiet syns inte.
-Speglas hos:    Barnsben, Nykter, Rosing, Babord. Döver enväg, han lyssnar men agerar inte. Babord enväg mot Döver i den här biten: hon talar om oförrätten för honom om hon vill, han har ingen egen S-03-text om den.
+Speglas hos:    Barnsben, Nykter, Rosing, Babord.
 Status:         skriven
 
-Obs: Tidigare hållen utanför, se S-10. Tillagd 2026-08-24 på Gustafs begäran, via fiende 12. S-10 är teckenspråksbluffen, S-03 är upprättelsen mot Barnsben, mullvaden är en tredje hemlighet. Håll isär i gästtexten. Ingen fysisk scarf, ingen SL-prop. Nykter bär också S-05 och S-07, Barnsben bär också S-07, Döver och Babord bär också S-10. Ingen av dem delar mekanik mellan sidequesterna.
+Obs: Tidigare hållen utanför, se S-10. Tillagd 2026-08-24 på Gustafs begäran, via fiende 12. Dövers enväg-vittne (tjuvlyssning vid hörnan) struken 2026-09-03 (återbud, saknad NPC). S-10 är jakten på vad som hänt med Döver, S-03 är upprättelsen mot Barnsben, mullvaden är en tredje hemlighet. Håll isär i gästtexten. Ingen fysisk scarf, ingen SL-prop. Nykter bär också S-05 och S-07, Barnsben bär också S-07, Babord bär också S-10. Ingen av dem delar mekanik mellan sidequesterna.
 
 ---
 
@@ -388,26 +388,26 @@ Obs: Håll den förbjudna kärleken isär från förrädarspåret i forradare.ya
 
 ---
 
-## S-10: Teckenspråket
+## S-10: Saknade Döver
 
 Akt:            II
-Deltagare:      Kapten Döver (`navidmodiri`), Kapten Babord (`alexandrapalmquist`), Kapten Rötägg (`edvinthungren`), Kapten Fuling (`louisevonbahr`). Kapten Hjärter är målet, enväg, inte extra last för honom.
-Roll i storyn:  jägare (Döver) / grindvakt, vittne (Babord, Rötägg, Fuling)
-Kopplad till:   fiende 23. Korsar S-01 om Döver saboterar jakten på älskaren. Korsar köket, Hjärter har maten.
+Deltagare:      Kapten Babord (`alexandrapalmquist`), Kapten Barnsben (`ulrikahammar`), Kapten Rötägg (`edvinthungren`), Kapten Fuling (`louisevonbahr`). Kapten Hjärter (`jesperlejfjord`) bär sanningen, enväg. Kapten Döver (`navidmodiri`) är saknad NPC, ingen gästfil.
+Roll i storyn:  jägare (Babord, Barnsben) / vittne (Rötägg, Fuling) / bärare (Hjärter, enväg)
+Kopplad till:   fiende 23. Korsar S-01: Hjärter jagar Malins älskare medan han täcker sitt eget brott. Korsar köket, Hjärter har maten.
 
-Vad de vill:    Döver vill sabotera sin nemesis Hjärter och samtidigt behålla sin fejkade dövhet, som han i verkligheten bara använder för att slippa strunt och tjuvlyssna ostört. Han har ett flaskat sanningsserum och vill hålla en workshop i sitt hittepå-teckenspråk. Babord, hans romans (7), älskar honom och kan täcka för honom. Rötägg vill vara snäll nu och hjälpa till, vilket är det sista Döver vill: före omvändelsen lastade Rötägg Dövers skepp med tunnor mat som redan stank och räknade med att den "döve" inte skulle höra klagomålen i tid (fiende 6). Döver hörde och teg. Fuling, hans eget skeppskamrat på Fördärvet, har länge anat att dövheten är påhitt men sagt inget, det passar henne bättre att ha en skuld att kräva in senare än att avslöja honom gratis.
-Vad står i vägen: någon på ön kan riktigt teckenspråk och kan avslöja att Dövers är påhitt. Hjärter har redan sett honom reagera på ljud han "inte kan höra" och litar inte på handbabblet (fiende 23). Serumet kan hamna i fel hals. Rötägg som hjälper för mycket riskerar att avslöja mer än han vill.
-Varför nu:      Hjärter lagar mat och jagar Malins älskare samtidigt: Döver kan stå vid kökskanten och "inte höra" precis där det är som mest värt att lyssna.
+Vad de vill:    Kajen vet att Kapten Döver skulle ha seglat med Fördärvet. Han kom inte. Ingen förklaring. Babord kom för mannen hon översatte tecken åt och vill ha tillbaka (romans 7): hon letar. Barnsben har aldrig släppt sin envägsåtrå (romans 6): hon letar också, och kan krocka med Babord om vem som har rätt att fråga. Rötägg ville gottgöra ruttna tunnor (fiende 6) vid en workshop som aldrig blir av: han hjälper till att leta, och kan peka fel. Fuling anade att dövheten var påhitt och sparade det som skuld: skulden är värdelös, men misstanken kan säljas, eller tigas för Hjärter som redan är hennes mullvadskontakt.
+Vad står i vägen: Ingen kropp på ön. Ingen workshop. Ingen flaska serum i spel. Sanningen sitter bara hos Hjärter: han dödade Döver före ankomsten, för att Döver tjuvlyssnade vid grytorna, sabbade jakten på Malins älskare, och Hjärter visste att dövheten var påhitt (fiende 23). Det gick för långt. Hjärter lämnar knappast köket. Nykter (fiende 11) hatar fortfarande mannen som sålde frieriet i tavernan: naturlig röd sill, inget facit.
+Varför nu:      Första gången alla från den tiden är samlade, och stolen där Döver skulle sitta står tom.
 
-Hur det spelas: Döver håller sin workshop på gården som täckmantel för att tjuvlyssna brett. Serumet hamnar i en kopp nära Hjärter, eller nära den som hotar avslöja Döver. Babord översätter hans hittepå-tecken med rak min. Rötägg går på workshopen av ren vänlighet och kan råka visa, inför alla, att tecknen inte betyder något alls. Fuling säger ingenting på workshopen, men kan när som helst nämna för Döver, i förbifarten, att hon "alltid undrat" hur han klarar sig utan att höra, ett hot utan hot i orden.
-Utfall om ja:   någon får bevis för att Döver hör allt. Hjärters jakt i S-01 störs eller får en falsk ledtråd, planterad av Döver. Fuling kan välja att kräva in sin tystnad som en tjänst, inte avslöja den.
-Utfall om nej:  fiende 6 och 23 och romans 7 finns kvar olösta. Workshopen blir bara fest.
+Hur det spelas: Fråga runt. Tom workshop-plats på gården. Tom koja. Hjärter vid grytorna som inte lämnar dem. Babord och Barnsben kan krocka om vem som har rätt att leta. Fuling kan kräva betalt för vad hon *anade*, eller hålla tyst för Hjärter. Hjärter ljuger, styr bort, eller mutar Fuling (hon jobbar redan för honom). Ingen ny prop. Serumflaskan och workshopen nämns som det som *inte* händer.
+Utfall om ja:   någon landar nära köket. Scener, inte avslöjad huvudstory. Hjärters jakt i S-01 störs eller får en falsk ledtråd han själv planterar.
+Utfall om nej:  Döver förblir borta. Romans 6 och 7 och fiende 6, 11, 23 finns kvar olösta. Huvudstoryn går.
 
-Bygger på:      romans 7 (Döver–Babord). Fiender 6 (Döver–Rötägg), 23 (Döver–Hjärter). Fulings vana att spara en skuld (S-10, Dövers dövhet) istället för att avslöja gratis. Inte fiende 5, inte S-04.
-Speglas hos:    Döver, Babord, Rötägg, Fuling. Hjärter enväg, ingen ny egen jakt åt honom.
+Bygger på:      romans 6 (Barnsben→Döver, enväg), romans 7 (Babord–Döver, mutual, objektet saknat). Fiender 6 (Döver–Rötägg), 23 (Döver–Hjärter). Fulings vana att spara en skuld. Inte fiende 5, inte S-04.
+Speglas hos:    Babord, Barnsben, Rötägg, Fuling, Hjärter. Döver ingen gästfil.
 Status:         skriven
 
-Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlighet, se mullvadstabellen): hon är hans handlerkontakt och hans romans i samma andetag, vilket redan är sant i `forradare.yaml`. Hon bär också S-03 (upprättelsen mot Barnsben). Håll teckenspråksbluffen, fiende 12 och förräderiet isär i gästtexten. Rötägg bär också S-07 och S-12, Fuling bär också S-04. Samma personer, olika relationer, ingen delad mekanik.
+Obs: Omsprungen 2026-09-03: Navid Modiri (`navidmodiri`) återbud. Döver stannar i fiktionen som saknad, inte struken som Enben/Dunka. Tidigare S-10 var teckenspråksbluffen med workshop och serum. Den mekaniken är bakgrund, inte något att göra. Babord bär redan mullvaden mot Kuling (forradare 5, omsprungen samma dag från Döver): hon är jägare här och mullvad i samma andetag, håll isär i gästtexten. Hon bär också S-03 (upprättelsen mot Barnsben). Rötägg bär också S-07 och S-12, Fuling bär också S-04, Hjärter bär S-01 och S-11. Samma personer, olika relationer, ingen delad mekanik. Inte bärande balk.
 
 ---
 
@@ -415,11 +415,11 @@ Obs: Babord bär redan mullvadsrelationen mot samma person, Döver (annan hemlig
 
 Kopplingar i `romanser.yaml` och `fiender.yaml` som är särskilt lämpade att dras in i huvudstoryn, eftersom de redan har tryck och redan korsar skutor:
 
-- **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fem personer i ett nät. **S-03, beslutad**, med Rosing och Nykter som jägare, Döver som enväg-vittne, Babord som jägare via fiende 12 (brevet i scarfen, dåtid, ingen fysisk scarf). S-10 förblir teckenspråket, inte scarfen.
+- **Barnsben som allas åtrå** (romanser 4, 5, 6 och fiender 12, 13). Fem personer i ett nät. **S-03, beslutad**, med Rosing och Nykter som jägare, Babord som jägare via fiende 12 (brevet i scarfen, dåtid, ingen fysisk scarf). Dövers enväg-vittne struket 2026-09-03. **S-10** är jakten på saknade Döver, inte scarfen.
 - **Blodig och Hjärter om Malin** (romanser 17, 20 och fiende 21). Två anspråk på jubilaren. De jagar hennes hemliga älskare i hamnen. Sanningen är Karl XII, först i kistan. **S-01, beslutad.**
 - **Plåthorn mot Malin** (fiende 2). Den enda etablerade fiendskapen som går direkt mot Malin. Flyttad från Enben 2026-08-27. Sannolikt vår viktigaste ingång till huvudstoryn. **S-06, beslutad.**
 - **Hjärter, hemligt förälskad i Malin** (romans 17). Jagar rivalen privat, vid kökskanten. **S-01, beslutad.**
-- **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Adresserad via fiende 13 i **S-07**, fiende 6 i **S-10**, och som namnlös klient i **S-12** (fiende 25:s lucka). Fiende 14 förblir obesökt som motor.
+- **Rötägg som allas fiende** (fiender 6, 13, 14). Naturlig skurk i huvudstoryn. Inte tillsatt som mullvad. Adresserad via fiende 13 i **S-07**, fiende 6 i **S-10** (gottgörelse mot saknade Döver), och som namnlös klient i **S-12** (fiende 25:s lucka). Fiende 14 förblir obesökt som motor.
 - **Frodig och Rödskägg, förbjuden kärlek** (romans 8, fiende 25). Hotet från Blodig, redan noterat i `fiender.yaml` fiende 4, adresserat i **S-09, beslutad.** Fiende 25 (Kuling–Rödskägg) adresserad i **S-12, beslutad:** namnet på klienten, inte vattnet.
 - **Hurring, Fuling, Klöver, Prygel** (romanser 12, 13, fiende 1, 5). **S-04, beslutad.**
 - **Plåthorns kåthorn mot Kuling och Prygel** (fiender 7, 24). **S-08, beslutad.**
@@ -462,7 +462,7 @@ Bygger på:      fiender 27 (Spader–Klöver, nu även den vunna ringen), 28 (S
 Speglas hos:    Spader, Klöver, Hjärter. Prygel. Plåthorn.
 Status:         skriven
 
-Obs: Klöver bär S-02, S-04, S-05 och S-11. De tre första är bank och procent. Här spelar hon, och här bär hon dessutom Hjärters kristallfyrklöver och Spaders ring med spader som troféer. Inte halsbandet. Håll isär i gästtexten. Prygel bär S-04 och S-08: där liten lek mot Klöver i liggarjakten respektive jakten på kåthornet. Här dealer vid hajbordet. Spader bär S-04 och S-08: skuld till Hurring, skydd av Plåthorn. Här sitter han och palmerar utan smycken, och vill ha sin ring tillbaka från Klöver. Plåthorn bär S-08: kåthornet. Här vet hon om leken med bara spaderess, inte om kåthornet. Hon bär hans halsband, inte ringen, och vet inte att Klöver har ringen. Hjärter bär S-01 och är envägsmål i S-10: jakten på Malins älskare och teckenspråket. Här bus vid grytorna. Rötägg är inte med. Fiende 14 förblir bakgrund. Klövers svartklubbar nämns inte som insats: det är sällskap, inte färgen, och det är Outline C som ströks.
+Obs: Klöver bär S-02, S-04, S-05 och S-11. De tre första är bank och procent. Här spelar hon, och här bär hon dessutom Hjärters kristallfyrklöver och Spaders ring med spader som troféer. Inte halsbandet. Håll isär i gästtexten. Prygel bär S-04 och S-08: där liten lek mot Klöver i liggarjakten respektive jakten på kåthornet. Här dealer vid hajbordet. Spader bär S-04 och S-08: skuld till Hurring, skydd av Plåthorn. Här sitter han och palmerar utan smycken, och vill ha sin ring tillbaka från Klöver. Han bär också Q-3-start (2026-09-03, Dövers återbud). Plåthorn bär S-08: kåthornet. Här vet hon om leken med bara spaderess, inte om kåthornet. Hon bär hans halsband, inte ringen, och vet inte att Klöver har ringen. Hjärter bär S-01 och är sanningens bärare i S-10 (saknade Döver): jakten på Malins älskare och mordet. Här bus vid grytorna. Rötägg är inte med. Fiende 14 förblir bakgrund. Klövers svartklubbar nämns inte som insats: det är sällskap, inte färgen, och det är Outline C som ströks.
 
 Ord: kortfärgen heter klöver. Klubb är sällskap. Fyrklöver är växten och amuletten. Inga vitsar som blandar dem.
 
@@ -496,7 +496,7 @@ Status:         skriven
 
 Objekt:         inga nya. Rödskäggs väska med Piratpulver (hans rollfil) får pekas på som det som blev kvar. Kulings familjesmycke är inte betalning och inte ledtråd. Blodigs halsband likaså. Rötäggets manschettknappar hör till S-07, inte hit.
 
-Obs: Prygel valdes bort. Hon bär redan S-08 med Kuling vid samma kaj, och tre sidequests. En fjärde mot samma grindvakt hade blandat kåthornet och namnet. Blodig har fiende 4, fel säkerhet, och annan mekanik än S-09: här åtal, där nystande i en affär. Kuling bär S-06 och S-08: Malin respektive kåthornet. Här säljer hon ett årsgammalt namn. Rötägg bär S-07 och S-10: omvändelsen mot Planka, hjälpen Döver inte vill ha. Här ett skott han betalade. Frodig är inte mullvad (forradare 3 omsjumpad 2026-08-24). Håll isär från S-09 och från förrädarspåret.
+Obs: Prygel valdes bort. Hon bär redan S-08 med Kuling vid samma kaj, och tre sidequests. En fjärde mot samma grindvakt hade blandat kåthornet och namnet. Blodig har fiende 4, fel säkerhet, och annan mekanik än S-09: här åtal, där nystande i en affär. Kuling bär S-06 och S-08: Malin respektive kåthornet. Här säljer hon ett årsgammalt namn. Rötägg bär S-07 och S-10: omvändelsen mot Planka, gottgörelsen mot saknade Döver. Här ett skott han betalade. Frodig är inte mullvad (forradare 3 omsjumpad 2026-08-24). Håll isär från S-09 och från förrädarspåret.
 
 Gästtext skriven 2026-08-25. Posterna 90–94 i `fordelning.yaml`.
 

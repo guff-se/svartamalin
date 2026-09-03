@@ -20,6 +20,21 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-09-03, Navid återbud / saknade Döver
+
+Källa: Gustaf, i chatt. Införd i [`sidequests.md`](sidequests.md) S-10, [`forradare.yaml`](forradare.yaml), [`quests/Q-3.md`](quests/Q-3.md).
+
+- [x] Döver saknad i fiktionen, inte struken
+- [x] Sanning: Kapten Hjärter dödade honom
+- [x] S-10 handlar om vad som hänt med Döver
+- [x] Q-3-start till Löjtnant Spader
+- [x] Babords mullvadskontakt till Kapten Kuling (litar på henne, fly från Gnällets gnäll)
+- [x] Romanser kvar, objektet borta
+
+Kryss = `attending = false`. Ingen gästfil. Porträtt på Q-5 kvar.
+
+---
+
 ## 2026-09-03, festens år 1718
 
 Källa: Gustaf, i chatt. Införd i [`../copy/intriger_intro.md`](../copy/intriger_intro.md), [`kanon.md`](kanon.md).

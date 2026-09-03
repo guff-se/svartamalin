@@ -1,10 +1,10 @@
-# Cast: 22 deltagare, 5 skutor
+# Cast: 21 deltagare, 5 skutor
 
 Intern text för Gustaf och agenten. Gäster läser inte detta.
 
 Referenstabell för story-arbetet. Källa: tabellerna `guests` och `pirate_names` i Supabase, filtrerat på `attending = true`. Alla andra rader i `guests` ignoreras. De städas inte ur seed. Uppdatera om piratnamn eller lagindelning ändras.
 
-Verifierad mot databasen 2026-09-01. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta sedan tidigare. **Kapten Enben** (`pirate_names.id` 1) obesatt 2026-08-27: Amalia Wahlström (`amaliawahlstrom`) återbud. **Kapten Dunka** (`pirate_names.id` 55) obesatt 2026-09-01: Ludvig von Bahr (`ludvigvonbahr`) återbud. Hänger inte på Q-5-väggen. Bokstäverna oförändrade: Dunkas kort var redan tomt.
+Verifierad mot databasen 2026-09-03. **Kalle Anka** (`pirate_names.id` 59) och **Katten Felix** (`pirate_names.id` 58) är obesatta sedan tidigare. **Kapten Enben** (`pirate_names.id` 1) obesatt 2026-08-27: Amalia Wahlström (`amaliawahlstrom`) återbud. **Kapten Dunka** (`pirate_names.id` 55) obesatt 2026-09-01: Ludvig von Bahr (`ludvigvonbahr`) återbud. **Kapten Döver** (`navidmodiri`) attending=false 2026-09-03 men **saknad NPC** i fiktionen (S-10): porträttet hänger kvar på Q-5-väggen. Hänger inte som spelare. Bokstäverna oförändrade.
 
 I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Piratnamn (slug)`.
 
@@ -24,9 +24,10 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 |-----------|--------------|------|
 | **Kapten Fuling** | Louise von Bahr | `louisevonbahr` |
 | **Kapten Kuling** | Josefin Löwing | `josefinlowing` |
-| **Kapten Döver** | Navid Modiri | `navidmodiri` |
 | **Löjtnant Spader** | Gustaf Tadaa | `gustaftadaa` |
 | **Kapten Blodig** | Mini Macklin | `minimacklin` |
+
+**Saknad NPC:** **Kapten Döver** (Navid Modiri, `navidmodiri`). Skulle ha seglat med Fördärvet. S-10. Ingen gästfil.
 
 ## Skuta 3: Barken Bortförklaringen
 
@@ -66,7 +67,7 @@ I gästtext används **bara** piratnamnet. I arbetsdokument här skriver vi `Pir
 | Båtarna | **Kapten Kuling** (`josefinlowing`), **Kapten Rödskägg** (`viktoransund`) | Vattenansvariga. Skrivna sjöintriger går gärna via att övertala dem. Man får åka ut utan dem. Aldrig ensam. |
 | Maten | **Kapten Nykter** (`fabianmacklin`), **Kapten Hjärter** (`jesperlejfjord`) | Köksansvariga. Brunch 14.00, mat framme från 17.00. |
 
-Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin har mindre utrymme för egna pussel. Spader är **fullt spelbar**: sidequests, romanser, rivaliteter som vanligt. Två undantag, bara de: inga ledtrådar till huvudquesten, och inte mullvad eller kontakt. Se [`forradare.yaml`](forradare.yaml). Båt- och matansvar är praktiskt, dokumenterat i [`../anteckningar/`](../anteckningar/). Kuling och Rödskäggs övertalningsscener är extra spel, inte ett monopol. Tillsätt inte båt- eller matansvariga som mullvad.
+Ovanstående har uppgifter som ligger utanför den vanliga deltagarrollen. Malin har mindre utrymme för egna pussel. Spader är **fullt spelbar**: sidequests, romanser, rivaliteter som vanligt. Undantag: inte mullvad, inte kontakt. **Undantag 2026-09-03:** han bär Q-3-start efter Dövers återbud. Se [`forradare.yaml`](forradare.yaml). Båt- och matansvar är praktiskt, dokumenterat i [`../anteckningar/`](../anteckningar/). Kuling och Rödskäggs övertalningsscener är extra spel, inte ett monopol. Tillsätt inte båt- eller matansvariga som mullvad. Kuling får vara kontakt (forradare 5).
 
 ---
 
@@ -77,14 +78,13 @@ Fyll i när sidequests fördelats, så ingen blir överlastad och ingen glöms b
 | slug | Romanser | Fiender | Sidequest i huvudstory | Pusselansvar |
 |------|----------|---------|------------------------|--------------|
 | `malintadaa` | 0 | 2 | | |
-| `gustaftadaa` | 1 | 1 | | |
+| `gustaftadaa` | 1 | 1 | | Q-3 (start, undantag 2026-09-03) |
 | `petterwallberg` | 2 | 2 | | Q-5 (start), Q-3 (tvärledtråd) |
 | `linneaappert` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |
 | `ulrikahammar` | 3 | 2 | | |
 | `jesperlindmarker` | 2 | 1 | | Q-4 (start) |
 | `louisevonbahr` | 2 | 1 | | |
-| `josefinlowing` | 1 | 1 | | Q-1 (start) |
-| `navidmodiri` | 2 | 2 | | Q-3 (start) |
+| `josefinlowing` | 1 | 1 | | Q-1 (start), forradare 5 (kontakt) |
 | `minimacklin` | 1 | 2 | | Q-2 (start), Q-5 (tvärledtråd) |
 | `fabianmacklin` | 1 | 2 | | Q-5 (start) |
 | `josefinansund` | 1 | 1 | | Q-1 (start), Q-3 (tvärledtråd) |

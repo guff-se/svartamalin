@@ -4,7 +4,7 @@ mirrors:
   - slug: jesperlindmarker
     note: gammalt angiveri, hon nekar, han misstänker (tvåvägs)
   - slug: navidmodiri
-    note: hon anar sanningen och sparar den som skuld (tvåvägs, asymmetrisk kunskap)
+    note: saknad NPC, hon anade bluffen, skulden värdelös (tvåvägs bakgrund)
   - slug: jesperlejfjord
     note: mullvad, han styr misstankar bort från henne mot hjälp från Fördärvet (tvåvägs)
   - slug: hampuslindblad
@@ -39,7 +39,9 @@ Hurring stämmer av gamla bekantas historier mot boken. Neka. Håll tungan bakom
 
 ## Skulden du sparar {slug:navidmodiri}
 
-Du har länge anat att **Kapten Döver**s dövhet är påhitt, men du har aldrig sagt det högt. Det passar dig bättre att ha en skuld att kräva in senare än att avslöja honom gratis nu. Nämn det i förbifarten när det passar dig, "du har alltid undrat hur han klarar sig utan att höra", ett hot utan hot i orden, och spara resten till en dag du behöver honom mer än du behöver sanningen.
+**Kapten Döver** är saknad. Han skulle ha seglat med er. Han kom inte. Du har länge anat att hans dövhet var påhitt, men du har aldrig sagt det högt. Det passade dig bättre att ha en skuld att kräva in senare än att avslöja honom gratis. Nu är skulden värdelös. Misstanken är det inte.
+
+Nämn det i förbifarten när det passar dig, "du har alltid undrat hur han klarade sig utan att höra", ett hot utan hot i orden, till den som frågar var han är. Eller håll tyst för **Kapten Hjärter**, mannen som redan håller Hurrings misstankar borta från din dörr. Välj innan festen är över: sälj vad du anade, eller tig för den som redan köpt dig.
 
 ## Mannen du redan tagit {slug:hampuslindblad}
 

@@ -65,13 +65,15 @@ romanser:
   - id: 6
     type: one_way
     a: ulrikahammar        # Kapten Barnsben (Ulrika Hammar)
-    b: navidmodiri         # Kapten Döver (Navid Modiri)
+    b: navidmodiri         # Kapten Döver (Navid Modiri), saknad NPC 2026-09-03
+    note: Objektet saknat. Hon letar (S-10). Romans kvar, ingen gästfil hos honom.
     status: done
 
   - id: 7
     type: mutual
-    a: navidmodiri         # Kapten Döver (Navid Modiri)
+    a: navidmodiri         # Kapten Döver (Navid Modiri), saknad NPC 2026-09-03
     b: alexandrapalmquist  # Kapten Babord (Alexandra Palmquist)
+    note: Objektet saknat. Hon letar (S-10). Romans kvar, ingen gästfil hos honom. Mullvadskontakt flyttad till Kuling 2026-09-03.
     status: done
 
   - id: 8

@@ -14,7 +14,7 @@
 #   * intrigtext skrivs för BÅDA parter (även one_way: den hatade vet om hatet och varför)
 #   * amandamungsgard vill inte spela personligen mot Mini: inga poster Mini–Kosing
 #   * amandamungsgard vill inte stå i centrum i högintensivt drama (kidnappning etc.): #17 låg intensitet
-#   * navidmodiri: nemesis Kapten Hjärter (#23). Tjuvlyssnar, fejkdöv
+#   * navidmodiri: nemesis Kapten Hjärter (#23). Saknad NPC 2026-09-03 (S-10).
 #   * edvinthungren: vill vara snäll nu; gamla oförrätter är röta från före omvändelsen
 #   * josefinlowing: bakhåll mot Rödskägg på Paradisets ö (#25). De har båtarna tillsammans: scener vid kajen
 #   * elinmartensson: Prygel vill krossa kåthornet (#24)
@@ -191,11 +191,11 @@ fiender:
 
   - id: 23
     type: mutual
-    a: navidmodiri        # Kapten Döver: Fregatten Fördärvet
+    a: navidmodiri        # Kapten Döver: Fregatten Fördärvet, saknad NPC 2026-09-03
     b: jesperlejfjord     # Kapten Hjärter: Fregatten Fromheten
-    # oförrätt: Dövers nemesis (underlag). Saboterar Hjärters uppdrag (kök och jakten på Malins älskare).
-    # Hjärter har sett Döver reagera på ljud han "inte kan höra" och litar inte på handbabblet.
-    # Scener tål kökskanten: Hjärter har maten.
+    # oförrätt: Dövers nemesis (underlag). Hjärter dödade honom före ankomsten (S-10).
+    # Motivet: Döver tjuvlyssnade vid grytorna, sabbade jakten på Malins älskare,
+    # Hjärter visste att dövheten var påhitt. Kvar som bakgrund, inte workshop.
     status: done
 
   - id: 24

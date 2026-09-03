@@ -13,8 +13,12 @@ mirrors:
     note: mångårig rivalitet, ömsesidiga fuskanklagelser (tvåvägs)
   - slug: edvinthungren
     note: enväg hat, fuskad vinst om Plåthorns fiskegrund (du hatar honom, han vet om det; inget fysiskt sjökort)
-related: [jesperlindmarker, elinmartensson, josefinlowing, johannabergman, jesperlejfjord, minervalowgren, edvinthungren, alexandrapalmquist]
+related: [jesperlindmarker, elinmartensson, josefinlowing, johannabergman, jesperlejfjord, minervalowgren, edvinthungren, alexandrapalmquist, malintadaa]
 ---
+
+## Aldrig vila {slug:malintadaa}
+
+**Svarta Malin** vilar aldrig. Det ryktas att hon skrev om just det, om att kämpa utan paus tills kroppen tar vad den redan slitit för, och att bladet sitter i gymmet. Ingen har läst det än. Ta **Fregatten Fördärvet** med dig och hämta det innan en annan skuta gör det.
 
 ## Skulden du bär till Hurring {slug:jesperlindmarker}
 

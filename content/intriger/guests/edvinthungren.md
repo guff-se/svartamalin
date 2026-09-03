@@ -34,7 +34,9 @@ Du ärvde en gång ett skepp och miste det för att du var röta in i märgen mo
 
 ## Vänligheten han inte vill ha {slug:navidmodiri}
 
-Du lastade en gång **Kapten Döver**s skepp med tunnor mat som redan stank. Du räknade med att en döv kapten inte skulle höra besättningen klaga förrän locket redan var av. Sen miste du ditt skepp och bestämde dig för att bli snäll. Han håller en workshop i teckenspråk på gården, ett öppet pass där kajen får lära sig hans tecken. Nu vill du gottgöra det genom att hjälpa till där, av ren vänlighet, utan baktankar. Han vill inte ha din hjälp, och du förstår inte riktigt varför. Hjälp ändå, om du vill bevisa att du ändrat dig ännu en gång, men var beredd på att din iver kan avslöja mer om honom än du anar, inför alla.
+Du lastade en gång **Kapten Döver**s skepp med tunnor mat som redan stank. Du räknade med att en döv kapten inte skulle höra besättningen klaga förrän locket redan var av. Sen miste du ditt skepp och bestämde dig för att bli snäll. Du ville gottgöra det vid hans workshop i teckenspråk på gården, av ren vänlighet, utan baktankar.
+
+Workshopen blir aldrig av. Han är saknad. Ingen förklaring. Din gottgörelse har ingen mottagare. Hjälp till att leta om du vill bevisa att du ändrat dig ännu en gång, men var beredd på att din iver kan peka fel, och på att den som frågar dig om honom kanske inte vill ha din snällhet. Gör det innan festen är över.
 
 ## Vinsten han aldrig förlåtit {slug:gustaftadaa}
 
@@ -54,7 +56,7 @@ Kuling säljer namnet vid båtarna, mot en tjänst, inte mot vänlighet. Köp he
 
 Innan du miste ditt skepp och blev den snälla mannen du numera försöker vara, bytte du ut **Kapten Barnsben**s blomsterparfym mot doften av rötägg. Hon hade sprutat sig med blommor för att uppvakta **Kapten Döver**, och du lät henne stinka av det hon minst ville lukta just när hon stod som närmast. Uppvaktningen dog på fläcken. Kajen skrattade. Hon har aldrig glömt det, och hon dömer dig fortfarande.
 
-Du vet om domen. Du erbjuder henne gärna en gest av gottgörelse, en sabrerad flaska, en hjälpande hand vid Dövers workshop på gården, men hon tar inte emot den lika lätt som andra. **Kapten Planka** kan fråga henne vad hon vet om dig, och du vet inte om Barnsben väljer att skydda dig eller sänka dig den dagen. Vinn hennes förtroende, eller ge upp försöket, innan festen är över.
+Du vet om domen. Du erbjuder henne gärna en gest av gottgörelse, en sabrerad flaska, en hjälpande hand i jakten på den saknade, men hon tar inte emot den lika lätt som andra. **Kapten Planka** kan fråga henne vad hon vet om dig, och du vet inte om Barnsben väljer att skydda dig eller sänka dig den dagen. Vinn hennes förtroende, eller ge upp försöket, innan festen är över.
 
 ## Arvet som räknas {slug:amandamungsgard}
 

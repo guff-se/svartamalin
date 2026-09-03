@@ -19,11 +19,13 @@
 #   * inte mullvad: malintadaa, gustaftadaa, josefinlowing, viktoransund,
 #     fabianmacklin, jesperlejfjord
 #   * inte kontakt: gustaftadaa. malintadaa default inte (stjäl från antagonisten)
+#   * Undantag 2026-09-03: josefinlowing (Kuling) är kontakt för Babord (forradare 5).
+#     Hon får fortfarande inte vara mullvad. Båtarna gör kontakt OK.
 #
 # Löjtnant Spader (`gustaftadaa`) är fullt spelbar: sidequests, romanser,
-# rivaliteter som vilken gäst som helst. Han lämnar spelledningen. Två
-# undantag, bara de: inte mullvad, inte kontakt, och inga ledtrådar till
-# huvudquesten (han ska inte sitta och lösa main quests).
+# rivaliteter som vilken gäst som helst. Han lämnar spelledningen. Undantag:
+# inte mullvad, inte kontakt. **Undantag 2026-09-03:** han bär Q-3-start
+# (Dövers återbud). I övrigt inga ledtrådar till huvudquesten.
 #
 # Kunskap: bara A och B vet att mullvaden finns och vem det är.
 # Inte hemmalaget, inte resten av uppdragsgivarens lag.
@@ -58,11 +60,11 @@ forradare:
   - id: 5
     type: mole
     a: alexandrapalmquist  # Kapten Babord: Galeonen Gnället
-    b: navidmodiri         # Kapten Döver: Fregatten Fördärvet
+    b: josefinlowing       # Kapten Kuling: Fregatten Fördärvet
     home: 5
     works_for: 2
-    bygger_pa: "romans: 7"
-    note: Mutual-par. Kurtisanen jagar Fördärvet; Babords fiende Barnsben sitter där (fiende 12). Tvekan mot skeppskamraten Rötägg, Dövers fiende (fiende 6).
+    bygger_pa: null
+    note: Omsprungen 2026-09-03. Tidigare kontakt Döver (romans 7). Döver saknad NPC. Babord litar på Kuling och vill fortfarande komma ifrån Gnällets gnäll. Inte romans. Kurtisanen jagar Fördärvet; Babords fiende Barnsben sitter där (fiende 12). Tvekan mot skeppskamraten Rötägg.
     status: done
 
   - id: 2

@@ -53,8 +53,9 @@
 #   * varje skuta: exakt tre quest-starter, olika Q-n
 #   * varje quest: exakt tre skutor
 #   * tvärledtrådar bara till de två quests skutan saknar, och meningslösa utan questet
-#   * gustaftadaa (Löjtnant Spader) får inte quest-starter eller tvärledtrådar
-#     till huvudquesten. I övrigt fullt spelbar. Inte mullvad, inte kontakt.
+#   * gustaftadaa (Löjtnant Spader) får normalt inte quest-starter eller tvärledtrådar
+#     till huvudquesten. Undantag 2026-09-03: Q-3-start (Dövers återbud).
+#     I övrigt fullt spelbar. Inte mullvad, inte kontakt.
 
 # B-11 lagskatter. Ingång = första ledtråden, inskickad av gömmarna, skriven
 # in hos jägarna. Se lagskatter.md. Id 1–5 är jägarna: skatten de ska hitta,
@@ -227,7 +228,7 @@ fordelning:
     akt: II
     till: [ulrikahammar]
     roll: barare
-    vet: "att hon arbetar i hemlighet för Barken Bortförklaringen, och att Kapten Nykter är hennes enda länk. Hon gör det för hans uppvaktning och löftet att hålla Rosing borta, inte för Barken. Hon har inte släppt Döver."
+    vet: "att hon arbetar i hemlighet för Barken Bortförklaringen, och att Kapten Nykter är hennes enda länk. Hon gör det för hans uppvaktning och löftet att hålla Rosing borta, inte för Barken. Hon har inte släppt Döver, som är saknad."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt (treasure) utöver den egna jakten"
     speglas: [fabianmacklin]
     bygger_pa: "romans: 5"
@@ -277,24 +278,24 @@ fordelning:
     akt: II
     till: [alexandrapalmquist]
     roll: barare
-    vet: "att hon arbetar i hemlighet för Fregatten Fördärvet, och att Kapten Döver är hennes enda länk. Hemmalaget vet ingenting. Hon gör det för att hon vill ha honom, inte för Fördärvet."
-    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt (treasure) utöver den egna jakten"
-    speglas: [navidmodiri]
-    bygger_pa: "romans: 7"
+    vet: "att hon arbetar i hemlighet för Fregatten Fördärvet, och att Kapten Kuling är hennes enda länk. Hemmalaget vet ingenting. Hon gör det för att hon litar på Kuling och vill komma ifrån Gnällets gnäll, inte för flaggan. Kapten Döver är saknad."
+    vet_inte: "att varje lag har både mullvad och kontakt, cirkeln, vem som jagar vems skatt (treasure) utöver den egna jakten, vad som hänt med Döver"
+    speglas: [josefinlowing]
+    bygger_pa: null
     pussel: null
-    status: pending
+    status: done
 
   - id: 20
     beat: B-12
     akt: II
-    till: [navidmodiri]
+    till: [josefinlowing]
     roll: grindvakt
-    vet: "att Kapten Babord på Galeonen Gnället är hans mullvad. Ingen annan ombord vet. Hon gör det för att hon vill ha honom, inte för flaggan."
+    vet: "att Kapten Babord på Galeonen Gnället är hennes mullvad. Ingen annan ombord vet. Babord gör det för att hon litar på Kuling och vill komma ifrån Gnällets gnäll, inte för flaggan. Kapten Döver är saknad och var tidigare länken."
     vet_inte: "att varje lag har både mullvad och kontakt, cirkeln"
     speglas: [alexandrapalmquist]
-    bygger_pa: "romans: 7"
+    bygger_pa: null
     pussel: null
-    status: pending
+    status: done
 
   - id: 21
     beat: B-12
@@ -388,7 +389,7 @@ fordelning:
     till: [ulrikahammar]
     roll: barare
     vet: "att hon måste svälja ett krumelurpiller varje skymning för att inte sluta vara barnslig, att Kapten Nykter och Kapten Rosing båda uppvaktar henne vid hennes sy- och broderihörna för att bli den hon litar på då, att hon själv väljer vem hon anförtror sig åt, och att Kapten Babord hatar henne för att hon en gång smög ett brev till Kapten Döver lindat i Babords scarf och kan dyka upp vid hörnan och kräva upprättelse, inte tyget tillbaka"
-    vet_inte: "att Nykter håller henne nära av andra, egna skäl, att Döver tjuvlyssnar vid hörnan, att Babord inte känner till pillren"
+    vet_inte: "att Nykter håller henne nära av andra, egna skäl, att Babord inte känner till pillren, vad som hänt med Döver"
     speglas: [fabianmacklin, linneaekbom, alexandrapalmquist]
     bygger_pa: "romans: 4, 5, fiende: 12"
     pussel: null
@@ -400,7 +401,7 @@ fordelning:
     till: [fabianmacklin]
     roll: jagare
     vet: "att han uppvaktar Kapten Barnsben vid hennes sy- och broderihörna för att bli den hon litar på i skymningen, och att Kapten Rosing gör detsamma utan att veta om honom"
-    vet_inte: "att Döver tjuvlyssnar vid hörnan"
+    vet_inte: "inget särskilt av huvudstoryns lösning"
     speglas: [ulrikahammar]
     bygger_pa: "romans: 5"
     pussel: null
@@ -412,7 +413,7 @@ fordelning:
     till: [linneaekbom]
     roll: jagare
     vet: "att hon uppvaktar Kapten Barnsben vid hennes sy- och broderihörna för att bli den hon litar på i skymningen, att Kapten Nykter gör detsamma utan att hon vet om honom, och att hennes snäcka hörde sanningen om sista dansen: Barnsben viskade inget ömt, sa nej sen gå nu båda två, och Nykters löfte om en annan kväll var påhitt"
-    vet_inte: "att Döver tjuvlyssnar vid hörnan, Nykters egna skäl att stå Barnsben nära"
+    vet_inte: "Nykters egna skäl att stå Barnsben nära"
     speglas: [ulrikahammar]
     bygger_pa: "romans: 4"
     pussel: null
@@ -423,12 +424,12 @@ fordelning:
     akt: II
     till: [navidmodiri]
     roll: vittne
-    vet: "att han tjuvlyssnar i smyg vid Kapten Barnsbens sy- och broderihörna bakom sin fejkade dövhet, att hon måste svälja ett krumelurpiller i skymningen för att inte bli stor, och att han redan hört henne säga att burken går till Kapten Nykter, inte till Kapten Rosing"
-    vet_inte: "inget särskilt av huvudstoryns lösning"
+    vet: "struken: Döver saknad NPC 2026-09-03, ingen tjuvlyssning vid syhörnan"
+    vet_inte: ""
     speglas: []
     bygger_pa: null
     pussel: null
-    status: done
+    status: skipped
 
   - id: 32
     beat: S-04
@@ -735,21 +736,21 @@ fordelning:
     akt: II
     till: [navidmodiri]
     roll: jagare
-    vet: "att hans teckenspråk och dövhet är påhitt för att slippa strunt och tjuvlyssna ostört, att Kapten Babord täcker för honom, att han håller en workshop på gården nära köket där Kapten Hjärter jagar jubilarens älskare, att Kapten Rötägg en gång lastade hans skepp med tunnor mat som redan stank och räknade med att han var döv, att han hörde men teg så att dövheten skulle hålla, att Rötägg nu vill hjälpa honom av vänlighet och att han inte köper det, och att Kapten Fuling anar sanningen och sparar den som en skuld"
-    vet_inte: "att kistan öppnas, att brevet läses högt"
-    speglas: [alexandrapalmquist, edvinthungren, louisevonbahr]
-    bygger_pa: "romans: 7, fiende: 6, 23"
+    vet: "struken: Döver saknad NPC 2026-09-03, ingen gästfil"
+    vet_inte: ""
+    speglas: []
+    bygger_pa: null
     pussel: null
-    status: done
+    status: skipped
 
   - id: 58
     beat: S-10
     akt: II
     till: [alexandrapalmquist]
-    roll: grindvakt
-    vet: "att hon täcker för Kapten Dövers påhittade teckenspråk och dövhet genom att översätta med rak min, att någon på ön kan riktigt teckenspråk och skulle kunna avslöja dem, och att Kapten Rötägg en gång lastade Dövers skepp med tunnor mat som redan stank, räknade med att en döv kapten inte skulle höra klagomålen i tid, och att Döver aldrig släppt det"
-    vet_inte: "inget av kistan eller kontraktet"
-    speglas: [navidmodiri]
+    roll: jagare
+    vet: "att Kapten Döver skulle ha kommit men är saknad utan förklaring, att hon vill ha honom och översatte hans hittepå-tecken, att workshopen aldrig blir av, och att hon letar efter vad som hänt honom"
+    vet_inte: "att Kapten Hjärter dödade honom, att kistan öppnas"
+    speglas: [ulrikahammar, edvinthungren, louisevonbahr, jesperlejfjord]
     bygger_pa: "romans: 7"
     pussel: null
     status: done
@@ -759,9 +760,9 @@ fordelning:
     akt: II
     till: [edvinthungren]
     roll: vittne
-    vet: "att han en gång lastade Kapten Dövers skepp med tunnor mat som redan stank och räknade med att en döv kapten inte skulle höra klagomålen i tid, att han nu vill hjälpa honom med workshopen av ren vänlighet fast Döver inte vill ha hjälpen, och att hans iver kan avslöja mer om Döver än han anar"
-    vet_inte: "inget av kistan eller kontraktet"
-    speglas: [navidmodiri]
+    vet: "att han en gång lastade Kapten Dövers skepp med ruttna tunnor, att han ville gottgöra vid en workshop som aldrig blir av eftersom Döver är saknad, och att han kan hjälpa till att leta"
+    vet_inte: "att Kapten Hjärter dödade honom, att kistan öppnas"
+    speglas: [alexandrapalmquist]
     bygger_pa: "fiende: 6"
     pussel: null
     status: done
@@ -771,10 +772,34 @@ fordelning:
     akt: II
     till: [louisevonbahr]
     roll: vittne
-    vet: "att hon länge anat att Kapten Dövers dövhet är påhitt men aldrig sagt det högt, och att hon sparar det som en skuld att kräva in senare istället för att avslöja honom gratis"
-    vet_inte: "inget av kistan eller kontraktet"
-    speglas: [navidmodiri]
+    vet: "att Kapten Döver är saknad, att hon länge anat att hans dövhet var påhitt och sparade det som skuld, och att skulden är värdelös men misstanken kan säljas eller tigas"
+    vet_inte: "att Kapten Hjärter dödade honom, att kistan öppnas"
+    speglas: [alexandrapalmquist, jesperlejfjord]
     bygger_pa: null
+    pussel: null
+    status: done
+
+  - id: 110
+    beat: S-10
+    akt: II
+    till: [ulrikahammar]
+    roll: jagare
+    vet: "att Kapten Döver är saknad utan förklaring, att hon aldrig släppt sin åtrå till honom, och att hon letar efter vad som hänt honom"
+    vet_inte: "att Kapten Hjärter dödade honom, att kistan öppnas"
+    speglas: [alexandrapalmquist]
+    bygger_pa: "romans: 6"
+    pussel: null
+    status: done
+
+  - id: 111
+    beat: S-10
+    akt: II
+    till: [jesperlejfjord]
+    roll: barare
+    vet: "att han dödade Kapten Döver före ankomsten, för att Döver tjuvlyssnade vid grytorna och sabbade jakten på Malins älskare, och att han måste täcka det medan han lagar mat"
+    vet_inte: "att kistan öppnas, att brevet läses högt"
+    speglas: []
+    bygger_pa: "fiende: 23"
     pussel: null
     status: done
 
@@ -998,7 +1023,7 @@ fordelning:
     pussel: "Q-5"
     status: done
 
-# B-19 Q-3-tillsättning (2026-08-24): skuta 2, 4, 5. Start: Kapten Döver (`navidmodiri`),
+# B-19 Q-3-tillsättning (2026-08-24, start omfördelad 2026-09-03): skuta 2, 4, 5. Start: Löjtnant Spader (`gustaftadaa`, ersatte Döver),
 # Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd (skiffer +13 framåt):
 # Kapten Frodig (`josefinansund`, skuta 3), Kapten Lösskägg (`petterwallberg`, skuta 1).
 # Inte mullvad, inte Malin, inte Spader. Skuta 1 och 3 utan ingång.
@@ -1007,7 +1032,7 @@ fordelning:
   - id: 79
     beat: B-19
     akt: II
-    till: [navidmodiri]
+    till: [gustaftadaa]
     roll: jagare
     vet: "att Svarta Malin vilar aldrig, att hon skrev om att kämpa utan paus, och att bladet sitter i gymmet"
     vet_inte: "ombordstigningen, prejningen, ägarbeviset, vedhögen, badbryggan, Caesar-nyckeln, kungen, att kistan öppnas"
@@ -1096,8 +1121,8 @@ fordelning:
     akt: II
     till: [alexandrapalmquist]
     roll: jagare
-    vet: "att Kapten Barnsben en gång smög ett brev till Kapten Döver lindat i Babords scarf, att tyget är borta, att Barnsben håller en sy- och broderihörna öppen där folk landar och lämnar lappar, och att Babord kan kräva en ursäkt högt, fånga henne med ännu ett brev, eller tala om för Döver vems händer som rörde det som var hennes"
-    vet_inte: "krumelurpillren, att Döver tjuvlyssnar vid samma hörna, Nykters och Rosings uppvaktning som uppdrag, mullvaden mot Döver (annan hemlighet), teckenspråksbluffen som del av den här biten"
+    vet: "att Kapten Barnsben en gång smög ett brev till Kapten Döver lindat i Babords scarf, att tyget är borta, att Döver är saknad, att Barnsben håller en sy- och broderihörna öppen där folk landar och lämnar lappar, och att Babord kan kräva en ursäkt högt eller fånga henne med ännu ett brev"
+    vet_inte: "krumelurpillren, Nykters och Rosings uppvaktning som uppdrag, mullvaden mot Kuling (annan hemlighet), vad som hänt med Döver (S-10)"
     speglas: [ulrikahammar]
     bygger_pa: "fiende: 12"
     pussel: null

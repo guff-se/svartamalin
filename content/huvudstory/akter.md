@@ -314,7 +314,7 @@ Om det floppar: tre andra quests plus berlocken räcker. En Q-5-skuta utan token
 Akt:            II
 Tid:            10.30 till 15.30. Huvudön, inte Södra Ovanan.
 Plats:          Gymmet, vedhögen bakom bastun, under badbryggan
-Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Kapten Döver (`navidmodiri`), Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Tvärledtråd: Kapten Frodig (`josefinansund`) på skuta 3, Kapten Lösskägg (`petterwallberg`) och Kapten Planka (`linneaappert`) på skuta 1. Inte mullvad, inte Malin, inte Spader.
+Inblandade:     Skuta 2 (Fregatten Fördärvet), Skuta 4 (Fregatten Fromheten), Skuta 5 (Galeonen Gnället). Start: Löjtnant Spader (`gustaftadaa`), Kapten Rödskägg (`viktoransund`), Kapten Rosing (`linneaekbom`). Spader ersatte Döver 2026-09-03. Tvärledtråd: Kapten Frodig (`josefinansund`) på skuta 3, Kapten Lösskägg (`petterwallberg`) och Kapten Planka (`linneaappert`) på skuta 1. Inte mullvad, inte Malin.
 Publik:         den som ser folk i gymmet läsa väggen, vid veden, eller böja sig under badbryggan
 
 Vad händer:     tre skutor jagar hur Malin tog Kurtisanen. Starten pekar mot gymmet (kämpa, aldrig vila). Blad 5 I fastsatt där, pekar mot vedhögen, nästa blad skrivet som order. Blad 5 II fastsatt på veden: gömd lagfart i klartext, sista raden chiffer mot badbryggan. Nyckeln är tvärledtråd: Frodig på skuta 3, Lösskägg och Planka på skuta 1, tretton steg framåt. Skatt: ägarbevis (Malin till Malin, twist mot lagfarten) och token `3H`, under badbryggan, från däcket. Pit stops återanvändbara. Skatten engångs. Lögnen: hon prejade sin egen korvett. Sanningen sitter i kistan.

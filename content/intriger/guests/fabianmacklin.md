@@ -42,7 +42,7 @@ Hon vet mer än hon borde om vad som egentligen sas den kvällen, ingen vet hur,
 
 Du trodde dig ensam med **Kapten Barnsben** vid hennes sy- och broderihörna den kvällen du äntligen sa vad du kände, uppriktigt, utan finess, utan reträttväg. **Kapten Döver** stod bara någon meter bort, och du tänkte inte på honom, alla vet att han inte hör. Nästa kväll hörde hela tavernan ditt frieri, ord för ord, ur hans mun, framfört som den bästa skröna på länge.
 
-Du har aldrig kunnat bevisa att han ljuger om sin dövhet, men du vet vad du vet. Ta igen förnedringen på honom, avslöja honom som bedragaren du misstänker att han är inför hela ön, eller vänta på ett tillfälle där hans påstådda dövhet kostar honom mer än ditt rykte kostade dig. Gör det innan festen är över.
+Han är saknad nu. Ingen förklaring. Du har aldrig kunnat bevisa att han ljög om sin dövhet, men du vet vad du vet, och du hatar honom fortfarande för det han gjorde mot dig mer än för misstanken själv. Om någon frågar var han är: peka gärna åt fel håll, eller se till att den som letar hör din version först. Gör det innan festen är över.
 
 ## Arvssynden som följer riket {slug:amandamungsgard}
 

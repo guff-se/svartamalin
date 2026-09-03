@@ -5,12 +5,11 @@ mirrors:
     note: uppvaktning vid syhörnan + mullvad för hans skuta (tvåvägs)
   - slug: linneaekbom
     note: uppvaktning vid syhörnan, hon vet inte om Nykter, han vet om henne (tvåvägs, asymmetrisk kunskap)
-# navidmodiri lyssnar i smyg vid syhörnan, enväg, speglas inte
+# navidmodiri: saknad, enväg åtrå + S-10 jakt, speglas inte (ingen gästfil)
   - slug: alexandrapalmquist
     note: fiende, brevet i hennes scarf till Döver (enväg hat från henne, du vet om det; ingen fysisk scarf)
   - slug: edvinthungren
     note: gammal röta, parfymspratten mot din uppvaktning av Döver (enväg, du dömer, han vet om domen)
-# navidmodiri: enväg åtrå, speglas inte
 related: [fabianmacklin, linneaekbom, navidmodiri, alexandrapalmquist, edvinthungren, linneaappert]
 ---
 
@@ -18,7 +17,7 @@ related: [fabianmacklin, linneaekbom, navidmodiri, alexandrapalmquist, edvinthun
 
 **Kapten Nykter** uppvaktar dig vid sy- och broderihörnan, varmt, dag efter dag, och du har redan gett honom mer än kajen fått se. Allt du hör och ser inne på **Korvetten Kurtisanen**, vem som viskar med vem och vart faten bärs, för du vidare till honom.
 
-Inte för **Barken Bortförklaringen**. För honom. För löftet att ingen, inte **Kapten Rosing**, inte hans egen besättning, ska stå mellan er den kväll du väljer att lita på honom helt. Han vet precis vad han fått, och vad det kostar din skuta. Du har inte valt honom offentligt. Du har inte släppt **Kapten Döver**. Du säljer din skuta för ett löfte, medan du fortfarande vill ha Döver.
+Inte för **Barken Bortförklaringen**. För honom. För löftet att ingen, inte **Kapten Rosing**, inte hans egen besättning, ska stå mellan er den kväll du väljer att lita på honom helt. Han vet precis vad han fått, och vad det kostar din skuta. Du har inte valt honom offentligt. Du har inte släppt **Kapten Döver**, som är saknad utan förklaring. Du säljer din skuta för ett löfte, medan du fortfarande vill ha mannen som inte kom.
 
 Håll det dolt för din egen skuta, även för **Svarta Malin**, tills du bestämt dig för gott. Ett enda felsteg och du blir den kurtisan som sålde sin egen kapten, inte den som räddade sitt hjärta. Välj hur mycket du ger honom, och när, innan festen är över.
 
@@ -34,15 +33,15 @@ När mörkret faller måste du svälja ett piller ur din lilla krumelurburk, ann
 
 ## Mannen som inte svarar {slug:navidmodiri}
 
-Du skrev det en gång i ett brev, lindat i **Kapten Babord**s scarf, och smög det fram till **Kapten Döver** som om tystnad vore ett ja. Det var det inte. Inte högt. Men du har inte slutat vilja ha honom. Du vill ha de talande händerna mot din hud, munnen som aldrig behöver svara, och en stund i koja där du får låta så högt att även en döv kapten skulle vända sig om.
+Du skrev det en gång i ett brev, lindat i **Kapten Babord**s scarf, och smög det fram till **Kapten Döver** som om tystnad vore ett ja. Det var det inte. Inte högt. Han skulle ha kommit till festen. Han kom inte. Ingen vet varför. Du har inte slutat vilja ha honom. Du vill ha de talande händerna mot din hud, munnen som aldrig behöver svara, och en stund i koja där du får låta så högt att även en döv kapten skulle vända sig om. Om han dyker upp tar du honom. Om han inte gör det: ta reda på vad som hänt.
 
-**Kapten Nykter** och **Kapten Rosing** slåss om din skymning och din burk, och du låter dem gärna tro att de är hela spelet. De är inte det. Spelet sitter i den man du en gång uppvaktade tills **Kapten Rötägg** bytte ut din doft och lät hela kajen skratta. Ta Döver i skuggan av syhörnan, skriv ett nytt brev, eller se till att Babord får veta att brevet i hennes scarf inte var det sista du tänker skicka. Gör det innan festen är över, innan någon annan tar den tystnad du fortfarande vill fylla.
+**Kapten Nykter** och **Kapten Rosing** slåss om din skymning och din burk, och du låter dem gärna tro att de är hela spelet. De är inte det. Spelet sitter i den man du en gång uppvaktade tills **Kapten Rötägg** bytte ut din doft och lät hela kajen skratta. Syhörnan är platsen du väntar vid. Fråga runt. Leta. **Kapten Babord** letar också, av egna skäl. Låt henne inte ta den jakt som är din. Gör det innan festen är över, innan någon annan tar den tystnad du fortfarande vill fylla.
 
 ## Brevet i hennes tyg {slug:alexandrapalmquist}
 
-Du lindade en gång ett brev till **Kapten Döver** i **Kapten Babord**s scarf och smög det fram, mjukt som en hemlighet. Hon vet om det. Hon hatar det. Hon hatar att någon tar det som är hennes och stoppar in en plan hon inte godkänt.
+Du lindade en gång ett brev till **Kapten Döver** i **Kapten Babord**s scarf och smög det fram, mjukt som en hemlighet. Hon vet om det. Hon hatar det. Hon hatar att någon tar det som är hennes och stoppar in en plan hon inte godkänt. Döver är saknad. Oförrätten är kvar.
 
-Hon kan dyka upp vid din sy- och broderihörna. Möt henne, muta henne, neka, eller be om ursäkt så högt att hela hörnan hör. Välj innan festen är över: Döver är värd mer än en scen, men hon ställer gärna till en just när du minst vill ha folk över axeln.
+Hon kan dyka upp vid din sy- och broderihörna. Möt henne, muta henne, neka, eller be om ursäkt så högt att hela hörnan hör. Välj innan festen är över: den saknade är värd mer än en scen, men hon ställer gärna till en just när du minst vill ha folk över axeln.
 
 ## Parfymen som förstörde allt {slug:edvinthungren}
 

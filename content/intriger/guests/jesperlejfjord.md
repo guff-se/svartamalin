@@ -9,7 +9,7 @@ mirrors:
   - slug: louisevonbahr
     note: mullvad, du styr misstankar bort från henne mot hjälp från Fördärvet (tvåvägs)
   - slug: navidmodiri
-    note: nemesis, ömsesidig misstro kring hans fejkade dövhet (tvåvägs)
+    note: saknad NPC, du dödade honom före ankomsten (enväg sanning, speglas inte)
 related: [malintadaa, minimacklin, johannabergman, gustaftadaa, louisevonbahr, navidmodiri]
 ---
 
@@ -43,11 +43,13 @@ Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick 
 
 **Svarta Malin** har aldrig betalat skatt och tänker inte be. **Kapten Klöver** bar din kristallfyrklöver från bordet: hon kan få brevet om hon ber, och hon kommer inte be. Låt hamnen se vem som går blank ur boken och vem som står kvar. Utfärda avlat från grytorna innan sista skålen, så kajen förstår att Frompiraterna förlåter, och att förlåtelsen har ett papper.
 
-## Mannen som hör allt {slug:navidmodiri}
+## Mannen som inte kom {slug:navidmodiri}
 
-**Kapten Döver** låtsas vara döv, ett spratt så inbitet att han håller egna workshops i hittepå-teckenspråk för att bevisa det. Du köper det inte för ett ögonblick: du har sett honom rycka till av ljud han borde vara stendöv för, och du svär att avslöja honom innan festen är över.
+**Kapten Döver** skulle ha seglat med **Fregatten Fördärvet**. Han kom inte. Kajen viskar. Ingen vet. Du vet.
 
-Han vet att du vet, och han sabbar gärna dina planer i förväg om han anar vad du håller på med: ett falskt rykte vid grytorna, en sked som försvinner just när du behöver den mest. Ge tillbaka med samma mynt. Kökskanten är din arena ändå, du lämnar den knappt hela helgen, så låt honom komma till dig.
+Han tjuvlyssnade vid dina grytor, sabbade jakten på jubilarens hemliga älskare, och du hade sett honom rycka till av ljud en döv man inte borde höra. Det gick för långt. Före ankomsten gjorde du slut på honom. Ingen kropp på ön. Ingen workshop. Ingen flaska serum i spel. Stolen står tom.
+
+Håll det dolt. Laga mat. Jaga Malins älskare som om ingenting hänt. Om **Kapten Babord**, **Kapten Barnsben** eller **Kapten Fuling** frågar: styr bort, ljug, muta. Fuling anade redan hans bluff och sparade det som skuld: hon jobbar redan för dig, så håll henne nära. Kökskanten är din arena. Du lämnar den knappt hela helgen. Låt dem komma till dig, och se till att de går tomhänta.
 
 ## Tungans pris {slug:jesperlejfjord}
 

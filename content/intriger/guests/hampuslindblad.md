@@ -52,7 +52,7 @@ Hon seglar nu på **Korvetten Kurtisanen**. Du vill ha henne igen, rit och rök 
 
 ## Pulvret som tar sanningen {slug:navidmodiri}
 
-Du bär en påse pulveriserat kranium från Haitis mäktigaste voodoo-prästinna. När det dras upp i näsan är det sanningsserum. Hamnen viskar att **Kapten Döver** också bär en flaska med samma kraft, eller en billig kopia, det har ingen sett rakt på. Du bär dessutom ett don med trollrök från Amazonas, ovärderligt när dimman tätnar. Använd pulvret på den du behöver ett sant ord av innan festen är över: en rival om titeln, en älskarinna som ler för slätt, eller **Kapten Hurring** om den gamla skulden i masten börjar likna en anklagelse. Låt inte Dövers flaska bli det enda serum kajen tror på.
+Du bär en påse pulveriserat kranium från Haitis mäktigaste voodoo-prästinna. När det dras upp i näsan är det sanningsserum. Hamnen viskade att **Kapten Döver** också bar en flaska med samma kraft, eller en billig kopia, det har ingen sett rakt på. Han är saknad. Flaskan syns inte. Du bär dessutom ett don med trollrök från Amazonas, ovärderligt när dimman tätnar. Använd pulvret på den du behöver ett sant ord av innan festen är över: en rival om titeln, en älskarinna som ler för slätt, eller **Kapten Hurring** om den gamla skulden i masten börjar likna en anklagelse. Låt inte en saknad mans rykte bli det enda serum kajen tror på.
 
 ## Skulden du aldrig betalat {slug:jesperlindmarker}
 
