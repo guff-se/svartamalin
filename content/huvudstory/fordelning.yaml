@@ -796,7 +796,7 @@ fordelning:
     akt: II
     till: [jesperlejfjord]
     roll: barare
-    vet: "att han dödade Kapten Döver före ankomsten, för att Döver tjuvlyssnade vid grytorna, hörde om Hjärters hemliga kärlek till Malin och jakten på hennes älskare, och hotade att avslöja det för henne så att romansen förstördes, och att han måste täcka det medan han lagar mat"
+    vet: "att han dödade Kapten Döver före ankomsten, för att Döver tjuvlyssnade vid grytorna när Hjärter och Kapten Fuling talade om att Fuling är förrädare mot Fördärvet och att Hjärter hjälper henne, att Döver hotade att berätta för Fördärvets besättning och för Svarta Malin, och att han måste täcka det medan han lagar mat"
     vet_inte: "att kistan öppnas, att brevet läses högt"
     speglas: []
     bygger_pa: "fiende: 23"

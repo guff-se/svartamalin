@@ -29,7 +29,7 @@ Du säger ingenting rakt ut, det ligger inte för dig att slå någon på fingra
 
 Du har stängt ditt hjärta så många gånger att du numera säger dig ha stängt det för gott. Lögnen sitter risigt löst: du är fortfarande en blödig jävel, öm under all den påstådda hårdheten, och det är **Svarta Malin** som får den sidan att röra på sig igen, i hemlighet, utan att du tänker erkänna det för någon. Du vill ha henne. Du vill bli tagen av jubilaren, knäböja vid grytorna om det så krävs, och smaka den mun hamnen bara skålar mot.
 
-Hamnen viskar att jubilaren gömmer en älskare. Du vill veta vem, men inte högljutt. Inte för att du drömmer om en framtid. För att du vill vara den som tar henne, eller åtminstone den som vet vem som gör det. Fråga vid grytorna, mellan såserna, en blick i taget, aldrig inför publik. **Kapten Blodig** letar efter samma svar av egna, äldre skäl, och ni två känner igen varandra som två som letar efter samma sak utan att erkänna det för varandra: ett hjärta bland spader och klöver, men bara ett som räknas för dig. Ta reda på namnet innan skutorna skingras. Malin kommer varken bekräfta eller neka, hur många gånger ni än frågar.
+Hamnen viskar att jubilaren gömmer en älskare. Du vill veta vem, men inte högljutt. Du vill vara den som tar henne. Fråga vid grytorna, mellan såserna, en blick i taget, aldrig inför publik. **Kapten Blodig** letar efter samma svar av egna, äldre skäl, och ni två känner igen varandra som två som letar efter samma sak utan att erkänna det för varandra: ett hjärta bland spader och klöver, men bara ett som räknas för dig. Ta reda på namnet innan skutorna skingras. Malin kommer varken bekräfta eller neka, hur många gånger ni än frågar.
 
 ## Busets bord {slug:johannabergman}
 
@@ -47,7 +47,7 @@ Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick 
 
 **Kapten Döver** skulle ha seglat med **Fregatten Fördärvet**. Han kom inte. Kajen viskar. Ingen vet. Du vet.
 
-Han tjuvlyssnade bakom sin påstådda dövhet, precis vid dina grytor, och hörde det du aldrig tänkt säga högt: hur du brinner för **Svarta Malin**, hur du jagar hennes hemliga älskare, hur öm du egentligen är under den fromma minen. Sen hotade han att berätta det för henne. En enda viskning till jubilaren och din hemliga romans ligger i spillror innan du ens fått smaka hennes mun. Det gick för långt. Före ankomsten gjorde du slut på honom. Ingen kropp på ön. Ingen workshop. Ingen flaska serum i spel. Stolen står tom.
+Han tjuvlyssnade bakom sin påstådda dövhet, precis vid dina grytor, när du och **Kapten Fuling** talade om det ni aldrig tänkt säga högt: att hon är förrädare mot **Fregatten Fördärvet**, och att du är den som håller henne fri mot allt hon bär till **Fregatten Fromheten**. Sen hotade han att berätta. För hela Fördärvet, så att en hel skuta skulle jaga dig. Och för **Svarta Malin**, så att jubilaren skulle veta att mannen som vill ha hennes säng gömmer en spion mot hennes gäster. En skuta i ryggen och ingen Malin i famnen. Det gick för långt. Före ankomsten gjorde du slut på honom. Ingen kropp på ön. Ingen workshop. Ingen flaska serum i spel. Stolen står tom.
 
 Håll det dolt. Laga mat. Jaga Malins älskare som om ingenting hänt. Om **Kapten Babord**, **Kapten Barnsben** eller **Kapten Fuling** frågar: styr bort, ljug, muta. Fuling anade redan hans bluff och sparade det som skuld: hon jobbar redan för dig, så håll henne nära.
 

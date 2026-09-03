@@ -194,9 +194,10 @@ fiender:
     a: navidmodiri        # Kapten Döver: Fregatten Fördärvet, saknad NPC 2026-09-03
     b: jesperlejfjord     # Kapten Hjärter: Fregatten Fromheten
     # oförrätt: Dövers nemesis (underlag). Hjärter dödade honom före ankomsten (S-10).
-    # Motivet: Döver tjuvlyssnade vid grytorna, hörde om Hjärters hemliga kärlek till Malin
-    # (romans 17) och jakten på hennes älskare, och hotade att avslöja det för henne.
-    # Det skulle ha förstört romansen. Kvar som bakgrund, inte workshop.
+    # Motivet: Döver tjuvlyssnade vid grytorna när Hjärter och Fuling talade om
+    # forradare 2 (Fuling mullvad, Hjärter kontakt). Hotade att berätta för Fördärvet
+    # och för Malin. En skuta i ryggen, och Malin skulle inte vilja ha honom.
+    # Fuling vet inte att de blev hörda. Kvar som bakgrund, inte workshop.
     status: done
 
   - id: 24
