@@ -35,7 +35,7 @@ Gäller alla fem. Bryt dem inte i gästtext, props eller pit-stop-copy.
 7. Mekanik som är låst eller parkerad per quest står under **Mekanik** på questens fil. Bygg inte noder som motsäger den. Q-2 har inget pussel.
 8. **Korvetten Kurtisanens egna quest-trådar spelas bakom Malins rygg.** Malin är skuta 1:s egen kapten. En quest-start till en medlem av **Korvetten Kurtisanen** (`malintadaa` undantagen, hon bär aldrig sin egen jakt) ska instruera att uppdraget måste lösas utan att Malin ser eller anar det. Hon delar koj, köl och vardag med dem hela helgen: att gräva i hennes förflutna är farligare för en Kurtisan än för någon annan skutas medlem. Skriv in det som en konkret risk i gästtexten (hon kan komma runt hörnet när som helst), inte som en spelledningsvarning.
 9. **Löjtnant Spader (`gustaftadaa`) får varken start eller tvärledtråd.** Han är fullt spelbar i övrigt. Han ska inte sitta och lösa huvudquesten. Se också regel 13.
-10. **En dagbok, utrivna blad.** Malins dagbok står synlig i Storstugan. De flesta sidorna är utrivna. De utrivna bladen är det gästerna hittar i questsen. Kronologisk ordning står i tabellen nedan. Den är inte samma som hittordningen. Skriv inte in bokens plats som ett sökuppdrag i gästtext. Boken är dressing: den som råkar öppna den ser stubbar, inte kapitel.
+10. **En dagbok, utrivna blad.** Malins dagbok står synlig i Storstugan. De flesta sidorna är utrivna. De utrivna bladen är det gästerna hittar i questsen. Kronologisk ordning, boken och varje blad: [`dagbok.md`](dagbok.md). Den är inte samma som hittordningen. Skriv inte in bokens plats som ett sökuppdrag i gästtext. Boken är dressing: den som råkar öppna den ser stubbar, inte kapitel.
 11. **Max en ingång per gäst.** En `login_slug` bär start till högst en quest. Inte två. Tvärledtråd räknas inte som ingång: samma person får bära start i en quest och tvärledtråd i en annan. Kontrollera [`fordelning.yaml`](fordelning.yaml) innan en ny start skrivs.
 12. **Förrädare får inte ingång.** Bara mullvaden (`a` i [`forradare.yaml`](forradare.yaml)). Kontaktpersonen (`b`) får start. Tvärledtråd till en mullvad är tillåten, det är inte ingång.
 13. **Svarta Malin och Löjtnant Spader får inte ingång.** Inte `malintadaa`, inte `gustaftadaa`. Malin bär aldrig sin egen jakt (regel 8). Spader får inte heller tvärledtråd (regel 9).
@@ -74,26 +74,7 @@ Skriv inte ut token-texten i gästintrig. Inte i starten. Inte som facit. Inte a
 
 ## Dagboken
 
-En fysisk bok i **Storstugan**. Synlig. Inte ett gömme. Inte en karta till bladen. Off-regel: den som inte söker något i boken lämnar den.
-
-De utrivna bladen bär kapitlen. Cryptex-tokens, kompassbilder och vägvisning på baksidor är inte dagbok. Q-4: blad 1 i *Tomtebobarnen*, fastsatt. Ung, före kärleken, före sveket. Kapitlet är ett dagboksblad, inte en proklamation eller en ed som bär storyn. Kompassbilden och skylten (`1H`) är inte dagbok. Q-3: två fysiska blad av blad 6, samma natt, läsordning I–II. Ägarbeviset under badbryggan är inte dagbok. Tokens: se tabellen ovan.
-
-Talet **Blad N** ska stå på papperet, så den som samlar flera kan lägga dem i tidsordning. Inte i questordning. Inte som lösenord.
-
-| Blad | Liv | Quest | Prop | Hittas |
-|------|-----|-------|------|--------|
-| 1 | Ung. Drömmer om havet och friheten. | [Q-4](quests/Q-4.md) | Q4-02 | *Tomtebobarnen*, hyllan i Storstugan. Stannar. |
-| 2 | Första kärleken, före förräderiet | [Q-1](quests/Q-1.md) | Q1-01 | Gubben och Gumman, itu |
-| 3 | Förrådd. Tar namnet Svarta. Ska begrava Otto. | [Q-2](quests/Q-2.md) | Q2-07 | Piratstugan. Stannar. |
-| 4 | Bygget. Rätten att preja. | [Q-2](quests/Q-2.md) | Q2-08 | Piratstugan. Stannar. |
-| 5 | Hämnden klar. Otto begraven. Skutan döpt. | [Q-1](quests/Q-1.md) | Q1-04 | Klätternätet |
-| 6 | Hon "tar" korvetten. Lögnen. Samma natt, två blad, I–II. | [Q-3](quests/Q-3.md) | Q3-01, Q3-02 | Gymmet (I, stannar), vedhögen (II, stannar) |
-| 7 | Skulderna. Hon håller havet. | [Q-5](quests/Q-5.md) | Q5-03 | Svärdfiskens mun |
-| 8 | Nutid. Tillflykten. En stor plan. | [Q-2](quests/Q-2.md) | Q2-09 | Piratstugan. Stannar. |
-
-Hittordning är en annan sak. Q-4 ger blad 1 i *Tomtebobarnen*. Q-1 ger blad 2, sedan blad 5. Q-2 ger blad 3, 4 och 8 i samma rum, utan krav på ordning. Q-3 ger blad 6 I, sedan II. Ägarbeviset är inte blad. Q-5 ger blad 7. En gäst som bara springer en quest ska ändå förstå sitt kapitel. Kronologin är för den som får flera blad i handen.
-
-Boken i Storstugan: pärm, titel, utrivna stubbar. Inga kvarvarande kapitel. Ingen innehållsförteckning som pekar mot gömmen. Inga namn på kungen.
+Boken, bladen 1–8, vad som inte är dagbok, och hittordning mot tidsordning: [`dagbok.md`](dagbok.md). Tokens: tabellen ovan.
 
 ---
 

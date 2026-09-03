@@ -30,7 +30,7 @@ Publicerad gästtext: `content/intriger/crews/*.md`, `content/intriger/guests/*.
 4. [`tidslinje.md`](tidslinje.md) körschema fredag 17.15 (ankomst Ovanan) till söndag 14.00, beat för beat
 5. [`akter.md`](akter.md) huvudstoryn i akter och beats, med reveal-plan och backup
 6. [`sidequests.md`](sidequests.md) sidospår som bara rör vissa deltagare
-7. [`quests.md`](quests.md) gemensamma regler och hur ingångstext skrivs. En fil per quest under [`quests/`](quests/). Låst story. Tillsatt mekanik sitter i questens fil.
+7. [`quests.md`](quests.md) gemensamma regler och hur ingångstext skrivs. En fil per quest under [`quests/`](quests/). Låst story. Tillsatt mekanik sitter i questens fil. Dagboken som objekt: [`dagbok.md`](dagbok.md).
 8. [`lagskatter.md`](lagskatter.md) varje skuta gömmer en skatt (treasure), en annan skuta jagar den. Ingång: första ledtråden, inskickad av gömmarna, skriven in hos jägarna. Ord: [`skatt.md`](skatt.md) (treasure mot tax).
 9. [`forradare.yaml`](forradare.yaml) mullvad och kontaktperson per skuta
 10. [`pussel.md`](pussel.md) lediga pusselbyggstenar. När en bit tillsätts flyttas den till questens fil eller platsen och stryks här. Story: [`quests.md`](quests.md)

@@ -254,7 +254,7 @@ Plats:          Gubben i stubben, Gumman på udden, klätternätet
 Inblandade:     Skuta 1 (Korvetten Kurtisanen), Skuta 2 (Fregatten Fördärvet), Skuta 3 (Barken Bortförklaringen). Start: Kapten Planka (`linneaappert`), Kapten Kuling (`josefinlowing`), Kapten Frodig (`josefinansund`). Inte Hjärter, Blodig (S-01 kolliderar). Planka är Kurtisanen (Malins egen skuta): hennes gästtext bär regel 8 i [`quests.md`](quests.md), hon jagar bladen bakom Malins rygg.
 Publik:         den som ser racet mellan uddarna, och den som ser någon hämta påsen i nätet
 
-Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 2, vänder, följer baksidan till klätternätet. I påsen: blad 5 (hämnden) och token `3H`. Engångs: första laget bär föremålen. Kronologi: [`quests.md`](quests.md). Inte samma som hittordningen.
+Vad händer:     tre skutor jagar vem Malin älskade först och varför skutan heter Kurtisanen. De hämtar varsitt halvblad vid Gubben och Gumman, läser blad 2, vänder, följer baksidan till klätternätet. I påsen: blad 5 (hämnden) och token `3H`. Engångs: första laget bär föremålen. Kronologi: [`dagbok.md`](dagbok.md). Inte samma som hittordningen.
 
 Vad ändras:     rummet vet att hon älskade Otto von Pälspung, att hon var kurtisan, att sängen är underrättelse, att hon ruinerade honom. Inte att kunden nu är kungen.
 

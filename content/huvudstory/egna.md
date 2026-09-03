@@ -566,12 +566,12 @@ Kryss = reglerna sitter i [`quests.md`](quests.md). Förrädare = mullvad (`a` i
 
 ## 2026-08-24, dagboken
 
-Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/`](quests/), [`platser.md`](platser.md), [`produktion.md`](produktion.md).
+Källa: Gustaf, i chatt. Införd i [`quests.md`](quests.md), [`quests/`](quests/), [`platser.md`](platser.md), [`produktion.md`](produktion.md). Översikt flyttad till [`dagbok.md`](dagbok.md).
 
 - [x] Det finns en dagbok som är placerad på synlig plats. Denna kommer ha de flesta sidor utrivna. Dessa dagbokssidor är sedan vad som hittas som en del av olika quests.
 - [x] Alla dagbokssidor skall ha en kronologisk ordning (som inte är den ordning de hittas i quests).
 
-Kryss = kronologin sitter i [`quests.md`](quests.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-4 har blad 1 i *Tomtebobarnen*. Q-3 har två blad av blad 6.
+Kryss = kronologin sitter i [`dagbok.md`](dagbok.md). Boken står i Storstugan. Utrivna blad är questfynd. Q-4 har blad 1 i *Tomtebobarnen*. Q-3 har två blad av blad 6.
 
 ---
 

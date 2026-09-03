@@ -15,7 +15,7 @@ Varje fil:
    - `story:` t.ex. `kista` när det inte är en quest
    - `beat:` `B-42` osv.
    - `prop:` `Q1-01`, `K-07` osv.
-   - `dagbok:` `1` … `8` när papperet är ett utrivet blad ur Malins dagbok. Talet **Blad N** är första raden under `## Tryck`. Inte på vägvisningsbaksidor. Kronologi: [`../huvudstory/quests.md`](../huvudstory/quests.md).
+   - `dagbok:` `1` … `8` när papperet är ett utrivet blad ur Malins dagbok. Talet **Blad N** är första raden under `## Tryck`. Inte på vägvisningsbaksidor. Kronologi och översikt: [`../huvudstory/dagbok.md`](../huvudstory/dagbok.md).
 2. **Max 10 rader meta** totalt (frontmatter + titel + en kort rad om vad papperet är).
 3. **`## Tryck`**, sedan exakt den text som ska stå på papperet.
 
@@ -24,6 +24,8 @@ Skriv inte högläsning, bypass, noder, laddtid eller får-inte-listor i rekvisi
 Röst: den fiktiva avsändaren. Inte STYLE.md. Aldrig em dash. Ingen metaregel, ingen sista vers. Explicit språk är tillåtet när det passar avsändaren. Samma sexpositiva register som intrigerna: lust och sex, inte pryd romankärlek.
 
 **Filnamn:** `{spår}-{typ}-{n}-{funktion}.md`. Quest först, sen vad papperet är, sen ordning, sen funktion. Exempel: `Q2-dagbok-1-namnet.md`. Saker som inte är en quest: `kista-karleksbrev.md`.
+
+Malins dagbok som bok, bladen 1–8: [`../huvudstory/dagbok.md`](../huvudstory/dagbok.md).
 
 ---
 

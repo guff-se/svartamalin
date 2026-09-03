@@ -127,7 +127,7 @@ Detta är Q-2. Inte ett separat bakgrundsspår. Södra Ovanan är stugan och Ott
 |-------|------|----------|
 | Vems stuga är det? | Malin byggde den med egna händer efter att hon flyttade hemifrån. Inte barndomshemmet. Q-2. | 2026-08-23 |
 | Varför står den där? | Tillflykt. Dit flyr hon när världen blir för överväldigande. Hon använder den fortfarande. | 2026-08-23 |
-| Vad finns kvar där inne? | Tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten) plus fysiska minnen och skrin med tre tokens `1H`. Namnbladet pekar mot Ottos grav i skogen. Boken de kom ur står i Storstugan. Lista: [`quests/Q-2.md`](quests/Q-2.md). Kronologi: [`quests.md`](quests.md). Tryck i `content/rekvisita/`. | 2026-08-25 |
+| Vad finns kvar där inne? | Tre utrivna dagboksblad (blad 3 namnet, blad 4 handlingen, blad 8 tillflykten) plus fysiska minnen och skrin med tre tokens `1H`. Namnbladet pekar mot Ottos grav i skogen. Boken de kom ur står i Storstugan. Lista: [`quests/Q-2.md`](quests/Q-2.md). Kronologi: [`dagbok.md`](dagbok.md). Tryck i `content/rekvisita/`. | 2026-08-25 |
 
 ### Segelbåten vid bojen
 
@@ -150,7 +150,7 @@ Detta är Q-2. Inte ett separat bakgrundsspår. Södra Ovanan är stugan och Ott
 | Hur fick hon Kurtisanen? | Sången: hon prejade sin egen korvett. **Q-3 berättar preja-versionen och ska ljuga.** Sanningen sitter i kistan: kungen sätter korvetten på hennes namn som belöning, inte kreditköp. | 2026-08-23 |
 | Hur fick hon ön? | Öppen. Låg i Q-4 till 2026-08-24. Q-4 är längtan till Salmonellahavet, ung, före kärleken. Ovanan är hennes hamn. Får inte sägas som fälla i gästtext. | öppen |
 | Älskar hon havet? | Q-4. Som ung. Salmonellahavet och friheten. Före Otto. Före sveket. Hon tittar. Kikaren är metaforen. Får vara sant. Inte Q-1 (person). Inte Q-5 (skulder). | 2026-08-24 |
-| Hur ser hennes dagbok ut? | En bok i Storstugan, synlig, de flesta sidorna utrivna. Stubbar kvar. Inga kapitel i pärmen. De utrivna bladen är questfynd och bär talet Blad N i tidsordning, inte i questordning. Tabell: [`quests.md`](quests.md). | 2026-08-24 |
+| Hur ser hennes dagbok ut? | En bok i Storstugan, synlig, de flesta sidorna utrivna. Stubbar kvar. Inga kapitel i pärmen. De utrivna bladen är questfynd och bär talet Blad N i tidsordning, inte i questordning. Översikt: [`dagbok.md`](dagbok.md). | 2026-08-24 |
 | Samlar hon skulder? | Q-5 visar metoden mot andra, mot män. Tre skuldbrev i kistan, ett per manlig Q-5-start. Inte hela arkivet. Plot är kärleksbrevet. | 2026-08-23 |
 
 Queststories är inte automatiskt kanon. De får vara opålitliga. De får **inte** innehålla affären med Karl XII eller förräderiet. Det sitter i kistan. Full text: [`quests.md`](quests.md), per quest i [`quests/`](quests/).
