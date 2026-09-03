@@ -10,13 +10,16 @@ Både kärleksbrev och kontrakt. Tändningens innehåll.
 
 ## Tryck
 
-Min hjärtans Malin.
+Min hjärtas Malin.
 
-Dina ögon är där när jag blundar. Din doft är där när jag andas. Min längtan till din hud fyller hjärta och kropp.
+Ända sedan dagen vi träffades på greve Pimpelhielms bal, så har mitt hjärta varit ditt. Du hade salt i håret och krut under naglarna. En vilja av stål.
+Du gav mig nytt mod att glömma förlorade strider och på nytt bära kronan som den stolta krigarkung jag djupt inne är. Genom dig fann jag mig själv.
 
-Innan du seglade hem låg vi tills rummet luktade bara oss. Du hade krut under naglarna. Jag frågade vad du ville ha. Havet, sa du. Vila. Att inte heta Svarta i min säng. Jag ger dig det. Jag lät dig gå för att du skulle hålla löftet.
+Dina ögon är där när jag blundar, din doft när jag andas. Min längtan till din hud fyller hjärta och kropp. När du lämnade frågade jag dig vad du ville ha.
 
-Samla Salmonellahavets kaptener till din födelsedagsfest. Fyll dem med kaviar och rom. I gryningen arresterar mina män dem alla. Korvetten Kurtisanen står på ditt namn. Guld nog att sluta slåss.
+Havet, sa du. Din önskan är min lag.
+
+Samla Salmonellahavets kaptener till din födelsedagsfest. Fyll dem med kaviar och rom. I gryningen arresterar mina män dem alla.
 
 Havet blir ditt.
 Du blir min.
