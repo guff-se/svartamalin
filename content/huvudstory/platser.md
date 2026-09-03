@@ -37,7 +37,7 @@ Kolumnen "Funktion i huvudstoryn" fylls i under designarbetet. `TBD` betyder att
 
 ## Sex och rum
 
-Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Onsen och bastu är bra för nakenhet och intima möten, men de är inte "sexrummet". Samma cut, paus och OK-check som resten av helgen. Säg det i genomgången, inte på sajten. Se [`genomgang.md`](genomgang.md).
+Inget avgränsat play space. Sex är tillåtet överallt och när som helst. Onsen och bastu är bra för nakenhet och intima möten, men de är inte "sexrummet". Samma röd, gul, arrrr och OK-check som resten av helgen. Säg det i genomgången, inte på sajten. Se [`genomgang.md`](genomgang.md).
 
 ---
 

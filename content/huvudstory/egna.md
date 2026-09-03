@@ -20,6 +20,17 @@ Det här är inte [`beslut.md`](beslut.md). En rad här kan vara ett förslag, i
 
 ---
 
+## 2026-09-03, safewords röd och gul, go-word arrrr
+
+Källa: Gustaf, i chatt. Införd i [`genomgang.md`](genomgang.md).
+
+- [x] för safewords, byt ut cut mot röd och paus mot gul
+- [x] Lägg också till ett go-word, ett piratigt "arrrr", som betyder "mer" eller "hårdare"
+
+Kryss = röd stannar, gul sänker, arrrr höjer. OK-check kvar. Inte på sajten.
+
+---
+
 ## 2026-09-01, Alexandra också
 
 Källa: Gustaf, i chatt. Införd i [`../intriger/romanser.yaml`](../intriger/romanser.yaml) #29, gästintrig Babord.

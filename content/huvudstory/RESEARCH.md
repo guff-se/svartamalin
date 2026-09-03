@@ -91,9 +91,9 @@ Etablerade verktyg, alla enkla nog att lära ut i en mening var:
 | **Cut** | Ordet "cut" | Allt spel stannar omedelbart. Ingen frågar varför |
 | **Largo** eller **brake** | Ordet "largo" | Sänk intensiteten ett steg, alla tar ett steg tillbaka som bekräftelse. Spelet fortsätter |
 
-Cut ska vara okränkbart. Vi lär ut largo som **paus**. Lookdown används inte.
+Cut ska vara okränkbart. Vi lär ut largo som **gul** (tidigare ordet "paus"). Lookdown används inte. Stopp heter **röd**. Go-word: **arrrr**, mer eller hårdare.
 
-**Vad det betyder för oss:** vi har 25 vänner, alkohol, nakenhet, bad, en fysisk slutstrid och LSD. Det är inte ett sammanhang där vi kan hoppa över detta. Tre verktyg lärs ut i genomgångarna på ön, inte på sajten: cut, paus, OK-check. Manuset: [`genomgang.md`](genomgang.md).
+**Vad det betyder för oss:** vi har 25 vänner, alkohol, nakenhet, bad, en fysisk slutstrid och LSD. Det är inte ett sammanhang där vi kan hoppa över detta. Fyra verktyg lärs ut i genomgångarna på ön, inte på sajten: röd, gul, arrrr, OK-check. Manuset: [`genomgang.md`](genomgang.md). Överstyr cut/paus 2026-09-03.
 
 ## 1.10 Ritualscener som fungerar
 

@@ -181,7 +181,7 @@ Spelledarväg:   om paret aldrig möts: strunt. Inte bärande balk.
 
 Pusselnod:      ingen
 Props:          inga egna. Eventuell lapp i gapet.
-Om det floppar: huvudstoryn går. Play to lift om någon vill ur rollen: cut, ingen ersättare mitt i helgen.
+Om det floppar: huvudstoryn går. Play to lift om någon vill ur rollen: röd, ingen ersättare mitt i helgen.
 
 #### B-13: Jakten på älskaren
 
