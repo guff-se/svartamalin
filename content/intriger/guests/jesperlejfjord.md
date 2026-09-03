@@ -47,9 +47,9 @@ Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick 
 
 **Kapten Döver** skulle ha seglat med **Fregatten Fördärvet**. Han kom inte. Kajen viskar. Ingen vet. Du vet.
 
-Han tjuvlyssnade vid dina grytor, sabbade jakten på jubilarens hemliga älskare, och du hade sett honom rycka till av ljud en döv man inte borde höra. Det gick för långt. Före ankomsten gjorde du slut på honom. Ingen kropp på ön. Ingen workshop. Ingen flaska serum i spel. Stolen står tom.
+Han tjuvlyssnade bakom sin påstådda dövhet, precis vid dina grytor, och hörde det du aldrig tänkt säga högt: hur du brinner för **Svarta Malin**, hur du jagar hennes hemliga älskare, hur öm du egentligen är under den fromma minen. Sen hotade han att berätta det för henne. En enda viskning till jubilaren och din hemliga romans ligger i spillror innan du ens fått smaka hennes mun. Det gick för långt. Före ankomsten gjorde du slut på honom. Ingen kropp på ön. Ingen workshop. Ingen flaska serum i spel. Stolen står tom.
 
-Håll det dolt. Laga mat. Jaga Malins älskare som om ingenting hänt. Om **Kapten Babord**, **Kapten Barnsben** eller **Kapten Fuling** frågar: styr bort, ljug, muta. Fuling anade redan hans bluff och sparade det som skuld: hon jobbar redan för dig, så håll henne nära. Kökskanten är din arena. Du lämnar den knappt hela helgen. Låt dem komma till dig, och se till att de går tomhänta.
+Håll det dolt. Laga mat. Jaga Malins älskare som om ingenting hänt. Om **Kapten Babord**, **Kapten Barnsben** eller **Kapten Fuling** frågar: styr bort, ljug, muta. Fuling anade redan hans bluff och sparade det som skuld: hon jobbar redan för dig, så håll henne nära.
 
 ## Tungans pris {slug:jesperlejfjord}
 
