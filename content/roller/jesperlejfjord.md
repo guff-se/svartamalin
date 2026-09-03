@@ -12,7 +12,7 @@ Jesper Lejfjord · Fregatten Fromheten
 
 ## Karaktär
 
-Kapten hjärter är en kapten som så många gånger fått ett brustet hjärta att han nu säger sig ha stängt det för gott - tror han själv. Men han är full av självbedrägerier och är fortfarande en blödig jävel och bryr sig om andra, försöker vara hjälpsam och snäll, har tappat intresset för guld och erövringar eller att avrätta kardinaler och är numera egentligen bara intresserad av njutning, mys, kärlek och äkta vänskap - han är trött på piratandet och äventyr.
+Kapten hjärter
 
 ## Föremål
 

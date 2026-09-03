@@ -47,9 +47,11 @@ Ett **avlatsbrev** är den gamla kyrkans papper mot synd. Den som betalade fick 
 
 **Kapten Döver** skulle ha seglat med **Fregatten Fördärvet**. Han kom inte. Kajen viskar. Ingen vet. Du vet.
 
-Han tjuvlyssnade bakom sin påstådda dövhet, precis vid dina grytor, när du och **Kapten Fuling** talade om det ni aldrig tänkt säga högt: att hon är förrädare mot **Fregatten Fördärvet**, och att du är den som håller henne fri mot allt hon bär till **Fregatten Fromheten**. Sen hotade han att berätta. För hela Fördärvet, så att en hel skuta skulle jaga dig. Och för **Svarta Malin**, så att jubilaren skulle veta att mannen som vill ha hennes säng gömmer en spion mot hennes gäster. En skuta i ryggen och ingen Malin i famnen. Det gick för långt. Före ankomsten gjorde du slut på honom. Ingen kropp på ön. Ingen workshop. Ingen flaska serum i spel. Stolen står tom.
+Han tjuvlyssnade bakom sin påstådda dövhet, precis vid dina grytor, när du och **Kapten Fuling** talade om det ni aldrig tänkt säga högt: att hon är förrädare mot **Fregatten Fördärvet**, och att du är den som håller henne fri mot allt hon bär till **Fregatten Fromheten**.
 
-Håll det dolt. Laga mat. Jaga Malins älskare som om ingenting hänt. Om **Kapten Babord**, **Kapten Barnsben** eller **Kapten Fuling** frågar: styr bort, ljug, muta. Fuling anade redan hans bluff och sparade det som skuld: hon jobbar redan för dig, så håll henne nära.
+Sen hotade han att berätta. För hela Fördärvet, så att en hel skuta skulle jaga dig. Och för **Svarta Malin**, så att hon skulle veta att mannen som vill ha hennes säng gömmer en spion mot hennes gäster. Du skulle få en hel efter dig och ingen Malin i famnen. Det gick för långt. På vägen till kalaset gjorde du slut på honom.
+
+Håll det dolt. Laga mat som om ingenting hänt. Om **Kapten Babord**, **Kapten Barnsben** eller **Kapten Fuling** frågar: styr bort, ljug, muta. Fuling anade redan Dövers bluff och sparade det som skuld: hon jobbar redan för dig, så håll henne nära.
 
 ## Tungans pris {slug:jesperlejfjord}
 
